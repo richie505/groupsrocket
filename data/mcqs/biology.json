@@ -1,0 +1,4313 @@
+{
+ "subject": "Biology",
+ "sheets": {
+  "1": {
+   "number": 1,
+   "title": "Biology Firsts: Evolution, Genetics and Biotechnology",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:15+00:00",
+   "mcqs": [
+    {
+     "id": "biology-1-1",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who was the first person to explain evolution to the public?",
+     "options": [
+      "Jean-Baptiste Lamarck",
+      "Gregor Mendel",
+      "A.P. de Candolle",
+      "Charles Barnard"
+     ],
+     "answer": 0,
+     "explanation": "Jean-Baptiste Lamarck was the first person to explain evolution to the public."
+    },
+    {
+     "id": "biology-1-2",
+     "format": "Direct Recall",
+     "keyword": "First vaccine",
+     "question": "Which was the first vaccine in the world?",
+     "options": [
+      "Polio vaccine",
+      "Smallpox vaccine",
+      "Saheli",
+      "Recombinant insulin"
+     ],
+     "answer": 1,
+     "explanation": "The smallpox vaccine was the first vaccine in the world. Edward Jenner was the first scientist or doctor to attempt vaccination."
+    },
+    {
+     "id": "biology-1-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "FIRST",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The first human heart transplant was performed by Dr Christian Barnard in 1967.",
+      "Barney Clark was the first recipient of an artificial heart in 1982.",
+      "The first human heart transplant was performed in Australia in 1967.",
+      "The country of the first human heart transplant was South Africa."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the country. The first human heart transplant took place in South Africa, not Australia."
+    },
+    {
+     "id": "biology-1-4",
+     "format": "Assertion-Reason",
+     "keyword": "DNA – Structure",
+     "question": "Assertion (A): Watson and Crick first proposed the double-helix model of DNA in 1953.\nReason (R): Watson and Crick first outlined the structure of the DNA or gene molecule.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the fact that Watson and Crick outlined the DNA or gene molecule's structure does not explain why the double-helix model was proposed in 1953."
+    },
+    {
+     "id": "biology-1-5",
+     "format": "Assertion-Reason",
+     "keyword": "Cloning",
+     "question": "Assertion (A): Dolly was the first cloned mammal from an adult somatic cell.\nReason (R): Dolly was a sheep.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. However, Dolly being a sheep does not explain her status as the first cloned mammal from an adult somatic cell."
+    },
+    {
+     "id": "biology-1-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Recombinant DNA technology",
+     "question": "Consider the following statements:\nStatement A: Insulin was the first human hormone produced by recombinant-DNA technology.\nStatement B: Recombinant insulin, or Humulin, was the first drug produced through recombinant-DNA technology.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Insulin was the first human hormone produced through recombinant-DNA technology, and recombinant insulin or Humulin was the first drug produced through it."
+    },
+    {
+     "id": "biology-1-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nI. Triticale was the first man-made cereal crop.\nII. hCG was the first hormone released by the placenta.\nIII. Oxaloacetic acid was the first organic compound formed in C₄ photosynthesis.\nIV. IgM was the first antibody produced in primary infection.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct according to the listed biological firsts: Triticale, hCG, oxaloacetic acid and IgM."
+    },
+    {
+     "id": "biology-1-8",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\nList-I\n(a) Jean-Baptiste Lamarck\n(b) A.P. de Candolle\n(c) Camillo Golgi\n(d) Friedrich Miescher\n\nList-II\ni. First identified or isolated DNA\nii. First person to explain evolution to the public\niii. First coined the term taxonomy\niv. First observed Golgi body",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Jean-Baptiste Lamarck–first person to explain evolution to the public; A.P. de Candolle–first coined taxonomy; Camillo Golgi–first observed Golgi body; Friedrich Miescher–first identified or isolated DNA."
+    },
+    {
+     "id": "biology-1-9",
+     "format": "Count-Based",
+     "keyword": "Cloning",
+     "question": "How many of the following statements are correct?\n1. Dolly was the first cloned mammal from an adult somatic cell.\n2. Samrupa was the world's first cloned buffalo.\n3. Ganga was India's first cloned cow.\n4. Injaz was the world's first cloned camel.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Dolly, Samrupa, Ganga and Injaz correspond respectively to the first cloned mammal from an adult somatic cell, the world's first cloned buffalo, India's first cloned cow and the world's first cloned camel."
+    }
+   ]
+  },
+  "2": {
+   "number": 2,
+   "title": "Biotechnology and Biology Firsts",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:07+00:00",
+   "mcqs": [
+    {
+     "id": "biology-2-1",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dolly\n(b) Samrupa\n(c) Ganga\n(d) Injaz\n\nList-II\n(i) First cloned buffalo\n(ii) World's first cloned camel\n(iii) First cloned mammal\n(iv) India's first cloned cow",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Dolly was the first cloned mammal, Samrupa the first cloned buffalo, Ganga India’s first cloned cow, and Injaz the world’s first cloned camel."
+    },
+    {
+     "id": "biology-2-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "FIRST",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Humulin was the first recombinant-DNA drug.",
+      "Bollgard-I Bt cotton was the first biotech crop technology commercialised in Taiwan.",
+      "Yeast was the first complete eukaryotic genome.",
+      "Flavr Savr tomato was the first genetically engineered commercial food."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the place: Bollgard-I Bt cotton was the first biotech crop technology commercialised in India, not Taiwan."
+    },
+    {
+     "id": "biology-2-3",
+     "format": "Assertion-Reason",
+     "keyword": "DNA",
+     "question": "Assertion (A): Friedrich Miescher is associated with the discovery or isolation of DNA in 1869.\nReason (R): Watson and Crick proposed the double-helix structure of DNA in 1953.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the double-helix work of Watson and Crick does not explain Miescher’s earlier discovery or isolation of DNA."
+    },
+    {
+     "id": "biology-2-4",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "What was the first organic product formed in the C₄ pathway?",
+     "options": [
+      "hCG",
+      "OAA",
+      "IgM",
+      "Triticale"
+     ],
+     "answer": 1,
+     "explanation": "OAA was the first organic product in the C₄ pathway."
+    },
+    {
+     "id": "biology-2-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nI. William Harvey is associated with blood circulation.\nII. Christian Barnard performed the first heart transplant.\nIII. The first heart transplant took place in India.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and II are correct. The first heart transplant country was South Africa, so statement III is incorrect."
+    }
+   ]
+  },
+  "3": {
+   "number": 3,
+   "title": "Earliest Life and Biological Milestones",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:30+00:00",
+   "mcqs": [
+    {
+     "id": "biology-3-1",
+     "format": "Direct Recall",
+     "keyword": "EARLIEST / OLDEST",
+     "question": "Which organism is regarded as the earliest organism on Earth?",
+     "options": [
+      "Blue-green algae (Cyanobacteria)",
+      "Primitive unicellular organisms",
+      "Cro-Magnon",
+      "Archaeopteryx"
+     ],
+     "answer": 0,
+     "explanation": "Blue-green algae, also called Cyanobacteria, are identified as the earliest organism on Earth."
+    },
+    {
+     "id": "biology-3-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "EARLIEST / OLDEST",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Archaeopteryx is the earliest known bird.",
+      "Litmus is the oldest form of pH indicator.",
+      "The Uranium–Lead method is used for dating the oldest rocks and ancient mountains.",
+      "Louis Lartet discovered the earliest Cro-Magnon skull in 1868."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one because the notes identify the Uranium–Lead method as the dating method for the oldest rocks and ancient mountains, not merely as an unspecified method."
+    },
+    {
+     "id": "biology-3-3",
+     "format": "Assertion-Reason",
+     "keyword": "EARLIEST LIFE FORMS",
+     "question": "Assertion (A): Primitive unicellular organisms were the earliest life forms.\nReason (R): The earliest atmosphere had no free oxygen.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are given as facts. However, the absence of free oxygen in the earliest atmosphere does not directly explain the identification of primitive unicellular organisms as the earliest life forms."
+    },
+    {
+     "id": "biology-3-4",
+     "format": "List-Matching",
+     "keyword": "EARLIEST / OLDEST",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Uranium–Lead method\n b. Louis Lartet\n c. Litmus\n d. No free O₂\n\nList-II\n i. Oldest form of pH indicator\n ii. Dating of oldest rocks and ancient mountains\n iii. Nature of the earliest atmosphere\n iv. Discoverer of the earliest Cro-Magnon skull",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Uranium–Lead method—dating of oldest rocks and ancient mountains; Louis Lartet—Cro-Magnon skull discovery; Litmus—oldest pH indicator; No free O₂—earliest atmosphere."
+    },
+    {
+     "id": "biology-3-5",
+     "format": "Count-Based",
+     "keyword": "EARLIEST / OLDEST",
+     "question": "How many of the following statements are correct?\n\n1. Farmers were the earliest biotechnologists.\n2. The seed sequence from earliest to latest is Nucleus → Breeder → Foundation → Certified.\n3. Archaeopteryx shows the oldest-known bird and reptilian connection.\n4. The earliest known Cro-Magnon remains are about 30,000–45,000 years old.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct according to the given facts: farmers were the earliest biotechnologists; the seed sequence is Nucleus, Breeder, Foundation and Certified; Archaeopteryx has a bird–reptilian connection; and Cro-Magnon remains are about 30,000–45,000 years old."
+    }
+   ]
+  },
+  "4": {
+   "number": 4,
+   "title": "Animal and Human Biology Extremes",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5",
+     "G2-M2B-U3"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:13+00:00",
+   "mcqs": [
+    {
+     "id": "biology-4-1",
+     "format": "Direct Recall",
+     "keyword": "Largest/Smallest Fact",
+     "question": "Which is the largest phylum in the Animal Kingdom?",
+     "options": [
+      "Chordata",
+      "Arthropoda",
+      "Annelida",
+      "Mollusca"
+     ],
+     "answer": 1,
+     "explanation": "Arthropoda is identified in the notes as the largest phylum in the Animal Kingdom."
+    },
+    {
+     "id": "biology-4-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Smallest",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Mycoplasma is the smallest organism capable of autonomous growth and reproduction.",
+      "Prions are the smallest proteinaceous infectious particles.",
+      "The cell is the smallest infectious pathogen.",
+      "Viroids are the smallest infectious pathogens."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that the cell is the smallest infectious pathogen. The notes identify the cell as the smallest unit of life, while viroids are the smallest infectious pathogens."
+    },
+    {
+     "id": "biology-4-3",
+     "format": "Assertion-Reason",
+     "keyword": "Largest gland of human body",
+     "question": "Assertion (A): The liver is the largest gland of the human body.\nReason (R): The liver is the largest internal organ.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are given in the notes: the liver is the largest gland and the largest internal organ. However, the latter fact does not explain why it is the largest gland."
+    },
+    {
+     "id": "biology-4-4",
+     "format": "List-Matching",
+     "keyword": "Smallest/Largest body structures",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Smallest bone in the human body\n(b) Largest bone\n(c) Smallest muscle\n(d) Longest muscle\n\nList-II\n(i) Sartorius\n(ii) Femur\n(iii) Stapedius\n(iv) Stapes",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Stapes—smallest bone, Femur—largest bone, Stapedius—smallest muscle, and Sartorius—longest muscle."
+    },
+    {
+     "id": "biology-4-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Brain and blood",
+     "question": "Consider the following statements:\n\nI. Cerebrum is the largest part of the brain.\nII. A nerve cell or neuron is the longest cell of the body.\nIII. Monocyte is the largest WBC.\nIV. Pancreas is the largest gland of the human body.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the pancreas is the second-largest gland; the liver is the largest gland."
+    }
+   ]
+  },
+  "5": {
+   "number": 5,
+   "title": "Human and Animal Biological Extremes",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:21+00:00",
+   "mcqs": [
+    {
+     "id": "biology-5-1",
+     "format": "Direct Recall",
+     "keyword": "Longest/Shortest Fact",
+     "question": "Which is the world's largest or longest venomous snake?",
+     "options": [
+      "Kangaroo rat",
+      "Nerve cell",
+      "Guinea worm",
+      "King Cobra"
+     ],
+     "answer": 3,
+     "explanation": "The King Cobra is identified as the world's largest or longest venomous snake."
+    },
+    {
+     "id": "biology-5-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Longest/Shortest Fact",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The longest nematode infecting humans is Guinea worm, or Dracunculus medinensis.",
+      "The longest part of the small intestine is the ileum.",
+      "The longest cell of the body is the sartorius.",
+      "The shortest segment of the small intestine is the duodenum."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement identifies the longest cell as the sartorius. The longest cell of the body is the nerve cell or neuron; the sartorius is the longest muscle."
+    },
+    {
+     "id": "biology-5-3",
+     "format": "Assertion-Reason",
+     "keyword": "Longest duration without water",
+     "question": "Assertion (A): The kangaroo rat has the longest duration without drinking water.\nReason (R): The guinea worm is identified as having the longest duration without drinking water.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 2,
+     "explanation": "The assertion is true because the kangaroo rat is associated with the longest duration without drinking water. The reason is false; the guinea worm is the longest nematode infecting humans, not the organism with the longest duration without drinking water."
+    },
+    {
+     "id": "biology-5-4",
+     "format": "List-Matching",
+     "keyword": "Human body structures",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Longest bone of the human skeleton\n(b) Longest muscle of the human body\n(c) Shortest muscle\n(d) Longest cell of the body\n\nList-II\n(i) Nerve cell / Neuron\n(ii) Femur\n(iii) Stapedius\n(iv) Sartorius",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: longest bone—Femur; longest muscle—Sartorius; shortest muscle—Stapedius; longest cell—Nerve cell/Neuron."
+    },
+    {
+     "id": "biology-5-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Small intestine",
+     "question": "Consider the following statements:\nI. The duodenum is the shortest segment of the small intestine.\nII. The ileum is the longest part of the small intestine.\nIII. The femur is the longest bone of the human skeleton.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: the duodenum is the shortest segment of the small intestine, the ileum is its longest part, and the femur is the longest bone of the human skeleton."
+    }
+   ]
+  },
+  "6": {
+   "number": 6,
+   "title": "Human Biology: Nutrition, Blood and Photosynthesis",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:23+00:00",
+   "mcqs": [
+    {
+     "id": "biology-6-1",
+     "format": "Direct Recall",
+     "keyword": "Highest / Richest source",
+     "question": "Which of the following is the most abundant organic constituent of the human body?",
+     "options": [
+      "Calcium phosphate",
+      "Calcium",
+      "Oxygen",
+      "Protein"
+     ],
+     "answer": 3,
+     "explanation": "Protein is the most abundant organic constituent. Oxygen is the most abundant element, while calcium is the element present in the maximum amount."
+    },
+    {
+     "id": "biology-6-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vitamin",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Amla is a richest source of Vitamin C.",
+      "Orange is another source of Vitamin C.",
+      "Carrot is the richest source of Vitamin A among the given fruits.",
+      "Chilli is a rich source of Vitamin C among vegetables."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is 'Carrot' as the richest source of Vitamin A among the given fruits. The correct source in that category is mango; carrot is noted as a general source of Vitamin A."
+    },
+    {
+     "id": "biology-6-3",
+     "format": "Assertion-Reason",
+     "keyword": "Photosynthesis",
+     "question": "Assertion (A): Red light produces the maximum rate of photosynthesis.\nReason (R): Red light, at approximately 655 nm, is the most effective wavelength for photosynthesis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Red light is identified as the most effective light for photosynthesis, with the effective wavelength noted as approximately 655 nm."
+    },
+    {
+     "id": "biology-6-4",
+     "format": "List-Matching",
+     "keyword": "Richest source",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Maximum salt in human bones\n(b) Maximum water absorbed by plants\n(c) Richest natural source of iodine\n(d) World's highest-production dairy animal breed\n\nList-II\n(i) Holstein–Friesian\n(ii) Root hairs\n(iii) Calcium phosphate\n(iv) Seaweed",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: maximum salt in bones—calcium phosphate; maximum water absorption—root hairs; richest natural iodine source—seaweed; highest-production dairy breed—Holstein–Friesian."
+    },
+    {
+     "id": "biology-6-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Blood cells",
+     "question": "Consider the following statements:\n\nI. Red blood cells are the most numerous blood cells.\nII. White blood cells constitute the largest blood-cell category.\nIII. Basophils are the most abundant granulocytes.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are correct. Red blood cells have the highest number, and white blood cells are identified as the largest blood-cell category. Neutrophils, not basophils, are the most abundant granulocytes."
+    },
+    {
+     "id": "biology-6-6",
+     "format": "Count-Based",
+     "keyword": "Highest / Richest source",
+     "question": "How many of the following pairs are correctly matched?\n\n1. Soybean — Highest protein grain\n2. Groundnut — Richest protein among the given options\n3. Linseed oil — Maximum α-linolenic acid among oilseeds\n4. Seaweed — Richest natural source of iodine",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four pairs are correctly matched. Soybean is noted as the highest-protein grain, groundnut as richest among the given protein options, linseed oil as highest in α-linolenic acid among oilseeds, and seaweed as the richest natural iodine source."
+    },
+    {
+     "id": "biology-6-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Vital capacity",
+     "question": "Consider the following statements:\nStatement A: Vital capacity is the maximum volume of air that can be inhaled or exhaled forcibly, with an approximate value of 3.5–4.5 litres.\nStatement B: Egg is a protein source containing all essential amino acids in appropriate proportion.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Vital capacity is approximately 3.5–4.5 litres, and egg has a high biological value because it contains essential amino acids in the appropriate proportion."
+    }
+   ]
+  },
+  "7": {
+   "number": 7,
+   "title": "Biology: Fathers of Biological Sciences",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:21+00:00",
+   "mcqs": [
+    {
+     "id": "biology-7-1",
+     "format": "List-Matching",
+     "keyword": "Father of",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Father of Zoology\n(b) Father of Indian Palaeobotany\n(c) Father of Microbiology\n(d) Father of Immunology\n\nList-II\n(i) Edward Jenner\n(ii) Antony/Antonie van Leeuwenhoek\n(iii) Aristotle\n(iv) Birbal Sahni",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Aristotle is associated with Zoology, Birbal Sahni with Indian Palaeobotany, Antony/Antonie van Leeuwenhoek with Microbiology, and Edward Jenner with Immunology."
+    },
+    {
+     "id": "biology-7-2",
+     "format": "Direct Recall",
+     "keyword": "Father of Modern Taxonomy",
+     "question": "Who is known as the Father of Modern Taxonomy?",
+     "options": [
+      "Gregor Johann Mendel",
+      "Carl (Carolus) Linnaeus",
+      "Antony/Antonie van Leeuwenhoek",
+      "Aristotle"
+     ],
+     "answer": 1,
+     "explanation": "Carl (Carolus) Linnaeus is identified in the notes as the Father of Modern Taxonomy."
+    },
+    {
+     "id": "biology-7-3",
+     "format": "Assertion-Reason",
+     "keyword": "Father of Genetics",
+     "question": "Assertion (A): Gregor Johann Mendel is known as the Father of Genetics.\nReason (R): Gregor Johann Mendel is also identified as the Father of Modern Genetics.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, being identified as the Father of Modern Genetics does not explain the separate designation of Father of Genetics."
+    },
+    {
+     "id": "biology-7-4",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Father of",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Dr. Lalji Singh is known as the Father of Indian DNA Fingerprinting.",
+      "Edward Jenner is known as the Father of Immunology.",
+      "Gregor Johann Mendel is known as the Father of Indian DNA Fingerprinting.",
+      "Shanti Swarup Bhatnagar is known as the Father of Research Laboratories."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the person associated with Indian DNA Fingerprinting. The notes identify Dr. Lalji Singh, not Gregor Johann Mendel, as its father."
+    },
+    {
+     "id": "biology-7-5",
+     "format": "Count-Based",
+     "keyword": "Father of Genetics",
+     "question": "How many of the following designations are associated with Gregor Johann Mendel?\n\n1. Father of Genetics\n2. Father of Modern Genetics\n3. Father of Taxonomy\n4. Father of Indian DNA Fingerprinting",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Two designations are associated with Gregor Johann Mendel: Father of Genetics and Father of Modern Genetics. Father of Taxonomy is associated with Linnaeus, while Father of Indian DNA Fingerprinting is associated with Dr. Lalji Singh."
+    }
+   ]
+  },
+  "8": {
+   "number": 8,
+   "title": "Biology Institutions and Founders",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:24+00:00",
+   "mcqs": [
+    {
+     "id": "biology-8-1",
+     "format": "Direct Recall",
+     "keyword": "Founder/founded",
+     "question": "Who is identified as the founder of DNA Fingerprinting technology in India?",
+     "options": [
+      "International Potato Centre",
+      "Rockefeller Foundation",
+      "Dr. Lalji Singh",
+      "Shanti Swarup Bhatnagar"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify Dr. Lalji Singh as the founder of DNA Fingerprinting technology in India."
+    },
+    {
+     "id": "biology-8-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Founder/founded",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Shanti Swarup Bhatnagar was the Founder Director of CSIR.",
+      "Dr. Lalji Singh was the Founder Director of CSIR.",
+      "Shanti Swarup Bhatnagar was associated with CSIR as its first Director-General.",
+      "Shanti Swarup Bhatnagar was the first Director-General of CSIR."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the name: the Founder Director of CSIR was Shanti Swarup Bhatnagar, not Dr. Lalji Singh."
+    },
+    {
+     "id": "biology-8-3",
+     "format": "Assertion-Reason",
+     "keyword": "Institute",
+     "question": "Assertion (A): The International Potato Centre was founded in 1971.\nReason (R): The First Dental College of the country was founded in 1920, Kolkata.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes, but the founding of the First Dental College does not explain the founding year of the International Potato Centre."
+    },
+    {
+     "id": "biology-8-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Institute",
+     "question": "Consider the following statements:\nStatement A: The National Institute of Virology was founded in collaboration with the Rockefeller Foundation.\nStatement B: The First Dental College of the country was founded in 1920, Kolkata.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that the National Institute of Virology was founded in collaboration with the Rockefeller Foundation and that the First Dental College was founded in 1920 at Kolkata."
+    },
+    {
+     "id": "biology-8-5",
+     "format": "List-Matching",
+     "keyword": "Institute",
+     "question": "Match List-I with List-II:\nList-I\n(a) Founder of DNA Fingerprinting technology in India\n(b) Founder Director of CSIR\n(c) International Potato Centre\n(d) First Dental College of the country\n\nList-II\n(i) 1920, Kolkata\n(ii) Dr. Lalji Singh\n(iii) 1971\n(iv) Shanti Swarup Bhatnagar",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: (a)-ii, Dr. Lalji Singh; (b)-iv, Shanti Swarup Bhatnagar; (c)-iii, 1971; and (d)-i, 1920, Kolkata."
+    }
+   ]
+  },
+  "9": {
+   "number": 9,
+   "title": "Landmark Discoveries in Biology and Medicine",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:21+00:00",
+   "mcqs": [
+    {
+     "id": "biology-9-1",
+     "format": "Direct Recall",
+     "keyword": "Discovered by",
+     "question": "Who discovered cells?",
+     "options": [
+      "Gregor Johann Mendel",
+      "Robert Hooke",
+      "Robert Brown",
+      "Antonie van Leeuwenhoek"
+     ],
+     "answer": 1,
+     "explanation": "The notes identify Robert Hooke as the discoverer of cells."
+    },
+    {
+     "id": "biology-9-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Discovered by",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Bacteria were discovered by Antonie van Leeuwenhoek.",
+      "Tyrosine was discovered by Justus von Liebig.",
+      "The polio vaccine was developed by Gerhard Domagk.",
+      "Blood circulation was discovered by William Harvey."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the discoverer of the polio vaccine. The notes attribute it to Jonas Salk, whereas Gerhard Domagk is associated with Prontosil."
+    },
+    {
+     "id": "biology-9-3",
+     "format": "Assertion-Reason",
+     "keyword": "DNA",
+     "question": "Assertion (A): DNA was first identified or isolated by Friedrich Miescher.\nReason (R): The double-helix structure of DNA was established by James Watson and Francis Crick.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are given in the notes. Watson and Crick's work on DNA structure does not explain Miescher's earlier identification or isolation of DNA."
+    },
+    {
+     "id": "biology-9-4",
+     "format": "List-Matching",
+     "keyword": "Discovered by",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Glycolysis / EMP pathway\n(b) Krebs cycle\n(c) Restriction endonucleases\n(d) Bacterial conjugation\n\nList-II\n(i) Hans Krebs\n(ii) Embden, Meyerhof and Parnas\n(iii) Joshua Lederberg and Edward Tatum\n(iv) Werner Arber, Daniel Nathans and Hamilton Smith",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: glycolysis/EMP pathway—Embden, Meyerhof and Parnas; Krebs cycle—Hans Krebs; restriction endonucleases—Arber, Nathans and Smith; bacterial conjugation—Lederberg and Tatum."
+    },
+    {
+     "id": "biology-9-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Discovered by",
+     "question": "Consider the following statements:\nI. Penicillin was discovered by Alexander Fleming.\nII. Prontosil was discovered by Alexander Fleming.\nIII. Streptomycin was discovered by Selman Waksman.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and III are correct according to the notes. Prontosil is associated with Gerhard Domagk, not Alexander Fleming."
+    }
+   ]
+  },
+  "10": {
+   "number": 10,
+   "title": "Foundational Biological Theories and Models",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:18+00:00",
+   "mcqs": [
+    {
+     "id": "biology-10-1",
+     "format": "Direct Recall",
+     "keyword": "Theory / Hypothesis Proposed / Given By",
+     "question": "Who proposed the Oparin–Haldane Hypothesis of Origin of Life?",
+     "options": [
+      "A.I. Oparin and J.B.S. Haldane",
+      "Schleiden and Schwann",
+      "James Watson and Francis Crick",
+      "Sutton and Boveri"
+     ],
+     "answer": 0,
+     "explanation": "The Oparin–Haldane Hypothesis of Origin of Life was proposed by A.I. Oparin and J.B.S. Haldane."
+    },
+    {
+     "id": "biology-10-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Theory / Hypothesis Proposed / Given By",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Jean-Baptiste Lamarck gave the Inheritance of Acquired Characteristics, also called Lamarckism.",
+      "Hugo de Vries gave the Mutation Theory.",
+      "R.H. Whittaker gave the Chromosomal Theory of Inheritance.",
+      "Charles Darwin gave the Theory of Natural Selection, also called Darwinism."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the theory attributed to R.H. Whittaker. R.H. Whittaker gave the Five-Kingdom Classification, whereas the Chromosomal Theory of Inheritance was given by Sutton and Boveri."
+    },
+    {
+     "id": "biology-10-3",
+     "format": "Assertion-Reason",
+     "keyword": "Cell Theory",
+     "question": "Assertion (A): Cell Theory was proposed by Schleiden and Schwann.\nReason (R): The statement “Cells arise from pre-existing cells” was given by Rudolf Virchow.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, Virchow’s statement is a separate contribution and does not explain why Cell Theory was proposed by Schleiden and Schwann."
+    },
+    {
+     "id": "biology-10-4",
+     "format": "List-Matching",
+     "keyword": "Theory / Hypothesis Proposed / Given By",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Inheritance of Acquired Characteristics\n(b) Theory of Natural Selection\n(c) Mutation Theory\n(d) Five-Kingdom Classification\n\nList-II\n(i) R.H. Whittaker\n(ii) Hugo de Vries\n(iii) Jean-Baptiste Lamarck\n(iv) Charles Darwin",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: Inheritance of Acquired Characteristics—Jean-Baptiste Lamarck; Theory of Natural Selection—Charles Darwin; Mutation Theory—Hugo de Vries; Five-Kingdom Classification—R.H. Whittaker."
+    },
+    {
+     "id": "biology-10-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Theory / Hypothesis Proposed / Given By",
+     "question": "Consider the following statements:\nI. The Chromosomal Theory of Inheritance was given by Sutton and Boveri.\nII. The Double Helix Model of DNA was given by James Watson and Francis Crick.\nIII. The Synthetic Theory of Evolution was given by multiple scientists.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct according to the notes: Sutton and Boveri gave the Chromosomal Theory of Inheritance, Watson and Crick gave the Double Helix Model of DNA, and the Synthetic Theory of Evolution was given by multiple scientists."
+    }
+   ]
+  },
+  "11": {
+   "number": 11,
+   "title": "Biology Discoveries, Crops and Vaccines",
+   "tracker": {
+    "g1": [
+     "G1-F22",
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:21+00:00",
+   "mcqs": [
+    {
+     "id": "biology-11-1",
+     "format": "List-Matching",
+     "keyword": "Developed by",
+     "question": "Match List-I with List-II:\nList-I\n(a) Cell Theory\n(b) DNA fingerprinting in India\n(c) Hybridoma technique\n(d) Cloning of Dolly\n\nList-II\n(i) Lalji Singh\n(ii) Georges Köhler and César Milstein\n(iii) Schleiden and Schwann\n(iv) Ian Wilmut, Keith Campbell and colleagues",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Cell Theory—Schleiden and Schwann; DNA fingerprinting in India—Lalji Singh; Hybridoma technique—Georges Köhler and César Milstein; and cloning of Dolly—Ian Wilmut, Keith Campbell and colleagues."
+    },
+    {
+     "id": "biology-11-2",
+     "format": "Assertion-Reason",
+     "keyword": "DNA Fingerprinting",
+     "question": "Assertion (A): DNA fingerprinting was developed by Alec Jeffreys.\nReason (R): DNA fingerprinting in India is associated with Lalji Singh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, Lalji Singh’s association with DNA fingerprinting in India does not explain Alec Jeffreys’ development of DNA fingerprinting."
+    },
+    {
+     "id": "biology-11-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vaccine",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The first polio vaccine was developed by Jonas Salk.",
+      "Covishield is associated with AstraZeneca and Oxford University.",
+      "Sputnik V was developed by Moderna, NIAID and BARDA.",
+      "The oral polio vaccine was developed by Albert Sabin."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. Moderna, NIAID and BARDA are associated with the Moderna vaccine, whereas Sputnik V is associated with the Gamaleya Research Institute."
+    },
+    {
+     "id": "biology-11-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Genetic Engineering",
+     "question": "Consider the following statements:\nI. Bt Brinjal is associated with Maharashtra Hybrid Seeds Co. (Mahyco).\nII. GM Mustard/DMH-11 is associated with Prof. Deepak Pental and the Delhi University team.\nIII. Super Rice was developed by Gurdev Singh Khush.\nIV. Flavr-Savr tomato involved PG gene antisense insertion.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are supported by the notes: Mahyco is linked with Bt Brinjal, Prof. Deepak Pental and the Delhi University team with GM Mustard/DMH-11, Gurdev Singh Khush with Super Rice, and PG gene antisense insertion with Flavr-Savr tomato."
+    },
+    {
+     "id": "biology-11-5",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Crop Technology",
+     "question": "Consider the following statements:\nStatement A: The Dapog rice nursery method is associated with the Philippines.\nStatement B: Jaya was the first dwarf rice variety in India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true according to the notes. The Dapog rice nursery method is associated with the Philippines, and Jaya was the first dwarf rice variety in India."
+    }
+   ]
+  },
+  "12": {
+   "number": 12,
+   "title": "Biological Discoveries, Diseases and Identifiers",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:13+00:00",
+   "mcqs": [
+    {
+     "id": "biology-12-1",
+     "format": "Direct Recall",
+     "keyword": "Identified – Virus and Scientist",
+     "question": "Who identified H5N1 influenza virus?",
+     "options": [
+      "Friedrich Miescher",
+      "Karl Landsteiner",
+      "Barbara McClintock",
+      "Robert Gordon Webster"
+     ],
+     "answer": 3,
+     "explanation": "H5N1 influenza virus was identified by Robert Gordon Webster."
+    },
+    {
+     "id": "biology-12-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Disease – First Identification",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "SARS was first identified in 2002.",
+      "Ebola disease was first identified in 1978.",
+      "Nipah disease was first identified in 1998 in Malaysia.",
+      "MERS was first identified in 2012."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the year of Ebola disease identification. It was first identified in 1976, not 1978."
+    },
+    {
+     "id": "biology-12-3",
+     "format": "Assertion-Reason",
+     "keyword": "Disease – First Identification",
+     "question": "Assertion (A): COVID-19 was first identified in Wuhan.\nReason (R): COVID-19 was first identified in December 2019.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: COVID-19 was first identified in Wuhan and in December 2019. The date does not explain the location."
+    },
+    {
+     "id": "biology-12-4",
+     "format": "List-Matching",
+     "keyword": "Discovery – Scientist Matching",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) DNA\n(b) Transposable elements\n(c) Main blood groups\n(d) Rh factor\n\nList-II\n(i) Karl Landsteiner\n(ii) Barbara McClintock\n(iii) Friedrich Miescher\n(iv) Landsteiner and Alexander S. Wiener",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: DNA–Friedrich Miescher; transposable elements–Barbara McClintock; main blood groups–Karl Landsteiner; Rh factor–Landsteiner and Alexander S. Wiener."
+    },
+    {
+     "id": "biology-12-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Discovery – Scientists and Years",
+     "question": "Consider the following statements:\nI. The first oncogene, SRC, was identified or discovered in 1970.\nII. MicroRNA was associated with Victor Ambros and Gary Ruvkun.\nIII. Regulatory T cells and FOXP3-related immune tolerance were associated with Robert Gordon Webster.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and II are correct. Regulatory T cells and FOXP3-related immune tolerance were associated with Mary E. Brunkow, Frederick J. Ramsdell and Shimon Sakaguchi, not Robert Gordon Webster."
+    }
+   ]
+  },
+  "13": {
+   "number": 13,
+   "title": "Biological Inventions and Inventors",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:29+00:00",
+   "mcqs": [
+    {
+     "id": "biology-13-1",
+     "format": "Assertion-Reason",
+     "keyword": "Invented by",
+     "question": "Assertion (A): The concept of vitamins is credited to Casimir (Kazimierz) Funk.\nReason (R): Casimir (Kazimierz) Funk is listed as the inventor of the concept of vitamins.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes credit Casimir (Kazimierz) Funk with the concept of vitamins. Therefore, both statements are true and the Reason explains the Assertion."
+    },
+    {
+     "id": "biology-13-2",
+     "format": "Direct Recall",
+     "keyword": "Artificial heart",
+     "question": "Who invented the Jarvik-7 artificial heart?",
+     "options": [
+      "Hans Berger",
+      "Wolf Hilbertz",
+      "Jagadish Chandra Bose",
+      "Robert Jarvik"
+     ],
+     "answer": 3,
+     "explanation": "The notes identify Robert Jarvik as the inventor of the Jarvik-7 artificial heart."
+    },
+    {
+     "id": "biology-13-3",
+     "format": "List-Matching",
+     "keyword": "Invention → Inventor",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Jarvik-7 artificial heart\n(b) EEG (Electroencephalogram)\n\nList-II\n(i) Hans Berger\n(ii) Robert Jarvik",
+     "options": [
+      "a-ii, b-ii",
+      "a-i, b-i",
+      "a-i, b-ii",
+      "a-ii, b-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: Jarvik-7 artificial heart—Robert Jarvik (a-ii); EEG—Hans Berger (b-i)."
+    },
+    {
+     "id": "biology-13-4",
+     "format": "Direct Recall",
+     "keyword": "Invented by",
+     "question": "Crescograph was invented by whom?",
+     "options": [
+      "César Milstein",
+      "Casimir (Kazimierz) Funk",
+      "Georges J. F. Köhler",
+      "Jagadish Chandra Bose"
+     ],
+     "answer": 3,
+     "explanation": "The notes state that Jagadish Chandra Bose invented the crescograph."
+    },
+    {
+     "id": "biology-13-5",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biorock technology",
+     "question": "Consider the following statements:\nStatement A: Biorock technology was invented by Wolf Hilbertz.\nStatement B: Biorock technology was invented by Robert Jarvik.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify Wolf Hilbertz as the inventor of Biorock technology. Robert Jarvik is associated with the Jarvik-7 artificial heart, not Biorock technology."
+    }
+   ]
+  },
+  "14": {
+   "number": 14,
+   "title": "Biological Discoveries and Scientists",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:25+00:00",
+   "mcqs": [
+    {
+     "id": "biology-14-1",
+     "format": "Direct Recall",
+     "keyword": "Founder/founded",
+     "question": "Who is known as the Father of Zoology?",
+     "options": [
+      "Birbal Sahni",
+      "Linnaeus",
+      "Robert Hooke",
+      "Aristotle"
+     ],
+     "answer": 3,
+     "explanation": "Aristotle classified animals and is known as the Father of Zoology."
+    },
+    {
+     "id": "biology-14-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Discovery",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Leeuwenhoek made the first observation of bacteria.",
+      "Robert Brown discovered the nucleus.",
+      "Virchow proposed that cells arise spontaneously from non-living matter.",
+      "Robert Hooke observed and named the cell."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the claim about Virchow. Virchow stated that new cells arise from existing cells, known as the pre-existing-cell principle."
+    },
+    {
+     "id": "biology-14-3",
+     "format": "Assertion-Reason",
+     "keyword": "Cell Biology",
+     "question": "Assertion (A): Schleiden and Schwann proposed that the cell is the basic structural unit.\nReason (R): Their contribution is associated with the Cell Theory.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Schleiden and Schwann are associated with the Cell Theory, including the view that the cell is the basic structural unit."
+    },
+    {
+     "id": "biology-14-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disease transmission",
+     "question": "Consider the following statements:\nStatement A: Ronald Ross established that Plasmodium is transmitted by mosquitoes.\nStatement B: Edward Jenner developed the first polio vaccine.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true: Ronald Ross worked on malaria transmission and Plasmodium in mosquitoes. Statement B is false because Edward Jenner is associated with smallpox vaccination; Jonas Salk developed the first polio vaccine."
+    },
+    {
+     "id": "biology-14-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Evolution",
+     "question": "Consider the following statements:\nI. Virchow stated that new cells arise from existing cells.\nII. Lamarck proposed evolution by natural selection.\nIII. Charles Darwin is associated with evolution by natural selection.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and III are correct. Lamarck is associated with Lamarckism and the inheritance of acquired characters, not natural selection."
+    },
+    {
+     "id": "biology-14-6",
+     "format": "List-Matching",
+     "keyword": "Discovery",
+     "question": "Match List-I with List-II.\nList-I\n(a) Linnaeus\n(b) Robert Brown\n(c) Alexander Fleming\n(d) Karl von Frisch\n\nList-II\n(i) Penicillin\n(ii) Circle and waggle dances\n(iii) Binomial nomenclature\n(iv) Nucleus",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Linnaeus–binomial nomenclature, Robert Brown–nucleus, Alexander Fleming–penicillin, and Karl von Frisch–circle and waggle dances."
+    },
+    {
+     "id": "biology-14-7",
+     "format": "Direct Recall",
+     "keyword": "Genetic code",
+     "question": "Who explained how the nucleotide sequence controls protein synthesis?",
+     "options": [
+      "Friedrich Miescher",
+      "Watson, Crick and Wilkins",
+      "Arthur Kornberg",
+      "Khorana, Nirenberg and Holley"
+     ],
+     "answer": 3,
+     "explanation": "Khorana, Nirenberg and Holley are credited in the notes with explaining how nucleotide sequence controls protein synthesis."
+    },
+    {
+     "id": "biology-14-8",
+     "format": "Count-Based",
+     "keyword": "Vaccination",
+     "question": "How many of the following scientists are associated with vaccination or vaccine development?\nI. Edward Jenner\nII. Jonas Salk\nIII. Albert Sabin\nIV. Alexander Fleming",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three scientists are associated with vaccination or vaccines: Jenner with smallpox vaccination, Salk with the first polio vaccine, and Sabin with oral polio vaccination. Fleming is associated with penicillin."
+    },
+    {
+     "id": "biology-14-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biotechnology",
+     "question": "Consider the following statements:\nStatement A: Barbara McClintock is associated with transposable elements, also called “jumping genes.”\nStatement B: Ian Wilmut and Keith Campbell are associated with somatic-cell cloning of Dolly.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true according to the notes. McClintock worked on transposable elements, while Ian Wilmut and Keith Campbell are associated with Dolly cloning through somatic-cell cloning."
+    }
+   ]
+  },
+  "15": {
+   "number": 15,
+   "title": "Diseases, Pathogens and Deficiency Disorders",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:18+00:00",
+   "mcqs": [
+    {
+     "id": "biology-15-1",
+     "format": "Direct Recall",
+     "keyword": "Disease → Pathogen",
+     "question": "Which pathogen causes cholera?",
+     "options": [
+      "Yersinia pestis",
+      "Salmonella typhi",
+      "Corynebacterium diphtheriae",
+      "Vibrio cholerae"
+     ],
+     "answer": 3,
+     "explanation": "Cholera is caused by Vibrio cholerae. The notes classify it as a bacterial disease transmitted through contaminated food or water."
+    },
+    {
+     "id": "biology-15-2",
+     "format": "Direct Recall",
+     "keyword": "Disease → Vector",
+     "question": "Which vector is associated with malaria?",
+     "options": [
+      "Aedes mosquito",
+      "Female Anopheles mosquito",
+      "Culex mosquito",
+      "Sandfly"
+     ],
+     "answer": 1,
+     "explanation": "Malaria is transmitted by the female Anopheles mosquito. The notes also mention blood transfusion and needles as possible transmission routes."
+    },
+    {
+     "id": "biology-15-3",
+     "format": "Direct Recall",
+     "keyword": "Disease → Main organ/clue",
+     "question": "The main organ or clue associated with Japanese encephalitis is:",
+     "options": [
+      "Brain",
+      "Liver",
+      "Salivary glands",
+      "Small intestine"
+     ],
+     "answer": 0,
+     "explanation": "Japanese encephalitis is associated with the brain. Its vector is Culex, with pigs and wild birds mentioned as reservoirs."
+    },
+    {
+     "id": "biology-15-4",
+     "format": "Direct Recall",
+     "keyword": "Deficiency disease",
+     "question": "Which deficiency is associated with night blindness?",
+     "options": [
+      "Vitamin A deficiency",
+      "Vitamin C deficiency",
+      "Vitamin D deficiency",
+      "Vitamin B1 deficiency"
+     ],
+     "answer": 0,
+     "explanation": "The notes associate night blindness with vitamin A deficiency and identify the eye as the affected organ."
+    },
+    {
+     "id": "biology-15-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Disease → Transmission",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Hepatitis-B can spread through blood and body fluids.",
+      "Gonorrhoea is transmitted mainly through respiratory droplets.",
+      "Rabies can spread through a bite or scratch involving saliva.",
+      "Typhoid can spread through contaminated food and water."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is about gonorrhoea. The notes identify sexual transmission and the reproductive organs, not respiratory droplets."
+    },
+    {
+     "id": "biology-15-6",
+     "format": "Assertion-Reason",
+     "keyword": "Disease → Vector",
+     "question": "Assertion (A): Dengue is associated with a fall in platelet count.\nReason (R): Dengue is transmitted through an Aedes mosquito bite.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are directly stated in the notes, but Aedes transmission does not explain the fall in platelets; they are separate disease features."
+    },
+    {
+     "id": "biology-15-7",
+     "format": "Assertion-Reason",
+     "keyword": "Disease → Organ/clue",
+     "question": "Assertion (A): Rabies is associated with hydrophobia.\nReason (R): Rabies affects the nervous system.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes link rabies to the nervous system and identify hydrophobia as its characteristic clue. Thus, the reason correctly explains the assertion."
+    },
+    {
+     "id": "biology-15-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disease → Transmission",
+     "question": "Consider the following statements:\nStatement A: Cholera and typhoid can both be transmitted through contaminated food or water.\nStatement B: Tetanus is transmitted through a contaminated wound.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes list contaminated food or water for cholera and typhoid, and a contaminated wound for tetanus."
+    },
+    {
+     "id": "biology-15-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disease → Main organ/clue",
+     "question": "Consider the following statements:\nStatement A: Filariasis may lead to elephantiasis through involvement of the lymph glands.\nStatement B: Ascariasis primarily affects the lungs.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Filariasis is linked to the lymph glands and elephantiasis. Ascariasis is associated with the small intestine, not the lungs."
+    },
+    {
+     "id": "biology-15-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Zoonotic diseases",
+     "question": "Consider the following statements:\nI. Rabies is described as a zoonotic viral disease.\nII. Ebola is described as a zoonotic viral disease.\nIII. Nipah is described as a zoonotic viral disease.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The notes classify rabies, Ebola and Nipah as viral, zoonotic diseases."
+    },
+    {
+     "id": "biology-15-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Deficiency disease",
+     "question": "Consider the following statements:\nI. Goitre is associated with iodine deficiency.\nII. Rickets is associated with vitamin D deficiency.\nIII. Scurvy is associated with niacin deficiency.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Goitre is linked to iodine deficiency and rickets to vitamin D deficiency. Scurvy is linked to vitamin C deficiency, while niacin deficiency is associated with pellagra."
+    },
+    {
+     "id": "biology-15-12",
+     "format": "List-Matching",
+     "keyword": "Disease → Pathogen",
+     "question": "Match List-I with List-II:\nList-I\n(a) Cholera\n(b) Typhoid\n(c) Diphtheria\n(d) Tuberculosis\n\nList-II\ni. Mycobacterium tuberculosis\nii. Corynebacterium diphtheriae\niii. Vibrio cholerae\niv. Salmonella typhi",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Cholera–Vibrio cholerae, Typhoid–Salmonella typhi, Diphtheria–Corynebacterium diphtheriae and Tuberculosis–Mycobacterium tuberculosis."
+    },
+    {
+     "id": "biology-15-13",
+     "format": "List-Matching",
+     "keyword": "Deficiency → Disease",
+     "question": "Match List-I with List-II:\nList-I\n(a) Vitamin B1 deficiency\n(b) Protein deficiency\n(c) Energy and protein deficiency\n(d) Niacin/B3 deficiency\n\nList-II\ni. Pellagra\nii. Beriberi\niii. Kwashiorkor\niv. Marasmus",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Vitamin B1 deficiency–Beriberi, protein deficiency–Kwashiorkor, energy and protein deficiency–Marasmus, and niacin/B3 deficiency–Pellagra."
+    },
+    {
+     "id": "biology-15-14",
+     "format": "Count-Based",
+     "keyword": "Disease classification",
+     "question": "How many of the following are listed as fungal diseases or fungal intoxications?\nI. Athlete's foot\nII. Mucormycosis\nIII. Aspergillosis\nIV. Ergotism",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four are included under fungal diseases or fungal intoxication in the notes: athlete's foot, mucormycosis, aspergillosis and ergotism."
+    }
+   ]
+  },
+  "16": {
+   "number": 16,
+   "title": "Biological Vectors and Diseases",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:17+00:00",
+   "mcqs": [
+    {
+     "id": "biology-16-1",
+     "format": "List-Matching",
+     "keyword": "Vector Disease Matching",
+     "question": "Match List-I with List-II.\n\nList-I (Vector)\na. Sandfly – Phlebotomus argentipes\nb. Rat flea\nc. Leafhopper\nd. Snail\n\nList-II (Disease)\ni. Rice tungro\nii. Kala-azar\niii. Plague\niv. Schistosomiasis",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Sandfly – Phlebotomus argentipes is associated with Kala-azar, rat flea with plague, leafhopper with rice tungro, and snail with schistosomiasis."
+    },
+    {
+     "id": "biology-16-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vector Disease Identification",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Culex is associated with filariasis and Japanese encephalitis.",
+      "Whitefly – Bemisia tabaci is associated with yellow vein mosaic of okra.",
+      "Tsetse fly – Glossina is associated with kala-azar.",
+      "Aedes albopictus is also known as the tiger mosquito."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the disease. Tsetse fly – Glossina is associated with sleeping sickness, whereas kala-azar is associated with sandfly – Phlebotomus argentipes."
+    },
+    {
+     "id": "biology-16-3",
+     "format": "Assertion-Reason",
+     "keyword": "Vector Disease Association",
+     "question": "Assertion (A): Aedes aegypti is associated with yellow fever.\nReason (R): Yellow fever is one of the diseases listed against Aedes aegypti.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Yellow fever is specifically listed among the diseases associated with Aedes aegypti, which directly supports the assertion."
+    },
+    {
+     "id": "biology-16-4",
+     "format": "Direct Recall",
+     "keyword": "Vector Disease",
+     "question": "Which disease is associated with Tsetse fly – Glossina?",
+     "options": [
+      "Guinea worm",
+      "Japanese encephalitis",
+      "Kala-azar",
+      "Sleeping sickness"
+     ],
+     "answer": 3,
+     "explanation": "The notes associate Tsetse fly – Glossina with sleeping sickness."
+    },
+    {
+     "id": "biology-16-5",
+     "format": "Count-Based",
+     "keyword": "Vector Disease Count",
+     "question": "How many diseases are listed against Aedes aegypti?\n\n1. Dengue\n2. Yellow fever\n3. Chikungunya\n4. Zika",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Four diseases are listed against Aedes aegypti: dengue, yellow fever, chikungunya and Zika."
+    }
+   ]
+  },
+  "17": {
+   "number": 17,
+   "title": "Human, Animal and Fungal Diseases",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:14+00:00",
+   "mcqs": [
+    {
+     "id": "biology-17-1",
+     "format": "Direct Recall",
+     "keyword": "Disease – Pathogen Matching",
+     "question": "Which pathogen is associated with Kala-azar?",
+     "options": [
+      "Wuchereria bancrofti",
+      "Trypanosoma brucei",
+      "Entamoeba histolytica",
+      "Leishmania"
+     ],
+     "answer": 3,
+     "explanation": "Leishmania is the pathogen associated with Kala-azar. Trypanosoma brucei causes sleeping sickness, Entamoeba histolytica causes amoebiasis, and Wuchereria bancrofti causes filariasis."
+    },
+    {
+     "id": "biology-17-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Disease – Pathogen Matching",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "P. falciparum causes malignant malaria.",
+      "Salmonella typhi causes typhoid.",
+      "Mycobacterium leprae causes diphtheria.",
+      "P. vivax causes recurring malaria."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the disease caused by Mycobacterium leprae. It causes leprosy, whereas Corynebacterium diphtheriae causes diphtheria."
+    },
+    {
+     "id": "biology-17-3",
+     "format": "Assertion-Reason",
+     "keyword": "Disease – Pathogen Matching",
+     "question": "Assertion (A): Clostridium tetani causes tetanus.\nReason (R): Clostridium botulinum causes botulism.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Clostridium tetani causes tetanus and Clostridium botulinum causes botulism. However, the reason does not explain the assertion."
+    },
+    {
+     "id": "biology-17-4",
+     "format": "List-Matching",
+     "keyword": "Disease – Pathogen Matching",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Mucormycetes\n(b) Aspergillus\n(c) Claviceps purpurea\n(d) Trichophyton etc.\n\nList-II\n(i) Athlete's foot\n(ii) Ergotism\n(iii) Mucormycosis\n(iv) Aspergillosis",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Mucormycetes–Mucormycosis, Aspergillus–Aspergillosis, Claviceps purpurea–Ergotism, and Trichophyton etc.–Athlete's foot."
+    },
+    {
+     "id": "biology-17-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease – Pathogen Matching",
+     "question": "Consider the following statements:\n\nI. JEV causes Japanese encephalitis.\nII. CHIKV causes chikungunya.\nIII. H5N1 causes bird flu.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. JEV is associated with Japanese encephalitis, CHIKV with chikungunya, and H5N1 with bird flu."
+    }
+   ]
+  },
+  "18": {
+   "number": 18,
+   "title": "Parasites, Vectors and Disease Reservoirs",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:23+00:00",
+   "mcqs": [
+    {
+     "id": "biology-18-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which vector is associated with filariasis?",
+     "options": [
+      "Sandfly",
+      "Cyclops",
+      "Culex",
+      "Female Anopheles"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify Wuchereria bancrofti as the parasite of filariasis and Culex as its vector."
+    },
+    {
+     "id": "biology-18-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Disease Reservoir",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Dogs, cats, bats and foxes or other wild animals are associated with rabies.",
+      "Rats and fleas are involved in the plague cycle.",
+      "Pigs are the important host associated with rabies.",
+      "Domestic pigs and wild birds are associated with Japanese encephalitis."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the disease association: pigs are an important host for swine flu, whereas rabies is associated with dogs, cats, bats, foxes and other wild animals."
+    },
+    {
+     "id": "biology-18-3",
+     "format": "Assertion-Reason",
+     "keyword": "Vector",
+     "question": "Assertion (A): Kala-azar is associated with Leishmania.\nReason (R): Leishmania is associated with the sandfly, and dogs are the reservoir for Kala-azar.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes pair Leishmania with kala-azar, identify the sandfly as its vector, and list dogs as the reservoir. Thus, the reason correctly explains the assertion."
+    },
+    {
+     "id": "biology-18-4",
+     "format": "List-Matching",
+     "keyword": "Disease",
+     "question": "Match List-I with List-II.\n\nList-I (Parasite)\na. Plasmodium\nb. Trypanosoma\nc. Ascaris lumbricoides\nd. Dracunculus medinensis\n\nList-II (Disease)\ni. Ascariasis\nii. Guinea worm disease\niii. Malaria\niv. Sleeping sickness",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Plasmodium–Malaria, Trypanosoma–Sleeping sickness, Ascaris lumbricoides–Ascariasis, and Dracunculus medinensis–Guinea worm disease."
+    },
+    {
+     "id": "biology-18-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease Reservoir",
+     "question": "Consider the following statements:\nI. Domestic pigs and wild birds are associated with Japanese encephalitis.\nII. The plague involves a rat–flea cycle.\nIII. Cattle and buffalo are associated with rinderpest.\nIV. Pigs are an important host for bird flu.",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III agree with the notes. Statement IV is incorrect because birds or poultry are associated with bird flu; pigs are an important host for swine flu."
+    }
+   ]
+  },
+  "19": {
+   "number": 19,
+   "title": "Zoonotic Diseases and Vaccines",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:16+00:00",
+   "mcqs": [
+    {
+     "id": "biology-19-1",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who developed the first polio vaccine?",
+     "options": [
+      "Edward Jenner",
+      "Jonas Salk",
+      "Albert Sabin",
+      "Louis Pasteur"
+     ],
+     "answer": 1,
+     "explanation": "The notes identify Jonas Salk as the developer of the first polio vaccine. Albert Sabin is associated with the Oral Polio Vaccine."
+    },
+    {
+     "id": "biology-19-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vaccine",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "RTS,S/AS01 (Mosquirix) was the first WHO-approved malaria vaccine.",
+      "BCG is a vaccine for tuberculosis.",
+      "A vaccine has been attributed to AIDS in the given vaccine information.",
+      "R21/Matrix-M was developed through collaboration between the Oxford Jenner Institute and Serum Institute."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that a vaccine has been attributed to AIDS. The notes specifically state that there is no vaccine attribution for AIDS."
+    },
+    {
+     "id": "biology-19-3",
+     "format": "Assertion-Reason",
+     "keyword": "Vaccine",
+     "question": "Assertion (A): DPT vaccine protects against diphtheria, pertussis and tetanus.\nReason (R): DPT stands for Diphtheria, Pertussis and Tetanus.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. DPT denotes Diphtheria, Pertussis and Tetanus, the three diseases against which the vaccine is used."
+    },
+    {
+     "id": "biology-19-4",
+     "format": "List-Matching",
+     "keyword": "Zoonotic disease",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rabies\n(b) Plague\n(c) Ebola\n(d) Foot and Mouth Disease\n\nList-II\n(i) Rat/flea cycle\n(ii) Cattle, sheep, goat and pig\n(iii) Dogs, cats, bats and foxes\n(iv) Non-human primates",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Rabies—dogs, cats, bats and foxes; Plague—rat/flea cycle; Ebola—non-human primates; and Foot and Mouth Disease—cattle, sheep, goat and pig."
+    },
+    {
+     "id": "biology-19-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vaccine",
+     "question": "Consider the following statements:\nI. Trivalent OPV covers polio types 1, 2 and 3.\nII. Bivalent OPV covers polio types 1 and 3.\nIII. ZyCoV-D is a DNA-based COVID-19 vaccine.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The notes specify the types covered by trivalent and bivalent OPV and identify ZyCoV-D as a DNA-based COVID-19 vaccine."
+    }
+   ]
+  },
+  "20": {
+   "number": 20,
+   "title": "Disease Treatment and Genetic Disorders",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:24+00:00",
+   "mcqs": [
+    {
+     "id": "biology-20-1",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "Which of the following drugs is associated with the treatment of AIDS?",
+     "options": [
+      "Zidovudine/AZT",
+      "Albendazole",
+      "Toxoid vaccine",
+      "Quinine"
+     ],
+     "answer": 0,
+     "explanation": "The notes associate AIDS with Zidovudine/AZT."
+    },
+    {
+     "id": "biology-20-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Prevention",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Mosquito nets and repellents are used for malaria prevention.",
+      "Albendazole and mebendazole are associated with ascariasis.",
+      "The toxoid vaccine is used for the treatment of diphtheria.",
+      "DDT is used against Anopheles for malaria prevention."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is “treatment.” The notes state that the toxoid vaccine is used for the prevention of diphtheria."
+    },
+    {
+     "id": "biology-20-3",
+     "format": "Assertion-Reason",
+     "keyword": "Toxin",
+     "question": "Assertion (A): Ergotism is associated with ergot alkaloids.\nReason (R): Claviceps purpurea is associated with the production of ergot alkaloids.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes identify ergotism as being caused by ergot alkaloids and associate them with Claviceps purpurea."
+    },
+    {
+     "id": "biology-20-4",
+     "format": "List-Matching",
+     "keyword": "Genetic cause / Gene Inheritance",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Phenylketonuria\n(b) Down syndrome\n(c) Turner syndrome\n(d) Alkaptonuria\n\nList-II\n(i) Non-disjunction\n(ii) Autosomal recessive\n(iii) Missing or partly missing X\n(iv) Lack of phenylalanine hydroxylase",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Phenylketonuria—lack of phenylalanine hydroxylase; Down syndrome—non-disjunction; Turner syndrome—missing or partly missing X; Alkaptonuria—autosomal recessive."
+    },
+    {
+     "id": "biology-20-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Chromosomal abnormality",
+     "question": "Consider the following statements:\nI. Down syndrome is associated with non-disjunction.\nII. Turner syndrome is associated with an extra X chromosome.\nIII. Klinefelter syndrome is associated with an extra X chromosome.\nIV. SCID/Bubble Baby involves multiple genetic mutations.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, III and IV are correct. Turner syndrome is associated with a missing or partly missing X chromosome, not an extra X chromosome."
+    }
+   ]
+  },
+  "21": {
+   "number": 21,
+   "title": "Deficiency Diseases and Disease Outbreaks",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:25+00:00",
+   "mcqs": [
+    {
+     "id": "biology-21-1",
+     "format": "List-Matching",
+     "keyword": "Deficiency Disease",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Vitamin B1\n(b) Vitamin B3/Niacin\n(c) Vitamin C\n(d) Vitamin D\n\nList-II\n(i) Rickets\n(ii) Pellagra\n(iii) Scurvy\n(iv) Beriberi",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Vitamin B1 deficiency causes beriberi, Vitamin B3/Niacin deficiency causes pellagra, Vitamin C deficiency causes scurvy, and Vitamin D deficiency causes rickets."
+    },
+    {
+     "id": "biology-21-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Outbreak Location",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "COVID-19 was associated with Wuhan, China, in December 2019.",
+      "Nipah was associated with Kozhikode, Kerala.",
+      "Kala-azar is associated with tropical Africa.",
+      "Ebola was reported from Nzara, South Sudan, and Yambuku, DR Congo, in 1976."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the location. The notes associate kala-azar with tropical areas, whereas tropical Africa is given for sleeping sickness."
+    },
+    {
+     "id": "biology-21-3",
+     "format": "Assertion-Reason",
+     "keyword": "Disease Outbreak",
+     "question": "Assertion (A): The disease Nipah was associated with Kozhikode, Kerala.\nReason (R): The name Nipah originated from Sungai Nipah in Malaysia.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. The origin of the name in Sungai Nipah, Malaysia, does not explain the association of the outbreak with Kozhikode, Kerala."
+    },
+    {
+     "id": "biology-21-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease Outbreak",
+     "question": "Consider the following statements:\nI. COVID-19 was associated with Wuhan, China, in December 2019.\nII. Ebola was reported from Nzara, South Sudan, and Yambuku, DR Congo, in 1976.\nIII. Malaria is associated with tropical Africa.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and II are correct. The notes associate malaria with tropical and subtropical regions, not specifically tropical Africa."
+    },
+    {
+     "id": "biology-21-5",
+     "format": "Direct Recall",
+     "keyword": "Deficiency Disease",
+     "question": "Which of the following is correctly matched?",
+     "options": [
+      "Iodine deficiency — Rickets",
+      "Energy and protein deficiency — Scurvy",
+      "Protein deficiency — Kwashiorkor",
+      "Iron deficiency — Goitre"
+     ],
+     "answer": 2,
+     "explanation": "The notes state that protein deficiency causes kwashiorkor. Energy and protein deficiency causes marasmus, iodine deficiency causes goitre, and iron deficiency causes anaemia."
+    }
+   ]
+  },
+  "22": {
+   "number": 22,
+   "title": "Diseases, Pathogens and Crop Disorders",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:27+00:00",
+   "mcqs": [
+    {
+     "id": "biology-22-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "A disease regularly found in a particular place or population is called:",
+     "options": [
+      "Epizootic",
+      "Pandemic",
+      "Epidemic",
+      "Endemic disease"
+     ],
+     "answer": 3,
+     "explanation": "An endemic disease is regularly found in a particular place or population."
+    },
+    {
+     "id": "biology-22-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Pandemic",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "An endemic disease is regularly found in a particular place or population.",
+      "A pandemic spreads across a large geographical region, multiple continents or worldwide.",
+      "The Ebola disease had simultaneous outbreaks in 2011.",
+      "An epidemic is a rapid or large occurrence in a population within a short period."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the year. The notes state that Ebola had simultaneous outbreaks in 1976, not 2011."
+    },
+    {
+     "id": "biology-22-3",
+     "format": "Assertion-Reason",
+     "keyword": "Disease",
+     "question": "Assertion (A): Rinderpest was eradicated in 2011.\nReason (R): Rinderpest is an animal disease.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, identifying Rinderpest as an animal disease does not explain its eradication in 2011."
+    },
+    {
+     "id": "biology-22-4",
+     "format": "List-Matching",
+     "keyword": "Crop Disease → Cause",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Rice Blast\n(b) Rice Khaira\n(c) Potato Early blight\n(d) Mustard White rust\n\nList-II\ni. Zinc deficiency\nii. Pyricularia/Magnaporthe\niii. Albugo candida\niv. Alternaria solani",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Rice Blast–Pyricularia/Magnaporthe, Rice Khaira–Zinc deficiency, Potato Early blight–Alternaria solani, and Mustard White rust–Albugo candida."
+    },
+    {
+     "id": "biology-22-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Plant Disease → Cause",
+     "question": "Consider the following statements:\nI. Rice Khaira is caused by zinc deficiency.\nII. Wheat Karnal bunt is caused by Tilletia indica.\nIII. Potato Black heart is caused by Phytophthora infestans.\nIV. Okra Yellow vein mosaic involves a virus, with Bemisia tabaci as its vector.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, III and IV only",
+      "I, II and IV only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and IV are correct. Potato Black heart is associated with oxygen deficiency, whereas Phytophthora infestans causes Potato Late blight."
+    }
+   ]
+  },
+  "23": {
+   "number": 23,
+   "title": "Disease-Causing Fungi, Viruses and Bacteria",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:22+00:00",
+   "mcqs": [
+    {
+     "id": "biology-23-1",
+     "format": "Direct Recall",
+     "keyword": "Disease-Causing Organism",
+     "question": "Which fungal agent causes ergotism?",
+     "options": [
+      "Mucormycetes",
+      "Claviceps purpurea",
+      "Albugo candida",
+      "Aspergillus flavus"
+     ],
+     "answer": 1,
+     "explanation": "Claviceps purpurea is listed as the fungal agent causing ergot/ergotism."
+    },
+    {
+     "id": "biology-23-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Virus → Disease",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Poliovirus causes polio.",
+      "CHIKV causes chikungunya.",
+      "H5N1 causes swine flu.",
+      "SARS-CoV-2 causes COVID-19."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the disease associated with H5N1. H5N1 causes bird flu, whereas H1N1 causes swine flu."
+    },
+    {
+     "id": "biology-23-3",
+     "format": "Assertion-Reason",
+     "keyword": "Bacterium → Disease",
+     "question": "Assertion (A): Clostridium tetani causes tetanus.\nReason (R): Mycobacterium tuberculosis causes tuberculosis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, tuberculosis caused by Mycobacterium tuberculosis does not explain why Clostridium tetani causes tetanus."
+    },
+    {
+     "id": "biology-23-4",
+     "format": "List-Matching",
+     "keyword": "Plant Disease-Causing Fungi",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Colletotrichum falcatum\n b. Puccinia graminis tritici\n c. Alternaria solani\n d. Cercospora spp.\n\nList-II\n i. Groundnut Tikka\n ii. Potato early blight\n iii. Sugarcane red rot\n iv. Wheat black rust",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Colletotrichum falcatum–Sugarcane red rot, Puccinia graminis tritici–Wheat black rust, Alternaria solani–Potato early blight, and Cercospora spp.–Groundnut Tikka."
+    },
+    {
+     "id": "biology-23-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Virus → Disease",
+     "question": "Consider the following statements:\nI. Ebola virus causes Ebola.\nII. Morbillivirus causes rinderpest.\nIII. Aphthovirus causes foot and mouth disease.\nIV. Zika virus causes yellow fever.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and IV only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because Zika virus causes Zika, while yellow fever is caused by yellow fever virus."
+    }
+   ]
+  },
+  "24": {
+   "number": 24,
+   "title": "Vitamins, Functions and Deficiency Diseases",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:30+00:00",
+   "mcqs": [
+    {
+     "id": "biology-24-1",
+     "format": "List-Matching",
+     "keyword": "Chemical name",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Vitamin B1\n(b) Vitamin B2\n(c) Vitamin B7\n(d) Vitamin B12\n\nList-II\n(i) Riboflavin\n(ii) Cobalamin/Cyanocobalamin\n(iii) Biotin/Vitamin-H\n(iv) Thiamine",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Vitamin B1 is Thiamine, B2 is Riboflavin, B7 is Biotin/Vitamin-H, and B12 is Cobalamin/Cyanocobalamin."
+    },
+    {
+     "id": "biology-24-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Deficiency disease",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Vitamin B2 deficiency may cause cheilosis, glossitis, dermatosis and digestive disorders.",
+      "Vitamin B5 deficiency may cause paraesthesia and burning sensation.",
+      "Vitamin B5 deficiency causes pellagra.",
+      "Vitamin B3 deficiency causes pellagra."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the deficiency disease associated with Vitamin B5. The notes associate pellagra with Vitamin B3, whereas Vitamin B5 deficiency causes paraesthesia and burning sensation."
+    },
+    {
+     "id": "biology-24-3",
+     "format": "Assertion-Reason",
+     "keyword": "Blood clotting",
+     "question": "Assertion (A): Vitamin K deficiency may result in increased clotting time and bleeding.\nReason (R): Vitamin K is involved in blood clotting.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are given in the notes. Vitamin K functions in blood clotting, and its deficiency is associated with increased clotting time and bleeding."
+    },
+    {
+     "id": "biology-24-4",
+     "format": "Count-Based",
+     "keyword": "Solubility",
+     "question": "How many of the following vitamins are water-soluble?\n\nI. Vitamin B1\nII. Vitamin B9\nIII. Vitamin C\nIV. Vitamin D\nV. Vitamin K",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 1,
+     "explanation": "Vitamin B1, Vitamin B9 and Vitamin C are water-soluble. Vitamin D and Vitamin K are fat-soluble. Therefore, three listed vitamins are water-soluble."
+    },
+    {
+     "id": "biology-24-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vitamin functions",
+     "question": "Consider the following statements:\n\nI. Vitamin B7 is also known as Vitamin-H.\nII. Vitamin B9 is involved in DNA synthesis.\nIII. Vitamin B12 is involved in DNA synthesis, RBC formation and the nervous system.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and III are correct. The notes identify B7 as Biotin/Vitamin-H and assign DNA synthesis, RBC formation and nervous-system functions to B12; B9 is associated with cell/RBC formation."
+    }
+   ]
+  },
+  "25": {
+   "number": 25,
+   "title": "Vitamins, Scientists and Nutrient Functions",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:28+00:00",
+   "mcqs": [
+    {
+     "id": "biology-25-1",
+     "format": "Direct Recall",
+     "keyword": "Vitamin",
+     "question": "Who was associated with the discovery of Vitamin A?",
+     "options": [
+      "James Lind and Umetaro Suzuki",
+      "Frederick Gowland Hopkins and Casimir Funk",
+      "Elmer Verner McCollum and Marguerite Davis",
+      "Casimir Funk and Marguerite Davis"
+     ],
+     "answer": 2,
+     "explanation": "The notes associate Vitamin A with Elmer Verner McCollum and Marguerite Davis."
+    },
+    {
+     "id": "biology-25-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vitamin",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Frederick Gowland Hopkins was associated with the concept of accessory food factors.",
+      "James Lind associated Vitamin C with citrus fruits curing scurvy.",
+      "Umetaro Suzuki extracted a water-soluble micronutrient mixture from citrus fruits and called it aberic acid.",
+      "Casimir Funk coined the term “vitamine” and developed the vitamin concept."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the source material: Umetaro Suzuki extracted the water-soluble micronutrient mixture from rice bran, not citrus fruits, and called it aberic acid."
+    },
+    {
+     "id": "biology-25-3",
+     "format": "Assertion-Reason",
+     "keyword": "Nutrient – Function",
+     "question": "Assertion (A): Fat serves as stored energy.\nReason (R): Protein is involved in growth, repair and body tissue building.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, protein’s role in growth and repair does not explain why fat serves as stored energy."
+    },
+    {
+     "id": "biology-25-4",
+     "format": "List-Matching",
+     "keyword": "Vitamin",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Frederick Gowland Hopkins\n(b) Casimir Funk\n(c) James Lind\n(d) Umetaro Suzuki\n\nList-II\n(i) Extracted a water-soluble micronutrient mixture from rice bran\n(ii) Associated with the concept of accessory food factors\n(iii) Associated Vitamin C with citrus fruits curing scurvy\n(iv) Coined “vitamine” and developed the vitamin concept",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Frederick Gowland Hopkins–accessory food factors; Casimir Funk–“vitamine” and vitamin concept; James Lind–citrus fruits and scurvy; Umetaro Suzuki–rice bran micronutrient mixture."
+    },
+    {
+     "id": "biology-25-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Nutrient – Function",
+     "question": "Consider the following statements:\nI. Essential fatty acids must come from the diet.\nII. Water is an essential medium for physiological processes.\nIII. Minerals are the immediate and main source of energy.\nIV. Amino acids are the building blocks of proteins.",
+     "options": [
+      "I, III and IV only",
+      "I, II and IV only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because carbohydrates, not minerals, are identified as the immediate and main energy source."
+    }
+   ]
+  },
+  "26": {
+   "number": 26,
+   "title": "Nutrient and Mineral Deficiencies",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:29+00:00",
+   "mcqs": [
+    {
+     "id": "biology-26-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which deficiency disease is associated with Vitamin B3?",
+     "options": [
+      "Beri-beri",
+      "Pellagra",
+      "Scurvy",
+      "Rickets"
+     ],
+     "answer": 1,
+     "explanation": "Vitamin B3 deficiency causes pellagra."
+    },
+    {
+     "id": "biology-26-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Vitamin B12 deficiency is associated with pernicious anaemia.",
+      "Vitamin D deficiency causes rickets.",
+      "Vitamin K deficiency causes night blindness.",
+      "Vitamin C deficiency causes scurvy."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the disease associated with Vitamin K. Vitamin K deficiency causes a bleeding tendency, while night blindness is associated with Vitamin A deficiency."
+    },
+    {
+     "id": "biology-26-3",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Iodine deficiency can result in goitre.\nReason (R): Iodine is required for thyroid hormone synthesis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Iodine is needed for thyroid hormone synthesis, and its deficiency is associated with goitre."
+    },
+    {
+     "id": "biology-26-4",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Iron\n b. Calcium\n c. Potassium\n d. Magnesium\n\nList-II\n i. Muscle and enzymatic functions\n ii. Haemoglobin and oxygen transport\n iii. Heart rhythm and muscle action\n iv. Bones and muscle contraction",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Iron–haemoglobin and oxygen transport; Calcium–bones and muscle contraction; Potassium–heart rhythm and muscle action; Magnesium–muscle and enzymatic functions."
+    },
+    {
+     "id": "biology-26-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. Boron deficiency in plants is associated with internal cork or heart rot.\nII. Molybdenum deficiency in plants is associated with whiptail.\nIII. Zinc deficiency is associated with growth and plant deficiency manifestations.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct according to the notes: boron is linked with internal cork/heart rot, molybdenum with whiptail, and zinc with growth and plant deficiency manifestations."
+    }
+   ]
+  },
+  "27": {
+   "number": 27,
+   "title": "Proteins, Vitamins and Deficiency Diseases",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:20+00:00",
+   "mcqs": [
+    {
+     "id": "biology-27-1",
+     "format": "Direct Recall",
+     "keyword": "Protein → Function",
+     "question": "Which of the following is a major function of proteins?",
+     "options": [
+      "Prevention of night blindness",
+      "Reduction of blood cholesterol",
+      "Formation of bile pigments",
+      "Growth, repair and tissue building"
+     ],
+     "answer": 3,
+     "explanation": "Proteins perform functions related to growth, repair and tissue building."
+    },
+    {
+     "id": "biology-27-2",
+     "format": "List-Matching",
+     "keyword": "Protein → Special",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) α-Keratin\n(b) Gluten\n(c) Collagen\n(d) Casein\n\nList-II\n(i) Major milk protein\n(ii) Wheat and bread-making quality\n(iii) Connective tissue\n(iv) Horn, nail, hoof, hair and skin",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are α-Keratin–horn, nail, hoof, hair and skin; Gluten–wheat and bread-making quality; Collagen–connective tissue; and Casein–major milk protein."
+    },
+    {
+     "id": "biology-27-3",
+     "format": "Assertion-Reason",
+     "keyword": "Protein → Energy",
+     "question": "Assertion (A): Protein provides approximately 4 kcal of energy per gram.\nReason (R): Energy is one of the functions of protein.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that protein provides approximately 4 kcal/g and identify energy as one of its functions. Therefore, the Reason explains the Assertion."
+    },
+    {
+     "id": "biology-27-4",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Deficiency Diseases",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Vitamin A deficiency causes night blindness.",
+      "Vitamin C deficiency causes rickets.",
+      "Vitamin D deficiency causes rickets.",
+      "Vitamin B1 deficiency causes beri-beri."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect pairing is Vitamin C deficiency–rickets. According to the notes, Vitamin C deficiency causes scurvy, whereas Vitamin D deficiency causes rickets."
+    },
+    {
+     "id": "biology-27-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Protein → Sources and Storage",
+     "question": "Consider the following statements:\n\nI. Groundnut is a rich source of protein.\nII. Amino acids are stored in the body.\nIII. Casein is the major milk protein.\nIV. Protein deficiency includes kwashiorkor and marasmus.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III and IV only",
+      "II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 0,
+     "explanation": "Groundnut is listed as a rich protein source, casein as the major milk protein, and kwashiorkor and marasmus as protein-deficiency conditions. Amino acids are not stored, so Statement II is incorrect."
+    }
+   ]
+  },
+  "28": {
+   "number": 28,
+   "title": "Vitamin Deficiencies and Fatty Acids",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:28+00:00",
+   "mcqs": [
+    {
+     "id": "biology-28-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Deficiency of which vitamin is associated with night blindness?",
+     "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin B1"
+     ],
+     "answer": 0,
+     "explanation": "Vitamin A deficiency is associated with night blindness."
+    },
+    {
+     "id": "biology-28-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Vitamin B1 deficiency is associated with beri-beri, neuritis and weakness.",
+      "Vitamin B3 deficiency is associated with scurvy.",
+      "Vitamin B6 deficiency is associated with anaemia and muscular problems.",
+      "Vitamin B2 deficiency is associated with cheilosis and glossitis."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement alters the symptom associated with Vitamin B3. Vitamin B3 deficiency is associated with pellagra, whereas scurvy is associated with Vitamin C deficiency."
+    },
+    {
+     "id": "biology-28-3",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Alpha-linolenic acid has omega-3 significance.\nReason (R): Alpha-linolenic acid is sourced from linseed oil.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are supported: alpha-linolenic acid is associated with omega-3 significance and linseed oil. The source of the fatty acid does not explain its omega-3 significance."
+    },
+    {
+     "id": "biology-28-4",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Linoleic acid\n(b) Alpha-linolenic acid\n(c) Palmitoleic acid\n(d) Butyric acid\n\nList-II\n(i) Macadamia nuts\n(ii) Butter\n(iii) Linseed oil; omega-3\n(iv) Peanut oil, chicken fat, olive oil",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: linoleic acid—peanut oil, chicken fat and olive oil; alpha-linolenic acid—linseed oil and omega-3; palmitoleic acid—macadamia nuts; butyric acid—butter."
+    },
+    {
+     "id": "biology-28-5",
+     "format": "Count-Based",
+     "keyword": "Terms",
+     "question": "How many of the following deficiency–symptom pairs are correctly matched?\n\nI. Vitamin D — Soft or weak bones / rickets\nII. Vitamin E — Sterility / muscular weakness\nIII. Iron — Goitre\nIV. Iodine — Anaemia",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correctly matched. Goitre is associated with iodine deficiency, while anaemia is associated with iron deficiency; therefore, only two pairs are correct."
+    }
+   ]
+  },
+  "29": {
+   "number": 29,
+   "title": "Human Organs, Glands and Digestion",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:29+00:00",
+   "mcqs": [
+    {
+     "id": "biology-29-1",
+     "format": "Direct Recall",
+     "keyword": "Organ location and function",
+     "question": "Which organ is located in the mediastinum between the lungs and functions primarily to pump blood?",
+     "options": [
+      "Spleen",
+      "Liver",
+      "Thymus",
+      "Heart"
+     ],
+     "answer": 3,
+     "explanation": "The heart is located between the lungs in the mediastinum and pumps blood."
+    },
+    {
+     "id": "biology-29-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Endocrine gland",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The thyroid is located at the front of the neck and secretes T3, T4 and calcitonin.",
+      "The adrenal glands are located above the kidneys and secrete adrenaline, cortisol and aldosterone.",
+      "The pituitary gland is located behind the lungs and is responsible for T-cell development.",
+      "The parathyroid is located on the dorsal side of the thyroid and secretes PTH."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the location and function of the pituitary gland. The pituitary is in the brain and is the master gland, whereas the thymus, located behind the lungs, is associated with T-cell development."
+    },
+    {
+     "id": "biology-29-3",
+     "format": "Assertion-Reason",
+     "keyword": "Digestive enzymes",
+     "question": "Assertion (A): Pancreatic lipase helps in fat digestion.\nReason (R): The pancreas secretes pancreatic juice containing lipase.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Pancreatic juice contains lipase, and lipase carries out fat digestion."
+    },
+    {
+     "id": "biology-29-4",
+     "format": "List-Matching",
+     "keyword": "Organ function",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Liver\n b. Kidneys\n c. Large intestine\n d. Bone marrow\n\nList-II\n i. Water absorption\n ii. Blood filtration and urine formation\n iii. RBC, WBC and platelet production\n iv. Bile production, glycogen storage and urea formation",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: Liver–iv, Kidneys–ii, Large intestine–i, and Bone marrow–iii."
+    },
+    {
+     "id": "biology-29-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Digestive secretions",
+     "question": "Consider the following statements:\n\nI. Bile contains a digestive enzyme and digests fats directly.\nII. HCl provides an acidic medium and activates pepsin.\nIII. Salivary amylase helps in starch digestion.\nIV. Rennin is associated with milk curdling or digestion.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Statements II, III and IV are correct according to the notes. Statement I is incorrect because bile has no digestive enzyme; its main action is emulsification of fats."
+    }
+   ]
+  },
+  "30": {
+   "number": 30,
+   "title": "Human Enzymes and Hormones",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:24+00:00",
+   "mcqs": [
+    {
+     "id": "biology-30-1",
+     "format": "Direct Recall",
+     "keyword": "Enzyme – Function",
+     "question": "Which enzyme is associated with the stomach and converts proteins into peptides?",
+     "options": [
+      "Trypsin",
+      "Rennin",
+      "Pepsin",
+      "Lactase"
+     ],
+     "answer": 2,
+     "explanation": "Pepsin is produced in the stomach and acts on proteins to form peptides."
+    },
+    {
+     "id": "biology-30-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Hormone – Source",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The thyroid produces T3, T4 and calcitonin.",
+      "The pancreas produces insulin and glucagon.",
+      "The pituitary produces melatonin.",
+      "The adrenal medulla produces adrenaline and noradrenaline."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. Melatonin is produced by the pineal gland, whereas the pituitary produces hormones such as GH, FSH, LH, prolactin, TSH, ACTH, ADH, MSH and oxytocin."
+    },
+    {
+     "id": "biology-30-3",
+     "format": "Assertion-Reason",
+     "keyword": "Enzyme – Blood Coagulation",
+     "question": "Assertion (A): Thrombin is involved in the blood coagulation system.\nReason (R): Thrombin converts fibrinogen into fibrin.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Thrombin functions in blood coagulation by converting fibrinogen into fibrin."
+    },
+    {
+     "id": "biology-30-4",
+     "format": "List-Matching",
+     "keyword": "Gland – Hormone",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Thyroid\n(b) Pineal\n(c) Pancreas\n(d) Testes\n\nList-II\n(i) Testosterone\n(ii) Melatonin\n(iii) Insulin and glucagon\n(iv) T3, T4 and calcitonin",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: thyroid–T3, T4 and calcitonin; pineal–melatonin; pancreas–insulin and glucagon; testes–testosterone."
+    },
+    {
+     "id": "biology-30-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Enzyme – Source and Function",
+     "question": "Consider the following statements:\n\nI. Lactase is produced in the small intestine and digests lactose.\nII. Lipase is produced by the pancreas and intestine and digests fats.\nIII. Rennin is produced by the kidney and acts on angiotensinogen.\nIV. Nitric oxide synthase is associated with the endothelium and produces nitric oxide.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III and IV only",
+      "II and III only",
+      "I, II and IV only",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and IV are correct. Rennin is associated with the stomach and curdles milk; renin is the kidney enzyme that acts on angiotensinogen in the RAAS."
+    }
+   ]
+  },
+  "31": {
+   "number": 31,
+   "title": "Hormones, Glands and Endocrine Disorders",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:37+00:00",
+   "mcqs": [
+    {
+     "id": "biology-31-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which hormone is secreted by the adrenal medulla and is associated with the fight-or-flight response?",
+     "options": [
+      "Cortisol",
+      "Aldosterone",
+      "Adrenaline",
+      "Noradrenaline"
+     ],
+     "answer": 2,
+     "explanation": "Adrenaline is secreted by the adrenal medulla and performs the fight-or-flight function."
+    },
+    {
+     "id": "biology-31-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Health and Environment",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Thyroxine hyposecretion is associated with cretinism, myxoedema and goitre.",
+      "Growth hormone hyposecretion causes gigantism in children and acromegaly in adults.",
+      "Insulin hyposecretion causes diabetes mellitus, while its hypersecretion causes hypoglycaemia.",
+      "Excess thyroxine is associated with Graves'/exophthalmia and Plummer disease."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement alters the effect of growth hormone hyposecretion. According to the notes, GH hyposecretion causes growth retardation or dwarfism, whereas gigantism in children and acromegaly in adults result from hypersecretion."
+    },
+    {
+     "id": "biology-31-3",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Calcitonin decreases blood calcium and promotes bone formation.\nReason (R): Calcitonin is a hormone secreted by the thyroid.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, identifying the thyroid as the source does not explain how calcitonin decreases blood calcium or promotes bone formation."
+    },
+    {
+     "id": "biology-31-4",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) FSH\n(b) LH\n(c) Prolactin\n(d) Oxytocin\n\nList-II\n(i) Milk production\n(ii) Follicle growth and spermatogenesis\n(iii) Uterine contraction and milk ejection\n(iv) Ovulation and testosterone production",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are FSH–follicle growth and spermatogenesis, LH–ovulation and testosterone production, Prolactin–milk production, and Oxytocin–uterine contraction and milk ejection."
+    },
+    {
+     "id": "biology-31-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\n\nI. ADH is associated with water reabsorption and is released by the pituitary.\nII. Melatonin is produced by the pineal gland and regulates circadian rhythm and sleep.\nIII. Thymosin is associated with the thymus and T-cell maturation.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are supported by the notes: ADH is linked with water reabsorption, melatonin with circadian rhythm and sleep, and thymosin with T-cell maturation."
+    }
+   ]
+  },
+  "32": {
+   "number": 32,
+   "title": "Blood Components and Rh Incompatibility",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:32+00:00",
+   "mcqs": [
+    {
+     "id": "biology-32-1",
+     "format": "List-Matching",
+     "keyword": "Component → Core function",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Plasma\n(b) RBC / Erythrocytes\n(c) WBC / Leucocytes\n(d) Platelets / Thrombocytes\n\nList-II\n(i) Defence/immunity\n(ii) Blood clotting\n(iii) Transport medium\n(iv) O₂ transport via haemoglobin",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Plasma–transport medium, RBC–O₂ transport via haemoglobin, WBC–defence/immunity, and Platelets–blood clotting."
+    },
+    {
+     "id": "biology-32-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Rh+ / Rh−",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Rh+ indicates that the RhD antigen is present.",
+      "Rh incompatibility is important in pregnancy and transfusion.",
+      "Rh incompatibility is important in pregnancy but not in transfusion.",
+      "Rh− indicates that the RhD antigen is absent."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. The notes state that Rh incompatibility is important in both pregnancy and transfusion."
+    },
+    {
+     "id": "biology-32-3",
+     "format": "Assertion-Reason",
+     "keyword": "Rh incompatibility → pregnancy",
+     "question": "Assertion (A): Rh incompatibility is important in pregnancy.\nReason (R): A classic maternal problem occurs when an Rh− mother carries an Rh+ fetus.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Rh− mother and Rh+ fetus combination is identified in the notes as a classic maternal problem, explaining the importance of Rh incompatibility in pregnancy."
+    },
+    {
+     "id": "biology-32-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Blood groups → antigens and antibodies",
+     "question": "Consider the following statements:\n\nI. Blood group A has A antigen on RBCs and Anti-B antibody in plasma.\nII. Blood group AB has A and B antigens and no plasma antibodies.\nIII. Blood group O has no RBC antigens and has Anti-A and Anti-B antibodies in plasma.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct according to the blood-group table in the notes."
+    },
+    {
+     "id": "biology-32-5",
+     "format": "Direct Recall",
+     "keyword": "Rh discovery",
+     "question": "Who discovered the Rh factor, and in which year?",
+     "options": [
+      "Landsteiner and Wiener, 1935",
+      "Landsteiner and Wiener, 1937",
+      "Landsteiner alone, 1937",
+      "Wiener alone, 1939"
+     ],
+     "answer": 1,
+     "explanation": "The notes attribute the discovery of Rh to Landsteiner and Wiener in 1937."
+    }
+   ]
+  },
+  "33": {
+   "number": 33,
+   "title": "Blood Clotting and Blood Disorders",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:33+00:00",
+   "mcqs": [
+    {
+     "id": "biology-33-1",
+     "format": "Direct Recall",
+     "keyword": "Clotting factors",
+     "question": "Which substance converts fibrinogen into fibrin during blood clot formation?",
+     "options": [
+      "Alum",
+      "Heparin",
+      "Thrombin",
+      "Prothrombin"
+     ],
+     "answer": 2,
+     "explanation": "Thrombin converts fibrinogen into fibrin. Fibrin subsequently forms a mesh that traps blood cells and produces a clot."
+    },
+    {
+     "id": "biology-33-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Blood disorders",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Anaemia is associated with a decrease in RBCs or haemoglobin.",
+      "Leukopenia is associated with an increase in WBCs.",
+      "Thrombocytopenia involves low platelets and a bleeding tendency.",
+      "Polycythemia involves an increase in RBC volume."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is that leukopenia involves an increase in WBCs. According to the notes, leukopenia means a decrease in WBCs; leukocytosis involves an increase in WBCs."
+    },
+    {
+     "id": "biology-33-3",
+     "format": "Assertion-Reason",
+     "keyword": "Anticoagulant and coagulation",
+     "question": "Assertion (A): Heparin acts as an anticoagulant.\nReason (R): Alum promotes coagulation due to aluminium ions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, alum’s coagulation-promoting action does not explain heparin’s anticoagulant action."
+    },
+    {
+     "id": "biology-33-4",
+     "format": "List-Matching",
+     "keyword": "Disease and impact",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Anaemia\n b. Polycythemia\n c. Haemophilia\n d. Thrombocytopenia\n\nList-II\n i. Inherited clotting disorder\n ii. Low platelets and bleeding tendency\n iii. Decreased RBCs or haemoglobin\n iv. Increased RBC volume",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Anaemia–decreased RBCs or haemoglobin, Polycythemia–increased RBC volume, Haemophilia–inherited clotting disorder, and Thrombocytopenia–low platelets with bleeding tendency."
+    },
+    {
+     "id": "biology-33-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Blood clot formation",
+     "question": "Consider the following statements:\nI. Platelets initiate or support clot formation.\nII. Prothrombin is a clotting factor.\nIII. Fibrin forms a mesh that traps blood cells and produces a clot.\nIV. Heparin promotes coagulation.",
+     "options": [
+      "I, II, III and IV",
+      "I and IV only",
+      "II and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III are correct. Heparin is an anticoagulant, whereas alum promotes coagulation due to aluminium ions."
+    }
+   ]
+  },
+  "34": {
+   "number": 34,
+   "title": "Heart Chambers, Valves and Blood Vessels",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:35+00:00",
+   "mcqs": [
+    {
+     "id": "biology-34-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which vessel drains blood from the heart muscle?",
+     "options": [
+      "Pulmonary veins",
+      "Cardiac veins",
+      "Coronary arteries",
+      "Vena cava"
+     ],
+     "answer": 1,
+     "explanation": "Cardiac veins drain the heart muscle, whereas coronary arteries supply it."
+    },
+    {
+     "id": "biology-34-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The tricuspid valve is located between the right atrium and right ventricle.",
+      "The pulmonary semilunar valve is located between the right ventricle and aorta.",
+      "The aortic semilunar valve is located between the left ventricle and aorta.",
+      "The bicuspid or mitral valve is located between the left atrium and left ventricle."
+     ],
+     "answer": 1,
+     "explanation": "The altered detail is the destination of the pulmonary semilunar valve. It is located between the right ventricle and the pulmonary artery, not the aorta."
+    },
+    {
+     "id": "biology-34-3",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Cardiac veins drain the heart muscle.\nReason (R): Coronary arteries supply the heart muscle.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes, but the function of coronary arteries does not explain the draining function of cardiac veins."
+    },
+    {
+     "id": "biology-34-4",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Tricuspid valve\n b. Bicuspid/Mitral valve\n c. Pulmonary semilunar valve\n d. Aortic semilunar valve\n\nList-II\n i. Left ventricle → Aorta\n ii. Right atrium → Right ventricle\n iii. Left atrium → Left ventricle\n iv. Right ventricle → Pulmonary artery",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: tricuspid–right atrium to right ventricle; bicuspid/mitral–left atrium to left ventricle; pulmonary semilunar–right ventricle to pulmonary artery; aortic semilunar–left ventricle to aorta."
+    },
+    {
+     "id": "biology-34-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. The aorta carries blood from the left ventricle to the body.\nII. The vena cava carries blood from the body to the right atrium.\nIII. The pulmonary vein carries deoxygenated blood from the lungs to the left atrium.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and II are correct. Statement III is incorrect because the pulmonary vein carries oxygenated blood from the lungs to the left atrium."
+    }
+   ]
+  },
+  "35": {
+   "number": 35,
+   "title": "Heart and Kidney Physiology",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:24+00:00",
+   "mcqs": [
+    {
+     "id": "biology-35-1",
+     "format": "Direct Recall",
+     "keyword": "Heart conduction",
+     "question": "Which structure acts as the natural pacemaker of the heart?",
+     "options": [
+      "SA node",
+      "Ureter",
+      "Urethra",
+      "AV node"
+     ],
+     "answer": 0,
+     "explanation": "The SA node is the natural pacemaker of the heart."
+    },
+    {
+     "id": "biology-35-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Kidney → location",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The kidneys are located on either side of the vertebral column.",
+      "Urea is formed in the kidney.",
+      "The kidneys maintain ionic balance.",
+      "The kidneys maintain acid-base balance."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is that urea is formed in the kidney. Urea formation takes place in the liver, while the kidney filters it."
+    },
+    {
+     "id": "biology-35-3",
+     "format": "Assertion-Reason",
+     "keyword": "Double circulation",
+     "question": "Assertion (A): The circulation of blood is termed double circulation.\nReason (R): Blood passes through the heart twice during one complete circulation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. It is called double circulation because blood passes through the heart twice during one complete circulation."
+    },
+    {
+     "id": "biology-35-4",
+     "format": "List-Matching",
+     "keyword": "Kidney → functions and pathways",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Main function of kidney\n(b) Kidney and blood pressure\n(c) Site of urea formation\n(d) Urine pathway\n\nList-II\n(i) Liver\n(ii) Long-term blood pressure regulation\n(iii) Kidney → ureter → bladder → urethra\n(iv) Filters blood and forms urine",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii."
+    },
+    {
+     "id": "biology-35-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Cardiac cycle and urine",
+     "question": "Consider the following statements:\nI. During diastole, the chambers of the heart relax and fill.\nII. During systole, the ventricles contract and pump.\nIII. The average normal urine output is approximately 1.5 litres per day.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: diastole involves relaxation and filling, systole involves ventricular contraction and pumping, and average normal urine output is approximately 1.5 litres per day."
+    }
+   ]
+  },
+  "36": {
+   "number": 36,
+   "title": "Kidney Function and Nitrogenous Wastes",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:34+00:00",
+   "mcqs": [
+    {
+     "id": "biology-36-1",
+     "format": "Direct Recall",
+     "keyword": "Nephron – Structure and Function",
+     "question": "The nephron is the:",
+     "options": [
+      "Artificial filtration system used in renal failure",
+      "Main blood vessel carrying filtered blood from the kidney",
+      "Structural and functional unit of the kidney",
+      "Site of final urine concentration only"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify the nephron as the structural and functional unit of the kidney."
+    },
+    {
+     "id": "biology-36-2",
+     "format": "Assertion-Reason",
+     "keyword": "Disease/condition",
+     "question": "Assertion (A): Diabetes insipidus causes excessive urine formation.\nReason (R): Diabetes insipidus is associated with ADH deficiency.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that ADH deficiency causes diabetes insipidus, which results in excessive urine."
+    },
+    {
+     "id": "biology-36-3",
+     "format": "List-Matching",
+     "keyword": "Nephron – Structure and Function",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Glomerulus\n b. Bowman's capsule\n c. Loop of Henle\n d. Collecting duct\n\nList-II\n i. Final urine concentration\n ii. Receives filtrate\n iii. Blood filtration\n iv. Concentration/osmoregulation",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Glomerulus–blood filtration, Bowman's capsule–receives filtrate, Loop of Henle–concentration/osmoregulation, and Collecting duct–final urine concentration."
+    },
+    {
+     "id": "biology-36-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Nitrogenous waste",
+     "question": "Consider the following statements:\n\nI. Ammonia is associated with ammonotelic organisms.\nII. Urea is associated with ureotelic organisms, including humans.\nIII. Uric acid is associated with uricotelic birds, reptiles and insects.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements agree with the notes: ammonia–ammonotelic, urea–ureotelic humans, and uric acid–uricotelic birds, reptiles and insects."
+    },
+    {
+     "id": "biology-36-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Disease/condition",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Kidney stones are associated with calcium oxalate.",
+      "Dialysis is a form of artificial filtration.",
+      "Kidney damage affects filtration but not excretion.",
+      "Renal failure means that the kidney is unable to adequately filter."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters one detail: the notes state that kidney damage affects both filtration and excretion, not filtration alone."
+    }
+   ]
+  },
+  "37": {
+   "number": 37,
+   "title": "Brain and Nervous System Functions",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:33+00:00",
+   "mcqs": [
+    {
+     "id": "biology-37-1",
+     "format": "Direct Recall",
+     "keyword": "Brain part → Function",
+     "question": "Which part of the brain is chiefly associated with balance, coordination, posture and muscle control?",
+     "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus"
+     ],
+     "answer": 1,
+     "explanation": "The cerebellum controls balance, coordination, posture and muscle control."
+    },
+    {
+     "id": "biology-37-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Brain functions",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The cerebrum is the largest part of the brain.",
+      "The spinal cord is the reflex centre.",
+      "The brain itself contains pain receptors.",
+      "The hippocampus is associated with memory."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that the brain itself contains pain receptors. The notes state that the brain itself has no pain receptors."
+    },
+    {
+     "id": "biology-37-3",
+     "format": "Assertion-Reason",
+     "keyword": "Brainstem → Automatic functions",
+     "question": "Assertion (A): The brainstem performs automatic and vital functions.\nReason (R): The pons is a component of the brainstem.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the brainstem performs automatic and vital functions, and the pons is a brainstem component. However, the pons being a component does not explain the brainstem’s functions."
+    },
+    {
+     "id": "biology-37-4",
+     "format": "List-Matching",
+     "keyword": "Nervous system → Functions",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Sensory nerve\n(b) Motor nerve\n(c) Mixed nerve\n(d) Autonomic nervous system\n\nList-II\n(i) Involuntary functions\n(ii) Sensory and motor functions\n(iii) Receptor to CNS\n(iv) CNS to effector",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are sensory nerve–receptor to CNS, motor nerve–CNS to effector, mixed nerve–sensory and motor functions, and autonomic nervous system–involuntary functions."
+    },
+    {
+     "id": "biology-37-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Nervous system classification",
+     "question": "Consider the following statements:\nI. Cranial nerves are associated with the brain.\nII. Spinal nerves are associated with the spinal cord.\nIII. The autonomic nervous system controls voluntary functions.\nIV. The somatic nervous system controls voluntary and skeletal muscle functions.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "II and III only",
+      "I, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and IV are correct. The autonomic nervous system controls involuntary functions, so statement III is incorrect."
+    }
+   ]
+  },
+  "38": {
+   "number": 38,
+   "title": "Human Skeletal System and Bone Functions",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:21+00:00",
+   "mcqs": [
+    {
+     "id": "biology-38-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "How many bones are present in the adult human skeleton?",
+     "options": [
+      "212",
+      "210",
+      "208",
+      "206"
+     ],
+     "answer": 3,
+     "explanation": "The notes state that the adult human skeleton has 206 bones."
+    },
+    {
+     "id": "biology-38-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Bone Location Function",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The femur is the longest bone and is located in the thigh.",
+      "The radius is located in the forearm on the little-finger side.",
+      "The patella is located at the knee and forms the kneecap.",
+      "The stapes is the smallest bone and is located in the middle ear."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement concerns the radius. According to the notes, the radius is on the thumb side of the forearm; the ulna is on the little-finger side."
+    },
+    {
+     "id": "biology-38-3",
+     "format": "Assertion-Reason",
+     "keyword": "Function",
+     "question": "Assertion (A): The skeletal system contributes to blood-cell formation.\nReason (R): Red bone marrow is responsible for blood-cell formation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes identify blood-cell formation as a skeletal-system function and red bone marrow as the site responsible for it."
+    },
+    {
+     "id": "biology-38-4",
+     "format": "List-Matching",
+     "keyword": "Bone Location Function",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Humerus\n(b) Atlas\n(c) Sternum\n(d) Axis\n\nList-II\n(i) Neck rotation\n(ii) Arm\n(iii) Supports skull\n(iv) Rib-cage support",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Humerus–Arm, Atlas–Supports skull, Sternum–Rib-cage support, and Axis–Neck rotation."
+    },
+    {
+     "id": "biology-38-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. There are 7 cervical vertebrae.\nII. There are 12 thoracic vertebrae.\nIII. There are 5 lumbar vertebrae.\nIV. Floating ribs are numbered 9–10.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III are correct: the notes give 7 cervical, 12 thoracic and 5 lumbar vertebrae. Floating ribs are numbered 11–12, so statement IV is incorrect."
+    }
+   ]
+  },
+  "39": {
+   "number": 39,
+   "title": "Biotechnology and DNA Applications",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U3",
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:37+00:00",
+   "mcqs": [
+    {
+     "id": "biology-39-1",
+     "format": "Direct Recall",
+     "keyword": "Genetic Engineering",
+     "question": "Which of the following best describes a GMO?",
+     "options": [
+      "An organism whose genetic makeup is altered through genetic engineering",
+      "An organism produced only through microbial multiplication",
+      "An organism carrying only naturally inherited genes",
+      "An organism identified through DNA fingerprinting"
+     ],
+     "answer": 0,
+     "explanation": "A GMO is an organism whose genetic makeup has been altered through genetic engineering."
+    },
+    {
+     "id": "biology-39-2",
+     "format": "Assertion-Reason",
+     "keyword": "Recombinant DNA",
+     "question": "Assertion (A): Recombinant DNA technology can transfer microbial genes to higher organisms.\nReason (R): Recombinant DNA is formed by combining genetic material.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, the definition of recombinant DNA as combined genetic material does not itself explain its application in transferring microbial genes to higher organisms."
+    },
+    {
+     "id": "biology-39-3",
+     "format": "List-Matching",
+     "keyword": "Biotechnology",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Agriculture\n(b) Medicine\n(c) Industry\n(d) Research\n\nList-II\n(i) Microbial production of useful products\n(ii) DNA/RNA/protein-based biochips in basic research\n(iii) Improved and transgenic/GM crops\n(iv) Drugs, vaccines, diagnostics and gene therapy",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Agriculture—improved and transgenic/GM crops; Medicine—drugs, vaccines, diagnostics and gene therapy; Industry—microbial production of useful products; Research—biochips in basic research."
+    },
+    {
+     "id": "biology-39-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Recombinant DNA",
+     "question": "Consider the following statements:\nI. A desired DNA fragment or gene can be inserted into a plasmid to form a recombinant plasmid.\nII. A recombinant plasmid can be introduced into a bacterium through transformation.\nIII. Rapid multiplication of bacteria helps produce large quantities of DNA or product.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are supported by the notes. A desired gene is inserted into a plasmid, introduced into a bacterium through transformation, and bacterial multiplication enables large-scale production."
+    },
+    {
+     "id": "biology-39-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "DNA Fingerprinting",
+     "question": "Which of the following statements about DNA fingerprinting is incorrect?",
+     "options": [
+      "It is useful in criminal identification.",
+      "DNA fingerprinting is based on DNA polymorphism.",
+      "It can be used for establishing biological parentage.",
+      "DNA polymorphisms are identical among all individuals."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect detail is that DNA polymorphisms are identical among all individuals. The notes state that DNA polymorphisms vary among individuals, making identification and parentage testing possible."
+    }
+   ]
+  },
+  "40": {
+   "number": 40,
+   "title": "DNA Fingerprinting and Genomic Biotechnology",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:23+00:00",
+   "mcqs": [
+    {
+     "id": "biology-40-1",
+     "format": "Direct Recall",
+     "keyword": "Biotechnology",
+     "question": "Which technique is used to establish paternity?",
+     "options": [
+      "DNA fingerprinting",
+      "DNA sequencing",
+      "Genome sequencing",
+      "Gene therapy"
+     ],
+     "answer": 0,
+     "explanation": "DNA fingerprinting is the technique used to establish or prove paternity."
+    },
+    {
+     "id": "biology-40-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "DNA Fingerprinting",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Hair can provide DNA evidence.",
+      "Dried semen can provide DNA evidence.",
+      "Dried blood can provide DNA evidence.",
+      "Saliva can provide DNA evidence."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement replaces dried semen with dried blood. The listed sources of DNA evidence are hair, saliva and dried semen."
+    },
+    {
+     "id": "biology-40-3",
+     "format": "Assertion-Reason",
+     "keyword": "DNA Sequencing",
+     "question": "Assertion (A): DNA sequencing determines the nucleotide or base sequence.\nReason (R): Genetic information depends on the order of bases.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "DNA sequencing determines the order of nucleotides or bases, and the order of bases carries genetic information."
+    },
+    {
+     "id": "biology-40-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Genome",
+     "question": "Consider the following statements:\nStatement A: A genome is the complete genetic information or genetic makeup.\nStatement B: The genome of a zygote is a combination of DNA from two gametes.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The genome represents complete genetic information or genetic makeup. A zygote genome combines DNA from two gametes."
+    },
+    {
+     "id": "biology-40-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Genetic Engineering",
+     "question": "Consider the following statements:\nI. Gene therapy is a biotechnology and genetic-engineering application.\nII. Gene therapy targets genetic abnormalities or diseases.\nIII. The basic idea of gene therapy is to alter, replace or correct defective genetic function.\nIV. Gene therapy is based on changing environmental conditions.",
+     "options": [
+      "I, II, III and IV",
+      "I and IV only",
+      "I, II and III only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Gene therapy targets genetic abnormalities or diseases and seeks to alter, replace or correct defective genetic function; changing environmental conditions is not its stated basic idea."
+    },
+    {
+     "id": "biology-40-6",
+     "format": "List-Matching",
+     "keyword": "Genome",
+     "question": "Match List-I with List-II.\n\nList-I\n a. DNA fingerprinting\n b. Genome\n c. Transcriptome\n d. Gene therapy\n\nList-II\n i. Basis in DNA polymorphism\n ii. Complete genetic information or genetic makeup\n iii. Sum total of expressed mRNA molecules\n iv. Altering, replacing or correcting defective genetic function",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: DNA fingerprinting–DNA polymorphism, Genome–complete genetic information, Transcriptome–sum total of expressed mRNA molecules, and Gene therapy–altering, replacing or correcting defective genetic function."
+    }
+   ]
+  },
+  "41": {
+   "number": 41,
+   "title": "CRISPR, RNAi and Restriction Enzymes",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:39+00:00",
+   "mcqs": [
+    {
+     "id": "biology-41-1",
+     "format": "Direct Recall",
+     "keyword": "Full form",
+     "question": "What is the full form of CRISPR?",
+     "options": [
+      "Clustered Regularly Interspaced Small Palindromic Repeats",
+      "Clustered Repeatedly Interspaced Short Palindromic Repeats",
+      "Clustered Regularly Interspaced Short Palindromic Repeats",
+      "Clustered Regularly Integrated Short Palindromic Repeats"
+     ],
+     "answer": 2,
+     "explanation": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats."
+    },
+    {
+     "id": "biology-41-2",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Cas9 is described as molecular scissors.\nReason (R): Cas9 cuts DNA strands.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Cas9 cuts DNA strands, which explains its description as molecular scissors."
+    },
+    {
+     "id": "biology-41-3",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) CRISPR\n(b) Cas9\n(c) Guide RNA\n(d) Restriction enzyme\n\nList-II\n(i) Enzyme\n(ii) Specialized stretches of DNA\n(iii) Guides Cas9 to the desired genomic location\n(iv) Cleaves DNA into fragments",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are CRISPR–specialized stretches of DNA, Cas9–enzyme, Guide RNA–guides Cas9 to the desired genomic location, and Restriction enzyme–cleaves DNA into fragments."
+    },
+    {
+     "id": "biology-41-4",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "A restriction enzyme is also called a restriction endonuclease.",
+      "A restriction enzyme cuts DNA at or near specific recognition sites.",
+      "A restriction enzyme cuts DNA only at random locations.",
+      "A restriction enzyme cleaves DNA into fragments."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the cutting location. Restriction enzymes cut DNA at or near specific recognition sites, not only at random locations."
+    },
+    {
+     "id": "biology-41-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Applications",
+     "question": "Consider the following statements about CRISPR-Cas9:\n\nI. It can be used to correct genetic defects.\nII. It can be used to treat or prevent disease.\nIII. It can be used to improve crops.\nIV. Its use raises ethical concerns.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are supported by the notes: CRISPR-Cas9 can correct genetic defects, treat or prevent disease, improve crops, and raises ethical concerns."
+    }
+   ]
+  },
+  "42": {
+   "number": 42,
+   "title": "DNA Tools and Genetic Engineering",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:40+00:00",
+   "mcqs": [
+    {
+     "id": "biology-42-1",
+     "format": "Direct Recall",
+     "keyword": "Genetic engineering",
+     "question": "What is the primary role of DNA ligase in genetic engineering?",
+     "options": [
+      "Joining desired DNA with vector DNA",
+      "Amplifying selected DNA sequences",
+      "Differentiating into other cell types",
+      "Copying a complete organism"
+     ],
+     "answer": 0,
+     "explanation": "DNA ligase joins desired DNA with vector DNA. It functions by forming or sealing DNA linkages and is popularly described as a molecular stitcher or molecular glue."
+    },
+    {
+     "id": "biology-42-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Plasmid",
+     "question": "Which of the following statements about plasmids is incorrect?",
+     "options": [
+      "Plasmids are commonly found only in eukaryotes.",
+      "Plasmids can replicate independently within a cell.",
+      "A plasmid is a small DNA molecule separate from chromosomal DNA.",
+      "Plasmids are commonly found in bacteria."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect detail is “only in eukaryotes.” Plasmids are commonly found in bacteria and are also found in some archaea and eukaryotes."
+    },
+    {
+     "id": "biology-42-3",
+     "format": "Assertion-Reason",
+     "keyword": "PCR",
+     "question": "Assertion (A): PCR is used to amplify DNA.\nReason (R): PCR produces many copies of a selected DNA sequence.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. PCR amplifies DNA by producing many copies of the selected DNA sequence."
+    },
+    {
+     "id": "biology-42-4",
+     "format": "List-Matching",
+     "keyword": "Biotechnology",
+     "question": "Match List-I with List-II.\n\nList-I\n a. DNA ligase\n b. PCR\n c. pBR322\n d. Plasmid\n\nList-II\n i. Amplification of DNA\n ii. Small DNA molecule\n iii. Molecular stitcher\n iv. Early widely used E. coli cloning vector",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: DNA ligase—molecular stitcher; PCR—amplification of DNA; pBR322—early widely used E. coli cloning vector; plasmid—small DNA molecule."
+    },
+    {
+     "id": "biology-42-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Cloning",
+     "question": "Consider the following statements:\n\nI. Gene cloning involves copying or amplifying a desired gene or DNA fragment.\nII. Whole-animal cloning involves cloning a complete organism.\nIII. In a bacterial cloning system, bacteria rapidly copy recombinant DNA.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Gene cloning copies or amplifies a desired gene or DNA fragment, whole-animal cloning produces a complete organism, and bacteria can rapidly copy recombinant DNA."
+    }
+   ]
+  },
+  "43": {
+   "number": 43,
+   "title": "GMO and Biofilm Applications",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:37+00:00",
+   "mcqs": [
+    {
+     "id": "biology-43-1",
+     "format": "Direct Recall",
+     "keyword": "Application",
+     "question": "Which of the following represents the application pathway mentioned for a GMO?",
+     "options": [
+      "Extracellular polymeric substances → bacteria → insulin",
+      "Foreign gene → food-processing surface → biofilm",
+      "Human insulin gene → bacteria → insulin",
+      "Genome → human tissue → antibiotic"
+     ],
+     "answer": 2,
+     "explanation": "The notes give the example: the human insulin gene is introduced into bacteria, which then produce insulin."
+    },
+    {
+     "id": "biology-43-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Genetic engineering",
+     "question": "Which of the following statements about genetically modified organisms is incorrect?",
+     "options": [
+      "Genetic engineering is used to produce a GMO.",
+      "A GMO involves a change in the genome or genetic makeup.",
+      "The transfer occurs in ways that would naturally occur.",
+      "The process may involve transferring a gene from one organism to another."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the final statement. The notes specify that the transfer occurs in ways that would not naturally occur."
+    },
+    {
+     "id": "biology-43-3",
+     "format": "Assertion-Reason",
+     "keyword": "Biofilm",
+     "question": "Assertion (A): Biofilms can result in difficult-to-eradicate infections.\nReason (R): The extracellular polymeric substance matrix gives biofilms additional resistance and protection.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are supported by the notes. The matrix provides additional resistance and protection, contributing to infections that are difficult to eradicate."
+    },
+    {
+     "id": "biology-43-4",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) GMO\n(b) Transgenic organism\n(c) Biofilm\n(d) Matrix\n\nList-II\n(i) Extracellular polymeric substances\n(ii) Microbial sessile community\n(iii) Genetically Modified Organism\n(iv) Organism into which a foreign gene has been introduced",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: GMO–Genetically Modified Organism, transgenic organism–organism with a foreign gene introduced, biofilm–microbial sessile community, and matrix–extracellular polymeric substances."
+    },
+    {
+     "id": "biology-43-5",
+     "format": "Count-Based",
+     "keyword": "Biofilm",
+     "question": "How many of the following are locations or materials on which biofilms can form?\n\nI. Medical implants\nII. Human tissues\nIII. Food\nIV. Food-processing surfaces",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The notes state that biofilms can form on medical implants, human tissues, food, and food-processing surfaces. Therefore, all four are correct."
+    }
+   ]
+  },
+  "44": {
+   "number": 44,
+   "title": "mRNA, Gene Regulation and Personalised Medicine",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U5"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:37+00:00",
+   "mcqs": [
+    {
+     "id": "biology-44-1",
+     "format": "Direct Recall",
+     "keyword": "Vaccine",
+     "question": "What is the primary function of mRNA in an mRNA-based vaccine platform?",
+     "options": [
+      "It identifies relevant genetic variants",
+      "It inactivates a bacterial toxin",
+      "It delivers a weakened pathogen",
+      "It carries the genetic message for protein production"
+     ],
+     "answer": 3,
+     "explanation": "mRNA is messenger RNA, and its function is to carry the genetic message for protein production. In an mRNA vaccine, it instructs cells to produce the target antigen."
+    },
+    {
+     "id": "biology-44-2",
+     "format": "Assertion-Reason",
+     "keyword": "Gene regulation",
+     "question": "Assertion (A): microRNA can suppress or reduce the expression of a target gene.\nReason (R): Its typical action is post-transcriptional regulation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. microRNA is a small non-coding RNA whose typical action is post-transcriptional regulation, leading to suppression or reduction of target gene expression."
+    },
+    {
+     "id": "biology-44-3",
+     "format": "List-Matching",
+     "keyword": "Vaccine platform",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Live attenuated\n(b) Subunit\n(c) Viral vector\n(d) Toxoid\n\nList-II\n(i) Inactivated bacterial toxin\n(ii) Weakened pathogen\n(iii) Selected antigen or protein\n(iv) Vector that delivers genetic instructions",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: live attenuated—weakened pathogen; subunit—selected antigen or protein; viral vector—vector that delivers genetic instructions; toxoid—inactivated bacterial toxin."
+    },
+    {
+     "id": "biology-44-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Personalised Medicine",
+     "question": "Consider the following statements:\nI. Genome sequencing provides genomic information.\nII. Pharmacogenomics relates genetics to drug response.\nIII. Personalised or precision medicine adapts treatment using individual biological or genetic information.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct according to the notes. Genome sequencing provides genomic information, pharmacogenomics links genetics with drug response, and personalised medicine adapts treatment to individual biological or genetic information."
+    },
+    {
+     "id": "biology-44-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vaccine platform",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "A DNA vaccine uses DNA as its core material or principle.",
+      "A recombinant vaccine consists of a selected antigen or protein.",
+      "An inactivated vaccine uses a killed or inactivated pathogen.",
+      "An mRNA vaccine uses mRNA as its core material or principle."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is the third one. A recombinant vaccine consists of a recombinant antigen; a selected antigen or protein describes a subunit vaccine."
+    }
+   ]
+  },
+  "45": {
+   "number": 45,
+   "title": "Plant Parts, Products and Propagation",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:36+00:00",
+   "mcqs": [
+    {
+     "id": "biology-45-1",
+     "format": "List-Matching",
+     "keyword": "Plant Part → Product",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Cinchona\n(b) Saffron\n(c) Turmeric\n(d) Peppermint\n\nList-II\n(i) Oil/menthol\n(ii) Quinine\n(iii) Spice/curcumin\n(iv) Spice/colouring",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Cinchona bark yields quinine, saffron stigma is used as spice/colouring, turmeric rhizome yields spice/curcumin, and peppermint leaf yields oil/menthol."
+    },
+    {
+     "id": "biology-45-2",
+     "format": "Assertion-Reason",
+     "keyword": "Plant Propagation",
+     "question": "Assertion (A): Sugarcane is propagated through stem cuttings or setts.\nReason (R): Sugarcane has sugar/sucrose as its economic importance.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, sugar/sucrose is Sugarcane's economic importance and does not explain its propagation through stem cuttings or setts."
+    },
+    {
+     "id": "biology-45-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Fruit Types",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Apple has an enlarged receptacle and is a pome.",
+      "Pineapple is an inflorescence-derived fruit called sorosis.",
+      "Jackfruit has an enlarged receptacle and is a pome.",
+      "Mulberry is an inflorescence-derived fruit called sorosis."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. The notes classify jackfruit as an inflorescence-derived sorosis, not as an enlarged-receptacle pome."
+    },
+    {
+     "id": "biology-45-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Propagation Material",
+     "question": "Consider the following statements:\nI. Banana can be propagated through suckers or rhizome, and tissue culture is also used.\nII. Potato is propagated through tuber.\nIII. Cuscuta is parasitic and has haustoria.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are directly supported by the notes: banana uses suckers/rhizome and tissue culture, potato uses tuber, and Cuscuta is parasitic with haustoria."
+    },
+    {
+     "id": "biology-45-5",
+     "format": "Direct Recall",
+     "keyword": "Plant Part → Edible Part",
+     "question": "Which plant has a fleshy aril as the edible part?",
+     "options": [
+      "Singhara/Trapa",
+      "Apple",
+      "Lychee",
+      "Okra"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify the fleshy aril as the edible part of lychee. Singhara/Trapa has an edible seed, while okra is a fruit/pod and apple has an enlarged receptacle."
+    }
+   ]
+  },
+  "46": {
+   "number": 46,
+   "title": "Plant Reproduction and Root Functions",
+   "tracker": {
+    "g1": [
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U3"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:40+00:00",
+   "mcqs": [
+    {
+     "id": "biology-46-1",
+     "format": "Direct Recall",
+     "keyword": "Vegetative propagation",
+     "question": "Gootee is a method of which type of vegetative propagation?",
+     "options": [
+      "Grafting",
+      "Cutting",
+      "Seed propagation",
+      "Air layering"
+     ],
+     "answer": 3,
+     "explanation": "Gootee is air layering, which is listed as a method of vegetative propagation."
+    },
+    {
+     "id": "biology-46-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Vegetative propagation",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Vegetative propagation is a form of asexual reproduction.",
+      "Vegetative offspring are usually genetically identical.",
+      "Vegetative propagation cannot transmit plant viruses.",
+      "Sexual propagation is also called seed propagation."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that vegetative propagation cannot transmit plant viruses. The notes state that it can also transmit plant viruses."
+    },
+    {
+     "id": "biology-46-3",
+     "format": "Assertion-Reason",
+     "keyword": "Vegetative propagation",
+     "question": "Assertion (A): Vegetative propagation generally produces genetically identical offspring.\nReason (R): Vegetative propagation is asexual reproduction involving one parent.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Vegetative propagation is asexual reproduction involving one parent, and its offspring are generally genetically identical or clonal."
+    },
+    {
+     "id": "biology-46-4",
+     "format": "List-Matching",
+     "keyword": "Root function",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Root\n(b) Root hairs\n(c) Tuberous root\n(d) Cuscuta\n\nList-II\n(i) Maximum water absorption\n(ii) Rootless parasitic plant\n(iii) Anchorage\n(iv) Modified root in sweet potato",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: root–anchorage, root hairs–maximum water absorption, tuberous root–modified root in sweet potato, and Cuscuta–rootless parasitic plant."
+    },
+    {
+     "id": "biology-46-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Plant reproduction",
+     "question": "Consider the following statements:\nI. The flower is the reproductive organ of flowering plants.\nII. Germination of a seed produces a new plant.\nIII. Deep roots help in water acquisition in xerophytes and phreatophytes.\nIV. The anther is the female reproductive structure.",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the anther is the male reproductive structure."
+    }
+   ]
+  },
+  "47": {
+   "number": 47,
+   "title": "Stem Functions and Modified Stems",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U3"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:39+00:00",
+   "mcqs": [
+    {
+     "id": "biology-47-1",
+     "format": "Direct Recall",
+     "keyword": "Stem Function",
+     "question": "Which stem function involves storing food?",
+     "options": [
+      "Vegetative reproduction",
+      "Storage",
+      "Transport",
+      "Support"
+     ],
+     "answer": 1,
+     "explanation": "Storage is a function of the stem in which food is stored."
+    },
+    {
+     "id": "biology-47-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Stem Function",
+     "question": "Which of the following statements about stem functions is incorrect?",
+     "options": [
+      "The stem gives structure and shape to the plant.",
+      "The stem bears leaves, flowers and fruits.",
+      "The stem stores flowers.",
+      "The stem transports materials."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is “stores flowers.” Storage means the stem stores food, whereas the stem bears leaves, flowers and fruits."
+    },
+    {
+     "id": "biology-47-3",
+     "format": "Assertion-Reason",
+     "keyword": "Stem Function",
+     "question": "Assertion (A): The stem provides support to the plant.\nReason (R): The stem gives structure and shape.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and giving structure and shape explains the support function of the stem."
+    },
+    {
+     "id": "biology-47-4",
+     "format": "List-Matching",
+     "keyword": "Modified stem",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Rhizome\n(b) Tuber\n(c) Bulb\n(d) Corm\n\nList-II\n(i) Garlic\n(ii) Suran/Jimikand\n(iii) Ginger and turmeric\n(iv) Potato",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Rhizome—ginger and turmeric; Tuber—potato; Bulb—garlic; Corm—suran/jimikand."
+    },
+    {
+     "id": "biology-47-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vegetative reproduction",
+     "question": "Consider the following statements:\nI. A stem can act as a propagating organ.\nII. Rhizome, tuber, bulb and corm are modified stems.\nIII. Garlic is an example of a tuber.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and II are correct. Garlic is an example of a bulb, not a tuber, so Statement III is incorrect."
+    }
+   ]
+  }
+ }
+}

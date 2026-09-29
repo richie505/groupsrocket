@@ -1,0 +1,2958 @@
+{
+ "subject": "Chemistry",
+ "sheets": {
+  "1": {
+   "number": 1,
+   "title": "Chemical Names, Formulas, Ores and Alloys",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:05+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-1-1",
+     "format": "Direct Recall",
+     "keyword": "Chemical Name ↔ Common Name",
+     "question": "Calcium sulphate hemihydrate (CaSO₄·½H₂O) is commonly known as:",
+     "options": [
+      "Quicklime",
+      "Gypsum",
+      "Plaster of Paris",
+      "Bleaching powder"
+     ],
+     "answer": 2,
+     "explanation": "Calcium sulphate hemihydrate (CaSO₄·½H₂O) is known as Plaster of Paris."
+    },
+    {
+     "id": "chemistry-1-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Chemical Formula / Composition",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Bauxite is hydrated aluminium oxide.",
+      "Haematite is the magnetic oxide of iron.",
+      "Galena is lead sulphide.",
+      "Cryolite is sodium aluminium fluoride."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is option 3. Magnetite, not haematite, is the magnetic oxide of iron; haematite is iron(III) oxide."
+    },
+    {
+     "id": "chemistry-1-3",
+     "format": "Assertion-Reason",
+     "keyword": "Heavy Water → Applications",
+     "question": "Assertion (A): Heavy water is used as a moderator and coolant in reactors.\nReason (R): Heavy water is deuterium oxide, D₂O.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, identifying heavy water as D₂O does not explain its stated use as a reactor moderator and coolant."
+    },
+    {
+     "id": "chemistry-1-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Symbol / Isotopes",
+     "question": "Consider the following statements:\nStatement A: Deuterium is represented as ²H or D.\nStatement B: Oxygen is the most abundant element in Earth's crust, at approximately 46.6%.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify deuterium as ²H (D) and state that oxygen is the most abundant element in Earth's crust at approximately 46.6%."
+    },
+    {
+     "id": "chemistry-1-5",
+     "format": "List-Matching",
+     "keyword": "Metal → Main Ore / Mineral",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Aluminium\n b. Iron\n c. Copper\n d. Zinc\n\nList-II\n i. Haematite / Magnetite\n ii. Bauxite / Cryolite / Corundum\n iii. Chalcopyrite / Cuprite\n iv. Zinc blende / Smithsonite",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are aluminium–bauxite/cryolite/corundum, iron–haematite/magnetite, copper–chalcopyrite/cuprite, and zinc–zinc blende/smithsonite."
+    },
+    {
+     "id": "chemistry-1-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Composition / Constituents – Alloys",
+     "question": "Consider the following statements:\nI. Brass consists of copper and zinc.\nII. Bronze consists of copper and tin.\nIII. German silver contains silver as one of its constituents.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Brass is Cu + Zn and bronze is Cu + Sn. German silver consists of Cu + Ni + Zn and contains 0% silver, so Statement III is false."
+    },
+    {
+     "id": "chemistry-1-7",
+     "format": "Direct Recall",
+     "keyword": "Process Term → Composition",
+     "question": "Water gas is composed of:",
+     "options": [
+      "Cu + Zn",
+      "CO + H₂",
+      "He + O₂",
+      "HCl + HNO₃"
+     ],
+     "answer": 1,
+     "explanation": "Water gas consists of carbon monoxide and hydrogen, represented as CO + H₂."
+    },
+    {
+     "id": "chemistry-1-8",
+     "format": "Assertion-Reason",
+     "keyword": "Karat (Gold) / pH",
+     "question": "Assertion (A): The pH of pure water is 7 and is neutral.\nReason (R): A pH of 7 is neutral.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason directly explains why pure water with pH 7 is neutral."
+    },
+    {
+     "id": "chemistry-1-9",
+     "format": "List-Matching",
+     "keyword": "Chemical Name ↔ Common Name",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Solid CO₂\n b. Nitrous oxide\n c. Polytetrafluoroethylene\n d. Sulfur\n\nList-II\n i. Teflon\n ii. Brimstone\n iii. Dry ice\n iv. Laughing gas",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Solid CO₂ is dry ice, nitrous oxide is laughing gas, polytetrafluoroethylene is Teflon, and sulfur is brimstone."
+    },
+    {
+     "id": "chemistry-1-10",
+     "format": "Count-Based",
+     "keyword": "Metal Ore Formula",
+     "question": "How many of the following are sulphide minerals according to their formulas?\n1. Galena (PbS)\n2. Cinnabar (HgS)\n3. Smithsonite (ZnCO₃)\n4. Cassiterite (SnO₂)",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Galena (PbS) and cinnabar (HgS) are sulphides. Smithsonite is ZnCO₃ and cassiterite is SnO₂, so the count is two."
+    }
+   ]
+  },
+  "2": {
+   "number": 2,
+   "title": "Chemistry Discoveries and Innovators",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:07+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-2-1",
+     "format": "Direct Recall",
+     "keyword": "Discovered by",
+     "question": "Who discovered phosphorus in 1669?",
+     "options": [
+      "H. Cavendish",
+      "D. Rutherford",
+      "Hennig Brand",
+      "C.W. Scheele"
+     ],
+     "answer": 2,
+     "explanation": "Hennig Brand discovered phosphorus in 1669. It is noted as the first recorded element discovery and was made from urine."
+    },
+    {
+     "id": "chemistry-2-2",
+     "format": "Direct Recall",
+     "keyword": "Chemical Process → Developer",
+     "question": "Who developed the Haber-Bosch process for industrial ammonia production along with Carl Bosch?",
+     "options": [
+      "F. Haber",
+      "F. Wöhler",
+      "J. J. Berzelius",
+      "A. Lavoisier"
+     ],
+     "answer": 0,
+     "explanation": "F. Haber developed the ammonia process, while C. Bosch industrialised it during 1909–13."
+    },
+    {
+     "id": "chemistry-2-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "First synthetic element",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Technetium was discovered by C. Perrier and E. Segrè in 1937.",
+      "Technetium was produced by cyclotron-bombarding molybdenum at Palermo.",
+      "Technetium was first identified in 1940 by E. McMillan and G. Seaborg.",
+      "Technetium was the first artificial or synthetic element."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the year and discoverers. Technetium was identified in 1937 by C. Perrier and E. Segrè, not in 1940 by E. McMillan and G. Seaborg."
+    },
+    {
+     "id": "chemistry-2-4",
+     "format": "Assertion-Reason",
+     "keyword": "First synthesized",
+     "question": "Assertion (A): F. Wöhler’s synthesis of urea helped establish the foundation of organic chemistry.\nReason (R): Urea was synthesized from inorganic ammonium cyanate in 1828, challenging vitalism.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The synthesis of urea from inorganic ammonium cyanate challenged vitalism and marked a foundational development in organic chemistry."
+    },
+    {
+     "id": "chemistry-2-5",
+     "format": "Assertion-Reason",
+     "keyword": "Discovered by",
+     "question": "Assertion (A): C.W. Scheele was the first to isolate oxygen.\nReason (R): J. Priestley published his work on oxygen earlier.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Priestley’s earlier publication does not explain Scheele’s priority in isolation. The notes identify Scheele as the first isolator and Priestley as the earlier publisher."
+    },
+    {
+     "id": "chemistry-2-6",
+     "format": "List-Matching",
+     "keyword": "Chemical → Year",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Hydrogen\n(b) Nitrogen\n(c) Uranium\n(d) Chromium\n\nList-II\n(i) 1797–98\n(ii) 1766\n(iii) 1789\n(iv) 1772",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are hydrogen–1766, nitrogen–1772, uranium–1789 and chromium–1797–98."
+    },
+    {
+     "id": "chemistry-2-7",
+     "format": "List-Matching",
+     "keyword": "Researcher → Contribution",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) A. Lavoisier\n(b) H. Davy\n(c) D. Mendeleev\n(d) W.H. Carothers\n\nList-II\n(i) Nylon and neoprene\n(ii) Periodic table with predictions\n(iii) Role of oxygen in combustion\n(iv) Isolation of several metals by electrolysis",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Lavoisier–role of oxygen in combustion, Davy–electrolytic isolation of metals, Mendeleev–periodic table with predictions, and Carothers–nylon and neoprene."
+    },
+    {
+     "id": "chemistry-2-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "First",
+     "question": "Consider the following statements:\nI. Nylon was the first fully synthetic fibre.\nII. Bakelite was the first synthetic plastic.\nIII. Mauveine was the first synthetic dye.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. The notes identify nylon, Bakelite and mauveine respectively with these firsts."
+    },
+    {
+     "id": "chemistry-2-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Researcher",
+     "question": "Consider the following statements:\nI. A. Lavoisier disproved the phlogiston theory.\nII. J. Dalton proposed the atomic theory.\nIII. D. Mendeleev predicted missing elements through his periodic table.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Lavoisier ended the phlogiston era, Dalton provided the foundation of modern atomic understanding, and Mendeleev made predictions of missing elements."
+    },
+    {
+     "id": "chemistry-2-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Chemical → Discoverer",
+     "question": "Consider the following statements:\nStatement A: H. Cavendish distinguished hydrogen as a distinct gas.\nStatement B: H. Moissan isolated fluorine by electrolysis.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Cavendish distinguished hydrogen as a distinct gas, while Moissan isolated fluorine in 1886 by electrolysis."
+    },
+    {
+     "id": "chemistry-2-11",
+     "format": "Chronological Ordering",
+     "keyword": "Chronology",
+     "question": "Arrange the following discoveries in chronological order:\nA. Nitrogen\nB. Phosphorus\nC. Oxygen\nD. Hydrogen",
+     "options": [
+      "D, B, A, C",
+      "B, C, D, A",
+      "C, B, A, D",
+      "B, D, C, A"
+     ],
+     "answer": 3,
+     "explanation": "The correct sequence is phosphorus in 1669, hydrogen in 1766, oxygen in 1771, and nitrogen in 1772."
+    },
+    {
+     "id": "chemistry-2-12",
+     "format": "Count-Based",
+     "keyword": "Discovered by",
+     "question": "How many of the following chemicals are associated with H. Moissan?\n1. Fluorine\n2. Chlorine\n3. Urea\n4. Teflon",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 0,
+     "explanation": "Only fluorine is associated with H. Moissan. He isolated fluorine in 1886 by electrolysis; the other three are associated with C.W. Scheele, F. Wöhler and R. Plunkett respectively."
+    },
+    {
+     "id": "chemistry-2-13",
+     "format": "Direct Recall",
+     "keyword": "First isolated",
+     "question": "By which method was fluorine isolated by H. Moissan?",
+     "options": [
+      "Electrolysis of molten salts",
+      "Electrolysis of HF and KHF₂",
+      "Heating HgO and nitrates",
+      "Cyclotron bombardment of molybdenum"
+     ],
+     "answer": 1,
+     "explanation": "The notes state that H. Moissan isolated fluorine in 1886 by electrolysis of HF and KHF₂."
+    }
+   ]
+  },
+  "3": {
+   "number": 3,
+   "title": "Metals, Ores and Their Properties",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:04+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-3-1",
+     "format": "Direct Recall",
+     "keyword": "Ore → Metal",
+     "question": "Monazite is an important ore of which metal?",
+     "options": [
+      "Manganese",
+      "Thorium",
+      "Magnesium",
+      "Titanium"
+     ],
+     "answer": 1,
+     "explanation": "Monazite is listed as an ore of thorium (Th)."
+    },
+    {
+     "id": "chemistry-3-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Ore → Formula / Composition",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Haematite has the formula Fe₂O₃.",
+      "Malachite has the formula Cu₂S.",
+      "Pyrolusite has the formula MnO₂.",
+      "Chalcopyrite has the formula CuFeS₂."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is about malachite. Its formula is Cu₂(CO₃)(OH)₂, whereas Cu₂S is the formula of chalcocite."
+    },
+    {
+     "id": "chemistry-3-3",
+     "format": "Assertion-Reason",
+     "keyword": "Extraction process",
+     "question": "Assertion (A): Electrolysis is used to extract highly reactive metals such as sodium, potassium, calcium, magnesium and aluminium.\nReason (R): These metals are obtained from molten salts or molten cryolite by electrolysis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The use of molten salts or cryolite in electrolysis explains the extraction of these highly reactive metals."
+    },
+    {
+     "id": "chemistry-3-4",
+     "format": "List-Matching",
+     "keyword": "Ore → Metal",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Galena\n(b) Cinnabar\n(c) Cassiterite\n(d) Argentite\n\nList-II\n(i) Silver\n(ii) Mercury\n(iii) Lead\n(iv) Tin",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Galena–Lead, Cinnabar–Mercury, Cassiterite–Tin and Argentite–Silver."
+    },
+    {
+     "id": "chemistry-3-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Metal → Property",
+     "question": "Consider the following statements:\nI. Lithium is the lightest metal.\nII. Osmium is the densest or heaviest natural metal.\nIII. Tungsten is the hardest metal.\nIV. Mercury is the only liquid metal at room temperature.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are listed properties of the respective metals."
+    },
+    {
+     "id": "chemistry-3-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Corrosion",
+     "question": "Consider the following statements:\nStatement A: Rusting of iron requires both oxygen and moisture.\nStatement B: The weight of iron increases during rusting because hydrated Fe₂O₃ is formed.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Rusting involves oxygen and moisture, and the formation of hydrated Fe₂O₃ causes an increase in weight."
+    },
+    {
+     "id": "chemistry-3-7",
+     "format": "Count-Based",
+     "keyword": "Natural occurrence",
+     "question": "How many of the following metals are listed as occurring in the free or native state?\n1. Gold\n2. Silver\n3. Platinum\n4. Aluminium",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Gold, silver and platinum occur in the free or native state. Aluminium occurs in combined form as bauxite, so the number is three."
+    },
+    {
+     "id": "chemistry-3-8",
+     "format": "Direct Recall",
+     "keyword": "Metal → Use / Application",
+     "question": "Which alloy is used for aircraft and consists of aluminium, copper, magnesium and manganese?",
+     "options": [
+      "Duralumin",
+      "Bronze",
+      "Brass",
+      "Nichrome"
+     ],
+     "answer": 0,
+     "explanation": "Duralumin consists of Al, Cu, Mg and Mn and is used for aircraft."
+    },
+    {
+     "id": "chemistry-3-9",
+     "format": "Assertion-Reason",
+     "keyword": "Extraction process",
+     "question": "Assertion (A): Roasting is associated with sulphide ores.\nReason (R): Roasting heats sulphide ores in air and converts them to oxides.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the conversion of sulphide ores to oxides in air explains the association of roasting with sulphide ores."
+    },
+    {
+     "id": "chemistry-3-10",
+     "format": "List-Matching",
+     "keyword": "Extraction process",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Smelting\n(b) Calcination\n(c) Froth flotation\n(d) Carbon reduction\n\nList-II\n(i) Concentration of sulphide ores\n(ii) Extraction of less reactive metals\n(iii) Heating carbonate or hydroxide ores in limited air\n(iv) Obtaining metal in fused state by reduction at high temperature",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Smelting gives metal in the fused state by high-temperature reduction; calcination heats carbonate or hydroxide ores in limited air; froth flotation concentrates sulphide ores; carbon reduction extracts less reactive metals."
+    },
+    {
+     "id": "chemistry-3-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Reactivity Series",
+     "question": "Consider the following statements:\nI. Potassium is above sodium in the reactivity series.\nII. Aluminium is above zinc in the reactivity series.\nIII. Copper is above mercury in the reactivity series.\nIV. Gold is below silver in the reactivity series.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "The listed order is K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au. Thus I, II and IV are correct, while copper is above mercury, making III incorrect."
+    },
+    {
+     "id": "chemistry-3-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Natural occurrence / Location",
+     "question": "Consider the following statements:\nStatement A: Ilmenite occurs in beach sands along the Kerala to Odisha coast.\nStatement B: Haematite of high grade is associated with Bailadila in Chhattisgarh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ilmenite is listed in coastal beach sands from Kerala to Odisha, while high-grade haematite is associated with Bailadila, Chhattisgarh."
+    },
+    {
+     "id": "chemistry-3-13",
+     "format": "Direct Recall",
+     "keyword": "Metal → Use / Application",
+     "question": "Which metal is used in street lights and also as a coolant in liquid form in FBTR?",
+     "options": [
+      "Tungsten",
+      "Potassium",
+      "Sodium",
+      "Mercury"
+     ],
+     "answer": 2,
+     "explanation": "Sodium is used in sodium-vapour street lights and as a liquid coolant in FBTR."
+    }
+   ]
+  },
+  "4": {
+   "number": 4,
+   "title": "Alloy Composition, Properties and Uses",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:06+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-4-1",
+     "format": "List-Matching",
+     "keyword": "Composition",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Brass\n b. Duralumin\n c. Amalgam\n d. Nichrome\n\nList-II\n i. Hg + other metal\n ii. Cu + Zn\n iii. Ni + Cr (± Fe)\n iv. Al + Cu + Mg + Mn",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Brass is Cu + Zn, Duralumin is Al + Cu + Mg + Mn, Amalgam is Hg with another metal, and Nichrome is Ni + Cr (± Fe)."
+    },
+    {
+     "id": "chemistry-4-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Composition",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Stainless steel contains Fe + Cr (≥ 10–12%) + Ni often + C.",
+      "German Silver contains Cu + Ni + Zn and has no real Ag.",
+      "Sterling Silver usually contains 7.5% Ag and 92.5% Cu.",
+      "Solder may contain Sn + Pb or Sn + Ag."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the composition of Sterling Silver. It usually contains 92.5% Ag and 7.5% Cu, not 7.5% Ag and 92.5% Cu."
+    },
+    {
+     "id": "chemistry-4-3",
+     "format": "Assertion-Reason",
+     "keyword": "Heating elements",
+     "question": "Assertion (A): Nichrome is used in heating elements.\nReason (R): Nichrome has high electrical resistivity and high melting point.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Nichrome’s high electrical resistivity and high melting point support its use in heating elements."
+    },
+    {
+     "id": "chemistry-4-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Special Property",
+     "question": "Consider the following statements:\nStatement A: Bronze is hard, corrosion-resistant, non-sparking and sonorous.\nStatement B: Solder has high tensile strength as its key property.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Bronze has the properties listed in Statement A. Solder is characterised by its low melting point, not high tensile strength."
+    },
+    {
+     "id": "chemistry-4-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Special Property",
+     "question": "Consider the following statements:\nI. Steel has high tensile strength.\nII. Duralumin is light yet strong.\nIII. Amalgam becomes soft when mixed and hardens on setting.\nIV. Brass has a golden colour.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "I and II only",
+      "II, III and IV only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and IV are correct. Amalgam is soft when mixed and hardens on setting, so Statement III is also correct as written."
+    },
+    {
+     "id": "chemistry-4-6",
+     "format": "List-Matching",
+     "keyword": "Alloy → Use / Industry",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Alnico\n b. Gunmetal\n c. Amalgam\n d. Duralumin\n\nList-II\n i. Dental fillings — Dentistry\n ii. Aircraft body and parts, cookware — Aerospace, aviation\n iii. Permanent magnets — Magnet manufacturing, electronics\n iv. Guns, bearings, valves — Defence, engineering",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Alnico is used for permanent magnets, Gunmetal for guns, bearings and valves, Amalgam for dental fillings, and Duralumin for aircraft body and parts and cookware."
+    },
+    {
+     "id": "chemistry-4-7",
+     "format": "Count-Based",
+     "keyword": "Metal → Alloy",
+     "question": "How many of the following are listed as common alloys formed with copper?\n1. Brass\n2. Bronze\n3. German Silver\n4. Alnico",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Brass, Bronze and German Silver are listed as common alloys formed with copper. Alnico is listed under iron, not copper; therefore, the count is three."
+    },
+    {
+     "id": "chemistry-4-8",
+     "format": "Direct Recall",
+     "keyword": "Alloy → Use / Industry",
+     "question": "Which alloy is used for utensils, surgical tools, medical equipment, architecture, automotive and aerospace applications?",
+     "options": [
+      "Steel",
+      "Duralumin",
+      "Brass",
+      "Stainless Steel"
+     ],
+     "answer": 3,
+     "explanation": "Stainless Steel is listed for utensils, surgical tools, medical equipment, architecture, automotive and aerospace applications."
+    }
+   ]
+  },
+  "5": {
+   "number": 5,
+   "title": "Acids, Bases and Salts",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:06+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-5-1",
+     "format": "Direct Recall",
+     "keyword": "Acid → Common name",
+     "question": "Which acid is commonly known as the ‘King of Chemicals’?",
+     "options": [
+      "Phosphoric acid",
+      "Nitric acid",
+      "Hydrochloric acid",
+      "Sulphuric acid"
+     ],
+     "answer": 3,
+     "explanation": "Sulphuric acid (H₂SO₄) is called the ‘King of Chemicals’ in the notes."
+    },
+    {
+     "id": "chemistry-5-2",
+     "format": "Direct Recall",
+     "keyword": "Base → Use / Application",
+     "question": "Which base is used as an antacid and is commonly known as Milk of Magnesia?",
+     "options": [
+      "Sodium hydroxide",
+      "Calcium hydroxide",
+      "Ammonium hydroxide",
+      "Magnesium hydroxide"
+     ],
+     "answer": 3,
+     "explanation": "Magnesium hydroxide, Mg(OH)₂, is called Milk of Magnesia and is used as an antacid."
+    },
+    {
+     "id": "chemistry-5-3",
+     "format": "Direct Recall",
+     "keyword": "Salt → Preparation",
+     "question": "Plaster of Paris is prepared by heating gypsum at which temperature?",
+     "options": [
+      "573 K",
+      "473 K",
+      "373 K",
+      "273 K"
+     ],
+     "answer": 2,
+     "explanation": "The notes state that Plaster of Paris is prepared by heating gypsum at 373 K."
+    },
+    {
+     "id": "chemistry-5-4",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Salt → Common name",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Sodium chloride is commonly known as table salt.",
+      "Copper sulphate is commonly known as blue vitriol.",
+      "Magnesium sulphate is commonly known as bleaching powder.",
+      "Sodium hydrogencarbonate is commonly known as baking soda."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the common name: magnesium sulphate is Epsom salt, whereas bleaching powder is calcium oxychloride."
+    },
+    {
+     "id": "chemistry-5-5",
+     "format": "Assertion-Reason",
+     "keyword": "Acid → Reaction",
+     "question": "Assertion (A): The reaction between an acid and a base is a neutralization reaction.\nReason (R): An acid and a base react to form salt and water, and the reaction is exothermic.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify acid–base reaction as neutralization, producing salt and water; the reaction is also exothermic."
+    },
+    {
+     "id": "chemistry-5-6",
+     "format": "Assertion-Reason",
+     "keyword": "Acid → Natural occurrence",
+     "question": "Assertion (A): Carbonic acid is formed when carbon dioxide reacts with water.\nReason (R): Carbonic acid occurs in soda water and rain water containing carbon dioxide.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, the occurrence of carbonic acid in soda water and rain water does not explain its formation from CO₂ and water."
+    },
+    {
+     "id": "chemistry-5-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Indicator → Colour",
+     "question": "Consider the following statements:\nStatement A: Phenolphthalein is colourless in acid and pink in base.\nStatement B: Methyl orange is yellow in acid and red or pink in base.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Phenolphthalein is colourless in acid and pink in base. Methyl orange is red or pink in acid and yellow in base, so Statement B is false."
+    },
+    {
+     "id": "chemistry-5-8",
+     "format": "List-Matching",
+     "keyword": "Acid → Formula / Common name",
+     "question": "Match List-I with List-II.\n\nList-I\n a. HCl\n b. HNO₃\n c. H₂SO₄\n d. CH₃COOH\n\nList-II\n i. Vinegar\n ii. Aqua fortis\n iii. Muriatic acid\n iv. Oil of vitriol",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are HCl–Muriatic acid, HNO₃–Aqua fortis, H₂SO₄–Oil of vitriol and CH₃COOH–Vinegar."
+    },
+    {
+     "id": "chemistry-5-9",
+     "format": "List-Matching",
+     "keyword": "Salt → Main use",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Calcium oxychloride\n b. Calcium sulphate hemihydrate\n c. Copper sulphate\n d. Sodium carbonate\n\nList-II\n i. Fungicide and laboratory reagent\n ii. Bleaching, disinfectant and water treatment\n iii. Cleaning, glass, paper and water softening\n iv. Setting bones, casts and moulds",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are calcium oxychloride–bleaching and water treatment, calcium sulphate hemihydrate–casts and moulds, copper sulphate–fungicide and laboratory reagent, and sodium carbonate–cleaning, glass, paper and water softening."
+    },
+    {
+     "id": "chemistry-5-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Chemical → Acid / Base / Salt",
+     "question": "Consider the following statements:\nI. NaOH and KOH are bases.\nII. NaCl and NaHCO₃ are salts.\nIII. CO₂ and SO₂ are basic non-metal oxides.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and II are correct. CO₂ and SO₂ are acidic non-metal oxides, so Statement III is incorrect."
+    },
+    {
+     "id": "chemistry-5-11",
+     "format": "Count-Based",
+     "keyword": "Acid → Natural occurrence",
+     "question": "How many of the following acid–natural occurrence pairs are correctly matched?\n1. Citric acid — citrus fruits\n2. Lactic acid — sour milk and curd\n3. Formic acid — ant stings and bee stings\n4. Malic acid — apples",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four pairs are correctly matched according to the notes."
+    }
+   ]
+  },
+  "6": {
+   "number": 6,
+   "title": "Carbon Allotropes and Compounds",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:03+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-6-1",
+     "format": "Direct Recall",
+     "keyword": "Full form",
+     "question": "Which carbon allotrope is also known as Buckminsterfullerene or Buckyball?",
+     "options": [
+      "Fullerene (C₆₀)",
+      "Graphite",
+      "Graphene",
+      "Carbon nanotube"
+     ],
+     "answer": 0,
+     "explanation": "Fullerene with the formula C₆₀ is known as Buckminsterfullerene or Buckyball."
+    },
+    {
+     "id": "chemistry-6-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Allotrope → Use / Application",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Diamond is used in jewellery and cutting, drilling and grinding tools.",
+      "Fullerene is used in drug delivery, lubricants, catalysts and nanotechnology.",
+      "Graphene is mainly used as a fuel and reducing agent in iron extraction.",
+      "Graphite is used as a pencil 'lead' and as a dry lubricant."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. Graphene is used in electronics, composites, sensors and future flexible devices; coke is used as a fuel and reducing agent in iron extraction."
+    },
+    {
+     "id": "chemistry-6-3",
+     "format": "Assertion-Reason",
+     "keyword": "Allotrope → Structure",
+     "question": "Assertion (A): Graphite is soft and slippery.\nReason (R): Its layers are held together by weak van der Waals forces.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the weak van der Waals forces between graphite's layers explain its soft and slippery nature."
+    },
+    {
+     "id": "chemistry-6-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Carbon compound → Use",
+     "question": "Consider the following statements:\nStatement A: Methane is used as a fuel in CNG and biogas.\nStatement B: Ethanoic acid is used in vinegar, which contains 5–8% ethanoic acid.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are directly supported by the notes: methane is a fuel in CNG and biogas, while ethanoic acid is present in vinegar at 5–8%."
+    },
+    {
+     "id": "chemistry-6-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Hybridisation",
+     "question": "Consider the following statements:\nI. Diamond has sp³ hybridisation.\nII. Graphene is a single atom-thick layer of graphite and has sp² hybridisation.\nIII. Carbon nanotubes are cylindrical rolled graphene sheets.\nIV. Fullerene has a planar sheet structure.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct. Fullerene has a hollow cage structure, not a planar sheet structure."
+    },
+    {
+     "id": "chemistry-6-6",
+     "format": "List-Matching",
+     "keyword": "Carbon compound → Use",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Methane\n b. Ethanol\n c. Ethanoic acid\n d. Esters\n\nList-II\n i. Vinegar and preservative\n ii. Fuel in CNG and biogas\n iii. Solvent, antiseptic, fuel, beverages and medicines\n iv. Perfumes and flavouring agents",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: methane–fuel in CNG and biogas, ethanol–solvent/antiseptic/fuel and other uses, ethanoic acid–vinegar and preservative, and esters–perfumes and flavouring agents."
+    },
+    {
+     "id": "chemistry-6-7",
+     "format": "Count-Based",
+     "keyword": "Industrial application",
+     "question": "How many of the following industrial applications are correctly matched?\nI. Graphite — electrodes and batteries\nII. Diamond — cutting and abrasives\nIII. Activated charcoal — purification\nIV. Carbon black — reducing agent for iron extraction",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three applications are correctly matched: graphite is used in electrodes and batteries, diamond in cutting and abrasives, and activated charcoal in purification. Coke, not carbon black, is the reducing agent used in iron extraction."
+    },
+    {
+     "id": "chemistry-6-8",
+     "format": "Direct Recall",
+     "keyword": "Cleansing agent",
+     "question": "Which carbon compound is used for cleansing in both hard and soft water?",
+     "options": [
+      "Ethanol",
+      "Soap",
+      "Detergent",
+      "Ethanoic acid"
+     ],
+     "answer": 2,
+     "explanation": "Detergents, consisting of long-chain sulphonates or ammonium salts, are used for cleansing in both hard and soft water. Soap is specified for cleansing in soft water."
+    }
+   ]
+  },
+  "7": {
+   "number": 7,
+   "title": "Organic Compounds, Functional Groups and Reactions",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:05+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-7-1",
+     "format": "Direct Recall",
+     "keyword": "Common name",
+     "question": "Which is the common name of ethyne?",
+     "options": [
+      "Ethylene",
+      "Acetylene",
+      "Benzol",
+      "Ethyl alcohol"
+     ],
+     "answer": 1,
+     "explanation": "Ethyne is commonly known as acetylene."
+    },
+    {
+     "id": "chemistry-7-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Functional group",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Alcohols contain the –OH functional group.",
+      "Esters contain the –COOH functional group.",
+      "Amines contain the –NH₂ functional group.",
+      "Aldehydes contain the –CHO functional group."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the functional group of esters. Esters contain –COOR, whereas –COOH is the functional group of carboxylic acids."
+    },
+    {
+     "id": "chemistry-7-3",
+     "format": "Assertion-Reason",
+     "keyword": "Source / Preparation",
+     "question": "Assertion (A): Ethanoic acid is associated with vinegar.\nReason (R): Ethanoic acid is prepared by oxidation of ethanol.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: vinegar is a 5–8% solution of ethanoic acid, and ethanoic acid can be prepared by oxidation of ethanol. However, the preparation method does not explain its association with vinegar."
+    },
+    {
+     "id": "chemistry-7-4",
+     "format": "Assertion-Reason",
+     "keyword": "Alkene – Reaction",
+     "question": "Assertion (A): Ethene decolourises bromine solution.\nReason (R): Ethene undergoes addition halogenation with bromine to form C₂H₄Br₂.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the bromine addition reaction explains the decolourisation of bromine by ethene."
+    },
+    {
+     "id": "chemistry-7-5",
+     "format": "List-Matching",
+     "keyword": "Source / Preparation",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Methane\n(b) Ethyne\n(c) Soap\n(d) Esters\n\nList-II\ni. Esterification\n ii. Calcium carbide and water\n iii. Natural gas, biogas and marshy places\n iv. Saponification",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are methane–natural gas, biogas and marshy places; ethyne–calcium carbide and water; soap–saponification; and esters–esterification."
+    },
+    {
+     "id": "chemistry-7-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Hydrocarbon – Formula",
+     "question": "Consider the following statements:\nI. Alkanes have the general formula CₙH₂ₙ₊₂ and are saturated.\nII. Cycloalkanes have the general formula CₙH₂ₙ and are saturated ring compounds.\nIII. Alkynes have the general formula CₙH₂ₙ and contain a C≡C bond.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct. Alkynes have the formula CₙH₂ₙ₋₂, not CₙH₂ₙ, so statement III is incorrect."
+    },
+    {
+     "id": "chemistry-7-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Soap and Detergent",
+     "question": "Consider the following statements:\nStatement A: Soap is effective for cleansing in soft water.\nStatement B: Detergent works in both hard and soft water.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that soap cleanses in soft water, while detergent works in both hard and soft water."
+    },
+    {
+     "id": "chemistry-7-8",
+     "format": "Count-Based",
+     "keyword": "Properties of Hydrocarbons",
+     "question": "How many of the following are described as colourless gases?\n1. Methane\n2. Ethene\n3. Ethyne\n4. Acetone",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Methane, ethene and ethyne are described as colourless gases. Acetone is described as colourless and volatile, not as a gas."
+    },
+    {
+     "id": "chemistry-7-9",
+     "format": "List-Matching",
+     "keyword": "Functional group",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Alcohol\n(b) Aldehyde\n(c) Ketone\n(d) Haloalkane\n\nList-II\ni. –X (Cl, Br, I)\n ii. –CHO\n iii. –OH\n iv. >C=O",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are alcohol–OH, aldehyde–CHO, ketone–>C=O, and haloalkane–X (Cl, Br, I)."
+    }
+   ]
+  },
+  "8": {
+   "number": 8,
+   "title": "Polymers: Types, Properties and Uses",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U4"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:09+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-8-1",
+     "format": "List-Matching",
+     "keyword": "Monomer → Polymer",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) PVC\n(b) Polythene\n(c) Polystyrene\n(d) Teflon\n\nList-II\n(i) Ethene\n(ii) Vinyl chloride\n(iii) Tetrafluoroethene\n(iv) Styrene",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "PVC is formed from vinyl chloride, polythene from ethene, polystyrene from styrene and Teflon from tetrafluoroethene."
+    },
+    {
+     "id": "chemistry-8-2",
+     "format": "Direct Recall",
+     "keyword": "Polymer → Monomer",
+     "question": "Buna-S is formed from which combination of monomers?",
+     "options": [
+      "Ethylene glycol and terephthalic acid",
+      "Phenol and formaldehyde",
+      "1,3-Butadiene and styrene",
+      "1,3-Butadiene and acrylonitrile"
+     ],
+     "answer": 2,
+     "explanation": "Buna-S is formed by the addition polymerisation of 1,3-butadiene and styrene."
+    },
+    {
+     "id": "chemistry-8-3",
+     "format": "Assertion-Reason",
+     "keyword": "Thermoplastic / Thermosetting",
+     "question": "Assertion (A): Thermoplastics can be remoulded and recycled.\nReason (R): Thermoplastics soften on heating and harden on cooling.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that thermoplastics soften on heating and harden on cooling, allowing them to be remoulded and recycled."
+    },
+    {
+     "id": "chemistry-8-4",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Polymerisation – Structure / Class",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Polythene is an addition polymer and may be linear or branched.",
+      "Terylene is a condensation homopolymer and a polyester.",
+      "Bakelite is a condensation polymer with a cross-linked structure.",
+      "Nylon-6,6 is a condensation copolymer and a polyamide."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is “homopolymer” for Terylene. Terylene is a condensation copolymer and a polyester."
+    },
+    {
+     "id": "chemistry-8-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Natural / Synthetic Polymers",
+     "question": "Consider the following statements:\nI. Proteins are natural polymers of amino acids.\nII. Rayon is listed as a natural polymer.\nIII. Nucleic acids are natural polymers.\nIV. Natural rubber is a natural polymer of isoprene.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and IV only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "Proteins, nucleic acids and natural rubber are listed as natural polymers. Rayon is classified as a semi-synthetic polymer, not a natural polymer."
+    },
+    {
+     "id": "chemistry-8-6",
+     "format": "List-Matching",
+     "keyword": "Polymer → Use / Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Teflon\n(b) Bakelite\n(c) Buna-S\n(d) Glyptal\n\nList-II\n(i) Automobile tyres\n(ii) Paints and lacquers\n(iii) Electrical switches and plugs\n(iv) Non-stick cookware",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Teflon is used in non-stick cookware, Bakelite in electrical switches and plugs, Buna-S in automobile tyres, and Glyptal in paints and lacquers."
+    },
+    {
+     "id": "chemistry-8-7",
+     "format": "Assertion-Reason",
+     "keyword": "Biodegradable Polymers",
+     "question": "Assertion (A): Biodegradable polymers are eco-friendly.\nReason (R): They are degraded by microorganisms.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes describe biodegradable polymers as eco-friendly because they are degraded by microorganisms."
+    },
+    {
+     "id": "chemistry-8-8",
+     "format": "Direct Recall",
+     "keyword": "Polymer → Monomer",
+     "question": "Which pair of monomers forms Nylon-2-Nylon-6?",
+     "options": [
+      "Caprolactam and adipic acid",
+      "Ethylene glycol and phthalic acid",
+      "Melamine and formaldehyde",
+      "Glycine and amino caproic acid"
+     ],
+     "answer": 3,
+     "explanation": "Nylon-2-Nylon-6 is formed from glycine and amino caproic acid."
+    },
+    {
+     "id": "chemistry-8-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Natural / Synthetic Polymers",
+     "question": "Consider the following statements:\nStatement A: Vulcanised rubber is classified as a semi-synthetic polymer.\nStatement B: Silk is classified as a synthetic polymer.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Vulcanised rubber is listed under semi-synthetic polymers, whereas silk is listed under natural polymers."
+    },
+    {
+     "id": "chemistry-8-10",
+     "format": "Count-Based",
+     "keyword": "Biodegradable / Non-biodegradable",
+     "question": "How many of the following are listed as biodegradable polymers?\n1. PHBV\n2. PVC\n3. Starch\n4. Proteins",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "PHBV, starch and proteins are biodegradable. PVC is listed among non-biodegradable synthetic plastics; therefore, the count is three."
+    }
+   ]
+  },
+  "9": {
+   "number": 9,
+   "title": "Fuels: Composition, Uses and Pollution",
+   "tracker": {
+    "g1": [
+     "G1-F21",
+     "G1-F22",
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U2",
+     "G2-M2B-U4"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:12+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-9-1",
+     "format": "Direct Recall",
+     "keyword": "Composition / Constituents",
+     "question": "Which of the following correctly represents the main constituents of LPG?",
+     "options": [
+      "Methane and ethane",
+      "Propane and butane",
+      "Carbon and moisture with ash",
+      "Carbon monoxide, hydrogen and nitrogen"
+     ],
+     "answer": 1,
+     "explanation": "LPG mainly consists of propane (C₃H₈) and butane (C₄H₁₀)."
+    },
+    {
+     "id": "chemistry-9-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Source / Type",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Coal is a fossil fuel found in sedimentary rocks and is a solid conventional fuel.",
+      "Hydrogen can be produced by electrolysis of water or steam reforming and is a gaseous clean or future fuel.",
+      "Biogas is produced by the aerobic digestion of organic waste and is a gaseous renewable fuel.",
+      "LPG is obtained from petroleum refining or natural gas and is a gaseous, liquefied conventional fuel."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is ‘aerobic digestion’. The notes state that biogas is produced by anaerobic digestion of organic waste."
+    },
+    {
+     "id": "chemistry-9-3",
+     "format": "Assertion-Reason",
+     "keyword": "Cleanest fuel",
+     "question": "Assertion (A): Hydrogen is considered the cleanest fuel among those listed.\nReason (R): When used in fuel cells or pure combustion, hydrogen produces only water and has zero carbon, carbon monoxide, sulphur dioxide and particulate emissions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The production of only water and absence of the listed emissions explains why hydrogen is ranked as the cleanest fuel."
+    },
+    {
+     "id": "chemistry-9-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Octane number / Cetane number",
+     "question": "Consider the following statements:\nStatement A: Octane number measures the anti-knock quality of petrol in spark-ignition engines.\nStatement B: Cetane number measures the ignition quality of diesel in compression-ignition engines.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct according to the notes. Octane number concerns petrol’s resistance to knocking, while cetane number concerns diesel ignition quality."
+    },
+    {
+     "id": "chemistry-9-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Composition / Constituents",
+     "question": "Consider the following statements:\nI. Natural gas consists mostly of methane, generally in the range of 70–90%.\nII. Biogas contains methane in the range of 25–50% and carbon dioxide in the range of 50–75%.\nIII. Producer gas consists of carbon monoxide, hydrogen and nitrogen.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and III are correct. In biogas, methane is 50–75% and carbon dioxide is 25–50%, so Statement II reverses the stated ranges."
+    },
+    {
+     "id": "chemistry-9-6",
+     "format": "List-Matching",
+     "keyword": "Use / Application",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Petrol\n b. Diesel\n c. Kerosene\n d. Hydrogen\n\nList-II\n i. Fuel cells and rockets\n ii. Domestic lighting/cooking and aviation\n iii. Spark-ignition engines\n iv. Compression-ignition engines\n\nSelect the correct code:",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are petrol–spark-ignition engines, diesel–compression-ignition engines, kerosene–domestic lighting/cooking and aviation, and hydrogen–fuel cells and rockets."
+    },
+    {
+     "id": "chemistry-9-7",
+     "format": "List-Matching",
+     "keyword": "Calorific value / Highest–Lowest",
+     "question": "Match List-I with the approximate calorific values in List-II.\n\nList-I\n a. Hydrogen\n b. LPG\n c. Coal\n d. Cow-dung cake\n\nList-II\n i. Approximately 1,50,000 kJ/kg\n ii. Approximately 6,000–8,000 kJ/kg\n iii. Approximately 55,000 kJ/kg\n iv. Approximately 25,000–33,000 kJ/kg\n\nSelect the correct code:",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Hydrogen has approximately 1,50,000 kJ/kg, LPG 55,000 kJ/kg, coal 25,000–33,000 kJ/kg, and cow-dung cake 6,000–8,000 kJ/kg."
+    },
+    {
+     "id": "chemistry-9-8",
+     "format": "Direct Recall",
+     "keyword": "Knocking",
+     "question": "What is meant by knocking in petrol engines?",
+     "options": [
+      "Shorter ignition delay producing smoother combustion in diesel engines",
+      "Addition of ethanol to petrol to improve octane number",
+      "Abnormal combustion or auto-ignition causing a metallic knock sound",
+      "Fractional distillation of crude oil into liquid fuels"
+     ],
+     "answer": 2,
+     "explanation": "Knocking is abnormal combustion or auto-ignition in petrol engines, causing a metallic ‘knock’ sound, reduced efficiency and engine damage."
+    },
+    {
+     "id": "chemistry-9-9",
+     "format": "Assertion-Reason",
+     "keyword": "Clean fuel / Pollution",
+     "question": "Assertion (A): CNG and LPG are cleaner alternatives to petrol and diesel.\nReason (R): CNG and LPG produce lower levels of carbon monoxide, hydrocarbons and particulate matter, although they still produce carbon dioxide.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the lower emissions of carbon monoxide, hydrocarbons and particulate matter explain why CNG and LPG are cleaner than petrol and diesel."
+    },
+    {
+     "id": "chemistry-9-10",
+     "format": "Count-Based",
+     "keyword": "Anti-knocking agent",
+     "question": "How many of the following are listed as anti-knocking agents or substances that increase the octane number?\n1. Tetraethyl lead (TEL)\n2. MTBE\n3. Ethanol\n4. Toluene",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed substances—TEL, MTBE, ethanol and toluene—are given as anti-knocking agents or octane-number-increasing substances in the notes."
+    }
+   ]
+  },
+  "10": {
+   "number": 10,
+   "title": "Hydrogen Production, Properties and Applications",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F21"
+    ],
+    "g2": [
+     "G2-M2B-U2",
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:06+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-10-1",
+     "format": "Direct Recall",
+     "keyword": "Hydrogen",
+     "question": "Which of the following correctly describes hydrogen’s calorific value?",
+     "options": [
+      "Highest among common fuels, with no calorific value specified",
+      "Highest among common fuels, approximately 1,50,000 kJ/kg",
+      "Lowest-density fuel with no calorific value specified",
+      "Lowest among common fuels, approximately 1,50,000 kJ/kg"
+     ],
+     "answer": 1,
+     "explanation": "Hydrogen has the highest calorific value among common fuels, approximately 1,50,000 kJ/kg."
+    },
+    {
+     "id": "chemistry-10-2",
+     "format": "List-Matching",
+     "keyword": "Hydrogen – Type / Colour",
+     "question": "Match List-I with List-II regarding hydrogen types and carbon dioxide emissions.\n\nList-I\n(a) Grey hydrogen\n(b) Blue hydrogen\n(c) Green hydrogen\n(d) Brown/Black hydrogen\n\nList-II\n(i) Zero emissions\n(ii) High emissions, with carbon dioxide released\n(iii) Low emissions, with carbon dioxide captured\n(iv) Very high emissions",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Grey hydrogen has high released emissions; blue has low captured emissions; green has zero emissions; and brown/black hydrogen has very high emissions."
+    },
+    {
+     "id": "chemistry-10-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Fuel Cell",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "A fuel cell is an electrochemical device that produces electricity and water from hydrogen and oxygen.",
+      "The only product of hydrogen combustion is carbon dioxide.",
+      "Hydrogen is a highly flammable gas.",
+      "Hydrogen burns with a pale blue flame."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement alters the combustion product. Hydrogen combustion produces only water (H₂O), not carbon dioxide."
+    },
+    {
+     "id": "chemistry-10-4",
+     "format": "Assertion-Reason",
+     "keyword": "Energy Carrier",
+     "question": "Assertion (A): Hydrogen is an energy carrier rather than a primary energy source.\nReason (R): Hydrogen stores and transports energy.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Hydrogen is not a primary energy source; it functions as an energy carrier by storing and transporting energy."
+    },
+    {
+     "id": "chemistry-10-5",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Fuel Cell",
+     "question": "Consider the following statements:\nStatement A: A fuel cell produces electricity and water through an electrochemical process involving hydrogen and oxygen.\nStatement B: A fuel cell has zero emissions at the point of use.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes describe a fuel cell as an electrochemical device in which H₂ and O₂ produce electricity and H₂O. They also state that it has zero emissions at the point of use."
+    },
+    {
+     "id": "chemistry-10-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Green Hydrogen – Application",
+     "question": "Consider the following statements regarding green hydrogen applications:\nI. It can be used for green steel by replacing coking coal.\nII. Green ammonia and green methanol can serve as energy carriers for export.\nIII. It is used as a direct aviation fuel in the applications listed.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and II are correct. The notes mention synthetic fuels for aviation, not direct use of green hydrogen as aviation fuel in the listed applications."
+    },
+    {
+     "id": "chemistry-10-7",
+     "format": "List-Matching",
+     "keyword": "Hydrogen – Production / Source",
+     "question": "Match the hydrogen production method with its source or process and resulting type.\n\nList-I\n(a) Steam Methane Reforming\n(b) Coal/Biomass Gasification\n(c) Water Electrolysis\n(d) Methane Pyrolysis\n\nList-II\n(i) Water and renewable electricity — Green\n(ii) Natural gas and steam — Grey/Blue with CCS\n(iii) Natural gas at high temperature without oxygen — Turquoise\n(iv) Coal or biomass — Grey/Brown",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: SMR–natural gas and steam–grey/blue; gasification–coal or biomass–grey/brown; water electrolysis–renewable electricity–green; and methane pyrolysis–turquoise."
+    },
+    {
+     "id": "chemistry-10-8",
+     "format": "Count-Based",
+     "keyword": "Fuel / Transport",
+     "question": "How many of the following are listed as fuel or transport applications of hydrogen?\n\n1. Fuel-cell vehicles\n2. Rocket fuel\n3. Blending in CNG\n4. Ammonia for fertilisers",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Fuel-cell vehicles, rocket fuel and blending in CNG are fuel or transport applications. Ammonia for fertilisers belongs to the industry sector, so the count is three."
+    }
+   ]
+  },
+  "11": {
+   "number": 11,
+   "title": "Atomic Structure and Radioactivity Fundamentals",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:03+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-11-1",
+     "format": "Direct Recall",
+     "keyword": "Electron → Discoverer and Year",
+     "question": "Who discovered the electron, and in which year?",
+     "options": [
+      "E. Goldstein in 1886",
+      "Henri Becquerel in 1896",
+      "James Chadwick in 1932",
+      "J.J. Thomson in 1897"
+     ],
+     "answer": 3,
+     "explanation": "J.J. Thomson discovered the electron in 1897."
+    },
+    {
+     "id": "chemistry-11-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Mass Number (A) → Meaning",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Mass number is the total number of protons and neutrons.",
+      "Mass number determines the identity of an element and its position in the periodic table.",
+      "Isotopes of the same element can have different mass numbers.",
+      "The formula for mass number is A = Z + number of neutrons."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement alters the meaning of mass number. Atomic number, not mass number, determines the identity of an element and its position in the periodic table."
+    },
+    {
+     "id": "chemistry-11-3",
+     "format": "Assertion-Reason",
+     "keyword": "Atomic Number (Z) → Meaning",
+     "question": "Assertion (A): Atomic number determines the identity of an element.\nReason (R): Atomic number is the number of protons in the nucleus.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The number of protons is the atomic number, and this determines the identity of the element."
+    },
+    {
+     "id": "chemistry-11-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Isotope / Isobar / Isotone",
+     "question": "Consider the following statements:\nStatement A: Isotopes have the same atomic number but different mass numbers.\nStatement B: Isobars have the same mass number but different atomic numbers.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements match the definitions in the notes: isotopes have the same Z and different A, while isobars have the same A and different Z."
+    },
+    {
+     "id": "chemistry-11-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Particle → Charge / Mass / Location",
+     "question": "Consider the following statements:\nI. Electrons are located outside the nucleus in shells.\nII. Protons are neutral particles.\nIII. Neutrons are located inside the nucleus.\nIV. Gamma rays have zero charge.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, III and IV only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, III and IV are correct. Protons have a positive charge, so statement II is incorrect."
+    },
+    {
+     "id": "chemistry-11-6",
+     "format": "List-Matching",
+     "keyword": "Scientist → Discovery / Contribution",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) J.J. Thomson\n(b) E. Goldstein\n(c) James Chadwick\n(d) Henri Becquerel\n\nList-II\n(i) Neutron\n(ii) Radioactivity\n(iii) Electron\n(iv) Canal or anode rays",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: J.J. Thomson–electron, E. Goldstein–canal/anode rays, James Chadwick–neutron, and Henri Becquerel–radioactivity."
+    },
+    {
+     "id": "chemistry-11-7",
+     "format": "Chronological Ordering",
+     "keyword": "Discovery → Year",
+     "question": "Arrange the following discoveries in chronological order:\nA. Neutron\nB. Electron\nC. Radioactivity\nD. Polonium and radium",
+     "options": [
+      "D, C, B, A",
+      "B, C, D, A",
+      "C, B, D, A",
+      "B, D, C, A"
+     ],
+     "answer": 1,
+     "explanation": "The correct order is electron in 1897, radioactivity in 1896, polonium and radium in 1898, and neutron in 1932. Therefore, by year the order is C, B, D, A."
+    },
+    {
+     "id": "chemistry-11-8",
+     "format": "Count-Based",
+     "keyword": "Atomic Models → Key Features",
+     "question": "How many of the following statements about atomic models are correct?\n1. Thomson’s model describes a positive sphere with embedded electrons.\n2. Rutherford’s model describes a dense positive nucleus with orbiting electrons.\n3. Bohr’s model describes electrons in quantized energy levels or orbits.\n4. Rutherford’s model describes electrons embedded in a positive sphere.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 2 and 3 are correct. Statement 4 describes Thomson’s plum-pudding model, not Rutherford’s nuclear model."
+    }
+   ]
+  },
+  "12": {
+   "number": 12,
+   "title": "Gases and Non-Metals",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U4"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:08+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-12-1",
+     "format": "Direct Recall",
+     "keyword": "Gas – Formula/Colour/Smell",
+     "question": "Which gas is reddish-brown in colour and has a pungent, choking smell?",
+     "options": [
+      "Chlorine",
+      "Fluorine",
+      "Nitrogen dioxide",
+      "Sulphur dioxide"
+     ],
+     "answer": 2,
+     "explanation": "Nitrogen dioxide (NO₂) is reddish-brown and has a pungent, choking smell."
+    },
+    {
+     "id": "chemistry-12-2",
+     "format": "Direct Recall",
+     "keyword": "Toxicity",
+     "question": "Which gas forms a stable complex with haemoglobin and is known as a colourless and odourless silent killer?",
+     "options": [
+      "Hydrogen sulphide",
+      "Sulphur dioxide",
+      "Carbon dioxide",
+      "Carbon monoxide"
+     ],
+     "answer": 3,
+     "explanation": "Carbon monoxide forms a stable complex with haemoglobin. It is highly toxic and is a colourless and odourless silent killer."
+    },
+    {
+     "id": "chemistry-12-3",
+     "format": "List-Matching",
+     "keyword": "Gas – Preparation",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Hydrogen\n(b) Oxygen\n(c) Chlorine\n(d) Hydrogen sulphide\n\nList-II\n(i) Electrolysis of water\n(ii) Heating KMnO₄ or KClO₃\n(iii) Electrolysis of brine\n(iv) FeS with dilute HCl",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Hydrogen is prepared by electrolysis of water, oxygen by heating KMnO₄ or KClO₃, chlorine by electrolysis of brine, and hydrogen sulphide from FeS with dilute HCl."
+    },
+    {
+     "id": "chemistry-12-4",
+     "format": "List-Matching",
+     "keyword": "Gas – Applications",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Hydrogen\n(b) Chlorine\n(c) Carbon dioxide\n(d) Nitrous oxide\n\nList-II\n(i) Soft drinks, fire extinguishers and dry ice\n(ii) Anaesthetic and propellant for whipped cream\n(iii) Ammonia synthesis and rocket fuel\n(iv) Water purification and PVC manufacture",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Hydrogen is used in ammonia synthesis and as rocket fuel; chlorine in water purification and PVC manufacture; carbon dioxide in soft drinks, fire extinguishers and dry ice; and nitrous oxide as an anaesthetic and propellant."
+    },
+    {
+     "id": "chemistry-12-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Pollution – Ozone",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Ground-level ozone is a component of photochemical smog.",
+      "Depletion of stratospheric ozone by CFCs contributes to the ozone hole.",
+      "Ground-level ozone is beneficial to lungs and plants.",
+      "Stratospheric ozone protects from ultraviolet radiation."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that ground-level ozone is beneficial to lungs and plants. Ground-level ozone is harmful to lungs and plants."
+    },
+    {
+     "id": "chemistry-12-6",
+     "format": "Assertion-Reason",
+     "keyword": "Pollution – Carbon Monoxide",
+     "question": "Assertion (A): Carbon monoxide reduces the oxygen supply in the body.\nReason (R): Carbon monoxide binds with haemoglobin and forms a stable complex.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Carbon monoxide binds with haemoglobin to form a stable complex, thereby reducing oxygen supply."
+    },
+    {
+     "id": "chemistry-12-7",
+     "format": "Assertion-Reason",
+     "keyword": "Non-metals – Reactivity",
+     "question": "Assertion (A): Nitrogen is relatively inert at room temperature.\nReason (R): Nitrogen molecules contain a triple bond.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The triple bond in nitrogen is associated with its low reactivity or inertness at room temperature."
+    },
+    {
+     "id": "chemistry-12-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ozone – Environmental Role",
+     "question": "Consider the following statements:\nStatement A: Ground-level ozone is harmful to lungs and plants.\nStatement B: Stratospheric ozone protects from ultraviolet radiation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ground-level ozone is harmful to lungs and plants, whereas stratospheric ozone provides protection from ultraviolet radiation."
+    },
+    {
+     "id": "chemistry-12-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Gas – Density",
+     "question": "Consider the following statements:\nI. Carbon dioxide is heavier than air.\nII. Ammonia is lighter than air.\nIII. Hydrogen sulphide is denser than air.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: carbon dioxide is heavier than air, ammonia is lighter than air, and hydrogen sulphide is denser than air."
+    },
+    {
+     "id": "chemistry-12-10",
+     "format": "Count-Based",
+     "keyword": "Rocket",
+     "question": "How many of the following gases are used as rocket fuel or rocket oxidisers?\n\n1. Hydrogen\n2. Oxygen\n3. Nitrous oxide\n4. Nitrogen",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three gases qualify: hydrogen is used as rocket fuel, while oxygen and nitrous oxide are used as rocket oxidisers. Nitrogen is not listed for rocket use."
+    },
+    {
+     "id": "chemistry-12-11",
+     "format": "Direct Recall",
+     "keyword": "Gas – Natural Source/Preparation",
+     "question": "Which gas is obtained industrially by the electrolysis of brine?",
+     "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Chlorine",
+      "Nitrogen"
+     ],
+     "answer": 2,
+     "explanation": "Chlorine is obtained industrially by the electrolysis of brine. Its natural source is seawater in the form of chlorides."
+    }
+   ]
+  },
+  "13": {
+   "number": 13,
+   "title": "Physical and Chemical Changes",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:07+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-13-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which of the following is a physical change?",
+     "options": [
+      "Melting of ice",
+      "Rusting of iron",
+      "Formation of curd from milk",
+      "Burning of paper"
+     ],
+     "answer": 0,
+     "explanation": "Melting of ice is a physical change because ice changes from solid to liquid without forming a new substance."
+    },
+    {
+     "id": "chemistry-13-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "A physical change usually does not form a new substance.",
+      "A physical change usually involves a significant release or absorption of energy.",
+      "Mass is conserved during both physical and chemical changes.",
+      "A chemical change generally involves a change in composition."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is that a physical change usually involves a significant energy change. Physical changes generally involve little or no energy change, whereas chemical changes may involve significant heat or light changes."
+    },
+    {
+     "id": "chemistry-13-3",
+     "format": "Assertion-Reason",
+     "keyword": "Chemical change",
+     "question": "Assertion (A): Photosynthesis is a chemical change.\nReason (R): In photosynthesis, carbon dioxide and water are converted into glucose and oxygen.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Photosynthesis forms new substances—glucose and oxygen—from carbon dioxide and water, so the reason correctly explains why it is a chemical change."
+    },
+    {
+     "id": "chemistry-13-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Applications",
+     "question": "Consider the following statements:\nStatement A: Dissolving salt in water is a physical change because the solute can be recovered.\nStatement B: Electrolysis of water is a chemical change because hydrogen and oxygen gases are produced.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Salt remains recoverable after dissolving, while electrolysis produces hydrogen and oxygen, which are new substances."
+    },
+    {
+     "id": "chemistry-13-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Reversible",
+     "question": "Consider the following statements:\nI. Melting and freezing are reversible physical changes.\nII. Burning of paper is an irreversible chemical change.\nIII. Breaking or cutting glass is an irreversible physical change.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Melting/freezing are reversible physical changes, while burning paper is irreversible and chemical; breaking or cutting glass is irreversible in practice but remains a physical change."
+    },
+    {
+     "id": "chemistry-13-6",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rusting of iron\n(b) Burning of fuels\n(c) Photosynthesis\n(d) Electrolysis of water\n\nList-II\n(i) Production of hydrogen and oxygen\n(ii) Food production and oxygen release\n(iii) Prevention by painting, galvanisation and alloying\n(iv) Cooking, transport and power generation",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i. Rusting is prevented by painting, galvanisation and alloying; fuel combustion supports cooking, transport and power generation; photosynthesis supports food production and oxygen release; electrolysis produces hydrogen and oxygen."
+    },
+    {
+     "id": "chemistry-13-7",
+     "format": "Direct Recall",
+     "keyword": "Chemical change",
+     "question": "What is the formula of the hydrated iron oxide formed during rusting of iron?",
+     "options": [
+      "Fe₂O₃·xH₂O",
+      "NH₃",
+      "H₂O",
+      "CO₂"
+     ],
+     "answer": 0,
+     "explanation": "Rusting forms hydrated iron oxide, represented as Fe₂O₃·xH₂O."
+    },
+    {
+     "id": "chemistry-13-8",
+     "format": "Count-Based",
+     "keyword": "Terms",
+     "question": "How many of the following are physical changes?\n1. Melting of ice\n2. Rusting of iron\n3. Magnetisation of iron\n4. Formation of curd from milk",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Two of the listed changes are physical: melting of ice and magnetisation of iron. Rusting and formation of curd are chemical changes."
+    },
+    {
+     "id": "chemistry-13-9",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): Neutralisation is used in antacids and soil treatment.\nReason (R): In neutralisation, an acid reacts with a base to form salt and water.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason explains the applications. Neutralisation involves the reaction of an acid with a base to form salt and water, making it useful in antacids and soil treatment."
+    }
+   ]
+  },
+  "14": {
+   "number": 14,
+   "title": "Solutions, Colloids and Osmosis",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:02+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-14-1",
+     "format": "Direct Recall",
+     "keyword": "Solution – Definition",
+     "question": "A solution is best defined as:",
+     "options": [
+      "A mixture containing only a solvent",
+      "A heterogeneous mixture of solute and solvent",
+      "A colloidal mixture that scatters light",
+      "A homogeneous mixture of solute and solvent"
+     ],
+     "answer": 3,
+     "explanation": "The notes define a solution as a homogeneous mixture of solute and solvent."
+    },
+    {
+     "id": "chemistry-14-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "True Solution – Properties",
+     "question": "Which of the following statements about a true solution is incorrect?",
+     "options": [
+      "Its solute can be separated by filtration.",
+      "It does not show the Tyndall effect.",
+      "It is stable.",
+      "Its particles are invisible to the naked eye."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect detail is that the solute can be separated by filtration. According to the notes, the solute of a true solution cannot be separated by filtration."
+    },
+    {
+     "id": "chemistry-14-3",
+     "format": "Assertion-Reason",
+     "keyword": "Ideal Solution",
+     "question": "Assertion (A): In an ideal solution, the enthalpy change of mixing is zero.\nReason (R): In an ideal solution, the intermolecular forces are identical.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that an ideal solution has ΔH_mix = 0 and identical intermolecular forces. Thus, both statements are true and the reason explains the assertion."
+    },
+    {
+     "id": "chemistry-14-4",
+     "format": "List-Matching",
+     "keyword": "Colloid – Type and Example",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Solid aerosol\n(b) Emulsion\n(c) Gel\n(d) Foam\n\nList-II\n(i) Jelly\n(ii) Smoke\n(iii) Milk\n(iv) Whipped cream",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are solid aerosol–smoke, emulsion–milk, gel–jelly, and foam–whipped cream."
+    },
+    {
+     "id": "chemistry-14-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Colloid – Dispersed Phase and Medium",
+     "question": "Consider the following statements:\nI. In a solid aerosol, the dispersed phase is solid and the dispersion medium is gas.\nII. In an emulsion, both the dispersed phase and dispersion medium are liquid.\nIII. In a gel, the dispersed phase is solid and the dispersion medium is liquid.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements agree with the notes: solid aerosol is solid in gas, emulsion is liquid in liquid, and gel is solid in liquid."
+    },
+    {
+     "id": "chemistry-14-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Solubility – Nature of Substances",
+     "question": "Consider the following statements:\nStatement A: The solubility of a substance is defined under specified temperature and pressure.\nStatement B: The principle “like dissolves like” relates to the nature of the solute and solvent.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify temperature and pressure as specified conditions for solubility and state “like dissolves like” under the nature of solute and solvent factor."
+    },
+    {
+     "id": "chemistry-14-7",
+     "format": "Count-Based",
+     "keyword": "True Solution – Properties",
+     "question": "How many of the following are properties of a true solution?\n1. Particles are invisible to the naked eye.\n2. It shows the Tyndall effect.\n3. It is stable.\n4. The solute cannot be separated by filtration.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements 1, 3 and 4 are properties of a true solution. Statement 2 is incorrect because a true solution does not show the Tyndall effect."
+    },
+    {
+     "id": "chemistry-14-8",
+     "format": "Direct Recall",
+     "keyword": "Reverse Osmosis – Application",
+     "question": "Which process is used for desalination of sea water and purification of water by removing ions and bacteria?",
+     "options": [
+      "Reverse osmosis",
+      "Osmosis",
+      "Emulsification",
+      "Filtration of a true solution"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that reverse osmosis is applied to desalination of sea water and purification of water, removing ions and bacteria."
+    }
+   ]
+  },
+  "15": {
+   "number": 15,
+   "title": "Food Preservatives and Medicines",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:06+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-15-1",
+     "format": "Direct Recall",
+     "keyword": "Sweetener",
+     "question": "Which of the following artificial sweeteners is approximately 2000 times sweeter than sucrose?",
+     "options": [
+      "Sucralose",
+      "Saccharin",
+      "Aspartame",
+      "Alitame"
+     ],
+     "answer": 3,
+     "explanation": "Alitame is described as an artificial sweetener approximately 2000 times sweeter than sucrose, the highest among the listed sweeteners."
+    },
+    {
+     "id": "chemistry-15-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Food Preservative",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Sodium benzoate is used in soft drinks, acidic foods and fruit juice.",
+      "Propionic acid or sodium propionate is used in stored grains, cheese and milk.",
+      "Boric acid is a commonly preferred modern food preservative.",
+      "Sodium metabisulphite is used in jams, sauces and pickles."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that boric acid is a commonly preferred modern food preservative. The notes describe boric acid as a food preservative of older use."
+    },
+    {
+     "id": "chemistry-15-3",
+     "format": "Assertion-Reason",
+     "keyword": "Antiseptic vs Disinfectant",
+     "question": "Assertion (A): Antiseptics are applied to living tissue, whereas disinfectants are applied to non-living surfaces.\nReason (R): Disinfectants are toxic to tissue, while antiseptics are safe for living tissue.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The difference in safety for living tissue explains why antiseptics are used on living tissue and disinfectants on non-living objects."
+    },
+    {
+     "id": "chemistry-15-4",
+     "format": "List-Matching",
+     "keyword": "Medicine → Chemical / Source",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Aspirin\n(b) Quinine\n(c) Morphine and Codeine\n(d) Reserpine\n\nList-II\n(i) Opium\n(ii) Rauwolfia serpentina\n(iii) Willow / latex tree related source\n(iv) Cinchona",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Aspirin–willow/latex tree related source, Quinine–cinchona, Morphine and Codeine–opium, and Reserpine–Rauwolfia serpentina."
+    },
+    {
+     "id": "chemistry-15-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Drug Classification",
+     "question": "Consider the following statements:\nI. Antipyretics reduce fever.\nII. Narcotic or opioid analgesics provide pain relief with sedation and may be habit-forming.\nIII. Antibiotics kill or inhibit bacteria, but not viruses.\nIV. Tranquillizers increase anxiety and tension.",
+     "options": [
+      "I and IV only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Tranquillizers reduce anxiety or tension; they do not increase it."
+    },
+    {
+     "id": "chemistry-15-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Antibiotic",
+     "question": "Consider the following statements:\nStatement A: Penicillin was the first antibiotic and was obtained from the fungus Penicillium notatum.\nStatement B: The term ‘antibiotic’ was coined by Selman Waksman in 1942.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes identify Penicillin from Penicillium notatum as the first antibiotic and credit Selman Waksman with coining the term in 1942."
+    },
+    {
+     "id": "chemistry-15-7",
+     "format": "Direct Recall",
+     "keyword": "Packaging",
+     "question": "Which packaging method is used for potato chips to prevent oxidation and microbial growth?",
+     "options": [
+      "Reduced oxygen",
+      "Nitrogen atmosphere",
+      "Wax emulsion or coating",
+      "Vinegar treatment"
+     ],
+     "answer": 1,
+     "explanation": "A nitrogen atmosphere is used in potato-chip packaging to prevent oxidation and microbial growth."
+    },
+    {
+     "id": "chemistry-15-8",
+     "format": "Assertion-Reason",
+     "keyword": "Anaesthetic",
+     "question": "Assertion (A): A local anaesthetic causes reversible loss of sensation in a limited area while consciousness is retained.\nReason (R): The effect of an anaesthetic is reversible, and sensation returns after the drug wears off.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the reversibility of the effect does not explain the limited area or retention of consciousness in local anaesthesia."
+    },
+    {
+     "id": "chemistry-15-9",
+     "format": "List-Matching",
+     "keyword": "Food Preservative",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sodium benzoate\n(b) Sorbic acid / potassium sorbate\n(c) Sulphur dioxide\n(d) Propionic acid / sodium propionate\n\nList-II\n(i) Stored grains, cheese and milk\n(ii) Soft drinks, acidic foods and fruit juice\n(iii) Dried fruits and winemaking\n(iv) Cheese, cooked foods and pickles",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: sodium benzoate–soft drinks, acidic foods and fruit juice; sorbic acid/potassium sorbate–cheese, cooked foods and pickles; sulphur dioxide–dried fruits and winemaking; and propionic acid/sodium propionate–stored grains, cheese and milk."
+    },
+    {
+     "id": "chemistry-15-10",
+     "format": "Count-Based",
+     "keyword": "Artificial Sweetener",
+     "question": "How many of the following are artificial sweeteners?\n1. Aspartame\n2. Alitame\n3. Sucralose\n4. Stevia",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Aspartame, alitame and sucralose are artificial sweeteners. Stevia is identified as a natural sweetener, so the count is three."
+    }
+   ]
+  },
+  "16": {
+   "number": 16,
+   "title": "Fertilizers: Types, Uses and Impacts",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U4"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:09+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-16-1",
+     "format": "Direct Recall",
+     "keyword": "Nutrient → Role",
+     "question": "Which fertilizer nutrient is primarily associated with stomatal regulation and disease and drought resistance?",
+     "options": [
+      "Sulphur",
+      "Phosphorus",
+      "Potassium",
+      "Nitrogen"
+     ],
+     "answer": 2,
+     "explanation": "Potassium is associated with stomatal regulation, disease resistance and drought resistance. It is absorbed in the form of K₂O."
+    },
+    {
+     "id": "chemistry-16-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Fertilizer → Formula",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Urea has the formula CO(NH₂)₂.",
+      "Diammonium phosphate has the formula NH₄H₂PO₄.",
+      "Potassium sulphate has the formula K₂SO₄.",
+      "Ammonium nitrate has the formula NH₄NO₃."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement concerns DAP. Diammonium phosphate has the formula (NH₄)₂HPO₄, whereas NH₄H₂PO₄ is the formula of MAP."
+    },
+    {
+     "id": "chemistry-16-3",
+     "format": "Assertion-Reason",
+     "keyword": "Neem-coated urea",
+     "question": "Assertion (A): Neem-coated urea improves nitrogen-use efficiency.\nReason (R): It slows the release of nitrogen.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Neem-coated urea slows nitrogen release, thereby leading to higher nitrogen-use efficiency."
+    },
+    {
+     "id": "chemistry-16-4",
+     "format": "List-Matching",
+     "keyword": "Fertilizer → Formula",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Urea\n(b) Ammonium sulphate\n(c) Monoammonium phosphate\n(d) Potassium chloride\n\nList-II\n(i) NH₄H₂PO₄\n(ii) KCl\n(iii) CO(NH₂)₂\n(iv) (NH₄)₂SO₄",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Urea–CO(NH₂)₂, Ammonium sulphate–(NH₄)₂SO₄, MAP–NH₄H₂PO₄ and Potassium chloride–KCl."
+    },
+    {
+     "id": "chemistry-16-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Phosphorus %",
+     "question": "Consider the following statements:\nI. MAP contains 61% P₂O₅.\nII. DAP contains 46% P₂O₅.\nIII. Basic slag contains 10–15% P₂O₅.\nIV. Calcium metaphosphate contains 20–35% P₂O₅.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and IV only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Calcium metaphosphate contains 60–62% P₂O₅, not 20–35%."
+    },
+    {
+     "id": "chemistry-16-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Green Manure",
+     "question": "Consider the following statements:\nStatement A: Green manure is a cover crop grown and ploughed in while green or just after flowering.\nStatement B: Legumes are among the main plants used as green manure.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Green manure is incorporated into the soil while green, and legumes such as clover, vetch and sesbania are important examples."
+    },
+    {
+     "id": "chemistry-16-7",
+     "format": "Count-Based",
+     "keyword": "Potassium Fertilizers",
+     "question": "How many of the following are listed as potassic fertilizers?\n1. Muriate of Potash\n2. Sulphate of Potash\n3. Potassium nitrate\n4. Diammonium phosphate",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The first three are potassic fertilizers. Diammonium phosphate is listed as a phosphatic and complex fertilizer, not as a potassic fertilizer."
+    },
+    {
+     "id": "chemistry-16-8",
+     "format": "Direct Recall",
+     "keyword": "Fertilizer → Raw Material",
+     "question": "Which combination is identified as the key raw material combination for urea production?",
+     "options": [
+      "Rock phosphate and sulphuric acid",
+      "Natural gas and sulphuric acid",
+      "Ammonia and carbon dioxide",
+      "Ammonia and rock phosphate"
+     ],
+     "answer": 2,
+     "explanation": "Urea is produced from ammonia and CO₂, involving the Haber process and CO₂. Rock phosphate and sulphuric acid are associated with phosphatic fertilizers."
+    },
+    {
+     "id": "chemistry-16-9",
+     "format": "Assertion-Reason",
+     "keyword": "Green Manure → Soil Health",
+     "question": "Assertion (A): Green manure improves soil structure and water retention.\nReason (R): Green manure adds organic matter and fixes atmospheric nitrogen through root nodules.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Green manure adds humus and fixes atmospheric nitrogen through root nodules, contributing to improved soil structure and water retention."
+    }
+   ]
+  },
+  "17": {
+   "number": 17,
+   "title": "Soaps, Detergents and Cleansing Action",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U4"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:09+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-17-1",
+     "format": "Direct Recall",
+     "keyword": "Composition",
+     "question": "Soap is chemically composed of which of the following?",
+     "options": [
+      "Synthetic surfactants containing only sulfonate groups",
+      "Glycerol and sodium silicate only",
+      "Calcium and magnesium salts of fatty acids",
+      "Sodium or potassium salts of higher fatty acids"
+     ],
+     "answer": 3,
+     "explanation": "Soap consists of sodium or potassium salts of higher fatty acids, generally having carbon chains of C₁₂–C₁₈."
+    },
+    {
+     "id": "chemistry-17-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Hard soap and Soft soap",
+     "question": "Which of the following statements about hard and soft soaps is incorrect?",
+     "options": [
+      "Soft soap is prepared from unsaturated vegetable oils and potassium hydroxide.",
+      "Caustic potash is used to prepare soft soap.",
+      "Hard soap is prepared from saturated fats and sodium hydroxide.",
+      "Caustic soda is used to prepare soft soap."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect detail is the alkali used for soft soap. Caustic soda (NaOH) produces hard soap, whereas caustic potash (KOH) produces soft soap."
+    },
+    {
+     "id": "chemistry-17-3",
+     "format": "Assertion-Reason",
+     "keyword": "Soap → Hard Water",
+     "question": "Assertion (A): Soap is not suitable for use in hard water.\nReason (R): Soap forms insoluble scum with calcium and magnesium salts present in hard water.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Calcium and magnesium salts of fatty acids form insoluble scum, causing poor lather and poor cleaning, which explains why soap is unsuitable for hard water."
+    },
+    {
+     "id": "chemistry-17-4",
+     "format": "List-Matching",
+     "keyword": "Fillers (additives)",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Sodium rosinate\n(b) Glycerol\n(c) Sodium silicate\n(d) Sulfur\n\nList-II\n(i) Anti-acne property\n(ii) Prevents drying in shaving soap\n(iii) Provides hardness and durability\n(iv) Increases foam",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: sodium rosinate—increases foam; glycerol—prevents drying in shaving soap; sodium silicate—provides hardness and durability; sulfur—anti-acne property."
+    },
+    {
+     "id": "chemistry-17-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Detergent → Hard Water",
+     "question": "Consider the following statements:\nI. Calcium and magnesium salts of detergents are soluble in water.\nII. Detergents form lather even in hard water.\nIII. Detergents generally have an alkaline solution nature.\nIV. Detergents have better cleaning power in hard water than soap.",
+     "options": [
+      "I, II, III and IV",
+      "I and III only",
+      "I, II and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and IV are correct. Detergent solutions are usually neutral, not generally alkaline, so Statement III is incorrect."
+    },
+    {
+     "id": "chemistry-17-6",
+     "format": "List-Matching",
+     "keyword": "Examples of fatty acids",
+     "question": "Match the fatty acid in List-I with its formula in List-II.\n\nList-I\n(a) Palmitic acid\n(b) Stearic acid\n\nList-II\n(i) C₁₇H₃₅COOH\n(ii) C₁₅H₃₁COOH",
+     "options": [
+      "a-ii, b-i",
+      "a-i, b-i",
+      "a-i, b-ii",
+      "a-ii, b-ii"
+     ],
+     "answer": 0,
+     "explanation": "Palmitic acid is C₁₅H₃₁COOH, while stearic acid is C₁₇H₃₅COOH; therefore, the correct pairing is a-ii, b-i."
+    }
+   ]
+  },
+  "18": {
+   "number": 18,
+   "title": "Explosives: Formulas, Uses and Composition",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:06+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-18-1",
+     "format": "Direct Recall",
+     "keyword": "Formula",
+     "question": "Which of the following is the formula of TNT?",
+     "options": [
+      "C₇H₅N₃O₆",
+      "C₃H₆N₆O₆",
+      "C₆H₃N₃O₇",
+      "C₃H₅(ONO₂)₃"
+     ],
+     "answer": 0,
+     "explanation": "TNT is represented by C₆H₂(NO₂)₃CH₃ or C₇H₅N₃O₆."
+    },
+    {
+     "id": "chemistry-18-2",
+     "format": "List-Matching",
+     "keyword": "Alternate Name",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Trinitroglycerine\n(b) Trinitrophenol\n(c) RDX\n(d) HMX\n\nList-II\n(i) Octogen\n(ii) Picric acid\n(iii) Nobel oil\n(iv) Cyclonite",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Trinitroglycerine–Nobel oil, Trinitrophenol–Picric acid, RDX–Cyclonite and HMX–Octogen."
+    },
+    {
+     "id": "chemistry-18-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Composition",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Dynamite consists of nitroglycerine absorbed in sawdust or kieselguhr.",
+      "Blasting gelatin contains 91–93% nitroglycerine, 6–8% nitrocellulose and about 1% acid acceptor.",
+      "C-4 consists of HMX in a plastic matrix.",
+      "Amatol is composed of TNT and ammonium nitrate."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement concerns C-4: its primary agent is RDX in a plastic matrix, not HMX."
+    },
+    {
+     "id": "chemistry-18-4",
+     "format": "Assertion-Reason",
+     "keyword": "Composition",
+     "question": "Assertion (A): Dynamite consists of nitroglycerine absorbed in sawdust or kieselguhr.\nReason (R): Kieselguhr is identified as diatomaceous earth.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but identifying kieselguhr as diatomaceous earth does not explain the composition of dynamite."
+    },
+    {
+     "id": "chemistry-18-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Use / Application",
+     "question": "Consider the following statements:\nI. TNT is used in military shells, bombs and grenades.\nII. RDX is the primary agent in C-4 plastic explosive.\nIII. Gun cotton is used in rockets and propellants.\nIV. Amatol is used as a laboratory reagent and antiseptic.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct applications. Amatol is described as a high explosive mixture, whereas laboratory reagent and older antiseptic uses are associated with TNP."
+    },
+    {
+     "id": "chemistry-18-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Chemical Name",
+     "question": "Consider the following statements:\nStatement A: HMX is also known as Octogen.\nStatement B: Gun cotton is also known as Nitrocellulose.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: HMX is Octogen, and gun cotton is Nitrocellulose."
+    },
+    {
+     "id": "chemistry-18-7",
+     "format": "Count-Based",
+     "keyword": "Alternate Name",
+     "question": "How many of the following are alternate names associated with RDX?\n1. Cyclonite\n2. Hexogen\n3. T-4\n4. Octogen",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Cyclonite, Hexogen and T-4 are associated with RDX; Octogen is an alternate name of HMX."
+    },
+    {
+     "id": "chemistry-18-8",
+     "format": "Direct Recall",
+     "keyword": "Inventor / Discoverer",
+     "question": "Who discovered RDX?",
+     "options": [
+      "TNT and ammonium nitrate",
+      "George Friedrich Henning",
+      "Modern military research",
+      "Alfred Nobel"
+     ],
+     "answer": 1,
+     "explanation": "RDX is credited to George Friedrich Henning of Germany; it was patented in 1898."
+    }
+   ]
+  },
+  "19": {
+   "number": 19,
+   "title": "Applied Chemistry in Daily Life and Industry",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F22"
+    ],
+    "g2": [
+     "G2-M2B-U4"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:12+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-19-1",
+     "format": "Direct Recall",
+     "keyword": "Chemical → Daily-life Use",
+     "question": "Which chemical is used as an antacid and in baking?",
+     "options": [
+      "CH₃COOH",
+      "NaHCO₃",
+      "Na₂CO₃",
+      "Mg(OH)₂"
+     ],
+     "answer": 1,
+     "explanation": "Baking soda, NaHCO₃, is used in baking, as an antacid and for cleaning."
+    },
+    {
+     "id": "chemistry-19-2",
+     "format": "Direct Recall",
+     "keyword": "Chemical → Application",
+     "question": "Which chemical is used as a herbicide for broadleaf weeds?",
+     "options": [
+      "Allethrin",
+      "Bordeaux mixture",
+      "Zinc phosphide",
+      "2,4-D"
+     ],
+     "answer": 3,
+     "explanation": "The notes identify 2,4-D as a herbicide used against broadleaf weeds."
+    },
+    {
+     "id": "chemistry-19-3",
+     "format": "Direct Recall",
+     "keyword": "Chemical → Glass",
+     "question": "Which material is used for making laboratory glassware?",
+     "options": [
+      "Soda-lime glass",
+      "Pyrex glass",
+      "Cobalt oxide",
+      "Crookes glass"
+     ],
+     "answer": 1,
+     "explanation": "Pyrex, which is borosilicate glass, is used for laboratory glassware."
+    },
+    {
+     "id": "chemistry-19-4",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Chemical → Environmental Impact",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "SO₂ is associated with acid rain and air pollution.",
+      "DDT is a biodegradable pesticide.",
+      "N₂O is a greenhouse gas.",
+      "CFCs or Freon are associated with ozone depletion."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is ‘biodegradable’. The notes identify DDT as a non-biodegradable, persistent pollutant that undergoes bioaccumulation."
+    },
+    {
+     "id": "chemistry-19-5",
+     "format": "Assertion-Reason",
+     "keyword": "Chemical → Environmental Impact",
+     "question": "Assertion (A): Freon is associated with ozone depletion.\nReason (R): CFCs or Freon are identified as chemicals causing ozone depletion.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Freon is a CFC, and the notes associate CFCs/Freon with ozone depletion."
+    },
+    {
+     "id": "chemistry-19-6",
+     "format": "Assertion-Reason",
+     "keyword": "Catalyst",
+     "question": "Assertion (A): Nickel is used in the hydrogenation of oils to produce Vanaspati.\nReason (R): Nickel acts as a catalyst in the hydrogenation process.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes list nickel as the catalyst for hydrogenation of oils, producing Vanaspati."
+    },
+    {
+     "id": "chemistry-19-7",
+     "format": "List-Matching",
+     "keyword": "Chemical → Battery / Related",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Lead-acid\n b. Ni-Cd\n c. Selenium\n d. Lithium compounds\n\nList-II\n i. Photoconductive material\n ii. Conventional batteries\n iii. Modern Li-ion batteries\n iv. Rechargeable batteries",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Lead-acid–conventional batteries, Ni-Cd–rechargeable batteries, Selenium–photoconductive material, and Lithium compounds–modern Li-ion batteries."
+    },
+    {
+     "id": "chemistry-19-8",
+     "format": "List-Matching",
+     "keyword": "Chemical → Artificial Rain",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Silver iodide\n b. Dry ice\n c. Sodium benzoate\n d. Zinc phosphide\n\nList-II\n i. Rat poison\n ii. Cloud seeding\n iii. Preservative in soft drinks and acidic foods\n iv. Cloud seeding",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Silver iodide and dry ice are used for cloud seeding; sodium benzoate is a preservative in soft drinks and acidic foods; zinc phosphide is used as rat poison."
+    },
+    {
+     "id": "chemistry-19-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Chemical → Fire Extinguisher",
+     "question": "Consider the following statements:\nI. CO₂ is the most common gas-type fire extinguisher.\nII. The soda-acid extinguisher uses NaHCO₃ and H₂SO₄ to produce CO₂.\nIII. CCl₄ is described as an older liquid-type extinguisher.\nIV. Baking soda is associated with the soda-acid extinguisher.",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are supported: CO₂ is the most common gas type, NaHCO₃ and H₂SO₄ produce CO₂ in the soda-acid type, CCl₄ is an older liquid type, and baking soda is associated with the soda-acid extinguisher."
+    },
+    {
+     "id": "chemistry-19-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Chemical → Semiconductor",
+     "question": "Consider the following statements:\nStatement A: Silicon is used in computer chips, solar cells and transistors.\nStatement B: Germanium is identified as a material used in older transistors.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Silicon is used in computer chips, solar cells and transistors, while germanium is listed for older transistors."
+    },
+    {
+     "id": "chemistry-19-11",
+     "format": "Count-Based",
+     "keyword": "Pesticides Group",
+     "question": "How many of the following are identified as insecticides?\nI. DDT\nII. BHC\nIII. 2,4-D\nIV. Zinc phosphide",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "DDT and BHC are listed as insecticides. 2,4-D is a herbicide and zinc phosphide is a rodenticide, so the count is two."
+    }
+   ]
+  },
+  "20": {
+   "number": 20,
+   "title": "Properties and Uses of Common Substances",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:15+00:00",
+   "mcqs": [
+    {
+     "id": "chemistry-20-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which of the following is the hardest natural substance?",
+     "options": [
+      "Graphite",
+      "Diamond",
+      "Talc",
+      "Tungsten"
+     ],
+     "answer": 1,
+     "explanation": "Diamond, composed of carbon, is identified as the hardest natural substance and has a Mohs hardness of 10."
+    },
+    {
+     "id": "chemistry-20-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Abundant",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Hydrogen constitutes approximately 75% of the universe.",
+      "Nitrogen constitutes approximately 78% of the atmosphere by volume.",
+      "Oxygen constitutes approximately 78% of the atmosphere by volume.",
+      "Oxygen is the most abundant element in the Earth's crust by mass."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the atmospheric proportion. Nitrogen constitutes approximately 78% of the atmosphere by volume, whereas oxygen constitutes approximately 21%."
+    },
+    {
+     "id": "chemistry-20-3",
+     "format": "Assertion-Reason",
+     "keyword": "Hydrogen",
+     "question": "Assertion (A): Hydrogen is the lightest element.\nReason (R): The atomic weight of hydrogen is approximately 1.008.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Hydrogen is the lightest element, and its atomic weight is approximately 1.008, which accounts for this distinction."
+    },
+    {
+     "id": "chemistry-20-4",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Diamond\n(b) Talc\n(c) Lithium\n(d) Osmium\n\nList-II\n(i) Density 22.61 g/cm³\n(ii) Mohs hardness 10\n(iii) Baby powder\n(iv) Density 0.534 g/cm³",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Diamond–Mohs hardness 10, Talc–baby powder, Lithium–density 0.534 g/cm³, and Osmium–density 22.61 g/cm³."
+    },
+    {
+     "id": "chemistry-20-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Abundant",
+     "question": "Consider the following statements:\nI. Hydrogen constitutes approximately 75% of the universe.\nII. Oxygen constitutes 46.6% of the Earth's crust by mass.\nIII. Aluminium is the third most abundant element in the Earth's crust.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Hydrogen is dominant in the universe, oxygen forms 46.6% of the Earth's crust by mass, and aluminium is the third most abundant element in the crust."
+    },
+    {
+     "id": "chemistry-20-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hydrogen",
+     "question": "Consider the following statements:\nStatement A: Hydrogen is considered a pure and clean fuel because it burns only to form water.\nStatement B: Ammonia is highly soluble in water because of hydrogen bonding and polarity.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Hydrogen burns only to water, while ammonia's hydrogen bonding and polarity contribute to its high solubility in water."
+    },
+    {
+     "id": "chemistry-20-7",
+     "format": "Count-Based",
+     "keyword": "Terms",
+     "question": "How many of the following are identified as strong bases?\n1. NaOH\n2. KOH\n3. Mg(OH)₂\n4. Al(OH)₃",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Only two are identified as strong bases: NaOH and KOH. Mg(OH)₂ and Al(OH)₃ are listed as weak bases used as antacids."
+    },
+    {
+     "id": "chemistry-20-8",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which of the following has the highest boiling point among the substances listed below?",
+     "options": [
+      "Acetic acid",
+      "Hydrogen peroxide",
+      "Tungsten",
+      "Ethanol"
+     ],
+     "answer": 2,
+     "explanation": "Tungsten has an approximate boiling point of 5555°C and is listed as having the highest boiling point among metals."
+    }
+   ]
+  }
+ }
+}

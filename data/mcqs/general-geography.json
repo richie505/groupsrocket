@@ -1,0 +1,2559 @@
+{
+ "subject": "General Geography",
+ "sheets": {
+  "1": {
+   "number": 1,
+   "title": "Earth and Solar System Fundamentals",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:50+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-1-1",
+     "format": "Direct Recall",
+     "keyword": "Earth in Solar System",
+     "question": "What is the position of Earth from the Sun?",
+     "options": [
+      "Second",
+      "Fifth",
+      "Third",
+      "Fourth"
+     ],
+     "answer": 2,
+     "explanation": "Earth is the third planet from the Sun, located between Venus and Mars."
+    },
+    {
+     "id": "general-geography-1-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Pluto Reclassification",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Solar System is centred on the Sun.",
+      "Pluto was reclassified as a dwarf planet in 2006 by the IAU.",
+      "The Solar System currently has nine planets.",
+      "The Solar System is about 4.6 billion years old."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that the Solar System currently has nine planets. The current number is eight; Pluto was reclassified as a dwarf planet in 2006."
+    },
+    {
+     "id": "general-geography-1-3",
+     "format": "Assertion-Reason",
+     "keyword": "Rotation and Day-Night",
+     "question": "Assertion (A): Earth’s rotation causes day and night.\nReason (R): Earth rotates from west to east and completes one rotation in 24 hours.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Earth’s west-to-east rotation on its axis, completed in 24 hours, produces day and night."
+    },
+    {
+     "id": "general-geography-1-4",
+     "format": "List-Matching",
+     "keyword": "Planetary Extremes",
+     "question": "Match List-I with List-II:\nList-I\n(a) Mercury\n(b) Neptune\n(c) Jupiter\n(d) Venus\n\nList-II\n(i) Largest planet\n(ii) Brightest planet\n(iii) Nearest planet to the Sun\n(iv) Farthest planet from the Sun",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Mercury–nearest to the Sun, Neptune–farthest from the Sun, Jupiter–largest, and Venus–brightest."
+    },
+    {
+     "id": "general-geography-1-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Solstices and Equinoxes",
+     "question": "Consider the following statements:\nI. On 21 March, the Sun is overhead at the Equator.\nII. On 21 June, the Sun is overhead at the Tropic of Cancer.\nIII. On 22 December, the Sun is overhead at the Tropic of Capricorn.\nIV. On 23 September, the Sun is overhead at the Tropic of Cancer.",
+     "options": [
+      "I, II, III and IV",
+      "I and IV only",
+      "I, II and III only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. On 23 September, the Sun is overhead at the Equator, not the Tropic of Cancer."
+    },
+    {
+     "id": "general-geography-1-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Eclipses",
+     "question": "Consider the following statements:\nStatement A: During a solar eclipse, the Moon is between the Sun and Earth.\nStatement B: During a lunar eclipse, the Moon is in the full moon phase.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. A solar eclipse occurs with the Moon between the Sun and Earth, while a lunar eclipse occurs during the full moon phase."
+    },
+    {
+     "id": "general-geography-1-7",
+     "format": "Direct Recall",
+     "keyword": "Earth’s Interior",
+     "question": "What does the term ‘NIFE’ refer to?",
+     "options": [
+      "Nickel and Fluorine",
+      "Nitrogen and Ferrum (iron)",
+      "Nickel and Ferrum (iron)",
+      "Nitrogen and Fluorine"
+     ],
+     "answer": 2,
+     "explanation": "NIFE refers to Nickel and Ferrum, the Latin word for iron."
+    },
+    {
+     "id": "general-geography-1-8",
+     "format": "Assertion-Reason",
+     "keyword": "Perihelion and Orbital Speed",
+     "question": "Assertion (A): Earth’s orbital speed is higher at perihelion than at aphelion.\nReason (R): Perihelion is the point where Earth is closest to the Sun, while aphelion is the point where it is farthest from the Sun.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the definition of perihelion and aphelion does not by itself explain the difference in orbital speed. The notes associate higher speed with perihelion and lower speed with aphelion."
+    },
+    {
+     "id": "general-geography-1-9",
+     "format": "List-Matching",
+     "keyword": "Scientists and Contributions",
+     "question": "Match List-I with List-II:\nList-I\n(a) Copernicus\n(b) Kepler\n(c) William Herschel\n(d) Clyde Tombaugh\n\nList-II\n(i) Pluto\n(ii) Heliocentric model\n(iii) Three laws of planetary motion\n(iv) Uranus\n\nOptions:",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Copernicus–heliocentric model, Kepler–three laws of planetary motion, William Herschel–Uranus, and Clyde Tombaugh–Pluto."
+    },
+    {
+     "id": "general-geography-1-10",
+     "format": "Chronological Ordering",
+     "keyword": "Seasons and Dates",
+     "question": "Arrange the following dates in chronological order within a year:\nA. 22 December\nB. 21 June\nC. 21 March\nD. 23 September",
+     "options": [
+      "C, B, D, A",
+      "D, A, C, B",
+      "C, D, B, A",
+      "B, C, A, D"
+     ],
+     "answer": 0,
+     "explanation": "The correct chronological order is 21 March, 21 June, 23 September and 22 December."
+    },
+    {
+     "id": "general-geography-1-11",
+     "format": "Count-Based",
+     "keyword": "Terrestrial Planets",
+     "question": "How many of the following are terrestrial planets?\nI. Mercury\nII. Venus\nIII. Jupiter\nIV. Mars",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Mercury, Venus and Mars are terrestrial planets. Jupiter is a Jovian planet, so the number is three."
+    },
+    {
+     "id": "general-geography-1-12",
+     "format": "Direct Recall",
+     "keyword": "Asteroids and Comets",
+     "question": "Where is the main belt of asteroids located?",
+     "options": [
+      "Between Jupiter and Saturn",
+      "Between Earth and Mars",
+      "Between Uranus and Neptune",
+      "Between Mars and Jupiter"
+     ],
+     "answer": 3,
+     "explanation": "The main asteroid belt is located between Mars and Jupiter."
+    },
+    {
+     "id": "general-geography-1-13",
+     "format": "Assertion-Reason",
+     "keyword": "Earth’s Shape and Gravity",
+     "question": "Assertion (A): The weight of an object is minimum at the equator and maximum at the poles.\nReason (R): Earth’s rotation and non-spherical shape affect the weight of an object.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the combination of Earth’s rotation and its non-spherical shape explains the variation in weight between the equator and poles."
+    },
+    {
+     "id": "general-geography-1-14",
+     "format": "List-Matching",
+     "keyword": "Meteor Terminology",
+     "question": "Match List-I with List-II:\nList-I\n(a) Meteoroid\n(b) Meteor\n(c) Meteorite\n(d) Glow of a meteor\n\nList-II\n(i) Survives and reaches Earth’s surface\n(ii) Small rocky or metallic body in space\n(iii) Atmospheric friction and heating\n(iv) Bright streak produced on entering the atmosphere",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "A meteoroid is a small rocky or metallic body in space; a meteor is the bright streak; a meteorite reaches the surface; and the glow is caused by atmospheric friction and heating."
+    },
+    {
+     "id": "general-geography-1-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Planetary Classification",
+     "question": "Consider the following statements:\nI. Saturn has prominent rings.\nII. Uranus and Neptune are ice giants.\nIII. Jupiter and Saturn are gas giants.\nIV. Mercury and Venus have natural satellites.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and IV only",
+      "II and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct. Mercury and Venus have no natural satellites, so statement IV is incorrect."
+    },
+    {
+     "id": "general-geography-1-16",
+     "format": "Direct Recall",
+     "keyword": "Blue Moon",
+     "question": "What is a Blue Moon, according to the calendar definition?",
+     "options": [
+      "A half moon at a 90° Sun-Earth-Moon angle",
+      "Two full moons in one calendar month",
+      "A full moon near perigee",
+      "A full moon occurring at apogee"
+     ],
+     "answer": 1,
+     "explanation": "A Blue Moon is defined as two full moons occurring in one calendar month. It may also refer to an extra full moon in an astronomical season."
+    },
+    {
+     "id": "general-geography-1-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Comets",
+     "question": "Consider the following statements:\nStatement A: Halley’s Comet is a short-period comet with a period of about 76 years.\nStatement B: Hale-Bopp is a long-period comet with a period of about 2,534 years.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Halley’s Comet has a period of about 76 years, whereas Hale-Bopp has a long period of about 2,534 years."
+    },
+    {
+     "id": "general-geography-1-18",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Which mission made the first human landing on the Moon?",
+     "options": [
+      "Shoemaker-Levy 9",
+      "Hale-Bopp",
+      "Apollo 11",
+      "Rosetta"
+     ],
+     "answer": 2,
+     "explanation": "Apollo 11 made the first human landing on the Moon in 1969, at the Sea of Tranquility."
+    }
+   ]
+  },
+  "2": {
+   "number": 2,
+   "title": "Earth Motions, Seasons and Time",
+   "tracker": {
+    "g1": [
+     "G1-D1"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:43+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-2-1",
+     "format": "Direct Recall",
+     "keyword": "Rotation – Period",
+     "question": "What is the period of Earth’s rotation on its axis?",
+     "options": [
+      "24 hours",
+      "12 hours",
+      "365.25 days",
+      "29.78 km/s"
+     ],
+     "answer": 0,
+     "explanation": "Earth completes one rotation on its axis in 24 hours."
+    },
+    {
+     "id": "general-geography-2-2",
+     "format": "Direct Recall",
+     "keyword": "Revolution – Period",
+     "question": "Earth takes approximately how long to complete one revolution around the Sun?",
+     "options": [
+      "29 days",
+      "180 days",
+      "365.25 days",
+      "24 hours"
+     ],
+     "answer": 2,
+     "explanation": "Earth’s revolution around the Sun takes 365.25 days."
+    },
+    {
+     "id": "general-geography-2-3",
+     "format": "Direct Recall",
+     "keyword": "Coriolis Effect",
+     "question": "In which direction are moving objects deflected by the Coriolis effect in the Northern Hemisphere?",
+     "options": [
+      "To the left",
+      "To the right",
+      "Towards the Equator",
+      "There is no deflection"
+     ],
+     "answer": 1,
+     "explanation": "The Coriolis effect deflects moving objects to the right in the Northern Hemisphere."
+    },
+    {
+     "id": "general-geography-2-4",
+     "format": "Direct Recall",
+     "keyword": "Perihelion vs Aphelion",
+     "question": "Around which date is Earth at perihelion?",
+     "options": [
+      "Around 21 June",
+      "Around 4 July",
+      "Around 4 January",
+      "Around 22 December"
+     ],
+     "answer": 2,
+     "explanation": "Perihelion is Earth’s closest position to the Sun and occurs around 4 January."
+    },
+    {
+     "id": "general-geography-2-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Rotation – Direction",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Earth rotates from west to east.",
+      "Earth’s rotation takes approximately 24 hours.",
+      "Earth rotates from east to west.",
+      "When viewed from the North Pole, Earth rotates counter-clockwise."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that Earth rotates from east to west. The correct direction is west to east."
+    },
+    {
+     "id": "general-geography-2-6",
+     "format": "Assertion-Reason",
+     "keyword": "Seasons",
+     "question": "Assertion (A): Seasons occur because of Earth’s revolution along with its axial tilt.\nReason (R): Earth’s axial tilt changes the angle and duration of solar illumination as Earth revolves around the Sun.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Revolution changes Earth’s position, while axial tilt changes the angle and duration of solar illumination, producing seasons."
+    },
+    {
+     "id": "general-geography-2-7",
+     "format": "Assertion-Reason",
+     "keyword": "Coriolis Effect",
+     "question": "Assertion (A): The Coriolis effect is absent at the Equator.\nReason (R): The Coriolis effect increases with latitude and velocity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, the general increase with latitude and velocity does not directly explain the stated zero effect at the Equator."
+    },
+    {
+     "id": "general-geography-2-8",
+     "format": "Assertion-Reason",
+     "keyword": "Parallelism of Axis",
+     "question": "Assertion (A): The axis of Earth maintains approximately the same orientation during its revolution.\nReason (R): Parallelism of the axis helps produce opposite seasons in the two hemispheres.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The reason states the importance of parallelism for seasonal reversal, but it does not explain why the axis maintains the same orientation."
+    },
+    {
+     "id": "general-geography-2-9",
+     "format": "List-Matching",
+     "keyword": "Motion of Earth – Effects",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Rotation\n(b) Revolution\n(c) Centrifugal effect\n(d) Coriolis effect\n\nList-II\n(i) Deflection of moving objects\n(ii) Day and night\n(iii) Equatorial bulging\n(iv) Annual cycle",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are rotation–day and night, revolution–annual cycle, centrifugal effect–equatorial bulging, and Coriolis effect–deflection of moving objects."
+    },
+    {
+     "id": "general-geography-2-10",
+     "format": "List-Matching",
+     "keyword": "Solstice – Direct Rays",
+     "question": "Match the event with the location of the Sun’s direct rays.\n\nList-I\n(a) Summer Solstice\n(b) Winter Solstice\n(c) March Equinox\n(d) September Equinox\n\nList-II\n(i) Equator\n(ii) Tropic of Capricorn\n(iii) Equator\n(iv) Tropic of Cancer",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The Summer Solstice corresponds to the Tropic of Cancer, Winter Solstice to the Tropic of Capricorn, and both equinoxes to the Equator."
+    },
+    {
+     "id": "general-geography-2-11",
+     "format": "List-Matching",
+     "keyword": "Earth’s Motion – Numerical Facts",
+     "question": "Match the concept with its numerical value.\n\nList-I\n(a) Angular speed of rotation\n(b) Longitude corresponding to one hour\n(c) Axial inclination from the perpendicular to the orbital plane\n(d) Average orbital speed\n\nList-II\n(i) 29.78 km/s\n(ii) 15°\n(iii) 23.5°\n(iv) 15° per hour",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are angular speed–15° per hour, one hour–15° longitude, axial inclination–23.5°, and orbital speed–29.78 km/s."
+    },
+    {
+     "id": "general-geography-2-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rotation – Time Difference",
+     "question": "Consider the following statements:\nI. Earth completes 360° of rotation in 24 hours.\nII. A difference of 15° longitude corresponds to one hour.\nIII. Local time advances when moving westward.\nIV. The theoretical number of world time zones is 24.",
+     "options": [
+      "I, II and IV only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and IV are correct. Local time advances eastward and retards westward, so III is incorrect."
+    },
+    {
+     "id": "general-geography-2-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Solstice – Day Length",
+     "question": "Consider the following statements:\nI. On 21 June, the Northern Hemisphere has its longest day and shortest night.\nII. On 21/22 December, the Southern Hemisphere has its longest day and shortest night.\nIII. On the Equator, day and night are approximately equal throughout the year.\nIV. On 21 June, the Southern Hemisphere has its longest day.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct. On 21 June, the Southern Hemisphere has its shortest day and longest night, so IV is incorrect."
+    },
+    {
+     "id": "general-geography-2-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Perihelion and Aphelion",
+     "question": "Consider the following statements:\nStatement A: Earth’s orbital speed is greater at perihelion than at aphelion.\nStatement B: Perihelion occurs in early July and aphelion occurs in early January.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true because Earth’s speed is greater at perihelion. Statement B is false: perihelion occurs around 4 January and aphelion around 4 July."
+    },
+    {
+     "id": "general-geography-2-15",
+     "format": "Chronological Ordering",
+     "keyword": "Chronological Ordering – Critical Positions",
+     "question": "Arrange the following critical positions of Earth in chronological order during a year:\nA. September Equinox\nB. June Solstice\nC. December Solstice\nD. March Equinox",
+     "options": [
+      "C, D, B, A",
+      "B, D, C, A",
+      "D, A, B, C",
+      "D, B, A, C"
+     ],
+     "answer": 3,
+     "explanation": "The correct order is March Equinox, June Solstice, September Equinox and December Solstice."
+    },
+    {
+     "id": "general-geography-2-16",
+     "format": "Count-Based",
+     "keyword": "Rotation vs Revolution",
+     "question": "How many of the following are associated primarily with Earth’s rotation?\n1. Day and night\n2. Coriolis effect\n3. Time zones\n4. Perihelion and aphelion",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Day and night, the Coriolis effect and time zones are associated with rotation. Perihelion and aphelion are associated with revolution."
+    }
+   ]
+  },
+  "3": {
+   "number": 3,
+   "title": "Seasons, Solstices and Monsoonal Cycles",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:57+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-3-1",
+     "format": "Direct Recall",
+     "keyword": "Seasons",
+     "question": "Why do seasons occur?",
+     "options": [
+      "Earth’s changing distance from the Sun alone",
+      "Earth’s rotation and axial tilt alone",
+      "Earth’s rotation and changing distance from the Sun",
+      "Earth’s revolution and axial tilt"
+     ],
+     "answer": 3,
+     "explanation": "Seasons occur due to Earth’s revolution around the Sun combined with its axial tilt of 23½°. Revolution alone is not sufficient."
+    },
+    {
+     "id": "general-geography-3-2",
+     "format": "Direct Recall",
+     "keyword": "Revolution",
+     "question": "What is the period of Earth’s revolution around the Sun?",
+     "options": [
+      "6 months",
+      "23½ days",
+      "365.25 days",
+      "24 hours"
+     ],
+     "answer": 2,
+     "explanation": "Earth revolves around the Sun in approximately 365.25 days."
+    },
+    {
+     "id": "general-geography-3-3",
+     "format": "Direct Recall",
+     "keyword": "Solstice",
+     "question": "On 21 June, the Sun is vertically overhead at the:",
+     "options": [
+      "Tropic of Capricorn",
+      "Arctic Circle",
+      "Tropic of Cancer",
+      "Equator"
+     ],
+     "answer": 2,
+     "explanation": "On 21 June, the Sun is vertically overhead at the Tropic of Cancer, at 23½°N latitude."
+    },
+    {
+     "id": "general-geography-3-4",
+     "format": "Direct Recall",
+     "keyword": "Equator",
+     "question": "Which statement correctly describes day and night at the Equator?",
+     "options": [
+      "Day and night are approximately 12 hours each throughout the year",
+      "The Equator has its longest day on 21 June",
+      "The Equator has six months of daylight and six months of darkness",
+      "The Equator has distinct winter and summer seasons"
+     ],
+     "answer": 0,
+     "explanation": "At the Equator, day and night are approximately 12 hours each throughout the year. Seasonal variation in day length is very small."
+    },
+    {
+     "id": "general-geography-3-5",
+     "format": "Direct Recall",
+     "keyword": "Monsoon",
+     "question": "The word ‘Monsoon’ is derived from the Arabic word ‘Mausim’, meaning:",
+     "options": [
+      "Season",
+      "Wind",
+      "Ocean",
+      "Rain"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify the Arabic word ‘Mausim’ as the origin of ‘Monsoon’; it means season."
+    },
+    {
+     "id": "general-geography-3-6",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Rotation vs Revolution",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Earth’s rotation causes day and night.",
+      "Earth’s rotation causes the changing length of day.",
+      "Earth’s rotation combined with axial tilt causes seasons.",
+      "Earth’s revolution combined with axial tilt causes seasons."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the cause of seasons. Seasons are caused by Earth’s revolution combined with axial tilt, not by rotation combined with axial tilt."
+    },
+    {
+     "id": "general-geography-3-7",
+     "format": "Assertion-Reason",
+     "keyword": "Axial Tilt",
+     "question": "Assertion (A): Revolution alone is not sufficient to produce seasons.\nReason (R): Seasonal changes result from Earth’s revolution combined with its axial tilt.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Earth’s revolution must operate together with its axial tilt to produce seasonal changes."
+    },
+    {
+     "id": "general-geography-3-8",
+     "format": "Assertion-Reason",
+     "keyword": "Solar Rays and Heating",
+     "question": "Assertion (A): The summer hemisphere receives greater heating than the winter hemisphere.\nReason (R): In summer, solar rays are more direct and the days are longer.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason explains the assertion. More direct rays and longer days increase solar heating in the summer hemisphere."
+    },
+    {
+     "id": "general-geography-3-9",
+     "format": "Assertion-Reason",
+     "keyword": "Monsoon",
+     "question": "Assertion (A): Monsoon winds reverse their direction according to the season.\nReason (R): Differential heating and cooling of land and sea produces seasonal pressure reversal.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Differential heating and cooling of land and sea is identified as the main mechanism behind the seasonal reversal of monsoon winds."
+    },
+    {
+     "id": "general-geography-3-10",
+     "format": "List-Matching",
+     "keyword": "Solstice and Equinox",
+     "question": "Match List-I with List-II:\nList-I\n(a) June solstice\n(b) December solstice\n(c) March equinox\n(d) September equinox\n\nList-II\n(i) Sun overhead at the Equator\n(ii) Sun overhead at the Tropic of Cancer\n(iii) Sun overhead at the Tropic of Capricorn\n(iv) Sun overhead at the Equator",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The June solstice corresponds to the Tropic of Cancer and the December solstice to the Tropic of Capricorn. Both March and September equinoxes correspond to the Equator."
+    },
+    {
+     "id": "general-geography-3-11",
+     "format": "List-Matching",
+     "keyword": "Vertical Sun",
+     "question": "Match the date with the position of the vertical Sun:\nList-I\n(a) 21 March\n(b) 21 June\n(c) 23 September\n(d) 21/22 December\n\nList-II\n(i) Tropic of Capricorn\n(ii) Equator\n(iii) Tropic of Cancer\n(iv) Equator",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: 21 March–Equator, 21 June–Tropic of Cancer, 23 September–Equator, and 21/22 December–Tropic of Capricorn."
+    },
+    {
+     "id": "general-geography-3-12",
+     "format": "List-Matching",
+     "keyword": "Seasonal Cropping",
+     "question": "Match the crop season with its sowing period:\nList-I\n(a) Rabi\n(b) Kharif\n(c) Zaid\n(d) Rabi harvest\n\nList-II\n(i) June–July\n(ii) Between Rabi and Kharif\n(iii) October–November\n(iv) March–April or summer",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Rabi is sown in October–November, Kharif in June–July, and Zaid is grown between Rabi and Kharif. Rabi is harvested in March–April or summer."
+    },
+    {
+     "id": "general-geography-3-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "June Solstice",
+     "question": "Consider the following statements:\nI. The Northern Hemisphere has its longest day around 21 June.\nII. The Southern Hemisphere has its longest day around 21 June.\nIII. The Arctic region can experience continuous daylight around the June solstice.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and III are correct. Around 21 June, the Northern Hemisphere has its longest day, while the Southern Hemisphere has its shortest day; the Arctic region can experience continuous daylight."
+    },
+    {
+     "id": "general-geography-3-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Seasonal Winds",
+     "question": "Consider the following statements:\nI. Monsoonal winds reverse direction according to the season.\nII. Summer monsoonal winds blow from sea to land.\nIII. Winter monsoonal winds blow from land to sea.\nIV. Land and sea breezes are annual rather than daily phenomena.",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct. Land and sea breezes are daily or diurnal phenomena, so statement IV is incorrect."
+    },
+    {
+     "id": "general-geography-3-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Equator",
+     "question": "Consider the following statements:\nStatement A: The Equator experiences very small seasonal variation in day length.\nStatement B: The Equator has no distinct winter and summer, with more prominent wet and dry seasons.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Equator has nearly equal day and night throughout the year and is characterized more by wet and dry seasons than by distinct winter and summer."
+    },
+    {
+     "id": "general-geography-3-16",
+     "format": "Chronological Ordering",
+     "keyword": "Sun’s Apparent Movement",
+     "question": "Arrange the following positions of the vertical Sun in chronological order:\nA. Tropic of Capricorn\nB. Equator on 21 March\nC. Tropic of Cancer\nD. Equator on 23 September",
+     "options": [
+      "B, D, C, A",
+      "D, A, B, C",
+      "B, C, D, A",
+      "C, B, A, D"
+     ],
+     "answer": 2,
+     "explanation": "The sequence is 21 March at the Equator, 21 June at the Tropic of Cancer, 23 September at the Equator, and 21/22 December at the Tropic of Capricorn."
+    },
+    {
+     "id": "general-geography-3-17",
+     "format": "Count-Based",
+     "keyword": "Revolution and Axial Tilt",
+     "question": "How many of the following phenomena are caused by Earth’s revolution combined with its axial tilt?\n1. Seasons\n2. Solstice and equinox\n3. Opposite seasons in the hemispheres\n4. Six-month polar day and night",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed phenomena are associated with Earth’s revolution combined with its axial tilt."
+    }
+   ]
+  },
+  "4": {
+   "number": 4,
+   "title": "Earth’s Internal Structure and Seismic Evidence",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:40+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-4-1",
+     "format": "Direct Recall",
+     "keyword": "Interior of the Earth",
+     "question": "Which layer of the Earth is predominantly solid but behaves plastically over geological time?",
+     "options": [
+      "Mantle",
+      "Crust",
+      "Outer core",
+      "Inner core"
+     ],
+     "answer": 0,
+     "explanation": "The mantle lies below the crust and is predominantly solid, with plastic behaviour over geological time."
+    },
+    {
+     "id": "general-geography-4-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Interior of the Earth",
+     "question": "Which of the following statements about the composition of Earth’s crust is incorrect?",
+     "options": [
+      "Aluminium constitutes 8.13% by weight and ranks third.",
+      "Silicon constitutes 27.72% by weight and ranks second.",
+      "Iron constitutes 8.13% by weight and ranks third.",
+      "Oxygen constitutes 46.60% by weight and ranks first."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that iron constitutes 8.13% and ranks third. Aluminium has 8.13% and ranks third, while iron has 5.00% and ranks fourth."
+    },
+    {
+     "id": "general-geography-4-3",
+     "format": "Assertion-Reason",
+     "keyword": "Interior of the Earth",
+     "question": "Assertion (A): S-waves disappear when they reach the outer core.\nReason (R): The outer core is liquid.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. S-waves cannot travel through liquids, and their disappearance provides evidence that the outer core is liquid."
+    },
+    {
+     "id": "general-geography-4-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Interior of the Earth",
+     "question": "Consider the following statements:\nStatement A: Compositional layering consists of the crust, mantle and core.\nStatement B: Mechanical layering consists only of the crust, mantle and core.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true. Mechanical layering is represented by the lithosphere, asthenosphere, deeper mantle, outer core and inner core, so Statement B is false."
+    },
+    {
+     "id": "general-geography-4-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Interior of the Earth",
+     "question": "With reference to continental and oceanic crust, consider the following statements:\nI. Continental crust is thicker than oceanic crust.\nII. Oceanic crust is mainly basaltic and has higher density.\nIII. Continental crust is generally younger than oceanic crust.\nIV. Oceanic crust contains more Fe–Mg than continental crust.",
+     "options": [
+      "I, II and IV only",
+      "I, III and IV only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and IV are correct. Continental crust is generally older, not younger, than oceanic crust; therefore Statement III is incorrect."
+    },
+    {
+     "id": "general-geography-4-6",
+     "format": "List-Matching",
+     "keyword": "Interior of the Earth",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Mohorovicic discontinuity\n b. Gutenberg discontinuity\n c. Lehmann discontinuity\n d. Conrad discontinuity\n\nList-II\n i. Upper and lower continental crust\n ii. Crust and mantle\n iii. Outer core and inner core\n iv. Mantle and outer core",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Mohorovicic–crust and mantle, Gutenberg–mantle and outer core, Lehmann–outer core and inner core, and Conrad–upper and lower continental crust."
+    },
+    {
+     "id": "general-geography-4-7",
+     "format": "Direct Recall",
+     "keyword": "Interior of the Earth",
+     "question": "What is the term used for magma after it reaches Earth’s surface?",
+     "options": [
+      "NIFE",
+      "Lava",
+      "Basalt",
+      "Asthenosphere"
+     ],
+     "answer": 1,
+     "explanation": "Magma is molten rock below the surface; after reaching the surface, it is called lava."
+    },
+    {
+     "id": "general-geography-4-8",
+     "format": "Assertion-Reason",
+     "keyword": "Interior of the Earth",
+     "question": "Assertion (A): Mantle movement drives plate movement.\nReason (R): The asthenosphere allows lithospheric plates to move.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the weak or ductile asthenosphere permits the movement of the rigid lithospheric plates driven by mantle dynamics."
+    },
+    {
+     "id": "general-geography-4-9",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Interior of the Earth",
+     "question": "Which of the following statements about seismic waves is incorrect?",
+     "options": [
+      "S-waves can travel through solids and liquids.",
+      "P-waves are the fastest seismic waves and arrive first.",
+      "S-waves are transverse or shear waves.",
+      "Surface waves have the highest destructive power."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement is that S-waves can travel through liquids. S-waves travel through solids only and cannot cross the liquid outer core."
+    },
+    {
+     "id": "general-geography-4-10",
+     "format": "Count-Based",
+     "keyword": "Interior of the Earth",
+     "question": "How many of the following statements correctly describe oceanic crust?\n1. It is thinner than continental crust.\n2. Its main rock is basalt.\n3. It has lower density than continental crust.\n4. It is generally younger than continental crust.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 2 and 4 are correct. Oceanic crust has higher, not lower, density than continental crust."
+    },
+    {
+     "id": "general-geography-4-11",
+     "format": "List-Matching",
+     "keyword": "Interior of the Earth",
+     "question": "Match List-I with List-II regarding seismic waves.\n\nList-I\n a. P-waves\n b. S-waves\n c. Surface waves\n d. P-wave shadow zone\n\nList-II\n i. Highest destructive power\n ii. Approximately 103°–142°\n iii. Fastest waves\n iv. Cannot pass through liquids",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "P-waves are the fastest, S-waves cannot pass through liquids, surface waves have the highest destructive power, and the P-wave shadow zone is approximately 103°–142°."
+    },
+    {
+     "id": "general-geography-4-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Interior of the Earth",
+     "question": "Consider the following statements:\nStatement A: Movement and convection of conducting material in the liquid outer core generate Earth’s magnetic field.\nStatement B: Magnetic-field reversals are linked to changes in molten-core movement.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true according to the geodynamo explanation in the notes."
+    },
+    {
+     "id": "general-geography-4-13",
+     "format": "Direct Recall",
+     "keyword": "Interior of the Earth",
+     "question": "At approximately what depth does Earth’s core begin?",
+     "options": [
+      "2,900 km",
+      "660 km",
+      "5.5 g/cm³",
+      "410 km"
+     ],
+     "answer": 0,
+     "explanation": "The core begins at approximately 2,900 km depth."
+    },
+    {
+     "id": "general-geography-4-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Interior of the Earth",
+     "question": "Consider the following statements about internal structure and surface consequences:\nI. Divergence adds new crust.\nII. Subduction destroys or recycles crust.\nIII. Convergence is associated with mountains and subduction.\nIV. Seafloor spreading destroys old crust.",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. New crust is added by seafloor spreading, while old crust is destroyed by subduction; therefore Statement IV is incorrect."
+    }
+   ]
+  },
+  "5": {
+   "number": 5,
+   "title": "Major Landforms and Their Features",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:55+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-5-1",
+     "format": "Direct Recall",
+     "keyword": "Highest",
+     "question": "Which is the highest plateau mentioned in the classification of plateaus?",
+     "options": [
+      "Tibetan Plateau",
+      "Deccan Plateau",
+      "Patagonia Plateau",
+      "Pamir Plateau"
+     ],
+     "answer": 0,
+     "explanation": "The Tibetan Plateau is identified as the highest plateau, with an average elevation of 4,500 m."
+    },
+    {
+     "id": "general-geography-5-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Mountain → Location",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Himalayas are young fold mountains.",
+      "Sierra Nevada is a block mountain.",
+      "Kilimanjaro is a volcanic mountain.",
+      "The Aravallis are old fold mountains."
+     ],
+     "answer": 3,
+     "explanation": "The altered detail is the classification of the Aravallis. They are listed as both old fold mountains and residual mountains, not as the incorrect classification implied here."
+    },
+    {
+     "id": "general-geography-5-3",
+     "format": "Assertion-Reason",
+     "keyword": "Mountains → Formation",
+     "question": "Assertion (A): Young fold mountains are generally very high, rugged and have sharp peaks.\nReason (R): They are formed by compression leading to folding.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Compression produces folding, forming the high, rugged and steep character associated with young fold mountains."
+    },
+    {
+     "id": "general-geography-5-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Plateaus",
+     "question": "Consider the following statements:\nStatement A: The Deccan Plateau is predominantly basaltic in origin.\nStatement B: The Chotanagpur Plateau is mineral-rich and drained by the Damodar.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Deccan Plateau has a predominantly basaltic volcanic origin, while the Chotanagpur Plateau is mineral-rich and drained by the Damodar."
+    },
+    {
+     "id": "general-geography-5-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Valleys",
+     "question": "Consider the following statements:\nI. A V-shaped valley is associated with river erosion.\nII. A U-shaped valley is formed by glacial erosion.\nIII. A hanging valley is formed when a tributary glacier leaves a valley above the main valley.\nIV. A blind valley is associated with tectonic faulting.",
+     "options": [
+      "II and III only",
+      "I, II and III only",
+      "I and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct. A blind valley is a karst or limestone feature, not a tectonic feature."
+    },
+    {
+     "id": "general-geography-5-6",
+     "format": "List-Matching",
+     "keyword": "Mountains → Formation",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Young fold mountain\n(b) Old fold mountain\n(c) Block mountain\n(d) Volcanic mountain\n\nList-II\n(i) Sierra Nevada\n(ii) Kilimanjaro\n(iii) Himalayas\n(iv) Aravallis",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Young fold mountain–Himalayas, Old fold mountain–Aravallis, Block mountain–Sierra Nevada, and Volcanic mountain–Kilimanjaro."
+    },
+    {
+     "id": "general-geography-5-7",
+     "format": "Direct Recall",
+     "keyword": "Rift valley → Location",
+     "question": "Which pair of rift valleys is correctly associated with the Indian subcontinent?",
+     "options": [
+      "Malabar and Coromandel",
+      "Narmada and Tapi",
+      "Chambal and Damodar",
+      "Ganga and Brahmaputra"
+     ],
+     "answer": 1,
+     "explanation": "Narmada Valley and Tapi Valley are listed as examples of rift valleys formed through tectonic faulting."
+    },
+    {
+     "id": "general-geography-5-8",
+     "format": "Assertion-Reason",
+     "keyword": "Delta vs Estuary",
+     "question": "Assertion (A): A delta forms where deposition dominates at a river mouth.\nReason (R): Sediment accumulates into the sea and the river may divide into distributaries.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the sediment accumulation and distributaries explain delta formation."
+    },
+    {
+     "id": "general-geography-5-9",
+     "format": "Count-Based",
+     "keyword": "Landform → Agent",
+     "question": "How many of the following landforms are associated with running water?\n1. Delta\n2. Cirque\n3. Meander\n4. Alluvial fan",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Delta, meander and alluvial fan are associated with running water. A cirque is formed by glacial erosion, so the count is three."
+    },
+    {
+     "id": "general-geography-5-10",
+     "format": "List-Matching",
+     "keyword": "Glacial Landforms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Cirque\n(b) Arête\n(c) Horn\n(d) Moraine\n\nList-II\n(i) Sharp pyramidal peak\n(ii) Accumulated glacial debris\n(iii) Bowl-shaped hollow\n(iv) Knife-edged ridge\n\nOptions:",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Cirque–bowl-shaped hollow, Arête–knife-edged ridge, Horn–sharp pyramidal peak, and Moraine–accumulated glacial debris."
+    },
+    {
+     "id": "general-geography-5-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Desert / Aeolian Landforms",
+     "question": "Consider the following statements:\nStatement A: A barchan is a crescent-shaped dune.\nStatement B: A seif is a narrow, longitudinal dune.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Barchans are crescent-shaped dunes, while seifs are long, narrow longitudinal dunes."
+    },
+    {
+     "id": "general-geography-5-12",
+     "format": "Direct Recall",
+     "keyword": "Karst Landforms",
+     "question": "Which karst feature rises from the floor of a cave?",
+     "options": [
+      "Lapiaz",
+      "Stalagmite",
+      "Stalactite",
+      "Doline"
+     ],
+     "answer": 1,
+     "explanation": "A stalagmite rises from the cave floor, whereas a stalactite hangs from the cave roof."
+    },
+    {
+     "id": "general-geography-5-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "India Physiography",
+     "question": "Consider the following statements:\nI. The Northern Plains are vast alluvial depositional plains.\nII. The Peninsular Plateau is an ancient stable crystalline landmass.\nIII. The Indian Desert is an arid western region.\nIV. The Coastal Plains are broader in the west than in the east.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct. The Coastal Plains are narrow in the west and broader in the east, making Statement IV incorrect."
+    },
+    {
+     "id": "general-geography-5-14",
+     "format": "List-Matching",
+     "keyword": "Desert / Aeolian Landforms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Yardang\n(b) Mushroom rock\n(c) Playa\n(d) Loess\n\nList-II\n(i) Fine silt deposit\n(ii) Dry lake bed\n(iii) Streamlined ridge formed by wind erosion\n(iv) Narrow base and wider top\n\nOptions:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Yardang is a streamlined ridge, mushroom rock has a narrow base and wider top, playa is a dry lake bed, and loess is a fine silt deposit."
+    },
+    {
+     "id": "general-geography-5-15",
+     "format": "Assertion-Reason",
+     "keyword": "Rift valley → Location",
+     "question": "Assertion (A): A rift valley is an elongated depression associated with faulting.\nReason (R): In rift formation, the central block subsides after divergence and faulting.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Divergence and faulting cause the central block to subside, producing the elongated depression called a rift valley."
+    },
+    {
+     "id": "general-geography-5-16",
+     "format": "Direct Recall",
+     "keyword": "Coastal Landforms",
+     "question": "Which coastal landform connects an island to the mainland?",
+     "options": [
+      "Spit",
+      "Tombolo",
+      "Lagoon",
+      "Bar"
+     ],
+     "answer": 1,
+     "explanation": "A tombolo is a depositional bar connecting an island to the mainland."
+    },
+    {
+     "id": "general-geography-5-17",
+     "format": "Count-Based",
+     "keyword": "Mountain Classification",
+     "question": "How many of the following are examples of block mountains?\n1. Sierra Nevada\n2. Vosges\n3. Black Forest\n4. Fuji",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Sierra Nevada, Vosges and Black Forest are listed as block mountains. Fuji is a volcanic mountain, so the count is three."
+    },
+    {
+     "id": "general-geography-5-18",
+     "format": "List-Matching",
+     "keyword": "India Physiography",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Malwa Plateau\n(b) Chotanagpur Plateau\n(c) Dandakaranya\n(d) Bhander Plateau\n\nList-II\n(i) Southern part of Vindhyan scarpland\n(ii) Between Aravalli and Vindhya\n(iii) Central-eastern Peninsular highland\n(iv) Mineral-rich and drained by the Damodar\n\nOptions:",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Malwa lies between the Aravalli and Vindhya, Chotanagpur is mineral-rich and drained by the Damodar, Dandakaranya is a central-eastern highland, and Bhander is the southern part of the Vindhyan scarpland."
+    },
+    {
+     "id": "general-geography-5-19",
+     "format": "Assertion-Reason",
+     "keyword": "Karst Landforms",
+     "question": "Assertion (A): A stalactite hangs from the roof of a cave.\nReason (R): Stalactites are karst features associated with underground dissolution.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the fact that stalactites hang from the roof is an identification feature and is not explained by the general statement that they are karst features associated with underground dissolution."
+    },
+    {
+     "id": "general-geography-5-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Plateaus",
+     "question": "Consider the following statements:\nStatement A: An intermontane plateau is enclosed or surrounded by mountains.\nStatement B: A piedmont plateau lies at the foothills or mountain margins.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements correctly describe the defining locations of intermontane and piedmont plateaus."
+    },
+    {
+     "id": "general-geography-5-21",
+     "format": "List-Matching",
+     "keyword": "Coastal Landforms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Sea cliff\n(b) Sea cave\n(c) Sea arch\n(d) Sea stack\n\nList-II\n(i) Arch collapses\n(ii) Wave erosion\n(iii) Cave enlarges through a headland\n(iv) Weak zones are eroded\n\nOptions:",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "A sea cliff forms through wave erosion, a sea cave through erosion of weak zones, a sea arch when a cave enlarges through a headland, and a sea stack after an arch collapses."
+    },
+    {
+     "id": "general-geography-5-22",
+     "format": "Direct Recall",
+     "keyword": "Mountains → Location",
+     "question": "Which mountain range is identified as the longest major mountain range?",
+     "options": [
+      "Rockies",
+      "Alps",
+      "Andes",
+      "Himalayas"
+     ],
+     "answer": 2,
+     "explanation": "The Andes in South America are identified as the longest major mountain range."
+    }
+   ]
+  },
+  "6": {
+   "number": 6,
+   "title": "Atmosphere Structure and Composition",
+   "tracker": {
+    "g1": [
+     "G1-D1"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:46+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-6-1",
+     "format": "Direct Recall",
+     "keyword": "Atmosphere – Composition",
+     "question": "Which gas forms the largest proportion of the atmosphere?",
+     "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Argon"
+     ],
+     "answer": 0,
+     "explanation": "Nitrogen constitutes approximately 78% of the atmosphere and is the most abundant gas."
+    },
+    {
+     "id": "general-geography-6-2",
+     "format": "Direct Recall",
+     "keyword": "Atmosphere – Composition",
+     "question": "What is the approximate proportion of argon in the atmosphere?",
+     "options": [
+      "21%",
+      "0.04%",
+      "0.93%",
+      "4%"
+     ],
+     "answer": 2,
+     "explanation": "Argon forms approximately 0.93% of the atmosphere and is a major inert gas."
+    },
+    {
+     "id": "general-geography-6-3",
+     "format": "Direct Recall",
+     "keyword": "Atmosphere – Structure",
+     "question": "What is the average thickness of the troposphere?",
+     "options": [
+      "50 km",
+      "18 km",
+      "13 km",
+      "8 km"
+     ],
+     "answer": 2,
+     "explanation": "The troposphere has an average thickness of approximately 13 km; it is about 8 km at the poles and 18 km at the equator."
+    },
+    {
+     "id": "general-geography-6-4",
+     "format": "Direct Recall",
+     "keyword": "Atmosphere – Ozone",
+     "question": "The ozone layer is mainly concentrated at which approximate altitude range?",
+     "options": [
+      "15–35 km",
+      "0–8 km",
+      "80–640 km",
+      "50–80 km"
+     ],
+     "answer": 0,
+     "explanation": "Ozone is concentrated mainly in the stratosphere, roughly between 15 and 35 km."
+    },
+    {
+     "id": "general-geography-6-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Atmosphere – Permanent and Variable Gases",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Nitrogen is a permanent gas.",
+      "Water vapour is a permanent gas.",
+      "Argon is a permanent gas.",
+      "Oxygen is a permanent gas."
+     ],
+     "answer": 1,
+     "explanation": "Water vapour is a variable gas, not a permanent gas. Nitrogen, oxygen and argon are classified as permanent gases."
+    },
+    {
+     "id": "general-geography-6-6",
+     "format": "Assertion-Reason",
+     "keyword": "Atmosphere – Troposphere Thickness",
+     "question": "Assertion (A): The troposphere is thicker at the equator than at the poles.\nReason (R): Strong convection at the equator causes air to rise higher and raises the tropopause.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Strong solar heating and convection at the equator make the air rise higher, causing a higher tropopause and a thicker troposphere."
+    },
+    {
+     "id": "general-geography-6-7",
+     "format": "Assertion-Reason",
+     "keyword": "Atmosphere – Stratosphere Temperature",
+     "question": "Assertion (A): Temperature increases with altitude in the stratosphere.\nReason (R): Ozone absorbs ultraviolet radiation and converts solar energy into heat.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and ozone absorption of ultraviolet radiation explains the upward increase of temperature in the stratosphere."
+    },
+    {
+     "id": "general-geography-6-8",
+     "format": "Assertion-Reason",
+     "keyword": "Atmosphere – Weather",
+     "question": "Assertion (A): Most weather phenomena occur in the troposphere.\nReason (R): Water vapour, dust particles, atmospheric mass and vertical convection are concentrated there.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the concentration of water vapour and dust along with convection supports cloud formation, rainfall, storms and other weather phenomena."
+    },
+    {
+     "id": "general-geography-6-9",
+     "format": "List-Matching",
+     "keyword": "Atmosphere – Layer Associations",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Troposphere\n(b) Mesosphere\n(c) Ionosphere\n(d) Exosphere\n\nList-II\ni. Radio-wave reflection\n ii. Outer atmospheric region\n iii. Weather\n iv. Meteors burn",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: troposphere–weather, mesosphere–meteors burn, ionosphere–radio-wave reflection, and exosphere–outer atmospheric region."
+    },
+    {
+     "id": "general-geography-6-10",
+     "format": "List-Matching",
+     "keyword": "Atmosphere – Gas Functions",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Nitrogen\n(b) Oxygen\n(c) Carbon dioxide\n(d) Ozone\n\nList-II\ni. Respiration and combustion\n ii. Absorption of harmful ultraviolet radiation\n iii. Photosynthesis and greenhouse effect\n iv. Essential nutrient and major atmospheric constituent",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Nitrogen is an essential nutrient, oxygen supports respiration and combustion, carbon dioxide supports photosynthesis and the greenhouse effect, and ozone absorbs harmful UV radiation."
+    },
+    {
+     "id": "general-geography-6-11",
+     "format": "List-Matching",
+     "keyword": "Atmosphere – Aurora",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Aurora Borealis\n(b) Aurora Australis\n(c) Thermosphere\n(d) Ionosphere\n\nList-II\ni. Electrically charged or ionised particles\n ii. Northern Hemisphere\n iii. Significant ionisation and auroral region\n iv. Southern Hemisphere",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Aurora Borealis is associated with the Northern Hemisphere, Aurora Australis with the Southern Hemisphere, the thermosphere with significant ionisation, and the ionosphere with charged particles."
+    },
+    {
+     "id": "general-geography-6-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Atmosphere – Vertical Distribution",
+     "question": "Consider the following statements:\nI. Water vapour is strongly concentrated near the surface and in the troposphere.\nII. Ozone is concentrated mainly in the stratosphere.\nIII. Hydrogen extends higher than nitrogen and oxygen.\nIV. Carbon dioxide is concentrated relatively low, up to about 20 km.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements agree with the noted vertical distribution of atmospheric gases."
+    },
+    {
+     "id": "general-geography-6-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Atmosphere – Layer Characteristics",
+     "question": "Consider the following statements:\nI. The mesosphere extends approximately from 50 to 80 km.\nII. The thermosphere begins above the mesosphere and its temperature rises sharply with altitude.\nIII. The stratosphere contains very little water vapour and is relatively stable.\nIV. The exosphere has extremely high air density.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the exosphere has extremely low density."
+    },
+    {
+     "id": "general-geography-6-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Atmosphere – Evolution",
+     "question": "Consider the following statements:\nStatement A: The early atmosphere had a reducing character with little or no free oxygen.\nStatement B: The modern atmosphere is dominated by nitrogen and oxygen.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The early atmosphere had little or no free oxygen, whereas biological evolution altered the atmosphere to one dominated by nitrogen and oxygen."
+    },
+    {
+     "id": "general-geography-6-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Atmosphere – Dust and Aerosols",
+     "question": "Consider the following statements:\nStatement A: Dust particles act as condensation nuclei.\nStatement B: Aerosols scatter or absorb radiation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true according to the notes. Dust particles help condensation, while aerosols scatter or absorb radiation."
+    },
+    {
+     "id": "general-geography-6-16",
+     "format": "Count-Based",
+     "keyword": "Atmosphere – Variable Gases",
+     "question": "How many of the following are variable gases?\n1. Nitrogen\n2. Water vapour\n3. Carbon dioxide\n4. Ozone",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three listed gases—water vapour, carbon dioxide and ozone—are variable gases. Nitrogen is classified as a permanent gas."
+    }
+   ]
+  },
+  "7": {
+   "number": 7,
+   "title": "Climate Elements and Controls",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:43+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-7-1",
+     "format": "Direct Recall",
+     "keyword": "Climate – Elements vs Factors",
+     "question": "Which of the following is an element of climate rather than a climatic factor or control?",
+     "options": [
+      "Humidity",
+      "Altitude",
+      "Latitude",
+      "Distance from sea"
+     ],
+     "answer": 0,
+     "explanation": "Humidity is an element of climate. Latitude, altitude and distance from sea are climatic factors or controls."
+    },
+    {
+     "id": "general-geography-7-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Temperature",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Temperature generally decreases from the equator towards the poles.",
+      "The sea moderates temperature, making coastal climates more equable.",
+      "Interior areas generally have a smaller annual temperature range than coastal areas.",
+      "Temperature generally decreases with increasing altitude."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is ‘smaller’. Interior areas generally have a larger annual temperature range, while coastal areas have a smaller range."
+    },
+    {
+     "id": "general-geography-7-3",
+     "format": "Assertion-Reason",
+     "keyword": "Atmospheric Pressure",
+     "question": "Assertion (A): Increasing temperature can lead to low pressure.\nReason (R): Heated air expands, its density decreases, and it produces low pressure.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The expansion and decrease in density of heated air directly explain the development of low pressure."
+    },
+    {
+     "id": "general-geography-7-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wind",
+     "question": "Consider the following statements:\nStatement A: Wind is the horizontal movement of air from high pressure to low pressure.\nStatement B: A greater pressure gradient produces stronger winds.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are directly given in the notes: wind moves from high to low pressure, and a greater pressure gradient produces stronger winds."
+    },
+    {
+     "id": "general-geography-7-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Humidity",
+     "question": "Consider the following statements:\nI. Absolute humidity is the actual mass of water vapour per unit volume.\nII. Relative humidity is actual moisture divided by moisture-holding capacity, multiplied by 100.\nIII. Cold air can hold more water vapour than warm air.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct. Statement III is incorrect because warm air can hold more water vapour than cold air."
+    },
+    {
+     "id": "general-geography-7-6",
+     "format": "List-Matching",
+     "keyword": "Humidity",
+     "question": "Match List-I with List-II.\nList-I\n(a) Absolute humidity\n(b) Relative humidity\n(c) Dew point\n(d) Condensation\n\nList-II\n(i) Temperature at which air becomes saturated\n(ii) Water vapour changing into liquid or solid\n(iii) Actual mass of water vapour per unit volume\n(iv) Actual moisture divided by moisture-holding capacity × 100",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii."
+    },
+    {
+     "id": "general-geography-7-7",
+     "format": "Direct Recall",
+     "keyword": "Temperature",
+     "question": "Which climatic control explains why the Himalayas are cooler despite their lower latitude?",
+     "options": [
+      "Altitude",
+      "Distance from sea",
+      "Cloudiness",
+      "Ocean currents"
+     ],
+     "answer": 0,
+     "explanation": "Altitude is the relevant control. Temperature generally decreases with increasing altitude, making higher mountain areas cooler."
+    },
+    {
+     "id": "general-geography-7-8",
+     "format": "Assertion-Reason",
+     "keyword": "Cloudiness",
+     "question": "Assertion (A): Cloudy nights are generally warmer than clear-sky nights.\nReason (R): Clouds reduce terrestrial heat loss at night.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reduction of terrestrial heat loss explains why cloudy nights are warmer."
+    },
+    {
+     "id": "general-geography-7-9",
+     "format": "List-Matching",
+     "keyword": "Rainfall",
+     "question": "Match the precipitation type with its mechanism or typical association.\nList-I\n(a) Convectional precipitation\n(b) Cyclonic or frontal precipitation\n(c) Relief-induced precipitation\n(d) Orographic rainfall\n\nList-II\n(i) Topography modifies rainfall distribution\n(ii) Strong heating, rising air, cooling and condensation\n(iii) Convergence or frontal uplift causing rising air\n(iv) Rainfall on the windward slope due to relief",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are convectional-strong heating and rising air, cyclonic/frontal-convergence or frontal uplift, relief-induced-topographic modification, and orographic-windward slope rainfall."
+    },
+    {
+     "id": "general-geography-7-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Relief / Topography",
+     "question": "Consider the following statements:\nI. Mountains can block or redirect air masses.\nII. The windward slope is associated with orographic rainfall.\nIII. The leeward slope is associated with a rain shadow.\nIV. The Western Ghats produce no rainfall contrast across their slopes.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Western Ghats produce a strong rainfall contrast across their slopes."
+    },
+    {
+     "id": "general-geography-7-11",
+     "format": "Count-Based",
+     "keyword": "Ocean Currents",
+     "question": "How many of the following statements about ocean currents are correct?\n1. Warm currents warm adjoining coastal air.\n2. Cold currents cool the adjoining coast.\n3. Cold currents can suppress convection.\n4. Warm currents always produce arid west-coast climates.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because cold currents, often with subtropical highs, are associated with arid west-coast climates."
+    },
+    {
+     "id": "general-geography-7-12",
+     "format": "Assertion-Reason",
+     "keyword": "Jet Streams",
+     "question": "Assertion (A): The Subtropical Westerly Jet is connected with winter weather and Western Disturbances.\nReason (R): Western Disturbances bring winter precipitation over north-western India.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the reason gives the precipitation effect of Western Disturbances rather than explaining why the Subtropical Westerly Jet is connected with winter weather and those disturbances."
+    },
+    {
+     "id": "general-geography-7-13",
+     "format": "List-Matching",
+     "keyword": "Monsoon",
+     "question": "Match the phenomenon with its climatic connection.\nList-I\n(a) ENSO / El Niño\n(b) Positive IOD\n(c) IOD\n(d) SST anomalies\n\nList-II\n(i) Influence atmospheric circulation and rainfall\n(ii) Modulates monsoon variability\n(iii) Generally weakens the Indian monsoon\n(iv) Can partly offset El Niño’s effect",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are ENSO/El Niño- generally weakens the Indian monsoon, Positive IOD-can partly offset El Niño’s effect, IOD-modulates monsoon variability, and SST anomalies-influence atmospheric circulation and rainfall."
+    },
+    {
+     "id": "general-geography-7-14",
+     "format": "Direct Recall",
+     "keyword": "Monsoon",
+     "question": "During summer, what pressure condition over heated land helps monsoon circulation?",
+     "options": [
+      "Low pressure over cooled land, reversing seasonal winds",
+      "Low pressure over heated land, drawing moisture-bearing winds",
+      "High pressure over heated land, drawing dry winds",
+      "High pressure over heated land, suppressing the pressure gradient"
+     ],
+     "answer": 1,
+     "explanation": "Summer heating creates low pressure over heated land. The pressure gradient then draws moisture-bearing winds and helps monsoon circulation."
+    }
+   ]
+  },
+  "8": {
+   "number": 8,
+   "title": "Air Masses and Fronts",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:38+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-8-1",
+     "format": "Direct Recall",
+     "keyword": "Climate",
+     "question": "Which of the following best describes an air mass?",
+     "options": [
+      "A narrow boundary zone between two contrasting air masses",
+      "A cloud formed when water vapour condenses",
+      "A weather system formed only over oceans",
+      "A large body of air with relatively uniform temperature and humidity"
+     ],
+     "answer": 3,
+     "explanation": "An air mass is defined as a large body of air having relatively uniform temperature and humidity."
+    },
+    {
+     "id": "general-geography-8-2",
+     "format": "List-Matching",
+     "keyword": "Climate",
+     "question": "Match List-I with List-II.\n\nList-I (Source Region)\na. Tropical Ocean\nb. Tropical Land\nc. Polar Ocean\nd. Polar Land\n\nList-II (Air Mass)\ni. cT\n ii. mT\n iii. cP\n iv. mP",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "Tropical Ocean produces mT, Tropical Land produces cT, Polar Ocean produces mP, and Polar Land produces cP."
+    },
+    {
+     "id": "general-geography-8-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Climate",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Passage over a warm surface makes an air mass warmer and more unstable.",
+      "Passage over an ocean causes an air mass to lose moisture.",
+      "Passage over land makes an air mass drier.",
+      "Passage over a cold surface makes an air mass cooler and more stable."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement alters the effect of ocean passage. An air mass gains moisture when it passes over an ocean."
+    },
+    {
+     "id": "general-geography-8-4",
+     "format": "Assertion-Reason",
+     "keyword": "Climate",
+     "question": "Assertion (A): The meeting of two air masses with different temperature and humidity forms a front.\nReason (R): Lighter warmer air is forced to rise over denser colder air.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "A front forms where contrasting air masses meet. The warmer, lighter air rises over the denser colder air, producing uplift at the front."
+    },
+    {
+     "id": "general-geography-8-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Climate",
+     "question": "Consider the following statements about fronts:\nI. A warm front generally produces widespread light to moderate rain.\nII. A cold front may produce intense short-duration rain or thunderstorms.\nIII. At a stationary front, neither air mass advances.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct according to the described outcomes of warm, cold and stationary fronts."
+    },
+    {
+     "id": "general-geography-8-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Climate",
+     "question": "Consider the following statements:\nStatement A: An air mass gains moisture when it passes over an ocean.\nStatement B: An air mass loses moisture and becomes drier when it passes over land.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Passage over an ocean adds moisture to an air mass, while passage over land causes it to lose moisture and become drier."
+    },
+    {
+     "id": "general-geography-8-7",
+     "format": "Count-Based",
+     "keyword": "Climate",
+     "question": "How many of the following source-region and air-mass combinations are correctly matched?\n1. Tropical Ocean — Warm and moist\n2. Tropical Land — Warm and dry\n3. Polar Ocean — Cold and moist\n4. Polar Land — Cold and dry",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four combinations are correct: tropical ocean is warm and moist, tropical land is warm and dry, polar ocean is cold and moist, and polar land is cold and dry."
+    },
+    {
+     "id": "general-geography-8-8",
+     "format": "Direct Recall",
+     "keyword": "Climate",
+     "question": "Along what feature do mid-latitude cyclones form?",
+     "options": [
+      "Stationary air masses only",
+      "Source regions",
+      "Ocean surfaces only",
+      "Fronts"
+     ],
+     "answer": 3,
+     "explanation": "The notes state that mid-latitude cyclones form along fronts."
+    }
+   ]
+  },
+  "9": {
+   "number": 9,
+   "title": "Atmospheric Disturbances and Cyclones",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:40+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-9-1",
+     "format": "Direct Recall",
+     "keyword": "Climate",
+     "question": "Which factor supplies heat and moisture for tropical cyclone formation?",
+     "options": [
+      "Sufficient distance from the Equator",
+      "Warm sea-surface temperature",
+      "Pre-existing disturbance",
+      "Low vertical wind shear"
+     ],
+     "answer": 1,
+     "explanation": "Warm sea-surface temperature supplies the heat and moisture needed for tropical cyclone formation."
+    },
+    {
+     "id": "general-geography-9-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Climate",
+     "question": "Which of the following statements about tropical cyclone structure is incorrect?",
+     "options": [
+      "The eye is a central region of comparatively light winds and fair weather.",
+      "The eyewall is the zone of strongest winds, heavy rainfall and thunderstorms.",
+      "The centre is the region of highest pressure in the cyclone.",
+      "Spiral rainbands are curved cloud bands producing rain and wind."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is “highest pressure.” The centre of a tropical cyclone is the region of lowest pressure."
+    },
+    {
+     "id": "general-geography-9-3",
+     "format": "Assertion-Reason",
+     "keyword": "Climate",
+     "question": "Assertion (A): Tropical cyclones generally do not form exactly at the Equator.\nReason (R): The Coriolis force is too weak near the Equator.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Tropical cyclones require effective Coriolis force for rotation, but it is too weak near the Equator."
+    },
+    {
+     "id": "general-geography-9-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Climate",
+     "question": "Consider the following statements:\nStatement A: Temperate cyclones are associated with the interaction of contrasting air masses.\nStatement B: Temperate cyclones generally move from east to west under the influence of westerlies.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true because temperate cyclones develop through air-mass interaction. Statement B is false because their general movement is west to east."
+    },
+    {
+     "id": "general-geography-9-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Climate",
+     "question": "Consider the following statements about anticyclones:\nI. They have a high-pressure centre.\nII. Air moves outward from the centre.\nIII. They are associated with descending air.\nIV. They generally produce stormier and cloudier weather.",
+     "options": [
+      "I, II, III and IV",
+      "I and IV only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III are correct: anticyclones have high pressure, outward-moving air and descending air. Statement IV is incorrect because anticyclones generally bring clearer weather."
+    },
+    {
+     "id": "general-geography-9-6",
+     "format": "List-Matching",
+     "keyword": "Clouds",
+     "question": "Match List-I with List-II.\nList-I\n(a) Cumulus\n(b) Cumulonimbus\n(c) Nimbostratus\n(d) Cirrostratus\n\nList-II\n(i) High-altitude cloud\n(ii) Prolonged precipitation\n(iii) Convective development\n(iv) Thunderstorm, heavy rain and hail",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i: Cumulus—convective development; Cumulonimbus—thunderstorm, heavy rain and hail; Nimbostratus—prolonged precipitation; Cirrostratus—high-altitude cloud."
+    },
+    {
+     "id": "general-geography-9-7",
+     "format": "List-Matching",
+     "keyword": "Climate",
+     "question": "Match the regional name of a tropical cyclone with the region or example.\nList-I\n(a) Hurricane\n(b) Typhoon\n(c) Willy-Willy\n(d) Nargis\n\nList-II\n(i) Myanmar example\n(ii) USA / Atlantic\n(iii) Northern / NW Australia\n(iv) China / Western Pacific\n\nOptions:",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Hurricane—USA/Atlantic, Typhoon—China/Western Pacific, Willy-Willy—Northern/NW Australia and Nargis—Myanmar example."
+    },
+    {
+     "id": "general-geography-9-8",
+     "format": "Direct Recall",
+     "keyword": "Climate",
+     "question": "Which part of a tropical cyclone is the most intense zone, with strong winds, heavy rainfall and thunderstorms?",
+     "options": [
+      "Eye",
+      "Centre",
+      "Spiral rainbands",
+      "Eyewall"
+     ],
+     "answer": 3,
+     "explanation": "The eyewall is the most intense zone of a tropical cyclone, characterised by strong winds, heavy rainfall and thunderstorms."
+    },
+    {
+     "id": "general-geography-9-9",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Climate",
+     "question": "Which of the following statements about Western Disturbances is incorrect?",
+     "options": [
+      "They originate in the Mediterranean region.",
+      "They are extratropical or cyclonic disturbances.",
+      "Their rainfall across the north-western plain increases from west to east.",
+      "They affect north-western India mainly during winter."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the rainfall trend. Rainfall across the north-western plain decreases from west to east."
+    },
+    {
+     "id": "general-geography-9-10",
+     "format": "Count-Based",
+     "keyword": "Climate",
+     "question": "How many of the following are described as local or very local atmospheric disturbances?\n1. Thunderstorm\n2. Tornado / Twister\n3. Cloudburst\n4. Local squall / local storm",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four fit the description: thunderstorm, cloudburst and local squall/local storm are local, while tornado/twister is very local."
+    },
+    {
+     "id": "general-geography-9-11",
+     "format": "Assertion-Reason",
+     "keyword": "Climate",
+     "question": "Assertion (A): The Northern Hemisphere rotation of an anticyclone is clockwise.\nReason (R): An anticyclone is a high-pressure centre with outward-moving air.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, the high-pressure centre and outward-moving air describe an anticyclone but do not explain why its Northern Hemisphere rotation is clockwise."
+    }
+   ]
+  },
+  "10": {
+   "number": 10,
+   "title": "Ocean Characteristics, Currents and Coral Reefs",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:57:43+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-10-1",
+     "format": "Direct Recall",
+     "keyword": "Ocean Temperature",
+     "question": "Which layer of the ocean is characterised by a rapid change in temperature with depth?",
+     "options": [
+      "Halocline",
+      "Pycnocline",
+      "Isohaline",
+      "Thermocline"
+     ],
+     "answer": 3,
+     "explanation": "The thermocline is the layer where temperature changes rapidly with depth."
+    },
+    {
+     "id": "general-geography-10-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Salinity",
+     "question": "Which of the following statements regarding ocean salinity is incorrect?",
+     "options": [
+      "Arabian Sea has salinity of approximately 30‰.",
+      "Average ocean salinity is approximately 35‰.",
+      "Rivers are the main carriers of salts from land to the oceans.",
+      "Bay of Bengal has salinity of approximately 30‰."
+     ],
+     "answer": 0,
+     "explanation": "The altered detail is the salinity of the Arabian Sea. It is approximately 36‰, whereas the Bay of Bengal is approximately 30‰."
+    },
+    {
+     "id": "general-geography-10-3",
+     "format": "Assertion-Reason",
+     "keyword": "Ocean Density",
+     "question": "Assertion (A): Deep ocean water is generally colder and denser than surface water.\nReason (R): Lower temperature generally increases the density of seawater.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes state that surface water is relatively warm and less dense, while deep water is colder and denser; lower temperature generally increases density."
+    },
+    {
+     "id": "general-geography-10-4",
+     "format": "List-Matching",
+     "keyword": "Ocean Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Thermocline\n(b) Halocline\n(c) Pycnocline\n(d) Isohalines\n\nList-II\n(i) Lines representing salinity\n(ii) Rapid density change with depth\n(iii) Rapid temperature change with depth\n(iv) Rapid salinity change with depth",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are thermocline–rapid temperature change, halocline–rapid salinity change, pycnocline–rapid density change, and isohalines–lines representing salinity."
+    },
+    {
+     "id": "general-geography-10-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Salinity – Horizontal Distribution",
+     "question": "Consider the following statements:\nI. Equatorial regions have relatively lower salinity because of heavy rainfall.\nII. Subtropical and desert belts generally have higher salinity because of high evaporation and low humidity.\nIII. Polar regions generally have higher salinity because of high evaporation.\nIV. Salinity is generally high between 20° and 40° N/S because of strong evaporation.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and IV are correct. Polar regions generally have relatively lower salinity because of low evaporation and freshwater input from ice melt and rivers."
+    },
+    {
+     "id": "general-geography-10-6",
+     "format": "Direct Recall",
+     "keyword": "Ocean Currents – Main Driver",
+     "question": "What is the main driver of deep ocean currents?",
+     "options": [
+      "Density differences caused by temperature and salinity",
+      "Tides alone",
+      "Seasonal winds alone",
+      "Prevailing winds and Earth’s rotation"
+     ],
+     "answer": 0,
+     "explanation": "Deep currents are mainly driven by density differences resulting from temperature and salinity."
+    },
+    {
+     "id": "general-geography-10-7",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Coral Reefs",
+     "question": "Which of the following statements about coral reefs is incorrect?",
+     "options": [
+      "They are mainly distributed in tropical and semi-tropical waters.",
+      "Coral reefs are formed through consolidation of the skeletons of marine organisms or coral polyps.",
+      "They are typically found around 25°N–25°S, with some extension to about 30°.",
+      "They are generally poor in biodiversity because they occur only in shallow marine settings."
+     ],
+     "answer": 3,
+     "explanation": "The altered detail is biodiversity. Coral reefs are extremely rich marine habitats, not poor in biodiversity."
+    },
+    {
+     "id": "general-geography-10-8",
+     "format": "List-Matching",
+     "keyword": "Warm and Cold Ocean Currents",
+     "question": "Match List-I with List-II according to the type of ocean current.\n\nList-I\n(a) Brazil\n(b) Falkland\n(c) Gulf Stream\n(d) Labrador\n\nList-II\n(i) Cold current\n(ii) Warm current\n\nCodes:\n(a) (b) (c) (d)",
+     "options": [
+      "(ii), (ii), (i), (i)",
+      "(i), (i), (ii), (ii)",
+      "(ii), (i), (ii), (i)",
+      "(i), (ii), (i), (ii)"
+     ],
+     "answer": 2,
+     "explanation": "Brazil and Gulf Stream are warm currents, while Falkland and Labrador are cold currents."
+    },
+    {
+     "id": "general-geography-10-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ocean Acidification",
+     "question": "Consider the following statements:\nStatement A: Ocean acidification can affect coral reefs and calcareous phytoplankton.\nStatement B: Ocean acidification necessarily affects cloud formation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true because reduced carbonate availability affects calcareous organisms, including coral reefs and calcareous phytoplankton. The notes state that cloud formation is not necessarily affected."
+    },
+    {
+     "id": "general-geography-10-10",
+     "format": "Direct Recall",
+     "keyword": "Coral Reefs – Location",
+     "question": "The Great Barrier Reef is located near which coast?",
+     "options": [
+      "Bay of Bengal coast",
+      "Queensland coast",
+      "Red Sea coast",
+      "Arabian coast"
+     ],
+     "answer": 1,
+     "explanation": "The Great Barrier Reef is located near the Queensland coast."
+    },
+    {
+     "id": "general-geography-10-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Marine Life",
+     "question": "Consider the following statements:\nI. Phytoplankton are primary producers.\nII. Zooplankton are animal plankton and form part of the food chain.\nIII. Nekton are organisms associated with the ocean bottom.\nIV. Benthos are actively swimming organisms.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct. Nekton are actively swimming organisms, whereas benthos are associated with the ocean bottom."
+    },
+    {
+     "id": "general-geography-10-12",
+     "format": "Count-Based",
+     "keyword": "Causes of Ocean Currents",
+     "question": "How many of the following are listed as causes or controls of ocean currents?\n1. Differential heating\n2. Trade winds\n3. Coastline configuration\n4. Tides",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four are listed in the notes as causes or controls of ocean currents."
+    },
+    {
+     "id": "general-geography-10-13",
+     "format": "Assertion-Reason",
+     "keyword": "Ocean Currents – Climate",
+     "question": "Assertion (A): Ocean currents influence climate.\nReason (R): Ocean currents redistribute heat.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and heat redistribution by ocean currents explains their influence on climate."
+    }
+   ]
+  },
+  "11": {
+   "number": 11,
+   "title": "Hydrological Disasters and Flood Management",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:56+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-11-1",
+     "format": "Direct Recall",
+     "keyword": "Hydrological Disasters",
+     "question": "Which of the following best describes the core mechanism of a river flood?",
+     "options": [
+      "Prolonged water deficit",
+      "Rainfall combined with inadequate urban drainage",
+      "River discharge exceeding channel capacity",
+      "Sudden high-intensity runoff or discharge"
+     ],
+     "answer": 2,
+     "explanation": "A river flood occurs when river discharge exceeds the capacity of the channel, resulting in inundation and crop or property damage."
+    },
+    {
+     "id": "general-geography-11-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Hydrological Disasters",
+     "question": "Which of the following statements regarding the causes of urban flooding is incorrect?",
+     "options": [
+      "Wetland destruction can contribute to urban flooding.",
+      "Wetland restoration can contribute to urban flooding.",
+      "Impervious surfaces can increase runoff.",
+      "Encroachment of drains can contribute to urban flooding."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is ‘wetland restoration’. The listed anthropogenic cause is wetland destruction, while wetlands provide natural storage."
+    },
+    {
+     "id": "general-geography-11-3",
+     "format": "Assertion-Reason",
+     "keyword": "Hydrological Disasters",
+     "question": "Assertion (A): A cloudburst has a strong potential to cause flash floods.\nReason (R): A cloudburst involves highly localized and extremely intense rainfall, resulting in rapid runoff.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The highly localized and intense rainfall of a cloudburst produces rapid runoff and gives it strong flash-flood potential."
+    },
+    {
+     "id": "general-geography-11-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hydrological Disasters",
+     "question": "Consider the following statements:\nStatement A: Dams, reservoirs and embankments are structural flood-management measures.\nStatement B: Flood forecasting, early warning and floodplain zoning are non-structural measures.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The structural list includes dams, reservoirs and embankments, while the non-structural list includes forecasting, early warning and floodplain zoning."
+    },
+    {
+     "id": "general-geography-11-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Hydrological Disasters",
+     "question": "Which of the following statements are correct?\nI. Siltation reduces channel depth and capacity.\nII. Deforestation increases runoff.\nIII. Poor drainage causes water to accumulate.\nIV. Embankment failure prevents water from escaping the channel.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III are correct. Embankment failure allows water to escape the channel; it does not prevent such escape."
+    },
+    {
+     "id": "general-geography-11-6",
+     "format": "List-Matching",
+     "keyword": "Hydrological Disasters",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) River flood\n(b) Flash flood\n(c) Urban flood\n(d) Drought\n\nList-II\n(i) Sudden high-intensity runoff or discharge\n(ii) Prolonged water deficit\n(iii) River discharge exceeding channel capacity\n(iv) Rainfall combined with inadequate urban drainage",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are a-iii, b-i, c-iv and d-ii. These correspond respectively to river flood, flash flood, urban flood and drought mechanisms."
+    },
+    {
+     "id": "general-geography-11-7",
+     "format": "List-Matching",
+     "keyword": "Hydrological Disasters",
+     "question": "Match the primary event in List-I with its associated secondary hazard in List-II.\n\nList-I\n(a) Cloudburst\n(b) Flash flood\n(c) River flood\n(d) Coastal flood\n\nList-II\n(i) Salinity intrusion\n(ii) Bank erosion\n(iii) Flash flood\n(iv) Landslide",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are cloudburst–flash flood, flash flood–landslide, river flood–bank erosion and coastal flood–salinity intrusion."
+    },
+    {
+     "id": "general-geography-11-8",
+     "format": "Chronological Ordering",
+     "keyword": "Hydrological Disasters",
+     "question": "Arrange the following disaster-response steps in the correct sequence:\nA. Early warning\nB. Evacuation\nC. Rescue\nD. Shelters",
+     "options": [
+      "C, B, A, D",
+      "B, A, D, C",
+      "A, B, C, D",
+      "A, C, B, D"
+     ],
+     "answer": 2,
+     "explanation": "The prescribed sequence during a disaster is early warning, evacuation, rescue, shelters, followed by emergency medical and water supply."
+    },
+    {
+     "id": "general-geography-11-9",
+     "format": "Count-Based",
+     "keyword": "Hydrological Disasters",
+     "question": "How many of the following nature-based flood-management pairs are correctly matched?\nI. Wetlands — Store excess water\nII. Mangroves — Buffer coastal hazards\nIII. Forests — Decrease infiltration and interception\nIV. Riparian vegetation — Stabilise banks",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three pairs are correct: wetlands store excess water, mangroves buffer coastal hazards and riparian vegetation stabilises banks. Forests increase, rather than decrease, infiltration and interception."
+    },
+    {
+     "id": "general-geography-11-10",
+     "format": "Direct Recall",
+     "keyword": "Hydrological Disasters",
+     "question": "Which of the following areas is identified as highly vulnerable to flash floods?",
+     "options": [
+      "Areas with prolonged water deficit",
+      "Mountains, steep catchments and urban areas",
+      "Low-lying deltas and agricultural plains only",
+      "Wetlands and riparian corridors only"
+     ],
+     "answer": 1,
+     "explanation": "Flash floods are associated with mountains, steep catchments and urban areas, where rapid runoff and high flow velocity can cause severe damage."
+    },
+    {
+     "id": "general-geography-11-11",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Hydrological Disasters",
+     "question": "Which of the following statements regarding coastal flooding is incorrect?",
+     "options": [
+      "High tide creates a higher baseline water level.",
+      "Heavy coastal rainfall can cause drainage congestion.",
+      "Sea-level rise leads to lower coastal exposure.",
+      "Cyclones can produce storm surges."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is ‘lower coastal exposure’. The notes state that sea-level rise results in higher coastal exposure."
+    },
+    {
+     "id": "general-geography-11-12",
+     "format": "Assertion-Reason",
+     "keyword": "Hydrological Disasters",
+     "question": "Assertion (A): Drought affects agriculture, water supply and ecosystems.\nReason (R): Drought is caused by a prolonged water deficit.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. A prolonged water deficit produces the agricultural, water-supply and ecosystem impacts associated with drought."
+    }
+   ]
+  },
+  "12": {
+   "number": 12,
+   "title": "Ocean Water: Tides, Waves and Currents",
+   "tracker": {
+    "g1": [
+     "G1-D1",
+     "G1-D2"
+    ],
+    "g2": [
+     "G2-S2-GPG"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:40+00:00",
+   "mcqs": [
+    {
+     "id": "general-geography-12-1",
+     "format": "Direct Recall",
+     "keyword": "Ocean Water – Basic Features",
+     "question": "Which ocean-water phenomenon involves horizontal movement and has major impacts on climate, fisheries and navigation?",
+     "options": [
+      "Tides",
+      "Ocean currents",
+      "Waves",
+      "Tsunamis"
+     ],
+     "answer": 1,
+     "explanation": "Ocean currents involve horizontal movement and influence climate, fisheries and navigation."
+    },
+    {
+     "id": "general-geography-12-2",
+     "format": "Assertion-Reason",
+     "keyword": "Tides – Spring Tide",
+     "question": "Assertion (A): Spring tides have the maximum tidal range.\nReason (R): During spring tides, the Sun, Earth and Moon are aligned and their gravitational effects are reinforcing.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Alignment of the Sun, Earth and Moon produces reinforcing gravitational effects, resulting in the maximum tidal range."
+    },
+    {
+     "id": "general-geography-12-3",
+     "format": "List-Matching",
+     "keyword": "Ocean Currents → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Agulhas\n(b) Benguela\n(c) Humboldt / Peru\n(d) Gulf Stream\n\nList-II\ni. North Atlantic\n ii. Pacific, west coast of South America\n iii. Indian Ocean, southeast Africa\n iv. South Atlantic, southwest Africa",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Agulhas–Indian Ocean, southeast Africa; Benguela–South Atlantic, southwest Africa; Humboldt/Peru–Pacific, west coast of South America; and Gulf Stream–North Atlantic."
+    },
+    {
+     "id": "general-geography-12-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forces Controlling Ocean Currents",
+     "question": "Consider the following statements:\nI. Winds drive surface water.\nII. Temperature changes water density.\nIII. Coastline configuration can deflect or redirect currents.\nIV. Tides do not contribute to ocean-water movement.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct. Tides contribute to ocean-water movement, so Statement IV is incorrect."
+    },
+    {
+     "id": "general-geography-12-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Cold Current → Location",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Canary Current is a cold current in the North Atlantic near northwest Africa.",
+      "The California Current is a cold current in the Pacific along the west coast of North America.",
+      "The Benguela Current is a cold current in the South Atlantic near northwest Africa.",
+      "The Labrador Current is a cold current in the North Atlantic."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the location of the Benguela Current. It is associated with southwest Africa, not northwest Africa."
+    },
+    {
+     "id": "general-geography-12-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ocean Currents – Major Impact",
+     "question": "Consider the following statements:\nStatement A: Ocean currents affect climate, fisheries and navigation.\nStatement B: A tsunami is a long-wavelength destructive sea disturbance.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ocean currents have major impacts on climate, fisheries and navigation, while a tsunami is described as a long-wavelength destructive sea disturbance."
+    },
+    {
+     "id": "general-geography-12-7",
+     "format": "Count-Based",
+     "keyword": "Warm Current",
+     "question": "How many of the following are warm currents?\n\n1. Agulhas\n2. Benguela\n3. Brazil\n4. Canary\n5. Gulf Stream\n6. Labrador",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "Only five"
+     ],
+     "answer": 1,
+     "explanation": "Agulhas, Brazil and Gulf Stream are warm currents. Benguela, Canary and Labrador are cold currents; therefore, the number of warm currents is three."
+    }
+   ]
+  }
+ }
+}

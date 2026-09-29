@@ -1,0 +1,3002 @@
+{
+ "subject": "Physics",
+ "sheets": {
+  "1": {
+   "number": 1,
+   "title": "Foundational Physics Facts and Extremes",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:47+00:00",
+   "mcqs": [
+    {
+     "id": "physics-1-1",
+     "format": "Direct Recall",
+     "keyword": "First",
+     "question": "Who is associated with the first law of motion?",
+     "options": [
+      "Aristotle",
+      "John Dalton",
+      "Archimedes",
+      "Newton"
+     ],
+     "answer": 3,
+     "explanation": "The notes identify Newton with the first law of motion."
+    },
+    {
+     "id": "physics-1-2",
+     "format": "List-Matching",
+     "keyword": "First",
+     "question": "Match List-I with List-II:\n\nList-I\n a. First successful measurement of speed of light\n b. First modern atomic theory\n c. First discovery of electron\n d. First quantum hypothesis\n\nList-II\n i. J.J. Thomson\n ii. Ole Romer\n iii. Max Planck\n iv. John Dalton",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: first successful measurement of the speed of light—Ole Romer; first modern atomic theory—John Dalton; first discovery of electron—J.J. Thomson; first quantum hypothesis—Max Planck."
+    },
+    {
+     "id": "physics-1-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "First",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Hans Lippershey is associated with the earliest known telescopes in 1608.",
+      "Daniel Bernoulli proposed the earliest model of the kinetic theory of gases in 1738.",
+      "Thales of Miletus proposed the earliest effective theory of physics.",
+      "Galileo improved and used the earliest known telescopes for astronomy."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters the fact about the earliest effective theory of physics. The notes associate the earliest effective theory of physics with Aristotle, while Thales of Miletus is associated with the earliest natural philosophy."
+    },
+    {
+     "id": "physics-1-4",
+     "format": "Assertion-Reason",
+     "keyword": "Temperature",
+     "question": "Assertion (A): Absolute zero is the lowest possible temperature.\nReason (R): Absolute zero is 0 K.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that absolute zero is the lowest possible temperature and has a value of 0 K. Thus, both statements are true, and the reason gives the stated value defining it."
+    },
+    {
+     "id": "physics-1-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Smallest",
+     "question": "Consider the following statements:\n\nI. Ganymede is the largest moon of Jupiter.\nII. Planck length is the smallest measurable length theoretically.\nIII. Elementary charge is the smallest charge.\nIV. Planck time is the smallest theoretical time.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are directly supported by the notes: Ganymede, Planck length, elementary charge, and Planck time are respectively identified with these distinctions."
+    },
+    {
+     "id": "physics-1-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Fastest",
+     "question": "Consider the following statements:\nStatement A: The fastest man-made objects relative to the Sun are the Helios probes or Parker Solar Probe.\nStatement B: The fastest particles in accelerators are near-c protons or electrons in LHC or LEP.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify the Helios probes or Parker Solar Probe as the fastest man-made objects relative to the Sun, and near-c protons or electrons in LHC or LEP as the fastest accelerator particles."
+    }
+   ]
+  },
+  "2": {
+   "number": 2,
+   "title": "Physics: Extremes and Fundamental Limits",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:49+00:00",
+   "mcqs": [
+    {
+     "id": "physics-2-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which electromagnetic radiation has the longest wavelength?",
+     "options": [
+      "Alpha particles",
+      "Gamma rays",
+      "Neutrino radiation",
+      "Radio waves"
+     ],
+     "answer": 3,
+     "explanation": "Radio waves have the longest wavelength among electromagnetic radiations listed in the notes."
+    },
+    {
+     "id": "physics-2-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The maximum speed is c, the speed of light.",
+      "The threshold wavelength is the maximum wavelength for the photoelectric effect.",
+      "The minimum temperature is 273 K.",
+      "The maximum efficiency of a heat engine is Carnot efficiency."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the minimum temperature. According to the notes, the minimum temperature is 0 K."
+    },
+    {
+     "id": "physics-2-3",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): The strong nuclear force has the shortest range among the fundamental forces.\nReason (R): Its range is approximately 10⁻¹⁵ m.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes identify the strong nuclear force as the shortest-range fundamental force, with a range of approximately 10⁻¹⁵ m."
+    },
+    {
+     "id": "physics-2-4",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Longest wavelength electromagnetic radiation\n b. Shortest wavelength electromagnetic radiation\n c. Least penetrating radiation\n d. Most massive fundamental particle\n\nList-II\n i. Gamma rays\n ii. Alpha particles\n iii. Radio waves\n iv. Top quark",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: a-iii (radio waves), b-i (gamma rays), c-ii (alpha particles), and d-iv (top quark)."
+    },
+    {
+     "id": "physics-2-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. The slowest speed for massive particles can approach zero in the rest frame.\nII. The slowest known processes are the radioactive decay of some ultra-long-lived isotopes.\nIII. The proton is the longest-lived stable particle, with an experimental lifetime limit greater than 10³⁴ years.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct according to the notes: massive particles can approach zero speed, certain radioactive decays are the slowest known processes, and the proton has an experimental lifetime limit greater than 10³⁴ years."
+    }
+   ]
+  },
+  "3": {
+   "number": 3,
+   "title": "Foundations of Modern Physics Discoveries",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:51+00:00",
+   "mcqs": [
+    {
+     "id": "physics-3-1",
+     "format": "List-Matching",
+     "keyword": "First",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Electric motor / Generator (induction)\n b. First practical electric battery\n c. Laser (first working)\n d. Cyclotron\n\nList-II\n i. Ernest Lawrence\n ii. Alessandro Volta\n iii. Michael Faraday\n iv. Theodore Maiman",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Michael Faraday is associated with the electric motor/generator based on induction, Alessandro Volta with the first practical electric battery, Theodore Maiman with the first working laser, and Ernest Lawrence with the cyclotron."
+    },
+    {
+     "id": "physics-3-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "First",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The electron was discovered by J.J. Thomson in 1897.",
+      "Radioactivity was discovered by Henri Becquerel in 1895.",
+      "X-rays were discovered by Wilhelm Röntgen in 1895.",
+      "The proton was discovered by Rutherford in 1919."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the year. According to the notes, Henri Becquerel discovered radioactivity in 1896, not 1895."
+    },
+    {
+     "id": "physics-3-3",
+     "format": "Assertion-Reason",
+     "keyword": "Developed by",
+     "question": "Assertion (A): The photoelectric effect was explained by Einstein.\nReason (R): Heinrich Hertz discovered the photoelectric effect in 1887.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. However, Hertz's discovery of the effect does not explain why Einstein explained it."
+    },
+    {
+     "id": "physics-3-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\n\nI. Maxwell's equations were formulated by James Clerk Maxwell.\nII. The Schrödinger equation was formulated by Erwin Schrödinger.\nIII. The Dirac equation was formulated by Paul Dirac.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct as listed under formulation in the notes."
+    },
+    {
+     "id": "physics-3-5",
+     "format": "Direct Recall",
+     "keyword": "First",
+     "question": "Who demonstrated the first controlled nuclear chain reaction in 1942?",
+     "options": [
+      "Enrico Fermi",
+      "C.T.R. Wilson",
+      "Robert Millikan",
+      "Cowan and Reines"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify Fermi as the scientist who demonstrated the first controlled nuclear chain reaction in 1942."
+    }
+   ]
+  },
+  "4": {
+   "number": 4,
+   "title": "Physics Phenomena, Units and Pioneers",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:50+00:00",
+   "mcqs": [
+    {
+     "id": "physics-4-1",
+     "format": "List-Matching",
+     "keyword": "Scientist",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Raman Effect\n(b) Compton Effect\n(c) Doppler Effect\n(d) Planck constant\n\nList-II\n(i) Max Planck\n(ii) C.V. Raman\n(iii) Arthur Compton\n(iv) Christian Doppler",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Raman Effect–C.V. Raman, Compton Effect–Arthur Compton, Doppler Effect–Christian Doppler and Planck constant–Max Planck."
+    },
+    {
+     "id": "physics-4-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Discoverer",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Galileo Galilei is known as the Father of Experimental Physics.",
+      "J.J. Thomson is known as the discoverer of the neutron.",
+      "Chadwick is known as the discoverer of the neutron.",
+      "Thomas Edison is known as America’s greatest inventor."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is option 3. The notes identify J.J. Thomson as the discoverer of the electron, while Chadwick is identified as the discoverer of the neutron."
+    },
+    {
+     "id": "physics-4-3",
+     "format": "Assertion-Reason",
+     "keyword": "Founder/founded",
+     "question": "Assertion (A): Isaac Newton is called the Father of Classical Mechanics.\nReason (R): Newton is identified as the founder of Classical Mechanics.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Newton is identified in the notes as the founder of Classical Mechanics, which explains why he is called its father."
+    },
+    {
+     "id": "physics-4-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Phenomenon",
+     "question": "Consider the following statements:\n\nI. Einstein is associated with Brownian motion.\nII. Bardeen, Cooper and Schrieffer are associated with superconductivity through BCS theory.\nIII. Ernest Rutherford is called the Father of Nuclear Physics.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are directly supported by the notes: Einstein is associated with Brownian motion, Bardeen–Cooper–Schrieffer with superconductivity, and Rutherford with nuclear physics."
+    },
+    {
+     "id": "physics-4-5",
+     "format": "Direct Recall",
+     "keyword": "Father",
+     "question": "Who is known as the Father of India’s Atomic Energy Programme?",
+     "options": [
+      "Homi J. Bhabha",
+      "Niels Bohr",
+      "C.V. Raman",
+      "Ernest Rutherford"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify Homi J. Bhabha as the Father of India’s Atomic Energy Programme."
+    }
+   ]
+  },
+  "5": {
+   "number": 5,
+   "title": "SI Units, Dimensions and Conversions",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:51+00:00",
+   "mcqs": [
+    {
+     "id": "physics-5-1",
+     "format": "Direct Recall",
+     "keyword": "SI Unit",
+     "question": "The SI unit of amount of substance is:",
+     "options": [
+      "Candela",
+      "Ampere",
+      "Kelvin",
+      "Mole"
+     ],
+     "answer": 3,
+     "explanation": "The mole (mol) is the SI unit of amount of substance."
+    },
+    {
+     "id": "physics-5-2",
+     "format": "Direct Recall",
+     "keyword": "Conversion",
+     "question": "One atmosphere is equivalent to:",
+     "options": [
+      "10⁵ Pa",
+      "1.013 × 10⁵ Pa",
+      "4.186 Pa",
+      "10⁻⁵ Pa"
+     ],
+     "answer": 1,
+     "explanation": "The conversion given is 1 atm = 1.013 × 10⁵ Pa."
+    },
+    {
+     "id": "physics-5-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Conversion",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "1 tonne = 10³ kg",
+      "1 bar = 1.013 × 10⁵ Pa",
+      "1 dyne = 10⁻⁵ N",
+      "1 day = 86400 s"
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the value assigned to 1 bar. The correct conversion is 1 bar = 10⁵ Pa; 1.013 × 10⁵ Pa is the value given for 1 atm."
+    },
+    {
+     "id": "physics-5-4",
+     "format": "Assertion-Reason",
+     "keyword": "SI Unit",
+     "question": "Assertion (A): The SI unit of force is the newton.\nReason (R): One newton is equal to kg m s⁻².",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Force has the SI unit newton (N), and the newton is expressed as kg m s⁻². Thus, the reason correctly supports the assertion."
+    },
+    {
+     "id": "physics-5-5",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Unit → Physical Quantity",
+     "question": "Consider the following statements:\nStatement A: The farad is the unit of capacitance.\nStatement B: The tesla is the unit of magnetic field.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The farad (F) is the unit of capacitance, while the tesla (T) is the unit of magnetic field."
+    },
+    {
+     "id": "physics-5-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Conversion",
+     "question": "Consider the following statements:\nI. 1 μm = 10⁻⁶ m\nII. 1 nm = 10⁻¹⁰ m\nIII. 1 Å = 10⁻¹⁰ m\nIV. 1 light year ≈ 9.46 × 10¹⁵ m\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, III and IV only",
+      "II and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, III and IV are correct. A nanometre is 10⁻⁹ m, not 10⁻¹⁰ m."
+    },
+    {
+     "id": "physics-5-7",
+     "format": "List-Matching",
+     "keyword": "Unit → Physical Quantity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Henry\n(b) Weber\n(c) Tesla\n(d) Farad\n\nList-II\ni. Capacitance\nii. Magnetic flux\niii. Magnetic field\niv. Inductance",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: henry–inductance, weber–magnetic flux, tesla–magnetic field and farad–capacitance."
+    },
+    {
+     "id": "physics-5-8",
+     "format": "Count-Based",
+     "keyword": "SI Base Units",
+     "question": "How many of the following are SI base units?\n1. Metre\n2. Joule\n3. Ampere\n4. Kelvin",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Metre, ampere and kelvin are SI base units. Joule is a derived SI unit, so the total is three."
+    }
+   ]
+  },
+  "6": {
+   "number": 6,
+   "title": "Measuring Instruments and SI Standards",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:55+00:00",
+   "mcqs": [
+    {
+     "id": "physics-6-1",
+     "format": "Direct Recall",
+     "keyword": "Instrument → Quantity",
+     "question": "Which instrument is used to measure small current or detect current?",
+     "options": [
+      "Galvanometer",
+      "Voltmeter",
+      "Ammeter",
+      "Potentiometer"
+     ],
+     "answer": 0,
+     "explanation": "A galvanometer measures small current and detects current. An ammeter measures electric current, while a voltmeter measures potential difference."
+    },
+    {
+     "id": "physics-6-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Instrument → Principle",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "A screw gauge works on the principle of pitch of screw and circular scale.",
+      "A potentiometer works because potential drop is proportional to the length of the wire.",
+      "A screw gauge works on the Vernier principle of coincidence of scales.",
+      "A meter bridge is based on the Wheatstone bridge principle."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the principle attributed to the screw gauge. A screw gauge works on the pitch of screw and circular scale, whereas the Vernier principle applies to Vernier calipers."
+    },
+    {
+     "id": "physics-6-3",
+     "format": "Assertion-Reason",
+     "keyword": "Barometer",
+     "question": "Assertion (A): A barometer measures atmospheric pressure.\nReason (R): In a barometer, atmospheric pressure balances the mercury column.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The balancing of the mercury column by atmospheric pressure is the operating principle that enables a barometer to measure atmospheric pressure."
+    },
+    {
+     "id": "physics-6-4",
+     "format": "List-Matching",
+     "keyword": "Instrument → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Screw gauge\n(b) Optical bench\n(c) Resonance tube\n(d) Spectrometer\n\nList-II\n(i) Refractive index and wavelength\n(ii) Speed of sound in air\n(iii) Diameter of thin wire or thickness of thin sheet\n(iv) Focal length of lenses or mirrors",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: screw gauge—diameter of thin wire or thickness of thin sheet; optical bench—focal length; resonance tube—speed of sound in air; spectrometer—refractive index and wavelength."
+    },
+    {
+     "id": "physics-6-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "SI Standard",
+     "question": "Consider the following statements:\nI. The metre is defined using the distance travelled by light in vacuum in 1/299792458 second.\nII. The kelvin is defined using the fixed Boltzmann constant k = 1.380649 × 10⁻²³ J/K.\nIII. The candela is defined using the fixed luminous efficacy of 540 THz radiation as 683 lm/W.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct according to the post-2019 SI standards given in the notes."
+    },
+    {
+     "id": "physics-6-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Instrument → Application",
+     "question": "Consider the following statements:\nStatement A: A potentiometer is used for emf comparison and measuring internal resistance.\nStatement B: A sonometer is used to determine frequency or the speed of sound in a string.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes list emf comparison and internal resistance for the potentiometer, and frequency or speed of sound in a string for the sonometer."
+    },
+    {
+     "id": "physics-6-7",
+     "format": "Direct Recall",
+     "keyword": "SI Standard",
+     "question": "The SI standard for electric current, the ampere, is based on the fixed value of which quantity?",
+     "options": [
+      "Elementary charge e = 1.602176634 × 10⁻¹⁹ C",
+      "Planck constant h = 6.62607015 × 10⁻³⁴ J s",
+      "Boltzmann constant k = 1.380649 × 10⁻²³ J/K",
+      "Avogadro constant N_A = 6.02214076 × 10²³ mol⁻¹"
+     ],
+     "answer": 0,
+     "explanation": "The ampere is defined using the fixed elementary charge e = 1.602176634 × 10⁻¹⁹ C."
+    },
+    {
+     "id": "physics-6-8",
+     "format": "Count-Based",
+     "keyword": "Scale → Measurement",
+     "question": "How many of the following scale combinations are used for measuring length or displacement?\n\nI. Main scale + Vernier scale\nII. Pitch scale + Circular scale\nIII. Linear scale\nIV. Circular scale",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three combinations are used for length or displacement: main scale plus Vernier scale, pitch scale plus circular scale, and linear scale. A circular scale is used for angular measurement or in a screw gauge."
+    }
+   ]
+  },
+  "7": {
+   "number": 7,
+   "title": "Scientists, Discoveries, Inventions, Principles and Laws",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:55+00:00",
+   "mcqs": [
+    {
+     "id": "physics-7-1",
+     "format": "List-Matching",
+     "keyword": "Scientist → Discovery",
+     "question": "Match List-I with List-II:\n\nList-I\n a. J.J. Thomson\n b. Henri Becquerel\n c. Max Planck\n d. C.V. Raman\n\nList-II\n i. Radioactivity\n ii. Raman Effect\n iii. Electron\n iv. Energy quanta / Quantum theory",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "J.J. Thomson is associated with the electron, Henri Becquerel with radioactivity, Max Planck with energy quanta/quantum theory, and C.V. Raman with the Raman Effect."
+    },
+    {
+     "id": "physics-7-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Scientist → Invention",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Michael Faraday is associated with the electric motor and generator through electromagnetic induction.",
+      "Thomas Edison is associated with the practical incandescent bulb and phonograph.",
+      "Guglielmo Marconi is associated with practical radio.",
+      "Alessandro Volta is associated with the electric generator."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect statement is option 2. Alessandro Volta is associated with the electric battery, specifically the voltaic pile, not the electric generator."
+    },
+    {
+     "id": "physics-7-3",
+     "format": "Assertion-Reason",
+     "keyword": "Scientist → Invention",
+     "question": "Assertion (A): The first working laser is associated with Theodore Maiman.\nReason (R): Theodore Maiman is listed with the first working laser, dated 1960.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Theodore Maiman is associated with the first working laser, which is dated 1960."
+    },
+    {
+     "id": "physics-7-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scientist → Law",
+     "question": "Consider the following statements:\n\nI. Hooke is associated with Hooke’s law.\nII. Kepler is associated with Kepler’s laws of planetary motion.\nIII. Snell is associated with Snell’s law of refraction.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Hooke, Kepler and Snell are respectively associated with Hooke’s law, Kepler’s laws of planetary motion and Snell’s law of refraction."
+    },
+    {
+     "id": "physics-7-5",
+     "format": "Direct Recall",
+     "keyword": "Scientist → Discovery",
+     "question": "Radium and Polonium are associated with which scientist?",
+     "options": [
+      "James Chadwick",
+      "Marie Curie",
+      "Wilhelm Röntgen",
+      "Henri Becquerel"
+     ],
+     "answer": 1,
+     "explanation": "Marie Curie is associated with the discovery of Radium and Polonium."
+    }
+   ]
+  },
+  "8": {
+   "number": 8,
+   "title": "Physics Theories, Experiments and Scientists",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:49+00:00",
+   "mcqs": [
+    {
+     "id": "physics-8-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which scientist is associated with relativistic quantum theory and antimatter?",
+     "options": [
+      "Paul Dirac",
+      "Niels Bohr",
+      "Max Planck",
+      "Erwin Schrödinger"
+     ],
+     "answer": 0,
+     "explanation": "The notes associate Paul Dirac with relativistic quantum theory and antimatter."
+    },
+    {
+     "id": "physics-8-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Research",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Millikan oil drop experiment measured the electron charge.",
+      "The Michelson–Morley experiment produced a positive result for ether drift.",
+      "The Cowan–Reines experiment involved neutrino detection.",
+      "The Davisson–Germer experiment demonstrated the wave nature of electrons."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the result of the Michelson–Morley experiment. The notes state that it produced a negative result for ether drift."
+    },
+    {
+     "id": "physics-8-3",
+     "format": "Assertion-Reason",
+     "keyword": "Experiment",
+     "question": "Assertion (A): The gold foil experiment is associated with Rutherford and Geiger–Marsden.\nReason (R): It led to the nuclear model of the atom.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes. The experiment is identified by its associated scientists, while the nuclear atom is its stated result; the reason does not explain why the experiment is associated with them."
+    },
+    {
+     "id": "physics-8-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Research",
+     "question": "Consider the following statements:\nStatement A: Michael Faraday is associated with electromagnetism and electrochemistry.\nStatement B: C. V. Raman is associated with optics and spectroscopy.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes place Michael Faraday under electromagnetism and electrochemistry, and C. V. Raman under optics and spectroscopy."
+    },
+    {
+     "id": "physics-8-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nI. Galileo Galilei contributed to the experimental method, inertia and telescope astronomy.\nII. Chadwick is associated with the discovery of the neutron.\nIII. Planck is associated with the birth of quantum theory.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are supported by the notes: Galileo by the experimental method, inertia and telescope astronomy; Chadwick by neutron discovery; and Planck by the birth of quantum theory."
+    },
+    {
+     "id": "physics-8-6",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Isaac Newton\n(b) Homi J. Bhabha\n(c) Albert Einstein\n(d) Niels Bohr\n\nList-II\n(i) Atomic Physics\n(ii) Relativity / Modern Physics\n(iii) Classical Mechanics / Gravitation\n(iv) Nuclear Physics (India)",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Isaac Newton–Classical Mechanics/Gravitation, Homi J. Bhabha–Nuclear Physics (India), Albert Einstein–Relativity/Modern Physics, and Niels Bohr–Atomic Physics."
+    }
+   ]
+  },
+  "9": {
+   "number": 9,
+   "title": "Physicists, Institutions, Awards and Titles",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:53+00:00",
+   "mcqs": [
+    {
+     "id": "physics-9-1",
+     "format": "Direct Recall",
+     "keyword": "Institute",
+     "question": "Homi J. Bhabha was associated with which institution?",
+     "options": [
+      "Princeton Institute for Advanced Study",
+      "Cavendish Laboratory, Cambridge",
+      "University of Chicago",
+      "Tata Institute of Fundamental Research (TIFR)"
+     ],
+     "answer": 3,
+     "explanation": "Homi J. Bhabha was associated with the Tata Institute of Fundamental Research (TIFR)."
+    },
+    {
+     "id": "physics-9-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Scientist → Country",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Albert Einstein’s country sequence was Germany → Switzerland → USA.",
+      "Niels Bohr was from Denmark.",
+      "Niels Bohr was from Germany.",
+      "Enrico Fermi’s country sequence was Italy → USA."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the country. Niels Bohr was from Denmark, not Germany."
+    },
+    {
+     "id": "physics-9-3",
+     "format": "Assertion-Reason",
+     "keyword": "FIRST",
+     "question": "Assertion (A): Wilhelm Röntgen received the First Nobel Prize in Physics in 1901.\nReason (R): The award was associated with X-rays.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Röntgen received the First Nobel Prize in Physics in 1901 for work associated with X-rays."
+    },
+    {
+     "id": "physics-9-4",
+     "format": "List-Matching",
+     "keyword": "Award",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Wilhelm Röntgen\n(b) Albert Einstein\n(c) Max Planck\n(d) James Chadwick\n\nList-II\n(i) Nobel Physics (1932)\n(ii) Nobel Physics (1921) – Photoelectric effect\n(iii) First Nobel Prize in Physics (1901) – X-rays\n(iv) Nobel Physics (1918)",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: Wilhelm Röntgen–First Nobel Prize in Physics (1901) for X-rays; Albert Einstein–Nobel Physics (1921) for the photoelectric effect; Max Planck–Nobel Physics (1918); James Chadwick–Nobel Physics (1932)."
+    },
+    {
+     "id": "physics-9-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Institute",
+     "question": "Consider the following statements:\nI. Ernest Rutherford was associated with the Cavendish Laboratory and Manchester.\nII. Niels Bohr was associated with the University of Copenhagen and the Institute for Theoretical Physics.\nIII. Albert Einstein was associated with the Princeton Institute for Advanced Study.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct according to the institutional associations listed for Rutherford, Bohr and Einstein."
+    },
+    {
+     "id": "physics-9-6",
+     "format": "Count-Based",
+     "keyword": "Scientist → Country",
+     "question": "How many of the following scientists have Germany included in their country entry?\n\n1. Albert Einstein\n2. Max Planck\n3. Werner Heisenberg\n4. Wilhelm Röntgen",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Germany is included in the country entries of all four: Albert Einstein, Max Planck, Werner Heisenberg and Wilhelm Röntgen."
+    }
+   ]
+  },
+  "10": {
+   "number": 10,
+   "title": "Physics Discoveries, Laws and Inventions",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:48+00:00",
+   "mcqs": [
+    {
+     "id": "physics-10-1",
+     "format": "Direct Recall",
+     "keyword": "Developed by",
+     "question": "Who discovered X-rays?",
+     "options": [
+      "Röntgen",
+      "Rutherford",
+      "Becquerel",
+      "J.J. Thomson"
+     ],
+     "answer": 0,
+     "explanation": "The notes associate the discovery of X-rays with Röntgen."
+    },
+    {
+     "id": "physics-10-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Coulomb is associated with Coulomb’s Law.",
+      "Kepler is associated with Kepler’s Laws.",
+      "Hooke is associated with Lenz’s Law.",
+      "Ohm is associated with Ohm’s Law."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect pairing is Hooke–Lenz’s Law. According to the notes, Hooke is associated with Hooke’s Law, while Lenz is associated with Lenz’s Law."
+    },
+    {
+     "id": "physics-10-3",
+     "format": "Assertion-Reason",
+     "keyword": "Developed by",
+     "question": "Assertion (A): The Exclusion Principle is associated with Pauli.\nReason (R): The Uncertainty Principle is associated with Heisenberg.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes, but Heisenberg’s association with the Uncertainty Principle does not explain Pauli’s association with the Exclusion Principle."
+    },
+    {
+     "id": "physics-10-4",
+     "format": "List-Matching",
+     "keyword": "Developed by",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Voltaic pile / Battery\n b. Laser (first working)\n c. Nuclear reactor\n d. Radio (practical)\n\nList-II\n i. Maiman\n ii. Fermi\n iii. Volta\n iv. Marconi",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Voltaic pile / Battery–Volta, Laser (first working)–Maiman, Nuclear reactor–Fermi, and Radio (practical)–Marconi."
+    },
+    {
+     "id": "physics-10-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Developed by",
+     "question": "Consider the following statements:\n\nI. The photon / photoelectric law is associated with Einstein.\nII. The Raman Effect is associated with C.V. Raman.\nIII. The positron is associated with Anderson.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct according to the notes: Einstein is associated with the photon / photoelectric law, C.V. Raman with the Raman Effect, and Anderson with the positron."
+    }
+   ]
+  },
+  "11": {
+   "number": 11,
+   "title": "Physics Principles, Laws and Applications",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F20"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:01+00:00",
+   "mcqs": [
+    {
+     "id": "physics-11-1",
+     "format": "Direct Recall",
+     "keyword": "Principle → Application",
+     "question": "Which of the following is an application of Archimedes’ Principle?",
+     "options": [
+      "Ships floating",
+      "Optical fibres",
+      "Radio tuning circuit",
+      "Hydraulic brakes"
+     ],
+     "answer": 0,
+     "explanation": "The sheet identifies ships floating, hydrometers and submarines as applications of Archimedes’ Principle."
+    },
+    {
+     "id": "physics-11-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Principle → Device",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "A hydrometer is associated with Archimedes’ Principle.",
+      "A Venturi tube is associated with Bernoulli’s Principle.",
+      "An optical fibre is associated with the Photoelectric Effect.",
+      "A hydraulic press is associated with Pascal’s Principle."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect association is the optical fibre with the Photoelectric Effect. Optical fibre is listed under Total Internal Reflection; the Photoelectric Effect is associated with photocells, solar cells and automatic doors."
+    },
+    {
+     "id": "physics-11-3",
+     "format": "Assertion-Reason",
+     "keyword": "Faraday’s Law",
+     "question": "Assertion (A): Changing magnetic flux produces induced emf.\nReason (R): Faraday’s Law relates changing magnetic flux to induced emf.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The cause-effect table states that changing magnetic flux produces induced emf. Faraday’s Law is also identified with induced current when magnetic flux changes."
+    },
+    {
+     "id": "physics-11-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Newton’s Laws – Everyday Examples",
+     "question": "Consider the following statements:\nStatement A: A passenger lurches forward when a bus stops suddenly, illustrating Newton’s 1st Law.\nStatement B: Rocket propulsion and walking are examples of Newton’s 2nd Law.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is correct. Rocket propulsion and walking are listed as examples of Newton’s 3rd Law, not Newton’s 2nd Law."
+    },
+    {
+     "id": "physics-11-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Phenomenon → Cause",
+     "question": "Consider the following statements:\nI. Rainbow formation is caused by dispersion of white light by water droplets.\nII. An echo is caused by reflection of sound from a hard surface.\nIII. A mirage is caused by Rayleigh scattering of sunlight.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and II are correct according to the phenomenon-cause table. A mirage is attributed to Total Internal Reflection due to a temperature gradient, not Rayleigh scattering."
+    },
+    {
+     "id": "physics-11-6",
+     "format": "List-Matching",
+     "keyword": "Principle → Device",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Archimedes’ Principle\n(b) Pascal’s Principle\n(c) Bernoulli’s Principle\n(d) Resonance\n\nList-II\n(i) Radio tuning circuit\n(ii) Venturi tube\n(iii) Hydrometer\n(iv) Hydraulic press",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Archimedes’ Principle–hydrometer, Pascal’s Principle–hydraulic press, Bernoulli’s Principle–Venturi tube and Resonance–radio tuning circuit."
+    },
+    {
+     "id": "physics-11-7",
+     "format": "Direct Recall",
+     "keyword": "Doppler Effect → Application",
+     "question": "Which of the following is listed as an application of the Doppler Effect?",
+     "options": [
+      "Nuclear power plants",
+      "Hydraulic lifts",
+      "Optical fibres",
+      "Radar speed guns"
+     ],
+     "answer": 3,
+     "explanation": "Radar speed guns, medical ultrasound and astronomy are listed as applications of the Doppler Effect."
+    },
+    {
+     "id": "physics-11-8",
+     "format": "Assertion-Reason",
+     "keyword": "Total Internal Reflection",
+     "question": "Assertion (A): A mirage is associated with Total Internal Reflection.\nReason (R): A mirage is caused by Total Internal Reflection due to a temperature gradient.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are directly supported by the phenomenon-principle and phenomenon-cause tables. The temperature gradient is given as the cause of Total Internal Reflection producing a mirage."
+    },
+    {
+     "id": "physics-11-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Theory → Application",
+     "question": "Consider the following statements:\nStatement A: Special Relativity is associated with GPS satellite corrections and particle accelerators.\nStatement B: Bohr’s Atomic Theory explains the hydrogen spectrum and atomic structure.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The theory-application table associates Special Relativity with GPS satellite corrections and particle accelerators, and Bohr’s Atomic Theory with the hydrogen spectrum and atomic structure."
+    },
+    {
+     "id": "physics-11-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Cause → Effect",
+     "question": "Consider the following statements:\nI. A force applied on a mass produces acceleration.\nII. A temperature difference produces heat flow from hot to cold.\nIII. Compression of a spring produces potential energy stored.\nIV. An increase in the temperature of a conductor usually decreases its resistance.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III match the cause-effect table. Statement IV is incorrect because an increase in conductor temperature usually increases resistance."
+    },
+    {
+     "id": "physics-11-11",
+     "format": "List-Matching",
+     "keyword": "Phenomenon → Cause",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Blue colour of sky\n(b) Red appearance of Sun at sunset\n(c) Lightning\n(d) Thunder\n\nList-II\n(i) Sudden expansion of air due to heating by lightning\n(ii) Scattering of blue light over a longer path\n(iii) Discharge of atmospheric charge\n(iv) Rayleigh scattering of sunlight",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are blue sky–Rayleigh scattering, red sunset–scattering of blue light over a longer path, lightning–discharge of atmospheric charge and thunder–sudden expansion of air due to heating by lightning."
+    },
+    {
+     "id": "physics-11-12",
+     "format": "Count-Based",
+     "keyword": "Concept → Everyday Example",
+     "question": "How many of the following pairs are correctly matched?\n1. Inertia — Body lurches forward when a vehicle stops suddenly\n2. Friction — Walking, writing and braking of vehicles\n3. Atmospheric pressure — Drinking with a straw and barometer\n4. Surface tension — Rise of water in plants",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The first three pairs are correct. Rise of water in plants is an example of capillary action, whereas surface tension is associated with water striders and spherical raindrops."
+    },
+    {
+     "id": "physics-11-13",
+     "format": "Direct Recall",
+     "keyword": "Pascal’s Principle",
+     "question": "Which device is associated with Pascal’s Principle?",
+     "options": [
+      "Microwave oven",
+      "Electric generator",
+      "Photocell",
+      "Hydraulic lift"
+     ],
+     "answer": 3,
+     "explanation": "Pascal’s Principle is associated with hydraulic lifts, hydraulic brakes and syringes; the device list also includes hydraulic presses and lifts."
+    },
+    {
+     "id": "physics-11-14",
+     "format": "Assertion-Reason",
+     "keyword": "Superposition Principle",
+     "question": "Assertion (A): Beats in sound are associated with the Superposition Principle.\nReason (R): The Superposition Principle is associated with interference patterns and standing waves.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true because the sheet links the Superposition Principle with beats, interference and standing waves. However, the reason lists related applications and does not specifically explain why beats are produced."
+    },
+    {
+     "id": "physics-11-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Law → Application",
+     "question": "Consider the following statements:\nI. Newton’s Laws of Motion are applied in vehicle design and rocket launch.\nII. Newton’s Law of Gravitation is applied to satellite orbits and tides.\nIII. Ohm’s Law is applied to circuit design and electrical wiring.\nIV. Snell’s Law is applied to black-body radiation.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Snell’s Law is associated with lenses, optical instruments and fibre optics; black-body radiation is an application of the Stefan-Boltzmann Law."
+    },
+    {
+     "id": "physics-11-16",
+     "format": "List-Matching",
+     "keyword": "Theory → Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Quantum Theory\n(b) Electromagnetic Theory (Maxwell)\n(c) Kinetic Theory of Gases\n(d) Superconductivity Theory (BCS)\n\nList-II\n(i) Radio, TV and mobile communication\n(ii) Maglev and sensitive magnetometers\n(iii) Lasers, transistors and MRI\n(iv) Understanding pressure, temperature and engines",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Quantum Theory is associated with lasers, transistors and MRI; Maxwell’s theory with radio, TV and mobile communication; Kinetic Theory with pressure, temperature and engines; and BCS theory with maglev and sensitive magnetometers."
+    },
+    {
+     "id": "physics-11-17",
+     "format": "Direct Recall",
+     "keyword": "Conservation of Momentum",
+     "question": "Which of the following is associated with Conservation of Momentum?",
+     "options": [
+      "Recoil of a gun and rocket propulsion",
+      "Hydraulic lift and syringe",
+      "Black-body radiation and stellar temperatures",
+      "Rainbow formation and mirage"
+     ],
+     "answer": 0,
+     "explanation": "The sheet associates Conservation of Momentum with recoil of a gun and rocket propulsion."
+    }
+   ]
+  },
+  "12": {
+   "number": 12,
+   "title": "Devices, Instruments and Physical Principles",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:08+00:00",
+   "mcqs": [
+    {
+     "id": "physics-12-1",
+     "format": "Direct Recall",
+     "keyword": "Principle",
+     "question": "The working principle of an electric generator is:",
+     "options": [
+      "Electroluminescence",
+      "Mutual induction",
+      "Total internal reflection",
+      "Electromagnetic induction"
+     ],
+     "answer": 3,
+     "explanation": "An electric generator works on electromagnetic induction, specifically Faraday’s law."
+    },
+    {
+     "id": "physics-12-2",
+     "format": "Direct Recall",
+     "keyword": "Function",
+     "question": "What is the primary function of a transformer?",
+     "options": [
+      "To step up or step down AC voltage",
+      "To convert mechanical energy into electrical energy",
+      "To increase the amplitude of a signal",
+      "To convert AC into DC"
+     ],
+     "answer": 0,
+     "explanation": "A transformer steps up or steps down AC voltage."
+    },
+    {
+     "id": "physics-12-3",
+     "format": "Direct Recall",
+     "keyword": "Diode",
+     "question": "Which one of the following is an application of a diode?",
+     "options": [
+      "Rectification",
+      "Measurement of atmospheric pressure",
+      "Measurement of time interval",
+      "Measurement of angular elevation"
+     ],
+     "answer": 0,
+     "explanation": "Diodes are used in rectifiers, voltage regulation, and signal detection."
+    },
+    {
+     "id": "physics-12-4",
+     "format": "Direct Recall",
+     "keyword": "Instrument – Measurement",
+     "question": "A sextant is used for measuring:",
+     "options": [
+      "Angular elevation and latitude",
+      "Pressure difference and gas pressure",
+      "Wavelength and refractive index",
+      "Relative density of liquids"
+     ],
+     "answer": 0,
+     "explanation": "The sextant measures angular elevation and latitude."
+    },
+    {
+     "id": "physics-12-5",
+     "format": "Direct Recall",
+     "keyword": "Inventor",
+     "question": "Who is associated with the invention of the barometer?",
+     "options": [
+      "Evangelista Torricelli",
+      "Johann Schweigger",
+      "Pierre Vernier",
+      "Joseph von Fraunhofer"
+     ],
+     "answer": 0,
+     "explanation": "Evangelista Torricelli is listed as the inventor of the barometer."
+    },
+    {
+     "id": "physics-12-6",
+     "format": "Direct Recall",
+     "keyword": "Components",
+     "question": "Which set correctly identifies the main components of an optical fibre?",
+     "options": [
+      "Anode, cathode and commutator",
+      "Emitter, base and collector",
+      "Core, cladding and protective jacket",
+      "Primary coil, secondary coil and soft iron core"
+     ],
+     "answer": 2,
+     "explanation": "An optical fibre consists of a core, cladding and protective jacket."
+    },
+    {
+     "id": "physics-12-7",
+     "format": "Direct Recall",
+     "keyword": "Output",
+     "question": "The output of a solar cell is generally:",
+     "options": [
+      "DC voltage and current",
+      "Mechanical energy",
+      "Sound energy",
+      "AC voltage and current"
+     ],
+     "answer": 0,
+     "explanation": "A solar cell converts light energy into electrical energy in the form of DC voltage and current."
+    },
+    {
+     "id": "physics-12-8",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "LED",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "An LED works through electroluminescence.",
+      "An LED converts electrical energy into light energy.",
+      "An LED converts light energy into electrical energy.",
+      "An LED involves recombination of electron-hole pairs."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that an LED converts light energy into electrical energy. The notes state that an LED converts electrical energy into light energy."
+    },
+    {
+     "id": "physics-12-9",
+     "format": "Assertion-Reason",
+     "keyword": "Motor",
+     "question": "Assertion (A): An electric motor converts electrical energy into mechanical energy.\nReason (R): A motor works due to the force on a current-carrying conductor in a magnetic field.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The force on a current-carrying conductor produces the mechanical motion by which the motor converts electrical energy into mechanical energy."
+    },
+    {
+     "id": "physics-12-10",
+     "format": "Assertion-Reason",
+     "keyword": "Optical Fibre",
+     "question": "Assertion (A): Optical fibre is used to transmit light signals over long distances with low loss.\nReason (R): Optical fibre works on the principle of total internal reflection.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and total internal reflection explains the low-loss transmission of light signals through optical fibre."
+    },
+    {
+     "id": "physics-12-11",
+     "format": "Assertion-Reason",
+     "keyword": "Ammeter",
+     "question": "Assertion (A): An ammeter is connected using a low-resistance shunt arrangement.\nReason (R): An ammeter is used to measure electric current in a circuit.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the function of measuring current does not explain the specific use of a low-resistance shunt. An ammeter is a modified galvanometer with a parallel low-resistance shunt."
+    },
+    {
+     "id": "physics-12-12",
+     "format": "Assertion-Reason",
+     "keyword": "Spring Balance",
+     "question": "Assertion (A): A spring balance is based on Hooke’s law.\nReason (R): A spring balance measures force or weight.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. However, the measurement of force or weight does not explain the Hooke’s-law principle; Hooke’s law relates the extension of the spring to force."
+    },
+    {
+     "id": "physics-12-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Energy Conversion",
+     "question": "Consider the following statements:\nStatement A: A microphone converts sound energy into electrical energy.\nStatement B: A loudspeaker converts electrical energy into sound energy.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The microphone converts sound into an electrical signal, while the loudspeaker converts an electrical signal into sound."
+    },
+    {
+     "id": "physics-12-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Instrument – Principle",
+     "question": "Consider the following statements:\nStatement A: A screw gauge works on the principle of pitch of screw.\nStatement B: A thermometer works on the principle of atmospheric pressure balancing a mercury column.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true. The atmospheric-pressure and mercury-column principle belongs to the barometer, while a thermometer is based on thermal expansion."
+    },
+    {
+     "id": "physics-12-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Device – Function",
+     "question": "Consider the following statements:\nI. A rectifier converts AC to DC.\nII. An amplifier increases the amplitude of a signal.\nIII. A transformer converts AC directly into DC.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I and II are correct. A transformer steps up or steps down AC voltage; conversion of AC to DC is the function of a rectifier."
+    },
+    {
+     "id": "physics-12-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Instrument – Unit",
+     "question": "Consider the following statements:\nI. The unit of electric current measured by an ammeter is ampere.\nII. The unit of resistance measured by an ohmmeter is ohm.\nIII. The unit of force measured by a spring balance is pascal.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are correct. A spring balance measures force in newtons, not pascals."
+    },
+    {
+     "id": "physics-12-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Device – Type",
+     "question": "Consider the following statements:\nI. A transistor may be a Bipolar Junction Transistor or a Field Effect Transistor.\nII. A transformer may be a step-up, step-down, isolation, power or instrument transformer.\nIII. A diode may be a p-n junction diode, Zener diode, LED or photodiode.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements correctly reproduce the listed types of transistor, transformer and diode."
+    },
+    {
+     "id": "physics-12-18",
+     "format": "List-Matching",
+     "keyword": "Inventor",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Barometer\n(b) Vernier calipers\n(c) Telescope\n(d) Galvanometer\n\nList-II\n(i) Pierre Vernier\n(ii) Johann Schweigger\n(iii) Evangelista Torricelli\n(iv) Hans Lippershey",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: barometer–Evangelista Torricelli, Vernier calipers–Pierre Vernier, telescope–Hans Lippershey, and galvanometer–Johann Schweigger."
+    },
+    {
+     "id": "physics-12-19",
+     "format": "List-Matching",
+     "keyword": "Instrument – Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Spectrometer\n(b) Barometer\n(c) Hydrometer\n(d) CRO\n\nList-II\n(i) Observing AC waveforms and measuring frequency or phase\n(ii) Checking battery acid density and liquid purity\n(iii) Analysis of light spectra and refractive index of prisms\n(iv) Weather forecasting and altitude measurement",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: spectrometer–analysis of light spectra, barometer–weather forecasting, hydrometer–density and purity checks, and CRO–waveform observation."
+    },
+    {
+     "id": "physics-12-20",
+     "format": "List-Matching",
+     "keyword": "Device – Components",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Transformer\n(b) Transistor\n(c) Diode\n(d) Solar cell\n\nList-II\n(i) Emitter, base and collector\n(ii) Primary coil, secondary coil and soft iron core\n(iii) p-n junction semiconductor, anti-reflective coating and contacts\n(iv) p-n junction, anode and cathode",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: transformer–primary and secondary coils with soft iron core; transistor–emitter, base and collector; diode–p-n junction, anode and cathode; solar cell–p-n junction semiconductor, coating and contacts."
+    },
+    {
+     "id": "physics-12-21",
+     "format": "Count-Based",
+     "keyword": "Energy Conversion",
+     "question": "How many of the following devices convert an input of light energy into electrical energy?\n1. Solar cell\n2. Photocell\n3. LED\n4. Microphone",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Two devices—solar cell and photocell—convert light energy into electrical energy. An LED converts electrical energy into light, while a microphone converts sound into electrical energy."
+    }
+   ]
+  },
+  "14": {
+   "number": 14,
+   "title": "Force, Energy, Friction and Machines",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F21"
+    ],
+    "g2": [
+     "G2-M2B-U2"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:58:57+00:00",
+   "mcqs": [
+    {
+     "id": "physics-14-1",
+     "format": "Direct Recall",
+     "keyword": "Force → Effect",
+     "question": "Which force keeps an object moving in a circular path towards the centre?",
+     "options": [
+      "Centripetal force",
+      "Centrifugal force",
+      "Frictional force",
+      "Normal force"
+     ],
+     "answer": 0,
+     "explanation": "Centripetal force keeps an object in a circular path and acts towards the centre."
+    },
+    {
+     "id": "physics-14-2",
+     "format": "Direct Recall",
+     "keyword": "Force → Unit",
+     "question": "What is the SI unit of force?",
+     "options": [
+      "Pascal",
+      "Watt",
+      "Joule",
+      "Newton"
+     ],
+     "answer": 3,
+     "explanation": "The SI unit of force is the newton (N)."
+    },
+    {
+     "id": "physics-14-3",
+     "format": "Direct Recall",
+     "keyword": "Newton’s Law → Application",
+     "question": "Which application is associated with Newton’s third law?",
+     "options": [
+      "Objects remaining at rest until pushed",
+      "Rocket propulsion",
+      "Seat belts during sudden braking",
+      "Calculating acceleration of lifts"
+     ],
+     "answer": 1,
+     "explanation": "Rocket propulsion is an application of Newton’s third law of action and reaction."
+    },
+    {
+     "id": "physics-14-4",
+     "format": "Direct Recall",
+     "keyword": "Work → Unit",
+     "question": "Which relation is correct for one joule of work?",
+     "options": [
+      "1 J = 1 W s⁻¹",
+      "1 J = 1 kg m s⁻¹",
+      "1 J = 1 N m",
+      "1 J = 1 N s"
+     ],
+     "answer": 2,
+     "explanation": "The notes define 1 joule as 1 newton metre, or 1 J = 1 N m."
+    },
+    {
+     "id": "physics-14-5",
+     "format": "Direct Recall",
+     "keyword": "Power → Unit",
+     "question": "One horsepower is equal to:",
+     "options": [
+      "746 W",
+      "1000 W",
+      "1.6 × 10⁻¹⁹ W",
+      "9.8 W"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that 1 horsepower equals 746 watts."
+    },
+    {
+     "id": "physics-14-6",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Friction → Type",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Static friction opposes the tendency of motion.",
+      "Rolling friction is much smaller than sliding friction.",
+      "Fluid friction assists motion through fluids.",
+      "Kinetic friction opposes actual sliding motion."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is that fluid friction assists motion. Fluid friction or viscous drag opposes motion in fluids."
+    },
+    {
+     "id": "physics-14-7",
+     "format": "Assertion-Reason",
+     "keyword": "Newton’s Law → Example",
+     "question": "Assertion (A): A passenger lurches forward when a bus stops suddenly.\nReason (R): The passenger’s body tends to remain in its state of motion.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The lurching passenger illustrates the first law or inertia. The body tends to continue its motion when the bus stops suddenly."
+    },
+    {
+     "id": "physics-14-8",
+     "format": "Assertion-Reason",
+     "keyword": "Momentum → Application",
+     "question": "Assertion (A): Drawing the hands back while catching a ball reduces the force on the hands.\nReason (R): Increasing the time interval of impact decreases the force.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify catching a ball by drawing the hands back as an application of increasing the time interval to decrease force."
+    },
+    {
+     "id": "physics-14-9",
+     "format": "Assertion-Reason",
+     "keyword": "Energy → Conservation",
+     "question": "Assertion (A): Mechanical energy remains constant in a system when only conservative forces act.\nReason (R): In such a case, kinetic energy plus potential energy is constant.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Mechanical energy conservation is expressed as KE + PE = constant when only conservative forces act."
+    },
+    {
+     "id": "physics-14-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Force → Effect",
+     "question": "Consider the following statements:\nStatement A: An unbalanced force can change the state of motion of an object.\nStatement B: A balanced force changes an object’s uniform velocity.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "An unbalanced force changes the state of motion. A balanced force causes no change, so Statement B is false."
+    },
+    {
+     "id": "physics-14-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Friction → Application",
+     "question": "Consider the following statements:\nStatement A: Braking of vehicles converts kinetic energy into heat.\nStatement B: Friction in belts and pulleys is used for power transmission.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are directly given as applications of friction."
+    },
+    {
+     "id": "physics-14-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Action → Reaction",
+     "question": "Consider the following statements:\nI. Rocket gases push downward and the rocket moves upward.\nII. A swimmer pushes water backward and water pushes the swimmer forward.\nIII. A bird pushes air upward and air pushes the bird downward.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and II correctly describe action–reaction pairs. Statement III reverses the directions given in the notes: the bird pushes air downward and air pushes the bird upward."
+    },
+    {
+     "id": "physics-14-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Energy → Type",
+     "question": "Consider the following statements:\nI. Mechanical energy is the sum of kinetic energy and potential energy.\nII. Thermal energy is internal energy due to molecular motion.\nIII. Kinetic energy includes translational and rotational forms.\nIV. Potential energy includes gravitational and elastic forms.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements match the classifications of mechanical, thermal, kinetic and potential energy in the notes."
+    },
+    {
+     "id": "physics-14-14",
+     "format": "List-Matching",
+     "keyword": "Circular Motion → Force",
+     "question": "Match List-I with List-II.\nList-I\n(a) Vehicle on a level circular road\n(b) Satellite or planetary motion\n(c) Stone tied to a string\n(d) Electron around a nucleus\n\nList-II\n(i) Tension\n(ii) Electrostatic attraction\n(iii) Friction\n(iv) Gravitational force",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: level circular road–friction, satellite or planetary motion–gravitational force, stone tied to a string–tension, and electron around nucleus–electrostatic attraction."
+    },
+    {
+     "id": "physics-14-15",
+     "format": "List-Matching",
+     "keyword": "Machine → Application",
+     "question": "Match List-I with List-II.\nList-I\n(a) Lever\n(b) Inclined plane\n(c) Wheel and axle\n(d) Screw jack\n\nList-II\n(i) Lifting cars or heavy vehicles\n(ii) Steering wheel and door knobs\n(iii) Ramps, slopes, screws and wedges\n(iv) Scissors and see-saw",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: lever–scissors and see-saw, inclined plane–ramps and slopes, wheel and axle–steering wheel and door knobs, and screw jack–lifting cars or heavy vehicles."
+    },
+    {
+     "id": "physics-14-16",
+     "format": "Count-Based",
+     "keyword": "Energy → Conversion",
+     "question": "How many of the following energy conversions are correctly matched?\n1. Mechanical → Electrical: Generator\n2. Electrical → Mechanical: Electric motor\n3. Chemical → Electrical: Battery\n4. Light → Electrical: Solar cell",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four conversions are correctly matched in the notes."
+    },
+    {
+     "id": "physics-14-17",
+     "format": "Count-Based",
+     "keyword": "Friction → Application",
+     "question": "How many of the following are advantages of friction?\n1. Enables walking\n2. Causes wear and tear\n3. Allows vehicles to move and stop\n4. Helps in writing and holding objects",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 3 and 4 are advantages of friction. Causing wear and tear is a disadvantage."
+    }
+   ]
+  },
+  "15": {
+   "number": 15,
+   "title": "Semiconductors, Transistors and Superconductors",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": [
+     "G2-M2B-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:58+00:00",
+   "mcqs": [
+    {
+     "id": "physics-15-1",
+     "format": "Direct Recall",
+     "keyword": "Conductor → Example",
+     "question": "Which material has the lowest resistivity and is considered the best conductor among the following?",
+     "options": [
+      "Aluminium",
+      "Gold",
+      "Copper",
+      "Silver"
+     ],
+     "answer": 3,
+     "explanation": "Silver has the lowest resistivity and is identified as the best conductor."
+    },
+    {
+     "id": "physics-15-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Semiconductor → Elemental and Compound",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Silicon is an elemental semiconductor.",
+      "Cadmium Sulphide is an elemental semiconductor.",
+      "Germanium is an elemental semiconductor.",
+      "Gallium Arsenide is a compound semiconductor."
+     ],
+     "answer": 1,
+     "explanation": "Cadmium Sulphide is a compound semiconductor, not an elemental semiconductor."
+    },
+    {
+     "id": "physics-15-3",
+     "format": "Assertion-Reason",
+     "keyword": "Semiconductor → Temperature",
+     "question": "Assertion (A): The conductivity of a semiconductor increases when its temperature rises.\nReason (R): More covalent bonds break with temperature rise, producing more free electrons and holes.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Breaking of more covalent bonds creates additional free electrons and holes, thereby increasing conductivity."
+    },
+    {
+     "id": "physics-15-4",
+     "format": "List-Matching",
+     "keyword": "Conductor → Example",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Copper\n(b) Aluminium\n(c) Graphite\n(d) Electrolytes\n\nList-II\n(i) Ionic conductors\n(ii) Conductor among non-metals\n(iii) Widely used in wires\n(iv) Lightweight and used in power transmission",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Copper is widely used in wires; aluminium is lightweight and used in power transmission; graphite conducts among non-metals; electrolytes are ionic conductors."
+    },
+    {
+     "id": "physics-15-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Doping → Semiconductor",
+     "question": "Consider the following statements:\nI. Doping is the controlled addition of impurity atoms to a pure semiconductor.\nII. Doping is carried out to increase conductivity in a controlled manner.\nIII. Doping produces an intrinsic semiconductor.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are correct. Doping produces an extrinsic semiconductor, so statement III is incorrect."
+    },
+    {
+     "id": "physics-15-6",
+     "format": "Direct Recall",
+     "keyword": "Silicon → Semiconductor",
+     "question": "What is the approximate band gap of silicon at room temperature?",
+     "options": [
+      "0.7 eV",
+      "4.2 K",
+      "1.1 eV",
+      "14 eV"
+     ],
+     "answer": 2,
+     "explanation": "Silicon has an approximate band gap of 1.1 eV at room temperature."
+    },
+    {
+     "id": "physics-15-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "n-type / p-type → Majority Carrier",
+     "question": "Consider the following statements:\nStatement A: Electrons are the majority charge carriers in an n-type semiconductor.\nStatement B: Holes are the majority charge carriers in a p-type semiconductor.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Electrons are the majority carriers in n-type semiconductors, while holes are the majority carriers in p-type semiconductors."
+    },
+    {
+     "id": "physics-15-8",
+     "format": "Assertion-Reason",
+     "keyword": "Doping → n-type",
+     "question": "Assertion (A): Phosphorus doping produces an n-type semiconductor.\nReason (R): Phosphorus is pentavalent and its extra electron becomes a free electron.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Pentavalent phosphorus contributes an extra electron, which becomes a free electron and produces n-type behaviour."
+    },
+    {
+     "id": "physics-15-9",
+     "format": "List-Matching",
+     "keyword": "Diode → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Rectifier\n(b) LED\n(c) Zener diode\n(d) Photodiode\n\nList-II\n(i) Voltage regulation\n(ii) Light detection and solar cells\n(iii) Converts AC to DC\n(iv) Indicators, displays and lighting",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "A rectifier converts AC to DC; an LED is used for indicators, displays and lighting; a Zener diode regulates voltage; and a photodiode detects light and is used in solar cells."
+    },
+    {
+     "id": "physics-15-10",
+     "format": "Direct Recall",
+     "keyword": "Transistor → Full Form",
+     "question": "The term ‘transistor’ is derived from which expression?",
+     "options": [
+      "Transient Resistor",
+      "Transfer Resistor",
+      "Transfer Relay",
+      "Transmitting Resistance"
+     ],
+     "answer": 1,
+     "explanation": "Transistor is given as the short form of Transfer Resistor."
+    },
+    {
+     "id": "physics-15-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Electron and Hole → Semiconductor",
+     "question": "Consider the following statements:\nI. In an intrinsic semiconductor, the number of electrons equals the number of holes.\nII. In an n-type semiconductor, electrons are the majority charge carriers.\nIII. In a p-type semiconductor, electrons are the majority charge carriers.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and II are correct. In a p-type semiconductor, electrons are minority carriers, while holes are the majority carriers."
+    },
+    {
+     "id": "physics-15-12",
+     "format": "Count-Based",
+     "keyword": "Insulator → Example",
+     "question": "How many of the following are listed as insulators?\n\nI. Rubber\nII. Graphite\nIII. Glass\nIV. Air",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Rubber, glass and air are listed as insulators. Graphite is listed as a conductor among non-metals. Therefore, the count is three."
+    },
+    {
+     "id": "physics-15-13",
+     "format": "Assertion-Reason",
+     "keyword": "Superconductor → Property",
+     "question": "Assertion (A): A superconductor exhibits zero electrical resistance below its critical temperature.\nReason (R): The Meissner effect refers to the expulsion of a magnetic field.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the Meissner effect describes perfect diamagnetism and magnetic-field expulsion; it does not explain zero electrical resistance."
+    }
+   ]
+  },
+  "16": {
+   "number": 16,
+   "title": "Electricity, Machines and Electromagnetic Induction",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F21"
+    ],
+    "g2": [
+     "G2-M2B-U2"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:00:58+00:00",
+   "mcqs": [
+    {
+     "id": "physics-16-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "What is the SI unit of resistivity?",
+     "options": [
+      "Volt (V)",
+      "Ohm-metre (Ω m)",
+      "Ohm (Ω)",
+      "Siemens/metre (S/m)"
+     ],
+     "answer": 1,
+     "explanation": "The SI unit of resistivity is ohm-metre (Ω m)."
+    },
+    {
+     "id": "physics-16-2",
+     "format": "Direct Recall",
+     "keyword": "Current → Unit",
+     "question": "The relation 1 A = 1 C/s defines which quantity?",
+     "options": [
+      "Electric current",
+      "Conductance",
+      "Electric charge",
+      "Electric power"
+     ],
+     "answer": 0,
+     "explanation": "Electric current is measured in ampere, with 1 A defined as 1 C/s."
+    },
+    {
+     "id": "physics-16-3",
+     "format": "Direct Recall",
+     "keyword": "Power → Unit",
+     "question": "What is the value of 1 horsepower in watts?",
+     "options": [
+      "746 W",
+      "100 W",
+      "1000 W",
+      "3.6 × 10⁶ W"
+     ],
+     "answer": 0,
+     "explanation": "The notes specify that 1 hp equals 746 W."
+    },
+    {
+     "id": "physics-16-4",
+     "format": "Direct Recall",
+     "keyword": "Energy",
+     "question": "One unit of electricity is equivalent to:",
+     "options": [
+      "1 J",
+      "3.6 × 10⁶ kWh",
+      "1 kWh",
+      "1 kW"
+     ],
+     "answer": 2,
+     "explanation": "One unit of electricity is defined as 1 kWh."
+    },
+    {
+     "id": "physics-16-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Resistivity → Material",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Silver has the lowest resistivity among the listed materials.",
+      "Rubber, glass and plastic are insulators.",
+      "Nichrome has lower resistivity than silver.",
+      "Silicon and germanium are semiconductors."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the comparison of Nichrome with silver. Silver is identified as the best conductor and has the lowest resistivity."
+    },
+    {
+     "id": "physics-16-6",
+     "format": "Assertion-Reason",
+     "keyword": "Generator",
+     "question": "Assertion (A): A generator converts mechanical energy into electrical energy.\nReason (R): A coil rotating in a magnetic field produces induced emf and current.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The rotation of the coil in a magnetic field causes induced emf and current, explaining the energy conversion in a generator."
+    },
+    {
+     "id": "physics-16-7",
+     "format": "Assertion-Reason",
+     "keyword": "Motor",
+     "question": "Assertion (A): An electric motor converts electrical energy into mechanical energy.\nReason (R): A current-carrying coil experiences torque in a magnetic field.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The torque on the current-carrying coil produces rotation, resulting in mechanical output."
+    },
+    {
+     "id": "physics-16-8",
+     "format": "Assertion-Reason",
+     "keyword": "Earthing",
+     "question": "Assertion (A): Earthing helps prevent electric shock.\nReason (R): It provides a low-resistance path to the ground for leakage current.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The low-resistance path allows leakage current to flow to ground, thereby improving safety."
+    },
+    {
+     "id": "physics-16-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Electromagnetic Induction",
+     "question": "Consider the following statements:\nStatement A: A rectifier converts AC into DC.\nStatement B: An inverter converts DC into AC.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Rectifiers provide AC-to-DC conversion, while inverters provide DC-to-AC conversion."
+    },
+    {
+     "id": "physics-16-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Resistance → Temperature",
+     "question": "Consider the following statements:\nStatement A: The resistance of metals increases with a rise in temperature.\nStatement B: The resistance of semiconductors increases with a rise in temperature.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Resistance increases with temperature in metals but decreases in semiconductors."
+    },
+    {
+     "id": "physics-16-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Electric Fuse",
+     "question": "Consider the following statements:\nI. A fuse uses the heating effect of current.\nII. Fuse material should have a low melting point.\nIII. A fuse is connected in parallel with the device.\nIV. A fuse melts when current exceeds its rated value.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and IV are correct. A fuse is placed in series, not parallel, and melts when excess current produces sufficient heating."
+    },
+    {
+     "id": "physics-16-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Electromagnetic Induction",
+     "question": "Consider the following statements:\nI. Electromagnetic induction is used in generators.\nII. Transformers are used for voltage conversion.\nIII. Induction cooktops use electromagnetic induction for heating.\nIV. Wireless charging uses only the magnetic effect of current and not electromagnetic induction.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct. Wireless charging is listed as an application of electromagnetic induction, so statement IV is incorrect."
+    },
+    {
+     "id": "physics-16-13",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Generator\n b. Motor\n c. Transformer\n d. Rectifier\n\nList-II\n i. Converts AC into DC\n ii. Converts mechanical energy into electrical energy\n iii. Converts electrical energy into mechanical energy\n iv. Voltage conversion\n\nSelect the correct answer using the codes given below:",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: generator, motor, transformer and rectifier correspond respectively to these functions."
+    },
+    {
+     "id": "physics-16-14",
+     "format": "Count-Based",
+     "keyword": "Applications",
+     "question": "How many of the following are applications of the magnetic effect of current?\n1. Motors\n2. Generators\n3. Electromagnets\n4. Electric fuse",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Motors, generators and electromagnets are listed under the magnetic effect of current. An electric fuse is an application of the heating effect, so the count is three."
+    }
+   ]
+  },
+  "17": {
+   "number": 17,
+   "title": "Electromagnetic Spectrum and Applications",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F19",
+     "G1-F20"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:02+00:00",
+   "mcqs": [
+    {
+     "id": "physics-17-1",
+     "format": "Direct Recall",
+     "keyword": "EM Spectrum → Order",
+     "question": "Which of the following is the correct order of electromagnetic waves in increasing order of wavelength?",
+     "options": [
+      "X-rays, gamma rays, ultraviolet, infrared, visible light, microwaves, radio waves",
+      "Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays",
+      "Gamma rays, ultraviolet, X-rays, visible light, microwaves, infrared, radio waves",
+      "Gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves, radio waves"
+     ],
+     "answer": 3,
+     "explanation": "The increasing-wavelength order is gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves and radio waves."
+    },
+    {
+     "id": "physics-17-2",
+     "format": "Direct Recall",
+     "keyword": "Highest Frequency",
+     "question": "Which radiation has a frequency greater than 3 × 10¹⁹ Hz?",
+     "options": [
+      "Gamma rays",
+      "Radio waves",
+      "Ultraviolet rays",
+      "X-rays"
+     ],
+     "answer": 0,
+     "explanation": "Gamma rays have the highest frequency, greater than 3 × 10¹⁹ Hz."
+    },
+    {
+     "id": "physics-17-3",
+     "format": "Direct Recall",
+     "keyword": "Wavelength Range",
+     "question": "The approximate wavelength range of visible light is:",
+     "options": [
+      "10 nm–400 nm",
+      "0.01 nm–10 nm",
+      "700 nm–1 mm",
+      "400 nm–700 nm"
+     ],
+     "answer": 3,
+     "explanation": "Visible light has an approximate wavelength range of 400 nm to 700 nm."
+    },
+    {
+     "id": "physics-17-4",
+     "format": "Direct Recall",
+     "keyword": "Microwave → Application",
+     "question": "Which electromagnetic radiation is used in microwave ovens for heating food through water molecule resonance?",
+     "options": [
+      "Radio waves",
+      "Microwaves",
+      "Ultraviolet",
+      "Infrared"
+     ],
+     "answer": 1,
+     "explanation": "Microwave ovens use microwaves to heat food through water molecule resonance."
+    },
+    {
+     "id": "physics-17-5",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Radio Wave → Application",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "AM and FM radio broadcasting uses radio waves.",
+      "Radio waves are used for long-distance satellite communication links.",
+      "Radio waves have the highest frequency in the electromagnetic spectrum.",
+      "Radio telescopes are used in astronomy."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is ‘highest frequency’. Radio waves have the lowest frequency, less than 3 × 10⁸ Hz."
+    },
+    {
+     "id": "physics-17-6",
+     "format": "Assertion-Reason",
+     "keyword": "Highest Energy",
+     "question": "Assertion (A): Gamma rays have the highest energy among the listed electromagnetic radiations.\nReason (R): Energy is expressed as E = hν, and gamma rays have the highest frequency.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Since E = hν, the highest frequency of gamma rays corresponds to the highest energy."
+    },
+    {
+     "id": "physics-17-7",
+     "format": "Assertion-Reason",
+     "keyword": "Radiation → Medical Application",
+     "question": "Assertion (A): X-rays are used in medical radiography and CT scans.\nReason (R): X-rays are used for studying cool stars and interstellar dust.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 2,
+     "explanation": "The assertion is true because X-rays are used in radiography and CT scans. The reason is false; infrared is used for studying cool stars and interstellar dust."
+    },
+    {
+     "id": "physics-17-8",
+     "format": "List-Matching",
+     "keyword": "Radiation → Medical Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) X-rays\n(b) Gamma rays\n(c) Infrared\n(d) Microwaves\n\nList-II\n(i) Diathermy or deep heating\n(ii) Radiotherapy and PET scan\n(iii) Radiography and CT scan\n(iv) Physiotherapy and thermal imaging",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are X-rays–radiography and CT scan, gamma rays–radiotherapy and PET scan, infrared–physiotherapy and thermal imaging, and microwaves–diathermy."
+    },
+    {
+     "id": "physics-17-9",
+     "format": "List-Matching",
+     "keyword": "Radiation → Defence",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Radio waves\n(b) Microwaves\n(c) Infrared\n(d) Gamma rays\n\nList-II\n(i) Detection of nuclear materials\n(ii) Night vision and heat-seeking missiles\n(iii) Communication and radar\n(iv) Radar and jamming",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Radio waves are used for communication and radar; microwaves for radar and jamming; infrared for night vision and heat-seeking missiles; and gamma rays for detecting nuclear materials."
+    },
+    {
+     "id": "physics-17-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Radiation → Communication",
+     "question": "Consider the following statements:\nI. Radio waves are used for radio, television, mobile communication, Wi-Fi and Bluetooth.\nII. Microwaves are used for satellite communication, radar, 5G and microwave links.\nIII. Ultraviolet, X-ray and gamma radiation are used for normal communication.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct. Ultraviolet, X-ray and gamma radiation are not used for normal communication."
+    },
+    {
+     "id": "physics-17-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Astronomical Use",
+     "question": "Consider the following statements:\nStatement A: Infrared radiation is used for studying cool stars, interstellar dust and exoplanets.\nStatement B: Gamma rays are used in astronomy to study gamma-ray bursts, supernovae and active galaxies.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Infrared has the listed applications involving cool stars, dust and exoplanets, while gamma rays are used to study gamma-ray bursts, supernovae and active galaxies."
+    },
+    {
+     "id": "physics-17-12",
+     "format": "Chronological Ordering",
+     "keyword": "EM Spectrum → Order",
+     "question": "Arrange the following electromagnetic radiations in increasing order of wavelength:\nA. Infrared\nB. Gamma rays\nC. Radio waves\nD. Visible light",
+     "options": [
+      "C, A, D, B",
+      "B, D, A, C",
+      "D, B, A, C",
+      "B, A, D, C"
+     ],
+     "answer": 1,
+     "explanation": "In increasing wavelength, the relevant sequence is gamma rays, visible light, infrared and radio waves."
+    },
+    {
+     "id": "physics-17-13",
+     "format": "Count-Based",
+     "keyword": "Infrared → Defence",
+     "question": "How many of the following are defence applications of infrared radiation?\n1. Night vision\n2. Heat-seeking missiles\n3. Surveillance\n4. Baggage and cargo scanning",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Night vision, heat-seeking missiles and surveillance are infrared defence applications. Baggage and cargo scanning is listed as an X-ray application."
+    }
+   ]
+  },
+  "18": {
+   "number": 18,
+   "title": "Optics, Vision and Atmospheric Phenomena",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T06:59:11+00:00",
+   "mcqs": [
+    {
+     "id": "physics-18-1",
+     "format": "Direct Recall",
+     "keyword": "Nature of Light",
+     "question": "Which aspect of light explains the photoelectric effect and the Compton effect?",
+     "options": [
+      "Transverse nature",
+      "Electromagnetic nature",
+      "Wave nature",
+      "Particle nature"
+     ],
+     "answer": 3,
+     "explanation": "According to the notes, the particle nature of light explains the photoelectric effect and the Compton effect."
+    },
+    {
+     "id": "physics-18-2",
+     "format": "Direct Recall",
+     "keyword": "Light → Medium",
+     "question": "Which medium partially allows light to pass through it?",
+     "options": [
+      "Transparent",
+      "Opaque",
+      "Translucent",
+      "Vacuum"
+     ],
+     "answer": 2,
+     "explanation": "A translucent medium, such as frosted glass or butter paper, partially allows light to pass through."
+    },
+    {
+     "id": "physics-18-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Reflection → Law",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The incident ray, reflected ray and normal lie in the same plane.",
+      "The normal is parallel to the surface at the point of incidence.",
+      "The normal is perpendicular to the surface at the point of incidence.",
+      "The angle of incidence is equal to the angle of reflection."
+     ],
+     "answer": 1,
+     "explanation": "The altered detail is that the normal is stated to be parallel to the surface. According to the notes, it is perpendicular to the surface at the point of incidence."
+    },
+    {
+     "id": "physics-18-4",
+     "format": "Direct Recall",
+     "keyword": "Reflection → Type",
+     "question": "A rough surface that produces no clear image exhibits which type of reflection?",
+     "options": [
+      "Specular reflection",
+      "Irregular or diffused reflection",
+      "Total internal reflection",
+      "Regular reflection"
+     ],
+     "answer": 1,
+     "explanation": "Irregular or diffused reflection occurs on rough surfaces and does not produce a clear image."
+    },
+    {
+     "id": "physics-18-5",
+     "format": "Assertion-Reason",
+     "keyword": "Total Internal Reflection",
+     "question": "Assertion (A): Total internal reflection occurs when light travels from an optically denser medium to a rarer medium and the angle of incidence is greater than the critical angle.\nReason (R): Under these conditions, the entire light is reflected back into the denser medium.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes specify both conditions for total internal reflection and state that the entire light is reflected back into the denser medium."
+    },
+    {
+     "id": "physics-18-6",
+     "format": "List-Matching",
+     "keyword": "Mirror → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Plane mirror\n(b) Concave mirror\n(c) Convex mirror\n(d) Convex mirror in vehicles\n\nList-II\n(i) Rear-view mirror\n(ii) Shaving mirror\n(iii) Periscope\n(iv) Security mirror",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are plane mirror–periscope, concave mirror–shaving mirror, convex mirror–security mirror and convex mirror in vehicles–rear-view mirror."
+    },
+    {
+     "id": "physics-18-7",
+     "format": "Direct Recall",
+     "keyword": "Plane Mirror → Image",
+     "question": "What is the magnification produced by a plane mirror?",
+     "options": [
+      "+1",
+      "Greater than +1",
+      "−1",
+      "0"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that the magnification of a plane mirror is m = +1."
+    },
+    {
+     "id": "physics-18-8",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Mirror → Image",
+     "question": "Which of the following statements about mirrors is incorrect?",
+     "options": [
+      "A convex mirror always forms a virtual, erect and diminished image.",
+      "A plane mirror forms a virtual and erect image of the same size.",
+      "A concave mirror forms a real and inverted image when the object is beyond C.",
+      "A concave mirror forms a virtual and inverted image when the object is within F."
+     ],
+     "answer": 3,
+     "explanation": "The altered detail is 'inverted'. When the object is within F of a concave mirror, the image is virtual and erect."
+    },
+    {
+     "id": "physics-18-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Refraction → Cause",
+     "question": "Consider the following statements:\nStatement A: During refraction, the frequency of light remains the same while its wavelength changes.\nStatement B: Refraction is caused only by a change in the intensity of light.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "The notes state that frequency remains the same and wavelength changes during refraction. They identify change in speed and optical density difference, not intensity, as causes."
+    },
+    {
+     "id": "physics-18-10",
+     "format": "List-Matching",
+     "keyword": "Refraction → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Lenses\n(b) Prisms\n(c) Optical fibres\n(d) Spectacles\n\nList-II\n(i) Correction of eye defects\n(ii) Signal transmission\n(iii) Converging or diverging light\n(iv) Deviation and dispersion",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Lenses converge or diverge light, prisms produce deviation and dispersion, optical fibres transmit signals, and spectacles correct eye defects."
+    },
+    {
+     "id": "physics-18-11",
+     "format": "Direct Recall",
+     "keyword": "Optical Fibre",
+     "question": "In an optical fibre, which part has the higher refractive index?",
+     "options": [
+      "Cladding",
+      "Core",
+      "Outer coating",
+      "Vacuum layer"
+     ],
+     "answer": 1,
+     "explanation": "An optical fibre consists of a core with higher refractive index and cladding with lower refractive index."
+    },
+    {
+     "id": "physics-18-12",
+     "format": "Assertion-Reason",
+     "keyword": "Optical Fibre",
+     "question": "Assertion (A): Optical fibres are useful for communication because they have low loss and high bandwidth.\nReason (R): Light remains inside the optical-fibre core through total internal reflection.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that optical fibres use total internal reflection and have the advantages of low loss and high bandwidth."
+    },
+    {
+     "id": "physics-18-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "TIR → Application",
+     "question": "Consider the following statements:\nI. An optical fibre uses total internal reflection for communication and endoscopy.\nII. A diamond’s sparkle is associated with multiple total internal reflections.\nIII. A mirage is caused by regular reflection from a plane mirror.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are supported by the notes. A mirage is associated with atmospheric total internal reflection, not regular reflection from a plane mirror."
+    },
+    {
+     "id": "physics-18-14",
+     "format": "List-Matching",
+     "keyword": "Endoscope → Principle",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Endoscope\n(b) Mirage\n(c) Diamond\n(d) Porro prism\n\nList-II\n(i) Multiple total internal reflections\n(ii) Image inversion without loss\n(iii) Medical viewing using optical fibres\n(iv) TIR due to atmospheric layers",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are endoscope–medical viewing using optical fibres, mirage–atmospheric TIR, diamond–multiple TIR and Porro prism–image inversion without loss."
+    },
+    {
+     "id": "physics-18-15",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Lens → Type",
+     "question": "Which of the following statements about lenses is incorrect?",
+     "options": [
+      "A cylindrical lens corrects astigmatism.",
+      "A convex lens is thicker at the centre.",
+      "A concave lens is thicker at the edges.",
+      "A concave lens is a converging lens."
+     ],
+     "answer": 3,
+     "explanation": "The altered detail is the description of a concave lens as converging. A concave lens is a diverging lens."
+    },
+    {
+     "id": "physics-18-16",
+     "format": "Direct Recall",
+     "keyword": "Lens → Power",
+     "question": "What is the unit of the power of a lens?",
+     "options": [
+      "Dioptre",
+      "Metre",
+      "Pascal",
+      "Newton"
+     ],
+     "answer": 0,
+     "explanation": "The power of a lens is measured in dioptres (D)."
+    },
+    {
+     "id": "physics-18-17",
+     "format": "Assertion-Reason",
+     "keyword": "Lens → Image",
+     "question": "Assertion (A): A convex lens forms a virtual, erect and magnified image when the object is placed within F.\nReason (R): In this position, the convex lens acts as a magnifying glass.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that a convex lens produces a virtual, erect and magnified image within F, which is the principle of a magnifying glass."
+    },
+    {
+     "id": "physics-18-18",
+     "format": "List-Matching",
+     "keyword": "Human Eye → Structure",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Cornea\n(b) Iris\n(c) Retina\n(d) Optic nerve\n\nList-II\n(i) Carries signals to the brain\n(ii) Controls pupil size\n(iii) Main refraction\n(iv) Screen where image is formed",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The cornea performs the main refraction, the iris controls pupil size, the retina forms the image, and the optic nerve carries signals to the brain."
+    },
+    {
+     "id": "physics-18-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Human Eye → Defect",
+     "question": "Consider the following statements:\nI. Myopia causes distant objects to appear blurred.\nII. Hypermetropia causes nearby objects to appear blurred.\nIII. Presbyopia is associated with age-related loss of accommodation.\nIV. Astigmatism is caused by clouding of the eye lens.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and IV only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Statements I, II and III are correct. Clouding of the eye lens is cataract; astigmatism is due to irregular curvature."
+    },
+    {
+     "id": "physics-18-20",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Myopia → Correction",
+     "question": "Which of the following statements about myopia is incorrect?",
+     "options": [
+      "It is corrected using a concave lens.",
+      "It is also called short-sightedness.",
+      "The image of a distant object forms in front of the retina.",
+      "The corrective lens has positive power."
+     ],
+     "answer": 3,
+     "explanation": "The altered detail is the sign of corrective power. Myopia is corrected with a concave lens having negative power."
+    },
+    {
+     "id": "physics-18-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Eye Defect → Correction",
+     "question": "Consider the following statements:\nStatement A: Hypermetropia is corrected using a convex lens.\nStatement B: Astigmatism is corrected using a cylindrical lens.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that hypermetropia is corrected with a convex lens and astigmatism with a cylindrical lens."
+    },
+    {
+     "id": "physics-18-22",
+     "format": "Count-Based",
+     "keyword": "Near Point → Eye",
+     "question": "How many of the following statements are correct?\n1. The normal near point is 25 cm.\n2. In myopia, the near point is closer than 25 cm.\n3. In hypermetropia, the near point is farther than 25 cm.\n4. The normal far point is 25 cm.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 2 and 3 are correct. The normal far point is infinity, not 25 cm."
+    },
+    {
+     "id": "physics-18-23",
+     "format": "Chronological Ordering",
+     "keyword": "Rainbow → Principle",
+     "question": "Arrange the following steps in the formation of a primary rainbow in the correct sequence:\nA. Sunlight enters a water drop.\nB. Dispersion takes place.\nC. Total internal reflection occurs at the back of the drop.\nD. Light refracts out of the drop.",
+     "options": [
+      "D, C, B, A",
+      "B, A, C, D",
+      "A, C, B, D",
+      "A, B, C, D"
+     ],
+     "answer": 3,
+     "explanation": "The notes describe the sequence as sunlight entering the water drop, dispersion, total internal reflection at the back, and refraction out."
+    },
+    {
+     "id": "physics-18-24",
+     "format": "Direct Recall",
+     "keyword": "Rainbow → Dispersion",
+     "question": "Which colour undergoes maximum deviation in dispersion?",
+     "options": [
+      "Red",
+      "Green",
+      "Violet",
+      "Yellow"
+     ],
+     "answer": 2,
+     "explanation": "Violet has the highest refractive index and undergoes maximum deviation."
+    },
+    {
+     "id": "physics-18-25",
+     "format": "Assertion-Reason",
+     "keyword": "Scattering → Phenomenon",
+     "question": "Assertion (A): The sky appears blue during the day.\nReason (R): Air molecules and dust particles scatter shorter wavelengths more strongly than longer wavelengths.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Rayleigh scattering causes shorter wavelengths to scatter more, producing the blue appearance of the sky."
+    },
+    {
+     "id": "physics-18-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Astronomical Phenomenon → Principle",
+     "question": "Consider the following statements:\nI. Twinkling of stars is due to atmospheric refraction.\nII. Planets generally do not twinkle because they appear as discs and have an averaging effect.\nIII. Advance sunrise and delayed sunset are associated with atmospheric refraction.\nIV. A mirage is caused by Rayleigh scattering.",
+     "options": [
+      "II and III only",
+      "I and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. A mirage is associated with total internal reflection caused by atmospheric layers, not Rayleigh scattering."
+    }
+   ]
+  },
+  "19": {
+   "number": 19,
+   "title": "Sound, Ultrasound and Musical Acoustics",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-29T07:01:12+00:00",
+   "mcqs": [
+    {
+     "id": "physics-19-1",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Sound is best described as which of the following?",
+     "options": [
+      "A mechanical transverse wave requiring vacuum",
+      "An electromagnetic transverse wave that travels through vacuum",
+      "A mechanical longitudinal wave requiring a material medium",
+      "A stationary wave that cannot travel through liquids"
+     ],
+     "answer": 2,
+     "explanation": "Sound is a mechanical, longitudinal wave and requires a material medium such as a solid, liquid or gas. It cannot travel through vacuum."
+    },
+    {
+     "id": "physics-19-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Applications",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Sound travels through air at approximately 340–343 m/s at 20–25°C.",
+      "Sound travels through steel or iron at approximately 5000–6000 m/s.",
+      "Sound travels through glass at approximately 340–343 m/s.",
+      "Sound travels through water at approximately 1480–1500 m/s."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the speed in glass. Sound travels through glass at approximately 5000–6000 m/s, not 340–343 m/s."
+    },
+    {
+     "id": "physics-19-3",
+     "format": "Assertion-Reason",
+     "keyword": "Frequency",
+     "question": "Assertion (A): A sound having a higher frequency generally has a higher pitch.\nReason (R): Pitch is the sensation of frequency in the brain.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Frequency determines pitch, and pitch is the brain's sensation of frequency; therefore, the reason explains the assertion."
+    },
+    {
+     "id": "physics-19-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Amplitude",
+     "question": "Consider the following statements:\nStatement A: Amplitude determines the loudness or intensity of sound.\nStatement B: Amplitude has no effect on the speed, frequency or pitch of sound.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Amplitude determines loudness or intensity. It does not affect the speed, frequency or pitch of sound."
+    },
+    {
+     "id": "physics-19-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Frequency",
+     "question": "Consider the following statements about human hearing:\nI. The human audible range is 20 Hz to 20,000 Hz.\nII. Infrasonic sound has a frequency above 20 kHz.\nIII. Human hearing is most sensitive around 2000–4000 Hz.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and III are correct. Infrasonic sound is below 20 Hz, whereas sound above 20 kHz is ultrasonic."
+    },
+    {
+     "id": "physics-19-6",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Guitar\n(b) Flute\n(c) Tabla\n(d) Cymbals\n\nList-II\n(i) Vibration of stretched membrane\n(ii) Vibration of air column\n(iii) Vibration of strings\n(iv) Vibration of plates or solids",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Guitar uses vibrating strings, flute uses a vibrating air column, tabla uses a stretched membrane, and cymbals use vibrating plates or solids."
+    },
+    {
+     "id": "physics-19-7",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "At a speed of 340 m/s in air, what is the wavelength of a 20 Hz sound wave?",
+     "options": [
+      "1.7 cm",
+      "17 cm",
+      "17 m",
+      "1.7 m"
+     ],
+     "answer": 2,
+     "explanation": "For a 20 Hz sound in air at 340 m/s, the wavelength is 17 m. The 20 kHz sound has a wavelength of 1.7 cm."
+    },
+    {
+     "id": "physics-19-8",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Terms",
+     "question": "Which of the following statements about amplitude is incorrect?",
+     "options": [
+      "The unit of amplitude is metre.",
+      "The energy of sound is proportional to the square of its amplitude.",
+      "Amplitude is the distance between two successive compressions.",
+      "Amplitude is the maximum displacement of particles from their mean position."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the definition. The distance between two successive compressions is wavelength, whereas amplitude is the maximum displacement from the mean position."
+    },
+    {
+     "id": "physics-19-9",
+     "format": "Assertion-Reason",
+     "keyword": "Temperature",
+     "question": "Assertion (A): The speed of sound increases with an increase in temperature.\nReason (R): The speed of sound increases by approximately 0.61 m/s for every 1°C rise in temperature.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The stated increase of approximately 0.61 m/s per °C directly describes why the speed rises with temperature."
+    },
+    {
+     "id": "physics-19-10",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Medical imaging\n(b) Industrial testing\n(c) SONAR\n(d) Cleaning\n\nList-II\n(i) Detecting cracks or flaws in metals\n(ii) Ultrasonic cleaning of delicate parts or jewellery\n(iii) Ultrasound scanning or sonography\n(iv) Underwater detection",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Medical imaging uses sonography, industrial testing detects cracks or flaws in metals, SONAR performs underwater detection, and ultrasonic cleaning is used for delicate parts or jewellery."
+    },
+    {
+     "id": "physics-19-11",
+     "format": "Direct Recall",
+     "keyword": "Full form",
+     "question": "SONAR is based primarily on which of the following principles?",
+     "options": [
+      "Reflection of ultrasonic waves and measurement of the time interval",
+      "Refraction of audible sound waves",
+      "Absorption of infrasonic waves by water",
+      "Interference of electromagnetic waves"
+     ],
+     "answer": 0,
+     "explanation": "SONAR stands for Sound Navigation And Ranging. It sends ultrasonic pulses, receives their reflections from an object and measures the time interval."
+    },
+    {
+     "id": "physics-19-12",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Applications",
+     "question": "Which of the following statements about infrasound is incorrect?",
+     "options": [
+      "Infrasound can be used for weather monitoring of storms and tornadoes.",
+      "Seismic waves can contain infrasonic frequencies.",
+      "Elephants and whales use infrasound for communication.",
+      "SONAR uses infrasound for underwater detection."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect detail is the wave type used by SONAR. SONAR uses ultrasound, not infrasound, for underwater detection."
+    },
+    {
+     "id": "physics-19-13",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): When a sound source approaches an observer, the apparent frequency and pitch increase.\nReason (R): The Doppler effect is an apparent change in frequency caused by relative motion between the source and observer.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The relative motion in the Doppler effect causes the approaching source to be heard at a higher apparent frequency and pitch."
+    },
+    {
+     "id": "physics-19-14",
+     "format": "Count-Based",
+     "keyword": "Terms",
+     "question": "How many of the following descriptions of musical instruments are correct?\n\nI. Guitar produces sound through vibration of strings.\nII. Flute produces sound through vibration of an air column.\nIII. Tabla produces sound through vibration of plates or solids.\nIV. Cymbals produce sound through vibration of a stretched membrane.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct. Tabla uses a stretched membrane, while cymbals use vibrating plates or solids; therefore, two descriptions are correct."
+    },
+    {
+     "id": "physics-19-15",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "What is the minimum distance required for a distinct echo to be heard by the human ear?",
+     "options": [
+      "17.2 m",
+      "10.2 m",
+      "1.72 m",
+      "172 m"
+     ],
+     "answer": 0,
+     "explanation": "The minimum distance for an echo to be heard by the human ear is approximately 17.2 m, based on the persistence of hearing of 0.1 second."
+    }
+   ]
+  }
+ }
+}
