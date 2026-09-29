@@ -13,7 +13,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:59:05+00:00",
+   "generated_at": "2026-09-29T07:09:21+00:00",
    "mcqs": [
     {
      "id": "chemistry-1-1",
@@ -154,6 +154,426 @@
      ],
      "answer": 1,
      "explanation": "Galena (PbS) and cinnabar (HgS) are sulphides. Smithsonite is ZnCO₃ and cassiterite is SnO₂, so the count is two."
+    },
+    {
+     "id": "chemistry-1-11",
+     "format": "Direct Recall",
+     "keyword": "Chemical Name ↔ Common Name",
+     "question": "Buckminsterfullerene (C₆₀) is commonly known as:",
+     "options": [
+      "Buckyball",
+      "Soapstone",
+      "Stranger gas",
+      "Brimstone"
+     ],
+     "answer": 0,
+     "explanation": "Buckminsterfullerene, C₆₀, is known as Buckyball or soccer-ball carbon."
+    },
+    {
+     "id": "chemistry-1-12",
+     "format": "List-Matching",
+     "keyword": "Chemical Name ↔ Common Name",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Calcium oxide\n b. Magnesium silicate (hydrated)\n c. Xenon\n d. Sulfur\n\nList-II\n i. Brimstone\n ii. Quicklime\n iii. Stranger gas\n iv. Talc",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Calcium oxide is quicklime, hydrated magnesium silicate is talc, xenon is stranger gas, and sulfur is brimstone."
+    },
+    {
+     "id": "chemistry-1-13",
+     "format": "Direct Recall",
+     "keyword": "Chemical Formula / Composition",
+     "question": "The formula of gypsum is:",
+     "options": [
+      "CaSO₄·½H₂O",
+      "Na₃AlF₆",
+      "CaSO₄·2H₂O",
+      "CaCO₃"
+     ],
+     "answer": 2,
+     "explanation": "Gypsum is calcium sulphate dihydrate and has the formula CaSO₄·2H₂O."
+    },
+    {
+     "id": "chemistry-1-14",
+     "format": "Direct Recall",
+     "keyword": "Aqua regia",
+     "question": "Aqua regia consists of hydrochloric acid and nitric acid in which ratio?",
+     "options": [
+      "3:1",
+      "1:1",
+      "2:1",
+      "1:3"
+     ],
+     "answer": 0,
+     "explanation": "Aqua regia is a mixture of HCl and HNO₃ in the ratio 3:1."
+    },
+    {
+     "id": "chemistry-1-15",
+     "format": "Assertion-Reason",
+     "keyword": "Karat (gold)",
+     "question": "Assertion (A): 24 karat gold is pure gold.\nReason (R): 18K gold contains 75% gold.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the percentage of gold in 18K gold does not explain why 24 karat gold is pure."
+    },
+    {
+     "id": "chemistry-1-16",
+     "format": "Assertion-Reason",
+     "keyword": "Aqua regia",
+     "question": "Assertion (A): Aqua regia dissolves gold.\nReason (R): Aqua regia is a 3:1 mixture of hydrochloric acid and nitric acid.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Aqua regia dissolves gold, and it is the stated 3:1 HCl–HNO₃ mixture responsible for this property."
+    },
+    {
+     "id": "chemistry-1-17",
+     "format": "List-Matching",
+     "keyword": "Main Ore / Mineral",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Lead\n b. Mercury\n c. Silver\n d. Tin\n\nList-II\n i. Cassiterite\n ii. Argentite\n iii. Cinnabar\n iv. Galena",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Lead–Galena, Mercury–Cinnabar, Silver–Argentite and Tin–Cassiterite."
+    },
+    {
+     "id": "chemistry-1-18",
+     "format": "List-Matching",
+     "keyword": "Main Ore / Mineral",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Sodium\n b. Potassium\n c. Magnesium\n d. Calcium\n\nList-II\n i. Limestone / Gypsum\n ii. Magnesite / Dolomite\n iii. Rock salt\n iv. Sylvine / Carnallite",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Sodium occurs in rock salt; potassium in sylvine/carnallite; magnesium in magnesite/dolomite; and calcium in limestone/gypsum."
+    },
+    {
+     "id": "chemistry-1-19",
+     "format": "List-Matching",
+     "keyword": "Process Term Meaning",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Heliox\n b. Carat\n c. Karat\n d. Aqua regia\n\nList-II\n i. Gold purity unit\n ii. Deep-sea diving mixture\n iii. 200 mg gem-weight unit\n iv. HCl and HNO₃ mixture in 3:1 ratio",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Heliox is a He + O₂ deep-sea diving mixture; carat is a 200 mg gem-weight unit; karat measures gold purity; and aqua regia is the 3:1 acid mixture."
+    },
+    {
+     "id": "chemistry-1-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Element – Isotopes and Allotropes",
+     "question": "Consider the following statements:\nI. Hydrogen has the isotopes protium, deuterium and tritium.\nII. Carbon is associated with graphite, diamond, fullerene and graphene.\nIII. Helium is a noble gas.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: the sheet lists the three hydrogen isotopes, the stated carbon forms, and helium as a noble gas."
+    },
+    {
+     "id": "chemistry-1-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Halogens",
+     "question": "Consider the following statements:\nI. Fluorine is the most reactive halogen.\nII. Bromine is the only non-metal liquid at room temperature.\nIII. Iodine is liquid at room temperature.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are correct. Iodine is a solid halogen at room temperature, so statement III is incorrect."
+    },
+    {
+     "id": "chemistry-1-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Atmospheric Composition",
+     "question": "Consider the following statements:\nStatement A: Nitrogen constitutes approximately 78% of the atmosphere.\nStatement B: Fluorine is the most reactive halogen.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet states that nitrogen makes up approximately 78% of the atmosphere and that fluorine is the most reactive halogen."
+    },
+    {
+     "id": "chemistry-1-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Noble Metals / Water Purification",
+     "question": "Consider the following statements:\nStatement A: Platinum-group elements such as platinum and palladium are noble metals found in the native state.\nStatement B: Xenon is used in water purification.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is true. Water purification is listed under chlorine, not xenon, so statement B is false."
+    },
+    {
+     "id": "chemistry-1-24",
+     "format": "Count-Based",
+     "keyword": "Composition / Constituents – Alloys",
+     "question": "How many of the following alloys contain aluminium as a listed constituent?\n1. Duralumin\n2. Alnico\n3. Nichrome\n4. Solder",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Duralumin contains aluminium, copper, magnesium and manganese; Alnico contains iron, aluminium, nickel and cobalt. Nichrome and solder do not list aluminium."
+    },
+    {
+     "id": "chemistry-1-25",
+     "format": "Count-Based",
+     "keyword": "Composition / Constituents – Alloys",
+     "question": "How many of the following alloys contain nickel as a listed constituent?\n1. German silver\n2. Stainless steel\n3. Nichrome\n4. Alnico",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Nickel is listed in German silver, stainless steel, nichrome and alnico. Therefore, all four contain nickel as a listed constituent."
+    },
+    {
+     "id": "chemistry-1-26",
+     "format": "Direct Recall",
+     "keyword": "Steel Composition",
+     "question": "Steel is primarily composed of:",
+     "options": [
+      "Copper and zinc",
+      "Tin and lead",
+      "Iron and carbon",
+      "Nickel and chromium"
+     ],
+     "answer": 2,
+     "explanation": "Steel consists of iron and carbon, with carbon listed in the range of 0.1–2%."
+    },
+    {
+     "id": "chemistry-1-27",
+     "format": "Direct Recall",
+     "keyword": "Chemical Name ↔ Common Name",
+     "question": "Calcium hypochlorite is commonly known as:",
+     "options": [
+      "Quicklime",
+      "Bleaching powder",
+      "Talc",
+      "Plaster of Paris"
+     ],
+     "answer": 1,
+     "explanation": "Calcium hypochlorite is commonly known as bleaching powder."
+    },
+    {
+     "id": "chemistry-1-28",
+     "format": "Direct Recall",
+     "keyword": "Known as",
+     "question": "Magnesium silicate in its hydrated form is commonly known as:",
+     "options": [
+      "Talc or soapstone",
+      "Calcite or marble",
+      "Bleaching powder",
+      "Corundum"
+     ],
+     "answer": 0,
+     "explanation": "Hydrated magnesium silicate is commonly known as talc or soapstone."
+    },
+    {
+     "id": "chemistry-1-29",
+     "format": "List-Matching",
+     "keyword": "Known as",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Nitrous oxide\n b. Polytetrafluoroethylene\n c. Xenon\n d. Sulfur\n\nList-II\n i. Brimstone\n ii. Teflon\n iii. Stranger gas\n iv. Laughing gas",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are nitrous oxide–laughing gas, polytetrafluoroethylene–Teflon, xenon–stranger gas and sulfur–brimstone."
+    },
+    {
+     "id": "chemistry-1-30",
+     "format": "List-Matching",
+     "keyword": "Formula / Composition",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Bauxite\n b. Cryolite\n c. Haematite\n d. Magnetite\n\nList-II\n i. Fe₃O₄\n ii. Na₃AlF₆\n iii. Al₂O₃·xH₂O\n iv. Fe₂O₃",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Bauxite is Al₂O₃·xH₂O, cryolite is Na₃AlF₆, haematite is Fe₂O₃ and magnetite is Fe₃O₄."
+    },
+    {
+     "id": "chemistry-1-31",
+     "format": "Assertion-Reason",
+     "keyword": "Formula / Composition",
+     "question": "Assertion (A): Bauxite is a hydrated aluminium oxide.\nReason (R): The formula of bauxite is Al₂O₃·xH₂O.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The presence of xH₂O in Al₂O₃·xH₂O indicates that bauxite is hydrated aluminium oxide."
+    },
+    {
+     "id": "chemistry-1-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Main Ore / Mineral",
+     "question": "Consider the following statements:\nI. Monazite is the main mineral listed for thorium.\nII. Ilmenite is the main mineral listed for titanium.\nIII. Rock salt is the main mineral listed for sodium.\nIV. Sylvine and carnallite are listed as the main minerals for potassium.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: thorium–monazite, titanium–ilmenite, sodium–rock salt, and potassium–sylvine/carnallite."
+    },
+    {
+     "id": "chemistry-1-33",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Composition / Constituents – Alloys",
+     "question": "Consider the following statements:\nStatement A: Pearl consists of calcium carbonate and conchiolin.\nStatement B: Amalgam is a mercury alloy, except with iron.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Pearl is CaCO₃ plus conchiolin, while amalgam is mercury with a metal except iron."
+    },
+    {
+     "id": "chemistry-1-34",
+     "format": "Count-Based",
+     "keyword": "Known as",
+     "question": "How many of the following chemical substances are correctly paired with their common names?\n1. Calcium carbonate — Limestone\n2. Magnesium silicate (hydrated) — Talc\n3. Sodium thiosulphate — Hypo\n4. Aluminium oxide — Corundum",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four pairings are correct according to the listed chemical names and common names."
+    },
+    {
+     "id": "chemistry-1-35",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "Chlorine is listed as being used in:",
+     "options": [
+      "Water purification and as a tear gas reagent",
+      "Aircraft construction and permanent magnets",
+      "Joining metals and making heating coils",
+      "Making methanol and deep-sea diving"
+     ],
+     "answer": 0,
+     "explanation": "The stated uses of chlorine are water purification and use as a tear gas reagent."
+    },
+    {
+     "id": "chemistry-1-36",
+     "format": "List-Matching",
+     "keyword": "Composition / Constituents – Alloys",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Brass\n b. Bronze\n c. Duralumin\n d. Alnico\n\nList-II\n i. Aircraft alloy\n ii. Magnets\n iii. Utensils and decorative articles\n iv. Coins, statues and bearings",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Brass is used for utensils and decorative articles; bronze for coins, statues and bearings; duralumin is an aircraft alloy; and alnico is used for magnets."
+    },
+    {
+     "id": "chemistry-1-37",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Formula / Composition",
+     "question": "Consider the following statements:\nI. Gypsum is calcium sulphate dihydrate.\nII. Cryolite is sodium aluminium fluoride.\nIII. Pearl contains approximately 82–86% calcium carbonate in the aragonite form.\nIV. Ruby and sapphire are associated with aluminium oxide and traces.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. The listed formulas and compositions are gypsum–CaSO₄·2H₂O, cryolite–Na₃AlF₆, pearl–approximately 82–86% CaCO₃, and ruby/sapphire–Al₂O₃ with traces."
+    },
+    {
+     "id": "chemistry-1-38",
+     "format": "Assertion-Reason",
+     "keyword": "Process Term",
+     "question": "Assertion (A): Dry ice is solid carbon dioxide.\nReason (R): The formula of dry ice is CO₂.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the formula CO₂ identifies dry ice as solid carbon dioxide."
+    },
+    {
+     "id": "chemistry-1-39",
+     "format": "Direct Recall",
+     "keyword": "Process Term",
+     "question": "Heliox is a mixture used for:",
+     "options": [
+      "Water purification",
+      "Making methanol",
+      "Deep-sea diving",
+      "Joining metals"
+     ],
+     "answer": 2,
+     "explanation": "Heliox is a helium–oxygen mixture used for deep-sea diving."
+    },
+    {
+     "id": "chemistry-1-40",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "Water gas is used to make which of the following?",
+     "options": [
+      "Bleaching powder",
+      "Methanol",
+      "Gold",
+      "Teflon"
+     ],
+     "answer": 1,
+     "explanation": "Water gas is used to make methanol. The sheet identifies water gas as CO + H₂ and specifies its use in methanol production."
     }
    ]
   },

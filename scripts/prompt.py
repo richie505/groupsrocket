@@ -100,8 +100,9 @@ Candidate Group-1 tracker units:
 Candidate Group-2 tracker units:
 {g2_units}
 
-Write {count} MCQs from the notes below, plus a short clean "title" (max 8 words) naming what this sheet covers.
-
+Write {count} NEW MCQs from the notes below, plus a short clean "title" (max 8 words) naming what this sheet covers.
+Go through the notes row by row / point by point so that together with the questions already asked, EVERY fact in the sheet gets tested.
+{asked}
 === NOTES: {subject} – ROCKET SHEET #{sheet_id} ===
 {text}
 === END NOTES ===
@@ -121,7 +122,9 @@ def build_system_prompt(blueprint_sections: list[str]) -> str:
     )
 
 
-def build_user_prompt(subject: str, sheet: dict, count: int, units_by_id: dict, g1: list, g2: list) -> str:
+def build_user_prompt(
+    subject: str, sheet: dict, count: int, units_by_id: dict, g1: list, g2: list, asked: list[dict] = ()
+) -> str:
     def fmt(ids):
         return "\n".join(f"- {i}: {units_by_id[i]['title']}" for i in ids) or "- (none)"
 
@@ -131,6 +134,13 @@ def build_user_prompt(subject: str, sheet: dict, count: int, units_by_id: dict, 
         g1_units=fmt(g1),
         g2_units=fmt(g2),
         count=count,
+        asked=(
+            "\nALREADY ASKED — do not repeat these questions or re-test the same fact; cover facts they miss:\n"
+            + "\n".join(f"- {q['question'][:160]}".replace("\n", " / ") for q in asked)
+            + "\n"
+            if asked
+            else ""
+        ),
         text=sheet["text"],
     )
 
