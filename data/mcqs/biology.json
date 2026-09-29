@@ -1363,7 +1363,13 @@
       "Vibrio cholerae"
      ],
      "answer": 3,
-     "explanation": "Cholera is caused by Vibrio cholerae. The notes classify it as a bacterial disease transmitted through contaminated food or water."
+     "explanation": "Cholera is caused by Vibrio cholerae. The notes classify it as a bacterial disease transmitted through contaminated food or water.",
+     "facts": [
+      "F115",
+      "F120",
+      "F138",
+      "F143"
+     ]
     },
     {
      "id": "biology-15-2",
@@ -1377,7 +1383,13 @@
       "Sandfly"
      ],
      "answer": 1,
-     "explanation": "Malaria is transmitted by the female Anopheles mosquito. The notes also mention blood transfusion and needles as possible transmission routes."
+     "explanation": "Malaria is transmitted by the female Anopheles mosquito. The notes also mention blood transfusion and needles as possible transmission routes.",
+     "facts": [
+      "F190",
+      "F36",
+      "F85",
+      "F197"
+     ]
     },
     {
      "id": "biology-15-3",
@@ -1391,7 +1403,10 @@
       "Small intestine"
      ],
      "answer": 0,
-     "explanation": "Japanese encephalitis is associated with the brain. Its vector is Culex, with pigs and wild birds mentioned as reservoirs."
+     "explanation": "Japanese encephalitis is associated with the brain. Its vector is Culex, with pigs and wild birds mentioned as reservoirs.",
+     "facts": [
+      "F88"
+     ]
     },
     {
      "id": "biology-15-4",
@@ -1405,7 +1420,10 @@
       "Vitamin B1 deficiency"
      ],
      "answer": 0,
-     "explanation": "The notes associate night blindness with vitamin A deficiency and identify the eye as the affected organ."
+     "explanation": "The notes associate night blindness with vitamin A deficiency and identify the eye as the affected organ.",
+     "facts": [
+      "F280"
+     ]
     },
     {
      "id": "biology-15-5",
@@ -1419,7 +1437,14 @@
       "Typhoid can spread through contaminated food and water."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is about gonorrhoea. The notes identify sexual transmission and the reproductive organs, not respiratory droplets."
+     "explanation": "The incorrect statement is about gonorrhoea. The notes identify sexual transmission and the reproductive organs, not respiratory droplets.",
+     "facts": [
+      "F24",
+      "F151",
+      "F17",
+      "F18",
+      "F141"
+     ]
     },
     {
      "id": "biology-15-6",
@@ -1433,7 +1458,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are directly stated in the notes, but Aedes transmission does not explain the fall in platelets; they are separate disease features."
+     "explanation": "Both statements are directly stated in the notes, but Aedes transmission does not explain the fall in platelets; they are separate disease features.",
+     "facts": [
+      "F38",
+      "F37"
+     ]
     },
     {
      "id": "biology-15-7",
@@ -1447,7 +1476,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes link rabies to the nervous system and identify hydrophobia as its characteristic clue. Thus, the reason correctly explains the assertion."
+     "explanation": "The notes link rabies to the nervous system and identify hydrophobia as its characteristic clue. Thus, the reason correctly explains the assertion.",
+     "facts": [
+      "F20",
+      "F19"
+     ]
     },
     {
      "id": "biology-15-8",
@@ -1461,7 +1494,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes list contaminated food or water for cholera and typhoid, and a contaminated wound for tetanus."
+     "explanation": "The notes list contaminated food or water for cholera and typhoid, and a contaminated wound for tetanus.",
+     "facts": [
+      "F118",
+      "F141",
+      "F166"
+     ]
     },
     {
      "id": "biology-15-9",
@@ -1475,7 +1513,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Filariasis is linked to the lymph glands and elephantiasis. Ascariasis is associated with the small intestine, not the lungs."
+     "explanation": "Filariasis is linked to the lymph glands and elephantiasis. Ascariasis is associated with the small intestine, not the lungs.",
+     "facts": [
+      "F234",
+      "F235",
+      "F240"
+     ]
     },
     {
      "id": "biology-15-10",
@@ -1489,7 +1532,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "The notes classify rabies, Ebola and Nipah as viral, zoonotic diseases."
+     "explanation": "The notes classify rabies, Ebola and Nipah as viral, zoonotic diseases.",
+     "facts": [
+      "F15",
+      "F67",
+      "F73"
+     ]
     },
     {
      "id": "biology-15-11",
@@ -1503,7 +1551,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Goitre is linked to iodine deficiency and rickets to vitamin D deficiency. Scurvy is linked to vitamin C deficiency, while niacin deficiency is associated with pellagra."
+     "explanation": "Goitre is linked to iodine deficiency and rickets to vitamin D deficiency. Scurvy is linked to vitamin C deficiency, while niacin deficiency is associated with pellagra.",
+     "facts": [
+      "F267",
+      "F283",
+      "F286"
+     ]
     },
     {
      "id": "biology-15-12",
@@ -1517,7 +1570,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Cholera–Vibrio cholerae, Typhoid–Salmonella typhi, Diphtheria–Corynebacterium diphtheriae and Tuberculosis–Mycobacterium tuberculosis."
+     "explanation": "The correct pairs are Cholera–Vibrio cholerae, Typhoid–Salmonella typhi, Diphtheria–Corynebacterium diphtheriae and Tuberculosis–Mycobacterium tuberculosis.",
+     "facts": [
+      "F115",
+      "F138",
+      "F143",
+      "F169"
+     ]
     },
     {
      "id": "biology-15-13",
@@ -1531,7 +1590,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Vitamin B1 deficiency–Beriberi, protein deficiency–Kwashiorkor, energy and protein deficiency–Marasmus, and niacin/B3 deficiency–Pellagra."
+     "explanation": "The correct pairs are Vitamin B1 deficiency–Beriberi, protein deficiency–Kwashiorkor, energy and protein deficiency–Marasmus, and niacin/B3 deficiency–Pellagra.",
+     "facts": [
+      "F270",
+      "F273",
+      "F277",
+      "F289"
+     ]
     },
     {
      "id": "biology-15-14",
@@ -1545,7 +1610,271 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are included under fungal diseases or fungal intoxication in the notes: athlete's foot, mucormycosis, aspergillosis and ergotism."
+     "explanation": "All four are included under fungal diseases or fungal intoxication in the notes: athlete's foot, mucormycosis, aspergillosis and ergotism.",
+     "facts": [
+      "F242",
+      "F247",
+      "F252",
+      "F256"
+     ]
+    },
+    {
+     "id": "biology-15-15",
+     "format": "List-Matching",
+     "keyword": "Pathogen / Cause",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Polio\n(b) COVID-19\n(c) Rabies\n(d) Hepatitis-B\n\nList-II\ni. SARS-CoV-2\nii. HBV\niii. Rabies lyssavirus\niv. Poliovirus",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Polio is caused by poliovirus, COVID-19 by SARS-CoV-2, rabies by rabies lyssavirus and Hepatitis-B by HBV.",
+     "facts": [
+      "F1",
+      "F8",
+      "F14",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-15-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Transmission / Host / Main organ",
+     "question": "Consider the following statements about polio:\n\nI. Polio is a viral disease.\nII. Humans are the host of polio.\nIII. Polio is transmitted through the fecal–oral route, including contaminated food and water.\nIV. Polio affects the spinal cord and central nervous system and can cause paralysis.",
+     "options": [
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: polio is viral, has humans as its host, spreads by the fecal–oral route through contaminated food and water, and can affect the spinal cord and central nervous system, causing paralysis.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "biology-15-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Transmission / Main organ / Complications",
+     "question": "Consider the following statements about COVID-19:\n\nI. COVID-19 is a viral disease.\nII. Humans are the host of COVID-19.\nIII. COVID-19 is transmitted through respiratory and contact routes.\nIV. COVID-19 affects the respiratory system.\nV. COVID-19 can cause multi-organ complications.",
+     "options": [
+      "II, III, IV and V only",
+      "I, II and III only",
+      "I, II, III, IV and V",
+      "I, II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. COVID-19 is viral, has humans as the host, spreads through respiratory and contact routes, affects the respiratory system and can cause multi-organ complications.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-15-18",
+     "format": "Direct Recall",
+     "keyword": "Host",
+     "question": "Which of the following groups includes the animals listed as possible hosts of rabies?",
+     "options": [
+      "Humans, pigs, wild birds and poultry",
+      "Aedes mosquitoes, Culex mosquitoes and sandflies",
+      "Cattle, buffalo, goats and sheep only",
+      "Dogs, cats, bats, foxes and other animals"
+     ],
+     "answer": 3,
+     "explanation": "Dogs, cats, bats, foxes and other animals can host rabies.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-15-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Main organ / Viral disease / Host",
+     "question": "Consider the following statements about Hepatitis-B:\n\nI. Hepatitis-B is a viral disease.\nII. Humans are the host of Hepatitis-B.\nIII. Hepatitis-B affects the liver.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Hepatitis-B is viral, humans are its host, and it affects the liver.",
+     "facts": [
+      "F22",
+      "F23",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-15-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Transmission",
+     "question": "Consider the following statements about Hepatitis-B:\n\nStatement A: Hepatitis-B is transmitted sexually.\nStatement B: Hepatitis-B can pass from mother to child.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Hepatitis-B can be transmitted sexually and can pass from mother to child.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-15-21",
+     "format": "Count-Based",
+     "keyword": "Pathogen / Type / Host / Transmission",
+     "question": "How many of the following statements about mumps are correct?\n\nI. Mumps is caused by mumps virus.\nII. Mumps is a viral disease.\nIII. Humans are the host of mumps.\nIV. Mumps is transmitted through saliva and nasal secretions.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: mumps is caused by mumps virus, is viral, has humans as its host, and spreads through saliva and nasal secretions.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "biology-15-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Transmission",
+     "question": "Consider the following statements:\nStatement A: Mumps is transmitted by contact.\nStatement B: Mumps affects the salivary or parotid glands.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Mumps is transmitted by contact and affects the salivary or parotid glands.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "biology-15-23",
+     "format": "Assertion-Reason",
+     "keyword": "Viral disease",
+     "question": "Assertion (A): Dengue is a viral disease.\nReason (R): Dengue is caused by dengue virus.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason correctly explains the assertion: dengue is classified as a viral disease because it is caused by dengue virus.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "biology-15-24",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vector",
+     "question": "Consider the following statements about chikungunya:\nI. Chikungunya is caused by CHIKV.\nII. Chikungunya is a viral disease.\nIII. Aedes aegypti and Aedes albopictus transmit chikungunya.\nIV. Chikungunya is transmitted by mosquito bite.\nV. Chikungunya causes severe joint pain.",
+     "options": [
+      "I, II and III only",
+      "I, III and IV only",
+      "I, II, III, IV and V",
+      "II, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Chikungunya is a viral disease caused by CHIKV, transmitted by the two listed Aedes mosquitoes through mosquito bite, and associated with severe joint pain.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "biology-15-25",
+     "format": "List-Matching",
+     "keyword": "Transmission",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Causative agent of Zika\n(b) Nature of Zika\n(c) Transmission routes mentioned for Zika\n(d) Effects Zika can cause\n\nList-II\ni. Zika virus\nii. Viral disease\niii. Mosquitoes, blood and sexual transmission\niv. Fever, rash and joint pain",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Zika is caused by Zika virus, is a viral disease, can be transmitted by mosquitoes, through blood and sexually, and can cause fever, rash and joint pain.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "biology-15-26",
+     "format": "Count-Based",
+     "keyword": "Symptoms",
+     "question": "How many of the following statements about yellow fever are correct?\nI. Yellow fever is caused by yellow fever virus.\nII. Yellow fever is a viral disease.\nIII. Aedes aegypti transmits yellow fever.\nIV. Yellow fever is transmitted by mosquito bite.\nV. Yellow fever causes fever.\nVI. Yellow fever can cause haemorrhagic disease.",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 3,
+     "explanation": "All six statements are correct. Yellow fever is a viral disease caused by yellow fever virus, transmitted by Aedes aegypti through mosquito bite, and can cause fever and haemorrhagic disease.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "biology-15-27",
+     "format": "Direct Recall",
+     "keyword": "Pathogen",
+     "question": "AIDS is caused by which of the following pathogens?",
+     "options": [
+      "CHIKV",
+      "Zika virus",
+      "Yellow fever virus",
+      "HIV"
+     ],
+     "answer": 3,
+     "explanation": "AIDS is caused by HIV.",
+     "facts": [
+      "F59"
+     ]
     }
    ]
   },

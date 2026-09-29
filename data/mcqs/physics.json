@@ -994,7 +994,18 @@
       "Hydraulic brakes"
      ],
      "answer": 0,
-     "explanation": "The sheet identifies ships floating, hydrometers and submarines as applications of Archimedes’ Principle."
+     "explanation": "The sheet identifies ships floating, hydrometers and submarines as applications of Archimedes’ Principle.",
+     "facts": [
+      "F1",
+      "F97",
+      "F34",
+      "F127",
+      "F44",
+      "F135",
+      "F208",
+      "F5",
+      "F27"
+     ]
     },
     {
      "id": "physics-11-2",
@@ -1008,7 +1019,21 @@
       "A hydraulic press is associated with Pascal’s Principle."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is the optical fibre with the Photoelectric Effect. Optical fibre is listed under Total Internal Reflection; the Photoelectric Effect is associated with photocells, solar cells and automatic doors."
+     "explanation": "The incorrect association is the optical fibre with the Photoelectric Effect. Optical fibre is listed under Total Internal Reflection; the Photoelectric Effect is associated with photocells, solar cells and automatic doors.",
+     "facts": [
+      "F2",
+      "F23",
+      "F28",
+      "F34",
+      "F127",
+      "F37",
+      "F38",
+      "F39",
+      "F121",
+      "F122",
+      "F123",
+      "F25"
+     ]
     },
     {
      "id": "physics-11-3",
@@ -1022,7 +1047,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The cause-effect table states that changing magnetic flux produces induced emf. Faraday’s Law is also identified with induced current when magnetic flux changes."
+     "explanation": "The cause-effect table states that changing magnetic flux produces induced emf. Faraday’s Law is also identified with induced current when magnetic flux changes.",
+     "facts": [
+      "F120",
+      "F146",
+      "F95",
+      "F104"
+     ]
     },
     {
      "id": "physics-11-4",
@@ -1036,7 +1067,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is correct. Rocket propulsion and walking are listed as examples of Newton’s 3rd Law, not Newton’s 2nd Law."
+     "explanation": "Statement A is correct. Rocket propulsion and walking are listed as examples of Newton’s 3rd Law, not Newton’s 2nd Law.",
+     "facts": [
+      "F85",
+      "F190",
+      "F87",
+      "F88"
+     ]
     },
     {
      "id": "physics-11-5",
@@ -1050,7 +1087,16 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct according to the phenomenon-cause table. A mirage is attributed to Total Internal Reflection due to a temperature gradient, not Rayleigh scattering."
+     "explanation": "Statements I and II are correct according to the phenomenon-cause table. A mirage is attributed to Total Internal Reflection due to a temperature gradient, not Rayleigh scattering.",
+     "facts": [
+      "F99",
+      "F109",
+      "F163",
+      "F101",
+      "F110",
+      "F102",
+      "F111"
+     ]
     },
     {
      "id": "physics-11-6",
@@ -1064,7 +1110,16 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Archimedes’ Principle–hydrometer, Pascal’s Principle–hydraulic press, Bernoulli’s Principle–Venturi tube and Resonance–radio tuning circuit."
+     "explanation": "The correct pairs are Archimedes’ Principle–hydrometer, Pascal’s Principle–hydraulic press, Bernoulli’s Principle–Venturi tube and Resonance–radio tuning circuit.",
+     "facts": [
+      "F2",
+      "F23",
+      "F25",
+      "F28",
+      "F44",
+      "F135",
+      "F208"
+     ]
     },
     {
      "id": "physics-11-7",
@@ -1078,7 +1133,16 @@
       "Radar speed guns"
      ],
      "answer": 3,
-     "explanation": "Radar speed guns, medical ultrasound and astronomy are listed as applications of the Doppler Effect."
+     "explanation": "Radar speed guns, medical ultrasound and astronomy are listed as applications of the Doppler Effect.",
+     "facts": [
+      "F142",
+      "F4",
+      "F26",
+      "F34",
+      "F127",
+      "F58",
+      "F132"
+     ]
     },
     {
      "id": "physics-11-8",
@@ -1092,7 +1156,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the phenomenon-principle and phenomenon-cause tables. The temperature gradient is given as the cause of Total Internal Reflection producing a mirage."
+     "explanation": "Both statements are directly supported by the phenomenon-principle and phenomenon-cause tables. The temperature gradient is given as the cause of Total Internal Reflection producing a mirage.",
+     "facts": [
+      "F102",
+      "F111"
+     ]
     },
     {
      "id": "physics-11-9",
@@ -1106,7 +1174,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The theory-application table associates Special Relativity with GPS satellite corrections and particle accelerators, and Bohr’s Atomic Theory with the hydrogen spectrum and atomic structure."
+     "explanation": "Both statements are true. The theory-application table associates Special Relativity with GPS satellite corrections and particle accelerators, and Bohr’s Atomic Theory with the hydrogen spectrum and atomic structure.",
+     "facts": [
+      "F168",
+      "F169",
+      "F184",
+      "F185"
+     ]
     },
     {
      "id": "physics-11-10",
@@ -1120,7 +1194,14 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III match the cause-effect table. Statement IV is incorrect because an increase in conductor temperature usually increases resistance."
+     "explanation": "Statements I, II and III match the cause-effect table. Statement IV is incorrect because an increase in conductor temperature usually increases resistance.",
+     "facts": [
+      "F148",
+      "F150",
+      "F151",
+      "F155",
+      "F157"
+     ]
     },
     {
      "id": "physics-11-11",
@@ -1134,7 +1215,15 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are blue sky–Rayleigh scattering, red sunset–scattering of blue light over a longer path, lightning–discharge of atmospheric charge and thunder–sudden expansion of air due to heating by lightning."
+     "explanation": "The correct pairs are blue sky–Rayleigh scattering, red sunset–scattering of blue light over a longer path, lightning–discharge of atmospheric charge and thunder–sudden expansion of air due to heating by lightning.",
+     "facts": [
+      "F107",
+      "F112",
+      "F113",
+      "F114",
+      "F115",
+      "F116"
+     ]
     },
     {
      "id": "physics-11-12",
@@ -1148,7 +1237,18 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. Rise of water in plants is an example of capillary action, whereas surface tension is associated with water striders and spherical raindrops."
+     "explanation": "The first three pairs are correct. Rise of water in plants is an example of capillary action, whereas surface tension is associated with water striders and spherical raindrops.",
+     "facts": [
+      "F190",
+      "F191",
+      "F192",
+      "F193",
+      "F196",
+      "F197",
+      "F198",
+      "F200",
+      "F201"
+     ]
     },
     {
      "id": "physics-11-13",
@@ -1162,7 +1262,18 @@
       "Hydraulic lift"
      ],
      "answer": 3,
-     "explanation": "Pascal’s Principle is associated with hydraulic lifts, hydraulic brakes and syringes; the device list also includes hydraulic presses and lifts."
+     "explanation": "Pascal’s Principle is associated with hydraulic lifts, hydraulic brakes and syringes; the device list also includes hydraulic presses and lifts.",
+     "facts": [
+      "F45",
+      "F137",
+      "F31",
+      "F74",
+      "F124",
+      "F37",
+      "F122",
+      "F4",
+      "F26"
+     ]
     },
     {
      "id": "physics-11-14",
@@ -1176,7 +1287,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true because the sheet links the Superposition Principle with beats, interference and standing waves. However, the reason lists related applications and does not specifically explain why beats are produced."
+     "explanation": "Both statements are true because the sheet links the Superposition Principle with beats, interference and standing waves. However, the reason lists related applications and does not specifically explain why beats are produced.",
+     "facts": [
+      "F14",
+      "F52",
+      "F106",
+      "F53",
+      "F15"
+     ]
     },
     {
      "id": "physics-11-15",
@@ -1190,7 +1308,20 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Snell’s Law is associated with lenses, optical instruments and fibre optics; black-body radiation is an application of the Stefan-Boltzmann Law."
+     "explanation": "Statements I, II and III are correct. Snell’s Law is associated with lenses, optical instruments and fibre optics; black-body radiation is an application of the Stefan-Boltzmann Law.",
+     "facts": [
+      "F64",
+      "F65",
+      "F67",
+      "F68",
+      "F108",
+      "F72",
+      "F73",
+      "F78",
+      "F79",
+      "F80",
+      "F81"
+     ]
     },
     {
      "id": "physics-11-16",
@@ -1204,7 +1335,20 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "Quantum Theory is associated with lasers, transistors and MRI; Maxwell’s theory with radio, TV and mobile communication; Kinetic Theory with pressure, temperature and engines; and BCS theory with maglev and sensitive magnetometers."
+     "explanation": "Quantum Theory is associated with lasers, transistors and MRI; Maxwell’s theory with radio, TV and mobile communication; Kinetic Theory with pressure, temperature and engines; and BCS theory with maglev and sensitive magnetometers.",
+     "facts": [
+      "F173",
+      "F174",
+      "F175",
+      "F177",
+      "F178",
+      "F179",
+      "F181",
+      "F182",
+      "F183",
+      "F188",
+      "F189"
+     ]
     },
     {
      "id": "physics-11-17",
@@ -1218,7 +1362,371 @@
       "Rainbow formation and mirage"
      ],
      "answer": 0,
-     "explanation": "The sheet associates Conservation of Momentum with recoil of a gun and rocket propulsion."
+     "explanation": "The sheet associates Conservation of Momentum with recoil of a gun and rocket propulsion.",
+     "facts": [
+      "F60",
+      "F61",
+      "F209",
+      "F210",
+      "F4",
+      "F6",
+      "F26",
+      "F81",
+      "F82",
+      "F109",
+      "F111"
+     ]
+    },
+    {
+     "id": "physics-11-18",
+     "format": "List-Matching",
+     "keyword": "Principle → Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Archimedes’ Principle\n(b) Bernoulli’s Principle\n(c) Bernoulli’s Principle\n(d) Bernoulli’s Principle\n\nList-II\n(i) Submarines\n(ii) Aeroplane wings\n(iii) Atomisers\n(iv) Carburettors",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Archimedes’ Principle is applied to submarines. Bernoulli’s Principle is applied to aeroplane wings for lift, atomisers and carburettors.",
+     "facts": [
+      "F3",
+      "F7",
+      "F8",
+      "F9",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "physics-11-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Huygens’ Principle",
+     "question": "Consider the following statements:\n\nI. Huygens’ Principle explains wavefront propagation.\nII. Huygens’ Principle explains reflection of waves.\nIII. Huygens’ Principle explains refraction of waves.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Huygens’ Principle explains wavefront propagation, reflection of waves and refraction of waves.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "physics-11-20",
+     "format": "Assertion-Reason",
+     "keyword": "Uncertainty Principle",
+     "question": "Assertion (A): The Uncertainty Principle limits precision in quantum measurements.\nReason (R): The Uncertainty Principle is applied to electron microscope resolution.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true applications of the Uncertainty Principle. The electron microscope statement is an application, not an explanation of why the principle limits precision.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-11-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Equivalence Principle",
+     "question": "Consider the following statements:\nStatement A: The Equivalence Principle is applied in General Relativity.\nStatement B: The Equivalence Principle is used for GPS corrections.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Equivalence Principle is associated with applications in General Relativity and is also used for GPS corrections.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "physics-11-22",
+     "format": "List-Matching",
+     "keyword": "Conservation of Energy → Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Roller coasters\n(b) Pendulums\n(c) Power generation\n(d) Hydraulic lift\n\nList-II\n(i) Conservation of Energy\n(ii) Pascal’s Principle\n\nChoose the correct code.",
+     "options": [
+      "a-i, b-i, c-i, d-ii",
+      "a-i, b-ii, c-i, d-ii",
+      "a-ii, b-i, c-ii, d-i",
+      "a-ii, b-ii, c-i, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Conservation of Energy is applied to roller coasters, pendulums and power generation. Hydraulic lifts are associated with Pascal’s Principle.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-11-23",
+     "format": "Direct Recall",
+     "keyword": "Archimedes’ Principle → Device",
+     "question": "Which of the following devices is associated with Archimedes’ Principle?",
+     "options": [
+      "Electric generator",
+      "Hydraulic press",
+      "Venturi tube",
+      "Submarine ballast tanks"
+     ],
+     "answer": 3,
+     "explanation": "Archimedes’ Principle is used in submarine ballast tanks. Hydraulic presses, Venturi tubes and electric generators are associated with other principles in the given applications.",
+     "facts": [
+      "F24"
+     ]
+    },
+    {
+     "id": "physics-11-24",
+     "format": "List-Matching",
+     "keyword": "Total Internal Reflection → Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Endoscopes\n(b) Diamond sparkle\n(c) Optical fibres\n(d) Hydraulic brakes\n\nList-II\n(i) Total Internal Reflection\n(ii) Pascal’s Principle\n\nChoose the correct code.",
+     "options": [
+      "a-i, b-ii, c-i, d-ii",
+      "a-i, b-i, c-i, d-ii",
+      "a-ii, b-i, c-ii, d-i",
+      "a-ii, b-ii, c-i, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Total Internal Reflection is used in endoscopes and optical fibres and produces diamond sparkle. Hydraulic brakes are associated with Pascal’s Principle.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "physics-11-25",
+     "format": "Count-Based",
+     "keyword": "Semiconductor Junctions → Devices",
+     "question": "How many of the following devices are associated with semiconductor junctions?\n\n1. Diode\n2. Transistor\n3. LED",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Semiconductor junctions are used in diodes, transistors and LEDs. Therefore, all three listed devices are correctly associated.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "physics-11-26",
+     "format": "List-Matching",
+     "keyword": "Principle → Phenomenon",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Buoyancy\n(b) Floating and sinking\n(c) Lift on an aeroplane wing\n(d) Blood flow\n\nList-II\n(i) Archimedes’ Principle\n(ii) Archimedes’ Principle\n(iii) Bernoulli’s Principle\n(iv) Bernoulli’s Principle",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Archimedes’ Principle explains buoyancy and floating or sinking. Bernoulli’s Principle explains lift on an aeroplane wing and its involvement in blood flow.",
+     "facts": [
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "physics-11-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Huygens’ Principle",
+     "question": "Consider the following statements:\nStatement A: Huygens’ Principle explains diffraction of light.\nStatement B: Huygens’ Principle explains interference of light.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The principle–phenomenon relationship identifies Huygens’ Principle with both diffraction and interference of light.",
+     "facts": [
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "physics-11-28",
+     "format": "Count-Based",
+     "keyword": "Doppler Principle",
+     "question": "How many of the following phenomena or applications are associated with the Doppler Principle?\n\n1. Red shift\n2. Blue shift\n3. Medical ultrasound",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "The Doppler Principle is associated with red shift, blue shift and medical ultrasound.",
+     "facts": [
+      "F56",
+      "F57",
+      "F59"
+     ]
+    },
+    {
+     "id": "physics-11-29",
+     "format": "Assertion-Reason",
+     "keyword": "Uncertainty Principle",
+     "question": "Assertion (A): The Uncertainty Principle is associated with quantum tunnelling.\nReason (R): The Uncertainty Principle is associated with zero-point energy.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both quantum tunnelling and zero-point energy are associated with the Uncertainty Principle. However, the association with zero-point energy does not explain the association with quantum tunnelling.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "physics-11-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Conservation of Angular Momentum",
+     "question": "Consider the following statements:\nStatement A: Conservation of Angular Momentum explains an ice-skater’s spin.\nStatement B: Conservation of Angular Momentum explains planetary orbits.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The listed applications of Conservation of Angular Momentum include an ice-skater’s spin and planetary orbits.",
+     "facts": [
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "physics-11-31",
+     "format": "List-Matching",
+     "keyword": "Law → Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Coulomb’s Law\n(b) Coulomb’s Law\n(c) Faraday’s Laws of electromagnetic induction\n(d) Faraday’s Laws of electromagnetic induction\n\nList-II\n(i) Capacitor design\n(ii) Electrostatic precipitators\n(iii) Transformers\n(iv) Induction motors",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Coulomb’s Law is applied to capacitor design and electrostatic precipitators. Faraday’s Laws of electromagnetic induction are applied to transformers and induction motors.",
+     "facts": [
+      "F70",
+      "F71",
+      "F75",
+      "F76"
+     ]
+    },
+    {
+     "id": "physics-11-32",
+     "format": "Direct Recall",
+     "keyword": "Kirchhoff’s Laws",
+     "question": "Kirchhoff’s Laws are applied to which of the following?",
+     "options": [
+      "Swimming",
+      "Weather balloons",
+      "Complex circuit analysis",
+      "Weighing Earth"
+     ],
+     "answer": 2,
+     "explanation": "The listed application of Kirchhoff’s Laws is complex circuit analysis.",
+     "facts": [
+      "F77"
+     ]
+    },
+    {
+     "id": "physics-11-33",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ideal Gas Law",
+     "question": "Consider the following statements:\nStatement A: The Ideal Gas Law is applied to thermodynamics engines.\nStatement B: The Ideal Gas Law is applied to weather balloons.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Ideal Gas Law is listed as an application in both thermodynamics engines and weather balloons.",
+     "facts": [
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "physics-11-34",
+     "format": "Direct Recall",
+     "keyword": "Newton’s Law of Gravitation",
+     "question": "Which law is used in weighing Earth?",
+     "options": [
+      "Kirchhoff’s Laws",
+      "Newton’s Law of Gravitation",
+      "Coulomb’s Law",
+      "Ideal Gas Law"
+     ],
+     "answer": 1,
+     "explanation": "Newton’s Law of Gravitation is listed as being used in weighing Earth.",
+     "facts": [
+      "F69"
+     ]
+    },
+    {
+     "id": "physics-11-35",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Newton’s Laws of Motion",
+     "question": "Consider the following statements:\nI. Newton’s Laws of Motion are applied to sports biomechanics.\nII. Newton’s Second Law states that a heavier object needs more force for the same acceleration.\nIII. Newton’s Third Law explains swimming.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct applications or everyday interpretations of Newton’s Laws of Motion.",
+     "facts": [
+      "F66",
+      "F86",
+      "F89"
+     ]
+    },
+    {
+     "id": "physics-11-36",
+     "format": "Direct Recall",
+     "keyword": "Semiconductor Junction",
+     "question": "Semiconductor junctions are used in which of the following?",
+     "options": [
+      "Hydraulic brakes",
+      "Transformers",
+      "Solar cells",
+      "Weather balloons"
+     ],
+     "answer": 2,
+     "explanation": "Solar cells are listed among the applications of semiconductor junctions.",
+     "facts": [
+      "F43"
+     ]
     }
    ]
   },
@@ -1248,7 +1756,14 @@
       "Electromagnetic induction"
      ],
      "answer": 3,
-     "explanation": "An electric generator works on electromagnetic induction, specifically Faraday’s law."
+     "explanation": "An electric generator works on electromagnetic induction, specifically Faraday’s law.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F12",
+      "F15"
+     ]
     },
     {
      "id": "physics-12-2",
@@ -1262,7 +1777,15 @@
       "To convert AC into DC"
      ],
      "answer": 0,
-     "explanation": "A transformer steps up or steps down AC voltage."
+     "explanation": "A transformer steps up or steps down AC voltage.",
+     "facts": [
+      "F28",
+      "F29",
+      "F37",
+      "F38",
+      "F171",
+      "F172"
+     ]
     },
     {
      "id": "physics-12-3",
@@ -1276,7 +1799,14 @@
       "Measurement of angular elevation"
      ],
      "answer": 0,
-     "explanation": "Diodes are used in rectifiers, voltage regulation, and signal detection."
+     "explanation": "Diodes are used in rectifiers, voltage regulation, and signal detection.",
+     "facts": [
+      "F67",
+      "F69",
+      "F221",
+      "F226",
+      "F240"
+     ]
     },
     {
      "id": "physics-12-4",
@@ -1290,7 +1820,16 @@
       "Relative density of liquids"
      ],
      "answer": 0,
-     "explanation": "The sextant measures angular elevation and latitude."
+     "explanation": "The sextant measures angular elevation and latitude.",
+     "facts": [
+      "F227",
+      "F228",
+      "F234",
+      "F235",
+      "F237",
+      "F240",
+      "F241"
+     ]
     },
     {
      "id": "physics-12-5",
@@ -1304,7 +1843,15 @@
       "Joseph von Fraunhofer"
      ],
      "answer": 0,
-     "explanation": "Evangelista Torricelli is listed as the inventor of the barometer."
+     "explanation": "Evangelista Torricelli is listed as the inventor of the barometer.",
+     "facts": [
+      "F106",
+      "F112",
+      "F309",
+      "F310",
+      "F316",
+      "F319"
+     ]
     },
     {
      "id": "physics-12-6",
@@ -1318,7 +1865,21 @@
       "Primary coil, secondary coil and soft iron core"
      ],
      "answer": 2,
-     "explanation": "An optical fibre consists of a core, cladding and protective jacket."
+     "explanation": "An optical fibre consists of a core, cladding and protective jacket.",
+     "facts": [
+      "F115",
+      "F116",
+      "F117",
+      "F124",
+      "F133",
+      "F134",
+      "F135",
+      "F142",
+      "F143",
+      "F144",
+      "F147",
+      "F148"
+     ]
     },
     {
      "id": "physics-12-7",
@@ -1332,7 +1893,14 @@
       "AC voltage and current"
      ],
      "answer": 0,
-     "explanation": "A solar cell converts light energy into electrical energy in the form of DC voltage and current."
+     "explanation": "A solar cell converts light energy into electrical energy in the form of DC voltage and current.",
+     "facts": [
+      "F166",
+      "F168",
+      "F173",
+      "F174",
+      "F177"
+     ]
     },
     {
      "id": "physics-12-8",
@@ -1346,7 +1914,12 @@
       "An LED involves recombination of electron-hole pairs."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that an LED converts light energy into electrical energy. The notes state that an LED converts electrical energy into light energy."
+     "explanation": "The incorrect statement is that an LED converts light energy into electrical energy. The notes state that an LED converts electrical energy into light energy.",
+     "facts": [
+      "F15",
+      "F16",
+      "F40"
+     ]
     },
     {
      "id": "physics-12-9",
@@ -1360,7 +1933,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The force on a current-carrying conductor produces the mechanical motion by which the motor converts electrical energy into mechanical energy."
+     "explanation": "Both statements are true. The force on a current-carrying conductor produces the mechanical motion by which the motor converts electrical energy into mechanical energy.",
+     "facts": [
+      "F4",
+      "F27",
+      "F82"
+     ]
     },
     {
      "id": "physics-12-10",
@@ -1374,7 +1952,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and total internal reflection explains the low-loss transmission of light signals through optical fibre."
+     "explanation": "Both statements are true, and total internal reflection explains the low-loss transmission of light signals through optical fibre.",
+     "facts": [
+      "F12",
+      "F41",
+      "F259"
+     ]
     },
     {
      "id": "physics-12-11",
@@ -1388,7 +1971,16 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the function of measuring current does not explain the specific use of a low-resistance shunt. An ammeter is a modified galvanometer with a parallel low-resistance shunt."
+     "explanation": "Both statements are true, but the function of measuring current does not explain the specific use of a low-resistance shunt. An ammeter is a modified galvanometer with a parallel low-resistance shunt.",
+     "facts": [
+      "F9",
+      "F32",
+      "F53",
+      "F131",
+      "F229",
+      "F254",
+      "F265"
+     ]
     },
     {
      "id": "physics-12-12",
@@ -1402,7 +1994,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, the measurement of force or weight does not explain the Hooke’s-law principle; Hooke’s law relates the extension of the spring to force."
+     "explanation": "Both statements are true. However, the measurement of force or weight does not explain the Hooke’s-law principle; Hooke’s law relates the extension of the spring to force.",
+     "facts": [
+      "F223",
+      "F224",
+      "F246",
+      "F247"
+     ]
     },
     {
      "id": "physics-12-13",
@@ -1416,7 +2014,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The microphone converts sound into an electrical signal, while the loudspeaker converts an electrical signal into sound."
+     "explanation": "Both statements are true. The microphone converts sound into an electrical signal, while the loudspeaker converts an electrical signal into sound.",
+     "facts": [
+      "F90",
+      "F91",
+      "F158",
+      "F160",
+      "F177",
+      "F178"
+     ]
     },
     {
      "id": "physics-12-14",
@@ -1430,7 +2036,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The atmospheric-pressure and mercury-column principle belongs to the barometer, while a thermometer is based on thermal expansion."
+     "explanation": "Statement A is true. The atmospheric-pressure and mercury-column principle belongs to the barometer, while a thermometer is based on thermal expansion.",
+     "facts": [
+      "F244",
+      "F245",
+      "F248",
+      "F249",
+      "F250",
+      "F251"
+     ]
     },
     {
      "id": "physics-12-15",
@@ -1444,7 +2058,16 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. A transformer steps up or steps down AC voltage; conversion of AC to DC is the function of a rectifier."
+     "explanation": "Statements I and II are correct. A transformer steps up or steps down AC voltage; conversion of AC to DC is the function of a rectifier.",
+     "facts": [
+      "F28",
+      "F29",
+      "F37",
+      "F38",
+      "F170",
+      "F180",
+      "F181"
+     ]
     },
     {
      "id": "physics-12-16",
@@ -1458,7 +2081,13 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. A spring balance measures force in newtons, not pascals."
+     "explanation": "Statements I and II are correct. A spring balance measures force in newtons, not pascals.",
+     "facts": [
+      "F223",
+      "F286",
+      "F292",
+      "F302"
+     ]
     },
     {
      "id": "physics-12-17",
@@ -1472,7 +2101,22 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements correctly reproduce the listed types of transistor, transformer and diode."
+     "explanation": "All three statements correctly reproduce the listed types of transistor, transformer and diode.",
+     "facts": [
+      "F190",
+      "F191",
+      "F192",
+      "F193",
+      "F194",
+      "F195",
+      "F196",
+      "F197",
+      "F198",
+      "F199",
+      "F200",
+      "F201",
+      "F202"
+     ]
     },
     {
      "id": "physics-12-18",
@@ -1486,7 +2130,15 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: barometer–Evangelista Torricelli, Vernier calipers–Pierre Vernier, telescope–Hans Lippershey, and galvanometer–Johann Schweigger."
+     "explanation": "The correct pairs are: barometer–Evangelista Torricelli, Vernier calipers–Pierre Vernier, telescope–Hans Lippershey, and galvanometer–Johann Schweigger.",
+     "facts": [
+      "F106",
+      "F112",
+      "F309",
+      "F310",
+      "F312",
+      "F316"
+     ]
     },
     {
      "id": "physics-12-19",
@@ -1500,7 +2152,18 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: spectrometer–analysis of light spectra, barometer–weather forecasting, hydrometer–density and purity checks, and CRO–waveform observation."
+     "explanation": "The correct pairs are: spectrometer–analysis of light spectra, barometer–weather forecasting, hydrometer–density and purity checks, and CRO–waveform observation.",
+     "facts": [
+      "F271",
+      "F272",
+      "F273",
+      "F274",
+      "F275",
+      "F276",
+      "F277",
+      "F278",
+      "F279"
+     ]
     },
     {
      "id": "physics-12-20",
@@ -1514,7 +2177,21 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: transformer–primary and secondary coils with soft iron core; transistor–emitter, base and collector; diode–p-n junction, anode and cathode; solar cell–p-n junction semiconductor, coating and contacts."
+     "explanation": "The correct pairs are: transformer–primary and secondary coils with soft iron core; transistor–emitter, base and collector; diode–p-n junction, anode and cathode; solar cell–p-n junction semiconductor, coating and contacts.",
+     "facts": [
+      "F115",
+      "F116",
+      "F117",
+      "F136",
+      "F137",
+      "F138",
+      "F142",
+      "F143",
+      "F144",
+      "F146",
+      "F147",
+      "F148"
+     ]
     },
     {
      "id": "physics-12-21",
@@ -1528,7 +2205,343 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two devices—solar cell and photocell—convert light energy into electrical energy. An LED converts electrical energy into light, while a microphone converts sound into electrical energy."
+     "explanation": "Two devices—solar cell and photocell—convert light energy into electrical energy. An LED converts electrical energy into light, while a microphone converts sound into electrical energy.",
+     "facts": [
+      "F39",
+      "F40",
+      "F87",
+      "F91",
+      "F92",
+      "F154",
+      "F156",
+      "F160",
+      "F162",
+      "F173",
+      "F175",
+      "F178",
+      "F179"
+     ]
+    },
+    {
+     "id": "physics-12-22",
+     "format": "Direct Recall",
+     "keyword": "Generator → Application",
+     "question": "A generator is used in which of the following applications?",
+     "options": [
+      "Endoscopy",
+      "Weather forecasting",
+      "Power stations",
+      "Checking battery acid density"
+     ],
+     "answer": 2,
+     "explanation": "The generator is used in power stations. The other options are associated with the applications of a barometer, optical fibre and hydrometer respectively.",
+     "facts": [
+      "F42"
+     ]
+    },
+    {
+     "id": "physics-12-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Device → Principle",
+     "question": "Consider the following statements:\nI. A dynamo works on electromagnetic induction.\nII. A galvanometer works on the torque on a current-carrying coil in a magnetic field.\nIII. An ammeter is a modified galvanometer.\nIV. A voltmeter is a modified galvanometer.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: the dynamo uses electromagnetic induction; the galvanometer operates through torque on a current-carrying coil; and both the ammeter and voltmeter are modified galvanometers.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "physics-12-24",
+     "format": "Assertion-Reason",
+     "keyword": "Voltmeter → Principle and Measurement",
+     "question": "Assertion (A): A voltmeter uses series resistance.\nReason (R): A voltmeter measures potential difference.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. A voltmeter uses series resistance and measures potential difference, but its measurement function does not explain its use of series resistance.",
+     "facts": [
+      "F10",
+      "F33"
+     ]
+    },
+    {
+     "id": "physics-12-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Potentiometer → Principle and Applications",
+     "question": "Consider the following statements:\nI. A potentiometer works on the principle that potential drop is proportional to the length of the wire.\nII. A potentiometer measures emf accurately.\nIII. A potentiometer measures internal resistance accurately.\nIV. A potentiometer measures potential difference accurately.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. The potentiometer uses the proportionality between potential drop and wire length and is used for accurate measurement of emf, internal resistance and potential difference.",
+     "facts": [
+      "F11",
+      "F34",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "physics-12-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Solar Cell → Principle",
+     "question": "Consider the following statements:\nStatement A: A solar cell works on the photoelectric effect.\nStatement B: A solar cell works on the photovoltaic effect.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The solar cell is associated with both the photoelectric effect and the photovoltaic effect.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "physics-12-27",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Diode and Transistor → Principle",
+     "question": "Consider the following statements:\nI. A diode allows unidirectional conduction.\nII. Unidirectional conduction in a diode occurs through a p-n junction.\nIII. A transistor works through amplification and switching.\nIV. Transistor amplification and switching use biased junctions.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. A diode provides unidirectional conduction through a p-n junction, while a transistor performs amplification and switching through biased junctions.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "physics-12-28",
+     "format": "List-Matching",
+     "keyword": "Optical Devices → Principles",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Laser\n(b) Microscope\n(c) Telescope\n(d) Solar cell\n\nList-II\n(i) Reflection by mirrors\n(ii) Photovoltaic effect\n(iii) Stimulated emission of radiation\n(iv) Refraction by lenses",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Laser—stimulated emission of radiation; Microscope—refraction by lenses; Telescope—reflection by mirrors; Solar cell—photovoltaic effect.",
+     "facts": [
+      "F14",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "physics-12-29",
+     "format": "Direct Recall",
+     "keyword": "Telescope → Principle",
+     "question": "Which of the following optical instruments can use refraction by lenses?",
+     "options": [
+      "Galvanometer",
+      "Laser",
+      "Telescope",
+      "Diode"
+     ],
+     "answer": 2,
+     "explanation": "A telescope can use refraction by lenses. Laser, galvanometer and diode are associated with stimulated emission, torque on a current-carrying coil, and unidirectional conduction respectively.",
+     "facts": [
+      "F25"
+     ]
+    },
+    {
+     "id": "physics-12-30",
+     "format": "Direct Recall",
+     "keyword": "Energy Conversion",
+     "question": "An electric generator converts:",
+     "options": [
+      "Mechanical energy into electrical energy",
+      "Electrical energy into mechanical energy",
+      "Light energy into electrical energy",
+      "Electrical energy into light energy"
+     ],
+     "answer": 0,
+     "explanation": "An electric generator converts mechanical energy into electrical energy.",
+     "facts": [
+      "F26"
+     ]
+    },
+    {
+     "id": "physics-12-31",
+     "format": "Direct Recall",
+     "keyword": "Galvanometer → Measurement",
+     "question": "A galvanometer is used to:",
+     "options": [
+      "Measure potential difference across components",
+      "Measure the relative density of liquids",
+      "Measure atmospheric pressure",
+      "Detect and measure small electric currents"
+     ],
+     "answer": 3,
+     "explanation": "A galvanometer detects and measures small electric currents. A voltmeter measures potential difference, a barometer measures atmospheric pressure, and a hydrometer measures relative density of liquids.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "physics-12-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Device → Application",
+     "question": "Consider the following statements:\nI. A dynamo is used on a bicycle.\nII. A transformer is used for power transmission.\nIII. A transformer is used in adapters.\nIV. A transformer is used in chargers.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "A dynamo is used on a bicycle, while transformers are used for power transmission, adapters and chargers.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "physics-12-33",
+     "format": "Count-Based",
+     "keyword": "Electric Motor → Applications",
+     "question": "How many of the following are applications of an electric motor?\n1. Fans\n2. Pumps\n3. Electric vehicles\n4. Appliances",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed items—fans, pumps, electric vehicles and appliances—use electric motors.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "physics-12-34",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Galvanometer → Applications",
+     "question": "Consider the following statements:\nStatement A: A galvanometer is used for sensitive current detection.\nStatement B: A galvanometer is the basis of electrical meters.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A galvanometer detects small currents sensitively and forms the basis of electrical meters.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "physics-12-35",
+     "format": "Direct Recall",
+     "keyword": "Voltmeter → Application",
+     "question": "A voltmeter is used for:",
+     "options": [
+      "Sensitive current detection",
+      "Voltage regulation",
+      "Measuring voltage across components",
+      "Comparison of emfs"
+     ],
+     "answer": 2,
+     "explanation": "A voltmeter is used for measuring voltage across components.",
+     "facts": [
+      "F54"
+     ]
+    },
+    {
+     "id": "physics-12-36",
+     "format": "Assertion-Reason",
+     "keyword": "Potentiometer → Applications",
+     "question": "Assertion (A): A potentiometer is used for comparison of emfs.\nReason (R): A potentiometer is used for calibration of voltmeters.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true applications of a potentiometer, but calibration of voltmeters does not explain its use in comparing emfs.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "physics-12-37",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Optical Fibre / Solar Cell → Applications",
+     "question": "Consider the following statements:\nI. An optical fibre is used in telecommunication.\nII. An optical fibre is used in endoscopy.\nIII. An optical fibre is used in internet cables.\nIV. A solar cell is used in solar panels.\nV. A solar cell is used in calculators.\nVI. A solar cell is used in satellites.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III, IV, V and VI only",
+      "I, II, III, IV, V and VI",
+      "I, II, III and IV only",
+      "I, II, IV, V and VI only"
+     ],
+     "answer": 1,
+     "explanation": "Optical fibres are used in telecommunication, endoscopy and internet cables. Solar cells are used in solar panels, calculators and satellites.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "physics-12-38",
+     "format": "List-Matching",
+     "keyword": "LED → Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) LED used in displays\n(b) LED used in indicators\n(c) LED used in lighting\n(d) LED used in optical communication\n\nList-II\n(i) Optical communication\n(ii) Displays\n(iii) Lighting\n(iv) Indicators",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: displays–ii, indicators–iv, lighting–iii and optical communication–i.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65",
+      "F66"
+     ]
     }
    ]
   },
@@ -1559,7 +2572,10 @@
       "Normal force"
      ],
      "answer": 0,
-     "explanation": "Centripetal force keeps an object in a circular path and acts towards the centre."
+     "explanation": "Centripetal force keeps an object in a circular path and acts towards the centre.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "physics-14-2",
@@ -1573,7 +2589,10 @@
       "Newton"
      ],
      "answer": 3,
-     "explanation": "The SI unit of force is the newton (N)."
+     "explanation": "The SI unit of force is the newton (N).",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "physics-14-3",
@@ -1587,7 +2606,14 @@
       "Calculating acceleration of lifts"
      ],
      "answer": 1,
-     "explanation": "Rocket propulsion is an application of Newton’s third law of action and reaction."
+     "explanation": "Rocket propulsion is an application of Newton’s third law of action and reaction.",
+     "facts": [
+      "F19",
+      "F21",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "physics-14-4",
@@ -1601,7 +2627,10 @@
       "1 J = 1 N s"
      ],
      "answer": 2,
-     "explanation": "The notes define 1 joule as 1 newton metre, or 1 J = 1 N m."
+     "explanation": "The notes define 1 joule as 1 newton metre, or 1 J = 1 N m.",
+     "facts": [
+      "F68"
+     ]
     },
     {
      "id": "physics-14-5",
@@ -1615,7 +2644,10 @@
       "9.8 W"
      ],
      "answer": 0,
-     "explanation": "The notes state that 1 horsepower equals 746 watts."
+     "explanation": "The notes state that 1 horsepower equals 746 watts.",
+     "facts": [
+      "F96"
+     ]
     },
     {
      "id": "physics-14-6",
@@ -1629,7 +2661,13 @@
       "Kinetic friction opposes actual sliding motion."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is that fluid friction assists motion. Fluid friction or viscous drag opposes motion in fluids."
+     "explanation": "The incorrect detail is that fluid friction assists motion. Fluid friction or viscous drag opposes motion in fluids.",
+     "facts": [
+      "F97",
+      "F100",
+      "F103",
+      "F104"
+     ]
     },
     {
      "id": "physics-14-7",
@@ -1643,7 +2681,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The lurching passenger illustrates the first law or inertia. The body tends to continue its motion when the bus stops suddenly."
+     "explanation": "The lurching passenger illustrates the first law or inertia. The body tends to continue its motion when the bus stops suddenly.",
+     "facts": [
+      "F18",
+      "F31"
+     ]
     },
     {
      "id": "physics-14-8",
@@ -1657,7 +2699,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify catching a ball by drawing the hands back as an application of increasing the time interval to decrease force."
+     "explanation": "The notes identify catching a ball by drawing the hands back as an application of increasing the time interval to decrease force.",
+     "facts": [
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "physics-14-9",
@@ -1671,7 +2717,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Mechanical energy conservation is expressed as KE + PE = constant when only conservative forces act."
+     "explanation": "Mechanical energy conservation is expressed as KE + PE = constant when only conservative forces act.",
+     "facts": [
+      "F74",
+      "F88"
+     ]
     },
     {
      "id": "physics-14-10",
@@ -1685,7 +2735,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "An unbalanced force changes the state of motion. A balanced force causes no change, so Statement B is false."
+     "explanation": "An unbalanced force changes the state of motion. A balanced force causes no change, so Statement B is false.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "physics-14-11",
@@ -1699,7 +2754,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly given as applications of friction."
+     "explanation": "Both statements are directly given as applications of friction.",
+     "facts": [
+      "F107",
+      "F110"
+     ]
     },
     {
      "id": "physics-14-12",
@@ -1713,7 +2772,15 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Statements I and II correctly describe action–reaction pairs. Statement III reverses the directions given in the notes: the bird pushes air downward and air pushes the bird upward."
+     "explanation": "Statements I and II correctly describe action–reaction pairs. Statement III reverses the directions given in the notes: the bird pushes air downward and air pushes the bird upward.",
+     "facts": [
+      "F40",
+      "F41",
+      "F44",
+      "F45",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "physics-14-13",
@@ -1727,7 +2794,13 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All four statements match the classifications of mechanical, thermal, kinetic and potential energy in the notes."
+     "explanation": "All four statements match the classifications of mechanical, thermal, kinetic and potential energy in the notes.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74",
+      "F75"
+     ]
     },
     {
      "id": "physics-14-14",
@@ -1741,7 +2814,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: level circular road–friction, satellite or planetary motion–gravitational force, stone tied to a string–tension, and electron around nucleus–electrostatic attraction."
+     "explanation": "The correct pairs are: level circular road–friction, satellite or planetary motion–gravitational force, stone tied to a string–tension, and electron around nucleus–electrostatic attraction.",
+     "facts": [
+      "F130",
+      "F132",
+      "F133",
+      "F134"
+     ]
     },
     {
      "id": "physics-14-15",
@@ -1755,7 +2834,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: lever–scissors and see-saw, inclined plane–ramps and slopes, wheel and axle–steering wheel and door knobs, and screw jack–lifting cars or heavy vehicles."
+     "explanation": "The correct pairs are: lever–scissors and see-saw, inclined plane–ramps and slopes, wheel and axle–steering wheel and door knobs, and screw jack–lifting cars or heavy vehicles.",
+     "facts": [
+      "F144",
+      "F145",
+      "F147",
+      "F148"
+     ]
     },
     {
      "id": "physics-14-16",
@@ -1769,7 +2854,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four conversions are correctly matched in the notes."
+     "explanation": "All four conversions are correctly matched in the notes.",
+     "facts": [
+      "F77",
+      "F78",
+      "F79",
+      "F81"
+     ]
     },
     {
      "id": "physics-14-17",
@@ -1783,7 +2874,434 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 3 and 4 are advantages of friction. Causing wear and tear is a disadvantage."
+     "explanation": "Statements 1, 3 and 4 are advantages of friction. Causing wear and tear is a disadvantage.",
+     "facts": [
+      "F111",
+      "F112",
+      "F113",
+      "F116"
+     ]
+    },
+    {
+     "id": "physics-14-18",
+     "format": "List-Matching",
+     "keyword": "Force → Effect",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Frictional force\n(b) Tension force\n(c) Normal force\n(d) Spring force\n\nList-II\n(i) Perpendicular push by a surface\n(ii) Restoring force described by Hooke’s law\n(iii) Opposes relative motion or its tendency\n(iv) Pulls along a string or rope",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Friction opposes relative motion or its tendency; tension pulls along a string or rope; normal force is perpendicular to a surface; and spring force is a restoring force described by Hooke’s law.",
+     "facts": [
+      "F4",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "physics-14-19",
+     "format": "Assertion-Reason",
+     "keyword": "Force → Effect",
+     "question": "Assertion (A): Weight is associated with gravitational force.\nReason (R): Gravitational force attracts objects towards each other.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Weight is associated with gravitational force because gravitational force attracts objects towards each other.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "physics-14-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Force → Unit",
+     "question": "Consider the following statements:\nI. The dyne, kilogram-force and poundal are other units of force.\nII. One newton equals one kilogram metre per second squared.\nIII. One newton equals 10⁵ dynes.\nIV. The SI unit of weight is the newton.\nV. The kilogram-force is another unit of weight.\nVI. One kilogram-force is approximately equal to 9.8 newtons.",
+     "options": [
+      "I, II and III only",
+      "II, IV and VI only",
+      "I, III, IV and V only",
+      "I, II, III, IV, V and VI"
+     ],
+     "answer": 3,
+     "explanation": "All six statements are correct: dyne, kgf and poundal are units of force; 1 N = 1 kg m s⁻² = 10⁵ dynes; and weight is measured in newtons or kilogram-force, with 1 kgf approximately equal to 9.8 N.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-14-21",
+     "format": "List-Matching",
+     "keyword": "Newton’s Laws → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Walking\n(b) Swimming\n(c) Gun recoil\n(d) Jet engines\n\nList-II\n(i) Application of Newton’s third law involving propulsion by exhaust\n(ii) Application of Newton’s third law involving movement through water\n(iii) Application of Newton’s third law involving the backward movement of a gun\n(iv) Application of Newton’s third law involving the interaction between the foot and ground",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Walking, swimming, gun recoil and jet engines are all applications of Newton’s third law. Their corresponding descriptions are foot-ground interaction, movement through water, backward gun movement and exhaust-based propulsion.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "physics-14-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Newton’s Laws → Everyday Examples",
+     "question": "Consider the following statements:\nI. A book remaining on a table until pushed demonstrates Newton’s first law.\nII. A heavier suitcase needing more force to accelerate demonstrates Newton’s second law.\nIII. Pushing an empty cart versus a loaded cart demonstrates Newton’s second law.\nIV. Rocket gases pushing down while the rocket moves up demonstrates Newton’s third law.",
+     "options": [
+      "II and III only",
+      "I, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct examples from Newton’s laws: rest until pushed illustrates the first law; force, mass and acceleration examples illustrate the second law; and the opposite motion of rocket and gases illustrates the third law.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "physics-14-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Action → Reaction",
+     "question": "Consider the following statements:\nStatement A: During walking, the foot pushes the ground backward.\nStatement B: During walking, the ground pushes the foot forward.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The backward push by the foot and the forward push by the ground form the action–reaction pair involved in walking.",
+     "facts": [
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "physics-14-24",
+     "format": "List-Matching",
+     "keyword": "Newton's Third Law",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Foot pushes the ground backward\n(b) Gun pushes the bullet forward\n(c) Hammer hits the nail\n(d) Earth pulls the apple downward\n\nList-II\n(i) Bullet pushes the gun backward\n(ii) Ground pushes the foot forward\n(iii) Nail hits the hammer with equal force\n(iv) Apple pulls the Earth upward\n\nSelect the correct code:",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The action–reaction pairs are: foot–ground, gun–bullet, hammer–nail and Earth–apple. The nail exerts an equal force on the hammer, while the apple pulls the Earth upward.",
+     "facts": [
+      "F39",
+      "F42",
+      "F43",
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "physics-14-25",
+     "format": "Direct Recall",
+     "keyword": "Gun Recoil",
+     "question": "What happens to a gun when a bullet is fired from it?",
+     "options": [
+      "It moves downward due to gravity",
+      "It moves forward with the bullet",
+      "It recoils backward",
+      "It remains at rest in every case"
+     ],
+     "answer": 2,
+     "explanation": "A gun recoils when a bullet is fired.",
+     "facts": [
+      "F38"
+     ]
+    },
+    {
+     "id": "physics-14-26",
+     "format": "Direct Recall",
+     "keyword": "Action–Reaction",
+     "question": "The acceleration produced in the Earth by an apple pulling it upward is:",
+     "options": [
+      "Very small",
+      "Always zero because the Earth is massive",
+      "Equal to the acceleration of the apple",
+      "Greater than the acceleration of the apple"
+     ],
+     "answer": 0,
+     "explanation": "Although the apple pulls the Earth upward, it produces a very small acceleration of the Earth.",
+     "facts": [
+      "F52"
+     ]
+    },
+    {
+     "id": "physics-14-27",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Momentum Conservation",
+     "question": "Consider the following statements:\n\nI. The total linear momentum of an isolated system is conserved when there is no external force.\nII. The total momentum before a collision equals the total momentum after the collision.\nIII. Total momentum is conserved for collisions of any type.\nIV. The total momentum of an explosion remains zero if the system is initially at rest.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "The sheet states conservation of total linear momentum for an isolated system, equality of momentum before and after collisions of any type, and zero total momentum after an explosion when the system initially rests.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "physics-14-28",
+     "format": "List-Matching",
+     "keyword": "Rocket Propulsion",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Gun-and-bullet system during recoil\n(b) Rocket-and-exhaust-gases system\n(c) Exhaust gases during rocket propulsion\n(d) Rocket during propulsion\n\nList-II\n(i) Gains forward momentum\n(ii) Momentum is conserved\n(iii) Gains backward momentum\n(iv) Momentum of the complete system is conserved\n\nSelect the correct code:",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Momentum is conserved for both the gun-and-bullet and rocket-and-exhaust-gases systems. The exhaust gases gain backward momentum, while the rocket gains forward momentum.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F60"
+     ]
+    },
+    {
+     "id": "physics-14-29",
+     "format": "Direct Recall",
+     "keyword": "Momentum Conservation",
+     "question": "During gun recoil, the forward momentum of the bullet is:",
+     "options": [
+      "Equal to the backward momentum of the gun",
+      "Greater than the backward momentum of the gun",
+      "Less than the backward momentum of the gun",
+      "Unrelated to the backward momentum of the gun"
+     ],
+     "answer": 0,
+     "explanation": "During recoil, the forward momentum of the bullet equals the backward momentum of the gun.",
+     "facts": [
+      "F61"
+     ]
+    },
+    {
+     "id": "physics-14-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Momentum Applications",
+     "question": "Consider the following statements:\n\nStatement A: Vehicle safety design uses the principles of collisions.\nStatement B: Jet engines use high-speed exhaust to produce a large momentum change.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify vehicle safety design as an application of collision principles and state that high-speed exhaust in jet engines produces a large momentum change.",
+     "facts": [
+      "F62",
+      "F65"
+     ]
+    },
+    {
+     "id": "physics-14-31",
+     "format": "List-Matching",
+     "keyword": "Work – Units",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) SI unit of work\n(b) Other units of work\n(c) One joule in ergs\n(d) One electronvolt\n\nList-II\n(i) 1.6 × 10⁻¹⁹ J\n(ii) Joule (J)\n(iii) 10⁷ ergs\n(iv) Erg, electronvolt, calorie and kilowatt-hour\n\nSelect the correct code:",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The SI unit of work is the joule. Other listed units are erg, electronvolt, calorie and kilowatt-hour; 1 J equals 10⁷ ergs and 1 eV equals 1.6 × 10⁻¹⁹ J.",
+     "facts": [
+      "F66",
+      "F67",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "physics-14-32",
+     "format": "Direct Recall",
+     "keyword": "Work – Unit Conversion",
+     "question": "Which of the following correctly expresses one joule in SI base units?",
+     "options": [
+      "1 kg m⁻² s²",
+      "1 kg m s⁻²",
+      "1 kg² m s⁻²",
+      "1 kg m² s⁻²"
+     ],
+     "answer": 3,
+     "explanation": "One joule equals one kilogram metre squared per second squared: 1 J = 1 kg m² s⁻².",
+     "facts": [
+      "F69"
+     ]
+    },
+    {
+     "id": "physics-14-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Energy → Conversion",
+     "question": "Consider the following statements:\nI. Sound, light, electrical, magnetic and nuclear energy are other forms of energy.\nII. An LED or bulb converts electrical energy into light energy.\nIII. A nuclear power plant converts nuclear energy into heat and then electrical energy.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "I only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Sound, light, electrical, magnetic and nuclear energy are listed as other forms; an LED or bulb converts electrical energy into light; and a nuclear power plant converts nuclear energy into heat and then electrical energy.",
+     "facts": [
+      "F76",
+      "F80",
+      "F82"
+     ]
+    },
+    {
+     "id": "physics-14-34",
+     "format": "Count-Based",
+     "keyword": "Energy → Conversion",
+     "question": "How many of the following are examples of potential energy being converted into kinetic energy?\n1. Free fall\n2. A pendulum\n3. A roller coaster",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three listed examples—free fall, a pendulum and a roller coaster—involve conversion of potential energy into kinetic energy.",
+     "facts": [
+      "F83",
+      "F84",
+      "F85"
+     ]
+    },
+    {
+     "id": "physics-14-35",
+     "format": "Assertion-Reason",
+     "keyword": "Energy Conservation",
+     "question": "Assertion (A): Energy can neither be created nor destroyed; it can only be transformed.\nReason (R): The law of conservation of energy states that energy is transformed from one form to another.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the Reason correctly expresses the transformation aspect of the law of conservation of energy.",
+     "facts": [
+      "F87"
+     ]
+    },
+    {
+     "id": "physics-14-36",
+     "format": "Count-Based",
+     "keyword": "Mechanical Energy Conservation",
+     "question": "How many of the following demonstrate mechanical energy conservation?\n1. A pendulum\n2. Free fall\n3. A spring-mass system\n4. Ideal collisions",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The notes identify a pendulum, free fall, a spring-mass system and ideal collisions as applications demonstrating mechanical energy conservation.",
+     "facts": [
+      "F89",
+      "F90",
+      "F91",
+      "F92"
+     ]
+    },
+    {
+     "id": "physics-14-37",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Power → Unit",
+     "question": "Consider the following statements:\nStatement A: The SI unit of power is the watt (W), and one watt equals one joule per second.\nStatement B: Horsepower, kilowatt and megawatt are other units of power.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Power is measured in watt in the SI system, with 1 W = 1 J s⁻¹, while horsepower, kilowatt and megawatt are other units of power.",
+     "facts": [
+      "F93",
+      "F94",
+      "F95"
+     ]
+    },
+    {
+     "id": "physics-14-38",
+     "format": "List-Matching",
+     "keyword": "Friction → Type",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Static friction\n(b) Maximum static friction\n(c) Kinetic or sliding friction\n(d) Rolling friction\n\nList-II\n(i) μₖN\n(ii) Opposes rolling\n(iii) Self-adjusting\n(iv) μₛN",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: static friction—self-adjusting; maximum static friction—μₛN; kinetic or sliding friction—μₖN; and rolling friction—opposes rolling.",
+     "facts": [
+      "F98",
+      "F99",
+      "F101",
+      "F102"
+     ]
+    },
+    {
+     "id": "physics-14-39",
+     "format": "List-Matching",
+     "keyword": "Friction → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Walking or running\n(b) Writing\n(c) Holding objects\n(d) Belts and pulleys\n\nList-II\n(i) Grip between pen and paper\n(ii) Power transmission\n(iii) Necessary for forward push\n(iv) Grip prevents slipping",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Friction is necessary for the forward push in walking or running, provides grip between pen and paper, prevents held objects from slipping, and enables power transmission through belt drives.",
+     "facts": [
+      "F105",
+      "F106",
+      "F108",
+      "F115"
+     ]
     }
    ]
   },
@@ -1813,7 +3331,11 @@
       "Silver"
      ],
      "answer": 3,
-     "explanation": "Silver has the lowest resistivity and is identified as the best conductor."
+     "explanation": "Silver has the lowest resistivity and is identified as the best conductor.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "physics-15-2",
@@ -1827,7 +3349,13 @@
       "Gallium Arsenide is a compound semiconductor."
      ],
      "answer": 1,
-     "explanation": "Cadmium Sulphide is a compound semiconductor, not an elemental semiconductor."
+     "explanation": "Cadmium Sulphide is a compound semiconductor, not an elemental semiconductor.",
+     "facts": [
+      "F23",
+      "F25",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "physics-15-3",
@@ -1841,7 +3369,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Breaking of more covalent bonds creates additional free electrons and holes, thereby increasing conductivity."
+     "explanation": "Both statements are true. Breaking of more covalent bonds creates additional free electrons and holes, thereby increasing conductivity.",
+     "facts": [
+      "F52",
+      "F55",
+      "F56"
+     ]
     },
     {
      "id": "physics-15-4",
@@ -1855,7 +3388,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Copper is widely used in wires; aluminium is lightweight and used in power transmission; graphite conducts among non-metals; electrolytes are ionic conductors."
+     "explanation": "Copper is widely used in wires; aluminium is lightweight and used in power transmission; graphite conducts among non-metals; electrolytes are ionic conductors.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "physics-15-5",
@@ -1869,7 +3409,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Doping produces an extrinsic semiconductor, so statement III is incorrect."
+     "explanation": "Statements I and II are correct. Doping produces an extrinsic semiconductor, so statement III is incorrect.",
+     "facts": [
+      "F66",
+      "F67",
+      "F72"
+     ]
     },
     {
      "id": "physics-15-6",
@@ -1883,7 +3428,10 @@
       "14 eV"
      ],
      "answer": 2,
-     "explanation": "Silicon has an approximate band gap of 1.1 eV at room temperature."
+     "explanation": "Silicon has an approximate band gap of 1.1 eV at room temperature.",
+     "facts": [
+      "F34"
+     ]
     },
     {
      "id": "physics-15-7",
@@ -1897,7 +3445,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Electrons are the majority carriers in n-type semiconductors, while holes are the majority carriers in p-type semiconductors."
+     "explanation": "Electrons are the majority carriers in n-type semiconductors, while holes are the majority carriers in p-type semiconductors.",
+     "facts": [
+      "F97",
+      "F105"
+     ]
     },
     {
      "id": "physics-15-8",
@@ -1911,7 +3463,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Pentavalent phosphorus contributes an extra electron, which becomes a free electron and produces n-type behaviour."
+     "explanation": "Both statements are true. Pentavalent phosphorus contributes an extra electron, which becomes a free electron and produces n-type behaviour.",
+     "facts": [
+      "F70",
+      "F75",
+      "F77",
+      "F80"
+     ]
     },
     {
      "id": "physics-15-9",
@@ -1925,7 +3483,17 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "A rectifier converts AC to DC; an LED is used for indicators, displays and lighting; a Zener diode regulates voltage; and a photodiode detects light and is used in solar cells."
+     "explanation": "A rectifier converts AC to DC; an LED is used for indicators, displays and lighting; a Zener diode regulates voltage; and a photodiode detects light and is used in solar cells.",
+     "facts": [
+      "F123",
+      "F125",
+      "F126",
+      "F127",
+      "F128",
+      "F129",
+      "F130",
+      "F131"
+     ]
     },
     {
      "id": "physics-15-10",
@@ -1939,7 +3507,10 @@
       "Transmitting Resistance"
      ],
      "answer": 1,
-     "explanation": "Transistor is given as the short form of Transfer Resistor."
+     "explanation": "Transistor is given as the short form of Transfer Resistor.",
+     "facts": [
+      "F108"
+     ]
     },
     {
      "id": "physics-15-11",
@@ -1953,7 +3524,12 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. In a p-type semiconductor, electrons are minority carriers, while holes are the majority carriers."
+     "explanation": "Statements I and II are correct. In a p-type semiconductor, electrons are minority carriers, while holes are the majority carriers.",
+     "facts": [
+      "F96",
+      "F97",
+      "F98"
+     ]
     },
     {
      "id": "physics-15-12",
@@ -1967,7 +3543,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Rubber, glass and air are listed as insulators. Graphite is listed as a conductor among non-metals. Therefore, the count is three."
+     "explanation": "Rubber, glass and air are listed as insulators. Graphite is listed as a conductor among non-metals. Therefore, the count is three.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14",
+      "F16",
+      "F21"
+     ]
     },
     {
      "id": "physics-15-13",
@@ -1981,7 +3564,427 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Meissner effect describes perfect diamagnetism and magnetic-field expulsion; it does not explain zero electrical resistance."
+     "explanation": "Both statements are true, but the Meissner effect describes perfect diamagnetism and magnetic-field expulsion; it does not explain zero electrical resistance.",
+     "facts": [
+      "F136",
+      "F138"
+     ]
+    },
+    {
+     "id": "physics-15-14",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Copper\n(b) Aluminium\n(c) Gold\n(d) Iron and steel\n\nList-II\n(i) Excellent conductivity\n(ii) Good conductor\n(iii) Excellent conductor and corrosion resistant\n(iv) Moderate conductors",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Copper has excellent conductivity, while aluminium is a good conductor. Gold is an excellent conductor and corrosion resistant; iron and steel are moderate conductors.",
+     "facts": [
+      "F3",
+      "F5",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "physics-15-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nStatement A: Plastic is an excellent insulator.\nStatement B: Dry wood is a good insulator.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: plastic is an excellent insulator, and dry wood is a good insulator.",
+     "facts": [
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-15-16",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Mica\n(b) Ceramic\n(c) Dry paper\n\nList-II\n(i) Used in capacitors and for high-voltage insulation\n(ii) High-temperature insulator\n(iii) Used in capacitors",
+     "options": [
+      "a-iii, b-i, c-ii",
+      "a-i, b-ii, c-iii",
+      "a-i, b-iii, c-ii",
+      "a-ii, b-iii, c-i"
+     ],
+     "answer": 1,
+     "explanation": "Mica is used in capacitors and for high-voltage insulation. Ceramic is a high-temperature insulator, while dry paper is used in capacitors.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-15-17",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Silicon\n(b) Carbon in the form of graphite\n(c) Selenium\n(d) Lead sulphide\n\nList-II\n(i) Elemental semiconductor, most widely used\n(ii) Special-case semiconductor\n(iii) Elemental semiconductor\n(iv) Compound semiconductor",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Silicon is the most widely used elemental semiconductor. Graphite is a special-case semiconductor, selenium is elemental, and lead sulphide is a compound semiconductor.",
+     "facts": [
+      "F24",
+      "F26",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "physics-15-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. The atomic number of silicon is 14.\nII. Silicon has four valence electrons.\nIII. Silicon has a diamond cubic crystal structure.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: silicon has atomic number 14, four valence electrons, and a diamond cubic crystal structure.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "physics-15-19",
+     "format": "Assertion-Reason",
+     "keyword": "Semiconductor",
+     "question": "Assertion (A): Silicon has better temperature stability than germanium.\nReason (R): Silicon has a higher band gap than germanium.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Silicon’s higher band gap than germanium is identified as the reason for its better temperature stability.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "physics-15-20",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Integrated circuits\n(b) Solar cells\n(c) Diodes\n(d) Transistors\n\nList-II\n(i) One of the uses of silicon\n(ii) One of the uses of silicon\n(iii) One of the uses of silicon\n(iv) One of the uses of silicon",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Silicon is used in integrated circuits, solar cells, diodes and transistors. Therefore, all four items in List-I correctly pair with the stated use of silicon.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "physics-15-21",
+     "format": "Direct Recall",
+     "keyword": "Abundance",
+     "question": "Silicon is the ______ most abundant element in Earth’s crust.",
+     "options": [
+      "First",
+      "Fourth",
+      "Third",
+      "Second"
+     ],
+     "answer": 3,
+     "explanation": "Silicon is the second most abundant element in Earth’s crust.",
+     "facts": [
+      "F41"
+     ]
+    },
+    {
+     "id": "physics-15-22",
+     "format": "List-Matching",
+     "keyword": "Semiconductor",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Atomic number of germanium\n(b) Valence electrons in germanium\n(c) Band gap of germanium\n(d) Present use of germanium\n\nList-II\n(i) Approximately 0.7 eV\n(ii) 4\n(iii) Limited use, including special high-frequency and infrared applications\n(iv) 32",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Germanium has atomic number 32, four valence electrons and an approximately 0.7 eV band gap. Its present use is limited, including special high-frequency and infrared applications.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F48",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "physics-15-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Semiconductor → Temperature",
+     "question": "Consider the following statements:\n\nI. Semiconductor resistivity decreases with a rise in temperature.\nII. Semiconductor resistance decreases with a rise in temperature.\nIII. Semiconductor temperature behaviour is opposite to that of metals.\nIV. Intrinsic carrier concentration increases exponentially with temperature.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. With increasing temperature, semiconductor resistivity and resistance decrease, the behaviour is opposite to that of metals, and intrinsic carrier concentration increases exponentially.",
+     "facts": [
+      "F53",
+      "F54",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "physics-15-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Semiconductor → Resistance",
+     "question": "Consider the following statements:\nStatement A: A pure semiconductor has high resistance at 0 K and acts as an insulator at 0 K.\nStatement B: A doped semiconductor has lower resistance than an intrinsic semiconductor.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. A pure semiconductor has high resistance and behaves as an insulator at 0 K, while doping lowers its resistance compared with an intrinsic semiconductor.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "physics-15-25",
+     "format": "Assertion-Reason",
+     "keyword": "Temperature Coefficient",
+     "question": "Assertion (A): Semiconductors have a negative temperature coefficient of resistance.\nReason (R): Metals have a positive temperature coefficient of resistance.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the positive temperature coefficient of metals does not explain the negative temperature coefficient of semiconductors. The resistance of a semiconductor falls with a rise in temperature.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "physics-15-26",
+     "format": "Direct Recall",
+     "keyword": "Doping → Semiconductor",
+     "question": "Which of the following correctly represents the usual dopant concentration in a semiconductor?",
+     "options": [
+      "One impurity atom in 10⁸ to 10¹⁰ atoms",
+      "One impurity atom in 10⁵ to 10⁷ atoms",
+      "One impurity atom in 10⁶ to 10⁸ atoms",
+      "One impurity atom in 10⁴ to 10⁶ atoms"
+     ],
+     "answer": 2,
+     "explanation": "The dopant concentration is very small: it can be one impurity atom in 10⁶ to 10⁸ atoms.",
+     "facts": [
+      "F68",
+      "F69"
+     ]
+    },
+    {
+     "id": "physics-15-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Majority Carrier",
+     "question": "Consider the following statements:\nStatement A: Acceptor doping produces a p-type semiconductor.\nStatement B: Electrons are the majority carriers in an n-type semiconductor.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Acceptor doping produces p-type semiconductors, while electrons are the majority carriers in n-type semiconductors.",
+     "facts": [
+      "F71",
+      "F73"
+     ]
+    },
+    {
+     "id": "physics-15-28",
+     "format": "List-Matching",
+     "keyword": "Dopant",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Pentavalent dopants\n(b) Arsenic\n(c) Antimony\n(d) Extra electron from a pentavalent dopant\n\nList-II\n(i) Donor\n(ii) n-type dopant\n(iii) Group 15\n(iv) n-type dopant",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Pentavalent dopants belong to Group 15; arsenic and antimony are n-type dopants; and the extra electron becomes free and makes the dopant a donor.",
+     "facts": [
+      "F76",
+      "F78",
+      "F79",
+      "F81"
+     ]
+    },
+    {
+     "id": "physics-15-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "n-type Semiconductor",
+     "question": "Consider the following statements:\n\nI. Holes are the minority carriers in an n-type semiconductor.\nII. An n-type semiconductor is overall electrically neutral.\nIII. Positive ions balance the extra electrons in an n-type semiconductor.",
+     "options": [
+      "I only",
+      "I, II and III",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "In an n-type semiconductor, holes are minority carriers. The material remains electrically neutral because positive ions balance the extra electrons.",
+     "facts": [
+      "F74",
+      "F82",
+      "F83"
+     ]
+    },
+    {
+     "id": "physics-15-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "p-type Dopant",
+     "question": "Consider the following statements:\nStatement A: A p-type dopant is trivalent.\nStatement B: Trivalent dopants belong to Group 13.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A p-type dopant is trivalent, and trivalent dopants belong to Group 13.",
+     "facts": [
+      "F86",
+      "F87"
+     ]
+    },
+    {
+     "id": "physics-15-31",
+     "format": "Assertion-Reason",
+     "keyword": "Acceptor",
+     "question": "Assertion (A): A p-type dopant creates a hole because of a deficiency.\nReason (R): A p-type dopant is an acceptor.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The deficiency caused by a p-type dopant creates a hole, and the p-type dopant is called an acceptor. Its acceptor nature accounts for the deficiency and resulting hole.",
+     "facts": [
+      "F92",
+      "F93"
+     ]
+    },
+    {
+     "id": "physics-15-32",
+     "format": "Assertion-Reason",
+     "keyword": "Charge Neutrality",
+     "question": "Assertion (A): A p-type semiconductor is overall electrically neutral.\nReason (R): Negative ions balance the holes in a p-type semiconductor.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "A p-type semiconductor remains electrically neutral because the holes are balanced by negative ions.",
+     "facts": [
+      "F94",
+      "F95"
+     ]
+    },
+    {
+     "id": "physics-15-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Electron",
+     "question": "Consider the following statements:\n\nI. Conduction occurs through free electrons in the conduction band.\nII. An electron has negative charge.\nIII. Electrons provide the main conduction in an n-type semiconductor.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Free electrons in the conduction band enable conduction. Electrons have negative charge and provide the main conduction in an n-type semiconductor.",
+     "facts": [
+      "F99",
+      "F100",
+      "F101"
+     ]
+    },
+    {
+     "id": "physics-15-34",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hole",
+     "question": "Consider the following statements:\nStatement A: A hole is a vacancy of an electron in a covalent bond.\nStatement B: A hole acts as a positive charge carrier.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A hole represents a vacancy of an electron in a covalent bond and behaves as a positive charge carrier.",
+     "facts": [
+      "F102",
+      "F103"
+     ]
+    },
+    {
+     "id": "physics-15-35",
+     "format": "Direct Recall",
+     "keyword": "Intrinsic Semiconductor",
+     "question": "In an intrinsic semiconductor, which relationship is correct?",
+     "options": [
+      "The number of holes is greater than the number of electrons.",
+      "The number of electrons is greater than the number of holes.",
+      "There are no holes or electrons.",
+      "The number of holes equals the number of electrons."
+     ],
+     "answer": 3,
+     "explanation": "In an intrinsic semiconductor, the number of holes equals the number of electrons.",
+     "facts": [
+      "F104"
+     ]
     }
    ]
   },
@@ -2012,7 +4015,10 @@
       "Siemens/metre (S/m)"
      ],
      "answer": 1,
-     "explanation": "The SI unit of resistivity is ohm-metre (Ω m)."
+     "explanation": "The SI unit of resistivity is ohm-metre (Ω m).",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "physics-16-2",
@@ -2026,7 +4032,11 @@
       "Electric power"
      ],
      "answer": 0,
-     "explanation": "Electric current is measured in ampere, with 1 A defined as 1 C/s."
+     "explanation": "Electric current is measured in ampere, with 1 A defined as 1 C/s.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "physics-16-3",
@@ -2040,7 +4050,10 @@
       "3.6 × 10⁶ W"
      ],
      "answer": 0,
-     "explanation": "The notes specify that 1 hp equals 746 W."
+     "explanation": "The notes specify that 1 hp equals 746 W.",
+     "facts": [
+      "F48"
+     ]
     },
     {
      "id": "physics-16-4",
@@ -2054,7 +4067,11 @@
       "1 kW"
      ],
      "answer": 2,
-     "explanation": "One unit of electricity is defined as 1 kWh."
+     "explanation": "One unit of electricity is defined as 1 kWh.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "physics-16-5",
@@ -2068,7 +4085,14 @@
       "Silicon and germanium are semiconductors."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the comparison of Nichrome with silver. Silver is identified as the best conductor and has the lowest resistivity."
+     "explanation": "The incorrect detail is the comparison of Nichrome with silver. Silver is identified as the best conductor and has the lowest resistivity.",
+     "facts": [
+      "F30",
+      "F31",
+      "F33",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "physics-16-6",
@@ -2082,7 +4106,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The rotation of the coil in a magnetic field causes induced emf and current, explaining the energy conversion in a generator."
+     "explanation": "Both statements are true. The rotation of the coil in a magnetic field causes induced emf and current, explaining the energy conversion in a generator.",
+     "facts": [
+      "F90",
+      "F93"
+     ]
     },
     {
      "id": "physics-16-7",
@@ -2096,7 +4124,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The torque on the current-carrying coil produces rotation, resulting in mechanical output."
+     "explanation": "Both statements are true. The torque on the current-carrying coil produces rotation, resulting in mechanical output.",
+     "facts": [
+      "F95",
+      "F97",
+      "F100"
+     ]
     },
     {
      "id": "physics-16-8",
@@ -2110,7 +4143,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The low-resistance path allows leakage current to flow to ground, thereby improving safety."
+     "explanation": "Both statements are true. The low-resistance path allows leakage current to flow to ground, thereby improving safety.",
+     "facts": [
+      "F76",
+      "F77"
+     ]
     },
     {
      "id": "physics-16-9",
@@ -2124,7 +4161,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Rectifiers provide AC-to-DC conversion, while inverters provide DC-to-AC conversion."
+     "explanation": "Both statements are true. Rectifiers provide AC-to-DC conversion, while inverters provide DC-to-AC conversion.",
+     "facts": [
+      "F107",
+      "F112"
+     ]
     },
     {
      "id": "physics-16-10",
@@ -2138,7 +4179,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Resistance increases with temperature in metals but decreases in semiconductors."
+     "explanation": "Resistance increases with temperature in metals but decreases in semiconductors.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "physics-16-11",
@@ -2152,7 +4197,13 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are correct. A fuse is placed in series, not parallel, and melts when excess current produces sufficient heating."
+     "explanation": "Statements I, II and IV are correct. A fuse is placed in series, not parallel, and melts when excess current produces sufficient heating.",
+     "facts": [
+      "F66",
+      "F67",
+      "F68",
+      "F70"
+     ]
     },
     {
      "id": "physics-16-12",
@@ -2166,7 +4217,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Wireless charging is listed as an application of electromagnetic induction, so statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. Wireless charging is listed as an application of electromagnetic induction, so statement IV is incorrect.",
+     "facts": [
+      "F115",
+      "F116",
+      "F117",
+      "F118"
+     ]
     },
     {
      "id": "physics-16-13",
@@ -2180,7 +4237,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: generator, motor, transformer and rectifier correspond respectively to these functions."
+     "explanation": "The correct pairs are a-ii, b-iii, c-iv and d-i: generator, motor, transformer and rectifier correspond respectively to these functions.",
+     "facts": [
+      "F90",
+      "F97",
+      "F107",
+      "F116"
+     ]
     },
     {
      "id": "physics-16-14",
@@ -2194,7 +4257,281 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Motors, generators and electromagnets are listed under the magnetic effect of current. An electric fuse is an application of the heating effect, so the count is three."
+     "explanation": "Motors, generators and electromagnets are listed under the magnetic effect of current. An electric fuse is an application of the heating effect, so the count is three.",
+     "facts": [
+      "F59",
+      "F61",
+      "F62",
+      "F66",
+      "F115"
+     ]
+    },
+    {
+     "id": "physics-16-15",
+     "format": "List-Matching",
+     "keyword": "Unit",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Electric charge\n b. Elementary charge\n c. One coulomb\n d. Other units of electric charge\n\nList-II\n i. 1.6 × 10⁻¹⁹ C\n ii. esu and emu\n iii. Coulomb (C)\n iv. Charge of 6.25 × 10¹⁸ electrons",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Electric charge has the SI unit coulomb (C), while its other units are esu and emu. The elementary charge is 1.6 × 10⁻¹⁹ C, and one coulomb is the charge of 6.25 × 10¹⁸ electrons.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "physics-16-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Current",
+     "question": "Consider the following statements:\n\nI. Small currents are measured in mA and μA.\nII. The conventional direction of current is from positive to negative.\nIII. The direction of electron flow is from negative to positive.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Small currents are expressed in mA and μA; conventional current flows from positive to negative, whereas electrons flow from negative to positive.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "physics-16-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Unit",
+     "question": "Consider the following statements:\n\nI. The SI unit of potential difference or voltage is the volt (V).\nII. One volt equals one joule per coulomb.\nIII. The SI unit of emf is the volt (V).\nIV. The SI unit of resistance is the ohm (Ω).",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Voltage and emf are measured in volts, 1 V = 1 J/C, and resistance is measured in ohms.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "physics-16-18",
+     "format": "Assertion-Reason",
+     "keyword": "Resistance",
+     "question": "Assertion (A): One ohm equals one volt per ampere.\nReason (R): High resistance is measured in kΩ and MΩ.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: 1 Ω = 1 V/A, and high resistance is expressed in kΩ and MΩ. However, the measurement units for high resistance do not explain the definition of one ohm.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "physics-16-19",
+     "format": "List-Matching",
+     "keyword": "Conductivity",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Other unit of resistivity\n b. SI unit of conductivity\n c. Conductivity relation\n d. SI unit of conductance\n\nList-II\n i. 1/ρ\n ii. Siemens (S)\n iii. Ω cm\n iv. Siemens per metre (S/m)",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Resistivity is also measured in Ω cm. Conductivity has the SI unit S/m and equals 1/ρ, while conductance has the SI unit siemens (S).",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "physics-16-20",
+     "format": "Assertion-Reason",
+     "keyword": "Conductance",
+     "question": "Assertion (A): Conductance equals the reciprocal of resistance.\nReason (R): The older unit of conductance is the mho.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: G = 1/R, and mho is the older unit of conductance. The older unit does not explain the reciprocal relation.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-16-21",
+     "format": "List-Matching",
+     "keyword": "Series / Parallel Circuits",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Series connection\n(b) Parallel connection\n(c) Kirchhoff’s first law\n(d) Current division in parallel connection\n\nList-II\n(i) Current is the same through all components\n(ii) Current divides\n(iii) Sum of currents at a junction is zero\n(iv) Inversely proportional to resistance\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "In a series connection, the current is the same through all components. In a parallel connection, current divides inversely in proportion to resistance, while Kirchhoff’s first law states that the sum of currents at a junction is zero.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "physics-16-22",
+     "format": "Assertion-Reason",
+     "keyword": "Voltage – Series Connection",
+     "question": "Assertion (A): Voltage divides in a series connection.\nReason (R): The total voltage in a series connection is V = V₁ + V₂ + …",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. In a series connection, the total voltage is the sum of the voltage drops across the individual components, so voltage divides among them.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "physics-16-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Voltage – Parallel Connection",
+     "question": "Consider the following statements:\nStatement A: The voltage across all components in a parallel connection is the same.\nStatement B: Kirchhoff’s second law states that the sum of voltage drops in a closed loop is zero.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Parallel components have the same voltage across them, and Kirchhoff’s second law states that the sum of voltage drops in a closed loop is zero.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "physics-16-24",
+     "format": "Direct Recall",
+     "keyword": "Resistivity – Material",
+     "question": "Which of the following materials has very high resistivity?",
+     "options": [
+      "Silver",
+      "Silicon",
+      "Copper",
+      "Rubber"
+     ],
+     "answer": 3,
+     "explanation": "Insulators such as rubber, glass and plastic have very high resistivity. Rubber is therefore the correct option.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "physics-16-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Power – Unit",
+     "question": "Consider the following statements:\nI. The SI unit of power is the watt (W).\nII. The commercial units of power are kW and MW.\nIII. One kilowatt equals 1000 watts.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Power is measured in watts in the SI system, while kW and MW are commercial units, and 1 kW equals 1000 W.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "physics-16-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Energy – kWh",
+     "question": "Consider the following statements:\nI. One kilowatt-hour is the energy consumed by a 1 kW device in 1 hour.\nII. One kilowatt-hour equals 3.6 × 10⁶ joules.\nIII. Electricity cost is charged per unit, where the unit is kWh.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. A 1 kW device operating for one hour consumes 1 kWh, which equals 3.6 × 10⁶ J, and electricity cost is charged per unit or kWh.",
+     "facts": [
+      "F49",
+      "F50",
+      "F53"
+     ]
+    },
+    {
+     "id": "physics-16-27",
+     "format": "Count-Based",
+     "keyword": "Heating Effect – Applications",
+     "question": "How many of the following are applications or devices listed under the applications of the heating effect of current?\n1. Electric irons, heaters, geysers and toasters\n2. Incandescent bulbs\n3. Electric stoves and induction devices\n4. Electric fuses\n5. Electric furnaces and welding",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five are listed applications associated with the heating effect: heating appliances, incandescent lighting, cooking devices, electric fuses, and industrial furnaces and welding.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "physics-16-28",
+     "format": "List-Matching",
+     "keyword": "Magnetic Effect – Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Motors\n(b) Measuring instruments\n(c) Communication devices\n(d) Older storage applications\n\nList-II\n(i) Magnetic tapes and hard disks\n(ii) Fans, pumps and electric vehicles\n(iii) Galvanometers, ammeters and voltmeters\n(iv) Loudspeakers and microphones\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Motors are used in fans, pumps and electric vehicles. Galvanometers, ammeters and voltmeters are measuring instruments; loudspeakers and microphones serve communication; magnetic tapes and hard disks are older storage applications.",
+     "facts": [
+      "F60",
+      "F63",
+      "F64",
+      "F65"
+     ]
     }
    ]
   },
@@ -2224,7 +4561,10 @@
       "Gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves, radio waves"
      ],
      "answer": 3,
-     "explanation": "The increasing-wavelength order is gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves and radio waves."
+     "explanation": "The increasing-wavelength order is gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves and radio waves.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "physics-17-2",
@@ -2238,7 +4578,11 @@
       "X-rays"
      ],
      "answer": 0,
-     "explanation": "Gamma rays have the highest frequency, greater than 3 × 10¹⁹ Hz."
+     "explanation": "Gamma rays have the highest frequency, greater than 3 × 10¹⁹ Hz.",
+     "facts": [
+      "F9",
+      "F71"
+     ]
     },
     {
      "id": "physics-17-3",
@@ -2252,7 +4596,10 @@
       "400 nm–700 nm"
      ],
      "answer": 3,
-     "explanation": "Visible light has an approximate wavelength range of 400 nm to 700 nm."
+     "explanation": "Visible light has an approximate wavelength range of 400 nm to 700 nm.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "physics-17-4",
@@ -2266,7 +4613,10 @@
       "Infrared"
      ],
      "answer": 1,
-     "explanation": "Microwave ovens use microwaves to heat food through water molecule resonance."
+     "explanation": "Microwave ovens use microwaves to heat food through water molecule resonance.",
+     "facts": [
+      "F29"
+     ]
     },
     {
      "id": "physics-17-5",
@@ -2280,7 +4630,13 @@
       "Radio telescopes are used in astronomy."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘highest frequency’. Radio waves have the lowest frequency, less than 3 × 10⁸ Hz."
+     "explanation": "The incorrect detail is ‘highest frequency’. Radio waves have the lowest frequency, less than 3 × 10⁸ Hz.",
+     "facts": [
+      "F23",
+      "F26",
+      "F28",
+      "F72"
+     ]
     },
     {
      "id": "physics-17-6",
@@ -2294,7 +4650,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since E = hν, the highest frequency of gamma rays corresponds to the highest energy."
+     "explanation": "Both statements are true. Since E = hν, the highest frequency of gamma rays corresponds to the highest energy.",
+     "facts": [
+      "F16",
+      "F71",
+      "F75"
+     ]
     },
     {
      "id": "physics-17-7",
@@ -2308,7 +4669,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because X-rays are used in radiography and CT scans. The reason is false; infrared is used for studying cool stars and interstellar dust."
+     "explanation": "The assertion is true because X-rays are used in radiography and CT scans. The reason is false; infrared is used for studying cool stars and interstellar dust.",
+     "facts": [
+      "F39",
+      "F76"
+     ]
     },
     {
      "id": "physics-17-8",
@@ -2322,7 +4687,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are X-rays–radiography and CT scan, gamma rays–radiotherapy and PET scan, infrared–physiotherapy and thermal imaging, and microwaves–diathermy."
+     "explanation": "The correct pairs are X-rays–radiography and CT scan, gamma rays–radiotherapy and PET scan, infrared–physiotherapy and thermal imaging, and microwaves–diathermy.",
+     "facts": [
+      "F76",
+      "F77",
+      "F79",
+      "F81"
+     ]
     },
     {
      "id": "physics-17-9",
@@ -2336,7 +4707,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Radio waves are used for communication and radar; microwaves for radar and jamming; infrared for night vision and heat-seeking missiles; and gamma rays for detecting nuclear materials."
+     "explanation": "Radio waves are used for communication and radar; microwaves for radar and jamming; infrared for night vision and heat-seeking missiles; and gamma rays for detecting nuclear materials.",
+     "facts": [
+      "F88",
+      "F89",
+      "F90",
+      "F92"
+     ]
     },
     {
      "id": "physics-17-10",
@@ -2350,7 +4727,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Ultraviolet, X-ray and gamma radiation are not used for normal communication."
+     "explanation": "Statements I and II are correct. Ultraviolet, X-ray and gamma radiation are not used for normal communication.",
+     "facts": [
+      "F83",
+      "F84",
+      "F87"
+     ]
     },
     {
      "id": "physics-17-11",
@@ -2364,7 +4746,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Infrared has the listed applications involving cool stars, dust and exoplanets, while gamma rays are used to study gamma-ray bursts, supernovae and active galaxies."
+     "explanation": "Both statements are true. Infrared has the listed applications involving cool stars, dust and exoplanets, while gamma rays are used to study gamma-ray bursts, supernovae and active galaxies.",
+     "facts": [
+      "F96",
+      "F100"
+     ]
     },
     {
      "id": "physics-17-12",
@@ -2378,7 +4764,10 @@
       "B, A, D, C"
      ],
      "answer": 1,
-     "explanation": "In increasing wavelength, the relevant sequence is gamma rays, visible light, infrared and radio waves."
+     "explanation": "In increasing wavelength, the relevant sequence is gamma rays, visible light, infrared and radio waves.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "physics-17-13",
@@ -2392,7 +4781,484 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Night vision, heat-seeking missiles and surveillance are infrared defence applications. Baggage and cargo scanning is listed as an X-ray application."
+     "explanation": "Night vision, heat-seeking missiles and surveillance are infrared defence applications. Baggage and cargo scanning is listed as an X-ray application.",
+     "facts": [
+      "F90",
+      "F91"
+     ]
+    },
+    {
+     "id": "physics-17-14",
+     "format": "List-Matching",
+     "keyword": "Wavelength",
+     "question": "Match List-I with List-II regarding approximate wavelength ranges of electromagnetic radiations.\n\nList-I\n(a) Gamma rays\n(b) X-rays\n(c) Ultraviolet radiation\n(d) Infrared radiation\n(e) Microwaves\n(f) Radio waves\n\nList-II\n(i) 700 nm to 1 mm\n(ii) Greater than 1 m\n(iii) Less than 0.01 nm\n(iv) 1 mm to 1 m\n(v) 10 nm to 400 nm\n(vi) 0.01 nm to 10 nm",
+     "options": [
+      "a-iii, b-vi, c-v, d-i, e-iv, f-ii",
+      "a-iii, b-v, c-vi, d-iv, e-i, f-ii",
+      "a-vi, b-iii, c-i, d-v, e-ii, f-iv",
+      "a-ii, b-iv, c-v, d-i, e-vi, f-iii"
+     ],
+     "answer": 0,
+     "explanation": "Gamma rays have wavelengths below 0.01 nm; X-rays range from 0.01 nm to 10 nm; ultraviolet radiation from 10 nm to 400 nm; infrared radiation from 700 nm to 1 mm; microwaves from 1 mm to 1 m; and radio waves above 1 m.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "physics-17-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Frequency",
+     "question": "Consider the following statements regarding approximate frequency ranges:\n\nI. The frequency range of X-rays is 3 × 10¹⁶ to 3 × 10¹⁹ Hz.\nII. The frequency range of ultraviolet radiation is 7.5 × 10¹⁴ to 3 × 10¹⁶ Hz.\nIII. The frequency range of visible light is 4.3 × 10¹⁴ to 7.5 × 10¹⁴ Hz.\nIV. The frequency range of infrared radiation is 3 × 10¹¹ to 4.3 × 10¹⁴ Hz.\nV. The frequency range of microwaves is 3 × 10⁸ to 3 × 10¹¹ Hz.\nVI. The frequency of radio waves is less than 3 × 10⁸ Hz.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, II, III, IV, V and VI",
+      "II, IV and VI only",
+      "III, IV and V only"
+     ],
+     "answer": 1,
+     "explanation": "All six statements correctly state the approximate frequency ranges given for X-rays, ultraviolet, visible light, infrared, microwaves and radio waves.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "physics-17-16",
+     "format": "List-Matching",
+     "keyword": "Relative Energy",
+     "question": "Match List-I with List-II according to relative energy.\n\nList-I\n(a) X-rays\n(b) Ultraviolet radiation\n(c) Visible light\n(d) Infrared radiation\n(e) Microwaves\n(f) Radio waves\n\nList-II\n(i) Lowest relative energy\n(ii) High relative energy\n(iii) Lower relative energy\n(iv) Medium relative energy\n(v) Very high relative energy\n(vi) Low relative energy",
+     "options": [
+      "a-ii, b-v, c-iv, d-iii, e-vi, f-i",
+      "a-v, b-iv, c-ii, d-vi, e-i, f-iii",
+      "a-v, b-ii, c-vi, d-iv, e-iii, f-i",
+      "a-v, b-ii, c-iv, d-vi, e-iii, f-i"
+     ],
+     "answer": 3,
+     "explanation": "X-rays have very high relative energy, ultraviolet radiation has high energy, visible light has medium energy, infrared has low energy, microwaves have lower energy, and radio waves have the lowest energy.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-17-17",
+     "format": "Count-Based",
+     "keyword": "Radio Wave Applications",
+     "question": "How many of the following are applications of radio waves?\n\n1. Cellular networks\n2. Radar detection and ranging\n3. Wi-Fi and Bluetooth for short-range wireless communication",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "Cellular networks, radar detection and ranging, and Wi-Fi and Bluetooth for short-range wireless communication are all listed as applications of radio waves.",
+     "facts": [
+      "F24",
+      "F25",
+      "F27"
+     ]
+    },
+    {
+     "id": "physics-17-18",
+     "format": "Direct Recall",
+     "keyword": "Microwave Radar",
+     "question": "Which of the following is an application of microwave radar?",
+     "options": [
+      "Cellular networks, AM/FM radio and TV signals",
+      "Radiotherapy, PET scans and sterilization",
+      "Remote controls, thermal imaging and physiotherapy",
+      "Speed guns, weather radar and aircraft detection"
+     ],
+     "answer": 3,
+     "explanation": "Speed guns, weather radar and aircraft detection are applications of microwave radar.",
+     "facts": [
+      "F30"
+     ]
+    },
+    {
+     "id": "physics-17-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Microwave Satellite Communication",
+     "question": "Consider the following statements:\n\nStatement A: Microwave satellite communication uses uplinks and downlinks.\nStatement B: Uplinks and downlinks are associated with microwave satellite communication.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements correctly describe the use of uplinks and downlinks in microwave satellite communication.",
+     "facts": [
+      "F31"
+     ]
+    },
+    {
+     "id": "physics-17-20",
+     "format": "Direct Recall",
+     "keyword": "Wi-Fi → Microwave",
+     "question": "Wi-Fi provides wireless internet using which electromagnetic radiation?",
+     "options": [
+      "Microwaves",
+      "Radio waves",
+      "Ultraviolet radiation",
+      "Infrared radiation"
+     ],
+     "answer": 0,
+     "explanation": "Wi-Fi provides wireless internet using microwaves.",
+     "facts": [
+      "F33"
+     ]
+    },
+    {
+     "id": "physics-17-21",
+     "format": "List-Matching",
+     "keyword": "Communication technologies",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Microwave links\n(b) TV and air-conditioner remotes\n(c) Thermal-imaging cameras\n(d) Infrared heaters and physiotherapy\n\nList-II\n(i) Heating\n(ii) Night vision\n(iii) Point-to-point communication\n(iv) Remote control",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Microwave links provide point-to-point communication. Infrared radiation is used in TV/AC remotes, thermal-imaging cameras for night vision, and infrared heaters and physiotherapy for heating.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "physics-17-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Infrared",
+     "question": "Consider the following statements:\nStatement A: Infrared radiation is used in weather forecasting for cloud and temperature mapping.\nStatement B: Motion sensors and night cameras use infrared radiation for security.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Infrared radiation is used for cloud and temperature mapping in weather forecasting and for security applications involving motion sensors and night cameras.",
+     "facts": [
+      "F38",
+      "F40"
+     ]
+    },
+    {
+     "id": "physics-17-23",
+     "format": "Direct Recall",
+     "keyword": "Optical fibre",
+     "question": "Which of the following statements regarding infrared radiation is correct?",
+     "options": [
+      "Infrared radiation is used only in display screens",
+      "Infrared radiation is not used in communication applications",
+      "Infrared radiation is used only for weather forecasting",
+      "Some infrared wavelengths are used in fibre optics"
+     ],
+     "answer": 3,
+     "explanation": "Some infrared wavelengths are used in fibre optics.",
+     "facts": [
+      "F41"
+     ]
+    },
+    {
+     "id": "physics-17-24",
+     "format": "List-Matching",
+     "keyword": "Visible light",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Human vision\n(b) Cameras and smartphones\n(c) Optical fibres\n(d) Lasers\n\nList-II\n(i) Seeing the world\n(ii) Photography\n(iii) Use of some visible wavelengths\n(iv) Pointers, surgery and industry",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Human vision uses visible light to see the world; cameras and smartphones use it for photography; some visible wavelengths are used in optical fibres; and lasers are used for pointers, surgery and industry.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "physics-17-25",
+     "format": "Count-Based",
+     "keyword": "Visible light",
+     "question": "How many of the following are applications of visible light?\n\n1. LEDs and bulbs for illumination\n2. Visible-light spectroscopy for analysis of materials\n3. Monitors and televisions in display screens",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three are applications of visible light: LEDs and bulbs provide illumination, spectroscopy analyses materials, and monitors and televisions use visible light in display screens.",
+     "facts": [
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "physics-17-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ultraviolet",
+     "question": "Consider the following statements:\n\nI. Ultraviolet lamps sterilize by killing bacteria and viruses.\nII. UV water filters are used for water purification.\nIII. Ultraviolet markers on currency and documents help detect forgery.\nIV. Vitamin D is synthesized by ultraviolet radiation in human skin.\nV. Ultraviolet fluorescence is used for security features and forensic science.",
+     "options": [
+      "I, III, IV and V only",
+      "I, II, III, IV and V",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Each of the five statements is correct: ultraviolet radiation is used in sterilization, water purification, forgery detection, Vitamin D synthesis and fluorescence-based security or forensic applications.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "physics-17-27",
+     "format": "Assertion-Reason",
+     "keyword": "Ultraviolet",
+     "question": "Assertion (A): Ultraviolet astronomy studies hot stars.\nReason (R): Ultraviolet radiation can cause sunburn and skin cancer.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Ultraviolet astronomy studies hot stars, while sunburn and skin cancer are harmful effects of ultraviolet radiation; the latter does not explain the astronomical application.",
+     "facts": [
+      "F54",
+      "F56"
+     ]
+    },
+    {
+     "id": "physics-17-28",
+     "format": "Direct Recall",
+     "keyword": "Photolithography",
+     "question": "Photolithography uses which radiation in semiconductor manufacturing?",
+     "options": [
+      "Ultraviolet radiation",
+      "X-rays",
+      "Infrared radiation",
+      "Visible light"
+     ],
+     "answer": 0,
+     "explanation": "Photolithography uses ultraviolet radiation in semiconductor manufacturing.",
+     "facts": [
+      "F55"
+     ]
+    },
+    {
+     "id": "physics-17-29",
+     "format": "List-Matching",
+     "keyword": "X-rays",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) X-ray radiographs\n(b) CT scans\n(c) X-rays in airport security\n\nList-II\n(i) Detailed body imaging\n(ii) Baggage scanning\n(iii) Imaging bones and the chest",
+     "options": [
+      "a-iii, b-i, c-ii",
+      "a-i, b-ii, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 0,
+     "explanation": "X-ray radiographs image bones and the chest, CT scans provide detailed body imaging, and X-rays are used for baggage scanning at airports and in security.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "physics-17-30",
+     "format": "List-Matching",
+     "keyword": "X-ray → Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) X-ray crystallography\n(b) Industrial X-ray inspection\n(c) X-ray astronomy\n(d) X-ray cancer treatment\n\nList-II\n(i) Study of hot gases and black holes\n(ii) Determining the structure of crystals and DNA\n(iii) Detecting cracks in metals\n(iv) Radiation therapy using high-energy X-rays",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "X-ray crystallography determines the structure of crystals and DNA; industrial X-rays detect cracks in metals; X-ray astronomy studies hot gases and black holes; and high-energy X-rays are used in cancer radiation therapy.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "physics-17-31",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Gamma-ray → Medical and Industrial Applications",
+     "question": "Consider the following statements:\n\nI. Gamma-ray radiotherapy kills cancer cells.\nII. Gamma rays sterilize medical instruments and food.\nIII. PET scans and gamma cameras use gamma rays for diagnostic imaging.\nIV. Gamma rays are used for thickness gauging and weld inspection in industry.",
+     "options": [
+      "I, III and IV only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct applications of gamma rays: cancer treatment, sterilization, diagnostic imaging, and industrial thickness gauging or weld inspection.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "physics-17-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Gamma-ray → Astronomy and Security",
+     "question": "Consider the following statements:\n\nI. Gamma-ray astronomy studies gamma-ray bursts and neutron stars.\nII. Nuclear medicine uses radioactive tracers involving gamma rays.\nIII. Gamma rays are used for detecting nuclear materials in security.",
+     "options": [
+      "I only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Gamma-ray astronomy studies gamma-ray bursts and neutron stars. Gamma rays are also involved in radioactive tracers used in nuclear medicine and in detecting nuclear materials for security.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "physics-17-33",
+     "format": "Assertion-Reason",
+     "keyword": "Shortest/Longest Wavelength",
+     "question": "Assertion (A): Gamma rays have the shortest wavelength among the listed electromagnetic radiations.\nReason (R): Radio waves have the longest wavelength among the listed electromagnetic radiations.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: gamma rays have wavelengths less than 0.01 nm, while radio waves have wavelengths greater than 1 m. The wavelength of radio waves does not explain why gamma rays have the shortest wavelength.",
+     "facts": [
+      "F73",
+      "F74"
+     ]
+    },
+    {
+     "id": "physics-17-34",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Radiation → Medical Applications",
+     "question": "Consider the following statements:\nStatement A: Ultraviolet radiation is used for sterilization, vitamin D production, and treating skin diseases.\nStatement B: Visible light is used in laser surgery, endoscopy, and illumination.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Ultraviolet radiation has the listed sterilization, vitamin D, and skin-disease applications. Visible light is used in laser surgery, endoscopy, and illumination.",
+     "facts": [
+      "F78",
+      "F80"
+     ]
+    },
+    {
+     "id": "physics-17-35",
+     "format": "List-Matching",
+     "keyword": "Radiation → Communication",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Radio waves in MRI\n(b) Infrared radiation\n(c) Visible light\n\nList-II\n(i) Experimental Li-Fi and some optical fibres\n(ii) Radio-frequency pulses\n(iii) Remote controls and short-range data communication",
+     "options": [
+      "a-i, b-ii, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 1,
+     "explanation": "MRI uses radio-frequency pulses. Infrared radiation is used in remote controls and short-range data communication, while visible light is used in experimental Li-Fi and some optical fibres.",
+     "facts": [
+      "F82",
+      "F85",
+      "F86"
+     ]
+    },
+    {
+     "id": "physics-17-36",
+     "format": "Direct Recall",
+     "keyword": "Visible/Infrared Laser → Defence",
+     "question": "Visible and infrared lasers are used for which of the following purposes?",
+     "options": [
+      "Crystallography, CT scans, and baggage scanning",
+      "PET scans, gamma cameras, and nuclear medicine",
+      "Range finding, targeting, and directed energy",
+      "Cloud mapping, temperature mapping, and weather forecasting"
+     ],
+     "answer": 2,
+     "explanation": "Visible and infrared lasers are used for range finding, targeting, and directed energy.",
+     "facts": [
+      "F93"
+     ]
+    },
+    {
+     "id": "physics-17-37",
+     "format": "List-Matching",
+     "keyword": "Radiation → Astronomy",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Radio telescopes\n(b) Microwaves\n(c) Optical telescopes\n(d) Ultraviolet astronomy\n\nList-II\n(i) Study of hot young stars and the interstellar medium\n(ii) Study of stars, galaxies, and planets\n(iii) Study of pulsars and the cosmic microwave background\n(iv) Study of the Cosmic Microwave Background",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Radio telescopes study pulsars and the cosmic microwave background; microwaves are used for Cosmic Microwave Background studies; optical telescopes study stars, galaxies and planets; and ultraviolet astronomy studies hot young stars and the interstellar medium.",
+     "facts": [
+      "F94",
+      "F95",
+      "F97",
+      "F98"
+     ]
+    },
+    {
+     "id": "physics-17-38",
+     "format": "Direct Recall",
+     "keyword": "X-ray → Astronomy",
+     "question": "X-ray astronomy studies which of the following?",
+     "options": [
+      "Gamma-ray bursts and neutron stars",
+      "Stars, galaxies, and planets",
+      "Black holes, neutron stars, and hot gas in clusters",
+      "Cool stars, interstellar dust, and exoplanets"
+     ],
+     "answer": 2,
+     "explanation": "X-ray astronomy studies black holes, neutron stars, and hot gas in clusters.",
+     "facts": [
+      "F99"
+     ]
     }
    ]
   },
@@ -2420,7 +5286,11 @@
       "Particle nature"
      ],
      "answer": 3,
-     "explanation": "According to the notes, the particle nature of light explains the photoelectric effect and the Compton effect."
+     "explanation": "According to the notes, the particle nature of light explains the photoelectric effect and the Compton effect.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "physics-18-2",
@@ -2434,7 +5304,10 @@
       "Vacuum"
      ],
      "answer": 2,
-     "explanation": "A translucent medium, such as frosted glass or butter paper, partially allows light to pass through."
+     "explanation": "A translucent medium, such as frosted glass or butter paper, partially allows light to pass through.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "physics-18-3",
@@ -2448,7 +5321,12 @@
       "The angle of incidence is equal to the angle of reflection."
      ],
      "answer": 1,
-     "explanation": "The altered detail is that the normal is stated to be parallel to the surface. According to the notes, it is perpendicular to the surface at the point of incidence."
+     "explanation": "The altered detail is that the normal is stated to be parallel to the surface. According to the notes, it is perpendicular to the surface at the point of incidence.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "physics-18-4",
@@ -2462,7 +5340,11 @@
       "Regular reflection"
      ],
      "answer": 1,
-     "explanation": "Irregular or diffused reflection occurs on rough surfaces and does not produce a clear image."
+     "explanation": "Irregular or diffused reflection occurs on rough surfaces and does not produce a clear image.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "physics-18-5",
@@ -2476,7 +5358,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes specify both conditions for total internal reflection and state that the entire light is reflected back into the denser medium."
+     "explanation": "The notes specify both conditions for total internal reflection and state that the entire light is reflected back into the denser medium.",
+     "facts": [
+      "F34",
+      "F35",
+      "F91"
+     ]
     },
     {
      "id": "physics-18-6",
@@ -2490,7 +5377,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are plane mirror–periscope, concave mirror–shaving mirror, convex mirror–security mirror and convex mirror in vehicles–rear-view mirror."
+     "explanation": "The correct pairs are plane mirror–periscope, concave mirror–shaving mirror, convex mirror–security mirror and convex mirror in vehicles–rear-view mirror.",
+     "facts": [
+      "F46",
+      "F48",
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "physics-18-7",
@@ -2504,7 +5397,10 @@
       "0"
      ],
      "answer": 0,
-     "explanation": "The notes state that the magnification of a plane mirror is m = +1."
+     "explanation": "The notes state that the magnification of a plane mirror is m = +1.",
+     "facts": [
+      "F71"
+     ]
     },
     {
      "id": "physics-18-8",
@@ -2518,7 +5414,16 @@
       "A concave mirror forms a virtual and inverted image when the object is within F."
      ],
      "answer": 3,
-     "explanation": "The altered detail is 'inverted'. When the object is within F of a concave mirror, the image is virtual and erect."
+     "explanation": "The altered detail is 'inverted'. When the object is within F of a concave mirror, the image is virtual and erect.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F67",
+      "F68"
+     ]
     },
     {
      "id": "physics-18-9",
@@ -2532,7 +5437,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "The notes state that frequency remains the same and wavelength changes during refraction. They identify change in speed and optical density difference, not intensity, as causes."
+     "explanation": "The notes state that frequency remains the same and wavelength changes during refraction. They identify change in speed and optical density difference, not intensity, as causes.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74",
+      "F75"
+     ]
     },
     {
      "id": "physics-18-10",
@@ -2546,7 +5457,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "Lenses converge or diverge light, prisms produce deviation and dispersion, optical fibres transmit signals, and spectacles correct eye defects."
+     "explanation": "Lenses converge or diverge light, prisms produce deviation and dispersion, optical fibres transmit signals, and spectacles correct eye defects.",
+     "facts": [
+      "F77",
+      "F78",
+      "F79",
+      "F80"
+     ]
     },
     {
      "id": "physics-18-11",
@@ -2560,7 +5477,11 @@
       "Vacuum layer"
      ],
      "answer": 1,
-     "explanation": "An optical fibre consists of a core with higher refractive index and cladding with lower refractive index."
+     "explanation": "An optical fibre consists of a core with higher refractive index and cladding with lower refractive index.",
+     "facts": [
+      "F100",
+      "F101"
+     ]
     },
     {
      "id": "physics-18-12",
@@ -2574,7 +5495,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that optical fibres use total internal reflection and have the advantages of low loss and high bandwidth."
+     "explanation": "The notes state that optical fibres use total internal reflection and have the advantages of low loss and high bandwidth.",
+     "facts": [
+      "F84",
+      "F104",
+      "F105"
+     ]
     },
     {
      "id": "physics-18-13",
@@ -2588,7 +5514,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are supported by the notes. A mirage is associated with atmospheric total internal reflection, not regular reflection from a plane mirror."
+     "explanation": "Statements I and II are supported by the notes. A mirage is associated with atmospheric total internal reflection, not regular reflection from a plane mirror.",
+     "facts": [
+      "F85",
+      "F94",
+      "F96"
+     ]
     },
     {
      "id": "physics-18-14",
@@ -2602,7 +5533,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are endoscope–medical viewing using optical fibres, mirage–atmospheric TIR, diamond–multiple TIR and Porro prism–image inversion without loss."
+     "explanation": "The correct pairs are endoscope–medical viewing using optical fibres, mirage–atmospheric TIR, diamond–multiple TIR and Porro prism–image inversion without loss.",
+     "facts": [
+      "F85",
+      "F86",
+      "F87",
+      "F96"
+     ]
     },
     {
      "id": "physics-18-15",
@@ -2616,7 +5553,13 @@
       "A concave lens is a converging lens."
      ],
      "answer": 3,
-     "explanation": "The altered detail is the description of a concave lens as converging. A concave lens is a diverging lens."
+     "explanation": "The altered detail is the description of a concave lens as converging. A concave lens is a diverging lens.",
+     "facts": [
+      "F140",
+      "F144",
+      "F145",
+      "F149"
+     ]
     },
     {
      "id": "physics-18-16",
@@ -2630,7 +5573,10 @@
       "Newton"
      ],
      "answer": 0,
-     "explanation": "The power of a lens is measured in dioptres (D)."
+     "explanation": "The power of a lens is measured in dioptres (D).",
+     "facts": [
+      "F181"
+     ]
     },
     {
      "id": "physics-18-17",
@@ -2644,7 +5590,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that a convex lens produces a virtual, erect and magnified image within F, which is the principle of a magnifying glass."
+     "explanation": "The notes state that a convex lens produces a virtual, erect and magnified image within F, which is the principle of a magnifying glass.",
+     "facts": [
+      "F156",
+      "F158",
+      "F170"
+     ]
     },
     {
      "id": "physics-18-18",
@@ -2658,7 +5609,13 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The cornea performs the main refraction, the iris controls pupil size, the retina forms the image, and the optic nerve carries signals to the brain."
+     "explanation": "The cornea performs the main refraction, the iris controls pupil size, the retina forms the image, and the optic nerve carries signals to the brain.",
+     "facts": [
+      "F184",
+      "F186",
+      "F192",
+      "F194"
+     ]
     },
     {
      "id": "physics-18-19",
@@ -2672,7 +5629,14 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Clouding of the eye lens is cataract; astigmatism is due to irregular curvature."
+     "explanation": "Statements I, II and III are correct. Clouding of the eye lens is cataract; astigmatism is due to irregular curvature.",
+     "facts": [
+      "F200",
+      "F202",
+      "F203",
+      "F204",
+      "F205"
+     ]
     },
     {
      "id": "physics-18-20",
@@ -2686,7 +5650,13 @@
       "The corrective lens has positive power."
      ],
      "answer": 3,
-     "explanation": "The altered detail is the sign of corrective power. Myopia is corrected with a concave lens having negative power."
+     "explanation": "The altered detail is the sign of corrective power. Myopia is corrected with a concave lens having negative power.",
+     "facts": [
+      "F199",
+      "F208",
+      "F209",
+      "F210"
+     ]
     },
     {
      "id": "physics-18-21",
@@ -2700,7 +5670,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that hypermetropia is corrected with a convex lens and astigmatism with a cylindrical lens."
+     "explanation": "The notes state that hypermetropia is corrected with a convex lens and astigmatism with a cylindrical lens.",
+     "facts": [
+      "F215",
+      "F227"
+     ]
     },
     {
      "id": "physics-18-22",
@@ -2714,7 +5688,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 3 are correct. The normal far point is infinity, not 25 cm."
+     "explanation": "Statements 1, 2 and 3 are correct. The normal far point is infinity, not 25 cm.",
+     "facts": [
+      "F230",
+      "F232",
+      "F233",
+      "F235"
+     ]
     },
     {
      "id": "physics-18-23",
@@ -2728,7 +5708,12 @@
       "A, B, C, D"
      ],
      "answer": 3,
-     "explanation": "The notes describe the sequence as sunlight entering the water drop, dispersion, total internal reflection at the back, and refraction out."
+     "explanation": "The notes describe the sequence as sunlight entering the water drop, dispersion, total internal reflection at the back, and refraction out.",
+     "facts": [
+      "F246",
+      "F247",
+      "F248"
+     ]
     },
     {
      "id": "physics-18-24",
@@ -2742,7 +5727,11 @@
       "Yellow"
      ],
      "answer": 2,
-     "explanation": "Violet has the highest refractive index and undergoes maximum deviation."
+     "explanation": "Violet has the highest refractive index and undergoes maximum deviation.",
+     "facts": [
+      "F258",
+      "F259"
+     ]
     },
     {
      "id": "physics-18-25",
@@ -2756,7 +5745,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Rayleigh scattering causes shorter wavelengths to scatter more, producing the blue appearance of the sky."
+     "explanation": "Rayleigh scattering causes shorter wavelengths to scatter more, producing the blue appearance of the sky.",
+     "facts": [
+      "F281",
+      "F282",
+      "F285"
+     ]
     },
     {
      "id": "physics-18-26",
@@ -2770,7 +5764,303 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. A mirage is associated with total internal reflection caused by atmospheric layers, not Rayleigh scattering."
+     "explanation": "Statements I, II and III are correct. A mirage is associated with total internal reflection caused by atmospheric layers, not Rayleigh scattering.",
+     "facts": [
+      "F291",
+      "F296",
+      "F298",
+      "F299",
+      "F304"
+     ]
+    },
+    {
+     "id": "physics-18-27",
+     "format": "Assertion-Reason",
+     "keyword": "Dual Nature",
+     "question": "Assertion (A): Light has a dual nature.\nReason (R): Light behaves as a wave and as a particle called a photon.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Light has dual nature because it exhibits both wave behaviour and particle behaviour, the particle being called a photon.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "physics-18-28",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wave Nature",
+     "question": "Consider the following statements:\nI. The wave nature of light explains interference.\nII. The wave nature of light explains diffraction.\nIII. The wave nature of light explains polarisation.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Interference, diffraction and polarisation are all explained by the wave nature of light.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "physics-18-29",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Electromagnetic Wave",
+     "question": "Consider the following statements:\nStatement A: An electromagnetic wave is transverse.\nStatement B: An electromagnetic wave does not require a medium.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "An electromagnetic wave is transverse and can propagate without requiring a medium.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "physics-18-30",
+     "format": "Direct Recall",
+     "keyword": "Speed in Vacuum",
+     "question": "Light travels at its maximum speed in which of the following?",
+     "options": [
+      "Glass",
+      "Vacuum",
+      "Water",
+      "Air"
+     ],
+     "answer": 1,
+     "explanation": "Light travels at its maximum speed in vacuum.",
+     "facts": [
+      "F10"
+     ]
+    },
+    {
+     "id": "physics-18-31",
+     "format": "List-Matching",
+     "keyword": "Transparent, Translucent and Opaque Media",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Transparent medium\n(b) Translucent medium\n(c) Opaque medium\n(d) Vacuum\n\nList-II\n(i) Glass, water and air\n(ii) Frosted glass and butter paper\n(iii) Wood, metal and stone\n(iv) Light travels freely",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Transparent media include glass, water and air; translucent media include frosted glass and butter paper; opaque media include wood, metal and stone. Light travels freely in vacuum.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-18-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Regular and Irregular Reflection",
+     "question": "Consider the following statements:\nI. Regular reflection occurs from a smooth surface.\nII. Regular reflection produces a clear image.\nIII. A mirror produces regular reflection.\nIV. A wall produces irregular reflection.\nV. Paper produces irregular reflection.",
+     "options": [
+      "II, IV and V only",
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Smooth surfaces, including mirrors, produce regular reflection and a clear image. Walls and paper produce irregular reflection.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "physics-18-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mirror",
+     "question": "Consider the following statements about a plane mirror:\nI. It forms a virtual image.\nII. It forms an erect image.\nIII. It forms an image of the same size as the object.\nIV. It laterally inverts the image.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "A plane mirror forms a virtual, erect image of the same size as the object and laterally inverts the image.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "physics-18-34",
+     "format": "List-Matching",
+     "keyword": "Mirror",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Plane mirror used as a looking glass\n(b) Plane mirror used in a kaleidoscope\n(c) Concave mirror used in headlights\n(d) Concave mirror used in a telescope\n\nList-II\n(i) Telescope application\n(ii) Looking-glass application\n(iii) Headlight application\n(iv) Kaleidoscope application",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: plane mirror–looking glass, plane mirror–kaleidoscope, concave mirror–headlights and concave mirror–telescope.",
+     "facts": [
+      "F45",
+      "F47",
+      "F49",
+      "F51"
+     ]
+    },
+    {
+     "id": "physics-18-35",
+     "format": "Direct Recall",
+     "keyword": "Mirror",
+     "question": "Which one of the following applications of a concave mirror is correctly stated?",
+     "options": [
+      "It is used in a security mirror to provide large-area coverage.",
+      "It is used in a street lamp to diverge light over a larger area.",
+      "It is used in a solar cooker or furnace to converge sun rays at the focus.",
+      "It is used in a rear-view mirror to provide a wide field of view."
+     ],
+     "answer": 2,
+     "explanation": "A concave mirror is used in a solar cooker or furnace because it converges sun rays at the focus.",
+     "facts": [
+      "F50"
+     ]
+    },
+    {
+     "id": "physics-18-36",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mirror",
+     "question": "Consider the following statements about concave-mirror applications:\nI. A shaving or makeup mirror produces a magnified erect image when the object is within F.\nII. A headlight reflector produces a parallel beam when the bulb is at the focus.\nIII. A solar cooker or furnace converges sun rays at the focus.\nIV. A torch or searchlight produces a strong parallel beam.\nV. A dentist mirror produces a magnified image of teeth.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III, IV and V only",
+      "II, III and IV only",
+      "I, II, III, IV and V",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements correctly describe the listed applications of concave mirrors.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "physics-18-37",
+     "format": "List-Matching",
+     "keyword": "Mirror",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Convex mirror in a street lamp\n(b) Rear-view mirror in a vehicle\n(c) Security or shop mirror\n(d) Mirror in an ATM or parking area\n\nList-II\n(i) Large-area coverage\n(ii) Wider view for safety\n(iii) Wide field of view\n(iv) Street-light application",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are street lamp–convex mirror, rear-view mirror–wide field of view, security or shop mirror–large-area coverage, and ATM or parking mirror–wider view for safety.",
+     "facts": [
+      "F54",
+      "F62",
+      "F64",
+      "F66"
+     ]
+    },
+    {
+     "id": "physics-18-38",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mirror",
+     "question": "Consider the following statements:\nStatement A: A rear-view mirror in a vehicle produces an erect and diminished image.\nStatement B: A street-light reflector diverges light over a larger area.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The rear-view mirror produces an erect, diminished image, while a street-light reflector diverges light over a larger area.",
+     "facts": [
+      "F63",
+      "F65"
+     ]
+    },
+    {
+     "id": "physics-18-39",
+     "format": "Assertion-Reason",
+     "keyword": "Mirror",
+     "question": "Assertion (A): A reflecting telescope has a large aperture and no chromatic aberration.\nReason (R): These are listed characteristics of a reflecting telescope.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The assertion is true: a reflecting telescope has a large aperture and no chromatic aberration. The reason restates these characteristics and therefore correctly explains the assertion in this question.",
+     "facts": [
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "physics-18-40",
+     "format": "Assertion-Reason",
+     "keyword": "Mirror",
+     "question": "Assertion (A): In a plane mirror, the image distance equals the object distance.\nReason (R): A plane mirror laterally inverts the image by reversing left and right.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true characteristics of a plane mirror. However, left-right reversal does not explain why the image distance equals the object distance.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "physics-18-41",
+     "format": "Direct Recall",
+     "keyword": "Refraction",
+     "question": "Light refracts when it passes between which of the following types of media?",
+     "options": [
+      "Smooth and rough surfaces",
+      "Transparent and opaque media only",
+      "Vacuum and an opaque medium only",
+      "Rarer and denser media"
+     ],
+     "answer": 3,
+     "explanation": "Refraction occurs when light passes between rarer and denser media.",
+     "facts": [
+      "F76"
+     ]
     }
    ]
   },
@@ -2798,7 +6088,14 @@
       "A stationary wave that cannot travel through liquids"
      ],
      "answer": 2,
-     "explanation": "Sound is a mechanical, longitudinal wave and requires a material medium such as a solid, liquid or gas. It cannot travel through vacuum."
+     "explanation": "Sound is a mechanical, longitudinal wave and requires a material medium such as a solid, liquid or gas. It cannot travel through vacuum.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "physics-19-2",
@@ -2812,7 +6109,13 @@
       "Sound travels through water at approximately 1480–1500 m/s."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the speed in glass. Sound travels through glass at approximately 5000–6000 m/s, not 340–343 m/s."
+     "explanation": "The incorrect detail is the speed in glass. Sound travels through glass at approximately 5000–6000 m/s, not 340–343 m/s.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "physics-19-3",
@@ -2826,7 +6129,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Frequency determines pitch, and pitch is the brain's sensation of frequency; therefore, the reason explains the assertion."
+     "explanation": "Both statements are true. Frequency determines pitch, and pitch is the brain's sensation of frequency; therefore, the reason explains the assertion.",
+     "facts": [
+      "F32",
+      "F38"
+     ]
     },
     {
      "id": "physics-19-4",
@@ -2840,7 +6147,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Amplitude determines loudness or intensity. It does not affect the speed, frequency or pitch of sound."
+     "explanation": "Amplitude determines loudness or intensity. It does not affect the speed, frequency or pitch of sound.",
+     "facts": [
+      "F24",
+      "F25",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "physics-19-5",
@@ -2854,7 +6168,14 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and III are correct. Infrasonic sound is below 20 Hz, whereas sound above 20 kHz is ultrasonic."
+     "explanation": "Statements I and III are correct. Infrasonic sound is below 20 Hz, whereas sound above 20 kHz is ultrasonic.",
+     "facts": [
+      "F18",
+      "F66",
+      "F68",
+      "F69",
+      "F72"
+     ]
     },
     {
      "id": "physics-19-6",
@@ -2868,7 +6189,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "Guitar uses vibrating strings, flute uses a vibrating air column, tabla uses a stretched membrane, and cymbals use vibrating plates or solids."
+     "explanation": "Guitar uses vibrating strings, flute uses a vibrating air column, tabla uses a stretched membrane, and cymbals use vibrating plates or solids.",
+     "facts": [
+      "F143",
+      "F146",
+      "F149",
+      "F151"
+     ]
     },
     {
      "id": "physics-19-7",
@@ -2882,7 +6209,10 @@
       "1.7 m"
      ],
      "answer": 2,
-     "explanation": "For a 20 Hz sound in air at 340 m/s, the wavelength is 17 m. The 20 kHz sound has a wavelength of 1.7 cm."
+     "explanation": "For a 20 Hz sound in air at 340 m/s, the wavelength is 17 m. The 20 kHz sound has a wavelength of 1.7 cm.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "physics-19-8",
@@ -2896,7 +6226,13 @@
       "Amplitude is the maximum displacement of particles from their mean position."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the definition. The distance between two successive compressions is wavelength, whereas amplitude is the maximum displacement from the mean position."
+     "explanation": "The incorrect detail is the definition. The distance between two successive compressions is wavelength, whereas amplitude is the maximum displacement from the mean position.",
+     "facts": [
+      "F19",
+      "F23",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "physics-19-9",
@@ -2910,7 +6246,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The stated increase of approximately 0.61 m/s per °C directly describes why the speed rises with temperature."
+     "explanation": "Both statements are true. The stated increase of approximately 0.61 m/s per °C directly describes why the speed rises with temperature.",
+     "facts": [
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "physics-19-10",
@@ -2924,7 +6264,14 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "Medical imaging uses sonography, industrial testing detects cracks or flaws in metals, SONAR performs underwater detection, and ultrasonic cleaning is used for delicate parts or jewellery."
+     "explanation": "Medical imaging uses sonography, industrial testing detects cracks or flaws in metals, SONAR performs underwater detection, and ultrasonic cleaning is used for delicate parts or jewellery.",
+     "facts": [
+      "F73",
+      "F74",
+      "F77",
+      "F78",
+      "F79"
+     ]
     },
     {
      "id": "physics-19-11",
@@ -2938,7 +6285,16 @@
       "Interference of electromagnetic waves"
      ],
      "answer": 0,
-     "explanation": "SONAR stands for Sound Navigation And Ranging. It sends ultrasonic pulses, receives their reflections from an object and measures the time interval."
+     "explanation": "SONAR stands for Sound Navigation And Ranging. It sends ultrasonic pulses, receives their reflections from an object and measures the time interval.",
+     "facts": [
+      "F94",
+      "F95",
+      "F96",
+      "F97",
+      "F98",
+      "F99",
+      "F100"
+     ]
     },
     {
      "id": "physics-19-12",
@@ -2952,7 +6308,15 @@
       "SONAR uses infrasound for underwater detection."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the wave type used by SONAR. SONAR uses ultrasound, not infrasound, for underwater detection."
+     "explanation": "The incorrect detail is the wave type used by SONAR. SONAR uses ultrasound, not infrasound, for underwater detection.",
+     "facts": [
+      "F84",
+      "F85",
+      "F87",
+      "F88",
+      "F89",
+      "F100"
+     ]
     },
     {
      "id": "physics-19-13",
@@ -2966,7 +6330,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The relative motion in the Doppler effect causes the approaching source to be heard at a higher apparent frequency and pitch."
+     "explanation": "Both statements are true. The relative motion in the Doppler effect causes the approaching source to be heard at a higher apparent frequency and pitch.",
+     "facts": [
+      "F132",
+      "F133",
+      "F134"
+     ]
     },
     {
      "id": "physics-19-14",
@@ -2980,7 +6349,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Tabla uses a stretched membrane, while cymbals use vibrating plates or solids; therefore, two descriptions are correct."
+     "explanation": "Statements I and II are correct. Tabla uses a stretched membrane, while cymbals use vibrating plates or solids; therefore, two descriptions are correct.",
+     "facts": [
+      "F143",
+      "F146",
+      "F149",
+      "F151"
+     ]
     },
     {
      "id": "physics-19-15",
@@ -2994,7 +6369,282 @@
       "172 m"
      ],
      "answer": 0,
-     "explanation": "The minimum distance for an echo to be heard by the human ear is approximately 17.2 m, based on the persistence of hearing of 0.1 second."
+     "explanation": "The minimum distance for an echo to be heard by the human ear is approximately 17.2 m, based on the persistence of hearing of 0.1 second.",
+     "facts": [
+      "F129",
+      "F130",
+      "F131"
+     ]
+    },
+    {
+     "id": "physics-19-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sound → Propagation",
+     "question": "Consider the following statements:\nI. Sound propagates through compressions and rarefactions.\nII. The speed of sound in a vacuum is zero.\nIII. Sound cannot travel in a vacuum.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Sound propagates through compressions and rarefactions. In a vacuum its speed is zero, and sound cannot travel through a vacuum.",
+     "facts": [
+      "F6",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "physics-19-17",
+     "format": "Direct Recall",
+     "keyword": "Sound → Speed",
+     "question": "Which of the following represents the general order of the speed of sound in different media?",
+     "options": [
+      "Gas > Liquid > Solid",
+      "Solid > Liquid > Gas",
+      "Solid > Gas > Liquid",
+      "Liquid > Solid > Gas"
+     ],
+     "answer": 1,
+     "explanation": "The general speed order of sound is solid > liquid > gas.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "physics-19-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Frequency",
+     "question": "Consider the following statements:\nI. Frequency is the number of vibrations per second.\nII. Frequency is the number of compressions per second.\nIII. The unit of frequency is hertz (Hz).\nIV. Frequency determines the pitch of sound.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Frequency represents the number of vibrations or compressions per second, is measured in hertz, and determines the pitch of sound.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-19-19",
+     "format": "Assertion-Reason",
+     "keyword": "Wavelength",
+     "question": "Assertion (A): At a fixed speed of sound, a higher frequency corresponds to a smaller wavelength.\nReason (R): In air at 340 m/s, a sound of frequency 20 kHz has a wavelength of 1.7 cm.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The 20 kHz example illustrates the wavelength value, but it does not itself explain the general inverse relation between frequency and wavelength.",
+     "facts": [
+      "F20",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-19-20",
+     "format": "List-Matching",
+     "keyword": "Frequency → Pitch",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Low frequency\n(b) Male voice\n(c) High frequency\n(d) Whistle\n\nList-II\n(i) Bass or deep sound\n(ii) Example of a bass or deep sound\n(iii) Shrill sound\n(iv) Example of a shrill sound",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Low frequency produces a bass or deep sound, with the male voice as an example. High frequency produces a shrill sound, with a whistle as an example.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "physics-19-21",
+     "format": "Direct Recall",
+     "keyword": "Pitch",
+     "question": "Which of the following correctly describes the relation between pitch and frequency?",
+     "options": [
+      "Pitch is directly proportional to frequency",
+      "Pitch is independent of frequency",
+      "Pitch is determined only by amplitude",
+      "Pitch is inversely proportional to frequency"
+     ],
+     "answer": 0,
+     "explanation": "Pitch is directly proportional to frequency.",
+     "facts": [
+      "F31"
+     ]
+    },
+    {
+     "id": "physics-19-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Pitch and Loudness",
+     "question": "Consider the following statements:\nStatement A: Pitch is independent of amplitude or loudness.\nStatement B: Loudness is directly related to amplitude.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Pitch does not depend on amplitude or loudness, while loudness is directly related to amplitude.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "physics-19-23",
+     "format": "List-Matching",
+     "keyword": "Quality / Timbre",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Quality or timbre\n(b) Same pitch and loudness\n(c) Waveform\n(d) Overtones\n\nList-II\n(i) Sounds can still be distinguished by their quality\n(ii) Characteristic that distinguishes two sounds\n(iii) A factor on which timbre depends\n(iv) Another factor on which timbre depends",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Quality or timbre distinguishes sounds having the same pitch and loudness. It depends on the waveform and the overtones present.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "physics-19-24",
+     "format": "List-Matching",
+     "keyword": "Quality / Timbre",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Quality or timbre\n(b) Same note on different instruments\n(c) More overtones\n(d) Periodic waveform\n\nList-II\n(i) Produces richer quality\n(ii) Shape determines quality\n(iii) Depends on harmonics present\n(iv) Can sound different on flute, violin and piano",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Quality or timbre depends on the harmonics present and is determined by the shape of the periodic waveform. The same note on a flute, violin and piano can sound different, while more overtones produce richer quality.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "physics-19-25",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sound → Temperature",
+     "question": "Consider the following statements:\nStatement A: The speed of sound at 0°C is approximately 331 m/s.\nStatement B: The speed of sound at 20°C is approximately 343 m/s.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The speed of sound is approximately 331 m/s at 0°C and approximately 343 m/s at 20°C.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "physics-19-26",
+     "format": "Assertion-Reason",
+     "keyword": "Sound → Solid / Liquid / Gas",
+     "question": "Assertion (A): Sound travels fastest through solids.\nReason (R): Solids have high elasticity or bulk modulus, and their molecules are closely packed.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Sound travels fastest through solids because their high elasticity or bulk modulus and closely packed molecules favour faster propagation.",
+     "facts": [
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "physics-19-27",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sound Speed in Different Media",
+     "question": "Consider the following statements:\nI. Sound travels at an intermediate speed through liquids, which are less elastic than solids.\nII. Sound travels slowest through gases because gases have low elasticity.\nIII. The molecules in gases are far apart.\nIV. The general order of the speed of sound is solid > liquid > gas.\nV. A train sound is heard better through rails than through air.",
+     "options": [
+      "I, II, III and IV only",
+      "I, II and III only",
+      "I, II, III, IV and V",
+      "II, III, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Sound has intermediate speed in liquids and the slowest speed in gases; the overall order is solid > liquid > gas, and train sounds are heard better through rails than through air.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "physics-19-28",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Audible Frequency Range",
+     "question": "Consider the following statements:\nI. The audible sound frequency range is 20 kHz.\nII. The human hearing limit decreases with age.\nIII. The decrease in the human hearing limit with age is especially significant for higher frequencies.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The audible sound frequency range extends to 20 kHz. The human hearing limit decreases with age, particularly for higher frequencies.",
+     "facts": [
+      "F67",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "physics-19-29",
+     "format": "List-Matching",
+     "keyword": "Ultrasound Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Echocardiography\n(b) Pest control\n(c) Welding and drilling\n(d) Precision machining\n\nList-II\n(i) Driving away insects and rodents\n(ii) Imaging the heart\n(iii) Industrial application involving precision machining\n(iv) Industrial application involving welding and drilling",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Ultrasound is used in echocardiography to image the heart, in pest control to drive away insects and rodents, and in industry for welding, drilling and precision machining.",
+     "facts": [
+      "F75",
+      "F76",
+      "F80",
+      "F81",
+      "F82",
+      "F83"
+     ]
     }
    ]
   }
