@@ -819,7 +819,10 @@
       "Arabian Desert"
      ],
      "answer": 2,
-     "explanation": "The notes associate the Pygmy groups with the Congo Basin equatorial rainforest in Central Africa. They are described as short-statured hunters and gatherers."
+     "explanation": "The notes associate the Pygmy groups with the Congo Basin equatorial rainforest in Central Africa. They are described as short-statured hunters and gatherers.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "world-geography-10-2",
@@ -833,7 +836,16 @@
       "The Inuit are adapted to the cold conditions of the Arctic."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the country. The Maori are Polynesian indigenous people of New Zealand, not Australia."
+     "explanation": "The incorrect detail is the country. The Maori are Polynesian indigenous people of New Zealand, not Australia.",
+     "facts": [
+      "F17",
+      "F72",
+      "F45",
+      "F46",
+      "F47",
+      "F15",
+      "F18"
+     ]
     },
     {
      "id": "world-geography-10-3",
@@ -847,7 +859,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes. The Maasai of Kenya and Tanzania are described as cattle pastoralists, so the reason explains their pastoral livelihood."
+     "explanation": "Both statements are supported by the notes. The Maasai of Kenya and Tanzania are described as cattle pastoralists, so the reason explains their pastoral livelihood.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-10-4",
@@ -861,7 +877,17 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Ainu–Hokkaido and Sakhalin, Maori–North and South Islands, Tuareg–Sahara Desert, and Afridi–Khyber Pass and Safed Koh."
+     "explanation": "The correct pairs are Ainu–Hokkaido and Sakhalin, Maori–North and South Islands, Tuareg–Sahara Desert, and Afridi–Khyber Pass and Safed Koh.",
+     "facts": [
+      "F35",
+      "F45",
+      "F32",
+      "F82",
+      "F33",
+      "F34",
+      "F36",
+      "F85"
+     ]
     },
     {
      "id": "world-geography-10-5",
@@ -875,7 +901,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because the Kirghiz are described as nomadic herders."
+     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because the Kirghiz are described as nomadic herders.",
+     "facts": [
+      "F38",
+      "F100",
+      "F31"
+     ]
     },
     {
      "id": "world-geography-10-6",
@@ -889,7 +920,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate the Fulani with pastoralism and the Hausa with settled agrarian-trading communities in the Sahel and Sudan Savanna."
+     "explanation": "Both statements are true. The notes associate the Fulani with pastoralism and the Hausa with settled agrarian-trading communities in the Sahel and Sudan Savanna.",
+     "facts": [
+      "F76",
+      "F77"
+     ]
     },
     {
      "id": "world-geography-10-7",
@@ -903,7 +938,14 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Only two groups are associated with reindeer herding in the notes: the Lapps/Sami and the Samoyed/Nenets. The Yakuts are associated with horse and cattle breeding, while the Berbers practised agriculture and pastoralism."
+     "explanation": "Only two groups are associated with reindeer herding in the notes: the Lapps/Sami and the Samoyed/Nenets. The Yakuts are associated with horse and cattle breeding, while the Berbers practised agriculture and pastoralism.",
+     "facts": [
+      "F68",
+      "F53",
+      "F63",
+      "F73",
+      "F64"
+     ]
     },
     {
      "id": "world-geography-10-8",
@@ -917,7 +959,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes: the Semang are associated with the Malay Peninsula in Malaysia and are identified as a Negrito group. However, being a Negrito group does not explain their geographical association with Malaysia."
+     "explanation": "Both statements are true according to the notes: the Semang are associated with the Malay Peninsula in Malaysia and are identified as a Negrito group. However, being a Negrito group does not explain their geographical association with Malaysia.",
+     "facts": [
+      "F26",
+      "F27",
+      "F25"
+     ]
     },
     {
      "id": "world-geography-10-9",
@@ -931,9 +978,543 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Pygmy–DRC, Cameroon and Gabon; Bedouin–Middle East and North Africa; Aeta–Philippines; and Berbers–Morocco, Algeria and Tunisia."
+     "explanation": "The correct pairs are Pygmy–DRC, Cameroon and Gabon; Bedouin–Middle East and North Africa; Aeta–Philippines; and Berbers–Morocco, Algeria and Tunisia.",
+     "facts": [
+      "F3",
+      "F23",
+      "F98",
+      "F71",
+      "F22",
+      "F97"
+     ]
+    },
+    {
+     "id": "world-geography-10-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → Region [LOCATION]",
+     "question": "Consider the following statements:\nI. Pygmy groups are represented by the Mbuti, Baka and Twa.\nII. Pygmy groups have short stature.\nIII. Pygmy groups are hunters and gatherers.\nIV. Pygmy groups inhabit the Sahara Desert.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III are correct descriptions of Pygmy groups. The Sahara Desert is associated with other groups in the table, not the Pygmy groups.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-10-11",
+     "format": "Count-Based",
+     "keyword": "Tribes → Traditional activity",
+     "question": "How many of the following statements about the Bushman or San are correct?\n1. Bushman is also called San.\n2. Bushman or San groups inhabit the Kalahari Desert.\n3. Bushman or San groups are found in Southern Africa, including Botswana, Namibia and South Africa.\n4. Bushman or San groups are hunter-gatherers.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: San is another name for Bushman; the groups inhabit the Kalahari Desert, occur in the listed Southern African countries and are hunter-gatherers.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-10-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → Region [LOCATION]",
+     "question": "Consider the following statements:\nI. Eskimo is also called Inuit.\nII. Eskimo or Inuit groups inhabit the Arctic tundra and northern regions and are found in Canada, Alaska and Greenland.\nIII. Eskimo or Inuit groups belong to North America and the Arctic and are described as Mongoloid.\nIV. Eskimo or Inuit groups inhabit the Kalahari Desert.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III correctly describe the Eskimo or Inuit groups. The Kalahari Desert is associated with the Bushman or San, not the Eskimo or Inuit.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "world-geography-10-13",
+     "format": "Direct Recall",
+     "keyword": "Tribes → Traditional activity",
+     "question": "Which of the following groups are described as nomadic pastoralists?",
+     "options": [
+      "Bedouin",
+      "Ainu",
+      "Bindibu or Pintupi",
+      "Bushman or San"
+     ],
+     "answer": 0,
+     "explanation": "Bedouin groups are described as nomadic pastoralists. The other options are associated with different traditional livelihoods in the table.",
+     "facts": [
+      "F24"
+     ]
+    },
+    {
+     "id": "world-geography-10-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tribes → Region [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: Kirghiz is also spelled Kyrgyz.\nStatement B: Kirghiz or Kyrgyz groups inhabit the Pamir Plateau and the Tianshan Mountains and are found in Central Asia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Kirghiz has the spelling Kyrgyz, and these groups inhabit the Pamir Plateau and Tianshan Mountains in Central Asia.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "world-geography-10-15",
+     "format": "Direct Recall",
+     "keyword": "Tribes → Indigenous group",
+     "question": "Which of the following is identified as an Indigenous people of Japan and East Asia?",
+     "options": [
+      "Zulu",
+      "Maori",
+      "Berbers",
+      "Ainu"
+     ],
+     "answer": 3,
+     "explanation": "The Ainu are identified as Indigenous people associated with Japan and East Asia.",
+     "facts": [
+      "F37"
+     ]
+    },
+    {
+     "id": "world-geography-10-16",
+     "format": "Assertion-Reason",
+     "keyword": "Tribes → Region [LOCATION]",
+     "question": "Assertion (A): Bindibu or Pintupi are associated with Australia and Oceania.\nReason (R): Bindibu or Pintupi are an Australian Aboriginal group.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and identifying Bindibu or Pintupi as an Australian Aboriginal group explains their association with Australia and Oceania.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-10-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → Traditional activity",
+     "question": "Consider the following statements about the Bindibu or Pintupi:\nI. They were traditionally hunter-gatherers.\nII. They are adapted to desert conditions.\nIII. They inhabit the Western Desert, Gibson Desert and Great Sandy Desert.\nIV. They are associated with the Kalahari Desert.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct. Bindibu or Pintupi are associated with the Western, Gibson and Great Sandy Deserts and are traditionally hunter-gatherers adapted to desert conditions; the Kalahari Desert is associated with the Bushman or San.",
+     "facts": [
+      "F39",
+      "F40",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "world-geography-10-18",
+     "format": "List-Matching",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Maori\n(b) Samoyed/Nenets\n(c) Chukchi/Koryak\n(d) Yakuts\n\nList-II\n(i) Ta moko and Haka\n(ii) Traditional conical tents called chums\n(iii) Maritime hunting\n(iv) Lena and Verkhoyansk River Basin",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Maori are associated with Ta moko and Haka; Samoyed/Nenets used conical tents called chums; Chukchi/Koryak practised maritime hunting; and Yakuts were associated with the Lena and Verkhoyansk River Basin.",
+     "facts": [
+      "F48",
+      "F49",
+      "F54",
+      "F59"
+     ]
+    },
+    {
+     "id": "world-geography-10-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nStatement A: Samoyed is also called Nenets.\nStatement B: Samoyed or Nenets groups are associated with Russia and Eurasia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The group is identified as Samoyed or Nenets and is associated with Russia and Eurasia.",
+     "facts": [
+      "F50",
+      "F52"
+     ]
+    },
+    {
+     "id": "world-geography-10-20",
+     "format": "Direct Recall",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "The Samoyed or Nenets groups traditionally inhabit which of the following regions?",
+     "options": [
+      "The Atlas Mountains of North Africa",
+      "The mountainous rainforest interiors of Luzon",
+      "The eastern coastal plateau plain of South Africa",
+      "The tundra of northern and western Siberia"
+     ],
+     "answer": 3,
+     "explanation": "Samoyed or Nenets groups inhabit the tundra of northern and western Siberia.",
+     "facts": [
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-10-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nI. Chukchi is grouped with Koryak.\nII. Chukchi or Koryak groups inhabit the Chukchi Peninsula and the Bering Sea coast.\nIII. Chukchi or Koryak groups are found in far northeastern Siberia and Russia.\nIV. Chukchi or Koryak communities inhabit tundra regions.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements correctly describe the grouping, location and tundra habitat of the Chukchi or Koryak communities.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-10-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nStatement A: Yakuts are also called Sakha.\nStatement B: Yakuts are associated with the Lena and Verkhoyansk River Basin region and are found in Eastern Siberia and Russia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Yakuts are also known as Sakha and are associated with the Lena and Verkhoyansk River Basin region in Eastern Siberia and Russia.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "world-geography-10-23",
+     "format": "Assertion-Reason",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Assertion (A): Berbers are also called Amazigh.\nReason (R): Berber groups inhabit the Atlas Mountains.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Berbers are also called Amazigh, and Berber groups inhabit the Atlas Mountains. The habitat does not explain the alternative name.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "world-geography-10-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nStatement A: Hausa and Fulani inhabit the Sahel and Sudan Savanna.\nStatement B: Hausa and Fulani are found in northern Niger and Nigeria in West Africa.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Hausa and Fulani groups inhabit the Sahel and Sudan Savanna and are found in northern Niger and Nigeria in West Africa.",
+     "facts": [
+      "F74",
+      "F75"
+     ]
+    },
+    {
+     "id": "world-geography-10-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements about the Zulu:\nI. Zulu groups inhabit KwaZulu-Natal and the eastern coastal plateau plain.\nII. Zulu are associated with South Africa.\nIII. Zulu are Bantu-speaking people.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The Zulu inhabit KwaZulu-Natal and the eastern coastal plateau plain, are associated with South Africa, and are Bantu-speaking people.",
+     "facts": [
+      "F78",
+      "F79",
+      "F80"
+     ]
+    },
+    {
+     "id": "world-geography-10-26",
+     "format": "Direct Recall",
+     "keyword": "Tribe → Traditional activity + Location",
+     "question": "The Zulu were historically associated with which of the following under Shaka Zulu?",
+     "options": [
+      "Shifting cultivation",
+      "Reindeer herding",
+      "Forest-based hunting",
+      "Military organization"
+     ],
+     "answer": 3,
+     "explanation": "The Zulu were historically associated with military organization under Shaka Zulu.",
+     "facts": [
+      "F81"
+     ]
+    },
+    {
+     "id": "world-geography-10-27",
+     "format": "Direct Recall",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Which of the following correctly describes the Afridi?",
+     "options": [
+      "A Polynesian indigenous people associated with New Zealand",
+      "A Pashtun tribal group associated with Pakistan and South Asia",
+      "An Orang Asli community associated with Malaysia",
+      "An Indigenous Negrito group associated with the Philippines"
+     ],
+     "answer": 1,
+     "explanation": "The Afridi are a Pashtun tribal group associated with Pakistan and South Asia.",
+     "facts": [
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "world-geography-10-28",
+     "format": "List-Matching",
+     "keyword": "Tribe → Alternative name and habitat",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Boro\n(b) Boro or Bororo groups\n(c) Sakai\n(d) Sakai or Senoi groups\n\nList-II\n(i) Also called Bororo\n(ii) Western Amazon and Upper Amazon\n(iii) Also called Senoi\n(iv) Central highland rainforests",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Boro–also called Bororo, Boro or Bororo groups–Western and Upper Amazon, Sakai–also called Senoi, and Sakai or Senoi groups–central highland rainforests.",
+     "facts": [
+      "F86",
+      "F87",
+      "F91",
+      "F92"
+     ]
+    },
+    {
+     "id": "world-geography-10-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements about the Boro or Bororo:\nI. They are found in Brazil, Peru and Colombia.\nII. They practice shifting cultivation.\nIII. They practice forest-based hunting.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Boro or Bororo groups are found in Brazil, Peru and Colombia and practice both shifting cultivation and forest-based hunting.",
+     "facts": [
+      "F88",
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "world-geography-10-30",
+     "format": "Assertion-Reason",
+     "keyword": "Tribes → Traditional community identity and location",
+     "question": "Assertion (A): The Sakai or Senoi are Orang Asli communities.\nReason (R): The Sakai or Senoi are associated with Malaysia and the Malay Peninsula.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Sakai or Senoi are Orang Asli communities and are associated with Malaysia and the Malay Peninsula. The geographical association does not explain their community identity.",
+     "facts": [
+      "F93",
+      "F94"
+     ]
+    },
+    {
+     "id": "world-geography-10-31",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nStatement A: The Sakai or Senoi were traditionally hunters.\nStatement B: The Sakai or Senoi practiced shifting cultivation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Sakai or Senoi were traditionally hunters and also practiced shifting cultivation.",
+     "facts": [
+      "F95",
+      "F96"
+     ]
+    },
+    {
+     "id": "world-geography-10-32",
+     "format": "Direct Recall",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "The Aeta are identified as which of the following?",
+     "options": [
+      "A Pashtun tribal group",
+      "An Indigenous Negrito group",
+      "A Polynesian indigenous people",
+      "A widespread linguistic group of Africa"
+     ],
+     "answer": 1,
+     "explanation": "The Aeta are an Indigenous Negrito group.",
+     "facts": [
+      "F99"
+     ]
+    },
+    {
+     "id": "world-geography-10-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements about Papuan groups:\nI. They inhabit the highlands and river basins of New Guinea.\nII. They are associated with Papua and Melanesia.\nIII. They include diverse highland societies.\nIV. Papuan highland societies practice sweet-potato agriculture.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct descriptions of Papuan groups and their highland societies.",
+     "facts": [
+      "F101",
+      "F102",
+      "F103",
+      "F104"
+     ]
+    },
+    {
+     "id": "world-geography-10-34",
+     "format": "List-Matching",
+     "keyword": "Tribe → Region and traditional adaptation",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Bantu\n(b) Fulani\n(c) Yakuts\n(d) Aborigines\n\nList-II\n(i) Australian deserts and the outback\n(ii) West African savannas\n(iii) Siberian tundra and taiga\n(iv) East, Central and Southern Africa",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Bantu–East, Central and Southern Africa; Fulani–West African savannas; Yakuts–Siberian tundra and taiga; and Aborigines–Australian deserts and the outback.",
+     "facts": [
+      "F105",
+      "F106",
+      "F107",
+      "F109"
+     ]
+    },
+    {
+     "id": "world-geography-10-35",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nStatement A: Masai is also spelled Maasai.\nStatement B: Masai groups are associated with West Africa.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Masai is also spelled Maasai. Masai groups are associated with the East African plateaus and grasslands of Kenya and Tanzania, not West Africa.",
+     "facts": [
+      "F16",
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-10-36",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements about the Lapps or Sami:\nI. They inhabit the Arctic and sub-Arctic regions of Fennoscandia and Lapland.\nII. They are found in Norway, Sweden, Finland and northwestern Russia.\nIII. They are Indigenous northern European people.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. The Lapps or Sami inhabit Arctic and sub-Arctic Fennoscandia and Lapland, occur in the listed countries and are Indigenous northern European people.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "world-geography-10-37",
+     "format": "Direct Recall",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Which of the following characteristics is associated with the Yakuts?",
+     "options": [
+      "Desert adaptation",
+      "Reindeer herding",
+      "Traditional forest foraging",
+      "Cold adaptation"
+     ],
+     "answer": 3,
+     "explanation": "The Yakuts are identified with cold adaptation. The other characteristics are associated in the sheet with Bindibu/Pintupi, Aeta and Lapps/Sami respectively.",
+     "facts": [
+      "F108"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 109,
+    "covered": 109,
+    "audited": true
+   }
   },
   "11": {
    "number": 11,

@@ -201,7 +201,13 @@
       "Jayapur Hills"
      ],
      "answer": 1,
-     "explanation": "The Godavari originates at Triyambakeswar. Mahabaleshwar, Jayapur Hills and Nandidurga Hills are associated with the origins of the Krishna, Vamsadhara and Penna respectively."
+     "explanation": "The Godavari originates at Triyambakeswar. Mahabaleshwar, Jayapur Hills and Nandidurga Hills are associated with the origins of the Krishna, Vamsadhara and Penna respectively.",
+     "facts": [
+      "F1",
+      "F10",
+      "F29",
+      "F36"
+     ]
     },
     {
      "id": "ap-geography-3-2",
@@ -215,7 +221,14 @@
       "The Krishna enters the Bay of Bengal at Hamsaladeevi."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘above Vijayawada’. The Krishna splits into two branches at Puligada, 64 km below Vijayawada."
+     "explanation": "The incorrect detail is ‘above Vijayawada’. The Krishna splits into two branches at Puligada, 64 km below Vijayawada.",
+     "facts": [
+      "F10",
+      "F11",
+      "F15",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "ap-geography-3-3",
@@ -229,7 +242,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Tungabhadra joins the Krishna at Sangameswaram, and Sangameswaram is in Kurnool district. The location of Sangameswaram does not explain why the rivers join there."
+     "explanation": "Both statements are true: the Tungabhadra joins the Krishna at Sangameswaram, and Sangameswaram is in Kurnool district. The location of Sangameswaram does not explain why the rivers join there.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "ap-geography-3-4",
@@ -243,7 +259,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Penna is also called Pinakini and Penneru, and its sea meeting is associated with Pulicat Lake."
+     "explanation": "Both statements are true. The Penna is also called Pinakini and Penneru, and its sea meeting is associated with Pulicat Lake.",
+     "facts": [
+      "F27",
+      "F28",
+      "F35"
+     ]
     },
     {
      "id": "ap-geography-3-5",
@@ -257,7 +278,15 @@
       "I, II, III and IV"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The Vamsadhara joins the Bay of Bengal at Kalingapatnam, not Mopasu Bandar; Mopasu Bandar is associated with the Nagavali."
+     "explanation": "Statements I, II and IV are correct. The Vamsadhara joins the Bay of Bengal at Kalingapatnam, not Mopasu Bandar; Mopasu Bandar is associated with the Nagavali.",
+     "facts": [
+      "F36",
+      "F39",
+      "F41",
+      "F44",
+      "F45",
+      "F46"
+     ]
     },
     {
      "id": "ap-geography-3-6",
@@ -271,7 +300,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Penna–Gandikota, Vamsadhara–Pathapatnam, Gosthani–Bheemunipatnam and Gundlakamma–Devarampadu village."
+     "explanation": "The correct pairs are Penna–Gandikota, Vamsadhara–Pathapatnam, Gosthani–Bheemunipatnam and Gundlakamma–Devarampadu village.",
+     "facts": [
+      "F33",
+      "F37",
+      "F63",
+      "F82"
+     ]
     },
     {
      "id": "ap-geography-3-7",
@@ -285,7 +320,13 @@
       "Araniyar"
      ],
      "answer": 1,
-     "explanation": "The Sabari is also called the Kolab River. Langulya is another name for the Nagavali, Araniyar for the Arani, and Matsya Kundala for the Machkhand."
+     "explanation": "The Sabari is also called the Kolab River. Langulya is another name for the Nagavali, Araniyar for the Arani, and Matsya Kundala for the Machkhand.",
+     "facts": [
+      "F41",
+      "F52",
+      "F60",
+      "F64"
+     ]
     },
     {
      "id": "ap-geography-3-8",
@@ -299,7 +340,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are associated with the Machkhand: it originates in the Madugula Hills, has Duduma Waterfalls, is also called Matsya Kundala, and flows through Odisha."
+     "explanation": "All four are associated with the Machkhand: it originates in the Madugula Hills, has Duduma Waterfalls, is also called Matsya Kundala, and flows through Odisha.",
+     "facts": [
+      "F47",
+      "F50",
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "ap-geography-3-9",
@@ -313,7 +360,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both A and R are true. The Tammileru drains into Kolleru Lake and forms the boundary between Krishna and West Godavari districts, but the boundary location does not explain its drainage into the lake."
+     "explanation": "Both A and R are true. The Tammileru drains into Kolleru Lake and forms the boundary between Krishna and West Godavari districts, but the boundary location does not explain its drainage into the lake.",
+     "facts": [
+      "F88",
+      "F89"
+     ]
     },
     {
      "id": "ap-geography-3-10",
@@ -327,7 +378,166 @@
       "Langulya"
      ],
      "answer": 1,
-     "explanation": "The historical name of the Swarnamukhi in the works of Dhurjati is Mogaleru."
+     "explanation": "The historical name of the Swarnamukhi in the works of Dhurjati is Mogaleru.",
+     "facts": [
+      "F41",
+      "F52",
+      "F64",
+      "F86"
+     ]
+    },
+    {
+     "id": "ap-geography-3-11",
+     "format": "List-Matching",
+     "keyword": "River → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gowthami branch\n(b) Vashista branch\n(c) Vinateya branch\n(d) Tulya branch\n\nList-II\n(i) Bendamoorlanka\n(ii) Yanam\n(iii) Komarigiripatnam\n(iv) Antarvedi",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The Gowthami branch joins the Bay of Bengal at Yanam, while the Vashista branch joins it at Antarvedi. The Vinateya branch has its mouth at Komarigiripatnam, and the Tulya branch is associated with Bendamoorlanka.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-3-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Location",
+     "question": "Consider the following statements:\n\nI. The Godavari divides into seven branches in the erstwhile East Godavari and West Godavari districts.\nII. The Godavari is 2.7 km wide at Rajahmundry.\nIII. Sir Arthur Cotton's dam on the Godavari is at Dhawaleswaram.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: the Godavari divides into seven branches in the erstwhile East and West Godavari districts, is 2.7 km wide at Rajahmundry, and has Sir Arthur Cotton's dam at Dhawaleswaram.",
+     "facts": [
+      "F2",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "ap-geography-3-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → District [LOCATION]",
+     "question": "Consider the following statements:\n\nI. The Krishna flows through Kurnool district.\nII. The Krishna flows through Guntur district.\nIII. The Krishna flows through Krishna district.\nIV. The Srisailam Hydroelectric Power Station is on the Krishna River.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The Krishna flows through Kurnool, Guntur and Krishna districts. The Srisailam Hydroelectric Power Station is also on the Krishna River.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F17"
+     ]
+    },
+    {
+     "id": "ap-geography-3-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Consider the following statements:\nStatement A: Nagarjuna Sagar on the Krishna is near Nandikonda.\nStatement B: Diviseema lies between the two branches of the Krishna.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Nagarjuna Sagar is near Nandikonda, and Diviseema lies between the two branches of the Krishna.",
+     "facts": [
+      "F16",
+      "F20"
+     ]
+    },
+    {
+     "id": "ap-geography-3-15",
+     "format": "Assertion-Reason",
+     "keyword": "Tributary",
+     "question": "Assertion (A): Hagari is the biggest tributary of the Tungabhadra.\nReason (R): Vedavathi, also called Hagari, is a tributary of the Tungabhadra.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but identifying Vedavathi as another name of Hagari and as a Tungabhadra tributary does not explain why Hagari is the biggest tributary.",
+     "facts": [
+      "F23",
+      "F25"
+     ]
+    },
+    {
+     "id": "ap-geography-3-16",
+     "format": "List-Matching",
+     "keyword": "River → Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Length of the Tungabhadra\n(b) Biggest tributary of the Tungabhadra\n(c) Vedavathi joins the Tungabhadra\n(d) Vedavathi is also called\n\nList-II\n(i) Hagari\n(ii) 531 km\n(iii) Near Siruguppa\n(iv) Hagari",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The Tungabhadra is 531 km long; Hagari is its biggest tributary. Vedavathi joins the Tungabhadra near Siruguppa and is also called Hagari.",
+     "facts": [
+      "F24",
+      "F23",
+      "F26",
+      "F25"
+     ]
+    },
+    {
+     "id": "ap-geography-3-17",
+     "format": "List-Matching",
+     "keyword": "River → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Penna enters Andhra Pradesh\n(b) Penna joins the Bay of Bengal\n(c) Somasila Dam on the Penna\n(d) Small delta formed by the Penna\n\nList-II\n(i) Nellore district\n(ii) Anantapur district\n(iii) Near Nellore\n(iv) Vutukuru in Palnadu district",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Penna enters Andhra Pradesh in Anantapur district and joins the Bay of Bengal at Vutukuru in Palnadu district. The Somasila Dam is near Nellore, and the Penna forms a small delta in Nellore district.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F34"
+     ]
+    },
+    {
+     "id": "ap-geography-3-18",
+     "format": "Assertion-Reason",
+     "keyword": "Largest",
+     "question": "Assertion (A): The Vamsadhara is the biggest river born in the Eastern Ghats.\nReason (R): Mahendratanaya is a tributary of the Vamsadhara.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Vamsadhara is the biggest river born in the Eastern Ghats, and Mahendratanaya is its tributary; the tributary relationship does not explain the river's size distinction.",
+     "facts": [
+      "F38",
+      "F40"
+     ]
     }
    ]
   },
@@ -1436,7 +1646,12 @@
       "Godavari River and 194 TMC"
      ],
      "answer": 3,
-     "explanation": "The Polavaram National Project is on the Godavari and has a planned storage capacity of 194 TMC."
+     "explanation": "The Polavaram National Project is on the Godavari and has a planned storage capacity of 194 TMC.",
+     "facts": [
+      "F1",
+      "F31",
+      "F36"
+     ]
     },
     {
      "id": "ap-geography-16-2",
@@ -1450,7 +1665,21 @@
       "Kandaleru Project is a balancing reservoir in the Penna basin in Nellore."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the river source. Kandaleru Project is in the Penna basin, not associated with Krishna waters; it supplies water to Chennai through Telugu Ganga."
+     "explanation": "The incorrect detail is the river source. Kandaleru Project is in the Penna basin, not associated with Krishna waters; it supplies water to Chennai through Telugu Ganga.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F64",
+      "F65",
+      "F66",
+      "F67",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "ap-geography-16-3",
@@ -1464,7 +1693,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The stated pumping route from the Godavari to the Krishna directly explains why Pattiseema is an inter-basin transfer initiative."
+     "explanation": "Both statements are true. The stated pumping route from the Godavari to the Krishna directly explains why Pattiseema is an inter-basin transfer initiative.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F71",
+      "F72"
+     ]
     },
     {
      "id": "ap-geography-16-4",
@@ -1478,7 +1714,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes. Prakasam Barrage serves the Krishna Delta canal system, while Sir Arthur Cotton Barrage feeds the Eastern, Central and Western Delta canals."
+     "explanation": "Both statements are supported by the notes. Prakasam Barrage serves the Krishna Delta canal system, while Sir Arthur Cotton Barrage feeds the Eastern, Central and Western Delta canals.",
+     "facts": [
+      "F50",
+      "F55",
+      "F56",
+      "F57",
+      "F48",
+      "F53"
+     ]
     },
     {
      "id": "ap-geography-16-5",
@@ -1492,7 +1736,16 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: HNSS–major Rayalaseema drought mitigation, GNSS–floodwater diversion, Kandaleru–Telugu Ganga supply to Chennai, and Veligonda–twin tunnels to Nallamala Sagar."
+     "explanation": "The correct pairs are: HNSS–major Rayalaseema drought mitigation, GNSS–floodwater diversion, Kandaleru–Telugu Ganga supply to Chennai, and Veligonda–twin tunnels to Nallamala Sagar.",
+     "facts": [
+      "F67",
+      "F82",
+      "F87",
+      "F88",
+      "F89",
+      "F90",
+      "F83"
+     ]
     },
     {
      "id": "ap-geography-16-6",
@@ -1506,7 +1759,16 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct according to the notes. They give the turbine configuration of Polavaram, the capacity and location of the Tata project, and the number and capacity of PM-KUSUM plants."
+     "explanation": "All three statements are correct according to the notes. They give the turbine configuration of Polavaram, the capacity and location of the Tata project, and the number and capacity of PM-KUSUM plants.",
+     "facts": [
+      "F98",
+      "F99",
+      "F101",
+      "F103",
+      "F114",
+      "F115",
+      "F105"
+     ]
     },
     {
      "id": "ap-geography-16-7",
@@ -1520,7 +1782,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the dam type does not explain all the listed purposes of hydropower generation and balancing-reservoir functions. The notes separately identify Srisailam as a masonry gravity dam."
+     "explanation": "Both statements are true, but the dam type does not explain all the listed purposes of hydropower generation and balancing-reservoir functions. The notes separately identify Srisailam as a masonry gravity dam.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "ap-geography-16-8",
@@ -1534,7 +1801,16 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two projects are associated with Nellore: Somasila Project is near Nellore, and Kandaleru Project is located in Nellore. Polavaram is associated with the Eluru and East Godavari region, while Nagarjuna Sagar is in the Nalgonda–Guntur region."
+     "explanation": "Two projects are associated with Nellore: Somasila Project is near Nellore, and Kandaleru Project is located in Nellore. Polavaram is associated with the Eluru and East Godavari region, while Nagarjuna Sagar is in the Nalgonda–Guntur region.",
+     "facts": [
+      "F32",
+      "F38",
+      "F59",
+      "F64",
+      "F2",
+      "F21",
+      "F23"
+     ]
     },
     {
      "id": "ap-geography-16-9",
@@ -1548,7 +1824,17 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Denkada–near Saripalli, Kumili–Champavathi system in Vizianagaram, Tammileru–Krishna–West Godavari boundary region, and Kalyani–Swarnamukhi basin."
+     "explanation": "The correct pairs are Denkada–near Saripalli, Kumili–Champavathi system in Vizianagaram, Tammileru–Krishna–West Godavari boundary region, and Kalyani–Swarnamukhi basin.",
+     "facts": [
+      "F10",
+      "F11",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "ap-geography-16-10",
@@ -1562,9 +1848,386 @@
       "Galeru Nagari Sujala Sravanthi"
      ],
      "answer": 2,
-     "explanation": "The Poola Subbaiah Veligonda Project uses twin tunnels through the Srisailam–Nallamala region to reach Nallamala Sagar."
+     "explanation": "The Poola Subbaiah Veligonda Project uses twin tunnels through the Srisailam–Nallamala region to reach Nallamala Sagar.",
+     "facts": [
+      "F88",
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "ap-geography-16-11",
+     "format": "Assertion-Reason",
+     "keyword": "Project → Location",
+     "question": "Assertion (A): Seven Khammam mandals were transferred to Andhra Pradesh.\nReason (R): The transfer was made to facilitate the Polavaram Irrigation Project.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The seven Khammam mandals were transferred to Andhra Pradesh specifically to facilitate the Polavaram Irrigation Project.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "ap-geography-16-12",
+     "format": "List-Matching",
+     "keyword": "River → Project; Project → Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Cheyyeru Project\n(b) Annamaya Dam\n(c) Togurpet Project\n\nList-II\n(i) Cheyyeru River; Kadapa\n(ii) Cheyyeru River system; Kadapa\n(iii) Cheyyeru River; Kadapa River system",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-i, b-ii, c-iii",
+      "a-i, b-iii, c-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Cheyyeru Project–Cheyyeru River and Kadapa, Annamaya Dam–Cheyyeru River system and Kadapa, and Togurpet Project–Cheyyeru River and Kadapa River system.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "ap-geography-16-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Project → Location",
+     "question": "Consider the following statements:\nStatement A: Tarakarama Sagaram is associated with the Champavathi system.\nStatement B: Tarakarama Sagaram is located in the Vizianagaram region.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Tarakarama Sagaram belongs to the Champavathi system and is located in the Vizianagaram region.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "ap-geography-16-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major irrigation project; Canal → Location",
+     "question": "Consider the following statements about Nagarjuna Sagar:\nI. It is on the Krishna River.\nII. It is a major irrigation project.\nIII. Its Right Main Canal is called the Jawahar Canal.\nIV. The Jawahar Canal serves Guntur and Prakasam.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Nagarjuna Sagar is on the Krishna River, is a major irrigation project, and its Jawahar Canal serves Guntur and Prakasam.",
+     "facts": [
+      "F22",
+      "F37",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "ap-geography-16-15",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Vani Vilasa Sagar\n(b) Vani Vilasa Sagar\n(c) Bhairivani Tippa Reservoir\n(d) Bhairivani Tippa Reservoir\n\nList-II\n(i) Also called Marikanive\n(ii) First dam built by M. Visweswariah\n(iii) Associated with the Vedavathi system\n(iv) Located in Gummagatta mandal of Anantapur",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Vani Vilasa Sagar is also called Marikanive and was the first dam built by M. Visweswariah. Bhairivani Tippa Reservoir is associated with the Vedavathi system and is located in Gummagatta mandal of Anantapur.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "ap-geography-16-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Irrigation Project; Power station → Location",
+     "question": "Consider the following statements about the Polavaram National Project:\nI. It is an earth-cum-rockfill dam.\nII. It has a massive spillway.\nIII. It provides irrigation to more than 7.2 lakh acres.\nIV. It has a 960 MW power component.\nV. It provides drinking water.",
+     "options": [
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "II, III, IV and V only",
+      "I, II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct. The Polavaram National Project is an earth-cum-rockfill dam with a massive spillway, provides irrigation to more than 7.2 lakh acres, includes a 960 MW power component, and provides drinking water.",
+     "facts": [
+      "F29",
+      "F30",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "ap-geography-16-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Project; Project → Location",
+     "question": "Consider the following statements:\nStatement A: Srisailam Project is on the Krishna River.\nStatement B: Srisailam Project is located in the Kurnool–Nandyal region.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Srisailam Project is on the Krishna River and is located in the Kurnool–Nandyal region.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "ap-geography-16-18",
+     "format": "Assertion-Reason",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Assertion (A): The Srisailam Project is located in a deep gorge.\nReason (R): The Srisailam Project supports downstream irrigation and lift schemes.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The project’s location in a deep gorge does not explain its support for downstream irrigation and lift schemes.",
+     "facts": [
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "ap-geography-16-19",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Location of Prakasam Barrage\n(b) Water received by Prakasam Barrage through inter-basin transfer\n(c) Other name of Sir Arthur Cotton Barrage\n(d) Location of Sir Arthur Cotton Barrage\n\nList-II\n(i) Vijayawada\n(ii) Godavari water\n(iii) Dowleswaram Barrage\n(iv) Rajamahendravaram",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Prakasam Barrage is at Vijayawada and receives Godavari water through inter-basin transfer. Sir Arthur Cotton Barrage is also called Dowleswaram Barrage and is located at Rajamahendravaram.",
+     "facts": [
+      "F49",
+      "F51",
+      "F52",
+      "F54"
+     ]
+    },
+    {
+     "id": "ap-geography-16-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Canal",
+     "question": "Consider the following statements about Purushothapatnam LIS:\nI. It uses Godavari water.\nII. It lifts water through the Polavaram Left Main Canal.\nIII. It transfers Godavari water to Yeleru.\nIV. It serves North Andhra, the Yeleru region and Visakhapatnam, while providing irrigation and industrial water.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Purushothapatnam LIS uses and transfers Godavari water through the Polavaram Left Main Canal and serves the specified North Andhra areas for irrigation and industrial purposes.",
+     "facts": [
+      "F73",
+      "F74",
+      "F75",
+      "F76",
+      "F77",
+      "F78",
+      "F79"
+     ]
+    },
+    {
+     "id": "ap-geography-16-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Project → District [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: Handri-Neeva Sujala Sravanthi uses the Krishna River and Srisailam backwaters.\nStatement B: Handri-Neeva Sujala Sravanthi serves Kurnool, Anantapur, Kadapa and Chittoor.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. HNSS uses the Krishna River and Srisailam backwaters and serves Kurnool, Anantapur, Kadapa and Chittoor.",
+     "facts": [
+      "F80",
+      "F81"
+     ]
+    },
+    {
+     "id": "ap-geography-16-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Project → District [LOCATION]",
+     "question": "Consider the following statements:\nI. Galeru Nagari Sujala Sravanthi is a multi-stage lift and canal network.\nII. Galeru Nagari Sujala Sravanthi is a reservoir-based diversion system.\nIII. Galeru Nagari Sujala Sravanthi serves Kadapa, Chittoor and Nellore.\nIV. Poola Subbaiah Veligonda Project serves Prakasam, Nellore and Kadapa.",
+     "options": [
+      "I, II and III only",
+      "II and IV only",
+      "I, II, III and IV",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. GNSS is both a multi-stage lift and canal network and a reservoir-based diversion system serving Kadapa, Chittoor and Nellore; the Veligonda Project serves Prakasam, Nellore and Kadapa.",
+     "facts": [
+      "F84",
+      "F85",
+      "F86",
+      "F91"
+     ]
+    },
+    {
+     "id": "ap-geography-16-23",
+     "format": "List-Matching",
+     "keyword": "Irrigation Project (Major/Minor/Medium) → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Source used by Chintalapudi LIS\n(b) Main irrigation method of Chintalapudi LIS\n(c) Areas receiving Godavari water from Chintalapudi LIS\n(d) Areas served by Chintalapudi LIS\n\nList-II\n(i) Godavari water\n(ii) Lift irrigation to uplands\n(iii) Upland and drought-prone areas\n(iv) West Godavari and Krishna",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Chintalapudi LIS uses Godavari water, provides lift irrigation to uplands, supplies Godavari water to upland and drought-prone areas, and serves West Godavari and Krishna.",
+     "facts": [
+      "F92",
+      "F93",
+      "F94",
+      "F95"
+     ]
+    },
+    {
+     "id": "ap-geography-16-24",
+     "format": "Assertion-Reason",
+     "keyword": "Power station → Location (Thermal, Nuclear)",
+     "question": "Assertion (A): The Polavaram Hydro Power Project is located on the Godavari River.\nReason (R): The Polavaram Hydro Power Project has a capacity of 960 MW.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The project is located on the Godavari River and has a capacity of 960 MW, but its capacity does not explain its river location.",
+     "facts": [
+      "F96",
+      "F97"
+     ]
+    },
+    {
+     "id": "ap-geography-16-25",
+     "format": "Direct Recall",
+     "keyword": "Project → Linked National Project",
+     "question": "The Polavaram Hydro Power Project is linked with which project?",
+     "options": [
+      "Srisailam Project",
+      "Polavaram National Project",
+      "Nagarjuna Sagar Project",
+      "Somasila Project"
+     ],
+     "answer": 1,
+     "explanation": "The Polavaram Hydro Power Project is linked with the Polavaram National Project.",
+     "facts": [
+      "F100"
+     ]
+    },
+    {
+     "id": "ap-geography-16-26",
+     "format": "Assertion-Reason",
+     "keyword": "Investment; Renewable Energy Technology",
+     "question": "Assertion (A): The Tata Power RE Project involves an investment of ₹5,750 crore.\nReason (R): The Tata Power RE Project is a hybrid renewable energy project.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the project involves ₹5,750 crore and is a hybrid renewable energy project. However, its technology classification does not explain the stated investment amount.",
+     "facts": [
+      "F102",
+      "F104"
+     ]
+    },
+    {
+     "id": "ap-geography-16-27",
+     "format": "List-Matching",
+     "keyword": "Project → Location, Investment and Capacity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Location of the ReNew Power Integrated Project\n(b) Investment in the ReNew Power Integrated Project\n(c) Capacity of the ReNew Power Integrated Project\n(d) Solar-power component of the ReNew Power Integrated Project\n\nList-II\n(i) Ananthapuram\n(ii) ₹22,000 crore\n(iii) 2.8 GW\n(iv) 1.8 GWp",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: location—Ananthapuram; investment—₹22,000 crore; capacity—2.8 GW; solar component—1.8 GWp.",
+     "facts": [
+      "F106",
+      "F107",
+      "F108",
+      "F109"
+     ]
+    },
+    {
+     "id": "ap-geography-16-28",
+     "format": "Count-Based",
+     "keyword": "Renewable Energy Components",
+     "question": "How many of the following statements about the ReNew Power Integrated Project are correct?\n\nI. It includes 1 GW of wind power.\nII. It includes 2 GWh of battery storage.\nIII. It combines solar power, wind power and battery storage.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The project includes 1 GW of wind power and 2 GWh of battery storage, and combines solar power, wind power and battery storage.",
+     "facts": [
+      "F110",
+      "F111",
+      "F112"
+     ]
+    },
+    {
+     "id": "ap-geography-16-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Solar Plants → Location and Function",
+     "question": "Consider the following statements about PM-KUSUM solar plants:\n\nI. They are located across Andhra Pradesh.\nII. They use feeder-level solar power.\nIII. They provide daytime power to agriculture and farmers.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: PM-KUSUM solar plants are located across Andhra Pradesh, use feeder-level solar power, and provide daytime power to agriculture and farmers.",
+     "facts": [
+      "F113",
+      "F116",
+      "F117"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 117,
+    "covered": 117,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
