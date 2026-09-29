@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+data/**/*.tmp
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/app/src/test/snapshots/
+*.iml
+.idea/

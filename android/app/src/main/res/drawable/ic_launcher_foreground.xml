@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rocket mark on a 108dp adaptive-icon canvas (safe zone is the central 66dp). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- flame -->
+    <path android:fillColor="#FFF59E0B"
+        android:pathData="M48,70 L54,86 L60,70 Z" />
+    <!-- fins -->
+    <path android:fillColor="#FFF97316"
+        android:pathData="M44,58 L36,72 L46,70 Z M64,58 L72,72 L62,70 Z" />
+    <!-- body -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M54,24 C62,32 65,44 64,58 L62,72 L46,72 L44,58 C43,44 46,32 54,24 Z" />
+    <!-- window -->
+    <path android:fillColor="#FF1E3A8A"
+        android:pathData="M54,42 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+</vector>

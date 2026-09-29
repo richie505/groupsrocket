@@ -1,0 +1,42 @@
+name: Generate MCQs (OpenAI)
+
+# Needs the repository secret OPENAI_API_KEY (Settings → Secrets and variables → Actions).
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "Subject name (blank = all subjects)"
+        required: false
+      force:
+        description: "Regenerate sheets that already have MCQs"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Generate
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: |
+          args=(--workers 8)
+          [ -n "${{ inputs.subject }}" ] && args+=(--subject "${{ inputs.subject }}")
+          [ "${{ inputs.force }}" = "true" ] && args+=(--force)
+          python scripts/generate_mcqs.py "${args[@]}"
+      - name: Commit generated MCQs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Generate MCQs from ROCKET sheets"
+          git push
