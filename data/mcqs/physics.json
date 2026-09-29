@@ -3085,7 +3085,13 @@
       "Normal force"
      ],
      "answer": 0,
-     "explanation": "Centripetal force keeps an object in a circular path and acts towards the centre."
+     "explanation": "Centripetal force keeps an object in a circular path and acts towards the centre.",
+     "facts": [
+      "F10",
+      "F11",
+      "F150",
+      "F151"
+     ]
     },
     {
      "id": "physics-14-2",
@@ -3099,7 +3105,10 @@
       "Newton"
      ],
      "answer": 3,
-     "explanation": "The SI unit of force is the newton (N)."
+     "explanation": "The SI unit of force is the newton (N).",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "physics-14-3",
@@ -3113,7 +3122,13 @@
       "Calculating acceleration of lifts"
      ],
      "answer": 1,
-     "explanation": "Rocket propulsion is an application of Newton’s third law of action and reaction."
+     "explanation": "Rocket propulsion is an application of Newton’s third law of action and reaction.",
+     "facts": [
+      "F25",
+      "F27",
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "physics-14-4",
@@ -3127,7 +3142,10 @@
       "1 J = 1 N s"
      ],
      "answer": 2,
-     "explanation": "The notes define 1 joule as 1 newton metre, or 1 J = 1 N m."
+     "explanation": "The notes define 1 joule as 1 newton metre, or 1 J = 1 N m.",
+     "facts": [
+      "F77"
+     ]
     },
     {
      "id": "physics-14-5",
@@ -3141,7 +3159,10 @@
       "9.8 W"
      ],
      "answer": 0,
-     "explanation": "The notes state that 1 horsepower equals 746 watts."
+     "explanation": "The notes state that 1 horsepower equals 746 watts.",
+     "facts": [
+      "F118"
+     ]
     },
     {
      "id": "physics-14-6",
@@ -3155,7 +3176,13 @@
       "Kinetic friction opposes actual sliding motion."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is that fluid friction assists motion. Fluid friction or viscous drag opposes motion in fluids."
+     "explanation": "The incorrect detail is that fluid friction assists motion. Fluid friction or viscous drag opposes motion in fluids.",
+     "facts": [
+      "F119",
+      "F122",
+      "F125",
+      "F126"
+     ]
     },
     {
      "id": "physics-14-7",
@@ -3169,7 +3196,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The lurching passenger illustrates the first law or inertia. The body tends to continue its motion when the bus stops suddenly."
+     "explanation": "The lurching passenger illustrates the first law or inertia. The body tends to continue its motion when the bus stops suddenly.",
+     "facts": [
+      "F26",
+      "F36"
+     ]
     },
     {
      "id": "physics-14-8",
@@ -3183,7 +3214,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify catching a ball by drawing the hands back as an application of increasing the time interval to decrease force."
+     "explanation": "The notes identify catching a ball by drawing the hands back as an application of increasing the time interval to decrease force.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
     },
     {
      "id": "physics-14-9",
@@ -3197,7 +3232,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Mechanical energy conservation is expressed as KE + PE = constant when only conservative forces act."
+     "explanation": "Mechanical energy conservation is expressed as KE + PE = constant when only conservative forces act.",
+     "facts": [
+      "F107",
+      "F108"
+     ]
     },
     {
      "id": "physics-14-10",
@@ -3211,7 +3250,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "An unbalanced force changes the state of motion. A balanced force causes no change, so Statement B is false."
+     "explanation": "An unbalanced force changes the state of motion. A balanced force causes no change, so Statement B is false.",
+     "facts": [
+      "F1",
+      "F5"
+     ]
     },
     {
      "id": "physics-14-11",
@@ -3225,7 +3268,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly given as applications of friction."
+     "explanation": "Both statements are directly given as applications of friction.",
+     "facts": [
+      "F129",
+      "F140"
+     ]
     },
     {
      "id": "physics-14-12",
@@ -3239,7 +3286,16 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Statements I and II correctly describe action–reaction pairs. Statement III reverses the directions given in the notes: the bird pushes air downward and air pushes the bird upward."
+     "explanation": "Statements I and II correctly describe action–reaction pairs. Statement III reverses the directions given in the notes: the bird pushes air downward and air pushes the bird upward.",
+     "facts": [
+      "F40",
+      "F46",
+      "F47",
+      "F51",
+      "F52",
+      "F53",
+      "F54"
+     ]
     },
     {
      "id": "physics-14-13",
@@ -3253,7 +3309,15 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All four statements match the classifications of mechanical, thermal, kinetic and potential energy in the notes."
+     "explanation": "All four statements match the classifications of mechanical, thermal, kinetic and potential energy in the notes.",
+     "facts": [
+      "F81",
+      "F82",
+      "F83",
+      "F84",
+      "F88",
+      "F89"
+     ]
     },
     {
      "id": "physics-14-14",
@@ -3267,7 +3331,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: level circular road–friction, satellite or planetary motion–gravitational force, stone tied to a string–tension, and electron around nucleus–electrostatic attraction."
+     "explanation": "The correct pairs are: level circular road–friction, satellite or planetary motion–gravitational force, stone tied to a string–tension, and electron around nucleus–electrostatic attraction.",
+     "facts": [
+      "F157",
+      "F159",
+      "F160",
+      "F161"
+     ]
     },
     {
      "id": "physics-14-15",
@@ -3281,7 +3351,18 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: lever–scissors and see-saw, inclined plane–ramps and slopes, wheel and axle–steering wheel and door knobs, and screw jack–lifting cars or heavy vehicles."
+     "explanation": "The correct pairs are: lever–scissors and see-saw, inclined plane–ramps and slopes, wheel and axle–steering wheel and door knobs, and screw jack–lifting cars or heavy vehicles.",
+     "facts": [
+      "F173",
+      "F174",
+      "F178",
+      "F179",
+      "F180",
+      "F181",
+      "F186",
+      "F187",
+      "F189"
+     ]
     },
     {
      "id": "physics-14-16",
@@ -3295,7 +3376,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four conversions are correctly matched in the notes."
+     "explanation": "All four conversions are correctly matched in the notes.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97",
+      "F99"
+     ]
     },
     {
      "id": "physics-14-17",
@@ -3309,7 +3396,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 3 and 4 are advantages of friction. Causing wear and tear is a disadvantage."
+     "explanation": "Statements 1, 3 and 4 are advantages of friction. Causing wear and tear is a disadvantage.",
+     "facts": [
+      "F133",
+      "F135",
+      "F137",
+      "F141"
+     ]
     },
     {
      "id": "physics-14-18",
@@ -3323,7 +3416,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "Friction opposes relative motion or its tendency; tension pulls along a string or rope; normal force is perpendicular to a surface; and spring force is a restoring force described by Hooke’s law."
+     "explanation": "Friction opposes relative motion or its tendency; tension pulls along a string or rope; normal force is perpendicular to a surface; and spring force is a restoring force described by Hooke’s law.",
+     "facts": [
+      "F7",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "physics-14-19",
@@ -3337,7 +3437,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Weight is associated with gravitational force because gravitational force attracts objects towards each other."
+     "explanation": "Both statements are true. Weight is associated with gravitational force because gravitational force attracts objects towards each other.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "physics-14-20",
@@ -3351,7 +3455,17 @@
       "I, II, III, IV, V and VI"
      ],
      "answer": 3,
-     "explanation": "All six statements are correct: dyne, kgf and poundal are units of force; 1 N = 1 kg m s⁻² = 10⁵ dynes; and weight is measured in newtons or kilogram-force, with 1 kgf approximately equal to 9.8 N."
+     "explanation": "All six statements are correct: dyne, kgf and poundal are units of force; 1 N = 1 kg m s⁻² = 10⁵ dynes; and weight is measured in newtons or kilogram-force, with 1 kgf approximately equal to 9.8 N.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "physics-14-21",
@@ -3365,7 +3479,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "Walking, swimming, gun recoil and jet engines are all applications of Newton’s third law. Their corresponding descriptions are foot-ground interaction, movement through water, backward gun movement and exhaust-based propulsion."
+     "explanation": "Walking, swimming, gun recoil and jet engines are all applications of Newton’s third law. Their corresponding descriptions are foot-ground interaction, movement through water, backward gun movement and exhaust-based propulsion.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "physics-14-22",
@@ -3379,7 +3499,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct examples from Newton’s laws: rest until pushed illustrates the first law; force, mass and acceleration examples illustrate the second law; and the opposite motion of rocket and gases illustrates the third law."
+     "explanation": "All four statements are correct examples from Newton’s laws: rest until pushed illustrates the first law; force, mass and acceleration examples illustrate the second law; and the opposite motion of rocket and gases illustrates the third law.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "physics-14-23",
@@ -3393,7 +3519,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The backward push by the foot and the forward push by the ground form the action–reaction pair involved in walking."
+     "explanation": "Both statements are true. The backward push by the foot and the forward push by the ground form the action–reaction pair involved in walking.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "physics-14-24",
@@ -3407,7 +3537,16 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The action–reaction pairs are: foot–ground, gun–bullet, hammer–nail and Earth–apple. The nail exerts an equal force on the hammer, while the apple pulls the Earth upward."
+     "explanation": "The action–reaction pairs are: foot–ground, gun–bullet, hammer–nail and Earth–apple. The nail exerts an equal force on the hammer, while the apple pulls the Earth upward.",
+     "facts": [
+      "F44",
+      "F48",
+      "F49",
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
     },
     {
      "id": "physics-14-25",
@@ -3421,7 +3560,10 @@
       "It remains at rest in every case"
      ],
      "answer": 2,
-     "explanation": "A gun recoils when a bullet is fired."
+     "explanation": "A gun recoils when a bullet is fired.",
+     "facts": [
+      "F43"
+     ]
     },
     {
      "id": "physics-14-26",
@@ -3435,7 +3577,11 @@
       "Greater than the acceleration of the apple"
      ],
      "answer": 0,
-     "explanation": "Although the apple pulls the Earth upward, it produces a very small acceleration of the Earth."
+     "explanation": "Although the apple pulls the Earth upward, it produces a very small acceleration of the Earth.",
+     "facts": [
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "physics-14-27",
@@ -3449,7 +3595,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "The sheet states conservation of total linear momentum for an isolated system, equality of momentum before and after collisions of any type, and zero total momentum after an explosion when the system initially rests."
+     "explanation": "The sheet states conservation of total linear momentum for an isolated system, equality of momentum before and after collisions of any type, and zero total momentum after an explosion when the system initially rests.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62"
+     ]
     },
     {
      "id": "physics-14-28",
@@ -3463,7 +3614,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "Momentum is conserved for both the gun-and-bullet and rocket-and-exhaust-gases systems. The exhaust gases gain backward momentum, while the rocket gains forward momentum."
+     "explanation": "Momentum is conserved for both the gun-and-bullet and rocket-and-exhaust-gases systems. The exhaust gases gain backward momentum, while the rocket gains forward momentum.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65",
+      "F66"
+     ]
     },
     {
      "id": "physics-14-29",
@@ -3477,7 +3634,10 @@
       "Unrelated to the backward momentum of the gun"
      ],
      "answer": 0,
-     "explanation": "During recoil, the forward momentum of the bullet equals the backward momentum of the gun."
+     "explanation": "During recoil, the forward momentum of the bullet equals the backward momentum of the gun.",
+     "facts": [
+      "F67"
+     ]
     },
     {
      "id": "physics-14-30",
@@ -3491,7 +3651,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify vehicle safety design as an application of collision principles and state that high-speed exhaust in jet engines produces a large momentum change."
+     "explanation": "The notes identify vehicle safety design as an application of collision principles and state that high-speed exhaust in jet engines produces a large momentum change.",
+     "facts": [
+      "F68",
+      "F71"
+     ]
     },
     {
      "id": "physics-14-31",
@@ -3505,7 +3669,16 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The SI unit of work is the joule. Other listed units are erg, electronvolt, calorie and kilowatt-hour; 1 J equals 10⁷ ergs and 1 eV equals 1.6 × 10⁻¹⁹ J."
+     "explanation": "The SI unit of work is the joule. Other listed units are erg, electronvolt, calorie and kilowatt-hour; 1 J equals 10⁷ ergs and 1 eV equals 1.6 × 10⁻¹⁹ J.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74",
+      "F75",
+      "F76",
+      "F79",
+      "F80"
+     ]
     },
     {
      "id": "physics-14-32",
@@ -3519,7 +3692,10 @@
       "1 kg m² s⁻²"
      ],
      "answer": 3,
-     "explanation": "One joule equals one kilogram metre squared per second squared: 1 J = 1 kg m² s⁻²."
+     "explanation": "One joule equals one kilogram metre squared per second squared: 1 J = 1 kg m² s⁻².",
+     "facts": [
+      "F78"
+     ]
     },
     {
      "id": "physics-14-33",
@@ -3533,7 +3709,16 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct. Sound, light, electrical, magnetic and nuclear energy are listed as other forms; an LED or bulb converts electrical energy into light; and a nuclear power plant converts nuclear energy into heat and then electrical energy."
+     "explanation": "All three statements are correct. Sound, light, electrical, magnetic and nuclear energy are listed as other forms; an LED or bulb converts electrical energy into light; and a nuclear power plant converts nuclear energy into heat and then electrical energy.",
+     "facts": [
+      "F90",
+      "F91",
+      "F92",
+      "F93",
+      "F94",
+      "F98",
+      "F100"
+     ]
     },
     {
      "id": "physics-14-34",
@@ -3547,7 +3732,12 @@
       "None"
      ],
      "answer": 2,
-     "explanation": "All three listed examples—free fall, a pendulum and a roller coaster—involve conversion of potential energy into kinetic energy."
+     "explanation": "All three listed examples—free fall, a pendulum and a roller coaster—involve conversion of potential energy into kinetic energy.",
+     "facts": [
+      "F101",
+      "F102",
+      "F103"
+     ]
     },
     {
      "id": "physics-14-35",
@@ -3561,7 +3751,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the Reason correctly expresses the transformation aspect of the law of conservation of energy."
+     "explanation": "Both statements are true, and the Reason correctly expresses the transformation aspect of the law of conservation of energy.",
+     "facts": [
+      "F105",
+      "F106"
+     ]
     },
     {
      "id": "physics-14-36",
@@ -3575,7 +3769,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "The notes identify a pendulum, free fall, a spring-mass system and ideal collisions as applications demonstrating mechanical energy conservation."
+     "explanation": "The notes identify a pendulum, free fall, a spring-mass system and ideal collisions as applications demonstrating mechanical energy conservation.",
+     "facts": [
+      "F109",
+      "F110",
+      "F111",
+      "F112"
+     ]
     },
     {
      "id": "physics-14-37",
@@ -3589,7 +3789,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. Power is measured in watt in the SI system, with 1 W = 1 J s⁻¹, while horsepower, kilowatt and megawatt are other units of power."
+     "explanation": "Both statements are correct. Power is measured in watt in the SI system, with 1 W = 1 J s⁻¹, while horsepower, kilowatt and megawatt are other units of power.",
+     "facts": [
+      "F113",
+      "F114",
+      "F115",
+      "F116",
+      "F117"
+     ]
     },
     {
      "id": "physics-14-38",
@@ -3603,7 +3810,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: static friction—self-adjusting; maximum static friction—μₛN; kinetic or sliding friction—μₖN; and rolling friction—opposes rolling."
+     "explanation": "The correct pairs are: static friction—self-adjusting; maximum static friction—μₛN; kinetic or sliding friction—μₖN; and rolling friction—opposes rolling.",
+     "facts": [
+      "F120",
+      "F121",
+      "F123",
+      "F124"
+     ]
     },
     {
      "id": "physics-14-39",
@@ -3617,7 +3830,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Friction is necessary for the forward push in walking or running, provides grip between pen and paper, prevents held objects from slipping, and enables power transmission through belt drives."
+     "explanation": "Friction is necessary for the forward push in walking or running, provides grip between pen and paper, prevents held objects from slipping, and enables power transmission through belt drives.",
+     "facts": [
+      "F127",
+      "F128",
+      "F130",
+      "F132"
+     ]
     },
     {
      "id": "physics-14-40",
@@ -3631,7 +3850,15 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All four statements describe disadvantages of friction: unwanted heat, energy loss, resistance to motion with extra fuel consumption, and roughening of surfaces over time."
+     "explanation": "All four statements describe disadvantages of friction: unwanted heat, energy loss, resistance to motion with extra fuel consumption, and roughening of surfaces over time.",
+     "facts": [
+      "F142",
+      "F143",
+      "F144",
+      "F145",
+      "F146",
+      "F147"
+     ]
     },
     {
      "id": "physics-14-41",
@@ -3885,7 +4112,11 @@
       "Silver"
      ],
      "answer": 3,
-     "explanation": "Silver has the lowest resistivity and is identified as the best conductor."
+     "explanation": "Silver has the lowest resistivity and is identified as the best conductor.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "physics-15-2",
@@ -3899,7 +4130,13 @@
       "Gallium Arsenide is a compound semiconductor."
      ],
      "answer": 1,
-     "explanation": "Cadmium Sulphide is a compound semiconductor, not an elemental semiconductor."
+     "explanation": "Cadmium Sulphide is a compound semiconductor, not an elemental semiconductor.",
+     "facts": [
+      "F24",
+      "F26",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "physics-15-3",
@@ -3913,7 +4150,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Breaking of more covalent bonds creates additional free electrons and holes, thereby increasing conductivity."
+     "explanation": "Both statements are true. Breaking of more covalent bonds creates additional free electrons and holes, thereby increasing conductivity.",
+     "facts": [
+      "F55",
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "physics-15-4",
@@ -3927,7 +4169,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Copper is widely used in wires; aluminium is lightweight and used in power transmission; graphite conducts among non-metals; electrolytes are ionic conductors."
+     "explanation": "Copper is widely used in wires; aluminium is lightweight and used in power transmission; graphite conducts among non-metals; electrolytes are ionic conductors.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "physics-15-5",
@@ -3941,7 +4190,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Doping produces an extrinsic semiconductor, so statement III is incorrect."
+     "explanation": "Statements I and II are correct. Doping produces an extrinsic semiconductor, so statement III is incorrect.",
+     "facts": [
+      "F69",
+      "F70",
+      "F75"
+     ]
     },
     {
      "id": "physics-15-6",
@@ -3955,7 +4209,10 @@
       "14 eV"
      ],
      "answer": 2,
-     "explanation": "Silicon has an approximate band gap of 1.1 eV at room temperature."
+     "explanation": "Silicon has an approximate band gap of 1.1 eV at room temperature.",
+     "facts": [
+      "F36"
+     ]
     },
     {
      "id": "physics-15-7",
@@ -3969,7 +4226,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Electrons are the majority carriers in n-type semiconductors, while holes are the majority carriers in p-type semiconductors."
+     "explanation": "Electrons are the majority carriers in n-type semiconductors, while holes are the majority carriers in p-type semiconductors.",
+     "facts": [
+      "F76",
+      "F87",
+      "F100",
+      "F108"
+     ]
     },
     {
      "id": "physics-15-8",
@@ -3983,7 +4246,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Pentavalent phosphorus contributes an extra electron, which becomes a free electron and produces n-type behaviour."
+     "explanation": "Both statements are true. Pentavalent phosphorus contributes an extra electron, which becomes a free electron and produces n-type behaviour.",
+     "facts": [
+      "F73",
+      "F78",
+      "F80",
+      "F83"
+     ]
     },
     {
      "id": "physics-15-9",
@@ -3997,7 +4266,16 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "A rectifier converts AC to DC; an LED is used for indicators, displays and lighting; a Zener diode regulates voltage; and a photodiode detects light and is used in solar cells."
+     "explanation": "A rectifier converts AC to DC; an LED is used for indicators, displays and lighting; a Zener diode regulates voltage; and a photodiode detects light and is used in solar cells.",
+     "facts": [
+      "F126",
+      "F129",
+      "F130",
+      "F131",
+      "F132",
+      "F133",
+      "F134"
+     ]
     },
     {
      "id": "physics-15-10",
@@ -4011,7 +4289,10 @@
       "Transmitting Resistance"
      ],
      "answer": 1,
-     "explanation": "Transistor is given as the short form of Transfer Resistor."
+     "explanation": "Transistor is given as the short form of Transfer Resistor.",
+     "facts": [
+      "F111"
+     ]
     },
     {
      "id": "physics-15-11",
@@ -4025,7 +4306,13 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. In a p-type semiconductor, electrons are minority carriers, while holes are the majority carriers."
+     "explanation": "Statements I and II are correct. In a p-type semiconductor, electrons are minority carriers, while holes are the majority carriers.",
+     "facts": [
+      "F76",
+      "F99",
+      "F100",
+      "F101"
+     ]
     },
     {
      "id": "physics-15-12",
@@ -4039,7 +4326,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Rubber, glass and air are listed as insulators. Graphite is listed as a conductor among non-metals. Therefore, the count is three."
+     "explanation": "Rubber, glass and air are listed as insulators. Graphite is listed as a conductor among non-metals. Therefore, the count is three.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14",
+      "F16",
+      "F21"
+     ]
     },
     {
      "id": "physics-15-13",
@@ -4053,7 +4347,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Meissner effect describes perfect diamagnetism and magnetic-field expulsion; it does not explain zero electrical resistance."
+     "explanation": "Both statements are true, but the Meissner effect describes perfect diamagnetism and magnetic-field expulsion; it does not explain zero electrical resistance.",
+     "facts": [
+      "F139",
+      "F141",
+      "F142"
+     ]
     },
     {
      "id": "physics-15-14",
@@ -4067,7 +4366,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Copper has excellent conductivity, while aluminium is a good conductor. Gold is an excellent conductor and corrosion resistant; iron and steel are moderate conductors."
+     "explanation": "Copper has excellent conductivity, while aluminium is a good conductor. Gold is an excellent conductor and corrosion resistant; iron and steel are moderate conductors.",
+     "facts": [
+      "F3",
+      "F5",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "physics-15-15",
@@ -4081,7 +4387,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: plastic is an excellent insulator, and dry wood is a good insulator."
+     "explanation": "Both statements are correct: plastic is an excellent insulator, and dry wood is a good insulator.",
+     "facts": [
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "physics-15-16",
@@ -4095,7 +4405,13 @@
       "a-ii, b-iii, c-i"
      ],
      "answer": 1,
-     "explanation": "Mica is used in capacitors and for high-voltage insulation. Ceramic is a high-temperature insulator, while dry paper is used in capacitors."
+     "explanation": "Mica is used in capacitors and for high-voltage insulation. Ceramic is a high-temperature insulator, while dry paper is used in capacitors.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F23"
+     ]
     },
     {
      "id": "physics-15-17",
@@ -4109,7 +4425,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "Silicon is the most widely used elemental semiconductor. Graphite is a special-case semiconductor, selenium is elemental, and lead sulphide is a compound semiconductor."
+     "explanation": "Silicon is the most widely used elemental semiconductor. Graphite is a special-case semiconductor, selenium is elemental, and lead sulphide is a compound semiconductor.",
+     "facts": [
+      "F24",
+      "F25",
+      "F28",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "physics-15-18",
@@ -4123,7 +4446,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct: silicon has atomic number 14, four valence electrons, and a diamond cubic crystal structure."
+     "explanation": "All three statements are correct: silicon has atomic number 14, four valence electrons, and a diamond cubic crystal structure.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "physics-15-19",
@@ -4137,7 +4465,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Silicon’s higher band gap than germanium is identified as the reason for its better temperature stability."
+     "explanation": "Both statements are true. Silicon’s higher band gap than germanium is identified as the reason for its better temperature stability.",
+     "facts": [
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "physics-15-20",
@@ -4151,7 +4483,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Silicon is used in integrated circuits, solar cells, diodes and transistors. Therefore, all four items in List-I correctly pair with the stated use of silicon."
+     "explanation": "Silicon is used in integrated circuits, solar cells, diodes and transistors. Therefore, all four items in List-I correctly pair with the stated use of silicon.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "physics-15-21",
@@ -4165,7 +4503,10 @@
       "Second"
      ],
      "answer": 3,
-     "explanation": "Silicon is the second most abundant element in Earth’s crust."
+     "explanation": "Silicon is the second most abundant element in Earth’s crust.",
+     "facts": [
+      "F43"
+     ]
     },
     {
      "id": "physics-15-22",
@@ -4179,7 +4520,15 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "Germanium has atomic number 32, four valence electrons and an approximately 0.7 eV band gap. Its present use is limited, including special high-frequency and infrared applications."
+     "explanation": "Germanium has atomic number 32, four valence electrons and an approximately 0.7 eV band gap. Its present use is limited, including special high-frequency and infrared applications.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F51",
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "physics-15-23",
@@ -4193,7 +4542,15 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct. With increasing temperature, semiconductor resistivity and resistance decrease, the behaviour is opposite to that of metals, and intrinsic carrier concentration increases exponentially."
+     "explanation": "All four statements are correct. With increasing temperature, semiconductor resistivity and resistance decrease, the behaviour is opposite to that of metals, and intrinsic carrier concentration increases exponentially.",
+     "facts": [
+      "F56",
+      "F57",
+      "F60",
+      "F61",
+      "F62",
+      "F67"
+     ]
     },
     {
      "id": "physics-15-24",
@@ -4207,7 +4564,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. A pure semiconductor has high resistance and behaves as an insulator at 0 K, while doping lowers its resistance compared with an intrinsic semiconductor."
+     "explanation": "Both statements are true. A pure semiconductor has high resistance and behaves as an insulator at 0 K, while doping lowers its resistance compared with an intrinsic semiconductor.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65"
+     ]
     },
     {
      "id": "physics-15-25",
@@ -4221,7 +4583,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the positive temperature coefficient of metals does not explain the negative temperature coefficient of semiconductors. The resistance of a semiconductor falls with a rise in temperature."
+     "explanation": "Both statements are true, but the positive temperature coefficient of metals does not explain the negative temperature coefficient of semiconductors. The resistance of a semiconductor falls with a rise in temperature.",
+     "facts": [
+      "F66",
+      "F68"
+     ]
     },
     {
      "id": "physics-15-26",
@@ -4235,7 +4601,11 @@
       "One impurity atom in 10⁴ to 10⁶ atoms"
      ],
      "answer": 2,
-     "explanation": "The dopant concentration is very small: it can be one impurity atom in 10⁶ to 10⁸ atoms."
+     "explanation": "The dopant concentration is very small: it can be one impurity atom in 10⁶ to 10⁸ atoms.",
+     "facts": [
+      "F71",
+      "F72"
+     ]
     },
     {
      "id": "physics-15-27",
@@ -4249,7 +4619,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Acceptor doping produces p-type semiconductors, while electrons are the majority carriers in n-type semiconductors."
+     "explanation": "Both statements are true. Acceptor doping produces p-type semiconductors, while electrons are the majority carriers in n-type semiconductors.",
+     "facts": [
+      "F74",
+      "F76",
+      "F100"
+     ]
     },
     {
      "id": "physics-15-28",
@@ -4263,7 +4638,14 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "Pentavalent dopants belong to Group 15; arsenic and antimony are n-type dopants; and the extra electron becomes free and makes the dopant a donor."
+     "explanation": "Pentavalent dopants belong to Group 15; arsenic and antimony are n-type dopants; and the extra electron becomes free and makes the dopant a donor.",
+     "facts": [
+      "F79",
+      "F81",
+      "F82",
+      "F83",
+      "F84"
+     ]
     },
     {
      "id": "physics-15-29",
@@ -4277,7 +4659,13 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "In an n-type semiconductor, holes are minority carriers. The material remains electrically neutral because positive ions balance the extra electrons."
+     "explanation": "In an n-type semiconductor, holes are minority carriers. The material remains electrically neutral because positive ions balance the extra electrons.",
+     "facts": [
+      "F77",
+      "F85",
+      "F86",
+      "F109"
+     ]
     },
     {
      "id": "physics-15-30",
@@ -4291,7 +4679,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "A p-type dopant is trivalent, and trivalent dopants belong to Group 13."
+     "explanation": "A p-type dopant is trivalent, and trivalent dopants belong to Group 13.",
+     "facts": [
+      "F89",
+      "F90"
+     ]
     },
     {
      "id": "physics-15-31",
@@ -4305,7 +4697,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The deficiency caused by a p-type dopant creates a hole, and the p-type dopant is called an acceptor. Its acceptor nature accounts for the deficiency and resulting hole."
+     "explanation": "The deficiency caused by a p-type dopant creates a hole, and the p-type dopant is called an acceptor. Its acceptor nature accounts for the deficiency and resulting hole.",
+     "facts": [
+      "F95",
+      "F96"
+     ]
     },
     {
      "id": "physics-15-32",
@@ -4319,7 +4715,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "A p-type semiconductor remains electrically neutral because the holes are balanced by negative ions."
+     "explanation": "A p-type semiconductor remains electrically neutral because the holes are balanced by negative ions.",
+     "facts": [
+      "F97",
+      "F98"
+     ]
     },
     {
      "id": "physics-15-33",
@@ -4333,7 +4733,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "Free electrons in the conduction band enable conduction. Electrons have negative charge and provide the main conduction in an n-type semiconductor."
+     "explanation": "Free electrons in the conduction band enable conduction. Electrons have negative charge and provide the main conduction in an n-type semiconductor.",
+     "facts": [
+      "F102",
+      "F103",
+      "F104"
+     ]
     },
     {
      "id": "physics-15-34",
@@ -4347,7 +4752,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "A hole represents a vacancy of an electron in a covalent bond and behaves as a positive charge carrier."
+     "explanation": "A hole represents a vacancy of an electron in a covalent bond and behaves as a positive charge carrier.",
+     "facts": [
+      "F105",
+      "F106"
+     ]
     },
     {
      "id": "physics-15-35",
@@ -4361,7 +4770,11 @@
       "The number of holes equals the number of electrons."
      ],
      "answer": 3,
-     "explanation": "In an intrinsic semiconductor, the number of holes equals the number of electrons."
+     "explanation": "In an intrinsic semiconductor, the number of holes equals the number of electrons.",
+     "facts": [
+      "F99",
+      "F107"
+     ]
     },
     {
      "id": "physics-15-36",
@@ -4375,7 +4788,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. In an n-type semiconductor, holes are minority carriers, while their apparent movement is opposite to that of electrons; the movement direction does not explain their minority status."
+     "explanation": "Both statements are true. In an n-type semiconductor, holes are minority carriers, while their apparent movement is opposite to that of electrons; the movement direction does not explain their minority status.",
+     "facts": [
+      "F77",
+      "F109",
+      "F110"
+     ]
     },
     {
      "id": "physics-15-37",
@@ -4389,7 +4807,17 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "All four statements correctly describe the transistor principle, types, regional doping, junction biasing and current-control action."
+     "explanation": "All four statements correctly describe the transistor principle, types, regional doping, junction biasing and current-control action.",
+     "facts": [
+      "F112",
+      "F113",
+      "F114",
+      "F115",
+      "F116",
+      "F117",
+      "F118",
+      "F119"
+     ]
     },
     {
      "id": "physics-15-38",
@@ -4403,7 +4831,15 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. These correspond respectively to amplification, digital switching, oscillation and the listed electronic-device applications of transistors."
+     "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. These correspond respectively to amplification, digital switching, oscillation and the listed electronic-device applications of transistors.",
+     "facts": [
+      "F120",
+      "F121",
+      "F122",
+      "F123",
+      "F124",
+      "F125"
+     ]
     },
     {
      "id": "physics-15-39",
@@ -4417,7 +4853,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Rectifiers are classified as half-wave or full-wave, and a solar cell converts light to electricity."
+     "explanation": "Both statements are true. Rectifiers are classified as half-wave or full-wave, and a solar cell converts light to electricity.",
+     "facts": [
+      "F127",
+      "F135"
+     ]
     },
     {
      "id": "physics-15-40",
@@ -4431,7 +4871,12 @@
       "a-i, b-ii, c-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are a-iii, b-ii and c-i. A diode can provide fast switching, clipping and clamping are used for wave shaping, and a varactor provides voltage-controlled capacitance."
+     "explanation": "The correct pairs are a-iii, b-ii and c-i. A diode can provide fast switching, clipping and clamping are used for wave shaping, and a varactor provides voltage-controlled capacitance.",
+     "facts": [
+      "F136",
+      "F137",
+      "F138"
+     ]
     },
     {
      "id": "physics-15-41",
@@ -4445,7 +4890,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. Perfect diamagnetism, critical temperature, critical magnetic field and critical current density describe the listed properties and limits of superconductors."
+     "explanation": "All four statements are correct. Perfect diamagnetism, critical temperature, critical magnetic field and critical current density describe the listed properties and limits of superconductors.",
+     "facts": [
+      "F140",
+      "F142",
+      "F143",
+      "F144"
+     ]
     },
     {
      "id": "physics-15-42",
@@ -4459,7 +4910,10 @@
       "High-Tc cuprates"
      ],
      "answer": 0,
-     "explanation": "Mercury is an example of a superconductor with a critical temperature of 4.2 K."
+     "explanation": "Mercury is an example of a superconductor with a critical temperature of 4.2 K.",
+     "facts": [
+      "F145"
+     ]
     },
     {
      "id": "physics-15-43",
@@ -4473,7 +4927,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: niobium alloys and high-Tc cuprates are listed as examples of superconductors."
+     "explanation": "Both statements are correct: niobium alloys and high-Tc cuprates are listed as examples of superconductors.",
+     "facts": [
+      "F146",
+      "F147"
+     ]
     },
     {
      "id": "physics-15-44",
@@ -4487,7 +4945,10 @@
       "A high-Tc cuprate superconductor"
      ],
      "answer": 3,
-     "explanation": "YBCO is identified as a high-Tc cuprate superconductor."
+     "explanation": "YBCO is identified as a high-Tc cuprate superconductor.",
+     "facts": [
+      "F148"
+     ]
     },
     {
      "id": "physics-15-45",
@@ -4501,7 +4962,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are listed applications of superconductors: MRI magnets, Maglev trains, future lossless power transmission and SQUIDs."
+     "explanation": "All four are listed applications of superconductors: MRI magnets, Maglev trains, future lossless power transmission and SQUIDs.",
+     "facts": [
+      "F149",
+      "F150",
+      "F151",
+      "F152"
+     ]
     },
     {
      "id": "physics-15-46",
@@ -4515,7 +4982,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Germanium has a smaller band gap than silicon, and its greater temperature sensitivity is associated with this semiconductor property."
+     "explanation": "Both statements are true. Germanium has a smaller band gap than silicon, and its greater temperature sensitivity is associated with this semiconductor property.",
+     "facts": [
+      "F54",
+      "F47"
+     ]
     },
     {
      "id": "physics-15-47",
@@ -4529,7 +5000,10 @@
       "It first increases and then becomes constant"
      ],
      "answer": 0,
-     "explanation": "The resistance of a pure semiconductor decreases as temperature increases."
+     "explanation": "The resistance of a pure semiconductor decreases as temperature increases.",
+     "facts": [
+      "F62"
+     ]
     },
     {
      "id": "physics-15-48",
@@ -4543,7 +5017,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "In a p-type semiconductor, holes are the majority carriers and electrons are the minority carriers."
+     "explanation": "In a p-type semiconductor, holes are the majority carriers and electrons are the minority carriers.",
+     "facts": [
+      "F108",
+      "F101"
+     ]
     },
     {
      "id": "physics-15-49",
@@ -4557,7 +5035,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "Boron, aluminium, gallium and indium are all listed as trivalent p-type dopants. Therefore, all four are p-type dopants."
+     "explanation": "Boron, aluminium, gallium and indium are all listed as trivalent p-type dopants. Therefore, all four are p-type dopants.",
+     "facts": [
+      "F91",
+      "F92",
+      "F93",
+      "F94"
+     ]
     },
     {
      "id": "physics-15-50",
@@ -4571,7 +5055,16 @@
       "a-i, b-ii"
      ],
      "answer": 3,
-     "explanation": "Germanium has higher leakage current at high temperature. The first transistors and diodes used germanium; hence, a-i and b-ii are correctly matched."
+     "explanation": "Germanium has higher leakage current at high temperature. The first transistors and diodes used germanium; hence, a-i and b-ii are correctly matched.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
     }
    ]
   },
@@ -5290,7 +5783,10 @@
       "Gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves, radio waves"
      ],
      "answer": 3,
-     "explanation": "The increasing-wavelength order is gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves and radio waves."
+     "explanation": "The increasing-wavelength order is gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves and radio waves.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "physics-17-2",
@@ -5304,7 +5800,10 @@
       "X-rays"
      ],
      "answer": 0,
-     "explanation": "Gamma rays have the highest frequency, greater than 3 × 10¹⁹ Hz."
+     "explanation": "Gamma rays have the highest frequency, greater than 3 × 10¹⁹ Hz.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "physics-17-3",
@@ -5318,7 +5817,10 @@
       "400 nm–700 nm"
      ],
      "answer": 3,
-     "explanation": "Visible light has an approximate wavelength range of 400 nm to 700 nm."
+     "explanation": "Visible light has an approximate wavelength range of 400 nm to 700 nm.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "physics-17-4",
@@ -5332,7 +5834,10 @@
       "Infrared"
      ],
      "answer": 1,
-     "explanation": "Microwave ovens use microwaves to heat food through water molecule resonance."
+     "explanation": "Microwave ovens use microwaves to heat food through water molecule resonance.",
+     "facts": [
+      "F29"
+     ]
     },
     {
      "id": "physics-17-5",
@@ -5346,7 +5851,14 @@
       "Radio telescopes are used in astronomy."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘highest frequency’. Radio waves have the lowest frequency, less than 3 × 10⁸ Hz."
+     "explanation": "The incorrect detail is ‘highest frequency’. Radio waves have the lowest frequency, less than 3 × 10⁸ Hz.",
+     "facts": [
+      "F23",
+      "F26",
+      "F15",
+      "F28",
+      "F73"
+     ]
     },
     {
      "id": "physics-17-6",
@@ -5360,7 +5872,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since E = hν, the highest frequency of gamma rays corresponds to the highest energy."
+     "explanation": "Both statements are true. Since E = hν, the highest frequency of gamma rays corresponds to the highest energy.",
+     "facts": [
+      "F16",
+      "F72",
+      "F76"
+     ]
     },
     {
      "id": "physics-17-7",
@@ -5374,7 +5891,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because X-rays are used in radiography and CT scans. The reason is false; infrared is used for studying cool stars and interstellar dust."
+     "explanation": "The assertion is true because X-rays are used in radiography and CT scans. The reason is false; infrared is used for studying cool stars and interstellar dust.",
+     "facts": [
+      "F77",
+      "F40"
+     ]
     },
     {
      "id": "physics-17-8",
@@ -5388,7 +5909,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are X-rays–radiography and CT scan, gamma rays–radiotherapy and PET scan, infrared–physiotherapy and thermal imaging, and microwaves–diathermy."
+     "explanation": "The correct pairs are X-rays–radiography and CT scan, gamma rays–radiotherapy and PET scan, infrared–physiotherapy and thermal imaging, and microwaves–diathermy.",
+     "facts": [
+      "F77",
+      "F78",
+      "F80",
+      "F82"
+     ]
     },
     {
      "id": "physics-17-9",
@@ -5402,7 +5929,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Radio waves are used for communication and radar; microwaves for radar and jamming; infrared for night vision and heat-seeking missiles; and gamma rays for detecting nuclear materials."
+     "explanation": "Radio waves are used for communication and radar; microwaves for radar and jamming; infrared for night vision and heat-seeking missiles; and gamma rays for detecting nuclear materials.",
+     "facts": [
+      "F89",
+      "F90",
+      "F91",
+      "F93",
+      "F36"
+     ]
     },
     {
      "id": "physics-17-10",
@@ -5416,7 +5950,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Ultraviolet, X-ray and gamma radiation are not used for normal communication."
+     "explanation": "Statements I and II are correct. Ultraviolet, X-ray and gamma radiation are not used for normal communication.",
+     "facts": [
+      "F84",
+      "F85",
+      "F88"
+     ]
     },
     {
      "id": "physics-17-11",
@@ -5430,7 +5969,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Infrared has the listed applications involving cool stars, dust and exoplanets, while gamma rays are used to study gamma-ray bursts, supernovae and active galaxies."
+     "explanation": "Both statements are true. Infrared has the listed applications involving cool stars, dust and exoplanets, while gamma rays are used to study gamma-ray bursts, supernovae and active galaxies.",
+     "facts": [
+      "F97",
+      "F101"
+     ]
     },
     {
      "id": "physics-17-12",
@@ -5444,7 +5987,10 @@
       "B, A, D, C"
      ],
      "answer": 1,
-     "explanation": "In increasing wavelength, the relevant sequence is gamma rays, visible light, infrared and radio waves."
+     "explanation": "In increasing wavelength, the relevant sequence is gamma rays, visible light, infrared and radio waves.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "physics-17-13",
@@ -5458,7 +6004,12 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Night vision, heat-seeking missiles and surveillance are infrared defence applications. Baggage and cargo scanning is listed as an X-ray application."
+     "explanation": "Night vision, heat-seeking missiles and surveillance are infrared defence applications. Baggage and cargo scanning is listed as an X-ray application.",
+     "facts": [
+      "F91",
+      "F92",
+      "F36"
+     ]
     },
     {
      "id": "physics-17-14",
@@ -5472,7 +6023,15 @@
       "a-ii, b-iv, c-v, d-i, e-vi, f-iii"
      ],
      "answer": 0,
-     "explanation": "Gamma rays have wavelengths below 0.01 nm; X-rays range from 0.01 nm to 10 nm; ultraviolet radiation from 10 nm to 400 nm; infrared radiation from 700 nm to 1 mm; microwaves from 1 mm to 1 m; and radio waves above 1 m."
+     "explanation": "Gamma rays have wavelengths below 0.01 nm; X-rays range from 0.01 nm to 10 nm; ultraviolet radiation from 10 nm to 400 nm; infrared radiation from 700 nm to 1 mm; microwaves from 1 mm to 1 m; and radio waves above 1 m.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "physics-17-15",
@@ -5486,7 +6045,16 @@
       "III, IV and V only"
      ],
      "answer": 1,
-     "explanation": "All six statements correctly state the approximate frequency ranges given for X-rays, ultraviolet, visible light, infrared, microwaves and radio waves."
+     "explanation": "All six statements correctly state the approximate frequency ranges given for X-rays, ultraviolet, visible light, infrared, microwaves and radio waves.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F73"
+     ]
     },
     {
      "id": "physics-17-16",
@@ -5500,7 +6068,15 @@
       "a-v, b-ii, c-iv, d-vi, e-iii, f-i"
      ],
      "answer": 3,
-     "explanation": "X-rays have very high relative energy, ultraviolet radiation has high energy, visible light has medium energy, infrared has low energy, microwaves have lower energy, and radio waves have the lowest energy."
+     "explanation": "X-rays have very high relative energy, ultraviolet radiation has high energy, visible light has medium energy, infrared has low energy, microwaves have lower energy, and radio waves have the lowest energy.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "physics-17-17",
@@ -5514,7 +6090,12 @@
       "None"
      ],
      "answer": 2,
-     "explanation": "Cellular networks, radar detection and ranging, and Wi-Fi and Bluetooth for short-range wireless communication are all listed as applications of radio waves."
+     "explanation": "Cellular networks, radar detection and ranging, and Wi-Fi and Bluetooth for short-range wireless communication are all listed as applications of radio waves.",
+     "facts": [
+      "F24",
+      "F25",
+      "F27"
+     ]
     },
     {
      "id": "physics-17-18",
@@ -5528,7 +6109,10 @@
       "Speed guns, weather radar and aircraft detection"
      ],
      "answer": 3,
-     "explanation": "Speed guns, weather radar and aircraft detection are applications of microwave radar."
+     "explanation": "Speed guns, weather radar and aircraft detection are applications of microwave radar.",
+     "facts": [
+      "F30"
+     ]
     },
     {
      "id": "physics-17-19",
@@ -5542,7 +6126,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly describe the use of uplinks and downlinks in microwave satellite communication."
+     "explanation": "Both statements correctly describe the use of uplinks and downlinks in microwave satellite communication.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "physics-17-20",
@@ -5556,7 +6143,10 @@
       "Infrared radiation"
      ],
      "answer": 0,
-     "explanation": "Wi-Fi provides wireless internet using microwaves."
+     "explanation": "Wi-Fi provides wireless internet using microwaves.",
+     "facts": [
+      "F33"
+     ]
     },
     {
      "id": "physics-17-21",
@@ -5570,7 +6160,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "Microwave links provide point-to-point communication. Infrared radiation is used in TV/AC remotes, thermal-imaging cameras for night vision, and infrared heaters and physiotherapy for heating."
+     "explanation": "Microwave links provide point-to-point communication. Infrared radiation is used in TV/AC remotes, thermal-imaging cameras for night vision, and infrared heaters and physiotherapy for heating.",
+     "facts": [
+      "F34",
+      "F35",
+      "F37",
+      "F38",
+      "F36"
+     ]
     },
     {
      "id": "physics-17-22",
@@ -5584,7 +6181,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Infrared radiation is used for cloud and temperature mapping in weather forecasting and for security applications involving motion sensors and night cameras."
+     "explanation": "Infrared radiation is used for cloud and temperature mapping in weather forecasting and for security applications involving motion sensors and night cameras.",
+     "facts": [
+      "F39",
+      "F41",
+      "F36"
+     ]
     },
     {
      "id": "physics-17-23",
@@ -5598,7 +6200,10 @@
       "Some infrared wavelengths are used in fibre optics"
      ],
      "answer": 3,
-     "explanation": "Some infrared wavelengths are used in fibre optics."
+     "explanation": "Some infrared wavelengths are used in fibre optics.",
+     "facts": [
+      "F42"
+     ]
     },
     {
      "id": "physics-17-24",
@@ -5612,7 +6217,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Human vision uses visible light to see the world; cameras and smartphones use it for photography; some visible wavelengths are used in optical fibres; and lasers are used for pointers, surgery and industry."
+     "explanation": "Human vision uses visible light to see the world; cameras and smartphones use it for photography; some visible wavelengths are used in optical fibres; and lasers are used for pointers, surgery and industry.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45",
+      "F46"
+     ]
     },
     {
      "id": "physics-17-25",
@@ -5626,7 +6237,12 @@
       "None"
      ],
      "answer": 2,
-     "explanation": "All three are applications of visible light: LEDs and bulbs provide illumination, spectroscopy analyses materials, and monitors and televisions use visible light in display screens."
+     "explanation": "All three are applications of visible light: LEDs and bulbs provide illumination, spectroscopy analyses materials, and monitors and televisions use visible light in display screens.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49"
+     ]
     },
     {
      "id": "physics-17-26",
@@ -5640,7 +6256,14 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "Each of the five statements is correct: ultraviolet radiation is used in sterilization, water purification, forgery detection, Vitamin D synthesis and fluorescence-based security or forensic applications."
+     "explanation": "Each of the five statements is correct: ultraviolet radiation is used in sterilization, water purification, forgery detection, Vitamin D synthesis and fluorescence-based security or forensic applications.",
+     "facts": [
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F54"
+     ]
     },
     {
      "id": "physics-17-27",
@@ -5654,7 +6277,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Ultraviolet astronomy studies hot stars, while sunburn and skin cancer are harmful effects of ultraviolet radiation; the latter does not explain the astronomical application."
+     "explanation": "Both statements are true. Ultraviolet astronomy studies hot stars, while sunburn and skin cancer are harmful effects of ultraviolet radiation; the latter does not explain the astronomical application.",
+     "facts": [
+      "F55",
+      "F57"
+     ]
     },
     {
      "id": "physics-17-28",
@@ -5668,7 +6295,10 @@
       "Visible light"
      ],
      "answer": 0,
-     "explanation": "Photolithography uses ultraviolet radiation in semiconductor manufacturing."
+     "explanation": "Photolithography uses ultraviolet radiation in semiconductor manufacturing.",
+     "facts": [
+      "F56"
+     ]
     },
     {
      "id": "physics-17-29",
@@ -5682,7 +6312,12 @@
       "a-iii, b-ii, c-i"
      ],
      "answer": 0,
-     "explanation": "X-ray radiographs image bones and the chest, CT scans provide detailed body imaging, and X-rays are used for baggage scanning at airports and in security."
+     "explanation": "X-ray radiographs image bones and the chest, CT scans provide detailed body imaging, and X-rays are used for baggage scanning at airports and in security.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60"
+     ]
     },
     {
      "id": "physics-17-30",
@@ -5696,7 +6331,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "X-ray crystallography determines the structure of crystals and DNA; industrial X-rays detect cracks in metals; X-ray astronomy studies hot gases and black holes; and high-energy X-rays are used in cancer radiation therapy."
+     "explanation": "X-ray crystallography determines the structure of crystals and DNA; industrial X-rays detect cracks in metals; X-ray astronomy studies hot gases and black holes; and high-energy X-rays are used in cancer radiation therapy.",
+     "facts": [
+      "F61",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "physics-17-31",
@@ -5710,7 +6351,13 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct applications of gamma rays: cancer treatment, sterilization, diagnostic imaging, and industrial thickness gauging or weld inspection."
+     "explanation": "All four statements are correct applications of gamma rays: cancer treatment, sterilization, diagnostic imaging, and industrial thickness gauging or weld inspection.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67",
+      "F68"
+     ]
     },
     {
      "id": "physics-17-32",
@@ -5724,7 +6371,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "Gamma-ray astronomy studies gamma-ray bursts and neutron stars. Gamma rays are also involved in radioactive tracers used in nuclear medicine and in detecting nuclear materials for security."
+     "explanation": "Gamma-ray astronomy studies gamma-ray bursts and neutron stars. Gamma rays are also involved in radioactive tracers used in nuclear medicine and in detecting nuclear materials for security.",
+     "facts": [
+      "F69",
+      "F70",
+      "F71"
+     ]
     },
     {
      "id": "physics-17-33",
@@ -5738,7 +6390,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: gamma rays have wavelengths less than 0.01 nm, while radio waves have wavelengths greater than 1 m. The wavelength of radio waves does not explain why gamma rays have the shortest wavelength."
+     "explanation": "Both statements are true: gamma rays have wavelengths less than 0.01 nm, while radio waves have wavelengths greater than 1 m. The wavelength of radio waves does not explain why gamma rays have the shortest wavelength.",
+     "facts": [
+      "F74",
+      "F75"
+     ]
     },
     {
      "id": "physics-17-34",
@@ -5752,7 +6408,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Ultraviolet radiation has the listed sterilization, vitamin D, and skin-disease applications. Visible light is used in laser surgery, endoscopy, and illumination."
+     "explanation": "Ultraviolet radiation has the listed sterilization, vitamin D, and skin-disease applications. Visible light is used in laser surgery, endoscopy, and illumination.",
+     "facts": [
+      "F79",
+      "F81"
+     ]
     },
     {
      "id": "physics-17-35",
@@ -5766,7 +6426,12 @@
       "a-ii, b-i, c-iii"
      ],
      "answer": 1,
-     "explanation": "MRI uses radio-frequency pulses. Infrared radiation is used in remote controls and short-range data communication, while visible light is used in experimental Li-Fi and some optical fibres."
+     "explanation": "MRI uses radio-frequency pulses. Infrared radiation is used in remote controls and short-range data communication, while visible light is used in experimental Li-Fi and some optical fibres.",
+     "facts": [
+      "F83",
+      "F86",
+      "F87"
+     ]
     },
     {
      "id": "physics-17-36",
@@ -5780,7 +6445,10 @@
       "Cloud mapping, temperature mapping, and weather forecasting"
      ],
      "answer": 2,
-     "explanation": "Visible and infrared lasers are used for range finding, targeting, and directed energy."
+     "explanation": "Visible and infrared lasers are used for range finding, targeting, and directed energy.",
+     "facts": [
+      "F94"
+     ]
     },
     {
      "id": "physics-17-37",
@@ -5794,7 +6462,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "Radio telescopes study pulsars and the cosmic microwave background; microwaves are used for Cosmic Microwave Background studies; optical telescopes study stars, galaxies and planets; and ultraviolet astronomy studies hot young stars and the interstellar medium."
+     "explanation": "Radio telescopes study pulsars and the cosmic microwave background; microwaves are used for Cosmic Microwave Background studies; optical telescopes study stars, galaxies and planets; and ultraviolet astronomy studies hot young stars and the interstellar medium.",
+     "facts": [
+      "F95",
+      "F96",
+      "F98",
+      "F99"
+     ]
     },
     {
      "id": "physics-17-38",
@@ -5808,7 +6482,13 @@
       "Cool stars, interstellar dust, and exoplanets"
      ],
      "answer": 2,
-     "explanation": "X-ray astronomy studies black holes, neutron stars, and hot gas in clusters."
+     "explanation": "X-ray astronomy studies black holes, neutron stars, and hot gas in clusters.",
+     "facts": [
+      "F100",
+      "F98",
+      "F101",
+      "F97"
+     ]
     },
     {
      "id": "physics-17-39",
@@ -5822,7 +6502,10 @@
       "Visible wavelengths used in optical fibres"
      ],
      "answer": 2,
-     "explanation": "The microwave applications include mobile networks using 4G and 5G frequencies."
+     "explanation": "The microwave applications include mobile networks using 4G and 5G frequencies.",
+     "facts": [
+      "F32"
+     ]
     },
     {
      "id": "physics-17-40",
@@ -5836,9 +6519,20 @@
       "Study of hot young stars and interstellar medium"
      ],
      "answer": 1,
-     "explanation": "Infrared astronomy is used to study cool stars and interstellar dust. The other options correspond to ultraviolet, X-ray and gamma-ray astronomy respectively."
+     "explanation": "Infrared astronomy is used to study cool stars and interstellar dust. The other options correspond to ultraviolet, X-ray and gamma-ray astronomy respectively.",
+     "facts": [
+      "F100",
+      "F97",
+      "F101",
+      "F99"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 101,
+    "covered": 101,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -7110,7 +7804,13 @@
       "A stationary wave that cannot travel through liquids"
      ],
      "answer": 2,
-     "explanation": "Sound is a mechanical, longitudinal wave and requires a material medium such as a solid, liquid or gas. It cannot travel through vacuum."
+     "explanation": "Sound is a mechanical, longitudinal wave and requires a material medium such as a solid, liquid or gas. It cannot travel through vacuum.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "physics-19-2",
@@ -7124,7 +7824,13 @@
       "Sound travels through water at approximately 1480–1500 m/s."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the speed in glass. Sound travels through glass at approximately 5000–6000 m/s, not 340–343 m/s."
+     "explanation": "The incorrect detail is the speed in glass. Sound travels through glass at approximately 5000–6000 m/s, not 340–343 m/s.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "physics-19-3",
@@ -7138,7 +7844,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Frequency determines pitch, and pitch is the brain's sensation of frequency; therefore, the reason explains the assertion."
+     "explanation": "Both statements are true. Frequency determines pitch, and pitch is the brain's sensation of frequency; therefore, the reason explains the assertion.",
+     "facts": [
+      "F34",
+      "F40"
+     ]
     },
     {
      "id": "physics-19-4",
@@ -7152,7 +7862,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Amplitude determines loudness or intensity. It does not affect the speed, frequency or pitch of sound."
+     "explanation": "Amplitude determines loudness or intensity. It does not affect the speed, frequency or pitch of sound.",
+     "facts": [
+      "F26",
+      "F27",
+      "F30",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "physics-19-5",
@@ -7166,7 +7883,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and III are correct. Infrasonic sound is below 20 Hz, whereas sound above 20 kHz is ultrasonic."
+     "explanation": "Statements I and III are correct. Infrasonic sound is below 20 Hz, whereas sound above 20 kHz is ultrasonic.",
+     "facts": [
+      "F20",
+      "F71",
+      "F75"
+     ]
     },
     {
      "id": "physics-19-6",
@@ -7180,7 +7902,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "Guitar uses vibrating strings, flute uses a vibrating air column, tabla uses a stretched membrane, and cymbals use vibrating plates or solids."
+     "explanation": "Guitar uses vibrating strings, flute uses a vibrating air column, tabla uses a stretched membrane, and cymbals use vibrating plates or solids.",
+     "facts": [
+      "F135",
+      "F138",
+      "F141",
+      "F143"
+     ]
     },
     {
      "id": "physics-19-7",
@@ -7194,7 +7922,10 @@
       "1.7 m"
      ],
      "answer": 2,
-     "explanation": "For a 20 Hz sound in air at 340 m/s, the wavelength is 17 m. The 20 kHz sound has a wavelength of 1.7 cm."
+     "explanation": "For a 20 Hz sound in air at 340 m/s, the wavelength is 17 m. The 20 kHz sound has a wavelength of 1.7 cm.",
+     "facts": [
+      "F23"
+     ]
     },
     {
      "id": "physics-19-8",
@@ -7208,7 +7939,13 @@
       "Amplitude is the maximum displacement of particles from their mean position."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the definition. The distance between two successive compressions is wavelength, whereas amplitude is the maximum displacement from the mean position."
+     "explanation": "The incorrect detail is the definition. The distance between two successive compressions is wavelength, whereas amplitude is the maximum displacement from the mean position.",
+     "facts": [
+      "F21",
+      "F25",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "physics-19-9",
@@ -7222,7 +7959,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The stated increase of approximately 0.61 m/s per °C directly describes why the speed rises with temperature."
+     "explanation": "Both statements are true. The stated increase of approximately 0.61 m/s per °C directly describes why the speed rises with temperature.",
+     "facts": [
+      "F56",
+      "F57"
+     ]
     },
     {
      "id": "physics-19-10",
@@ -7236,7 +7977,14 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "Medical imaging uses sonography, industrial testing detects cracks or flaws in metals, SONAR performs underwater detection, and ultrasonic cleaning is used for delicate parts or jewellery."
+     "explanation": "Medical imaging uses sonography, industrial testing detects cracks or flaws in metals, SONAR performs underwater detection, and ultrasonic cleaning is used for delicate parts or jewellery.",
+     "facts": [
+      "F76",
+      "F77",
+      "F80",
+      "F81",
+      "F82"
+     ]
     },
     {
      "id": "physics-19-11",
@@ -7250,7 +7998,11 @@
       "Interference of electromagnetic waves"
      ],
      "answer": 0,
-     "explanation": "SONAR stands for Sound Navigation And Ranging. It sends ultrasonic pulses, receives their reflections from an object and measures the time interval."
+     "explanation": "SONAR stands for Sound Navigation And Ranging. It sends ultrasonic pulses, receives their reflections from an object and measures the time interval.",
+     "facts": [
+      "F98",
+      "F101"
+     ]
     },
     {
      "id": "physics-19-12",
@@ -7264,7 +8016,14 @@
       "SONAR uses infrasound for underwater detection."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the wave type used by SONAR. SONAR uses ultrasound, not infrasound, for underwater detection."
+     "explanation": "The incorrect detail is the wave type used by SONAR. SONAR uses ultrasound, not infrasound, for underwater detection.",
+     "facts": [
+      "F82",
+      "F86",
+      "F87",
+      "F88",
+      "F91"
+     ]
     },
     {
      "id": "physics-19-13",
@@ -7278,7 +8037,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The relative motion in the Doppler effect causes the approaching source to be heard at a higher apparent frequency and pitch."
+     "explanation": "Both statements are true. The relative motion in the Doppler effect causes the approaching source to be heard at a higher apparent frequency and pitch.",
+     "facts": [
+      "F125",
+      "F126",
+      "F127"
+     ]
     },
     {
      "id": "physics-19-14",
@@ -7292,7 +8056,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Tabla uses a stretched membrane, while cymbals use vibrating plates or solids; therefore, two descriptions are correct."
+     "explanation": "Statements I and II are correct. Tabla uses a stretched membrane, while cymbals use vibrating plates or solids; therefore, two descriptions are correct.",
+     "facts": [
+      "F135",
+      "F138",
+      "F141",
+      "F143"
+     ]
     },
     {
      "id": "physics-19-15",
@@ -7306,7 +8076,11 @@
       "172 m"
      ],
      "answer": 0,
-     "explanation": "The minimum distance for an echo to be heard by the human ear is approximately 17.2 m, based on the persistence of hearing of 0.1 second."
+     "explanation": "The minimum distance for an echo to be heard by the human ear is approximately 17.2 m, based on the persistence of hearing of 0.1 second.",
+     "facts": [
+      "F123",
+      "F124"
+     ]
     },
     {
      "id": "physics-19-16",
@@ -7320,7 +8094,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Sound propagates through compressions and rarefactions. In a vacuum its speed is zero, and sound cannot travel through a vacuum."
+     "explanation": "Sound propagates through compressions and rarefactions. In a vacuum its speed is zero, and sound cannot travel through a vacuum.",
+     "facts": [
+      "F3",
+      "F6",
+      "F14"
+     ]
     },
     {
      "id": "physics-19-17",
@@ -7334,7 +8113,10 @@
       "Liquid > Solid > Gas"
      ],
      "answer": 1,
-     "explanation": "The general speed order of sound is solid > liquid > gas."
+     "explanation": "The general speed order of sound is solid > liquid > gas.",
+     "facts": [
+      "F67"
+     ]
     },
     {
      "id": "physics-19-18",
@@ -7348,7 +8130,13 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "Frequency represents the number of vibrations or compressions per second, is measured in hertz, and determines the pitch of sound."
+     "explanation": "Frequency represents the number of vibrations or compressions per second, is measured in hertz, and determines the pitch of sound.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "physics-19-19",
@@ -7362,7 +8150,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The 20 kHz example illustrates the wavelength value, but it does not itself explain the general inverse relation between frequency and wavelength."
+     "explanation": "Both statements are true. The 20 kHz example illustrates the wavelength value, but it does not itself explain the general inverse relation between frequency and wavelength.",
+     "facts": [
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "physics-19-20",
@@ -7376,7 +8168,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "Low frequency produces a bass or deep sound, with the male voice as an example. High frequency produces a shrill sound, with a whistle as an example."
+     "explanation": "Low frequency produces a bass or deep sound, with the male voice as an example. High frequency produces a shrill sound, with a whistle as an example.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F39"
+     ]
     },
     {
      "id": "physics-19-21",
@@ -7390,7 +8188,10 @@
       "Pitch is inversely proportional to frequency"
      ],
      "answer": 0,
-     "explanation": "Pitch is directly proportional to frequency."
+     "explanation": "Pitch is directly proportional to frequency.",
+     "facts": [
+      "F33"
+     ]
     },
     {
      "id": "physics-19-22",
@@ -7404,7 +8205,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Pitch does not depend on amplitude or loudness, while loudness is directly related to amplitude."
+     "explanation": "Pitch does not depend on amplitude or loudness, while loudness is directly related to amplitude.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "physics-19-23",
@@ -7418,7 +8224,12 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Quality or timbre distinguishes sounds having the same pitch and loudness. It depends on the waveform and the overtones present."
+     "explanation": "Quality or timbre distinguishes sounds having the same pitch and loudness. It depends on the waveform and the overtones present.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "physics-19-24",
@@ -7432,7 +8243,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "Quality or timbre depends on the harmonics present and is determined by the shape of the periodic waveform. The same note on a flute, violin and piano can sound different, while more overtones produce richer quality."
+     "explanation": "Quality or timbre depends on the harmonics present and is determined by the shape of the periodic waveform. The same note on a flute, violin and piano can sound different, while more overtones produce richer quality.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F55"
+     ]
     },
     {
      "id": "physics-19-25",
@@ -7446,7 +8263,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The speed of sound is approximately 331 m/s at 0°C and approximately 343 m/s at 20°C."
+     "explanation": "The speed of sound is approximately 331 m/s at 0°C and approximately 343 m/s at 20°C.",
+     "facts": [
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "physics-19-26",
@@ -7460,7 +8281,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Sound travels fastest through solids because their high elasticity or bulk modulus and closely packed molecules favour faster propagation."
+     "explanation": "Sound travels fastest through solids because their high elasticity or bulk modulus and closely packed molecules favour faster propagation.",
+     "facts": [
+      "F7",
+      "F60",
+      "F61"
+     ]
     },
     {
      "id": "physics-19-27",
@@ -7474,7 +8300,16 @@
       "II, III, IV and V only"
      ],
      "answer": 2,
-     "explanation": "All five statements are correct. Sound has intermediate speed in liquids and the slowest speed in gases; the overall order is solid > liquid > gas, and train sounds are heard better through rails than through air."
+     "explanation": "All five statements are correct. Sound has intermediate speed in liquids and the slowest speed in gases; the overall order is solid > liquid > gas, and train sounds are heard better through rails than through air.",
+     "facts": [
+      "F62",
+      "F63",
+      "F64",
+      "F65",
+      "F66",
+      "F67",
+      "F68"
+     ]
     },
     {
      "id": "physics-19-28",
@@ -7488,7 +8323,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "The audible sound frequency range extends to 20 kHz. The human hearing limit decreases with age, particularly for higher frequencies."
+     "explanation": "The audible sound frequency range extends to 20 kHz. The human hearing limit decreases with age, particularly for higher frequencies.",
+     "facts": [
+      "F70",
+      "F73",
+      "F74"
+     ]
     },
     {
      "id": "physics-19-29",
@@ -7502,7 +8342,14 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "Ultrasound is used in echocardiography to image the heart, in pest control to drive away insects and rodents, and in industry for welding, drilling and precision machining."
+     "explanation": "Ultrasound is used in echocardiography to image the heart, in pest control to drive away insects and rodents, and in industry for welding, drilling and precision machining.",
+     "facts": [
+      "F78",
+      "F79",
+      "F83",
+      "F84",
+      "F85"
+     ]
     },
     {
      "id": "physics-19-30",
@@ -7516,7 +8363,14 @@
       "I, II, III, IV and V"
      ],
      "answer": 3,
-     "explanation": "All five statements correctly describe applications or characteristics of infrasound: earthquake detection, military detection, animal warning, atmospheric study and long-distance propagation."
+     "explanation": "All five statements correctly describe applications or characteristics of infrasound: earthquake detection, military detection, animal warning, atmospheric study and long-distance propagation.",
+     "facts": [
+      "F89",
+      "F92",
+      "F93",
+      "F94",
+      "F95"
+     ]
     },
     {
      "id": "physics-19-31",
@@ -7530,7 +8384,10 @@
       "Nuclear explosions and missiles"
      ],
      "answer": 3,
-     "explanation": "The military use of infrasound includes detecting nuclear explosions and missiles."
+     "explanation": "The military use of infrasound includes detecting nuclear explosions and missiles.",
+     "facts": [
+      "F92"
+     ]
     },
     {
      "id": "physics-19-32",
@@ -7544,7 +8401,12 @@
       "None"
      ],
      "answer": 2,
-     "explanation": "The ultrasound used in SONAR has high frequency, less diffraction and more directionality."
+     "explanation": "The ultrasound used in SONAR has high frequency, less diffraction and more directionality.",
+     "facts": [
+      "F103",
+      "F104",
+      "F105"
+     ]
     },
     {
      "id": "physics-19-33",
@@ -7558,7 +8420,14 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Submarine detection is a military use of SONAR; depth measurement concerns ocean depth; SONAR maps the seabed; and fish location is an application in the fishing industry."
+     "explanation": "Submarine detection is a military use of SONAR; depth measurement concerns ocean depth; SONAR maps the seabed; and fish location is an application in the fishing industry.",
+     "facts": [
+      "F106",
+      "F107",
+      "F108",
+      "F109",
+      "F110"
+     ]
     },
     {
      "id": "physics-19-34",
@@ -7572,7 +8441,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "SONAR is used for underwater navigation, including by both ships and submarines."
+     "explanation": "SONAR is used for underwater navigation, including by both ships and submarines.",
+     "facts": [
+      "F111"
+     ]
     },
     {
      "id": "physics-19-35",
@@ -7586,7 +8458,13 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "SONAR locates wrecks and sunken ships or objects, has limited use in underwater communication, and is used for both distance and depth measurement."
+     "explanation": "SONAR locates wrecks and sunken ships or objects, has limited use in underwater communication, and is used for both distance and depth measurement.",
+     "facts": [
+      "F108",
+      "F112",
+      "F113",
+      "F114"
+     ]
     },
     {
      "id": "physics-19-36",
@@ -7600,7 +8478,11 @@
       "a-i, b-i"
      ],
      "answer": 1,
-     "explanation": "Medical ultrasound is used for imaging internal organs, whereas bats use echolocation for navigation."
+     "explanation": "Medical ultrasound is used for imaging internal organs, whereas bats use echolocation for navigation.",
+     "facts": [
+      "F115",
+      "F116"
+     ]
     },
     {
      "id": "physics-19-37",
@@ -7614,7 +8496,15 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "Dolphins use echolocation for navigation. Radar follows a similar principle but uses electromagnetic waves; echo time helps measure the speed of sound, while architectural acoustics concerns hall design and reverberation control."
+     "explanation": "Dolphins use echolocation for navigation. Radar follows a similar principle but uses electromagnetic waves; echo time helps measure the speed of sound, while architectural acoustics concerns hall design and reverberation control.",
+     "facts": [
+      "F117",
+      "F118",
+      "F119",
+      "F120",
+      "F121",
+      "F122"
+     ]
     },
     {
      "id": "physics-19-38",
@@ -7628,7 +8518,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "A receding source produces a lower apparent frequency, and the apparent pitch also decreases. The reason correctly explains the assertion."
+     "explanation": "A receding source produces a lower apparent frequency, and the apparent pitch also decreases. The reason correctly explains the assertion.",
+     "facts": [
+      "F128",
+      "F129"
+     ]
     },
     {
      "id": "physics-19-39",
@@ -7642,7 +8536,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "Radar guns, medical Doppler, astronomy and sirens are all applications of the Doppler effect. In astronomy, the Doppler effect is applied to light."
+     "explanation": "Radar guns, medical Doppler, astronomy and sirens are all applications of the Doppler effect. In astronomy, the Doppler effect is applied to light.",
+     "facts": [
+      "F130",
+      "F131",
+      "F132",
+      "F133"
+     ]
     },
     {
      "id": "physics-19-40",
@@ -7656,7 +8556,16 @@
       "Only two"
      ],
      "answer": 2,
-     "explanation": "All five statements are correct. The listed examples and wave principles correspond respectively to string, wind, membrane, plate and electronic instruments."
+     "explanation": "All five statements are correct. The listed examples and wave principles correspond respectively to string, wind, membrane, plate and electronic instruments.",
+     "facts": [
+      "F134",
+      "F136",
+      "F137",
+      "F139",
+      "F140",
+      "F142",
+      "F144"
+     ]
     },
     {
      "id": "physics-19-41",
