@@ -15,6 +15,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -66,6 +67,13 @@ def call_openai(client, model: str, system: str, user: str, schema: dict, retrie
             time.sleep(wait)
 
 
+NOTES_RE = re.compile(r"\b(the|these) (notes|sheet)\b", re.IGNORECASE)
+
+
+def mentions_notes(q: dict) -> bool:
+    return any(NOTES_RE.search(t) for t in [q["question"], *q["options"]])
+
+
 def norm(s: str) -> str:
     return "".join(ch for ch in s.lower() if ch.isalnum())
 
@@ -115,6 +123,11 @@ def main() -> None:
     ap.add_argument("--workers", type=int, default=4, help="parallel requests")
     ap.add_argument("--force", action="store_true", help="regenerate sheets that already have MCQs")
     ap.add_argument("--limit", type=int, help="stop after this many sheets (for a trial run)")
+    ap.add_argument(
+        "--redo-notes-mentions",
+        action="store_true",
+        help='regenerate only sheets whose questions say "the notes" in the stem/options',
+    )
     args = ap.parse_args()
 
     if not os.environ.get("OPENAI_API_KEY"):
@@ -143,7 +156,11 @@ def main() -> None:
         for sheet in sheets_file["sheets"]:
             if args.sheets and sheet["id"] not in args.sheets:
                 continue
-            if sheet["id"] in existing["sheets"] and not args.force:
+            done = existing["sheets"].get(sheet["id"])
+            if args.redo_notes_mentions:
+                if not done or not any(mentions_notes(q) for q in done["mcqs"]):
+                    continue
+            elif done and not args.force:
                 continue
             jobs.append((subj, slug, system, sheet))
     if args.limit:
