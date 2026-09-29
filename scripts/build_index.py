@@ -42,6 +42,8 @@ def build_index() -> dict:
                     "number": s["number"],
                     "title": g["title"] if g else s["heading"][:60],
                     "count": len(g["mcqs"]) if g else 0,
+                    "facts": g.get("coverage", {}).get("facts", 0) if g else 0,
+                    "covered": g.get("coverage", {}).get("covered", 0) if g else 0,
                     "tracker": tracker,
                 }
             )
@@ -66,7 +68,12 @@ def build_index() -> dict:
     save_json(DATA_DIR / "index.json", index)
     total = sum(s["total"] for s in subjects)
     done = sum(1 for s in subjects for sh in s["sheets"] if sh["count"])
-    print(f"index.json: {len(subjects)} subjects, {done}/{sum(len(s['sheets']) for s in subjects)} sheets generated, {total} MCQs")
+    facts = sum(sh["facts"] for s in subjects for sh in s["sheets"])
+    covered = sum(sh["covered"] for s in subjects for sh in s["sheets"])
+    print(
+        f"index.json: {len(subjects)} subjects, {done}/{sum(len(s['sheets']) for s in subjects)} sheets generated, "
+        f"{total} MCQs, {covered}/{facts} facts covered"
+    )
     return index
 
 

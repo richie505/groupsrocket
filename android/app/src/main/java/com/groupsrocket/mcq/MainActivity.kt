@@ -96,6 +96,7 @@ sealed interface Screen {
     data class SheetDetail(val ref: SheetRef) : Screen
     data class UnitDetail(val id: String) : Screen
     data class Notes(val ref: SheetRef) : Screen
+    data class Facts(val ref: SheetRef) : Screen
     data class Quiz(val title: String, val questions: List<Mcq>) : Screen
 }
 
@@ -170,6 +171,7 @@ fun RocketApp(app: AppState) {
                 is Screen.SheetDetail -> SheetScreen(app, s.ref, ::go)
                 is Screen.UnitDetail -> UnitScreen(app, s.id, ::go)
                 is Screen.Notes -> NotesScreen(app, s.ref)
+                is Screen.Facts -> FactsScreen(app, s.ref, ::go)
                 is Screen.Quiz -> QuizScreen(app, s, onExit = ::back, onRetry = { stack[stack.lastIndex] = it })
             }
         }
@@ -186,6 +188,7 @@ private fun titleOf(app: AppState, s: Screen): String = when (s) {
     is Screen.SheetDetail -> app.index.sheet(s.ref)?.let { "${it.subjectName} #${it.id}" } ?: "Sheet"
     is Screen.UnitDetail -> s.id
     is Screen.Notes -> app.index.sheet(s.ref)?.let { "Notes · ${it.subjectName} #${it.id}" } ?: "Notes"
+    is Screen.Facts -> app.index.sheet(s.ref)?.let { "Facts · ${it.subjectName} #${it.id}" } ?: "Facts"
     is Screen.Quiz -> s.title
 }
 
@@ -379,8 +382,11 @@ fun SubjectsScreen(app: AppState, go: (Screen) -> Unit) {
             val tally = app.progress.tally(s.sheets.map { it.ref })
             ClickCard(onClick = { go(Screen.SubjectDetail(s.slug)) }) {
                 Text(s.name, style = MaterialTheme.typography.titleMedium)
+                val facts = s.sheets.sumOf { it.facts }
+                val covered = s.sheets.sumOf { it.covered }
                 Text(
-                    "${s.sheets.size} ROCKET sheets · ${s.total} MCQs · ${tally.attempted} done",
+                    "${s.sheets.size} ROCKET sheets · ${s.total} MCQs · ${tally.attempted} done" +
+                        if (facts > 0) "\n$covered / $facts facts covered" else "",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -414,12 +420,20 @@ fun SheetScreen(app: AppState, ref: SheetRef, go: (Screen) -> Unit) {
                         (app.progress.bestScore(ref)?.let { " · best $it%" } ?: ""),
                     style = MaterialTheme.typography.bodySmall,
                 )
+                if (sheet.facts > 0) {
+                    Text(
+                        "Facts covered: ${sheet.covered} / ${sheet.facts}" + if (sheet.covered == sheet.facts) " ✓ every fact tested" else "",
+                        style = MaterialTheme.typography.bodySmall,
+                        fontWeight = FontWeight.SemiBold,
+                    )
+                }
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Button(
                         onClick = { go(quizOf(app, "${sheet.subjectName} #${sheet.id}", listOf(ref))) },
                         enabled = sheet.count > 0,
                     ) { Text("Practice") }
-                    OutlinedButton(onClick = { go(Screen.Notes(ref)) }) { Text("Read notes") }
+                    OutlinedButton(onClick = { go(Screen.Notes(ref)) }) { Text("Notes") }
+                    if (sheet.facts > 0) OutlinedButton(onClick = { go(Screen.Facts(ref)) }) { Text("Facts") }
                 }
             }
         }
@@ -551,5 +565,48 @@ fun ReviewScreen(app: AppState, go: (Screen) -> Unit) {
             confirmButton = { TextButton(onClick = { app.progress.resetAll(); confirmReset = false }) { Text("Reset") } },
             dismissButton = { TextButton(onClick = { confirmReset = false }) { Text("Cancel") } },
         )
+    }
+}
+
+// ---------------------------------------------------------------- facts checklist
+
+@Composable
+fun FactsScreen(app: AppState, ref: SheetRef, go: (Screen) -> Unit) {
+    val facts = remember(ref) { app.repo.facts(ref) }
+    val mcqs = remember(ref) { app.repo.mcqs(ref) }
+    val byFact = remember(ref) {
+        val m = HashMap<String, MutableList<Mcq>>()
+        mcqs.forEach { q -> q.facts.forEach { m.getOrPut(it) { mutableListOf() }.add(q) } }
+        m
+    }
+    val covered = facts.count { byFact.containsKey(it.id) }
+    LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
+        item {
+            InfoCard {
+                Text("$covered of ${facts.size} facts are tested by an MCQ", style = MaterialTheme.typography.titleMedium)
+                Text("Tap a fact to practise the questions that test it.", style = MaterialTheme.typography.bodySmall)
+                ProgressLine(covered, facts.size)
+            }
+        }
+        items(facts) { f ->
+            val qs = byFact[f.id].orEmpty()
+            ClickCard(onClick = { if (qs.isNotEmpty()) go(Screen.Quiz("Fact ${f.id}", qs)) }) {
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text(
+                        if (qs.isEmpty()) "✗" else "✓",
+                        color = if (qs.isEmpty()) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.tertiary,
+                        fontWeight = FontWeight.Bold,
+                    )
+                    Column(Modifier.weight(1f)) {
+                        Text(f.text, style = MaterialTheme.typography.bodyMedium)
+                        Text(
+                            "${f.id} · " + if (qs.isEmpty()) "not tested" else "${qs.size} MCQ" + if (qs.size > 1) "s" else "",
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                }
+            }
+        }
     }
 }

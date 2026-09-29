@@ -18,6 +18,8 @@ data class SheetInfo(
     val number: Int,
     val title: String,
     val count: Int,
+    val facts: Int,
+    val covered: Int,
     val tracker: Tracker,
 ) {
     val ref: SheetRef get() = "$subjectSlug/$id"
@@ -33,6 +35,8 @@ data class SyllabusUnit(
     val sheets: List<SheetRef>,
 )
 
+data class Fact(val id: String, val text: String)
+
 data class Mcq(
     val id: String,
     val sheet: SheetRef,
@@ -42,6 +46,7 @@ data class Mcq(
     val options: List<String>,
     val answer: Int,
     val explanation: String,
+    val facts: List<String>,
 )
 
 class Index(
@@ -90,6 +95,8 @@ class Repository(private val context: Context) {
                         number = sh.getInt("number"),
                         title = sh.getString("title"),
                         count = sh.optInt("count"),
+                        facts = sh.optInt("facts"),
+                        covered = sh.optInt("covered"),
                         tracker = Tracker(t.getJSONArray("g1").strings(), t.getJSONArray("g2").strings()),
                     )
                 },
@@ -117,6 +124,7 @@ class Repository(private val context: Context) {
                     options = q.getJSONArray("options").strings(),
                     answer = q.getInt("answer"),
                     explanation = q.optString("explanation"),
+                    facts = q.optJSONArray("facts")?.strings().orEmpty(),
                 )
             }
         }
@@ -128,6 +136,18 @@ class Repository(private val context: Context) {
     }
 
     fun mcqs(refs: Collection<SheetRef>): List<Mcq> = refs.flatMap { mcqs(it) }
+
+    private val factsCache = HashMap<String, JSONObject>()
+
+    /** Every atomic fact extracted from the sheet (data/facts/<slug>.json). */
+    @Synchronized
+    fun facts(ref: SheetRef): List<Fact> {
+        val (slug, id) = ref.split("/", limit = 2)
+        val sheets = factsCache.getOrPut(slug) {
+            JSONObject(readAsset("facts/$slug.json") ?: "{}").optJSONObject("sheets") ?: JSONObject()
+        }
+        return sheets.optJSONArray(id)?.objects { Fact(it.getString("id"), it.getString("text")) }.orEmpty()
+    }
 
     @Synchronized
     fun notes(ref: SheetRef): String {

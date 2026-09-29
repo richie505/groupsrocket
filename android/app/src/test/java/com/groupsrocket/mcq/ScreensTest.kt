@@ -22,6 +22,10 @@ class ScreensTest {
 
     @Test fun sheet() = paparazzi.snapshot { Themed { SheetScreen(app(), "indian-polity/1") {} } }
 
+    @Test fun sheetCoverage() = paparazzi.snapshot { Themed { SheetScreen(app(), "chemistry/5") {} } }
+
+    @Test fun facts() = paparazzi.snapshot { Themed { FactsScreen(app(), "chemistry/5") {} } }
+
     @Test fun quiz() {
         val app = app()
         val quiz = Screen.Quiz("Indian Polity #1", app.repo.mcqs("indian-polity/1"))
