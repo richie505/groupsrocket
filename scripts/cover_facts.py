@@ -4,7 +4,8 @@ Per sheet:
   1. extract   – list every atomic fact in the notes  -> data/facts/<subject>.json
   2. map       – link each existing MCQ to the fact ids it tests
   3. fill      – write new MCQs for the facts nobody tests yet (repeats until all covered)
-  4. audit     – an independent pass re-checks coverage; anything it flags is filled again
+  4. re-check  – facts still untested get a targeted check against every question;
+                 only facts no question tests are filled again (repeats up to MAX_ROUNDS)
 
 Resumable: finished steps are saved and skipped on the next run.
 
@@ -23,6 +24,8 @@ from build_index import build_index
 from common import DATA_DIR, MCQS_DIR, SHEETS_DIR, load_json, load_syllabus, save_json, slugify
 from generate_mcqs import DEFAULT_MODEL, call_openai, clean_mcqs
 from prompt import (
+    CHECK_SCHEMA,
+    CHECK_USER,
     FACTS_SCHEMA,
     FACTS_SYSTEM,
     FACTS_USER,
@@ -37,8 +40,8 @@ from prompt import (
 FACTS_DIR = DATA_DIR / "facts"
 FILL_CHUNK = 25  # untested facts per fill request
 MAP_CHUNK = 40  # questions per mapping request
-MAX_FILL_ROUNDS = 4
-MAX_AUDITS = 2
+CHECK_CHUNK = 60  # questions per targeted re-check request
+MAX_ROUNDS = 5
 
 
 def fmt_facts(facts: list[dict]) -> str:
@@ -134,10 +137,28 @@ class Sheet:
             added += len(new)
         return added
 
-    # 4. audit
-    def audit(self) -> list[dict]:
-        """Independent re-check: re-map every question, return facts still untested."""
-        self.map_questions(self.record["mcqs"])
+    # 4. targeted re-check
+    def recheck(self, missing: list[dict]) -> list[dict]:
+        """Ask, fact by fact, whether any existing question tests it; link the ones that do."""
+        questions = self.record["mcqs"]
+        found: dict[str, set[int]] = {}
+        wanted = {f["id"] for f in missing}
+        for start in range(0, len(questions), CHECK_CHUNK):
+            chunk = questions[start : start + CHECK_CHUNK]
+            user = CHECK_USER.format(
+                facts=fmt_facts(missing),
+                questions="\n\n".join(fmt_question(i, q) for i, q in enumerate(chunk, 1)),
+            )
+            out = self.call(MAP_SYSTEM, user, CHECK_SCHEMA)
+            for c in out["checks"]:
+                if c["fact_id"] in wanted:
+                    found.setdefault(c["fact_id"], set()).update(start + n - 1 for n in c["questions"] if 1 <= n <= len(chunk))
+        with self.lock:
+            for fid, idxs in found.items():
+                for i in idxs:
+                    q = questions[i]
+                    q["facts"] = list(dict.fromkeys([*q.get("facts", []), fid]))
+            self.save()
         return self.untested()
 
     def run(self) -> str:
@@ -149,14 +170,13 @@ class Sheet:
         unmapped = [q for q in record["mcqs"] if "facts" not in q]
         if unmapped:
             self.map_questions(unmapped)
-        for _audit in range(MAX_AUDITS + 1):
-            for _round in range(MAX_FILL_ROUNDS):
-                missing = self.untested()
-                if not missing or not self.fill(missing):
-                    break
-            missing = self.audit()
-            if not missing:
+        missing = self.untested()
+        for _ in range(MAX_ROUNDS):
+            if missing:
+                missing = self.recheck(missing)
+            if not missing or not self.fill(missing):
                 break
+            missing = self.untested()
         total = len(self.facts())
         with self.lock:
             record["coverage"] = {"facts": total, "covered": total - len(missing), "audited": not missing}

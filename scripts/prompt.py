@@ -181,6 +181,7 @@ FACTS_SYSTEM = """You turn APPSC revision notes into a complete checklist of ato
 - Atomic = one subject + one attribute or relation. A table row "Hydrochloric acid | HCl | Muriatic acid; stomach" gives three facts: "The formula of hydrochloric acid is HCl.", "Hydrochloric acid is also called muriatic acid.", "Hydrochloric acid is found in the stomach (gastric juice)."
 - Write each fact as a short standalone sentence that names its subject (never "it"/"this").
 - The text was extracted from PDF tables: rows can run together and the ligature "ti" is sometimes dropped ("Composi on" = "Composition"). Reconstruct rows carefully; if a row is genuinely ambiguous, state only the part you are sure of.
+- Each distinct fact appears ONCE: if the notes repeat a fact (e.g. in two tables), list it only the first time.
 - Use only the notes. Do not add outside information. Skip pure headings/column labels and watermark text.
 """
 
@@ -255,3 +256,28 @@ def fill_schema(g1: list, g2: list) -> dict:
     item["required"] = item["required"] + ["fact_ids"]
     item["properties"]["fact_ids"] = {"type": "array", "items": {"type": "string"}}
     return schema
+
+CHECK_USER = """FACTS TO CHECK:
+{facts}
+
+QUESTIONS:
+{questions}
+
+For EVERY fact above, return the numbers of the questions that test it (empty list if no question tests it)."""
+
+CHECK_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["checks"],
+    "properties": {
+        "checks": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["fact_id", "questions"],
+                "properties": {"fact_id": {"type": "string"}, "questions": {"type": "array", "items": {"type": "integer"}}},
+            },
+        }
+    },
+}
