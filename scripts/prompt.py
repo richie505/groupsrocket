@@ -172,3 +172,86 @@ def response_schema(g1: list, g2: list) -> dict:
             },
         },
     }
+
+
+# ---------------------------------------------------------------- fact coverage
+
+FACTS_SYSTEM = """You turn APPSC revision notes into a complete checklist of atomic facts.
+- List EVERY fact in the notes, in the order they appear. Nothing may be skipped: every table row, every cell pairing, every bullet, every name, number, date, place, formula and "first/largest/known as".
+- Atomic = one subject + one attribute or relation. A table row "Hydrochloric acid | HCl | Muriatic acid; stomach" gives three facts: "The formula of hydrochloric acid is HCl.", "Hydrochloric acid is also called muriatic acid.", "Hydrochloric acid is found in the stomach (gastric juice)."
+- Write each fact as a short standalone sentence that names its subject (never "it"/"this").
+- The text was extracted from PDF tables: rows can run together and the ligature "ti" is sometimes dropped ("Composi on" = "Composition"). Reconstruct rows carefully; if a row is genuinely ambiguous, state only the part you are sure of.
+- Use only the notes. Do not add outside information. Skip pure headings/column labels and watermark text.
+"""
+
+FACTS_USER = """Subject: {subject} – ROCKET SHEET #{sheet_id}
+
+=== NOTES ===
+{text}
+=== END NOTES ===
+"""
+
+FACTS_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["facts"],
+    "properties": {"facts": {"type": "array", "items": {"type": "string"}}},
+}
+
+MAP_SYSTEM = """You audit exam MCQs against a numbered fact checklist.
+A question TESTS a fact if a student needs that fact to pick the correct answer or to rule out an option
+(e.g. every pair in a List-Matching question, every statement in a Multi-Statement / Count-Based / Negative question,
+both A and R in Assertion-Reason). Only link facts whose content is really in the question/answer — do not guess."""
+
+MAP_USER = """FACTS:
+{facts}
+
+QUESTIONS:
+{questions}
+
+For every question return its number and the ids of all facts it tests."""
+
+MAP_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["links"],
+    "properties": {
+        "links": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["q", "fact_ids"],
+                "properties": {"q": {"type": "integer"}, "fact_ids": {"type": "array", "items": {"type": "string"}}},
+            },
+        }
+    },
+}
+
+FILL_USER = """Subject: {subject}
+Sheet: ROCKET SHEET #{sheet_id}
+
+These facts from the sheet are NOT tested by any question yet:
+{untested}
+
+Write MCQs so that EVERY one of these facts is tested by at least one question.
+- Combine related facts into List-Matching, Multi-Statement, Count-Based, Negative/Incorrect or Assertion-Reason questions where natural (one question can test 2-4 facts); use Direct Recall or Statement A/B for the rest.
+- For each question, "fact_ids" = the ids (e.g. "F12") of every fact it tests.
+- Do not repeat these already-asked questions:
+{asked}
+
+The full notes are below for context and for building close distractors (use only facts from the notes).
+Also return a short clean "title" (max 8 words) for the sheet.
+
+=== NOTES: {subject} – ROCKET SHEET #{sheet_id} ===
+{text}
+=== END NOTES ===
+"""
+
+
+def fill_schema(g1: list, g2: list) -> dict:
+    schema = response_schema(g1, g2)
+    item = schema["properties"]["mcqs"]["items"]
+    item["required"] = item["required"] + ["fact_ids"]
+    item["properties"]["fact_ids"] = {"type": "array", "items": {"type": "string"}}
+    return schema

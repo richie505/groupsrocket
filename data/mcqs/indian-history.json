@@ -16,7 +16,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:00:12+00:00",
+   "generated_at": "2026-09-29T07:11:08+00:00",
    "mcqs": [
     {
      "id": "indian-history-1-1",
@@ -339,6 +339,272 @@
      ],
      "answer": 0,
      "explanation": "Uttaramerur is famous for Chola village administration because its inscriptions describe assemblies and local committees."
+    },
+    {
+     "id": "indian-history-1-24",
+     "format": "Direct Recall",
+     "keyword": "Inscription – Script",
+     "question": "Kharosthi script, used in major Ashokan examples, was written in which direction?",
+     "options": [
+      "Right to left",
+      "Left to right",
+      "Bottom to top",
+      "Top to bottom"
+     ],
+     "answer": 0,
+     "explanation": "Kharosthi was written from right to left and was used in north-western India, including Shahbazgarhi and Mansehra."
+    },
+    {
+     "id": "indian-history-1-25",
+     "format": "Direct Recall",
+     "keyword": "Ashoka – Title",
+     "question": "Which title of Ashoka is associated with the Bhabru or Bairat Inscription?",
+     "options": [
+      "Param Saugat",
+      "Devanampiya Piyadasi",
+      "Sikandar-i-Sani",
+      "Piyadasi Raja"
+     ],
+     "answer": 3,
+     "explanation": "The Bhabru or Bairat Inscription associates Ashoka with Buddhism and uses the title “Piyadasi Raja.”"
+    },
+    {
+     "id": "indian-history-1-26",
+     "format": "Assertion-Reason",
+     "keyword": "Inscription – Tax",
+     "question": "Assertion (A): The Rummindei Inscription records a reduction in land revenue at Lumbini.\nReason (R): Ashoka exempted Lumbini from the Bali tax and reduced land revenue from one-sixth to one-eighth.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The Rummindei Pillar records Ashoka’s visit to Lumbini, exemption from Bali tax and reduction of land revenue from one-sixth to one-eighth."
+    },
+    {
+     "id": "indian-history-1-27",
+     "format": "Direct Recall",
+     "keyword": "Rock Edict – Religious harmony",
+     "question": "Which Ashokan Rock Edict emphasises respect for different religious sects?",
+     "options": [
+      "Rock Edict I",
+      "Rock Edict XII",
+      "Rock Edict II",
+      "Rock Edict XIII"
+     ],
+     "answer": 1,
+     "explanation": "Rock Edict XII concerns religious tolerance and respect for different religious sects."
+    },
+    {
+     "id": "indian-history-1-28",
+     "format": "Direct Recall",
+     "keyword": "Inscription – Date",
+     "question": "The Boghaz-Koi Inscription, which mentions Vedic gods, belongs to which period?",
+     "options": [
+      "6th century AD",
+      "14th century BC",
+      "2nd century AD",
+      "8th century BC"
+     ],
+     "answer": 1,
+     "explanation": "The Boghaz-Koi Inscription is dated to the 14th century BC and is located in Asia Minor, present-day Turkey."
+    },
+    {
+     "id": "indian-history-1-29",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Copper Plate – Famine",
+     "question": "Consider the following statements:\nStatement A: The Sohgaura Copper Plate is associated with food-grain preservation during famine or crisis.\nStatement B: The Mahasthan Inscription is associated with famine relief.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Sohgaura Copper Plate concerns preservation of food grains in a famine or crisis, while the Mahasthan Inscription concerns famine relief."
+    },
+    {
+     "id": "indian-history-1-30",
+     "format": "List-Matching",
+     "keyword": "Inscription – Ruler – Feature",
+     "question": "Match List-I with List-II:\nList-I\n(a) Junagadh Inscription\n(b) Hathigumpha Inscription\n(c) Ayodhya Inscription\n(d) Nanaghat Inscription\n\nList-II\n(i) Pushyamitra Shunga\n(ii) Kharavela\n(iii) Rudradaman I\n(iv) Satavahana administration",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Junagadh is associated with Rudradaman I, Hathigumpha with Kharavela, Ayodhya with Pushyamitra Shunga, and Nanaghat with Satavahana administration."
+    },
+    {
+     "id": "indian-history-1-31",
+     "format": "Direct Recall",
+     "keyword": "Hathigumpha – Religion",
+     "question": "The Hathigumpha Inscription records the religious affiliation of Kharavela with which religion?",
+     "options": [
+      "Shaivism",
+      "Vaishnavism",
+      "Buddhism",
+      "Jainism"
+     ],
+     "answer": 3,
+     "explanation": "The Hathigumpha Inscription records Kharavela’s association with Jainism and donations to Jain monks."
+    },
+    {
+     "id": "indian-history-1-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rabatak Inscription",
+     "question": "Consider the following statements about the Rabatak Inscription:\nI. It was discovered in 1993.\nII. It is written in Bactrian language.\nIII. It uses the Greek script.\nIV. It mentions Shravasti among its cities.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "The Rabatak Inscription was discovered in 1993, is in Bactrian, and uses Greek script. Shravasti is specifically not mentioned among its cities."
+    },
+    {
+     "id": "indian-history-1-33",
+     "format": "Direct Recall",
+     "keyword": "Prayag Prashasti – Ruler",
+     "question": "Which ruler of Koshala is mentioned in the Prayag Prashasti?",
+     "options": [
+      "Mahendra",
+      "Gopala",
+      "Nagabhata II",
+      "Bandhuvarman"
+     ],
+     "answer": 0,
+     "explanation": "The Prayag Prashasti of Samudragupta mentions Mahendra as the ruler of Koshala."
+    },
+    {
+     "id": "indian-history-1-34",
+     "format": "List-Matching",
+     "keyword": "Allahabad Pillar – Inscriptions",
+     "question": "Match List-I with List-II:\nList-I\n(a) Ashokan inscription\n(b) Queen’s Edict\n(c) Samudragupta’s inscription\n(d) Jahangir’s inscription\n\nList-II\n(i) Persian\n(ii) Karuvaki\n(iii) Harisena\n(iv) Ashoka",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The Allahabad Pillar contains an Ashokan inscription, Karuvaki’s Queen’s Edict, Harisena’s inscription of Samudragupta, and Jahangir’s Persian inscription."
+    },
+    {
+     "id": "indian-history-1-35",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Gupta Inscription – Sati",
+     "question": "Consider the following statements:\nStatement A: The Eran Inscription provides the first inscriptional evidence of sati.\nStatement B: The woman mentioned in it was the wife of the military commander Gopraj.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Eran Inscription, dated 510 AD, is the first inscriptional evidence of sati and refers to the wife of military commander Gopraj."
+    },
+    {
+     "id": "indian-history-1-36",
+     "format": "Direct Recall",
+     "keyword": "Inscription – Composer",
+     "question": "Who composed the Mandsaur or Dashpur Inscription?",
+     "options": [
+      "Vatsabhatti",
+      "Vasula Kavi",
+      "Harisena",
+      "Ravikirti"
+     ],
+     "answer": 0,
+     "explanation": "The Mandsaur Inscription was composed by Vatsabhatti."
+    },
+    {
+     "id": "indian-history-1-37",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Aihole Inscription",
+     "question": "Which of the following statements about the Aihole Inscription is incorrect?",
+     "options": [
+      "It mentions Kalidasa and Bharavi.",
+      "It records that Harshavardhana’s southward expansion reached the Krishna River.",
+      "It is associated with Pulakeshin II.",
+      "It was composed by Ravikirti."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the Krishna River. The inscription records that Harsha’s southward expansion was stopped at the Narmada."
+    },
+    {
+     "id": "indian-history-1-38",
+     "format": "Chronological Ordering",
+     "keyword": "Historical Event – Year",
+     "question": "Arrange the following inscriptions in chronological order:\nA. Badami Rock Inscription — Saka 465\nB. Lohnara Inscription — 630 AD\nC. Chausath Yogini Temple Inscription — 1323 CE\nD. Junagadh Inscription — c. 150 AD",
+     "options": [
+      "A, D, B, C",
+      "A, B, D, C",
+      "D, B, A, C",
+      "D, A, B, C"
+     ],
+     "answer": 0,
+     "explanation": "The correct order is Badami Rock Inscription, Junagadh Inscription, Lohnara Inscription, and Chausath Yogini Temple Inscription."
+    },
+    {
+     "id": "indian-history-1-39",
+     "format": "List-Matching",
+     "keyword": "Inscription – Ruler – Place",
+     "question": "Match List-I with List-II:\nList-I\n(a) Sondani Inscription\n(b) Maukhari Copper-Seal\n(c) Chausath Yogini Temple Inscription\n(d) Gwalior Inscription\n\nList-II\n(i) Sarvavarman\n(ii) Yashodharman\n(iii) Mihirakula\n(iv) Devapala",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Sondani is associated with Yashodharman, the Maukhari Copper-Seal with Sarvavarman, Chausath Yogini with Devapala, and Gwalior with Mihirakula."
+    },
+    {
+     "id": "indian-history-1-40",
+     "format": "Assertion-Reason",
+     "keyword": "Uttaramerur – Administration",
+     "question": "Assertion (A): Uttaramerur inscriptions are important for studying Chola village administration.\nReason (R): They describe village assemblies, local committees and the selection and working of committees.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Uttaramerur inscriptions are important precisely because they describe Chola village assemblies and local committee arrangements."
+    },
+    {
+     "id": "indian-history-1-41",
+     "format": "Count-Based",
+     "keyword": "Medieval Coins – Inscriptions",
+     "question": "How many of the following statements are correct?\n1. Mahmud Ghazni’s silver coins had Arabic on one side and Sanskrit in Devanagari on the other.\n2. Muhammad Ghori’s coins had Goddess Lakshmi on one side.\n3. Iltutmish placed the Caliph’s name on coins after receiving Caliph’s recognition.\n4. Alauddin Khalji used the title “Sikandar-i-Sani” on coins.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct according to the descriptions of the medieval coins and their inscriptions."
+    },
+    {
+     "id": "indian-history-1-42",
+     "format": "Direct Recall",
+     "keyword": "Coin Legend",
+     "question": "What did the coin legend “Al Sultan Zilli Allah” signify under Muhammad bin Tughluq?",
+     "options": [
+      "Sultan as Conqueror of the World",
+      "Sultan as Servant of God",
+      "Sultan as Shadow of God",
+      "Sultan as Protector of the Caliph"
+     ],
+     "answer": 2,
+     "explanation": "The legend “Al Sultan Zilli Allah” means “Sultan as Shadow of God.”"
     }
    ]
   },
@@ -354,7 +620,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:30+00:00",
+   "generated_at": "2026-09-29T07:11:24+00:00",
    "mcqs": [
     {
      "id": "indian-history-2-1",
@@ -425,6 +691,216 @@
      ],
      "answer": 0,
      "explanation": "Statements I, II and III are correct: Chanhudaro had a bead-making factory and furnace, Ropar was a Sutlej site, and Daimabad had bronze objects. Reservoirs and water management were associated with Dholavira, not Manda."
+    },
+    {
+     "id": "indian-history-2-6",
+     "format": "Direct Recall",
+     "keyword": "IVC site – Discovered by",
+     "question": "Who first reported the large mounds at Harappa in 1826?",
+     "options": [
+      "Daya Ram Sahni",
+      "M.S. Vats",
+      "Alexander Cunningham",
+      "Charles Masson"
+     ],
+     "answer": 3,
+     "explanation": "Charles Masson reported the large mounds at Harappa in 1826."
+    },
+    {
+     "id": "indian-history-2-7",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Excavation",
+     "question": "Which of the following statements regarding Alexander Cunningham’s visits to Harappa is incorrect?",
+     "options": [
+      "He saw pottery, tools and a seal at Harappa.",
+      "He recognized the full significance of the Harappan remains at that time.",
+      "His observations were made before the beginning of systematic excavation in 1921.",
+      "He visited or excavated Harappa in 1853 and 1856."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is that Cunningham recognized the full significance. He saw pottery, tools and a seal, but the significance was not recognized."
+    },
+    {
+     "id": "indian-history-2-8",
+     "format": "Assertion-Reason",
+     "keyword": "IVC Places – Years",
+     "question": "Assertion (A): Mohenjo-daro was identified as a major Indus city.\nReason (R): R.D. Banerjee excavated Mohenjo-daro in 1922.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Banerjee’s excavation in 1922 does not itself explain why Mohenjo-daro was a major Indus city."
+    },
+    {
+     "id": "indian-history-2-9",
+     "format": "Direct Recall",
+     "keyword": "Excavation",
+     "question": "Who continued the excavation of Harappa from 1926–27 to 1933–34?",
+     "options": [
+      "E.J.H. Mackay",
+      "B.B. Lal",
+      "M.S. Vats",
+      "N.G. Majumdar"
+     ],
+     "answer": 2,
+     "explanation": "M.S. Vats continued the excavation of Harappa during 1926–27 to 1933–34."
+    },
+    {
+     "id": "indian-history-2-10",
+     "format": "Direct Recall",
+     "keyword": "IVC site – Discovered by",
+     "question": "Who discovered Chanhudaro in 1931?",
+     "options": [
+      "E.J.H. Mackay",
+      "S.R. Rao",
+      "J.P. Joshi",
+      "N.G. Majumdar"
+     ],
+     "answer": 3,
+     "explanation": "Chanhudaro was discovered in 1931 by N.G. Majumdar."
+    },
+    {
+     "id": "indian-history-2-11",
+     "format": "List-Matching",
+     "keyword": "Excavation",
+     "question": "Match List-I with List-II:\nList-I\n(a) Ropar excavation, 1953–55\n(b) Daimabad discovery, 1958\n(c) Manda excavation, 1982\n(d) Dholavira excavation, 1990–91\n\nList-II\n(i) R.S. Bisht and colleagues\n(ii) Yagyadatt Sharma\n(iii) B.P. Bopardikar\n(iv) J.P. Joshi and Madhubala",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Ropar excavation—Yagyadatt Sharma; Daimabad discovery—B.P. Bopardikar; Manda excavation—J.P. Joshi and Madhubala; Dholavira excavation—R.S. Bisht and colleagues."
+    },
+    {
+     "id": "indian-history-2-12",
+     "format": "Direct Recall",
+     "keyword": "IVC sites – Findings",
+     "question": "What was found at Daimabad, which was discovered in 1958?",
+     "options": [
+      "Reservoirs and water-management features",
+      "A bead-making factory and furnace",
+      "Fire altars",
+      "Bronze objects"
+     ],
+     "answer": 3,
+     "explanation": "The discovery of Daimabad in 1958 was associated with bronze objects."
+    },
+    {
+     "id": "indian-history-2-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "IVC sites – Findings",
+     "question": "Consider the following statements:\nStatement A: The Kalibangan excavation of 1960–61 revealed a ploughed field and fire altars.\nStatement B: The Manda excavation of 1982 was associated with the Chenab and Himalayan wood.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Kalibangan revealed a ploughed field and fire altars, while Manda was associated with the Chenab and Himalayan wood."
+    },
+    {
+     "id": "indian-history-2-14",
+     "format": "Assertion-Reason",
+     "keyword": "IVC sites – Findings",
+     "question": "Assertion (A): The Manda excavation is associated with Himalayan wood.\nReason (R): Manda was located in association with the Chenab.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the excavation record, but the association with the Chenab does not explain the finding of Himalayan wood."
+    },
+    {
+     "id": "indian-history-2-15",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "IVC sites – Findings",
+     "question": "Which of the following statements about Dholavira is incorrect?",
+     "options": [
+      "It is associated with bronze objects.",
+      "It was excavated during 1990–91.",
+      "The excavation was associated with R.S. Bisht and colleagues.",
+      "It is associated with reservoirs and water management."
+     ],
+     "answer": 0,
+     "explanation": "The altered detail is ‘bronze objects.’ Dholavira is associated with reservoirs and water management; bronze objects are linked with Daimabad."
+    },
+    {
+     "id": "indian-history-2-16",
+     "format": "Chronological Ordering",
+     "keyword": "IVC Places – Years",
+     "question": "Arrange the following events in chronological order:\nA. Chanhudaro was discovered.\nB. Daimabad was discovered.\nC. Kalibangan excavation began.\nD. Manda excavation was conducted.",
+     "options": [
+      "D, C, B, A",
+      "A, B, C, D",
+      "B, A, C, D",
+      "A, C, B, D"
+     ],
+     "answer": 1,
+     "explanation": "The correct sequence is Chanhudaro discovery in 1931, Daimabad discovery in 1958, Kalibangan excavation in 1960–61, and Manda excavation in 1982."
+    },
+    {
+     "id": "indian-history-2-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "IVC Places – Years",
+     "question": "Consider the following statements:\nI. Daimabad was discovered in 1958.\nII. Kalibangan was excavated in 1960–61.\nIII. Manda was excavated in 1990–91.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are correct. Manda was excavated in 1982, whereas 1990–91 refers to the Dholavira excavation."
+    },
+    {
+     "id": "indian-history-2-18",
+     "format": "Direct Recall",
+     "keyword": "IVC Places – Years",
+     "question": "During which period was the Kalibangan excavation conducted?",
+     "options": [
+      "1960–61",
+      "1953–55",
+      "1958",
+      "1982"
+     ],
+     "answer": 0,
+     "explanation": "The Kalibangan excavation was conducted in 1960–61."
+    },
+    {
+     "id": "indian-history-2-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "IVC site – Discovered by",
+     "question": "Consider the following statements:\nStatement A: E.J.H. Mackay conducted the 1935–36 excavation of Chanhudaro.\nStatement B: The 1935–36 excavation of Chanhudaro revealed a bead-making factory and a furnace.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. E.J.H. Mackay conducted the 1935–36 excavation, which revealed a bead-making factory and furnace."
+    },
+    {
+     "id": "indian-history-2-20",
+     "format": "Count-Based",
+     "keyword": "IVC sites – Findings",
+     "question": "How many of the following site–feature pairs are correctly matched?\n1. Daimabad — Bronze objects\n2. Kalibangan — Ploughed field and fire altars\n3. Manda — Himalayan wood\n4. Dholavira — Reservoirs and water management",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four pairs are correctly matched: Daimabad with bronze objects, Kalibangan with a ploughed field and fire altars, Manda with Himalayan wood, and Dholavira with reservoirs and water management."
     }
    ]
   },
@@ -440,7 +916,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:00:09+00:00",
+   "generated_at": "2026-09-29T07:11:16+00:00",
    "mcqs": [
     {
      "id": "indian-history-3-1",
@@ -665,6 +1141,272 @@
      ],
      "answer": 0,
      "explanation": "Both statements are true. Shortughai was a trade outpost associated with lapis lazuli, while Kot Bala provided the earliest evidence of a furnace."
+    },
+    {
+     "id": "indian-history-3-17",
+     "format": "Direct Recall",
+     "keyword": "IVC sites – Findings",
+     "question": "The first artefact reported from Harappa was:",
+     "options": [
+      "A steatite seal with Indus pictographs",
+      "A stone seal bearing a unicorn and inscription",
+      "A terracotta replica of a plough",
+      "A bronze chariot"
+     ],
+     "answer": 1,
+     "explanation": "The first artefact from Harappa was a stone seal with a unicorn and inscription."
+    },
+    {
+     "id": "indian-history-3-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "IVC sites – Findings",
+     "question": "Consider the following statements about Harappa:\nI. Cemetery H was found at the site.\nII. Coffin burial was reported from the site.\nIII. Wheat and barley were found in a wooden mortar.\nIV. Dice were found at the site.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Harappa is associated with Cemetery H, coffin burial, wheat and barley in a wooden mortar, and dice."
+    },
+    {
+     "id": "indian-history-3-19",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "IVC sites – Features",
+     "question": "Which of the following statements about Mohenjo-daro is incorrect?",
+     "options": [
+      "Its main road was about 12 metres wide.",
+      "It had excellent road planning.",
+      "Its main road was about 9.15 metres wide.",
+      "Its roads intersected at right angles."
+     ],
+     "answer": 0,
+     "explanation": "The altered detail is the width of the main road. It was about 9.15 metres wide, not 12 metres."
+    },
+    {
+     "id": "indian-history-3-20",
+     "format": "Assertion-Reason",
+     "keyword": "IVC sites – Findings",
+     "question": "Assertion (A): The Great Bath at Mohenjo-daro was probably used for ritual bathing.\nReason (R): Mohenjo-daro had roads that intersected at right angles.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the right-angled road layout does not explain the probable ritual use of the Great Bath."
+    },
+    {
+     "id": "indian-history-3-21",
+     "format": "List-Matching",
+     "keyword": "IVC sites – Findings",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Mohenjo-daro\n b. Lothal\n c. Kalibangan\n d. Amri\n\nList-II\n i. Rhinoceros remains\n ii. Ship model\n iii. Camel bones\n iv. Dancing Girl",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Mohenjo-daro–Dancing Girl, Lothal–Ship model, Kalibangan–Camel bones, and Amri–Rhinoceros remains."
+    },
+    {
+     "id": "indian-history-3-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "IVC sites – Findings",
+     "question": "Consider the following statements about Lothal:\nI. Rice husk was found there.\nII. A Persian seal was found there.\nIII. Three double burials were reported there.\nIV. A copper dog was found there.",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are associated with the findings at Lothal."
+    },
+    {
+     "id": "indian-history-3-23",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "IVC Places – Years",
+     "question": "Which of the following statements about Kalibangan is incorrect?",
+     "options": [
+      "It is located in Hanumangarh, Rajasthan.",
+      "It is located in Fatehabad, Haryana.",
+      "It is associated with the Ghaggar River.",
+      "Wooden drainage was found there."
+     ],
+     "answer": 1,
+     "explanation": "The altered location is Fatehabad, Haryana. Kalibangan is located in Hanumangarh, Rajasthan."
+    },
+    {
+     "id": "indian-history-3-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "IVC sites – Findings",
+     "question": "Consider the following statements:\nStatement A: Dholavira had a stadium-like structure.\nStatement B: Dholavira had special cemetery structures.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both a stadium-like structure and special cemetery structures were reported at Dholavira."
+    },
+    {
+     "id": "indian-history-3-25",
+     "format": "Direct Recall",
+     "keyword": "IVC Places – Years",
+     "question": "Surkotada is located in:",
+     "options": [
+      "Rann of Kachchh, Gujarat",
+      "Saurashtra, Gujarat",
+      "Kachchh, Gujarat",
+      "Meerut, Uttar Pradesh"
+     ],
+     "answer": 2,
+     "explanation": "Surkotada is located in Kachchh, Gujarat."
+    },
+    {
+     "id": "indian-history-3-26",
+     "format": "List-Matching",
+     "keyword": "IVC sites – Findings",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Daimabad\n b. Rakhigarhi\n c. Ropar\n d. Banawali\n\nList-II\n i. Dog buried with humans\n ii. Bronze buffalo\n iii. Large quantity of barley grains\n iv. Provincial-capital character in the material",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Daimabad–Bronze buffalo, Rakhigarhi–Provincial-capital character, Ropar–Dog buried with humans, and Banawali–Large quantity of barley grains."
+    },
+    {
+     "id": "indian-history-3-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "IVC sites – Features",
+     "question": "Consider the following statements:\nStatement A: Rakhigarhi had drains and terracotta bricks.\nStatement B: Rakhigarhi had double burials.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Rakhigarhi is associated with drains, terracotta bricks, and double burials."
+    },
+    {
+     "id": "indian-history-3-28",
+     "format": "Count-Based",
+     "keyword": "IVC sites – Findings",
+     "question": "How many of the following are associated with Banawali?\n1. Terracotta replica of a plough\n2. Toy plough\n3. Mother Goddess figurines\n4. Oval settlement",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four features are associated with Banawali."
+    },
+    {
+     "id": "indian-history-3-29",
+     "format": "Direct Recall",
+     "keyword": "IVC sites – Features",
+     "question": "Which type of burial pit is associated with Ropar or Rupnagar?",
+     "options": [
+      "Three double burials",
+      "Oval pit burials",
+      "Coffin burials",
+      "Pot burials"
+     ],
+     "answer": 1,
+     "explanation": "Ropar is associated with oval pit burials."
+    },
+    {
+     "id": "indian-history-3-30",
+     "format": "Direct Recall",
+     "keyword": "IVC sites – Findings",
+     "question": "Which of the following was found at Hulas?",
+     "options": [
+      "Chert blades",
+      "Shell ornaments",
+      "Clay bangles",
+      "Bronze sculptures"
+     ],
+     "answer": 0,
+     "explanation": "Chert blades were among the findings at Hulas."
+    },
+    {
+     "id": "indian-history-3-31",
+     "format": "Statement-Based (A/B)",
+     "keyword": "IVC sites – Findings",
+     "question": "Consider the following statements:\nStatement A: Manda was associated with the procurement of Himalayan wood.\nStatement B: Wood from Manda was transported downstream to other Harappan towns.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements correctly describe Manda's importance in the procurement and downstream transport of Himalayan wood."
+    },
+    {
+     "id": "indian-history-3-32",
+     "format": "Direct Recall",
+     "keyword": "Historical Event – Year",
+     "question": "The jewellery or treasure hoard at Mandi was discovered in:",
+     "options": [
+      "June 1990",
+      "June 2000",
+      "June 2010",
+      "January 2000"
+     ],
+     "answer": 1,
+     "explanation": "The Mandi jewellery or treasure hoard was discovered in June 2000."
+    },
+    {
+     "id": "indian-history-3-33",
+     "format": "List-Matching",
+     "keyword": "IVC sites – Findings",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Balu\n b. Nageshwar\n c. Shortughai\n d. Kerala-no-dhoro\n\nList-II\n i. Salt production centre\n ii. Shell\n iii. Lapis lazuli\n iv. Earliest evidence of garlic",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Balu–Earliest evidence of garlic, Nageshwar–Shell, Shortughai–Lapis lazuli, and Kerala-no-dhoro–Salt production centre."
+    },
+    {
+     "id": "indian-history-3-34",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "IVC sites – Findings",
+     "question": "Which of the following statements about Sutkagendor is incorrect?",
+     "options": [
+      "It was located in Baluchistan, Pakistan.",
+      "It represented the western boundary of Harappan culture.",
+      "It represented the eastern boundary of Harappan culture.",
+      "Clay bangles were found there."
+     ],
+     "answer": 2,
+     "explanation": "The altered detail is the boundary. Sutkagendor represented the western boundary of Harappan culture."
+    },
+    {
+     "id": "indian-history-3-35",
+     "format": "Count-Based",
+     "keyword": "IVC sites – Findings",
+     "question": "How many of the following site-finding pairs are correct?\n1. Kot Bala — Earliest evidence of furnace\n2. Amri — Rhinoceros remains\n3. Lothal — Copper dog\n4. Rakhigarhi — Drains",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four pairs are correct: Kot Bala–furnace evidence, Amri–rhinoceros remains, Lothal–copper dog, and Rakhigarhi–drains."
     }
    ]
   },
@@ -684,7 +1426,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:00:04+00:00",
+   "generated_at": "2026-09-29T07:11:06+00:00",
    "mcqs": [
     {
      "id": "indian-history-4-1",
@@ -853,6 +1595,244 @@
      ],
      "answer": 0,
      "explanation": "Babur established Mughal rule in India."
+    },
+    {
+     "id": "indian-history-4-13",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Who founded the Shunga dynasty after overthrowing Brihadratha?",
+     "options": [
+      "Gopala",
+      "Simuka",
+      "Pushyamitra Shunga",
+      "Vasudeva Kanva"
+     ],
+     "answer": 2,
+     "explanation": "Pushyamitra Shunga founded the Shunga dynasty after overthrowing Brihadratha, the last Mauryan ruler."
+    },
+    {
+     "id": "indian-history-4-14",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Which dynasty was founded by Vasudeva Kanva?",
+     "options": [
+      "Kanva dynasty",
+      "Satavahana dynasty",
+      "Pala dynasty",
+      "Shunga dynasty"
+     ],
+     "answer": 0,
+     "explanation": "Vasudeva Kanva founded the Kanva dynasty, which succeeded the Shungas."
+    },
+    {
+     "id": "indian-history-4-15",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Simuka, also referred to as Sindhuk or Shiprak, is associated with the foundation of which dynasty?",
+     "options": [
+      "Satavahana dynasty",
+      "Kadamba dynasty",
+      "Chedi dynasty",
+      "Ikshvaku dynasty"
+     ],
+     "answer": 0,
+     "explanation": "Simuka, Sindhuk or Shiprak is associated with the foundation of the Satavahana dynasty."
+    },
+    {
+     "id": "indian-history-4-16",
+     "format": "Direct Recall",
+     "keyword": "Capital",
+     "question": "What was the capital of the Kadamba dynasty?",
+     "options": [
+      "Golconda",
+      "Vanavasi",
+      "Ahmednagar",
+      "Mithila"
+     ],
+     "answer": 1,
+     "explanation": "The capital of the Kadamba dynasty was Vanavasi."
+    },
+    {
+     "id": "indian-history-4-17",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Who founded the Karnata dynasty associated with Mithila?",
+     "options": [
+      "Nannuka",
+      "Vijayalaya",
+      "Anangpal Tomar",
+      "Nanyadev"
+     ],
+     "answer": 3,
+     "explanation": "Nanyadev founded the Karnata dynasty, which was associated with the region of Mithila."
+    },
+    {
+     "id": "indian-history-4-18",
+     "format": "Assertion-Reason",
+     "keyword": "Inscription",
+     "question": "Assertion (A): Kharavela is associated with the Chedi dynasty.\nReason (R): Kharavela was a famous ruler of Kalinga.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Kharavela’s association with the Chedi dynasty is not explained merely by his being a ruler of Kalinga."
+    },
+    {
+     "id": "indian-history-4-19",
+     "format": "Assertion-Reason",
+     "keyword": "Founder – Dynasty",
+     "question": "Assertion (A): Sher Shah Suri founded the Sur dynasty.\nReason (R): Gopala founded the Pala dynasty.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Gopala’s foundation of the Pala dynasty does not explain Sher Shah Suri’s foundation of the Sur dynasty."
+    },
+    {
+     "id": "indian-history-4-20",
+     "format": "Assertion-Reason",
+     "keyword": "Founder – Dynasty",
+     "question": "Assertion (A): Vijayalaya is associated with the establishment of the Chola Empire.\nReason (R): Vijayalaya established the Chola Empire in the 9th century.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason specifies when Vijayalaya established the Chola Empire."
+    },
+    {
+     "id": "indian-history-4-21",
+     "format": "List-Matching",
+     "keyword": "Founder – Dynasty",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Nannuka\n(b) Anangpal Tomar\n(c) Nanyadev\n(d) Gopala\n\nList-II\ni. Pala dynasty\nii. Chandela dynasty\niii. Karnata dynasty\niv. Tomar dynasty",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Nannuka–Chandela, Anangpal Tomar–Tomar, Nanyadev–Karnata and Gopala–Pala."
+    },
+    {
+     "id": "indian-history-4-22",
+     "format": "List-Matching",
+     "keyword": "Capital",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Nizamshahi\n(b) Adilshahi\n(c) Imadshahi\n(d) Baridshahi\n\nList-II\ni. Bidar\nii. Berar\niii. Ahmednagar\niv. Bijapur",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The capitals were Nizamshahi–Ahmednagar, Adilshahi–Bijapur, Imadshahi–Berar and Baridshahi–Bidar."
+    },
+    {
+     "id": "indian-history-4-23",
+     "format": "List-Matching",
+     "keyword": "Vijayanagara Empire – Dynasties",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Sangama\n(b) Saluva\n(c) Tuluva\n(d) Aravidu\n\nList-II\ni. Vira Narasimha\nii. Harihara I and Bukka I\niii. Aravidu line\niv. Narasimha Saluva",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Sangama was associated with Harihara I and Bukka I; Saluva with Narasimha Saluva; Tuluva with Vira Narasimha; and Aravidu with the Aravidu line."
+    },
+    {
+     "id": "indian-history-4-24",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vijayanagara Empire – Dynasties",
+     "question": "Consider the following statements:\nI. The Vijayanagara Empire was ruled successively by the Sangama, Saluva, Tuluva and Aravidu dynasties.\nII. Narasimha Saluva was associated with the Saluva dynasty.\nIII. Vira Narasimha was associated with the Tuluva dynasty.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. The succession was Sangama–Saluva–Tuluva–Aravidu, with Narasimha Saluva and Vira Narasimha associated with the Saluva and Tuluva dynasties respectively."
+    },
+    {
+     "id": "indian-history-4-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Founder – Dynasty",
+     "question": "Consider the following statements:\nI. Mayurasharman founded the Kadamba dynasty.\nII. Nannuka founded the Chandela dynasty.\nIII. Kharavela founded the Chedi dynasty.\nIV. Vijayalaya established the Chola Empire in the 9th century.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and IV only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and IV are correct. The notes associate Kharavela with the Chedi dynasty, but do not state that he founded it."
+    },
+    {
+     "id": "indian-history-4-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Place – Associated with",
+     "question": "Consider the following statements:\nStatement A: Jejakabhukti was named after Jayashakti, also known as Jeja.\nStatement B: Anangpal Tomar is associated with the foundation of Dhillika, identified with Delhi.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Jejakabhukti was named after Jayashakti/Jeja, and Anangpal Tomar is associated with the foundation of Dhillika."
+    },
+    {
+     "id": "indian-history-4-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Founder – Dynasty",
+     "question": "Consider the following statements:\nStatement A: Sher Shah Suri founded the Sur dynasty.\nStatement B: Babur established Mughal rule in India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: Sher Shah Suri founded the Sur dynasty, while Babur established Mughal rule in India."
+    },
+    {
+     "id": "indian-history-4-28",
+     "format": "Chronological Ordering",
+     "keyword": "Vijayanagara Empire – Dynasties",
+     "question": "Arrange the following Vijayanagara dynasties in their correct successive order:\nA. Tuluva\nB. Aravidu\nC. Sangama\nD. Saluva",
+     "options": [
+      "D, C, A, B",
+      "B, A, D, C",
+      "C, D, A, B",
+      "C, A, D, B"
+     ],
+     "answer": 2,
+     "explanation": "The correct succession was Sangama, Saluva, Tuluva and Aravidu."
+    },
+    {
+     "id": "indian-history-4-29",
+     "format": "Count-Based",
+     "keyword": "Founder – Dynasty",
+     "question": "How many of the following founder–dynasty pairs are correctly matched?\n1. Vasudeva Kanva — Kanva dynasty\n2. Mayurasharman — Kadamba dynasty\n3. Nannuka — Chandela dynasty\n4. Sher Shah Suri — Pala dynasty",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The first three pairs are correct. Sher Shah Suri founded the Sur dynasty, not the Pala dynasty; Gopala founded the Pala dynasty."
     }
    ]
   },
@@ -870,7 +1850,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:00:03+00:00",
+   "generated_at": "2026-09-29T07:11:36+00:00",
    "mcqs": [
     {
      "id": "indian-history-5-1",
@@ -983,6 +1963,272 @@
      ],
      "answer": 3,
      "explanation": "The English East India Company was formed in 1600, during Akbar's reign."
+    },
+    {
+     "id": "indian-history-5-9",
+     "format": "Direct Recall",
+     "keyword": "Commander",
+     "question": "Who was the commander of Dhanananda?",
+     "options": [
+      "Parsva",
+      "Vasumitra",
+      "Bhaddasala",
+      "Mathara"
+     ],
+     "answer": 2,
+     "explanation": "Bhaddasala was the commander of Dhanananda, the last ruler of the Nanda dynasty."
+    },
+    {
+     "id": "indian-history-5-10",
+     "format": "Assertion-Reason",
+     "keyword": "Contemporary",
+     "question": "Assertion (A): Patanjali was a contemporary of Pushyamitra Shunga.\nReason (R): Patanjali was the author of Mahabhashya.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Patanjali’s authorship of Mahabhashya does not explain his contemporaneity with Pushyamitra Shunga."
+    },
+    {
+     "id": "indian-history-5-11",
+     "format": "Direct Recall",
+     "keyword": "Book",
+     "question": "Which of the following was written by Ashvaghosha?",
+     "options": [
+      "Mahabhashya",
+      "Saundarananda",
+      "Harshacharita",
+      "Buddhacarita"
+     ],
+     "answer": 3,
+     "explanation": "Buddhacarita was an important work of Ashvaghosha."
+    },
+    {
+     "id": "indian-history-5-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Literary work",
+     "question": "Consider the following statements:\nStatement A: Ashvaghosha wrote Buddhacarita.\nStatement B: Ashvaghosha wrote Saundarananda.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both Buddhacarita and Saundarananda are listed as important works of Ashvaghosha."
+    },
+    {
+     "id": "indian-history-5-13",
+     "format": "Direct Recall",
+     "keyword": "Buddhist Council",
+     "question": "Who headed the Fourth Buddhist Council?",
+     "options": [
+      "Charaka",
+      "Nagarjuna",
+      "Vasumitra",
+      "Ashvaghosha"
+     ],
+     "answer": 2,
+     "explanation": "Vasumitra was associated with Kanishka’s court and headed the Fourth Buddhist Council."
+    },
+    {
+     "id": "indian-history-5-14",
+     "format": "List-Matching",
+     "keyword": "Kanishka – Court Scholars",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Nagarjuna\n b. Charaka\n c. Parsva\n d. Mathara\n\nList-II\n i. Scholar associated with Kanishka’s court\n ii. Scholar associated with Kanishka’s court\n iii. Scholar associated with Kanishka’s court\n iv. Scholar associated with Kanishka’s court",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Nagarjuna, Charaka, Parsva and Mathara were all associated with Kanishka’s court; therefore the first code is the valid matching code."
+    },
+    {
+     "id": "indian-history-5-15",
+     "format": "Direct Recall",
+     "keyword": "Visited – Person/Traveller",
+     "question": "During whose reign did Xuanzang visit India?",
+     "options": [
+      "Kanishka",
+      "Pushyamitra Shunga",
+      "Akbar",
+      "Harshavardhana"
+     ],
+     "answer": 3,
+     "explanation": "Xuanzang, also known as Hiuen Tsang, visited India during the reign of Harshavardhana."
+    },
+    {
+     "id": "indian-history-5-16",
+     "format": "Direct Recall",
+     "keyword": "Contemporary",
+     "question": "Mirabai was contemporary with which of the following Bhakti figures?",
+     "options": [
+      "Pushyamitra Shunga",
+      "Dhanananda",
+      "Nizamuddin Auliya",
+      "Chaitanya Mahaprabhu"
+     ],
+     "answer": 3,
+     "explanation": "Mirabai was contemporary with Chaitanya Mahaprabhu, along with Tulsidas and Guru Nanak."
+    },
+    {
+     "id": "indian-history-5-17",
+     "format": "Assertion-Reason",
+     "keyword": "Contemporary",
+     "question": "Assertion (A): Mirabai was contemporary with Guru Nanak.\nReason (R): Mirabai was also contemporary with Chaitanya Mahaprabhu.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Mirabai’s contemporaneity with Chaitanya Mahaprabhu does not explain her contemporaneity with Guru Nanak."
+    },
+    {
+     "id": "indian-history-5-18",
+     "format": "Direct Recall",
+     "keyword": "Sufi sect – Founder",
+     "question": "What was the period of Shaikh Salim Chishti?",
+     "options": [
+      "1478–1572",
+      "1274–1356",
+      "1564–1624",
+      "1498–1546"
+     ],
+     "answer": 0,
+     "explanation": "Shaikh Salim Chishti lived during 1478–1572."
+    },
+    {
+     "id": "indian-history-5-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sufi – Disciple/Successor",
+     "question": "Consider the following statements:\nStatement A: Nasiruddin Chirag-i-Dehlavi was the disciple or successor of Nizamuddin Auliya.\nStatement B: Nasiruddin Chirag-i-Dehlavi belonged to the period 1274–1356.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Nasiruddin Chirag-i-Dehlavi was the disciple or successor of Nizamuddin Auliya and lived during 1274–1356."
+    },
+    {
+     "id": "indian-history-5-20",
+     "format": "List-Matching",
+     "keyword": "Sufi – Period",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Shaikh Ahmad Sirhindi\n b. Shaikh Salim Chishti\n c. Nasiruddin Chirag-i-Dehlavi\n d. Mirabai\n\nList-II\n i. 1498–1546\n ii. 1564–1624\n iii. 1478–1572\n iv. 1274–1356",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Shaikh Ahmad Sirhindi–1564–1624, Shaikh Salim Chishti–1478–1572, Nasiruddin Chirag-i-Dehlavi–1274–1356, and Mirabai–1498–1546."
+    },
+    {
+     "id": "indian-history-5-21",
+     "format": "Direct Recall",
+     "keyword": "Contemporary",
+     "question": "Tukaram was contemporary with which Mughal ruler?",
+     "options": [
+      "Harshavardhana",
+      "Dhanananda",
+      "Jahangir",
+      "Akbar"
+     ],
+     "answer": 2,
+     "explanation": "The table identifies Tukaram as a contemporary of Jahangir."
+    },
+    {
+     "id": "indian-history-5-22",
+     "format": "Direct Recall",
+     "keyword": "Visited – Person/Traveller",
+     "question": "During which period did Ralph Fitch visit India?",
+     "options": [
+      "1564–1624",
+      "1583–1586",
+      "1478–1572",
+      "1556–1605"
+     ],
+     "answer": 1,
+     "explanation": "Ralph Fitch visited India during 1583–1586."
+    },
+    {
+     "id": "indian-history-5-23",
+     "format": "List-Matching",
+     "keyword": "Contemporary",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Turamaya\n b. Ptolemy II\n c. Antiochus II\n d. Antigonus Gonatas\n\nList-II\n i. Contemporary of Ashoka\n ii. Contemporary of Ashoka\n iii. Contemporary of Ashoka\n iv. Contemporary of Ashoka",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Turamaya, Ptolemy II, Antiochus II and Antigonus Gonatas are each listed as contemporaries of Ashoka."
+    },
+    {
+     "id": "indian-history-5-24",
+     "format": "Count-Based",
+     "keyword": "Book",
+     "question": "How many of the following were important works of Ashvaghosha?\n\n1. Buddhacarita\n2. Saundarananda\n3. Harshacharita\n4. Mahabhashya",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Buddhacarita and Saundarananda were works of Ashvaghosha. Harshacharita was written by Banabhatta, while Mahabhashya was authored by Patanjali."
+    },
+    {
+     "id": "indian-history-5-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Contemporary",
+     "question": "Consider the following statements:\nI. Prasenjit, the king of Kosala, was a contemporary of Gautama Buddha.\nII. Mahavira, the Jain Tirthankara, was a contemporary of Gautama Buddha.\nIII. Makkhali Gosala, the leader of the Ajivika sect, was a contemporary of Gautama Buddha.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Prasenjit, Mahavira and Makkhali Gosala are identified as contemporaries of Gautama Buddha; their associated descriptions are king of Kosala, Jain Tirthankara and leader of the Ajivika sect, respectively."
+    },
+    {
+     "id": "indian-history-5-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Contemporary",
+     "question": "Consider the following statements:\nStatement A: The Indus Civilization was contemporary with Mesopotamia.\nStatement B: The Indus Civilization was contemporary with Egypt.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Indus Civilization is listed as contemporary with Mesopotamia and Egypt."
+    },
+    {
+     "id": "indian-history-5-27",
+     "format": "Assertion-Reason",
+     "keyword": "Contemporary",
+     "question": "Assertion (A): Akbar was a contemporary of Queen Elizabeth I.\nReason (R): Akbar's reign was 1556–1605, while Elizabeth I's reign was 1558–1603.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the periods given for Akbar and Elizabeth I overlap. Therefore, the reign periods correctly explain their contemporaneity."
     }
    ]
   },
@@ -1002,7 +2248,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:42+00:00",
+   "generated_at": "2026-09-29T07:11:22+00:00",
    "mcqs": [
     {
      "id": "indian-history-6-1",
@@ -1157,6 +2403,244 @@
      ],
      "answer": 3,
      "explanation": "The notes identify V.P. Menon as the author of The Story of the Integration of the Indian States."
+    },
+    {
+     "id": "indian-history-6-12",
+     "format": "Direct Recall",
+     "keyword": "Book",
+     "question": "Who authored Indica, the account associated with Mauryan India?",
+     "options": [
+      "Ashvaghosha",
+      "Nagasena",
+      "Vishakhadatta",
+      "Megasthenes"
+     ],
+     "answer": 3,
+     "explanation": "Indica was authored by Megasthenes and is associated with Mauryan India."
+    },
+    {
+     "id": "indian-history-6-13",
+     "format": "Assertion-Reason",
+     "keyword": "Mathematics & astronomy",
+     "question": "Assertion (A): Aryabhatiya is associated with mathematics and astronomy.\nReason (R): Aryabhatiya was authored by Aryabhata.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Aryabhatiya is associated with mathematics and astronomy, while Aryabhata is its author; the authorship does not itself explain the subject association."
+    },
+    {
+     "id": "indian-history-6-14",
+     "format": "List-Matching",
+     "keyword": "Book, Author",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Saundarananda\n(b) Mahabhashya\n(c) Mattavilasa Prahasana\n(d) Panchatantra\n\nList-II\n(i) Vishnu Sharma\n(ii) Patanjali\n(iii) Mahendravarman I\n(iv) Ashvaghosha",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Saundarananda–Ashvaghosha, Mahabhashya–Patanjali, Mattavilasa Prahasana–Mahendravarman I and Panchatantra–Vishnu Sharma."
+    },
+    {
+     "id": "indian-history-6-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Book, Author",
+     "question": "Consider the following statements:\nI. Siddhantasiromani was authored by Bhaskaracharya II.\nII. Manusmriti was authored by Manu.\nIII. Buddhacharita was authored by Patanjali.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and II are correct. Buddhacharita was authored by Ashvaghosha, not Patanjali."
+    },
+    {
+     "id": "indian-history-6-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Delhi Sultanate – Book",
+     "question": "Consider the following statements:\nStatement A: Taj-ul-Masir was authored by Hasan Nizami.\nStatement B: Tarikh-i-Mubarakshahi was authored by Yahya bin Ahmad Sarhindi.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Hasan Nizami authored Taj-ul-Masir, while Yahya bin Ahmad Sarhindi authored Tarikh-i-Mubarakshahi."
+    },
+    {
+     "id": "indian-history-6-17",
+     "format": "List-Matching",
+     "keyword": "Delhi Sultanate – Book",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tabqat-i-Nasiri\n(b) Khazain-ul-Futuh\n(c) Tarikh-i-Firuzshahi\n(d) Rihla\n\nList-II\n(i) Ibn Battuta\n(ii) Shams-i-Siraj Afif\n(iii) Minhaj-us-Siraj\n(iv) Amir Khusrau",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Tabqat-i-Nasiri–Minhaj-us-Siraj, Khazain-ul-Futuh–Amir Khusrau, Tarikh-i-Firuzshahi–Shams-i-Siraj Afif and Rihla–Ibn Battuta."
+    },
+    {
+     "id": "indian-history-6-18",
+     "format": "Direct Recall",
+     "keyword": "Mughal Empire – Book",
+     "question": "Who authored Ain-i-Akbari?",
+     "options": [
+      "Abdul Hamid Lahori",
+      "Gulbadan Begum",
+      "Abul Fazl",
+      "Abdul Qadir Badauni"
+     ],
+     "answer": 2,
+     "explanation": "Ain-i-Akbari was authored by Abul Fazl."
+    },
+    {
+     "id": "indian-history-6-19",
+     "format": "Assertion-Reason",
+     "keyword": "Mughal Empire – Book",
+     "question": "Assertion (A): Babur authored Baburnama, also known as Tuzuk-i-Baburi.\nReason (R): Tuzuk-i-Jahangiri was authored by Jahangir.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Jahangir’s authorship of Tuzuk-i-Jahangiri does not explain Babur’s authorship of Baburnama."
+    },
+    {
+     "id": "indian-history-6-20",
+     "format": "List-Matching",
+     "keyword": "Mughal Empire – Book",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Akbarnama\n(b) Baburnama\n(c) Padshahnama\n(d) Muntakhab-ut-Tawarikh\n\nList-II\n(i) Abdul Qadir Badauni\n(ii) Babur\n(iii) Abul Fazl\n(iv) Abdul Hamid Lahori",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Akbarnama–Abul Fazl, Baburnama–Babur, Padshahnama–Abdul Hamid Lahori and Muntakhab-ut-Tawarikh–Abdul Qadir Badauni."
+    },
+    {
+     "id": "indian-history-6-21",
+     "format": "Direct Recall",
+     "keyword": "Book, Author",
+     "question": "Who authored India for Indians?",
+     "options": [
+      "Jayaprakash Narayan",
+      "C.R. Das",
+      "Subhas Chandra Bose",
+      "S.N. Banerjee"
+     ],
+     "answer": 1,
+     "explanation": "India for Indians was authored by C.R. Das."
+    },
+    {
+     "id": "indian-history-6-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Modern India – Freedom Struggle",
+     "question": "Consider the following statements:\nI. A Nation in Making was authored by S.N. Banerjee.\nII. Towards Struggle was authored by Jayaprakash Narayan.\nIII. India Wins Freedom was authored by Maulana Abul Kalam Azad.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct according to the listed modern Indian works and their authors."
+    },
+    {
+     "id": "indian-history-6-23",
+     "format": "List-Matching",
+     "keyword": "1857 Revolt – Book",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) The Indian War of Independence, 1857\n(b) The Sepoy Mutiny and the Revolt of 1857\n(c) Civil Rebellion in the Indian Mutinies (1857–1859)\n(d) 1857: The Great Rebellion\n\nList-II\n(i) S.B. Chaudhuri\n(ii) R.C. Majumdar\n(iii) V.D. Savarkar\n(iv) Ashok Mehta",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are The Indian War of Independence, 1857–V.D. Savarkar, The Sepoy Mutiny and the Revolt of 1857–R.C. Majumdar, Civil Rebellion in the Indian Mutinies–S.B. Chaudhuri and 1857: The Great Rebellion–Ashok Mehta."
+    },
+    {
+     "id": "indian-history-6-24",
+     "format": "Assertion-Reason",
+     "keyword": "1857 Revolt – Book",
+     "question": "Assertion (A): The Indian War of Independence, 1857 was authored by V.D. Savarkar.\nReason (R): The work is listed among the books on the Revolt of 1857.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The work is listed under 1857 books, but that classification does not explain why V.D. Savarkar was its author."
+    },
+    {
+     "id": "indian-history-6-25",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Modern India – Other Books",
+     "question": "Consider the following statements:\nStatement A: Problems of the Far East was authored by George N. Curzon.\nStatement B: The Untold Story was authored by Brijmohan Kaul.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The listed authors are George N. Curzon for Problems of the Far East and Brijmohan Kaul for The Untold Story."
+    },
+    {
+     "id": "indian-history-6-26",
+     "format": "Count-Based",
+     "keyword": "Indian Authors — Literary Works",
+     "question": "How many of the following works were authored by Sharat Chandra Chattopadhyay?\n1. Charitraheen\n2. Srikant\n3. Shesh Prashna\n4. Gaban",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three works—Charitraheen, Srikant and Shesh Prashna—were authored by Sharat Chandra Chattopadhyay. Gaban was authored by Premchand."
+    },
+    {
+     "id": "indian-history-6-27",
+     "format": "List-Matching",
+     "keyword": "Indian Authors — Literary Works",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gaban\n(b) Priya Pravas\n(c) Shah Nama\n(d) Baiga\n\nList-II\n(i) Verrier Elwin\n(ii) Premchand\n(iii) Firdausi\n(iv) Ayodhya Prasad\n\nOptions:",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Gaban–Premchand, Priya Pravas–Ayodhya Prasad, Shah Nama–Firdausi and Baiga–Verrier Elwin."
+    },
+    {
+     "id": "indian-history-6-28",
+     "format": "List-Matching",
+     "keyword": "Post-Independence / Contemporary Books",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) New Dimensions of India's Foreign Policy\n(b) Living an Era\n(c) Foundation of Indian Culture\n(d) Ayodhya: 6 December, 1992\n\nList-II\n(i) P.V. Narasimha Rao\n(ii) D.P. Mishra\n(iii) Sri Aurobindo\n(iv) Atal Bihari Vajpayee",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are New Dimensions of India's Foreign Policy–Atal Bihari Vajpayee, Living an Era–D.P. Mishra, Foundation of Indian Culture–Sri Aurobindo and Ayodhya: 6 December, 1992–P.V. Narasimha Rao."
     }
    ]
   },
@@ -1173,7 +2657,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:59:57+00:00",
+   "generated_at": "2026-09-29T07:11:27+00:00",
    "mcqs": [
     {
      "id": "indian-history-7-1",
@@ -1244,6 +2728,216 @@
      ],
      "answer": 0,
      "explanation": "Statements I, II and IV are correct. Harijan was identified as an English journal associated with Gandhi, whereas Harijan Sewak was identified as Hindi."
+    },
+    {
+     "id": "indian-history-7-6",
+     "format": "Direct Recall",
+     "keyword": "Newspaper – Associated Person",
+     "question": "Samachar Chandrika was known for opposing which personality?",
+     "options": [
+      "Annie Besant",
+      "Rammohan Roy",
+      "Girish Chandra Ghosh",
+      "Ishwar Chandra Vidyasagar"
+     ],
+     "answer": 1,
+     "explanation": "Samachar Chandrika was associated with Bhavani Charan Bandyopadhyay and opposed Rammohan Roy."
+    },
+    {
+     "id": "indian-history-7-7",
+     "format": "Direct Recall",
+     "keyword": "Journal – Key Point",
+     "question": "Which newspaper was associated with the issue of indigo farmers?",
+     "options": [
+      "Hindoo Patriot",
+      "Samachar Chandrika",
+      "The Bengalee",
+      "Som Prakash"
+     ],
+     "answer": 3,
+     "explanation": "The key point associated with Som Prakash was indigo farmers."
+    },
+    {
+     "id": "indian-history-7-8",
+     "format": "Direct Recall",
+     "keyword": "Journal – Associated Person",
+     "question": "Who was associated with Som Prakash?",
+     "options": [
+      "Ishwar Chandra Vidyasagar",
+      "Bhavani Charan Bandyopadhyay",
+      "Ram Krishna Pillai",
+      "Girish Chandra Ghosh"
+     ],
+     "answer": 0,
+     "explanation": "Som Prakash was associated with Ishwar Chandra Vidyasagar."
+    },
+    {
+     "id": "indian-history-7-9",
+     "format": "Assertion-Reason",
+     "keyword": "Journal – Language",
+     "question": "Assertion (A): Kesari was associated with Tilak.\nReason (R): Kesari was a Marathi newspaper.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Kesari was associated with Tilak and was Marathi. However, its language does not explain its association with Tilak."
+    },
+    {
+     "id": "indian-history-7-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Journal – Key Point",
+     "question": "Consider the following statements:\nI. Ghadar was associated with the Ghadar Party.\nII. Ghadar was a revolutionary publication.\nIII. Ghadar was associated with Home Rule.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Ghadar was associated with the Ghadar Party and was revolutionary. Home Rule was the key point associated with New India."
+    },
+    {
+     "id": "indian-history-7-11",
+     "format": "Direct Recall",
+     "keyword": "Indian Opinion – Editor",
+     "question": "Who was identified as the first editor of Indian Opinion?",
+     "options": [
+      "Mahatma Gandhi",
+      "M.N. Roy",
+      "Mansukh Lal Hiralal Nazar",
+      "Aurobindo"
+     ],
+     "answer": 2,
+     "explanation": "Mansukh Lal Hiralal Nazar was identified as the first editor of Indian Opinion."
+    },
+    {
+     "id": "indian-history-7-12",
+     "format": "Assertion-Reason",
+     "keyword": "Journal – Non-violence",
+     "question": "Assertion (A): Young India was associated with Gandhi.\nReason (R): Non-violence was its key point.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Young India was associated with Gandhi, and non-violence was its key point. The reason does not explain the association."
+    },
+    {
+     "id": "indian-history-7-13",
+     "format": "Assertion-Reason",
+     "keyword": "Journal – Home Rule",
+     "question": "Assertion (A): New India was associated with Annie Besant.\nReason (R): Home Rule was its key point.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "New India was associated with Annie Besant and had Home Rule as its key point. The second statement does not explain the first."
+    },
+    {
+     "id": "indian-history-7-14",
+     "format": "List-Matching",
+     "keyword": "Journal – Language and Editor",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vande Matram\n(b) Swadeshabhimani\n(c) Harijan Bandhu\n(d) Harijan Sewak\n\nList-II\n(i) Gandhi — Gujarati\n(ii) Aurobindo — English weekly\n(iii) Gandhi — Hindi\n(iv) Ram Krishna Pillai — Editor",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Vande Matram–Aurobindo/English weekly, Swadeshabhimani–Ram Krishna Pillai/Editor, Harijan Bandhu–Gandhi/Gujarati, and Harijan Sewak–Gandhi/Hindi."
+    },
+    {
+     "id": "indian-history-7-15",
+     "format": "Direct Recall",
+     "keyword": "Journal – Associated Person",
+     "question": "Who was associated with Indian Nation?",
+     "options": [
+      "M.N. Roy",
+      "Ram Krishna Pillai",
+      "Kameshwar Singh",
+      "Swaminathan Sadanand"
+     ],
+     "answer": 2,
+     "explanation": "Indian Nation was associated with Kameshwar Singh."
+    },
+    {
+     "id": "indian-history-7-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Journal – Place and Year",
+     "question": "Consider the following statements:\nStatement A: Indian Nation was associated with Patna.\nStatement B: Indian Nation was associated with the year 1931.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Indian Nation was associated with Patna and 1931."
+    },
+    {
+     "id": "indian-history-7-17",
+     "format": "Direct Recall",
+     "keyword": "Newspaper – Type",
+     "question": "Which newspaper was described as an English daily?",
+     "options": [
+      "Vande Matram",
+      "Free Press Journal",
+      "Indian Nation",
+      "Kesari"
+     ],
+     "answer": 1,
+     "explanation": "Free Press Journal was described as an English daily."
+    },
+    {
+     "id": "indian-history-7-18",
+     "format": "Direct Recall",
+     "keyword": "Journal – Associated Person",
+     "question": "New Lamps for Old was associated with whom?",
+     "options": [
+      "Gandhi",
+      "Aurobindo",
+      "Tilak",
+      "M.N. Roy"
+     ],
+     "answer": 1,
+     "explanation": "New Lamps for Old was associated with Aurobindo."
+    },
+    {
+     "id": "indian-history-7-19",
+     "format": "Direct Recall",
+     "keyword": "Journal – Year",
+     "question": "During which period did Aurobindo write the articles of New Lamps for Old?",
+     "options": [
+      "1780",
+      "1931",
+      "1893–94",
+      "1862"
+     ],
+     "answer": 2,
+     "explanation": "The articles of New Lamps for Old were from 1893–94."
+    },
+    {
+     "id": "indian-history-7-20",
+     "format": "Direct Recall",
+     "keyword": "Journal",
+     "question": "Vanguard was identified as which of the following?",
+     "options": [
+      "An English daily",
+      "A Marathi newspaper",
+      "An Emigre Communist journal",
+      "A revolutionary publication"
+     ],
+     "answer": 2,
+     "explanation": "Vanguard was identified as an Emigre Communist journal."
     }
    ]
   },
@@ -1260,7 +2954,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:37+00:00",
+   "generated_at": "2026-09-29T07:11:32+00:00",
    "mcqs": [
     {
      "id": "indian-history-8-1",
@@ -1331,6 +3025,216 @@
      ],
      "answer": 2,
      "explanation": "All three statements are correct according to the notes: Annie Besant–The Commonweal–Home Rule; Raja Ram Mohan Roy–Samvad Kaumudi–Bengali–1821; and Lala Lajpat Rai–The People."
+    },
+    {
+     "id": "indian-history-8-6",
+     "format": "Direct Recall",
+     "keyword": "Newspaper – Association",
+     "question": "Kameshwar Singh of Darbhanga was associated with which newspaper?",
+     "options": [
+      "Dainik Aaj",
+      "Searchlight",
+      "The Pioneer",
+      "Indian Nation"
+     ],
+     "answer": 3,
+     "explanation": "Kameshwar Singh of Darbhanga was associated with Indian Nation, published from Patna in 1931."
+    },
+    {
+     "id": "indian-history-8-7",
+     "format": "Assertion-Reason",
+     "keyword": "Newspaper – Association",
+     "question": "Assertion (A): Bal Gangadhar Tilak was associated with both Kesari and Mahratta.\nReason (R): Kesari was a Marathi journal, while Mahratta was an English journal, and both were started in 1881.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The language and year details identify Tilak’s associations with Kesari and Mahratta."
+    },
+    {
+     "id": "indian-history-8-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Journal – Founder/Editor",
+     "question": "Consider the following statements:\nI. Girish Chandra Ghosh started Hindoo Patriot in 1853.\nII. Girish Chandra Ghosh started The Bengalee in 1862.\nIII. Harish Chandra Mukherjee was the editor of Hindoo Patriot and was associated with the Indigo Movement.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct according to the recorded associations of Girish Chandra Ghosh and Harish Chandra Mukherjee."
+    },
+    {
+     "id": "indian-history-8-9",
+     "format": "List-Matching",
+     "keyword": "Newspaper – Person/Place",
+     "question": "Match List-I with List-II:\nList-I\n(a) Mansukh Lal Hiralal\n(b) George Allen\n(c) Shiv Prasad Gupta\n(d) Ganesh Shankar Vidyarthi\n\nList-II\n(i) Pratap\n(ii) Nazar\n(iii) Dainik Aaj\n(iv) The Pioneer",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Mansukh Lal Hiralal–Nazar, George Allen–The Pioneer, Shiv Prasad Gupta–Dainik Aaj, and Ganesh Shankar Vidyarthi–Pratap."
+    },
+    {
+     "id": "indian-history-8-10",
+     "format": "Direct Recall",
+     "keyword": "Newspaper – Place",
+     "question": "Tarak Nath Das published Free Hindustan from which place or region?",
+     "options": [
+      "Allahabad",
+      "Patna",
+      "Calcutta",
+      "Vancouver / North America"
+     ],
+     "answer": 3,
+     "explanation": "Tarak Nath Das was associated with Free Hindustan, published from Vancouver / North America."
+    },
+    {
+     "id": "indian-history-8-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ghadar – Associated Persons",
+     "question": "Consider the following statements:\nStatement A: Sohan Singh Bhakna was associated with Ghadar and the Ghadar movement.\nStatement B: Kartar Singh Sarabha was associated with Ghadar and the Ghadar movement.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both Sohan Singh Bhakna and Kartar Singh Sarabha are listed in association with Ghadar and the Ghadar movement."
+    },
+    {
+     "id": "indian-history-8-12",
+     "format": "Direct Recall",
+     "keyword": "Journal – Language and Year",
+     "question": "Raja Ram Mohan Roy was associated with which Persian journal, published in 1822?",
+     "options": [
+      "Indian Mirror",
+      "Mirat-ul-Akhbar",
+      "Tahzeeb-ul-Akhlaq",
+      "Samvad Kaumudi"
+     ],
+     "answer": 1,
+     "explanation": "Raja Ram Mohan Roy was associated with Mirat-ul-Akhbar, a Persian journal published in 1822."
+    },
+    {
+     "id": "indian-history-8-13",
+     "format": "Direct Recall",
+     "keyword": "Journal – Association",
+     "question": "Devendranath Ghosh was associated with which journal?",
+     "options": [
+      "The Commonweal",
+      "Free Hindustan",
+      "The People",
+      "Indian Mirror"
+     ],
+     "answer": 3,
+     "explanation": "Devendranath Ghosh was associated with Indian Mirror, along with Manmohan Tagore, in Calcutta in 1861."
+    },
+    {
+     "id": "indian-history-8-14",
+     "format": "Direct Recall",
+     "keyword": "Journal – Language and Year",
+     "question": "Sir Syed Ahmad Khan was associated with which Urdu journal published in 1870?",
+     "options": [
+      "Tahzeeb-ul-Akhlaq",
+      "Kesari",
+      "Mirat-ul-Akhbar",
+      "Al-Hilal"
+     ],
+     "answer": 0,
+     "explanation": "Sir Syed Ahmad Khan was associated with Tahzeeb-ul-Akhlaq, an Urdu journal published in 1870."
+    },
+    {
+     "id": "indian-history-8-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Newspaper – Association",
+     "question": "Consider the following statements:\nStatement A: Lala Lajpat Rai was associated with The People.\nStatement B: Ram Krishna Pillai was the editor of Swadeshabhimani.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: Lala Lajpat Rai was associated with The People, while Ram Krishna Pillai was the editor of Swadeshabhimani."
+    },
+    {
+     "id": "indian-history-8-16",
+     "format": "Count-Based",
+     "keyword": "Journal – Language",
+     "question": "How many of the following journal-language pairs are correct?\n1. Al-Hilal — Urdu\n2. Kesari — Marathi\n3. Mahratta — English\n4. Mirat-ul-Akhbar — Bengali",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The first three pairs are correct. Mirat-ul-Akhbar was Persian, not Bengali; therefore, only three pairs are correct."
+    },
+    {
+     "id": "indian-history-8-17",
+     "format": "Direct Recall",
+     "keyword": "Newspaper – Association",
+     "question": "Mahatma Gandhi was associated with which newspaper that carried the themes of nationalism and non-violence?",
+     "options": [
+      "The Independent",
+      "The Leader",
+      "Young India",
+      "Indian Nation"
+     ],
+     "answer": 2,
+     "explanation": "Mahatma Gandhi was associated with Young India, linked with nationalism and non-violence."
+    },
+    {
+     "id": "indian-history-8-18",
+     "format": "List-Matching",
+     "keyword": "Journal – Person/Association",
+     "question": "Match List-I with List-II:\nList-I\n(a) Annie Besant\n(b) Raja Ram Mohan Roy\n(c) Sir Syed Ahmad Khan\n(d) Tarak Nath Das\n\nList-II\n(i) Tahzeeb-ul-Akhlaq\n(ii) Free Hindustan\n(iii) The Commonweal\n(iv) Mirat-ul-Akhbar",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Annie Besant–The Commonweal, Raja Ram Mohan Roy–Mirat-ul-Akhbar, Sir Syed Ahmad Khan–Tahzeeb-ul-Akhlaq, and Tarak Nath Das–Free Hindustan."
+    },
+    {
+     "id": "indian-history-8-19",
+     "format": "Assertion-Reason",
+     "keyword": "Journal – Founder/Editor",
+     "question": "Assertion (A): Hindoo Patriot had two distinct associations in the recorded newspaper details.\nReason (R): Girish Chandra Ghosh started it in 1853, while Harish Chandra Mukherjee was its editor and was associated with the Indigo Movement.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The entries distinguish Girish Chandra Ghosh as its starter and Harish Chandra Mukherjee as its editor associated with the Indigo Movement."
+    },
+    {
+     "id": "indian-history-8-20",
+     "format": "Direct Recall",
+     "keyword": "Newspaper",
+     "question": "Motilal Nehru was associated with which newspaper?",
+     "options": [
+      "Searchlight",
+      "Indian Nation",
+      "The Independent",
+      "The Leader"
+     ],
+     "answer": 2,
+     "explanation": "Motilal Nehru was associated with The Independent, published from Allahabad."
     }
    ]
   },
@@ -1346,7 +3250,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:36+00:00",
+   "generated_at": "2026-09-29T07:11:36+00:00",
    "mcqs": [
     {
      "id": "indian-history-9-1",
@@ -1417,6 +3321,216 @@
      ],
      "answer": 0,
      "explanation": "Both statements are correct according to the notes: Saka year + 78 = AD, while AD − 78 = Saka."
+    },
+    {
+     "id": "indian-history-9-6",
+     "format": "Direct Recall",
+     "keyword": "Era",
+     "question": "The Lakshmana Sena Era began in which year?",
+     "options": [
+      "319 AD",
+      "606 AD",
+      "248 AD",
+      "1119 AD"
+     ],
+     "answer": 3,
+     "explanation": "The Lakshmana Sena Era began in 1119 AD."
+    },
+    {
+     "id": "indian-history-9-7",
+     "format": "Direct Recall",
+     "keyword": "Era – Associated with",
+     "question": "The Lakshmana Sena Era is particularly associated with which region?",
+     "options": [
+      "Kashmir",
+      "Malwa",
+      "Bengal",
+      "Magadha"
+     ],
+     "answer": 2,
+     "explanation": "The notes associate the Lakshmana Sena Era with Bengal."
+    },
+    {
+     "id": "indian-history-9-8",
+     "format": "Direct Recall",
+     "keyword": "National Calendar",
+     "question": "Which era is identified as the National Calendar of India?",
+     "options": [
+      "Gupta Era",
+      "Vikrama Samvat",
+      "Saka Samvat",
+      "Harsha Era"
+     ],
+     "answer": 2,
+     "explanation": "The Saka Samvat is identified as the National Calendar of India."
+    },
+    {
+     "id": "indian-history-9-9",
+     "format": "Direct Recall",
+     "keyword": "Originator",
+     "question": "Who is associated with the origin of the Saka Samvat?",
+     "options": [
+      "Kanishka",
+      "Chandragupta I",
+      "Vikramaditya",
+      "Harshavardhana"
+     ],
+     "answer": 0,
+     "explanation": "The Saka Samvat is associated with Kanishka."
+    },
+    {
+     "id": "indian-history-9-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Calendar – Month",
+     "question": "Consider the following statements:\nStatement A: Chaitra is the first month of the Saka Calendar.\nStatement B: In a leap year, Chaitra 1 falls on 21 March.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes identify Chaitra as the first month of the Saka Calendar; Chaitra 1 falls on 22 March, and on 21 March in a leap year."
+    },
+    {
+     "id": "indian-history-9-11",
+     "format": "Assertion-Reason",
+     "keyword": "Vikrama Samvat – Origin",
+     "question": "Assertion (A): Vikrama Samvat is traditionally linked with victory over the Sakas.\nReason (R): Vikrama Samvat is also known as Krit Samvat and Malav Samvat.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the alternate names Krit Samvat and Malav Samvat do not explain its traditional association with victory over the Sakas."
+    },
+    {
+     "id": "indian-history-9-12",
+     "format": "Direct Recall",
+     "keyword": "Conversion",
+     "question": "Saka year 556 corresponds to which AD year?",
+     "options": [
+      "556 AD",
+      "634 BC",
+      "478 AD",
+      "634 AD"
+     ],
+     "answer": 3,
+     "explanation": "The notes explicitly give the conversion Saka 556 = 634 AD."
+    },
+    {
+     "id": "indian-history-9-13",
+     "format": "Direct Recall",
+     "keyword": "Conversion",
+     "question": "The year 2009 AD corresponds to which Saka year?",
+     "options": [
+      "2087 Saka",
+      "2009 Saka",
+      "1853 Saka",
+      "1931 Saka"
+     ],
+     "answer": 3,
+     "explanation": "The notes state that 2009 AD = 1931 Saka."
+    },
+    {
+     "id": "indian-history-9-14",
+     "format": "Direct Recall",
+     "keyword": "Saka → Vikrama",
+     "question": "Saka 465 corresponds to which Vikrama year, depending on the convention used?",
+     "options": [
+      "Vikrama 330/331",
+      "Vikrama 600/601",
+      "Vikrama 465/466",
+      "Vikrama 735/736"
+     ],
+     "answer": 1,
+     "explanation": "The notes give Saka 465 = Vikrama 600/601, depending on the convention."
+    },
+    {
+     "id": "indian-history-9-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Era – Originator",
+     "question": "Consider the following statements:\nI. The Kalachuri/Chedi Era is associated with the Kalachuris.\nII. The Gupta Era is associated with Chandragupta I.\nIII. The Harsha Era is associated with Harshavardhana.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements agree with the associations listed: Kalachuris with the Kalachuri/Chedi Era, Chandragupta I with the Gupta Era, and Harshavardhana with the Harsha Era."
+    },
+    {
+     "id": "indian-history-9-16",
+     "format": "List-Matching",
+     "keyword": "Era – Associated with",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vikrama Samvat\n(b) Saka Samvat\n(c) Kalachuri/Chedi Era\n(d) Harsha Era\n\nList-II\n(i) Harshavardhana\n(ii) Kanishka\n(iii) Vikramaditya\n(iv) Kalachuris",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Vikrama Samvat–Vikramaditya, Saka Samvat–Kanishka, Kalachuri/Chedi Era–Kalachuris, and Harsha Era–Harshavardhana."
+    },
+    {
+     "id": "indian-history-9-17",
+     "format": "Direct Recall",
+     "keyword": "Gupta Era – Founder",
+     "question": "Who is identified as the founder of the Gupta dynasty?",
+     "options": [
+      "Srigupta",
+      "Chandragupta I",
+      "Lakshmana Sena",
+      "Harshavardhana"
+     ],
+     "answer": 0,
+     "explanation": "Srigupta is identified as the founder of the Gupta dynasty."
+    },
+    {
+     "id": "indian-history-9-18",
+     "format": "Assertion-Reason",
+     "keyword": "Gupta Era",
+     "question": "Assertion (A): The Gupta Era is associated with the beginning of the Gupta imperial era.\nReason (R): Srigupta is identified as the founder of the Gupta dynasty.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true according to the notes, but identifying Srigupta as the founder does not explain the beginning of the Gupta imperial era."
+    },
+    {
+     "id": "indian-history-9-19",
+     "format": "Count-Based",
+     "keyword": "Calendar Rules",
+     "question": "How many of the following statements about the Saka Calendar are correct?\nI. Chaitra is its first month.\nII. Chaitra 1 falls on 22 March.\nIII. Chaitra 1 falls on 21 March in a leap year.\nIV. It is identified as the National Calendar of India.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are supported: Chaitra is the first month; Chaitra 1 is 22 March, or 21 March in a leap year; and the Saka Calendar is the National Calendar of India."
+    },
+    {
+     "id": "indian-history-9-20",
+     "format": "Direct Recall",
+     "keyword": "Era",
+     "question": "The Lakshmana Sena Era is associated with which ruler?",
+     "options": [
+      "Chandragupta I",
+      "Lakshmana Sena",
+      "Harshavardhana",
+      "Kanishka"
+     ],
+     "answer": 1,
+     "explanation": "The Lakshmana Sena Era is associated with Lakshmana Sena. It began in 1119 AD and is associated with Bengal."
     }
    ]
   },
@@ -1435,7 +3549,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:40+00:00",
+   "generated_at": "2026-09-29T07:11:38+00:00",
    "mcqs": [
     {
      "id": "indian-history-10-1",
@@ -1520,6 +3634,188 @@
      ],
      "answer": 1,
      "explanation": "The correct pairs are Gurjara-Pratihara–Kannauj, Paramara–Dhara, Solanki/Gujarat Chalukya–Anhilwada, and Kalachuri–Tripuri."
+    },
+    {
+     "id": "indian-history-10-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Capital",
+     "question": "Consider the following statements:\nI. Champa was the capital of Anga.\nII. Kaushambi was the capital of Vatsa.\nIII. Mathura was the capital of Surasena.\nIV. Viratnagar was the capital of Matsya.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: Anga–Champa, Vatsa–Kaushambi, Surasena–Mathura and Matsya–Viratnagar."
+    },
+    {
+     "id": "indian-history-10-8",
+     "format": "Assertion-Reason",
+     "keyword": "Capital",
+     "question": "Assertion (A): Avanti had two capitals, Ujjayini and Mahishmati.\nReason (R): Ujjayini was associated with northern Avanti, while Mahishmati was associated with southern Avanti.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The division of Avanti into northern and southern parts explains its association with Ujjayini and Mahishmati respectively."
+    },
+    {
+     "id": "indian-history-10-9",
+     "format": "Direct Recall",
+     "keyword": "Capital",
+     "question": "Vaishali was the capital of which Mahajanapada?",
+     "options": [
+      "Surasena",
+      "Vatsa",
+      "Matsya",
+      "Vajji"
+     ],
+     "answer": 3,
+     "explanation": "Vaishali was the capital of the Vajji Mahajanapada."
+    },
+    {
+     "id": "indian-history-10-10",
+     "format": "Direct Recall",
+     "keyword": "Capital",
+     "question": "Which of the following pairs correctly represents the capitals associated with the Gupta Empire?",
+     "options": [
+      "Tanjore and Gangaikondacholapuram",
+      "Pataliputra and Ujjain",
+      "Agra and Shahjahanabad",
+      "Kanchipuram and Vengi"
+     ],
+     "answer": 1,
+     "explanation": "The Gupta capitals listed are Pataliputra and Ujjain."
+    },
+    {
+     "id": "indian-history-10-11",
+     "format": "List-Matching",
+     "keyword": "Capital",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Pallava\n(b) Badami Chalukya\n(c) Eastern Chalukya\n(d) Chola\n\nList-II\n(i) Vengi\n(ii) Kanchipuram\n(iii) Tanjore\n(iv) Vatapi",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Pallava–Kanchipuram, Badami Chalukya–Vatapi, Eastern Chalukya–Vengi and Chola–Tanjore."
+    },
+    {
+     "id": "indian-history-10-12",
+     "format": "Direct Recall",
+     "keyword": "Capital",
+     "question": "What was the capital of the Kalyani Chalukyas?",
+     "options": [
+      "Vengi",
+      "Vatapi",
+      "Kalyani",
+      "Dhara"
+     ],
+     "answer": 2,
+     "explanation": "Kalyani was the capital of the Kalyani Chalukyas."
+    },
+    {
+     "id": "indian-history-10-13",
+     "format": "List-Matching",
+     "keyword": "Capital",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Chandela\n(b) Sena\n(c) Delhi Sultanate\n(d) Mughal\n\nList-II\n(i) Delhi\n(ii) Khajuraho region\n(iii) Nadia / Nabadwip\n(iv) Agra / Delhi and other imperial centres",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Chandela–Khajuraho region, Sena–Nadia/Nabadwip, Delhi Sultanate–Delhi and Mughal–Agra/Delhi and other imperial centres."
+    },
+    {
+     "id": "indian-history-10-14",
+     "format": "Direct Recall",
+     "keyword": "Capital",
+     "question": "Delhi was the main political centre of which power?",
+     "options": [
+      "Bahmani Kingdom",
+      "Paramara kingdom",
+      "Sena kingdom",
+      "Delhi Sultanate"
+     ],
+     "answer": 3,
+     "explanation": "Delhi was the main political centre of the Delhi Sultanate."
+    },
+    {
+     "id": "indian-history-10-15",
+     "format": "Assertion-Reason",
+     "keyword": "Capital",
+     "question": "Assertion (A): Agra and Delhi were among the imperial centres of the Mughal Empire.\nReason (R): Akbar was associated with Agra, Fatehpur Sikri and Lahore, while Shah Jahan was associated with Delhi or Shahjahanabad.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the capitals associated with Akbar and Shah Jahan explain the Mughal use of Agra and Delhi among its imperial centres."
+    },
+    {
+     "id": "indian-history-10-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Capital",
+     "question": "Consider the following statements:\nI. Raigad was associated with Shivaji.\nII. Pune was associated with Peshwa power.\nIII. Raigad was the seat of Peshwa power.\nIV. Pune was associated with Shivaji.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "III and IV only",
+      "II and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct: Shivaji was associated with Raigad, and Peshwa power was associated with Pune."
+    },
+    {
+     "id": "indian-history-10-17",
+     "format": "Direct Recall",
+     "keyword": "Capital shift",
+     "question": "Who shifted the capital from Delhi to Daulatabad and then back to Delhi?",
+     "options": [
+      "Chandragupta II",
+      "Harshavardhana",
+      "Udayin",
+      "Muhammad bin Tughlaq"
+     ],
+     "answer": 3,
+     "explanation": "The capital shift from Delhi to Daulatabad and then back to Delhi is associated with Muhammad bin Tughlaq."
+    },
+    {
+     "id": "indian-history-10-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Capital",
+     "question": "Consider the following statements:\nStatement A: Ujjain became an important centre under Chandragupta II.\nStatement B: Pataliputra was associated with the Gupta Empire.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ujjain became an important centre under Chandragupta II, and Pataliputra was one of the capitals associated with the Gupta Empire."
+    },
+    {
+     "id": "indian-history-10-19",
+     "format": "Count-Based",
+     "keyword": "Capital",
+     "question": "How many of the following pairs are correctly matched?\n1. Paramara — Dhara\n2. Kalachuri — Tripuri\n3. Solanki — Anhilwada / Anahilapataka\n4. Gurjara-Pratihara — Kannauj",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four pairs are correctly matched: Paramara–Dhara, Kalachuri–Tripuri, Solanki–Anhilwada/Anahilapataka and Gurjara-Pratihara–Kannauj."
     }
    ]
   },
@@ -1654,7 +3950,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:41+00:00",
+   "generated_at": "2026-09-29T07:11:34+00:00",
    "mcqs": [
     {
      "id": "indian-history-12-1",
@@ -1739,6 +4035,216 @@
      ],
      "answer": 3,
      "explanation": "All four statements are correct according to the notes: Gupta gold coins were Dinara/Dinar, silver coins were Rupaka, the major Gupta coin hoard was at Bayana or Bharatpur in Rajasthan, and Chandragupta II's silver coins were linked with victory over the Sakas."
+    },
+    {
+     "id": "indian-history-12-7",
+     "format": "Direct Recall",
+     "keyword": "Metal",
+     "question": "The coins of Strato II, an Indo-Greek ruler, were made of which metal?",
+     "options": [
+      "Silver",
+      "Gold",
+      "Lead",
+      "Copper"
+     ],
+     "answer": 2,
+     "explanation": "Strato II is associated with important Indo-Greek lead coins."
+    },
+    {
+     "id": "indian-history-12-8",
+     "format": "Direct Recall",
+     "keyword": "Bairat — Coin discovery",
+     "question": "The discovery at Bairat is associated with how many coins of Menander?",
+     "options": [
+      "20",
+      "35",
+      "16",
+      "12"
+     ],
+     "answer": 2,
+     "explanation": "The Bairat coin discovery consisted of 16 coins of Menander."
+    },
+    {
+     "id": "indian-history-12-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Gold circulation",
+     "question": "Consider the following statements:\nStatement A: Indo-Greek rulers introduced the circulation of gold coins in north-western India.\nStatement B: The notes associate the introduction of gold circulation in north-western India with the Indo-Greek rulers.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes state that Indo-Greek rulers introduced the circulation of gold coins in north-western India."
+    },
+    {
+     "id": "indian-history-12-10",
+     "format": "List-Matching",
+     "keyword": "Coins – Features",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Yaudheyas\n(b) Saka-Kshatrapas\n(c) Chastana\n(d) Iltutmish\n\nList-II\n(i) Gold-silver ratio of 1:35\n(ii) Regular coinage with Delhi as capital\n(iii) Standing Kartikeya with a peacock\n(iv) Silver and copper coins, with copper relatively rare",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Yaudheyas–standing Kartikeya with a peacock, Saka-Kshatrapas–1:35 ratio, Chastana–silver and relatively rare copper, and Iltutmish–regular coinage with Delhi as capital."
+    },
+    {
+     "id": "indian-history-12-11",
+     "format": "Direct Recall",
+     "keyword": "Gold : Silver ratio",
+     "question": "What was the gold-to-silver ratio associated with the Saka-Kshatrapas?",
+     "options": [
+      "1:10",
+      "1:50",
+      "1:35",
+      "1:16"
+     ],
+     "answer": 2,
+     "explanation": "The gold-to-silver ratio of the Saka-Kshatrapas was 1:35."
+    },
+    {
+     "id": "indian-history-12-12",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Coins – Features",
+     "question": "Which of the following statements about Chastana is incorrect?",
+     "options": [
+      "Chastana is associated with the Karddamaka line.",
+      "Chastana issued silver and copper coins.",
+      "Chastana issued only gold coins.",
+      "Copper coins of Chastana were relatively rare."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that Chastana issued only gold coins. The notes mention his silver and copper coins, with copper relatively rare."
+    },
+    {
+     "id": "indian-history-12-13",
+     "format": "Assertion-Reason",
+     "keyword": "Coin / Coinage",
+     "question": "Assertion (A): Potin was used in Satavahana coinage.\nReason (R): Potin was an alloy or mixture of copper, silver and lead.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the composition of potin explains its identification as an alloy or mixture used in Satavahana coinage."
+    },
+    {
+     "id": "indian-history-12-14",
+     "format": "Direct Recall",
+     "keyword": "First Gupta coin issuer",
+     "question": "Who was the first Gupta ruler to issue coins?",
+     "options": [
+      "Iltutmish",
+      "Vima Kadphises",
+      "Chandragupta II",
+      "Chandragupta I"
+     ],
+     "answer": 3,
+     "explanation": "Chandragupta I was the first Gupta ruler to issue coins."
+    },
+    {
+     "id": "indian-history-12-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Silver Rupaka",
+     "question": "Consider the following statements:\nI. Chandragupta I was the first Gupta ruler to issue coins.\nII. Chandragupta II's silver coins were associated with victory over the Sakas.\nIII. Chandragupta II was known as Sakari.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Chandragupta I was the first Gupta coin issuer, while Chandragupta II's silver coins were linked with victory over the Sakas and he was known as Sakari."
+    },
+    {
+     "id": "indian-history-12-16",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Maximum coins found",
+     "question": "Which of the following statements is incorrect regarding the major Gupta coin hoard?",
+     "options": [
+      "Bayana is associated with Bharatpur.",
+      "Bayana is in Rajasthan.",
+      "A major Gupta coin hoard was found at Bayana.",
+      "The major Gupta coin hoard was found at Delhi."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect detail is the location Delhi. The major Gupta coin hoard was found at Bayana, Bharatpur, Rajasthan."
+    },
+    {
+     "id": "indian-history-12-17",
+     "format": "Direct Recall",
+     "keyword": "Silver currency",
+     "question": "The silver coin of Iltutmish mentioned in the notes weighed how much?",
+     "options": [
+      "175 grams",
+      "100 grams",
+      "16 grams",
+      "35 grams"
+     ],
+     "answer": 0,
+     "explanation": "The silver currency of Iltutmish is mentioned as weighing 175 grams."
+    },
+    {
+     "id": "indian-history-12-18",
+     "format": "Direct Recall",
+     "keyword": "Coins – Religious motif",
+     "question": "Which Muslim ruler's coins bore the image of Lakshmi?",
+     "options": [
+      "Kanishka",
+      "Iltutmish",
+      "Muhammad Ghori",
+      "Chandragupta II"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify Muhammad Ghori as the Muslim ruler whose coins bore Lakshmi."
+    },
+    {
+     "id": "indian-history-12-19",
+     "format": "Assertion-Reason",
+     "keyword": "Khalifa's coins",
+     "question": "Assertion (A): Iltutmish's coins bore the Khalifa's name after his recognition by the Abbasid Caliph.\nReason (R): Recognition by the Abbasid Caliph preceded the appearance of the Khalifa's name on Iltutmish's coins.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the recognition by the Abbasid Caliph explains why the Khalifa's name appeared on Iltutmish's coins."
+    },
+    {
+     "id": "indian-history-12-20",
+     "format": "Count-Based",
+     "keyword": "Gold circulation",
+     "question": "How many of the following statements are correct?\nI. Kushana gold coins circulated on a wider, regular and large scale.\nII. Kushana copper coins circulated extensively.\nIII. Lead was a major metal in Satavahana coinage.\nIV. Gold was a major metal in Satavahana coinage.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Gold was not used in Satavahana coinage according to the notes, so statement IV is incorrect."
+    },
+    {
+     "id": "indian-history-12-21",
+     "format": "Direct Recall",
+     "keyword": "Coins",
+     "question": "The early Kushana copper coinage is associated with which ruler?",
+     "options": [
+      "Chastana",
+      "Kujula Kadphises",
+      "Vima Kadphises",
+      "Kanishka"
+     ],
+     "answer": 1,
+     "explanation": "Kujula Kadphises is associated with early Kushana copper coinage. His coins were made of copper."
     }
    ]
   },
@@ -2203,7 +4709,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:55:48+00:00",
+   "generated_at": "2026-09-29T07:11:35+00:00",
    "mcqs": [
     {
      "id": "indian-history-16-1",
@@ -2288,6 +4794,174 @@
      ],
      "answer": 2,
      "explanation": "All three statements are supported by the notes: Jaunpur had the sobriquet Shiraz-i-Hind during the Sharqi period, Rupnagar was earlier called Ropar, and Pundravardhana Bhukti was the ancient territorial designation of North Bengal."
+    },
+    {
+     "id": "indian-history-16-7",
+     "format": "Direct Recall",
+     "keyword": "Ancient name",
+     "question": "Kannauj was known by which ancient name?",
+     "options": [
+      "Mahodaya Shri",
+      "Mahotsav Nagar",
+      "Shiraz-i-Hind",
+      "Jejakabhukti"
+     ],
+     "answer": 0,
+     "explanation": "Kannauj is associated with the ancient name Mahodaya Shri."
+    },
+    {
+     "id": "indian-history-16-8",
+     "format": "Direct Recall",
+     "keyword": "Place – Associated with",
+     "question": "Mahodaya Shri is associated with which historical personality?",
+     "options": [
+      "Genghis Khan",
+      "Mihir Bhoj",
+      "Muhammad-bin-Tughluq",
+      "Jayashakti"
+     ],
+     "answer": 1,
+     "explanation": "Mahodaya Shri is associated with Mihir Bhoj."
+    },
+    {
+     "id": "indian-history-16-9",
+     "format": "List-Matching",
+     "keyword": "Ancient regional name",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Bundelkhand\n(b) Aligarh\n(c) Mahoba\n(d) Muhammad-bin-Tughluq\n\nList-II\n(i) Jauna Khan\n(ii) Koil\n(iii) Jejakabhukti\n(iv) Mahotsav Nagar",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Bundelkhand was known as Jejakabhukti, Aligarh as Koil, Mahoba as Mahotsav Nagar, and Muhammad-bin-Tughluq as Jauna Khan."
+    },
+    {
+     "id": "indian-history-16-10",
+     "format": "Direct Recall",
+     "keyword": "Original name",
+     "question": "What was the original or personal name of Muhammad-bin-Tughluq?",
+     "options": [
+      "Manikarnika",
+      "Temuchin",
+      "Jauna Khan",
+      "Mihir Bhoj"
+     ],
+     "answer": 2,
+     "explanation": "Muhammad-bin-Tughluq's original or personal name was Jauna Khan."
+    },
+    {
+     "id": "indian-history-16-11",
+     "format": "Direct Recall",
+     "keyword": "Original name",
+     "question": "Genghis Khan was originally known by which name?",
+     "options": [
+      "Jayashakti",
+      "Manikarnika",
+      "Temujin or Temuchin",
+      "Jauna Khan"
+     ],
+     "answer": 2,
+     "explanation": "Temujin or Temuchin was the original name of Genghis Khan."
+    },
+    {
+     "id": "indian-history-16-12",
+     "format": "List-Matching",
+     "keyword": "Vedic/Rigvedic name",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Chenab\n(b) Beas\n(c) Ravi\n(d) Jhelum\n\nList-II\n(i) Vitasta\n(ii) Vipasa\n(iii) Asakini\n(iv) Parushni",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The Vedic/Rigvedic names were Chenab–Asakini, Beas–Vipasa, Ravi–Parushni, and Jhelum–Vitasta."
+    },
+    {
+     "id": "indian-history-16-13",
+     "format": "Assertion-Reason",
+     "keyword": "Saraswati – Title",
+     "question": "Assertion (A): Saraswati was described by more than one title in the Rigvedic context.\nReason (R): Saraswati was called Matetama, Devitama and Naditama.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The three titles explain why Saraswati was described by more than one title: Matetama, Devitama and Naditama."
+    },
+    {
+     "id": "indian-history-16-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Saraswati – Title",
+     "question": "Consider the following statements:\nStatement A: Saraswati was called Matetama, meaning “Best of all mothers.”\nStatement B: Saraswati was called Devitama, meaning “Best of all rivers.”",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Matetama means “Best of all mothers,” whereas Devitama means “Best of all goddesses,” not “Best of all rivers.”"
+    },
+    {
+     "id": "indian-history-16-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mahanadi – Ancient name",
+     "question": "Consider the following statements:\nI. Chitrotpala is the name of Mahanadi found in the Mahabharata.\nII. Nilotapala is the name of Mahanadi found in the Vayu Purana.\nIII. Chitrotpala is the name of Mahanadi found in the Matsya Purana.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: Mahanadi is called Chitrotpala in the Mahabharata and Matsya Purana, and Nilotapala in the Vayu Purana."
+    },
+    {
+     "id": "indian-history-16-16",
+     "format": "Direct Recall",
+     "keyword": "Ancient name",
+     "question": "Which name of the Indus is associated with its importance?",
+     "options": [
+      "Hiranyayi",
+      "Chitrotpala",
+      "Shutudri",
+      "Naditama"
+     ],
+     "answer": 0,
+     "explanation": "Hiranyayi is the name associated with the importance of the Indus."
+    },
+    {
+     "id": "indian-history-16-17",
+     "format": "Assertion-Reason",
+     "keyword": "Ancient geographical terminology",
+     "question": "Assertion (A): Brahmarshi Desh was an ancient geographical terminology.\nReason (R): Brahmarshi Desh referred to the land of seven rivers.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 2,
+     "explanation": "Brahmarshi Desh was an ancient geographical terminology, but the land of seven rivers was called Sapta-Sindhu."
+    },
+    {
+     "id": "indian-history-16-18",
+     "format": "Count-Based",
+     "keyword": "Ancient geographical terminology",
+     "question": "How many of the following are ancient geographical terms or territorial designations?\n1. Brahmarshi Desh\n2. Sapta-Sindhu\n3. Pundravardhana Bhukti\n4. Koil",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Brahmarshi Desh, Sapta-Sindhu and Pundravardhana Bhukti are ancient geographical or territorial designations. Koil was an early-medieval name of Aligarh."
     }
    ]
   },

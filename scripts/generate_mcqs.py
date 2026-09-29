@@ -82,7 +82,9 @@ def norm(s: str) -> str:
     return "".join(ch for ch in s.lower() if ch.isalnum())
 
 
-def clean_mcqs(raw: list[dict], subject_slug: str, sheet_id: str, existing: list[dict] = ()) -> list[dict]:
+def clean_mcqs(
+    raw: list[dict], subject_slug: str, sheet_id: str, existing: list[dict] = (), fact_ids: set[str] | None = None
+) -> list[dict]:
     """Validate model output, drop repeats of existing questions, shuffle option order."""
     out, seen = [], {norm(q["question"]) for q in existing}
     for q in raw:
@@ -104,6 +106,10 @@ def clean_mcqs(raw: list[dict], subject_slug: str, sheet_id: str, existing: list
         if fmt not in FIXED_OPTION_FORMATS:
             seed = int(hashlib.sha1(q["question"].encode()).hexdigest()[:8], 16)
             random.Random(seed).shuffle(opts)
+        if fact_ids is not None:
+            linked = [f for f in dict.fromkeys(q.get("fact_ids", [])) if f in fact_ids]
+            if not linked:
+                continue  # coverage questions must test at least one listed fact
         out.append(
             {
                 "id": f"{subject_slug}-{sheet_id}-{len(existing) + len(out) + 1}",
@@ -113,6 +119,7 @@ def clean_mcqs(raw: list[dict], subject_slug: str, sheet_id: str, existing: list
                 "options": opts,
                 "answer": opts.index(answer),
                 "explanation": q["explanation"].strip(),
+                **({"facts": linked} if fact_ids is not None else {}),
             }
         )
     return out
