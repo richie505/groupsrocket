@@ -162,7 +162,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:00:01+00:00",
+   "generated_at": "2026-09-29T07:09:43+00:00",
    "mcqs": [
     {
      "id": "ap-history-2-1",
@@ -1252,7 +1252,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T06:54:46+00:00",
+   "generated_at": "2026-09-29T07:09:43+00:00",
    "mcqs": [
     {
      "id": "ap-history-14-1",
@@ -1323,6 +1323,20 @@
      ],
      "answer": 1,
      "explanation": "Statements I, III and IV agree with the notes. Statement II is incorrect because nickel was not used by the Satavahanas."
+    },
+    {
+     "id": "ap-history-14-6",
+     "format": "Direct Recall",
+     "keyword": "Coins",
+     "question": "Who issued crores of gold coins?",
+     "options": [
+      "Pulomavi of the Satavahana dynasty",
+      "A Kakatiya ruler",
+      "Santamula-I of the Ikshvaku dynasty",
+      "Yagnasri of the Satavahana dynasty"
+     ],
+     "answer": 2,
+     "explanation": "The notes state that Santamula-I of the Ikshvaku dynasty issued crores of gold coins."
     }
    ]
   },
@@ -1963,7 +1977,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:00:08+00:00",
+   "generated_at": "2026-09-29T07:09:49+00:00",
    "mcqs": [
     {
      "id": "ap-history-22-1",
@@ -2034,6 +2048,62 @@
      ],
      "answer": 0,
      "explanation": "Both statements are true: Dimsa is associated with the Araku Valley Girijans, and Gurram Jashuva wrote Gabbilam."
+    },
+    {
+     "id": "ap-history-22-6",
+     "format": "Direct Recall",
+     "keyword": "Song Author / Detail",
+     "question": "Who authored the Telugu song ‘Yenki’?",
+     "options": [
+      "Garimella Satyanarayana",
+      "Gurram Jashuva",
+      "Subba Rao",
+      "Allasani Peddana"
+     ],
+     "answer": 2,
+     "explanation": "‘Yenki’ was authored by Subba Rao in Telugu."
+    },
+    {
+     "id": "ap-history-22-7",
+     "format": "Direct Recall",
+     "keyword": "RULER – period – contribution",
+     "question": "Which of the following descriptions is associated with Pedakomati Vema Reddy?",
+     "options": [
+      "The court poet of Krishnadevaraya",
+      "A Reddy king skilled in music",
+      "A poet known as Kavisarvabhauma",
+      "The last of the Kavitrayam"
+     ],
+     "answer": 1,
+     "explanation": "Pedakomati Vema Reddy is described as a Reddy king skilled in music."
+    },
+    {
+     "id": "ap-history-22-8",
+     "format": "List-Matching",
+     "keyword": "Title",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Errana\n(b) Srinatha\n(c) Allasani Peddana\n(d) Ketana\n\nList-II\n(i) Abhinava Dandi\n(ii) Court poet of Krishnadevaraya\n(iii) Last of Kavitrayam\n(iv) Kavisarvabhauma",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Errana was the last of Kavitrayam; Srinatha was Kavisarvabhauma; Allasani Peddana was the court poet of Krishnadevaraya; and Ketana was known as Abhinava Dandi."
+    },
+    {
+     "id": "ap-history-22-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Title",
+     "question": "Consider the following statements:\n\nI. Srinatha was known as Kavisarvabhauma.\nII. Ketana was known as Abhinava Dandi.\nIII. Errana was the last of Kavitrayam.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: Srinatha was Kavisarvabhauma, Ketana was Abhinava Dandi, and Errana was the last of Kavitrayam."
     }
    ]
   },
