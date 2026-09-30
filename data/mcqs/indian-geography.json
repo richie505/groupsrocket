@@ -9444,7 +9444,11 @@
       "Dover"
      ],
      "answer": 2,
-     "explanation": "The 10° Channel separates the Andaman Islands from the Nicobar Islands."
+     "explanation": "The 10° Channel separates the Andaman Islands from the Nicobar Islands.",
+     "facts": [
+      "F1",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-25-2",
@@ -9458,7 +9462,10 @@
       "Indonesia and Malaysia"
      ],
      "answer": 1,
-     "explanation": "The Palk Strait is located between India and Sri Lanka."
+     "explanation": "The Palk Strait is located between India and Sri Lanka.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-25-3",
@@ -9472,7 +9479,10 @@
       "Gibraltar"
      ],
      "answer": 3,
-     "explanation": "The Strait of Gibraltar separates Africa from Europe."
+     "explanation": "The Strait of Gibraltar separates Africa from Europe.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-25-4",
@@ -9486,7 +9496,10 @@
       "Asia and North America"
      ],
      "answer": 1,
-     "explanation": "The Malacca Strait lies between Indonesia and Malaysia."
+     "explanation": "The Malacca Strait lies between Indonesia and Malaysia.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-25-5",
@@ -9500,7 +9513,10 @@
       "Hormuz"
      ],
      "answer": 0,
-     "explanation": "The Bering Strait separates Asia from North America."
+     "explanation": "The Bering Strait separates Asia from North America.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-25-6",
@@ -9514,7 +9530,10 @@
       "Bay of Bengal and Andaman Sea"
      ],
      "answer": 2,
-     "explanation": "The Strait of Hormuz is located between the Persian Gulf and the Gulf of Oman."
+     "explanation": "The Strait of Hormuz is located between the Persian Gulf and the Gulf of Oman.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-25-7",
@@ -9528,7 +9547,10 @@
       "Bay of Bengal and Andaman Sea"
      ],
      "answer": 1,
-     "explanation": "Dover is associated with the English Channel and the North Sea."
+     "explanation": "Dover is associated with the English Channel and the North Sea.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-25-8",
@@ -9542,7 +9564,12 @@
       "The 10° Channel separates the Andaman group from the Nicobar group."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the latitude. The 10° Channel lies approximately along 10° North latitude, not 10° South latitude."
+     "explanation": "The incorrect detail is the latitude. The 10° Channel lies approximately along 10° North latitude, not 10° South latitude.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-25-9",
@@ -9556,7 +9583,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the approximate latitude does not explain the separation of the Andaman and Nicobar groups."
+     "explanation": "Both statements are true, but the approximate latitude does not explain the separation of the Andaman and Nicobar groups.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-25-10",
@@ -9570,7 +9601,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both A and R are true. The stated latitude does not explain the broader regional location of the 10° Channel."
+     "explanation": "Both A and R are true. The stated latitude does not explain the broader regional location of the 10° Channel.",
+     "facts": [
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-25-11",
@@ -9584,7 +9619,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the location of the Malacca Strait does not explain the separation made by the Bering Strait."
+     "explanation": "Both statements are true, but the location of the Malacca Strait does not explain the separation made by the Bering Strait.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-25-12",
@@ -9598,7 +9637,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Gibraltar is between Africa and Europe, while Malacca is between Indonesia and Malaysia."
+     "explanation": "Both statements are correct: Gibraltar is between Africa and Europe, while Malacca is between Indonesia and Malaysia.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-25-13",
@@ -9612,7 +9655,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the stated channel and strait locations."
+     "explanation": "Both statements are true according to the stated channel and strait locations.",
+     "facts": [
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-25-14",
@@ -9626,7 +9673,13 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Statement III is incorrect because the Indonesia–Malaysia location belongs to the Malacca Strait."
+     "explanation": "Statements I and II are correct. Statement III is incorrect because the Indonesia–Malaysia location belongs to the Malacca Strait.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-25-15",
@@ -9640,7 +9693,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct: Gibraltar is between Africa and Europe, Hormuz is between the Persian Gulf and Gulf of Oman, and Dover is associated with the English Channel and North Sea."
+     "explanation": "All three statements are correct: Gibraltar is between Africa and Europe, Hormuz is between the Persian Gulf and Gulf of Oman, and Dover is associated with the English Channel and North Sea.",
+     "facts": [
+      "F3",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-25-16",
@@ -9654,7 +9712,14 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are 10° Channel–Andaman/Nicobar, Palk–India/Sri Lanka, Gibraltar–Africa/Europe, and Malacca–Indonesia/Malaysia."
+     "explanation": "The correct pairs are 10° Channel–Andaman/Nicobar, Palk–India/Sri Lanka, Gibraltar–Africa/Europe, and Malacca–Indonesia/Malaysia.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-25-17",
@@ -9668,7 +9733,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Bering–Asia/North America, Hormuz–Persian Gulf/Gulf of Oman, Dover–English Channel/North Sea, and 10° Channel–Bay of Bengal/Andaman Sea region."
+     "explanation": "The correct pairs are Bering–Asia/North America, Hormuz–Persian Gulf/Gulf of Oman, Dover–English Channel/North Sea, and 10° Channel–Bay of Bengal/Andaman Sea region.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-25-18",
@@ -9682,7 +9753,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. The Bering Strait separates Asia from North America, not Asia from Europe; therefore, only three pairs are correct."
+     "explanation": "The first three pairs are correct. The Bering Strait separates Asia from North America, not Asia from Europe; therefore, only three pairs are correct.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-25-19",
@@ -9696,7 +9773,10 @@
       "Palk Strait"
      ],
      "answer": 2,
-     "explanation": "The waterway is named the 10° Channel, while Palk, Gibraltar and Bering are listed as straits."
+     "explanation": "The waterway is named the 10° Channel, while Palk, Gibraltar and Bering are listed as straits.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-25-20",
@@ -9710,9 +9790,20 @@
       "All four"
      ],
      "answer": 0,
-     "explanation": "Only Hormuz has a location involving gulfs: the Persian Gulf and the Gulf of Oman. Dover, Gibraltar and Malacca are associated with other water bodies or regions."
+     "explanation": "Only Hormuz has a location involving gulfs: the Persian Gulf and the Gulf of Oman. Dover, Gibraltar and Malacca are associated with other water bodies or regions.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -13055,7 +13146,11 @@
       "Bikaner, Rajasthan"
      ],
      "answer": 0,
-     "explanation": "Kutch in Gujarat is the largest district by area, covering 45,674 km²."
+     "explanation": "Kutch in Gujarat is the largest district by area, covering 45,674 km².",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-34-2",
@@ -13069,7 +13164,12 @@
       "Kutch is the largest district by area."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Gujarat is the largest state by area. The largest state by area is Rajasthan."
+     "explanation": "The incorrect statement is that Gujarat is the largest state by area. The largest state by area is Rajasthan.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-34-3",
@@ -13083,7 +13183,10 @@
       "Narmada basin"
      ],
      "answer": 1,
-     "explanation": "The Ganga basin is identified as the largest river basin in India."
+     "explanation": "The Ganga basin is identified as the largest river basin in India.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-34-4",
@@ -13097,7 +13200,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Wular Lake is the largest freshwater lake in India. Chilika Lake is the largest brackish-water lagoon, not the largest freshwater lake."
+     "explanation": "Wular Lake is the largest freshwater lake in India. Chilika Lake is the largest brackish-water lagoon, not the largest freshwater lake.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-34-5",
@@ -13111,7 +13218,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Wular Lake—largest freshwater lake; Chilika Lake—largest brackish-water lagoon; Sambhar Lake—largest salt-water lake; Ganga basin—largest river basin."
+     "explanation": "The correct pairs are: Wular Lake—largest freshwater lake; Chilika Lake—largest brackish-water lagoon; Sambhar Lake—largest salt-water lake; Ganga basin—largest river basin.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-34-6",
@@ -13125,7 +13238,10 @@
       "Wular Lake"
      ],
      "answer": 0,
-     "explanation": "Chilika Lake is the largest brackish-water lagoon."
+     "explanation": "Chilika Lake is the largest brackish-water lagoon.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-34-7",
@@ -13139,7 +13255,10 @@
       "Sundarbans / Ganga–Brahmaputra Delta"
      ],
      "answer": 3,
-     "explanation": "The Sundarbans, also called the Ganga–Brahmaputra Delta, is the largest delta."
+     "explanation": "The Sundarbans, also called the Ganga–Brahmaputra Delta, is the largest delta.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-34-8",
@@ -13153,7 +13272,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly restates the identification of the Thar Desert as the largest desert."
+     "explanation": "Both statements are true, and the reason directly restates the identification of the Thar Desert as the largest desert.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-34-9",
@@ -13167,7 +13289,10 @@
       "Chota Nagpur Plateau"
      ],
      "answer": 2,
-     "explanation": "The Deccan Plateau is the largest plateau."
+     "explanation": "The Deccan Plateau is the largest plateau.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-34-10",
@@ -13181,7 +13306,14 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Thar Desert—largest desert; Deccan Plateau—largest plateau; Sundarbans—largest delta; Majuli—largest river island."
+     "explanation": "The correct pairs are: Thar Desert—largest desert; Deccan Plateau—largest plateau; Sundarbans—largest delta; Majuli—largest river island.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-34-11",
@@ -13195,7 +13327,11 @@
       "Majuli, Assam"
      ],
      "answer": 3,
-     "explanation": "Majuli in Assam is the largest river island."
+     "explanation": "Majuli in Assam is the largest river island.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-34-12",
@@ -13209,7 +13345,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Salsette is the largest island of India by population. Majuli is identified as the largest river island."
+     "explanation": "Salsette is the largest island of India by population. Majuli is identified as the largest river island.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-34-13",
@@ -13223,7 +13362,10 @@
       "Visakhapatnam"
      ],
      "answer": 1,
-     "explanation": "Chennai is the largest artificial port."
+     "explanation": "Chennai is the largest artificial port.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-34-14",
@@ -13237,7 +13379,10 @@
       "Chennai"
      ],
      "answer": 1,
-     "explanation": "Mumbai is the largest natural port."
+     "explanation": "Mumbai is the largest natural port.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-34-15",
@@ -13251,7 +13396,14 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Chennai—largest artificial port; Mumbai—largest natural port; Deendayal/Kandla—largest major port by cargo/traffic; Majuli—largest river island."
+     "explanation": "The correct pairs are: Chennai—largest artificial port; Mumbai—largest natural port; Deendayal/Kandla—largest major port by cargo/traffic; Majuli—largest river island.",
+     "facts": [
+      "F12",
+      "F15",
+      "F16",
+      "F17",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-34-16",
@@ -13265,7 +13417,12 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Salsette is the largest island of India by population, not the largest river island."
+     "explanation": "Statements I, II and III are correct. Salsette is the largest island of India by population, not the largest river island.",
+     "facts": [
+      "F1",
+      "F4",
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-34-17",
@@ -13279,7 +13436,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. The fourth is incorrect because the Deccan Plateau is the largest plateau, not a freshwater lake."
+     "explanation": "The first three pairs are correct. The fourth is incorrect because the Deccan Plateau is the largest plateau, not a freshwater lake.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-34-18",
@@ -13293,7 +13456,13 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Salsette is the largest island of India by population, whereas Majuli is the largest river island."
+     "explanation": "Statements I, II and III are correct. Salsette is the largest island of India by population, whereas Majuli is the largest river island.",
+     "facts": [
+      "F12",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-34-19",
@@ -13307,9 +13476,18 @@
       "45,764 km²"
      ],
      "answer": 2,
-     "explanation": "Kutch in Gujarat is the largest district in India by area, with an area of 45,674 km²."
+     "explanation": "Kutch in Gujarat is the largest district in India by area, with an area of 45,674 km².",
+     "facts": [
+      "F3",
+      "F2"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "35": {
    "number": 35,
@@ -13779,7 +13957,10 @@
       "Lakshadweep"
      ],
      "answer": 0,
-     "explanation": "Goa is the smallest state of India by area."
+     "explanation": "Goa is the smallest state of India by area.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-36-2",
@@ -13793,7 +13974,12 @@
       "Sikkim is the smallest state by population."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Goa is the smallest state by population. The correct fact is that Sikkim is the smallest state by population."
+     "explanation": "The incorrect statement is that Goa is the smallest state by population. The correct fact is that Sikkim is the smallest state by population.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-36-3",
@@ -13807,7 +13993,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the fact that Lakshadweep is smallest by area does not explain its separate ranking as the smallest Union Territory by population."
+     "explanation": "Both statements are true, but the fact that Lakshadweep is smallest by area does not explain its separate ranking as the smallest Union Territory by population.",
+     "facts": [
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-36-4",
@@ -13821,7 +14011,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Mahe, Puducherry, is the smallest district by area, while Goa is the smallest state of India by area."
+     "explanation": "Both statements are true. Mahe, Puducherry, is the smallest district by area, while Goa is the smallest state of India by area.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-36-5",
@@ -13835,7 +14029,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: (a) Goa, (b) Lakshadweep, (c) Mahe, Puducherry, and (d) Sikkim. Therefore, a-ii, b-iv, c-iii, d-i is correct."
+     "explanation": "The correct pairs are: (a) Goa, (b) Lakshadweep, (c) Mahe, Puducherry, and (d) Sikkim. Therefore, a-ii, b-iv, c-iii, d-i is correct.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-36-6",
@@ -13849,9 +14049,17 @@
       "Sikkim"
      ],
      "answer": 3,
-     "explanation": "Sikkim is identified as the smallest state of India by population. Goa is the smallest state by area, while Lakshadweep is the smallest Union Territory by population and Puducherry contains the smallest district, Mahe."
+     "explanation": "Sikkim is identified as the smallest state of India by population. Goa is the smallest state by area, while Lakshadweep is the smallest Union Territory by population and Puducherry contains the smallest district, Mahe.",
+     "facts": [
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 5,
+    "covered": 5,
+    "audited": true
+   }
   },
   "37": {
    "number": 37,

@@ -17416,8 +17416,65 @@
       "F38",
       "F39"
      ]
+    },
+    {
+     "id": "indian-history-26-24",
+     "format": "Direct Recall",
+     "keyword": "IVC Places – Features",
+     "question": "Kalibangan is associated with which period?",
+     "options": [
+      "Harappan period",
+      "Kakatiya period",
+      "Sangam period",
+      "British period"
+     ],
+     "answer": 0,
+     "explanation": "Kalibangan is listed as a site associated with the Harappan period.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-history-26-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Place – Associated with",
+     "question": "Consider the following statements about goods connected with Motupalli:\nI. Zinc was listed among the goods.\nII. Lead was listed among the goods.\nIII. Cotton was listed among the goods.\nIV. Opium was listed among the goods.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Zinc and lead are listed among the goods connected with Motupalli. Cotton and opium are recorded as eighteenth-century Bengal exports, not as the Motupalli goods tested here.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-history-26-26",
+     "format": "Direct Recall",
+     "keyword": "Policy",
+     "question": "Under British trade policy in India, which category received preferential treatment?",
+     "options": [
+      "Indian exports",
+      "Indian imports",
+      "British exports",
+      "British imports"
+     ],
+     "answer": 3,
+     "explanation": "The notes state that British imports received preferential treatment, while Indian exports were heavily charged in Britain.",
+     "facts": [
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 44,
+    "covered": 44,
+    "audited": true
+   }
   },
   "26-2": {
    "number": 26,
@@ -18248,7 +18305,10 @@
       "Tughlaq"
      ],
      "answer": 2,
-     "explanation": "The Shunga dynasty succeeded the Maurya dynasty."
+     "explanation": "The Shunga dynasty succeeded the Maurya dynasty.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-27-2",
@@ -18262,7 +18322,10 @@
       "Ghiyasuddin Tughlaq"
      ],
      "answer": 2,
-     "explanation": "Pushyamitra Shunga overthrew Brihadratha in the transition from the Maurya to the Shunga dynasty."
+     "explanation": "Pushyamitra Shunga overthrew Brihadratha in the transition from the Maurya to the Shunga dynasty.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-27-3",
@@ -18276,7 +18339,10 @@
       "Lodi"
      ],
      "answer": 1,
-     "explanation": "The Kanva dynasty succeeded the Shunga dynasty."
+     "explanation": "The Kanva dynasty succeeded the Shunga dynasty.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-27-4",
@@ -18290,7 +18356,10 @@
       "Narasimha Saluva"
      ],
      "answer": 0,
-     "explanation": "Vasudeva Kanva is identified with the Kanva succession after the Shunga dynasty."
+     "explanation": "Vasudeva Kanva is identified with the Kanva succession after the Shunga dynasty.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-27-5",
@@ -18304,7 +18373,10 @@
       "Sayyid"
      ],
      "answer": 0,
-     "explanation": "The Khalji dynasty succeeded the Slave/Mamluk dynasty through the Khalji takeover."
+     "explanation": "The Khalji dynasty succeeded the Slave/Mamluk dynasty through the Khalji takeover.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-27-6",
@@ -18318,7 +18390,13 @@
       "The Tughlaq dynasty succeeded the Khalji dynasty."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that the Lodi dynasty succeeded the Khalji dynasty. The Lodi dynasty succeeded the Sayyid dynasty."
+     "explanation": "The incorrect statement is that the Lodi dynasty succeeded the Khalji dynasty. The Lodi dynasty succeeded the Sayyid dynasty.",
+     "facts": [
+      "F5",
+      "F7",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-27-7",
@@ -18332,7 +18410,10 @@
       "Khizr Khan"
      ],
      "answer": 1,
-     "explanation": "Ghiyasuddin Tughlaq is associated with the transition in which the Tughlaq dynasty succeeded the Khalji dynasty."
+     "explanation": "Ghiyasuddin Tughlaq is associated with the transition in which the Tughlaq dynasty succeeded the Khalji dynasty.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-27-8",
@@ -18346,7 +18427,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but identifying Ghiyasuddin Tughlaq does not explain why the Tughlaq dynasty succeeded the Khalji dynasty."
+     "explanation": "Both statements are true, but identifying Ghiyasuddin Tughlaq does not explain why the Tughlaq dynasty succeeded the Khalji dynasty.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-27-9",
@@ -18360,7 +18445,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Maurya–Shunga, Shunga–Kanva, Slave/Mamluk–Khalji and Khalji–Tughlaq."
+     "explanation": "The correct pairs are Maurya–Shunga, Shunga–Kanva, Slave/Mamluk–Khalji and Khalji–Tughlaq.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-27-10",
@@ -18374,7 +18465,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. The Lodi dynasty succeeded the Sayyid dynasty, not the Khalji dynasty."
+     "explanation": "Statements I and II are correct. The Lodi dynasty succeeded the Sayyid dynasty, not the Khalji dynasty.",
+     "facts": [
+      "F3",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-27-11",
@@ -18388,7 +18484,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: the Sayyid dynasty succeeded the Tughlaq dynasty, and Khizr Khan is associated with this transition."
+     "explanation": "Both statements are true: the Sayyid dynasty succeeded the Tughlaq dynasty, and Khizr Khan is associated with this transition.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-27-12",
@@ -18402,7 +18502,10 @@
       "Khizr Khan"
      ],
      "answer": 2,
-     "explanation": "Bahlol Lodi is associated with the succession of the Lodi dynasty after the Sayyid dynasty."
+     "explanation": "Bahlol Lodi is associated with the succession of the Lodi dynasty after the Sayyid dynasty.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-history-27-13",
@@ -18416,7 +18519,10 @@
       "Aravidu"
      ],
      "answer": 2,
-     "explanation": "The Saluva dynasty succeeded the Sangama dynasty."
+     "explanation": "The Saluva dynasty succeeded the Sangama dynasty.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-history-27-14",
@@ -18430,7 +18536,10 @@
       "1458"
      ],
      "answer": 0,
-     "explanation": "Narasimha Saluva is associated with the transition from Sangama to Saluva in 1485."
+     "explanation": "Narasimha Saluva is associated with the transition from Sangama to Saluva in 1485.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-history-27-15",
@@ -18444,7 +18553,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Sangama–Saluva with Narasimha Saluva, Saluva–Tuluva with Vira Narasimha, Tuluva–Aravidu with later Vijayanagara succession, and Maurya–Shunga with Pushyamitra Shunga."
+     "explanation": "The correct pairs are Sangama–Saluva with Narasimha Saluva, Saluva–Tuluva with Vira Narasimha, Tuluva–Aravidu with later Vijayanagara succession, and Maurya–Shunga with Pushyamitra Shunga.",
+     "facts": [
+      "F2",
+      "F14",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-27-16",
@@ -18458,7 +18573,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The year and ruler identify the transition, but the reason does not explain the general fact that Saluva succeeded Sangama."
+     "explanation": "Both statements are true. The year and ruler identify the transition, but the reason does not explain the general fact that Saluva succeeded Sangama.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-27-17",
@@ -18472,7 +18591,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: Tuluva succeeded Saluva, and Vira Narasimha is associated with this transition."
+     "explanation": "Both statements are true: Tuluva succeeded Saluva, and Vira Narasimha is associated with this transition.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-27-18",
@@ -18486,7 +18609,13 @@
       "B, A, D, C"
      ],
      "answer": 3,
-     "explanation": "The order is Shunga after Maurya, Tughlaq after Khalji, Lodi after Sayyid, and Saluva after Sangama in 1485."
+     "explanation": "The order is Shunga after Maurya, Tughlaq after Khalji, Lodi after Sayyid, and Saluva after Sangama in 1485.",
+     "facts": [
+      "F1",
+      "F7",
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-27-19",
@@ -18500,7 +18629,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three are correct: Maurya–Shunga, Shunga–Kanva and Saluva–Tuluva. The third is reversed; Khalji was succeeded by Tughlaq."
+     "explanation": "Three are correct: Maurya–Shunga, Shunga–Kanva and Saluva–Tuluva. The third is reversed; Khalji was succeeded by Tughlaq.",
+     "facts": [
+      "F1",
+      "F3",
+      "F7",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-27-20",
@@ -18514,7 +18649,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct according to the sequence of later Vijayanagara succession: Sangama, Saluva, Tuluva and Aravidu."
+     "explanation": "All three statements are correct according to the sequence of later Vijayanagara succession: Sangama, Saluva, Tuluva and Aravidu.",
+     "facts": [
+      "F13",
+      "F15",
+      "F17"
+     ]
     }
    ]
   },
@@ -18545,7 +18685,10 @@
       "Maurya Dynasty"
      ],
      "answer": 0,
-     "explanation": "The Nanda Dynasty immediately succeeded the Shishunaga Dynasty."
+     "explanation": "The Nanda Dynasty immediately succeeded the Shishunaga Dynasty.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-28-2",
@@ -18559,7 +18702,12 @@
       "The Kanva Dynasty immediately succeeded the Shunga Dynasty."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the succession. The Maurya Dynasty was followed by the Shunga Dynasty; the notes do not identify it as the successor of the Kanva Dynasty."
+     "explanation": "The incorrect statement alters the succession. The Maurya Dynasty was followed by the Shunga Dynasty; the notes do not identify it as the successor of the Kanva Dynasty.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-28-3",
@@ -18573,7 +18721,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly express the succession of the Kanva Dynasty after the Shunga Dynasty."
+     "explanation": "Both statements correctly express the succession of the Kanva Dynasty after the Shunga Dynasty.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-28-4",
@@ -18587,7 +18738,10 @@
       "Islam Shah"
      ],
      "answer": 1,
-     "explanation": "Kumarapala was the immediate successor of Jaysimha Siddharaja."
+     "explanation": "Kumarapala was the immediate successor of Jaysimha Siddharaja.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-28-5",
@@ -18601,7 +18755,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The immediate successor of Sher Shah Suri was Islam Shah, not Kumarapala."
+     "explanation": "Statement A is true. The immediate successor of Sher Shah Suri was Islam Shah, not Kumarapala.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-28-6",
@@ -18615,7 +18773,10 @@
       "Krishnadeva Raya"
      ],
      "answer": 1,
-     "explanation": "Narasimha Saluva immediately succeeded Prauda Deva Raya."
+     "explanation": "Narasimha Saluva immediately succeeded Prauda Deva Raya.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-28-7",
@@ -18629,7 +18790,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both A and R are true because the notes identify Krishnadeva Raya as the immediate successor of Vira Narasimha."
+     "explanation": "Both A and R are true because the notes identify Krishnadeva Raya as the immediate successor of Vira Narasimha.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-28-8",
@@ -18643,7 +18807,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Achyuta Deva Raya succeeded Krishnadeva Raya, and Jahangir succeeded Akbar; Islam Shah succeeded Sher Shah Suri."
+     "explanation": "Statements I and II are correct. Achyuta Deva Raya succeeded Krishnadeva Raya, and Jahangir succeeded Akbar; Islam Shah succeeded Sher Shah Suri.",
+     "facts": [
+      "F5",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-28-9",
@@ -18657,7 +18826,10 @@
       "Achyuta Deva Raya"
      ],
      "answer": 0,
-     "explanation": "Jahangir was the immediate successor of Akbar."
+     "explanation": "Jahangir was the immediate successor of Akbar.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-history-28-10",
@@ -18671,7 +18843,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct succession relationships: Hemantasena followed Samantasena, and Vijayasena followed Hemantasena."
+     "explanation": "Both statements are correct succession relationships: Hemantasena followed Samantasena, and Vijayasena followed Hemantasena.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-28-11",
@@ -18685,7 +18861,10 @@
       "Vijayasena"
      ],
      "answer": 2,
-     "explanation": "Lakshmanasena was the immediate successor of Ballal/Vallalasena."
+     "explanation": "Lakshmanasena was the immediate successor of Ballal/Vallalasena.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-history-28-12",
@@ -18699,7 +18878,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify Visvarupasena as the immediate successor of Lakshmanasena."
+     "explanation": "Both statements are true. The notes identify Visvarupasena as the immediate successor of Lakshmanasena.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-28-13",
@@ -18713,7 +18895,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. The Kanva Dynasty immediately succeeded the Shunga Dynasty, not the Maurya Dynasty."
+     "explanation": "Statements I and II are correct. The Kanva Dynasty immediately succeeded the Shunga Dynasty, not the Maurya Dynasty.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-28-14",
@@ -18727,7 +18914,10 @@
       "Islam Shah"
      ],
      "answer": 1,
-     "explanation": "Vira Narasimha immediately succeeded Immadi Narasimha."
+     "explanation": "Vira Narasimha immediately succeeded Immadi Narasimha.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-28-15",
@@ -18741,9 +18931,17 @@
       "Visvarupasena"
      ],
      "answer": 0,
-     "explanation": "Ballal, also called Vallalasena, immediately succeeded Vijayasena."
+     "explanation": "Ballal, also called Vallalasena, immediately succeeded Vijayasena.",
+     "facts": [
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -18774,7 +18972,10 @@
       "Brihadratha Maurya"
      ],
      "answer": 3,
-     "explanation": "Brihadratha Maurya is listed as the predecessor or earlier link of Pushyamitra Shunga."
+     "explanation": "Brihadratha Maurya is listed as the predecessor or earlier link of Pushyamitra Shunga.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-29-2",
@@ -18788,7 +18989,10 @@
       "Pushyamitra Shunga"
      ],
      "answer": 2,
-     "explanation": "The table links Vasudeva Kanva with Devabhuti of the Shunga dynasty as his predecessor or earlier link."
+     "explanation": "The table links Vasudeva Kanva with Devabhuti of the Shunga dynasty as his predecessor or earlier link.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-29-3",
@@ -18802,7 +19006,11 @@
       "Brihadratha Maurya"
      ],
      "answer": 1,
-     "explanation": "Susharma of the Kanva dynasty is given as the predecessor or earlier link of Simuka."
+     "explanation": "Susharma of the Kanva dynasty is given as the predecessor or earlier link of Simuka.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-29-4",
@@ -18816,7 +19024,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Pushyamitra Shunga–Brihadratha Maurya, Vasudeva Kanva–Devabhuti, Simuka–Susharma, and Sthanakvasi–Lonka sect."
+     "explanation": "The correct pairs are Pushyamitra Shunga–Brihadratha Maurya, Vasudeva Kanva–Devabhuti, Simuka–Susharma, and Sthanakvasi–Lonka sect.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-29-5",
@@ -18830,7 +19044,13 @@
       "Devabhuti is linked with Vasudeva Kanva."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the association of Lonka sect with Saluva Dynasty. Lonka sect is listed as the earlier link of Sthanakvasi."
+     "explanation": "The incorrect detail is the association of Lonka sect with Saluva Dynasty. Lonka sect is listed as the earlier link of Sthanakvasi.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-29-6",
@@ -18844,7 +19064,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the predecessor entry for Brihadratha Maurya directly explains the sequence stated in the assertion."
+     "explanation": "Both statements are true, and the predecessor entry for Brihadratha Maurya directly explains the sequence stated in the assertion.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-29-7",
@@ -18858,7 +19081,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true because Devabhuti is the earlier link of Vasudeva Kanva. Statement B is false because Simuka is linked with Susharma."
+     "explanation": "Statement A is true because Devabhuti is the earlier link of Vasudeva Kanva. Statement B is false because Simuka is linked with Susharma.",
+     "facts": [
+      "F2",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-29-8",
@@ -18872,7 +19099,10 @@
       "Khalji Dynasty"
      ],
      "answer": 2,
-     "explanation": "The Sangama Dynasty is listed as the predecessor or earlier link of the Saluva Dynasty."
+     "explanation": "The Sangama Dynasty is listed as the predecessor or earlier link of the Saluva Dynasty.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-29-9",
@@ -18886,7 +19116,10 @@
       "Saluva Dynasty"
      ],
      "answer": 3,
-     "explanation": "The Saluva Dynasty is given as the predecessor or earlier link of the Tuluva Dynasty."
+     "explanation": "The Saluva Dynasty is given as the predecessor or earlier link of the Tuluva Dynasty.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-29-10",
@@ -18900,7 +19133,10 @@
       "Sangama Dynasty"
      ],
      "answer": 0,
-     "explanation": "The Tuluva Dynasty is listed as the predecessor or earlier link of the Aravidu Dynasty."
+     "explanation": "The Tuluva Dynasty is listed as the predecessor or earlier link of the Aravidu Dynasty.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-history-29-11",
@@ -18914,7 +19150,12 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements follow the predecessor sequence given: Sangama, Saluva, Tuluva and Aravidu."
+     "explanation": "All three statements follow the predecessor sequence given: Sangama, Saluva, Tuluva and Aravidu.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-29-12",
@@ -18928,7 +19169,12 @@
       "B, C, D, A"
      ],
      "answer": 0,
-     "explanation": "The sequence is Sangama Dynasty, Saluva Dynasty, Tuluva Dynasty and Aravidu Dynasty."
+     "explanation": "The sequence is Sangama Dynasty, Saluva Dynasty, Tuluva Dynasty and Aravidu Dynasty.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-29-13",
@@ -18942,7 +19188,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because Tuluva Dynasty preceded Aravidu Dynasty. The reason is false; Saluva Dynasty preceded Tuluva Dynasty, not Aravidu Dynasty."
+     "explanation": "The assertion is true because Tuluva Dynasty preceded Aravidu Dynasty. The reason is false; Saluva Dynasty preceded Tuluva Dynasty, not Aravidu Dynasty.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-29-14",
@@ -18956,7 +19206,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct predecessor pairs are Khalji–Slave, Tughlaq–Khalji, Sayyid–Tughlaq and Lodi–Sayyid."
+     "explanation": "The correct predecessor pairs are Khalji–Slave, Tughlaq–Khalji, Sayyid–Tughlaq and Lodi–Sayyid.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-29-15",
@@ -18970,7 +19226,12 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. The Lodi Dynasty followed the Sayyid Dynasty, not the Khalji Dynasty, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct. The Lodi Dynasty followed the Sayyid Dynasty, not the Khalji Dynasty, so Statement III is incorrect.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-29-16",
@@ -18984,7 +19245,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three are predecessors of another dynasty in the list: Slave preceded Khalji, Khalji preceded Tughlaq, and Tughlaq preceded Sayyid. Lodi is shown as the later dynasty in this sequence."
+     "explanation": "Three are predecessors of another dynasty in the list: Slave preceded Khalji, Khalji preceded Tughlaq, and Tughlaq preceded Sayyid. Lodi is shown as the later dynasty in this sequence.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-29-17",
@@ -18998,7 +19265,10 @@
       "Pataliputra"
      ],
      "answer": 0,
-     "explanation": "Kannauj is identified as Harsha’s capital."
+     "explanation": "Kannauj is identified as Harsha’s capital.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-29-18",
@@ -19012,7 +19282,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the capital entry: Kannauj was Harsha’s capital, while Thanesar is given as the earlier capital."
+     "explanation": "Both statements are supported by the capital entry: Kannauj was Harsha’s capital, while Thanesar is given as the earlier capital.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-29-19",
@@ -19026,7 +19299,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The distinction between Thanesar as the earlier capital and Kannauj as Harsha’s capital explains the stated sequence."
+     "explanation": "Both statements are true. The distinction between Thanesar as the earlier capital and Kannauj as Harsha’s capital explains the stated sequence.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-29-20",
@@ -19040,9 +19316,34 @@
       "Susharma"
      ],
      "answer": 0,
-     "explanation": "The Shishunaga Dynasty is given as the predecessor or earlier link of the Nanda Dynasty."
+     "explanation": "The Shishunaga Dynasty is given as the predecessor or earlier link of the Nanda Dynasty.",
+     "facts": [
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-history-29-21",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Devabhuti belonged to which dynasty?",
+     "options": [
+      "Nanda Dynasty",
+      "Shunga dynasty",
+      "Kanva dynasty",
+      "Shishunaga Dynasty"
+     ],
+     "answer": 1,
+     "explanation": "Devabhuti belonged to the Shunga dynasty.",
+     "facts": [
+      "F3"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -19571,7 +19872,8 @@
      "explanation": "Both statements are true. The sheet identifies Bandobast as another name for Dahsala and associates Dahsala with Akbar.",
      "facts": [
       "F15",
-      "F10"
+      "F10",
+      "F14"
      ]
     },
     {
@@ -19819,8 +20121,31 @@
       "F5",
       "F6"
      ]
+    },
+    {
+     "id": "indian-history-31-21",
+     "format": "List-Matching",
+     "keyword": "Reform – Classification",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Constitutional Autocracy\n(b) Sati abolition measures\n\nList-II\n(i) Social reform\n(ii) Constitutional reform",
+     "options": [
+      "a-ii, b-ii",
+      "a-i, b-ii",
+      "a-ii, b-i",
+      "a-i, b-i"
+     ],
+     "answer": 2,
+     "explanation": "Constitutional autocracy was a constitutional reform, while sati abolition measures were a social reform.",
+     "facts": [
+      "F24",
+      "F28"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 30,
+    "covered": 30,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,
@@ -21336,7 +21661,12 @@
       "Agriculture, trade and crafts"
      ],
      "answer": 3,
-     "explanation": "The Harappans were associated with agriculture, trade and crafts."
+     "explanation": "The Harappans were associated with agriculture, trade and crafts.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-36-2",
@@ -21350,7 +21680,11 @@
       "Pastoralism and agriculture"
      ],
      "answer": 3,
-     "explanation": "The Early Vedic people practised pastoralism along with agriculture."
+     "explanation": "The Early Vedic people practised pastoralism along with agriculture.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-36-3",
@@ -21364,7 +21698,14 @@
       "Fishing and hunting were practised in Sangam society."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is “only occupations.” Sangam society was associated with agriculture, fishing, hunting, crafts and trade."
+     "explanation": "The incorrect detail is “only occupations.” Sangam society was associated with agriculture, fishing, hunting, crafts and trade.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-36-4",
@@ -21378,7 +21719,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly restates the noted feature of the Later Vedic people."
+     "explanation": "Both statements are true, and the reason directly restates the noted feature of the Later Vedic people.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-36-5",
@@ -21392,7 +21736,20 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Harappans–agriculture, trade and crafts; Early Vedic people–pastoralism and agriculture; Later Vedic people–agriculture increasingly important; Sangam society–agriculture, fishing, hunting, crafts and trade."
+     "explanation": "The correct pairs are: Harappans–agriculture, trade and crafts; Early Vedic people–pastoralism and agriculture; Later Vedic people–agriculture increasingly important; Sangam society–agriculture, fishing, hunting, crafts and trade.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-36-6",
@@ -21406,7 +21763,10 @@
       "Shifting cultivation"
      ],
      "answer": 1,
-     "explanation": "Uraiyur is associated with cotton trade."
+     "explanation": "Uraiyur is associated with cotton trade.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-history-36-7",
@@ -21420,7 +21780,10 @@
       "Merchant corporation"
      ],
      "answer": 1,
-     "explanation": "Artisans were associated with craft production."
+     "explanation": "Artisans were associated with craft production.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-history-36-8",
@@ -21434,7 +21797,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason correctly explains the association of merchant guilds with trade and business."
+     "explanation": "Both statements are true, and the reason correctly explains the association of merchant guilds with trade and business.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-history-36-9",
@@ -21448,7 +21814,10 @@
       "Merchant corporation"
      ],
      "answer": 3,
-     "explanation": "Manigramam is identified as a merchant corporation."
+     "explanation": "Manigramam is identified as a merchant corporation.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-36-10",
@@ -21462,7 +21831,11 @@
       "Cotton trade"
      ],
      "answer": 1,
-     "explanation": "The tribal groups of Godavari, Andhra Pradesh, practised Podu or shifting cultivation."
+     "explanation": "The tribal groups of Godavari, Andhra Pradesh, practised Podu or shifting cultivation.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-36-11",
@@ -21476,7 +21849,24 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct according to the stated occupational associations of these groups and periods."
+     "explanation": "All four statements are correct according to the stated occupational associations of these groups and periods.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-history-36-12",
@@ -21490,7 +21880,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Harappans were associated with crafts, Sangam society included crafts, and artisans were associated with craft production. Merchant guilds were associated with trade and business."
+     "explanation": "Harappans were associated with crafts, Sangam society included crafts, and artisans were associated with craft production. Merchant guilds were associated with trade and business.",
+     "facts": [
+      "F3",
+      "F10",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-36-13",
@@ -21504,7 +21900,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Uraiyur–cotton trade, Manigramam–merchant corporation, Artisans–craft production, and Merchant guilds–trade/business."
+     "explanation": "The correct pairs are Uraiyur–cotton trade, Manigramam–merchant corporation, Artisans–craft production, and Merchant guilds–trade/business.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-36-14",
@@ -21518,7 +21920,8 @@
       "C, D, A, B"
      ],
      "answer": 3,
-     "explanation": "The sequence is Harappans, Early Vedic people, Later Vedic people and Medieval cultivators."
+     "explanation": "The sequence is Harappans, Early Vedic people, Later Vedic people and Medieval cultivators.",
+     "facts": []
     },
     {
      "id": "indian-history-36-15",
@@ -21532,7 +21935,14 @@
       "They cultivated rice, wheat, sugarcane, cotton and crafts."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the inclusion of “crafts.” Medieval cultivators are associated with rice, wheat, sugarcane, cotton and spices."
+     "explanation": "The incorrect detail is the inclusion of “crafts.” Medieval cultivators are associated with rice, wheat, sugarcane, cotton and spices.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-history-36-16",
@@ -21546,7 +21956,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Uraiyur is linked with cotton trade, while Manigramam is identified as a merchant corporation."
+     "explanation": "Both statements are correct: Uraiyur is linked with cotton trade, while Manigramam is identified as a merchant corporation.",
+     "facts": [
+      "F12",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-36-17",
@@ -21560,7 +21974,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify Podu practised by the Godavari tribal groups as shifting cultivation."
+     "explanation": "Both statements are true. The notes identify Podu practised by the Godavari tribal groups as shifting cultivation.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-36-18",
@@ -21574,7 +21992,14 @@
       "Five"
      ],
      "answer": 3,
-     "explanation": "Five activities are listed for Sangam society: agriculture, fishing, hunting, crafts and trade."
+     "explanation": "Five activities are listed for Sangam society: agriculture, fishing, hunting, crafts and trade.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-36-19",
@@ -21588,7 +22013,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Manigramam was a merchant corporation, not a group associated with shifting cultivation."
+     "explanation": "Statements I, II and III are correct. Manigramam was a merchant corporation, not a group associated with shifting cultivation.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-36-20",
@@ -21602,9 +22033,21 @@
       "Medieval cultivators"
      ],
      "answer": 3,
-     "explanation": "Medieval cultivators are associated with the production of rice, wheat, sugarcane, cotton and spices."
+     "explanation": "Medieval cultivators are associated with the production of rice, wheat, sugarcane, cotton and spices.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "37": {
    "number": 37,
@@ -21632,7 +22075,10 @@
       "Vijnanesvara"
      ],
      "answer": 1,
-     "explanation": "Manusmriti is associated with Manu and deals with Dharma and social/legal rules."
+     "explanation": "Manusmriti is associated with Manu and deals with Dharma and social/legal rules.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-37-2",
@@ -21646,7 +22092,10 @@
       "Hemadri"
      ],
      "answer": 1,
-     "explanation": "Mitakshara is associated with Vijnanesvara and is a commentary concerning inheritance."
+     "explanation": "Mitakshara is associated with Vijnanesvara and is a commentary concerning inheritance.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-37-3",
@@ -21660,7 +22109,10 @@
       "Manusmriti"
      ],
      "answer": 1,
-     "explanation": "Dayabhaga is associated with inheritance."
+     "explanation": "Dayabhaga is associated with inheritance.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-37-4",
@@ -21674,7 +22126,10 @@
       "Manu"
      ],
      "answer": 1,
-     "explanation": "Chaturvarga Chintamani is associated with Hemadri."
+     "explanation": "Chaturvarga Chintamani is associated with Hemadri.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-37-5",
@@ -21688,7 +22143,10 @@
       "Ballal Sena"
      ],
      "answer": 3,
-     "explanation": "Daan Sagar is associated with Ballal Sena and concerns Dharma/legal literature."
+     "explanation": "Daan Sagar is associated with Ballal Sena and concerns Dharma/legal literature.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-37-6",
@@ -21702,7 +22160,13 @@
       "Smriti Chandrika is associated with Hindu law."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is Devana Bhatta with Parashar Madhav; Parashar Madhav is associated with Madhvacharya."
+     "explanation": "The incorrect association is Devana Bhatta with Parashar Madhav; Parashar Madhav is associated with Madhvacharya.",
+     "facts": [
+      "F9",
+      "F7",
+      "F13",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-37-7",
@@ -21716,7 +22180,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given associations of Manusmriti, but the subject matter of the text does not explain its association with Manu."
+     "explanation": "Both statements are given associations of Manusmriti, but the subject matter of the text does not explain its association with Manu.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-37-8",
@@ -21730,7 +22198,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Vijnanesvara’s association with Mitakshara does not explain why Yajnavalkya Smriti is its basis."
+     "explanation": "Both statements are true, but Vijnanesvara’s association with Mitakshara does not explain why Yajnavalkya Smriti is its basis.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-37-9",
@@ -21744,7 +22216,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the associated person does not constitute an explanation of the text’s connection with Hindu law."
+     "explanation": "Both statements are true, but the associated person does not constitute an explanation of the text’s connection with Hindu law.",
+     "facts": [
+      "F10",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-37-10",
@@ -21758,7 +22234,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but its subject association with Dharma/legal literature does not explain its association with Ballal Sena."
+     "explanation": "Both statements are true, but its subject association with Dharma/legal literature does not explain its association with Ballal Sena.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-37-11",
@@ -21772,7 +22252,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Chaturvarga Chintamani is associated with Hemadri and with Dharma/legal literature."
+     "explanation": "Chaturvarga Chintamani is associated with Hemadri and with Dharma/legal literature.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-37-12",
@@ -21786,7 +22270,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Parashar Madhav is associated with Madhvacharya and Dharma/legal literature, not inheritance."
+     "explanation": "Parashar Madhav is associated with Madhvacharya and Dharma/legal literature, not inheritance.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-37-13",
@@ -21800,7 +22288,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Yajnavalkya Smriti is the basis for Mitakshara, while Dayabhaga is associated with inheritance."
+     "explanation": "Yajnavalkya Smriti is the basis for Mitakshara, while Dayabhaga is associated with inheritance.",
+     "facts": [
+      "F4",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-37-14",
@@ -21814,7 +22306,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Dayabhaga is associated with Jimutavahana, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct. Dayabhaga is associated with Jimutavahana, so Statement III is incorrect.",
+     "facts": [
+      "F1",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-37-15",
@@ -21828,7 +22325,12 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements correctly identify the associated persons of the respective legal texts."
+     "explanation": "All three statements correctly identify the associated persons of the respective legal texts.",
+     "facts": [
+      "F9",
+      "F11",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-37-16",
@@ -21842,7 +22344,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Manusmriti–Manu, Yajnavalkya Smriti–Yajnavalkya, Dayabhaga–Jimutavahana and Smriti Chandrika–Devana Bhatta."
+     "explanation": "The correct pairs are Manusmriti–Manu, Yajnavalkya Smriti–Yajnavalkya, Dayabhaga–Jimutavahana and Smriti Chandrika–Devana Bhatta.",
+     "facts": [
+      "F1",
+      "F3",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-37-17",
@@ -21856,7 +22364,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Manusmriti–Dharma/social/legal rules, Mitakshara–commentary and inheritance, Chaturvarga Chintamani–Dharma/legal literature, and Parashar Madhav–Dharma/legal literature."
+     "explanation": "The correct pairs are Manusmriti–Dharma/social/legal rules, Mitakshara–commentary and inheritance, Chaturvarga Chintamani–Dharma/legal literature, and Parashar Madhav–Dharma/legal literature.",
+     "facts": [
+      "F2",
+      "F6",
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-37-18",
@@ -21870,9 +22384,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three texts—Chaturvarga Chintamani, Parashar Madhav and Daan Sagar—are associated with Dharma/legal literature. Dayabhaga is associated with inheritance."
+     "explanation": "Three texts—Chaturvarga Chintamani, Parashar Madhav and Daan Sagar—are associated with Dharma/legal literature. Dayabhaga is associated with inheritance.",
+     "facts": [
+      "F12",
+      "F14",
+      "F16",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "38": {
    "number": 38,
@@ -22718,7 +23243,15 @@
       "Temples and colleges"
      ],
      "answer": 3,
-     "explanation": "Ghatikas were colleges generally attached to temples, functioning as centres of learning."
+     "explanation": "Ghatikas were colleges generally attached to temples, functioning as centres of learning.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-40-2",
@@ -22732,7 +23265,15 @@
       "Maintenance of village tanks"
      ],
      "answer": 1,
-     "explanation": "Agraharas were settlements or land grants associated with Brahmins and learning."
+     "explanation": "Agraharas were settlements or land grants associated with Brahmins and learning.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-40-3",
@@ -22746,7 +23287,16 @@
       "Temple-based college education"
      ],
      "answer": 2,
-     "explanation": "Nalanda was a major Buddhist centre of higher learning."
+     "explanation": "Nalanda was a major Buddhist centre of higher learning.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-40-4",
@@ -22760,7 +23310,15 @@
       "Temple-attached colleges"
      ],
      "answer": 1,
-     "explanation": "Eripatti was land whose revenue was set apart for the maintenance of village tanks."
+     "explanation": "Eripatti was land whose revenue was set apart for the maintenance of village tanks.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-40-5",
@@ -22774,7 +23332,11 @@
       "Taniyurs were administered as a single unit."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the identification of Taniyurs as Brahmin villages. Taniyurs were very large villages administered as a single unit."
+     "explanation": "The incorrect detail is the identification of Taniyurs as Brahmin villages. Taniyurs were very large villages administered as a single unit.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-40-6",
@@ -22788,7 +23350,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the attachment of Ghatikas to temples as colleges explains their role as centres of learning."
+     "explanation": "Both statements are true, and the attachment of Ghatikas to temples as colleges explains their role as centres of learning.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-40-7",
@@ -22802,7 +23368,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true because agraharas were settlements or land grants associated with Brahmins and learning. Statement B describes Eripatti, not agrahara."
+     "explanation": "Statement A is true because agraharas were settlements or land grants associated with Brahmins and learning. Statement B describes Eripatti, not agrahara.",
+     "facts": [
+      "F3",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-40-8",
@@ -22816,7 +23387,16 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Ghatikas—temple-attached colleges, Agraharas—Brahmins and learning, Nalanda—Buddhist higher learning, and Eripatti—village tank maintenance."
+     "explanation": "The correct pairs are Ghatikas—temple-attached colleges, Agraharas—Brahmins and learning, Nalanda—Buddhist higher learning, and Eripatti—village tank maintenance.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-40-9",
@@ -22830,7 +23410,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three associations are correct. The fourth is incorrect because Taniyurs were very large villages administered as a single unit, not Brahmin villages."
+     "explanation": "The first three associations are correct. The fourth is incorrect because Taniyurs were very large villages administered as a single unit, not Brahmin villages.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-40-10",
@@ -22844,7 +23432,15 @@
       "Settlements associated with Brahmins and learning"
      ],
      "answer": 0,
-     "explanation": "Taniyurs were very large villages administered as a single unit."
+     "explanation": "Taniyurs were very large villages administered as a single unit.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-40-11",
@@ -22858,9 +23454,17 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Taniyurs were very large villages administered as a single unit. However, their large size does not explain the administrative arrangement in the precise association given."
+     "explanation": "Both statements are true: Taniyurs were very large villages administered as a single unit. However, their large size does not explain the administrative arrangement in the precise association given.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "41": {
    "number": 41,
@@ -22890,7 +23494,11 @@
       "Indra"
      ],
      "answer": 1,
-     "explanation": "Shiva / Rudra is associated with Pashupati and Harappan worship."
+     "explanation": "Shiva / Rudra is associated with Pashupati and Harappan worship.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-41-2",
@@ -22904,7 +23512,10 @@
       "Lord of Animals"
      ],
      "answer": 3,
-     "explanation": "Pashupati means or denotes the Lord of Animals."
+     "explanation": "Pashupati means or denotes the Lord of Animals.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-41-3",
@@ -22918,7 +23529,18 @@
       "Mother Goddess worship is associated with the Harappan period."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is with Agni. Cosmic order is associated with Varuna, whereas Agni is associated with fire and sacrifice."
+     "explanation": "The incorrect association is with Agni. Cosmic order is associated with Varuna, whereas Agni is associated with fire and sacrifice.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-41-4",
@@ -22932,7 +23554,16 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Shiva–Lingam, Trident and Jyotirlingas; Agni–fire and sacrifice; Varuna–cosmic order; Saraswati–Veena."
+     "explanation": "The correct pairs are Shiva–Lingam, Trident and Jyotirlingas; Agni–fire and sacrifice; Varuna–cosmic order; Saraswati–Veena.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F11",
+      "F12",
+      "F13",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-41-5",
@@ -22946,7 +23577,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given associations of Agni. However, the association with sacrifice does not explain the separate association with fire."
+     "explanation": "Both statements are given associations of Agni. However, the association with sacrifice does not explain the separate association with fire.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-41-6",
@@ -22960,7 +23595,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct associations: Mother Goddess worship is Harappan, and Pashupati is the Lord of Animals."
+     "explanation": "Both statements are correct associations: Mother Goddess worship is Harappan, and Pashupati is the Lord of Animals.",
+     "facts": [
+      "F8",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-41-7",
@@ -22974,7 +23613,11 @@
       "Varuna"
      ],
      "answer": 2,
-     "explanation": "Indra is identified as a Vedic deity and warrior."
+     "explanation": "Indra is identified as a Vedic deity and warrior.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-41-8",
@@ -22988,7 +23631,14 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Indra–Vedic deity and warrior; Soma–9th Mandala; Vishnu–Chakra; Saraswati–Veena."
+     "explanation": "The correct pairs are Indra–Vedic deity and warrior; Soma–9th Mandala; Vishnu–Chakra; Saraswati–Veena.",
+     "facts": [
+      "F9",
+      "F10",
+      "F14",
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-41-9",
@@ -23002,7 +23652,15 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. The Veena is associated with Saraswati, not Varuna."
+     "explanation": "Statements I, II and IV are correct. The Veena is associated with Saraswati, not Varuna.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F14",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-41-10",
@@ -23016,7 +23674,11 @@
       "Shiva"
      ],
      "answer": 2,
-     "explanation": "Vishnu is associated with the Chakra and is identified as the supreme deity of Madhvacharya."
+     "explanation": "Vishnu is associated with the Chakra and is identified as the supreme deity of Madhvacharya.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-41-11",
@@ -23030,7 +23692,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Vishnu–Chakra; Saraswati–Bhojshala's presiding deity; Jagannath–Puri Rath Yatra; Rama and Sita–Ramananda."
+     "explanation": "The correct pairs are Vishnu–Chakra; Saraswati–Bhojshala's presiding deity; Jagannath–Puri Rath Yatra; Rama and Sita–Ramananda.",
+     "facts": [
+      "F15",
+      "F18",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-41-12",
@@ -23044,7 +23712,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the identification of Saraswati as Bhojshala's presiding deity explains her association with Bhojshala."
+     "explanation": "Both statements are true, and the identification of Saraswati as Bhojshala's presiding deity explains her association with Bhojshala.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "indian-history-41-13",
@@ -23058,7 +23729,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both associations are correct: Jagannath is linked with the Puri Rath Yatra, and Rama and Sita with Ramananda."
+     "explanation": "Both associations are correct: Jagannath is linked with the Puri Rath Yatra, and Rama and Sita with Ramananda.",
+     "facts": [
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-41-14",
@@ -23072,7 +23747,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three associations are correct. The Veena is associated with Saraswati, not Soma."
+     "explanation": "The first three associations are correct. The Veena is associated with Saraswati, not Soma.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-41-15",
@@ -23086,7 +23769,16 @@
       "Ramananda"
      ],
      "answer": 0,
-     "explanation": "Krishna is associated with Chaitanya Bhakti and the Jagannath tradition."
+     "explanation": "Krishna is associated with Chaitanya Bhakti and the Jagannath tradition.",
+     "facts": [
+      "F3",
+      "F8",
+      "F9",
+      "F10",
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-history-41-16",
@@ -23100,7 +23792,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both associations with Krishna are correct, but the association with Chaitanya Bhakti does not by itself explain the separate association with the Jagannath tradition."
+     "explanation": "Both associations with Krishna are correct, but the association with Chaitanya Bhakti does not by itself explain the separate association with the Jagannath tradition.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-history-41-17",
@@ -23114,7 +23810,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Rama and Sita are associated with Ramananda, not the Jagannath tradition."
+     "explanation": "Statements I, II and III are correct. Rama and Sita are associated with Ramananda, not the Jagannath tradition.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "indian-history-41-18",
@@ -23128,7 +23830,10 @@
       "Soma"
      ],
      "answer": 0,
-     "explanation": "The sheet identifies Shiva as Rudra."
+     "explanation": "The sheet identifies Shiva as Rudra.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-41-19",
@@ -23142,7 +23847,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet associates Shiva with Jyotirlingas and Nirgun Brahma with Guru Nanak."
+     "explanation": "The sheet associates Shiva with Jyotirlingas and Nirgun Brahma with Guru Nanak.",
+     "facts": [
+      "F7",
+      "F24"
+     ]
     },
     {
      "id": "indian-history-41-20",
@@ -23156,9 +23865,17 @@
       "Shiva"
      ],
      "answer": 3,
-     "explanation": "Jyotirlingas are listed as an association of Shiva."
+     "explanation": "Jyotirlingas are listed as an association of Shiva.",
+     "facts": [
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "42": {
    "number": 42,
@@ -23456,7 +24173,10 @@
       "Madhya Pradesh"
      ],
      "answer": 3,
-     "explanation": "The Khajuraho group is located in Madhya Pradesh."
+     "explanation": "The Khajuraho group is located in Madhya Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-43-2",
@@ -23470,7 +24190,10 @@
       "Mamalla style"
      ],
      "answer": 2,
-     "explanation": "Khajuraho is associated with the Nagara style."
+     "explanation": "Khajuraho is associated with the Nagara style.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-43-3",
@@ -23484,7 +24207,10 @@
       "Puri"
      ],
      "answer": 0,
-     "explanation": "Kandariya Mahadev is listed with Khajuraho."
+     "explanation": "Kandariya Mahadev is listed with Khajuraho.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-43-4",
@@ -23498,7 +24224,10 @@
       "Morena"
      ],
      "answer": 1,
-     "explanation": "Lingaraj is associated with Bhubaneswar."
+     "explanation": "Lingaraj is associated with Bhubaneswar.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-43-5",
@@ -23512,7 +24241,14 @@
       "Konark is associated with Odisha."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the place associated with Dilwara. Dilwara is associated with Mount Abu, whereas Morena is associated with Chausath Yogini."
+     "explanation": "The incorrect detail is the place associated with Dilwara. Dilwara is associated with Mount Abu, whereas Morena is associated with Chausath Yogini.",
+     "facts": [
+      "F7",
+      "F9",
+      "F15",
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-43-6",
@@ -23526,7 +24262,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Rajsimha style of Kailasanathar does not explain the association of Mahabalipuram Rathas with the Mamalla style."
+     "explanation": "Both statements are true, but the Rajsimha style of Kailasanathar does not explain the association of Mahabalipuram Rathas with the Mamalla style.",
+     "facts": [
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-43-7",
@@ -23540,7 +24280,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the circular type does not explain the association of Chausath Yogini with Morena."
+     "explanation": "Both statements are true, but the circular type does not explain the association of Chausath Yogini with Morena.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-43-8",
@@ -23554,7 +24298,10 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "Virupaksha is associated with the South Indian temple tradition, but the notes do not associate it with the Nagara style."
+     "explanation": "Virupaksha is associated with the South Indian temple tradition, but the notes do not associate it with the Nagara style.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-history-43-9",
@@ -23568,7 +24315,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: Konark is associated with Odisha, and Jagannath is associated with Puri."
+     "explanation": "Both statements are true: Konark is associated with Odisha, and Jagannath is associated with Puri.",
+     "facts": [
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-43-10",
@@ -23582,7 +24333,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Dilwara is associated with Jain marble architecture, while Chausath Yogini is circular."
+     "explanation": "Both statements are true. Dilwara is associated with Jain marble architecture, while Chausath Yogini is circular.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-43-11",
@@ -23596,7 +24352,12 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Konark is associated with the Nagara style, not the Mamalla style."
+     "explanation": "Statements I and II are correct. Konark is associated with the Nagara style, not the Mamalla style.",
+     "facts": [
+      "F2",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-43-12",
@@ -23610,7 +24371,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct: Kailasanathar–Kanchipuram, Mahabalipuram Rathas–Tamil Nadu, and Virupaksha–Hampi."
+     "explanation": "All three statements are correct: Kailasanathar–Kanchipuram, Mahabalipuram Rathas–Tamil Nadu, and Virupaksha–Hampi.",
+     "facts": [
+      "F11",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-43-13",
@@ -23624,7 +24390,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Lingaraj–Bhubaneswar, Jagannath–Puri, Virupaksha–Hampi, and Dilwara–Mount Abu."
+     "explanation": "The correct pairs are Lingaraj–Bhubaneswar, Jagannath–Puri, Virupaksha–Hampi, and Dilwara–Mount Abu.",
+     "facts": [
+      "F5",
+      "F7",
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-43-14",
@@ -23638,7 +24410,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Kailasanathar–Rajsimha style, Mahabalipuram Rathas–Mamalla style, Chausath Yogini–Circular, and Khajuraho–Nagara."
+     "explanation": "The correct pairs are Kailasanathar–Rajsimha style, Mahabalipuram Rathas–Mamalla style, Chausath Yogini–Circular, and Khajuraho–Nagara.",
+     "facts": [
+      "F2",
+      "F12",
+      "F14",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-43-15",
@@ -23652,7 +24430,14 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Kandariya Mahadev–Khajuraho, Konark–Nagara, Dilwara–Jain/marble, and Virupaksha–South Indian temple tradition."
+     "explanation": "The correct pairs are Kandariya Mahadev–Khajuraho, Konark–Nagara, Dilwara–Jain/marble, and Virupaksha–South Indian temple tradition.",
+     "facts": [
+      "F3",
+      "F10",
+      "F16",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-history-43-16",
@@ -23666,7 +24451,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed entries—Khajuraho, Lingaraj, Jagannath and Konark—are associated with the Nagara style."
+     "explanation": "All four listed entries—Khajuraho, Lingaraj, Jagannath and Konark—are associated with the Nagara style.",
+     "facts": [
+      "F2",
+      "F6",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-43-17",
@@ -23680,7 +24471,10 @@
       "Kandariya Mahadev"
      ],
      "answer": 1,
-     "explanation": "Kailasanathar at Kanchipuram is associated with the Rajsimha style."
+     "explanation": "Kailasanathar at Kanchipuram is associated with the Rajsimha style.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-history-43-18",
@@ -23694,7 +24488,11 @@
       "Jagannath"
      ],
      "answer": 1,
-     "explanation": "Dilwara, associated with Mount Abu, is identified with Jain / marble architecture."
+     "explanation": "Dilwara, associated with Mount Abu, is identified with Jain / marble architecture.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-history-43-19",
@@ -23708,7 +24506,10 @@
       "Nagara style"
      ],
      "answer": 2,
-     "explanation": "Mahabalipuram Rathas in Tamil Nadu are associated with the Mamalla style."
+     "explanation": "Mahabalipuram Rathas in Tamil Nadu are associated with the Mamalla style.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-history-43-20",
@@ -23722,9 +24523,21 @@
       "Only two"
      ],
      "answer": 2,
-     "explanation": "Khajuraho, Kandariya Mahadev, Lingaraj, Jagannath and Konark are all identified with the Nagara style. Therefore, the correct count is five."
+     "explanation": "Khajuraho, Kandariya Mahadev, Lingaraj, Jagannath and Konark are all identified with the Nagara style. Therefore, the correct count is five.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "44": {
    "number": 44,
@@ -24063,8 +24876,47 @@
       "F19",
       "F31"
      ]
+    },
+    {
+     "id": "indian-history-44-18",
+     "format": "Direct Recall",
+     "keyword": "Place – Associated with",
+     "question": "Ellora was associated with which dynasty?",
+     "options": [
+      "Chalukya dynasty",
+      "Rashtrakuta dynasty",
+      "Chandela dynasty",
+      "Pallava dynasty"
+     ],
+     "answer": 1,
+     "explanation": "Ellora was associated with the Rashtrakuta dynasty.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-history-44-19",
+     "format": "Direct Recall",
+     "keyword": "Empire – Period",
+     "question": "The Chalukya dynasty existed during which period?",
+     "options": [
+      "8th–10th century CE",
+      "6th–9th century CE",
+      "9th–13th century CE",
+      "6th–8th century CE"
+     ],
+     "answer": 3,
+     "explanation": "The Chalukya dynasty existed from the 6th to the 8th century CE.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "45": {
    "number": 45,
@@ -25901,7 +26753,10 @@
       "Samaveda"
      ],
      "answer": 1,
-     "explanation": "Yajna or sacrifice is associated with the Yajurveda."
+     "explanation": "Yajna or sacrifice is associated with the Yajurveda.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-49-2",
@@ -25915,7 +26770,10 @@
       "Indus Valley Civilization"
      ],
      "answer": 1,
-     "explanation": "The notes associate the Vedic ritual procedure with the Yajurveda."
+     "explanation": "The notes associate the Vedic ritual procedure with the Yajurveda.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-49-3",
@@ -25929,7 +26787,10 @@
       "Megalithic culture"
      ],
      "answer": 0,
-     "explanation": "Purushamedha is associated with the Shatapatha Brahmana."
+     "explanation": "Purushamedha is associated with the Shatapatha Brahmana.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-49-4",
@@ -25943,7 +26804,10 @@
       "Yajurveda"
      ],
      "answer": 0,
-     "explanation": "The notes associate chanting in ceremonies with the Samaveda."
+     "explanation": "The notes associate chanting in ceremonies with the Samaveda.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-49-5",
@@ -25957,7 +26821,10 @@
       "Vedic royal ritual"
      ],
      "answer": 0,
-     "explanation": "Fire or Yagya rituals are associated with the Indus Valley Civilization."
+     "explanation": "Fire or Yagya rituals are associated with the Indus Valley Civilization.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-49-6",
@@ -25971,7 +26838,10 @@
       "Indus Valley Civilization"
      ],
      "answer": 3,
-     "explanation": "The notes associate burial rituals with the Indus Valley Civilization."
+     "explanation": "The notes associate burial rituals with the Indus Valley Civilization.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-49-7",
@@ -25985,7 +26855,10 @@
       "Yajurveda"
      ],
      "answer": 2,
-     "explanation": "Burial and post-burial rituals are associated with Megalithic culture."
+     "explanation": "Burial and post-burial rituals are associated with Megalithic culture.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-49-8",
@@ -25999,7 +26872,10 @@
       "12"
      ],
      "answer": 2,
-     "explanation": "The notes mention 16 Sanskaras."
+     "explanation": "The notes mention 16 Sanskaras.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-49-9",
@@ -26013,7 +26889,10 @@
       "Pravarasena I"
      ],
      "answer": 3,
-     "explanation": "Ashvamedha is associated with Pravarasena I."
+     "explanation": "Ashvamedha is associated with Pravarasena I.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-history-49-10",
@@ -26027,7 +26906,10 @@
       "Samaveda"
      ],
      "answer": 0,
-     "explanation": "The notes associate opposition to ritualism with certain Bhakti/Sant traditions."
+     "explanation": "The notes associate opposition to ritualism with certain Bhakti/Sant traditions.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-49-11",
@@ -26041,7 +26923,12 @@
       "Chanting in ceremonies is associated with the Samaveda."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the Veda associated with Yajna or sacrifice. It is associated with the Yajurveda, not the Samaveda."
+     "explanation": "The incorrect detail is the Veda associated with Yajna or sacrifice. It is associated with the Yajurveda, not the Samaveda.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-49-12",
@@ -26055,7 +26942,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are stated in the notes, but the association of Yajna or sacrifice does not explain the separate association with the Vedic ritual procedure."
+     "explanation": "Both statements are stated in the notes, but the association of Yajna or sacrifice does not explain the separate association with the Vedic ritual procedure.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-49-13",
@@ -26069,7 +26960,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true. The reason is false because burial rituals are associated with the Indus Valley Civilization, while the Samaveda is associated with chanting in ceremonies."
+     "explanation": "The assertion is true. The reason is false because burial rituals are associated with the Indus Valley Civilization, while the Samaveda is associated with chanting in ceremonies.",
+     "facts": [
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-49-14",
@@ -26083,7 +26978,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true. The reason is false because the Vedic ritual procedure is associated with the Yajurveda."
+     "explanation": "The assertion is true. The reason is false because the Vedic ritual procedure is associated with the Yajurveda.",
+     "facts": [
+      "F2",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-49-15",
@@ -26097,7 +26996,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes associate Ashvamedha with Pravarasena I and identify it as a Vedic royal ritual."
+     "explanation": "The notes associate Ashvamedha with Pravarasena I and identify it as a Vedic royal ritual.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-49-16",
@@ -26111,7 +27014,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly reflect the separate associations of burial rituals and burial/post-burial rituals."
+     "explanation": "Both statements correctly reflect the separate associations of burial rituals and burial/post-burial rituals.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-49-17",
@@ -26125,7 +27032,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because chanting in ceremonies is associated with the Samaveda."
+     "explanation": "Statement A is true. Statement B is false because chanting in ceremonies is associated with the Samaveda.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-49-18",
@@ -26139,7 +27050,12 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct associations stated in the notes."
+     "explanation": "All three statements are correct associations stated in the notes.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-49-19",
@@ -26153,7 +27069,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct according to the listed ritual or cultural associations."
+     "explanation": "All three statements are correct according to the listed ritual or cultural associations.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-49-20",
@@ -26167,7 +27088,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are supported by the stated associations and number of Sanskaras."
+     "explanation": "All three statements are supported by the stated associations and number of Sanskaras.",
+     "facts": [
+      "F3",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-49-21",
@@ -26181,7 +27107,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii."
+     "explanation": "The correct pairs are a-iii, b-iv, c-i and d-ii.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-49-22",
@@ -26195,7 +27127,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are fire/Yagya rituals–Indus Valley Civilization, burial rituals–Indus Valley Civilization, Sanskaras–16 and opposition to ritualism–certain Bhakti/Sant traditions."
+     "explanation": "The correct pairs are fire/Yagya rituals–Indus Valley Civilization, burial rituals–Indus Valley Civilization, Sanskaras–16 and opposition to ritualism–certain Bhakti/Sant traditions.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-49-23",
@@ -26209,9 +27147,20 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two items—Yajna or sacrifice and the Vedic ritual procedure—are associated with the Yajurveda. Chanting in ceremonies is associated with the Samaveda, while Purushamedha is associated with the Shatapatha Brahmana."
+     "explanation": "Two items—Yajna or sacrifice and the Vedic ritual procedure—are associated with the Yajurveda. Chanting in ceremonies is associated with the Samaveda, while Purushamedha is associated with the Shatapatha Brahmana.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "50": {
    "number": 50,
@@ -29789,7 +30738,11 @@
       "Senani"
      ],
      "answer": 1,
-     "explanation": "The Purohita was the chief priest and religious adviser to the king."
+     "explanation": "The Purohita was the chief priest and religious adviser to the king.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-56-2",
@@ -29803,7 +30756,10 @@
       "Upadhyaya"
      ],
      "answer": 2,
-     "explanation": "Senani was the commander of the army."
+     "explanation": "Senani was the commander of the army.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-56-3",
@@ -29817,7 +30773,14 @@
       "Senani was the commander of the army."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the association of Gramani with charioteering. Suta was the charioteer associated with the royal court, while Gramani was the head of the village."
+     "explanation": "The incorrect detail is the association of Gramani with charioteering. Suta was the charioteer associated with the royal court, while Gramani was the head of the village.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-56-4",
@@ -29831,7 +30794,14 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Purohita–chief priest and religious adviser, Senani–commander of the army, Gramani–head of the village, and Bhagadugha–revenue collector."
+     "explanation": "The correct pairs are Purohita–chief priest and religious adviser, Senani–commander of the army, Gramani–head of the village, and Bhagadugha–revenue collector.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-56-5",
@@ -29845,7 +30815,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are stated facts: Suta was a charioteer and was associated with the royal court. The notes do not state that being a charioteer explains this association."
+     "explanation": "Both statements are stated facts: Suta was a charioteer and was associated with the royal court. The notes do not state that being a charioteer explains this association.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-56-6",
@@ -29859,7 +30833,11 @@
       "Adhvaryu"
      ],
      "answer": 2,
-     "explanation": "Hotri, also called Hota, was the Rigvedic priest who recited hymns."
+     "explanation": "Hotri, also called Hota, was the Rigvedic priest who recited hymns.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-56-7",
@@ -29873,7 +30851,11 @@
       "Purohita"
      ],
      "answer": 2,
-     "explanation": "Adhvaryu was the priest responsible for the practical or manual aspects of sacrifice."
+     "explanation": "Adhvaryu was the priest responsible for the practical or manual aspects of sacrifice.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-56-8",
@@ -29887,7 +30869,11 @@
       "Suta"
      ],
      "answer": 2,
-     "explanation": "Upadhyaya was the teacher who taught Veda and Vedanga as a profession."
+     "explanation": "Upadhyaya was the teacher who taught Veda and Vedanga as a profession.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-56-9",
@@ -29901,7 +30887,13 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct: Purohita was the chief priest and religious adviser, Senani was the commander of the army, and Gramani was the head of the village."
+     "explanation": "All three statements are correct: Purohita was the chief priest and religious adviser, Senani was the commander of the army, and Gramani was the head of the village.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-56-10",
@@ -29915,7 +30907,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. Bhagadugha was the revenue collector, while Suta was a charioteer associated with the royal court."
+     "explanation": "Both statements are correct. Bhagadugha was the revenue collector, while Suta was a charioteer associated with the royal court.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-56-11",
@@ -29929,7 +30926,14 @@
       "Upadhyaya taught Veda and Vedanga as a profession."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement assigns Adhvaryu’s function to Hotri. Hotri recited Rigvedic hymns, whereas Adhvaryu handled the practical or manual aspects of sacrifice."
+     "explanation": "The incorrect statement assigns Adhvaryu’s function to Hotri. Hotri recited Rigvedic hymns, whereas Adhvaryu handled the practical or manual aspects of sacrifice.",
+     "facts": [
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-56-12",
@@ -29943,7 +30947,17 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Hotri/Hota–Rigvedic priest who recited hymns, Adhvaryu–practical or manual aspects of sacrifice, Upadhyaya–teacher of Veda and Vedanga, and Suta–charioteer associated with the royal court."
+     "explanation": "The correct pairs are Hotri/Hota–Rigvedic priest who recited hymns, Adhvaryu–practical or manual aspects of sacrifice, Upadhyaya–teacher of Veda and Vedanga, and Suta–charioteer associated with the royal court.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-56-13",
@@ -29957,7 +30971,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Teaching Veda and Vedanga as a profession explains Upadhyaya’s association with that educational function."
+     "explanation": "Both statements are true. Teaching Veda and Vedanga as a profession explains Upadhyaya’s association with that educational function.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-56-14",
@@ -29971,7 +30989,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four had priestly or teaching functions: Purohita was the chief priest, Hotri recited hymns, Adhvaryu performed practical or manual sacrificial duties, and Upadhyaya taught Veda and Vedanga."
+     "explanation": "All four had priestly or teaching functions: Purohita was the chief priest, Hotri recited hymns, Adhvaryu performed practical or manual sacrificial duties, and Upadhyaya taught Veda and Vedanga.",
+     "facts": [
+      "F1",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-56-15",
@@ -29985,7 +31012,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three officials fit these functions: Gramani was the head of the village, Bhagadugha was the revenue collector, and Senani was the commander of the army. Suta was a charioteer associated with the royal court."
+     "explanation": "Three officials fit these functions: Gramani was the head of the village, Bhagadugha was the revenue collector, and Senani was the commander of the army. Suta was a charioteer associated with the royal court.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-56-16",
@@ -29999,7 +31034,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Hotri/Hota recited Rigvedic hymns, while Adhvaryu was responsible for the practical or manual aspects of sacrifice."
+     "explanation": "Both statements are true. Hotri/Hota recited Rigvedic hymns, while Adhvaryu was responsible for the practical or manual aspects of sacrifice.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-56-17",
@@ -30013,7 +31054,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because Senani was the commander of the army. The reason is false; Gramani, not Senani, was the head of the village."
+     "explanation": "The assertion is true because Senani was the commander of the army. The reason is false; Gramani, not Senani, was the head of the village.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-56-18",
@@ -30027,7 +31072,14 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct. These functions are respectively associated with Suta, Hotri, Upadhyaya and Bhagadugha."
+     "explanation": "All four statements are correct. These functions are respectively associated with Suta, Hotri, Upadhyaya and Bhagadugha.",
+     "facts": [
+      "F6",
+      "F7",
+      "F9",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-56-19",
@@ -30041,7 +31093,14 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Gramani–head of the village, Bhagadugha–revenue collector, Purohita–chief priest and religious adviser, and Senani–commander of the army."
+     "explanation": "The correct pairs are Gramani–head of the village, Bhagadugha–revenue collector, Purohita–chief priest and religious adviser, and Senani–commander of the army.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-56-20",
@@ -30055,9 +31114,18 @@
       "Bhagadugha"
      ],
      "answer": 0,
-     "explanation": "Gramani was the head of the village and served as a village-level authority. Bhagadugha was the revenue collector, Senani was the commander of the army, and Suta was a charioteer associated with the royal court."
+     "explanation": "Gramani was the head of the village and served as a village-level authority. Bhagadugha was the revenue collector, Senani was the commander of the army, and Suta was a charioteer associated with the royal court.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 14,
+    "covered": 14,
+    "audited": true
+   }
   },
   "57": {
    "number": 57,
@@ -30085,7 +31153,10 @@
       "Vinaya Pitaka"
      ],
      "answer": 3,
-     "explanation": "The Vinaya Pitaka deals with the rules and discipline of the Buddhist Sangha or monastic order."
+     "explanation": "The Vinaya Pitaka deals with the rules and discipline of the Buddhist Sangha or monastic order.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-57-2",
@@ -30099,7 +31170,10 @@
       "Abhidhamma Pitaka"
      ],
      "answer": 0,
-     "explanation": "The Sutta Pitaka contains the Buddha’s teachings, discourses and sayings."
+     "explanation": "The Sutta Pitaka contains the Buddha’s teachings, discourses and sayings.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-57-3",
@@ -30113,7 +31187,10 @@
       "Sangha Pitaka"
      ],
      "answer": 0,
-     "explanation": "The Abhidhamma Pitaka is the philosophical or analytical exposition of Dhamma."
+     "explanation": "The Abhidhamma Pitaka is the philosophical or analytical exposition of Dhamma.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-57-4",
@@ -30127,7 +31204,10 @@
       "Vinaya + Sutta + Dhammasangani"
      ],
      "answer": 1,
-     "explanation": "The Tripitaka consists of the Vinaya Pitaka, Sutta Pitaka and Abhidhamma Pitaka."
+     "explanation": "The Tripitaka consists of the Vinaya Pitaka, Sutta Pitaka and Abhidhamma Pitaka.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-57-5",
@@ -30141,7 +31221,13 @@
       "Sutta Pitaka contains Buddha’s teachings, discourses and sayings."
      ],
      "answer": 1,
-     "explanation": "The incorrect association is with the Abhidhamma Pitaka. Rules and discipline of the Buddhist Sangha belong to the Vinaya Pitaka."
+     "explanation": "The incorrect association is with the Abhidhamma Pitaka. Rules and discipline of the Buddhist Sangha belong to the Vinaya Pitaka.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-57-6",
@@ -30155,7 +31241,12 @@
       "Sutta Pitaka is a philosophical or analytical exposition of Dhamma."
      ],
      "answer": 3,
-     "explanation": "The altered detail is the association of the Sutta Pitaka with philosophical exposition. That description belongs to the Abhidhamma Pitaka."
+     "explanation": "The altered detail is the association of the Sutta Pitaka with philosophical exposition. That description belongs to the Abhidhamma Pitaka.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-57-7",
@@ -30169,7 +31260,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The analytical exposition of Dhamma explains why the Abhidhamma Pitaka is described as philosophical or analytical."
+     "explanation": "Both statements are true. The analytical exposition of Dhamma explains why the Abhidhamma Pitaka is described as philosophical or analytical.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-57-8",
@@ -30183,7 +31277,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly identifies the three Pitakas that constitute the Tripitaka."
+     "explanation": "Both statements are true, and the reason directly identifies the three Pitakas that constitute the Tripitaka.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-57-9",
@@ -30197,7 +31294,11 @@
       "A is false, but R is true"
      ],
      "answer": 3,
-     "explanation": "The assertion is false because Buddha’s teachings, discourses and sayings belong to the Sutta Pitaka. The reason is true."
+     "explanation": "The assertion is false because Buddha’s teachings, discourses and sayings belong to the Sutta Pitaka. The reason is true.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-57-10",
@@ -30211,7 +31312,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct associations: Vinaya concerns the monastic order, while Sutta contains Buddha’s teachings, discourses and sayings."
+     "explanation": "Both statements are correct associations: Vinaya concerns the monastic order, while Sutta contains Buddha’s teachings, discourses and sayings.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-57-11",
@@ -30225,7 +31330,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Abhidhamma Pitaka is analytical in character, and Dhammasangani is listed among its seven books."
+     "explanation": "Both statements are true. The Abhidhamma Pitaka is analytical in character, and Dhammasangani is listed among its seven books.",
+     "facts": [
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-57-12",
@@ -30239,7 +31348,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Dhammasangani, Vibhanga and Dhatukatha are all included in the seven books of the Abhidhamma Pitaka."
+     "explanation": "Dhammasangani, Vibhanga and Dhatukatha are all included in the seven books of the Abhidhamma Pitaka.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-57-13",
@@ -30253,7 +31367,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "Puggalapannatti, Kathavatthu and Yamaka are all listed as books of the Abhidhamma Pitaka."
+     "explanation": "Puggalapannatti, Kathavatthu and Yamaka are all listed as books of the Abhidhamma Pitaka.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-57-14",
@@ -30267,7 +31386,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Only Patthana is included in the listed seven books. Sutta and Vinaya are names of Pitakas, not books in the listed Abhidhamma set."
+     "explanation": "Only Patthana is included in the listed seven books. Sutta and Vinaya are names of Pitakas, not books in the listed Abhidhamma set.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-57-15",
@@ -30281,7 +31406,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The listed order is Dhammasangani first, Vibhanga second, Dhatukatha third and Puggalapannatti fourth."
+     "explanation": "The listed order is Dhammasangani first, Vibhanga second, Dhatukatha third and Puggalapannatti fourth.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-57-16",
@@ -30295,7 +31426,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "In the listed sequence, Dhatukatha is third, Kathavatthu fifth, Yamaka sixth and Patthana seventh."
+     "explanation": "In the listed sequence, Dhatukatha is third, Kathavatthu fifth, Yamaka sixth and Patthana seventh.",
+     "facts": [
+      "F8",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-57-17",
@@ -30309,7 +31446,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "Vinaya Pitaka corresponds to rules and discipline, Sutta Pitaka to Buddha’s teachings, Abhidhamma Pitaka to analytical exposition, and Tripitaka to the three Pitakas together."
+     "explanation": "Vinaya Pitaka corresponds to rules and discipline, Sutta Pitaka to Buddha’s teachings, Abhidhamma Pitaka to analytical exposition, and Tripitaka to the three Pitakas together.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-57-18",
@@ -30323,7 +31466,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four—Dhammasangani, Vibhanga, Kathavatthu and Patthana—are included in the listed seven books of the Abhidhamma Pitaka."
+     "explanation": "All four—Dhammasangani, Vibhanga, Kathavatthu and Patthana—are included in the listed seven books of the Abhidhamma Pitaka.",
+     "facts": [
+      "F6",
+      "F7",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-57-19",
@@ -30337,7 +31486,10 @@
       "Five"
      ],
      "answer": 0,
-     "explanation": "The Abhidhamma Pitaka is listed as having seven books."
+     "explanation": "The Abhidhamma Pitaka is listed as having seven books.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-57-20",
@@ -30351,9 +31503,23 @@
       "Dhammasangani, Vibhanga, Puggalapannatti, Dhatukatha, Kathavatthu, Patthana, Yamaka"
      ],
      "answer": 1,
-     "explanation": "The seven books are listed in this order: Dhammasangani, Vibhanga, Dhatukatha, Puggalapannatti, Kathavatthu, Yamaka and Patthana."
+     "explanation": "The seven books are listed in this order: Dhammasangani, Vibhanga, Dhatukatha, Puggalapannatti, Kathavatthu, Yamaka and Patthana.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 12,
+    "covered": 12,
+    "audited": true
+   }
   },
   "58": {
    "number": 58,
@@ -31342,7 +32508,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "Advaita is associated with Adi Shankaracharya, Vishishtadvaita with Ramanujacharya, Dvaita with Madhvacharya, and Lokayata with Charvaka."
+     "explanation": "Advaita is associated with Adi Shankaracharya, Vishishtadvaita with Ramanujacharya, Dvaita with Madhvacharya, and Lokayata with Charvaka.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-61-2",
@@ -31356,7 +32528,13 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct: Bauddha and Jain are identified as Nastika schools; Ajivika is linked with Niyativada or determinism (fate); and Pashupata is associated with Lakulisha."
+     "explanation": "All four statements are correct: Bauddha and Jain are identified as Nastika schools; Ajivika is linked with Niyativada or determinism (fate); and Pashupata is associated with Lakulisha.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-61-3",
@@ -31370,7 +32548,10 @@
       "Nagarjuna"
      ],
      "answer": 3,
-     "explanation": "The association given for Shunyavada is Nagarjuna."
+     "explanation": "The association given for Shunyavada is Nagarjuna.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-history-61-4",
@@ -31384,9 +32565,17 @@
       "Ajivika"
      ],
      "answer": 2,
-     "explanation": "The notes associate Lakulisha with the Pashupata school."
+     "explanation": "The notes associate Lakulisha with the Pashupata school.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "62": {
    "number": 62,
@@ -31435,7 +32624,8 @@
      "facts": [
       "F7",
       "F12",
-      "F9"
+      "F9",
+      "F11"
      ]
     },
     {
@@ -31470,7 +32660,8 @@
      "explanation": "Both statements are correct: Raisina was annexed by Humayun in 1535, and Sher Shah built the Qila-e-Kuhna Mosque in 1541.",
      "facts": [
       "F9",
-      "F12"
+      "F12",
+      "F11"
      ]
     },
     {
@@ -31532,7 +32723,8 @@
       "F7",
       "F4",
       "F9",
-      "F12"
+      "F12",
+      "F11"
      ]
     },
     {
@@ -31550,7 +32742,8 @@
      "explanation": "Warangal Fort and Kondaveedu Fort were captured during Qutb Shahi expansion. Chunar and Raisina are not described as such.",
      "facts": [
       "F16",
-      "F18"
+      "F18",
+      "F17"
      ]
     },
     {
@@ -31567,7 +32760,8 @@
      "answer": 2,
      "explanation": "Sher Shah built the Qila-e-Kuhna Mosque inside Purana Qila in 1541.",
      "facts": [
-      "F12"
+      "F12",
+      "F11"
      ]
     },
     {
@@ -31585,7 +32779,8 @@
      "explanation": "Both forts were captured by Quli Qutb Shah during Qutb Shahi expansion, so the reason explains the assertion.",
      "facts": [
       "F16",
-      "F18"
+      "F18",
+      "F17"
      ]
     },
     {
@@ -31739,7 +32934,8 @@
       "F5",
       "F12",
       "F16",
-      "F18"
+      "F18",
+      "F17"
      ]
     },
     {
@@ -31776,7 +32972,12 @@
       "F10"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "63": {
    "number": 63,
@@ -38274,7 +39475,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "Gautama Buddha was born at Lumbini, Mahavira at Kundagrama, Adi Shankaracharya at Kaladi and Ramanujacharya at Sriperumbudur."
+     "explanation": "Gautama Buddha was born at Lumbini, Mahavira at Kundagrama, Adi Shankaracharya at Kaladi and Ramanujacharya at Sriperumbudur.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-80-2",
@@ -38288,7 +39495,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "Basavanna was born at Bagewadi, Kabir at Varanasi, Guru Nanak at Talwandi and Chaitanya Mahaprabhu at Nabadwip."
+     "explanation": "Basavanna was born at Bagewadi, Kabir at Varanasi, Guru Nanak at Talwandi and Chaitanya Mahaprabhu at Nabadwip.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-80-3",
@@ -38302,7 +39515,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "Tulsidas was born at Rajapur, Surdas at Sihi, Mirabai at Kudki and Ramananda at Prayag."
+     "explanation": "Tulsidas was born at Rajapur, Surdas at Sihi, Mirabai at Kudki and Ramananda at Prayag.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-80-4",
@@ -38316,7 +39535,13 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 1,
-     "explanation": "Nizamuddin Auliya was born at Badaun, Amir Khusrau at Patiyali, Sher Shah Suri at Sasaram and Akbar at Umarkot."
+     "explanation": "Nizamuddin Auliya was born at Badaun, Amir Khusrau at Patiyali, Sher Shah Suri at Sasaram and Akbar at Umarkot.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-80-5",
@@ -38330,7 +39555,10 @@
       "Sasaram"
      ],
      "answer": 1,
-     "explanation": "The birthplace associated with Shivaji is Shivneri."
+     "explanation": "The birthplace associated with Shivaji is Shivneri.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-history-80-6",
@@ -38344,7 +39572,13 @@
       "Mahavira was born at Kaladi."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is Mahavira's birthplace. Mahavira was born at Kundagrama, whereas Kaladi was the birthplace of Adi Shankaracharya."
+     "explanation": "The incorrect detail is Mahavira's birthplace. Mahavira was born at Kundagrama, whereas Kaladi was the birthplace of Adi Shankaracharya.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-80-7",
@@ -38358,7 +39592,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly states why Badaun is associated with Nizamuddin Auliya."
+     "explanation": "Both statements are true, and the reason directly states why Badaun is associated with Nizamuddin Auliya.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-history-80-8",
@@ -38372,7 +39609,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The birthplace of Sher Shah Suri was Sasaram, while Akbar was born at Umarkot."
+     "explanation": "The birthplace of Sher Shah Suri was Sasaram, while Akbar was born at Umarkot.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-80-9",
@@ -38386,7 +39627,10 @@
       "Basavanna"
      ],
      "answer": 3,
-     "explanation": "Basavanna was born at Bagewadi."
+     "explanation": "Basavanna was born at Bagewadi.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-80-10",
@@ -38400,7 +39644,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The reason directly establishes the association of Kaladi with Adi Shankaracharya's birth."
+     "explanation": "Both statements are true. The reason directly establishes the association of Kaladi with Adi Shankaracharya's birth.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-80-11",
@@ -38414,7 +39661,12 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct: Rajapur is associated with Tulsidas, Sihi with Surdas and Kudki with Mirabai."
+     "explanation": "All three statements are correct: Rajapur is associated with Tulsidas, Sihi with Surdas and Kudki with Mirabai.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-80-12",
@@ -38428,7 +39680,10 @@
       "Talwandi"
      ],
      "answer": 2,
-     "explanation": "Chaitanya Mahaprabhu was born at Nabadwip."
+     "explanation": "Chaitanya Mahaprabhu was born at Nabadwip.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-80-13",
@@ -38442,7 +39697,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the association of Kundagrama with Mahavira."
+     "explanation": "Both statements are true, and the reason directly explains the association of Kundagrama with Mahavira.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-80-14",
@@ -38456,7 +39714,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Kabir's birthplace is given as Varanasi, while Guru Nanak's birthplace is given as Talwandi."
+     "explanation": "Kabir's birthplace is given as Varanasi, while Guru Nanak's birthplace is given as Talwandi.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-80-15",
@@ -38470,7 +39732,10 @@
       "Akbar"
      ],
      "answer": 3,
-     "explanation": "Akbar was born at Umarkot."
+     "explanation": "Akbar was born at Umarkot.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-history-80-16",
@@ -38484,7 +39749,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched: Kaladi, Sriperumbudur, Bagewadi and Nabadwip are respectively associated with the four personalities listed."
+     "explanation": "All four pairs are correctly matched: Kaladi, Sriperumbudur, Bagewadi and Nabadwip are respectively associated with the four personalities listed.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-80-17",
@@ -38498,7 +39769,10 @@
       "Ramananda"
      ],
      "answer": 0,
-     "explanation": "Guru Nanak was born at Talwandi."
+     "explanation": "Guru Nanak was born at Talwandi.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-80-18",
@@ -38512,7 +39786,10 @@
       "Badaun"
      ],
      "answer": 1,
-     "explanation": "Amir Khusrau's birthplace is given as Patiyali."
+     "explanation": "Amir Khusrau's birthplace is given as Patiyali.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-history-80-19",
@@ -38526,9 +39803,20 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Amir Khusrau–Patiyali, Sher Shah Suri–Sasaram, Akbar–Umarkot and Nizamuddin Auliya–Badaun."
+     "explanation": "The correct pairs are Amir Khusrau–Patiyali, Sher Shah Suri–Sasaram, Akbar–Umarkot and Nizamuddin Auliya–Badaun.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "81": {
    "number": 81,
@@ -40993,7 +42281,10 @@
       "Calicut"
      ],
      "answer": 0,
-     "explanation": "The notes identify Portugal as Vasco da Gama’s country."
+     "explanation": "The notes identify Portugal as Vasco da Gama’s country.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-87-2",
@@ -41007,7 +42298,10 @@
       "20 May 1524 CE"
      ],
      "answer": 1,
-     "explanation": "His arrival in India is recorded as 20 May 1498 CE."
+     "explanation": "His arrival in India is recorded as 20 May 1498 CE.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-87-3",
@@ -41021,7 +42315,10 @@
       "Portugal"
      ],
      "answer": 1,
-     "explanation": "Vasco da Gama reached Calicut, also called Kozhikode."
+     "explanation": "Vasco da Gama reached Calicut, also called Kozhikode.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-87-4",
@@ -41035,7 +42332,13 @@
       "He reached Calicut (Kozhikode)."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the eastern coast. The notes state that Calicut lies on the western coast of India."
+     "explanation": "The incorrect detail is the eastern coast. The notes state that Calicut lies on the western coast of India.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-87-5",
@@ -41049,7 +42352,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, the notes state these as separate achievements and do not explicitly present the reason as an explanation of the trade era."
+     "explanation": "Both statements are given in the notes. However, the notes state these as separate achievements and do not explicitly present the reason as an explanation of the trade era.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-87-6",
@@ -41063,7 +42370,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes place Calicut on India’s western coast and identify Zamorin (Samuthiri) as the ruler who welcomed Vasco da Gama."
+     "explanation": "The notes place Calicut on India’s western coast and identify Zamorin (Samuthiri) as the ruler who welcomed Vasco da Gama.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-87-7",
@@ -41077,7 +42389,13 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All four statements are supported: Portugal, black pepper, the later visit in 1524 CE, and arrival at Calicut are each recorded in the notes."
+     "explanation": "All four statements are supported: Portugal, black pepper, the later visit in 1524 CE, and arrival at Calicut are each recorded in the notes.",
+     "facts": [
+      "F1",
+      "F3",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-8",
@@ -41091,7 +42409,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Country–Portugal, Place reached–Calicut, Ruler–Zamorin, and Important commodity–black pepper."
+     "explanation": "The correct pairs are: Country–Portugal, Place reached–Calicut, Ruler–Zamorin, and Important commodity–black pepper.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-87-9",
@@ -41105,7 +42429,12 @@
       "C, B, A"
      ],
      "answer": 2,
-     "explanation": "The sequence is arrival in 1498 CE, first return/revisit mentioned in 1502 CE, and later visit in 1524 CE."
+     "explanation": "The sequence is arrival in 1498 CE, first return/revisit mentioned in 1502 CE, and later visit in 1524 CE.",
+     "facts": [
+      "F2",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-10",
@@ -41119,7 +42448,14 @@
       "Being welcomed by Zamorin (Samuthiri)"
      ],
      "answer": 1,
-     "explanation": "His major achievement was discovering a new or alternative sea route to India from Europe."
+     "explanation": "His major achievement was discovering a new or alternative sea route to India from Europe.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-87-11",
@@ -41133,7 +42469,14 @@
       "The later visit took place in 1498 CE."
      ],
      "answer": 3,
-     "explanation": "The altered detail is the year of the later visit. The notes place it in 1524 CE, while 1498 CE was the year of arrival."
+     "explanation": "The altered detail is the year of the later visit. The notes place it in 1524 CE, while 1498 CE was the year of arrival.",
+     "facts": [
+      "F2",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-12",
@@ -41147,7 +42490,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are correctly associated: Portugal was his country, Calicut was the place reached, Zamorin welcomed him, and black pepper was an important commodity."
+     "explanation": "All four are correctly associated: Portugal was his country, Calicut was the place reached, Zamorin welcomed him, and black pepper was an important commodity.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-87-13",
@@ -41161,7 +42510,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. The 1502 CE return/revisit does not explain why the later visit occurred in 1524 CE; it is a separate chronological fact."
+     "explanation": "Both statements are true according to the notes. The 1502 CE return/revisit does not explain why the later visit occurred in 1524 CE; it is a separate chronological fact.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-14",
@@ -41175,7 +42528,10 @@
       "1502 CE"
      ],
      "answer": 3,
-     "explanation": "The first return or revisit mentioned in connection with Vasco da Gama was in 1502 CE."
+     "explanation": "The first return or revisit mentioned in connection with Vasco da Gama was in 1502 CE.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-history-87-15",
@@ -41189,7 +42545,10 @@
       "1502 CE"
      ],
      "answer": 2,
-     "explanation": "The later visit of Vasco da Gama to India took place in 1524 CE."
+     "explanation": "The later visit of Vasco da Gama to India took place in 1524 CE.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-16",
@@ -41203,7 +42562,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: discovering a new or alternative sea route was his achievement, while the opening of a new era of Portuguese–Indian trade was its major economic impact. The Reason does not explain the achievement itself."
+     "explanation": "Both statements are true: discovering a new or alternative sea route was his achievement, while the opening of a new era of Portuguese–Indian trade was its major economic impact. The Reason does not explain the achievement itself.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-87-17",
@@ -41217,7 +42580,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Vasco da Gama arrived in India on 20 May 1498 CE, and Zamorin, also known as Samuthiri, welcomed him."
+     "explanation": "Vasco da Gama arrived in India on 20 May 1498 CE, and Zamorin, also known as Samuthiri, welcomed him.",
+     "facts": [
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-87-18",
@@ -41231,7 +42598,14 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the later visit took place in 1524 CE; 1502 CE was the first return or revisit mentioned."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the later visit took place in 1524 CE; 1502 CE was the first return or revisit mentioned.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-19",
@@ -41245,7 +42619,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: (a)-iii, (b)-iv, (c)-i and (d)-ii."
+     "explanation": "The correct pairs are: (a)-iii, (b)-iv, (c)-i and (d)-ii.",
+     "facts": [
+      "F2",
+      "F7",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-87-20",
@@ -41259,9 +42639,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched: Vasco da Gama belonged to Portugal, reached Calicut on the western coast of India, and was associated with the trade in black pepper."
+     "explanation": "All four pairs are correctly matched: Vasco da Gama belonged to Portugal, reached Calicut on the western coast of India, and was associated with the trade in black pepper.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "88": {
    "number": 88,
@@ -41289,7 +42680,10 @@
       "Shihab"
      ],
      "answer": 2,
-     "explanation": "Rajabwah was one of the major irrigation canals associated with Firoz Shah Tughlaq."
+     "explanation": "Rajabwah was one of the major irrigation canals associated with Firoz Shah Tughlaq.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-88-2",
@@ -41303,7 +42697,10 @@
       "Rajabwah"
      ],
      "answer": 3,
-     "explanation": "The Rajabwah canal ran from the Sutlej to the Ghaggar."
+     "explanation": "The Rajabwah canal ran from the Sutlej to the Ghaggar.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-88-3",
@@ -41317,7 +42714,10 @@
       "160 miles"
      ],
      "answer": 0,
-     "explanation": "The Sutlej–Ghaggar canal was approximately 96 miles long."
+     "explanation": "The Sutlej–Ghaggar canal was approximately 96 miles long.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-88-4",
@@ -41331,7 +42731,10 @@
       "Rajabwah"
      ],
      "answer": 0,
-     "explanation": "The canal from the Yamuna to Hisar was associated with Firoz Shah Tughlaq."
+     "explanation": "The canal from the Yamuna to Hisar was associated with Firoz Shah Tughlaq.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-88-5",
@@ -41345,7 +42748,12 @@
       "The Yamuna–Hisar canal"
      ],
      "answer": 3,
-     "explanation": "The Yamuna–Hisar canal was approximately 150 miles long and was described as the longest and most important."
+     "explanation": "The Yamuna–Hisar canal was approximately 150 miles long and was described as the longest and most important.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-88-6",
@@ -41359,7 +42767,12 @@
       "The Yamuna–Hisar canal was approximately 150 miles long."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the length of the Yamuna–Hisar canal. Its correct length was approximately 150 miles; approximately 96 miles referred to the Sutlej–Ghaggar canal."
+     "explanation": "The incorrect detail is the length of the Yamuna–Hisar canal. Its correct length was approximately 150 miles; approximately 96 miles referred to the Sutlej–Ghaggar canal.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-88-7",
@@ -41373,7 +42786,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The fact that Rajabwah was a major irrigation canal does not explain its specific route from the Sutlej to the Ghaggar."
+     "explanation": "Both statements are true. The fact that Rajabwah was a major irrigation canal does not explain its specific route from the Sutlej to the Ghaggar.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-88-8",
@@ -41387,7 +42804,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The description of the canal as longest and most important does not explain the stated numerical length."
+     "explanation": "Both statements are true. The description of the canal as longest and most important does not explain the stated numerical length.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-88-9",
@@ -41401,7 +42823,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true, but the reason is false. The Ghaggar–Firozabad canal ran from the Ghaggar, while the Yamuna–Firozabad canal was a separate irrigation canal."
+     "explanation": "The assertion is true, but the reason is false. The Ghaggar–Firozabad canal ran from the Ghaggar, while the Yamuna–Firozabad canal was a separate irrigation canal.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-88-10",
@@ -41415,7 +42841,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the restoration or reconstruction of Rajabwah identifies the role of the Shahab or Shihab Canal in Akbar’s period."
+     "explanation": "Both statements are true, and the restoration or reconstruction of Rajabwah identifies the role of the Shahab or Shihab Canal in Akbar’s period.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-88-11",
@@ -41429,7 +42860,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Rajabwah–Sutlej to Ghaggar, Yamuna–Hisar–approximately 150 miles, Sirmur Hills–Hansi–irrigation canal, and Ghaggar–Firozabad–irrigation and public works."
+     "explanation": "The correct pairs are Rajabwah–Sutlej to Ghaggar, Yamuna–Hisar–approximately 150 miles, Sirmur Hills–Hansi–irrigation canal, and Ghaggar–Firozabad–irrigation and public works.",
+     "facts": [
+      "F3",
+      "F6",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-88-12",
@@ -41443,7 +42880,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The routes are Sutlej–Ghaggar, Yamuna–Hisar, Sirmur Hills–Hansi, and Ghaggar–Firozabad."
+     "explanation": "The routes are Sutlej–Ghaggar, Yamuna–Hisar, Sirmur Hills–Hansi, and Ghaggar–Firozabad.",
+     "facts": [
+      "F3",
+      "F5",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-88-13",
@@ -41457,7 +42900,14 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "Rajabwah was a major irrigation canal; the Yamuna–Hisar canal was longest and most important; the Ghaggar–Firozabad canal concerned irrigation and public works; and the Yamuna–Firozabad canal concerned irrigation."
+     "explanation": "Rajabwah was a major irrigation canal; the Yamuna–Hisar canal was longest and most important; the Ghaggar–Firozabad canal concerned irrigation and public works; and the Yamuna–Firozabad canal concerned irrigation.",
+     "facts": [
+      "F2",
+      "F7",
+      "F8",
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-88-14",
@@ -41471,7 +42921,13 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct descriptions of the canals and their key points."
+     "explanation": "All four statements are correct descriptions of the canals and their key points.",
+     "facts": [
+      "F3",
+      "F6",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-88-15",
@@ -41485,7 +42941,13 @@
       "I and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Sutlej–Ghaggar route belonged to Rajabwah."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Sutlej–Ghaggar route belonged to Rajabwah.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-88-16",
@@ -41499,7 +42961,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Yamuna–Firozabad canal was associated with irrigation, while the Ghaggar–Firozabad canal was linked with irrigation and public works."
+     "explanation": "Both statements are true. The Yamuna–Firozabad canal was associated with irrigation, while the Ghaggar–Firozabad canal was linked with irrigation and public works.",
+     "facts": [
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-88-17",
@@ -41513,7 +42979,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Shahab or Shihab Canal is associated with Akbar’s period and restored or reconstructed Rajabwah."
+     "explanation": "Both statements are true. The Shahab or Shihab Canal is associated with Akbar’s period and restored or reconstructed Rajabwah.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-88-18",
@@ -41527,7 +42997,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three listed canals—Rajabwah, the Sutlej–Ghaggar canal, and the Yamuna–Hisar canal—were associated with Firoz Shah Tughlaq. The Shahab or Shihab Canal belongs to Akbar’s period."
+     "explanation": "Three listed canals—Rajabwah, the Sutlej–Ghaggar canal, and the Yamuna–Hisar canal—were associated with Firoz Shah Tughlaq. The Shahab or Shihab Canal belongs to Akbar’s period.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-88-19",
@@ -41541,9 +43017,20 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The Sirmur Hills–Hansi canal was an irrigation canal; the Ghaggar–Firozabad canal was linked with irrigation and public works; the Yamuna–Firozabad canal was for irrigation; and the Shahab or Shihab Canal restored or reconstructed Rajabwah."
+     "explanation": "The Sirmur Hills–Hansi canal was an irrigation canal; the Ghaggar–Firozabad canal was linked with irrigation and public works; the Yamuna–Firozabad canal was for irrigation; and the Shahab or Shihab Canal restored or reconstructed Rajabwah.",
+     "facts": [
+      "F10",
+      "F12",
+      "F14",
+      "F17"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "89": {
    "number": 89,
@@ -50672,7 +52159,10 @@
       "Minute on Education, 1835"
      ],
      "answer": 1,
-     "explanation": "Warren Hastings is associated with Oriental education."
+     "explanation": "Warren Hastings is associated with Oriental education.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-108-2",
@@ -50686,7 +52176,10 @@
       "Hunter Commission, 1882"
      ],
      "answer": 0,
-     "explanation": "Sir William Jones was associated with Oriental/Sanskrit learning."
+     "explanation": "Sir William Jones was associated with Oriental/Sanskrit learning.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-108-3",
@@ -50700,7 +52193,10 @@
       "Philip Hartog"
      ],
      "answer": 1,
-     "explanation": "Macaulay was associated with the Minute on Education, 1835."
+     "explanation": "Macaulay was associated with the Minute on Education, 1835.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-108-4",
@@ -50714,7 +52210,10 @@
       "Minute on Education, 1835"
      ],
      "answer": 2,
-     "explanation": "Charles Wood was associated with Wood's Despatch, 1854."
+     "explanation": "Charles Wood was associated with Wood's Despatch, 1854.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-108-5",
@@ -50728,7 +52227,10 @@
       "Philip Hartog"
      ],
      "answer": 2,
-     "explanation": "W.W. Hunter was associated with the Hunter Commission, 1882."
+     "explanation": "W.W. Hunter was associated with the Hunter Commission, 1882.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-108-6",
@@ -50742,7 +52244,12 @@
       "M.E. Sadler was associated with the Sadler Commission, 1917."
      ],
      "answer": 2,
-     "explanation": "The incorrect year is 1917. Philip Hartog was associated with the Hartog Committee, 1929."
+     "explanation": "The incorrect year is 1917. Philip Hartog was associated with the Hartog Committee, 1929.",
+     "facts": [
+      "F5",
+      "F7",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-108-7",
@@ -50756,7 +52263,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the stated association directly identifies why Sir William Jones is linked with Oriental/Sanskrit learning."
+     "explanation": "Both statements are true, and the stated association directly identifies why Sir William Jones is linked with Oriental/Sanskrit learning.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-108-8",
@@ -50770,7 +52280,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Macaulay is associated with the Minute on Education, and the year attached to it is 1835."
+     "explanation": "Macaulay is associated with the Minute on Education, and the year attached to it is 1835.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-108-9",
@@ -50784,7 +52297,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Sir Ashutosh Mukherjee's membership does not explain M.E. Sadler's association with the commission."
+     "explanation": "Both statements are true, but Sir Ashutosh Mukherjee's membership does not explain M.E. Sadler's association with the commission.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-108-10",
@@ -50798,7 +52315,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Warren Hastings is linked with Oriental education, while Macaulay is linked with the Minute on Education, 1835."
+     "explanation": "Warren Hastings is linked with Oriental education, while Macaulay is linked with the Minute on Education, 1835.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-108-11",
@@ -50812,7 +52333,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet associates W.W. Hunter with the Hunter Commission, 1882, and states that Lord Ripon appointed the Hunter Commission."
+     "explanation": "The sheet associates W.W. Hunter with the Hunter Commission, 1882, and states that Lord Ripon appointed the Hunter Commission.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-108-12",
@@ -50826,7 +52351,13 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are correct. Lord Ripon appointed the Hunter Commission; he was not listed as a member of the Sadler Commission."
+     "explanation": "Statements I, II and IV are correct. Lord Ripon appointed the Hunter Commission; he was not listed as a member of the Sadler Commission.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-108-13",
@@ -50840,7 +52371,13 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The Hunter Commission is associated with W.W. Hunter and the year 1882, not 1917."
+     "explanation": "Statements I, II and IV are correct. The Hunter Commission is associated with W.W. Hunter and the year 1882, not 1917.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-108-14",
@@ -50854,7 +52391,13 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Warren Hastings–Oriental education, Sir William Jones–Oriental/Sanskrit learning, Macaulay–Minute on Education, 1835, and Charles Wood–Wood's Despatch, 1854."
+     "explanation": "The correct pairs are Warren Hastings–Oriental education, Sir William Jones–Oriental/Sanskrit learning, Macaulay–Minute on Education, 1835, and Charles Wood–Wood's Despatch, 1854.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-108-15",
@@ -50868,7 +52411,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct year pairs are Minute on Education–1835, Wood's Despatch–1854, Hunter Commission–1882, and Sadler Commission–1917."
+     "explanation": "The correct year pairs are Minute on Education–1835, Wood's Despatch–1854, Hunter Commission–1882, and Sadler Commission–1917.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-108-16",
@@ -50882,7 +52431,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "Lord Ripon–appointed Hunter Commission; Sir Ashutosh Mukherjee–member of Sadler Commission; Zia-ud-din Ahmad–member of Sadler Commission; Philip Hartog–Hartog Committee, 1929."
+     "explanation": "Lord Ripon–appointed Hunter Commission; Sir Ashutosh Mukherjee–member of Sadler Commission; Zia-ud-din Ahmad–member of Sadler Commission; Philip Hartog–Hartog Committee, 1929.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-108-17",
@@ -50896,7 +52451,13 @@
       "C, D, B, A"
      ],
      "answer": 2,
-     "explanation": "The years are 1835 for the Minute on Education, 1854 for Wood's Despatch, 1882 for the Hunter Commission, and 1917 for the Sadler Commission."
+     "explanation": "The years are 1835 for the Minute on Education, 1854 for Wood's Despatch, 1882 for the Hunter Commission, and 1917 for the Sadler Commission.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-108-18",
@@ -50910,7 +52471,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Associations 1, 2 and 4 are correct. M.E. Sadler was associated with the Sadler Commission, while Philip Hartog was associated with the Hartog Committee."
+     "explanation": "Associations 1, 2 and 4 are correct. M.E. Sadler was associated with the Sadler Commission, while Philip Hartog was associated with the Hartog Committee.",
+     "facts": [
+      "F1",
+      "F2",
+      "F7",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-108-19",
@@ -50924,9 +52491,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Associations 1, 3 and 4 are correct. M.E. Sadler was associated with the Sadler Commission, 1917, not the Hartog Committee."
+     "explanation": "Associations 1, 3 and 4 are correct. M.E. Sadler was associated with the Sadler Commission, 1917, not the Hartog Committee.",
+     "facts": [
+      "F6",
+      "F7",
+      "F9",
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "109": {
    "number": 109,
@@ -53706,7 +55284,12 @@
       "Annie Besant"
      ],
      "answer": 2,
-     "explanation": "The 1906 Muslim League entry identifies Nawab Salimullah as the associated personality and Dhaka as the place."
+     "explanation": "The 1906 Muslim League entry identifies Nawab Salimullah as the associated personality and Dhaka as the place.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-115-2",
@@ -53720,7 +55303,11 @@
       "1906, Dhaka"
      ],
      "answer": 0,
-     "explanation": "The first annual session of the Muslim League was held in 1907 at Karachi."
+     "explanation": "The first annual session of the Muslim League was held in 1907 at Karachi.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-115-3",
@@ -53734,7 +55321,10 @@
       "Lahore"
      ],
      "answer": 1,
-     "explanation": "The second Muslim League session was held at Amritsar in 1908."
+     "explanation": "The second Muslim League session was held at Amritsar in 1908.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-115-4",
@@ -53748,7 +55338,12 @@
       "September"
      ],
      "answer": 2,
-     "explanation": "The Tilak Home Rule League entry records B.G. Tilak and April 1916."
+     "explanation": "The Tilak Home Rule League entry records B.G. Tilak and April 1916.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-115-5",
@@ -53762,7 +55357,12 @@
       "September"
      ],
      "answer": 3,
-     "explanation": "The Besant Home Rule League entry identifies Annie Besant and September 1916."
+     "explanation": "The Besant Home Rule League entry identifies Annie Besant and September 1916.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-115-6",
@@ -53776,7 +55376,13 @@
       "Nawab Salimullah was associated with the Muslim League."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year and place: the Muslim League was formed in 1906 at Dhaka, not in 1907 at Karachi."
+     "explanation": "The incorrect detail is the year and place: the Muslim League was formed in 1906 at Dhaka, not in 1907 at Karachi.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-115-7",
@@ -53790,7 +55396,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are recorded as facts. The aim of protecting Muslim political interests describes the League's purpose but does not explain the date of its formation."
+     "explanation": "Both statements are recorded as facts. The aim of protecting Muslim political interests describes the League's purpose but does not explain the date of its formation.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-115-8",
@@ -53804,7 +55414,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the nature and associated personalities of the Pact do not explain why it was concluded in 1916."
+     "explanation": "Both statements are true, but the nature and associated personalities of the Pact do not explain why it was concluded in 1916.",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-115-9",
@@ -53818,7 +55434,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The associated personalities identify the two leagues but do not explain their common year."
+     "explanation": "Both statements are true. The associated personalities identify the two leagues but do not explain their common year.",
+     "facts": [
+      "F8",
+      "F9",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-115-10",
@@ -53832,7 +55454,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Lahore/Pakistan Resolution entry gives the year 1940 and associates it with the Muslim League."
+     "explanation": "The Lahore/Pakistan Resolution entry gives the year 1940 and associates it with the Muslim League.",
+     "facts": [
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-115-11",
@@ -53846,7 +55472,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Direct Action Day entry records both 1946 and 16 August."
+     "explanation": "The Direct Action Day entry records both 1946 and 16 August.",
+     "facts": [
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-history-115-12",
@@ -53860,7 +55490,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The entries record April 1916 for the Tilak Home Rule League and September 1916 for the Besant Home Rule League."
+     "explanation": "The entries record April 1916 for the Tilak Home Rule League and September 1916 for the Besant Home Rule League.",
+     "facts": [
+      "F9",
+      "F10",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-115-13",
@@ -53874,7 +55510,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are recorded in the 1906 Muslim League entry."
+     "explanation": "All three statements are recorded in the 1906 Muslim League entry.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-115-14",
@@ -53888,7 +55529,12 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Karachi, Amritsar and Lahore are respectively recorded for the first annual session, second session and Lahore/Pakistan Resolution."
+     "explanation": "Karachi, Amritsar and Lahore are respectively recorded for the first annual session, second session and Lahore/Pakistan Resolution.",
+     "facts": [
+      "F5",
+      "F7",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-115-15",
@@ -53902,7 +55548,15 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Muslim League, 1906–Dhaka; first annual session–Karachi; second session–Amritsar; Lucknow Pact–Lucknow."
+     "explanation": "The correct pairs are: Muslim League, 1906–Dhaka; first annual session–Karachi; second session–Amritsar; Lucknow Pact–Lucknow.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F7",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-115-16",
@@ -53916,7 +55570,14 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Tilak Home Rule League–B.G. Tilak; Besant Home Rule League–Annie Besant; Muslim League, 1906–Nawab Salimullah; Lucknow Pact–Jinnah and Tilak."
+     "explanation": "The correct pairs are: Tilak Home Rule League–B.G. Tilak; Besant Home Rule League–Annie Besant; Muslim League, 1906–Nawab Salimullah; Lucknow Pact–Jinnah and Tilak.",
+     "facts": [
+      "F3",
+      "F8",
+      "F11",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-115-17",
@@ -53930,7 +55591,14 @@
       "D, B, A, C"
      ],
      "answer": 1,
-     "explanation": "The years are 1906 for the Muslim League, 1907 for its first annual session, 1940 for the Lahore/Pakistan Resolution and 1946 for Direct Action Day."
+     "explanation": "The years are 1906 for the Muslim League, 1907 for its first annual session, 1940 for the Lahore/Pakistan Resolution and 1946 for Direct Action Day.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F19",
+      "F23"
+     ]
     },
     {
      "id": "indian-history-115-18",
@@ -53944,7 +55612,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The Tilak Home Rule League, Besant Home Rule League and Lucknow Pact are associated with 1916. The Lahore/Pakistan Resolution belongs to 1940."
+     "explanation": "The Tilak Home Rule League, Besant Home Rule League and Lucknow Pact are associated with 1916. The Lahore/Pakistan Resolution belongs to 1940.",
+     "facts": [
+      "F9",
+      "F12",
+      "F14",
+      "F19"
+     ]
     },
     {
      "id": "indian-history-115-19",
@@ -53958,7 +55632,13 @@
       "Protect Muslim political interests"
      ],
      "answer": 3,
-     "explanation": "The key fact associated with the 1906 Muslim League entry was protection of Muslim political interests."
+     "explanation": "The key fact associated with the 1906 Muslim League entry was protection of Muslim political interests.",
+     "facts": [
+      "F4",
+      "F6",
+      "F18",
+      "F22"
+     ]
     },
     {
      "id": "indian-history-115-20",
@@ -53972,7 +55652,13 @@
       "Protect Muslim political interests"
      ],
      "answer": 0,
-     "explanation": "The Lahore/Pakistan Resolution of 1940 is associated with the demand for a separate state."
+     "explanation": "The Lahore/Pakistan Resolution of 1940 is associated with the demand for a separate state.",
+     "facts": [
+      "F4",
+      "F18",
+      "F19",
+      "F22"
+     ]
     }
    ]
   },
@@ -54429,7 +56115,12 @@
       "1945"
      ],
      "answer": 2,
-     "explanation": "The Cripps Mission is associated with the year 1942 and with Dominion Status and constitutional proposals."
+     "explanation": "The Cripps Mission is associated with the year 1942 and with Dominion Status and constitutional proposals.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-117-2",
@@ -54443,7 +56134,10 @@
       "Shimla"
      ],
      "answer": 0,
-     "explanation": "The first Jesuit Mission, in 1580, was associated with Akbar's court at Fatehpur Sikri."
+     "explanation": "The first Jesuit Mission, in 1580, was associated with Akbar's court at Fatehpur Sikri.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-117-3",
@@ -54457,7 +56151,12 @@
       "The Jesuit 2nd Mission took place in 1591."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year of the Jesuit 2nd Mission. It took place in 1591; 1595 was the year of the Jesuit 3rd Mission."
+     "explanation": "The incorrect detail is the year of the Jesuit 2nd Mission. It took place in 1591; 1595 was the year of the Jesuit 3rd Mission.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-117-4",
@@ -54471,7 +56170,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Serampore Mission dates to 1800 and is associated with missionary, printing and education. The year does not explain the activities."
+     "explanation": "Both statements are true: the Serampore Mission dates to 1800 and is associated with missionary, printing and education. The year does not explain the activities.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-117-5",
@@ -54485,7 +56190,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Jesuit 1st Mission–1580, Jesuit 2nd Mission–1591, Jesuit 3rd Mission–1595, and Serampore Mission–1800."
+     "explanation": "The correct pairs are Jesuit 1st Mission–1580, Jesuit 2nd Mission–1591, Jesuit 3rd Mission–1595, and Serampore Mission–1800.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-117-6",
@@ -54499,7 +56210,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Jesuit 2nd Mission was associated with Akbar's court at Lahore, and the Jesuit 3rd Mission was also associated with Lahore."
+     "explanation": "Both statements are true. The Jesuit 2nd Mission was associated with Akbar's court at Lahore, and the Jesuit 3rd Mission was also associated with Lahore.",
+     "facts": [
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-117-7",
@@ -54513,7 +56228,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. The Cripps Mission was associated with 1942, not 1945."
+     "explanation": "Statements I and II are correct. The Cripps Mission was associated with 1942, not 1945.",
+     "facts": [
+      "F1",
+      "F7",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-117-8",
@@ -54527,7 +56247,13 @@
       "A, C, D, B"
      ],
      "answer": 1,
-     "explanation": "The correct sequence is Jesuit 1st Mission (1580), Jesuit 2nd Mission (1591), Jesuit 3rd Mission (1595), and Serampore Mission (1800)."
+     "explanation": "The correct sequence is Jesuit 1st Mission (1580), Jesuit 2nd Mission (1591), Jesuit 3rd Mission (1595), and Serampore Mission (1800).",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-117-9",
@@ -54541,7 +56267,11 @@
       "Lahore Conference"
      ],
      "answer": 0,
-     "explanation": "The Wavell Plan/Mission of 1945 was associated with the Shimla Conference."
+     "explanation": "The Wavell Plan/Mission of 1945 was associated with the Shimla Conference.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-117-10",
@@ -54555,7 +56285,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the purpose or association does not explain the year 1942. The Cripps Mission is simply recorded with that year."
+     "explanation": "Both statements are true, but the purpose or association does not explain the year 1942. The Cripps Mission is simply recorded with that year.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-117-11",
@@ -54569,7 +56304,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Jesuit 1st Mission–Akbar's court, Fatehpur Sikri; Jesuit 2nd Mission–Akbar's court, Lahore; Jesuit 3rd Mission–Lahore; and Wavell Plan/Mission–Shimla Conference."
+     "explanation": "The correct pairs are Jesuit 1st Mission–Akbar's court, Fatehpur Sikri; Jesuit 2nd Mission–Akbar's court, Lahore; Jesuit 3rd Mission–Lahore; and Wavell Plan/Mission–Shimla Conference.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-117-12",
@@ -54583,7 +56324,12 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Only the Jesuit 2nd Mission and Jesuit 3rd Mission were associated with Lahore. Thus, the number is two."
+     "explanation": "Only the Jesuit 2nd Mission and Jesuit 3rd Mission were associated with Lahore. Thus, the number is two.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-117-13",
@@ -54597,7 +56343,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true because the Cripps Mission was associated with 1942. Statement B is false because the Wavell Plan/Mission was associated with 1945."
+     "explanation": "Statement A is true because the Cripps Mission was associated with 1942. Statement B is false because the Wavell Plan/Mission was associated with 1945.",
+     "facts": [
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-117-14",
@@ -54611,7 +56361,11 @@
       "Cripps Mission"
      ],
      "answer": 1,
-     "explanation": "The Cabinet Mission of 1946 was associated with the transfer of power and the Constituent Assembly."
+     "explanation": "The Cabinet Mission of 1946 was associated with the transfer of power and the Constituent Assembly.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-117-15",
@@ -54625,7 +56379,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The Jesuit 2nd Mission is recorded as taking place in 1591 and as being associated with Akbar's court at Lahore, but the year does not explain the place association."
+     "explanation": "Both statements are true. The Jesuit 2nd Mission is recorded as taking place in 1591 and as being associated with Akbar's court at Lahore, but the year does not explain the place association.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-117-16",
@@ -54639,7 +56397,12 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. The Jesuit 3rd Mission was associated with Lahore, not Fatehpur Sikri."
+     "explanation": "Statements I and II are correct. The Jesuit 3rd Mission was associated with Lahore, not Fatehpur Sikri.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-117-17",
@@ -54653,7 +56416,13 @@
       "D, C, B, A"
      ],
      "answer": 0,
-     "explanation": "The correct order is Serampore Mission (1800), Cripps Mission (1942), Wavell Plan/Mission (1945), and Cabinet Mission (1946)."
+     "explanation": "The correct order is Serampore Mission (1800), Cripps Mission (1942), Wavell Plan/Mission (1945), and Cabinet Mission (1946).",
+     "facts": [
+      "F7",
+      "F11",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-117-18",
@@ -54667,7 +56436,17 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Serampore Mission–missionary, printing and education; Cripps Mission–Dominion Status and constitutional proposals; Wavell Plan/Mission–Shimla Conference; and Cabinet Mission–transfer of power and Constituent Assembly."
+     "explanation": "The correct pairs are Serampore Mission–missionary, printing and education; Cripps Mission–Dominion Status and constitutional proposals; Wavell Plan/Mission–Shimla Conference; and Cabinet Mission–transfer of power and Constituent Assembly.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F12",
+      "F13",
+      "F15",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-117-19",
@@ -54681,7 +56460,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The Jesuit 1st, 2nd and 3rd Missions were associated with 1580, 1591 and 1595 respectively. The Serampore Mission was associated with 1800."
+     "explanation": "The Jesuit 1st, 2nd and 3rd Missions were associated with 1580, 1591 and 1595 respectively. The Serampore Mission was associated with 1800.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-117-20",
@@ -54695,9 +56480,24 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The Jesuit 1st Mission was associated with Akbar's court at Fatehpur Sikri; the Serampore Mission with missionary, printing and educational activities; the Cripps Mission with Dominion Status and constitutional proposals; and the Cabinet Mission with transfer of power and the Constituent Assembly."
+     "explanation": "The Jesuit 1st Mission was associated with Akbar's court at Fatehpur Sikri; the Serampore Mission with missionary, printing and educational activities; the Cripps Mission with Dominion Status and constitutional proposals; and the Cabinet Mission with transfer of power and the Constituent Assembly.",
+     "facts": [
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F12",
+      "F13",
+      "F17",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "118": {
    "number": 118,
@@ -59573,8 +61373,30 @@
       "F14",
       "F15"
      ]
+    },
+    {
+     "id": "indian-history-127-21",
+     "format": "Assertion-Reason",
+     "keyword": "Motto",
+     "question": "Assertion (A): “Atmano Mokshartham Jagad Hitaya Cha” means “for one's own liberation and for the welfare of the world.”\nReason (R): The phrase is associated with the Ramakrishna Mission.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The phrase means “for one's own liberation and for the welfare of the world.” It is associated with the Ramakrishna Mission, but that association does not explain the meaning of the phrase.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "128": {
    "number": 128,
@@ -59602,7 +61424,10 @@
       "1906"
      ],
      "answer": 2,
-     "explanation": "The Partition of Bengal was announced in 1905."
+     "explanation": "The Partition of Bengal was announced in 1905.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-128-2",
@@ -59616,7 +61441,10 @@
       "Lord Curzon"
      ],
      "answer": 3,
-     "explanation": "Lord Curzon was the Viceroy when the Partition of Bengal was announced."
+     "explanation": "Lord Curzon was the Viceroy when the Partition of Bengal was announced.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-128-3",
@@ -59630,7 +61458,13 @@
       "Lord Curzon was the Viceroy associated with the partition."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the effective date. The Partition of Bengal became effective on 16 October 1905."
+     "explanation": "The incorrect detail is the effective date. The Partition of Bengal became effective on 16 October 1905.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-128-4",
@@ -59644,7 +61478,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Bengal was divided, and the new province was named Eastern Bengal and Assam."
+     "explanation": "Bengal was divided, and the new province was named Eastern Bengal and Assam.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-128-5",
@@ -59658,7 +61496,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The new province was Eastern Bengal and Assam; its capital was Dacca. Western Bengal had Calcutta as its capital, and the capital later shifted to Delhi."
+     "explanation": "The new province was Eastern Bengal and Assam; its capital was Dacca. Western Bengal had Calcutta as its capital, and the capital later shifted to Delhi.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-128-6",
@@ -59672,7 +61516,10 @@
       "As the shift from Calcutta to Delhi"
      ],
      "answer": 0,
-     "explanation": "The nationalist interpretation of the partition was “Divide and Rule.”"
+     "explanation": "The nationalist interpretation of the partition was “Divide and Rule.”",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-128-7",
@@ -59686,7 +61533,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Swadeshi Movement was the major response, and the nationalist interpretation of the partition as “Divide and Rule” explains that response."
+     "explanation": "Both statements are true. The Swadeshi Movement was the major response, and the nationalist interpretation of the partition as “Divide and Rule” explains that response.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-128-8",
@@ -59700,7 +61551,10 @@
       "1911"
      ],
      "answer": 3,
-     "explanation": "The Partition of Bengal was annulled in 1911."
+     "explanation": "The Partition of Bengal was annulled in 1911.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-history-128-9",
@@ -59714,7 +61568,10 @@
       "Calcutta to Delhi"
      ],
      "answer": 3,
-     "explanation": "The capital shifted from Calcutta to Delhi in 1911."
+     "explanation": "The capital shifted from Calcutta to Delhi in 1911.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-128-10",
@@ -59728,7 +61585,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct: the announcement was in 1905, the effective date was 16 October 1905, and the partition was annulled in 1911."
+     "explanation": "All three statements are correct: the announcement was in 1905, the effective date was 16 October 1905, and the partition was annulled in 1911.",
+     "facts": [
+      "F1",
+      "F3",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-128-11",
@@ -59742,7 +61604,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. The effective date was 16 October 1905, and the capital shifted from Calcutta to Delhi in 1911."
+     "explanation": "Both statements are correct. The effective date was 16 October 1905, and the capital shifted from Calcutta to Delhi in 1911.",
+     "facts": [
+      "F3",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-128-12",
@@ -59756,7 +61622,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Bengal—main province divided, Eastern Bengal and Assam—new province, Dacca—capital of the new province, and Calcutta—capital of Western Bengal."
+     "explanation": "The correct pairs are Bengal—main province divided, Eastern Bengal and Assam—new province, Dacca—capital of the new province, and Calcutta—capital of Western Bengal.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-128-13",
@@ -59770,7 +61642,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but identifying Lord Curzon as the Viceroy does not by itself explain why the partition was announced in 1905."
+     "explanation": "Both statements are true, but identifying Lord Curzon as the Viceroy does not by itself explain why the partition was announced in 1905.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-128-14",
@@ -59784,7 +61660,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are correctly associated: Lord Curzon was the Viceroy, Dacca was the capital of the new province, Swadeshi was the major response, and “Divide and Rule” was the nationalist interpretation."
+     "explanation": "All four are correctly associated: Lord Curzon was the Viceroy, Dacca was the capital of the new province, Swadeshi was the major response, and “Divide and Rule” was the nationalist interpretation.",
+     "facts": [
+      "F2",
+      "F6",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-128-15",
@@ -59798,7 +61680,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct. The new province was Eastern Bengal and Assam, with Dacca as its capital, while Western Bengal had Calcutta as its capital."
+     "explanation": "All three statements are correct. The new province was Eastern Bengal and Assam, with Dacca as its capital, while Western Bengal had Calcutta as its capital.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-128-16",
@@ -59812,7 +61699,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are announcement—1905, Viceroy—Lord Curzon, major response—Swadeshi Movement, and interpretation—“Divide and Rule.”"
+     "explanation": "The correct pairs are announcement—1905, Viceroy—Lord Curzon, major response—Swadeshi Movement, and interpretation—“Divide and Rule.”",
+     "facts": [
+      "F1",
+      "F2",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-128-17",
@@ -59826,7 +61719,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The partition was annulled in 1911, and the capital shifted from Calcutta to Delhi in the same year."
+     "explanation": "Both statements are true. The partition was annulled in 1911, and the capital shifted from Calcutta to Delhi in the same year.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-128-18",
@@ -59840,9 +61737,17 @@
       "Eastern Bengal and Assam"
      ],
      "answer": 1,
-     "explanation": "Calcutta was the capital of Western Bengal."
+     "explanation": "Calcutta was the capital of Western Bengal.",
+     "facts": [
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "129": {
    "number": 129,
@@ -60242,8 +62147,47 @@
       "F21",
       "F28"
      ]
+    },
+    {
+     "id": "indian-history-129-21",
+     "format": "Direct Recall",
+     "keyword": "PERSON – Associated with",
+     "question": "The Sanyasi-Fakir Rebellion was associated with which of the following groups?",
+     "options": [
+      "Bahadur Shah II and Rani Lakshmibai",
+      "Peasants against moneylenders",
+      "Sanyasis and Fakirs",
+      "Peasants against indigo planters"
+     ],
+     "answer": 2,
+     "explanation": "The Sanyasi-Fakir Rebellion was associated with Sanyasis and Fakirs.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-history-129-22",
+     "format": "Direct Recall",
+     "keyword": "Rebellion – Imp Personalities",
+     "question": "The peasants involved in the Deccan Riots opposed which group?",
+     "options": [
+      "Indigo planters",
+      "Sanyasis and Fakirs",
+      "British military leaders",
+      "Moneylenders"
+     ],
+     "answer": 3,
+     "explanation": "The Deccan Riots involved peasants opposing moneylenders.",
+     "facts": [
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   },
   "130": {
    "number": 130,
@@ -63976,7 +65920,10 @@
       "Rajgriha / Girivraj"
      ],
      "answer": 3,
-     "explanation": "The initial capital of the Magadha Empire was Rajgriha, also called Girivraj."
+     "explanation": "The initial capital of the Magadha Empire was Rajgriha, also called Girivraj.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-139-2",
@@ -63990,7 +65937,10 @@
       "Haryanka"
      ],
      "answer": 0,
-     "explanation": "According to the Puranas, the first dynasty of Magadha was the Brihadratha dynasty."
+     "explanation": "According to the Puranas, the first dynasty of Magadha was the Brihadratha dynasty.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-139-3",
@@ -64004,7 +65954,10 @@
       "Haryanka"
      ],
      "answer": 1,
-     "explanation": "Jarasandha is associated with the Brihadratha dynasty."
+     "explanation": "Jarasandha is associated with the Brihadratha dynasty.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-139-4",
@@ -64018,7 +65971,10 @@
       "Pataliputra"
      ],
      "answer": 0,
-     "explanation": "Jarasandha’s capital was Girivraj, also known as Rajgriha."
+     "explanation": "Jarasandha’s capital was Girivraj, also known as Rajgriha.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-139-5",
@@ -64032,7 +65988,10 @@
       "Rajatarangini"
      ],
      "answer": 1,
-     "explanation": "Jarasandha’s association is given in the Sabha Parva of the Mahabharata."
+     "explanation": "Jarasandha’s association is given in the Sabha Parva of the Mahabharata.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-139-6",
@@ -64046,7 +66005,10 @@
       "Udayin"
      ],
      "answer": 1,
-     "explanation": "Bimbisara is identified as the first great ruler of Magadha according to Buddhist texts."
+     "explanation": "Bimbisara is identified as the first great ruler of Magadha according to Buddhist texts.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-139-7",
@@ -64060,7 +66022,10 @@
       "Bimbisara"
      ],
      "answer": 3,
-     "explanation": "Bimbisara is regarded as the real founder of the Magadha Empire."
+     "explanation": "Bimbisara is regarded as the real founder of the Magadha Empire.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-139-8",
@@ -64074,7 +66039,10 @@
       "Brihadratha"
      ],
      "answer": 2,
-     "explanation": "Bimbisara belonged to the Haryanka dynasty."
+     "explanation": "Bimbisara belonged to the Haryanka dynasty.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-139-9",
@@ -64088,7 +66056,10 @@
       "Udayin"
      ],
      "answer": 0,
-     "explanation": "Ajatashatru was the successor and next major ruler after Bimbisara."
+     "explanation": "Ajatashatru was the successor and next major ruler after Bimbisara.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-history-139-10",
@@ -64102,7 +66073,10 @@
       "Udayin"
      ],
      "answer": 3,
-     "explanation": "The capital shift from Rajgriha to Pataliputra is attributed to Udayin, the son of Ajatashatru."
+     "explanation": "The capital shift from Rajgriha to Pataliputra is attributed to Udayin, the son of Ajatashatru.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-history-139-11",
@@ -64116,7 +66090,12 @@
       "Pataliputra became the capital after the shift from Rajgriha."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement reverses the direction of the shift. The capital was shifted from Rajgriha to Pataliputra."
+     "explanation": "The incorrect statement reverses the direction of the shift. The capital was shifted from Rajgriha to Pataliputra.",
+     "facts": [
+      "F1",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-139-12",
@@ -64130,7 +66109,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Rajgriha/Girivraj was the initial capital, and the two names are alternative names. However, the second statement does not explain why it was the initial capital."
+     "explanation": "Both statements are true: Rajgriha/Girivraj was the initial capital, and the two names are alternative names. However, the second statement does not explain why it was the initial capital.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-139-13",
@@ -64144,7 +66126,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are directly stated facts about Bimbisara. The description in Buddhist texts does not itself explain the separate statement that he was the real founder."
+     "explanation": "Both statements are directly stated facts about Bimbisara. The description in Buddhist texts does not itself explain the separate statement that he was the real founder.",
+     "facts": [
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-139-14",
@@ -64158,7 +66144,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the attribution of the shift to Udayin explains the historical association of the capital change."
+     "explanation": "Both statements are true, and the attribution of the shift to Udayin explains the historical association of the capital change.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-139-15",
@@ -64172,7 +66163,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Bimbisara was of the Haryanka dynasty, while the Puranas identify Brihadratha as the first dynasty of Magadha."
+     "explanation": "Both statements are true. Bimbisara was of the Haryanka dynasty, while the Puranas identify Brihadratha as the first dynasty of Magadha.",
+     "facts": [
+      "F2",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-139-16",
@@ -64186,7 +66181,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Ajatashatru succeeded Bimbisara, and Udayin is identified as Ajatashatru’s son."
+     "explanation": "Both statements are true. Ajatashatru succeeded Bimbisara, and Udayin is identified as Ajatashatru’s son.",
+     "facts": [
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-139-17",
@@ -64200,7 +66199,13 @@
       "II and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, III and IV are correct. Statement II is incorrect because Ajatashatru succeeded Bimbisara, not the other way around."
+     "explanation": "Statements I, III and IV are correct. Statement II is incorrect because Ajatashatru succeeded Bimbisara, not the other way around.",
+     "facts": [
+      "F1",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-139-18",
@@ -64214,7 +66219,13 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. The real founder of the Magadha Empire was Bimbisara, not Jarasandha."
+     "explanation": "Statements I, II and III are correct. The real founder of the Magadha Empire was Bimbisara, not Jarasandha.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-139-19",
@@ -64228,7 +66239,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: initial capital—Rajgriha/Girivraj; Jarasandha’s capital—Girivraj/Rajgriha; later capital—Pataliputra; shifting ruler—Udayin."
+     "explanation": "The correct pairs are: initial capital—Rajgriha/Girivraj; Jarasandha’s capital—Girivraj/Rajgriha; later capital—Pataliputra; shifting ruler—Udayin.",
+     "facts": [
+      "F1",
+      "F4",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-139-20",
@@ -64242,7 +66259,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Bimbisara—real founder; Ajatashatru—successor of Bimbisara; Udayin—son of Ajatashatru; Jarasandha—associated with Brihadratha."
+     "explanation": "The correct pairs are: Bimbisara—real founder; Ajatashatru—successor of Bimbisara; Udayin—son of Ajatashatru; Jarasandha—associated with Brihadratha.",
+     "facts": [
+      "F3",
+      "F8",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-139-21",
@@ -64256,9 +66279,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct according to the recorded facts about Magadha’s rulers and dynasties."
+     "explanation": "All four statements are correct according to the recorded facts about Magadha’s rulers and dynasties.",
+     "facts": [
+      "F2",
+      "F6",
+      "F9",
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 12,
+    "covered": 12,
+    "audited": true
+   }
   },
   "140": {
    "number": 140,
