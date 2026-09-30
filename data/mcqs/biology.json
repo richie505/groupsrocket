@@ -13058,8 +13058,106 @@
       "F10",
       "F14"
      ]
+    },
+    {
+     "id": "biology-47-6",
+     "format": "Assertion-Reason",
+     "keyword": "Leaf → Food Production",
+     "question": "Assertion (A): The leaf is the major food-producing organ.\nReason (R): The leaf performs photosynthesis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Photosynthesis performed by the leaf accounts for its role as the major food-producing organ.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-47-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Leaf → Function",
+     "question": "Consider the following statements:\nI. The leaf facilitates gas exchange through stomata.\nII. Transpiration mainly occurs through stomata.\nIII. The broad lamina of a leaf helps capture light.\nIV. Some modified leaves function in storage.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct leaf functions or features: stomata facilitate gas exchange and are the main route for transpiration, the broad lamina captures light, and some modified leaves perform storage.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-47-8",
+     "format": "List-Matching",
+     "keyword": "Flower → Function",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Main function of a flower\n(b) Male gamete\n(c) Female reproductive structure\n(d) Union of gametes\n\nList-II\n(i) Reproduction\n(ii) Pollen\n(iii) Carpel or pistil\n(iv) Fertilisation",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: main function of a flower—reproduction; male gamete—pollen; female reproductive structure—carpel or pistil; union of gametes—fertilisation.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "biology-47-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Outcrossing / Selfing",
+     "question": "Consider the following statements:\nStatement A: A flower can facilitate outcrossing.\nStatement B: A flower can facilitate selfing.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. A flower can facilitate either outcrossing or selfing.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-47-10",
+     "format": "Direct Recall",
+     "keyword": "Saffron",
+     "question": "The stigma is economically used in which of the following?",
+     "options": [
+      "Carpel or pistil",
+      "Fertilisation",
+      "Pollen",
+      "Saffron"
+     ],
+     "answer": 3,
+     "explanation": "The stigma is economically used in saffron.",
+     "facts": [
+      "F28"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "48": {
    "number": 48,
@@ -13498,7 +13596,12 @@
       "Auxin"
      ],
      "answer": 1,
-     "explanation": "Gibberellin is associated with cell elongation and promotes growth."
+     "explanation": "Gibberellin is associated with cell elongation and promotes growth.",
+     "facts": [
+      "F6",
+      "F7",
+      "F2"
+     ]
     },
     {
      "id": "biology-49-2",
@@ -13512,7 +13615,10 @@
       "Cytokinin"
      ],
      "answer": 3,
-     "explanation": "Cytokinin promotes cell proliferation."
+     "explanation": "Cytokinin promotes cell proliferation.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "biology-49-3",
@@ -13526,7 +13632,10 @@
       "Anti-browning acid"
      ],
      "answer": 1,
-     "explanation": "ABA stands for abscisic acid."
+     "explanation": "ABA stands for abscisic acid.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "biology-49-4",
@@ -13540,7 +13649,10 @@
       "Cytokinin"
      ],
      "answer": 2,
-     "explanation": "Auxin is associated with apical dominance in the shoot."
+     "explanation": "Auxin is associated with apical dominance in the shoot.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-49-5",
@@ -13554,7 +13666,10 @@
       "Auxin"
      ],
      "answer": 1,
-     "explanation": "ABA is identified as a stress hormone."
+     "explanation": "ABA is identified as a stress hormone.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "biology-49-6",
@@ -13568,7 +13683,13 @@
       "Gibberellin promotes growth."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that ABA promotes growth. ABA is associated with growth inhibition."
+     "explanation": "The incorrect statement is that ABA promotes growth. ABA is associated with growth inhibition.",
+     "facts": [
+      "F1",
+      "F7",
+      "F11",
+      "F18"
+     ]
     },
     {
      "id": "biology-49-7",
@@ -13582,7 +13703,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the notes list tropism as growth responses and rooting as a separate influence; rooting does not explain tropic growth responses."
+     "explanation": "Both statements are true, but the notes list tropism as growth responses and rooting as a separate influence; rooting does not explain tropic growth responses.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-49-8",
@@ -13596,7 +13721,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and seed germination-related effects explain how gibberellin can help overcome dormancy."
+     "explanation": "Both statements are true, and seed germination-related effects explain how gibberellin can help overcome dormancy.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-49-9",
@@ -13610,7 +13739,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Temporary stomatal closure helps conserve water, and ABA acts as an antitranspirant."
+     "explanation": "Both statements are true. Temporary stomatal closure helps conserve water, and ABA acts as an antitranspirant.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-49-10",
@@ -13624,7 +13757,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes associate cytokinin with growth regulation in plant development and with delaying senescence."
+     "explanation": "The notes associate cytokinin with growth regulation in plant development and with delaying senescence.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-49-11",
@@ -13638,7 +13775,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Auxin influences rooting, but seed germination-related effects are listed under gibberellin."
+     "explanation": "Auxin influences rooting, but seed germination-related effects are listed under gibberellin.",
+     "facts": [
+      "F4",
+      "F9"
+     ]
     },
     {
      "id": "biology-49-12",
@@ -13652,7 +13793,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "ABA is associated with growth inhibition, whereas gibberellin promotes growth."
+     "explanation": "ABA is associated with growth inhibition, whereas gibberellin promotes growth.",
+     "facts": [
+      "F7",
+      "F18"
+     ]
     },
     {
      "id": "biology-49-13",
@@ -13666,7 +13811,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Auxin–apical dominance, Gibberellin–stem elongation, Cytokinin–delays senescence, and ABA–temporary stomatal closure."
+     "explanation": "The correct pairs are Auxin–apical dominance, Gibberellin–stem elongation, Cytokinin–delays senescence, and ABA–temporary stomatal closure.",
+     "facts": [
+      "F3",
+      "F8",
+      "F13",
+      "F16"
+     ]
     },
     {
      "id": "biology-49-14",
@@ -13680,7 +13831,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Auxin–influences rooting, Gibberellin–can help overcome dormancy, Cytokinin–cell proliferation, and ABA–drought tolerance."
+     "explanation": "The correct pairs are Auxin–influences rooting, Gibberellin–can help overcome dormancy, Cytokinin–cell proliferation, and ABA–drought tolerance.",
+     "facts": [
+      "F4",
+      "F10",
+      "F11",
+      "F15"
+     ]
     },
     {
      "id": "biology-49-15",
@@ -13694,7 +13851,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Auxin–tropic growth responses, Gibberellin–growth promotion, Cytokinin–growth regulation in plant development, and ABA–antitranspirant."
+     "explanation": "The correct pairs are Auxin–tropic growth responses, Gibberellin–growth promotion, Cytokinin–growth regulation in plant development, and ABA–antitranspirant.",
+     "facts": [
+      "F5",
+      "F7",
+      "F12",
+      "F20"
+     ]
     },
     {
      "id": "biology-49-16",
@@ -13708,7 +13871,13 @@
       "I and IV only"
      ],
      "answer": 0,
-     "explanation": "Auxin promotes growth, is associated with shoot apical dominance, and influences rooting. Delaying senescence is a function of cytokinin."
+     "explanation": "Auxin promotes growth, is associated with shoot apical dominance, and influences rooting. Delaying senescence is a function of cytokinin.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F13"
+     ]
     },
     {
      "id": "biology-49-17",
@@ -13722,7 +13891,13 @@
       "I, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Gibberellin is associated with cell elongation, promotes stem elongation, and has seed germination-related effects. Temporary stomatal closure is associated with ABA."
+     "explanation": "Gibberellin is associated with cell elongation, promotes stem elongation, and has seed germination-related effects. Temporary stomatal closure is associated with ABA.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9",
+      "F16"
+     ]
     },
     {
      "id": "biology-49-18",
@@ -13736,7 +13911,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three are associated with ABA. Delaying senescence is listed under cytokinin, so the count is three."
+     "explanation": "The first three are associated with ABA. Delaying senescence is listed under cytokinin, so the count is three.",
+     "facts": [
+      "F13",
+      "F15",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "biology-49-19",
@@ -13750,9 +13931,20 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are directly associated with the respective plant hormones: auxin, gibberellin, cytokinin and ABA."
+     "explanation": "All four statements are directly associated with the respective plant hormones: auxin, gibberellin, cytokinin and ABA.",
+     "facts": [
+      "F5",
+      "F10",
+      "F11",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "50": {
    "number": 50,
@@ -14511,8 +14703,30 @@
       "F21",
       "F22"
      ]
+    },
+    {
+     "id": "biology-51-21",
+     "format": "Direct Recall",
+     "keyword": "Element",
+     "question": "What is the chemical symbol for magnesium?",
+     "options": [
+      "Cl",
+      "Co",
+      "Fe",
+      "Mg"
+     ],
+     "answer": 3,
+     "explanation": "The symbol for magnesium is Mg. In chlorophyll, magnesium is the associated element.",
+     "facts": [
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "52": {
    "number": 52,
@@ -17151,7 +17365,22 @@
       "Rust, smut and ear cockle"
      ],
      "answer": 2,
-     "explanation": "Rice or paddy is associated with blast, tungro and brown leaf spot."
+     "explanation": "Rice or paddy is associated with blast, tungro and brown leaf spot.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F9",
+      "F10",
+      "F11",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-58-2",
@@ -17165,7 +17394,20 @@
       "Potato"
      ],
      "answer": 2,
-     "explanation": "The diseases listed for wheat are rust, smut and ear cockle."
+     "explanation": "The diseases listed for wheat are rust, smut and ear cockle.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F9",
+      "F10",
+      "F11",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-58-3",
@@ -17179,7 +17421,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "Sugarcane red rot and potato early blight, late blight and black heart are all listed crop-disease associations."
+     "explanation": "Sugarcane red rot and potato early blight, late blight and black heart are all listed crop-disease associations.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-58-4",
@@ -17193,7 +17441,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Groundnut–Tikka disease, Mustard–white rust, Bajra–green ear and ergot, and Pigeon pea–wilt."
+     "explanation": "The correct pairs are Groundnut–Tikka disease, Mustard–white rust, Bajra–green ear and ergot, and Pigeon pea–wilt.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-58-5",
@@ -17207,7 +17462,13 @@
       "Cabbage is affected by black rot."
      ],
      "answer": 2,
-     "explanation": "The incorrect pair is Mustard–citrus canker. Citrus canker is listed for Citrus, while Mustard is associated with white rust."
+     "explanation": "The incorrect pair is Mustard–citrus canker. Citrus canker is listed for Citrus, while Mustard is associated with white rust.",
+     "facts": [
+      "F13",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-58-6",
@@ -17221,7 +17482,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the stated cause—bacteria—directly supports the assertion."
+     "explanation": "Both statements are true, and the stated cause—bacteria—directly supports the assertion.",
+     "facts": [
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "biology-58-7",
@@ -17235,7 +17500,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Sugarcane red rot is paired with fungus as its cause, so both statements are true and the reason explains the assertion."
+     "explanation": "Sugarcane red rot is paired with fungus as its cause, so both statements are true and the reason explains the assertion.",
+     "facts": [
+      "F8",
+      "F21"
+     ]
     },
     {
      "id": "biology-58-8",
@@ -17249,7 +17518,10 @@
       "Bacteria"
      ],
      "answer": 2,
-     "explanation": "Wheat ear cockle is listed as being caused by a nematode."
+     "explanation": "Wheat ear cockle is listed as being caused by a nematode.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "biology-58-9",
@@ -17263,7 +17535,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Potato black heart is associated with O₂ deficiency, whereas wheat ear cockle is associated with a nematode, not fungus."
+     "explanation": "Potato black heart is associated with O₂ deficiency, whereas wheat ear cockle is associated with a nematode, not fungus.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-58-10",
@@ -17277,7 +17553,10 @@
       "Tuberous root"
      ],
      "answer": 2,
-     "explanation": "Sugarcane is propagated through stem cutting or setts."
+     "explanation": "Sugarcane is propagated through stem cutting or setts.",
+     "facts": [
+      "F24"
+     ]
     },
     {
      "id": "biology-58-11",
@@ -17291,7 +17570,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Potato–tuber, Ginger–rhizome, Garlic–bulb and Turmeric–rhizome."
+     "explanation": "The correct pairs are Potato–tuber, Ginger–rhizome, Garlic–bulb and Turmeric–rhizome.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-58-12",
@@ -17305,7 +17590,10 @@
       "Suckers"
      ],
      "answer": 2,
-     "explanation": "Ginger is listed as being propagated through a rhizome."
+     "explanation": "Ginger is listed as being propagated through a rhizome.",
+     "facts": [
+      "F28"
+     ]
     },
     {
      "id": "biology-58-13",
@@ -17319,7 +17607,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Garlic is propagated through a bulb, while turmeric is propagated through a rhizome."
+     "explanation": "Garlic is propagated through a bulb, while turmeric is propagated through a rhizome.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-58-14",
@@ -17333,7 +17625,10 @@
       "Stem cutting/setts"
      ],
      "answer": 0,
-     "explanation": "Sweet potato is propagated through a tuberous root."
+     "explanation": "Sweet potato is propagated through a tuberous root.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "biology-58-15",
@@ -17347,7 +17642,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but banana’s use of tissue culture does not explain why tissue culture is listed for sugarcane."
+     "explanation": "Both statements are true, but banana’s use of tissue culture does not explain why tissue culture is listed for sugarcane.",
+     "facts": [
+      "F26",
+      "F33"
+     ]
     },
     {
      "id": "biology-58-16",
@@ -17361,7 +17660,12 @@
       "Garlic"
      ],
      "answer": 1,
-     "explanation": "Sugarcane is listed with stem cutting/setts, bud-chip settlings/setts and tissue culture as possible propagation methods."
+     "explanation": "Sugarcane is listed with stem cutting/setts, bud-chip settlings/setts and tissue culture as possible propagation methods.",
+     "facts": [
+      "F24",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "biology-58-17",
@@ -17375,7 +17679,13 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Banana is propagated through suckers and tissue culture, and garlic through a bulb. Sweet potato is listed with a tuberous root, not a tuber."
+     "explanation": "Banana is propagated through suckers and tissue culture, and garlic through a bulb. Sweet potato is listed with a tuberous root, not a tuber.",
+     "facts": [
+      "F25",
+      "F26",
+      "F29",
+      "F31"
+     ]
     },
     {
      "id": "biology-58-18",
@@ -17389,7 +17699,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 4 are correct. Black rot is listed for cabbage, whereas sugarcane is associated with red rot."
+     "explanation": "Statements 1, 2 and 4 are correct. Black rot is listed for cabbage, whereas sugarcane is associated with red rot.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-58-19",
@@ -17403,7 +17720,14 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Sugarcane–stem cutting/setts, Banana–suckers with tissue culture also used, Sweet potato–tuberous root, and Garlic–bulb."
+     "explanation": "The correct pairs are Sugarcane–stem cutting/setts, Banana–suckers with tissue culture also used, Sweet potato–tuberous root, and Garlic–bulb.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F29",
+      "F31"
+     ]
     },
     {
      "id": "biology-58-20",
@@ -17417,9 +17741,17 @@
       "Pigeon pea"
      ],
      "answer": 1,
-     "explanation": "The sheet lists black rot under cabbage diseases."
+     "explanation": "The sheet lists black rot under cabbage diseases.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 33,
+    "covered": 33,
+    "audited": true
+   }
   },
   "59": {
    "number": 59,
@@ -19709,7 +20041,10 @@
       "Leprosy"
      ],
      "answer": 2,
-     "explanation": "The microorganism\u001a disease table pairs Mycobacterium tuberculosis with tuberculosis."
+     "explanation": "The microorganism\u001a disease table pairs Mycobacterium tuberculosis with tuberculosis.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-63-2",
@@ -19723,7 +20058,12 @@
       "Salmonella Typhi is associated with typhoid."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the disease paired with Vibrio cholerae. It is associated with cholera, not typhoid."
+     "explanation": "The incorrect detail is the disease paired with Vibrio cholerae. It is associated with cholera, not typhoid.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "biology-63-3",
@@ -19737,7 +20077,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the pairing of Salmonella Typhi with typhoid establishes the assertion."
+     "explanation": "Both statements are true, and the pairing of Salmonella Typhi with typhoid establishes the assertion.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-63-4",
@@ -19751,7 +20094,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Clostridium tetani\u001aTetanus, Yersinia pestis\u001aPlague, Mycoplasma pneumoniae\u001aAtypical pneumonia and Mycobacterium leprae\u001aLeprosy."
+     "explanation": "The correct pairs are Clostridium tetani\u001aTetanus, Yersinia pestis\u001aPlague, Mycoplasma pneumoniae\u001aAtypical pneumonia and Mycobacterium leprae\u001aLeprosy.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "biology-63-5",
@@ -19765,7 +20114,10 @@
       "Staphylococcus aureus"
      ],
      "answer": 0,
-     "explanation": "Yersinia pestis is paired with plague in the microorganism\u001a disease table."
+     "explanation": "Yersinia pestis is paired with plague in the microorganism\u001a disease table.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "biology-63-6",
@@ -19779,7 +20131,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Mycoplasma pneumoniae is associated with atypical pneumonia, while Mycobacterium leprae is associated with leprosy, not syphilis."
+     "explanation": "Mycoplasma pneumoniae is associated with atypical pneumonia, while Mycobacterium leprae is associated with leprosy, not syphilis.",
+     "facts": [
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "biology-63-7",
@@ -19793,7 +20149,12 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three pairings are listed: Staphylococcus aureus\u001aBacterial infections, Treponema pallidum\u001aSyphilis and Clostridium botulinum\u001aBotulism."
+     "explanation": "All three pairings are listed: Staphylococcus aureus\u001aBacterial infections, Treponema pallidum\u001aSyphilis and Clostridium botulinum\u001aBotulism.",
+     "facts": [
+      "F7",
+      "F8",
+      "F18"
+     ]
     },
     {
      "id": "biology-63-8",
@@ -19807,7 +20168,10 @@
       "Plasmodium"
      ],
      "answer": 3,
-     "explanation": "The table pairs Plasmodium with malaria."
+     "explanation": "The table pairs Plasmodium with malaria.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "biology-63-9",
@@ -19821,7 +20185,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The listed disease corresponding to Leishmania is kala-azar."
+     "explanation": "Both statements are true. The listed disease corresponding to Leishmania is kala-azar.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "biology-63-10",
@@ -19835,7 +20202,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Plasmodium\u001aMalaria, Entamoeba histolytica\u001aAmoebic dysentery, Leishmania\u001aKala-azar and Treponema pallidum\u001aSyphilis."
+     "explanation": "The correct pairs are Plasmodium\u001aMalaria, Entamoeba histolytica\u001aAmoebic dysentery, Leishmania\u001aKala-azar and Treponema pallidum\u001aSyphilis.",
+     "facts": [
+      "F8",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-63-11",
@@ -19849,7 +20222,19 @@
       "10"
      ],
      "answer": 2,
-     "explanation": "The bacteria table contains nine pairs, ending with Clostridium botulinum\u001aBotulism."
+     "explanation": "The bacteria table contains nine pairs, ending with Clostridium botulinum\u001aBotulism.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F18"
+     ]
     },
     {
      "id": "biology-63-12",
@@ -19863,7 +20248,10 @@
       "Botulism"
      ],
      "answer": 3,
-     "explanation": "The BACTERIA \u001a DISEASE table pairs Clostridium botulinum with botulism."
+     "explanation": "The BACTERIA \u001a DISEASE table pairs Clostridium botulinum with botulism.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "biology-63-13",
@@ -19877,7 +20265,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Each of the three pairings appears in the microorganism\u001a disease list."
+     "explanation": "Each of the three pairings appears in the microorganism\u001a disease list.",
+     "facts": [
+      "F5",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "biology-63-14",
@@ -19891,7 +20284,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Mycobacterium tuberculosis\u001aTuberculosis, Vibrio cholerae\u001aCholera, Salmonella Typhi\u001aTyphoid and C. botulinum\u001aBotulism."
+     "explanation": "The correct pairs are Mycobacterium tuberculosis\u001aTuberculosis, Vibrio cholerae\u001aCholera, Salmonella Typhi\u001aTyphoid and C. botulinum\u001aBotulism.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F18"
+     ]
     },
     {
      "id": "biology-63-15",
@@ -19905,7 +20304,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements reproduce the listed associations: fungi with ringworm or fungal infections, and viruses with polio, influenza, dengue etc."
+     "explanation": "Both statements reproduce the listed associations: fungi with ringworm or fungal infections, and viruses with polio, influenza, dengue etc.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-63-16",
@@ -19919,7 +20325,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The table explicitly pairs Staphylococcus aureus with bacterial infections; therefore both statements are true and the reason supports the assertion."
+     "explanation": "The table explicitly pairs Staphylococcus aureus with bacterial infections; therefore both statements are true and the reason supports the assertion.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "biology-63-17",
@@ -19933,7 +20342,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed entries occur as specific microorganisms in the first table and each has a corresponding disease association."
+     "explanation": "All four listed entries occur as specific microorganisms in the first table and each has a corresponding disease association.",
+     "facts": [
+      "F1",
+      "F7",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "biology-63-18",
@@ -19947,7 +20362,13 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and III are correct. Mycoplasma pneumoniae is associated with atypical pneumonia and Mycobacterium leprae with leprosy; Clostridium tetani is associated with tetanus, not botulism."
+     "explanation": "Statements I and III are correct. Mycoplasma pneumoniae is associated with atypical pneumonia and Mycobacterium leprae with leprosy; Clostridium tetani is associated with tetanus, not botulism.",
+     "facts": [
+      "F4",
+      "F6",
+      "F9",
+      "F18"
+     ]
     },
     {
      "id": "biology-63-19",
@@ -19961,7 +20382,19 @@
       "11"
      ],
      "answer": 1,
-     "explanation": "The BACTERIA → DISEASE table contains nine pairs, including C. botulinum–Botulism."
+     "explanation": "The BACTERIA → DISEASE table contains nine pairs, including C. botulinum–Botulism.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F18"
+     ]
     },
     {
      "id": "biology-63-20",
@@ -19975,9 +20408,17 @@
       "Mycoplasma pneumoniae"
      ],
      "answer": 1,
-     "explanation": "C. botulinum is listed in the BACTERIA → DISEASE table with Botulism, but it is not listed in the MICROORGANISM → DISEASE table."
+     "explanation": "C. botulinum is listed in the BACTERIA → DISEASE table with Botulism, but it is not listed in the MICROORGANISM → DISEASE table.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "64": {
    "number": 64,
@@ -20005,7 +20446,10 @@
       "Polio"
      ],
      "answer": 3,
-     "explanation": "The virus–disease table associates Poliovirus with Polio."
+     "explanation": "The virus–disease table associates Poliovirus with Polio.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-64-2",
@@ -20019,7 +20463,12 @@
       "Dengue virus is associated with Dengue."
      ],
      "answer": 2,
-     "explanation": "The altered detail is the disease associated with Influenza virus. The correct association is Influenza, not Dengue."
+     "explanation": "The altered detail is the disease associated with Influenza virus. The correct association is Influenza, not Dengue.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "biology-64-3",
@@ -20033,7 +20482,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements directly reflect the listed Dengue virus–Dengue association."
+     "explanation": "Both statements directly reflect the listed Dengue virus–Dengue association.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-64-4",
@@ -20047,7 +20499,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The virus–disease list pairs HIV with AIDS and Hepatitis B virus with Hepatitis B."
+     "explanation": "The virus–disease list pairs HIV with AIDS and Hepatitis B virus with Hepatitis B.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-64-5",
@@ -20061,7 +20517,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements reproduce the listed associations for Measles virus, Mumps virus and Coronavirus."
+     "explanation": "All three statements reproduce the listed associations for Measles virus, Mumps virus and Coronavirus.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-64-6",
@@ -20075,7 +20536,10 @@
       "AIDS"
      ],
      "answer": 2,
-     "explanation": "The table states that plant viruses are associated with various crop diseases."
+     "explanation": "The table states that plant viruses are associated with various crop diseases.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "biology-64-7",
@@ -20089,7 +20553,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Dermatophytes–Ringworm, Candida–Candidiasis, Aspergillus–Aspergillosis and Mucormycetes–Mucormycosis."
+     "explanation": "The correct pairs are Dermatophytes–Ringworm, Candida–Candidiasis, Aspergillus–Aspergillosis and Mucormycetes–Mucormycosis.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "biology-64-8",
@@ -20103,7 +20573,10 @@
       "Candidiasis"
      ],
      "answer": 0,
-     "explanation": "The fungal disease table pairs Ustilago with smut."
+     "explanation": "The fungal disease table pairs Ustilago with smut.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "biology-64-9",
@@ -20117,7 +20590,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes list fungal pathogens with plant diseases and Puccinia with rust of wheat."
+     "explanation": "The notes list fungal pathogens with plant diseases and Puccinia with rust of wheat.",
+     "facts": [
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "biology-64-10",
@@ -20131,7 +20608,10 @@
       "Trypanosoma"
      ],
      "answer": 1,
-     "explanation": "The protozoan–disease table associates Plasmodium with malaria."
+     "explanation": "The protozoan–disease table associates Plasmodium with malaria.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "biology-64-11",
@@ -20145,7 +20625,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Plasmodium–Malaria, Entamoeba histolytica–Amoebic dysentery, Leishmania donovani–Kala-azar and Trypanosoma–Sleeping sickness."
+     "explanation": "The correct pairs are Plasmodium–Malaria, Entamoeba histolytica–Amoebic dysentery, Leishmania donovani–Kala-azar and Trypanosoma–Sleeping sickness.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "biology-64-12",
@@ -20159,7 +20645,19 @@
       "Only eleven"
      ],
      "answer": 2,
-     "explanation": "There are ten listed virus entries: Poliovirus, Influenza virus, Dengue virus, Rabies virus, HIV, Hepatitis B virus, Measles virus, Mumps virus, Coronavirus and plant viruses."
+     "explanation": "There are ten listed virus entries: Poliovirus, Influenza virus, Dengue virus, Rabies virus, HIV, Hepatitis B virus, Measles virus, Mumps virus, Coronavirus and plant viruses.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-64-13",
@@ -20173,7 +20671,16 @@
       "Only eight"
      ],
      "answer": 2,
-     "explanation": "The fungus section lists Dermatophytes, Candida, Aspergillus, Mucormycetes, Puccinia, Ustilago and fungal pathogens—seven entries."
+     "explanation": "The fungus section lists Dermatophytes, Candida, Aspergillus, Mucormycetes, Puccinia, Ustilago and fungal pathogens—seven entries.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-64-14",
@@ -20187,7 +20694,13 @@
       "Only five"
      ],
      "answer": 2,
-     "explanation": "The protozoan section contains four entries: Plasmodium, Entamoeba histolytica, Leishmania donovani and Trypanosoma."
+     "explanation": "The protozoan section contains four entries: Plasmodium, Entamoeba histolytica, Leishmania donovani and Trypanosoma.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "biology-64-15",
@@ -20201,7 +20714,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Polio, ringworm and kala-azar appear respectively in the virus, fungus and protozoan disease tables."
+     "explanation": "Polio, ringworm and kala-azar appear respectively in the virus, fungus and protozoan disease tables.",
+     "facts": [
+      "F1",
+      "F11",
+      "F20"
+     ]
     },
     {
      "id": "biology-64-16",
@@ -20215,7 +20733,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "COVID-19 is paired with Coronavirus, while Mucormycosis is paired with Mucormycetes."
+     "explanation": "COVID-19 is paired with Coronavirus, while Mucormycosis is paired with Mucormycetes.",
+     "facts": [
+      "F9",
+      "F14"
+     ]
     },
     {
      "id": "biology-64-17",
@@ -20229,7 +20751,10 @@
       "Amoebic dysentery"
      ],
      "answer": 0,
-     "explanation": "The protozoan table associates Trypanosoma with sleeping sickness."
+     "explanation": "The protozoan table associates Trypanosoma with sleeping sickness.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "biology-64-18",
@@ -20243,7 +20768,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Rabies is the disease associated with Rabies virus, and the reason directly explains the assertion."
+     "explanation": "Both statements are true. Rabies is the disease associated with Rabies virus, and the reason directly explains the assertion.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-64-19",
@@ -20257,7 +20785,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Candida–Candidiasis, Entamoeba histolytica–Amoebic dysentery, Leishmania donovani–Kala-azar, and Influenza virus–Influenza."
+     "explanation": "The correct pairs are Candida–Candidiasis, Entamoeba histolytica–Amoebic dysentery, Leishmania donovani–Kala-azar, and Influenza virus–Influenza.",
+     "facts": [
+      "F2",
+      "F12",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-64-20",
@@ -20271,9 +20805,19 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Statements I and III are correct: Influenza virus is associated with Influenza, and Hepatitis B virus with Hepatitis B. Statement II is also a fact in the sheet, but it was excluded here to avoid repeating an already tested association."
+     "explanation": "Statements I and III are correct: Influenza virus is associated with Influenza, and Hepatitis B virus with Hepatitis B. Statement II is also a fact in the sheet, but it was excluded here to avoid repeating an already tested association.",
+     "facts": [
+      "F2",
+      "F5",
+      "F6"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "65": {
    "number": 65,
@@ -21105,7 +21649,11 @@
       "Aspergillus"
      ],
      "answer": 1,
-     "explanation": "Lactobacillus is associated with curd in food production."
+     "explanation": "Lactobacillus is associated with curd in food production.",
+     "facts": [
+      "F1",
+      "F13"
+     ]
     },
     {
      "id": "biology-67-2",
@@ -21119,7 +21667,11 @@
       "Bread"
      ],
      "answer": 3,
-     "explanation": "Yeast is listed in association with bread."
+     "explanation": "Yeast is listed in association with bread.",
+     "facts": [
+      "F2",
+      "F11"
+     ]
     },
     {
      "id": "biology-67-3",
@@ -21133,7 +21685,10 @@
       "Methanogens"
      ],
      "answer": 2,
-     "explanation": "Acetobacter has vinegar as its listed industrial use."
+     "explanation": "Acetobacter has vinegar as its listed industrial use.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "biology-67-4",
@@ -21147,7 +21702,10 @@
       "Aspergillus"
      ],
      "answer": 3,
-     "explanation": "Aspergillus is associated with citric acid production."
+     "explanation": "Aspergillus is associated with citric acid production.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "biology-67-5",
@@ -21161,7 +21719,11 @@
       "Methanogens"
      ],
      "answer": 3,
-     "explanation": "Methanogens are listed for biogas/methane production."
+     "explanation": "Methanogens are listed for biogas/methane production.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-67-6",
@@ -21175,7 +21737,17 @@
       "Yeast is used in the preparation of alcoholic beverages."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the product associated with Saccharomyces cerevisiae. It is listed with fermented beverages, while bread is associated with yeast."
+     "explanation": "The incorrect detail is the product associated with Saccharomyces cerevisiae. It is listed with fermented beverages, while bread is associated with yeast.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-67-7",
@@ -21189,7 +21761,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The reason directly identifies the two industrial uses listed for yeast."
+     "explanation": "Both statements are true. The reason directly identifies the two industrial uses listed for yeast.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-67-8",
@@ -21203,7 +21779,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both A and R are true, and the reason directly states the industrial association of Acetobacter."
+     "explanation": "Both A and R are true, and the reason directly states the industrial association of Acetobacter.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "biology-67-9",
@@ -21217,7 +21796,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Industrial products are the listed industrial use of microalgae."
+     "explanation": "Both statements are true. Industrial products are the listed industrial use of microalgae.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "biology-67-10",
@@ -21231,7 +21813,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Yeast is associated with bread, while Acetobacter is associated with vinegar; therefore, both statements are true."
+     "explanation": "Yeast is associated with bread, while Acetobacter is associated with vinegar; therefore, both statements are true.",
+     "facts": [
+      "F2",
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "biology-67-11",
@@ -21245,7 +21832,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The food associations listed for bacteria and fungi match both statements."
+     "explanation": "The food associations listed for bacteria and fungi match both statements.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-67-12",
@@ -21259,7 +21853,13 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three associations are listed: Lactobacillus—dairy/curd, Acetobacter—vinegar, and Aspergillus—citric acid."
+     "explanation": "All three associations are listed: Lactobacillus—dairy/curd, Acetobacter—vinegar, and Aspergillus—citric acid.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-67-13",
@@ -21273,7 +21873,13 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the listed industrial uses."
+     "explanation": "All three statements are correct according to the listed industrial uses.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "biology-67-14",
@@ -21287,7 +21893,16 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Lactobacillus—curd, Yeast—bread, Saccharomyces cerevisiae—fermented beverages, and Fungi—mushrooms and fermented foods."
+     "explanation": "The correct pairs are Lactobacillus—curd, Yeast—bread, Saccharomyces cerevisiae—fermented beverages, and Fungi—mushrooms and fermented foods.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F8",
+      "F9",
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "biology-67-15",
@@ -21301,7 +21916,16 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Yeast—alcohol and baking, Lactobacillus—dairy/curd, Acetobacter—vinegar, and Aspergillus—citric acid."
+     "explanation": "The correct pairs are Yeast—alcohol and baking, Lactobacillus—dairy/curd, Acetobacter—vinegar, and Aspergillus—citric acid.",
+     "facts": [
+      "F3",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-67-16",
@@ -21315,7 +21939,16 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Bacteria—antibiotics and food products, Fungi—alcohol, acids and antibiotics, Microalgae—industrial products, and Cyanobacteria—biofertilizer."
+     "explanation": "The correct pairs are Bacteria—antibiotics and food products, Fungi—alcohol, acids and antibiotics, Microalgae—industrial products, and Cyanobacteria—biofertilizer.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F25"
+     ]
     },
     {
      "id": "biology-67-17",
@@ -21329,7 +21962,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched in the food/product list."
+     "explanation": "All four pairs are correctly matched in the food/product list.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F8",
+      "F9",
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "biology-67-18",
@@ -21343,7 +21985,14 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct: methanogens—biogas/methane, diatoms—industrial material, cyanobacteria—biofertilizer, and Aspergillus—citric acid."
+     "explanation": "All four associations are correct: methanogens—biogas/methane, diatoms—industrial material, cyanobacteria—biofertilizer, and Aspergillus—citric acid.",
+     "facts": [
+      "F15",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "biology-67-19",
@@ -21357,9 +22006,24 @@
       "Dairy and curd"
      ],
      "answer": 1,
-     "explanation": "Bacteria are associated with the industrial production of antibiotics and food products."
+     "explanation": "Bacteria are associated with the industrial production of antibiotics and food products.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F22",
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "68": {
    "number": 68,

@@ -9392,8 +9392,31 @@
       "F116",
       "F119"
      ]
+    },
+    {
+     "id": "indian-geography-24-36",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Climate and Location",
+     "question": "Consider the following statements:\nStatement A: Coconut requires a tropical humid climate.\nStatement B: Coconut is grown in tropical and coastal regions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Coconut is a plantation crop requiring a tropical humid climate and is grown in tropical and coastal regions.",
+     "facts": [
+      "F117",
+      "F118"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 147,
+    "covered": 147,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -9719,7 +9742,10 @@
       "North-Eastern India"
      ],
      "answer": 0,
-     "explanation": "The sheet associates tank or pond irrigation with Peninsular India."
+     "explanation": "The sheet associates tank or pond irrigation with Peninsular India.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-26-2",
@@ -9733,7 +9759,10 @@
       "Desert islands"
      ],
      "answer": 2,
-     "explanation": "The tank system for watershed development is associated with semi-arid India."
+     "explanation": "The tank system for watershed development is associated with semi-arid India.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-26-3",
@@ -9747,7 +9776,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet links traditional tank irrigation with both South India and Peninsular India."
+     "explanation": "The sheet links traditional tank irrigation with both South India and Peninsular India.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-26-4",
@@ -9761,7 +9794,10 @@
       "Prakasam"
      ],
      "answer": 1,
-     "explanation": "Andhra Pradesh is stated to rank first in India in tank irrigation."
+     "explanation": "Andhra Pradesh is stated to rank first in India in tank irrigation.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-26-5",
@@ -9775,7 +9811,12 @@
       "Tamil Nadu accounts for over 23% of India’s national tank-irrigated area."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the state associated with over 23%. Tamil Nadu, not Andhra Pradesh, accounts for over 23% of the national tank-irrigated area."
+     "explanation": "The incorrect detail is the state associated with over 23%. Tamil Nadu, not Andhra Pradesh, accounts for over 23% of the national tank-irrigated area.",
+     "facts": [
+      "F6",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-26-6",
@@ -9789,7 +9830,13 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are supported: Andhra Pradesh ranks first, holds roughly 28% to 29%, and Nellore and Warangal are noted districts."
+     "explanation": "All three statements are supported: Andhra Pradesh ranks first, holds roughly 28% to 29%, and Nellore and Warangal are noted districts.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-26-7",
@@ -9803,7 +9850,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and Andhra Pradesh’s roughly 28% to 29% share explains its stated first rank."
+     "explanation": "Both statements are true, and Andhra Pradesh’s roughly 28% to 29% share explains its stated first rank.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-26-8",
@@ -9817,7 +9868,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Andhra Pradesh–first rank, Tamil Nadu–Eris, Nellore–notable district, and Warangal–notable district."
+     "explanation": "The correct pairs are Andhra Pradesh–first rank, Tamil Nadu–Eris, Nellore–notable district, and Warangal–notable district.",
+     "facts": [
+      "F5",
+      "F7",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-26-9",
@@ -9831,7 +9888,10 @@
       "Eris"
      ],
      "answer": 3,
-     "explanation": "Traditional tanks in Tamil Nadu are called Eris."
+     "explanation": "Traditional tanks in Tamil Nadu are called Eris.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-26-10",
@@ -9845,7 +9905,13 @@
       "It is described as one of the oldest and most famous man-made irrigation tanks in India."
      ],
      "answer": 0,
-     "explanation": "The altered detail is the river. Cumbum Tank was formed by damming the Gundlakamma river, not the Penna river."
+     "explanation": "The altered detail is the river. Cumbum Tank was formed by damming the Gundlakamma river, not the Penna river.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-26-11",
@@ -9859,7 +9925,14 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "All four statements are given for Cumbum Tank: its location, river, historical description, and historical regional association."
+     "explanation": "All four statements are given for Cumbum Tank: its location, river, historical description, and historical regional association.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-26-12",
@@ -9873,7 +9946,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The tank’s formation by damming the Gundlakamma river explains its man-made character."
+     "explanation": "Both statements are true. The tank’s formation by damming the Gundlakamma river explains its man-made character.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-26-13",
@@ -9887,7 +9965,10 @@
       "About 15%"
      ],
      "answer": 2,
-     "explanation": "Tamil Nadu accounts for over 23% of the national tank-irrigated area."
+     "explanation": "Tamil Nadu accounts for over 23% of the national tank-irrigated area.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-26-14",
@@ -9901,9 +9982,19 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Cumbum Tank is associated with the historical Rayalaseema/Palnadu border region. The notes place it in Prakasam district, not Nellore district."
+     "explanation": "Cumbum Tank is associated with the historical Rayalaseema/Palnadu border region. The notes place it in Prakasam district, not Nellore district.",
+     "facts": [
+      "F7",
+      "F11",
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,
@@ -9931,7 +10022,10 @@
       "Odisha and West Bengal"
      ],
      "answer": 0,
-     "explanation": "Nagarjunsagar–Srisailam Tiger Reserve is located in Andhra Pradesh and Telangana."
+     "explanation": "Nagarjunsagar–Srisailam Tiger Reserve is located in Andhra Pradesh and Telangana.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-27-2",
@@ -9945,7 +10039,12 @@
       "Sariska Tiger Reserve is located in Rajasthan."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of Ranthambore. It is located in Rajasthan, not Madhya Pradesh."
+     "explanation": "The incorrect detail is the location of Ranthambore. It is located in Rajasthan, not Madhya Pradesh.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-27-3",
@@ -9959,7 +10058,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Sariska–Rajasthan, Kanha–Madhya Pradesh, Corbett–Uttarakhand and Bandipur–Karnataka."
+     "explanation": "The correct pairs are Sariska–Rajasthan, Kanha–Madhya Pradesh, Corbett–Uttarakhand and Bandipur–Karnataka.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-27-4",
@@ -9973,7 +10078,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the landscape association with the Nallamala Hills does not directly explain the stated location across Andhra Pradesh and Telangana."
+     "explanation": "Both statements are true, but the landscape association with the Nallamala Hills does not directly explain the stated location across Andhra Pradesh and Telangana.",
+     "facts": [
+      "F1",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-27-5",
@@ -9987,7 +10096,10 @@
       "Maharashtra"
      ],
      "answer": 1,
-     "explanation": "Nagarhole Tiger Reserve is located in Karnataka."
+     "explanation": "Nagarhole Tiger Reserve is located in Karnataka.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-27-6",
@@ -10001,7 +10113,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Periyar is located in Kerala and is associated with the Western Ghats."
+     "explanation": "Both statements are correct: Periyar is located in Kerala and is associated with the Western Ghats.",
+     "facts": [
+      "F8",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-27-7",
@@ -10015,7 +10131,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct. Sundarbans is in West Bengal, Similipal is in Odisha and Kaziranga is in Assam."
+     "explanation": "All three statements are correct. Sundarbans is in West Bengal, Similipal is in Odisha and Kaziranga is in Assam.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-27-8",
@@ -10029,7 +10150,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Valmiki–Bihar, Tadoba–Andhari–Maharashtra, Periyar–Kerala and Sundarbans–West Bengal."
+     "explanation": "The correct pairs are Valmiki–Bihar, Tadoba–Andhari–Maharashtra, Periyar–Kerala and Sundarbans–West Bengal.",
+     "facts": [
+      "F8",
+      "F9",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-27-9",
@@ -10043,7 +10170,10 @@
       "Western Ghats"
      ],
      "answer": 1,
-     "explanation": "Similipal Tiger Reserve is associated with the Eastern Ghats."
+     "explanation": "Similipal Tiger Reserve is associated with the Eastern Ghats.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-27-10",
@@ -10057,7 +10187,10 @@
       "Eastern Ghats"
      ],
      "answer": 1,
-     "explanation": "Corbett Tiger Reserve is associated with the Shivalik / Himalayan foothills."
+     "explanation": "Corbett Tiger Reserve is associated with the Shivalik / Himalayan foothills.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-27-11",
@@ -10071,7 +10204,10 @@
       "Shivalik / Himalayan foothills"
      ],
      "answer": 0,
-     "explanation": "Periyar Tiger Reserve is associated with the Western Ghats."
+     "explanation": "Periyar Tiger Reserve is associated with the Western Ghats.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-27-12",
@@ -10085,7 +10221,10 @@
       "Aravalli–Vindhyan landscape"
      ],
      "answer": 1,
-     "explanation": "Tadoba is associated with the Deccan / central Indian forest landscape."
+     "explanation": "Tadoba is associated with the Deccan / central Indian forest landscape.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "indian-geography-27-13",
@@ -10099,7 +10238,10 @@
       "Deccan / central Indian forest landscape"
      ],
      "answer": 0,
-     "explanation": "Ranthambore Tiger Reserve is associated with the Aravalli–Vindhyan landscape."
+     "explanation": "Ranthambore Tiger Reserve is associated with the Aravalli–Vindhyan landscape.",
+     "facts": [
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-27-14",
@@ -10113,7 +10255,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Nagarjunsagar–Srisailam–Nallamala Hills, Corbett–Shivalik / Himalayan foothills, Periyar–Western Ghats and Similipal–Eastern Ghats."
+     "explanation": "The correct pairs are Nagarjunsagar–Srisailam–Nallamala Hills, Corbett–Shivalik / Himalayan foothills, Periyar–Western Ghats and Similipal–Eastern Ghats.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-27-15",
@@ -10127,7 +10275,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two reserves in the list—Ranthambore and Sariska—are located in Rajasthan."
+     "explanation": "Two reserves in the list—Ranthambore and Sariska—are located in Rajasthan.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-27-16",
@@ -10141,7 +10295,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Tadoba–Andhari is in Maharashtra and Manas is in Assam."
+     "explanation": "Both statements are true. Tadoba–Andhari is in Maharashtra and Manas is in Assam.",
+     "facts": [
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-27-17",
@@ -10155,7 +10313,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct: Bandipur and Nagarhole are in Karnataka, while Periyar is in Kerala."
+     "explanation": "All three statements are correct: Bandipur and Nagarhole are in Karnataka, while Periyar is in Kerala.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-27-18",
@@ -10169,7 +10332,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Nagarjunsagar–Srisailam–Andhra Pradesh and Telangana, Ranthambore–Rajasthan, Nagarhole–Karnataka and Valmiki–Bihar."
+     "explanation": "The correct pairs are Nagarjunsagar–Srisailam–Andhra Pradesh and Telangana, Ranthambore–Rajasthan, Nagarhole–Karnataka and Valmiki–Bihar.",
+     "facts": [
+      "F1",
+      "F2",
+      "F7",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-27-19",
@@ -10183,9 +10352,17 @@
       "Bihar"
      ],
      "answer": 1,
-     "explanation": "Kaziranga Tiger Reserve is located in Assam."
+     "explanation": "Kaziranga Tiger Reserve is located in Assam.",
+     "facts": [
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -11313,7 +11490,10 @@
       "Hosiery"
      ],
      "answer": 2,
-     "explanation": "Titagarh is listed as a location of the paper industry."
+     "explanation": "Titagarh is listed as a location of the paper industry.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-30-2",
@@ -11327,7 +11507,12 @@
       "Titagarh is associated with the paper industry."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes the industry at Bhatpara. Bhatpara is associated with jute, not paper."
+     "explanation": "The incorrect statement changes the industry at Bhatpara. Bhatpara is associated with jute, not paper.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-30-3",
@@ -11341,7 +11526,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the listing of Lakheri under cement directly explains the assertion."
+     "explanation": "Both statements are true, and the listing of Lakheri under cement directly explains the assertion.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-30-4",
@@ -11355,7 +11543,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Chunar is listed under cement. The paper location listed is Titagarh, not Chunar."
+     "explanation": "Chunar is listed under cement. The paper location listed is Titagarh, not Chunar.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-30-5",
@@ -11369,7 +11561,10 @@
       "Fertilizer"
      ],
      "answer": 1,
-     "explanation": "Dalmianagar is listed as a location of the cement industry."
+     "explanation": "Dalmianagar is listed as a location of the cement industry.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-30-6",
@@ -11383,7 +11578,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both A and R are true. Churk appears among the listed cement industry locations, which explains the assertion."
+     "explanation": "Both A and R are true. Churk appears among the listed cement industry locations, which explains the assertion.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-30-7",
@@ -11397,7 +11595,10 @@
       "Cement"
      ],
      "answer": 3,
-     "explanation": "Dalla is listed as a location of the cement industry."
+     "explanation": "Dalla is listed as a location of the cement industry.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-30-8",
@@ -11411,7 +11612,11 @@
       "a-ii, b-i"
      ],
      "answer": 1,
-     "explanation": "Both Bhilai and Jamshedpur are associated with the iron and steel industry."
+     "explanation": "Both Bhilai and Jamshedpur are associated with the iron and steel industry.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-30-9",
@@ -11425,7 +11630,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "J.K. Nagar is listed under aluminium. The zinc location listed is Tundoo."
+     "explanation": "J.K. Nagar is listed under aluminium. The zinc location listed is Tundoo.",
+     "facts": [
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-30-10",
@@ -11439,7 +11648,10 @@
       "Aluminium"
      ],
      "answer": 3,
-     "explanation": "Korba is listed as a location of the aluminium industry."
+     "explanation": "Korba is listed as a location of the aluminium industry.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-30-11",
@@ -11453,7 +11665,11 @@
       "a-ii, b-i"
      ],
      "answer": 3,
-     "explanation": "Malanjkhand is associated with copper, while Tundoo is associated with zinc."
+     "explanation": "Malanjkhand is associated with copper, while Tundoo is associated with zinc.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-30-12",
@@ -11467,7 +11683,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the listing of Sri Ganganagar under fertilizer explains the assertion."
+     "explanation": "Both statements are true, and the listing of Sri Ganganagar under fertilizer explains the assertion.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-30-13",
@@ -11481,7 +11700,10 @@
       "Cement"
      ],
      "answer": 1,
-     "explanation": "Sindri is listed as a location of the fertilizer industry."
+     "explanation": "Sindri is listed as a location of the fertilizer industry.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-30-14",
@@ -11495,7 +11717,10 @@
       "Glass"
      ],
      "answer": 0,
-     "explanation": "Kota is listed as a location of the synthetic silk industry."
+     "explanation": "Kota is listed as a location of the synthetic silk industry.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-30-15",
@@ -11509,7 +11734,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Solapur is listed under cotton textile. The sugar locations listed are Sakkar Nagar and Pratappur."
+     "explanation": "Solapur is listed under cotton textile. The sugar locations listed are Sakkar Nagar and Pratappur.",
+     "facts": [
+      "F20",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-30-16",
@@ -11523,7 +11753,11 @@
       "a-ii, b-ii"
      ],
      "answer": 1,
-     "explanation": "Both Nagpur and Coimbatore are listed as locations of the cotton textile industry."
+     "explanation": "Both Nagpur and Coimbatore are listed as locations of the cotton textile industry.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-30-17",
@@ -11537,7 +11771,13 @@
       "a-iii, b-ii, c-i, d-i"
      ],
      "answer": 3,
-     "explanation": "Indore is associated with cotton textile; Ludhiana with hosiery; and both Sakkar Nagar and Pratappur with sugar."
+     "explanation": "Indore is associated with cotton textile; Ludhiana with hosiery; and both Sakkar Nagar and Pratappur with sugar.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-30-18",
@@ -11551,7 +11791,11 @@
       "a-ii, b-ii"
      ],
      "answer": 0,
-     "explanation": "Bhatpara is associated with the jute industry, while Dadri is associated with the cement industry. Therefore, the correct pairing is a-ii, b-i."
+     "explanation": "Bhatpara is associated with the jute industry, while Dadri is associated with the cement industry. Therefore, the correct pairing is a-ii, b-i.",
+     "facts": [
+      "F2",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-30-19",
@@ -11565,7 +11809,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both the assertion and reason are true. Jaipur is listed as a location associated with the glass industry, and the reason correctly explains the assertion."
+     "explanation": "Both the assertion and reason are true. Jaipur is listed as a location associated with the glass industry, and the reason correctly explains the assertion.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-30-20",
@@ -11579,9 +11826,17 @@
       "Synthetic silk"
      ],
      "answer": 0,
-     "explanation": "Ahmedabad is associated with the cotton textile industry."
+     "explanation": "Ahmedabad is associated with the cotton textile industry.",
+     "facts": [
+      "F19"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,
@@ -12017,7 +12272,10 @@
       "Tamil Nadu"
      ],
      "answer": 1,
-     "explanation": "Sriharikota is located in Andhra Pradesh."
+     "explanation": "Sriharikota is located in Andhra Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-32-2",
@@ -12031,7 +12289,10 @@
       "Ramanathapuram district"
      ],
      "answer": 1,
-     "explanation": "Divi or Diviseema is located in Krishna district of Andhra Pradesh."
+     "explanation": "Divi or Diviseema is located in Krishna district of Andhra Pradesh.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-32-3",
@@ -12045,7 +12306,10 @@
       "Mumbai, Maharashtra"
      ],
      "answer": 1,
-     "explanation": "Rameswaram is associated with Ramanathapuram in Tamil Nadu."
+     "explanation": "Rameswaram is associated with Ramanathapuram in Tamil Nadu.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-32-4",
@@ -12059,7 +12323,10 @@
       "Maharashtra—Mumbai/Thane"
      ],
      "answer": 3,
-     "explanation": "Salsette is located in Maharashtra, in the Mumbai/Thane area."
+     "explanation": "Salsette is located in Maharashtra, in the Mumbai/Thane area.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-32-5",
@@ -12073,7 +12340,10 @@
       "Lakshadweep"
      ],
      "answer": 2,
-     "explanation": "Elephanta is located in Mumbai, Maharashtra."
+     "explanation": "Elephanta is located in Mumbai, Maharashtra.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-32-6",
@@ -12087,7 +12357,10 @@
       "Gulf of Khambhat"
      ],
      "answer": 1,
-     "explanation": "Barren Island is located in the Andaman Sea in the Andaman and Nicobar region."
+     "explanation": "Barren Island is located in the Andaman Sea in the Andaman and Nicobar region.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-32-7",
@@ -12101,7 +12374,10 @@
       "South-eastern Bay of Bengal"
      ],
      "answer": 3,
-     "explanation": "Nicobar is located in the south-eastern Bay of Bengal."
+     "explanation": "Nicobar is located in the south-eastern Bay of Bengal.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-32-8",
@@ -12115,7 +12391,14 @@
       "Viyant Syodhar is located in the Gulf of Kutch."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of Diu. Diu is located on the Kathiawar coast, not in the Gulf of Kutch."
+     "explanation": "The incorrect detail is the location of Diu. Diu is located on the Kathiawar coast, not in the Gulf of Kutch.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-32-9",
@@ -12129,7 +12412,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Sriharikota's location in Andhra Pradesh does not explain its separating Pulicat from the Bay of Bengal."
+     "explanation": "Both statements are true, but Sriharikota's location in Andhra Pradesh does not explain its separating Pulicat from the Bay of Bengal.",
+     "facts": [
+      "F15",
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-32-10",
@@ -12143,7 +12430,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, the location of Divi in Krishna district does not explain the stated association with Krishna distributaries."
+     "explanation": "Both statements are true. However, the location of Divi in Krishna district does not explain the stated association with Krishna distributaries.",
+     "facts": [
+      "F16",
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-32-11",
@@ -12157,7 +12448,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but its association with Ramanathapuram does not explain Rameswaram's position between India and Sri Lanka."
+     "explanation": "Both statements are true, but its association with Ramanathapuram does not explain Rameswaram's position between India and Sri Lanka.",
+     "facts": [
+      "F17",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-32-12",
@@ -12171,7 +12466,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct special facts associated with Salsette and Elephanta."
+     "explanation": "Both statements are correct special facts associated with Salsette and Elephanta.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-geography-32-13",
@@ -12185,7 +12484,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Minicoy is described as a remote Indian island, and Lakshadweep islands are described as having coral origin."
+     "explanation": "Minicoy is described as a remote Indian island, and Lakshadweep islands are described as having coral origin.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-32-14",
@@ -12199,7 +12502,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements correctly pair Viyant Syodhar with the Gulf of Kutch, Piram with the Gulf of Khambhat, and Dwarka with the Arabian Sea coast."
+     "explanation": "All three statements correctly pair Viyant Syodhar with the Gulf of Kutch, Piram with the Gulf of Khambhat, and Dwarka with the Arabian Sea coast.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-32-15",
@@ -12213,7 +12522,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the island-location pairings."
+     "explanation": "All three statements are correct according to the island-location pairings.",
+     "facts": [
+      "F13",
+      "F7",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-32-16",
@@ -12227,7 +12541,14 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Viyant Syodhar–Gulf of Kutch, Piram–Gulf of Khambhat, Dwarka–Arabian Sea coast, and Diu–Kathiawar coast."
+     "explanation": "The correct pairs are Viyant Syodhar–Gulf of Kutch, Piram–Gulf of Khambhat, Dwarka–Arabian Sea coast, and Diu–Kathiawar coast.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-32-17",
@@ -12241,7 +12562,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Barren–Andaman Sea, Nicobar–south-eastern Bay of Bengal, Minicoy–Lakshadweep, and Salsette–Maharashtra (Mumbai/Thane)."
+     "explanation": "The correct pairs are Barren–Andaman Sea, Nicobar–south-eastern Bay of Bengal, Minicoy–Lakshadweep, and Salsette–Maharashtra (Mumbai/Thane).",
+     "facts": [
+      "F6",
+      "F8",
+      "F7",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-32-18",
@@ -12255,7 +12582,13 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Barren Island–active volcano, Sriharikota–separates Pulicat from the Bay of Bengal, Divi–Krishna distributaries, and Rameswaram–between India and Sri Lanka."
+     "explanation": "The correct pairs are Barren Island–active volcano, Sriharikota–separates Pulicat from the Bay of Bengal, Divi–Krishna distributaries, and Rameswaram–between India and Sri Lanka.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-32-19",
@@ -12269,7 +12602,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct special facts listed for these islands."
+     "explanation": "All four statements are correct special facts listed for these islands.",
+     "facts": [
+      "F14",
+      "F18",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-32-20",
@@ -12283,9 +12622,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Sriharikota and Divi are associated with Andhra Pradesh, while Rameswaram is associated with Ramanathapuram in Tamil Nadu. Elephanta is associated with Mumbai, Maharashtra; therefore, three islands are associated with Andhra Pradesh or Tamil Nadu."
+     "explanation": "Sriharikota and Divi are associated with Andhra Pradesh, while Rameswaram is associated with Ramanathapuram in Tamil Nadu. Elephanta is associated with Mumbai, Maharashtra; therefore, three islands are associated with Andhra Pradesh or Tamil Nadu.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -12313,7 +12663,10 @@
       "Gujarat"
      ],
      "answer": 2,
-     "explanation": "Coringa Wildlife Sanctuary is located in Andhra Pradesh."
+     "explanation": "Coringa Wildlife Sanctuary is located in Andhra Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-33-2",
@@ -12327,7 +12680,10 @@
       "Madhya Pradesh"
      ],
      "answer": 0,
-     "explanation": "Rollapadu Wildlife Sanctuary is located in Andhra Pradesh."
+     "explanation": "Rollapadu Wildlife Sanctuary is located in Andhra Pradesh.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-33-3",
@@ -12341,7 +12697,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Kolleru is in Andhra Pradesh, while Daying Ering is in East Siang, Arunachal Pradesh."
+     "explanation": "Kolleru is in Andhra Pradesh, while Daying Ering is in East Siang, Arunachal Pradesh.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-33-4",
@@ -12355,7 +12715,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Daying Ering–East Siang, Bori–Narmadapuram, Koderma–Jharkhand and Gandhi Sagar–Madhya Pradesh."
+     "explanation": "The correct pairs are Daying Ering–East Siang, Bori–Narmadapuram, Koderma–Jharkhand and Gandhi Sagar–Madhya Pradesh.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-33-5",
@@ -12369,7 +12735,14 @@
       "Ghatigaon Wildlife Sanctuary is located in Gwalior, Madhya Pradesh."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the state of Indravati Wildlife Sanctuary. It is located in Chhattisgarh."
+     "explanation": "The incorrect detail is the state of Indravati Wildlife Sanctuary. It is located in Chhattisgarh.",
+     "facts": [
+      "F8",
+      "F10",
+      "F11",
+      "F9",
+      "F23"
+     ]
     },
     {
      "id": "indian-geography-33-6",
@@ -12383,7 +12756,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct: Sultanpur is in Haryana, Keoladeo is in Bharatpur, Rajasthan, and Harike is in Punjab."
+     "explanation": "All three statements are correct: Sultanpur is in Haryana, Keoladeo is in Bharatpur, Rajasthan, and Harike is in Punjab.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-33-7",
@@ -12397,7 +12775,10 @@
       "Gwalior, Madhya Pradesh"
      ],
      "answer": 1,
-     "explanation": "Wild Ass Wildlife Sanctuary is associated with the Little Rann of Kutch in Gujarat."
+     "explanation": "Wild Ass Wildlife Sanctuary is associated with the Little Rann of Kutch in Gujarat.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-33-8",
@@ -12411,7 +12792,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Coringa is associated with mangroves, and this association explains the assertion."
+     "explanation": "Coringa is associated with mangroves, and this association explains the assertion.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-33-9",
@@ -12425,7 +12809,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given associations of Rollapadu, but the Great Indian Bustard association does not explain why it is associated with grassland."
+     "explanation": "Both statements are given associations of Rollapadu, but the Great Indian Bustard association does not explain why it is associated with grassland.",
+     "facts": [
+      "F18",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-33-10",
@@ -12439,7 +12827,15 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Coringa–Mangroves, Rollapadu–Great Indian Bustard/grassland, Daying Ering–Pasighat/East Siang and Bori–Tawa Reservoir."
+     "explanation": "The correct pairs are Coringa–Mangroves, Rollapadu–Great Indian Bustard/grassland, Daying Ering–Pasighat/East Siang and Bori–Tawa Reservoir.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F4",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-33-11",
@@ -12453,7 +12849,10 @@
       "Beas–Sutlej confluence"
      ],
      "answer": 2,
-     "explanation": "Koderma Wildlife Sanctuary is associated with mica."
+     "explanation": "Koderma Wildlife Sanctuary is associated with mica.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-33-12",
@@ -12467,7 +12866,10 @@
       "Sutlej River"
      ],
      "answer": 1,
-     "explanation": "National Chambal Wildlife Sanctuary is associated with the Chambal River."
+     "explanation": "National Chambal Wildlife Sanctuary is associated with the Chambal River.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-33-13",
@@ -12481,7 +12883,11 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "National Chambal Wildlife Sanctuary extends across Madhya Pradesh, Rajasthan and Uttar Pradesh."
+     "explanation": "National Chambal Wildlife Sanctuary extends across Madhya Pradesh, Rajasthan and Uttar Pradesh.",
+     "facts": [
+      "F8",
+      "F23"
+     ]
     },
     {
      "id": "indian-geography-33-14",
@@ -12495,7 +12901,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Narayan Sarovar is associated with Kutch, and Wild Ass is associated with the Little Rann of Kutch."
+     "explanation": "Narayan Sarovar is associated with Kutch, and Wild Ass is associated with the Little Rann of Kutch.",
+     "facts": [
+      "F10",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-33-15",
@@ -12509,7 +12919,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Narayan Sarovar–Kutch, Wild Ass–Little Rann of Kutch, Harike–Beas–Sutlej confluence and Keoladeo–birds."
+     "explanation": "The correct pairs are Narayan Sarovar–Kutch, Wild Ass–Little Rann of Kutch, Harike–Beas–Sutlej confluence and Keoladeo–birds.",
+     "facts": [
+      "F10",
+      "F15",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-33-16",
@@ -12523,7 +12939,14 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are associated with Madhya Pradesh: Bori with Narmadapuram, Gandhi Sagar with Madhya Pradesh, Ghatigaon with Gwalior, and National Chambal with Madhya Pradesh among its three states."
+     "explanation": "All four are associated with Madhya Pradesh: Bori with Narmadapuram, Gandhi Sagar with Madhya Pradesh, Ghatigaon with Gwalior, and National Chambal with Madhya Pradesh among its three states.",
+     "facts": [
+      "F5",
+      "F7",
+      "F9",
+      "F8",
+      "F23"
+     ]
     },
     {
      "id": "indian-geography-33-17",
@@ -12537,7 +12960,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Wild Ass Wildlife Sanctuary is in the Little Rann of Kutch, Gujarat; the association explains its location."
+     "explanation": "Wild Ass Wildlife Sanctuary is in the Little Rann of Kutch, Gujarat; the association explains its location.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-33-18",
@@ -12551,7 +12977,10 @@
       "Jharkhand"
      ],
      "answer": 0,
-     "explanation": "Indravati Wildlife Sanctuary is located in Chhattisgarh."
+     "explanation": "Indravati Wildlife Sanctuary is located in Chhattisgarh.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-33-19",
@@ -12565,7 +12994,14 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct according to the sanctuary locations listed."
+     "explanation": "All four statements are correct according to the sanctuary locations listed.",
+     "facts": [
+      "F1",
+      "F2",
+      "F6",
+      "F11",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-33-20",
@@ -12579,9 +13015,17 @@
       "Narmadapuram, Madhya Pradesh"
      ],
      "answer": 1,
-     "explanation": "Ghatigaon Wildlife Sanctuary is located in Gwalior, Madhya Pradesh."
+     "explanation": "Ghatigaon Wildlife Sanctuary is located in Gwalior, Madhya Pradesh.",
+     "facts": [
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,
@@ -12893,7 +13337,10 @@
       "Anamudi"
      ],
      "answer": 1,
-     "explanation": "Kangchenjunga is identified as the highest mountain peak in India."
+     "explanation": "Kangchenjunga is identified as the highest mountain peak in India.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-35-2",
@@ -12907,7 +13354,10 @@
       "Anamudi"
      ],
      "answer": 3,
-     "explanation": "Anamudi is the highest peak in South India."
+     "explanation": "Anamudi is the highest peak in South India.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-35-3",
@@ -12921,7 +13371,10 @@
       "Arma Konda"
      ],
      "answer": 2,
-     "explanation": "Doddabetta is the highest peak of the Nilgiri Hills."
+     "explanation": "Doddabetta is the highest peak of the Nilgiri Hills.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-35-4",
@@ -12935,7 +13388,10 @@
       "Anamudi"
      ],
      "answer": 2,
-     "explanation": "Arma Konda, also called Jindhagada, is the highest peak of the Eastern Ghats."
+     "explanation": "Arma Konda, also called Jindhagada, is the highest peak of the Eastern Ghats.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-35-5",
@@ -12949,7 +13405,10 @@
       "Arma Konda"
      ],
      "answer": 3,
-     "explanation": "Arma Konda is the highest peak of Andhra Pradesh."
+     "explanation": "Arma Konda is the highest peak of Andhra Pradesh.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-35-6",
@@ -12963,7 +13422,10 @@
       "Telangana"
      ],
      "answer": 3,
-     "explanation": "Doli Gutta is identified as the highest peak of Telangana."
+     "explanation": "Doli Gutta is identified as the highest peak of Telangana.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-35-7",
@@ -12977,7 +13439,10 @@
       "Doli Gutta region"
      ],
      "answer": 2,
-     "explanation": "The highest point of the Deccan Plateau is the Anamudi region."
+     "explanation": "The highest point of the Deccan Plateau is the Anamudi region.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-35-8",
@@ -12991,7 +13456,10 @@
       "Jog Falls"
      ],
      "answer": 0,
-     "explanation": "Kunchikal Falls is identified as the highest waterfall in India."
+     "explanation": "Kunchikal Falls is identified as the highest waterfall in India.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-35-9",
@@ -13005,7 +13473,10 @@
       "Doddabetta Falls"
      ],
      "answer": 1,
-     "explanation": "Jog Falls is the highest plunge waterfall in India."
+     "explanation": "Jog Falls is the highest plunge waterfall in India.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-35-10",
@@ -13019,7 +13490,13 @@
       "Kangchenjunga is the highest mountain peak in India."
      ],
      "answer": 3,
-     "explanation": "The incorrect statement is the second one. Kangchenjunga is the highest mountain peak, not the highest dam; Tehri Dam is the highest dam in India."
+     "explanation": "The incorrect statement is the second one. Kangchenjunga is the highest mountain peak, not the highest dam; Tehri Dam is the highest dam in India.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-35-11",
@@ -13033,7 +13510,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are a-iii (Tehri Dam), b-i (Ghum), c-iv (Daulat Beg Oldi) and d-ii (Siachen Glacier)."
+     "explanation": "The correct pairs are a-iii (Tehri Dam), b-i (Ghum), c-iv (Daulat Beg Oldi) and d-ii (Siachen Glacier).",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-35-12",
@@ -13047,7 +13530,10 @@
       "Tehri Lake"
      ],
      "answer": 1,
-     "explanation": "Cholamu, also called Tso Lhamo, is the highest lake in India."
+     "explanation": "Cholamu, also called Tso Lhamo, is the highest lake in India.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-35-13",
@@ -13061,7 +13547,10 @@
       "Tehri Dam"
      ],
      "answer": 2,
-     "explanation": "Siachen Glacier is identified as the highest battlefield in the world."
+     "explanation": "Siachen Glacier is identified as the highest battlefield in the world.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-35-14",
@@ -13075,7 +13564,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: Anamudi is the highest peak of the Western Ghats, while Doddabetta is the highest peak of the Nilgiri Hills."
+     "explanation": "Both statements are true: Anamudi is the highest peak of the Western Ghats, while Doddabetta is the highest peak of the Nilgiri Hills.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-35-15",
@@ -13089,7 +13582,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the fact that Arma Konda/Jindhagada is the highest peak of the Eastern Ghats does not explain its identification as Andhra Pradesh’s highest peak."
+     "explanation": "Both statements are true, but the fact that Arma Konda/Jindhagada is the highest peak of the Eastern Ghats does not explain its identification as Andhra Pradesh’s highest peak.",
+     "facts": [
+      "F6",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-35-16",
@@ -13103,7 +13600,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Kunchikal Falls being the highest waterfall does not explain Jog Falls being the highest plunge waterfall."
+     "explanation": "Both statements are true, but Kunchikal Falls being the highest waterfall does not explain Jog Falls being the highest plunge waterfall.",
+     "facts": [
+      "F10",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-35-17",
@@ -13117,7 +13618,14 @@
       "I, II, III and IV"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Doddabetta is the highest peak of the Nilgiri Hills; Arma Konda/Jindhagada is the highest peak of the Eastern Ghats."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Doddabetta is the highest peak of the Nilgiri Hills; Arma Konda/Jindhagada is the highest peak of the Eastern Ghats.",
+     "facts": [
+      "F1",
+      "F2",
+      "F7",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-35-18",
@@ -13131,7 +13639,14 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Cholamu/Tso Lhamo is the highest lake in India; Siachen Glacier is the highest battlefield in the world."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Cholamu/Tso Lhamo is the highest lake in India; Siachen Glacier is the highest battlefield in the world.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-35-19",
@@ -13145,7 +13660,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate the highest point of the Deccan Plateau with the Anamudi region and identify Arma Konda as Andhra Pradesh’s highest peak."
+     "explanation": "Both statements are true. The notes associate the highest point of the Deccan Plateau with the Anamudi region and identify Arma Konda as Andhra Pradesh’s highest peak.",
+     "facts": [
+      "F8",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-35-20",
@@ -13159,7 +13678,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are a-ii (Kangchenjunga), b-iv (Anamudi), c-iii (Doddabetta) and d-i (Doli Gutta)."
+     "explanation": "The correct pairs are a-ii (Kangchenjunga), b-iv (Anamudi), c-iii (Doddabetta) and d-i (Doli Gutta).",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-35-21",
@@ -13173,7 +13698,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are a-iv (Kunchikal Falls), b-ii (Jog Falls), c-i (Cholamu/Tso Lhamo) and d-iii (Siachen Glacier)."
+     "explanation": "The correct pairs are a-iv (Kunchikal Falls), b-ii (Jog Falls), c-i (Cholamu/Tso Lhamo) and d-iii (Siachen Glacier).",
+     "facts": [
+      "F9",
+      "F10",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-35-22",
@@ -13187,9 +13718,38 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. Ghum is the highest railway station in India, not the highest airfield; Daulat Beg Oldi is the highest airfield."
+     "explanation": "The first three pairs are correct. Ghum is the highest railway station in India, not the highest airfield; Daulat Beg Oldi is the highest airfield.",
+     "facts": [
+      "F3",
+      "F6",
+      "F7",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-geography-35-23",
+     "format": "Direct Recall",
+     "keyword": "Highest",
+     "question": "The highest road or tunnel associations are linked with which region?",
+     "options": [
+      "Eastern Ghats",
+      "Western Ghats",
+      "Deccan Plateau",
+      "Ladakh region"
+     ],
+     "answer": 3,
+     "explanation": "The Ladakh region is associated with the highest road or tunnel.",
+     "facts": [
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "36": {
    "number": 36,
@@ -14102,8 +14662,69 @@
       "F33",
       "F34"
      ]
+    },
+    {
+     "id": "indian-geography-38-21",
+     "format": "List-Matching",
+     "keyword": "Ports → Alternate Names",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kolkata Port\n(b) V.O. Chidambaranar Port\n(c) Kochi Port\n(d) Kamarajar Port\n\nList-II\n(i) Cochin Port\n(ii) Syama Prasad Mukherjee Port\n(iii) Ennore Port\n(iv) Tuticorin Port",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "Kolkata Port is also known as Syama Prasad Mukherjee Port; V.O. Chidambaranar Port is also known as Tuticorin Port; Kochi Port is also known as Cochin Port; and Kamarajar Port is also known as Ennore Port.",
+     "facts": [
+      "F1",
+      "F6",
+      "F8",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-geography-38-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ports → State and Alternate Name",
+     "question": "Consider the following statements:\nStatement A: Chennai Port is located in Tamil Nadu.\nStatement B: Kandla Port is also known as Deendayal Port.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Chennai Port is located in Tamil Nadu, while Kandla Port is also known as Deendayal Port.",
+     "facts": [
+      "F5",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-38-23",
+     "format": "Assertion-Reason",
+     "keyword": "Ports → Alternate Name",
+     "question": "Assertion (A): Jawaharlal Nehru Port is also known as Nhava Sheva.\nReason (R): Jawaharlal Nehru Port is the largest container port.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Jawaharlal Nehru Port is also known as Nhava Sheva and is identified as the largest container port. However, its container-port status does not explain the alternate name Nhava Sheva.",
+     "facts": [
+      "F13",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "39": {
    "number": 39,
@@ -15169,7 +15790,10 @@
       "Karnataka"
      ],
      "answer": 0,
-     "explanation": "Nelapattu Bird Sanctuary is located in Andhra Pradesh."
+     "explanation": "Nelapattu Bird Sanctuary is located in Andhra Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-42-2",
@@ -15183,7 +15807,13 @@
       "Pulicat Bird Sanctuary"
      ],
      "answer": 3,
-     "explanation": "Pulicat Bird Sanctuary is located on the Andhra Pradesh–Tamil Nadu border."
+     "explanation": "Pulicat Bird Sanctuary is located on the Andhra Pradesh–Tamil Nadu border.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-42-3",
@@ -15197,7 +15827,10 @@
       "Kerala"
      ],
      "answer": 2,
-     "explanation": "Vedanthangal Bird Sanctuary is located in Tamil Nadu."
+     "explanation": "Vedanthangal Bird Sanctuary is located in Tamil Nadu.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-42-4",
@@ -15211,7 +15844,10 @@
       "Kerala"
      ],
      "answer": 1,
-     "explanation": "Ranganathittu Bird Sanctuary is located in Karnataka."
+     "explanation": "Ranganathittu Bird Sanctuary is located in Karnataka.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-42-5",
@@ -15225,7 +15861,13 @@
       "Nalsarovar Bird Sanctuary"
      ],
      "answer": 0,
-     "explanation": "Sultanpur Bird Sanctuary is located in Haryana."
+     "explanation": "Sultanpur Bird Sanctuary is located in Haryana.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-42-6",
@@ -15239,7 +15881,15 @@
       "Nalsarovar Bird Sanctuary is located in Gujarat."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the location of Bharatpur / Keoladeo Bird Sanctuary. It is located in Rajasthan, not Haryana."
+     "explanation": "The incorrect detail is the location of Bharatpur / Keoladeo Bird Sanctuary. It is located in Rajasthan, not Haryana.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F11",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-42-7",
@@ -15253,7 +15903,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the stated location directly explains the assertion."
+     "explanation": "Both statements are true, and the stated location directly explains the assertion.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-42-8",
@@ -15267,7 +15921,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Sultanpur’s location does not explain Bharatpur / Keoladeo’s location."
+     "explanation": "Both statements are true, but Sultanpur’s location does not explain Bharatpur / Keoladeo’s location.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-42-9",
@@ -15281,7 +15940,10 @@
       "A is false, but R is true"
      ],
      "answer": 3,
-     "explanation": "The assertion is false because Pulicat Bird Sanctuary is located on the Andhra Pradesh–Tamil Nadu border. The reason is true."
+     "explanation": "The assertion is false because Pulicat Bird Sanctuary is located on the Andhra Pradesh–Tamil Nadu border. The reason is true.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-42-10",
@@ -15295,7 +15957,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both Thattekad and Mangalavanam Bird Sanctuaries are located in Kerala."
+     "explanation": "Both Thattekad and Mangalavanam Bird Sanctuaries are located in Kerala.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-42-11",
@@ -15309,7 +15975,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Nalsarovar Bird Sanctuary is in Gujarat, while Ranganathittu Bird Sanctuary is in Karnataka, not Rajasthan."
+     "explanation": "Nalsarovar Bird Sanctuary is in Gujarat, while Ranganathittu Bird Sanctuary is in Karnataka, not Rajasthan.",
+     "facts": [
+      "F6",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-42-12",
@@ -15323,7 +15993,13 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements correctly state the listed locations of Nelapattu, Kolleru and Pulicat."
+     "explanation": "All three statements correctly state the listed locations of Nelapattu, Kolleru and Pulicat.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-42-13",
@@ -15337,7 +16013,13 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct locations listed for the respective bird sanctuaries."
+     "explanation": "All three statements are correct locations listed for the respective bird sanctuaries.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-42-14",
@@ -15351,7 +16033,13 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "Nalsarovar is listed in Gujarat, Thattekad in Kerala and Chilika in Odisha."
+     "explanation": "Nalsarovar is listed in Gujarat, Thattekad in Kerala and Chilika in Odisha.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-42-15",
@@ -15365,7 +16053,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Nelapattu–Andhra Pradesh, Vedanthangal–Tamil Nadu, Ranganathittu–Karnataka and Sultanpur–Haryana."
+     "explanation": "The correct pairs are Nelapattu–Andhra Pradesh, Vedanthangal–Tamil Nadu, Ranganathittu–Karnataka and Sultanpur–Haryana.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-42-16",
@@ -15379,7 +16073,15 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Kolleru–Andhra Pradesh, Pulicat–Andhra Pradesh–Tamil Nadu border, Bharatpur / Keoladeo–Rajasthan and Nalsarovar–Gujarat."
+     "explanation": "The correct pairs are Kolleru–Andhra Pradesh, Pulicat–Andhra Pradesh–Tamil Nadu border, Bharatpur / Keoladeo–Rajasthan and Nalsarovar–Gujarat.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-42-17",
@@ -15393,7 +16095,14 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "Kumarakom, Thattekad and Mangalavanam are paired with Kerala, while Chilika is paired with Odisha."
+     "explanation": "Kumarakom, Thattekad and Mangalavanam are paired with Kerala, while Chilika is paired with Odisha.",
+     "facts": [
+      "F7",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-42-18",
@@ -15407,7 +16116,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Kumarakom, Thattekad and Mangalavanam are located in Kerala. Ranganathittu is located in Karnataka; therefore, the count is three."
+     "explanation": "Kumarakom, Thattekad and Mangalavanam are located in Kerala. Ranganathittu is located in Karnataka; therefore, the count is three.",
+     "facts": [
+      "F6",
+      "F7",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-42-19",
@@ -15421,7 +16136,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three entries include Andhra Pradesh in their listed location: Nelapattu, Kolleru and Pulicat. Pulicat is listed on the Andhra Pradesh–Tamil Nadu border, while Vedanthangal is in Tamil Nadu."
+     "explanation": "Three entries include Andhra Pradesh in their listed location: Nelapattu, Kolleru and Pulicat. Pulicat is listed on the Andhra Pradesh–Tamil Nadu border, while Vedanthangal is in Tamil Nadu.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-42-20",
@@ -15435,9 +16157,22 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The three Kerala entries are Kumarakom, Thattekad and Mangalavanam. The two entries listed specifically in Andhra Pradesh are Nelapattu and Kolleru; Pulicat has a border designation and is therefore excluded from Statement B."
+     "explanation": "The three Kerala entries are Kumarakom, Thattekad and Mangalavanam. The two entries listed specifically in Andhra Pradesh are Nelapattu and Kolleru; Pulicat has a border designation and is therefore excluded from Statement B.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F7",
+      "F12",
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "43": {
    "number": 43,
@@ -15467,7 +16202,10 @@
       "Cuddapah/Kadapa Basin"
      ],
      "answer": 2,
-     "explanation": "Dharwar Rocks are associated with Peninsular India."
+     "explanation": "Dharwar Rocks are associated with Peninsular India.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-43-2",
@@ -15481,7 +16219,10 @@
       "Mahanadi Basin"
      ],
      "answer": 1,
-     "explanation": "Cuddapah Rocks are associated with the Cuddapah/Kadapa Basin of Andhra Pradesh."
+     "explanation": "Cuddapah Rocks are associated with the Cuddapah/Kadapa Basin of Andhra Pradesh.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-43-3",
@@ -15495,7 +16236,13 @@
       "Cuddapah, Vindhyan and Aravalli basins"
      ],
      "answer": 2,
-     "explanation": "Gondwana Rocks are associated with the Damodar, Son, Mahanadi and Godavari basins."
+     "explanation": "Gondwana Rocks are associated with the Damodar, Son, Mahanadi and Godavari basins.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-43-4",
@@ -15509,7 +16256,10 @@
       "Cuddapah/Kadapa Basin"
      ],
      "answer": 2,
-     "explanation": "The Deccan Trap is associated with the Deccan Plateau."
+     "explanation": "The Deccan Trap is associated with the Deccan Plateau.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-43-5",
@@ -15523,7 +16273,10 @@
       "The coastal and offshore basins"
      ],
      "answer": 1,
-     "explanation": "Aravalli Rocks are associated with the Aravalli region of Rajasthan and adjoining areas."
+     "explanation": "Aravalli Rocks are associated with the Aravalli region of Rajasthan and adjoining areas.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-43-6",
@@ -15537,7 +16290,10 @@
       "Peninsular India"
      ],
      "answer": 2,
-     "explanation": "Vindhyan Rocks are associated with the Vindhyan region of central India."
+     "explanation": "Vindhyan Rocks are associated with the Vindhyan region of central India.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-43-7",
@@ -15551,7 +16307,13 @@
       "Only the Deccan Plateau"
      ],
      "answer": 0,
-     "explanation": "The listed associations of Tertiary sedimentary rocks include Assam, Gujarat, Rajasthan and coastal/offshore basins."
+     "explanation": "The listed associations of Tertiary sedimentary rocks include Assam, Gujarat, Rajasthan and coastal/offshore basins.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-43-8",
@@ -15565,7 +16327,16 @@
       "Gondwana Rocks are associated with the Damodar, Son, Mahanadi and Godavari basins."
      ],
      "answer": 1,
-     "explanation": "The incorrect association is the Vindhyan region of central India. The Deccan Trap is associated with the Deccan Plateau; the Vindhyan region is associated with Vindhyan Rocks."
+     "explanation": "The incorrect association is the Vindhyan region of central India. The Deccan Trap is associated with the Deccan Plateau; the Vindhyan region is associated with Vindhyan Rocks.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-43-9",
@@ -15579,7 +16350,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given associations, but the listed basin locations do not explain the coal association."
+     "explanation": "Both statements are given associations, but the listed basin locations do not explain the coal association.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-43-10",
@@ -15593,7 +16371,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the location of the Deccan Trap does not explain its listed association with black soil or regur."
+     "explanation": "Both statements are true, but the location of the Deccan Trap does not explain its listed association with black soil or regur.",
+     "facts": [
+      "F7",
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "indian-geography-43-11",
@@ -15607,7 +16391,15 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the listed locations do not explain the petroleum and natural gas association."
+     "explanation": "Both statements are true, but the listed locations do not explain the petroleum and natural gas association.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-43-12",
@@ -15621,7 +16413,16 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Dharwar–Peninsular India, Cuddapah–Cuddapah/Kadapa Basin, Gondwana–the four listed basins, and Deccan Trap–Deccan Plateau."
+     "explanation": "The correct pairs are Dharwar–Peninsular India, Cuddapah–Cuddapah/Kadapa Basin, Gondwana–the four listed basins, and Deccan Trap–Deccan Plateau.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-43-13",
@@ -15635,7 +16436,14 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Dharwar–copper, Gondwana–coal, Tertiary sedimentary rocks–petroleum and natural gas, and metamorphic rocks–garnet."
+     "explanation": "The correct pairs are Dharwar–copper, Gondwana–coal, Tertiary sedimentary rocks–petroleum and natural gas, and metamorphic rocks–garnet.",
+     "facts": [
+      "F14",
+      "F15",
+      "F23",
+      "F24",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-43-14",
@@ -15649,7 +16457,13 @@
       "a-iv, b-i, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "Barytes, asbestos, lead and uranium are all listed among the resources associated with the Cuddapah Basin."
+     "explanation": "Barytes, asbestos, lead and uranium are all listed among the resources associated with the Cuddapah Basin.",
+     "facts": [
+      "F16",
+      "F17",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-43-15",
@@ -15663,7 +16477,15 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements correctly state the listed location associations of Dharwar, Cuddapah and Gondwana Rocks."
+     "explanation": "All three statements correctly state the listed location associations of Dharwar, Cuddapah and Gondwana Rocks.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-43-16",
@@ -15677,7 +16499,21 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements correctly reproduce the listed mineral or resource associations."
+     "explanation": "All three statements correctly reproduce the listed mineral or resource associations.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "indian-geography-43-17",
@@ -15691,7 +16527,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct location associations."
+     "explanation": "Both statements are correct location associations.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-43-18",
@@ -15705,7 +16545,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Dharwar is associated with copper, while Gondwana is associated with coal."
+     "explanation": "Dharwar is associated with copper, while Gondwana is associated with coal.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-43-19",
@@ -15719,7 +16563,14 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct: Dharwar–copper, Gondwana–coal, Tertiary sedimentary rocks–petroleum and natural gas, and metamorphic rocks–garnet."
+     "explanation": "All four associations are correct: Dharwar–copper, Gondwana–coal, Tertiary sedimentary rocks–petroleum and natural gas, and metamorphic rocks–garnet.",
+     "facts": [
+      "F14",
+      "F15",
+      "F23",
+      "F24",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-43-20",
@@ -15733,9 +16584,17 @@
       "Vindhyan Rocks"
      ],
      "answer": 2,
-     "explanation": "Tertiary sedimentary rocks are associated with Assam, Gujarat, Rajasthan and coastal/offshore basins."
+     "explanation": "Tertiary sedimentary rocks are associated with Assam, Gujarat, Rajasthan and coastal/offshore basins.",
+     "facts": [
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "44": {
    "number": 44,
@@ -16059,7 +16918,10 @@
       "8"
      ],
      "answer": 3,
-     "explanation": "The Tropic of Cancer at 23°30′ N passes through 8 Indian states."
+     "explanation": "The Tropic of Cancer at 23°30′ N passes through 8 Indian states.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-45-2",
@@ -16073,7 +16935,10 @@
       "Madhya Pradesh"
      ],
      "answer": 0,
-     "explanation": "In the west-to-east order, Gujarat is the first state listed."
+     "explanation": "In the west-to-east order, Gujarat is the first state listed.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-45-3",
@@ -16087,7 +16952,11 @@
       "Rajasthan"
      ],
      "answer": 3,
-     "explanation": "The sequence begins Gujarat, Rajasthan, Madhya Pradesh and Chhattisgarh."
+     "explanation": "The sequence begins Gujarat, Rajasthan, Madhya Pradesh and Chhattisgarh.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-45-4",
@@ -16101,7 +16970,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "Gujarat, Madhya Pradesh, Jharkhand and Tripura occupy the first, third, fifth and seventh positions respectively."
+     "explanation": "Gujarat, Madhya Pradesh, Jharkhand and Tripura occupy the first, third, fifth and seventh positions respectively.",
+     "facts": [
+      "F3",
+      "F5",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-45-5",
@@ -16115,7 +16990,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "The stated order is Chhattisgarh fourth, West Bengal sixth and Mizoram eighth."
+     "explanation": "The stated order is Chhattisgarh fourth, West Bengal sixth and Mizoram eighth.",
+     "facts": [
+      "F6",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-45-6",
@@ -16129,7 +17009,18 @@
       "The Tropic of Cancer passes through Tripura."
      ],
      "answer": 1,
-     "explanation": "Odisha is the altered detail; the Tropic of Cancer state list includes West Bengal, Tripura and Mizoram, but not Odisha."
+     "explanation": "Odisha is the altered detail; the Tropic of Cancer state list includes West Bengal, Tripura and Mizoram, but not Odisha.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-45-7",
@@ -16143,7 +17034,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Rajasthan is second, whereas Chhattisgarh is fourth, not fifth."
+     "explanation": "Rajasthan is second, whereas Chhattisgarh is fourth, not fifth.",
+     "facts": [
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-45-8",
@@ -16157,7 +17052,10 @@
       "82°30′ E"
      ],
      "answer": 1,
-     "explanation": "The Tropic of Cancer is given as 23°30′ N."
+     "explanation": "The Tropic of Cancer is given as 23°30′ N.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-45-9",
@@ -16171,7 +17069,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the location in Koriya district on the Baghelkhand Plateau specifies where the intersection occurs."
+     "explanation": "Both statements are true, and the location in Koriya district on the Baghelkhand Plateau specifies where the intersection occurs.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-45-10",
@@ -16185,7 +17087,10 @@
       "Tripura"
      ],
      "answer": 2,
-     "explanation": "The intersection is in Koriya district of Chhattisgarh."
+     "explanation": "The intersection is in Koriya district of Chhattisgarh.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-45-11",
@@ -16199,7 +17104,10 @@
       "Deccan Plateau"
      ],
      "answer": 0,
-     "explanation": "The intersection is specified as being on the Baghelkhand Plateau."
+     "explanation": "The intersection is specified as being on the Baghelkhand Plateau.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-45-12",
@@ -16213,7 +17121,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "All four listed states—Uttar Pradesh, Chhattisgarh, Odisha and Andhra Pradesh—are among the five states crossed by the IST meridian."
+     "explanation": "All four listed states—Uttar Pradesh, Chhattisgarh, Odisha and Andhra Pradesh—are among the five states crossed by the IST meridian.",
+     "facts": [
+      "F16",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-45-13",
@@ -16227,7 +17141,15 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "The IST meridian passes through five states, including Madhya Pradesh but not Gujarat."
+     "explanation": "The IST meridian passes through five states, including Madhya Pradesh but not Gujarat.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-45-14",
@@ -16241,7 +17163,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the longitude value identifies the meridian; it does not explain the stated function of setting standard time for all India."
+     "explanation": "Both statements are true, but the longitude value identifies the meridian; it does not explain the stated function of setting standard time for all India.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-45-15",
@@ -16255,7 +17181,10 @@
       "23°30′ N"
      ],
      "answer": 1,
-     "explanation": "The IST meridian is given as 82°30′ E."
+     "explanation": "The IST meridian is given as 82°30′ E.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-45-16",
@@ -16269,7 +17198,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Uttar Pradesh, Madhya Pradesh and Andhra Pradesh are crossed by the IST meridian; Gujarat is not. Thus, the count is three."
+     "explanation": "Uttar Pradesh, Madhya Pradesh and Andhra Pradesh are crossed by the IST meridian; Gujarat is not. Thus, the count is three.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-45-17",
@@ -16283,7 +17220,10 @@
       "Arabian Gulf"
      ],
      "answer": 0,
-     "explanation": "The Mahi river drains into the Gulf of Khambhat."
+     "explanation": "The Mahi river drains into the Gulf of Khambhat.",
+     "facts": [
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-45-18",
@@ -16297,7 +17237,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Mahi originates in Madhya Pradesh and flows through Rajasthan and Gujarat."
+     "explanation": "The Mahi originates in Madhya Pradesh and flows through Rajasthan and Gujarat.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-45-19",
@@ -16311,7 +17256,10 @@
       "Ganga"
      ],
      "answer": 1,
-     "explanation": "The Mahi river is stated to cross the Tropic of Cancer twice."
+     "explanation": "The Mahi river is stated to cross the Tropic of Cancer twice.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-45-20",
@@ -16325,9 +17273,21 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are stated characteristics of the Mahi river."
+     "explanation": "All four statements are stated characteristics of the Mahi river.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "46": {
    "number": 46,
@@ -17040,7 +18000,10 @@
       "Maharashtra"
      ],
      "answer": 3,
-     "explanation": "Mumbai is listed as an important west-coast harbour in Maharashtra."
+     "explanation": "Mumbai is listed as an important west-coast harbour in Maharashtra.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-48-2",
@@ -17054,7 +18017,13 @@
       "Udupi is a harbour in Karnataka."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the state of New Mangalore. New Mangalore is listed in Karnataka."
+     "explanation": "The incorrect detail is the state of New Mangalore. New Mangalore is listed in Karnataka.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-48-3",
@@ -17068,7 +18037,13 @@
       "a-iii, b-ii, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Janjira–Maharashtra, Udupi–Karnataka, Kochi–Kerala and New Mangalore–Karnataka."
+     "explanation": "The correct pairs are Janjira–Maharashtra, Udupi–Karnataka, Kochi–Kerala and New Mangalore–Karnataka.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-48-4",
@@ -17082,7 +18057,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The western coast is described as narrow and as lying between the Arabian Sea and the Western Ghats."
+     "explanation": "The western coast is described as narrow and as lying between the Arabian Sea and the Western Ghats.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-48-5",
@@ -17096,7 +18075,10 @@
       "Paradip"
      ],
      "answer": 1,
-     "explanation": "Visakhapatnam is listed as an east-coast harbour in Andhra Pradesh."
+     "explanation": "Visakhapatnam is listed as an east-coast harbour in Andhra Pradesh.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-48-6",
@@ -17110,7 +18092,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements match the recorded extent of the Northern Circars and the Coromandel Coast."
+     "explanation": "Both statements match the recorded extent of the Northern Circars and the Coromandel Coast.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-48-7",
@@ -17124,7 +18110,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Visakhapatnam–Andhra Pradesh, Haldia–West Bengal, Paradip–Odisha and Kamarajar–Tamil Nadu."
+     "explanation": "The correct pairs are Visakhapatnam–Andhra Pradesh, Haldia–West Bengal, Paradip–Odisha and Kamarajar–Tamil Nadu.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-48-8",
@@ -17138,7 +18130,10 @@
       "Maharashtra"
      ],
      "answer": 0,
-     "explanation": "Gujarat is identified as the state with the longest coastline."
+     "explanation": "Gujarat is identified as the state with the longest coastline.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-48-9",
@@ -17152,7 +18147,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Kerala’s association with the Malabar Coast does not explain Karnataka’s association with the Kanara Coast."
+     "explanation": "Both statements are true, but Kerala’s association with the Malabar Coast does not explain Karnataka’s association with the Kanara Coast.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-48-10",
@@ -17166,7 +18165,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements correctly identify the regions or states associated with these west-coast divisions."
+     "explanation": "All three statements correctly identify the regions or states associated with these west-coast divisions.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-48-11",
@@ -17180,7 +18184,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Konkan–Mumbai–Goa, Kanara–Karnataka, Malabar–Kerala and Coromandel–Krishna Delta–Kanyakumari."
+     "explanation": "The correct pairs are Konkan–Mumbai–Goa, Kanara–Karnataka, Malabar–Kerala and Coromandel–Krishna Delta–Kanyakumari.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-48-12",
@@ -17194,7 +18204,8 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Mumbai and Kochi are west-coast harbours, while Haldia and Paradip are east-coast harbours. Therefore, the count is two."
+     "explanation": "Mumbai and Kochi are west-coast harbours, while Haldia and Paradip are east-coast harbours. Therefore, the count is two.",
+     "facts": []
     },
     {
      "id": "indian-geography-48-13",
@@ -17208,7 +18219,10 @@
       "Khambhat Coast"
      ],
      "answer": 3,
-     "explanation": "The Khambhat Coast is identified as a tidal-energy-rich coast."
+     "explanation": "The Khambhat Coast is identified as a tidal-energy-rich coast.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-48-14",
@@ -17222,7 +18236,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The eastern coast is described as broad and deltaic and is associated with the Mahanadi, Godavari, Krishna and Kaveri."
+     "explanation": "The eastern coast is described as broad and deltaic and is associated with the Mahanadi, Godavari, Krishna and Kaveri.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-48-15",
@@ -17236,7 +18254,8 @@
       "a-i, b-i, c-ii, d-ii"
      ],
      "answer": 1,
-     "explanation": "Mumbai and New Mangalore are west-coast harbours; Haldia and V.O. Chidambaranar are east-coast harbours."
+     "explanation": "Mumbai and New Mangalore are west-coast harbours; Haldia and V.O. Chidambaranar are east-coast harbours.",
+     "facts": []
     },
     {
      "id": "indian-geography-48-16",
@@ -17250,7 +18269,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Karnataka–Kanara association does not explain the Kerala–Malabar association."
+     "explanation": "Both statements are true, but the Karnataka–Kanara association does not explain the Kerala–Malabar association.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-48-17",
@@ -17264,7 +18287,13 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "All four statements accurately describe the recorded characteristics and associations of the western and eastern coasts."
+     "explanation": "All four statements accurately describe the recorded characteristics and associations of the western and eastern coasts.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-48-18",
@@ -17278,7 +18307,10 @@
       "Mahanadi–Krishna region"
      ],
      "answer": 0,
-     "explanation": "The Konkan Coast is associated with the Mumbai–Goa region."
+     "explanation": "The Konkan Coast is associated with the Mumbai–Goa region.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-48-19",
@@ -17292,9 +18324,34 @@
       "Goa"
      ],
      "answer": 0,
-     "explanation": "The Coromandel Coast extends from the Krishna Delta to Kanyakumari."
+     "explanation": "The Coromandel Coast extends from the Krishna Delta to Kanyakumari.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-geography-48-20",
+     "format": "Direct Recall",
+     "keyword": "Harbour → State [LOCATION]",
+     "question": "V.O. Chidambaranar is a harbour in which state?",
+     "options": [
+      "Kerala",
+      "Andhra Pradesh",
+      "Odisha",
+      "Tamil Nadu"
+     ],
+     "answer": 3,
+     "explanation": "V.O. Chidambaranar is located in Tamil Nadu. Kerala, Andhra Pradesh and Odisha are associated with other harbours listed in the coastal-harbours classification.",
+     "facts": [
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "49": {
    "number": 49,
@@ -18939,8 +19996,64 @@
       "F6",
       "F13"
      ]
+    },
+    {
+     "id": "indian-geography-52-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Railway → UNESCO World Heritage",
+     "question": "Consider the following statements:\nStatement A: The Darjeeling Himalayan Railway is a UNESCO World Heritage railway.\nStatement B: The Darjeeling Himalayan Railway is located in West Bengal.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Darjeeling Himalayan Railway is listed as a UNESCO World Heritage railway and its location is West Bengal.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-52-22",
+     "format": "Assertion-Reason",
+     "keyword": "Railway → UNESCO World Heritage",
+     "question": "Assertion (A): The Nilgiri Mountain Railway is a UNESCO World Heritage railway.\nReason (R): The Nilgiri Mountain Railway is located in Tamil Nadu.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Nilgiri Mountain Railway is a UNESCO World Heritage railway and is located in Tamil Nadu. Its location does not explain its UNESCO status.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-geography-52-23",
+     "format": "Direct Recall",
+     "keyword": "Railway → UNESCO World Heritage",
+     "question": "Which of the following is the UNESCO World Heritage railway located in Himachal Pradesh?",
+     "options": [
+      "New Pamban Bridge",
+      "Nilgiri Mountain Railway",
+      "Kalka–Shimla Railway",
+      "Darjeeling Himalayan Railway"
+     ],
+     "answer": 2,
+     "explanation": "The Kalka–Shimla Railway is listed as a UNESCO World Heritage railway and is located in Himachal Pradesh.",
+     "facts": [
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "53": {
    "number": 53,
