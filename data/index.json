@@ -620,7 +620,7 @@
      "id": "35",
      "number": 35,
      "title": "AP Dynasties, Visitors and Administrative Milestones",
-     "count": 16,
+     "count": 20,
      "facts": 28,
      "covered": 28,
      "tracker": {
@@ -688,7 +688,7 @@
      "id": "39",
      "number": 39,
      "title": "Congress History and Andhra Nationalist Milestones",
-     "count": 11,
+     "count": 19,
      "facts": 17,
      "covered": 17,
      "tracker": {
@@ -705,7 +705,7 @@
      "id": "40",
      "number": 40,
      "title": "Andhra Universities, Movements and Literature",
-     "count": 15,
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
@@ -740,7 +740,7 @@
      "id": "42",
      "number": 42,
      "title": "Andhra Dynasties: Queens, Kings and Key Facts",
-     "count": 9,
+     "count": 20,
      "facts": 22,
      "covered": 22,
      "tracker": {
@@ -825,7 +825,7 @@
      }
     }
    ],
-   "total": 951
+   "total": 979
   },
   {
    "name": "Indian History",
@@ -886,7 +886,7 @@
      "id": "4",
      "number": 4,
      "title": "Dynasties and Their Founders",
-     "count": 40,
+     "count": 46,
      "facts": 92,
      "covered": 92,
      "tracker": {
@@ -1013,7 +1013,7 @@
      "id": "11",
      "number": 11,
      "title": "Imperial Titles and Historical Epithets",
-     "count": 15,
+     "count": 26,
      "facts": 0,
      "covered": 0,
      "tracker": {
@@ -1143,7 +1143,7 @@
      "id": "18",
      "number": 18,
      "title": "Coronations and Accessions of Indian Rulers",
-     "count": 9,
+     "count": 20,
      "facts": 30,
      "covered": 30,
      "tracker": {
@@ -1214,7 +1214,7 @@
      "id": "22",
      "number": 22,
      "title": "Caste, Bhakti and Anti-Caste Reform",
-     "count": 11,
+     "count": 21,
      "facts": 0,
      "covered": 0,
      "tracker": {
@@ -1233,565 +1233,814 @@
     {
      "id": "23",
      "number": 23,
-     "title": "Period / Ruler",
-     "count": 0,
+     "title": "Historical Taxation and Revenue Movements",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3",
+       "G1-A5"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "23-2",
      "number": 23,
-     "title": "Original / Work",
-     "count": 0,
+     "title": "Medieval Translation Traditions and Departments",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "24",
      "number": 24,
-     "title": "Work",
-     "count": 0,
+     "title": "Classical Works, Authors and National Songs",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "25",
      "number": 25,
-     "title": "ARCHAEOLOGICAL ADMINISTRATION",
-     "count": 0,
+     "title": "Archaeological Administration in Colonial India",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A4"
+      ],
+      "g2": [
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "26",
      "number": 26,
-     "title": "Period",
-     "count": 0,
+     "title": "Ancient and Medieval Trade Centres",
+     "count": 23,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A2",
+       "G1-A4"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "26-2",
      "number": 26,
-     "title": "Place",
-     "count": 0,
+     "title": "Historical Places and Associated Events",
+     "count": 36,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3",
+       "G1-A5"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "27",
      "number": 27,
-     "title": "Earlier Dynasty Succeeded by",
-     "count": 0,
+     "title": "Dynastic Successions and Transitions",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3",
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-MED",
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "28",
      "number": 28,
-     "title": "Person / Dynasty Immediate successor",
-     "count": 0,
+     "title": "Immediate Successors Across Indian Dynasties",
+     "count": 15,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "29",
      "number": 29,
-     "title": "Given",
-     "count": 0,
+     "title": "Dynastic Predecessors and Harsha’s Capitals",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A2",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "30",
      "number": 30,
-     "title": "Earliest",
-     "count": 0,
+     "title": "Earliest Milestones in Ancient Indian History",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "31",
      "number": 31,
-     "title": "Introduced",
-     "count": 0,
+     "title": "Administrative Systems and Colonial Reforms",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3",
+       "G1-A4",
+       "G1-A5"
+      ],
+      "g2": [
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "32",
      "number": 32,
-     "title": "Patron / Ruler",
-     "count": 0,
+     "title": "Patronage of Arts and Literature",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "33",
      "number": 33,
-     "title": "Trading centre / port",
-     "count": 0,
+     "title": "Ancient and European Trading Centres",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A4"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "34",
      "number": 34,
-     "title": "Oldest / one of oldest",
-     "count": 0,
+     "title": "Oldest Evidence, Texts, Temples and Roads",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "35",
      "number": 35,
-     "title": "Context",
-     "count": 0,
+     "title": "Metals, Coinages and Early Currency",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "36",
      "number": 36,
-     "title": "Period / Group",
-     "count": 0,
+     "title": "Occupations and Livelihoods Across Periods",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-M1A-U1"
+      ]
      }
     },
     {
      "id": "37",
      "number": 37,
-     "title": "Smriti / Legal Text",
-     "count": 0,
+     "title": "Smriti Texts and Legal Traditions",
+     "count": 18,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "38",
      "number": 38,
-     "title": "Crop / Term",
-     "count": 0,
+     "title": "Crops, Cultivation and Agrarian Taxes",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "39",
      "number": 39,
-     "title": "Keyword",
-     "count": 0,
+     "title": "Alexander’s Indian Campaign",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "40",
      "number": 40,
-     "title": "Term /",
-     "count": 0,
+     "title": "Ancient Educational and Village Institutions",
+     "count": 11,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A2"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "41",
      "number": 41,
-     "title": "God / Deity",
-     "count": 0,
+     "title": "Deities and Religious Traditions",
+     "count": 17,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "42",
      "number": 42,
-     "title": "Goddess",
-     "count": 0,
+     "title": "Goddesses, Worship and Iconography",
+     "count": 18,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3",
+       "G1-A5"
+      ],
+      "g2": [
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "43",
      "number": 43,
-     "title": "Temple / Group",
-     "count": 0,
+     "title": "Temple Architecture Styles and Locations",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "44",
      "number": 44,
-     "title": "Empire / Dynasty",
-     "count": 0,
+     "title": "Indian Empires and Dynasties",
+     "count": 17,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A2",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED",
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "45",
      "number": 45,
-     "title": "Court Poet /",
-     "count": 0,
+     "title": "Court Poets and Literary Works",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A2",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "46",
      "number": 46,
-     "title": "Scholar / Poet",
-     "count": 0,
+     "title": "Ancient and Medieval Scholars and Works",
+     "count": 18,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "47",
      "number": 47,
-     "title": "Musician",
-     "count": 0,
+     "title": "Medieval Court Musicians and Associations",
+     "count": 14,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "48",
      "number": 48,
-     "title": "Physician",
-     "count": 0,
+     "title": "Ancient Indian Physicians and Ayurveda",
+     "count": 19,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "49",
      "number": 49,
-     "title": "Ritual / Practice",
-     "count": 0,
+     "title": "Vedic and Ancient Ritual Traditions",
+     "count": 23,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "50",
      "number": 50,
-     "title": "Religion / Tradition",
-     "count": 0,
+     "title": "Religions, Traditions, Places and Texts",
+     "count": 19,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "51",
      "number": 51,
-     "title": "Topic / Term",
-     "count": 0,
+     "title": "Vedic, Religious and Reform Traditions",
+     "count": 18,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3",
+       "G1-A5"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "52",
      "number": 52,
-     "title": "Person / Ruler",
-     "count": 0,
+     "title": "Religious Traditions and Their Followers",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "53",
      "number": 53,
-     "title": "Keyword / Topic",
-     "count": 0,
+     "title": "Upanishadic Philosophy and Vedanta Foundations",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "54",
      "number": 54,
-     "title": "Traveller",
-     "count": 0,
+     "title": "Travellers and Religious Associations",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "55",
      "number": 55,
-     "title": "Place",
-     "count": 0,
+     "title": "Travellers and Historic Places",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "56",
      "number": 56,
-     "title": "Official",
-     "count": 0,
+     "title": "Vedic Officials and Their Functions",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "57",
      "number": 57,
-     "title": "Pitaka",
-     "count": 0,
+     "title": "Buddhist Pitakas and Abhidhamma Books",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "58",
      "number": 58,
-     "title": "BHAKTI SAINTS",
-     "count": 0,
+     "title": "Bhakti, Sufi, Sikh and Reform Saints",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3",
+       "G1-A5"
+      ],
+      "g2": [
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "59",
      "number": 59,
-     "title": "Sufi Sect / Silsilah Founder / Associated Founder",
-     "count": 0,
+     "title": "Sufi Silsilahs and Founders",
+     "count": 6,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "60",
      "number": 60,
-     "title": "No.",
-     "count": 0,
+     "title": "Sikh Gurus and Their Contributions",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "61",
      "number": 61,
-     "title": "System / School",
-     "count": 0,
+     "title": "Indian Philosophical Schools",
+     "count": 4,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "62",
      "number": 62,
-     "title": "Fort",
-     "count": 0,
+     "title": "Mughal, Sur and Deccan Forts",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "63",
      "number": 63,
-     "title": "Reign / Period",
-     "count": 0,
+     "title": "Rulers, Travellers and Religious Associates",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "64",
      "number": 64,
-     "title": "Conflict",
-     "count": 0,
+     "title": "Major Battles and Anglo-Indian Conflicts",
+     "count": 19,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3",
+       "G1-A4"
+      ],
+      "g2": [
+       "G2-S1-MED",
+       "G2-S1-MOD"
+      ]
      }
     },
     {
      "id": "65",
      "number": 65,
-     "title": "Ruler",
-     "count": 0,
+     "title": "Rulers and Their Titles",
+     "count": 22,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
      "id": "66",
      "number": 66,
-     "title": "Stupa",
-     "count": 0,
+     "title": "Buddhist Stupas and Their Associations",
+     "count": 20,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1"
+      ],
+      "g2": [
+       "G2-S1-ANC"
+      ]
      }
     },
     {
      "id": "67",
      "number": 67,
-     "title": "Invasion",
-     "count": 0,
+     "title": "Major Foreign Invasions of India",
+     "count": 19,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A1",
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-ANC",
+       "G2-S1-MED"
+      ]
      }
     },
     {
@@ -1869,13 +2118,17 @@
     {
      "id": "74",
      "number": 74,
-     "title": "Mosque",
-     "count": 0,
+     "title": "Sultanate Mosques and Architecture",
+     "count": 18,
      "facts": 0,
      "covered": 0,
      "tracker": {
-      "g1": [],
-      "g2": []
+      "g1": [
+       "G1-A3"
+      ],
+      "g2": [
+       "G2-S1-MED"
+      ]
      }
     },
     {
@@ -2815,7 +3068,7 @@
      }
     }
    ],
-   "total": 722
+   "total": 1674
   },
   {
    "name": "Indian Polity",
@@ -10862,7 +11115,39 @@
     "indian-history/17",
     "indian-history/20",
     "indian-history/21",
-    "indian-history/22"
+    "indian-history/22",
+    "indian-history/23",
+    "indian-history/24",
+    "indian-history/26",
+    "indian-history/26-2",
+    "indian-history/27",
+    "indian-history/28",
+    "indian-history/29",
+    "indian-history/30",
+    "indian-history/32",
+    "indian-history/33",
+    "indian-history/34",
+    "indian-history/35",
+    "indian-history/36",
+    "indian-history/37",
+    "indian-history/39",
+    "indian-history/41",
+    "indian-history/44",
+    "indian-history/45",
+    "indian-history/46",
+    "indian-history/48",
+    "indian-history/49",
+    "indian-history/50",
+    "indian-history/51",
+    "indian-history/53",
+    "indian-history/54",
+    "indian-history/56",
+    "indian-history/57",
+    "indian-history/61",
+    "indian-history/63",
+    "indian-history/65",
+    "indian-history/66",
+    "indian-history/67"
    ]
   },
   {
@@ -10908,7 +11193,12 @@
     "indian-history/11",
     "indian-history/16",
     "indian-history/17",
-    "indian-history/18"
+    "indian-history/18",
+    "indian-history/26",
+    "indian-history/29",
+    "indian-history/40",
+    "indian-history/44",
+    "indian-history/45"
    ]
   },
   {
@@ -10934,7 +11224,40 @@
     "indian-history/19",
     "indian-history/20",
     "indian-history/21",
-    "indian-history/22"
+    "indian-history/22",
+    "indian-history/23",
+    "indian-history/23-2",
+    "indian-history/24",
+    "indian-history/26-2",
+    "indian-history/27",
+    "indian-history/28",
+    "indian-history/29",
+    "indian-history/31",
+    "indian-history/32",
+    "indian-history/34",
+    "indian-history/35",
+    "indian-history/38",
+    "indian-history/41",
+    "indian-history/42",
+    "indian-history/43",
+    "indian-history/44",
+    "indian-history/45",
+    "indian-history/46",
+    "indian-history/47",
+    "indian-history/50",
+    "indian-history/51",
+    "indian-history/52",
+    "indian-history/54",
+    "indian-history/55",
+    "indian-history/58",
+    "indian-history/59",
+    "indian-history/60",
+    "indian-history/62",
+    "indian-history/63",
+    "indian-history/64",
+    "indian-history/65",
+    "indian-history/67",
+    "indian-history/74"
    ]
   },
   {
@@ -10947,7 +11270,12 @@
     "ap-history/10",
     "ap-history/13",
     "indian-history/15",
-    "indian-history/19"
+    "indian-history/19",
+    "indian-history/25",
+    "indian-history/26",
+    "indian-history/31",
+    "indian-history/33",
+    "indian-history/64"
    ]
   },
   {
@@ -10975,7 +11303,13 @@
     "indian-history/7",
     "indian-history/8",
     "indian-history/14",
-    "indian-history/22"
+    "indian-history/22",
+    "indian-history/23",
+    "indian-history/26-2",
+    "indian-history/31",
+    "indian-history/42",
+    "indian-history/51",
+    "indian-history/58"
    ]
   },
   {
@@ -11665,7 +11999,38 @@
     "indian-history/17",
     "indian-history/20",
     "indian-history/21",
-    "indian-history/22"
+    "indian-history/22",
+    "indian-history/23",
+    "indian-history/24",
+    "indian-history/26",
+    "indian-history/26-2",
+    "indian-history/27",
+    "indian-history/29",
+    "indian-history/30",
+    "indian-history/32",
+    "indian-history/33",
+    "indian-history/34",
+    "indian-history/35",
+    "indian-history/37",
+    "indian-history/39",
+    "indian-history/41",
+    "indian-history/44",
+    "indian-history/45",
+    "indian-history/46",
+    "indian-history/48",
+    "indian-history/49",
+    "indian-history/50",
+    "indian-history/51",
+    "indian-history/53",
+    "indian-history/54",
+    "indian-history/55",
+    "indian-history/56",
+    "indian-history/57",
+    "indian-history/61",
+    "indian-history/63",
+    "indian-history/65",
+    "indian-history/66",
+    "indian-history/67"
    ]
   },
   {
@@ -11691,7 +12056,42 @@
     "indian-history/19",
     "indian-history/20",
     "indian-history/21",
-    "indian-history/22"
+    "indian-history/22",
+    "indian-history/23",
+    "indian-history/23-2",
+    "indian-history/26",
+    "indian-history/26-2",
+    "indian-history/27",
+    "indian-history/28",
+    "indian-history/29",
+    "indian-history/31",
+    "indian-history/32",
+    "indian-history/33",
+    "indian-history/34",
+    "indian-history/35",
+    "indian-history/38",
+    "indian-history/40",
+    "indian-history/41",
+    "indian-history/42",
+    "indian-history/43",
+    "indian-history/44",
+    "indian-history/45",
+    "indian-history/46",
+    "indian-history/47",
+    "indian-history/50",
+    "indian-history/51",
+    "indian-history/52",
+    "indian-history/54",
+    "indian-history/55",
+    "indian-history/58",
+    "indian-history/59",
+    "indian-history/60",
+    "indian-history/62",
+    "indian-history/63",
+    "indian-history/64",
+    "indian-history/65",
+    "indian-history/67",
+    "indian-history/74"
    ]
   },
   {
@@ -11706,7 +12106,16 @@
     "indian-history/14",
     "indian-history/17",
     "indian-history/19",
-    "indian-history/22"
+    "indian-history/22",
+    "indian-history/23",
+    "indian-history/25",
+    "indian-history/26",
+    "indian-history/26-2",
+    "indian-history/31",
+    "indian-history/42",
+    "indian-history/51",
+    "indian-history/58",
+    "indian-history/64"
    ]
   },
   {
@@ -11998,7 +12407,8 @@
     "ap-history/42",
     "ap-history/43",
     "ap-history/45",
-    "indian-history/4"
+    "indian-history/4",
+    "indian-history/36"
    ]
   },
   {
@@ -12574,12 +12984,13 @@
   {
    "type": "study",
    "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #1 to #4",
+   "title": "Indian Society · ROCKET Sheets #1 to #5",
    "sheets": [
     "indian-society/1",
     "indian-society/2",
     "indian-society/3",
-    "indian-society/4"
+    "indian-society/4",
+    "indian-society/5"
    ]
   },
   {
@@ -12668,98 +13079,103 @@
     "indian-society/1",
     "indian-society/2",
     "indian-society/3",
-    "indian-society/4"
+    "indian-society/4",
+    "indian-society/5"
    ],
    "questions": 50
   },
   {
    "type": "study",
    "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #5 to #10",
+   "title": "Indian Society · ROCKET Sheets #6 to #11",
    "sheets": [
-    "indian-society/5",
     "indian-society/6",
     "indian-society/7",
     "indian-society/8",
     "indian-society/9",
-    "indian-society/10"
+    "indian-society/10",
+    "indian-society/11"
    ]
   },
   {
    "type": "study",
    "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #11 to #17",
+   "title": "Indian Society · ROCKET Sheets #12 to #21",
    "sheets": [
-    "indian-society/11",
     "indian-society/12",
     "indian-society/13",
     "indian-society/14",
     "indian-society/15",
     "indian-society/16",
-    "indian-society/17"
+    "indian-society/17",
+    "indian-society/18",
+    "indian-society/19",
+    "indian-society/20",
+    "indian-society/21"
    ]
   },
   {
    "type": "study",
    "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #18 to #26",
+   "title": "Indian Society · ROCKET Sheets #22 to #32",
    "sheets": [
-    "indian-society/18",
-    "indian-society/19",
-    "indian-society/20",
-    "indian-society/21",
     "indian-society/22",
     "indian-society/23",
     "indian-society/24",
     "indian-society/25",
-    "indian-society/26"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #27 to #34",
-   "sheets": [
+    "indian-society/26",
     "indian-society/27",
     "indian-society/28",
     "indian-society/29",
     "indian-society/30",
     "indian-society/31",
-    "indian-society/32",
-    "indian-society/33",
-    "indian-society/34"
+    "indian-society/32"
    ]
   },
   {
    "type": "study",
    "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #35 to #39",
+   "title": "Indian Society · ROCKET Sheets #33 to #38",
    "sheets": [
+    "indian-society/33",
+    "indian-society/34",
     "indian-society/35",
     "indian-society/36",
     "indian-society/37",
-    "indian-society/38",
-    "indian-society/39"
+    "indian-society/38"
    ]
   },
   {
    "type": "study",
    "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #40 to #45",
+   "title": "Indian Society · ROCKET Sheets #39 to #44",
    "sheets": [
+    "indian-society/39",
     "indian-society/40",
     "indian-society/41",
     "indian-society/42",
     "indian-society/43",
-    "indian-society/44",
-    "indian-society/45"
+    "indian-society/44"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "Polity & Society",
+   "title": "Indian Society · ROCKET Sheets #45 to #51",
+   "sheets": [
+    "indian-society/45",
+    "indian-society/46",
+    "indian-society/47",
+    "indian-society/48",
+    "indian-society/49",
+    "indian-society/50",
+    "indian-society/51"
    ]
   },
   {
    "type": "review",
    "title": "Weekly review + test (Days 8–13)",
    "sheets": [
-    "indian-society/5",
     "indian-society/6",
     "indian-society/7",
     "indian-society/8",
@@ -12799,22 +13215,15 @@
     "indian-society/42",
     "indian-society/43",
     "indian-society/44",
-    "indian-society/45"
-   ],
-   "questions": 50
-  },
-  {
-   "type": "study",
-   "block": "Polity & Society",
-   "title": "Indian Society · ROCKET Sheets #46 to #51",
-   "sheets": [
+    "indian-society/45",
     "indian-society/46",
     "indian-society/47",
     "indian-society/48",
     "indian-society/49",
     "indian-society/50",
     "indian-society/51"
-   ]
+   ],
+   "questions": 50
   },
   {
    "type": "study",
@@ -12829,20 +13238,20 @@
   {
    "type": "study",
    "block": "History",
-   "title": "Indian History · ROCKET Sheets #4 to #7",
+   "title": "Indian History · ROCKET Sheets #4 to #8",
    "sheets": [
     "indian-history/4",
     "indian-history/5",
     "indian-history/6",
-    "indian-history/7"
+    "indian-history/7",
+    "indian-history/8"
    ]
   },
   {
    "type": "study",
    "block": "History",
-   "title": "Indian History · ROCKET Sheets #8 to #14",
+   "title": "Indian History · ROCKET Sheets #9 to #14",
    "sheets": [
-    "indian-history/8",
     "indian-history/9",
     "indian-history/10",
     "indian-history/11",
@@ -12867,7 +13276,7 @@
   {
    "type": "study",
    "block": "History",
-   "title": "Indian History · ROCKET Sheets #21 to #150",
+   "title": "Indian History · ROCKET Sheets #21 to #26-2",
    "sheets": [
     "indian-history/21",
     "indian-history/22",
@@ -12876,7 +13285,14 @@
     "indian-history/24",
     "indian-history/25",
     "indian-history/26",
-    "indian-history/26-2",
+    "indian-history/26-2"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "Indian History · ROCKET Sheets #27 to #35",
+   "sheets": [
     "indian-history/27",
     "indian-history/28",
     "indian-history/29",
@@ -12885,136 +13301,13 @@
     "indian-history/32",
     "indian-history/33",
     "indian-history/34",
-    "indian-history/35",
-    "indian-history/36",
-    "indian-history/37",
-    "indian-history/38",
-    "indian-history/39",
-    "indian-history/40",
-    "indian-history/41",
-    "indian-history/42",
-    "indian-history/43",
-    "indian-history/44",
-    "indian-history/45",
-    "indian-history/46",
-    "indian-history/47",
-    "indian-history/48",
-    "indian-history/49",
-    "indian-history/50",
-    "indian-history/51",
-    "indian-history/52",
-    "indian-history/53",
-    "indian-history/54",
-    "indian-history/55",
-    "indian-history/56",
-    "indian-history/57",
-    "indian-history/58",
-    "indian-history/59",
-    "indian-history/60",
-    "indian-history/61",
-    "indian-history/62",
-    "indian-history/63",
-    "indian-history/64",
-    "indian-history/65",
-    "indian-history/66",
-    "indian-history/67",
-    "indian-history/68",
-    "indian-history/69",
-    "indian-history/70",
-    "indian-history/71",
-    "indian-history/72",
-    "indian-history/73",
-    "indian-history/74",
-    "indian-history/75",
-    "indian-history/76",
-    "indian-history/77",
-    "indian-history/78",
-    "indian-history/79",
-    "indian-history/80",
-    "indian-history/81",
-    "indian-history/82",
-    "indian-history/83",
-    "indian-history/84",
-    "indian-history/85",
-    "indian-history/86",
-    "indian-history/87",
-    "indian-history/88",
-    "indian-history/89",
-    "indian-history/90",
-    "indian-history/91",
-    "indian-history/92",
-    "indian-history/93",
-    "indian-history/94",
-    "indian-history/95",
-    "indian-history/96",
-    "indian-history/97",
-    "indian-history/98",
-    "indian-history/99",
-    "indian-history/100",
-    "indian-history/101",
-    "indian-history/102",
-    "indian-history/103",
-    "indian-history/104",
-    "indian-history/105",
-    "indian-history/106",
-    "indian-history/107",
-    "indian-history/108",
-    "indian-history/109",
-    "indian-history/110",
-    "indian-history/111",
-    "indian-history/112",
-    "indian-history/113",
-    "indian-history/114",
-    "indian-history/115",
-    "indian-history/116",
-    "indian-history/117",
-    "indian-history/118",
-    "indian-history/119",
-    "indian-history/120",
-    "indian-history/121",
-    "indian-history/122",
-    "indian-history/123",
-    "indian-history/124",
-    "indian-history/125",
-    "indian-history/126",
-    "indian-history/127",
-    "indian-history/128",
-    "indian-history/129",
-    "indian-history/130",
-    "indian-history/131",
-    "indian-history/132",
-    "indian-history/133",
-    "indian-history/134",
-    "indian-history/135",
-    "indian-history/136",
-    "indian-history/137",
-    "indian-history/138",
-    "indian-history/139",
-    "indian-history/140",
-    "indian-history/141",
-    "indian-history/142",
-    "indian-history/143",
-    "indian-history/144",
-    "indian-history/144-2",
-    "indian-history/145",
-    "indian-history/146",
-    "indian-history/147",
-    "indian-history/148",
-    "indian-history/149",
-    "indian-history/149-2",
-    "indian-history/150"
+    "indian-history/35"
    ]
   },
   {
    "type": "review",
    "title": "Weekly review + test (Days 15–20)",
    "sheets": [
-    "indian-society/46",
-    "indian-society/47",
-    "indian-society/48",
-    "indian-society/49",
-    "indian-society/50",
-    "indian-society/51",
     "indian-history/1",
     "indian-history/2",
     "indian-history/3",
@@ -13051,7 +13344,189 @@
     "indian-history/32",
     "indian-history/33",
     "indian-history/34",
-    "indian-history/35",
+    "indian-history/35"
+   ],
+   "questions": 50
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "Indian History · ROCKET Sheets #36 to #44",
+   "sheets": [
+    "indian-history/36",
+    "indian-history/37",
+    "indian-history/38",
+    "indian-history/39",
+    "indian-history/40",
+    "indian-history/41",
+    "indian-history/42",
+    "indian-history/43",
+    "indian-history/44"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "Indian History · ROCKET Sheets #45 to #54",
+   "sheets": [
+    "indian-history/45",
+    "indian-history/46",
+    "indian-history/47",
+    "indian-history/48",
+    "indian-history/49",
+    "indian-history/50",
+    "indian-history/51",
+    "indian-history/52",
+    "indian-history/53",
+    "indian-history/54"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "Indian History · ROCKET Sheets #55 to #64",
+   "sheets": [
+    "indian-history/55",
+    "indian-history/56",
+    "indian-history/57",
+    "indian-history/58",
+    "indian-history/59",
+    "indian-history/60",
+    "indian-history/61",
+    "indian-history/62",
+    "indian-history/63",
+    "indian-history/64"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "Indian History · ROCKET Sheets #65 to #150",
+   "sheets": [
+    "indian-history/65",
+    "indian-history/66",
+    "indian-history/67",
+    "indian-history/68",
+    "indian-history/69",
+    "indian-history/70",
+    "indian-history/71",
+    "indian-history/72",
+    "indian-history/73",
+    "indian-history/74",
+    "indian-history/75",
+    "indian-history/76",
+    "indian-history/77",
+    "indian-history/78",
+    "indian-history/79",
+    "indian-history/80",
+    "indian-history/81",
+    "indian-history/82",
+    "indian-history/83",
+    "indian-history/84",
+    "indian-history/85",
+    "indian-history/86",
+    "indian-history/87",
+    "indian-history/88",
+    "indian-history/89",
+    "indian-history/90",
+    "indian-history/91",
+    "indian-history/92",
+    "indian-history/93",
+    "indian-history/94",
+    "indian-history/95",
+    "indian-history/96",
+    "indian-history/97",
+    "indian-history/98",
+    "indian-history/99",
+    "indian-history/100",
+    "indian-history/101",
+    "indian-history/102",
+    "indian-history/103",
+    "indian-history/104",
+    "indian-history/105",
+    "indian-history/106",
+    "indian-history/107",
+    "indian-history/108",
+    "indian-history/109",
+    "indian-history/110",
+    "indian-history/111",
+    "indian-history/112",
+    "indian-history/113",
+    "indian-history/114",
+    "indian-history/115",
+    "indian-history/116",
+    "indian-history/117",
+    "indian-history/118",
+    "indian-history/119",
+    "indian-history/120",
+    "indian-history/121",
+    "indian-history/122",
+    "indian-history/123",
+    "indian-history/124",
+    "indian-history/125",
+    "indian-history/126",
+    "indian-history/127",
+    "indian-history/128",
+    "indian-history/129",
+    "indian-history/130",
+    "indian-history/131",
+    "indian-history/132",
+    "indian-history/133",
+    "indian-history/134",
+    "indian-history/135",
+    "indian-history/136",
+    "indian-history/137",
+    "indian-history/138",
+    "indian-history/139",
+    "indian-history/140",
+    "indian-history/141",
+    "indian-history/142",
+    "indian-history/143",
+    "indian-history/144",
+    "indian-history/144-2",
+    "indian-history/145",
+    "indian-history/146",
+    "indian-history/147",
+    "indian-history/148",
+    "indian-history/149",
+    "indian-history/149-2",
+    "indian-history/150"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "AP History · ROCKET Sheets #1 to #8",
+   "sheets": [
+    "ap-history/1",
+    "ap-history/2",
+    "ap-history/3",
+    "ap-history/4",
+    "ap-history/5",
+    "ap-history/6",
+    "ap-history/7",
+    "ap-history/8"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "AP History · ROCKET Sheets #9 to #16",
+   "sheets": [
+    "ap-history/9",
+    "ap-history/10",
+    "ap-history/11",
+    "ap-history/12",
+    "ap-history/13",
+    "ap-history/14",
+    "ap-history/15",
+    "ap-history/16"
+   ]
+  },
+  {
+   "type": "review",
+   "title": "Weekly review + test (Days 22–27)",
+   "sheets": [
     "indian-history/36",
     "indian-history/37",
     "indian-history/38",
@@ -13168,103 +13643,7 @@
     "indian-history/148",
     "indian-history/149",
     "indian-history/149-2",
-    "indian-history/150"
-   ],
-   "questions": 50
-  },
-  {
-   "type": "study",
-   "block": "History",
-   "title": "AP History · ROCKET Sheets #1 to #8",
-   "sheets": [
-    "ap-history/1",
-    "ap-history/2",
-    "ap-history/3",
-    "ap-history/4",
-    "ap-history/5",
-    "ap-history/6",
-    "ap-history/7",
-    "ap-history/8"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "History",
-   "title": "AP History · ROCKET Sheets #9 to #15",
-   "sheets": [
-    "ap-history/9",
-    "ap-history/10",
-    "ap-history/11",
-    "ap-history/12",
-    "ap-history/13",
-    "ap-history/14",
-    "ap-history/15"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "History",
-   "title": "AP History · ROCKET Sheets #16 to #22",
-   "sheets": [
-    "ap-history/16",
-    "ap-history/17",
-    "ap-history/18",
-    "ap-history/19",
-    "ap-history/20",
-    "ap-history/21",
-    "ap-history/22"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "History",
-   "title": "AP History · ROCKET Sheets #23 to #29",
-   "sheets": [
-    "ap-history/23",
-    "ap-history/23-2",
-    "ap-history/24",
-    "ap-history/25",
-    "ap-history/26",
-    "ap-history/27",
-    "ap-history/28",
-    "ap-history/29"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "History",
-   "title": "AP History · ROCKET Sheets #30 to #36",
-   "sheets": [
-    "ap-history/30",
-    "ap-history/31",
-    "ap-history/32",
-    "ap-history/33",
-    "ap-history/34",
-    "ap-history/35",
-    "ap-history/36"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "History",
-   "title": "AP History · ROCKET Sheets #37 to #46",
-   "sheets": [
-    "ap-history/37",
-    "ap-history/38",
-    "ap-history/39",
-    "ap-history/40",
-    "ap-history/41",
-    "ap-history/42",
-    "ap-history/43",
-    "ap-history/44",
-    "ap-history/45",
-    "ap-history/46"
-   ]
-  },
-  {
-   "type": "review",
-   "title": "Weekly review + test (Days 22–27)",
-   "sheets": [
+    "indian-history/150",
     "ap-history/1",
     "ap-history/2",
     "ap-history/3",
@@ -13280,7 +13659,93 @@
     "ap-history/13",
     "ap-history/14",
     "ap-history/15",
-    "ap-history/16",
+    "ap-history/16"
+   ],
+   "questions": 50
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "AP History · ROCKET Sheets #17 to #23",
+   "sheets": [
+    "ap-history/17",
+    "ap-history/18",
+    "ap-history/19",
+    "ap-history/20",
+    "ap-history/21",
+    "ap-history/22",
+    "ap-history/23"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "AP History · ROCKET Sheets #23-2 to #30",
+   "sheets": [
+    "ap-history/23-2",
+    "ap-history/24",
+    "ap-history/25",
+    "ap-history/26",
+    "ap-history/27",
+    "ap-history/28",
+    "ap-history/29",
+    "ap-history/30"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "AP History · ROCKET Sheets #31 to #37",
+   "sheets": [
+    "ap-history/31",
+    "ap-history/32",
+    "ap-history/33",
+    "ap-history/34",
+    "ap-history/35",
+    "ap-history/36",
+    "ap-history/37"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "History",
+   "title": "AP History · ROCKET Sheets #38 to #46",
+   "sheets": [
+    "ap-history/38",
+    "ap-history/39",
+    "ap-history/40",
+    "ap-history/41",
+    "ap-history/42",
+    "ap-history/43",
+    "ap-history/44",
+    "ap-history/45",
+    "ap-history/46"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "Geography",
+   "title": "General Geography · ROCKET Sheets #1 to #3",
+   "sheets": [
+    "general-geography/1",
+    "general-geography/2",
+    "general-geography/3"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "Geography",
+   "title": "General Geography · ROCKET Sheets #4 to #6",
+   "sheets": [
+    "general-geography/4",
+    "general-geography/5",
+    "general-geography/6"
+   ]
+  },
+  {
+   "type": "review",
+   "title": "Weekly review + test (Days 29–34)",
+   "sheets": [
     "ap-history/17",
     "ap-history/18",
     "ap-history/19",
@@ -13311,43 +13776,22 @@
     "ap-history/43",
     "ap-history/44",
     "ap-history/45",
-    "ap-history/46"
+    "ap-history/46",
+    "general-geography/1",
+    "general-geography/2",
+    "general-geography/3",
+    "general-geography/4",
+    "general-geography/5",
+    "general-geography/6"
    ],
    "questions": 50
   },
   {
    "type": "study",
    "block": "Geography",
-   "title": "General Geography · ROCKET Sheets #1 to #3",
+   "title": "General Geography · ROCKET Sheets #7 to #12",
    "sheets": [
-    "general-geography/1",
-    "general-geography/2",
-    "general-geography/3"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Geography",
-   "title": "General Geography · ROCKET Sheets #4 to #5",
-   "sheets": [
-    "general-geography/4",
-    "general-geography/5"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Geography",
-   "title": "General Geography · ROCKET Sheets #6 to #7",
-   "sheets": [
-    "general-geography/6",
-    "general-geography/7"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Geography",
-   "title": "General Geography · ROCKET Sheets #8 to #12",
-   "sheets": [
+    "general-geography/7",
     "general-geography/8",
     "general-geography/9",
     "general-geography/10",
@@ -13358,52 +13802,8 @@
   {
    "type": "study",
    "block": "Geography",
-   "title": "Indian Geography · ROCKET Sheets #1 to #7",
+   "title": "Indian Geography · ROCKET Sheets #1 to #13",
    "sheets": [
-    "indian-geography/1",
-    "indian-geography/2",
-    "indian-geography/3",
-    "indian-geography/4",
-    "indian-geography/5",
-    "indian-geography/6",
-    "indian-geography/7"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Geography",
-   "title": "Indian Geography · ROCKET Sheets #8 to #19",
-   "sheets": [
-    "indian-geography/8",
-    "indian-geography/9",
-    "indian-geography/10",
-    "indian-geography/11",
-    "indian-geography/12",
-    "indian-geography/13",
-    "indian-geography/14",
-    "indian-geography/15",
-    "indian-geography/16",
-    "indian-geography/17",
-    "indian-geography/18",
-    "indian-geography/19"
-   ]
-  },
-  {
-   "type": "review",
-   "title": "Weekly review + test (Days 29–34)",
-   "sheets": [
-    "general-geography/1",
-    "general-geography/2",
-    "general-geography/3",
-    "general-geography/4",
-    "general-geography/5",
-    "general-geography/6",
-    "general-geography/7",
-    "general-geography/8",
-    "general-geography/9",
-    "general-geography/10",
-    "general-geography/11",
-    "general-geography/12",
     "indian-geography/1",
     "indian-geography/2",
     "indian-geography/3",
@@ -13416,21 +13816,20 @@
     "indian-geography/10",
     "indian-geography/11",
     "indian-geography/12",
-    "indian-geography/13",
+    "indian-geography/13"
+   ]
+  },
+  {
+   "type": "study",
+   "block": "Geography",
+   "title": "Indian Geography · ROCKET Sheets #14 to #53",
+   "sheets": [
     "indian-geography/14",
     "indian-geography/15",
     "indian-geography/16",
     "indian-geography/17",
     "indian-geography/18",
-    "indian-geography/19"
-   ],
-   "questions": 50
-  },
-  {
-   "type": "study",
-   "block": "Geography",
-   "title": "Indian Geography · ROCKET Sheets #20 to #53",
-   "sheets": [
+    "indian-geography/19",
     "indian-geography/20",
     "indian-geography/21",
     "indian-geography/22",
@@ -13470,7 +13869,7 @@
   {
    "type": "study",
    "block": "Geography",
-   "title": "World Geography · ROCKET Sheets #1 to #11",
+   "title": "World Geography · ROCKET Sheets #1 to #12",
    "sheets": [
     "world-geography/1",
     "world-geography/2",
@@ -13482,42 +13881,35 @@
     "world-geography/8",
     "world-geography/9",
     "world-geography/10",
-    "world-geography/11"
+    "world-geography/11",
+    "world-geography/12"
    ]
   },
   {
    "type": "study",
    "block": "Geography",
-   "title": "World Geography · ROCKET Sheets #12 to #17",
+   "title": "World Geography · ROCKET Sheets #13 to #22",
    "sheets": [
-    "world-geography/12",
     "world-geography/13",
     "world-geography/14",
     "world-geography/15",
     "world-geography/16",
-    "world-geography/17"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Geography",
-   "title": "World Geography · ROCKET Sheets #18 to #25",
-   "sheets": [
+    "world-geography/17",
     "world-geography/18",
     "world-geography/19",
     "world-geography/20",
     "world-geography/21",
-    "world-geography/22",
-    "world-geography/23",
-    "world-geography/24",
-    "world-geography/25"
+    "world-geography/22"
    ]
   },
   {
    "type": "study",
    "block": "Geography",
-   "title": "World Geography · ROCKET Sheets #26 to #33",
+   "title": "World Geography · ROCKET Sheets #23 to #33",
    "sheets": [
+    "world-geography/23",
+    "world-geography/24",
+    "world-geography/25",
     "world-geography/26",
     "world-geography/27",
     "world-geography/28",
@@ -13529,30 +13921,34 @@
    ]
   },
   {
-   "type": "study",
-   "block": "Geography",
-   "title": "AP Geography · ROCKET Sheets #1 to #14",
-   "sheets": [
-    "ap-geography/1",
-    "ap-geography/2",
-    "ap-geography/3",
-    "ap-geography/4",
-    "ap-geography/5",
-    "ap-geography/6",
-    "ap-geography/7",
-    "ap-geography/8",
-    "ap-geography/9",
-    "ap-geography/10",
-    "ap-geography/11",
-    "ap-geography/12",
-    "ap-geography/13",
-    "ap-geography/14"
-   ]
-  },
-  {
    "type": "review",
    "title": "Weekly review + test (Days 36–41)",
    "sheets": [
+    "general-geography/7",
+    "general-geography/8",
+    "general-geography/9",
+    "general-geography/10",
+    "general-geography/11",
+    "general-geography/12",
+    "indian-geography/1",
+    "indian-geography/2",
+    "indian-geography/3",
+    "indian-geography/4",
+    "indian-geography/5",
+    "indian-geography/6",
+    "indian-geography/7",
+    "indian-geography/8",
+    "indian-geography/9",
+    "indian-geography/10",
+    "indian-geography/11",
+    "indian-geography/12",
+    "indian-geography/13",
+    "indian-geography/14",
+    "indian-geography/15",
+    "indian-geography/16",
+    "indian-geography/17",
+    "indian-geography/18",
+    "indian-geography/19",
     "indian-geography/20",
     "indian-geography/21",
     "indian-geography/22",
@@ -13619,7 +14015,15 @@
     "world-geography/30",
     "world-geography/31",
     "world-geography/32",
-    "world-geography/33",
+    "world-geography/33"
+   ],
+   "questions": 50
+  },
+  {
+   "type": "study",
+   "block": "Geography",
+   "title": "AP Geography · ROCKET Sheets #1 to #14",
+   "sheets": [
     "ap-geography/1",
     "ap-geography/2",
     "ap-geography/3",
@@ -13634,8 +14038,7 @@
     "ap-geography/12",
     "ap-geography/13",
     "ap-geography/14"
-   ],
-   "questions": 50
+   ]
   },
   {
    "type": "study",
@@ -13771,19 +14174,23 @@
    ]
   },
   {
-   "type": "study",
-   "block": "Science & Environment",
-   "title": "Physics · ROCKET Sheets #11 to #14",
-   "sheets": [
-    "physics/11",
-    "physics/12",
-    "physics/14"
-   ]
-  },
-  {
    "type": "review",
    "title": "Weekly review + test (Days 43–48)",
    "sheets": [
+    "ap-geography/1",
+    "ap-geography/2",
+    "ap-geography/3",
+    "ap-geography/4",
+    "ap-geography/5",
+    "ap-geography/6",
+    "ap-geography/7",
+    "ap-geography/8",
+    "ap-geography/9",
+    "ap-geography/10",
+    "ap-geography/11",
+    "ap-geography/12",
+    "ap-geography/13",
+    "ap-geography/14",
     "ap-geography/15",
     "ap-geography/16",
     "ap-geography/17",
@@ -13881,12 +14288,19 @@
     "physics/7",
     "physics/8",
     "physics/9",
-    "physics/10",
+    "physics/10"
+   ],
+   "questions": 50
+  },
+  {
+   "type": "study",
+   "block": "Science & Environment",
+   "title": "Physics · ROCKET Sheets #11 to #14",
+   "sheets": [
     "physics/11",
     "physics/12",
     "physics/14"
-   ],
-   "questions": 50
+   ]
   },
   {
    "type": "study",
@@ -13945,20 +14359,12 @@
    ]
   },
   {
-   "type": "study",
-   "block": "Science & Environment",
-   "title": "Chemistry · ROCKET Sheets #13 to #16",
-   "sheets": [
-    "chemistry/13",
-    "chemistry/14",
-    "chemistry/15",
-    "chemistry/16"
-   ]
-  },
-  {
    "type": "review",
    "title": "Weekly review + test (Days 50–55)",
    "sheets": [
+    "physics/11",
+    "physics/12",
+    "physics/14",
     "physics/15",
     "physics/16",
     "physics/17",
@@ -13979,13 +14385,20 @@
     "chemistry/9",
     "chemistry/10",
     "chemistry/11",
-    "chemistry/12",
+    "chemistry/12"
+   ],
+   "questions": 50
+  },
+  {
+   "type": "study",
+   "block": "Science & Environment",
+   "title": "Chemistry · ROCKET Sheets #13 to #16",
+   "sheets": [
     "chemistry/13",
     "chemistry/14",
     "chemistry/15",
     "chemistry/16"
-   ],
-   "questions": 50
+   ]
   },
   {
    "type": "study",
@@ -14100,30 +14513,13 @@
    ]
   },
   {
-   "type": "study",
-   "block": "Science & Environment",
-   "title": "Environment · ROCKET Sheets #1 to #14",
-   "sheets": [
-    "environment/1",
-    "environment/2",
-    "environment/3",
-    "environment/4",
-    "environment/5",
-    "environment/6",
-    "environment/7",
-    "environment/8",
-    "environment/9",
-    "environment/10",
-    "environment/11",
-    "environment/12",
-    "environment/13",
-    "environment/14"
-   ]
-  },
-  {
    "type": "review",
    "title": "Weekly review + test (Days 57–62)",
    "sheets": [
+    "chemistry/13",
+    "chemistry/14",
+    "chemistry/15",
+    "chemistry/16",
     "chemistry/17",
     "chemistry/18",
     "chemistry/19",
@@ -14200,7 +14596,15 @@
     "biology/70",
     "biology/71",
     "biology/72",
-    "biology/73",
+    "biology/73"
+   ],
+   "questions": 50
+  },
+  {
+   "type": "study",
+   "block": "Science & Environment",
+   "title": "Environment · ROCKET Sheets #1 to #14",
+   "sheets": [
     "environment/1",
     "environment/2",
     "environment/3",
@@ -14215,8 +14619,7 @@
     "environment/12",
     "environment/13",
     "environment/14"
-   ],
-   "questions": 50
+   ]
   },
   {
    "type": "study",
@@ -14261,7 +14664,7 @@
   {
    "type": "study",
    "block": "Science & Environment",
-   "title": "Disaster Management · ROCKET Sheets #1 to #8",
+   "title": "Disaster Management · ROCKET Sheets #1 to #11",
    "sheets": [
     "disaster-management/1",
     "disaster-management/2",
@@ -14270,44 +14673,37 @@
     "disaster-management/5",
     "disaster-management/6",
     "disaster-management/7",
-    "disaster-management/8"
+    "disaster-management/8",
+    "disaster-management/9",
+    "disaster-management/10",
+    "disaster-management/11"
    ]
   },
   {
    "type": "study",
    "block": "Science & Environment",
-   "title": "Disaster Management · ROCKET Sheets #9 to #16",
+   "title": "Disaster Management · ROCKET Sheets #12 to #22",
    "sheets": [
-    "disaster-management/9",
-    "disaster-management/10",
-    "disaster-management/11",
     "disaster-management/12",
     "disaster-management/13",
     "disaster-management/14",
     "disaster-management/15",
-    "disaster-management/16"
-   ]
-  },
-  {
-   "type": "study",
-   "block": "Science & Environment",
-   "title": "Disaster Management · ROCKET Sheets #17 to #24",
-   "sheets": [
+    "disaster-management/16",
     "disaster-management/17",
     "disaster-management/18",
     "disaster-management/19",
     "disaster-management/20",
     "disaster-management/21",
-    "disaster-management/22",
-    "disaster-management/23",
-    "disaster-management/24"
+    "disaster-management/22"
    ]
   },
   {
    "type": "study",
    "block": "Science & Environment",
-   "title": "Disaster Management · ROCKET Sheets #25 to #35",
+   "title": "Disaster Management · ROCKET Sheets #23 to #35",
    "sheets": [
+    "disaster-management/23",
+    "disaster-management/24",
     "disaster-management/25",
     "disaster-management/26",
     "disaster-management/27",
@@ -14325,6 +14721,20 @@
    "type": "review",
    "title": "Weekly review + test (Days 64–69)",
    "sheets": [
+    "environment/1",
+    "environment/2",
+    "environment/3",
+    "environment/4",
+    "environment/5",
+    "environment/6",
+    "environment/7",
+    "environment/8",
+    "environment/9",
+    "environment/10",
+    "environment/11",
+    "environment/12",
+    "environment/13",
+    "environment/14",
     "environment/15",
     "environment/16",
     "environment/17",
@@ -14564,15 +14974,7 @@
     "indian-history/14",
     "indian-history/15",
     "indian-history/16",
-    "indian-history/17"
-   ],
-   "questions": 100
-  },
-  {
-   "type": "revision",
-   "block": "History",
-   "title": "Revision 2/3: History",
-   "sheets": [
+    "indian-history/17",
     "indian-history/18",
     "indian-history/19",
     "indian-history/20",
@@ -14584,7 +14986,15 @@
     "indian-history/25",
     "indian-history/26",
     "indian-history/26-2",
-    "indian-history/27",
+    "indian-history/27"
+   ],
+   "questions": 100
+  },
+  {
+   "type": "revision",
+   "block": "History",
+   "title": "Revision 2/3: History",
+   "sheets": [
     "indian-history/28",
     "indian-history/29",
     "indian-history/30",
@@ -14712,7 +15122,15 @@
     "indian-history/150",
     "ap-history/1",
     "ap-history/2",
-    "ap-history/3",
+    "ap-history/3"
+   ],
+   "questions": 100
+  },
+  {
+   "type": "revision",
+   "block": "History",
+   "title": "Revision 3/3: History",
+   "sheets": [
     "ap-history/4",
     "ap-history/5",
     "ap-history/6",
@@ -14726,15 +15144,7 @@
     "ap-history/14",
     "ap-history/15",
     "ap-history/16",
-    "ap-history/17"
-   ],
-   "questions": 100
-  },
-  {
-   "type": "revision",
-   "block": "History",
-   "title": "Revision 3/3: History",
-   "sheets": [
+    "ap-history/17",
     "ap-history/18",
     "ap-history/19",
     "ap-history/20",

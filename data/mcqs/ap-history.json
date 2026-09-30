@@ -14559,7 +14559,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T07:58:41+00:00",
+   "generated_at": "2026-09-30T07:59:01+00:00",
    "mcqs": [
     {
      "id": "ap-history-35-1",
@@ -14846,6 +14846,62 @@
      ],
      "answer": 2,
      "explanation": "All three statements are correct: Lord Cornwallis introduced the office of Collector in 1802 in the North Sarkar region."
+    },
+    {
+     "id": "ap-history-35-17",
+     "format": "List-Matching",
+     "keyword": "RULER – period – contribution",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rudramadevi\n(b) Saluva Narasimha\n(c) Mahadeva\n(d) Kumaragiri Reddy\n\nList-II\n(i) Immediate successor of Kakati Ganapatideva\n(ii) Predecessor of Sri Krishnadevaraya\n(iii) Ascended after Rudra Deva\n(iv) Occupied the throne after Anavema Reddy",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Rudramadevi succeeded Kakati Ganapatideva; Saluva Narasimha preceded Sri Krishnadevaraya; Mahadeva followed Rudra Deva; and Kumaragiri Reddy followed Anavema Reddy."
+    },
+    {
+     "id": "ap-history-35-18",
+     "format": "List-Matching",
+     "keyword": "Introduced by / Year / Detail",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Zilla-bandi system\n(b) Office of Collector\n(c) Mulki conditions\n(d) Resolution on linguistic reorganisation of states\n\nList-II\n(i) B.N. Sharma\n(ii) Lord Cornwallis\n(iii) Salarjung\n(iv) 6th Nizam, Mir Mahboob Ali Khan",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Salarjung introduced Zilla-bandi, Lord Cornwallis introduced the office of Collector, the Mulki conditions were issued during the reign of Mir Mahboob Ali Khan, and B.N. Sharma moved the linguistic reorganisation resolution."
+    },
+    {
+     "id": "ap-history-35-19",
+     "format": "Assertion-Reason",
+     "keyword": "Philosophy",
+     "question": "Assertion (A): Syadvada is associated with Kundakundacharya.\nReason (R): Syadvada is known as the seven-fold predication or Sapta-bhangi-naya.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Syadvada school is associated with Kundakundacharya and is also called the seven-fold predication or Sapta-bhangi-naya. The second statement does not explain the association with Kundakundacharya."
+    },
+    {
+     "id": "ap-history-35-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Event – month/date/year",
+     "question": "Consider the following statements:\n\nI. Rudramba ascended after Ganapathi Deva in 1260.\nII. Pratapa Rudra ascended in 1296.\nIII. The Mulki conditions were issued in 1888.\nIV. The resolution on linguistic reorganisation of states was moved in 1918.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV",
+      "I, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. The dates given are 1260 for Rudramba's accession, 1296 for Pratapa Rudra's accession, 1888 for the Mulki conditions, and 1918 for the linguistic reorganisation resolution."
     }
    ],
    "coverage": {
@@ -16242,7 +16298,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:11:01+00:00",
+   "generated_at": "2026-09-30T07:59:03+00:00",
    "mcqs": [
     {
      "id": "ap-history-39-1",
@@ -16441,6 +16497,118 @@
      "facts": [
       "F3"
      ]
+    },
+    {
+     "id": "ap-history-39-12",
+     "format": "List-Matching",
+     "keyword": "President",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First President of the Andhra Congress Circle\n(b) First President of the Hyderabad State Congress\n(c) First Muslim leader in Hyderabad to join the INC\n(d) Author of History of Indian National Congress\n\nList-II\n(i) Dr. Pattabhi Sitaramaiah\n(ii) Govinda Rao Nanal\n(iii) Mulla Abdul Qayyum\n(iv) Nyapati Subba Rao",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Nyapati Subba Rao, Govinda Rao Nanal, Mulla Abdul Qayyum and Dr. Pattabhi Sitaramaiah correspond respectively to the four descriptions."
+    },
+    {
+     "id": "ap-history-39-13",
+     "format": "Chronological Ordering",
+     "keyword": "Event – month/date/year",
+     "question": "Arrange the following events in chronological order:\nA. Congress(I) was formed\nB. Swarajya was started\nC. The ban on the Hyderabad State Congress was lifted\nD. Continuous Congress rule in Andhra Pradesh was broken",
+     "options": [
+      "A, B, C, D",
+      "B, C, A, D",
+      "B, A, C, D",
+      "C, B, A, D"
+     ],
+     "answer": 1,
+     "explanation": "Swarajya was started in 1921, the ban was lifted in 1946, Congress(I) was formed in 1978, and continuous Congress rule was broken in 1983."
+    },
+    {
+     "id": "ap-history-39-14",
+     "format": "Assertion-Reason",
+     "keyword": "Congress",
+     "question": "Assertion (A): Congress(I) was formed by splitting the Indian National Congress.\nReason (R): Congress(I) was formed on 1 January 1978.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The date identifies when Congress(I) was formed, but it does not explain the fact that it was formed by splitting the INC."
+    },
+    {
+     "id": "ap-history-39-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Site",
+     "question": "Consider the following statements:\nStatement A: The first All India Congress Session in Andhra was held at Vijayawada.\nStatement B: The ban on the Hyderabad State Congress was lifted in 1946.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The first All India Congress Session in Andhra was held at Vijayawada, and the ban on the Hyderabad State Congress was lifted in 1946."
+    },
+    {
+     "id": "ap-history-39-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Congress",
+     "question": "Consider the following statements:\nI. Congress(I) was formed on 1 January 1978.\nII. Continuous Congress rule in Andhra Pradesh was broken in 1983.\nIII. The party that broke the continuous Congress rule was the TDP.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: Congress(I) was formed on 1 January 1978, and TDP broke continuous Congress rule in Andhra Pradesh in 1983."
+    },
+    {
+     "id": "ap-history-39-17",
+     "format": "Count-Based",
+     "keyword": "FIRST",
+     "question": "How many of the following statements are correct?\n1. P. Anandacharyulu was the first Telugu/Andhra President of the INC.\n2. Nyapati Subba Rao was the first President of the Andhra Congress Circle.\n3. Govinda Rao Nanal was the first President of the Hyderabad State Congress.\n4. Mulla Abdul Qayyum was the first Muslim leader in Hyderabad to join the INC.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. They identify the first INC president from Telugu/Andhra, the first presidents of the two Congress organisations, and the first Muslim leader in Hyderabad to join the INC."
+    },
+    {
+     "id": "ap-history-39-18",
+     "format": "Direct Recall",
+     "keyword": "Book",
+     "question": "Who wrote History of Indian National Congress?",
+     "options": [
+      "T. Prakasam",
+      "Dr. Pattabhi Sitaramaiah",
+      "Nyapati Subba Rao",
+      "Govinda Rao Nanal"
+     ],
+     "answer": 1,
+     "explanation": "History of Indian National Congress was written by Dr. Pattabhi Sitaramaiah."
+    },
+    {
+     "id": "ap-history-39-19",
+     "format": "List-Matching",
+     "keyword": "Newspaper",
+     "question": "Match the following details concerning Swarajya:\n\nList-I\n(a) Publication\n(b) Language\n(c) Founder\n(d) Date of starting\n\nList-II\n(i) 26 October 1921\n(ii) T. Prakasam\n(iii) English daily\n(iv) Swarajya",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Swarajya was an English daily started by T. Prakasam on 26 October 1921."
     }
    ],
    "coverage": {
@@ -16462,7 +16630,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:11:26+00:00",
+   "generated_at": "2026-09-30T07:59:00+00:00",
    "mcqs": [
     {
      "id": "ap-history-40-1",
@@ -16673,6 +16841,76 @@
      ],
      "answer": 2,
      "explanation": "The first headquarters of Andhra University was at Vijayawada, also known as Bezawada."
+    },
+    {
+     "id": "ap-history-40-16",
+     "format": "Direct Recall",
+     "keyword": "Commission",
+     "question": "The Andhra Pradesh Public Service Commission was established in which year?",
+     "options": [
+      "1948",
+      "1956",
+      "1953",
+      "1958"
+     ],
+     "answer": 1,
+     "explanation": "The Andhra Pradesh Public Service Commission was established in 1956."
+    },
+    {
+     "id": "ap-history-40-17",
+     "format": "Assertion-Reason",
+     "keyword": "Commission",
+     "question": "Assertion (A): The States Reorganisation Commission was set up on 22 December 1953.\nReason (R): Kailashnath Wanchoo was not a member of the States Reorganisation Commission.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the fact that Kailashnath Wanchoo was not a member does not explain the date on which the Commission was set up."
+    },
+    {
+     "id": "ap-history-40-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Commission",
+     "question": "Consider the following statements:\nStatement A: The States Reorganisation Commission was set up on 22 December 1953.\nStatement B: The Andhra Pradesh Public Service Commission was established in 1956.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the States Reorganisation Commission was set up on 22 December 1953, while the Andhra Pradesh Public Service Commission was established in 1956."
+    },
+    {
+     "id": "ap-history-40-19",
+     "format": "Chronological Ordering",
+     "keyword": "Commission",
+     "question": "Arrange the following commissions in chronological order of the years mentioned:\nA. Dhar Commission\nB. States Reorganisation Commission\nC. Andhra Pradesh Public Service Commission",
+     "options": [
+      "A, C, B",
+      "B, A, C",
+      "C, A, B",
+      "A, B, C"
+     ],
+     "answer": 3,
+     "explanation": "The correct order is Dhar Commission (1948), States Reorganisation Commission (1953), and Andhra Pradesh Public Service Commission (1956)."
+    },
+    {
+     "id": "ap-history-40-20",
+     "format": "Direct Recall",
+     "keyword": "Title",
+     "question": "During the boycott of which commission did Prakasam receive the title “Andhra Kesari”?",
+     "options": [
+      "Simon Commission",
+      "Dhar Commission",
+      "States Reorganisation Commission",
+      "Andhra Pradesh Public Service Commission"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that Prakasam received the title “Andhra Kesari” during the boycott of the Simon Commission."
     }
    ]
   },
@@ -17089,7 +17327,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:10:49+00:00",
+   "generated_at": "2026-09-30T07:59:13+00:00",
    "mcqs": [
     {
      "id": "ap-history-42-1",
@@ -17261,6 +17499,160 @@
       "F12",
       "F17"
      ]
+    },
+    {
+     "id": "ap-history-42-10",
+     "format": "Direct Recall",
+     "keyword": "Dynasty",
+     "question": "Devinaganika belonged to which dynasty?",
+     "options": [
+      "Reddy dynasty",
+      "Ikshvaku dynasty",
+      "Kakatiya dynasty",
+      "Satavahana dynasty"
+     ],
+     "answer": 3,
+     "explanation": "Devinaganika is identified as a queen of the Satavahana dynasty."
+    },
+    {
+     "id": "ap-history-42-11",
+     "format": "Direct Recall",
+     "keyword": "Queen",
+     "question": "Surambika Reddy was the queen of which ruler?",
+     "options": [
+      "Kumaragiri Reddy",
+      "Pedakomati Vema Reddy",
+      "Prolaya Vema Reddy",
+      "Ganapatideva"
+     ],
+     "answer": 1,
+     "explanation": "Surambika Reddy was the queen of Pedakomati Vema Reddy."
+    },
+    {
+     "id": "ap-history-42-12",
+     "format": "Direct Recall",
+     "keyword": "Defeated",
+     "question": "Which ruler defeated Nahapana?",
+     "options": [
+      "Gautamiputra Satakarni",
+      "Virapurushadatta",
+      "Ganapatideva",
+      "Hala"
+     ],
+     "answer": 0,
+     "explanation": "Gautamiputra Satakarni is associated with the defeat of Nahapana."
+    },
+    {
+     "id": "ap-history-42-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dynasty",
+     "question": "Consider the following statements:\nStatement A: Virapurushadatta belonged to the Ikshvaku dynasty.\nStatement B: Hala belonged to the Satavahana dynasty.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Virapurushadatta is listed under the Ikshvaku dynasty, while Hala is listed under the Satavahana dynasty."
+    },
+    {
+     "id": "ap-history-42-14",
+     "format": "Assertion-Reason",
+     "keyword": "Title",
+     "question": "Assertion (A): Hala was associated with the title Kavivatsala.\nReason (R): Hala belonged to the Satavahana dynasty.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but belonging to the Satavahana dynasty does not explain Hala's title Kavivatsala."
+    },
+    {
+     "id": "ap-history-42-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Founder/founded",
+     "question": "Consider the following statements:\nI. Prolaya Vema Reddy founded the Reddy Kingdom.\nII. Kumaragiri Reddy was an expert in Bharata Natya.\nIII. Surambika Reddy excavated the Santana Sagaram tank.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are supported: Prolaya Vema Reddy founded the Reddy Kingdom, Kumaragiri Reddy was an expert in Bharata Natya, and Surambika Reddy excavated the Santana Sagaram tank."
+    },
+    {
+     "id": "ap-history-42-16",
+     "format": "List-Matching",
+     "keyword": "Person – Associated with",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Devinaganika\n(b) Surambika Reddy\n(c) Gautamiputra Satakarni\n(d) Kumaragiri Reddy\n\nList-II\ni. Expert in Bharata Natya\nii. Defeated Nahapana\niii. Queen associated with the Satavahana dynasty\niv. Excavated Santana Sagaram tank",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Devinaganika–Satavahana queen, Surambika Reddy–Santana Sagaram tank, Gautamiputra Satakarni–Nahapana, and Kumaragiri Reddy–Bharata Natya."
+    },
+    {
+     "id": "ap-history-42-17",
+     "format": "Count-Based",
+     "keyword": "Dynasty",
+     "question": "How many of the following are associated with the Satavahana dynasty?\nI. Devinaganika\nII. Hala\nIII. Gautamiputra Satakarni\nIV. Virapurushadatta",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Devinaganika, Hala and Gautamiputra Satakarni are associated with the Satavahana dynasty. Virapurushadatta belonged to the Ikshvaku dynasty, so the count is three."
+    },
+    {
+     "id": "ap-history-42-18",
+     "format": "Chronological Ordering",
+     "keyword": "Event – year",
+     "question": "Arrange the following in chronological order:\nA. Prolaya Vema Reddy founded the Reddy Kingdom.\nB. Ganapatideva shifted the capital to Warangal.\nC. Rudramadevi ascended the throne.\nD. The Bobbili–Vizianagaram battle took place.",
+     "options": [
+      "C, B, A, D",
+      "D, B, C, A",
+      "B, C, A, D",
+      "A, B, C, D"
+     ],
+     "answer": 2,
+     "explanation": "The years are 1254 for Ganapatideva's shift of capital, 1260 for Rudramadevi's accession, 1324 for the founding of the Reddy Kingdom, and 1757 for the Bobbili–Vizianagaram battle."
+    },
+    {
+     "id": "ap-history-42-19",
+     "format": "Direct Recall",
+     "keyword": "Event – month/date/year",
+     "question": "The Bobbili–Vizianagaram battle took place in which year?",
+     "options": [
+      "1254",
+      "1757",
+      "1324",
+      "1260"
+     ],
+     "answer": 1,
+     "explanation": "The notes place the Bobbili–Vizianagaram battle in 1757."
+    },
+    {
+     "id": "ap-history-42-20",
+     "format": "Direct Recall",
+     "keyword": "Tank",
+     "question": "Which tank was excavated by Surambika Reddy?",
+     "options": [
+      "Bobbili Tank",
+      "Warangal Tank",
+      "Santana Sagaram",
+      "Reddy Sagaram"
+     ],
+     "answer": 2,
+     "explanation": "Surambika Reddy, identified as the queen of Pedakomati Vema Reddy, excavated the Santana Sagaram tank."
     }
    ],
    "coverage": {
