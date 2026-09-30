@@ -12,6 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-rootProject.name = "RocketSheetsMCQ"
+rootProject.name = "RocketPrep"
 include(":app")

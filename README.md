@@ -21,13 +21,28 @@ Subjects: AP History, AP Geography, Indian History, Indian Geography, World Geog
 General Geography, Indian Polity, Indian Economy, Indian Society, Environment,
 Disaster Management, Physics, Chemistry, Biology.
 
-## App features
+## App (Rocket Prep)
 
-- **90-Day Plan** — Day 1 = 29 Sep 2026, same structure as the "APPSC Restructured 90-Day Plan": one subject per day with consecutive sheets (Polity & Society → History → Geography → Economy → Science & Environment, ~140 MCQs/day), a weekly review test every 7th day, revision Days 71–83, full mocks + repair days 84–90.
-- **Subjects** → sheets → practice a sheet, or read that sheet's notes.
-- **Syllabus Tracker** — Group 1 / Group 2 tabs, each unit shows its mapped sheets, MCQ count and progress.
-- **Quiz** — instant right/wrong, explanation, MCQ format + blueprint keyword tags, bookmarks, score summary, "retry wrong".
-- **Review** — all wrong answers, bookmarks, random 25-question mixed test, overall accuracy.
+`android/` is **Rocket Prep**, built on the APPSC Prep app's code and pattern with the ROCKET
+Sheets as its own syllabus (`scripts/build_prep_assets.py` writes its assets):
+
+**Book** = subject block (Polity & Society · History · Geography · Economy · Science & Environment)
+→ **Topic** = subject → **Section** = ROCKET SHEET #N → subsections **Key facts** (every fact of the
+sheet) and **Sheet text** (as in the PDF). After each section: MCQ practice (Previous / Skip / Next,
+"Stuck? Show a hint", explanation, what the question trains, "why it went wrong" technique note,
+net score with 1/3 negative marking, retry wrong answers).
+
+Tabs: **Today** · **Plan** (90 days from 29 Sep 2026, Polity first, one subject per day; weekly
+50-question tests; revision days; 120/150-question mocks; repair days) · **Notes** · **Progress** · **Saved**.
+
+```bash
+python scripts/build_index.py && python scripts/build_prep_assets.py
+cd android && ./gradlew assembleRelease     # app/build/outputs/apk/release/app-release.apk
+./gradlew recordRoborazziDebug               # screenshots -> app/screenshots/
+```
+
+Signed with `android/keystore/rocket-prep.jks`, so new APKs install over old ones and keep progress.
+Its app id (`com.groupsrocket.rocketprep`) differs from APPSC Prep, so both apps can be installed.
 
 ## MCQ generation (OpenAI)
 
