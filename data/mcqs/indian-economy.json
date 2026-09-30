@@ -29,7 +29,10 @@
       "Mahalanobis Model"
      ],
      "answer": 0,
-     "explanation": "The First Five Year Plan, covering 1951–56, was based on the Harrod–Domar Model."
+     "explanation": "The First Five Year Plan, covering 1951–56, was based on the Harrod–Domar Model.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-1-2",
@@ -43,7 +46,17 @@
       "Its period was 1951–56."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is ‘heavy industry.’ The First Plan gave priority to agriculture or the primary sector; heavy industry was associated with the Second Plan."
+     "explanation": "The incorrect detail is ‘heavy industry.’ The First Plan gave priority to agriculture or the primary sector; heavy industry was associated with the Second Plan.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6",
+      "F7",
+      "F8",
+      "F15",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-1-3",
@@ -57,7 +70,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The First Plan’s focus on food production, rehabilitation and price stability explains its priority to agriculture."
+     "explanation": "Both statements are true. The First Plan’s focus on food production, rehabilitation and price stability explains its priority to agriculture.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-1-4",
@@ -71,7 +90,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: First Industrial Policy of independent India—1948; Second Industrial Policy Resolution—1956; liberalisation—1991; first cotton mill—1818."
+     "explanation": "The correct pairs are: First Industrial Policy of independent India—1948; Second Industrial Policy Resolution—1956; liberalisation—1991; first cotton mill—1818.",
+     "facts": [
+      "F16",
+      "F18",
+      "F20",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-1-5",
@@ -85,9 +110,109 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. The National Planning Committee dates to 1938, while the first planned-development model was adopted on 1 April 1951."
+     "explanation": "Both statements are true according to the notes. The National Planning Committee dates to 1938, while the first planned-development model was adopted on 1 April 1951.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-economy-1-6",
+     "format": "List-Matching",
+     "keyword": "Five Year Plans",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Agriculture\n(b) First Five Year Plan\n(c) Second Five Year Plan\n(d) First Industrial Policy of independent India\n\nList-II\n(i) Primary sector\n(ii) Community Development Programme in 1952\n(iii) Mahalanobis Model\n(iv) Dr. Shyama Prasad Mukherjee\n\nCodes:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Agriculture is the primary sector. The First Five Year Plan led to the Community Development Programme in 1952, the Second Plan was based on the Mahalanobis Model, and Dr. Shyama Prasad Mukherjee announced the First Industrial Policy of independent India.",
+     "facts": [
+      "F5",
+      "F9",
+      "F14",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-economy-1-7",
+     "format": "Direct Recall",
+     "keyword": "Industrial Policy",
+     "question": "Which Industrial Policy Resolution introduced the Joint Sector concept?",
+     "options": [
+      "First Industrial Policy of independent India, 1948",
+      "Industrial Policy Resolution of 1956",
+      "New Economic Policy",
+      "First Five Year Plan"
+     ],
+     "answer": 1,
+     "explanation": "The Industrial Policy Resolution of 1956 introduced the Joint Sector concept.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-economy-1-8",
+     "format": "Count-Based",
+     "keyword": "Economic reforms (Liberalisation, Globalisation)",
+     "question": "How many of the following were introduced by the New Economic Policy?\n\n1. Liberalisation\n2. Privatisation\n3. Globalisation",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "More than three"
+     ],
+     "answer": 2,
+     "explanation": "The New Economic Policy introduced liberalisation, privatisation and globalisation. Therefore, all three listed features were introduced by it.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-economy-1-9",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Which was the first industry to develop in India?",
+     "options": [
+      "Cottage industry",
+      "Heavy industry",
+      "Joint Sector industry",
+      "Cotton mill industry"
+     ],
+     "answer": 0,
+     "explanation": "The cottage industry was the first industry to develop in India.",
+     "facts": [
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-economy-1-10",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "FIRST",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The first cotton mill was located at Fort Gloster near Kolkata in 1818.",
+      "The First Five Year Plan started on 1 April 1951.",
+      "The first cotton mill was located at Fort Gloster near Kolkata in 1951.",
+      "The cottage industry was the first industry to develop in India."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the year 1951. The first cotton mill was located at Fort Gloster near Kolkata in 1818.",
+     "facts": [
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -201,7 +326,10 @@
       "Jim O'Neill"
      ],
      "answer": 1,
-     "explanation": "The Etawah Pilot Project originated in September 1948 and was initiated by Lt. Col. Albert Mayer."
+     "explanation": "The Etawah Pilot Project originated in September 1948 and was initiated by Lt. Col. Albert Mayer.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-3-2",
@@ -215,7 +343,12 @@
       "Jim O'Neill coined the term BRIC in 2001."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 2008. According to the notes, the first BRICS Summit was held in 2009."
+     "explanation": "The incorrect detail is the year 2008. According to the notes, the first BRICS Summit was held in 2009.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-3-3",
@@ -229,7 +362,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the World Bank's action in 2008 does not explain the European Investment Bank's first introduction of Green Bonds in 2007."
+     "explanation": "Both statements are true according to the notes. However, the World Bank's action in 2008 does not explain the European Investment Bank's first introduction of Green Bonds in 2007.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-3-4",
@@ -243,7 +380,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: National Extension Service—1953; Food for Work—1977–78; IRDP experimentally—1978–79; IRDP nationwide—2 October 1980."
+     "explanation": "The correct pairs are: National Extension Service—1953; Food for Work—1977–78; IRDP experimentally—1978–79; IRDP nationwide—2 October 1980.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-3-5",
@@ -257,9 +400,75 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes: Dandekar and Rath—1971, Lakdawala Committee—1989, and Tendulkar Committee—2005 with its report in 2009."
+     "explanation": "All three statements are correct according to the notes: Dandekar and Rath—1971, Lakdawala Committee—1989, and Tendulkar Committee—2005 with its report in 2009.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-economy-3-6",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Etawah Pilot Project\n(b) National Extension Service\n(c) Employment Guarantee Scheme\n(d) Antyodaya\n\nList-II\n(i) First programme of community development\n(ii) First started in Rajasthan in 1977–78\n(iii) First rural-development pilot project\n(iv) First started in Maharashtra in 1972",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The Etawah Pilot Project was the first rural-development pilot project; the National Extension Service was the first programme of community development. The Employment Guarantee Scheme first started in Maharashtra in 1972, while Antyodaya first started in Rajasthan in 1977–78.",
+     "facts": [
+      "F1",
+      "F4",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-economy-3-7",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "The Etawah Pilot Project began in which month and year?",
+     "options": [
+      "1977–78",
+      "September 1953",
+      "October 1980",
+      "September 1948"
+     ],
+     "answer": 3,
+     "explanation": "The Etawah Pilot Project began in September 1948.",
+     "facts": [
+      "F2"
+     ]
+    },
+    {
+     "id": "indian-economy-3-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Five Year Plans",
+     "question": "Consider the following statements:\n\nStatement A: Garibi Hatao was first introduced in the Fifth Five-Year Plan.\nStatement B: The Employment Guarantee Scheme first started in Maharashtra in 1972.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Garibi Hatao was first introduced in the Fifth Five-Year Plan, and the Employment Guarantee Scheme first started in Maharashtra in 1972.",
+     "facts": [
+      "F11",
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -611,7 +820,11 @@
       "Domestic territory, irrespective of nationality"
      ],
      "answer": 3,
-     "explanation": "GDP is the value of final goods and services produced within the domestic territory, irrespective of nationality."
+     "explanation": "GDP is the value of final goods and services produced within the domestic territory, irrespective of nationality.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-5-2",
@@ -625,7 +838,14 @@
       "GDP is different from GNP."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is that GDP includes net factor income from abroad. GNP, not GDP, considers nationality or factor income through NFIA."
+     "explanation": "The incorrect detail is that GDP includes net factor income from abroad. GNP, not GDP, considers nationality or factor income through NFIA.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-5-3",
@@ -639,7 +859,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Economic development is broader than economic growth, and HDI incorporates life expectancy, education and income rather than GDP alone."
+     "explanation": "Both statements are true. Economic development is broader than economic growth, and HDI incorporates life expectancy, education and income rather than GDP alone.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-5-4",
@@ -653,7 +881,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: GDP—value of final goods and services produced within domestic territory; NDP—GDP minus depreciation; GNP—GDP plus NFIA; NNP—NDP plus NFIA."
+     "explanation": "The correct pairs are: GDP—value of final goods and services produced within domestic territory; NDP—GDP minus depreciation; GNP—GDP plus NFIA; NNP—NDP plus NFIA.",
+     "facts": [
+      "F1",
+      "F6",
+      "F7",
+      "F8",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-5-5",
@@ -667,9 +902,22 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. The base year refers to the prices of the year used to calculate Real GDP, not current-year prices used for Nominal GDP."
+     "explanation": "Statements I, II and III are correct. The base year refers to the prices of the year used to calculate Real GDP, not current-year prices used for Nominal GDP.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 19,
+    "covered": 19,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -697,7 +945,11 @@
       "Government-announced price for industrial products"
      ],
      "answer": 1,
-     "explanation": "MSP is the government-announced minimum price for selected agricultural commodities."
+     "explanation": "MSP is the government-announced minimum price for selected agricultural commodities.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-6-2",
@@ -711,7 +963,15 @@
       "It is fixed by the Agricultural Prices Commission."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the fixing authority. MSP is fixed by the Government of India, while CACP recommends it."
+     "explanation": "The incorrect detail is the fixing authority. MSP is fixed by the Government of India, while CACP recommends it.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F10",
+      "F11",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-6-3",
@@ -725,7 +985,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes directly link MSP-based procurement to building food stocks for the PDS and to food security."
+     "explanation": "Both statements are true. The notes directly link MSP-based procurement to building food stocks for the PDS and to food security.",
+     "facts": [
+      "F6",
+      "F7",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-6-4",
@@ -739,7 +1004,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: MSP–government-announced minimum price; CACP–recommends MSP; Government of India–fixes MSP; PDS–Public Distribution System."
+     "explanation": "The correct pairs are: MSP–government-announced minimum price; CACP–recommends MSP; Government of India–fixes MSP; PDS–Public Distribution System.",
+     "facts": [
+      "F2",
+      "F7",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-6-5",
@@ -753,7 +1024,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. APC was established in 1965 and was later renamed CACP."
+     "explanation": "Both statements are true. APC was established in 1965 and was later renamed CACP.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     }
    ]
   },
@@ -1082,7 +1357,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Bank Rate—RBI lending/discount rate; Repo Rate—RBI lends to banks against securities; Reverse Repo—RBI absorbs liquidity from banks; OMO—RBI buys or sells government securities."
+     "explanation": "The correct pairs are: Bank Rate—RBI lending/discount rate; Repo Rate—RBI lends to banks against securities; Reverse Repo—RBI absorbs liquidity from banks; OMO—RBI buys or sells government securities.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-9-2",
@@ -1096,7 +1377,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the notes state that CRR is cash reserve maintained with the RBI and that no interest is paid on CRR balances. However, the stated location of the reserve does not explain the absence of interest."
+     "explanation": "Both statements are true: the notes state that CRR is cash reserve maintained with the RBI and that no interest is paid on CRR balances. However, the stated location of the reserve does not explain the absence of interest.",
+     "facts": [
+      "F4",
+      "F12",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-9-3",
@@ -1110,7 +1396,13 @@
       "The RBI acts as banker to State Governments."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the institution: the RBI acts as the Government's agent for India's IMF membership, not its World Bank membership."
+     "explanation": "The incorrect statement alters the institution: the RBI acts as the Government's agent for India's IMF membership, not its World Bank membership.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-9-4",
@@ -1124,7 +1416,13 @@
       "Liquid assets maintained by banks themselves"
      ],
      "answer": 0,
-     "explanation": "MSF is an emergency overnight borrowing facility. The other options describe CRR, SLR and Reverse Repo respectively."
+     "explanation": "MSF is an emergency overnight borrowing facility. The other options describe CRR, SLR and Reverse Repo respectively.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-9-5",
@@ -1138,9 +1436,72 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. SLR is maintained by banks themselves and includes cash, gold and approved securities or liquid assets."
+     "explanation": "Both statements are true. SLR is maintained by banks themselves and includes cash, gold and approved securities or liquid assets.",
+     "facts": [
+      "F5",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-9-6",
+     "format": "List-Matching",
+     "keyword": "RBI",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) CRR\n(b) SLR\n(c) Repo Rate\n(d) MSF\n\nList-II\n(i) Statutory Liquidity Ratio\n(ii) Cash Reserve Ratio\n(iii) RBI lends to banks against securities\n(iv) Emergency overnight borrowing facility\n\nCodes:",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "CRR stands for Cash Reserve Ratio, while SLR stands for Statutory Liquidity Ratio. Repo Rate refers to RBI lending to banks against securities, and MSF is an emergency overnight borrowing facility.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-economy-9-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "CRR",
+     "question": "Consider the following statements:\n\nI. SLR assets can earn returns.\nII. CRR controls liquidity and credit.\nIII. SLR controls liquidity and provides a liquidity buffer.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "The sheet states that SLR assets can earn returns, CRR controls liquidity and credit, and SLR controls liquidity while providing a liquidity buffer.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-economy-9-8",
+     "format": "Direct Recall",
+     "keyword": "RBI",
+     "question": "The RBI advises the government on which of the following matters?",
+     "options": [
+      "Lending to banks against securities",
+      "India's IMF membership only",
+      "Government borrowing and public debt only",
+      "Monetary and financial matters"
+     ],
+     "answer": 3,
+     "explanation": "Among its listed roles, the RBI advises the government on monetary and financial matters. Managing government borrowing/public debt and acting as the government's agent for India's IMF membership are separate roles.",
+     "facts": [
+      "F19"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -1168,7 +1529,10 @@
       "12 April 1988"
      ],
      "answer": 2,
-     "explanation": "SEBI acquired statutory status on 12 April 1992 under the SEBI Act, 1992."
+     "explanation": "SEBI acquired statutory status on 12 April 1992 under the SEBI Act, 1992.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-10-2",
@@ -1182,7 +1546,13 @@
       "SEBI is headquartered in Mumbai."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the parent law. SEBI's parent law is the SEBI Act, 1992."
+     "explanation": "The incorrect detail is the parent law. SEBI's parent law is the SEBI Act, 1992.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-10-3",
@@ -1196,7 +1566,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. SEBI regulates the primary market, where new securities such as IPOs, FPOs and rights issues are dealt with."
+     "explanation": "Both statements are true. SEBI regulates the primary market, where new securities such as IPOs, FPOs and rights issues are dealt with.",
+     "facts": [
+      "F13",
+      "F17",
+      "F18",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-10-4",
@@ -1210,7 +1587,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The secondary market involves existing securities and SEBI regulates stock exchange operations."
+     "explanation": "Both statements are true. The secondary market involves existing securities and SEBI regulates stock exchange operations.",
+     "facts": [
+      "F10",
+      "F14",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-10-5",
@@ -1224,7 +1607,86 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: primary market—new securities; secondary market—existing securities; initial status—non-statutory body; statutory status—12 April 1992."
+     "explanation": "The correct pairs are: primary market—new securities; secondary market—existing securities; initial status—non-statutory body; statutory status—12 April 1992.",
+     "facts": [
+      "F3",
+      "F4",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-economy-10-6",
+     "format": "Direct Recall",
+     "keyword": "SEBI",
+     "question": "SEBI is the abbreviated form of which of the following?",
+     "options": [
+      "Stock Exchanges Board of India",
+      "Securities and Exchange Board of India",
+      "Securities and Banking Board of India",
+      "Securities Exchange Board of India"
+     ],
+     "answer": 1,
+     "explanation": "SEBI stands for Securities and Exchange Board of India.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "indian-economy-10-7",
+     "format": "Count-Based",
+     "keyword": "SEBI",
+     "question": "How many of the following are identified as core purposes of SEBI?\nI. Investor protection\nII. Development of the securities market\nIII. Regulation of the securities market\nIV. Regulation and monitoring of mutual funds\nV. Prevention of irregularities and scams in the capital market",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 1,
+     "explanation": "The three core purposes are investor protection, development of the securities market and regulation of the securities market. Regulation of mutual funds and prevention of irregularities or scams are listed among SEBI’s main functions.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-economy-10-8",
+     "format": "Assertion-Reason",
+     "keyword": "SEBI",
+     "question": "Assertion (A): SEBI regulates and monitors mutual funds.\nReason (R): SEBI prevents irregularities and scams in the capital market.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are functions of SEBI, but preventing irregularities and scams does not explain SEBI’s separate function of regulating and monitoring mutual funds.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-economy-10-9",
+     "format": "List-Matching",
+     "keyword": "Primary market/Secondary market",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Primary market\n(b) Secondary market\n(c) New securities\n(d) Stock-exchange trading\n\nList-II\ni. Company → investor\nii. Investor ↔ investor\niii. Characteristic of primary market transactions\niv. Part of the secondary market",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The primary market involves companies selling new securities to investors, while the secondary market involves transactions between investors. Stock-exchange trading is part of the secondary market.",
+     "facts": [
+      "F15",
+      "F16",
+      "F20"
+     ]
     }
    ]
   },
@@ -2564,8 +3026,88 @@
       "F29",
       "F31"
      ]
+    },
+    {
+     "id": "indian-economy-19-6",
+     "format": "Direct Recall",
+     "keyword": "FDI",
+     "question": "What is the full form of FDI?",
+     "options": [
+      "Foreign Investment through Government Route",
+      "Foreign Direct Investment",
+      "Foreign Investment in Securities",
+      "Foreign Portfolio Investment"
+     ],
+     "answer": 1,
+     "explanation": "FDI stands for Foreign Direct Investment.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "indian-economy-19-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FDI",
+     "question": "Consider the following statements regarding the associations of FDI:\nI. FDI is associated with innovation.\nII. FDI is associated with competition.\nIII. FDI is associated with employment.\nIV. FDI is associated with export competitiveness.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, III and IV only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "FDI is associated with innovation, competition, employment and export competitiveness. Therefore, all four statements are correct.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-economy-19-8",
+     "format": "List-Matching",
+     "keyword": "FDI",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Subsidiaries of foreign companies in India\n(b) Majority foreign equity holdings in Indian companies\n(c) Companies exclusively financed by foreign companies\n(d) Portfolio investment\n\nList-II\n(i) Included in FDI\n(ii) Does not automatically constitute FDI",
+     "options": [
+      "a-ii, b-i, c-i, d-i",
+      "a-i, b-i, c-ii, d-ii",
+      "a-i, b-i, c-i, d-ii",
+      "a-i, b-ii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Subsidiaries of foreign companies in India, majority foreign equity holdings in Indian companies, and companies exclusively financed by foreign companies are included in FDI. Portfolio investment does not automatically constitute FDI.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-economy-19-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FDI",
+     "question": "Consider the following statements:\nStatement A: FDI can enter through the Government Route.\nStatement B: The Government Route requires prior government approval.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Government Route is one route through which FDI can enter, and it requires prior government approval.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "20": {
    "number": 20,
@@ -2679,7 +3221,11 @@
       "5 July 2004"
      ],
      "answer": 3,
-     "explanation": "The FRBM Act, 2003 became effective on 5 July 2004."
+     "explanation": "The FRBM Act, 2003 became effective on 5 July 2004.",
+     "facts": [
+      "F3",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-21-2",
@@ -2693,7 +3239,13 @@
       "It seeks to move towards a balanced budget."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the objective of improving transparency in fiscal operations to its opposite. Transparency in fiscal operations is an objective of the FRBM framework."
+     "explanation": "The incorrect statement alters the objective of improving transparency in fiscal operations to its opposite. Transparency in fiscal operations is an objective of the FRBM framework.",
+     "facts": [
+      "F9",
+      "F13",
+      "F12",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-21-3",
@@ -2707,7 +3259,16 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Reducing fiscal and revenue deficits and public debt reflects the Act’s aim of fiscal discipline and fiscal prudence."
+     "explanation": "Both statements are true. Reducing fiscal and revenue deficits and public debt reflects the Act’s aim of fiscal discipline and fiscal prudence.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-21-4",
@@ -2721,7 +3282,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Revenue Deficit—Revenue expenditure − Revenue receipts; Fiscal Deficit—Total expenditure − Total non-debt receipts; Primary Deficit—Fiscal deficit − Interest payments; Debt management—the fiscal discipline objective concerning management of debt."
+     "explanation": "The correct pairs are: Revenue Deficit—Revenue expenditure − Revenue receipts; Fiscal Deficit—Total expenditure − Total non-debt receipts; Primary Deficit—Fiscal deficit − Interest payments; Debt management—the fiscal discipline objective concerning management of debt.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-21-5",
@@ -2735,9 +3302,73 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. The FRBM Review Committee was formed in May 2016, was chaired by N.K. Singh, and submitted its report in January 2017."
+     "explanation": "All three statements are correct. The FRBM Review Committee was formed in May 2016, was chaired by N.K. Singh, and submitted its report in January 2017.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-economy-21-6",
+     "format": "Direct Recall",
+     "keyword": "Act",
+     "question": "The Act referred to as the FRBM Act is formally called:",
+     "options": [
+      "FRBM Review Committee",
+      "Fiscal Responsibility and Budget Management Committee",
+      "Fiscal Responsibility and Budget Management Act",
+      "N.K. Singh Committee"
+     ],
+     "answer": 2,
+     "explanation": "FRBM stands for the Fiscal Responsibility and Budget Management Act.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "indian-economy-21-7",
+     "format": "Assertion-Reason",
+     "keyword": "Objective",
+     "question": "Assertion (A): Improving macroeconomic management is an objective of the FRBM Act.\nReason (R): Moving towards a balanced budget is also included among the objectives of the FRBM Act.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are listed as objectives of the FRBM Act. Moving towards a balanced budget is a separate objective and does not explain improving macroeconomic management.",
+     "facts": [
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-economy-21-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Debt",
+     "question": "Consider the following statements regarding the key recommendation of the FRBM Review Committee:\nI. Combined Centre and State debt was recommended to be limited to 60% of GDP.\nII. The recommended Centre component was 40% of GDP.\nIII. The recommended States component was 20% of GDP.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "The key recommendation was to limit combined Centre and State debt to 60% of GDP, comprising 40% for the Centre and 20% for the States.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -2765,7 +3396,12 @@
       "Faster and inclusive growth"
      ],
      "answer": 1,
-     "explanation": "The Second Five Year Plan, covering 1956–61, focused on rapid industrialisation along with heavy and basic industries."
+     "explanation": "The Second Five Year Plan, covering 1956–61, focused on rapid industrialisation along with heavy and basic industries.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-22-2",
@@ -2779,7 +3415,23 @@
       "The Tenth Five Year Plan covered 2002–07 and focused on faster growth and development."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the focus of the Eleventh Plan. Its focus was faster and inclusive growth, while growth with social justice was the focus of the Ninth Plan."
+     "explanation": "The incorrect detail is the focus of the Eleventh Plan. Its focus was faster and inclusive growth, while growth with social justice was the focus of the Ninth Plan.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F42"
+     ]
     },
     {
      "id": "indian-economy-22-3",
@@ -2793,7 +3445,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Fifth Plan covered 1974–79 and had the stated focus. However, its period does not explain why those objectives were adopted."
+     "explanation": "Both statements are true: the Fifth Plan covered 1974–79 and had the stated focus. However, its period does not explain why those objectives were adopted.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-22-4",
@@ -2807,7 +3466,18 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: First Plan–Agriculture; Fourth Plan–Growth with stability and self-reliance; Sixth Plan–Economic growth and poverty reduction; Ninth Plan–Growth with social justice."
+     "explanation": "The correct pairs are: First Plan–Agriculture; Fourth Plan–Growth with stability and self-reliance; Sixth Plan–Economic growth and poverty reduction; Ninth Plan–Growth with social justice.",
+     "facts": [
+      "F8",
+      "F17",
+      "F18",
+      "F19",
+      "F25",
+      "F26",
+      "F27",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "indian-economy-22-5",
@@ -2821,9 +3491,81 @@
       "B, A, D, C"
      ],
      "answer": 1,
-     "explanation": "The correct chronological order is National Planning Committee (1938), Bombay Plan and Gandhian Plan (1944), People's Plan (1945), and First Five Year Plan (1951)."
+     "explanation": "The correct chronological order is National Planning Committee (1938), Bombay Plan and Gandhian Plan (1944), People's Plan (1945), and First Five Year Plan (1951).",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-economy-22-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Five Year Plans",
+     "question": "Consider the following statements:\nStatement A: The Sarvodaya Plan was formulated in 1950.\nStatement B: The Annual Plans covered the period 1990–92.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Sarvodaya Plan was formulated in 1950, and the Annual Plans covered 1990–92.",
+     "facts": [
+      "F5",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-economy-22-7",
+     "format": "List-Matching",
+     "keyword": "Five Year Plans – Period",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) 1st Five Year Plan\n(b) 3rd Five Year Plan\n(c) Plan Holiday\n(d) 7th Five Year Plan\n\nList-II\n(i) 1951–56\n(ii) 1961–66\n(iii) 1966–69\n(iv) 1985–90",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: 1st Plan—1951–56, 3rd Plan—1961–66, Plan Holiday—1966–69, and 7th Plan—1985–90.",
+     "facts": [
+      "F7",
+      "F12",
+      "F15",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-22-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Five Year Plans – Focus Areas",
+     "question": "Consider the following statements:\nI. The 3rd Five Year Plan focused on agriculture.\nII. The 3rd Five Year Plan focused on self-reliance.\nIII. The Plan Holiday period had annual plans.\nIV. The 7th Five Year Plan focused on growth, employment and productivity.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. The 3rd Plan focused on agriculture and self-reliance; the Plan Holiday had annual plans; and the 7th Plan focused on growth, employment and productivity.",
+     "facts": [
+      "F13",
+      "F14",
+      "F16",
+      "F29",
+      "F30",
+      "F31"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,
@@ -3317,7 +4059,11 @@
       "The value added by producers or sectors to the economy"
      ],
      "answer": 3,
-     "explanation": "GVA measures the value added by producers or sectors to the economy."
+     "explanation": "GVA measures the value added by producers or sectors to the economy.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-26-2",
@@ -3331,7 +4077,13 @@
       "A base year is used in calculating Real GVA."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the pricing basis: Nominal GVA is calculated at current prices, whereas Real GVA is calculated at constant prices."
+     "explanation": "The incorrect detail is the pricing basis: Nominal GVA is calculated at current prices, whereas Real GVA is calculated at constant prices.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-economy-26-3",
@@ -3345,7 +4097,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes distinguish GVA as a production-side measure from GDP as the broader domestic production measure after accounting for net taxes on products."
+     "explanation": "Both statements are true. The notes distinguish GVA as a production-side measure from GDP as the broader domestic production measure after accounting for net taxes on products.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-26-4",
@@ -3359,7 +4115,32 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: (a) Primary sector, (b) Secondary sector, (c) Tertiary sector and (d) Services."
+     "explanation": "The correct pairs are: (a) Primary sector, (b) Secondary sector, (c) Tertiary sector and (d) Services.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F23",
+      "F19",
+      "F20",
+      "F21",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "indian-economy-26-5",
@@ -3373,9 +4154,59 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Statements I, III and IV are correct. Real GVA is calculated at constant prices, using a base year to remove the effect of price changes; Nominal GVA is calculated at current prices."
+     "explanation": "Statements I, III and IV are correct. Real GVA is calculated at constant prices, using a base year to remove the effect of price changes; Nominal GVA is calculated at current prices.",
+     "facts": [
+      "F1",
+      "F2",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "indian-economy-26-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sectors of economy – Contribution",
+     "question": "Consider the following statements:\nI. The tertiary sector includes communication as a major activity.\nII. Services include trade, hotels, transport and communication.\nIII. Services include public administration, defence and other services.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Communication is a major tertiary-sector activity, while services include trade, hotels, transport and communication, as well as public administration, defence and other services.",
+     "facts": [
+      "F18",
+      "F22",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-economy-26-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sectors of economy – Contribution",
+     "question": "Consider the following statements:\nStatement A: Industry includes mining and quarrying.\nStatement B: Agriculture and allied activities include livestock.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Mining and quarrying are included under industry, while livestock is included under agriculture and allied activities.",
+     "facts": [
+      "F25",
+      "F30"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 36,
+    "covered": 36,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,
@@ -3403,7 +4234,13 @@
       "All persons within a country's domestic territory, irrespective of residence"
      ],
      "answer": 0,
-     "explanation": "GNP measures final goods and services produced by the normal residents of a country, whether production occurs inside or outside the country's boundaries."
+     "explanation": "GNP measures final goods and services produced by the normal residents of a country, whether production occurs inside or outside the country's boundaries.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-27-2",
@@ -3417,7 +4254,15 @@
       "GNP is based on production by normal residents of a country."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that GDP includes production by residents both within and outside the country. The notes describe GDP as location-based production within the country, whereas GNP is residence-based and includes production within and outside the country by normal residents."
+     "explanation": "The incorrect statement is that GDP includes production by residents both within and outside the country. The notes describe GDP as location-based production within the country, whereas GNP is residence-based and includes production within and outside the country by normal residents.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-27-3",
@@ -3431,7 +4276,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes specifically state that rising absolute and per-capita real GNP does not necessarily indicate higher economic development when poverty and unemployment increase."
+     "explanation": "Both statements are true. The notes specifically state that rising absolute and per-capita real GNP does not necessarily indicate higher economic development when poverty and unemployment increase.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-economy-27-4",
@@ -3445,7 +4296,14 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are GDP–production within domestic territory, GNP–GNP at market price minus depreciation in the listed formulation, NNP–GNP minus depreciation, and National Income–NNP at factor cost: a-iv, b-ii, c-i, d-iii."
+     "explanation": "The correct pairs are GDP–production within domestic territory, GNP–GNP at market price minus depreciation in the listed formulation, NNP–GNP minus depreciation, and National Income–NNP at factor cost: a-iv, b-ii, c-i, d-iii.",
+     "facts": [
+      "F4",
+      "F6",
+      "F11",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-27-5",
@@ -3459,9 +4317,37 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because GNP equals NNP plus depreciation, not NNP minus depreciation."
+     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because GNP equals NNP plus depreciation, not NNP minus depreciation.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-economy-27-6",
+     "format": "Direct Recall",
+     "keyword": "GNP",
+     "question": "Which one of the following equations correctly expresses the relationship between Gross National Product (GNP), Gross Domestic Product (GDP) and Net Factor Income from Abroad (NFIA)?",
+     "options": [
+      "GNP = NNP − Depreciation",
+      "GNP = NNP + Depreciation",
+      "GNP = GDP − NFIA",
+      "GNP = GDP + NFIA"
+     ],
+     "answer": 3,
+     "explanation": "GNP equals GDP plus Net Factor Income from Abroad (NFIA).",
+     "facts": [
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 19,
+    "covered": 19,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -3586,8 +4472,51 @@
       "F25",
       "F26"
      ]
+    },
+    {
+     "id": "indian-economy-28-6",
+     "format": "List-Matching",
+     "keyword": "IMF / World Bank",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) IMF\n(b) India\n(c) Rapid Financing Instrument\n(d) World Bank\n\nList-II\ni. Founding member of the IMF\nii. Bretton Woods institution\niii. International monetary institution\niv. Available to IMF members\n\nSelect the correct code:",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The IMF is an international monetary institution; India is its founding member. The Rapid Financing Instrument is available to IMF members, while the World Bank is a Bretton Woods institution.",
+     "facts": [
+      "F3",
+      "F7",
+      "F17",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-28-7",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "World Bank",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The World Bank is a Bretton Woods institution.",
+      "The IMF is a Bretton Woods institution.",
+      "The World Bank's major lending focus is Balance of Payments problems.",
+      "The World Bank is headquartered in Washington, D.C."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. Balance of Payments problems are identified as the IMF's major lending focus, whereas the World Bank is associated with development and project financing.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -3615,7 +4544,10 @@
       "Prathama Grameen Bank"
      ],
      "answer": 3,
-     "explanation": "Prathama Grameen Bank was the first RRB."
+     "explanation": "Prathama Grameen Bank was the first RRB.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-29-2",
@@ -3629,7 +4561,13 @@
       "RRBs provide loans and advances mainly to small and marginal farmers."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement alters the beneficiary group. RRBs mainly provide loans and advances to small and marginal farmers, agricultural labourers and rural artisans."
+     "explanation": "The incorrect statement alters the beneficiary group. RRBs mainly provide loans and advances to small and marginal farmers, agricultural labourers and rural artisans.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-29-3",
@@ -3643,7 +4581,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. NABARD is described as the apex agricultural/rural finance and apex refinancing institution, and its main function is providing refinance."
+     "explanation": "Both statements are true. NABARD is described as the apex agricultural/rural finance and apex refinancing institution, and its main function is providing refinance.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-29-4",
@@ -3657,7 +4601,14 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because RRBs participate in institutional agricultural credit."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because RRBs participate in institutional agricultural credit.",
+     "facts": [
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-29-5",
@@ -3671,9 +4622,21 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: (a)-iv (1975), (b)-iii (Moradabad, Uttar Pradesh), (c)-ii (October 2nd, 1975), and (d)-i (rural and semi-urban areas)."
+     "explanation": "The correct pairs are: (a)-iv (1975), (b)-iii (Moradabad, Uttar Pradesh), (c)-ii (October 2nd, 1975), and (d)-i (rural and semi-urban areas).",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -4294,8 +5257,70 @@
       "F17",
       "F20"
      ]
+    },
+    {
+     "id": "indian-economy-32-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Revenue Account / Capital Account",
+     "question": "Consider the following statements:\nI. Recovery of loans is a capital receipt.\nII. Recovery of loans belongs to the Capital Account.\nIII. Revenue expenditure belongs to the Revenue Account.\nIV. Revenue Account expenditure does not create a liability.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Recovery of loans is classified as a capital receipt and belongs to the Capital Account. Revenue expenditure belongs to the Revenue Account, whose expenditure does not create a liability.",
+     "facts": [
+      "F12",
+      "F18",
+      "F19",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-economy-32-7",
+     "format": "List-Matching",
+     "keyword": "Capital receipts / Capital payments",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Market borrowings\n(b) Treasury Bills\n(c) Foreign loans\n(d) Investments in shares\n\nList-II\n(i) Capital receipt\n(ii) Revenue receipt\n(iii) Capital payment\n(iv) Revenue Account",
+     "options": [
+      "a-i, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-i, d-iii",
+      "a-i, b-i, c-ii, d-iv",
+      "a-i, b-i, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "Market borrowings, Treasury Bills and foreign loans are capital receipts. Investments in shares are included under capital payments.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-32-8",
+     "format": "Direct Recall",
+     "keyword": "Capital Account expenditure",
+     "question": "Which one of the following correctly describes Capital Account expenditure?",
+     "options": [
+      "It consists only of tax receipts and interest receipts",
+      "It belongs exclusively to the Revenue Account",
+      "It does not create a liability and does not reduce government assets",
+      "It may create a liability or reduce assets"
+     ],
+     "answer": 3,
+     "explanation": "Capital Account expenditure may create a liability or reduce assets. The other options describe revenue receipts or unrelated classifications.",
+     "facts": [
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 30,
+    "covered": 30,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -4596,7 +5621,10 @@
       "Bankhaus Herstatt failure"
      ],
      "answer": 3,
-     "explanation": "The failure of Bankhaus Herstatt was identified as an important trigger for the establishment of the Basel Committee."
+     "explanation": "The failure of Bankhaus Herstatt was identified as an important trigger for the establishment of the Basel Committee.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-35-2",
@@ -4610,7 +5638,19 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The Basel Committee was originally named the Committee on Banking Regulations and Supervisory Practices. Basel I, II and III are respectively associated with 1988, 2004 and 2010, with the stated features."
+     "explanation": "The Basel Committee was originally named the Committee on Banking Regulations and Supervisory Practices. Basel I, II and III are respectively associated with 1988, 2004 and 2010, with the stated features.",
+     "facts": [
+      "F1",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-35-3",
@@ -4624,7 +5664,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Bankhaus Herstatt failure was an important trigger arising in the broader background of international currency and banking disturbances."
+     "explanation": "Both statements are true. The Bankhaus Herstatt failure was an important trigger arising in the broader background of international currency and banking disturbances.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-35-4",
@@ -4638,7 +5682,13 @@
       "The Secretariat or headquarters is located at the Bank for International Settlements in Basel."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the year. The Basel Committee was established at the end of 1974, not 1975."
+     "explanation": "The incorrect statement alters the year. The Basel Committee was established at the end of 1974, not 1975.",
+     "facts": [
+      "F2",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-35-5",
@@ -4652,9 +5702,40 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes distinguish growth as mainly involving production or income, while development includes better living standards and dimensions such as health, education, employment and poverty reduction."
+     "explanation": "Both statements are true. The notes distinguish growth as mainly involving production or income, while development includes better living standards and dimensions such as health, education, employment and poverty reduction.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-economy-35-6",
+     "format": "Assertion-Reason",
+     "keyword": "Economic growth",
+     "question": "Assertion (A): GDP and GNP growth are measures associated with economic growth.\nReason (R): Economic growth is a quantitative concept concerned with a rise in actual output.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "GDP and GNP growth are measures associated with economic growth. This is because economic growth is a quantitative concept concerned with a rise in actual output.",
+     "facts": [
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "36": {
    "number": 36,
@@ -4682,7 +5763,11 @@
       "David Ricardo"
      ],
      "answer": 2,
-     "explanation": "J.M. Keynes authored *The General Theory of Employment, Interest and Money*."
+     "explanation": "J.M. Keynes authored *The General Theory of Employment, Interest and Money*.",
+     "facts": [
+      "F3",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-36-2",
@@ -4696,7 +5781,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: The Wealth of Nations—Adam Smith; On the Principles of Political Economy and Taxation—David Ricardo; The Economic History of India—R.C. Dutt; The Price of Inequality—Joseph E. Stiglitz."
+     "explanation": "The correct pairs are: The Wealth of Nations—Adam Smith; On the Principles of Political Economy and Taxation—David Ricardo; The Economic History of India—R.C. Dutt; The Price of Inequality—Joseph E. Stiglitz.",
+     "facts": [
+      "F1",
+      "F2",
+      "F6",
+      "F9",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-36-3",
@@ -4710,7 +5802,16 @@
       "R.C. Dutt is associated with *The Economic History of India* and Colonial economic impact."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is option 4. *The Price of Inequality* is associated with Joseph E. Stiglitz, whereas Amartya Sen is associated with *Inequality Reexamined* and Human Development."
+     "explanation": "The incorrect statement is option 4. *The Price of Inequality* is associated with Joseph E. Stiglitz, whereas Amartya Sen is associated with *Inequality Reexamined* and Human Development.",
+     "facts": [
+      "F4",
+      "F5",
+      "F10",
+      "F8",
+      "F9",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-36-4",
@@ -4724,7 +5825,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate Dadabhai Naoroji with *Poverty and Un-British Rule in India*, whose key concept is the Drain of Wealth."
+     "explanation": "Both statements are true. The notes associate Dadabhai Naoroji with *Poverty and Un-British Rule in India*, whose key concept is the Drain of Wealth.",
+     "facts": [
+      "F5",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-36-5",
@@ -4738,9 +5843,53 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Ragnar Nurkse is associated with the Vicious Circle of Poverty, while Amartya Sen is associated with Human Development."
+     "explanation": "Both statements are true. Ragnar Nurkse is associated with the Vicious Circle of Poverty, while Amartya Sen is associated with Human Development.",
+     "facts": [
+      "F14",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-economy-36-6",
+     "format": "List-Matching",
+     "keyword": "Books related to Economics",
+     "question": "Match List-I with List-II:\n\nList-I (Book)\na. The Economics of Inequality\nb. Inequality Reexamined\nc. The Price of Inequality\nd. The Wealth of Nations\n\nList-II (Author)\ni. Adam Smith\nii. Thomas Piketty\niii. Amartya Sen\niv. Joseph E. Stiglitz\n\nCodes:",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The Economics of Inequality was authored by Thomas Piketty; Inequality Reexamined by Amartya Sen; The Price of Inequality by Joseph E. Stiglitz; and The Wealth of Nations by Adam Smith.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-36-7",
+     "format": "Assertion-Reason",
+     "keyword": "Economist",
+     "question": "Assertion (A): R.G. Hawtrey is associated with the Pure Monetary Theory of Trade Cycle.\nReason (R): The Economics of Inequality was authored by Thomas Piketty.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Thomas Piketty’s authorship of The Economics of Inequality does not explain R.G. Hawtrey’s association with the Pure Monetary Theory of Trade Cycle.",
+     "facts": [
+      "F15",
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "37": {
    "number": 37,
@@ -4776,7 +5925,8 @@
       "F4",
       "F5",
       "F6",
-      "F13"
+      "F13",
+      "F14"
      ]
     },
     {
@@ -4839,7 +5989,8 @@
      "explanation": "Both statements are supported by the notes: the 1991 New Industrial Policy was associated with liberalisation, and a decrease in import duty on capital goods was a liberalisation instrument under LPG reforms.",
      "facts": [
       "F5",
-      "F34"
+      "F34",
+      "F14"
      ]
     },
     {
@@ -4864,8 +6015,119 @@
       "F13",
       "F29"
      ]
+    },
+    {
+     "id": "indian-economy-37-6",
+     "format": "Direct Recall",
+     "keyword": "Industrial Policy",
+     "question": "The Industrial Policy Resolution was introduced in which year?",
+     "options": [
+      "1991",
+      "1951",
+      "1948",
+      "1956"
+     ],
+     "answer": 2,
+     "explanation": "The Industrial Policy Resolution was introduced in 1948.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-37-7",
+     "format": "Assertion-Reason",
+     "keyword": "Liberalisation",
+     "question": "Assertion (A): The New Industrial Policy was associated with LPG.\nReason (R): LPG stands for liberalisation, privatisation and globalisation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The New Industrial Policy was associated with LPG, and LPG expands to liberalisation, privatisation and globalisation; however, the expansion does not explain the association.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-economy-37-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Policy",
+     "question": "Consider the following statements:\nI. Stabilisation is short-term in nature.\nII. Stabilisation is demand-side in nature.\nIII. Structural adjustment is long-term in nature.\nIV. Structural adjustment is supply-side in nature.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II, III and IV",
+      "III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Stabilisation is both short-term and demand-side, whereas structural adjustment is both long-term and supply-side.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-economy-37-9",
+     "format": "Direct Recall",
+     "keyword": "Free trade",
+     "question": "Which of the following best describes free trade?",
+     "options": [
+      "Reduction or removal of trade barriers",
+      "Provision of an internationally competitive environment",
+      "Attraction of foreign investment",
+      "Creation of a level playing field for exports"
+     ],
+     "answer": 0,
+     "explanation": "Free trade involves the reduction or removal of trade barriers.",
+     "facts": [
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-economy-37-10",
+     "format": "Direct Recall",
+     "keyword": "SEZ",
+     "question": "What was the objective of the Special Economic Zone Policy in relation to the business environment?",
+     "options": [
+      "To establish a mixed economic model",
+      "To provide an internationally competitive environment",
+      "To promote industrial licensing",
+      "To create a long-term fiscal policy"
+     ],
+     "answer": 1,
+     "explanation": "One objective of the Special Economic Zone Policy was to provide an internationally competitive environment.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-economy-37-11",
+     "format": "Direct Recall",
+     "keyword": "Economic reforms (Liberalisation, Globalisation)",
+     "question": "LPG reforms were associated with which of the following?",
+     "options": [
+      "Joint sector",
+      "Multinational corporations",
+      "Industrial licensing",
+      "Public sector"
+     ],
+     "answer": 1,
+     "explanation": "The sheet associates LPG reforms with multinational corporations.",
+     "facts": [
+      "F33"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 34,
+    "covered": 34,
+    "audited": true
+   }
   },
   "38": {
    "number": 38,
@@ -5891,7 +7153,8 @@
       "F11",
       "F13",
       "F14",
-      "F20"
+      "F20",
+      "F7"
      ]
     },
     {
@@ -5950,8 +7213,109 @@
       "F3",
       "F4"
      ]
+    },
+    {
+     "id": "indian-economy-44-6",
+     "format": "Assertion-Reason",
+     "keyword": "Tax",
+     "question": "Assertion (A): A progressive tax has an average tax burden that increases with income.\nReason (R): The average tax burden under a progressive tax increases as income increases.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The reason directly restates the defining feature of a progressive tax: its average tax burden increases with income.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "indian-economy-44-7",
+     "format": "List-Matching",
+     "keyword": "Tax",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Wealth Tax\n(b) Capital Gains Tax\n(c) Gift Tax\n(d) Customs Duty\n\nList-II\n(i) Direct tax\n(ii) Indirect tax",
+     "options": [
+      "a-ii, b-i, c-ii, d-i",
+      "a-i, b-ii, c-i, d-ii",
+      "a-ii, b-ii, c-i, d-i",
+      "a-i, b-i, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Wealth Tax, Capital Gains Tax and Gift Tax are direct taxes. Customs Duty is an indirect tax.",
+     "facts": [
+      "F9",
+      "F10",
+      "F12",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-economy-44-8",
+     "format": "Count-Based",
+     "keyword": "Tax",
+     "question": "How many of the following are examples of indirect taxes?\n\n1. Excise Duty\n2. Service Tax\n3. Sales Tax\n4. VAT",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed taxes—Excise Duty, Service Tax, Sales Tax and VAT—are examples of indirect taxes.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-economy-44-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tax",
+     "question": "Consider the following statements:\n\nI. Capital Gains Tax is associated with gains from the sale of a capital asset.\nII. Wealth Tax is associated with wealth.\nIII. Wealth Tax is a historical tax.\nIV. Excise Duty is associated with the production, sale, or licensing of specified goods.\nV. GST is associated with goods and services.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III and IV only",
+      "II, IV and V only",
+      "I, II, III, IV and V",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Capital Gains Tax relates to gains from the sale of a capital asset; Wealth Tax relates to wealth and is historical; Excise Duty concerns specified goods; and GST is associated with goods and services.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-44-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tax",
+     "question": "Consider the following statements:\nStatement A: Service Tax is associated with services.\nStatement B: Service Tax is a historical indirect tax.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Service Tax is associated with services and is identified as a historical indirect tax.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "45": {
    "number": 45,
@@ -6065,7 +7429,19 @@
       "Expenditure directed only toward payment of salaries and pensions"
      ],
      "answer": 0,
-     "explanation": "Capital expenditure is directed toward acquiring, creating, upgrading or extending the life of assets and strengthening long-term productive capacity."
+     "explanation": "Capital expenditure is directed toward acquiring, creating, upgrading or extending the life of assets and strengthening long-term productive capacity.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-46-2",
@@ -6079,7 +7455,19 @@
       "Capital expenditure includes expenditure on equipment and new technology."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the relevant detail: revenue expenditure involves no creation of assets, whereas asset creation or acquisition is associated with capital expenditure."
+     "explanation": "The incorrect statement alters the relevant detail: revenue expenditure involves no creation of assets, whereas asset creation or acquisition is associated with capital expenditure.",
+     "facts": [
+      "F13",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F6",
+      "F7",
+      "F8",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-46-3",
@@ -6093,7 +7481,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Expenditure on acquiring, creating, upgrading or extending the life of assets strengthens long-term productive capacity."
+     "explanation": "Both statements are true. Expenditure on acquiring, creating, upgrading or extending the life of assets strengthens long-term productive capacity.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-46-4",
@@ -6107,7 +7503,16 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: capital expenditure–asset creation or acquisition, revenue expenditure–no creation of assets, non-plan expenditure–subsidies/interest payments/defence services, and long-term productive investment–strengthening productive capacity over the long term."
+     "explanation": "The correct pairs are: capital expenditure–asset creation or acquisition, revenue expenditure–no creation of assets, non-plan expenditure–subsidies/interest payments/defence services, and long-term productive investment–strengthening productive capacity over the long term.",
+     "facts": [
+      "F5",
+      "F13",
+      "F19",
+      "F25",
+      "F26",
+      "F27",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-46-5",
@@ -6121,7 +7526,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes list defence services and interest payments among the components of non-plan expenditure."
+     "explanation": "Both statements are true. The notes list defence services and interest payments among the components of non-plan expenditure.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
     }
    ]
   },
@@ -6445,7 +7854,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Participatory Notes are linked to Indian securities, while FDI involves investment in an enterprise or business. The ultimate P-Note investor has no direct SEBI registration, whereas an FDI investor makes a direct investment."
+     "explanation": "Participatory Notes are linked to Indian securities, while FDI involves investment in an enterprise or business. The ultimate P-Note investor has no direct SEBI registration, whereas an FDI investor makes a direct investment.",
+     "facts": [
+      "F3",
+      "F4",
+      "F9",
+      "F6",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-48-2-2",
@@ -6459,7 +7875,13 @@
       "Non-regular or casual employment"
      ],
      "answer": 0,
-     "explanation": "The notes define the Gig Economy as task/assignment-based work."
+     "explanation": "The notes define the Gig Economy as task/assignment-based work.",
+     "facts": [
+      "F10",
+      "F19",
+      "F15",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-48-2-3",
@@ -6473,7 +7895,12 @@
       "The Marketplace Model connects buyers and sellers."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the model: the Marketplace Model connects buyers and sellers. An entity owning or controlling inventory is the feature of the Inventory Model."
+     "explanation": "The incorrect statement alters the model: the Marketplace Model connects buyers and sellers. An entity owning or controlling inventory is the feature of the Inventory Model.",
+     "facts": [
+      "F11",
+      "F13",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-48-2-4",
@@ -6487,7 +7914,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the definition of casual workers does not explain disguised unemployment."
+     "explanation": "Both statements are true according to the notes. However, the definition of casual workers does not explain disguised unemployment.",
+     "facts": [
+      "F18",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-48-2-5",
@@ -6501,9 +7932,57 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 4 are correct. The Real Sector refers to goods and services, whereas money and financial assets belong to the Financial Sector."
+     "explanation": "Statements 1, 2 and 4 are correct. The Real Sector refers to goods and services, whereas money and financial assets belong to the Financial Sector.",
+     "facts": [
+      "F16",
+      "F17",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-economy-48-2-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Participatory Notes",
+     "question": "Consider the following statements:\nStatement A: Participatory Notes provide portfolio-type exposure.\nStatement B: Participatory Notes enable overseas investors to obtain market exposure.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Participatory Notes provide portfolio-type exposure and enable overseas investors to obtain market exposure.",
+     "facts": [
+      "F1",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-economy-48-2-7",
+     "format": "Assertion-Reason",
+     "keyword": "FDI",
+     "question": "Assertion (A): Participatory Notes are relatively more mobile and volatile.\nReason (R): Foreign Direct Investment is relatively more stable and long-term.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Participatory Notes are relatively more mobile and volatile, whereas FDI is relatively more stable and long-term; the statement about FDI does not explain the mobility and volatility of Participatory Notes.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "49": {
    "number": 49,
@@ -6922,8 +8401,48 @@
      "facts": [
       "F35"
      ]
+    },
+    {
+     "id": "indian-economy-51-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Index",
+     "question": "Consider the following statements:\nStatement A: CPI-AL is compiled by the Labour Bureau.\nStatement B: CPI-RL is compiled by the Labour Bureau.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both CPI-AL and CPI-RL are compiled by the Labour Bureau.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-51-14",
+     "format": "Direct Recall",
+     "keyword": "Publications and Publishers of Reports",
+     "question": "Which institution compiles the Wholesale Price Index (WPI)?",
+     "options": [
+      "National Statistical Office",
+      "Office of Economic Adviser",
+      "Reserve Bank of India",
+      "Labour Bureau"
+     ],
+     "answer": 1,
+     "explanation": "The Wholesale Price Index is compiled by the Office of Economic Adviser.",
+     "facts": [
+      "F15"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "52": {
    "number": 52,
@@ -6952,7 +8471,14 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "HDI and GII are associated with UNDP, PQLI with Morris D. Morris, and MPI with OPHI + UNDP."
+     "explanation": "HDI and GII are associated with UNDP, PQLI with Morris D. Morris, and MPI with OPHI + UNDP.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-52-2",
@@ -6966,7 +8492,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The HDI focus area is human development, measured through health, education and income."
+     "explanation": "Both statements are true. The HDI focus area is human development, measured through health, education and income.",
+     "facts": [
+      "F1",
+      "F27",
+      "F28",
+      "F29",
+      "F26"
+     ]
     },
     {
      "id": "indian-economy-52-3",
@@ -6980,7 +8513,22 @@
       "WPI measures wholesale prices and is associated with the Office of Economic Adviser."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the focus and institution of IIP. IIP measures industrial output, covering mining, manufacturing and electricity, and is associated with NSO; wholesale prices are measured by WPI."
+     "explanation": "The incorrect statement alters the focus and institution of IIP. IIP measures industrial output, covering mining, manufacturing and electricity, and is associated with NSO; wholesale prices are measured by WPI.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
     },
     {
      "id": "indian-economy-52-4",
@@ -6994,7 +8542,24 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. PQLI covers literacy, IMR and life expectancy; MPI covers health, education and living standards; and BNI covers basic necessities including water, sanitation and housing."
+     "explanation": "All three statements are correct. PQLI covers literacy, IMR and life expectancy; MPI covers health, education and living standards; and BNI covers basic necessities including water, sanitation and housing.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F3",
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-52-5",
@@ -7008,9 +8573,90 @@
       "NITI Aayog"
      ],
      "answer": 3,
-     "explanation": "The State Health Index, which focuses on state health performance, is associated with NITI Aayog."
+     "explanation": "The State Health Index, which focuses on state health performance, is associated with NITI Aayog.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-economy-52-6",
+     "format": "Direct Recall",
+     "keyword": "Economic Survey",
+     "question": "BNI is associated with which of the following?",
+     "options": [
+      "National Statistical Office",
+      "Office of Economic Adviser",
+      "NITI Aayog",
+      "Economic Survey"
+     ],
+     "answer": 3,
+     "explanation": "BNI, or Basic Necessities, is associated with the Economic Survey.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-52-7",
+     "format": "List-Matching",
+     "keyword": "Index – Focus Area",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) State Health Index\n(b) CPI\n(c) WPI\n(d) IIP\n\nList-II\n(i) Industrial production\n(ii) State health performance\n(iii) Consumer or retail prices\n(iv) Wholesale prices",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The State Health Index measures state health performance; CPI measures consumer or retail prices, WPI measures wholesale prices, and IIP measures industrial production.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-economy-52-8",
+     "format": "Assertion-Reason",
+     "keyword": "Per Capita Income",
+     "question": "Assertion (A): Per Capita Income focuses on income.\nReason (R): Per Capita Income includes income only.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Per Capita Income focuses on income and includes income only. Therefore, the Reason correctly explains the Assertion.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-economy-52-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "GII",
+     "question": "Consider the following statements:\n\nI. GII measures gender inequality.\nII. GII focuses on gender inequality.\nIII. GII includes health and empowerment.\nIV. GII includes labour.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I, III and IV only",
+      "I, II and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. GII measures and focuses on gender inequality and includes health, empowerment and labour.",
+     "facts": [
+      "F8",
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 48,
+    "covered": 48,
+    "audited": true
+   }
   },
   "52-2": {
    "number": 52,
@@ -7038,7 +8684,10 @@
       "X − M"
      ],
      "answer": 3,
-     "explanation": "Net exports are defined as X − M, where X represents exports and M represents imports."
+     "explanation": "Net exports are defined as X − M, where X represents exports and M represents imports.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-52-2-2",
@@ -7052,7 +8701,13 @@
       "A Balance of Trade surplus occurs when goods exports exceed goods imports."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the definition of Balance of Trade. The complete record of economic transactions with the rest of the world is the Balance of Payments, whereas Balance of Trade covers only goods or visible trade."
+     "explanation": "The incorrect statement alters the definition of Balance of Trade. The complete record of economic transactions with the rest of the world is the Balance of Payments, whereas Balance of Trade covers only goods or visible trade.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-52-2-3",
@@ -7066,7 +8721,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Foreign tourist spending represents an export of services, and tourism is an example of an invisible export."
+     "explanation": "Both statements are true. Foreign tourist spending represents an export of services, and tourism is an example of an invisible export.",
+     "facts": [
+      "F14",
+      "F17",
+      "F19",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-52-2-4",
@@ -7080,7 +8742,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. A trade surplus is defined by exports being greater than imports, while a trade deficit is defined by imports being greater than exports."
+     "explanation": "Both statements are true. A trade surplus is defined by exports being greater than imports, while a trade deficit is defined by imports being greater than exports.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-52-2-5",
@@ -7094,9 +8760,95 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Exports—goods and services sold to the rest of the world; Imports—goods and services purchased from the rest of the world; Balance of Trade—only goods or visible trade; Balance of Payments—complete record of economic transactions with the rest of the world."
+     "explanation": "The correct pairs are: Exports—goods and services sold to the rest of the world; Imports—goods and services purchased from the rest of the world; Balance of Trade—only goods or visible trade; Balance of Payments—complete record of economic transactions with the rest of the world.",
+     "facts": [
+      "F1",
+      "F2",
+      "F6",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-economy-52-2-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Current Account",
+     "question": "Consider the following statements:\nI. The Current Account includes goods.\nII. The Current Account includes services.\nIII. The Current Account includes income.\nIV. The Current Account includes transfers.",
+     "options": [
+      "III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "The Current Account comprises goods, services, income and transfers. Therefore, all four statements are correct.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-economy-52-2-7",
+     "format": "Direct Recall",
+     "keyword": "Closed Economy",
+     "question": "A closed economy is one which has:",
+     "options": [
+      "Exports but no imports",
+      "Imports but no exports",
+      "Neither exports nor imports",
+      "Both exports and imports"
+     ],
+     "answer": 2,
+     "explanation": "A closed economy has neither exports nor imports.",
+     "facts": [
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-economy-52-2-8",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Imports",
+     "question": "Which of the following statements regarding the major-import hierarchy is incorrect?",
+     "options": [
+      "Chemicals are placed above Capital Goods in the hierarchy.",
+      "Capital Goods are placed above Chemicals in the hierarchy.",
+      "Fuel is placed above Petroleum, Oil & Lubricants in the hierarchy.",
+      "Gold/Silver is placed below Chemicals in the hierarchy."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement reverses the position of Chemicals and Capital Goods. The correct hierarchy is Fuel > Petroleum, Oil & Lubricants > Capital Goods > Chemicals > Gold/Silver.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-economy-52-2-9",
+     "format": "Count-Based",
+     "keyword": "Services Exports",
+     "question": "How many of the following are examples of services exports?\n1. IT/software\n2. Banking\n3. Insurance\n4. Financial services\n5. Advertising",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "IT/software, banking, insurance, financial services and advertising are all examples of services exports. Hence, the number is five.",
+     "facts": [
+      "F18",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "53": {
    "number": 53,
@@ -7124,7 +8876,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "Kandla was the first Asian EPZ and India's first EPZ. Surat was the first private-sector EPZ, while the SEZ policy was introduced in 2000."
+     "explanation": "Kandla was the first Asian EPZ and India's first EPZ. Surat was the first private-sector EPZ, while the SEZ policy was introduced in 2000.",
+     "facts": [
+      "F20",
+      "F21",
+      "F25",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-53-2",
@@ -7138,7 +8896,16 @@
       "The EXIM Policy 2000 was announced on March 31, 2000, as part of the 1997–2002 framework."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the year. The SEZ Act became effective on 10 February 2006, not 10 February 2005."
+     "explanation": "The incorrect statement alters the year. The SEZ Act became effective on 10 February 2006, not 10 February 2005.",
+     "facts": [
+      "F2",
+      "F12",
+      "F24",
+      "F3",
+      "F4",
+      "F1",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-53-3",
@@ -7152,7 +8919,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The SEZ objective includes export along with investment, employment and infrastructure, explaining its role as an export-promotion instrument."
+     "explanation": "Both statements are true. The SEZ objective includes export along with investment, employment and infrastructure, explaining its role as an export-promotion instrument.",
+     "facts": [
+      "F19",
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "indian-economy-53-4",
@@ -7166,7 +8940,18 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are ECGC–export credit-risk insurance, MMTC–foreign trade/trading organisation, STC–foreign trade, and NIRVIK–export credit insurance/enhanced insurance cover."
+     "explanation": "The correct pairs are ECGC–export credit-risk insurance, MMTC–foreign trade/trading organisation, STC–foreign trade, and NIRVIK–export credit insurance/enhanced insurance cover.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-53-5",
@@ -7180,9 +8965,37 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct. EPCG is Export Promotion Capital Goods, duty drawback refunds duties on inputs used for export production, and IBEF promotes India's brand internationally."
+     "explanation": "All three statements are correct. EPCG is Export Promotion Capital Goods, duty drawback refunds duties on inputs used for export production, and IBEF promotes India's brand internationally.",
+     "facts": [
+      "F14",
+      "F15",
+      "F13",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-53-6",
+     "format": "Direct Recall",
+     "keyword": "Act",
+     "question": "The Special Economic Zones (SEZ) Act was enacted in which year?",
+     "options": [
+      "2006",
+      "1965",
+      "2000",
+      "2005"
+     ],
+     "answer": 3,
+     "explanation": "The SEZ Act was enacted in 2005. The SEZ policy was introduced in 2000, while the Act became effective on 10 February 2006.",
+     "facts": [
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   },
   "54": {
    "number": 54,

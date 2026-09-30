@@ -28,7 +28,10 @@
       "Andes"
      ],
      "answer": 2,
-     "explanation": "Mt. Everest is identified in the notes as the world’s highest mountain, with a height of 8848.86 m."
+     "explanation": "Mt. Everest is identified in the notes as the world’s highest mountain, with a height of 8848.86 m.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "world-geography-1-2",
@@ -42,7 +45,13 @@
       "Lake Baikal is the deepest lake."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that the Pacific is the smallest ocean. The notes identify the Pacific as the largest ocean."
+     "explanation": "The incorrect statement is that the Pacific is the smallest ocean. The notes identify the Pacific as the largest ocean.",
+     "facts": [
+      "F14",
+      "F25",
+      "F28",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-1-3",
@@ -56,7 +65,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given as facts in the notes. The depth of the Mariana Trench does not explain why the Pacific is the largest ocean."
+     "explanation": "Both statements are given as facts in the notes. The depth of the Mariana Trench does not explain why the Pacific is the largest ocean.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "world-geography-1-4",
@@ -70,7 +84,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Yangtze—longest river in Asia, Greenland—largest island, Great Barrier Reef—largest coral reef, and Congo—deepest river."
+     "explanation": "The correct pairs are: Yangtze—longest river in Asia, Greenland—largest island, Great Barrier Reef—largest coral reef, and Congo—deepest river.",
+     "facts": [
+      "F16",
+      "F22",
+      "F31",
+      "F15"
+     ]
     },
     {
      "id": "world-geography-1-5",
@@ -84,7 +104,91 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are supported by the notes: the Nile is the longest river, the Amazon has the greatest discharge, Lake Superior is the largest freshwater lake by surface area, and the Caspian Sea is the largest lake by area and saline."
+     "explanation": "All four statements are supported by the notes: the Nile is the longest river, the Amazon has the greatest discharge, Lake Superior is the largest freshwater lake by surface area, and the Caspian Sea is the largest lake by area and saline.",
+     "facts": [
+      "F12",
+      "F14",
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-1-6",
+     "format": "List-Matching",
+     "keyword": "Highest / Longest / Mountain range / Mountain location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Height of Mount Everest\n b. Location of Mount Everest\n c. Andes\n d. Location of the Andes\n e. Tibetan Plateau\n f. Alternative name of the Tibetan Plateau\n\nList-II\n i. 8848.86 m\n ii. Nepal-China border\n iii. World’s longest mountain range\n iv. South America\n v. World’s highest plateau\n vi. Roof of the World",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii, e-vi, f-v",
+      "a-i, b-ii, c-iii, d-iv, e-v, f-vi",
+      "a-i, b-ii, c-iv, d-iii, e-v, f-vi",
+      "a-vi, b-v, c-iii, d-iv, e-i, f-ii"
+     ],
+     "answer": 1,
+     "explanation": "Mount Everest is 8848.86 m high and lies on the Nepal-China border. The Andes are the world’s longest mountain range and are in South America; the Tibetan Plateau is the highest plateau and is called the “Roof of the World.”",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "world-geography-1-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Largest plateau",
+     "question": "Consider the following statements:\n\nI. The Deccan Plateau is one of the world’s largest plateaus.\nII. The Brazilian Plateau is one of the world’s largest plateaus.\nIII. The Tibetan Plateau is one of the world’s largest plateaus.\nIV. The Tibetan Plateau is the highest among the largest plateaus.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "II and IV only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "The Deccan, Brazilian and Tibetan plateaus are listed among the world’s largest plateaus. The Tibetan Plateau is the highest among them.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "world-geography-1-8",
+     "format": "Assertion-Reason",
+     "keyword": "Longest river",
+     "question": "Assertion (A): The Nile is approximately 6650 km long.\nReason (R): The Nile is the longest river in the world.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The Nile is approximately 6650 km long, and it is identified as the longest river in the world. However, its status as the longest river does not explain the stated numerical length.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "world-geography-1-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Longest international border",
+     "question": "Consider the following statements:\n\nStatement A: The USA–Canada border is the world’s longest international border.\nStatement B: The USA–Canada border is approximately 8890 km long.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The USA–Canada border is identified as the world’s longest international border, with an approximate length of 8890 km.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
     }
    ]
   },
@@ -198,8 +302,105 @@
       "F22",
       "F23"
      ]
+    },
+    {
+     "id": "world-geography-2-6",
+     "format": "List-Matching",
+     "keyword": "Highest / Lowest / Salinity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Highest navigable lake\n(b) Lowest point on land\n(c) Saltiest water body\n(d) Extremely saline lake\n\nList-II\n(i) Gaet'ale Pond\n(ii) Lake Titicaca\n(iii) Lake Don Juan\n(iv) Dead Sea shore",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Lake Titicaca is the highest navigable lake, the Dead Sea shore is the lowest point on land, Gaet'ale Pond is the saltiest water body, and Lake Don Juan is extremely saline.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "world-geography-2-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Temperature and Rainfall Extremes",
+     "question": "Consider the following statements:\n\nI. Furnace Creek in Death Valley is the hottest recorded place.\nII. Oymyakon is the coldest inhabited place.\nIII. Mawsynram is the wettest or rainiest place.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: Furnace Creek in Death Valley is the hottest recorded place, Oymyakon is the coldest inhabited place, and Mawsynram is the wettest or rainiest place.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "world-geography-2-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Largest Delta",
+     "question": "Consider the following statements:\nStatement A: The Ganges–Brahmaputra Delta is the largest delta.\nStatement B: The Ganges–Brahmaputra Delta is also called the Sundarbans.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Ganges–Brahmaputra Delta is the largest delta and is also called the Sundarbans.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-2-9",
+     "format": "Direct Recall",
+     "keyword": "Largest Bay",
+     "question": "Which of the following is the largest bay?",
+     "options": [
+      "Bay of Bengal",
+      "Drake Passage",
+      "Gulf of Mexico",
+      "Strait of Malacca"
+     ],
+     "answer": 0,
+     "explanation": "The Bay of Bengal is the largest bay.",
+     "facts": [
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-2-10",
+     "format": "Assertion-Reason",
+     "keyword": "Highest Active Volcano / Largest Active Volcano",
+     "question": "Assertion (A): Ojos del Salado is the highest active volcano.\nReason (R): Mauna Loa is the largest active volcano by volume.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Mauna Loa's volume does not explain Ojos del Salado's status as the highest active volcano.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -442,7 +643,15 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The USA is the leading producer of crude oil and natural gas, Kazakhstan is the leading uranium producer, and Mexico is the leading silver producer."
+     "explanation": "The USA is the leading producer of crude oil and natural gas, Kazakhstan is the leading uranium producer, and Mexico is the leading silver producer.",
+     "facts": [
+      "F2",
+      "F5",
+      "F8",
+      "F19",
+      "F9",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-4-2",
@@ -456,7 +665,14 @@
       "Russia has the largest proven reserves of natural gas."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Qatar has the largest proven reserves of natural gas. Russia has the largest proven reserves; Qatar is identified as a major LNG exporter."
+     "explanation": "The incorrect statement is that Qatar has the largest proven reserves of natural gas. Russia has the largest proven reserves; Qatar is identified as a major LNG exporter.",
+     "facts": [
+      "F3",
+      "F4",
+      "F10",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "world-geography-4-3",
@@ -470,7 +686,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. China dominates rare earth element processing at more than 85%, while their importance in technology and defence does not by itself explain China's processing dominance."
+     "explanation": "Both statements are true. China dominates rare earth element processing at more than 85%, while their importance in technology and defence does not by itself explain China's processing dominance.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "world-geography-4-4",
@@ -484,7 +704,14 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. Indonesia leads nickel production, the Democratic Republic of the Congo supplies more than 70% of global mined cobalt, and Bolivia, Argentina and Chile constitute the Lithium Triangle."
+     "explanation": "All three statements are correct. Indonesia leads nickel production, the Democratic Republic of the Congo supplies more than 70% of global mined cobalt, and Bolivia, Argentina and Chile constitute the Lithium Triangle.",
+     "facts": [
+      "F17",
+      "F14",
+      "F12",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "world-geography-4-5",
@@ -498,9 +725,72 @@
       "Venezuela"
      ],
      "answer": 2,
-     "explanation": "Qatar is identified as a major LNG exporter."
+     "explanation": "Qatar is identified as a major LNG exporter.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "world-geography-4-6",
+     "format": "Direct Recall",
+     "keyword": "Commodity / Resource",
+     "question": "Crude oil is also known as:",
+     "options": [
+      "Silver",
+      "Uranium",
+      "Petroleum",
+      "Natural gas"
+     ],
+     "answer": 2,
+     "explanation": "The sheet identifies petroleum as another name for crude oil.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "world-geography-4-7",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Lithium\n(b) Cobalt refining\n(c) Nickel-production expansion\n(d) Silver production\n\nList-II\n(i) Australia\n(ii) China\n(iii) Indonesia\n(iv) China and Peru\n\nSelect the correct code:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Australia is a major hard-rock lithium producer; China dominates cobalt refining; Indonesia's nickel expansion is driven by nickel pig iron and electric-vehicle battery supply chains; and China and Peru are also major silver producers.",
+     "facts": [
+      "F11",
+      "F16",
+      "F18",
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-4-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Largest / Mineral Resources → Location",
+     "question": "Consider the following statements:\nStatement A: China is the world's number-one producer of rare earth elements.\nStatement B: China accounts for approximately 70% of rare-earth-element mining.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet identifies China as the world's number-one producer of rare earth elements and states that it accounts for approximately 70% of rare-earth-element mining.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -8321,7 +8611,10 @@
       "Singapore"
      ],
      "answer": 2,
-     "explanation": "Shanghai in China is noted as the world’s busiest container port for many years."
+     "explanation": "Shanghai in China is noted as the world’s busiest container port for many years.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "world-geography-25-2",
@@ -8335,7 +8628,14 @@
       "Maracaibo developed as an oil port."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the country: Yokohama is the busiest port of Japan, not South Korea."
+     "explanation": "The incorrect detail is the country: Yokohama is the busiest port of Japan, not South Korea.",
+     "facts": [
+      "F6",
+      "F25",
+      "F27",
+      "F29",
+      "F24"
+     ]
     },
     {
      "id": "world-geography-25-3",
@@ -8349,7 +8649,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify Rotterdam as the largest port in Europe and state that it was historically called the largest harbour."
+     "explanation": "The notes identify Rotterdam as the largest port in Europe and state that it was historically called the largest harbour.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "world-geography-25-4",
@@ -8363,7 +8667,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Shanghai–China, Antwerp-Bruges–Belgium, Los Angeles / Long Beach–USA, and Alexandria–Egypt."
+     "explanation": "The correct pairs are Shanghai–China, Antwerp-Bruges–Belgium, Los Angeles / Long Beach–USA, and Alexandria–Egypt.",
+     "facts": [
+      "F2",
+      "F20",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "world-geography-25-5",
@@ -8377,7 +8687,16 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are supported by the notes. Singapore, not London, is identified as a major global transshipment hub, so statement IV is incorrect."
+     "explanation": "Statements I, II and III are supported by the notes. Singapore, not London, is identified as a major global transshipment hub, so statement IV is incorrect.",
+     "facts": [
+      "F6",
+      "F9",
+      "F10",
+      "F13",
+      "F31",
+      "F7",
+      "F33"
+     ]
     }
    ]
   },
@@ -8407,7 +8726,13 @@
       "Jebel Ali Natural Gas"
      ],
      "answer": 3,
-     "explanation": "Jebel Ali Natural Gas is located in the UAE, in Dubai."
+     "explanation": "Jebel Ali Natural Gas is located in the UAE, in Dubai.",
+     "facts": [
+      "F34",
+      "F37",
+      "F27",
+      "F40"
+     ]
     },
     {
      "id": "world-geography-26-2",
@@ -8421,7 +8746,20 @@
       "Itaipu Dam is located in Brazil–Paraguay and has an approximate capacity of 14,000 MW."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is the third one. Xiluodu Dam is on the Jinsha River, not the Yangtze River in Hubei; its approximate capacity is 13,860 MW."
+     "explanation": "The incorrect statement is the third one. Xiluodu Dam is on the Jinsha River, not the Yangtze River in Hubei; its approximate capacity is 13,860 MW.",
+     "facts": [
+      "F7",
+      "F8",
+      "F10",
+      "F18",
+      "F19",
+      "F20",
+      "F22",
+      "F23",
+      "F25",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "world-geography-26-3",
@@ -8435,7 +8773,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the plant’s size and operating status do not explain why it is located in Japan. Thus, R does not correctly explain A."
+     "explanation": "Both statements are true, but the plant’s size and operating status do not explain why it is located in Japan. Thus, R does not correctly explain A.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "world-geography-26-4",
@@ -8449,7 +8793,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes: Kori Plant is in South Korea and Tuoketuo is a coal power station in China."
+     "explanation": "Both statements are true according to the notes: Kori Plant is in South Korea and Tuoketuo is a coal power station in China.",
+     "facts": [
+      "F30",
+      "F31",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "world-geography-26-5",
@@ -8463,7 +8813,13 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Three Gorges Dam–China (a-iii), Itaipu Dam–Brazil–Paraguay (b-ii), Belo Monte Dam–Brazil (c-iv), and Sayano-Shushenskaya–Russia (d-i)."
+     "explanation": "The correct pairs are: Three Gorges Dam–China (a-iii), Itaipu Dam–Brazil–Paraguay (b-ii), Belo Monte Dam–Brazil (c-iv), and Sayano-Shushenskaya–Russia (d-i).",
+     "facts": [
+      "F3",
+      "F13",
+      "F23",
+      "F40"
+     ]
     }
    ]
   },
@@ -8827,10 +9183,235 @@
       "F68",
       "F69",
       "F61",
-      "F62"
+      "F62",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "world-geography-28-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Language Family → Distribution",
+     "question": "Consider the following statements:\nI. The Indo-European language family is distributed across Europe.\nII. The Indo-European language family is distributed across Iran.\nIII. The Indo-European language family is distributed across the Indian subcontinent.\nIV. The Indo-European language family is distributed across the Americas.\nV. The Indo-European language family is distributed across Australia.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III, IV and V only",
+      "I, II and III only",
+      "I, II, III, IV and V",
+      "I, III, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "The Indo-European language family is distributed across Europe, Iran, the Indian subcontinent, the Americas and Australia.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "world-geography-28-7",
+     "format": "Count-Based",
+     "keyword": "Major Languages → Indo-European",
+     "question": "How many of the following are identified as major Indo-European languages?\n1. Spanish\n2. Hindi\n3. Russian\n4. Portuguese\n5. French\n6. German\n7. Bengali\n8. Persian",
+     "options": [
+      "Only five",
+      "Only six",
+      "Only seven",
+      "Only eight"
+     ],
+     "answer": 3,
+     "explanation": "All eight listed languages—Spanish, Hindi, Russian, Portuguese, French, German, Bengali and Persian—are major Indo-European languages.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "world-geography-28-8",
+     "format": "Assertion-Reason",
+     "keyword": "Language Family → Speaker Strength",
+     "question": "Assertion (A): The Sino-Tibetan language family is the second largest language family by number of speakers.\nReason (R): Cantonese, Tibetan and Burmese are major Sino-Tibetan languages.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The identification of Cantonese, Tibetan and Burmese as major Sino-Tibetan languages does not explain the family’s ranking as second largest by speakers.",
+     "facts": [
+      "F17",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-28-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Language Family → Distribution",
+     "question": "Consider the following statements:\nStatement A: The Niger-Congo language family is distributed across Sub-Saharan Africa.\nStatement B: The Niger-Congo language family includes Bantu languages.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Niger-Congo language family is distributed across Sub-Saharan Africa and includes Bantu languages.",
+     "facts": [
+      "F28",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-28-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Languages → Niger-Congo",
+     "question": "Consider the following statements:\nI. Yoruba is a major Niger-Congo language.\nII. Zulu is a major Niger-Congo language.\nIII. Igbo is a major Niger-Congo language.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Yoruba, Zulu and Igbo are all listed as major Niger-Congo languages.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-28-11",
+     "format": "Direct Recall",
+     "keyword": "Language Family → Speaker Strength",
+     "question": "Which of the following correctly describes the Afro-Asiatic language family?",
+     "options": [
+      "It has significant numbers of speakers",
+      "It is mainly distributed across South India",
+      "It is the second largest language family by number of speakers",
+      "It is the largest language family by number of languages"
+     ],
+     "answer": 0,
+     "explanation": "The Afro-Asiatic language family is described as having significant numbers of speakers.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "world-geography-28-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Language Family → Distribution",
+     "question": "Consider the following statements:\nStatement A: The Afro-Asiatic language family is distributed across North-East Africa.\nStatement B: The Afro-Asiatic language family is distributed across the Horn of Africa.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Afro-Asiatic language family is distributed across both North-East Africa and the Horn of Africa.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "world-geography-28-13",
+     "format": "Assertion-Reason",
+     "keyword": "Language Family → Distribution",
+     "question": "Assertion (A): The Afro-Asiatic language family is distributed across Middle Africa.\nReason (R): Arabic, Hebrew, Amharic, Hausa and Somali are major Afro-Asiatic languages.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The listed languages are major Afro-Asiatic languages, but their names do not explain the family’s distribution across Middle Africa.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-28-14",
+     "format": "Direct Recall",
+     "keyword": "Language Family → Number of Languages",
+     "question": "Which language family contains a large number of languages?",
+     "options": [
+      "Sino-Tibetan",
+      "Austronesian",
+      "Austro-Asiatic",
+      "Afro-Asiatic"
+     ],
+     "answer": 1,
+     "explanation": "The Austronesian language family contains a large number of languages.",
+     "facts": [
+      "F43"
+     ]
+    },
+    {
+     "id": "world-geography-28-15",
+     "format": "Count-Based",
+     "keyword": "Major Languages",
+     "question": "How many of the following are identified as major Austronesian languages?\n1. Malay or Indonesian\n2. Tagalog\n3. Javanese\n4. Maori\n5. Malagasy",
+     "options": [
+      "Only three",
+      "Only four",
+      "All five",
+      "Only two"
+     ],
+     "answer": 2,
+     "explanation": "All five listed languages—Malay or Indonesian, Tagalog, Javanese, Maori and Malagasy—are identified as major Austronesian languages.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-28-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Language Family → Major Languages",
+     "question": "Consider the following statements:\nI. The Austro-Asiatic language family has a smaller number of languages.\nII. Santali is a major Austro-Asiatic language.\nIII. Mundari and Khasi are major Austro-Asiatic languages.\nIV. Vietnamese is sometimes linked with the Austro-Asiatic language family.",
+     "options": [
+      "II and III only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The Austro-Asiatic family has a smaller number of languages; Santali, Mundari and Khasi are major languages, while Vietnamese is sometimes linked with the family.",
+     "facts": [
+      "F60",
+      "F63",
+      "F64",
+      "F65",
+      "F66"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 71,
+    "covered": 71,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -8858,7 +9439,10 @@
       "Dravidian"
      ],
      "answer": 0,
-     "explanation": "The notes identify Indo-European as the most spoken language family by number of speakers."
+     "explanation": "The notes identify Indo-European as the most spoken language family by number of speakers.",
+     "facts": [
+      "F24"
+     ]
     },
     {
      "id": "world-geography-29-2",
@@ -8872,7 +9456,11 @@
       "Austronesian is the second-largest family by number of languages."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the family identified as largest by number of languages. The notes state that Niger-Congo is the largest, followed by Austronesian."
+     "explanation": "The incorrect detail is the family identified as largest by number of languages. The notes state that Niger-Congo is the largest, followed by Austronesian.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "world-geography-29-3",
@@ -8886,7 +9474,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: Mandarin Chinese is the most spoken single language and belongs to the Sino-Tibetan family. However, its family classification does not explain why it is the most spoken single language."
+     "explanation": "Both statements are given in the notes: Mandarin Chinese is the most spoken single language and belongs to the Sino-Tibetan family. However, its family classification does not explain why it is the most spoken single language.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "world-geography-29-4",
@@ -8900,7 +9492,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. English is identified as the official language of the largest number of countries, and the language of the Roma is stated to be related to Indian Indo-Aryan languages."
+     "explanation": "Both statements are directly supported by the notes. English is identified as the official language of the largest number of countries, and the language of the Roma is stated to be related to Indian Indo-Aryan languages.",
+     "facts": [
+      "F29",
+      "F31"
+     ]
     },
     {
      "id": "world-geography-29-5",
@@ -8914,9 +9510,152 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Indo-European—North, West and East India; Dravidian—South India; Austro-Asiatic—Central and East India, Meghalaya; Sino-Tibetan—Northeast India and Himalayas."
+     "explanation": "The correct pairs are: Indo-European—North, West and East India; Dravidian—South India; Austro-Asiatic—Central and East India, Meghalaya; Sino-Tibetan—Northeast India and Himalayas.",
+     "facts": [
+      "F1",
+      "F9",
+      "F14",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-29-6",
+     "format": "Count-Based",
+     "keyword": "Language family → Examples",
+     "question": "How many of the following languages belong to the Indo-European (Indo-Aryan) language family?\n\n1. Hindi\n2. Odia\n3. Assamese\n4. Bengali",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Hindi, Odia, Assamese and Bengali all belong to the Indo-European (Indo-Aryan) language family.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-29-7",
+     "format": "Assertion-Reason",
+     "keyword": "Language family → Examples",
+     "question": "Assertion (A): Tamil belongs to the Dravidian language family.\nReason (R): Telugu belongs to the Dravidian language family.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the fact that Telugu belongs to the Dravidian family does not explain why Tamil belongs to that family.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "world-geography-29-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Language family → Examples",
+     "question": "Consider the following statements:\nStatement A: Kannada belongs to the Dravidian language family.\nStatement B: Malayalam belongs to the Dravidian language family.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both Kannada and Malayalam belong to the Dravidian language family.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "world-geography-29-9",
+     "format": "List-Matching",
+     "keyword": "Language family → Examples",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Santali\n(b) Mundari\n(c) Ho\n(d) Khasi\n\nList-II\n(i) Indo-European (Indo-Aryan)\n(ii) Dravidian\n(iii) Austro-Asiatic (Austric)\n(iv) Sino-Tibetan (Tibeto-Burman)",
+     "options": [
+      "a-iii, b-iii, c-iii, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Santali, Mundari, Ho and Khasi are all examples of languages belonging to the Austro-Asiatic (Austric) language family.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-29-10",
+     "format": "List-Matching",
+     "keyword": "Language family → Examples",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Bodo\n(b) Manipuri\n(c) Naga languages\n(d) Ladakhi\n\nList-II\n(i) Indo-European (Indo-Aryan)\n(ii) Dravidian\n(iii) Austro-Asiatic (Austric)\n(iv) Sino-Tibetan (Tibeto-Burman)",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iv, b-iv, c-iv, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Bodo, Manipuri, Naga languages and Ladakhi all belong to the Sino-Tibetan (Tibeto-Burman) language family.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "world-geography-29-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Language Family Classification",
+     "question": "Consider the following statements:\nI. Marathi belongs to the Indo-European (Indo-Aryan) language family.\nII. Gujarati belongs to the Indo-European (Indo-Aryan) language family.\nIII. Punjabi belongs to the Indo-European (Indo-Aryan) language family.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "The notes classify Marathi, Gujarati and Punjabi under the Indo-European (Indo-Aryan) language family. Therefore, all three statements are correct.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "world-geography-29-12",
+     "format": "Direct Recall",
+     "keyword": "Language Family Classification",
+     "question": "English belongs to which of the following language families?",
+     "options": [
+      "Austro-Asiatic (Austric)",
+      "Sino-Tibetan (Tibeto-Burman)",
+      "Dravidian",
+      "Indo-European"
+     ],
+     "answer": 3,
+     "explanation": "English is identified as belonging to the Indo-European language family.",
+     "facts": [
+      "F30"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -9314,8 +10053,70 @@
       "F50",
       "F53"
      ]
+    },
+    {
+     "id": "world-geography-30-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "National Park → Location/Feature",
+     "question": "Consider the following statements:\nI. Komodo National Park has Komodo dragons.\nII. Great Barrier Reef Marine Park is in Australia.\nIII. Kakadu National Park is in Australia.\nIV. Kakadu National Park has Aboriginal rock art.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and IV only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Komodo National Park has Komodo dragons; Great Barrier Reef Marine Park and Kakadu National Park are in Australia; and Kakadu has Aboriginal rock art.",
+     "facts": [
+      "F56",
+      "F57",
+      "F59",
+      "F60"
+     ]
+    },
+    {
+     "id": "world-geography-30-22",
+     "format": "Assertion-Reason",
+     "keyword": "National Park → Feature",
+     "question": "Assertion (A): Torres del Paine National Park has Patagonian mountains.\nReason (R): Torres del Paine National Park has glaciers.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Torres del Paine National Park is associated with Patagonian mountains and glaciers, but the presence of glaciers does not explain its association with Patagonian mountains.",
+     "facts": [
+      "F63",
+      "F64"
+     ]
+    },
+    {
+     "id": "world-geography-30-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "National Park → Feature",
+     "question": "Consider the following statements:\nStatement A: Kakadu National Park has wetlands.\nStatement B: Torres del Paine National Park has Patagonian mountains and glaciers.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: Kakadu National Park has wetlands, while Torres del Paine National Park has Patagonian mountains and glaciers.",
+     "facts": [
+      "F61",
+      "F63",
+      "F64"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 64,
+    "covered": 64,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,

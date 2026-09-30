@@ -1788,8 +1788,127 @@
       "F16",
       "F17"
      ]
+    },
+    {
+     "id": "biology-9-6",
+     "format": "List-Matching",
+     "keyword": "Discovery → Discoverer",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Nucleus\n(b) Law of inheritance\n(c) Blood groups\n(d) Tobacco mosaic virus\n\nList-II\n(i) Robert Brown\n(ii) Gregor Johann Mendel\n(iii) Karl Landsteiner\n(iv) Dmitri Ivanovsky",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Robert Brown discovered the nucleus, Gregor Johann Mendel discovered the law of inheritance, Karl Landsteiner discovered blood groups, and Dmitri Ivanovsky discovered the tobacco mosaic virus.",
+     "facts": [
+      "F3",
+      "F4",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-9-7",
+     "format": "List-Matching",
+     "keyword": "Disease/biological discovery → Discoverer or entity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Malaria parasite\n(b) Cause of malaria\n(c) Insulin\n(d) Bacterial transduction\n\nList-II\n(i) Plasmodium\n(ii) Ronald Ross\n(iii) Banting and Best with Macleod\n(iv) Norton Zinder and Joshua Lederberg",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Plasmodium is the malaria parasite; Ronald Ross discovered the cause of malaria; insulin was discovered by Banting and Best with Macleod; and bacterial transduction was discovered by Norton Zinder and Joshua Lederberg.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F23"
+     ]
+    },
+    {
+     "id": "biology-9-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Discovery → Discoverer",
+     "question": "Consider the following statements:\n\nI. DNA polymerase was discovered by Arthur Kornberg.\nII. J.C. Bose established that plants have life.\nIII. Bee communication by dance was discovered by Karl von Frisch.\nIV. H.T.L.V.-III is the AIDS virus.\nV. H.T.L.V.-III or the AIDS virus was discovered by Robert Gallo.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, II, III and IV only",
+      "I, II and III only",
+      "II, III, IV and V only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct: Arthur Kornberg is associated with DNA polymerase, J.C. Bose with plants having life, Karl von Frisch with bee dance communication, and H.T.L.V.-III with AIDS and Robert Gallo.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "biology-9-9",
+     "format": "Assertion-Reason",
+     "keyword": "MSCs → Discovery location",
+     "question": "Assertion (A): The first MSCs were found in bone marrow.\nReason (R): Bone marrow is the discovery location of the first MSCs, not the name of a person.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Bone marrow is the location where the first MSCs were found, and it is not the name of a discoverer; however, the clarification in R does not explain the finding in A.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-9-10",
+     "format": "Assertion-Reason",
+     "keyword": "Oncogene → First identification and year",
+     "question": "Assertion (A): SRC was the first oncogene.\nReason (R): The first oncogene was discovered in 1970.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "SRC was the first oncogene, and the first oncogene was discovered in 1970. The year of discovery does not explain why SRC was identified as the first oncogene.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "biology-9-11",
+     "format": "Direct Recall",
+     "keyword": "Fossils → First discovery",
+     "question": "The first fossils discovered from the fossil locality identified in the account were those of:",
+     "options": [
+      "Polio vaccine",
+      "Tobacco mosaic virus",
+      "Archaeopteryx",
+      "Streptomycin"
+     ],
+     "answer": 2,
+     "explanation": "The fossils first discovered from the mentioned fossil locality were Archaeopteryx fossils.",
+     "facts": [
+      "F33"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 33,
+    "covered": 33,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -1902,7 +2021,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Cell Theory—Schleiden and Schwann; DNA fingerprinting in India—Lalji Singh; Hybridoma technique—Georges Köhler and César Milstein; and cloning of Dolly—Ian Wilmut, Keith Campbell and colleagues."
+     "explanation": "The correct pairs are Cell Theory—Schleiden and Schwann; DNA fingerprinting in India—Lalji Singh; Hybridoma technique—Georges Köhler and César Milstein; and cloning of Dolly—Ian Wilmut, Keith Campbell and colleagues.",
+     "facts": [
+      "F1",
+      "F6",
+      "F8",
+      "F7"
+     ]
     },
     {
      "id": "biology-11-2",
@@ -1916,7 +2041,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, Lalji Singh’s association with DNA fingerprinting in India does not explain Alec Jeffreys’ development of DNA fingerprinting."
+     "explanation": "Both statements are true according to the notes. However, Lalji Singh’s association with DNA fingerprinting in India does not explain Alec Jeffreys’ development of DNA fingerprinting.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-11-3",
@@ -1930,7 +2059,14 @@
       "The oral polio vaccine was developed by Albert Sabin."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Moderna, NIAID and BARDA are associated with the Moderna vaccine, whereas Sputnik V is associated with the Gamaleya Research Institute."
+     "explanation": "The incorrect statement is the fourth one. Moderna, NIAID and BARDA are associated with the Moderna vaccine, whereas Sputnik V is associated with the Gamaleya Research Institute.",
+     "facts": [
+      "F3",
+      "F19",
+      "F20",
+      "F21",
+      "F4"
+     ]
     },
     {
      "id": "biology-11-4",
@@ -1944,7 +2080,13 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All four statements are supported by the notes: Mahyco is linked with Bt Brinjal, Prof. Deepak Pental and the Delhi University team with GM Mustard/DMH-11, Gurdev Singh Khush with Super Rice, and PG gene antisense insertion with Flavr-Savr tomato."
+     "explanation": "All four statements are supported by the notes: Mahyco is linked with Bt Brinjal, Prof. Deepak Pental and the Delhi University team with GM Mustard/DMH-11, Gurdev Singh Khush with Super Rice, and PG gene antisense insertion with Flavr-Savr tomato.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-11-5",
@@ -1958,9 +2100,116 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. The Dapog rice nursery method is associated with the Philippines, and Jaya was the first dwarf rice variety in India."
+     "explanation": "Both statements are true according to the notes. The Dapog rice nursery method is associated with the Philippines, and Jaya was the first dwarf rice variety in India.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "biology-11-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Developed by",
+     "question": "Consider the following statements:\nI. Saheli contraceptive was developed by CDRI, Lucknow.\nII. Lukoskin was developed by DRDO and DIBER.\nIII. Amtooth was developed by DRDO.\nIV. Eczit was developed by DRDO.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Saheli was developed by CDRI, Lucknow; Lukoskin by DRDO and DIBER; and both Amtooth and Eczit by DRDO.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-11-7",
+     "format": "Assertion-Reason",
+     "keyword": "Developed by",
+     "question": "Assertion (A): R21/Matrix-M was developed by the Oxford Jenner Institute and the Serum Institute of India with Novavax adjuvant technology.\nReason (R): Novavax provided adjuvant technology for R21/Matrix-M.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Novavax’s provision of adjuvant technology explains the reference to Novavax adjuvant technology in the development of R21/Matrix-M.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "biology-11-8",
+     "format": "List-Matching",
+     "keyword": "Developed by",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Crop-logging concept\n(b) First polio vaccine\n(c) Oral polio vaccine\n(d) Super rice\n\nList-II\n(i) Clements of the USA\n(ii) Jonas Salk\n(iii) Albert Sabin\n(iv) Gurdev Singh Khush",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The crop-logging concept was developed by Clements of the USA; the first polio vaccine was developed by Jonas Salk; the oral polio vaccine by Albert Sabin; and Super rice is associated with Gurdev Singh Khush.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F11"
+     ]
+    },
+    {
+     "id": "biology-11-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Developed by",
+     "question": "Consider the following statements:\n\nI. Cloning of Dolly is associated with Ian Wilmut, Keith Campbell and colleagues.\nII. The hybridoma technique was developed by Georges Köhler and César Milstein.\nIII. Flavr-Savr tomato involved PG gene antisense insertion.\nIV. Amtooth was developed by DRDO.",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Dolly's cloning is associated with Ian Wilmut, Keith Campbell and colleagues; the hybridoma technique with Georges Köhler and César Milstein; Flavr-Savr tomato with PG gene antisense insertion; and Amtooth with DRDO.",
+     "facts": [
+      "F7",
+      "F8",
+      "F12",
+      "F15"
+     ]
+    },
+    {
+     "id": "biology-11-10",
+     "format": "List-Matching",
+     "keyword": "Developed by",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Eczit\n(b) Covishield\n(c) Sputnik V\n(d) Moderna vaccine\n\nList-II\n(i) DRDO\n(ii) AstraZeneca and Oxford University\n(iii) Gamaleya Research Institute\n(iv) Moderna, NIAID and BARDA",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Eczit was developed by DRDO; Covishield is associated with AstraZeneca and Oxford University; Sputnik V with the Gamaleya Research Institute; and the Moderna vaccine with Moderna, NIAID and BARDA.",
+     "facts": [
+      "F16",
+      "F19",
+      "F20",
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 23,
+    "covered": 23,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -4773,7 +5022,14 @@
       "Female Anopheles"
      ],
      "answer": 2,
-     "explanation": "The notes identify Wuchereria bancrofti as the parasite of filariasis and Culex as its vector."
+     "explanation": "The notes identify Wuchereria bancrofti as the parasite of filariasis and Culex as its vector.",
+     "facts": [
+      "F2",
+      "F4",
+      "F9",
+      "F10",
+      "F23"
+     ]
     },
     {
      "id": "biology-18-2",
@@ -4787,7 +5043,18 @@
       "Domestic pigs and wild birds are associated with Japanese encephalitis."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the disease association: pigs are an important host for swine flu, whereas rabies is associated with dogs, cats, bats, foxes and other wild animals."
+     "explanation": "The incorrect detail is the disease association: pigs are an important host for swine flu, whereas rabies is associated with dogs, cats, bats, foxes and other wild animals.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F39",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "biology-18-3",
@@ -4801,7 +5068,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes pair Leishmania with kala-azar, identify the sandfly as its vector, and list dogs as the reservoir. Thus, the reason correctly explains the assertion."
+     "explanation": "The notes pair Leishmania with kala-azar, identify the sandfly as its vector, and list dogs as the reservoir. Thus, the reason correctly explains the assertion.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-18-4",
@@ -4815,7 +5087,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Plasmodium–Malaria, Trypanosoma–Sleeping sickness, Ascaris lumbricoides–Ascariasis, and Dracunculus medinensis–Guinea worm disease."
+     "explanation": "The correct pairs are Plasmodium–Malaria, Trypanosoma–Sleeping sickness, Ascaris lumbricoides–Ascariasis, and Dracunculus medinensis–Guinea worm disease.",
+     "facts": [
+      "F3",
+      "F8",
+      "F12",
+      "F24"
+     ]
     },
     {
      "id": "biology-18-5",
@@ -4829,7 +5107,134 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III agree with the notes. Statement IV is incorrect because birds or poultry are associated with bird flu; pigs are an important host for swine flu."
+     "explanation": "Statements I, II and III agree with the notes. Statement IV is incorrect because birds or poultry are associated with bird flu; pigs are an important host for swine flu.",
+     "facts": [
+      "F25",
+      "F26",
+      "F39",
+      "F44",
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "biology-18-6",
+     "format": "Direct Recall",
+     "keyword": "Parasite → Host",
+     "question": "Plasmodium has which of the following as its host?",
+     "options": [
+      "Humans",
+      "Snails",
+      "Dogs",
+      "Cattle"
+     ],
+     "answer": 0,
+     "explanation": "Plasmodium has humans as hosts.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "biology-18-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Parasite → Disease/Association",
+     "question": "Consider the following statements about Taenia solium:\nI. It has humans as hosts.\nII. It is associated with pork.\nIII. It causes taeniasis.\nIV. It causes neurocysticercosis.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, III and IV only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Taenia solium has humans as hosts, is associated with pork, and causes taeniasis and neurocysticercosis.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-18-8",
+     "format": "Assertion-Reason",
+     "keyword": "Parasite → Intermediate Host/Disease",
+     "question": "Assertion (A): Schistosoma has a snail as an intermediate host.\nReason (R): Schistosoma causes schistosomiasis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the disease caused by Schistosoma does not explain why a snail acts as its intermediate host.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "biology-18-9",
+     "format": "Count-Based",
+     "keyword": "Parasite → Main Host/Disease",
+     "question": "How many of the following statements about Fasciola are correct?\n1. Cattle are main hosts of Fasciola.\n2. Sheep are main hosts of Fasciola.\n3. Fasciola causes fascioliasis.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "All three listed statements are correct. Cattle and sheep are main hosts of Fasciola, which causes fascioliasis.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-18-10",
+     "format": "List-Matching",
+     "keyword": "Disease → Animal Reservoir/Host",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Ebola\n b. Nipah\n c. Fascioliasis\n d. Foot-and-mouth disease\n\nList-II\n i. Cattle, sheep, goats and pigs\n ii. Animals and non-human primates\n iii. Animal-associated; pigs are discussed as a source\n iv. Cattle and sheep or other ruminants",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Ebola–animals and non-human primates, Nipah–animal-associated with pigs discussed as a source, fascioliasis–cattle and sheep or other ruminants, and foot-and-mouth disease–cattle, sheep, goats and pigs.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "biology-18-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disease Cycle → Hosts",
+     "question": "Consider the following statements:\nStatement A: Humans are part of the malaria cycle.\nStatement B: Mosquitoes are part of the malaria cycle.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both humans and mosquitoes are part of the malaria cycle.",
+     "facts": [
+      "F37",
+      "F38"
+     ]
     }
    ]
   },
@@ -4859,7 +5264,11 @@
       "Louis Pasteur"
      ],
      "answer": 1,
-     "explanation": "The notes identify Jonas Salk as the developer of the first polio vaccine. Albert Sabin is associated with the Oral Polio Vaccine."
+     "explanation": "The notes identify Jonas Salk as the developer of the first polio vaccine. Albert Sabin is associated with the Oral Polio Vaccine.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-19-2",
@@ -4873,7 +5282,15 @@
       "R21/Matrix-M was developed through collaboration between the Oxford Jenner Institute and Serum Institute."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that a vaccine has been attributed to AIDS. The notes specifically state that there is no vaccine attribution for AIDS."
+     "explanation": "The incorrect statement is that a vaccine has been attributed to AIDS. The notes specifically state that there is no vaccine attribution for AIDS.",
+     "facts": [
+      "F23",
+      "F19",
+      "F32",
+      "F25",
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "biology-19-3",
@@ -4887,7 +5304,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. DPT denotes Diphtheria, Pertussis and Tetanus, the three diseases against which the vaccine is used."
+     "explanation": "Both statements are true. DPT denotes Diphtheria, Pertussis and Tetanus, the three diseases against which the vaccine is used.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "biology-19-4",
@@ -4901,7 +5321,20 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Rabies—dogs, cats, bats and foxes; Plague—rat/flea cycle; Ebola—non-human primates; and Foot and Mouth Disease—cattle, sheep, goat and pig."
+     "explanation": "The correct pairs are Rabies—dogs, cats, bats and foxes; Plague—rat/flea cycle; Ebola—non-human primates; and Foot and Mouth Disease—cattle, sheep, goat and pig.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F8"
+     ]
     },
     {
      "id": "biology-19-5",
@@ -4915,9 +5348,76 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. The notes specify the types covered by trivalent and bivalent OPV and identify ZyCoV-D as a DNA-based COVID-19 vaccine."
+     "explanation": "All three statements are correct. The notes specify the types covered by trivalent and bivalent OPV and identify ZyCoV-D as a DNA-based COVID-19 vaccine.",
+     "facts": [
+      "F17",
+      "F18",
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-19-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Animal association",
+     "question": "Consider the following statements:\nI. SARS is of animal origin.\nII. SARS is animal-associated.\nIII. Nipah is animal-associated.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: SARS is identified as both of animal origin and animal-associated, while Nipah is animal-associated.",
+     "facts": [
+      "F6",
+      "F7",
+      "F10"
+     ]
+    },
+    {
+     "id": "biology-19-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Vaccine",
+     "question": "Consider the following statements:\nStatement A: Diphtheria is prevented with a toxoid vaccine.\nStatement B: Hepatitis B has a vaccine.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Diphtheria is prevented with a toxoid vaccine, and Hepatitis B has a vaccine.",
+     "facts": [
+      "F20",
+      "F31"
+     ]
+    },
+    {
+     "id": "biology-19-8",
+     "format": "Count-Based",
+     "keyword": "COVID-19 vaccine",
+     "question": "How many of the following are identified as COVID-19 vaccines?\nI. Covishield\nII. Covaxin\nIII. Sputnik V\nIV. Moderna",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed products—Covishield, Covaxin, Sputnik V and Moderna—are identified as COVID-19 vaccines.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "20": {
    "number": 20,
@@ -5354,7 +5854,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "Vitamin B1 deficiency causes beriberi, Vitamin B3/Niacin deficiency causes pellagra, Vitamin C deficiency causes scurvy, and Vitamin D deficiency causes rickets."
+     "explanation": "Vitamin B1 deficiency causes beriberi, Vitamin B3/Niacin deficiency causes pellagra, Vitamin C deficiency causes scurvy, and Vitamin D deficiency causes rickets.",
+     "facts": [
+      "F3",
+      "F5",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "biology-21-2",
@@ -5368,7 +5874,15 @@
       "Ebola was reported from Nzara, South Sudan, and Yambuku, DR Congo, in 1976."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the location. The notes associate kala-azar with tropical areas, whereas tropical Africa is given for sleeping sickness."
+     "explanation": "The incorrect statement alters the location. The notes associate kala-azar with tropical areas, whereas tropical Africa is given for sleeping sickness.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-21-3",
@@ -5382,7 +5896,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. The origin of the name in Sungai Nipah, Malaysia, does not explain the association of the outbreak with Kozhikode, Kerala."
+     "explanation": "Both statements are true according to the notes. The origin of the name in Sungai Nipah, Malaysia, does not explain the association of the outbreak with Kozhikode, Kerala.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-21-4",
@@ -5396,7 +5914,13 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. The notes associate malaria with tropical and subtropical regions, not specifically tropical Africa."
+     "explanation": "Statements I and II are correct. The notes associate malaria with tropical and subtropical regions, not specifically tropical Africa.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "biology-21-5",
@@ -5410,9 +5934,153 @@
       "Iron deficiency — Goitre"
      ],
      "answer": 2,
-     "explanation": "The notes state that protein deficiency causes kwashiorkor. Energy and protein deficiency causes marasmus, iodine deficiency causes goitre, and iron deficiency causes anaemia."
+     "explanation": "The notes state that protein deficiency causes kwashiorkor. Energy and protein deficiency causes marasmus, iodine deficiency causes goitre, and iron deficiency causes anaemia.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "biology-21-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Deficiency Diseases",
+     "question": "Consider the following statements:\nI. Vitamin A deficiency causes night blindness.\nII. Vitamin A deficiency causes xerophthalmia.\nIII. Vitamin B2 deficiency causes ariboflavinosis.\nIV. Vitamin B12 deficiency causes pernicious anaemia.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Vitamin A deficiency is associated with night blindness and xerophthalmia, while Vitamin B2 and Vitamin B12 deficiencies cause ariboflavinosis and pernicious anaemia respectively.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-21-7",
+     "format": "List-Matching",
+     "keyword": "Deficiency Disease",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Zinc deficiency\n(b) Boron deficiency in plants\n(c) Protein deficiency\n(d) Iodine deficiency\n\nList-II\n(i) Goitre\n(ii) Internal cork\n(iii) Various deficiency manifestations\n(iv) Kwashiorkor",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Zinc deficiency causes various deficiency manifestations, while boron deficiency in plants causes internal cork. Protein deficiency is associated with kwashiorkor and iodine deficiency with goitre.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "biology-21-8",
+     "format": "Assertion-Reason",
+     "keyword": "Disease – Outbreak Location",
+     "question": "Assertion (A): Schistosomiasis occurs in developing countries.\nReason (R): Unsafe water and sanitation are associated with schistosomiasis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the association of schistosomiasis with unsafe water and sanitation does not explain the separate location-based statement that it occurs in developing countries.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "biology-21-9",
+     "format": "Direct Recall",
+     "keyword": "Disease – Outbreak Location",
+     "question": "Filariasis is associated with which type of region?",
+     "options": [
+      "Tropical Africa",
+      "Developing countries",
+      "Tropical and subtropical regions",
+      "Tropical countries"
+     ],
+     "answer": 3,
+     "explanation": "Filariasis occurs in tropical countries.",
+     "facts": [
+      "F25"
+     ]
+    },
+    {
+     "id": "biology-21-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Animal Diseases",
+     "question": "Consider the following statements:\nStatement A: Foot-and-mouth disease affects livestock and cloven-hoofed animals.\nStatement B: Rinderpest affects livestock, including cattle and buffalo.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Foot-and-mouth disease affects livestock and cloven-hoofed animals, while rinderpest affects livestock such as cattle and buffalo.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "biology-21-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Plant Disease – Location",
+     "question": "Consider the following statements about the ear cockle disease of wheat:\nI. It is associated with Uttar Pradesh.\nII. It is associated with Punjab.\nIII. It is associated with western Bihar.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "The ear cockle disease of wheat is associated with Uttar Pradesh, Punjab and western Bihar.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "biology-21-12",
+     "format": "Count-Based",
+     "keyword": "Plant Diseases",
+     "question": "How many of the following statements are correct?\nI. White rust affects mustard-growing areas.\nII. White rust affects crucifer-growing areas.\nIII. Plant diseases are often tested through crop, disease, and causal-agent relationships.",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. White rust is associated with mustard-growing and crucifer-growing areas, and plant diseases are commonly examined through crop–disease–causal-agent relationships.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -6345,8 +7013,243 @@
       "F34",
       "F35"
      ]
+    },
+    {
+     "id": "biology-24-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. Vitamin B6 deficiency causes muscular twisting.\nII. Vitamin B6 is water-soluble.\nIII. Vitamin B7 functions in metabolic reactions.\nIV. Vitamin B7 deficiency causes skin disease and hair fall.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Vitamin B6 deficiency causes muscular twisting and Vitamin B6 is water-soluble; Vitamin B7 functions in metabolic reactions, and its deficiency causes skin disease and hair fall.",
+     "facts": [
+      "F36",
+      "F37",
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "biology-24-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nStatement A: Vitamin B9 is chemically called folic acid, and its deficiency causes anaemia and growth retardation.\nStatement B: Vitamin B12 deficiency causes pernicious anaemia and nervous-system abnormality, and Vitamin B12 is water-soluble.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Vitamin B9 is folic acid and its deficiency causes anaemia and growth retardation, while Vitamin B12 is water-soluble and its deficiency causes pernicious anaemia and nervous-system abnormality.",
+     "facts": [
+      "F44",
+      "F47",
+      "F48",
+      "F55",
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "biology-24-15",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Vitamin C is chemically called:",
+     "options": [
+      "Cobalamin",
+      "Calciferol",
+      "Folic acid",
+      "Ascorbic acid"
+     ],
+     "answer": 3,
+     "explanation": "Vitamin C is chemically called ascorbic acid.",
+     "facts": [
+      "F58"
+     ]
+    },
+    {
+     "id": "biology-24-16",
+     "format": "Assertion-Reason",
+     "keyword": "Functions",
+     "question": "Assertion (A): Vitamin C supports collagen formation and wound healing.\nReason (R): Vitamin C supports iron absorption and functions as an antioxidant.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the Assertion and Reason are true functions of Vitamin C. However, support for iron absorption and antioxidant activity does not explain its role in collagen formation and wound healing.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "biology-24-17",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Vitamin D\n(b) Vitamin D2\n(c) Vitamin D3\n(d) Vitamin D deficiency\n\nList-II\n(i) Cholecalciferol\n(ii) Rickets\n(iii) Calciferol\n(iv) Ergocalciferol",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Vitamin D–Calciferol, Vitamin D2–Ergocalciferol, Vitamin D3–Cholecalciferol, and Vitamin D deficiency–Rickets.",
+     "facts": [
+      "F66",
+      "F67",
+      "F68",
+      "F71"
+     ]
+    },
+    {
+     "id": "biology-24-18",
+     "format": "Assertion-Reason",
+     "keyword": "Functions",
+     "question": "Assertion (A): Vitamin D functions in calcium metabolism.\nReason (R): Vitamin D functions in bone metabolism.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the Assertion and Reason are true functions of Vitamin D. The statement about bone metabolism does not, by itself, explain the separate statement about calcium metabolism.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "biology-24-19",
+     "format": "Count-Based",
+     "keyword": "Deficiency → Disease",
+     "question": "How many of the following conditions are caused by Vitamin D deficiency?\nI. Osteomalacia\nII. Osteoporosis",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Vitamin D deficiency causes both osteomalacia and osteoporosis. Therefore, two listed conditions are correct.",
+     "facts": [
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "biology-24-20",
+     "format": "List-Matching",
+     "keyword": "Chemical name; Main function; Solubility",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Chemical name of Vitamin E\n(b) Reproductive role of Vitamin E\n(c) Antioxidant role of Vitamin E\n(d) Solubility of Vitamin E\n\nList-II\n(i) Reproductive role\n(ii) Fat-soluble\n(iii) Tocopherol\n(iv) Antioxidant role",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Vitamin E is chemically called tocopherol, has reproductive and antioxidant roles, and is fat-soluble. Hence, the correct pairs are a-iii, b-i, c-iv and d-ii.",
+     "facts": [
+      "F75",
+      "F76",
+      "F77",
+      "F81"
+     ]
+    },
+    {
+     "id": "biology-24-21",
+     "format": "Count-Based",
+     "keyword": "Deficiency → Disease",
+     "question": "How many of the following are effects of Vitamin E deficiency?\nI. Sterility\nII. Weakening of the reproductive organs\nIII. Weakening of muscles",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Vitamin E deficiency causes sterility, weakening of the reproductive organs and weakening of muscles. Thus, all three statements are correct.",
+     "facts": [
+      "F78",
+      "F79",
+      "F80"
+     ]
+    },
+    {
+     "id": "biology-24-22",
+     "format": "Direct Recall",
+     "keyword": "Chemical name",
+     "question": "Vitamin K is chemically called:",
+     "options": [
+      "Calciferol",
+      "Tocopherol",
+      "Naphthoquinone",
+      "Ascorbic acid"
+     ],
+     "answer": 2,
+     "explanation": "The chemical name of Vitamin K is naphthoquinone.",
+     "facts": [
+      "F82"
+     ]
+    },
+    {
+     "id": "biology-24-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Deficiency → Disease",
+     "question": "Consider the following statements:\nI. Vitamin A deficiency causes night blindness.\nII. Vitamin A deficiency causes xerophthalmia.\nIII. Vitamin A deficiency causes skin keratinization.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Vitamin A deficiency is associated with all three conditions: night blindness, xerophthalmia and skin keratinization.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "biology-24-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Deficiency → Disease",
+     "question": "Consider the following statements:\nStatement A: Vitamin C deficiency causes scurvy.\nStatement B: Vitamin C deficiency causes bleeding gums.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Vitamin C deficiency causes scurvy and may result in bleeding gums.",
+     "facts": [
+      "F63",
+      "F64"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 86,
+    "covered": 86,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -6374,7 +7277,10 @@
       "Casimir Funk and Marguerite Davis"
      ],
      "answer": 2,
-     "explanation": "The notes associate Vitamin A with Elmer Verner McCollum and Marguerite Davis."
+     "explanation": "The notes associate Vitamin A with Elmer Verner McCollum and Marguerite Davis.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-25-2",
@@ -6388,7 +7294,15 @@
       "Casimir Funk coined the term “vitamine” and developed the vitamin concept."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the source material: Umetaro Suzuki extracted the water-soluble micronutrient mixture from rice bran, not citrus fruits, and called it aberic acid."
+     "explanation": "The incorrect detail is the source material: Umetaro Suzuki extracted the water-soluble micronutrient mixture from rice bran, not citrus fruits, and called it aberic acid.",
+     "facts": [
+      "F1",
+      "F7",
+      "F8",
+      "F9",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-25-3",
@@ -6402,7 +7316,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, protein’s role in growth and repair does not explain why fat serves as stored energy."
+     "explanation": "Both statements are true according to the notes. However, protein’s role in growth and repair does not explain why fat serves as stored energy.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "biology-25-4",
@@ -6416,7 +7336,14 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Frederick Gowland Hopkins–accessory food factors; Casimir Funk–“vitamine” and vitamin concept; James Lind–citrus fruits and scurvy; Umetaro Suzuki–rice bran micronutrient mixture."
+     "explanation": "The correct pairs are: Frederick Gowland Hopkins–accessory food factors; Casimir Funk–“vitamine” and vitamin concept; James Lind–citrus fruits and scurvy; Umetaro Suzuki–rice bran micronutrient mixture.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "biology-25-5",
@@ -6430,9 +7357,74 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because carbohydrates, not minerals, are identified as the immediate and main energy source."
+     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because carbohydrates, not minerals, are identified as the immediate and main energy source.",
+     "facts": [
+      "F21",
+      "F19",
+      "F10",
+      "F20"
+     ]
+    },
+    {
+     "id": "biology-25-6",
+     "format": "Direct Recall",
+     "keyword": "Research",
+     "question": "Elmer Verner McCollum helped discover which of the following vitamins?",
+     "options": [
+      "Vitamins A and B",
+      "Vitamins B and D",
+      "Vitamins C and D",
+      "Vitamins A and C"
+     ],
+     "answer": 1,
+     "explanation": "Elmer Verner McCollum helped discover Vitamins B and D.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-25-7",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Vitamins perform regulatory functions.\nReason (R): Vitamins perform metabolic functions in small amounts.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: vitamins perform regulatory functions and also perform metabolic functions in small amounts. The reason does not explain the assertion; it states another function and characteristic of vitamins.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-25-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nStatement A: Minerals perform structural functions.\nStatement B: Minerals perform regulatory functions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Minerals perform both structural and regulatory functions.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -6862,10 +7854,130 @@
       "F14",
       "F15",
       "F18",
-      "F27"
+      "F27",
+      "F9",
+      "F29"
+     ]
+    },
+    {
+     "id": "biology-27-6",
+     "format": "Count-Based",
+     "keyword": "Protein → Food",
+     "question": "How many of the following are identified as protein-containing foods?\n1. Pulses\n2. Soybean\n3. Milk\n4. Cheese\n5. Eggs\n6. Grains",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six listed items—pulses, soybean, milk, cheese, eggs and grains—are identified as protein-containing foods.",
+     "facts": [
+      "F7",
+      "F8",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-27-7",
+     "format": "List-Matching",
+     "keyword": "Deficiency → Disease",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vitamin B3 deficiency\n(b) Vitamin K deficiency\n(c) Iron deficiency\n(d) Iodine deficiency\n\nList-II\n(i) Pellagra\n(ii) Bleeding\n(iii) Anaemia\n(iv) Goitre",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Vitamin B3 deficiency causes pellagra; vitamin K deficiency causes bleeding; iron deficiency causes anaemia; and iodine deficiency causes goitre.",
+     "facts": [
+      "F32",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "biology-27-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Protein → Structure; Protein → Enzyme",
+     "question": "Consider the following statements:\nStatement A: Proteins are made of amino acids.\nStatement B: Enzymes are basically proteins.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: amino acids form proteins, and enzymes are basically proteins.",
+     "facts": [
+      "F4",
+      "F28"
+     ]
+    },
+    {
+     "id": "biology-27-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Protein → Requirement",
+     "question": "Consider the following statements:\nStatement A: A nursing mother requires at least 65 g of protein per day.\nStatement B: Other females require approximately 45–46 g of protein per day.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements correctly state the daily protein requirements specified for nursing mothers and other females.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-27-10",
+     "format": "Assertion-Reason",
+     "keyword": "Excess trans fat",
+     "question": "Assertion (A): Excess trans fat increases LDL.\nReason (R): Excess trans fat creates cardiovascular risk.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The facts identify increased LDL and cardiovascular risk as effects of excess trans fat, but the stated reason does not explain why LDL increases.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "biology-27-11",
+     "format": "Direct Recall",
+     "keyword": "Saturated fat excess",
+     "question": "Excess saturated fat is associated with which of the following effects?",
+     "options": [
+      "Bleeding due to vitamin deficiency",
+      "Increase in LDL and cardiovascular risk",
+      "Goitre due to iodine deficiency",
+      "Increase in blood lipids and cholesterol"
+     ],
+     "answer": 3,
+     "explanation": "Excess saturated fat increases blood lipids and cholesterol. Increased LDL and cardiovascular risk are associated with excess trans fat.",
+     "facts": [
+      "F40"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -6893,7 +8005,10 @@
       "Vitamin B1"
      ],
      "answer": 0,
-     "explanation": "Vitamin A deficiency is associated with night blindness."
+     "explanation": "Vitamin A deficiency is associated with night blindness.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-28-2",
@@ -6907,7 +8022,18 @@
       "Vitamin B2 deficiency is associated with cheilosis and glossitis."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the symptom associated with Vitamin B3. Vitamin B3 deficiency is associated with pellagra, whereas scurvy is associated with Vitamin C deficiency."
+     "explanation": "The incorrect statement alters the symptom associated with Vitamin B3. Vitamin B3 deficiency is associated with pellagra, whereas scurvy is associated with Vitamin C deficiency.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F10",
+      "F11",
+      "F19"
+     ]
     },
     {
      "id": "biology-28-3",
@@ -6921,7 +8047,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are supported: alpha-linolenic acid is associated with omega-3 significance and linseed oil. The source of the fatty acid does not explain its omega-3 significance."
+     "explanation": "Both statements are supported: alpha-linolenic acid is associated with omega-3 significance and linseed oil. The source of the fatty acid does not explain its omega-3 significance.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "biology-28-4",
@@ -6935,7 +8065,16 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: linoleic acid—peanut oil, chicken fat and olive oil; alpha-linolenic acid—linseed oil and omega-3; palmitoleic acid—macadamia nuts; butyric acid—butter."
+     "explanation": "The correct pairs are: linoleic acid—peanut oil, chicken fat and olive oil; alpha-linolenic acid—linseed oil and omega-3; palmitoleic acid—macadamia nuts; butyric acid—butter.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F40",
+      "F50"
+     ]
     },
     {
      "id": "biology-28-5",
@@ -6949,9 +8088,177 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correctly matched. Goitre is associated with iodine deficiency, while anaemia is associated with iron deficiency; therefore, only two pairs are correct."
+     "explanation": "Statements I and II are correctly matched. Goitre is associated with iodine deficiency, while anaemia is associated with iron deficiency; therefore, only two pairs are correct.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-28-6",
+     "format": "List-Matching",
+     "keyword": "Deficiency – Signature Symptom",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vitamin B5 deficiency\n(b) Vitamin B7 deficiency\n\nList-II\n(i) Burning and paraesthesia\n(ii) Hair fall and skin disease\n\nCodes:",
+     "options": [
+      "a-ii, b-i",
+      "a-ii, b-ii",
+      "a-i, b-ii",
+      "a-i, b-i"
+     ],
+     "answer": 2,
+     "explanation": "Vitamin B5 deficiency causes burning and paraesthesia, whereas Vitamin B7 deficiency causes hair fall and skin disease.",
+     "facts": [
+      "F8",
+      "F9",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-28-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Deficiency – Anaemia and Growth",
+     "question": "Consider the following statements:\n\nI. Vitamin B9 deficiency causes anaemia.\nII. Vitamin B9 deficiency causes growth retardation.\nIII. Vitamin B12 deficiency causes pernicious anaemia.\nIV. Vitamin B12 deficiency causes neurological abnormality.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "III and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The sheet associates Vitamin B9 deficiency with anaemia and growth retardation, and Vitamin B12 deficiency with pernicious anaemia and neurological abnormality.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-28-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Deficiency – Bleeding Symptoms",
+     "question": "Consider the following statements:\n\nStatement A: Vitamin C deficiency causes bleeding gums.\nStatement B: Vitamin K deficiency causes excess bleeding and prolonged clotting time.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Bleeding gums are associated with Vitamin C deficiency. Vitamin K deficiency is associated with excess bleeding and prolonged clotting time.",
+     "facts": [
+      "F18",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "biology-28-9",
+     "format": "List-Matching",
+     "keyword": "Fatty Acid – Source",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Arachidonic acid\n(b) Oleic acid\n\nList-II\n(i) Olive oil and canola oil\n(ii) Liver, brain and glandular organs\n\nCodes:",
+     "options": [
+      "a-ii, b-i",
+      "a-i, b-i",
+      "a-i, b-ii",
+      "a-ii, b-ii"
+     ],
+     "answer": 0,
+     "explanation": "Arachidonic acid is sourced from liver, brain and glandular organs. Oleic acid is sourced from olive oil and canola oil.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "biology-28-10",
+     "format": "List-Matching",
+     "keyword": "Fatty Acid – Oil and Animal Sources",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Myristoleic acid\n(b) Lauric acid\n\nList-II\n(i) Whale blubber\n(ii) Coconut oil, palm-kernel oil and breast milk\n\nCodes:",
+     "options": [
+      "a-i, b-i",
+      "a-ii, b-ii",
+      "a-ii, b-i",
+      "a-i, b-ii"
+     ],
+     "answer": 3,
+     "explanation": "Whale blubber is a source of myristoleic acid. Lauric acid is sourced from coconut oil, palm-kernel oil and breast milk.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "biology-28-11",
+     "format": "Count-Based",
+     "keyword": "Fatty Acid – Palmitic Acid Sources",
+     "question": "How many of the following are sources of palmitic acid?\n\nI. Butter\nII. Palm oil\nIII. Meat\nIV. Coconut oil",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Butter, palm oil and meat are sources of palmitic acid. Coconut oil is listed as a source of lauric acid, so three statements are correct.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "biology-28-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Fatty acid → Source",
+     "question": "Consider the following statements:\nStatement A: Meat is a source of stearic acid.\nStatement B: Cocoa butter is a source of stearic acid.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: meat and cocoa butter are listed as sources of stearic acid.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "biology-28-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Deficiency – symptom",
+     "question": "Consider the following statements:\nStatement A: Protein deficiency causes wasting depending on the disorder.\nStatement B: Protein deficiency causes oedema depending on the disorder.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Protein deficiency is associated with both wasting and oedema, depending on the disorder.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 50,
+    "covered": 50,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -7430,7 +8737,12 @@
       "Lactase"
      ],
      "answer": 2,
-     "explanation": "Pepsin is produced in the stomach and acts on proteins to form peptides."
+     "explanation": "Pepsin is produced in the stomach and acts on proteins to form peptides.",
+     "facts": [
+      "F4",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "biology-30-2",
@@ -7444,7 +8756,26 @@
       "The adrenal medulla produces adrenaline and noradrenaline."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Melatonin is produced by the pineal gland, whereas the pituitary produces hormones such as GH, FSH, LH, prolactin, TSH, ACTH, ADH, MSH and oxytocin."
+     "explanation": "The incorrect statement is the fourth one. Melatonin is produced by the pineal gland, whereas the pituitary produces hormones such as GH, FSH, LH, prolactin, TSH, ACTH, ADH, MSH and oxytocin.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F46",
+      "F47",
+      "F43",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "biology-30-3",
@@ -7458,7 +8789,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Thrombin functions in blood coagulation by converting fibrinogen into fibrin."
+     "explanation": "Both statements are true. Thrombin functions in blood coagulation by converting fibrinogen into fibrin.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-30-4",
@@ -7472,7 +8807,16 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: thyroid–T3, T4 and calcitonin; pineal–melatonin; pancreas–insulin and glucagon; testes–testosterone."
+     "explanation": "The correct pairs are: thyroid–T3, T4 and calcitonin; pineal–melatonin; pancreas–insulin and glucagon; testes–testosterone.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F43",
+      "F46",
+      "F47",
+      "F48"
+     ]
     },
     {
      "id": "biology-30-5",
@@ -7486,9 +8830,159 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are correct. Rennin is associated with the stomach and curdles milk; renin is the kidney enzyme that acts on angiotensinogen in the RAAS."
+     "explanation": "Statements I, II and IV are correct. Rennin is associated with the stomach and curdles milk; renin is the kidney enzyme that acts on angiotensinogen in the RAAS.",
+     "facts": [
+      "F14",
+      "F15",
+      "F10",
+      "F11",
+      "F6",
+      "F7",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "biology-30-6",
+     "format": "Assertion-Reason",
+     "keyword": "Enzyme – Source and Function",
+     "question": "Assertion (A): Ptyalin is also called salivary amylase.\nReason (R): Ptyalin is sourced from the salivary glands.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Ptyalin is another name for salivary amylase, and it is sourced from the salivary glands. The source does not explain why it is also called salivary amylase.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "biology-30-7",
+     "format": "Direct Recall",
+     "keyword": "Enzyme – Function",
+     "question": "Which of the following substances digests starch?",
+     "options": [
+      "Ptyalin",
+      "Rennin",
+      "Trypsin",
+      "Lipase"
+     ],
+     "answer": 0,
+     "explanation": "Ptyalin digests starch. Trypsin digests proteins, lipase digests fat, and rennin curdles milk.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "biology-30-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Enzyme – Source and Function",
+     "question": "Consider the following statements:\nI. Trypsin digests proteins.\nII. Amylase is sourced from the salivary glands and pancreas.\nIII. Amylase digests starch.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Trypsin digests proteins. Amylase is sourced from the salivary glands and pancreas and digests starch; hence all three statements are correct.",
+     "facts": [
+      "F9",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-30-9",
+     "format": "List-Matching",
+     "keyword": "Gland – Hormone",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Parathyroid\n(b) Adrenal cortex\n(c) Thymus\n(d) Ovary\n\nList-II\n(i) PTH / Parathormone\n(ii) Aldosterone, cortisol and androgens\n(iii) Thymosin and thymopoietin\n(iv) Estrogen and progesterone",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The parathyroid produces PTH, also called parathormone. The adrenal cortex produces aldosterone, cortisol and androgens; the thymus produces thymosin and thymopoietin; and the ovary produces estrogen and progesterone.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F44",
+      "F45",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "biology-30-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Organ – Hormone",
+     "question": "Consider the following statements:\nStatement A: The placenta produces chorionic gonadotropin.\nStatement B: The kidney produces erythropoietin.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Chorionic gonadotropin is produced by the placenta, while erythropoietin is produced by the kidney.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "biology-30-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Organ – Hormone",
+     "question": "Consider the following statements:\nStatement A: The stomach produces gastrin.\nStatement B: The intestine produces secretin.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Gastrin is produced by the stomach, and secretin is produced by the intestine.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "biology-30-12",
+     "format": "Direct Recall",
+     "keyword": "Vasodilation",
+     "question": "What effect does nitric oxide cause?",
+     "options": [
+      "Vasodilation",
+      "Protein digestion",
+      "Blood coagulation",
+      "Curdling of milk"
+     ],
+     "answer": 0,
+     "explanation": "Nitric oxide causes vasodilation. Protein digestion, curdling of milk and blood coagulation are associated with other entries in the biological functions list.",
+     "facts": [
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 54,
+    "covered": 54,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,
@@ -7857,7 +9351,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Plasma–transport medium, RBC–O₂ transport via haemoglobin, WBC–defence/immunity, and Platelets–blood clotting."
+     "explanation": "The correct pairs are Plasma–transport medium, RBC–O₂ transport via haemoglobin, WBC–defence/immunity, and Platelets–blood clotting.",
+     "facts": [
+      "F1",
+      "F7",
+      "F9",
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "biology-32-2",
@@ -7871,7 +9372,13 @@
       "Rh− indicates that the RhD antigen is absent."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. The notes state that Rh incompatibility is important in both pregnancy and transfusion."
+     "explanation": "The incorrect statement is the fourth one. The notes state that Rh incompatibility is important in both pregnancy and transfusion.",
+     "facts": [
+      "F28",
+      "F31",
+      "F32",
+      "F29"
+     ]
     },
     {
      "id": "biology-32-3",
@@ -7885,7 +9392,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Rh− mother and Rh+ fetus combination is identified in the notes as a classic maternal problem, explaining the importance of Rh incompatibility in pregnancy."
+     "explanation": "Both statements are true. The Rh− mother and Rh+ fetus combination is identified in the notes as a classic maternal problem, explaining the importance of Rh incompatibility in pregnancy.",
+     "facts": [
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "biology-32-4",
@@ -7899,7 +9410,15 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the blood-group table in the notes."
+     "explanation": "All three statements are correct according to the blood-group table in the notes.",
+     "facts": [
+      "F20",
+      "F21",
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "biology-32-5",
@@ -7913,7 +9432,10 @@
       "Wiener alone, 1939"
      ],
      "answer": 1,
-     "explanation": "The notes attribute the discovery of Rh to Landsteiner and Wiener in 1937."
+     "explanation": "The notes attribute the discovery of Rh to Landsteiner and Wiener in 1937.",
+     "facts": [
+      "F30"
+     ]
     }
    ]
   },
@@ -8115,7 +9637,10 @@
       "AV node"
      ],
      "answer": 0,
-     "explanation": "The SA node is the natural pacemaker of the heart."
+     "explanation": "The SA node is the natural pacemaker of the heart.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-35-2",
@@ -8129,7 +9654,14 @@
       "The kidneys maintain acid-base balance."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is that urea is formed in the kidney. Urea formation takes place in the liver, while the kidney filters it."
+     "explanation": "The incorrect detail is that urea is formed in the kidney. Urea formation takes place in the liver, while the kidney filters it.",
+     "facts": [
+      "F13",
+      "F17",
+      "F18",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-35-3",
@@ -8143,7 +9675,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. It is called double circulation because blood passes through the heart twice during one complete circulation."
+     "explanation": "Both statements are true. It is called double circulation because blood passes through the heart twice during one complete circulation.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-35-4",
@@ -8157,7 +9692,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii."
+     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii.",
+     "facts": [
+      "F14",
+      "F19",
+      "F22",
+      "F21"
+     ]
     },
     {
      "id": "biology-35-5",
@@ -8171,9 +9712,95 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct: diastole involves relaxation and filling, systole involves ventricular contraction and pumping, and average normal urine output is approximately 1.5 litres per day."
+     "explanation": "All three statements are correct: diastole involves relaxation and filling, systole involves ventricular contraction and pumping, and average normal urine output is approximately 1.5 litres per day.",
+     "facts": [
+      "F6",
+      "F7",
+      "F24",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-35-6",
+     "format": "List-Matching",
+     "keyword": "Heart conduction and heart rate",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Heart conduction sequence\n(b) Resting heart rate\n(c) Tachycardia\n\nList-II\n(i) Above 100 beats per minute\n(ii) Approximately 72–75 beats per minute\n(iii) SA node → AV node → conduction system\n\nCodes:",
+     "options": [
+      "a-ii, b-i, c-iii",
+      "a-i, b-iii, c-ii",
+      "a-iii, b-ii, c-i",
+      "a-iii, b-i, c-ii"
+     ],
+     "answer": 2,
+     "explanation": "Heart conduction proceeds from the SA node to the AV node and then to the conduction system. The resting heart rate is approximately 72–75 beats per minute, while tachycardia is above 100 beats per minute.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "biology-35-7",
+     "format": "List-Matching",
+     "keyword": "Heart transplant and artificial heart",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First successful heart transplant\n(b) Jarvik-7\n(c) First recipient of an artificial heart\n(d) Discovery of blood circulation\n\nList-II\n(i) Barney Clark\n(ii) William Harvey\n(iii) Christian Barnard\n(iv) Robert Jarvik\n\nCodes:",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Christian Barnard performed the first successful heart transplant in 1967. Jarvik-7 is associated with Robert Jarvik, Barney Clark was the first artificial-heart recipient in 1982, and William Harvey discovered blood circulation.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "biology-35-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Kidney functions",
+     "question": "Consider the following statements:\nStatement A: Urea is the main nitrogenous waste removed by the kidneys.\nStatement B: The kidneys maintain extracellular fluid volume for water balance.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The main nitrogenous waste removed by the kidneys is urea. The kidneys also maintain extracellular fluid volume, thereby contributing to water balance.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-35-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Kidney waste removal and urine pH",
+     "question": "Consider the following statements:\nI. The kidneys remove metabolic wastes and toxins.\nII. The pH of urine is approximately 6.0.\nIII. The pH of urine is approximately 7.5.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "The kidneys remove metabolic wastes and toxins, and urine has an approximate pH of 6.0. Therefore, Statements I and II are correct, while Statement III is incorrect.",
+     "facts": [
+      "F20",
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "36": {
    "number": 36,
@@ -8201,7 +9828,13 @@
       "Site of final urine concentration only"
      ],
      "answer": 2,
-     "explanation": "The notes identify the nephron as the structural and functional unit of the kidney."
+     "explanation": "The notes identify the nephron as the structural and functional unit of the kidney.",
+     "facts": [
+      "F1",
+      "F7",
+      "F9",
+      "F19"
+     ]
     },
     {
      "id": "biology-36-2",
@@ -8215,7 +9848,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that ADH deficiency causes diabetes insipidus, which results in excessive urine."
+     "explanation": "The notes state that ADH deficiency causes diabetes insipidus, which results in excessive urine.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "biology-36-3",
@@ -8229,7 +9866,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Glomerulus–blood filtration, Bowman's capsule–receives filtrate, Loop of Henle–concentration/osmoregulation, and Collecting duct–final urine concentration."
+     "explanation": "The correct pairs are Glomerulus–blood filtration, Bowman's capsule–receives filtrate, Loop of Henle–concentration/osmoregulation, and Collecting duct–final urine concentration.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "biology-36-4",
@@ -8243,7 +9886,16 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements agree with the notes: ammonia–ammonotelic, urea–ureotelic humans, and uric acid–uricotelic birds, reptiles and insects."
+     "explanation": "All three statements agree with the notes: ammonia–ammonotelic, urea–ureotelic humans, and uric acid–uricotelic birds, reptiles and insects.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-36-5",
@@ -8257,7 +9909,13 @@
       "Renal failure means that the kidney is unable to adequately filter."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters one detail: the notes state that kidney damage affects both filtration and excretion, not filtration alone."
+     "explanation": "The incorrect statement alters one detail: the notes state that kidney damage affects both filtration and excretion, not filtration alone.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F22"
+     ]
     }
    ]
   },
@@ -8374,8 +10032,147 @@
       "F40",
       "F41"
      ]
+    },
+    {
+     "id": "biology-37-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. The cerebrum is responsible for thinking.\nII. The cerebrum is responsible for memory.\nIII. The cerebrum is responsible for reasoning.\nIV. The cerebrum is responsible for sensation.\nV. The cerebrum is responsible for speech.\nVI. The cerebrum is responsible for learning.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, II and III only",
+      "I, II, III, IV, V and VI",
+      "I, II, III, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "The cerebrum is responsible for thinking, memory, reasoning, sensation, speech and learning. Therefore, all six statements are correct.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-37-7",
+     "format": "Count-Based",
+     "keyword": "Terms",
+     "question": "How many of the following functions are controlled by the medulla oblongata?\n1. Heartbeat\n2. Breathing\n3. Swallowing\n4. Vomiting\n5. Coughing\n6. Sneezing",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 3,
+     "explanation": "The medulla oblongata controls heartbeat, breathing, swallowing, vomiting, coughing and sneezing. Thus, all six listed functions are controlled by it.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-37-8",
+     "format": "Count-Based",
+     "keyword": "Terms",
+     "question": "How many of the following are regulated by the hypothalamus?\n1. Body temperature\n2. Hunger\n3. Thirst\n4. Sleep\n5. Circadian rhythm",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "The hypothalamus regulates body temperature, hunger, thirst, sleep and circadian rhythm. Hence, all five listed functions are regulated by the hypothalamus.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-37-9",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which part of the brain is called the ‘little brain’?",
+     "options": [
+      "Hypothalamus",
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata"
+     ],
+     "answer": 2,
+     "explanation": "The cerebellum is called the ‘little brain’.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "biology-37-10",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which of the following regulate heart rate?",
+     "options": [
+      "The cerebellum and hypothalamus",
+      "The pons and spinal cord",
+      "The medulla and brain autonomic centres",
+      "The cerebrum and hippocampus"
+     ],
+     "answer": 2,
+     "explanation": "The medulla and brain autonomic centres regulate heart rate.",
+     "facts": [
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-37-11",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) 12 pairs\n(b) 31 pairs\n(c) Cranial nerves\n(d) Spinal nerves\n\nList-II\n(i) Brain-associated\n(ii) Spinal cord-associated\n(iii) Cranial nerves\n(iv) Spinal nerves",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "There are 12 pairs of cranial nerves and 31 pairs of spinal nerves. Cranial nerves are brain-associated, while spinal nerves are spinal cord-associated; therefore, the correct pairs are a-iii, b-iv, c-i and d-ii.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "biology-37-12",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "What does a reflex arc produce?",
+     "options": [
+      "A regulation of circadian rhythm",
+      "A rapid involuntary response",
+      "A slow voluntary response",
+      "A sensation of pain in the brain"
+     ],
+     "answer": 1,
+     "explanation": "A reflex arc produces a rapid involuntary response.",
+     "facts": [
+      "F42"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "38": {
    "number": 38,
@@ -8403,7 +10200,10 @@
       "206"
      ],
      "answer": 3,
-     "explanation": "The notes state that the adult human skeleton has 206 bones."
+     "explanation": "The notes state that the adult human skeleton has 206 bones.",
+     "facts": [
+      "F29"
+     ]
     },
     {
      "id": "biology-38-2",
@@ -8417,7 +10217,19 @@
       "The stapes is the smallest bone and is located in the middle ear."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement concerns the radius. According to the notes, the radius is on the thumb side of the forearm; the ulna is on the little-finger side."
+     "explanation": "The incorrect statement concerns the radius. According to the notes, the radius is on the thumb side of the forearm; the ulna is on the little-finger side.",
+     "facts": [
+      "F1",
+      "F2",
+      "F9",
+      "F10",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-38-3",
@@ -8431,7 +10243,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify blood-cell formation as a skeletal-system function and red bone marrow as the site responsible for it."
+     "explanation": "Both statements are true. The notes identify blood-cell formation as a skeletal-system function and red bone marrow as the site responsible for it.",
+     "facts": [
+      "F42"
+     ]
     },
     {
      "id": "biology-38-4",
@@ -8445,7 +10260,14 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Humerus–Arm, Atlas–Supports skull, Sternum–Rib-cage support, and Axis–Neck rotation."
+     "explanation": "The correct pairs are: Humerus–Arm, Atlas–Supports skull, Sternum–Rib-cage support, and Axis–Neck rotation.",
+     "facts": [
+      "F8",
+      "F20",
+      "F18",
+      "F22",
+      "F7"
+     ]
     },
     {
      "id": "biology-38-5",
@@ -8459,9 +10281,105 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct: the notes give 7 cervical, 12 thoracic and 5 lumbar vertebrae. Floating ribs are numbered 11–12, so statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct: the notes give 7 cervical, 12 thoracic and 5 lumbar vertebrae. Floating ribs are numbered 11–12, so statement IV is incorrect.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-38-6",
+     "format": "List-Matching",
+     "keyword": "Bone Location and Function",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tibia\n(b) Fibula\n(c) Sternum\n(d) Atlas\n\nList-II\n(i) Lower leg; major weight-bearing bone\n(ii) Lower leg; lateral leg bone\n(iii) Chest; rib-cage support\n(iv) C1 vertebra; supports skull",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The tibia is the major weight-bearing bone of the lower leg, while the fibula is the lateral leg bone. The sternum is in the chest and supports the rib cage; the atlas is the C1 vertebra and supports the skull.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F17",
+      "F19"
+     ]
+    },
+    {
+     "id": "biology-38-7",
+     "format": "List-Matching",
+     "keyword": "Bone Location and Function",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Axis\n(b) Ribs\n(c) Skull\n(d) Vertebral column\n\nList-II\n(i) Back; supports and protects the spinal cord\n(ii) C2 vertebra; neck rotation\n(iii) Thorax; protects the heart and lungs\n(iv) Head; protects the brain",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The axis is the C2 vertebra and is associated with neck rotation. The ribs are in the thorax and protect the heart and lungs; the skull is in the head and protects the brain; the vertebral column is in the back and supports and protects the spinal cord.",
+     "facts": [
+      "F21",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "biology-38-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ribs – NUMBER GAME",
+     "question": "Consider the following statements:\n\nI. The human body has 12 pairs of ribs.\nII. True ribs are ribs 1–7.\nIII. False ribs are ribs 8–12.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: the human body has 12 pairs of ribs, true ribs are numbered 1–7, and false ribs are numbered 8–12.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "biology-38-9",
+     "format": "Count-Based",
+     "keyword": "Skeletal System – Functions",
+     "question": "How many of the following statements are correct?\n\n1. The skeleton provides support.\n2. Bones and muscles produce movement.\n3. The skull and rib cage provide protection.\n4. Bones store calcium and phosphorus.\n5. Yellow bone marrow stores fat.",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five statements are correct. The skeleton provides support, bones and muscles produce movement, the skull and rib cage provide protection, bones store calcium and phosphorus, and yellow bone marrow stores fat.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "39": {
    "number": 39,
@@ -9085,8 +11003,104 @@
       "F15",
       "F16"
      ]
+    },
+    {
+     "id": "biology-41-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Gene editing",
+     "question": "Consider the following statements:\nI. CRISPR-Cas9 is a genome-editing technology.\nII. CRISPR gene editing alters DNA sequences.\nIII. CRISPR gene editing modifies gene function.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "CRISPR-Cas9 is a genome-editing technology. CRISPR gene editing can alter DNA sequences and modify gene function.",
+     "facts": [
+      "F1",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "biology-41-7",
+     "format": "Assertion-Reason",
+     "keyword": "Gene editing",
+     "question": "Assertion (A): CRISPR gene editing can remove existing genes.\nReason (R): CRISPR gene editing can add new genes.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: CRISPR gene editing may remove existing genes and may add new genes. The ability to add new genes does not explain the removal of existing genes.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "biology-41-8",
+     "format": "List-Matching",
+     "keyword": "Gene silencing",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) RNAi\n(b) Core concept of RNAi\n(c) Target of RNAi\n(d) Effect of RNAi\n\nList-II\n(i) Reduces or prevents expression of the target gene\n(ii) Gene expression\n(iii) RNA interference\n(iv) Gene silencing",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "RNAi stands for RNA interference; it is based on gene silencing, targets gene expression, and reduces or prevents expression of the target gene.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "biology-41-9",
+     "format": "Direct Recall",
+     "keyword": "CRISPR – Origin",
+     "question": "CRISPR originated as which of the following?",
+     "options": [
+      "An enzyme that cleaves DNA into fragments",
+      "A restriction site in DNA",
+      "A natural defence mechanism of bacteria and archaea",
+      "A gene-silencing mechanism of plants and animals"
+     ],
+     "answer": 2,
+     "explanation": "CRISPR originated as a natural defence mechanism of bacteria and archaea.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "biology-41-10",
+     "format": "Direct Recall",
+     "keyword": "Molecular scissors",
+     "question": "Which of the following is popularly described as “molecular scissors”?",
+     "options": [
+      "Restriction enzyme",
+      "Gene expression",
+      "Guide RNA",
+      "CRISPR"
+     ],
+     "answer": 0,
+     "explanation": "Restriction enzymes are popularly described as molecular scissors because they cleave DNA into fragments.",
+     "facts": [
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "42": {
    "number": 42,
@@ -10041,7 +12055,13 @@
       "Air layering"
      ],
      "answer": 3,
-     "explanation": "Gootee is air layering, which is listed as a method of vegetative propagation."
+     "explanation": "Gootee is air layering, which is listed as a method of vegetative propagation.",
+     "facts": [
+      "F8",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-46-2",
@@ -10055,7 +12075,14 @@
       "Sexual propagation is also called seed propagation."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that vegetative propagation cannot transmit plant viruses. The notes state that it can also transmit plant viruses."
+     "explanation": "The incorrect statement is that vegetative propagation cannot transmit plant viruses. The notes state that it can also transmit plant viruses.",
+     "facts": [
+      "F1",
+      "F3",
+      "F10",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-46-3",
@@ -10069,7 +12096,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Vegetative propagation is asexual reproduction involving one parent, and its offspring are generally genetically identical or clonal."
+     "explanation": "Both statements are true. Vegetative propagation is asexual reproduction involving one parent, and its offspring are generally genetically identical or clonal.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F19"
+     ]
     },
     {
      "id": "biology-46-4",
@@ -10083,7 +12116,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: root–anchorage, root hairs–maximum water absorption, tuberous root–modified root in sweet potato, and Cuscuta–rootless parasitic plant."
+     "explanation": "The correct pairs are: root–anchorage, root hairs–maximum water absorption, tuberous root–modified root in sweet potato, and Cuscuta–rootless parasitic plant.",
+     "facts": [
+      "F20",
+      "F22",
+      "F25",
+      "F26",
+      "F21"
+     ]
     },
     {
      "id": "biology-46-5",
@@ -10097,9 +12137,92 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the anther is the male reproductive structure."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the anther is the male reproductive structure.",
+     "facts": [
+      "F11",
+      "F17",
+      "F24",
+      "F14",
+      "F12",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-46-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vegetative propagation – Plant parts",
+     "question": "Consider the following statements:\nI. Vegetative propagation occurs through plant parts such as roots, stems and leaves.\nII. Roots store food in plants such as carrot, turnip and sweet potato.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II only",
+      "Both I and II",
+      "I only",
+      "Neither I nor II"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are correct. Vegetative propagation may occur through roots, stems and leaves, while roots store food in plants such as carrot, turnip and sweet potato.",
+     "facts": [
+      "F4",
+      "F23"
+     ]
+    },
+    {
+     "id": "biology-46-7",
+     "format": "Assertion-Reason",
+     "keyword": "Vegetative propagation – Advantage",
+     "question": "Assertion (A): Vegetative propagation helps in maintaining the purity of a plant.\nReason (R): Vegetative propagation is asexual reproduction involving one parent.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both A and R are true. Since vegetative propagation is asexual reproduction involving one parent, it maintains the purity of the plant.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "biology-46-8",
+     "format": "Direct Recall",
+     "keyword": "Best part for studying meiosis",
+     "question": "Which part of a flowering plant is considered the best for studying meiosis?",
+     "options": [
+      "Root",
+      "Seed",
+      "Leaf",
+      "Anther"
+     ],
+     "answer": 3,
+     "explanation": "The anther is the best part for studying meiosis.",
+     "facts": [
+      "F15"
+     ]
+    },
+    {
+     "id": "biology-46-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Flower → Gamete union; Embryo → Seed",
+     "question": "Consider the following statements:\nStatement A: A flower is involved in the union of male and female gametes during reproduction.\nStatement B: An embryo is found in a seed.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The flower is involved in the union of male and female gametes, and an embryo is found in a seed.",
+     "facts": [
+      "F13",
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "47": {
    "number": 47,

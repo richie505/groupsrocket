@@ -29,7 +29,10 @@
       "Anantapur"
      ],
      "answer": 0,
-     "explanation": "Andhra Pradesh was the first state in India formed on linguistic grounds."
+     "explanation": "Andhra Pradesh was the first state in India formed on linguistic grounds.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-geography-1-2",
@@ -43,7 +46,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Janjavathi hosted Asia's first rubber dam and is a tributary of the Nagavali. However, its tributary status does not explain why the dam was Asia's first."
+     "explanation": "Both statements are true: the Janjavathi hosted Asia's first rubber dam and is a tributary of the Nagavali. However, its tributary status does not explain why the dam was Asia's first.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-geography-1-3",
@@ -57,7 +64,18 @@
       "Srikakulam was the first place in manganese production and reserves."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Limestone production and reserves were associated with Kurnool, not Kadapa."
+     "explanation": "The incorrect statement is the fourth one. Limestone production and reserves were associated with Kurnool, not Kadapa.",
+     "facts": [
+      "F8",
+      "F11",
+      "F12",
+      "F15",
+      "F16",
+      "F9",
+      "F10",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-geography-1-4",
@@ -71,7 +89,15 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: asbestos—Kadapa; limestone—Kurnool; monazite—Andhra Pradesh/East-coast belt; gold mine identified—Andhra Pradesh."
+     "explanation": "The correct pairs are: asbestos—Kadapa; limestone—Kurnool; monazite—Andhra Pradesh/East-coast belt; gold mine identified—Andhra Pradesh.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F7"
+     ]
     },
     {
      "id": "ap-geography-1-5",
@@ -85,9 +111,37 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct. Sri Venkateswara was the first bioreserve, the Dolphin Conservation Society at Visakhapatnam was associated with the first ex-situ biodiversity park, and Vani Vilasa Sagar/Marikanive was the first dam built by M. Visvesvaraya."
+     "explanation": "All three statements are correct. Sri Venkateswara was the first bioreserve, the Dolphin Conservation Society at Visakhapatnam was associated with the first ex-situ biodiversity park, and Vani Vilasa Sagar/Marikanive was the first dam built by M. Visvesvaraya.",
+     "facts": [
+      "F2",
+      "F3",
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-1-6",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources \u0012 Location",
+     "question": "Match List-I with List-II:\n\nList-I (Mineral)\na. Vermiculite\nb. Apatite\nc. Manganese\nd. Mica\n\nList-II (First place in Andhra Pradesh)\ni. Erstwhile Nellore district\nii. Kasipatnam, Visakhapatnam district\niii. Srikakulam\niv. Kasipatnam, Visakhapatnam district\n\nCodes:",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Kasipatnam in Visakhapatnam district was the first place in Andhra Pradesh for vermiculite and apatite reserves and production. Srikakulam was first for manganese, while the erstwhile Nellore district was first for mica.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 19,
+    "covered": 19,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -1797,7 +1851,16 @@
       "First dam built by M. Visvesvariah"
      ],
      "answer": 0,
-     "explanation": "Dhawaleswaram Dam is associated with Sir Arthur Cotton and was built in 1852."
+     "explanation": "Dhawaleswaram Dam is associated with Sir Arthur Cotton and was built in 1852.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F36"
+     ]
     },
     {
      "id": "ap-geography-7-2",
@@ -1811,7 +1874,14 @@
       "Somasila Dam was built on the Penna near Nellore."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the river: Nagarjuna Sagar was built on the Krishna, not the Penna. The Penna is associated with Somasila Dam."
+     "explanation": "The incorrect detail is the river: Nagarjuna Sagar was built on the Krishna, not the Penna. The Penna is associated with Somasila Dam.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F19"
+     ]
     },
     {
      "id": "ap-geography-7-3",
@@ -1825,7 +1895,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the location in the Srikakulam region does not explain its status as Asia's 1st Rubber Dam."
+     "explanation": "Both statements are true according to the notes. However, the location in the Srikakulam region does not explain its status as Asia's 1st Rubber Dam.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "ap-geography-7-4",
@@ -1839,7 +1913,15 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Somasila Dam–Penna, Cheyyeru Project–Cheyyeru, Tammileru Dam–Tammileru, and Vani Vilasa Sagar / Marikanive Reservoir–Vedavathi."
+     "explanation": "The correct pairs are Somasila Dam–Penna, Cheyyeru Project–Cheyyeru, Tammileru Dam–Tammileru, and Vani Vilasa Sagar / Marikanive Reservoir–Vedavathi.",
+     "facts": [
+      "F7",
+      "F17",
+      "F29",
+      "F33",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "ap-geography-7-5",
@@ -1853,9 +1935,120 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are supported by the notes: Denkada Check Dam is linked with Champavathi, Tarakarama Thirtha Sagaram belongs to the Champavathi river system, and Kalyani is a tributary of Swarnamukhi."
+     "explanation": "All three statements are supported by the notes: Denkada Check Dam is linked with Champavathi, Tarakarama Thirtha Sagaram belongs to the Champavathi river system, and Kalyani is a tributary of Swarnamukhi.",
+     "facts": [
+      "F12",
+      "F13",
+      "F27"
+     ]
+    },
+    {
+     "id": "ap-geography-7-6",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dhawaleswaram Dam\n(b) Janjavathi Rubber Dam\n(c) Cheyyeru Project\n(d) Kumili Dam\n\nList-II\n(i) Godavari River — Dhawaleswaram\n(ii) Janjavathi River\n(iii) Kadapa\n(iv) Champavathi river system — Dam\n\nSelect the correct code:",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Dhawaleswaram Dam is associated with the Godavari River and is located at Dhawaleswaram. Janjavathi Rubber Dam is associated with the Janjavathi River, Cheyyeru Project is located in Kadapa, and Kumili Dam belongs to the Champavathi river system.",
+     "facts": [
+      "F1",
+      "F2",
+      "F9",
+      "F15",
+      "F16",
+      "F18"
+     ]
+    },
+    {
+     "id": "ap-geography-7-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Dam/Reservoir → River",
+     "question": "Consider the following statements:\n\nI. Tarakarama Thirtha Sagaram is a dam or reservoir project.\nII. Annamaya Dam is associated with the Cheyyeru river system and is on the Cheyyeru River.\nIII. Togurpet Project is associated with the Cheyyeru river system and is on the Cheyyeru River.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Tarakarama Thirtha Sagaram is a dam or reservoir project, while Annamaya Dam and Togurpet Project are both associated with and situated on the Cheyyeru river system.",
+     "facts": [
+      "F14",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "ap-geography-7-8",
+     "format": "Assertion-Reason",
+     "keyword": "Dam/Reservoir → River",
+     "question": "Assertion (A): Kalyani Dam is associated with the Kalyani River.\nReason (R): Kalyani Dam is on the Kalyani River.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The dam is associated with the Kalyani River and is specifically stated to be on that river, which explains the association.",
+     "facts": [
+      "F26",
+      "F28"
+     ]
+    },
+    {
+     "id": "ap-geography-7-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Consider the following statements:\n\nStatement A: Tammileru Dam is located in the Krishna–West Godavari boundary region.\nStatement B: Tammileru forms a district boundary and drains into Kolleru.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Tammileru Dam lies in the Krishna–West Godavari boundary region; Tammileru forms a district boundary and drains into Kolleru.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "ap-geography-7-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dam/Reservoir → River",
+     "question": "Consider the following statements:\n\nStatement A: Bhairivani Tippa Reservoir is associated with a Vedavathi-system river and is located in the Vedavathi section.\nStatement B: Bhairivani Tippa Reservoir is a built reservoir.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Bhairivani Tippa Reservoir is associated with a Vedavathi-system river, is located in the Vedavathi section, and is identified as a built reservoir.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -2189,7 +2382,11 @@
       "Seshachalam Hills and Eastern Ghats"
      ],
      "answer": 0,
-     "explanation": "The Long Mountain Pass lies between the Seshachalam Hills and extends northwards to the Nallamala Hills."
+     "explanation": "The Long Mountain Pass lies between the Seshachalam Hills and extends northwards to the Nallamala Hills.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "ap-geography-9-2",
@@ -2203,7 +2400,11 @@
       "The pass route includes Venkatagiri, Badvel, Porumamilla, Giddalur and Markapur."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the order of the last two towns. The notes give the order as Venkatagiri–Badvel–Porumamilla–Giddalur–Markapur."
+     "explanation": "The incorrect statement alters the order of the last two towns. The notes give the order as Venkatagiri–Badvel–Porumamilla–Giddalur–Markapur.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "ap-geography-9-3",
@@ -2217,7 +2418,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. Ganjikunta is located in the Eastern Ghats and connects sections between the Seshachalam and Nallamala hill ranges, explaining its location."
+     "explanation": "Both statements are given in the notes. Ganjikunta is located in the Eastern Ghats and connects sections between the Seshachalam and Nallamala hill ranges, explaining its location.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "ap-geography-9-4",
@@ -2231,7 +2436,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes describe the Mountain Pass as extending for more than 300 km and its terrain as having dry deciduous forests and rocky elevations."
+     "explanation": "The notes describe the Mountain Pass as extending for more than 300 km and its terrain as having dry deciduous forests and rocky elevations.",
+     "facts": [
+      "F4",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "ap-geography-9-5",
@@ -2245,7 +2455,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The listed sequence is Venkatagiri–Badvel–Porumamilla–Giddalur–Markapur. Therefore, the first four towns pair with i, ii, iii and iv respectively."
+     "explanation": "The listed sequence is Venkatagiri–Badvel–Porumamilla–Giddalur–Markapur. Therefore, the first four towns pair with i, ii, iii and iv respectively.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     }
    ]
   },
@@ -2361,7 +2577,10 @@
       "Western Ghats"
      ],
      "answer": 2,
-     "explanation": "The notes identify the Eastern Ghats as the major mountain system of Andhra Pradesh."
+     "explanation": "The notes identify the Eastern Ghats as the major mountain system of Andhra Pradesh.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-11-2",
@@ -2375,7 +2594,15 @@
       "The northern part of the Eastern Ghats in North AP is called the Eastern Ranges."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of the Papikonda Ranges. The notes place them in the Godavari districts, not the Krishna districts."
+     "explanation": "The incorrect detail is the location of the Papikonda Ranges. The notes place them in the Godavari districts, not the Krishna districts.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-geography-11-3",
@@ -2389,7 +2616,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes, but the source of the Tungabhadra River from the Varaha Mountains does not explain the source of the Gosthani River from the Anantagiri Hills."
+     "explanation": "Both statements are true according to the notes, but the source of the Tungabhadra River from the Varaha Mountains does not explain the source of the Gosthani River from the Anantagiri Hills.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "ap-geography-11-4",
@@ -2403,7 +2636,16 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Seshachalam Hills–Southern AP, Palakonda Hills–southern geographical extent, Balaghat Hills–western geographical extent, and Simhachalam Hills–northern geographical extent."
+     "explanation": "The correct pairs are Seshachalam Hills–Southern AP, Palakonda Hills–southern geographical extent, Balaghat Hills–western geographical extent, and Simhachalam Hills–northern geographical extent.",
+     "facts": [
+      "F9",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-geography-11-5",
@@ -2417,9 +2659,57 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are supported by the notes: Varaha Mountains and the Sahyadri Hill Range are associated with the Western Ghats, while Veda and Avathi join to form Vedavathi."
+     "explanation": "All three statements are supported by the notes: Varaha Mountains and the Sahyadri Hill Range are associated with the Western Ghats, while Veda and Avathi join to form Vedavathi.",
+     "facts": [
+      "F21",
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "ap-geography-11-6",
+     "format": "List-Matching",
+     "keyword": "Mountain range → Key Fact / Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Papikonda Ranges\n(b) Seshachalam Hills\n(c) Nallamala Hills\n(d) Palakonda Hills\n\nList-II\n(i) Southern Andhra Pradesh\n(ii) Average height of 915 metres\n(iii) Part of the long Eastern Ghats mountain-pass zone extending towards the Nallamala Hills\n(iv) Listed as the southern geographical extent of Andhra Pradesh",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Papikonda Ranges have an average height of 915 metres. Seshachalam Hills form part of the long Eastern Ghats mountain-pass zone extending towards the Nallamala Hills, while Nallamala Hills are in Southern Andhra Pradesh and Palakonda Hills are listed as the southern geographical extent of Andhra Pradesh.",
+     "facts": [
+      "F8",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "ap-geography-11-7",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain range → Extent",
+     "question": "Assertion (A): The long mountain-pass zone of the Nallamala Hills extends northwards towards Nallamala.\nReason (R): The Palakonda Hills are in South Andhra Pradesh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The long mountain-pass zone of the Nallamala Hills extends northwards towards Nallamala, while the location of the Palakonda Hills in South Andhra Pradesh does not explain that extension.",
+     "facts": [
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -4583,7 +4873,17 @@
       "Red soils of Adoni and Aluru"
      ],
      "answer": 0,
-     "explanation": "Rice is associated with alluvial soils of the Krishna, Godavari, Penna and Vamsadhara delta areas."
+     "explanation": "Rice is associated with alluvial soils of the Krishna, Godavari, Penna and Vamsadhara delta areas.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "ap-geography-20-2",
@@ -4597,7 +4897,13 @@
       "Red gram is associated with red soils."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that groundnut is associated with black soils. According to the notes, groundnut is associated with red soils."
+     "explanation": "The incorrect statement is that groundnut is associated with black soils. According to the notes, groundnut is associated with red soils.",
+     "facts": [
+      "F5",
+      "F6",
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "ap-geography-20-3",
@@ -4611,7 +4917,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. Red soils are less fertile and have low nitrogen and phosphorus, which explains their lower fertility."
+     "explanation": "Both statements are given in the notes. Red soils are less fertile and have low nitrogen and phosphorus, which explains their lower fertility.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "ap-geography-20-4",
@@ -4625,7 +4936,19 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: alluvial soil–delta areas; deep black soil–Adoni and Aluru; unclassified black soil–the listed districts and regions; red soil–Rayalaseema."
+     "explanation": "The correct pairs are: alluvial soil–delta areas; deep black soil–Adoni and Aluru; unclassified black soil–the listed districts and regions; red soil–Rayalaseema.",
+     "facts": [
+      "F5",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F31"
+     ]
     },
     {
      "id": "ap-geography-20-5",
@@ -4639,7 +4962,15 @@
       "II and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, III and IV are correct. Maize is associated with black soils, not red soils."
+     "explanation": "Statements I, III and IV are correct. Maize is associated with black soils, not red soils.",
+     "facts": [
+      "F5",
+      "F6",
+      "F20",
+      "F21",
+      "F29",
+      "F30"
+     ]
     }
    ]
   },
@@ -4760,8 +5091,177 @@
       "F41",
       "F42"
      ]
+    },
+    {
+     "id": "ap-geography-21-6",
+     "format": "List-Matching",
+     "keyword": "Waterfalls → Location / River → Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Talakona Falls\n(b) Katiki Falls\n(c) Ethipothala Falls\n(d) Kailasakona Falls\n\nList-II\n(i) Tirupati district\n(ii) Galikonda stream\n(iii) Flows into the Nagarjuna Sagar reservoir\n(iv) Chittoor region",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Talakona Falls is in Tirupati district, Katiki Falls is associated with the Galikonda stream, Ethipothala Falls flows into the Nagarjuna Sagar reservoir, and Kailasakona Falls is in the Chittoor region.",
+     "facts": [
+      "F2",
+      "F8",
+      "F22",
+      "F29"
+     ]
+    },
+    {
+     "id": "ap-geography-21-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Waterfalls → Location / Key Feature",
+     "question": "Consider the following statements:\n\nI. Talakona Falls is formed by the Talakona stream.\nII. Katiki Falls is located in Alluri Sitharama Raju district.\nIII. Katiki Falls is associated with the Gosthani basin.\nIV. Katiki Falls is a scenic waterfall.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Talakona Falls is formed by the Talakona stream, while Katiki Falls is in Alluri Sitharama Raju district, associated with the Gosthani basin, and described as a scenic waterfall.",
+     "facts": [
+      "F3",
+      "F6",
+      "F9",
+      "F11"
+     ]
+    },
+    {
+     "id": "ap-geography-21-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Waterfalls → Alternate Name / Stream",
+     "question": "Consider the following statements:\nStatement A: Ubbalamadugu Falls is also called Tada Falls.\nStatement B: Ubbalamadugu Falls is formed by the Ubbalamadugu stream.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ubbalamadugu Falls is also known as Tada Falls and is formed by the Ubbalamadugu stream.",
+     "facts": [
+      "F12",
+      "F16"
+     ]
+    },
+    {
+     "id": "ap-geography-21-9",
+     "format": "Assertion-Reason",
+     "keyword": "Waterfalls → Location / River → Tributary",
+     "question": "Assertion (A): Ethipothala Falls is located in Palnadu district.\nReason (R): Ethipothala Falls is associated with the Chandravanka Falls River.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and reason are true. Ethipothala Falls is located in Palnadu district and is associated with the Chandravanka Falls River, but the river association does not explain its district location.",
+     "facts": [
+      "F19",
+      "F21"
+     ]
+    },
+    {
+     "id": "ap-geography-21-10",
+     "format": "Direct Recall",
+     "keyword": "Waterfalls → Key Feature",
+     "question": "Ethipothala Falls is described as which of the following?",
+     "options": [
+      "A scenic waterfall",
+      "Rocky natural cascades",
+      "An Eastern Ghats waterfall",
+      "A major tourist attraction"
+     ],
+     "answer": 3,
+     "explanation": "Ethipothala Falls is described as a major tourist attraction.",
+     "facts": [
+      "F23"
+     ]
+    },
+    {
+     "id": "ap-geography-21-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Waterfalls → Location / Key Feature",
+     "question": "Consider the following statements:\n\nI. Kothapalli Falls is formed by a local hill stream.\nII. Kothapalli Falls is an Eastern Ghats waterfall.\nIII. Kothapalli Falls is located in a tribal and highland region.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Kothapalli Falls is formed by a local hill stream, is an Eastern Ghats waterfall, and lies in a tribal and highland region.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "ap-geography-21-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Waterfalls → Location / Stream",
+     "question": "Consider the following statements:\nStatement A: Kailasakona Falls is located in the Chittoor region.\nStatement B: Kailasakona Falls is formed by a local stream.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Kailasakona Falls is located in the Chittoor region and is formed by a local stream.",
+     "facts": [
+      "F29",
+      "F31"
+     ]
+    },
+    {
+     "id": "ap-geography-21-13",
+     "format": "Direct Recall",
+     "keyword": "Waterfalls → Stream",
+     "question": "Chaparai Water Cascades are formed by which of the following?",
+     "options": [
+      "A local stream",
+      "The Ubbalamadugu stream",
+      "The Talakona stream",
+      "The Chandravanka Falls River"
+     ],
+     "answer": 0,
+     "explanation": "Chaparai Water Cascades are formed by a local stream.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "ap-geography-21-14",
+     "format": "Direct Recall",
+     "keyword": "Waterfalls → Stream",
+     "question": "Rampa Waterfalls are formed by which of the following?",
+     "options": [
+      "The Talakona stream",
+      "A local hill stream",
+      "The Chandravanka Falls River",
+      "The Galikonda stream"
+     ],
+     "answer": 1,
+     "explanation": "Rampa Waterfalls are formed by a local hill stream.",
+     "facts": [
+      "F40"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -5061,7 +5561,21 @@
       "Srikakulam, Visakhapatnam and Anakapalle"
      ],
      "answer": 3,
-     "explanation": "The North Coastal Zone includes Srikakulam, Visakhapatnam, Anakapalle and Vizianagaram. Among the options, the first set correctly identifies districts listed for this zone."
+     "explanation": "The North Coastal Zone includes Srikakulam, Visakhapatnam, Anakapalle and Vizianagaram. Among the options, the first set correctly identifies districts listed for this zone.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F13",
+      "F14",
+      "F15",
+      "F25",
+      "F26",
+      "F27",
+      "F42",
+      "F43",
+      "F44"
+     ]
     },
     {
      "id": "ap-geography-23-2",
@@ -5075,7 +5589,19 @@
       "Its major crops include rice, cotton, tobacco, chillies and maize."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is Nellore district. The notes specify that the Krishna Zone covers parts of Krishna, Guntur and Prakasam districts."
+     "explanation": "The incorrect detail is Nellore district. The notes specify that the Krishna Zone covers parts of Krishna, Guntur and Prakasam districts.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "ap-geography-23-3",
@@ -5089,7 +5615,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Krishna–Guntur plains, together with high rainfall and fertile deltaic/alluvial soils, support irrigation-intensive agriculture in the Krishna Zone."
+     "explanation": "Both statements are true. The Krishna–Guntur plains, together with high rainfall and fertile deltaic/alluvial soils, support irrigation-intensive agriculture in the Krishna Zone.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "ap-geography-23-4",
@@ -5103,7 +5635,18 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii. These match the terrain and characteristic descriptions given for the four zones."
+     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii. These match the terrain and characteristic descriptions given for the four zones.",
+     "facts": [
+      "F6",
+      "F7",
+      "F18",
+      "F19",
+      "F29",
+      "F30",
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "ap-geography-23-5",
@@ -5117,9 +5660,127 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because Nellore, Chittoor and Tirupati are listed under the Southern Zone, while the High Altitude and Tribal Areas Zone lists Anantapur, Kurnool and Nandyal."
+     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because Nellore, Chittoor and Tirupati are listed under the Southern Zone, while the High Altitude and Tribal Areas Zone lists Anantapur, Kurnool and Nandyal.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F42",
+      "F43",
+      "F44",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "ap-geography-23-6",
+     "format": "List-Matching",
+     "keyword": "Agro-climatic Zone → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) North Coastal Zone\n(b) Godavari Zone\n(c) Southern Zone\n(d) High Altitude and Tribal Areas Zone\n\nList-II\n(i) Associated with the Godavari delta and adjoining areas\n(ii) Includes Vizianagaram district\n(iii) Includes parts of Kadapa district\n(iv) Associated with the Eastern Ghats\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Vizianagaram belongs to the North Coastal Zone; the Godavari Zone is associated with the Godavari delta and adjoining areas; the Southern Zone includes parts of Kadapa; and the High Altitude and Tribal Areas Zone is associated with the Eastern Ghats.",
+     "facts": [
+      "F4",
+      "F5",
+      "F28",
+      "F45"
+     ]
+    },
+    {
+     "id": "ap-geography-23-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops → Godavari Zone",
+     "question": "Consider the following statements about the Godavari Zone:\n\nI. Rice is a major crop.\nII. Black gram is a major crop.\nIII. Green gram is a major crop.\nIV. Sugarcane is a major crop.\nV. Coconut is a major crop.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, II and III only",
+      "II, III, IV and V only",
+      "I, II, III, IV and V"
+     ],
+     "answer": 3,
+     "explanation": "Rice, black gram, green gram, sugarcane and coconut are all listed as major crops of the Godavari Zone.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "ap-geography-23-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops → Southern Zone",
+     "question": "Consider the following statements about the Southern Zone:\n\nI. Rice is a major crop.\nII. Groundnut is a major crop.\nIII. Red gram is a major crop.\nIV. Pearl millet is a major crop.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III and IV only",
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The major crops of the Southern Zone listed here are rice, groundnut, red gram and pearl millet.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "ap-geography-23-9",
+     "format": "Count-Based",
+     "keyword": "Major Crops → Scarce Rainfall Zone",
+     "question": "How many of the following are major crops of the Scarce Rainfall Zone?\n\n1. Groundnut\n2. Sunflower\n3. Sorghum\n4. Castor\n5. Rice\n6. Coffee\n7. Cotton",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+     ],
+     "answer": 2,
+     "explanation": "Groundnut, sunflower, sorghum and castor are major crops of the Scarce Rainfall Zone. Rice, coffee and cotton are not listed as crops of this zone.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "ap-geography-23-10",
+     "format": "Assertion-Reason",
+     "keyword": "Agro-climatic Zone → Terrain",
+     "question": "Assertion (A): The High Altitude and Tribal Areas Zone is associated with the Eastern Ghats.\nReason (R): The Eastern Ghats areas of this zone are hilly and tribal.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the zone is associated with the Eastern Ghats, and its Eastern Ghats areas are described as hilly and tribal. The reason states a terrain character rather than directly explaining the association.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 52,
+    "covered": 52,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -5646,7 +6307,10 @@
       "Inland south-western Andhra Pradesh"
      ],
      "answer": 3,
-     "explanation": "The notes identify Rayalaseema as an inland, south-western region of Andhra Pradesh."
+     "explanation": "The notes identify Rayalaseema as an inland, south-western region of Andhra Pradesh.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-27-2",
@@ -5660,7 +6324,16 @@
       "It has comparatively less favourable agriculture."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is population density. The notes state that Rayalaseema has very low population density, while the highest concentration is associated with Coastal Andhra."
+     "explanation": "The incorrect detail is population density. The notes state that Rayalaseema has very low population density, while the highest concentration is associated with Coastal Andhra.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14",
+      "F15",
+      "F21",
+      "F1",
+      "F13"
+     ]
     },
     {
      "id": "ap-geography-27-3",
@@ -5674,7 +6347,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, the notes state the association and the climate/agriculture characteristics separately, without establishing that the Deccan Plateau association is the explanation for them."
+     "explanation": "Both statements are given in the notes. However, the notes state the association and the climate/agriculture characteristics separately, without establishing that the Deccan Plateau association is the explanation for them.",
+     "facts": [
+      "F11",
+      "F12",
+      "F15",
+      "F1",
+      "F13"
+     ]
     },
     {
      "id": "ap-geography-27-4",
@@ -5688,7 +6368,16 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Rayalaseema location—iii; Coastal Andhra location—i; Rayalaseema terrain—iv; Coastal Andhra terrain—ii."
+     "explanation": "The correct pairs are: Rayalaseema location—iii; Coastal Andhra location—i; Rayalaseema terrain—iv; Coastal Andhra terrain—ii.",
+     "facts": [
+      "F2",
+      "F16",
+      "F18",
+      "F19",
+      "F1",
+      "F17",
+      "F22"
+     ]
     },
     {
      "id": "ap-geography-27-5",
@@ -5702,9 +6391,80 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV describes the Coastal Andhra physical setting, whereas Rayalaseema consists of inland uplands/plateau."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV describes the Coastal Andhra physical setting, whereas Rayalaseema consists of inland uplands/plateau.",
+     "facts": [
+      "F11",
+      "F14",
+      "F15",
+      "F19",
+      "F1",
+      "F17",
+      "F22"
+     ]
+    },
+    {
+     "id": "ap-geography-27-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Districts → Region [LOCATION]",
+     "question": "Consider the following statements:\nI. Kurnool district is included in Rayalaseema.\nII. Nandyal district is included in Rayalaseema.\nIII. Anantapur district is included in Rayalaseema.\nIV. Sri Sathya Sai district is included in Rayalaseema.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Rayalaseema includes Kurnool, Nandyal, Anantapur and Sri Sathya Sai districts. Therefore, all four statements are correct.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-27-7",
+     "format": "Count-Based",
+     "keyword": "Districts → Region [LOCATION]",
+     "question": "How many of the following districts are included in Rayalaseema?\n1. YSR\n2. Annamayya\n3. Tirupati\n4. Chittoor",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed districts—YSR, Annamayya, Tirupati and Chittoor—are included in Rayalaseema.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "ap-geography-27-8",
+     "format": "Direct Recall",
+     "keyword": "Agriculture",
+     "question": "Which of the following best describes agriculture in Coastal Andhra?",
+     "options": [
+      "Fertile and well-developed agriculture",
+      "Agriculture associated with very low population density",
+      "Drought-prone agriculture",
+      "Comparatively less favourable agriculture"
+     ],
+     "answer": 0,
+     "explanation": "Coastal Andhra is characterised by fertile and well-developed agriculture.",
+     "facts": [
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -5820,7 +6580,18 @@
       "Simhadri, Visakhapatnam"
      ],
      "answer": 1,
-     "explanation": "Dr. Narla Tata Rao TPS is located at Ibrahimpatnam, near Vijayawada, in Krishna district."
+     "explanation": "Dr. Narla Tata Rao TPS is located at Ibrahimpatnam, near Vijayawada, in Krishna district.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F9",
+      "F10",
+      "F13",
+      "F14",
+      "F34"
+     ]
     },
     {
      "id": "ap-geography-29-2",
@@ -5834,7 +6605,14 @@
       "Dr. Narla Tata Rao TPS is operated by APGENCO."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the operator: Rayalaseema TPS is operated by APGENCO, not NTPC."
+     "explanation": "The incorrect detail is the operator: Rayalaseema TPS is operated by APGENCO, not NTPC.",
+     "facts": [
+      "F4",
+      "F8",
+      "F12",
+      "F16",
+      "F35"
+     ]
     },
     {
      "id": "ap-geography-29-3",
@@ -5848,7 +6626,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the district-wise association table: Simhadri STPS is linked to Visakhapatnam, NTPC and thermal power."
+     "explanation": "Both statements are directly supported by the district-wise association table: Simhadri STPS is linked to Visakhapatnam, NTPC and thermal power.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "ap-geography-29-4",
@@ -5862,7 +6645,19 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Srisailam House Right Bank Power–Sunnipenta, Upper Sileru Power House–Upper Sileru, Lower Sileru Power House–Mothugudem, and Dr. Narla Tata Rao TPS–Ibrahimpatnam."
+     "explanation": "The correct pairs are: Srisailam House Right Bank Power–Sunnipenta, Upper Sileru Power House–Upper Sileru, Lower Sileru Power House–Mothugudem, and Dr. Narla Tata Rao TPS–Ibrahimpatnam.",
+     "facts": [
+      "F5",
+      "F6",
+      "F17",
+      "F18",
+      "F21",
+      "F22",
+      "F25",
+      "F26",
+      "F34",
+      "F46"
+     ]
     },
     {
      "id": "ap-geography-29-5",
@@ -5876,9 +6671,151 @@
       "I, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and IV are correct. Srisailam Right Bank is linked with Kurnool, Upper Sileru with the Visakhapatnam region, and Lower Sileru with the East Godavari region; Lower Sileru is not linked with SPSR Nellore."
+     "explanation": "Statements I, II and IV are correct. Srisailam Right Bank is linked with Kurnool, Upper Sileru with the Visakhapatnam region, and Lower Sileru with the East Godavari region; Lower Sileru is not linked with SPSR Nellore.",
+     "facts": [
+      "F32",
+      "F42",
+      "F45"
+     ]
+    },
+    {
+     "id": "ap-geography-29-6",
+     "format": "List-Matching",
+     "keyword": "Power station → Capacity",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Simhadri Super Thermal Power Station\n(b) Dr. Narla Tata Rao TPS\n(c) Sri Damodaram Sanjeevaiah TPS\n(d) Rayalaseema TPS\n\nList-II\n(i) 2,000 MW\n(ii) 1,760 MW\n(iii) 1,960 MW\n(iv) 1,050 MW",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Simhadri Super Thermal Power Station has a capacity of 2,000 MW; Dr. Narla Tata Rao TPS, 1,760 MW; Sri Damodaram Sanjeevaiah TPS, 1,960 MW; and Rayalaseema TPS, 1,050 MW.",
+     "facts": [
+      "F3",
+      "F7",
+      "F11",
+      "F15"
+     ]
+    },
+    {
+     "id": "ap-geography-29-7",
+     "format": "Assertion-Reason",
+     "keyword": "River → Power station",
+     "question": "Assertion (A): Upper Sileru Power House and Lower Sileru Power House use the Sileru River.\nReason (R): Both power houses are parts of the 700 MW combined capacity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both power houses use the Sileru River, and each is part of the 700 MW combined capacity. The combined capacity does not explain why they use the Sileru River.",
+     "facts": [
+      "F23",
+      "F24",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "ap-geography-29-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Power station → Association and type",
+     "question": "Consider the following statements:\nStatement A: Sri Damodaram Sanjeevaiah TPS is associated with Nellore and Krishnapatnam and is a thermal power station.\nStatement B: Rayalaseema TPS is associated with YSR Kadapa and is a thermal power station.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Sri Damodaram Sanjeevaiah TPS is associated with Nellore and Krishnapatnam and is thermal. Rayalaseema TPS is associated with YSR Kadapa and is also thermal.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "ap-geography-29-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hydel/Thermal power station",
+     "question": "Consider the following statements:\nStatement A: Upper Sileru Power House is a hydel power station.\nStatement B: Narla Tata Rao TPS is a thermal power station.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Upper Sileru is identified as a hydel power station, whereas Narla Tata Rao TPS is identified as a thermal power station.",
+     "facts": [
+      "F33",
+      "F36"
+     ]
+    },
+    {
+     "id": "ap-geography-29-10",
+     "format": "Assertion-Reason",
+     "keyword": "Hydel station → River and association",
+     "question": "Assertion (A): Srisailam Right Bank Power House is associated with Krishna and is a hydel power station.\nReason (R): Srisailam Right Bank Power House uses the Krishna River.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Srisailam Right Bank Power House is associated with Krishna, uses the Krishna River and is a hydel power station. The river explains its Krishna association, but not independently its hydel classification.",
+     "facts": [
+      "F19",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "ap-geography-29-11",
+     "format": "Direct Recall",
+     "keyword": "Hydel power station",
+     "question": "Which of the following is a hydel power station?",
+     "options": [
+      "Lower Sileru Power House",
+      "Narla Tata Rao TPS",
+      "Sri Damodaram Sanjeevaiah TPS",
+      "Rayalaseema TPS"
+     ],
+     "answer": 0,
+     "explanation": "Lower Sileru Power House is identified as a hydel power station. The other three listed stations are thermal power stations.",
+     "facts": [
+      "F47"
+     ]
+    },
+    {
+     "id": "ap-geography-29-12",
+     "format": "Direct Recall",
+     "keyword": "Power station → Capacity",
+     "question": "The Srisailam Right Bank Power House has a capacity of:",
+     "options": [
+      "700 MW",
+      "1,760 MW",
+      "1,050 MW",
+      "770 MW"
+     ],
+     "answer": 3,
+     "explanation": "The Srisailam Right Bank Power House has a capacity of 770 MW.",
+     "facts": [
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   }
  }
 }

@@ -8863,8 +8863,94 @@
       "F7",
       "F8"
      ]
+    },
+    {
+     "id": "indian-polity-18-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Fundamental duties – NUMBER GAME",
+     "question": "Consider the following statements:\nI. Fundamental Duties were added to the Constitution in 1976.\nII. The 42nd Amendment Act added the Fundamental Duties.\nIII. The Swaran Singh Committee recommended the Fundamental Duties.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II only",
+      "I and II only",
+      "I only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Fundamental Duties were added in 1976 through the 42nd Amendment Act, following the recommendation of the Swaran Singh Committee.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-polity-18-7",
+     "format": "List-Matching",
+     "keyword": "Fundamental duties – NUMBER GAME",
+     "question": "Match List-I with List-II:\n\nList-I (Article 51-A clause)\na. Clause (a)\nb. Clause (b)\nc. Clause (c)\nd. Clause (d)\n\nList-II (Duty)\ni. Abide by the Constitution and respect the National Flag and National Anthem\nii. Cherish the noble ideals that inspired the freedom struggle\niii. Uphold the sovereignty, unity and integrity of India\niv. Defend the country and render national service when called upon\n\nSelect the correct answer using the codes given below:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: clause (a)–abide by the Constitution and respect the National Flag and National Anthem; clause (b)–cherish the ideals of the freedom struggle; clause (c)–uphold sovereignty, unity and integrity; and clause (d)–defend the country and render national service when called upon.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-polity-18-8",
+     "format": "Count-Based",
+     "keyword": "Fundamental duties – NUMBER GAME",
+     "question": "How many of the following are duties under Article 51-A(i)?\n1. Safeguard public property\n2. Abjure violence\n3. Strive towards excellence",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 1,
+     "explanation": "Article 51-A(i) requires citizens to safeguard public property and abjure violence. Striving towards excellence is the duty under Article 51-A(j). Therefore, only two statements belong to Article 51-A(i).",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-polity-18-9",
+     "format": "Assertion-Reason",
+     "keyword": "Articles – NUMBER GAME",
+     "question": "Assertion (A): Part IV-A of the Constitution contains only one Article.\nReason (R): The only Article in Part IV-A is Article 51-A.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Part IV-A contains only one Article, and that Article is Article 51-A; therefore, the Reason correctly explains the Assertion.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,

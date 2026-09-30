@@ -2884,7 +2884,8 @@
      "explanation": "The International Nuclear Event Scale (INES) measures the severity of nuclear or radiological events. It has levels from 0 to 7 and is associated with the IAEA (1990).",
      "facts": [
       "F34",
-      "F35"
+      "F35",
+      "F37"
      ]
     },
     {
@@ -2909,7 +2910,13 @@
       "F31",
       "F32",
       "F33",
-      "F36"
+      "F36",
+      "F21",
+      "F22",
+      "F24",
+      "F26",
+      "F27",
+      "F28"
      ]
     },
     {
@@ -2927,7 +2934,8 @@
      "explanation": "Both statements are true according to the notes. The notes state that the Moment Magnitude Scale is preferred over the Richter Scale for large earthquakes and is the modern standard; however, the modern-standard description does not itself explain the specific preference for large earthquakes.",
      "facts": [
       "F18",
-      "F19"
+      "F19",
+      "F16"
      ]
     },
     {
@@ -2974,10 +2982,96 @@
       "F38",
       "F39",
       "F40",
-      "F41"
+      "F41",
+      "F21",
+      "F22",
+      "F24",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "disaster-management-9-6",
+     "format": "List-Matching",
+     "keyword": "Scale → Key Fact",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Fujita/Enhanced Fujita Scale\n(b) Richter Scale\n(c) Moment Magnitude Scale\n(d) Modified Mercalli Intensity Scale\n\nList-II\n(i) Ranges from F0/EF0 to F5/EF5\n(ii) Developed by Charles Richter in 1935\n(iii) Denoted by Mw\n(iv) Abbreviated MMI",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The Fujita/Enhanced Fujita Scale ranges from F0/EF0 to F5/EF5. The Richter Scale was developed by Charles Richter in 1935, the Moment Magnitude Scale is denoted by Mw, and the Modified Mercalli Intensity Scale is abbreviated MMI.",
+     "facts": [
+      "F7",
+      "F14",
+      "F15",
+      "F20"
+     ]
+    },
+    {
+     "id": "disaster-management-9-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scale Characteristics",
+     "question": "Consider the following statements:\n\nI. The Fujita/Enhanced Fujita Scale indicates tornado intensity.\nII. The Richter Scale is logarithmic.\nIII. The Richter Scale usually ranges from 1 to 10 or higher.\nIV. The Moment Magnitude Scale is logarithmic.",
+     "options": [
+      "II, III and IV only",
+      "I and IV only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct: the Fujita/Enhanced Fujita Scale indicates tornado intensity; the Richter Scale is logarithmic and usually ranges from 1 to 10 or higher; and the Moment Magnitude Scale is also logarithmic.",
+     "facts": [
+      "F8",
+      "F12",
+      "F13",
+      "F17"
+     ]
+    },
+    {
+     "id": "disaster-management-9-8",
+     "format": "Assertion-Reason",
+     "keyword": "MMI → Basis of Measurement",
+     "question": "Assertion (A): Earthquake intensity on the Modified Mercalli Intensity Scale is based on observed effects and damage.\nReason (R): The Modified Mercalli Intensity Scale is based on human observation and damage.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Modified Mercalli Intensity Scale assesses earthquake intensity through observed effects and damage, relying on human observation and damage; therefore, R correctly explains A.",
+     "facts": [
+      "F23",
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-9-9",
+     "format": "Direct Recall",
+     "keyword": "Scale → Location/Usage",
+     "question": "Which of the following scales is used in India and many European countries?",
+     "options": [
+      "Modified Mercalli Intensity Scale",
+      "MSK-64 Scale",
+      "Moment Magnitude Scale",
+      "Fujita/Enhanced Fujita Scale"
+     ],
+     "answer": 1,
+     "explanation": "The MSK-64 Scale is used in India and many European countries.",
+     "facts": [
+      "F29"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 41,
+    "covered": 41,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -6823,8 +6917,31 @@
       "F57",
       "F58"
      ]
+    },
+    {
+     "id": "disaster-management-20-17",
+     "format": "Assertion-Reason",
+     "keyword": "Natural Hazards → Biological Subtype",
+     "question": "Assertion (A): Biological hazards are included as a subtype of natural hazards.\nReason (R): Pest attacks are examples of biological natural hazards.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Natural hazards include the biological subtype. Pest attacks are examples of biological natural hazards, but this example does not explain the classification of biological hazards as a subtype of natural hazards.",
+     "facts": [
+      "F33",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 58,
+    "covered": 58,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -7328,8 +7445,30 @@
       "F22",
       "F24"
      ]
+    },
+    {
+     "id": "disaster-management-22-10",
+     "format": "Direct Recall",
+     "keyword": "Days",
+     "question": "What is the primary purpose of the International Day for Disaster Risk Reduction?",
+     "options": [
+      "To promote a global culture of disaster risk reduction and resilience",
+      "To raise awareness about tsunami risks and preparedness",
+      "To honour humanitarian workers and those affected by crises",
+      "To highlight the role of weather, climate and water services in disaster risk reduction"
+     ],
+     "answer": 0,
+     "explanation": "The International Day for Disaster Risk Reduction promotes a global culture of disaster risk reduction and resilience.",
+     "facts": [
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,
@@ -9467,7 +9606,12 @@
       "Depression"
      ],
      "answer": 1,
-     "explanation": "The notes state that naming begins at the Cyclonic Storm stage, from 62 km/h and above."
+     "explanation": "The notes state that naming begins at the Cyclonic Storm stage, from 62 km/h and above.",
+     "facts": [
+      "F14",
+      "F13",
+      "F26"
+     ]
     },
     {
      "id": "disaster-management-30-2",
@@ -9481,7 +9625,19 @@
       "An Extremely Severe Cyclonic Storm has a wind speed of 167–221 km/h."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the wind-speed range. A Very Severe Cyclonic Storm has a wind speed of 118–166 km/h; 89–117 km/h corresponds to a Severe Cyclonic Storm."
+     "explanation": "The incorrect detail is the wind-speed range. A Very Severe Cyclonic Storm has a wind speed of 118–166 km/h; 89–117 km/h corresponds to a Severe Cyclonic Storm.",
+     "facts": [
+      "F15",
+      "F17",
+      "F19",
+      "F21",
+      "F22",
+      "F16",
+      "F18",
+      "F20",
+      "F23",
+      "F27"
+     ]
     },
     {
      "id": "disaster-management-30-3",
@@ -9495,7 +9651,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. The 3-minute average specifies how the maximum sustained wind speed used as the classification basis is measured, but it does not explain why wind speed is the basis of classification."
+     "explanation": "Both statements are true according to the notes. The 3-minute average specifies how the maximum sustained wind speed used as the classification basis is measured, but it does not explain why wind speed is the basis of classification.",
+     "facts": [
+      "F4",
+      "F25",
+      "F3"
+     ]
     },
     {
      "id": "disaster-management-30-4",
@@ -9509,7 +9670,17 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Low Pressure Area—less than 31 km/h; Depression—31–49 km/h; Deep Depression—50–61 km/h; Cyclonic Storm—62–88 km/h."
+     "explanation": "The correct pairs are: Low Pressure Area—less than 31 km/h; Depression—31–49 km/h; Deep Depression—50–61 km/h; Cyclonic Storm—62–88 km/h.",
+     "facts": [
+      "F5",
+      "F8",
+      "F10",
+      "F12",
+      "F6",
+      "F9",
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "disaster-management-30-5",
@@ -9523,9 +9694,39 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. The notes specify the North Indian Ocean region, including the Bay of Bengal and Arabian Sea, and identify the Super Cyclonic Storm as the highest category. Statement III is incorrect because the IMD classification is different from the Saffir-Simpson Scale."
+     "explanation": "Statements I and II are correct. The notes specify the North Indian Ocean region, including the Bay of Bengal and Arabian Sea, and identify the Super Cyclonic Storm as the highest category. Statement III is incorrect because the IMD classification is different from the Saffir-Simpson Scale.",
+     "facts": [
+      "F1",
+      "F2",
+      "F24",
+      "F28",
+      "F29",
+      "F27"
+     ]
+    },
+    {
+     "id": "disaster-management-30-6",
+     "format": "Direct Recall",
+     "keyword": "Classification – Category",
+     "question": "According to the IMD classification of low-pressure systems, which category is the weakest system?",
+     "options": [
+      "Low Pressure Area",
+      "Cyclonic Storm",
+      "Depression",
+      "Deep Depression"
+     ],
+     "answer": 0,
+     "explanation": "The Low Pressure Area is identified as the weakest system in the IMD classification. Depression, Deep Depression and Cyclonic Storm are progressively stronger categories.",
+     "facts": [
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,
@@ -10659,7 +10860,10 @@
       "World Conference on Development and Risk Reduction"
      ],
      "answer": 2,
-     "explanation": "WCDRR stands for World Conference on Disaster Risk Reduction."
+     "explanation": "WCDRR stands for World Conference on Disaster Risk Reduction.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-35-2",
@@ -10673,7 +10877,15 @@
       "The purpose of WCDRRs is to discuss and adopt international frameworks for disaster risk reduction."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is that UNDRR coordinated the first and second conferences. The notes state that UNDRR, formerly UNISDR, was the coordinating body for the second and third conferences."
+     "explanation": "The incorrect detail is that UNDRR coordinated the first and second conferences. The notes state that UNDRR, formerly UNISDR, was the coordinating body for the second and third conferences.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "disaster-management-35-3",
@@ -10687,7 +10899,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the 2015–2030 period does not by itself explain why the Sendai Framework is the current global framework."
+     "explanation": "Both statements are true according to the notes. However, the 2015–2030 period does not by itself explain why the Sendai Framework is the current global framework.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "disaster-management-35-4",
@@ -10701,7 +10917,15 @@
       "a-ii, b-iii, c-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: 1st WCDRR–Yokohama World Strategy, 2nd WCDRR–Hyogo Framework for Action, and 3rd WCDRR–Sendai Framework."
+     "explanation": "The correct pairs are: 1st WCDRR–Yokohama World Strategy, 2nd WCDRR–Hyogo Framework for Action, and 3rd WCDRR–Sendai Framework.",
+     "facts": [
+      "F10",
+      "F13",
+      "F16",
+      "F20",
+      "F21",
+      "F24"
+     ]
     },
     {
      "id": "disaster-management-35-5",
@@ -10715,9 +10939,94 @@
       "C, B, A"
      ],
      "answer": 2,
-     "explanation": "The conferences were held in chronological order as follows: 1st WCDRR in 1994, 2nd WCDRR in 2005, and 3rd WCDRR in 2015."
+     "explanation": "The conferences were held in chronological order as follows: 1st WCDRR in 1994, 2nd WCDRR in 2005, and 3rd WCDRR in 2015.",
+     "facts": [
+      "F8",
+      "F11",
+      "F14"
+     ]
+    },
+    {
+     "id": "disaster-management-35-6",
+     "format": "List-Matching",
+     "keyword": "Conference/Conference",
+     "question": "Match List-I with List-II:\n\nList-I (WCDRR)\na. 1st WCDRR\nb. 2nd WCDRR\nc. 3rd WCDRR\n\nList-II (Location)\ni. Sendai, Japan\nii. Yokohama, Japan\niii. Kobe, Japan (Hyogo)\n\nSelect the correct code:",
+     "options": [
+      "a-i, b-iii, c-ii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-ii, c-i",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 1,
+     "explanation": "The 1st WCDRR was held at Yokohama, the 2nd at Kobe, Japan (Hyogo), and the 3rd at Sendai, Japan.",
+     "facts": [
+      "F9",
+      "F12",
+      "F15"
+     ]
+    },
+    {
+     "id": "disaster-management-35-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Framework/Period",
+     "question": "Consider the following statements:\n\nI. The Yokohama Strategy was adopted in 1994.\nII. The period of the Yokohama Strategy was from 1994 onwards.\nIII. The Yokohama Strategy provided the first global guidelines on disaster prevention, preparedness and mitigation.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "The Yokohama Strategy was adopted in 1994, continued from 1994 onwards, and provided the first global guidelines on disaster prevention, preparedness and mitigation.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-35-8",
+     "format": "Assertion-Reason",
+     "keyword": "Framework/Resilience",
+     "question": "Assertion (A): The Hyogo Framework for Action focused on building the resilience of nations and communities.\nReason (R): The Hyogo Framework for Action had five priorities for action.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Hyogo Framework focused on building resilience and had five priorities for action, but the number of priorities does not explain its focus on resilience.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "disaster-management-35-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Framework/Global Targets",
+     "question": "Consider the following statements about the Sendai Framework:\n\nI. It has four priorities.\nII. It has seven global targets.\nIII. It includes the “Build Back Better” concept.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "The Sendai Framework has four priorities, seven global targets, and includes the “Build Back Better” concept.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   }
  }
 }

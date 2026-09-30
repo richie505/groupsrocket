@@ -3426,7 +3426,13 @@
       "A, B, C, D"
      ],
      "answer": 3,
-     "explanation": "The correct sequence is 1985, 1998, 1999 and 2006: establishment, renaming, separation of Tribal Affairs functions, and transfer of minority welfare functions."
+     "explanation": "The correct sequence is 1985, 1998, 1999 and 2006: establishment, renaming, separation of Tribal Affairs functions, and transfer of minority welfare functions.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-7-2",
@@ -3440,7 +3446,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Ministry of Social Justice and Empowerment—Transgender welfare; Ministry of Tribal Affairs—Forest Rights Act; Ministry of Minority Affairs—Parsis; Ministry of Women and Child Development—Poshan initiatives."
+     "explanation": "The correct pairs are: Ministry of Social Justice and Empowerment—Transgender welfare; Ministry of Tribal Affairs—Forest Rights Act; Ministry of Minority Affairs—Parsis; Ministry of Women and Child Development—Poshan initiatives.",
+     "facts": [
+      "F9",
+      "F12",
+      "F18",
+      "F23"
+     ]
     },
     {
      "id": "indian-society-7-3",
@@ -3454,7 +3466,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes as functions of the respective ministries, but the Ministry of Social Justice and Empowerment's work on SC welfare does not explain the Ministry of Women and Child Development's role in child welfare."
+     "explanation": "Both statements are given in the notes as functions of the respective ministries, but the Ministry of Social Justice and Empowerment's work on SC welfare does not explain the Ministry of Women and Child Development's role in child welfare.",
+     "facts": [
+      "F21",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-7-4",
@@ -3468,7 +3484,13 @@
       "The Ministry of Tribal Affairs deals with the Forest Rights Act."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is the third one. Poshan initiatives are dealt with by the Ministry of Women and Child Development, whereas the Ministry of Minority Affairs deals with Muslims, Christians, Sikhs, Buddhists, Parsis and Jains."
+     "explanation": "The incorrect statement is the third one. Poshan initiatives are dealt with by the Ministry of Women and Child Development, whereas the Ministry of Minority Affairs deals with Muslims, Christians, Sikhs, Buddhists, Parsis and Jains.",
+     "facts": [
+      "F7",
+      "F23",
+      "F24",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-7-5",
@@ -3482,9 +3504,92 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct according to the notes. OBC welfare is listed under the Ministry of Social Justice and Empowerment, while Christians are among the communities covered by the Ministry of Minority Affairs."
+     "explanation": "Both statements are correct according to the notes. OBC welfare is listed under the Ministry of Social Justice and Empowerment, while Christians are among the communities covered by the Ministry of Minority Affairs.",
+     "facts": [
+      "F6",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-society-7-6",
+     "format": "Direct Recall",
+     "keyword": "Ministry – Welfare",
+     "question": "Which ministry deals with persons with disabilities?",
+     "options": [
+      "Ministry of Tribal Affairs",
+      "Ministry of Women and Child Development",
+      "Ministry of Minority Affairs",
+      "Ministry of Social Justice and Empowerment"
+     ],
+     "answer": 3,
+     "explanation": "The Ministry of Social Justice and Empowerment deals with persons with disabilities.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-society-7-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ministry – Welfare",
+     "question": "Consider the following statements:\nI. The Ministry of Tribal Affairs deals with Scheduled Tribes.\nII. The Ministry of Tribal Affairs deals with PESA implementation.\nIII. The Ministry of Tribal Affairs deals with tribal education and development.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct responsibilities of the Ministry of Tribal Affairs: Scheduled Tribes, PESA implementation, and tribal education and development.",
+     "facts": [
+      "F10",
+      "F11",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-society-7-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ministry – Welfare",
+     "question": "Consider the following statements:\nI. The Ministry of Minority Affairs deals with Muslims.\nII. The Ministry of Minority Affairs deals with Sikhs.\nIII. The Ministry of Minority Affairs deals with Buddhists.\nIV. The Ministry of Minority Affairs deals with Jains.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The Ministry of Minority Affairs deals with Muslims, Sikhs, Buddhists and Jains, along with other listed minority communities.",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-society-7-9",
+     "format": "Assertion-Reason",
+     "keyword": "Ministry – Welfare",
+     "question": "Assertion (A): The Ministry of Women and Child Development deals with women empowerment.\nReason (R): The Ministry of Women and Child Development deals with ICDS.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true responsibilities of the Ministry of Women and Child Development. ICDS is a separate area of responsibility and does not explain the ministry’s role in women empowerment.",
+     "facts": [
+      "F20",
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -5488,7 +5593,15 @@
       "Economic security, political stability and regional equality only"
      ],
      "answer": 2,
-     "explanation": "Social stability is the condition in which society maintains peace, order, harmony, continuity and effective functioning of institutions despite social changes."
+     "explanation": "Social stability is the condition in which society maintains peace, order, harmony, continuity and effective functioning of institutions despite social changes.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-society-12-2",
@@ -5502,7 +5615,13 @@
       "Religious and cultural tolerance is a key feature of social stability."
      ],
      "answer": 3,
-     "explanation": "The incorrect statement is that religious and cultural tolerance is a key feature. In the notes, religious and cultural tolerance is listed as a factor promoting social stability."
+     "explanation": "The incorrect statement is that religious and cultural tolerance is a key feature. In the notes, religious and cultural tolerance is listed as a factor promoting social stability.",
+     "facts": [
+      "F7",
+      "F9",
+      "F11",
+      "F18"
+     ]
     },
     {
      "id": "indian-society-12-3",
@@ -5516,7 +5635,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify the family as the primary agent of socialization and list it as a factor promoting social stability."
+     "explanation": "Both statements are true. The notes identify the family as the primary agent of socialization and list it as a factor promoting social stability.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-society-12-4",
@@ -5530,7 +5652,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Education and value inculcation are factors promoting social stability, while extremism and terrorism are factors threatening it."
+     "explanation": "Both statements are true. Education and value inculcation are factors promoting social stability, while extremism and terrorism are factors threatening it.",
+     "facts": [
+      "F14",
+      "F23"
+     ]
     },
     {
      "id": "indian-society-12-5",
@@ -5544,7 +5670,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Welfare schemes and social justice measures promote social stability, while regionalism threatens it. Inclusive development is a key feature of social stability, not a threat."
+     "explanation": "Statements I and II are correct. Welfare schemes and social justice measures promote social stability, while regionalism threatens it. Inclusive development is a key feature of social stability, not a threat.",
+     "facts": [
+      "F12",
+      "F17",
+      "F22"
+     ]
     }
    ]
   },
@@ -5572,7 +5703,10 @@
       "Historical Materialism"
      ],
      "answer": 0,
-     "explanation": "Karl Marx is known as the Father of Scientific Socialism. He was also one of the most influential sociologists in conflict theory."
+     "explanation": "Karl Marx is known as the Father of Scientific Socialism. He was also one of the most influential sociologists in conflict theory.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-society-13-2",
@@ -5586,7 +5720,12 @@
       "The Communist Manifesto was published in 1848."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the year of Das Kapital. According to the notes, Das Kapital was published in 1867, not 1848."
+     "explanation": "The incorrect statement alters the year of Das Kapital. According to the notes, Das Kapital was published in 1867, not 1848.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-13-3",
@@ -5600,7 +5739,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Historical Materialism holds that economic conditions shape society, politics, and culture."
+     "explanation": "Both statements are true. Historical Materialism holds that economic conditions shape society, politics, and culture.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-society-13-4",
@@ -5614,7 +5758,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "Marx stated that workers become alienated from the product of labour, the production process, society, and themselves. Thus, the correct matching is a-ii, b-iv, c-i, d-iii."
+     "explanation": "Marx stated that workers become alienated from the product of labour, the production process, society, and themselves. Thus, the correct matching is a-ii, b-iv, c-i, d-iii.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-society-13-5",
@@ -5628,9 +5778,59 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the notes. They describe Marx's concepts of surplus value, class struggle, and revolution."
+     "explanation": "All three statements are correct according to the notes. They describe Marx's concepts of surplus value, class struggle, and revolution.",
+     "facts": [
+      "F12",
+      "F16",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-society-13-6",
+     "format": "List-Matching",
+     "keyword": "Karl Marx",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Birth of Karl Marx\n(b) Death of Karl Marx\n(c) Das Kapital\n(d) Karl Marx's sociological contribution\n\nList-II\n(i) 1818\n(ii) 1883\n(iii) One of the most influential sociologists in conflict theory\n(iv) An important work of Karl Marx",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Karl Marx was born in 1818 and died in 1883. Das Kapital was one of his important works, and he was one of the most influential sociologists in conflict theory.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-society-13-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Karl Marx",
+     "question": "Consider the following examples of class conflict:\n\nI. Master and slave\nII. Lord and serf\nIII. Bourgeoisie and proletariat\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Master and slave, lord and serf, and bourgeoisie and proletariat are all cited as examples of class conflict.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -5824,7 +6024,10 @@
       "Traditional Sociology"
      ],
      "answer": 1,
-     "explanation": "Max Weber is known as the Father of Interpretative Sociology."
+     "explanation": "Max Weber is known as the Father of Interpretative Sociology.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-society-16-2",
@@ -5838,7 +6041,14 @@
       "He is known as the Father of Interpretative Sociology."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the basis of affective action. Affective action is based on emotions, whereas traditional action is based on customs and traditions."
+     "explanation": "The incorrect statement alters the basis of affective action. Affective action is based on emotions, whereas traditional action is based on customs and traditions.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-society-16-3",
@@ -5852,7 +6062,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, Weber’s important work does not explain why he is known as the Father of Interpretative Sociology."
+     "explanation": "Both statements are true according to the notes. However, Weber’s important work does not explain why he is known as the Father of Interpretative Sociology.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-society-16-4",
@@ -5866,7 +6080,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Instrumentally Rational Action—goal-oriented behaviour; Value Rational Action—values and ethics; Traditional Action—customs and traditions; Affective Action—emotions."
+     "explanation": "The correct pairs are: Instrumentally Rational Action—goal-oriented behaviour; Value Rational Action—values and ethics; Traditional Action—customs and traditions; Affective Action—emotions.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-society-16-5",
@@ -5880,9 +6100,58 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Hierarchy, specialization and impersonality are listed as characteristics of bureaucracy. Charismatic leadership is associated with charismatic authority, not listed as a characteristic of bureaucracy."
+     "explanation": "Hierarchy, specialization and impersonality are listed as characteristics of bureaucracy. Charismatic leadership is associated with charismatic authority, not listed as a characteristic of bureaucracy.",
+     "facts": [
+      "F9",
+      "F11",
+      "F13",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-society-16-6",
+     "format": "List-Matching",
+     "keyword": "Ideal Type; Bureaucracy; Traditional Authority",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ideal Type\n(b) Rules and regulations\n(c) Merit system\n(d) Traditional Authority\n\nList-II\n(i) A characteristic of bureaucracy\n(ii) An analytical model used to understand social reality\n(iii) Authority based on customs\n(iv) A characteristic of bureaucracy\n\nChoose the correct code:",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "An ideal type is an analytical model used to understand social reality. Rules and regulations and the merit system are characteristics of bureaucracy, while traditional authority is based on customs.",
+     "facts": [
+      "F8",
+      "F10",
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-society-16-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Legal-Rational Authority; Traditional Authority",
+     "question": "Consider the following statements:\nStatement A: Traditional authority is based on customs.\nStatement B: Legal-rational authority is based on laws and rules.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: traditional authority is based on customs, whereas legal-rational authority is based on laws and rules.",
+     "facts": [
+      "F14",
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
@@ -6247,7 +6516,17 @@
       "Only land, houses and buildings"
      ],
      "answer": 1,
-     "explanation": "Inheritance refers to the transfer of property, wealth, rights and obligations from one generation to another after death."
+     "explanation": "Inheritance refers to the transfer of property, wealth, rights and obligations from one generation to another after death.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-21-2",
@@ -6261,7 +6540,21 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are property inheritance—land, house and buildings; financial inheritance—money, shares and savings; cultural inheritance—language, customs and traditions; and social inheritance—status, reputation and networks."
+     "explanation": "The correct pairs are property inheritance—land, house and buildings; financial inheritance—money, shares and savings; cultural inheritance—language, customs and traditions; and social inheritance—status, reputation and networks.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-society-21-3",
@@ -6275,7 +6568,13 @@
       "The Hindu Succession (Amendment) Act, 2005 granted daughters equal coparcenary rights."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the applicable community. The notes state that the Indian Succession Act, 1925 applies mainly to Christians and others, not Muslims and others."
+     "explanation": "The incorrect statement alters the applicable community. The notes state that the Indian Succession Act, 1925 applies mainly to Christians and others, not Muslims and others.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-society-21-4",
@@ -6289,7 +6588,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are supported by the notes. However, identifying gender equality as a contemporary issue does not itself explain the specific statutory provision granting daughters equal coparcenary rights."
+     "explanation": "Both statements are supported by the notes. However, identifying gender equality as a contemporary issue does not itself explain the specific statutory provision granting daughters equal coparcenary rights.",
+     "facts": [
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "indian-society-21-5",
@@ -6303,9 +6606,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four—women's property rights, gender equality, family disputes and property fragmentation—are listed as contemporary issues in inheritance."
+     "explanation": "All four—women's property rights, gender equality, family disputes and property fragmentation—are listed as contemporary issues in inheritance.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -7090,7 +7404,10 @@
       "Families consisting exclusively of single-parent households"
      ],
      "answer": 0,
-     "explanation": "High-risk families face severe social, economic, health, psychological, or environmental challenges that adversely affect the well-being of family members."
+     "explanation": "High-risk families face severe social, economic, health, psychological, or environmental challenges that adversely affect the well-being of family members.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-society-31-2",
@@ -7104,7 +7421,13 @@
       "Domestic violence may be a characteristic of high-risk families."
      ],
      "answer": 0,
-     "explanation": "Social exclusion is listed as a social cause of high-risk families, not as one of their characteristics. The listed characteristics include domestic violence, substance abuse and single-parent households."
+     "explanation": "Social exclusion is listed as a social cause of high-risk families, not as one of their characteristics. The listed characteristics include domestic violence, substance abuse and single-parent households.",
+     "facts": [
+      "F15",
+      "F6",
+      "F5",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-31-3",
@@ -7118,7 +7441,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Child labour is specifically listed as a consequence of high-risk families, so the Reason correctly explains the Assertion."
+     "explanation": "Both statements are true. Child labour is specifically listed as a consequence of high-risk families, so the Reason correctly explains the Assertion.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "indian-society-31-4",
@@ -7132,7 +7458,18 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes. They respectively describe the economic, social and psychological factors associated with high-risk families."
+     "explanation": "All three statements are correct according to the notes. They respectively describe the economic, social and psychological factors associated with high-risk families.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-society-31-5",
@@ -7146,9 +7483,61 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed programmes—ICDS, Mission Vatsalya, POSHAN Abhiyaan and the National Family Benefit Scheme—are mentioned as government measures for high-risk families."
+     "explanation": "All four listed programmes—ICDS, Mission Vatsalya, POSHAN Abhiyaan and the National Family Benefit Scheme—are mentioned as government measures for high-risk families.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-society-31-6",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "High risk families – Characteristics",
+     "question": "Which of the following statements is incorrect regarding high-risk families?",
+     "options": [
+      "Poverty is a consequence of high-risk families.",
+      "Child neglect and abuse, as well as family conflicts, are characteristics of high-risk families.",
+      "Unemployment is a characteristic of high-risk families.",
+      "Chronic illness or disability is a characteristic of high-risk families."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement is that poverty is a consequence. Poverty is listed as a characteristic of high-risk families; child neglect and abuse and family conflicts are also characteristics.",
+     "facts": [
+      "F2",
+      "F3",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-society-31-7",
+     "format": "Count-Based",
+     "keyword": "High risk families – Consequences",
+     "question": "How many of the following are consequences of high-risk families?\n1. School dropouts\n2. Juvenile delinquency\n3. Malnutrition\n4. Crime and deviance",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed items are consequences of high-risk families: school dropouts, juvenile delinquency, malnutrition, and crime and deviance.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,

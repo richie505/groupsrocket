@@ -1680,7 +1680,14 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "Jog Falls is associated with the Sharavati, Dhuandhar with the Narmada, Chitrakote with the Indravati, and Lodh/Budha Ghagh with the Burha River."
+     "explanation": "Jog Falls is associated with the Sharavati, Dhuandhar with the Narmada, Chitrakote with the Indravati, and Lodh/Budha Ghagh with the Burha River.",
+     "facts": [
+      "F1",
+      "F5",
+      "F13",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-geography-3-2",
@@ -1694,7 +1701,16 @@
       "Jonha is associated with the Rarhu River in Jharkhand."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement gives Amritdhara's location as Latehar, Jharkhand. Amritdhara is located in Manendragarh-Chirmiri-Bharatpur, Chhattisgarh, and is associated with the Hasdeo River."
+     "explanation": "The incorrect statement gives Amritdhara's location as Latehar, Jharkhand. Amritdhara is located in Manendragarh-Chirmiri-Bharatpur, Chhattisgarh, and is associated with the Hasdeo River.",
+     "facts": [
+      "F8",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F27",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-3-3",
@@ -1708,7 +1724,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Shivasamudram is ranked by volume and is associated with the Cauvery in Karnataka. Its association with the Cauvery does not explain why it is ranked by volume."
+     "explanation": "Both statements are true: Shivasamudram is ranked by volume and is associated with the Cauvery in Karnataka. Its association with the Cauvery does not explain why it is ranked by volume.",
+     "facts": [
+      "F3",
+      "F4",
+      "F39"
+     ]
     },
     {
      "id": "indian-geography-3-4",
@@ -1722,7 +1743,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct. The rankings listed are Jog Falls by width, Shivasamudram by volume, and Kunchikal by height."
+     "explanation": "All three statements are correct. The rankings listed are Jog Falls by width, Shivasamudram by volume, and Kunchikal by height.",
+     "facts": [
+      "F36",
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "indian-geography-3-5",
@@ -1736,7 +1762,11 @@
       "Lodh / Budha Ghagh"
      ],
      "answer": 2,
-     "explanation": "Hundru Falls is located in Jharkhand, approximately 45 km from Ranchi."
+     "explanation": "Hundru Falls is located in Jharkhand, approximately 45 km from Ranchi.",
+     "facts": [
+      "F17",
+      "F16"
+     ]
     }
    ]
   },
@@ -1767,7 +1797,17 @@
       "Raniganj – West Bengal"
      ],
      "answer": 3,
-     "explanation": "Raniganj in West Bengal is identified in the notes as the location of the first coal mine."
+     "explanation": "Raniganj in West Bengal is identified in the notes as the location of the first coal mine.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-4-2",
@@ -1781,7 +1821,18 @@
       "The first railway ran between Mumbai and Thane."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. The first oil well was at Makum, Assam; Digboi was the site of the first commercially successful oil discovery."
+     "explanation": "The incorrect statement is the fourth one. The first oil well was at Makum, Assam; Digboi was the site of the first commercially successful oil discovery.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-4-3",
@@ -1795,7 +1846,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the location of the first oil well at Makum does not explain why the first petroleum detection took place at Margherita."
+     "explanation": "Both statements are true according to the notes. However, the location of the first oil well at Makum does not explain why the first petroleum detection took place at Margherita.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-4-4",
@@ -1809,7 +1866,16 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: sugar mill–Pratappur, Agricultural University–Pantnagar, horticulture university–Solan, and organic state–Sikkim."
+     "explanation": "The correct pairs are: sugar mill–Pratappur, Agricultural University–Pantnagar, horticulture university–Solan, and organic state–Sikkim.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-4-5",
@@ -1823,9 +1889,56 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct. The notes identify Allahabad–Naini as the beginning of air transport, Rewari–Rohtak as the first CNG train route, and Harmuti–Naharlagun as the first railway in Arunachal Pradesh."
+     "explanation": "All three statements are correct. The notes identify Allahabad–Naini as the beginning of air transport, Rewari–Rohtak as the first CNG train route, and Harmuti–Naharlagun as the first railway in Arunachal Pradesh.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-geography-4-6",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First vertical-lift railway sea bridge\n(b) First six-lane concrete expressway\n(c) First fully solar-powered airport\n\nList-II\n(i) Cochin\n(ii) New Pamban\n(iii) Mumbai–Pune\n\nCodes:",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii",
+      "a-ii, b-i, c-iii",
+      "a-iii, b-i, c-ii"
+     ],
+     "answer": 0,
+     "explanation": "The first vertical-lift railway sea bridge was at New Pamban in Tamil Nadu, the first six-lane concrete expressway was on the Mumbai–Pune route, and the first fully solar-powered airport was at Cochin.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-geography-4-7",
+     "format": "Assertion-Reason",
+     "keyword": "FIRST",
+     "question": "Assertion (A): Bachendri Pal was the first Indian woman to summit Mount Everest.\nReason (R): Bachendri Pal summited Mount Everest in 1984.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Bachendri Pal was the first Indian woman to summit Mount Everest, and her summit was in 1984. The year records when the summit occurred but does not explain why she was the first Indian woman to achieve it.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -3566,7 +3679,11 @@
       "Tons — Himachal Pradesh–Uttarakhand region"
      ],
      "answer": 1,
-     "explanation": "The notes list Tapovan Vishnugad with the Dhauliganga River in Chamoli, Uttarakhand."
+     "explanation": "The notes list Tapovan Vishnugad with the Dhauliganga River in Chamoli, Uttarakhand.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
     },
     {
      "id": "indian-geography-10-2",
@@ -3580,7 +3697,17 @@
       "Bhakra is associated with the Sutlej River in Bilaspur, Himachal Pradesh."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the river. The notes state that Pamba Project is on the Pamba River in Pathanamthitta, Kerala, not on the Periyar River."
+     "explanation": "The incorrect statement alters the river. The notes state that Pamba Project is on the Pamba River in Pathanamthitta, Kerala, not on the Periyar River.",
+     "facts": [
+      "F7",
+      "F8",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-10-3",
@@ -3594,7 +3721,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: Indira Sagar is on the Narmada and is located in Khandwa, Madhya Pradesh. However, the river association does not explain the stated location."
+     "explanation": "Both statements are given in the notes: Indira Sagar is on the Narmada and is located in Khandwa, Madhya Pradesh. However, the river association does not explain the stated location.",
+     "facts": [
+      "F4",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-10-4",
@@ -3608,7 +3739,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Hirakud–Odisha, Idukki–Kerala, Rihand–Sonbhadra, Uttar Pradesh, and Kalpong Project–Andaman & Nicobar."
+     "explanation": "The correct pairs are Hirakud–Odisha, Idukki–Kerala, Rihand–Sonbhadra, Uttar Pradesh, and Kalpong Project–Andaman & Nicobar.",
+     "facts": [
+      "F18",
+      "F20",
+      "F46",
+      "F54"
+     ]
     },
     {
      "id": "indian-geography-10-5",
@@ -3622,9 +3759,198 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements correctly reproduce the river and location details given in the notes."
+     "explanation": "All four statements correctly reproduce the river and location details given in the notes.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-geography-10-6",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir \u0012 Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Sardar Sarovar\n(b) Omkareshwar\n(c) Krishna Sagar\n(d) Mettur\n\nList-II\ni. Narmada \u0012 Gujarat\nii. Narmada \u0012 Khandwa, MP\niii. Cauvery \u0012 Karnataka\niv. Cauvery \u0012 Tamil Nadu",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Sardar Sarovar is on the Narmada in Gujarat, while Omkareshwar is on the Narmada in Khandwa, MP. Krishna Sagar is on the Cauvery in Karnataka, and Mettur is on the Cauvery in Tamil Nadu.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-geography-10-7",
+     "format": "Assertion-Reason",
+     "keyword": "Dam/Reservoir \u0012 River",
+     "question": "Assertion (A): Nagarjuna Sagar is associated with the Krishna River.\nReason (R): Nagarjuna Sagar is located in the AP\u0012Telangana region.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Nagarjuna Sagar is on the Krishna River and is located in the AP\u0012Telangana region. Its location does not explain its association with the river.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-geography-10-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Dam/Reservoir \u0012 River",
+     "question": "Consider the following statements:\nI. Hirakud is on the Mahanadi River.\nII. Idukki is on the Periyar River.\nIII. Idukki is on the Mahanadi River.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 1,
+     "explanation": "Hirakud is associated with the Mahanadi River and Idukki with the Periyar River. Therefore, Statements I and II are correct, while Statement III is incorrect.",
+     "facts": [
+      "F17",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-geography-10-9",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir \u0012 Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Baira Siul\n(b) Rajghat\n(c) Tilaiya\n(d) Kishau\n\nList-II\ni. Siul \u0012 Chamba, HP\nii. Betwa \u0012 Lalitpur\niii. Barakar \u0012 Koderma, Jharkhand\niv. Tons \u0012 HP\u0012Uttarakhand region",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Baira Siul\u0012Siul\u0012Chamba, Rajghat\u0012Betwa\u0012Lalitpur, Tilaiya\u0012Barakar\u0012Koderma, and Kishau\u0012Tons\u0012HP\u0012Uttarakhand region.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "indian-geography-10-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dam/Reservoir \u0012 River",
+     "question": "Consider the following statements:\nStatement A: Babli is on the Godavari River and is located in the Maharashtra\u0012Telangana region.\nStatement B: Rihand is on the Rihand River.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Babli is associated with the Godavari River and the Maharashtra\u0012Telangana region. Rihand is associated with the Rihand River, so both statements are true.",
+     "facts": [
+      "F41",
+      "F42",
+      "F45"
+     ]
+    },
+    {
+     "id": "indian-geography-10-11",
+     "format": "Assertion-Reason",
+     "keyword": "Dam/Reservoir \u001a Location",
+     "question": "Assertion (A): Rana Pratap Sagar is on the Chambal River.\nReason (R): Rana Pratap Sagar is located in Rajasthan.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Rana Pratap Sagar is on the Chambal River and is located in Rajasthan. Its location in Rajasthan does not explain its association with the Chambal River.",
+     "facts": [
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "indian-geography-10-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dam/Reservoir \u001a Location",
+     "question": "Consider the following statements:\nStatement A: Jawahar Sagar is on the Chambal River.\nStatement B: Jawahar Sagar is located in Rajasthan.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Jawahar Sagar is associated with the Chambal River and is located in Rajasthan.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "indian-geography-10-13",
+     "format": "Direct Recall",
+     "keyword": "Dam/Reservoir \u001a Location",
+     "question": "The Kalpong Project is associated with which river?",
+     "options": [
+      "Chambal River",
+      "Kalpong River",
+      "Periyar River",
+      "Krishna River"
+     ],
+     "answer": 1,
+     "explanation": "The Kalpong Project is on the Kalpong River.",
+     "facts": [
+      "F53"
+     ]
+    },
+    {
+     "id": "indian-geography-10-14",
+     "format": "Assertion-Reason",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Assertion (A): Gandhi Sagar is situated on the Chambal River.\nReason (R): Gandhi Sagar is located in Madhya Pradesh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Gandhi Sagar is on the Chambal River and is located in Madhya Pradesh. However, its location in Madhya Pradesh does not explain its association with the Chambal River.",
+     "facts": [
+      "F47",
+      "F48"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 54,
+    "covered": 54,
+    "audited": true
+   }
   },
   "11": {
    "number": 11,
@@ -5421,7 +5747,10 @@
       "Arunachal Pradesh"
      ],
      "answer": 3,
-     "explanation": "The notes place Namdapha National Park in Arunachal Pradesh."
+     "explanation": "The notes place Namdapha National Park in Arunachal Pradesh.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-18-2",
@@ -5435,7 +5764,13 @@
       "Tadoba National Park is located in Maharashtra."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘Khasi Hills’. The notes locate Nokrek National Park in the Garo Hills of Meghalaya."
+     "explanation": "The incorrect detail is ‘Khasi Hills’. The notes locate Nokrek National Park in the Garo Hills of Meghalaya.",
+     "facts": [
+      "F19",
+      "F29",
+      "F32",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-18-3",
@@ -5449,7 +5784,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are directly supported by the notes. However, the location of Nokrek does not explain the location of Khangchendzonga."
+     "explanation": "Both statements are directly supported by the notes. However, the location of Nokrek does not explain the location of Khangchendzonga.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "indian-geography-18-4",
@@ -5463,7 +5802,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Kaziranga–Assam, Gir–Gujarat, Hemis–Ladakh and Betla–Jharkhand."
+     "explanation": "The correct pairs are Kaziranga–Assam, Gir–Gujarat, Hemis–Ladakh and Betla–Jharkhand.",
+     "facts": [
+      "F5",
+      "F16",
+      "F33",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-18-5",
@@ -5477,9 +5822,168 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the notes: Periyar is in Kerala, Valmiki is in West Champaran, Bihar, and Great Himalayan is in Kullu, Himachal Pradesh."
+     "explanation": "All three statements are correct according to the notes: Periyar is in Kerala, Valmiki is in West Champaran, Bihar, and Great Himalayan is in Kullu, Himachal Pradesh.",
+     "facts": [
+      "F20",
+      "F27",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-geography-18-6",
+     "format": "List-Matching",
+     "keyword": "National Park \u0013 Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Sri Venkateswara National Park\n(b) Papikonda National Park\n(c) Mouling National Park\n(d) Manas National Park\n\nList-II\n(i) Tirupati, Southern Andhra Pradesh\n(ii) Andhra Pradesh\n(iii) Arunachal Pradesh\n(iv) Assam",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Sri Venkateswara National Park is located in Tirupati, Southern Andhra Pradesh; Papikonda is in Andhra Pradesh; Mouling is in Arunachal Pradesh; and Manas is in Assam.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-geography-18-7",
+     "format": "Assertion-Reason",
+     "keyword": "National Park \u0013 Location",
+     "question": "Assertion (A): Pench National Park is located in Madhya Pradesh.\nReason (R): Satpura National Park is located in Madhya Pradesh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Pench and Satpura National Parks are located in Madhya Pradesh. However, the location of Satpura does not explain the location of Pench.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-geography-18-8",
+     "format": "List-Matching",
+     "keyword": "National Park \u0013 Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Ranthambore National Park\n(b) Keoladeo National Park\n(c) Sariska National Park\n(d) Nagarhole National Park\n\nList-II\n(i) Rajasthan\n(ii) Bharatpur, Rajasthan\n(iii) Karnataka\n(iv) Madhya Pradesh",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Ranthambore and Sariska are in Rajasthan; Keoladeo is in Bharatpur, Rajasthan; and Nagarhole is in Karnataka.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-18-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "National Park \u0013 Location",
+     "question": "Consider the following statements:\nStatement A: Bandipur National Park is located in Karnataka.\nStatement B: Nanda Devi National Park is located in Uttarakhand.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Bandipur National Park is located in Karnataka, while Nanda Devi National Park is located in Uttarakhand.",
+     "facts": [
+      "F18",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-geography-18-10",
+     "format": "List-Matching",
+     "keyword": "National Park \u0013 Location",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Valley of Flowers National Park\n(b) Jim Corbett National Park\n(c) Rajaji National Park\n(d) Sundarbans National Park\n\nList-II\n(i) Uttarakhand\n(ii) West Bengal\n(iii) Rajasthan\n(iv) Kerala",
+     "options": [
+      "a-i, b-i, c-i, d-ii",
+      "a-i, b-iii, c-i, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Valley of Flowers, Jim Corbett and Rajaji National Parks are located in Uttarakhand. Sundarbans National Park is located in West Bengal.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-geography-18-11",
+     "format": "Direct Recall",
+     "keyword": "National Park \u0013 Location",
+     "question": "Dachigam National Park is located in which of the following places?",
+     "options": [
+      "Uttarakhand",
+      "Jammu and Kashmir",
+      "Karnataka",
+      "West Bengal"
+     ],
+     "answer": 1,
+     "explanation": "Dachigam National Park is located in Jammu and Kashmir.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-geography-18-12",
+     "format": "Assertion-Reason",
+     "keyword": "National Park → State [LOCATION]",
+     "question": "Assertion (A): Orang National Park is located in Assam.\nReason (R): Nameri National Park is located in Assam.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Orang and Nameri National Parks are located in Assam. However, the location of Nameri does not explain the location of Orang.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-geography-18-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "National Park → State [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: Kanha National Park is located in Madhya Pradesh.\nStatement B: Bandhavgarh National Park is located in Madhya Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Kanha National Park and Bandhavgarh National Park are located in Madhya Pradesh.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 34,
+    "covered": 34,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -6159,7 +6663,10 @@
       "Chamoli, Uttarakhand"
      ],
      "answer": 0,
-     "explanation": "The notes place the Kalpong project in Andaman & Nicobar."
+     "explanation": "The notes place the Kalpong project in Andaman & Nicobar.",
+     "facts": [
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-20-2",
@@ -6173,7 +6680,13 @@
       "Bokaro Thermal is located in Jharkhand."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the state for Kothagudem Thermal. The notes place it in Telangana."
+     "explanation": "The incorrect detail is the state for Kothagudem Thermal. The notes place it in Telangana.",
+     "facts": [
+      "F8",
+      "F7",
+      "F10",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-20-3",
@@ -6187,7 +6700,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes, but the location of Obra Thermal does not explain the location of Rihand."
+     "explanation": "Both statements are true according to the notes, but the location of Obra Thermal does not explain the location of Rihand.",
+     "facts": [
+      "F3",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-20-4",
@@ -6201,7 +6718,14 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Ramganga\u0013Pauri Garhwal, Tawa\u0013Hoshangabad/Narmadapuram, Baglihar\u0013Ramban, and Daman Ganga\u0013Valsad."
+     "explanation": "The correct pairs are Ramganga\u0013Pauri Garhwal, Tawa\u0013Hoshangabad/Narmadapuram, Baglihar\u0013Ramban, and Daman Ganga\u0013Valsad.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-20-5",
@@ -6215,9 +6739,76 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct according to the notes: Girna\u0013Nashik, Pamba\u0013Pathanamthitta, and Baira Siul\u0013Chamba."
+     "explanation": "All three statements are correct according to the notes: Girna\u0013Nashik, Pamba\u0013Pathanamthitta, and Baira Siul\u0013Chamba.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-geography-20-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Power station \u0012 Location (Thermal, Nuclear)",
+     "question": "Consider the following statements:\nI. The Singrauli thermal power project is located in Sonbhadra, Uttar Pradesh.\nII. The Singrauli thermal power project is located in the Singrauli region of Madhya Pradesh.\nIII. The Vindhyachal thermal power project is located in Singrauli, Madhya Pradesh.\nIV. The Uran Gas Turbine power project is located in Raigad, Maharashtra.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct: Singrauli is associated with Sonbhadra, Uttar Pradesh and the Singrauli region of Madhya Pradesh; Vindhyachal is in Singrauli, Madhya Pradesh; and Uran Gas Turbine is in Raigad, Maharashtra.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-geography-20-7",
+     "format": "List-Matching",
+     "keyword": "Power station \u0012 Location (Hydro)",
+     "question": "Match List-I with List-II:\n\nList-I (Project)\na. Meja\nb. Dulhasti\nc. Rajghat\nd. Tilaiya\n\nList-II (District/Location)\ni. Kishtwar, Jammu and Kashmir\nii. Koderma, Jharkhand\niii. Bhilwara, Rajasthan\niv. Lalitpur, Uttar Pradesh\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Meja\u0013Bhilwara, Rajasthan; Dulhasti\u0013Kishtwar, Jammu and Kashmir; Rajghat\u0013Lalitpur, Uttar Pradesh; and Tilaiya\u0013Koderma, Jharkhand.",
+     "facts": [
+      "F14",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-geography-20-8",
+     "format": "Direct Recall",
+     "keyword": "Power station \u0012 Location (Hydro)",
+     "question": "The Tapovan Vishnugad project is located in:",
+     "options": [
+      "Lalitpur, Uttar Pradesh",
+      "Koderma, Jharkhand",
+      "Chamoli, Uttarakhand",
+      "Kishtwar, Jammu and Kashmir"
+     ],
+     "answer": 2,
+     "explanation": "The Tapovan Vishnugad project is located in Chamoli, Uttarakhand.",
+     "facts": [
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -6245,7 +6836,10 @@
       "74.04 crore"
      ],
      "answer": 1,
-     "explanation": "The total population recorded in Census 2011 was 121.09 crore."
+     "explanation": "The total population recorded in Census 2011 was 121.09 crore.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-21-2",
@@ -6259,7 +6853,13 @@
       "Bihar had the highest population density."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. The notes identify Bihar as having the lowest literacy, but the option incorrectly states that Bihar had the lowest literacy rate?"
+     "explanation": "The incorrect statement is the fourth one. The notes identify Bihar as having the lowest literacy, but the option incorrectly states that Bihar had the lowest literacy rate?",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-21-3",
@@ -6273,7 +6873,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the higher rural percentage of 68.84% directly explains why the rural population exceeded the urban population of 31.16%."
+     "explanation": "Both statements are true, and the higher rural percentage of 68.84% directly explains why the rural population exceeded the urban population of 31.16%.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-21-4",
@@ -6287,7 +6891,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: highest sex ratio–Kerala, lowest sex ratio–Haryana, highest child sex ratio–Arunachal Pradesh, and lowest child sex ratio–Haryana."
+     "explanation": "The correct pairs are: highest sex ratio–Kerala, lowest sex ratio–Haryana, highest child sex ratio–Arunachal Pradesh, and lowest child sex ratio–Haryana.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-21-5",
@@ -6301,9 +6911,165 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. Gond was the second largest ST group, not the third; Santhal was the third largest ST group."
+     "explanation": "Statements I, II and IV are correct. Gond was the second largest ST group, not the third; Santhal was the third largest ST group.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F28",
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-geography-21-6",
+     "format": "Direct Recall",
+     "keyword": "2011 census data",
+     "question": "India's Census year for the demographic indicators listed was:",
+     "options": [
+      "2001",
+      "2011",
+      "1991",
+      "2021"
+     ],
+     "answer": 1,
+     "explanation": "The demographic indicators were recorded according to Census 2011.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "indian-geography-21-7",
+     "format": "Direct Recall",
+     "keyword": "2011 census data",
+     "question": "According to Census 2011, India's decadal population growth was:",
+     "options": [
+      "16.74%",
+      "18.64%",
+      "17.64%",
+      "17.46%"
+     ],
+     "answer": 2,
+     "explanation": "India's decadal population growth according to Census 2011 was 17.64%.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-geography-21-8",
+     "format": "List-Matching",
+     "keyword": "2011 census data",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Population density\n(b) Sex ratio\n\nList-II\n(i) 382 persons per km²\n(ii) 943 females per 1,000 males\n(iii) 74.04%\n(iv) 82.14%",
+     "options": [
+      "a-ii, b-i",
+      "a-i, b-ii",
+      "a-iii, b-iv",
+      "a-iv, b-iii"
+     ],
+     "answer": 1,
+     "explanation": "The population density was 382 persons per km², while the sex ratio was 943 females per 1,000 males.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-geography-21-9",
+     "format": "Assertion-Reason",
+     "keyword": "2011 census data",
+     "question": "Assertion (A): India's male literacy rate was higher than its female literacy rate according to Census 2011.\nReason (R): India's male literacy rate was 82.14% and its female literacy rate was 65.46%.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The male literacy rate of 82.14% was higher than the female literacy rate of 65.46%, directly establishing the assertion.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-geography-21-10",
+     "format": "Direct Recall",
+     "keyword": "2011 census data",
+     "question": "What was India's literacy rate according to Census 2011?",
+     "options": [
+      "74.14%",
+      "73.04%",
+      "74.40%",
+      "74.04%"
+     ],
+     "answer": 3,
+     "explanation": "India's literacy rate according to Census 2011 was 74.04%.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-geography-21-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "2011 census data",
+     "question": "Consider the following statements:\n\nI. India's child sex ratio for the 0–6 years age group was 919 according to Census 2011.\nII. India's Scheduled Tribe population was 8.6% according to Census 2011.\nIII. India's Scheduled Caste population was 16.6% according to Census 2011.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: the child sex ratio was 919, the Scheduled Tribe population was 8.6%, and the Scheduled Caste population was 16.6%.",
+     "facts": [
+      "F9",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-geography-21-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Urbanisation",
+     "question": "Consider the following statements:\nStatement A: Goa had the highest urbanisation.\nStatement B: Himachal Pradesh had the lowest urbanisation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Goa was identified as having the highest urbanisation, while Himachal Pradesh had the lowest urbanisation.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-geography-21-13",
+     "format": "Count-Based",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "How many of the following had no notified Scheduled Tribe?\n\n1. Punjab\n2. Haryana\n3. Chandigarh\n4. Delhi\n5. Puducherry",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed places—Punjab, Haryana, Chandigarh, Delhi and Puducherry—had no notified Scheduled Tribe.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -7330,7 +8096,10 @@
       "Below 70 m"
      ],
      "answer": 2,
-     "explanation": "The notes associate Alpine vegetation in the Himalayas with an altitude of 3000–4900 m."
+     "explanation": "The notes associate Alpine vegetation in the Himalayas with an altitude of 3000–4900 m.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-23-2",
@@ -7344,7 +8113,13 @@
       "Coniferous forests are found in Himachal Pradesh."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of thorn forests. The notes specify Western Andhra Pradesh, not Eastern Andhra Pradesh."
+     "explanation": "The incorrect detail is the location of thorn forests. The notes specify Western Andhra Pradesh, not Eastern Andhra Pradesh.",
+     "facts": [
+      "F3",
+      "F9",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-geography-23-3",
@@ -7358,7 +8133,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the rainfall classification in the notes. However, the rainfall range of moist deciduous forests does not explain the rainfall requirement of tropical evergreen forests."
+     "explanation": "Both statements are true according to the rainfall classification in the notes. However, the rainfall range of moist deciduous forests does not explain the rainfall requirement of tropical evergreen forests.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-23-4",
@@ -7372,7 +8151,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Evergreen forests–Western Ghats, Moist deciduous forests–Odisha, Thorn forests–Western Andhra Pradesh, and Mangrove forests–Sundarbans."
+     "explanation": "The correct pairs are: Evergreen forests–Western Ghats, Moist deciduous forests–Odisha, Thorn forests–Western Andhra Pradesh, and Mangrove forests–Sundarbans.",
+     "facts": [
+      "F1",
+      "F7",
+      "F9",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-23-5",
@@ -7386,9 +8171,153 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "All four statements are supported by the tree-association notes: Sal–moist deciduous, Teak–deciduous, Deodar–Western Himalayas, and Khair–dry or arid areas and katha."
+     "explanation": "All four statements are supported by the tree-association notes: Sal–moist deciduous, Teak–deciduous, Deodar–Western Himalayas, and Khair–dry or arid areas and katha.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-geography-23-6",
+     "format": "List-Matching",
+     "keyword": "Forest → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Evergreen forests\n(b) Moist deciduous forests\n(c) Dry deciduous forests\n(d) Coniferous forests\n\nList-II\n(i) North-East India\n(ii) Himalayan foothills\n(iii) Peninsular India\n(iv) Himalayas",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Evergreen forests are located in North-East India, moist deciduous forests in the Himalayan foothills, dry deciduous forests in Peninsular India, and coniferous forests in the Himalayas.",
+     "facts": [
+      "F2",
+      "F5",
+      "F8",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-geography-23-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forest → Location",
+     "question": "Consider the following statements:\n\nI. Moist deciduous forests are located in North-East India.\nII. Moist deciduous forests are located in the Eastern Western Ghats.\nIII. Shola forests are located in the Nilgiri, Anamalai and Palani Hills.\nIV. Tropical forests are located in Silent Valley.",
+     "options": [
+      "I, II and IV only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. The sheet places moist deciduous forests in North-East India and the Eastern Western Ghats, Shola forests in the Nilgiri, Anamalai and Palani Hills, and tropical forests in Silent Valley.",
+     "facts": [
+      "F4",
+      "F6",
+      "F13",
+      "F14",
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-23-8",
+     "format": "Direct Recall",
+     "keyword": "Forest → Location",
+     "question": "Alpine forests are located in which region?",
+     "options": [
+      "The Himalayas",
+      "North-East India",
+      "The Eastern Western Ghats",
+      "Peninsular India"
+     ],
+     "answer": 0,
+     "explanation": "Alpine forests are located in the Himalayas.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-geography-23-9",
+     "format": "Assertion-Reason",
+     "keyword": "Rainfall",
+     "question": "Assertion (A): Dry deciduous forests receive 70–100 cm of rainfall.\nReason (R): Thorn forests receive less than 70 cm of rainfall.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the rainfall received by thorn forests does not explain the rainfall range of dry deciduous forests.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-geography-23-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tree Association",
+     "question": "Consider the following statements:\n\nI. Silver fir is associated with Himalayan coniferous forests.\nII. Spruce is associated with Himalayan coniferous forests.\nIII. Cedar is associated with Himalayan coniferous forests.\nIV. Pine is associated with Himalayan coniferous forests.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Silver fir, spruce, cedar and pine are all listed as associated with Himalayan coniferous forests.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-geography-23-11",
+     "format": "Direct Recall",
+     "keyword": "Tree Association",
+     "question": "Which one of the following trees is associated with the Himalayas?",
+     "options": [
+      "Teak",
+      "Birch",
+      "Palash",
+      "Khair"
+     ],
+     "answer": 1,
+     "explanation": "Birch is associated with the Himalayas.",
+     "facts": [
+      "F31"
+     ]
+    },
+    {
+     "id": "indian-geography-23-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tree Association",
+     "question": "Consider the following statements:\nStatement A: Palash is associated with deciduous forests.\nStatement B: Palash is known as the Flame of the Forest.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Palash is associated with deciduous forests and is known as the “Flame of the Forest.”",
+     "facts": [
+      "F34",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,

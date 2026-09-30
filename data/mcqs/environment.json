@@ -29,7 +29,10 @@
       "Jamnagar, Gujarat"
      ],
      "answer": 3,
-     "explanation": "The notes identify Jamnagar, Gujarat as the location of India’s First National Centre for Marine Biodiversity."
+     "explanation": "The notes identify Jamnagar, Gujarat as the location of India’s First National Centre for Marine Biodiversity.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "environment-1-2",
@@ -43,7 +46,13 @@
       "The original name of Jim Corbett National Park was Hailey National Park."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year 1984. Jim Corbett National Park, India’s first National Park, was established in 1936; 1984 relates to the First Rhino Rehabilitation Programme at Dudhwa National Park."
+     "explanation": "The incorrect detail is the year 1984. Jim Corbett National Park, India’s first National Park, was established in 1936; 1984 relates to the First Rhino Rehabilitation Programme at Dudhwa National Park.",
+     "facts": [
+      "F3",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "environment-1-3",
@@ -57,7 +66,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. Agenda 21 was a major outcome of the Earth Summit, while Rio in 1992 identifies the venue and year of the First Earth Summit; the Reason does not explain the outcome."
+     "explanation": "Both statements are true according to the notes. Agenda 21 was a major outcome of the Earth Summit, while Rio in 1992 identifies the venue and year of the First Earth Summit; the Reason does not explain the outcome.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "environment-1-4",
@@ -71,7 +84,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: First World Climate Conference—1979; First Earth Summit—Rio, 1992; First phase of Ganga Action Plan—1985; First World Water Day—1993."
+     "explanation": "The correct pairs are: First World Climate Conference—1979; First Earth Summit—Rio, 1992; First phase of Ganga Action Plan—1985; First World Water Day—1993.",
+     "facts": [
+      "F9",
+      "F10",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "environment-1-5",
@@ -85,9 +104,59 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are supported by the notes: they identify the ISA’s status, its first summit, Cochin International Airport, and Diu’s solar-energy distinction."
+     "explanation": "All four statements are supported by the notes: they identify the ISA’s status, its first summit, Cochin International Airport, and Diu’s solar-energy distinction.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-1-6",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Seshachalam\n(b) Tillyardembiids\n(c) Russia\n(d) Surat, Gujarat\n\nList-II\n(i) First district with 100% solar-powered primary health centres\n(ii) First Biosphere Reserve of Andhra Pradesh\n(iii) World's first plant-pollinator fossils\n(iv) Country associated with the world's first plant-pollinator fossils",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Seshachalam was the first Biosphere Reserve of Andhra Pradesh. Tillyardembiids were the world's first plant-pollinator fossils, Russia was associated with them, and Surat, Gujarat, was the first district with 100% solar-powered primary health centres.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-1-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: Diu Smart City was the first Indian city to become 100% renewable during the daytime.\nStatement B: The first phase of the Yamuna Action Plan lasted from 1993 to 2003.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Diu Smart City was the first Indian city to become 100% renewable during the daytime, and the first phase of the Yamuna Action Plan lasted from 1993 to 2003.",
+     "facts": [
+      "F18",
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -697,8 +766,130 @@
       "F34",
       "F40"
      ]
+    },
+    {
+     "id": "environment-4-6",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Montreal Protocol\n(b) Kyoto Protocol\n(c) Paris Agreement\n(d) Stockholm Convention\n\nList-II\n(i) Ozone depletion\n(ii) Climate change and greenhouse-gas emissions\n(iii) Adopted in 2015 and targets climate change\n(iv) Adopted in 2001 and targets persistent organic pollutants (POPs)\n\nSelect the correct answer using the codes given below:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Montreal Protocol targets ozone depletion; the Kyoto Protocol targets climate change and greenhouse-gas emissions. The Paris Agreement was adopted in 2015 and targets climate change, while the Stockholm Convention was adopted in 2001 and targets persistent organic pollutants.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "environment-4-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Convention/Conference",
+     "question": "Consider the following statements:\n\nI. The Minamata Convention targets mercury.\nII. The Cartagena Protocol targets biosafety and living modified organisms (LMOs).\nIII. The Nagoya Protocol was adopted in 2010.\nIV. The Nagoya Protocol targets genetic resources and benefit sharing.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. The Minamata Convention concerns mercury, the Cartagena Protocol concerns biosafety and LMOs, and the Nagoya Protocol was adopted in 2010 and concerns genetic resources and benefit sharing.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-4-8",
+     "format": "Direct Recall",
+     "keyword": "Organisations",
+     "question": "Which of the following correctly describes India's position in relation to the Global Environment Facility?",
+     "options": [
+      "India is only a recipient.",
+      "India is both a donor and a recipient.",
+      "India is neither a donor nor a recipient.",
+      "India is only a donor."
+     ],
+     "answer": 1,
+     "explanation": "India is both a donor and a recipient of the Global Environment Facility.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "environment-4-9",
+     "format": "Assertion-Reason",
+     "keyword": "Organisations",
+     "question": "Assertion (A): The World Meteorological Organization originated as the International Meteorological Organization, established in 1873, and was formally established in 1951.\nReason (R): The World Meteorological Organization focuses on meteorology and operational hydrology.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The WMO originated as the International Meteorological Organization, established in 1873, and the WMO was formally established in 1951. Its focus is meteorology and operational hydrology, but this does not explain its institutional origin and establishment dates.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-4-10",
+     "format": "Direct Recall",
+     "keyword": "Forest Policy",
+     "question": "What is the goal of the New York Declaration on Forests?",
+     "options": [
+      "To promote operational hydrology",
+      "To target mercury pollution",
+      "To regulate persistent organic pollutants globally",
+      "To halt or reduce global forest loss"
+     ],
+     "answer": 3,
+     "explanation": "The goal of the New York Declaration on Forests is to halt or reduce global forest loss.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "environment-4-11",
+     "format": "Count-Based",
+     "keyword": "Forest Policy",
+     "question": "How many of the following groups are involved in the New York Declaration on Forests?\n\n1. Governments\n2. Companies\n3. Civil society\n4. Indigenous groups",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed groups—governments, companies, civil society and indigenous groups—are involved in the New York Declaration on Forests.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -1003,7 +1194,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The Wildlife (Protection) Act was enacted in 1972, the Forest (Conservation) Act in 1980, the Water Act in 1974 and the Air Act in 1981."
+     "explanation": "The Wildlife (Protection) Act was enacted in 1972, the Forest (Conservation) Act in 1980, the Water Act in 1974 and the Air Act in 1981.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "environment-6-2",
@@ -1017,7 +1214,13 @@
       "It was established in 1958."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is its institutional affiliation. The National Environmental Engineering Research Institute functions under CSIR, not under the National Green Tribunal."
+     "explanation": "The incorrect detail is its institutional affiliation. The National Environmental Engineering Research Institute functions under CSIR, not under the National Green Tribunal.",
+     "facts": [
+      "F21",
+      "F23",
+      "F24",
+      "F22"
+     ]
     },
     {
      "id": "environment-6-3",
@@ -1031,7 +1234,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The protective purpose of Eco-Sensitive Zones explains why activities are regulated or restricted rather than necessarily being completely prohibited."
+     "explanation": "Both statements are true. The protective purpose of Eco-Sensitive Zones explains why activities are regulated or restricted rather than necessarily being completely prohibited.",
+     "facts": [
+      "F15",
+      "F16",
+      "F14"
+     ]
     },
     {
      "id": "environment-6-4",
@@ -1045,7 +1253,13 @@
       "Environmental science and engineering"
      ],
      "answer": 3,
-     "explanation": "The National Environmental Engineering Research Institute, located in Nagpur and functioning under CSIR, focuses on environmental science and engineering."
+     "explanation": "The National Environmental Engineering Research Institute, located in Nagpur and functioning under CSIR, focuses on environmental science and engineering.",
+     "facts": [
+      "F18",
+      "F12",
+      "F4",
+      "F25"
+     ]
     },
     {
      "id": "environment-6-5",
@@ -1059,9 +1273,75 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes: the Environment (Protection) Act, 1986 is umbrella legislation, while the NGT Act, 2010 is associated with environmental justice."
+     "explanation": "Both statements are true according to the notes: the Environment (Protection) Act, 1986 is umbrella legislation, while the NGT Act, 2010 is associated with environmental justice.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "environment-6-6",
+     "format": "List-Matching",
+     "keyword": "Act",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Wildlife (Protection) Act\n(b) Water (Prevention & Control of Pollution) Act\n(c) Air (Prevention & Control of Pollution) Act\n\nList-II\ni. Air pollution\nii. Wildlife\niii. Water pollution\niv. Environmental justice\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-ii, b-i, c-iii",
+      "a-i, b-iii, c-ii",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 0,
+     "explanation": "The Wildlife (Protection) Act concerns wildlife, the Water Act concerns water pollution, and the Air Act concerns air pollution.",
+     "facts": [
+      "F2",
+      "F6",
+      "F8"
+     ]
+    },
+    {
+     "id": "environment-6-7",
+     "format": "Direct Recall",
+     "keyword": "Environment Protection",
+     "question": "Eco-sensitive zones are mentioned or regulated under which of the following Acts?",
+     "options": [
+      "National Green Tribunal Act, 2010",
+      "Environment (Protection) Act, 1986",
+      "Air (Prevention & Control of Pollution) Act, 1981",
+      "Wildlife (Protection) Act, 1972"
+     ],
+     "answer": 1,
+     "explanation": "Eco-sensitive zones are mentioned or regulated under the Environment (Protection) Act, 1986.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-6-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Environmental Authority",
+     "question": "Consider the following statements:\n\nI. The National Environment Appellate Authority was established under the National Environment Appellate Authority Act, 1997.\nII. The National Environment Appellate Authority no longer exists in its original form.\nIII. Its role was subsequently taken over by the National Green Tribunal.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: the Authority was established under the 1997 Act, no longer exists in its original form, and its role was subsequently taken over by the National Green Tribunal.",
+     "facts": [
+      "F17",
+      "F19",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -1855,7 +2135,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "Sundarbans is in West Bengal, Bhitarkanika in Odisha, Coringa in Andhra Pradesh and Pichavaram in Tamil Nadu."
+     "explanation": "Sundarbans is in West Bengal, Bhitarkanika in Odisha, Coringa in Andhra Pradesh and Pichavaram in Tamil Nadu.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "environment-9-2",
@@ -1869,7 +2155,14 @@
       "Jim Corbett National Park was originally known as Hailey National Park."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 1938. Jim Corbett National Park was established as India’s first National Park in 1936."
+     "explanation": "The incorrect detail is the year 1938. Jim Corbett National Park was established as India’s first National Park in 1936.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "environment-9-3",
@@ -1883,7 +2176,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Secretariat’s location at Gurugram, Haryana explains why the International Solar Alliance is headquartered in India."
+     "explanation": "Both statements are true. The Secretariat’s location at Gurugram, Haryana explains why the International Solar Alliance is headquartered in India.",
+     "facts": [
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "environment-9-4",
@@ -1897,7 +2194,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes: the Montreal Protocol entered into force in 1989, and the Forest Research Institute traces its roots to the Imperial Forest Research Institute of 1906."
+     "explanation": "Both statements are true according to the notes: the Montreal Protocol entered into force in 1989, and the Forest Research Institute traces its roots to the Imperial Forest Research Institute of 1906.",
+     "facts": [
+      "F17",
+      "F18",
+      "F21"
+     ]
     },
     {
      "id": "environment-9-5",
@@ -1911,9 +2213,88 @@
       "Goa"
      ],
      "answer": 3,
-     "explanation": "The protected mangrove region on Chorao Island is located in Goa."
+     "explanation": "The protected mangrove region on Chorao Island is located in Goa.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "environment-9-6",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vembanad\n(b) Gulf of Kachchh\n(c) Sundarbans\n(d) Bhitarkanika\n\nList-II\n(i) Kerala\n(ii) Gujarat\n(iii) West Bengal\n(iv) Odisha",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Vembanad is located in Kerala and the Gulf of Kachchh is located in Gujarat. Sundarbans and Bhitarkanika are located in West Bengal and Odisha, respectively.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-9-7",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Which national park was the first national park in mainland Asia?",
+     "options": [
+      "International Solar Alliance",
+      "Hailey National Park",
+      "Jim Corbett National Park",
+      "Forest Research Institute"
+     ],
+     "answer": 2,
+     "explanation": "Jim Corbett National Park was the first national park in mainland Asia. It was originally known as Hailey National Park.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-9-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Climate Change/Conference",
+     "question": "Consider the following statements:\nStatement A: The International Solar Alliance was launched at the Paris Climate Conference in 2015.\nStatement B: The Forest Research Institute is located in Dehradun.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The International Solar Alliance was launched at the Paris Climate Conference in 2015. The Forest Research Institute is located in Dehradun.",
+     "facts": [
+      "F15",
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-9-9",
+     "format": "Assertion-Reason",
+     "keyword": "Ozone",
+     "question": "Assertion (A): The Montreal Protocol was adopted in 1987.\nReason (R): The Montreal Protocol is related to the ozone layer.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Montreal Protocol was adopted in 1987 and is related to the ozone layer. However, its subject matter does not explain the specific year of adoption.",
+     "facts": [
+      "F20",
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -1941,7 +2322,13 @@
       "17"
      ],
      "answer": 3,
-     "explanation": "The framework contains 17 Sustainable Development Goals. It also includes 169 targets, with 2030 as the target year."
+     "explanation": "The framework contains 17 Sustainable Development Goals. It also includes 169 targets, with 2030 as the target year.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "environment-10-2",
@@ -1955,7 +2342,14 @@
       "The target year for the SDGs is 2030."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 2035. The correct official title is “Transforming our World: The 2030 Agenda for Sustainable Development”."
+     "explanation": "The incorrect detail is the year 2035. The correct official title is “Transforming our World: The 2030 Agenda for Sustainable Development”.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "environment-10-3",
@@ -1969,7 +2363,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the proposal of the SDGs at Rio+20 in 2012 does not explain why they have 169 targets."
+     "explanation": "Both statements are true according to the notes. However, the proposal of the SDGs at Rio+20 in 2012 does not explain why they have 169 targets.",
+     "facts": [
+      "F2",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "environment-10-4",
@@ -1983,7 +2382,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: No Poverty—Goal 1, Clean Water & Sanitation—Goal 6, Climate Action—Goal 13, and Partnerships for the Goals—Goal 17."
+     "explanation": "The correct pairs are: No Poverty—Goal 1, Clean Water & Sanitation—Goal 6, Climate Action—Goal 13, and Partnerships for the Goals—Goal 17.",
+     "facts": [
+      "F7",
+      "F12",
+      "F19",
+      "F23"
+     ]
     },
     {
      "id": "environment-10-5",
@@ -1997,7 +2402,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify NITI Aayog as responsible for SDG implementation in India and give the official framework title as “Transforming our World: The 2030 Agenda for Sustainable Development”."
+     "explanation": "The notes identify NITI Aayog as responsible for SDG implementation in India and give the official framework title as “Transforming our World: The 2030 Agenda for Sustainable Development”.",
+     "facts": [
+      "F4",
+      "F24"
+     ]
     }
    ]
   },
@@ -2766,7 +3175,10 @@
       "1980"
      ],
      "answer": 1,
-     "explanation": "Jim Corbett National Park was established in 1936."
+     "explanation": "Jim Corbett National Park was established in 1936.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "environment-15-2",
@@ -2780,7 +3192,13 @@
       "Bandipur National Park is in Karnataka."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Guindy National Park is in Kerala. The correct state is Tamil Nadu."
+     "explanation": "The incorrect statement is that Guindy National Park is in Kerala. The correct state is Tamil Nadu.",
+     "facts": [
+      "F22",
+      "F23",
+      "F18",
+      "F10"
+     ]
     },
     {
      "id": "environment-15-3",
@@ -2794,7 +3212,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, the establishment of the park in 1936 and its status as India's first National Park do not explain why Project Tiger was launched there in 1973."
+     "explanation": "Both statements are true. However, the establishment of the park in 1936 and its status as India's first National Park do not explain why Project Tiger was launched there in 1973.",
+     "facts": [
+      "F6",
+      "F2",
+      "F1"
+     ]
     },
     {
      "id": "environment-15-4",
@@ -2808,7 +3231,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Kaziranga–One-horned rhinoceros, Gir–Asiatic lion, Periyar–Elephant + Tiger, and Similipal–Elephant."
+     "explanation": "The correct pairs are Kaziranga–One-horned rhinoceros, Gir–Asiatic lion, Periyar–Elephant + Tiger, and Similipal–Elephant.",
+     "facts": [
+      "F25",
+      "F26",
+      "F28",
+      "F30"
+     ]
     },
     {
      "id": "environment-15-5",
@@ -2822,9 +3251,131 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct: its original name was Hailey National Park, it is identified as the first National Park in mainland Asia, and it is located in Uttarakhand."
+     "explanation": "All three statements are correct: its original name was Hailey National Park, it is identified as the first National Park in mainland Asia, and it is located in Uttarakhand.",
+     "facts": [
+      "F3",
+      "F5",
+      "F4"
+     ]
+    },
+    {
+     "id": "environment-15-6",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rajaji National Park\n(b) Kaziranga National Park\n(c) Kanha National Park\n(d) Indravati National Park\n\nList-II\n(i) Uttarakhand\n(ii) Assam\n(iii) Madhya Pradesh\n(iv) Chhattisgarh",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Rajaji is located in Uttarakhand, Kaziranga in Assam, Kanha in Madhya Pradesh and Indravati in Chhattisgarh.",
+     "facts": [
+      "F7",
+      "F8",
+      "F11",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-15-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Location",
+     "question": "Consider the following statements:\n\nI. Bandhavgarh National Park is located in Madhya Pradesh.\nII. Madhav National Park is located in Madhya Pradesh.\nIII. Similipal National Park is located in Odisha.\nIV. Betla National Park is located in Jharkhand.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: Bandhavgarh and Madhav are in Madhya Pradesh, Similipal is in Odisha, and Betla is in Jharkhand.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-15-8",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Intanki National Park\n(b) Gir National Park\n(c) Gugamal National Park\n(d) Keibul-Lamjao National Park\n\nList-II\n(i) Nagaland\n(ii) Gujarat\n(iii) Maharashtra\n(iv) Manipur",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Intanki is located in Nagaland, Gir in Gujarat, Gugamal in Maharashtra and Keibul-Lamjao in Manipur.",
+     "facts": [
+      "F17",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-15-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Location",
+     "question": "Consider the following statements:\nStatement A: Dachigam National Park is located in Jammu and Kashmir.\nStatement B: Sunderbans National Park is associated with the tiger.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Dachigam is located in Jammu and Kashmir, while the tiger is associated with Sunderbans National Park.",
+     "facts": [
+      "F24",
+      "F27"
+     ]
+    },
+    {
+     "id": "environment-15-10",
+     "format": "Direct Recall",
+     "keyword": "Animal/Bird/New Species/New Discovery",
+     "question": "Bandipur National Park is associated with which of the following?",
+     "options": [
+      "Elephant",
+      "One-horned rhinoceros",
+      "Tiger",
+      "Asiatic lion"
+     ],
+     "answer": 2,
+     "explanation": "Bandipur National Park is associated with the tiger.",
+     "facts": [
+      "F29"
+     ]
+    },
+    {
+     "id": "environment-15-11",
+     "format": "Direct Recall",
+     "keyword": "National Park → Location",
+     "question": "Manas National Park is located in which state?",
+     "options": [
+      "Karnataka",
+      "Uttarakhand",
+      "Assam",
+      "Madhya Pradesh"
+     ],
+     "answer": 2,
+     "explanation": "Manas National Park is located in Assam.",
+     "facts": [
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 30,
+    "covered": 30,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,
@@ -3094,7 +3645,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct associations are Asiatic Lion–Gir, One-horned Rhinoceros–Kaziranga, Nilgiri Tahr–Eravikulam and Gharial–Chambal River."
+     "explanation": "The correct associations are Asiatic Lion–Gir, One-horned Rhinoceros–Kaziranga, Nilgiri Tahr–Eravikulam and Gharial–Chambal River.",
+     "facts": [
+      "F1",
+      "F2",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "environment-17-2",
@@ -3108,7 +3665,15 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Asiatic Wild Ass–Equus hemionus, Barasingha–Rucervus duvaucelii, Chinkara–Gazella bennettii and Gharial–Gavialis gangeticus."
+     "explanation": "The correct pairs are Asiatic Wild Ass–Equus hemionus, Barasingha–Rucervus duvaucelii, Chinkara–Gazella bennettii and Gharial–Gavialis gangeticus.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F22",
+      "F9",
+      "F17"
+     ]
     },
     {
      "id": "environment-17-3",
@@ -3122,7 +3687,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, recognition as a separate breed does not explain its ability to swim up to 3 km."
+     "explanation": "Both statements are given in the notes. However, recognition as a separate breed does not explain its ability to swim up to 3 km.",
+     "facts": [
+      "F25",
+      "F28"
+     ]
     },
     {
      "id": "environment-17-4",
@@ -3136,7 +3705,14 @@
       "The whale shark can reach about 50 feet."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 2006. The notes state that the protection programme started in 2004."
+     "explanation": "The incorrect detail is the year 2006. The notes state that the protection programme started in 2004.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F16"
+     ]
     },
     {
      "id": "environment-17-5",
@@ -3150,9 +3726,127 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the animal-location associations in the notes: tiger–Bandipur, elephant–Similipal and Himalayan Brown Bear–Great Himalayan NP."
+     "explanation": "All three statements are correct according to the animal-location associations in the notes: tiger–Bandipur, elephant–Similipal and Himalayan Brown Bear–Great Himalayan NP.",
+     "facts": [
+      "F4",
+      "F7",
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-17-6",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Siberian Crane\n(b) Asiatic Wild Ass\n(c) Kharai Camel\n(d) Whale Shark\n\nList-II\n(i) Gujarat\n(ii) Kutch, Gujarat\n(iii) Keoladeo, Bharatpur, Rajasthan\n(iv) Gujarat coast",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Siberian Crane–Keoladeo, Bharatpur, Rajasthan; Asiatic Wild Ass–Gujarat; Kharai Camel–Kutch, Gujarat; and Whale Shark–Gujarat coast.",
+     "facts": [
+      "F12",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-17-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Animal/Bird/New Species/New Discovery",
+     "question": "Consider the following statements:\nStatement A: The scientific name of the Nilgai is Boselaphus tragocamelus.\nStatement B: The scientific name of the Giant Panda is Ailuropoda melanoleuca.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Boselaphus tragocamelus is the scientific name of the Nilgai, while Ailuropoda melanoleuca is the scientific name of the Giant Panda.",
+     "facts": [
+      "F21",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-17-8",
+     "format": "Assertion-Reason",
+     "keyword": "Biodiversity",
+     "question": "Assertion (A): The Kharai Camel can swim in seawater.\nReason (R): The Kharai Camel grazes on mangroves.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and the reason are true features of the Kharai Camel. However, grazing on mangroves does not explain its ability to swim in seawater.",
+     "facts": [
+      "F24",
+      "F26"
+     ]
+    },
+    {
+     "id": "environment-17-9",
+     "format": "Direct Recall",
+     "keyword": "Biodiversity",
+     "question": "The Kharai Camel can survive in which of the following ecosystems?",
+     "options": [
+      "Coastal and dry ecosystems",
+      "Seawater and mangrove ecosystems",
+      "Forest and grassland ecosystems",
+      "Riverine and alpine ecosystems"
+     ],
+     "answer": 0,
+     "explanation": "The Kharai Camel can survive in coastal and dry ecosystems.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "environment-17-10",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tiger\n(b) Elephant\n(c) Swamp Deer\n(d) Nilgiri Tahr\n\nList-II\n(i) Sunderbans\n(ii) Periyar\n(iii) Kanha, Madhya Pradesh\n(iv) Eravikulam, Kerala",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct associations are Tiger–Sunderbans, Elephant–Periyar, Swamp Deer–Kanha, Madhya Pradesh, and Nilgiri Tahr–Eravikulam, Kerala.",
+     "facts": [
+      "F3",
+      "F6",
+      "F10"
+     ]
+    },
+    {
+     "id": "environment-17-11",
+     "format": "Direct Recall",
+     "keyword": "Location",
+     "question": "The tiger is associated with which of the following places?",
+     "options": [
+      "Periyar",
+      "Similipal",
+      "Kanha",
+      "Sunderbans"
+     ],
+     "answer": 2,
+     "explanation": "The tiger is associated with Kanha. Sunderbans and Bandipur are also listed as tiger-associated locations, but the question specifically asks for the given association with Kanha.",
+     "facts": [
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -3180,7 +3874,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct associations are Siberian Crane–Keoladeo National Park, Great Indian Bustard–Desert National Park, Great Indian Hornbill–Western Ghats, and Black-necked Crane–Jammu & Kashmir."
+     "explanation": "The correct associations are Siberian Crane–Keoladeo National Park, Great Indian Bustard–Desert National Park, Great Indian Hornbill–Western Ghats, and Black-necked Crane–Jammu & Kashmir.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "environment-18-2",
@@ -3194,7 +3894,13 @@
       "Okhla Bird Sanctuary is located in Gautam Buddha Nagar, Uttar Pradesh."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of Parvati Arga Bird Sanctuary. It is located in Gonda, Uttar Pradesh; Udhwa is the sanctuary located in Sahibganj, Jharkhand."
+     "explanation": "The incorrect detail is the location of Parvati Arga Bird Sanctuary. It is located in Gonda, Uttar Pradesh; Udhwa is the sanctuary located in Sahibganj, Jharkhand.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "environment-18-3",
@@ -3208,7 +3914,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the species-category list. However, the Siberian Crane's category does not explain the category assigned to the Great Indian Bustard."
+     "explanation": "Both statements are true according to the species-category list. However, the Siberian Crane's category does not explain the category assigned to the Great Indian Bustard.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "environment-18-4",
@@ -3222,7 +3932,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Himalayan Musk Deer is listed as Endangered and Wild Ass as Near Threatened. Red Panda is listed as Endangered, not Critically Endangered."
+     "explanation": "Himalayan Musk Deer is listed as Endangered and Wild Ass as Near Threatened. Red Panda is listed as Endangered, not Critically Endangered.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "environment-18-5",
@@ -3236,9 +3951,91 @@
       "Great Indian Hornbill — Chambal"
      ],
      "answer": 2,
-     "explanation": "The notes specifically identify Gharial as not a bird and associate it with the Chambal."
+     "explanation": "The notes specifically identify Gharial as not a bird and associate it with the Chambal.",
+     "facts": [
+      "F3",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-18-6",
+     "format": "Direct Recall",
+     "keyword": "Bird Key Association",
+     "question": "The Black-necked Crane is identified as which of the following in the source?",
+     "options": [
+      "A state bird",
+      "A bird associated with India",
+      "A bird associated with the Western Ghats",
+      "A bird associated with Keoladeo National Park"
+     ],
+     "answer": 0,
+     "explanation": "The Black-necked Crane is identified as a state bird in the source.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "environment-18-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Bird Key Association",
+     "question": "Consider the following statements:\nI. The Coppersmith Barbet is associated with India.\nII. The Ceylon Frogmouth is associated with India.\nIII. The Grey-chinned Minivet is associated with India.\nIV. The White-throated Redstart is associated with India.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct: the Coppersmith Barbet, Ceylon Frogmouth, Grey-chinned Minivet and White-throated Redstart are each associated with India.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-18-8",
+     "format": "List-Matching",
+     "keyword": "Bird Sanctuary → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Udhwa Bird Sanctuary\n(b) Karikili Bird Sanctuary\n(c) Nawabganj Bird Sanctuary\n(d) Okhla Bird Sanctuary\n\nList-II\n(i) Tamil Nadu\n(ii) Gautam Buddha Nagar, Uttar Pradesh\n(iii) Sahibganj, Jharkhand\n(iv) Unnao, Uttar Pradesh",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Udhwa–Sahibganj, Jharkhand; Karikili–Tamil Nadu; Nawabganj–Unnao, Uttar Pradesh; and Okhla–Gautam Buddha Nagar, Uttar Pradesh.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-18-9",
+     "format": "Direct Recall",
+     "keyword": "Animal/Bird/New Species/New Discovery",
+     "question": "The Sociable Lapwing is categorised as which of the following?",
+     "options": [
+      "Endangered",
+      "Vulnerable",
+      "Near Threatened",
+      "Critically Endangered"
+     ],
+     "answer": 3,
+     "explanation": "The Sociable Lapwing is categorised as Critically Endangered.",
+     "facts": [
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 23,
+    "covered": 23,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -3578,8 +4375,52 @@
      "facts": [
       "F36"
      ]
+    },
+    {
+     "id": "environment-20-13",
+     "format": "List-Matching",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) VOC — solvents\n(b) VOC — industrial sources\n(c) VOC — domestic sources\n(d) Pb — fuel-derived particles\n(e) Pb — industrial particles\n(f) Pb — soil-derived particles\n\nList-II\n(i) Major source of VOC\n(ii) Major source of Pb\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-i, b-i, c-ii, d-ii, e-ii, f-i",
+      "a-i, b-i, c-i, d-ii, e-ii, f-ii",
+      "a-ii, b-i, c-i, d-ii, e-i, f-ii",
+      "a-i, b-ii, c-i, d-i, e-ii, f-ii"
+     ],
+     "answer": 1,
+     "explanation": "Solvents, industrial sources and domestic sources are identified as major sources of VOC. Fuel-derived, industrial and soil-derived particles are identified as major sources of Pb.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "environment-20-14",
+     "format": "Assertion-Reason",
+     "keyword": "Important Programmes",
+     "question": "Assertion (A): The National Clean Air Programme adopts a comprehensive approach to tackling air pollution.\nReason (R): The National Clean Air Programme was launched in January 2019.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The programme’s launch in January 2019 is a separate fact and does not explain why its approach is comprehensive.",
+     "facts": [
+      "F49"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 52,
+    "covered": 52,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -5193,8 +6034,105 @@
       "F6",
       "F7"
      ]
+    },
+    {
+     "id": "environment-28-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forest Policy",
+     "question": "Consider the following statements:\nI. Afforestation is the establishment or increase of forest or tree cover.\nII. Afforestation is especially undertaken on denuded land.\nIII. Afforestation is especially undertaken on degraded land.\nIV. Afforestation is especially undertaken on unproductive land.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Afforestation means the establishment or increase of forest or tree cover. It is especially undertaken on denuded, degraded and unproductive land.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "environment-28-7",
+     "format": "Direct Recall",
+     "keyword": "Location",
+     "question": "The National Research Centre for Agroforestry is located at:",
+     "options": [
+      "Bhopal, Madhya Pradesh",
+      "Jhansi, Uttar Pradesh",
+      "Dehradun, Uttarakhand",
+      "Shimla, Himachal Pradesh"
+     ],
+     "answer": 1,
+     "explanation": "The National Research Centre for Agroforestry is located in Jhansi, Uttar Pradesh.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-28-8",
+     "format": "List-Matching",
+     "keyword": "Forest Policy",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Deforestation\n(b) Forest loss\n(c) Habitat destruction\n(d) Biodiversity loss\n\nList-II\n(i) Forest/tree-cover creation\n(ii) Habitat restoration\n(iii) Biodiversity conservation\n(iv) Afforestation\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairings are: Deforestation–Afforestation, Forest loss–Forest/tree-cover creation, Habitat destruction–Habitat restoration, and Biodiversity loss–Biodiversity conservation.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "environment-28-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest Policy",
+     "question": "Consider the following statements:\nStatement A: Soil erosion is paired with soil stabilization.\nStatement B: Water-resource degradation is paired with water or soil conservation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The listed pairings are Soil erosion–soil stabilization and Water-resource degradation–water or soil conservation.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "environment-28-10",
+     "format": "Direct Recall",
+     "keyword": "Ecological Restoration",
+     "question": "Ecological degradation is paired with:",
+     "options": [
+      "Habitat restoration",
+      "Biodiversity conservation",
+      "Ecological restoration",
+      "Soil stabilization"
+     ],
+     "answer": 2,
+     "explanation": "Ecological degradation is paired with ecological restoration.",
+     "facts": [
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 23,
+    "covered": 23,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -5222,7 +6160,10 @@
       "Solar energy"
      ],
      "answer": 1,
-     "explanation": "A biogeochemical cycle is defined in the notes as chemical element movement."
+     "explanation": "A biogeochemical cycle is defined in the notes as chemical element movement.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "environment-29-2",
@@ -5236,7 +6177,14 @@
       "The water cycle is solar-energy driven."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the process linked to the carbon cycle. The notes associate the carbon cycle with CO₂ and biological processes; rock weathering is linked to the phosphorus cycle."
+     "explanation": "The incorrect detail is the process linked to the carbon cycle. The notes associate the carbon cycle with CO₂ and biological processes; rock weathering is linked to the phosphorus cycle.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8",
+      "F9",
+      "F5"
+     ]
     },
     {
      "id": "environment-29-3",
@@ -5250,7 +6198,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. CO₂ uptake during photosynthesis explains its removal."
+     "explanation": "Both statements are true according to the notes. CO₂ uptake during photosynthesis explains its removal.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "environment-29-4",
@@ -5264,7 +6215,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Carbon cycle–CO₂ ↔ biological processes; Water cycle–solar-energy driven; Phosphorus cycle–rock weathering; Nutritional cycle–another term for biogeochemical cycle."
+     "explanation": "The correct pairs are: Carbon cycle–CO₂ ↔ biological processes; Water cycle–solar-energy driven; Phosphorus cycle–rock weathering; Nutritional cycle–another term for biogeochemical cycle.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8",
+      "F9",
+      "F5"
+     ]
     },
     {
      "id": "environment-29-5",
@@ -5278,7 +6236,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements directly match the definitions given in the notes: biotic means living organisms, while abiotic means the non-living environment."
+     "explanation": "Both statements directly match the definitions given in the notes: biotic means living organisms, while abiotic means the non-living environment.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     }
    ]
   },
@@ -5308,7 +6270,10 @@
       "29 December 1993"
      ],
      "answer": 3,
-     "explanation": "The notes state that the CBD came into force on 29 December 1993."
+     "explanation": "The notes state that the CBD came into force on 29 December 1993.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "environment-30-2",
@@ -5322,7 +6287,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct associations are Western Ghats–Western India, Eastern Himalaya–Northeast/Himalayan region, Indo-Myanmar–Northeastern India + Andaman group, and Sundaland–Nicobar Islands."
+     "explanation": "The correct associations are Western Ghats–Western India, Eastern Himalaya–Northeast/Himalayan region, Indo-Myanmar–Northeastern India + Andaman group, and Sundaland–Nicobar Islands.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "environment-30-3",
@@ -5336,7 +6307,13 @@
       "Habitat destruction is the major factor in biodiversity loss."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement associates Indo-Myanmar with Western India. The notes associate Indo-Myanmar with Northeastern India and the Andaman group; Western Ghats is associated with Western India."
+     "explanation": "The incorrect statement associates Indo-Myanmar with Western India. The notes associate Indo-Myanmar with Northeastern India and the Andaman group; Western Ghats is associated with Western India.",
+     "facts": [
+      "F11",
+      "F13",
+      "F9",
+      "F12"
+     ]
     },
     {
      "id": "environment-30-4",
@@ -5350,7 +6327,11 @@
       "A is false, but R is true"
      ],
      "answer": 3,
-     "explanation": "The assertion is false because in-situ conservation means conservation in the natural habitat. The reason is true because ex-situ conservation means conservation outside the natural habitat."
+     "explanation": "The assertion is false because in-situ conservation means conservation in the natural habitat. The reason is true because ex-situ conservation means conservation outside the natural habitat.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "environment-30-5",
@@ -5364,9 +6345,57 @@
       "I and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Gamma diversity refers to overall diversity at a regional or geographical scale, whereas change or comparison between ecosystems is beta diversity."
+     "explanation": "Statements I, II and III are correct. Gamma diversity refers to overall diversity at a regional or geographical scale, whereas change or comparison between ecosystems is beta diversity.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "environment-30-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biodiversity",
+     "question": "Consider the following statements:\nStatement A: Ecosystem diversity is the variety of ecosystems.\nStatement B: India has four biodiversity hotspots.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Ecosystem diversity means the variety of ecosystems, and India has four biodiversity hotspots.",
+     "facts": [
+      "F3",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-30-7",
+     "format": "List-Matching",
+     "keyword": "Biodiversity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Walter G. Rosen\n(b) International Day for Biological Diversity\n\nList-II\n(i) 22 May\n(ii) 29 Dec 1993\n(iii) Biodiversity\n(iv) 4\n\nCodes:\n(a) (b)",
+     "options": [
+      "(a)-(i), (b)-(ii)",
+      "(a)-(ii), (b)-(iv)",
+      "(a)-(iii), (b)-(i)",
+      "(a)-(iv), (b)-(iii)"
+     ],
+     "answer": 2,
+     "explanation": "Walter G. Rosen is associated with the term biodiversity, while the International Day for Biological Diversity is observed on 22 May.",
+     "facts": [
+      "F15",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 19,
+    "covered": 19,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,
@@ -5652,8 +6681,150 @@
       "F33",
       "F34"
      ]
+    },
+    {
+     "id": "environment-33-6",
+     "format": "List-Matching",
+     "keyword": "Mangrove",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Muthupet\n(b) North Andaman & Nicobar\n(c) Vembanad\n(d) Goa\n(e) Gulf of Kachchh\n(f) Gulf of Khambhat\n(g) Achra-Ratnagiri\n\nList-II\n(i) Kerala\n(ii) Gujarat\n(iii) Maharashtra\n(iv) Tamil Nadu\n(v) A&N\n(vi) Goa\n\n(Note: The same entry in List-II may be used more than once.)",
+     "options": [
+      "(a)-(vi), (b)-(v), (c)-(i), (d)-(iv), (e)-(ii), (f)-(ii), (g)-(iii)",
+      "(a)-(i), (b)-(v), (c)-(iv), (d)-(vi), (e)-(ii), (f)-(iii), (g)-(ii)",
+      "(a)-(iv), (b)-(vi), (c)-(i), (d)-(v), (e)-(iii), (f)-(ii), (g)-(ii)",
+      "(a)-(iv), (b)-(v), (c)-(i), (d)-(vi), (e)-(ii), (f)-(ii), (g)-(iii)"
+     ],
+     "answer": 3,
+     "explanation": "Muthupet is in Tamil Nadu; North Andaman & Nicobar is in A&N; Vembanad is in Kerala; Goa is in Goa; the Gulfs of Kachchh and Khambhat are in Gujarat; and Achra-Ratnagiri is in Maharashtra.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-33-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mangrove",
+     "question": "Consider the following statements regarding the forests of Andaman & Nicobar:\n\nI. It contains mangrove forests.\nII. It contains evergreen forests.\nIII. It contains deciduous forests.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "Andaman & Nicobar contains all three types of forests listed: mangrove, evergreen and deciduous forests.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-33-8",
+     "format": "List-Matching",
+     "keyword": "Greenhouse Gas",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Water vapour\n(b) Carbon dioxide\n(c) Methane\n(d) Nitrous oxide\n(e) Ozone\n\nList-II\n(i) CO₂\n(ii) O₃\n(iii) H₂O\n(iv) N₂O\n(v) CH₄",
+     "options": [
+      "(a)-(iii), (b)-(v), (c)-(i), (d)-(iv), (e)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(v), (d)-(iv), (e)-(ii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(v), (e)-(iii)",
+      "(a)-(i), (b)-(iii), (c)-(v), (d)-(ii), (e)-(iv)"
+     ],
+     "answer": 1,
+     "explanation": "The formulae are H₂O for water vapour, CO₂ for carbon dioxide, CH₄ for methane, N₂O for nitrous oxide and O₃ for ozone.",
+     "facts": [
+      "F15",
+      "F17",
+      "F19",
+      "F21",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-33-9",
+     "format": "List-Matching",
+     "keyword": "Greenhouse Gas",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Nitrous oxide\n(b) Ozone\n(c) Ozone in the stratosphere\n(d) Methane\n\nList-II\n(i) Marsh gas\n(ii) Associated with nitrogen fertilizers\n(iii) Greenhouse gas\n(iv) Provides ultraviolet protection",
+     "options": [
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+     ],
+     "answer": 1,
+     "explanation": "Nitrous oxide is associated with nitrogen fertilizers. Ozone is a greenhouse gas and provides ultraviolet protection in the stratosphere, while methane is known as marsh gas.",
+     "facts": [
+      "F22",
+      "F24",
+      "F25",
+      "F28"
+     ]
+    },
+    {
+     "id": "environment-33-10",
+     "format": "Direct Recall",
+     "keyword": "Greenhouse Gas",
+     "question": "In the cited PYQ, which of the following is identified as not a naturally occurring greenhouse gas?",
+     "options": [
+      "Sulphur dioxide (SO₂)",
+      "CFCs",
+      "Nitrogen oxide",
+      "Argon"
+     ],
+     "answer": 2,
+     "explanation": "The cited PYQ identifies nitrogen oxide as not a naturally occurring greenhouse gas. The notes separately associate CFCs with ozone depletion and greenhouse-gas status, argon as not a greenhouse gas, and SO₂ with acid rain.",
+     "facts": [
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-33-11",
+     "format": "Assertion-Reason",
+     "keyword": "Ecosystem",
+     "question": "Assertion (A): An ecosystem is an open system.\nReason (R): Energy flow is a main process in an ecosystem.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: an ecosystem is an open system, and energy flow is one of its main processes. However, the statement about energy flow does not explain why an ecosystem is classified as an open system.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "environment-33-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ecosystem",
+     "question": "Consider the following statements about an ecosystem:\n\nI. Nutrient cycling is a main process in an ecosystem.\nII. An ecosystem has its own productivity.\nIII. An ecosystem has no fixed universal boundary.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: nutrient cycling is a main ecosystem process, an ecosystem has its own productivity, and it has no fixed universal boundary.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,
@@ -7112,7 +8283,8 @@
       "F21",
       "F33",
       "F34",
-      "F25"
+      "F25",
+      "F32"
      ]
     },
     {
@@ -7169,8 +8341,142 @@
      "facts": [
       "F18"
      ]
+    },
+    {
+     "id": "environment-39-6",
+     "format": "List-Matching",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Fossil-fuel burning\n(b) Automobiles\n(c) Thermal power\n(d) Coal combustion\n\nList-II\n(i) Petrol and diesel\n(ii) CO₂, NOx and SO₂\n(iii) Major source of carbon emissions\n(iv) Coal",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Fossil-fuel burning is a major source of carbon emissions; automobiles use petrol and diesel; thermal power uses coal; and coal combustion produces CO₂, NOx and SO₂.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "environment-39-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Blue-carbon ecosystems",
+     "question": "Consider the following statements:\n\nI. Mangroves are blue-carbon ecosystems.\nII. Seagrass is part of blue-carbon ecosystems.\nIII. Salt marshes are blue-carbon ecosystems.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "Mangroves, seagrass and salt marshes are all identified as blue-carbon ecosystems.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-39-8",
+     "format": "Direct Recall",
+     "keyword": "Environment",
+     "question": "The Common Carbon Metric is associated with which of the following?",
+     "options": [
+      "Electronics recycling",
+      "Building operations",
+      "Wastewater treatment and electricity",
+      "Landfill and waste-processing site criteria"
+     ],
+     "answer": 1,
+     "explanation": "The Common Carbon Metric is associated with building operations.",
+     "facts": [
+      "F14",
+      "F20"
+     ]
+    },
+    {
+     "id": "environment-39-9",
+     "format": "Assertion-Reason",
+     "keyword": "Carbon sequestration",
+     "question": "Assertion (A): Respiration and decay release CO₂.\nReason (R): Net zero means that emissions are balanced by removals.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the meaning of net zero does not explain the release of CO₂ through respiration and decay.",
+     "facts": [
+      "F17",
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-39-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Waste Management",
+     "question": "Biodegradable municipal solid waste includes:\n\nI. Food waste\nII. Organic waste\nIII. Yard waste",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Food waste, organic waste and yard waste are all included among biodegradable municipal solid waste.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "environment-39-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Waste Management",
+     "question": "Consider the following statements:\nStatement A: Earthworms speed up decomposition.\nStatement B: An incinerator burns waste.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Earthworms speed up decomposition, while an incinerator burns waste.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "environment-39-12",
+     "format": "Direct Recall",
+     "keyword": "Waste Management",
+     "question": "Biogenic municipal solid waste serves as which of the following?",
+     "options": [
+      "Biomass feedstock",
+      "An electronics-recycling system",
+      "A landfill criterion",
+      "A source of petrol and diesel"
+     ],
+     "answer": 0,
+     "explanation": "Biogenic municipal solid waste serves as biomass feedstock.",
+     "facts": [
+      "F31"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 34,
+    "covered": 34,
+    "audited": true
+   }
   },
   "40": {
    "number": 40,
