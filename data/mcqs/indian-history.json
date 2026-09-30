@@ -130,7 +130,9 @@
       "F34",
       "F40",
       "F45",
-      "F49"
+      "F49",
+      "F39",
+      "F43"
      ]
     },
     {
@@ -149,7 +151,8 @@
      "facts": [
       "F65",
       "F68",
-      "F69"
+      "F69",
+      "F71"
      ]
     },
     {
@@ -171,7 +174,8 @@
       "F60",
       "F62",
       "F65",
-      "F68"
+      "F68",
+      "F71"
      ]
     },
     {
@@ -271,7 +275,9 @@
       "F124",
       "F126",
       "F132",
-      "F133"
+      "F133",
+      "F128",
+      "F139"
      ]
     },
     {
@@ -312,7 +318,10 @@
       "F166",
       "F168",
       "F174",
-      "F177"
+      "F177",
+      "F171",
+      "F180",
+      "F181"
      ]
     },
     {
@@ -331,7 +340,9 @@
      "facts": [
       "F174",
       "F176",
-      "F177"
+      "F177",
+      "F180",
+      "F181"
      ]
     },
     {
@@ -368,7 +379,9 @@
       "F126",
       "F169",
       "F201",
-      "F212"
+      "F212",
+      "F128",
+      "F171"
      ]
     },
     {
@@ -394,7 +407,9 @@
       "F253",
       "F255",
       "F257",
-      "F260"
+      "F260",
+      "F234",
+      "F259"
      ]
     },
     {
@@ -458,7 +473,8 @@
       "F62",
       "F64",
       "F65",
-      "F68"
+      "F68",
+      "F71"
      ]
     },
     {
@@ -536,7 +552,10 @@
      "explanation": "The Rummindei Pillar records Ashoka’s visit to Lumbini, exemption from Bali tax and reduction of land revenue from one-sixth to one-eighth.",
      "facts": [
       "F36",
-      "F37"
+      "F37",
+      "F33",
+      "F38",
+      "F39"
      ]
     },
     {
@@ -649,7 +668,8 @@
       "F131",
       "F132",
       "F133",
-      "F138"
+      "F138",
+      "F139"
      ]
     },
     {
@@ -686,7 +706,8 @@
       "F151",
       "F152",
       "F153",
-      "F154"
+      "F154",
+      "F158"
      ]
     },
     {
@@ -704,7 +725,8 @@
      "explanation": "The Eran Inscription, dated 510 AD, is the first inscriptional evidence of sati and refers to the wife of military commander Gopraj.",
      "facts": [
       "F168",
-      "F170"
+      "F170",
+      "F171"
      ]
     },
     {
@@ -742,7 +764,8 @@
       "F189",
       "F193",
       "F194",
-      "F195"
+      "F195",
+      "F197"
      ]
     },
     {
@@ -1058,7 +1081,8 @@
       "F65",
       "F66",
       "F67",
-      "F70"
+      "F70",
+      "F71"
      ]
     },
     {
@@ -1129,7 +1153,9 @@
      "facts": [
       "F89",
       "F90",
-      "F91"
+      "F91",
+      "F100",
+      "F101"
      ]
     },
     {
@@ -1147,7 +1173,8 @@
      "explanation": "Both statements are true. The Junagadh inscription is an early specimen of the Kavya style and is also described as the earliest perfect Sanskrit inscription, but the latter fact does not explain the former.",
      "facts": [
       "F97",
-      "F98"
+      "F98",
+      "F100"
      ]
     },
     {
@@ -1278,7 +1305,8 @@
       "F124",
       "F125",
       "F129",
-      "F130"
+      "F130",
+      "F139"
      ]
     },
     {
@@ -1296,7 +1324,8 @@
      "explanation": "Both statements are true, but the Greek script does not explain the fact that the inscription is written in the Bactrian language.",
      "facts": [
       "F132",
-      "F133"
+      "F133",
+      "F139"
      ]
     },
     {
@@ -1411,7 +1440,8 @@
       "F152",
       "F153",
       "F154",
-      "F155"
+      "F155",
+      "F158"
      ]
     },
     {
@@ -1486,7 +1516,8 @@
       "F173",
       "F174",
       "F175",
-      "F178"
+      "F178",
+      "F180"
      ]
     },
     {
@@ -1581,7 +1612,8 @@
       "F201",
       "F202",
       "F203",
-      "F204"
+      "F204",
+      "F197"
      ]
     },
     {
@@ -1700,7 +1732,8 @@
       "F231",
       "F233",
       "F235",
-      "F236"
+      "F236",
+      "F234"
      ]
     },
     {
@@ -1898,8 +1931,30 @@
       "F213",
       "F215"
      ]
+    },
+    {
+     "id": "indian-history-1-98",
+     "format": "Direct Recall",
+     "keyword": "Inscription",
+     "question": "The Hathigumpha Inscription records donations to whom?",
+     "options": [
+      "Buddhist monks",
+      "Jain monks",
+      "Southern kings",
+      "Nanda rulers"
+     ],
+     "answer": 1,
+     "explanation": "The Hathigumpha Inscription records donations to Jain monks.",
+     "facts": [
+      "F112"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 270,
+    "covered": 270,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -15251,7 +15306,8 @@
      "answer": 0,
      "explanation": "The annual Jizya rate for income below 200 dirhams was 12 dirhams.",
      "facts": [
-      "F45"
+      "F45",
+      "F48"
      ]
     },
     {
@@ -15420,8 +15476,85 @@
       "F6",
       "F27"
      ]
+    },
+    {
+     "id": "indian-history-23-21",
+     "format": "Assertion-Reason",
+     "keyword": "Inscription",
+     "question": "Assertion (A): Vishti is associated with the Junagadh inscriptions.\nReason (R): Vishti is also associated with Gupta copper inscriptions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Vishti is associated with Junagadh inscriptions as well as Gupta copper inscriptions. The second association does not explain the first.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-history-23-22",
+     "format": "Count-Based",
+     "keyword": "Tax",
+     "question": "How many of the following were associated with Madad-i-Mash?\nI. Saints\nII. Religious institutions\nIII. Mashaikhs\nIV. Non-Muslims",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Madad-i-Mash was associated with saints, religious institutions and mashaikhs. Non-Muslims were associated with the Jizya, not Madad-i-Mash.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-history-23-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tax",
+     "question": "Consider the following statements regarding Aurangzeb's Jizya rates:\nI. For incomes from 200 to 10,000 dirhams, the annual rate was 24 dirhams.\nII. For incomes above 10,000 dirhams, the annual rate was 48 dirhams.\nIII. For incomes from 200 to 10,000 dirhams, the annual rate was 48 dirhams.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "The annual Jizya rate was 24 dirhams for incomes from 200 to 10,000 dirhams and 48 dirhams for incomes above 10,000 dirhams. Therefore, Statement III is incorrect.",
+     "facts": [
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "indian-history-23-24",
+     "format": "Direct Recall",
+     "keyword": "Movement – Imp Personalities",
+     "question": "Who was associated with the Champaran movement against indigo exploitation?",
+     "options": [
+      "Mahatma Gandhi",
+      "Kavindracharya",
+      "C. Rajagopalachari",
+      "Alauddin Khalji"
+     ],
+     "answer": 0,
+     "explanation": "Gandhi was associated with the Champaran movement, which was directed against indigo exploitation.",
+     "facts": [
+      "F59"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 65,
+    "covered": 65,
+    "audited": true
+   }
   },
   "23-2": {
    "number": 23,
@@ -22840,7 +22973,11 @@
       "Ashtadhyayi"
      ],
      "answer": 2,
-     "explanation": "Kautilya or Chanakya was a political thinker associated with the Mauryan context. His key work was the Arthashastra."
+     "explanation": "Kautilya or Chanakya was a political thinker associated with the Mauryan context. His key work was the Arthashastra.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-46-2",
@@ -22854,7 +22991,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "Panini wrote Ashtadhyayi, Patanjali wrote Mahabhashya, Aryabhatta wrote Aryabhatiya, and Varahamihira wrote Brihatsamhita."
+     "explanation": "Panini wrote Ashtadhyayi, Patanjali wrote Mahabhashya, Aryabhatta wrote Aryabhatiya, and Varahamihira wrote Brihatsamhita.",
+     "facts": [
+      "F7",
+      "F10",
+      "F13",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-46-3",
@@ -22868,7 +23011,15 @@
       "Bhaskaracharya II wrote Siddhantasiromani and Lilavati."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the work attributed to Kalidasa. Mahabhashya was written by Patanjali; Kalidasa's listed works include Abhijnanashakuntalam and Meghadutam."
+     "explanation": "The incorrect detail is the work attributed to Kalidasa. Mahabhashya was written by Patanjali; Kalidasa's listed works include Abhijnanashakuntalam and Meghadutam.",
+     "facts": [
+      "F10",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "indian-history-46-4",
@@ -22882,7 +23033,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Aryabhatta's identity as a mathematician and astronomer does not explain why the specific work was titled Aryabhatiya."
+     "explanation": "Both statements are true, but Aryabhatta's identity as a mathematician and astronomer does not explain why the specific work was titled Aryabhatiya.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-46-5",
@@ -22896,7 +23052,15 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "Kalidasa is linked with Abhijnanashakuntalam and Meghadutam; Harisena with Prayaga Prashasti; Banabhatta with Harshacharita and Kadambari; and Vishakhadatta with Devi-Chandraguptam."
+     "explanation": "Kalidasa is linked with Abhijnanashakuntalam and Meghadutam; Harisena with Prayaga Prashasti; Banabhatta with Harshacharita and Kadambari; and Vishakhadatta with Devi-Chandraguptam.",
+     "facts": [
+      "F23",
+      "F24",
+      "F29",
+      "F32",
+      "F33",
+      "F35"
+     ]
     },
     {
      "id": "indian-history-46-6",
@@ -22910,7 +23074,11 @@
       "Chandragupta II"
      ],
      "answer": 2,
-     "explanation": "Harisena was a poet and court scholar associated with Samudragupta. His key contribution was the Prayaga Prashasti."
+     "explanation": "Harisena was a poet and court scholar associated with Samudragupta. His key contribution was the Prayaga Prashasti.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-history-46-7",
@@ -22924,7 +23092,13 @@
       "I and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Mattavilasa Prahasana was associated with Mahendravarman I, while Rajasekhara's listed works include Karpuramanjari and Kavyamimamsa."
+     "explanation": "Statements I, II and III are correct. Mattavilasa Prahasana was associated with Mahendravarman I, while Rajasekhara's listed works include Karpuramanjari and Kavyamimamsa.",
+     "facts": [
+      "F37",
+      "F39",
+      "F41",
+      "F51"
+     ]
     },
     {
      "id": "indian-history-46-8",
@@ -22938,7 +23112,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Bhavabhuti was associated with Yashovarman of Kannauj and wrote Uttararamacharitam."
+     "explanation": "Both statements are true. Bhavabhuti was associated with Yashovarman of Kannauj and wrote Uttararamacharitam.",
+     "facts": [
+      "F53",
+      "F56"
+     ]
     },
     {
      "id": "indian-history-46-9",
@@ -22952,7 +23130,15 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 3,
-     "explanation": "Amir Khusrau is linked with Miftah-ul-Futuh and Khazain-ul-Futuh; Firdausi with Shahnama; Al-Biruni with Account of India; and Utbi with Kitab-ul-Yamini or Tarikh-i-Yamini."
+     "explanation": "Amir Khusrau is linked with Miftah-ul-Futuh and Khazain-ul-Futuh; Firdausi with Shahnama; Al-Biruni with Account of India; and Utbi with Kitab-ul-Yamini or Tarikh-i-Yamini.",
+     "facts": [
+      "F60",
+      "F61",
+      "F67",
+      "F80",
+      "F83",
+      "F84"
+     ]
     },
     {
      "id": "indian-history-46-10",
@@ -22966,7 +23152,13 @@
       "Mitakshara"
      ],
      "answer": 1,
-     "explanation": "Amir Khusrau's listed works include Miftah-ul-Futuh, Khazain-ul-Futuh, Ashika, Nuh Sipihr and Tughluq Nama."
+     "explanation": "Amir Khusrau's listed works include Miftah-ul-Futuh, Khazain-ul-Futuh, Ashika, Nuh Sipihr and Tughluq Nama.",
+     "facts": [
+      "F64",
+      "F67",
+      "F87",
+      "F96"
+     ]
     },
     {
      "id": "indian-history-46-11",
@@ -22980,7 +23172,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but writing Account of India does not explain Al-Biruni's association with Mahmud Ghaznavi's period."
+     "explanation": "Both statements are true, but writing Account of India does not explain Al-Biruni's association with Mahmud Ghaznavi's period.",
+     "facts": [
+      "F79",
+      "F80"
+     ]
     },
     {
      "id": "indian-history-46-12",
@@ -22994,7 +23190,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "Vigyaneshvara wrote Mitakshara, Jimutavahana wrote Dayabhaga, Hemadri is associated with jurisprudence, and Kshemeshvara wrote Dasavatar Charita."
+     "explanation": "Vigyaneshvara wrote Mitakshara, Jimutavahana wrote Dayabhaga, Hemadri is associated with jurisprudence, and Kshemeshvara wrote Dasavatar Charita.",
+     "facts": [
+      "F93",
+      "F96",
+      "F99",
+      "F102"
+     ]
     },
     {
      "id": "indian-history-46-13",
@@ -23008,7 +23210,11 @@
       "Faizi"
      ],
      "answer": 0,
-     "explanation": "Abul Fazl was a scholar and court intellectual associated with Akbar. His works included Akbarnama and the Panchatantra translation Ayar-i-Danish."
+     "explanation": "Abul Fazl was a scholar and court intellectual associated with Akbar. His works included Akbarnama and the Panchatantra translation Ayar-i-Danish.",
+     "facts": [
+      "F103",
+      "F104"
+     ]
     },
     {
      "id": "indian-history-46-14",
@@ -23022,7 +23228,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Faizi was the poet laureate of Akbar and supervised the translation department."
+     "explanation": "Both statements are true. Faizi was the poet laureate of Akbar and supervised the translation department.",
+     "facts": [
+      "F106",
+      "F107",
+      "F108"
+     ]
     },
     {
      "id": "indian-history-46-15",
@@ -23036,7 +23247,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Hari Vijay Suri was Jagadguru; Jin Chandra Suri was Yug Pradhan; Nizamuddin Panipati translated Yogavasistha into Persian; and Mulla Husain Waiz Kashifi translated Panchatantra as Anwar-i-Suhaili."
+     "explanation": "Hari Vijay Suri was Jagadguru; Jin Chandra Suri was Yug Pradhan; Nizamuddin Panipati translated Yogavasistha into Persian; and Mulla Husain Waiz Kashifi translated Panchatantra as Anwar-i-Suhaili.",
+     "facts": [
+      "F111",
+      "F114",
+      "F117",
+      "F119"
+     ]
     },
     {
      "id": "indian-history-46-16",
@@ -23050,7 +23267,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the listed contributions: Ayar-i-Danish, the Persian Yogavasistha, Anwar-i-Suhaili and Kalila-wa-Dimnah."
+     "explanation": "All four associations are correct according to the listed contributions: Ayar-i-Danish, the Persian Yogavasistha, Anwar-i-Suhaili and Kalila-wa-Dimnah.",
+     "facts": [
+      "F105",
+      "F117",
+      "F119",
+      "F121"
+     ]
     },
     {
      "id": "indian-history-46-17",
@@ -23064,7 +23287,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. These works are respectively associated with Baihaqi, Kshemeshvara, Abul Fazl and Nashrullah Munshi Shirazi."
+     "explanation": "All four statements are correct. These works are respectively associated with Baihaqi, Kshemeshvara, Abul Fazl and Nashrullah Munshi Shirazi.",
+     "facts": [
+      "F87",
+      "F93",
+      "F105",
+      "F121"
+     ]
     },
     {
      "id": "indian-history-46-18",
@@ -23078,7 +23307,12 @@
       "Pallava rulers"
      ],
      "answer": 0,
-     "explanation": "Hastimalla was a Kannada poet and playwright associated with Hoysala rulers and made a Kannada literary contribution."
+     "explanation": "Hastimalla was a Kannada poet and playwright associated with Hoysala rulers and made a Kannada literary contribution.",
+     "facts": [
+      "F88",
+      "F89",
+      "F90"
+     ]
     },
     {
      "id": "indian-history-46-19",
@@ -23092,7 +23326,12 @@
       "Mattavilasa Prahasana"
      ],
      "answer": 3,
-     "explanation": "Mahendravarman I, a Pallava ruler and scholar, is associated with Mattavilasa Prahasana."
+     "explanation": "Mahendravarman I, a Pallava ruler and scholar, is associated with Mattavilasa Prahasana.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "indian-history-46-20",
@@ -23106,7 +23345,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but belonging to the 12th century does not explain why Bhaskaracharya II was a mathematician and astronomer."
+     "explanation": "Both statements are true, but belonging to the 12th century does not explain why Bhaskaracharya II was a mathematician and astronomer.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-46-21",
@@ -23120,7 +23363,14 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Panini–Ashtadhyayi, Rajasekhara–Karpuramanjari, Nashrullah Munshi Shirazi–Kalila-wa-Dimnah, and Farrukhi–court poet of Mahmud Ghaznavi."
+     "explanation": "The correct pairs are Panini–Ashtadhyayi, Rajasekhara–Karpuramanjari, Nashrullah Munshi Shirazi–Kalila-wa-Dimnah, and Farrukhi–court poet of Mahmud Ghaznavi.",
+     "facts": [
+      "F7",
+      "F46",
+      "F76",
+      "F77",
+      "F121"
+     ]
     },
     {
      "id": "indian-history-46-22",
@@ -23134,7 +23384,12 @@
       "Alauddin Khalji and other Delhi rulers"
      ],
      "answer": 3,
-     "explanation": "Amir Khusrau was a poet, historian and musician associated with Alauddin Khalji and other Delhi rulers."
+     "explanation": "Amir Khusrau was a poet, historian and musician associated with Alauddin Khalji and other Delhi rulers.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "indian-history-46-23",
@@ -23148,7 +23403,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Bhaskaracharya II is associated with both Siddhantasiromani and Lilavati."
+     "explanation": "Bhaskaracharya II is associated with both Siddhantasiromani and Lilavati.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-46-24",
@@ -23162,7 +23421,15 @@
       "I and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Tarikh-i-Subuktigin was written by Baihaqi, not Rajasekhara."
+     "explanation": "Statements I, II and III are correct. Tarikh-i-Subuktigin was written by Baihaqi, not Rajasekhara.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F47",
+      "F87"
+     ]
     },
     {
      "id": "indian-history-46-25",
@@ -23176,7 +23443,10 @@
       "Chandragupta II"
      ],
      "answer": 3,
-     "explanation": "Kalidasa, the Sanskrit poet and dramatist, was associated with Chandragupta II."
+     "explanation": "Kalidasa, the Sanskrit poet and dramatist, was associated with Chandragupta II.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-history-46-26",
@@ -23190,7 +23460,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Amir Khusrau’s association with Delhi rulers does not explain all three aspects of his identity."
+     "explanation": "Both statements are true, but Amir Khusrau’s association with Delhi rulers does not explain all three aspects of his identity.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "indian-history-46-27",
@@ -23204,7 +23479,13 @@
       "Pallava; Mahendravarman I and Narasimhavarman I"
      ],
      "answer": 2,
-     "explanation": "Rajasekhara was a court scholar of the Gurjara-Pratiharas and was associated with Mahendrapala-I and Mahipala-I."
+     "explanation": "Rajasekhara was a court scholar of the Gurjara-Pratiharas and was associated with Mahendrapala-I and Mahipala-I.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "indian-history-46-28",
@@ -23218,7 +23499,13 @@
       "Kiratarjuniyam"
      ],
      "answer": 2,
-     "explanation": "Kalidasa is associated with Abhijnanashakuntalam. Harshacharita was written by Banabhatta, Kiratarjuniyam by Bharavi, and Malatimadhava by Bhavabhuti."
+     "explanation": "Kalidasa is associated with Abhijnanashakuntalam. Harshacharita was written by Banabhatta, Kiratarjuniyam by Bharavi, and Malatimadhava by Bhavabhuti.",
+     "facts": [
+      "F23",
+      "F32",
+      "F39",
+      "F55"
+     ]
     }
    ]
   },
@@ -24386,7 +24673,8 @@
      "facts": [
       "F4",
       "F5",
-      "F6"
+      "F6",
+      "F7"
      ]
     },
     {
@@ -24434,7 +24722,8 @@
       "F13",
       "F15",
       "F16",
-      "F17"
+      "F17",
+      "F14"
      ]
     },
     {
@@ -24688,7 +24977,9 @@
       "F228",
       "F229",
       "F230",
-      "F231"
+      "F231",
+      "F237",
+      "F238"
      ]
     },
     {
@@ -24859,7 +25150,11 @@
      "explanation": "The sequence of Patanjali's eight limbs ends with Samadhi.",
      "facts": [
       "F62",
-      "F70"
+      "F70",
+      "F61",
+      "F67",
+      "F68",
+      "F69"
      ]
     },
     {
@@ -25185,7 +25480,8 @@
      "explanation": "Early Vedic religion was characterised by nature worship and yajnas. Rigvedic religion was polytheistic.",
      "facts": [
       "F1",
-      "F2"
+      "F2",
+      "F3"
      ]
     },
     {
@@ -25286,7 +25582,8 @@
      "answer": 2,
      "explanation": "The second Jain Sabha was held at Vallabhi and was associated with Devardhigani Kshamashraman.",
      "facts": [
-      "F150"
+      "F150",
+      "F151"
      ]
     },
     {
@@ -25417,7 +25714,9 @@
      "explanation": "The Ibadat Khana was established in 1575, and in 1578 it was opened to different schools of religion.",
      "facts": [
       "F276",
-      "F278"
+      "F278",
+      "F273",
+      "F277"
      ]
     },
     {
@@ -25435,7 +25734,8 @@
      "explanation": "The Mahzarnama was issued in 1579 and was connected with a controversy over religious authority.",
      "facts": [
       "F279",
-      "F280"
+      "F280",
+      "F281"
      ]
     },
     {
@@ -25489,7 +25789,8 @@
      "explanation": "The notes identify the origin of Bhakti in South India, particularly the Dravida or Tamil region.",
      "facts": [
       "F200",
-      "F201"
+      "F201",
+      "F196"
      ]
     },
     {
@@ -25914,8 +26215,177 @@
       "F167",
       "F169"
      ]
+    },
+    {
+     "id": "indian-history-51-76",
+     "format": "List-Matching",
+     "keyword": "System",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Yama\n(b) Niyama\n(c) Asana\n(d) Pranayama\n\nList-II\n(i) First limb of Yoga\n(ii) Second limb of Yoga\n(iii) Third limb of Yoga\n(iv) Fourth limb of Yoga",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "In Patanjali’s eightfold Yoga, Yama is the first limb, Niyama the second, Asana the third and Pranayama the fourth.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65",
+      "F66"
+     ]
+    },
+    {
+     "id": "indian-history-51-77",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Religion",
+     "question": "Consider the following statements:\n\nI. Parshvanath taught four restraints.\nII. Asteya is one of the Five Mahavratas.\nIII. Asteya denotes non-possession.\nIV. Parshvanath was the 24th Tirthankara.",
+     "options": [
+      "I, II and IV only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Parshvanath taught four restraints, and Asteya is one of the Five Mahavratas. Non-possession is associated with Aparigraha, while Parshvanath was the 23rd Tirthankara.",
+     "facts": [
+      "F117",
+      "F130"
+     ]
+    },
+    {
+     "id": "indian-history-51-78",
+     "format": "Direct Recall",
+     "keyword": "RULER – described as/known as",
+     "question": "Nathpanth regarded which deity as Adinath?",
+     "options": [
+      "Bhairava",
+      "Lakulisha",
+      "Shiva",
+      "Basav"
+     ],
+     "answer": 2,
+     "explanation": "The Nathpanth regarded Shiva as Adinath.",
+     "facts": [
+      "F178"
+     ]
+    },
+    {
+     "id": "indian-history-51-79",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Religion",
+     "question": "Consider the following statements:\nStatement A: Shaktism is associated with Hinduism.\nStatement B: Shaktism involves worship of Goddess Shakti.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Shaktism is identified with Hinduism and involves the worship of Goddess Shakti.",
+     "facts": [
+      "F181",
+      "F182"
+     ]
+    },
+    {
+     "id": "indian-history-51-80",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Bhakti",
+     "question": "Consider the following statements:\nStatement A: Bhakti involved loving devotion towards God.\nStatement B: Raskhan was a Muslim devotee of Krishna.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Bhakti centred on loving devotion towards God. Raskhan is identified as a Muslim devotee of Krishna.",
+     "facts": [
+      "F197",
+      "F217"
+     ]
+    },
+    {
+     "id": "indian-history-51-81",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sikhism",
+     "question": "Consider the following statements:\n\nI. The compositions of Kabir were included in the Adi Granth.\nII. The compositions of Baba Farid were included in the Adi Granth.\nIII. The compositions of Namdev were included in the Adi Granth.\nIV. The compositions of Raidas were included in the Adi Granth.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "The Adi Granth included the compositions of Kabir, Baba Farid, Namdev and Raidas.",
+     "facts": [
+      "F255",
+      "F256",
+      "F257",
+      "F258"
+     ]
+    },
+    {
+     "id": "indian-history-51-82",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Policy",
+     "question": "Consider the following statements:\nStatement A: Akbar's religious policy emphasized tolerance.\nStatement B: Akbar's religious policy emphasized accommodation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Akbar’s religious policy is characterised by tolerance and accommodation, along with inter-religious discussions.",
+     "facts": [
+      "F271",
+      "F272"
+     ]
+    },
+    {
+     "id": "indian-history-51-83",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Modern reform",
+     "question": "Consider the following statements:\nStatement A: The Brahmo Sabha was a modern reform movement.\nStatement B: Swami Vivekananda was associated with Neo-Hinduism.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Brahmo Sabha is identified as a modern reform movement, while Swami Vivekananda is associated with Neo-Hinduism.",
+     "facts": [
+      "F289",
+      "F298"
+     ]
+    },
+    {
+     "id": "indian-history-51-84",
+     "format": "Direct Recall",
+     "keyword": "Jizya",
+     "question": "In which year did Aurangzeb reimpose jizya?",
+     "options": [
+      "1679",
+      "1582",
+      "1579",
+      "1675"
+     ],
+     "answer": 0,
+     "explanation": "Aurangzeb reimposed jizya in 1679.",
+     "facts": [
+      "F287"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 308,
+    "covered": 308,
+    "audited": true
+   }
   },
   "52": {
    "number": 52,
@@ -31316,7 +31786,8 @@
      "facts": [
       "F55",
       "F59",
-      "F60"
+      "F60",
+      "F65"
      ]
     },
     {
@@ -31395,7 +31866,8 @@
      "explanation": "Ajanta Cave 1 is associated with the famous Buddhist painting of Bodhisattva Padmapani.",
      "facts": [
       "F76",
-      "F78"
+      "F78",
+      "F65"
      ]
     },
     {
@@ -31532,7 +32004,8 @@
      "answer": 2,
      "explanation": "Ajanta Cave 17 contains an important Vakataka-period painting.",
      "facts": [
-      "F77"
+      "F77",
+      "F65"
      ]
     },
     {
@@ -31740,8 +32213,50 @@
       "F63",
       "F64"
      ]
+    },
+    {
+     "id": "indian-history-71-37",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Painting – School and Style",
+     "question": "Consider the following statements:\nI. The Rajput School was a regional medieval painting style.\nII. The Kangra School was a regional medieval painting style.\nIII. The Mughal School was a medieval painting style.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: the Rajput and Kangra Schools were regional medieval painting styles, while the Mughal School was a medieval painting style.",
+     "facts": [
+      "F49",
+      "F51",
+      "F53"
+     ]
+    },
+    {
+     "id": "indian-history-71-38",
+     "format": "Assertion-Reason",
+     "keyword": "School – Place and Theme",
+     "question": "Assertion (A): The Kishangarh School was associated with Rajasthan.\nReason (R): The Kishangarh School was famous for the Radha–Krishna theme.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Kishangarh was associated with Rajasthan and was famous for the Radha–Krishna theme, but the theme does not explain its geographical association.",
+     "facts": [
+      "F54",
+      "F56"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 91,
+    "covered": 91,
+    "audited": true
+   }
   },
   "72": {
    "number": 72,
@@ -38685,7 +39200,12 @@
       "Samudragupta"
      ],
      "answer": 3,
-     "explanation": "Samudragupta is associated with the Allahabad Pillar inscription, Harisena and extensive conquests."
+     "explanation": "Samudragupta is associated with the Allahabad Pillar inscription, Harisena and extensive conquests.",
+     "facts": [
+      "F14",
+      "F16",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-97-2",
@@ -38699,7 +39219,14 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "Ashoka is associated with Dhamma and Buddhist propagation; Megasthenes with Indica; Harshavardhana with Harshacharita; and Aryabhata with Aryabhatiya."
+     "explanation": "Ashoka is associated with Dhamma and Buddhist propagation; Megasthenes with Indica; Harshavardhana with Harshacharita; and Aryabhata with Aryabhatiya.",
+     "facts": [
+      "F1",
+      "F4",
+      "F11",
+      "F20",
+      "F30"
+     ]
     },
     {
      "id": "indian-history-97-3",
@@ -38713,7 +39240,23 @@
       "Xuanzang is associated with Harshavardhana, Nalanda and Si-Yu-Ki."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is Kavyamimamsa. Kavyamimamsa is associated with Rajasekhara, whereas Banabhatta is associated with Harshacharita and Harshavardhana."
+     "explanation": "The incorrect association is Kavyamimamsa. Kavyamimamsa is associated with Rajasekhara, whereas Banabhatta is associated with Harshacharita and Harshavardhana.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F23",
+      "F24",
+      "F28",
+      "F29",
+      "F36",
+      "F22",
+      "F25",
+      "F26",
+      "F27",
+      "F7",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-97-4",
@@ -38727,7 +39270,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Saka conquest and association with Fa-Hien do not explain the title Vikramaditya."
+     "explanation": "Both statements are true, but the Saka conquest and association with Fa-Hien do not explain the title Vikramaditya.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-history-97-5",
@@ -38741,7 +39289,10 @@
       "Karikala Chola"
      ],
      "answer": 3,
-     "explanation": "Karikala Chola is associated with Kallanai or the Grand Anicut."
+     "explanation": "Karikala Chola is associated with Kallanai or the Grand Anicut.",
+     "facts": [
+      "F32"
+     ]
     },
     {
      "id": "indian-history-97-6",
@@ -38755,7 +39306,16 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "Alauddin Khalji—market and price control; Balban—Blood and Iron policy; Muhammad bin Tughlaq—token currency and capital transfer; Firoz Shah Tughlaq—canals, irrigation and public works."
+     "explanation": "Alauddin Khalji—market and price control; Balban—Blood and Iron policy; Muhammad bin Tughlaq—token currency and capital transfer; Firoz Shah Tughlaq—canals, irrigation and public works.",
+     "facts": [
+      "F37",
+      "F40",
+      "F42",
+      "F43",
+      "F45",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "indian-history-97-7",
@@ -38769,7 +39329,20 @@
       "I and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Sulh-i-kul is associated with Akbar, while Aurangzeb is associated with Jizya, Zinda Pir and Deccan policy."
+     "explanation": "Statements I, II and III are correct. Sulh-i-kul is associated with Akbar, while Aurangzeb is associated with Jizya, Zinda Pir and Deccan policy.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F58",
+      "F59",
+      "F62",
+      "F65",
+      "F66",
+      "F67",
+      "F60",
+      "F61"
+     ]
     },
     {
      "id": "indian-history-97-8",
@@ -38783,7 +39356,11 @@
       "Abul Fazl"
      ],
      "answer": 2,
-     "explanation": "Shah Jahan is associated with Mughal architecture and the Taj Mahal."
+     "explanation": "Shah Jahan is associated with Mughal architecture and the Taj Mahal.",
+     "facts": [
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-history-97-9",
@@ -38797,7 +39374,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the associations of Vasco da Gama and Francisco de Almeida."
+     "explanation": "Both statements are true according to the associations of Vasco da Gama and Francisco de Almeida.",
+     "facts": [
+      "F71",
+      "F72",
+      "F73"
+     ]
     },
     {
      "id": "indian-history-97-10",
@@ -38811,7 +39393,15 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "Robert Clive—Battle of Plassey; Warren Hastings—Regulating Act and Ring Fence policy; Cornwallis—Permanent Settlement and Cornwallis Code; Wellesley—Subsidiary Alliance."
+     "explanation": "Robert Clive—Battle of Plassey; Warren Hastings—Regulating Act and Ring Fence policy; Cornwallis—Permanent Settlement and Cornwallis Code; Wellesley—Subsidiary Alliance.",
+     "facts": [
+      "F75",
+      "F76",
+      "F77",
+      "F78",
+      "F79",
+      "F80"
+     ]
     },
     {
      "id": "indian-history-97-11",
@@ -38825,7 +39415,15 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Swami Vivekananda is associated with the Ramakrishna Mission; the Prarthana Samaj is associated with M.G. Ranade."
+     "explanation": "Statements I, II and III are correct. Swami Vivekananda is associated with the Ramakrishna Mission; the Prarthana Samaj is associated with M.G. Ranade.",
+     "facts": [
+      "F87",
+      "F88",
+      "F89",
+      "F90",
+      "F91",
+      "F93"
+     ]
     },
     {
      "id": "indian-history-97-12",
@@ -38839,7 +39437,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but M.G. Ranade's associations do not explain Jyotiba Phule's association with the Satyashodhak Samaj."
+     "explanation": "Both statements are true, but M.G. Ranade's associations do not explain Jyotiba Phule's association with the Satyashodhak Samaj.",
+     "facts": [
+      "F92",
+      "F93",
+      "F94"
+     ]
     },
     {
      "id": "indian-history-97-13",
@@ -38853,7 +39456,15 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the listed reform and nationalist movements."
+     "explanation": "All four associations are correct according to the listed reform and nationalist movements.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97",
+      "F98",
+      "F99",
+      "F100"
+     ]
     },
     {
      "id": "indian-history-97-14",
@@ -38867,7 +39478,17 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "Champaran Satyagraha—Raj Kumar Shukla; Swaraj Party—C.R. Das and Motilal Nehru; Quit India—Mahatma Gandhi; HSRA revolutionary movement—Bhagat Singh and Chandrashekhar Azad."
+     "explanation": "Champaran Satyagraha—Raj Kumar Shukla; Swaraj Party—C.R. Das and Motilal Nehru; Quit India—Mahatma Gandhi; HSRA revolutionary movement—Bhagat Singh and Chandrashekhar Azad.",
+     "facts": [
+      "F105",
+      "F106",
+      "F107",
+      "F104",
+      "F116",
+      "F117",
+      "F118",
+      "F119"
+     ]
     },
     {
      "id": "indian-history-97-15",
@@ -38881,7 +39502,10 @@
       "Sir Syed Ahmad Khan"
      ],
      "answer": 2,
-     "explanation": "Haji Shariatullah is associated with the Faraizi Movement."
+     "explanation": "Haji Shariatullah is associated with the Faraizi Movement.",
+     "facts": [
+      "F95"
+     ]
     },
     {
      "id": "indian-history-97-16",
@@ -38895,7 +39519,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Sardar Patel's associations do not explain Subhas Chandra Bose's association with the INA, Forward Bloc and Netaji."
+     "explanation": "Both statements are true, but Sardar Patel's associations do not explain Subhas Chandra Bose's association with the INA, Forward Bloc and Netaji.",
+     "facts": [
+      "F122",
+      "F123",
+      "F124",
+      "F125",
+      "F126"
+     ]
     },
     {
      "id": "indian-history-97-17",
@@ -38909,7 +39540,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The listed associations connect Mahatma Gandhi with major movements and Ram Prasad Bismil with Kakori and the revolutionary movement."
+     "explanation": "Both statements are true. The listed associations connect Mahatma Gandhi with major movements and Ram Prasad Bismil with Kakori and the revolutionary movement.",
+     "facts": [
+      "F101",
+      "F102",
+      "F103",
+      "F104",
+      "F120",
+      "F121"
+     ]
     },
     {
      "id": "indian-history-97-18",
@@ -38923,7 +39562,11 @@
       "Sardar Patel"
      ],
      "answer": 3,
-     "explanation": "Sardar Patel is associated with Bardoli Satyagraha and the integration of princely states."
+     "explanation": "Sardar Patel is associated with Bardoli Satyagraha and the integration of princely states.",
+     "facts": [
+      "F125",
+      "F126"
+     ]
     },
     {
      "id": "indian-history-97-19",
@@ -38937,7 +39580,15 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "Kautilya is associated with the Arthashastra, Xuanzang with Si-Yu-Ki, Kalidasa with Gupta-period Sanskrit literature, and Rajasekhara with Kavyamimamsa."
+     "explanation": "Kautilya is associated with the Arthashastra, Xuanzang with Si-Yu-Ki, Kalidasa with Gupta-period Sanskrit literature, and Rajasekhara with Kavyamimamsa.",
+     "facts": [
+      "F8",
+      "F9",
+      "F27",
+      "F28",
+      "F29",
+      "F36"
+     ]
     },
     {
      "id": "indian-history-97-20",
@@ -38951,7 +39602,14 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 2,
-     "explanation": "Rajendra Chola I is associated with Gangaikonda Chola and overseas expeditions; Amoghavarsha I with Kavirajamarga; Rajasekhara with Kavyamimamsa; and Shivaji with the Ashtapradhan."
+     "explanation": "Rajendra Chola I is associated with Gangaikonda Chola and overseas expeditions; Amoghavarsha I with Kavirajamarga; Rajasekhara with Kavyamimamsa; and Shivaji with the Ashtapradhan.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F69"
+     ]
     },
     {
      "id": "indian-history-97-21",
@@ -38965,7 +39623,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Almeida’s Blue Water Policy does not explain Albuquerque’s association with the Portuguese conquest of Goa."
+     "explanation": "Both statements are true, but Almeida’s Blue Water Policy does not explain Albuquerque’s association with the Portuguese conquest of Goa.",
+     "facts": [
+      "F73",
+      "F74"
+     ]
     },
     {
      "id": "indian-history-97-22",
@@ -38979,7 +39641,16 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "William Bentinck is linked with abolition of Sati and the first Governor-Generalship of India; Dalhousie with the Doctrine of Lapse and railways/telegraph; Curzon with the Partition of Bengal and the Ancient Monuments Protection Act; and Sir Syed Ahmad Khan with the Aligarh Movement."
+     "explanation": "William Bentinck is linked with abolition of Sati and the first Governor-Generalship of India; Dalhousie with the Doctrine of Lapse and railways/telegraph; Curzon with the Partition of Bengal and the Ancient Monuments Protection Act; and Sir Syed Ahmad Khan with the Aligarh Movement.",
+     "facts": [
+      "F81",
+      "F82",
+      "F83",
+      "F84",
+      "F85",
+      "F86",
+      "F90"
+     ]
     },
     {
      "id": "indian-history-97-23",
@@ -38993,7 +39664,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct associations in the historical record: Swami Vivekananda with the Ramakrishna Mission, and Bal Gangadhar Tilak with Home Rule, Swadeshi and extremist nationalism."
+     "explanation": "Both statements are correct associations in the historical record: Swami Vivekananda with the Ramakrishna Mission, and Bal Gangadhar Tilak with Home Rule, Swadeshi and extremist nationalism.",
+     "facts": [
+      "F91",
+      "F97",
+      "F98",
+      "F99"
+     ]
     },
     {
      "id": "indian-history-97-24",
@@ -39007,7 +39684,17 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "Jayaprakash Narayan is associated with the Hazaribagh Jail escape; Aruna Asaf Ali with Gowalia Tank flag hoisting; Kanaklata Barua with Gohpur in Assam; and Matangini Hazra with Tamluk."
+     "explanation": "Jayaprakash Narayan is associated with the Hazaribagh Jail escape; Aruna Asaf Ali with Gowalia Tank flag hoisting; Kanaklata Barua with Gohpur in Assam; and Matangini Hazra with Tamluk.",
+     "facts": [
+      "F108",
+      "F109",
+      "F110",
+      "F111",
+      "F112",
+      "F113",
+      "F114",
+      "F115"
+     ]
     },
     {
      "id": "indian-history-97-25",
@@ -39021,7 +39708,15 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct: Kautilya with Arthashastra, Kalidasa with Gupta-period Sanskrit literature, Rajasekhara with Kavyamimamsa, and Xuanzang with Si-Yu-Ki."
+     "explanation": "All four associations are correct: Kautilya with Arthashastra, Kalidasa with Gupta-period Sanskrit literature, Rajasekhara with Kavyamimamsa, and Xuanzang with Si-Yu-Ki.",
+     "facts": [
+      "F8",
+      "F9",
+      "F28",
+      "F29",
+      "F27",
+      "F36"
+     ]
     },
     {
      "id": "indian-history-97-26",
@@ -39035,7 +39730,12 @@
       "Firoz Shah Tughlaq"
      ],
      "answer": 0,
-     "explanation": "Sher Shah Suri is associated with roads, currency and administrative reforms."
+     "explanation": "Sher Shah Suri is associated with roads, currency and administrative reforms.",
+     "facts": [
+      "F51",
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "indian-history-97-27",
@@ -39049,7 +39749,12 @@
       "Alauddin Khalji"
      ],
      "answer": 1,
-     "explanation": "Aurangzeb is associated with Jizya, Zinda Pir and Deccan policy."
+     "explanation": "Aurangzeb is associated with Jizya, Zinda Pir and Deccan policy.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67"
+     ]
     },
     {
      "id": "indian-history-97-28",
@@ -39063,7 +39768,11 @@
       "Bhagat Singh"
      ],
      "answer": 1,
-     "explanation": "Ram Prasad Bismil is associated with Kakori and the revolutionary movement."
+     "explanation": "Ram Prasad Bismil is associated with Kakori and the revolutionary movement.",
+     "facts": [
+      "F120",
+      "F121"
+     ]
     },
     {
      "id": "indian-history-97-29",
@@ -39077,7 +39786,88 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Chandragupta Maurya is associated with Megasthenes, Xuanzang with Nalanda, Ibn Battuta with Rihla, and Raj Kumar Shukla with the Champaran Satyagraha."
+     "explanation": "Chandragupta Maurya is associated with Megasthenes, Xuanzang with Nalanda, Ibn Battuta with Rihla, and Raj Kumar Shukla with the Champaran Satyagraha.",
+     "facts": [
+      "F5",
+      "F6",
+      "F12",
+      "F26",
+      "F50",
+      "F105"
+     ]
+    },
+    {
+     "id": "indian-history-97-30",
+     "format": "Assertion-Reason",
+     "keyword": "War",
+     "question": "Assertion (A): Ashoka is associated with the Kalinga War.\nReason (R): Ashoka is associated with rock and pillar edicts.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Ashoka is associated with both the Kalinga War and rock and pillar edicts. The association with edicts does not explain his association with the Kalinga War.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-history-97-31",
+     "format": "List-Matching",
+     "keyword": "Place – Associated with",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Megasthenes\n(b) Aryabhata\n(c) Alauddin Khalji\n(d) Balban\n\nList-II\n(i) Pataliputra\n(ii) Mathematics and astronomy\n(iii) Mongol defence\n(iv) Strong monarchy",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct associations are Megasthenes–Pataliputra, Aryabhata–mathematics and astronomy, Alauddin Khalji–Mongol defence, and Balban–strong monarchy.",
+     "facts": [
+      "F13",
+      "F31",
+      "F38",
+      "F41"
+     ]
+    },
+    {
+     "id": "indian-history-97-32",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Policy",
+     "question": "Consider the following statements:\nStatement A: Akbar is associated with Rajput policy.\nStatement B: Shivaji is associated with the title Chhatrapati.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Akbar is associated with Rajput policy, while Shivaji is associated with the title Chhatrapati. Therefore, both statements are true.",
+     "facts": [
+      "F57",
+      "F68"
+     ]
+    },
+    {
+     "id": "indian-history-97-33",
+     "format": "Assertion-Reason",
+     "keyword": "Founder/founded",
+     "question": "Assertion (A): Shivaji is associated with the Maratha state.\nReason (R): Shivaji is associated with the Ashtapradhan.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Shivaji is associated with both the Maratha state and the Ashtapradhan. The Ashtapradhan association does not, by itself, explain the association of Shivaji with the Maratha state.",
+     "facts": [
+      "F70"
+     ]
     }
    ]
   },
@@ -39724,7 +40514,8 @@
       "F6",
       "F10",
       "F12",
-      "F13"
+      "F13",
+      "F8"
      ]
     },
     {
@@ -39744,7 +40535,8 @@
       "F22",
       "F24",
       "F28",
-      "F29"
+      "F29",
+      "F27"
      ]
     },
     {
@@ -40060,7 +40852,8 @@
      "answer": 1,
      "explanation": "Indian Opinion was published in English, Gujarati, Hindi and Tamil.",
      "facts": [
-      "F9"
+      "F9",
+      "F8"
      ]
     },
     {
@@ -40133,7 +40926,9 @@
       "F15",
       "F17",
       "F22",
-      "F32"
+      "F32",
+      "F21",
+      "F27"
      ]
     },
     {
@@ -40264,7 +41059,8 @@
       "F54",
       "F57",
       "F59",
-      "F60"
+      "F60",
+      "F55"
      ]
     },
     {
@@ -40321,7 +41117,8 @@
      "answer": 0,
      "explanation": "Gandhi gave the call “Do or Die” during the Quit India Movement.",
      "facts": [
-      "F73"
+      "F73",
+      "F75"
      ]
     },
     {
@@ -40408,10 +41205,158 @@
      "answer": 0,
      "explanation": "Indian Opinion was started in South Africa in 1903, and its first issue appeared in June 1903.",
      "facts": [
-      "F10"
+      "F10",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-history-100-40",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Birth place",
+     "question": "Consider the following statements:\nI. Mohandas Karamchand Gandhi was born on 2 October 1869.\nII. Gandhi was a barrister.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "Neither I nor II",
+      "II only",
+      "Both I and II",
+      "I only"
+     ],
+     "answer": 2,
+     "explanation": "Gandhi was born on 2 October 1869 and was a barrister.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-history-100-41",
+     "format": "List-Matching",
+     "keyword": "Place – Associated with",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Phoenix Ashram\n(b) Gandhi’s first major public speech in India\n(c) Second Round Table Conference\n(d) S.S. Rajputana\n\nList-II\n(i) 1931\n(ii) BHU, Varanasi\n(iii) 1904, Durban\n(iv) Gandhi’s journey to London",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Phoenix Ashram was established at Durban in 1904; Gandhi’s first major public speech in India was at BHU, Varanasi. The Second Round Table Conference took place in 1931, and the S.S. Rajputana was associated with Gandhi’s journey to London.",
+     "facts": [
+      "F11",
+      "F16",
+      "F52",
+      "F58"
+     ]
+    },
+    {
+     "id": "indian-history-100-42",
+     "format": "Direct Recall",
+     "keyword": "Movement – Aim",
+     "question": "The Non-Cooperation Movement involved which of the following?",
+     "options": [
+      "Indigo cultivation and the Tinkathia system",
+      "Revenue remission after crop failure",
+      "Violation of the Salt Law",
+      "Boycott and non-cooperation"
+     ],
+     "answer": 3,
+     "explanation": "The Non-Cooperation Movement involved boycott and non-cooperation.",
+     "facts": [
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-history-100-43",
+     "format": "Assertion-Reason",
+     "keyword": "Movement – Started by",
+     "question": "Assertion (A): Gandhi led the Dandi March during the Civil Disobedience Movement.\nReason (R): The Dandi March was associated with the Civil Disobedience Movement.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Reason identifies the movement associated with the Dandi March but does not explain the fact that Gandhi led it.",
+     "facts": [
+      "F41",
+      "F44"
+     ]
+    },
+    {
+     "id": "indian-history-100-44",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Pact",
+     "question": "Consider the following statements:\nStatement A: The Gandhi–Irwin Pact involved Gandhi and Lord Irwin.\nStatement B: The Gandhi–Irwin Pact was associated with Congress in 1931.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The pact involved Gandhi and Lord Irwin and was associated with Congress in 1931.",
+     "facts": [
+      "F46",
+      "F48"
+     ]
+    },
+    {
+     "id": "indian-history-100-45",
+     "format": "Direct Recall",
+     "keyword": "Historical Event – Year",
+     "question": "The Quit India Resolution was passed on:",
+     "options": [
+      "5 March 1931",
+      "12 March 1930",
+      "2 October 1869",
+      "8 August 1942"
+     ],
+     "answer": 3,
+     "explanation": "The Quit India Resolution was passed on 8 August 1942.",
+     "facts": [
+      "F74"
+     ]
+    },
+    {
+     "id": "indian-history-100-46",
+     "format": "Direct Recall",
+     "keyword": "Movement – Imp Personalities",
+     "question": "Who among the following was an important associate of Gandhi in the Quit India Movement?",
+     "options": [
+      "Sundarlal Sharma",
+      "Ambalal Sarabhai",
+      "Raj Kumar Shukla",
+      "Kanaklata Barua"
+     ],
+     "answer": 3,
+     "explanation": "Kanaklata Barua was an important associate of Gandhi in the Quit India Movement.",
+     "facts": [
+      "F80"
+     ]
+    },
+    {
+     "id": "indian-history-100-47",
+     "format": "Direct Recall",
+     "keyword": "Foreign travellers",
+     "question": "Who accompanied Gandhi to the Round Table Conference?",
+     "options": [
+      "C. F. Andrews",
+      "B. R. Ambedkar",
+      "Sardar Vallabhbhai Patel",
+      "Lord Irwin"
+     ],
+     "answer": 0,
+     "explanation": "C. F. Andrews accompanied Gandhi to the Round Table Conference.",
+     "facts": [
+      "F95"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 98,
+    "covered": 98,
+    "audited": true
+   }
   },
   "101": {
    "number": 101,
@@ -42124,7 +43069,13 @@
       "20 February 1947"
      ],
      "answer": 0,
-     "explanation": "The First Interim Government of India was formed on 2 September 1946."
+     "explanation": "The First Interim Government of India was formed on 2 September 1946.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F24"
+     ]
     },
     {
      "id": "indian-history-105-2",
@@ -42138,7 +43089,10 @@
       "Sardar Vallabhbhai Patel"
      ],
      "answer": 1,
-     "explanation": "Jawaharlal Nehru headed the Interim Government and the Interim Cabinet."
+     "explanation": "Jawaharlal Nehru headed the Interim Government and the Interim Cabinet.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-105-3",
@@ -42152,7 +43106,12 @@
       "Sardar Vallabhbhai Patel"
      ],
      "answer": 0,
-     "explanation": "Lord Wavell invited Jawaharlal Nehru to form the Interim Government on 12 August 1946."
+     "explanation": "Lord Wavell invited Jawaharlal Nehru to form the Interim Government on 12 August 1946.",
+     "facts": [
+      "F3",
+      "F21",
+      "F25"
+     ]
     },
     {
      "id": "indian-history-105-4",
@@ -42166,7 +43125,14 @@
       "Food and Agriculture"
      ],
      "answer": 1,
-     "explanation": "Liaquat Ali Khan held the Finance portfolio in the Interim Government."
+     "explanation": "Liaquat Ali Khan held the Finance portfolio in the Interim Government.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-105-5",
@@ -42180,7 +43146,10 @@
       "Charan Singh"
      ],
      "answer": 1,
-     "explanation": "Morarji Desai was the first non-Congress Prime Minister."
+     "explanation": "Morarji Desai was the first non-Congress Prime Minister.",
+     "facts": [
+      "F32"
+     ]
     },
     {
      "id": "indian-history-105-6",
@@ -42194,7 +43163,17 @@
       "Dr. Rajendra Prasad held Food and Agriculture."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the portfolio assigned to Asaf Ali. Asaf Ali held Railways and Transport, while Liaquat Ali Khan held Finance."
+     "explanation": "The incorrect detail is the portfolio assigned to Asaf Ali. Asaf Ali held Railways and Transport, while Liaquat Ali Khan held Finance.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-105-7",
@@ -42208,7 +43187,13 @@
       "Rajiv Gandhi succeeded Jawaharlal Nehru as Prime Minister."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the predecessor named. Rajiv Gandhi became Prime Minister after Indira Gandhi, not after Jawaharlal Nehru."
+     "explanation": "The incorrect detail is the predecessor named. Rajiv Gandhi became Prime Minister after Indira Gandhi, not after Jawaharlal Nehru.",
+     "facts": [
+      "F31",
+      "F34",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-105-8",
@@ -42222,7 +43207,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the date of formation does not explain the earlier announcement."
+     "explanation": "Both statements are true, but the date of formation does not explain the earlier announcement.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-105-9",
@@ -42236,7 +43225,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the initial decision to stay out explains why its later joining is specifically noted."
+     "explanation": "Both statements are true, and the initial decision to stay out explains why its later joining is specifically noted.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-history-105-10",
@@ -42250,7 +43242,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Attlee’s position as British Prime Minister does not itself explain the stated deadline."
+     "explanation": "Both statements are true, but Attlee’s position as British Prime Minister does not itself explain the stated deadline.",
+     "facts": [
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "indian-history-105-11",
@@ -42264,7 +43260,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Nehru held External Affairs and Commonwealth Relations. Patel held Home, Information and Broadcasting, and States, not Defence."
+     "explanation": "Nehru held External Affairs and Commonwealth Relations. Patel held Home, Information and Broadcasting, and States, not Defence.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-105-12",
@@ -42278,7 +43282,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct associations of the two Prime Ministers."
+     "explanation": "Both statements are correct associations of the two Prime Ministers.",
+     "facts": [
+      "F35",
+      "F37"
+     ]
     },
     {
      "id": "indian-history-105-13",
@@ -42292,7 +43300,14 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Liaquat Ali Khan held Finance, not Home Affairs."
+     "explanation": "Statements I, II and III are correct. Liaquat Ali Khan held Finance, not Home Affairs.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-105-14",
@@ -42306,7 +43321,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Manmohan Singh served from 2004 to 2014, not from 1991 to 2004."
+     "explanation": "Statements I, II and III are correct. Manmohan Singh served from 2004 to 2014, not from 1991 to 2004.",
+     "facts": [
+      "F30",
+      "F33",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-105-15",
@@ -42320,7 +43341,13 @@
       "D, B, C, A"
      ],
      "answer": 1,
-     "explanation": "The order is 12 August 1946, 2 September 1946, 20 February 1947, and 3 June 1947: B, C, D, A."
+     "explanation": "The order is 12 August 1946, 2 September 1946, 20 February 1947, and 3 June 1947: B, C, D, A.",
+     "facts": [
+      "F1",
+      "F3",
+      "F24",
+      "F26"
+     ]
     },
     {
      "id": "indian-history-105-16",
@@ -42334,7 +43361,16 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i."
+     "explanation": "The correct pairs are a-iii, b-iv, c-ii and d-i.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-105-17",
@@ -42348,7 +43384,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "Indira Gandhi was the first woman Prime Minister; Morarji Desai the first non-Congress Prime Minister; V.P. Singh was associated with Mandal-era politics; and P.V. Narasimha Rao with the 1991 economic liberalisation."
+     "explanation": "Indira Gandhi was the first woman Prime Minister; Morarji Desai the first non-Congress Prime Minister; V.P. Singh was associated with Mandal-era politics; and P.V. Narasimha Rao with the 1991 economic liberalisation.",
+     "facts": [
+      "F31",
+      "F32",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-history-105-18",
@@ -42362,7 +43404,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Attlee–1945–51, Suhrawardy–Prime Minister of Bengal 1946–47, Manmohan Singh–2004–2014, and Charan Singh–1979–80."
+     "explanation": "The correct pairs are Attlee–1945–51, Suhrawardy–Prime Minister of Bengal 1946–47, Manmohan Singh–2004–2014, and Charan Singh–1979–80.",
+     "facts": [
+      "F18",
+      "F21",
+      "F33",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-105-19",
@@ -42376,7 +43424,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four portfolio associations are correct."
+     "explanation": "All four portfolio associations are correct.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-105-20",
@@ -42390,7 +43447,13 @@
       "Abul Kalam Azad"
      ],
      "answer": 3,
-     "explanation": "Abul Kalam Azad was not a member of the Interim Government, whereas Asaf Ali, Baldev Singh and Liaquat Ali Khan were members."
+     "explanation": "Abul Kalam Azad was not a member of the Interim Government, whereas Asaf Ali, Baldev Singh and Liaquat Ali Khan were members.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-105-21",
@@ -42404,7 +43467,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. The ministry was a Krishak Praja Party–Muslim League coalition and continued until the eve of Independence, 14 August 1947."
+     "explanation": "Both statements are correct. The ministry was a Krishak Praja Party–Muslim League coalition and continued until the eve of Independence, 14 August 1947.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-105-22",
@@ -42418,7 +43485,13 @@
       "15 August 1947"
      ],
      "answer": 2,
-     "explanation": "Clement R. Attlee announced the transfer of power to Indian hands on 20 February 1947."
+     "explanation": "Clement R. Attlee announced the transfer of power to Indian hands on 20 February 1947.",
+     "facts": [
+      "F4",
+      "F24",
+      "F26",
+      "F28"
+     ]
     },
     {
      "id": "indian-history-105-23",
@@ -42432,7 +43505,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the date of the plan does not explain its association with the transfer of power; it only identifies when the plan was dated."
+     "explanation": "Both statements are true, but the date of the plan does not explain its association with the transfer of power; it only identifies when the plan was dated.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "indian-history-105-24",
@@ -42446,7 +43523,13 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Mountbatten Plan—3 June 1947, Indian Independence—15 August 1947, Attlee's announcement—20 February 1947, and First Interim Government—2 September 1946."
+     "explanation": "The correct pairs are Mountbatten Plan—3 June 1947, Indian Independence—15 August 1947, Attlee's announcement—20 February 1947, and First Interim Government—2 September 1946.",
+     "facts": [
+      "F1",
+      "F24",
+      "F26",
+      "F28"
+     ]
     },
     {
      "id": "indian-history-105-25",
@@ -42460,7 +43543,10 @@
       "Morarji Desai"
      ],
      "answer": 2,
-     "explanation": "Jawaharlal Nehru was the first Prime Minister of independent India."
+     "explanation": "Jawaharlal Nehru was the first Prime Minister of independent India.",
+     "facts": [
+      "F29"
+     ]
     },
     {
      "id": "indian-history-105-26",
@@ -42474,7 +43560,13 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct according to the recorded sequence and associations of Prime Ministers."
+     "explanation": "All four statements are correct according to the recorded sequence and associations of Prime Ministers.",
+     "facts": [
+      "F30",
+      "F33",
+      "F34",
+      "F37"
+     ]
     },
     {
      "id": "indian-history-105-27",
@@ -42488,7 +43580,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct: Indira Gandhi was the first woman Prime Minister, Morarji Desai the first non-Congress Prime Minister, P.V. Narasimha Rao was Prime Minister during the 1991 economic liberalisation, and Manmohan Singh served during 2004–2014."
+     "explanation": "All four associations are correct: Indira Gandhi was the first woman Prime Minister, Morarji Desai the first non-Congress Prime Minister, P.V. Narasimha Rao was Prime Minister during the 1991 economic liberalisation, and Manmohan Singh served during 2004–2014.",
+     "facts": [
+      "F31",
+      "F32",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-105-28",
@@ -42502,7 +43600,12 @@
       "B, A, C, D"
      ],
      "answer": 1,
-     "explanation": "The sequence is Jawaharlal Nehru, Lal Bahadur Shastri, Indira Gandhi and Rajiv Gandhi."
+     "explanation": "The sequence is Jawaharlal Nehru, Lal Bahadur Shastri, Indira Gandhi and Rajiv Gandhi.",
+     "facts": [
+      "F29",
+      "F30",
+      "F34"
+     ]
     },
     {
      "id": "indian-history-105-29",
@@ -42516,7 +43619,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Charan Singh—1979–80, V.P. Singh—Mandal-era politics, P.V. Narasimha Rao—1991 economic liberalisation, and Atal Bihari Vajpayee—NDA era."
+     "explanation": "The correct pairs are Charan Singh—1979–80, V.P. Singh—Mandal-era politics, P.V. Narasimha Rao—1991 economic liberalisation, and Atal Bihari Vajpayee—NDA era.",
+     "facts": [
+      "F33",
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "indian-history-105-30",
@@ -42530,7 +43639,10 @@
       "1991–1996"
      ],
      "answer": 2,
-     "explanation": "Manmohan Singh served as Prime Minister from 2004 to 2014."
+     "explanation": "Manmohan Singh served as Prime Minister from 2004 to 2014.",
+     "facts": [
+      "F38"
+     ]
     },
     {
      "id": "indian-history-105-31",
@@ -42544,9 +43656,54 @@
       "20 February 1947"
      ],
      "answer": 1,
-     "explanation": "The Suhrawardy Ministry continued until 14 August 1947, the eve of Indian Independence."
+     "explanation": "The Suhrawardy Ministry continued until 14 August 1947, the eve of Indian Independence.",
+     "facts": [
+      "F20",
+      "F24",
+      "F26",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-history-105-32",
+     "format": "Direct Recall",
+     "keyword": "PERSON – Associated with",
+     "question": "Clement R. Attlee belonged to which political party?",
+     "options": [
+      "Krishak Praja Party",
+      "Congress",
+      "Muslim League",
+      "Labour Party"
+     ],
+     "answer": 3,
+     "explanation": "Clement R. Attlee belonged to the Labour Party.",
+     "facts": [
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-history-105-33",
+     "format": "Direct Recall",
+     "keyword": "TERMS – Economic Conditions",
+     "question": "What was a notable feature of Liaquat Ali Khan’s budget during the Interim Government?",
+     "options": [
+      "It abolished taxes on traders and businessmen",
+      "It transferred Railways and Transport to traders and businessmen",
+      "It assigned Defence expenditure to traders and businessmen",
+      "It imposed high duties and taxes affecting traders and businessmen"
+     ],
+     "answer": 3,
+     "explanation": "Liaquat Ali Khan’s budget imposed high duties and taxes, which affected traders and businessmen.",
+     "facts": [
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 38,
+    "covered": 38,
+    "audited": true
+   }
   },
   "106": {
    "number": 106,
@@ -46600,7 +47757,15 @@
       "Gradual self-government"
      ],
      "answer": 2,
-     "explanation": "The main objective of the Extremists was Swaraj, defined in the sheet as complete independence from English rule."
+     "explanation": "The main objective of the Extremists was Swaraj, defined in the sheet as complete independence from English rule.",
+     "facts": [
+      "F5",
+      "F6",
+      "F22",
+      "F75",
+      "F77",
+      "F78"
+     ]
     },
     {
      "id": "indian-history-119-2",
@@ -46614,7 +47779,14 @@
       "They advocated aggressive resistance."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the acceptance of Prayer, Petition and Protest. The Extremists rejected the Moderate method and favoured self-sacrifice, mass movement and aggressive resistance."
+     "explanation": "The incorrect detail is the acceptance of Prayer, Petition and Protest. The Extremists rejected the Moderate method and favoured self-sacrifice, mass movement and aggressive resistance.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-119-3",
@@ -46628,7 +47800,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the general Extremist objective of Swaraj does not by itself explain Tilak’s association with the quoted slogan."
+     "explanation": "Both statements are true, but the general Extremist objective of Swaraj does not by itself explain Tilak’s association with the quoted slogan.",
+     "facts": [
+      "F5",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-119-4",
@@ -46642,7 +47818,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported: Aurobindo led the Swadeshi Movement during the Partition of Bengal, while Bipin Chandra Pal was associated with Swadeshi and New India."
+     "explanation": "Both statements are directly supported: Aurobindo led the Swadeshi Movement during the Partition of Bengal, while Bipin Chandra Pal was associated with Swadeshi and New India.",
+     "facts": [
+      "F13",
+      "F46"
+     ]
     },
     {
      "id": "indian-history-119-5",
@@ -46656,7 +47836,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Tilak–Gita Rahasya, Lajpat Rai–Safety-valve theory, Bipin Chandra Pal–New India and Aurobindo Ghosh–Maniktalla Garden raid."
+     "explanation": "The correct pairs are Tilak–Gita Rahasya, Lajpat Rai–Safety-valve theory, Bipin Chandra Pal–New India and Aurobindo Ghosh–Maniktalla Garden raid.",
+     "facts": [
+      "F33",
+      "F38",
+      "F44",
+      "F49"
+     ]
     },
     {
      "id": "indian-history-119-6",
@@ -46670,7 +47856,10 @@
       "1908"
      ],
      "answer": 0,
-     "explanation": "The Surat Split took place in 1907 and involved the Moderates and Extremists."
+     "explanation": "The Surat Split took place in 1907 and involved the Moderates and Extremists.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-history-119-7",
@@ -46684,7 +47873,13 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are true. Statement III is false because the Extremists lacked faith in Moderate negotiations with the British."
+     "explanation": "Statements I and II are true. Statement III is false because the Extremists lacked faith in Moderate negotiations with the British.",
+     "facts": [
+      "F16",
+      "F18",
+      "F19",
+      "F22"
+     ]
     },
     {
      "id": "indian-history-119-8",
@@ -46698,7 +47893,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Tilak, Lala Lajpat Rai and Aurobindo Ghosh were listed among the Extremist leaders. Gokhale was listed as a representative Moderate leader."
+     "explanation": "Tilak, Lala Lajpat Rai and Aurobindo Ghosh were listed among the Extremist leaders. Gokhale was listed as a representative Moderate leader.",
+     "facts": [
+      "F86",
+      "F87",
+      "F88",
+      "F90"
+     ]
     },
     {
      "id": "indian-history-119-9",
@@ -46712,7 +47913,16 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "Kesari and Mahratta were Tilak’s newspapers, Shivaji Festival was a festival associated with him, and Gita Rahasya was his book."
+     "explanation": "Kesari and Mahratta were Tilak’s newspapers, Shivaji Festival was a festival associated with him, and Gita Rahasya was his book.",
+     "facts": [
+      "F29",
+      "F31",
+      "F32",
+      "F33",
+      "F54",
+      "F55",
+      "F56"
+     ]
     },
     {
      "id": "indian-history-119-10",
@@ -46726,7 +47936,12 @@
       "Maniktalla"
      ],
      "answer": 2,
-     "explanation": "The sheet records that Tilak was imprisoned in 1908 for six years at Mandalay."
+     "explanation": "The sheet records that Tilak was imprisoned in 1908 for six years at Mandalay.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "indian-history-119-11",
@@ -46740,7 +47955,17 @@
       "He was associated with Punjab."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the Maniktalla Garden raid. Lajpat Rai’s death on 17 November 1928 was associated with the lathi-charge injury during the Simon Commission protest; the Maniktalla raid was associated with Aurobindo Ghosh."
+     "explanation": "The incorrect detail is the Maniktalla Garden raid. Lajpat Rai’s death on 17 November 1928 was associated with the lathi-charge injury during the Simon Commission protest; the Maniktalla raid was associated with Aurobindo Ghosh.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F39",
+      "F49",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-history-119-12",
@@ -46754,7 +47979,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the sheet, but identifying Young India as the source does not explain why the theory was associated with Lajpat Rai."
+     "explanation": "Both statements are true according to the sheet, but identifying Young India as the source does not explain why the theory was associated with Lajpat Rai.",
+     "facts": [
+      "F65",
+      "F66"
+     ]
     },
     {
      "id": "indian-history-119-13",
@@ -46768,7 +47997,15 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "Aurobindo was the main Swadeshi leader during the Partition of Bengal; the Maniktalla raid led to his 1908 arrest; Pondicherry was his later place of residence; and the Maniktalla case involved a one-year sentence followed by release for lack of evidence."
+     "explanation": "Aurobindo was the main Swadeshi leader during the Partition of Bengal; the Maniktalla raid led to his 1908 arrest; Pondicherry was his later place of residence; and the Maniktalla case involved a one-year sentence followed by release for lack of evidence.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F71",
+      "F72",
+      "F73"
+     ]
     },
     {
      "id": "indian-history-119-14",
@@ -46782,7 +48019,10 @@
       "Bipin Chandra Pal"
      ],
      "answer": 1,
-     "explanation": "Sir Valentine Chirol described Bal Gangadhar Tilak as the “Father of Indian unrest”."
+     "explanation": "Sir Valentine Chirol described Bal Gangadhar Tilak as the “Father of Indian unrest”.",
+     "facts": [
+      "F60"
+     ]
     },
     {
      "id": "indian-history-119-15",
@@ -46796,7 +48036,14 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because mass movement was the Extremist strategy, whereas the Moderates relied on constitutional agitation."
+     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because mass movement was the Extremist strategy, whereas the Moderates relied on constitutional agitation.",
+     "facts": [
+      "F75",
+      "F77",
+      "F79",
+      "F80",
+      "F81"
+     ]
     },
     {
      "id": "indian-history-119-16",
@@ -46810,7 +48057,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because the Extremists wanted a wider and extended Swadeshi–Boycott movement, while the Moderates were less willing to extend it."
+     "explanation": "Statement A is true. Statement B is false because the Extremists wanted a wider and extended Swadeshi–Boycott movement, while the Moderates were less willing to extend it.",
+     "facts": [
+      "F82",
+      "F83",
+      "F84"
+     ]
     },
     {
      "id": "indian-history-119-17",
@@ -46824,7 +48076,12 @@
       "Bal refers to Bal Gangadhar Tilak."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the replacement of Bipin Chandra Pal by Aurobindo Ghosh. The Lal–Bal–Pal trio consisted of Lajpat Rai, Tilak and Bipin Chandra Pal."
+     "explanation": "The incorrect detail is the replacement of Bipin Chandra Pal by Aurobindo Ghosh. The Lal–Bal–Pal trio consisted of Lajpat Rai, Tilak and Bipin Chandra Pal.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-history-119-18",
@@ -46838,7 +48095,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Ganpati Festival, Kesari and Gita Rahasya were associated with Tilak. The Simon Commission protest and its lathi-charge injury were associated with Lala Lajpat Rai."
+     "explanation": "Ganpati Festival, Kesari and Gita Rahasya were associated with Tilak. The Simon Commission protest and its lathi-charge injury were associated with Lala Lajpat Rai.",
+     "facts": [
+      "F30",
+      "F31",
+      "F33",
+      "F39",
+      "F63"
+     ]
     },
     {
      "id": "indian-history-119-19",
@@ -46852,7 +48116,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the sheet records the increase in influence after 1906 and separately lists the Extremist methods; it does not state that these methods were the stated cause of that increase."
+     "explanation": "Both statements are true, but the sheet records the increase in influence after 1906 and separately lists the Extremist methods; it does not state that these methods were the stated cause of that increase.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-119-20",
@@ -46866,7 +48136,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 0,
-     "explanation": "Tilak was associated with Maharashtra; Lajpat Rai with Punjab; and both Bipin Chandra Pal and Aurobindo Ghosh with Bengal."
+     "explanation": "Tilak was associated with Maharashtra; Lajpat Rai with Punjab; and both Bipin Chandra Pal and Aurobindo Ghosh with Bengal.",
+     "facts": [
+      "F27",
+      "F35",
+      "F41",
+      "F47"
+     ]
     },
     {
      "id": "indian-history-119-21",
@@ -46880,7 +48156,15 @@
       "Dadabhai Naoroji and Gokhale"
      ],
      "answer": 3,
-     "explanation": "Dadabhai Naoroji and Gokhale were listed as representative Moderate leaders. Tilak, Lajpat Rai, Bipin Chandra Pal and Aurobindo Ghosh were listed as Extremist leaders."
+     "explanation": "Dadabhai Naoroji and Gokhale were listed as representative Moderate leaders. Tilak, Lajpat Rai, Bipin Chandra Pal and Aurobindo Ghosh were listed as Extremist leaders.",
+     "facts": [
+      "F85",
+      "F86",
+      "F87",
+      "F88",
+      "F89",
+      "F90"
+     ]
     },
     {
      "id": "indian-history-119-22",
@@ -46894,7 +48178,12 @@
       "Mahratta"
      ],
      "answer": 2,
-     "explanation": "Bipin Chandra Pal was associated with New India. Kesari and Mahratta were associated with Bal Gangadhar Tilak, while Young India was identified as the source associated with the safety-valve theory."
+     "explanation": "Bipin Chandra Pal was associated with New India. Kesari and Mahratta were associated with Bal Gangadhar Tilak, while Young India was identified as the source associated with the safety-valve theory.",
+     "facts": [
+      "F44",
+      "F55",
+      "F66"
+     ]
     },
     {
      "id": "indian-history-119-23",
@@ -46908,7 +48197,10 @@
       "17 November 1928"
      ],
      "answer": 3,
-     "explanation": "The notes record that Lala Lajpat Rai died on 17 November 1928."
+     "explanation": "The notes record that Lala Lajpat Rai died on 17 November 1928.",
+     "facts": [
+      "F64"
+     ]
     },
     {
      "id": "indian-history-119-24",
@@ -46922,7 +48214,14 @@
       "He was sentenced to one year in the Maniktalla case and later released for lack of evidence."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the sentence of two years. The notes state that Aurobindo Ghosh was sentenced to one year and later released for lack of evidence."
+     "explanation": "The incorrect detail is the sentence of two years. The notes state that Aurobindo Ghosh was sentenced to one year and later released for lack of evidence.",
+     "facts": [
+      "F69",
+      "F70",
+      "F71",
+      "F72",
+      "F73"
+     ]
     },
     {
      "id": "indian-history-119-25",
@@ -46936,7 +48235,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the lack of evidence explains Aurobindo Ghosh’s later release in the Maniktalla case."
+     "explanation": "Both statements are true, and the lack of evidence explains Aurobindo Ghosh’s later release in the Maniktalla case.",
+     "facts": [
+      "F70",
+      "F72"
+     ]
     },
     {
      "id": "indian-history-119-26",
@@ -46950,7 +48253,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify constitutional agitation as the Moderate strategy and mass movement as the Extremist strategy."
+     "explanation": "The notes identify constitutional agitation as the Moderate strategy and mass movement as the Extremist strategy.",
+     "facts": [
+      "F77",
+      "F81"
+     ]
     },
     {
      "id": "indian-history-119-27",
@@ -46964,7 +48271,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Bipin Chandra Pal–Brahmo Samaj, Lala Lajpat Rai–17 November 1928, Aurobindo Ghosh–Pondicherry, and Extremists–wider Swadeshi–Boycott movement."
+     "explanation": "The correct pairs are Bipin Chandra Pal–Brahmo Samaj, Lala Lajpat Rai–17 November 1928, Aurobindo Ghosh–Pondicherry, and Extremists–wider Swadeshi–Boycott movement.",
+     "facts": [
+      "F45",
+      "F64",
+      "F73",
+      "F84"
+     ]
     },
     {
      "id": "indian-history-119-28",
@@ -46978,7 +48291,10 @@
       "He became a representative Moderate leader."
      ],
      "answer": 1,
-     "explanation": "The notes state that Aurobindo Ghosh withdrew from revolutionary political activity."
+     "explanation": "The notes state that Aurobindo Ghosh withdrew from revolutionary political activity.",
+     "facts": [
+      "F74"
+     ]
     },
     {
      "id": "indian-history-119-29",
@@ -46992,7 +48308,14 @@
       "All five"
      ],
      "answer": 3,
-     "explanation": "All five associations are listed for Bipin Chandra Pal: Bengal, Lal–Bal–Pal, Swadeshi, New India and Brahmo Samaj."
+     "explanation": "All five associations are listed for Bipin Chandra Pal: Bengal, Lal–Bal–Pal, Swadeshi, New India and Brahmo Samaj.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "indian-history-119-30",
@@ -47006,7 +48329,13 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "The notes identify leadership, methods, Congress strategy and Swadeshi–Boycott as major issues at Surat."
+     "explanation": "The notes identify leadership, methods, Congress strategy and Swadeshi–Boycott as major issues at Surat.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
     }
    ]
   },
@@ -47038,7 +48367,10 @@
       "Pherozeshah Mehta"
      ],
      "answer": 2,
-     "explanation": "W.C. Bonnerjee was the first President of the Indian National Congress in 1885."
+     "explanation": "W.C. Bonnerjee was the first President of the Indian National Congress in 1885.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-history-120-2",
@@ -47052,7 +48384,17 @@
       "Surendranath Banerjee was associated with the Indian National Association."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is Prarthana Samaj. Gopal Krishna Gokhale was associated with the Servants of India Society and moderate nationalism; M.G. Ranade was associated with Prarthana Samaj."
+     "explanation": "The incorrect association is Prarthana Samaj. Gopal Krishna Gokhale was associated with the Servants of India Society and moderate nationalism; M.G. Ranade was associated with Prarthana Samaj.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-120-3",
@@ -47066,7 +48408,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true in the given associations, but the social-reform description does not explain the specific association with Prarthana Samaj."
+     "explanation": "Both statements are true in the given associations, but the social-reform description does not explain the specific association with Prarthana Samaj.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-120-4",
@@ -47080,7 +48426,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Annie Besant is associated with Home Rule, while Aruna Asaf Ali is associated with the Quit India movement."
+     "explanation": "Annie Besant is associated with Home Rule, while Aruna Asaf Ali is associated with the Quit India movement.",
+     "facts": [
+      "F44",
+      "F93"
+     ]
     },
     {
      "id": "indian-history-120-5",
@@ -47094,7 +48444,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Dadabhai Naoroji–Drain Theory, Surendranath Banerjee–Indian National Association, Gopal Krishna Gokhale–Servants of India Society, and R.C. Dutt–Economic critique of colonialism."
+     "explanation": "The correct pairs are Dadabhai Naoroji–Drain Theory, Surendranath Banerjee–Indian National Association, Gopal Krishna Gokhale–Servants of India Society, and R.C. Dutt–Economic critique of colonialism.",
+     "facts": [
+      "F1",
+      "F3",
+      "F7",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-120-6",
@@ -47108,7 +48464,12 @@
       "Aurobindo Ghosh"
      ],
      "answer": 2,
-     "explanation": "Bal Gangadhar Tilak was associated with Swaraj, Swadeshi and Home Rule."
+     "explanation": "Bal Gangadhar Tilak was associated with Swaraj, Swadeshi and Home Rule.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-120-7",
@@ -47122,7 +48483,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are listed associations of Maulana Abul Kalam Azad, but the Cabinet Mission association does not explain his association with composite nationalism."
+     "explanation": "Both statements are listed associations of Maulana Abul Kalam Azad, but the Cabinet Mission association does not explain his association with composite nationalism.",
+     "facts": [
+      "F35",
+      "F37",
+      "F67"
+     ]
     },
     {
      "id": "indian-history-120-8",
@@ -47136,7 +48502,19 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Gandhi–Non-Cooperation, Civil Disobedience and Quit India; Nehru–Purna Swaraj; Patel–Bardoli, Kheda and integration; and Rajendra Prasad–Champaran, Congress and Constituent Assembly."
+     "explanation": "The correct pairs are Gandhi–Non-Cooperation, Civil Disobedience and Quit India; Nehru–Purna Swaraj; Patel–Bardoli, Kheda and integration; and Rajendra Prasad–Champaran, Congress and Constituent Assembly.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-history-120-9",
@@ -47150,7 +48528,10 @@
       "HRA"
      ],
      "answer": 2,
-     "explanation": "Chandrashekhar Azad was associated with HSRA and the revolutionary movement."
+     "explanation": "Chandrashekhar Azad was associated with HSRA and the revolutionary movement.",
+     "facts": [
+      "F48"
+     ]
     },
     {
      "id": "indian-history-120-10",
@@ -47164,7 +48545,13 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements correctly reflect the listed associations of Ashfaqulla Khan, Sachindranath Sanyal, Khudiram Bose and V.D. Savarkar."
+     "explanation": "All four statements correctly reflect the listed associations of Ashfaqulla Khan, Sachindranath Sanyal, Khudiram Bose and V.D. Savarkar.",
+     "facts": [
+      "F52",
+      "F53",
+      "F55",
+      "F57"
+     ]
     },
     {
      "id": "indian-history-120-11",
@@ -47178,7 +48565,14 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Ram Prasad Bismil–Kakori and HRA, Surya Sen–Chittagong Armoury Raid, Batukeshwar Dutt–Central Legislative Assembly bombing, and V.D. Savarkar–Abhinav Bharat."
+     "explanation": "The correct pairs are Ram Prasad Bismil–Kakori and HRA, Surya Sen–Chittagong Armoury Raid, Batukeshwar Dutt–Central Legislative Assembly bombing, and V.D. Savarkar–Abhinav Bharat.",
+     "facts": [
+      "F50",
+      "F51",
+      "F54",
+      "F56",
+      "F57"
+     ]
     },
     {
      "id": "indian-history-120-12",
@@ -47192,7 +48586,13 @@
       "A.K. Fazlul Haq"
      ],
      "answer": 3,
-     "explanation": "A.K. Fazlul Haq was associated with the Lahore Resolution. Muhammad Ali Jinnah was associated with the Muslim League, Lahore Resolution and Pakistan demand."
+     "explanation": "A.K. Fazlul Haq was associated with the Lahore Resolution. Muhammad Ali Jinnah was associated with the Muslim League, Lahore Resolution and Pakistan demand.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61",
+      "F64"
+     ]
     },
     {
      "id": "indian-history-120-13",
@@ -47206,7 +48606,13 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 1,
-     "explanation": "Raja Rammohan Roy was associated with Brahmo Samaj, Swami Dayanand Saraswati with Arya Samaj, Jyotiba Phule with Satyashodhak Samaj, and Swami Vivekananda with Ramakrishna Mission."
+     "explanation": "Raja Rammohan Roy was associated with Brahmo Samaj, Swami Dayanand Saraswati with Arya Samaj, Jyotiba Phule with Satyashodhak Samaj, and Swami Vivekananda with Ramakrishna Mission.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F73"
+     ]
     },
     {
      "id": "indian-history-120-14",
@@ -47220,7 +48626,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and Ramkrishna Paramahamsa's role as a spiritual inspiration explains Vivekananda's association with the Ramakrishna Mission."
+     "explanation": "Both statements are true, and Ramkrishna Paramahamsa's role as a spiritual inspiration explains Vivekananda's association with the Ramakrishna Mission.",
+     "facts": [
+      "F73",
+      "F74"
+     ]
     },
     {
      "id": "indian-history-120-15",
@@ -47234,7 +48644,10 @@
       "Rampa Rebellion"
      ],
      "answer": 2,
-     "explanation": "Birsa Munda was associated with the Munda Ulgulan."
+     "explanation": "Birsa Munda was associated with the Munda Ulgulan.",
+     "facts": [
+      "F77"
+     ]
     },
     {
      "id": "indian-history-120-16",
@@ -47248,7 +48661,14 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Mangal Pandey–Barrackpore, Bahadur Shah II–Delhi, Rani Lakshmibai–Jhansi, and Nana Sahib–Kanpur."
+     "explanation": "The correct pairs are Mangal Pandey–Barrackpore, Bahadur Shah II–Delhi, Rani Lakshmibai–Jhansi, and Nana Sahib–Kanpur.",
+     "facts": [
+      "F83",
+      "F85",
+      "F86",
+      "F87",
+      "F84"
+     ]
     },
     {
      "id": "indian-history-120-17",
@@ -47262,7 +48682,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four—Tantia Tope, Kunwar Singh, Rani Lakshmibai and Mangal Pandey—are associated with 1857."
+     "explanation": "All four—Tantia Tope, Kunwar Singh, Rani Lakshmibai and Mangal Pandey—are associated with 1857.",
+     "facts": [
+      "F80",
+      "F81",
+      "F82",
+      "F83"
+     ]
     },
     {
      "id": "indian-history-120-18",
@@ -47276,7 +48702,15 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Sarojini Naidu–Congress and Civil Disobedience, Kasturba Gandhi–Gandhian movement, Usha Mehta–Congress Radio, and Vijayalakshmi Pandit–national movement and diplomacy."
+     "explanation": "The correct pairs are Sarojini Naidu–Congress and Civil Disobedience, Kasturba Gandhi–Gandhian movement, Usha Mehta–Congress Radio, and Vijayalakshmi Pandit–national movement and diplomacy.",
+     "facts": [
+      "F42",
+      "F43",
+      "F94",
+      "F97",
+      "F98",
+      "F99"
+     ]
     },
     {
      "id": "indian-history-120-19",
@@ -47290,7 +48724,11 @@
       "Moderate nationalism and Bombay"
      ],
      "answer": 3,
-     "explanation": "Pherozeshah Mehta was associated with moderate nationalism and Bombay."
+     "explanation": "Pherozeshah Mehta was associated with moderate nationalism and Bombay.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-120-20",
@@ -47304,7 +48742,17 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Lala Lajpat Rai—Punjab, Swadeshi and Simon Commission; Bipin Chandra Pal—Swadeshi and Boycott; Aurobindo Ghosh—Swadeshi Movement and revolutionary nationalism; C. Rajagopalachari—C.R. Formula."
+     "explanation": "The correct pairs are Lala Lajpat Rai—Punjab, Swadeshi and Simon Commission; Bipin Chandra Pal—Swadeshi and Boycott; Aurobindo Ghosh—Swadeshi Movement and revolutionary nationalism; C. Rajagopalachari—C.R. Formula.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-120-21",
@@ -47318,7 +48766,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Khan Abdul Ghaffar Khan was known as Frontier Gandhi and was associated with the Khudai Khidmatgar. The association does not itself explain the title in the stated facts."
+     "explanation": "Both statements are true: Khan Abdul Ghaffar Khan was known as Frontier Gandhi and was associated with the Khudai Khidmatgar. The association does not itself explain the title in the stated facts.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-history-120-22",
@@ -47332,7 +48784,10 @@
       "Khudai Khidmatgar"
      ],
      "answer": 1,
-     "explanation": "Bhagat Singh was associated with HSRA and revolutionary nationalism."
+     "explanation": "Bhagat Singh was associated with HSRA and revolutionary nationalism.",
+     "facts": [
+      "F46"
+     ]
     },
     {
      "id": "indian-history-120-23",
@@ -47346,7 +48801,14 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Aga Khan—First President of Muslim League; Nawab Salimullah—Muslim League formation; A.K. Fazlul Haq—Lahore Resolution; Liaquat Ali Khan—Pakistan movement."
+     "explanation": "The correct pairs are Aga Khan—First President of Muslim League; Nawab Salimullah—Muslim League formation; A.K. Fazlul Haq—Lahore Resolution; Liaquat Ali Khan—Pakistan movement.",
+     "facts": [
+      "F62",
+      "F63",
+      "F64",
+      "F65",
+      "F66"
+     ]
     },
     {
      "id": "indian-history-120-24",
@@ -47360,7 +48822,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correctly matched: Savitribai Phule with women's education, Atmaram Pandurang with Prarthana Samaj, Shiv Narayan Agnihotri with Dev Samaj, and Sir Syed Ahmad Khan with the Aligarh Movement."
+     "explanation": "All four associations are correctly matched: Savitribai Phule with women's education, Atmaram Pandurang with Prarthana Samaj, Shiv Narayan Agnihotri with Dev Samaj, and Sir Syed Ahmad Khan with the Aligarh Movement.",
+     "facts": [
+      "F71",
+      "F72",
+      "F75",
+      "F76"
+     ]
     },
     {
      "id": "indian-history-120-25",
@@ -47374,7 +48842,10 @@
       "Quit India Movement"
      ],
      "answer": 0,
-     "explanation": "Alluri Sitarama Raju was associated with the Rampa Rebellion."
+     "explanation": "Alluri Sitarama Raju was associated with the Rampa Rebellion.",
+     "facts": [
+      "F78"
+     ]
     },
     {
      "id": "indian-history-120-26",
@@ -47388,7 +48859,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Birsa Munda was associated with the Munda Ulgulan, while Sidhu and Kanhu were associated with the Santhal Rebellion."
+     "explanation": "Both statements are true. Birsa Munda was associated with the Munda Ulgulan, while Sidhu and Kanhu were associated with the Santhal Rebellion.",
+     "facts": [
+      "F77",
+      "F79"
+     ]
     },
     {
      "id": "indian-history-120-27",
@@ -47402,7 +48877,11 @@
       "Gandhian movement"
      ],
      "answer": 0,
-     "explanation": "Madam Bhikaji Cama was associated with revolutionary nationalism and foreign propaganda."
+     "explanation": "Madam Bhikaji Cama was associated with revolutionary nationalism and foreign propaganda.",
+     "facts": [
+      "F95",
+      "F96"
+     ]
     },
     {
      "id": "indian-history-120-28",
@@ -47416,7 +48895,10 @@
       "Gopal Krishna Gokhale"
      ],
      "answer": 0,
-     "explanation": "R.C. Dutt was associated with the economic critique of colonialism."
+     "explanation": "R.C. Dutt was associated with the economic critique of colonialism.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-120-29",
@@ -47430,7 +48912,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Kunwar Singh—Bihar; Begum Hazrat Mahal—Awadh/Lucknow; Bakht Khan—Delhi; and Tantia Tope—Central India."
+     "explanation": "The correct pairs are Kunwar Singh—Bihar; Begum Hazrat Mahal—Awadh/Lucknow; Bakht Khan—Delhi; and Tantia Tope—Central India.",
+     "facts": [
+      "F88",
+      "F89",
+      "F90",
+      "F91"
+     ]
     },
     {
      "id": "indian-history-120-30",
@@ -47444,7 +48932,11 @@
       "Pakistan movement"
      ],
      "answer": 3,
-     "explanation": "Liaquat Ali Khan was associated with the Muslim League and the Pakistan movement."
+     "explanation": "Liaquat Ali Khan was associated with the Muslim League and the Pakistan movement.",
+     "facts": [
+      "F65",
+      "F66"
+     ]
     },
     {
      "id": "indian-history-120-31",
@@ -47458,7 +48950,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Sir Syed Ahmad Khan is associated with the Aligarh Movement, while Shiv Narayan Agnihotri is associated with Dev Samaj. Therefore, both statements are true."
+     "explanation": "Sir Syed Ahmad Khan is associated with the Aligarh Movement, while Shiv Narayan Agnihotri is associated with Dev Samaj. Therefore, both statements are true.",
+     "facts": [
+      "F75",
+      "F76"
+     ]
     }
    ]
   },
@@ -53763,7 +55259,8 @@
       "F12",
       "F18",
       "F21",
-      "F61"
+      "F61",
+      "F13"
      ]
     },
     {
@@ -53781,7 +55278,8 @@
      "explanation": "The incorrect detail is the ruler: the title Sarvalokeshvara was adopted by Vima Kadphises, not Kanishka I.",
      "facts": [
       "F12",
-      "F14"
+      "F14",
+      "F13"
      ]
     },
     {
@@ -53975,7 +55473,8 @@
       "F49",
       "F50",
       "F51",
-      "F59"
+      "F59",
+      "F60"
      ]
     },
     {
@@ -54332,8 +55831,49 @@
       "F7",
       "F8"
      ]
+    },
+    {
+     "id": "indian-history-142-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Founder – Dynasty",
+     "question": "Consider the following statements:\nI. Kanishka I was a major Kushana ruler.\nII. Vima Kadphises was the father of Kanishka I.\nIII. Kanishka I was the son of Vima Kadphises.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Kanishka I was a major Kushana ruler, and the father–son relationship was Vima Kadphises → Kanishka I.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-history-142-34",
+     "format": "Direct Recall",
+     "keyword": "Buddhist scholar",
+     "question": "Vasumitra was a:",
+     "options": [
+      "Court physician of Kanishka",
+      "Poet laureate of Kanishka",
+      "Buddhist scholar",
+      "Author of Mahabhashya"
+     ],
+     "answer": 2,
+     "explanation": "Vasumitra was a Buddhist scholar. Charaka was Kanishka’s court physician, Ashvaghosha was his poet laureate, and Patanjali authored Mahabhashya.",
+     "facts": [
+      "F56"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 84,
+    "covered": 84,
+    "audited": true
+   }
   },
   "143": {
    "number": 143,
@@ -54968,7 +56508,12 @@
       "c. 746–753 CE"
      ],
      "answer": 1,
-     "explanation": "The Chalukyas of Badami or Vatapi Chalukyas ruled approximately from c. 543 to 753 CE."
+     "explanation": "The Chalukyas of Badami or Vatapi Chalukyas ruled approximately from c. 543 to 753 CE.",
+     "facts": [
+      "F3",
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-144-2-2",
@@ -54982,7 +56527,15 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "Pulakeshin I is associated with the Ashvamedha; Kirtivarman I annexed the listed kingdoms; Mangalesha stood between Kirtivarman I and Pulakeshin II; and Pulakeshin II bore the title Dakshinapatheshwara."
+     "explanation": "Pulakeshin I is associated with the Ashvamedha; Kirtivarman I annexed the listed kingdoms; Mangalesha stood between Kirtivarman I and Pulakeshin II; and Pulakeshin II bore the title Dakshinapatheshwara.",
+     "facts": [
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-144-2-3",
@@ -54996,7 +56549,14 @@
       "Vatapi is identified with present-day Badami in Bagalkot, Karnataka."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the capital: Kanchi was associated with the Pallavas, whereas Vatapi, present-day Badami, was the capital of the Badami Chalukyas."
+     "explanation": "The incorrect detail is the capital: Kanchi was associated with the Pallavas, whereas Vatapi, present-day Badami, was the capital of the Badami Chalukyas.",
+     "facts": [
+      "F4",
+      "F5",
+      "F66",
+      "F72",
+      "F67"
+     ]
     },
     {
      "id": "indian-history-144-2-4",
@@ -55010,7 +56570,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The conflict dated 630–634 CE resulted in Pulakeshin II stopping Harshavardhana on the Narmada."
+     "explanation": "Both statements are true. The conflict dated 630–634 CE resulted in Pulakeshin II stopping Harshavardhana on the Narmada.",
+     "facts": [
+      "F18",
+      "F19",
+      "F69"
+     ]
     },
     {
      "id": "indian-history-144-2-5",
@@ -55024,7 +56589,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Kalidasa and Bharavi are mentioned because Ravikirti compared his fame with theirs."
+     "explanation": "Both statements are true. Kalidasa and Bharavi are mentioned because Ravikirti compared his fame with theirs.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "indian-history-144-2-6",
@@ -55038,7 +56608,13 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct. The Aihole inscription is dated 634 CE, preserved at the Meguti Jain Temple, composed by Ravikirti, and written in Sanskrit and Southern Brahmi."
+     "explanation": "All four statements are correct. The Aihole inscription is dated 634 CE, preserved at the Meguti Jain Temple, composed by Ravikirti, and written in Sanskrit and Southern Brahmi.",
+     "facts": [
+      "F23",
+      "F24",
+      "F28",
+      "F30"
+     ]
     },
     {
      "id": "indian-history-144-2-7",
@@ -55052,7 +56628,12 @@
       "Lohnara inscription"
      ],
      "answer": 3,
-     "explanation": "The Lohnara inscription, dated 630 CE, does not mention Harsha among the defeated enemies."
+     "explanation": "The Lohnara inscription, dated 630 CE, does not mention Harsha among the defeated enemies.",
+     "facts": [
+      "F31",
+      "F32",
+      "F69"
+     ]
     },
     {
      "id": "indian-history-144-2-8",
@@ -55066,7 +56647,10 @@
       "Around 610 CE"
      ],
      "answer": 0,
-     "explanation": "The notes associate a Persian embassy from Khusrau II with Pulakeshin II around 626 CE."
+     "explanation": "The notes associate a Persian embassy from Khusrau II with Pulakeshin II around 626 CE.",
+     "facts": [
+      "F33"
+     ]
     },
     {
      "id": "indian-history-144-2-9",
@@ -55080,7 +56664,13 @@
       "Narasimhavarman I was a Pallava king."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the restoration of Chalukya power. Vikramaditya I restored Chalukya power after the Pallava invasion, while Narasimhavarman I captured Vatapi and assumed the title Vatapikonda."
+     "explanation": "The incorrect detail is the restoration of Chalukya power. Vikramaditya I restored Chalukya power after the Pallava invasion, while Narasimhavarman I captured Vatapi and assumed the title Vatapikonda.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-144-2-10",
@@ -55094,7 +56684,15 @@
       "B, A, C, D"
      ],
      "answer": 0,
-     "explanation": "The correct sequence is Lohnara inscription in 630 CE, Aihole inscription in 634 CE, capture of Vatapi in 642 CE, and overthrow of Kirtivarman II in c. 753 CE."
+     "explanation": "The correct sequence is Lohnara inscription in 630 CE, Aihole inscription in 634 CE, capture of Vatapi in 642 CE, and overthrow of Kirtivarman II in c. 753 CE.",
+     "facts": [
+      "F28",
+      "F31",
+      "F34",
+      "F35",
+      "F45",
+      "F46"
+     ]
     },
     {
      "id": "indian-history-144-2-11",
@@ -55108,7 +56706,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the Pallava capture and destruction of Vatapi explains why Vikramaditya I is associated with restoring Chalukya power."
+     "explanation": "Both statements are true, and the Pallava capture and destruction of Vatapi explains why Vikramaditya I is associated with restoring Chalukya power.",
+     "facts": [
+      "F34",
+      "F35",
+      "F38"
+     ]
     },
     {
      "id": "indian-history-144-2-12",
@@ -55122,7 +56725,11 @@
       "Aihole"
      ],
      "answer": 1,
-     "explanation": "The new inscription of Vikramaditya I was discovered at Madapura Lake in Davangere and concerns land-grant practices."
+     "explanation": "The new inscription of Vikramaditya I was discovered at Madapura Lake in Davangere and concerns land-grant practices.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "indian-history-144-2-13",
@@ -55136,7 +56743,11 @@
       "Pulakeshin I"
      ],
      "answer": 1,
-     "explanation": "Vikramaditya II, who ruled c. 733–746 CE, defeated the Pallavas three times and captured Kanchi."
+     "explanation": "Vikramaditya II, who ruled c. 733–746 CE, defeated the Pallavas three times and captured Kanchi.",
+     "facts": [
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "indian-history-144-2-14",
@@ -55150,7 +56761,10 @@
       "Vikramaditya II"
      ],
      "answer": 2,
-     "explanation": "Kirtivarman II was the last Badami Chalukya ruler, ruling c. 746–753 CE. He was overthrown by Rashtrakuta Dantidurga."
+     "explanation": "Kirtivarman II was the last Badami Chalukya ruler, ruling c. 746–753 CE. He was overthrown by Rashtrakuta Dantidurga.",
+     "facts": [
+      "F44"
+     ]
     },
     {
      "id": "indian-history-144-2-15",
@@ -55164,7 +56778,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Chalukyas appointed women to high administrative positions, and Vijaya Bhattarika administered the kingdom after the death of her husband, Chandraditya."
+     "explanation": "Both statements are true. The Chalukyas appointed women to high administrative positions, and Vijaya Bhattarika administered the kingdom after the death of her husband, Chandraditya.",
+     "facts": [
+      "F47",
+      "F51"
+     ]
     },
     {
      "id": "indian-history-144-2-16",
@@ -55178,7 +56796,14 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "Vijaya Bhattarika was the queen of Chandraditya; Kumkumdevi was the sister of Vikramaditya I; Badami is known for rock-cut caves; and Pattadakal was a Chalukya architectural centre."
+     "explanation": "Vijaya Bhattarika was the queen of Chandraditya; Kumkumdevi was the sister of Vikramaditya I; Badami is known for rock-cut caves; and Pattadakal was a Chalukya architectural centre.",
+     "facts": [
+      "F48",
+      "F52",
+      "F54",
+      "F61",
+      "F57"
+     ]
     },
     {
      "id": "indian-history-144-2-17",
@@ -55192,7 +56817,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. These are the principal architectural associations of Badami, Aihole, Pattadakal and Vesara in the Chalukya context."
+     "explanation": "All four statements are correct. These are the principal architectural associations of Badami, Aihole, Pattadakal and Vesara in the Chalukya context.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F63",
+      "F57",
+      "F62",
+      "F64"
+     ]
     },
     {
      "id": "indian-history-144-2-18",
@@ -55206,7 +56840,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The four Badami caves consist of three Hindu caves and one Jain cave, namely Cave 4."
+     "explanation": "Both statements are true. The four Badami caves consist of three Hindu caves and one Jain cave, namely Cave 4.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F57"
+     ]
     },
     {
      "id": "indian-history-144-2-19",
@@ -55220,7 +56860,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the fact that Badami was the capital does not by itself explain the geographical extent of Chalukya rule."
+     "explanation": "Both statements are true, but the fact that Badami was the capital does not by itself explain the geographical extent of Chalukya rule.",
+     "facts": [
+      "F66",
+      "F68",
+      "F67"
+     ]
     },
     {
      "id": "indian-history-144-2-20",
@@ -55234,7 +56879,10 @@
       "Bharavi"
      ],
      "answer": 1,
-     "explanation": "Ma-Twa-Lin, also written Matwalin, is the Chinese traveller associated with an account of China–India relations during Chalukya rule."
+     "explanation": "Ma-Twa-Lin, also written Matwalin, is the Chinese traveller associated with an account of China–India relations during Chalukya rule.",
+     "facts": [
+      "F65"
+     ]
     },
     {
      "id": "indian-history-144-2-21",
@@ -55248,7 +56896,14 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 3,
-     "explanation": "Badami or Vatapi was associated with the Chalukyas, Kanchi with the Pallavas, Tanjore with the Cholas, and the Narmada with the conflict between Pulakeshin II and Harsha."
+     "explanation": "Badami or Vatapi was associated with the Chalukyas, Kanchi with the Pallavas, Tanjore with the Cholas, and the Narmada with the conflict between Pulakeshin II and Harsha.",
+     "facts": [
+      "F18",
+      "F71",
+      "F72",
+      "F73",
+      "F69"
+     ]
     },
     {
      "id": "indian-history-144-2-22",
@@ -55262,7 +56917,13 @@
       "Mangalesha"
      ],
      "answer": 0,
-     "explanation": "Pulakeshin I was the real founder of the Vatapi Chalukya dynasty, also known as the Chalukyas of Badami."
+     "explanation": "Pulakeshin I was the real founder of the Vatapi Chalukya dynasty, also known as the Chalukyas of Badami.",
+     "facts": [
+      "F7",
+      "F1",
+      "F2",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-144-2-23",
@@ -55276,7 +56937,11 @@
       "Dakshinapatheshwara"
      ],
      "answer": 3,
-     "explanation": "Pulakeshin II bore the title Dakshinapatheshwara, meaning “Lord of the Deccan.”"
+     "explanation": "Pulakeshin II bore the title Dakshinapatheshwara, meaning “Lord of the Deccan.”",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-history-144-2-24",
@@ -55290,7 +56955,12 @@
       "It was written in Sanskrit and Southern Brahmi."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the language: the Aihole inscription was written in Sanskrit and Southern Brahmi, not Prakrit and Southern Brahmi."
+     "explanation": "The incorrect detail is the language: the Aihole inscription was written in Sanskrit and Southern Brahmi, not Prakrit and Southern Brahmi.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-history-144-2-25",
@@ -55304,7 +56974,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Vikramaditya II’s period of rule does not explain his victories over the Pallavas."
+     "explanation": "Both statements are true, but Vikramaditya II’s period of rule does not explain his victories over the Pallavas.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "indian-history-144-2-26",
@@ -55318,7 +56993,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "A 7th-century inscription associated with Vikramaditya I was discovered at Madapura Lake, Davangere, and concerns land-grant practices."
+     "explanation": "A 7th-century inscription associated with Vikramaditya I was discovered at Madapura Lake, Davangere, and concerns land-grant practices.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "indian-history-144-2-27",
@@ -55332,7 +57011,16 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 1,
-     "explanation": "Badami is associated with rock-cut caves; Aihole with experimental or early temple architecture; Pattadakal with the synthesis of Nagara and Dravida; and Vesara with the hybrid style."
+     "explanation": "Badami is associated with rock-cut caves; Aihole with experimental or early temple architecture; Pattadakal with the synthesis of Nagara and Dravida; and Vesara with the hybrid style.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F63",
+      "F57",
+      "F62",
+      "F64"
+     ]
     },
     {
      "id": "indian-history-144-2-28",
@@ -55346,7 +57034,16 @@
       "She was the wife of Narasimhavarman I who captured Vatapi."
      ],
      "answer": 0,
-     "explanation": "Vijaya Bhattarika was the queen of Chandraditya, a poetess who issued two copper plates in her own name and administered the kingdom after her husband’s death."
+     "explanation": "Vijaya Bhattarika was the queen of Chandraditya, a poetess who issued two copper plates in her own name and administered the kingdom after her husband’s death.",
+     "facts": [
+      "F34",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53"
+     ]
     }
    ]
   },
