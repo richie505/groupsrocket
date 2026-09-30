@@ -17624,7 +17624,10 @@
       "Below 15 years and 65 years and above"
      ],
      "answer": 2,
-     "explanation": "The working-age population is defined as persons in the 15–64 years age group."
+     "explanation": "The working-age population is defined as persons in the 15–64 years age group.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-71-2",
@@ -17638,7 +17641,10 @@
       "15–64 years"
      ],
      "answer": 2,
-     "explanation": "Young dependents are those below 15 years."
+     "explanation": "Young dependents are those below 15 years.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-71-3",
@@ -17652,7 +17658,10 @@
       "Below 65 years"
      ],
      "answer": 2,
-     "explanation": "Old dependents are persons aged 65 years and above."
+     "explanation": "Old dependents are persons aged 65 years and above.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-71-4",
@@ -17666,7 +17675,10 @@
       "A falling birth rate"
      ],
      "answer": 1,
-     "explanation": "A larger working-age share is associated with a greater potential productive workforce."
+     "explanation": "A larger working-age share is associated with a greater potential productive workforce.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-71-5",
@@ -17680,7 +17692,12 @@
       "Young dependents are below 15 years."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the lower age limit of 16 years. The working-age population is 15–64 years."
+     "explanation": "The incorrect detail is the lower age limit of 16 years. The working-age population is 15–64 years.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-71-6",
@@ -17694,7 +17711,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, the age definition of the working-age population does not itself explain the stated potential associated with a larger share."
+     "explanation": "Both statements are true. However, the age definition of the working-age population does not itself explain the stated potential associated with a larger share.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-71-7",
@@ -17708,7 +17729,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The table identifies Stage I with high birth and death rates, and Stage II with a high birth rate and falling death rate."
+     "explanation": "The table identifies Stage I with high birth and death rates, and Stage II with a high birth rate and falling death rate.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-71-8",
@@ -17722,7 +17749,15 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. Statement III describes Stage II, not Stage IV."
+     "explanation": "Statements I and II are correct. Statement III describes Stage II, not Stage IV.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-71-9",
@@ -17736,7 +17771,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: working-age population—15–64 years; young dependents—below 15 years; old dependents—65 years and above; demographic dividend—larger working-age share associated with greater potential productive workforce."
+     "explanation": "The correct pairs are: working-age population—15–64 years; young dependents—below 15 years; old dependents—65 years and above; demographic dividend—larger working-age share associated with greater potential productive workforce.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-71-10",
@@ -17750,7 +17791,8 @@
       "D, B, C, A"
      ],
      "answer": 1,
-     "explanation": "The stages are presented in the sequence Stage I, Stage II, Stage III and Stage IV."
+     "explanation": "The stages are presented in the sequence Stage I, Stage II, Stage III and Stage IV.",
+     "facts": []
     },
     {
      "id": "indian-economy-71-11",
@@ -17764,7 +17806,12 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "The two dependent age groups listed are below 15 years and 65 years and above. The 15–64 years group is the working-age population."
+     "explanation": "The two dependent age groups listed are below 15 years and 65 years and above. The 15–64 years group is the working-age population.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-71-12",
@@ -17778,7 +17825,15 @@
       "Stage III has a falling birth rate and a low death rate."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the Stage II birth-rate description. Stage II has a high birth rate and a falling death rate; falling birth rate and low death rate describe Stage III."
+     "explanation": "The incorrect detail is the Stage II birth-rate description. Stage II has a high birth rate and a falling death rate; falling birth rate and low death rate describe Stage III.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-71-13",
@@ -17792,7 +17847,17 @@
       "High birth rate and high death rate"
      ],
      "answer": 3,
-     "explanation": "Stage I is characterised by both a high birth rate and a high death rate."
+     "explanation": "Stage I is characterised by both a high birth rate and a high death rate.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-71-14",
@@ -17806,7 +17871,17 @@
       "Stage II"
      ],
      "answer": 2,
-     "explanation": "The table identifies Stage IV with a low birth rate and a low death rate."
+     "explanation": "The table identifies Stage IV with a low birth rate and a low death rate.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-71-15",
@@ -17820,7 +17895,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements correctly describe Stages II and III respectively. The description of Stage III does not explain the birth-rate and death-rate pattern of Stage II."
+     "explanation": "Both statements correctly describe Stages II and III respectively. The description of Stage III does not explain the birth-rate and death-rate pattern of Stage II.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-71-16",
@@ -17834,7 +17915,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Stage I is listed with a high death rate, while Stage III is listed with a falling birth rate, which is the low birth-rate description in the table."
+     "explanation": "Stage I is listed with a high death rate, while Stage III is listed with a falling birth rate, which is the low birth-rate description in the table.",
+     "facts": [
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-71-17",
@@ -17848,7 +17933,17 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pattern is: Stage I—high/high; Stage II—high/falling; Stage III—falling/low; Stage IV—low/low."
+     "explanation": "The correct pattern is: Stage I—high/high; Stage II—high/falling; Stage III—falling/low; Stage IV—low/low.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-71-18",
@@ -17862,7 +17957,17 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four descriptions correctly match the corresponding stages in the demographic transition table."
+     "explanation": "All four descriptions correctly match the corresponding stages in the demographic transition table.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-71-19",
@@ -17876,7 +17981,13 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct according to the death-rate column: high in Stage I, falling in Stage II, and low in Stages III and IV."
+     "explanation": "All four statements are correct according to the death-rate column: high in Stage I, falling in Stage II, and low in Stages III and IV.",
+     "facts": [
+      "F6",
+      "F8",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-71-20",
@@ -17890,9 +18001,17 @@
       "Demographic transition"
      ],
      "answer": 1,
-     "explanation": "A larger working-age share provides a greater potential productive workforce, which is described as the demographic dividend."
+     "explanation": "A larger working-age share provides a greater potential productive workforce, which is described as the demographic dividend.",
+     "facts": [
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 12,
+    "covered": 12,
+    "audited": true
+   }
   }
  }
 }

@@ -16675,7 +16675,10 @@
       "Lord Curzon"
      ],
      "answer": 1,
-     "explanation": "William Jones established the Asiatic Society in 1784."
+     "explanation": "William Jones established the Asiatic Society in 1784.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-25-2",
@@ -16689,7 +16692,10 @@
       "Lord Curzon"
      ],
      "answer": 2,
-     "explanation": "Alexander Cunningham became Archaeological Surveyor in 1861."
+     "explanation": "Alexander Cunningham became Archaeological Surveyor in 1861.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-25-3",
@@ -16703,7 +16709,10 @@
       "1901"
      ],
      "answer": 1,
-     "explanation": "The Department of Archaeological Survey was established in 1871."
+     "explanation": "The Department of Archaeological Survey was established in 1871.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-25-4",
@@ -16717,7 +16726,10 @@
       "William Jones"
      ],
      "answer": 0,
-     "explanation": "Marshall was appointed Director-General in 1901."
+     "explanation": "Marshall was appointed Director-General in 1901.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-25-5",
@@ -16731,7 +16743,10 @@
       "Archaeological Surveyor Act"
      ],
      "answer": 0,
-     "explanation": "The Ancient Monuments Preservation Act was enacted in 1904."
+     "explanation": "The Ancient Monuments Preservation Act was enacted in 1904.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-25-6",
@@ -16745,7 +16760,14 @@
       "Alexander Cunningham became Archaeological Surveyor in 1861."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 1902. Marshall was appointed Director-General in 1901; he took charge in 1902."
+     "explanation": "The incorrect detail is the year 1902. Marshall was appointed Director-General in 1901; he took charge in 1902.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-25-7",
@@ -16759,7 +16781,12 @@
       "The Act was enacted in 1901."
      ],
      "answer": 3,
-     "explanation": "The incorrect year is 1901. The Ancient Monuments Preservation Act was enacted in 1904."
+     "explanation": "The incorrect year is 1901. The Ancient Monuments Preservation Act was enacted in 1904.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-25-8",
@@ -16773,7 +16800,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Act was enacted in 1904 during Curzon's Vice-Royalty, and Curzon appointed Marshall Director-General in 1901. However, the appointment does not explain the enactment of the Act."
+     "explanation": "Both statements are true: the Act was enacted in 1904 during Curzon's Vice-Royalty, and Curzon appointed Marshall Director-General in 1901. However, the appointment does not explain the enactment of the Act.",
+     "facts": [
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-25-9",
@@ -16787,7 +16818,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the earlier appointment as Director-General explains Marshall's taking charge in 1902."
+     "explanation": "Both statements are true, and the earlier appointment as Director-General explains Marshall's taking charge in 1902.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-25-10",
@@ -16801,7 +16836,11 @@
       "A is false, but R is true"
      ],
      "answer": 3,
-     "explanation": "The Assertion is false because the Department was established in 1871, after Cunningham became Archaeological Surveyor in 1861. The Reason correctly states both years."
+     "explanation": "The Assertion is false because the Department was established in 1871, after Cunningham became Archaeological Surveyor in 1861. The Reason correctly states both years.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-25-11",
@@ -16815,7 +16854,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true because William Jones established the Asiatic Society in 1784. Statement B is false because Cunningham became Archaeological Surveyor in 1861, while the Department was established in 1871."
+     "explanation": "Statement A is true because William Jones established the Asiatic Society in 1784. Statement B is false because Cunningham became Archaeological Surveyor in 1861, while the Department was established in 1871.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-25-12",
@@ -16829,7 +16873,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because Marshall took charge in 1902."
+     "explanation": "Statement A is true. Statement B is false because Marshall took charge in 1902.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-25-13",
@@ -16843,7 +16891,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Act was enacted in 1904 during the Vice-Royalty of Lord Curzon."
+     "explanation": "Both statements are true. The Act was enacted in 1904 during the Vice-Royalty of Lord Curzon.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-25-14",
@@ -16857,7 +16909,13 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct: the respective years are 1784, 1861, 1871 and 1904."
+     "explanation": "All four statements are correct: the respective years are 1784, 1861, 1871 and 1904.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-25-15",
@@ -16871,7 +16929,12 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Asiatic Society was established by William Jones."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Asiatic Society was established by William Jones.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-25-16",
@@ -16885,7 +16948,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are William Jones–Asiatic Society, Cunningham–Archaeological Surveyor, Marshall–Director-General and Curzon–Vice-Royalty associated with the 1904 Act."
+     "explanation": "The correct pairs are William Jones–Asiatic Society, Cunningham–Archaeological Surveyor, Marshall–Director-General and Curzon–Vice-Royalty associated with the 1904 Act.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-25-17",
@@ -16899,7 +16968,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are 1784–Asiatic Society, 1861–Cunningham as Archaeological Surveyor, 1871–Department of Archaeological Survey and 1902–Marshall takes charge."
+     "explanation": "The correct pairs are 1784–Asiatic Society, 1861–Cunningham as Archaeological Surveyor, 1871–Department of Archaeological Survey and 1902–Marshall takes charge.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-25-18",
@@ -16913,7 +16988,13 @@
       "B, C, D, A"
      ],
      "answer": 3,
-     "explanation": "The correct order is Asiatic Society in 1784, Department of Archaeological Survey in 1871, Marshall taking charge in 1902, and the Act in 1904."
+     "explanation": "The correct order is Asiatic Society in 1784, Department of Archaeological Survey in 1871, Marshall taking charge in 1902, and the Act in 1904.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-25-19",
@@ -16927,7 +17008,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four years are associated with developments in archaeological administration: the Asiatic Society, Cunningham's appointment, the Department of Archaeological Survey and the Ancient Monuments Preservation Act."
+     "explanation": "All four years are associated with developments in archaeological administration: the Asiatic Society, Cunningham's appointment, the Department of Archaeological Survey and the Ancient Monuments Preservation Act.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-25-20",
@@ -16941,9 +17028,18 @@
       "Lord Curzon"
      ],
      "answer": 3,
-     "explanation": "The Ancient Monuments Preservation Act was enacted in 1904 during the Vice-Royalty of Lord Curzon."
+     "explanation": "The Ancient Monuments Preservation Act was enacted in 1904 during the Vice-Royalty of Lord Curzon.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 7,
+    "covered": 7,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -18375,7 +18471,8 @@
      "answer": 0,
      "explanation": "The Khalji dynasty succeeded the Slave/Mamluk dynasty through the Khalji takeover.",
      "facts": [
-      "F5"
+      "F5",
+      "F6"
      ]
     },
     {
@@ -18395,7 +18492,8 @@
       "F5",
       "F7",
       "F9",
-      "F11"
+      "F11",
+      "F6"
      ]
     },
     {
@@ -18450,7 +18548,8 @@
       "F1",
       "F3",
       "F5",
-      "F7"
+      "F7",
+      "F6"
      ]
     },
     {
@@ -18656,7 +18755,12 @@
       "F17"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -20175,7 +20279,10 @@
       "Telugu literature"
      ],
      "answer": 1,
-     "explanation": "Jahangir is listed as a patron of painting."
+     "explanation": "Jahangir is listed as a patron of painting.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-32-2",
@@ -20189,7 +20296,10 @@
       "Telugu"
      ],
      "answer": 1,
-     "explanation": "The Satavahana rulers are associated with patronage of Prakrit."
+     "explanation": "The Satavahana rulers are associated with patronage of Prakrit.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-32-3",
@@ -20203,7 +20313,21 @@
       "Sawant Singh supported art, learning and Kishangarh painting."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is Telugu literature and scholars. Rudradaman-I is associated with cultural arts and Sanskrit literature, whereas Telugu literature and scholars are associated with Krishnadeva Raya."
+     "explanation": "The incorrect detail is Telugu literature and scholars. Rudradaman-I is associated with cultural arts and Sanskrit literature, whereas Telugu literature and scholars are associated with Krishnadeva Raya.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-4",
@@ -20217,7 +20341,16 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Jahangir–Painting, Satavahana rulers–Prakrit, Rana Kumbha–Music, literature and art, and Zain-ul-Abidin–Translation and cultural activities."
+     "explanation": "The correct pairs are Jahangir–Painting, Satavahana rulers–Prakrit, Rana Kumbha–Music, literature and art, and Zain-ul-Abidin–Translation and cultural activities.",
+     "facts": [
+      "F1",
+      "F4",
+      "F8",
+      "F9",
+      "F10",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-5",
@@ -20231,7 +20364,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are stated associations of Jahangir. However, the support of European and Persian arts is not given as an explanation for his association with painting."
+     "explanation": "Both statements are stated associations of Jahangir. However, the support of European and Persian arts is not given as an explanation for his association with painting.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-32-6",
@@ -20245,7 +20383,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Satavahanas are associated with public arts as well as Buddhist architecture and sculpture."
+     "explanation": "The Satavahanas are associated with public arts as well as Buddhist architecture and sculpture.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-32-7",
@@ -20259,7 +20402,13 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct associations in the sheet: Jahangir with European and Persian arts, Ibrahim Adil Shah II with arts, and Rudradaman-I with Sanskrit literature."
+     "explanation": "All three statements are correct associations in the sheet: Jahangir with European and Persian arts, Ibrahim Adil Shah II with arts, and Rudradaman-I with Sanskrit literature.",
+     "facts": [
+      "F2",
+      "F3",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-32-8",
@@ -20273,7 +20422,12 @@
       "Sawant Singh"
      ],
      "answer": 1,
-     "explanation": "Rana Kumbha is listed as a patron of music, literature and art."
+     "explanation": "Rana Kumbha is listed as a patron of music, literature and art.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-32-9",
@@ -20287,7 +20441,17 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Sawant Singh–Art, learning and Kishangarh painting; Ibrahim Adil Shah II–Arts; Rudradaman-I–Cultural arts and Sanskrit literature; and Krishnadeva Raya–Telugu literature and scholars."
+     "explanation": "The correct pairs are Sawant Singh–Art, learning and Kishangarh painting; Ibrahim Adil Shah II–Arts; Rudradaman-I–Cultural arts and Sanskrit literature; and Krishnadeva Raya–Telugu literature and scholars.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-32-10",
@@ -20301,7 +20465,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are correct associations of the Satavahanas. The sheet does not state that patronage of Prakrit explains their association with Buddhist architecture and sculpture."
+     "explanation": "Both statements are correct associations of the Satavahanas. The sheet does not state that patronage of Prakrit explains their association with Buddhist architecture and sculpture.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-32-11",
@@ -20315,7 +20484,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are associated with artistic patronage: Jahangir with painting, Rana Kumbha with music, literature and art, Sawant Singh with art and Kishangarh painting, and Ibrahim Adil Shah II with arts."
+     "explanation": "All four are associated with artistic patronage: Jahangir with painting, Rana Kumbha with music, literature and art, Sawant Singh with art and Kishangarh painting, and Ibrahim Adil Shah II with arts.",
+     "facts": [
+      "F1",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-32-12",
@@ -20329,7 +20507,18 @@
       "Music, literature and art"
      ],
      "answer": 2,
-     "explanation": "Rudradaman-I is associated with cultural arts and Sanskrit literature."
+     "explanation": "Rudradaman-I is associated with cultural arts and Sanskrit literature.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-13",
@@ -20343,7 +20532,16 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Rudradaman-I–Cultural arts and Sanskrit literature, Krishnadeva Raya–Telugu literature and scholars, Zain-ul-Abidin–Translation and cultural activities, and Satavahana rulers–Prakrit."
+     "explanation": "The correct pairs are Rudradaman-I–Cultural arts and Sanskrit literature, Krishnadeva Raya–Telugu literature and scholars, Zain-ul-Abidin–Translation and cultural activities, and Satavahana rulers–Prakrit.",
+     "facts": [
+      "F4",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-14",
@@ -20357,7 +20555,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Sawant Singh is associated with both art and learning and Kishangarh painting."
+     "explanation": "Sawant Singh is associated with both art and learning and Kishangarh painting.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-history-32-15",
@@ -20371,7 +20574,15 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. Krishnadeva Raya is associated with Telugu literature and scholars, Zain-ul-Abidin with translation and cultural activities, and Jahangir with European and Persian arts."
+     "explanation": "All four statements are correct. Krishnadeva Raya is associated with Telugu literature and scholars, Zain-ul-Abidin with translation and cultural activities, and Jahangir with European and Persian arts.",
+     "facts": [
+      "F2",
+      "F3",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-16",
@@ -20385,7 +20596,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Rudradaman-I’s association with Sanskrit literature does not explain Krishnadeva Raya’s association with Telugu literature and scholars."
+     "explanation": "Both statements are true, but Rudradaman-I’s association with Sanskrit literature does not explain Krishnadeva Raya’s association with Telugu literature and scholars.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-32-17",
@@ -20399,7 +20615,11 @@
       "Jahangir"
      ],
      "answer": 2,
-     "explanation": "Zain-ul-Abidin is listed in association with translation and cultural activities."
+     "explanation": "Zain-ul-Abidin is listed in association with translation and cultural activities.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-18",
@@ -20413,7 +20633,20 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Jahangir–European and Persian arts, Rana Kumbha–Music, literature and art, Sawant Singh–Art, learning and Kishangarh painting, and Zain-ul-Abidin–Translation and cultural activities."
+     "explanation": "The correct pairs are Jahangir–European and Persian arts, Rana Kumbha–Music, literature and art, Sawant Singh–Art, learning and Kishangarh painting, and Zain-ul-Abidin–Translation and cultural activities.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-32-19",
@@ -20427,7 +20660,16 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Rana Kumbha is associated with music and literature, Rudradaman-I with Sanskrit literature, and Krishnadeva Raya with Telugu literature and scholars. Ibrahim Adil Shah II is associated with arts, but literature is not specified."
+     "explanation": "Rana Kumbha is associated with music and literature, Rudradaman-I with Sanskrit literature, and Krishnadeva Raya with Telugu literature and scholars. Ibrahim Adil Shah II is associated with arts, but literature is not specified.",
+     "facts": [
+      "F8",
+      "F9",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-32-20",
@@ -20441,9 +20683,23 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct: Satavahana rulers patronised Prakrit, while Rudradaman-I is associated with Sanskrit literature. Statement III is incorrect because Zain-ul-Abidin is associated with translation and cultural activities; Telugu literature and scholars are associated with Krishnadeva Raya."
+     "explanation": "Statements I and II are correct: Satavahana rulers patronised Prakrit, while Rudradaman-I is associated with Sanskrit literature. Statement III is incorrect because Zain-ul-Abidin is associated with translation and cultural activities; Telugu literature and scholars are associated with Krishnadeva Raya.",
+     "facts": [
+      "F4",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -23905,7 +24161,11 @@
       "Saraswati"
      ],
      "answer": 2,
-     "explanation": "The Mother Goddess is associated with Harappan religion and terracotta female figurines."
+     "explanation": "The Mother Goddess is associated with Harappan religion and terracotta female figurines.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-42-2",
@@ -23919,7 +24179,10 @@
       "Bhavani"
      ],
      "answer": 2,
-     "explanation": "Saraswati is associated with Bhojshala Temple at Dhar."
+     "explanation": "Saraswati is associated with Bhojshala Temple at Dhar.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-42-3",
@@ -23933,7 +24196,11 @@
       "Kali"
      ],
      "answer": 0,
-     "explanation": "Parvati, also identified as Bhramaramba, is associated with Srisailam and Mallikarjuna."
+     "explanation": "Parvati, also identified as Bhramaramba, is associated with Srisailam and Mallikarjuna.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-42-4",
@@ -23947,7 +24214,10 @@
       "Lakshmi"
      ],
      "answer": 3,
-     "explanation": "Lakshmi is associated with Muhammad Ghori's coins."
+     "explanation": "Lakshmi is associated with Muhammad Ghori's coins.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-42-5",
@@ -23961,7 +24231,10 @@
       "Saraswati"
      ],
      "answer": 1,
-     "explanation": "Kali was associated with Thug worship."
+     "explanation": "Kali was associated with Thug worship.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-42-6",
@@ -23975,7 +24248,12 @@
       "Bhavani was associated with Thug worship."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the goddess: Thug worship was associated with Kali, Durga and Bhavani, not Lakshmi."
+     "explanation": "The incorrect detail is the goddess: Thug worship was associated with Kali, Durga and Bhavani, not Lakshmi.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-42-7",
@@ -23989,7 +24267,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are stated associations, but the presence of terracotta female figurines does not explain why the Mother Goddess is associated with Harappan religion; it is a related identifying feature."
+     "explanation": "Both statements are stated associations, but the presence of terracotta female figurines does not explain why the Mother Goddess is associated with Harappan religion; it is a related identifying feature.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-42-8",
@@ -24003,7 +24285,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the association of Saraswati with Dhar is expressed through Bhojshala Temple at Dhar."
+     "explanation": "Both statements are true, and the association of Saraswati with Dhar is expressed through Bhojshala Temple at Dhar.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-42-9",
@@ -24017,7 +24302,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes directly associate Goddess Earth with the Varaha Avatar of Vishnu; therefore both the assertion and its stated basis are true."
+     "explanation": "The notes directly associate Goddess Earth with the Varaha Avatar of Vishnu; therefore both the assertion and its stated basis are true.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-history-42-10",
@@ -24031,7 +24319,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes associate both Kali and Durga with Thug worship."
+     "explanation": "The notes associate both Kali and Durga with Thug worship.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-42-11",
@@ -24045,7 +24337,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Bharat Mata is associated with Abanindranath Tagore's 1905 painting."
+     "explanation": "Bharat Mata is associated with Abanindranath Tagore's 1905 painting.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-42-12",
@@ -24059,7 +24354,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "The notes associate Kali, Durga and Bhavani with Thug worship."
+     "explanation": "The notes associate Kali, Durga and Bhavani with Thug worship.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-42-13",
@@ -24073,7 +24373,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three associations are specified: Lakshmi with Muhammad Ghori's coins, Goddess Earth with Varaha Avatar of Vishnu, and Saraswati with Bhojshala Temple at Dhar."
+     "explanation": "All three associations are specified: Lakshmi with Muhammad Ghori's coins, Goddess Earth with Varaha Avatar of Vishnu, and Saraswati with Bhojshala Temple at Dhar.",
+     "facts": [
+      "F3",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-42-14",
@@ -24087,7 +24392,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Saraswati–Bhojshala Temple, Dhar; Parvati/Bhramaramba–Srisailam/Mallikarjuna; Lakshmi–Muhammad Ghori's coins; and Goddess Earth–Varaha Avatar of Vishnu."
+     "explanation": "The correct pairs are Saraswati–Bhojshala Temple, Dhar; Parvati/Bhramaramba–Srisailam/Mallikarjuna; Lakshmi–Muhammad Ghori's coins; and Goddess Earth–Varaha Avatar of Vishnu.",
+     "facts": [
+      "F3",
+      "F5",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-42-15",
@@ -24101,7 +24412,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "Kali, Durga and Bhavani are each associated with Thug worship, while Bharat Mata is associated with Abanindranath Tagore's 1905 painting."
+     "explanation": "Kali, Durga and Bhavani are each associated with Thug worship, while Bharat Mata is associated with Abanindranath Tagore's 1905 painting.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-42-16",
@@ -24115,7 +24432,14 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Mother Goddess–terracotta female figurines; Saraswati–Bhojshala Temple, Dhar; Lakshmi–Muhammad Ghori's coins; and Bharat Mata–Abanindranath Tagore's 1905 painting."
+     "explanation": "The correct pairs are Mother Goddess–terracotta female figurines; Saraswati–Bhojshala Temple, Dhar; Lakshmi–Muhammad Ghori's coins; and Bharat Mata–Abanindranath Tagore's 1905 painting.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-42-17",
@@ -24129,7 +24453,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Kali, Durga and Bhavani were associated with Thug worship, while Saraswati was associated with Bhojshala Temple at Dhar. Thus, the number is three."
+     "explanation": "Kali, Durga and Bhavani were associated with Thug worship, while Saraswati was associated with Bhojshala Temple at Dhar. Thus, the number is three.",
+     "facts": [
+      "F3",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-42-18",
@@ -24143,9 +24473,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the stated facts."
+     "explanation": "All four associations are correct according to the stated facts.",
+     "facts": [
+      "F1",
+      "F6",
+      "F10",
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "43": {
    "number": 43,
@@ -26259,7 +26600,10 @@
       "Swami Haridas"
      ],
      "answer": 2,
-     "explanation": "Raja Ramchandra Singh of Rewa was the early patron associated with Tansen."
+     "explanation": "Raja Ramchandra Singh of Rewa was the early patron associated with Tansen.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-47-2",
@@ -26273,7 +26617,10 @@
       "A Delhi Sultanate ruler"
      ],
      "answer": 0,
-     "explanation": "Tansen was associated with Akbar as one of his Navaratnas."
+     "explanation": "Tansen was associated with Akbar as one of his Navaratnas.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-47-3",
@@ -26287,7 +26634,10 @@
       "Historical chronicle"
      ],
      "answer": 1,
-     "explanation": "Swami Haridas is associated with Dhrupad."
+     "explanation": "Swami Haridas is associated with Dhrupad.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-47-4",
@@ -26301,7 +26651,10 @@
       "Tansen"
      ],
      "answer": 0,
-     "explanation": "Vilas Khan is identified as the main singer associated with Jahangir."
+     "explanation": "Vilas Khan is identified as the main singer associated with Jahangir.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-47-5",
@@ -26315,7 +26668,10 @@
       "Delhi Sultanate courts"
      ],
      "answer": 3,
-     "explanation": "Amir Khusrau was associated with the courts of the Delhi Sultanate."
+     "explanation": "Amir Khusrau was associated with the courts of the Delhi Sultanate.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-47-6",
@@ -26329,7 +26685,13 @@
       "Tansen was a Navaratna associated with Akbar."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the ruler. Amir Khusrau was associated with Delhi Sultanate courts, not Jahangir's court."
+     "explanation": "The incorrect detail is the ruler. Amir Khusrau was associated with Delhi Sultanate courts, not Jahangir's court.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-47-7",
@@ -26343,7 +26705,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the early-patron relationship explains Tansen's association with Raja Ramchandra Singh of Rewa."
+     "explanation": "Both statements are true, and the early-patron relationship explains Tansen's association with Raja Ramchandra Singh of Rewa.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-47-8",
@@ -26357,7 +26722,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but being a musician, poet and historian does not explain the specific association with Delhi Sultanate courts."
+     "explanation": "Both statements are true, but being a musician, poet and historian does not explain the specific association with Delhi Sultanate courts.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-47-9",
@@ -26371,7 +26742,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct associations: Tansen with Akbar as a Navaratna, and Vilas Khan with Jahangir as the main singer."
+     "explanation": "Both statements are correct associations: Tansen with Akbar as a Navaratna, and Vilas Khan with Jahangir as the main singer.",
+     "facts": [
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-47-10",
@@ -26385,7 +26760,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because Amir Khusrau was associated with Delhi Sultanate courts."
+     "explanation": "Statement A is true. Statement B is false because Amir Khusrau was associated with Delhi Sultanate courts.",
+     "facts": [
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-47-11",
@@ -26399,7 +26778,13 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Swami Haridas is associated with Dhrupad, while Amir Khusrau is associated with Delhi Sultanate courts."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Swami Haridas is associated with Dhrupad, while Amir Khusrau is associated with Delhi Sultanate courts.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-47-12",
@@ -26413,7 +26798,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Tansen–Akbar, Swami Haridas–Dhrupad, Vilas Khan–Jahangir and Amir Khusrau–Delhi Sultanate courts."
+     "explanation": "The correct pairs are Tansen–Akbar, Swami Haridas–Dhrupad, Vilas Khan–Jahangir and Amir Khusrau–Delhi Sultanate courts.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-47-13",
@@ -26427,7 +26818,16 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. The fourth is incorrect because Amir Khusrau was associated with Delhi Sultanate courts, not Akbar."
+     "explanation": "The first three pairs are correct. The fourth is incorrect because Amir Khusrau was associated with Delhi Sultanate courts, not Akbar.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-47-14",
@@ -26441,9 +26841,17 @@
       "Jahangir's court"
      ],
      "answer": 0,
-     "explanation": "The table associates Swami Haridas with Akbar's period."
+     "explanation": "The table associates Swami Haridas with Akbar's period.",
+     "facts": [
+      "F3"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "48": {
    "number": 48,
@@ -26471,7 +26879,10 @@
       "Chandapradyota of Avanti"
      ],
      "answer": 2,
-     "explanation": "Jivaka was associated with Bimbisara as his court physician."
+     "explanation": "Jivaka was associated with Bimbisara as his court physician.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-48-2",
@@ -26485,7 +26896,10 @@
       "Medicinal service"
      ],
      "answer": 3,
-     "explanation": "Jivaka was sent to Chandapradyota of Avanti for medicinal service."
+     "explanation": "Jivaka was sent to Chandapradyota of Avanti for medicinal service.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-48-3",
@@ -26499,7 +26913,10 @@
       "Chandapradyota of Avanti"
      ],
      "answer": 0,
-     "explanation": "Charaka was the court physician of Kanishka."
+     "explanation": "Charaka was the court physician of Kanishka.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-48-4",
@@ -26513,7 +26930,11 @@
       "Chandapradyota of Avanti"
      ],
      "answer": 0,
-     "explanation": "Dhanvantari was associated with Chandragupta II as a Navratna."
+     "explanation": "Dhanvantari was associated with Chandragupta II as a Navratna.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-48-5",
@@ -26527,7 +26948,13 @@
       "Charaka was the court physician of Kanishka."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the association of Sushruta with Kanishka as a court physician. The sheet identifies Charaka, not Sushruta, as Kanishka’s court physician."
+     "explanation": "The incorrect detail is the association of Sushruta with Kanishka as a court physician. The sheet identifies Charaka, not Sushruta, as Kanishka’s court physician.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-48-6",
@@ -26541,7 +26968,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The two stated roles and associations explain Jivaka’s connection with both rulers."
+     "explanation": "Both statements are true. The two stated roles and associations explain Jivaka’s connection with both rulers.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-48-7",
@@ -26555,7 +26986,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Dhanvantari is associated with Ayurveda, while Sushruta is associated with Ayurveda and surgery."
+     "explanation": "Both statements are true. Dhanvantari is associated with Ayurveda, while Sushruta is associated with Ayurveda and surgery.",
+     "facts": [
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-8",
@@ -26569,7 +27004,14 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Jivaka–Bimbisara, Charaka–Kanishka, Dhanvantari–Chandragupta II, and Sushruta–Ancient India—Ayurveda and surgery."
+     "explanation": "The correct pairs are Jivaka–Bimbisara, Charaka–Kanishka, Dhanvantari–Chandragupta II, and Sushruta–Ancient India—Ayurveda and surgery.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-9",
@@ -26583,7 +27025,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Dhanvantari was a Navratna associated with Chandragupta II; medicinal service to Chandapradyota of Avanti is connected with Jivaka."
+     "explanation": "Statements I and II are correct. Dhanvantari was a Navratna associated with Chandragupta II; medicinal service to Chandapradyota of Avanti is connected with Jivaka.",
+     "facts": [
+      "F4",
+      "F5",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-48-10",
@@ -26597,7 +27044,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. Sushruta was associated with ancient India’s Ayurveda and surgery, not with Chandapradyota of Avanti."
+     "explanation": "The first three pairs are correct. Sushruta was associated with ancient India’s Ayurveda and surgery, not with Chandapradyota of Avanti.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F2",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-11",
@@ -26611,7 +27066,15 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Jivaka and Charaka are identified as court physicians. Dhanvantari is described as a Navratna associated with Ayurveda, while Sushruta is associated with Ayurveda and surgery."
+     "explanation": "Jivaka and Charaka are identified as court physicians. Dhanvantari is described as a Navratna associated with Ayurveda, while Sushruta is associated with Ayurveda and surgery.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-12",
@@ -26625,7 +27088,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Dhanvantari was a Navratna associated with Chandragupta II, and Ayurveda is also listed as a key association; however, being a Navratna does not explain the entire assertion."
+     "explanation": "Both statements are true. Dhanvantari was a Navratna associated with Chandragupta II, and Ayurveda is also listed as a key association; however, being a Navratna does not explain the entire assertion.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-48-13",
@@ -26639,7 +27107,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Jivaka is listed as the court physician of Bimbisara, while Charaka is listed as the court physician of Kanishka."
+     "explanation": "Jivaka is listed as the court physician of Bimbisara, while Charaka is listed as the court physician of Kanishka.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-48-14",
@@ -26653,7 +27125,14 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, III and IV are correct. Charaka is identified as the court physician of Kanishka, whereas medicinal service is specifically mentioned in connection with Jivaka's association with Chandapradyota of Avanti."
+     "explanation": "Statements I, III and IV are correct. Charaka is identified as the court physician of Kanishka, whereas medicinal service is specifically mentioned in connection with Jivaka's association with Chandapradyota of Avanti.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-15",
@@ -26667,7 +27146,15 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Jivaka–Bimbisara, Charaka–Kanishka, Dhanvantari–Chandragupta II, and Sushruta–Ancient India with Ayurveda and surgery."
+     "explanation": "The correct pairs are Jivaka–Bimbisara, Charaka–Kanishka, Dhanvantari–Chandragupta II, and Sushruta–Ancient India with Ayurveda and surgery.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-16",
@@ -26681,7 +27168,10 @@
       "Dhanvantari"
      ],
      "answer": 0,
-     "explanation": "Sushruta is associated with Ayurveda and surgery. The other entries are linked with court physician roles or the Navratna-Ayurveda association."
+     "explanation": "Sushruta is associated with Ayurveda and surgery. The other entries are linked with court physician roles or the Navratna-Ayurveda association.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-17",
@@ -26695,7 +27185,15 @@
       "Dhanvantari — Chandragupta II — court physician"
      ],
      "answer": 3,
-     "explanation": "The incorrect pair assigns the title of court physician to Dhanvantari. Dhanvantari was a Navratna associated with Chandragupta II and Ayurveda."
+     "explanation": "The incorrect pair assigns the title of court physician to Dhanvantari. Dhanvantari was a Navratna associated with Chandragupta II and Ayurveda.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-18",
@@ -26709,7 +27207,12 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because Sushruta is associated with Ayurveda and surgery. The reason is false; Chandragupta II is associated with Dhanvantari."
+     "explanation": "The assertion is true because Sushruta is associated with Ayurveda and surgery. The reason is false; Chandragupta II is associated with Dhanvantari.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-48-19",
@@ -26723,9 +27226,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Pairs 1, 3 and 4 are correct. Charaka is identified as a court physician of Kanishka, not as a Navratna."
+     "explanation": "Pairs 1, 3 and 4 are correct. Charaka is identified as a court physician of Kanishka, not as a Navratna.",
+     "facts": [
+      "F1",
+      "F3",
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 8,
+    "covered": 8,
+    "audited": true
+   }
   },
   "49": {
    "number": 49,
@@ -30145,7 +30659,12 @@
       "Chandragupta Maurya"
      ],
      "answer": 3,
-     "explanation": "Megasthenes is associated with Chandragupta Maurya."
+     "explanation": "Megasthenes is associated with Chandragupta Maurya.",
+     "facts": [
+      "F1",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-54-2",
@@ -30159,7 +30678,19 @@
       "Mahayana Buddhism and Nalanda"
      ],
      "answer": 0,
-     "explanation": "Fa-Hien is associated with Buddhist pilgrimage and Buddhist India."
+     "explanation": "Fa-Hien is associated with Buddhist pilgrimage and Buddhist India.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-54-3",
@@ -30173,7 +30704,19 @@
       "Fa-Hien was associated with Buddhist pilgrimage and Buddhist India."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is with I-Tsing. Hindu religion, Puranas, Sanskrit and Yoga are associated with Al-Biruni."
+     "explanation": "The incorrect association is with I-Tsing. Hindu religion, Puranas, Sanskrit and Yoga are associated with Al-Biruni.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-54-4",
@@ -30187,7 +30730,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are present in the table, but Fa-Hien’s association with Chandragupta II does not explain his association with Buddhist pilgrimage and Buddhist India."
+     "explanation": "Both statements are present in the table, but Fa-Hien’s association with Chandragupta II does not explain his association with Buddhist pilgrimage and Buddhist India.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-54-5",
@@ -30201,7 +30749,12 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Megasthenes–Chandragupta Maurya, Fa-Hien–Chandragupta II, Hiuen-Tsang–Harsha and Al-Biruni–Mahmud of Ghazni."
+     "explanation": "The correct pairs are Megasthenes–Chandragupta Maurya, Fa-Hien–Chandragupta II, Hiuen-Tsang–Harsha and Al-Biruni–Mahmud of Ghazni.",
+     "facts": [
+      "F1",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-54-6",
@@ -30215,7 +30768,11 @@
       "Hiuen-Tsang"
      ],
      "answer": 3,
-     "explanation": "Hiuen-Tsang is associated with Mahayana Buddhism and Nalanda."
+     "explanation": "Hiuen-Tsang is associated with Mahayana Buddhism and Nalanda.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-54-7",
@@ -30229,7 +30786,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both A and R are true. The association of Hiuen-Tsang with Harsha does not explain his association with Mahayana Buddhism and Nalanda."
+     "explanation": "Both A and R are true. The association of Hiuen-Tsang with Harsha does not explain his association with Mahayana Buddhism and Nalanda.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-54-8",
@@ -30243,7 +30805,12 @@
       "The reign of Harsha"
      ],
      "answer": 1,
-     "explanation": "I-Tsing is associated with the period 671–695 CE."
+     "explanation": "I-Tsing is associated with the period 671–695 CE.",
+     "facts": [
+      "F7",
+      "F10",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-54-9",
@@ -30257,7 +30824,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: I-Tsing is associated with 671–695 CE, while Al-Masudi is associated with the 10th century."
+     "explanation": "Both statements are correct: I-Tsing is associated with 671–695 CE, while Al-Masudi is associated with the 10th century.",
+     "facts": [
+      "F10",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-54-10",
@@ -30271,7 +30842,8 @@
       "Muhammad bin Tughluq"
      ],
      "answer": 0,
-     "explanation": "Al-Biruni is associated with Mahmud of Ghazni."
+     "explanation": "Al-Biruni is associated with Mahmud of Ghazni.",
+     "facts": []
     },
     {
      "id": "indian-history-54-11",
@@ -30285,7 +30857,15 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Mahayana Buddhism and Nalanda are associated with Hiuen-Tsang, not Al-Biruni."
+     "explanation": "Statements I and II are correct. Mahayana Buddhism and Nalanda are associated with Hiuen-Tsang, not Al-Biruni.",
+     "facts": [
+      "F8",
+      "F9",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-54-12",
@@ -30299,7 +30879,17 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Megasthenes–Brahmins and Shramanas, Fa-Hien–Buddhist pilgrimage and Buddhist India, Hiuen-Tsang–Mahayana Buddhism and Nalanda, and I-Tsing–Buddhist relics and pilgrimage."
+     "explanation": "The correct pairs are Megasthenes–Brahmins and Shramanas, Fa-Hien–Buddhist pilgrimage and Buddhist India, Hiuen-Tsang–Mahayana Buddhism and Nalanda, and I-Tsing–Buddhist relics and pilgrimage.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-54-13",
@@ -30313,7 +30903,18 @@
       "Ibn Battuta"
      ],
      "answer": 2,
-     "explanation": "Al-Masudi is associated with the Multan Sun Temple."
+     "explanation": "Al-Masudi is associated with the Multan Sun Temple.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-54-14",
@@ -30327,7 +30928,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both A and R are true, but the association with the Multan Sun Temple does not explain the period assigned to Al-Masudi."
+     "explanation": "Both A and R are true, but the association with the Multan Sun Temple does not explain the period assigned to Al-Masudi.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-history-54-15",
@@ -30341,7 +30946,13 @@
       "The reign of Harsha"
      ],
      "answer": 0,
-     "explanation": "Ibn Battuta is associated with Sultanate-period observations."
+     "explanation": "Ibn Battuta is associated with Sultanate-period observations.",
+     "facts": [
+      "F1",
+      "F7",
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-54-16",
@@ -30355,7 +30966,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. Ibn Battuta is linked with Sultanate-period observations, while Al-Biruni is linked with Hindu religion, Puranas, Sanskrit and Yoga."
+     "explanation": "Both statements are correct. Ibn Battuta is linked with Sultanate-period observations, while Al-Biruni is linked with Hindu religion, Puranas, Sanskrit and Yoga.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F20"
+     ]
     },
     {
      "id": "indian-history-54-17",
@@ -30369,7 +30987,13 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. Ibn Battuta is associated with Sultanate-period observations, and Megasthenes with Chandragupta Maurya."
+     "explanation": "Statements I and II are correct. Ibn Battuta is associated with Sultanate-period observations, and Megasthenes with Chandragupta Maurya.",
+     "facts": [
+      "F1",
+      "F10",
+      "F17",
+      "F19"
+     ]
     },
     {
      "id": "indian-history-54-18",
@@ -30383,7 +31007,19 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Pairs 1 and 2 are correct. Hindu religion, Puranas, Sanskrit and Yoga are associated with Al-Biruni, while Buddhist relics and pilgrimage are associated with I-Tsing."
+     "explanation": "Pairs 1 and 2 are correct. Hindu religion, Puranas, Sanskrit and Yoga are associated with Al-Biruni, while Buddhist relics and pilgrimage are associated with I-Tsing.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F6",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-54-19",
@@ -30397,7 +31033,12 @@
       "Mahmud of Ghazni"
      ],
      "answer": 1,
-     "explanation": "Ibn Battuta is associated with Muhammad bin Tughluq and with Sultanate-period observations."
+     "explanation": "Ibn Battuta is associated with Muhammad bin Tughluq and with Sultanate-period observations.",
+     "facts": [
+      "F1",
+      "F7",
+      "F19"
+     ]
     },
     {
      "id": "indian-history-54-20",
@@ -30411,9 +31052,25 @@
       "Buddhist relics and pilgrimage"
      ],
      "answer": 3,
-     "explanation": "I-Tsing is associated with Buddhist relics and pilgrimage."
+     "explanation": "I-Tsing is associated with Buddhist relics and pilgrimage.",
+     "facts": [
+      "F8",
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "55": {
    "number": 55,
@@ -30442,7 +31099,10 @@
       "Megasthenes"
      ],
      "answer": 3,
-     "explanation": "Megasthenes was associated with Pataliputra."
+     "explanation": "Megasthenes was associated with Pataliputra.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-55-2",
@@ -30456,7 +31116,10 @@
       "Hiuen-Tsang"
      ],
      "answer": 3,
-     "explanation": "Hiuen-Tsang was associated with Nalanda."
+     "explanation": "Hiuen-Tsang was associated with Nalanda.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-55-3",
@@ -30470,7 +31133,10 @@
       "Fernao Nuniz"
      ],
      "answer": 2,
-     "explanation": "I-Tsing was associated with Tamralipti."
+     "explanation": "I-Tsing was associated with Tamralipti.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-55-4",
@@ -30484,7 +31150,10 @@
       "Megasthenes"
      ],
      "answer": 2,
-     "explanation": "Nicolo Conti was associated with Vijayanagara."
+     "explanation": "Nicolo Conti was associated with Vijayanagara.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-55-5",
@@ -30498,7 +31167,12 @@
       "Hiuen-Tsang was associated with Bodh Gaya."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is Sarnath–I-Tsing. Sarnath was associated with Hiuen-Tsang."
+     "explanation": "The incorrect association is Sarnath–I-Tsing. Sarnath was associated with Hiuen-Tsang.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-55-6",
@@ -30512,7 +31186,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both associations are stated, but Hiuen-Tsang’s association with Bodh Gaya does not explain I-Tsing’s association with Tamralipti."
+     "explanation": "Both associations are stated, but Hiuen-Tsang’s association with Bodh Gaya does not explain I-Tsing’s association with Tamralipti.",
+     "facts": [
+      "F7",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-55-7",
@@ -30526,7 +31204,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both A and R are true associations, but the association of Fernao Nuniz with Vijayanagara does not explain the association of Domingo Paes with Vijayanagara."
+     "explanation": "Both A and R are true associations, but the association of Fernao Nuniz with Vijayanagara does not explain the association of Domingo Paes with Vijayanagara.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-55-8",
@@ -30540,7 +31222,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Mathura was associated with Hiuen-Tsang, and Pataliputra was associated with Megasthenes."
+     "explanation": "Mathura was associated with Hiuen-Tsang, and Pataliputra was associated with Megasthenes.",
+     "facts": [
+      "F6",
+      "F1"
+     ]
     },
     {
      "id": "indian-history-55-9",
@@ -30554,7 +31240,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 3,
-     "explanation": "Kushinagar was associated with Hiuen-Tsang, not I-Tsing; Nalanda was associated with Hiuen-Tsang."
+     "explanation": "Kushinagar was associated with Hiuen-Tsang, not I-Tsing; Nalanda was associated with Hiuen-Tsang.",
+     "facts": [
+      "F5",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-55-10",
@@ -30568,7 +31258,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Mathura was associated with Hiuen-Tsang, not I-Tsing, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct. Mathura was associated with Hiuen-Tsang, not I-Tsing, so Statement III is incorrect.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-55-11",
@@ -30582,7 +31277,13 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "All four travellers—Nicolo Conti, Abdur Razzaq, Domingo Paes and Fernao Nuniz—were associated with Vijayanagara."
+     "explanation": "All four travellers—Nicolo Conti, Abdur Razzaq, Domingo Paes and Fernao Nuniz—were associated with Vijayanagara.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-55-12",
@@ -30596,7 +31297,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Pataliputra–Megasthenes, Nalanda–Hiuen-Tsang, Tamralipti–I-Tsing and Vijayanagara–Nicolo Conti."
+     "explanation": "The correct pairs are Pataliputra–Megasthenes, Nalanda–Hiuen-Tsang, Tamralipti–I-Tsing and Vijayanagara–Nicolo Conti.",
+     "facts": [
+      "F1",
+      "F2",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-55-13",
@@ -30610,7 +31317,13 @@
       "a-ii, b-ii, c-ii, d-ii"
      ],
      "answer": 1,
-     "explanation": "Sarnath, Bodh Gaya, Kushinagar and Mathura were each associated with Hiuen-Tsang."
+     "explanation": "Sarnath, Bodh Gaya, Kushinagar and Mathura were each associated with Hiuen-Tsang.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-55-14",
@@ -30624,7 +31337,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed places—Sarnath, Bodh Gaya, Kushinagar and Mathura—were associated with Hiuen-Tsang."
+     "explanation": "All four listed places—Sarnath, Bodh Gaya, Kushinagar and Mathura—were associated with Hiuen-Tsang.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-55-15",
@@ -30638,7 +31357,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed travellers were associated with Vijayanagara."
+     "explanation": "All four listed travellers were associated with Vijayanagara.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-55-16",
@@ -30652,7 +31377,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both places were associated with Hiuen-Tsang, but the association of Mathura does not explain the association of Kushinagar."
+     "explanation": "Both places were associated with Hiuen-Tsang, but the association of Mathura does not explain the association of Kushinagar.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-55-17",
@@ -30666,7 +31395,13 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Nalanda was associated with Hiuen-Tsang, not Nicolo Conti."
+     "explanation": "Statements I, II and III are correct. Nalanda was associated with Hiuen-Tsang, not Nicolo Conti.",
+     "facts": [
+      "F1",
+      "F2",
+      "F7",
+      "F10"
+     ]
     },
     {
      "id": "indian-history-55-18",
@@ -30680,7 +31415,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "Abdur Razzaq–Vijayanagara, Domingo Paes–Vijayanagara, Fernao Nuniz–Vijayanagara and Hiuen-Tsang–Bodh Gaya are the correct pairs."
+     "explanation": "Abdur Razzaq–Vijayanagara, Domingo Paes–Vijayanagara, Fernao Nuniz–Vijayanagara and Hiuen-Tsang–Bodh Gaya are the correct pairs.",
+     "facts": [
+      "F4",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-history-55-19",
@@ -30694,7 +31435,10 @@
       "Tamralipti"
      ],
      "answer": 1,
-     "explanation": "Fernao Nuniz was associated with Vijayanagara."
+     "explanation": "Fernao Nuniz was associated with Vijayanagara.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-55-20",
@@ -30708,9 +31452,20 @@
       "Megasthenes"
      ],
      "answer": 2,
-     "explanation": "Hiuen-Tsang is associated with Sarnath, Bodh Gaya, Kushinagar and Mathura. The other listed travellers are each associated with only one place in the table."
+     "explanation": "Hiuen-Tsang is associated with Sarnath, Bodh Gaya, Kushinagar and Mathura. The other listed travellers are each associated with only one place in the table.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "56": {
    "number": 56,
@@ -32024,7 +32779,13 @@
       "Muinuddin Chishti"
      ],
      "answer": 3,
-     "explanation": "Muinuddin Chishti is listed as the founder associated with the Chishti silsilah."
+     "explanation": "Muinuddin Chishti is listed as the founder associated with the Chishti silsilah.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-59-2",
@@ -32038,7 +32799,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Suhrawardi is a Sufi silsilah and Shahabuddin Suhrawardi is its associated founder. The second statement identifies the founder but does not explain why it is a silsilah."
+     "explanation": "Both statements are true: Suhrawardi is a Sufi silsilah and Shahabuddin Suhrawardi is its associated founder. The second statement identifies the founder but does not explain why it is a silsilah.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-59-3",
@@ -32052,7 +32816,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Firdausi is listed as a Sufi silsilah, with Sharfuddin Yahya Maneri as its associated founder."
+     "explanation": "The Firdausi is listed as a Sufi silsilah, with Sharfuddin Yahya Maneri as its associated founder.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-59-4",
@@ -32066,7 +32833,12 @@
       "Abdul Qadir Jilani is associated with the founding of the Qadiri silsilah."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes the associated founder of the Naqshbandi silsilah. The correct associated founder is Bahauddin Naqshband; Abdul Qadir Jilani is associated with the Qadiri silsilah."
+     "explanation": "The incorrect statement changes the associated founder of the Naqshbandi silsilah. The correct associated founder is Bahauddin Naqshband; Abdul Qadir Jilani is associated with the Qadiri silsilah.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-59-5",
@@ -32080,7 +32852,13 @@
       "Abdul Qadir Jilani"
      ],
      "answer": 3,
-     "explanation": "Abdul Qadir Jilani is listed as the founder associated with the Qadiri silsilah."
+     "explanation": "Abdul Qadir Jilani is listed as the founder associated with the Qadiri silsilah.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-59-6",
@@ -32094,9 +32872,20 @@
       "Sharfuddin Yahya Maneri"
      ],
      "answer": 2,
-     "explanation": "Bahauddin Naqshband is associated with the founding of the Naqshbandi Sufi silsilah."
+     "explanation": "Bahauddin Naqshband is associated with the founding of the Naqshbandi Sufi silsilah.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 5,
+    "covered": 5,
+    "audited": true
+   }
   },
   "60": {
    "number": 60,
@@ -33769,7 +34558,10 @@
       "Samudragupta"
      ],
      "answer": 3,
-     "explanation": "Samudragupta was described as the “Napoleon of India.”"
+     "explanation": "Samudragupta was described as the “Napoleon of India.”",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-65-2",
@@ -33783,7 +34575,10 @@
       "Chandragupta II"
      ],
      "answer": 3,
-     "explanation": "Chandragupta II was known as Vikramaditya."
+     "explanation": "Chandragupta II was known as Vikramaditya.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-65-3",
@@ -33797,7 +34592,10 @@
       "Ghiyasuddin Tughluq"
      ],
      "answer": 1,
-     "explanation": "Vima Kadphises, also identified as Kadphises II, was known as Sarvalokeshvara."
+     "explanation": "Vima Kadphises, also identified as Kadphises II, was known as Sarvalokeshvara.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-65-4",
@@ -33811,7 +34609,11 @@
       "Mubarak Shah"
      ],
      "answer": 0,
-     "explanation": "Ghiyasuddin Tughluq was also known as Ghazi Malik or Ghazi Tughluq."
+     "explanation": "Ghiyasuddin Tughluq was also known as Ghazi Malik or Ghazi Tughluq.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-65-5",
@@ -33825,7 +34627,11 @@
       "Samudragupta"
      ],
      "answer": 2,
-     "explanation": "Aurangzeb was known as Zinda Pir or Zindapir."
+     "explanation": "Aurangzeb was known as Zinda Pir or Zindapir.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-65-6",
@@ -33839,7 +34645,12 @@
       "Chin Qilich Khan"
      ],
      "answer": 2,
-     "explanation": "Mubarak Shah, also called Mubarak Khalji, was associated with the titles Al-Imam, Ul-Imam and Khilafatullah."
+     "explanation": "Mubarak Shah, also called Mubarak Khalji, was associated with the titles Al-Imam, Ul-Imam and Khilafatullah.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-history-65-7",
@@ -33853,7 +34664,13 @@
       "Chin Qilich Khan was also known as Nizam-ul-Mulk."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the title Sarvalokeshvara. Saadat Khan was known as Burhan-ul-Mulk; Sarvalokeshvara was associated with Vima Kadphises."
+     "explanation": "The incorrect detail is the title Sarvalokeshvara. Saadat Khan was known as Burhan-ul-Mulk; Sarvalokeshvara was associated with Vima Kadphises.",
+     "facts": [
+      "F4",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-65-8",
@@ -33867,7 +34684,14 @@
       "Samudragupta was described as the “Napoleon of India”."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is Vikramaditya. Vima Kadphises was known as Sarvalokeshvara, while Chandragupta II was known as Vikramaditya."
+     "explanation": "The incorrect detail is Vikramaditya. Vima Kadphises was known as Sarvalokeshvara, while Chandragupta II was known as Vikramaditya.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F9",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-65-9",
@@ -33881,7 +34705,16 @@
       "Aurangzeb — Zinda Pir"
      ],
      "answer": 2,
-     "explanation": "Mubarak Shah was associated with Al-Imam, Ul-Imam and Khilafatullah. Asaf-Jah was associated with Chin Qilich Khan, also known as Nizam-ul-Mulk."
+     "explanation": "Mubarak Shah was associated with Al-Imam, Ul-Imam and Khilafatullah. Asaf-Jah was associated with Chin Qilich Khan, also known as Nizam-ul-Mulk.",
+     "facts": [
+      "F1",
+      "F7",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-65-10",
@@ -33895,7 +34728,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Aurangzeb’s title does not explain Chandragupta II’s title."
+     "explanation": "Both statements are true, but Aurangzeb’s title does not explain Chandragupta II’s title.",
+     "facts": [
+      "F2",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-65-11",
@@ -33909,7 +34746,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true alternative names for Ghiyasuddin Tughluq, but the second does not explain the first."
+     "explanation": "Both statements are true alternative names for Ghiyasuddin Tughluq, but the second does not explain the first.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-65-12",
@@ -33923,7 +34764,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the identification as Kadphises II does not explain the title Sarvalokeshvara."
+     "explanation": "Both statements are true, but the identification as Kadphises II does not explain the title Sarvalokeshvara.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-65-13",
@@ -33937,7 +34782,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Saadat Khan was known as Burhan-ul-Mulk, and Chin Qilich Khan was known as Nizam-ul-Mulk."
+     "explanation": "Both statements are correct: Saadat Khan was known as Burhan-ul-Mulk, and Chin Qilich Khan was known as Nizam-ul-Mulk.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-65-14",
@@ -33951,7 +34800,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 3,
-     "explanation": "Statement A is false because Samudragupta was described as the “Napoleon of India.” Statement B is true."
+     "explanation": "Statement A is false because Samudragupta was described as the “Napoleon of India.” Statement B is true.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-65-15",
@@ -33965,7 +34818,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Mubarak Shah was also called Mubarak Khalji. Sarvalokeshvara was associated with Vima Kadphises, not Aurangzeb."
+     "explanation": "Mubarak Shah was also called Mubarak Khalji. Sarvalokeshvara was associated with Vima Kadphises, not Aurangzeb.",
+     "facts": [
+      "F4",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-65-16",
@@ -33979,7 +34836,14 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Ghazi Malik was associated with Ghiyasuddin Tughluq, while Vima Kadphises was known as Sarvalokeshvara."
+     "explanation": "Statements I, II and III are correct. Ghazi Malik was associated with Ghiyasuddin Tughluq, while Vima Kadphises was known as Sarvalokeshvara.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-65-17",
@@ -33993,7 +34857,13 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Mubarak Shah was associated with Al-Imam, Ul-Imam and Khilafatullah. Asaf-Jah was associated with Chin Qilich Khan, also known as Nizam-ul-Mulk."
+     "explanation": "Mubarak Shah was associated with Al-Imam, Ul-Imam and Khilafatullah. Asaf-Jah was associated with Chin Qilich Khan, also known as Nizam-ul-Mulk.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-65-18",
@@ -34007,7 +34877,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Samudragupta–Napoleon of India, Chandragupta II–Vikramaditya, Vima Kadphises–Sarvalokeshvara and Aurangzeb–Zinda Pir."
+     "explanation": "The correct pairs are Samudragupta–Napoleon of India, Chandragupta II–Vikramaditya, Vima Kadphises–Sarvalokeshvara and Aurangzeb–Zinda Pir.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-65-19",
@@ -34021,7 +34897,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Ghiyasuddin Tughluq–Ghazi Malik, Mubarak Shah–Al-Imam, Saadat Khan–Burhan-ul-Mulk and Chin Qilich Khan–Nizam-ul-Mulk."
+     "explanation": "The correct pairs are Ghiyasuddin Tughluq–Ghazi Malik, Mubarak Shah–Al-Imam, Saadat Khan–Burhan-ul-Mulk and Chin Qilich Khan–Nizam-ul-Mulk.",
+     "facts": [
+      "F5",
+      "F10",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-65-20",
@@ -34035,7 +34917,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Vima Kadphises–Sarvalokeshvara, Ghiyasuddin Tughluq–Ghazi Tughluq, Saadat Khan–Burhan-ul-Mulk and Chin Qilich Khan–Asaf-Jah."
+     "explanation": "The correct pairs are Vima Kadphises–Sarvalokeshvara, Ghiyasuddin Tughluq–Ghazi Tughluq, Saadat Khan–Burhan-ul-Mulk and Chin Qilich Khan–Asaf-Jah.",
+     "facts": [
+      "F4",
+      "F6",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-65-21",
@@ -34049,7 +34937,11 @@
       "All four"
      ],
      "answer": 0,
-     "explanation": "Only Aurangzeb is associated with the name Zinda Pir or Zindapir."
+     "explanation": "Only Aurangzeb is associated with the name Zinda Pir or Zindapir.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-65-22",
@@ -34063,9 +34955,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. Sarvalokeshvara was associated with Vima Kadphises, not Chin Qilich Khan."
+     "explanation": "The first three pairs are correct. Sarvalokeshvara was associated with Vima Kadphises, not Chin Qilich Khan.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "66": {
    "number": 66,
@@ -35129,7 +36032,10 @@
       "Vishnuvardhana"
      ],
      "answer": 3,
-     "explanation": "The Chennakeshava Temple at Belur was built by or patronised by Vishnuvardhana."
+     "explanation": "The Chennakeshava Temple at Belur was built by or patronised by Vishnuvardhana.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-69-2",
@@ -35143,7 +36049,10 @@
       "Achyutaraya"
      ],
      "answer": 2,
-     "explanation": "The Kailasa Temple at Ellora was constructed by Krishna I of the Rashtrakuta dynasty."
+     "explanation": "The Kailasa Temple at Ellora was constructed by Krishna I of the Rashtrakuta dynasty.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-history-69-3",
@@ -35157,7 +36066,10 @@
       "Matangeshvara Temple, Khajuraho"
      ],
      "answer": 3,
-     "explanation": "The Matangeshvara Temple at Khajuraho was built during King Dhanga’s reign."
+     "explanation": "The Matangeshvara Temple at Khajuraho was built during King Dhanga’s reign.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-history-69-4",
@@ -35171,7 +36083,10 @@
       "Vimal Shah"
      ],
      "answer": 3,
-     "explanation": "Vimal Shah was the builder or patron associated with the Vimal Vasahi Temple at Mount Abu."
+     "explanation": "Vimal Shah was the builder or patron associated with the Vimal Vasahi Temple at Mount Abu.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-history-69-5",
@@ -35185,7 +36100,11 @@
       "Vitthala Temple, Hampi"
      ],
      "answer": 3,
-     "explanation": "The Vitthala Temple at Hampi was associated with Krishnadeva Raya and was continued under Achyutaraya."
+     "explanation": "The Vitthala Temple at Hampi was associated with Krishnadeva Raya and was continued under Achyutaraya.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-69-6",
@@ -35199,7 +36118,18 @@
       "Vishnuvardhana was associated with the Chennakeshava Temple at Belur."
      ],
      "answer": 2,
-     "explanation": "The incorrect pairing is Vimal Shah–Virupaksha Temple. Vimal Shah was associated with the Vimal Vasahi Temple at Mount Abu; the Virupaksha Temple at Hampi was associated with Lakkana Dandesha."
+     "explanation": "The incorrect pairing is Vimal Shah–Virupaksha Temple. Vimal Shah was associated with the Vimal Vasahi Temple at Mount Abu; the Virupaksha Temple at Hampi was associated with Lakkana Dandesha.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F9",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-69-7",
@@ -35213,7 +36143,15 @@
       "The Hazara Rama Temple was associated with Vishnuvardhana."
      ],
      "answer": 3,
-     "explanation": "The altered detail is the patron of the Hazara Rama Temple. It was associated with Krishnadeva Raya, not Vishnuvardhana."
+     "explanation": "The altered detail is the patron of the Hazara Rama Temple. It was associated with Krishnadeva Raya, not Vishnuvardhana.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-69-8",
@@ -35227,7 +36165,13 @@
       "The Chennakeshava Temple is at Belur."
      ],
      "answer": 1,
-     "explanation": "The incorrect location is Khajuraho. The Vimal Vasahi Temple is located at Mount Abu."
+     "explanation": "The incorrect location is Khajuraho. The Vimal Vasahi Temple is located at Mount Abu.",
+     "facts": [
+      "F1",
+      "F4",
+      "F6",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-69-9",
@@ -35241,7 +36185,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Narasimha I was the builder or patron, while Kedroz was the architect. The architect’s identity does not explain the ruler’s association as patron."
+     "explanation": "Both statements are true: Narasimha I was the builder or patron, while Kedroz was the architect. The architect’s identity does not explain the ruler’s association as patron.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-69-10",
@@ -35255,7 +36204,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the association of the temple with Krishnadeva Raya and its continuation under Achyutaraya explains its Vijayanagara-period association."
+     "explanation": "Both statements are true, and the association of the temple with Krishnadeva Raya and its continuation under Achyutaraya explains its Vijayanagara-period association.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-69-11",
@@ -35269,7 +36222,13 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true, but the reason is false. Lakkana Dandesha was associated with the Virupaksha Temple at Hampi, whereas Vimal Shah was associated with the Vimal Vasahi Temple at Mount Abu."
+     "explanation": "The assertion is true, but the reason is false. Lakkana Dandesha was associated with the Virupaksha Temple at Hampi, whereas Vimal Shah was associated with the Vimal Vasahi Temple at Mount Abu.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-69-12",
@@ -35283,7 +36242,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: the Hazara Rama Temple is at Hampi, and the Matangeshvara Temple is at Khajuraho."
+     "explanation": "Both statements are true: the Hazara Rama Temple is at Hampi, and the Matangeshvara Temple is at Khajuraho.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-history-69-13",
@@ -35297,7 +36259,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because the Vimal Vasahi Temple was associated with Vimal Shah; King Dhanga’s reign is linked with the Matangeshvara Temple at Khajuraho."
+     "explanation": "Statement A is true. Statement B is false because the Vimal Vasahi Temple was associated with Vimal Shah; King Dhanga’s reign is linked with the Matangeshvara Temple at Khajuraho.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-69-14",
@@ -35311,7 +36281,12 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the temple-builder or patron associations."
+     "explanation": "All three statements are correct according to the temple-builder or patron associations.",
+     "facts": [
+      "F2",
+      "F5",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-69-15",
@@ -35325,7 +36300,13 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "All four statements correctly pair the temples with Halebidu, Belur, Ellora and Hampi respectively."
+     "explanation": "All four statements correctly pair the temples with Halebidu, Belur, Ellora and Hampi respectively.",
+     "facts": [
+      "F1",
+      "F4",
+      "F12",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-69-16",
@@ -35339,7 +36320,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Hoysaleshwara–Narasimha I, Chennakeshava–Vishnuvardhana, Kailasa–Krishna I and Vimal Vasahi–Vimal Shah."
+     "explanation": "The correct pairs are Hoysaleshwara–Narasimha I, Chennakeshava–Vishnuvardhana, Kailasa–Krishna I and Vimal Vasahi–Vimal Shah.",
+     "facts": [
+      "F2",
+      "F5",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-history-69-17",
@@ -35353,7 +36340,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Hoysaleshwara–Halebidu, Matangeshvara–Khajuraho, Vitthala–Hampi and Vimal Vasahi–Mount Abu."
+     "explanation": "The correct pairs are Hoysaleshwara–Halebidu, Matangeshvara–Khajuraho, Vitthala–Hampi and Vimal Vasahi–Mount Abu.",
+     "facts": [
+      "F1",
+      "F6",
+      "F10",
+      "F14"
+     ]
     },
     {
      "id": "indian-history-69-18",
@@ -35367,7 +36360,17 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Vitthala–Krishnadeva Raya and Achyutaraya, Hazara Rama–Krishnadeva Raya, Virupaksha–Lakkana Dandesha and Matangeshvara–King Dhanga’s reign."
+     "explanation": "The correct pairs are Vitthala–Krishnadeva Raya and Achyutaraya, Hazara Rama–Krishnadeva Raya, Virupaksha–Lakkana Dandesha and Matangeshvara–King Dhanga’s reign.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-history-69-19",
@@ -35381,7 +36384,12 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three temples in the list are associated with Hampi: the Vitthala Temple, Hazara Rama Temple and Virupaksha Temple. The Vimal Vasahi Temple is at Mount Abu."
+     "explanation": "Three temples in the list are associated with Hampi: the Vitthala Temple, Hazara Rama Temple and Virupaksha Temple. The Vimal Vasahi Temple is at Mount Abu.",
+     "facts": [
+      "F6",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-history-69-20",
@@ -35395,9 +36403,38 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three associations are correct. Lakkana Dandesha was associated with the Virupaksha Temple at Hampi, while the Vimal Vasahi Temple was associated with Vimal Shah."
+     "explanation": "The first three associations are correct. Lakkana Dandesha was associated with the Virupaksha Temple at Hampi, while the Vimal Vasahi Temple was associated with Vimal Shah.",
+     "facts": [
+      "F3",
+      "F5",
+      "F13",
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-history-69-21",
+     "format": "Direct Recall",
+     "keyword": "Temple – Period",
+     "question": "Which of the following correctly states the historical association of the Virupaksha Temple?",
+     "options": [
+      "It was built during King Dhanga’s reign",
+      "It was associated with Krishna I of the Rashtrakuta dynasty",
+      "It belongs to the Vijayanagara period",
+      "It was associated with Krishnadeva Raya and continued under Achyutaraya"
+     ],
+     "answer": 2,
+     "explanation": "The Virupaksha Temple belongs to the Vijayanagara period. The other options refer to the Vitthala Temple, Kailasa Temple and Matangeshvara Temple respectively.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "70": {
    "number": 70,
@@ -36562,7 +37599,10 @@
       "Agra"
      ],
      "answer": 1,
-     "explanation": "The Taj Mahal was built under the patronage of Shah Jahan."
+     "explanation": "The Taj Mahal was built under the patronage of Shah Jahan.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-72-2",
@@ -36576,7 +37616,12 @@
       "The Taj Mahal was built as the mausoleum of Mumtaz Mahal."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location. The Taj Mahal is located at Agra; Shah Jahan was its builder or patron."
+     "explanation": "The incorrect detail is the location. The Taj Mahal is located at Agra; Shah Jahan was its builder or patron.",
+     "facts": [
+      "F2",
+      "F5",
+      "F3"
+     ]
     },
     {
      "id": "indian-history-72-3",
@@ -36590,7 +37635,11 @@
       "Mausoleum of Arjumand Bano Begum"
      ],
      "answer": 0,
-     "explanation": "The Taj Mahal was built as the mausoleum of Mumtaz Mahal."
+     "explanation": "The Taj Mahal was built as the mausoleum of Mumtaz Mahal.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-72-4",
@@ -36604,7 +37653,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true: Mumtaz Mahal's actual name was Arjumand Bano Begum. Statement B is false because the Taj Mahal is located at Agra."
+     "explanation": "Statement A is true: Mumtaz Mahal's actual name was Arjumand Bano Begum. Statement B is false because the Taj Mahal is located at Agra.",
+     "facts": [
+      "F4",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-72-5",
@@ -36618,7 +37671,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the location at Agra does not explain the architectural combination. The Taj Mahal's architecture combines Indian, Persian and Central Asian elements."
+     "explanation": "Both statements are true, but the location at Agra does not explain the architectural combination. The Taj Mahal's architecture combines Indian, Persian and Central Asian elements.",
+     "facts": [
+      "F5",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-72-6",
@@ -36632,7 +37689,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct: the Taj Mahal is in the Mughal architectural style, was built as the mausoleum of Mumtaz Mahal, and is located at Agra."
+     "explanation": "All three statements are correct: the Taj Mahal is in the Mughal architectural style, was built as the mausoleum of Mumtaz Mahal, and is located at Agra.",
+     "facts": [
+      "F6",
+      "F3",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-72-7",
@@ -36646,9 +37708,20 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Shah Jahan—builder or patron; Agra—location; Mumtaz Mahal—person whose mausoleum it is; Mughal architecture—style."
+     "explanation": "The correct pairs are: Shah Jahan—builder or patron; Agra—location; Mumtaz Mahal—person whose mausoleum it is; Mughal architecture—style.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 6,
+    "covered": 6,
+    "audited": true
+   }
   },
   "73": {
    "number": 73,
@@ -37483,7 +38556,10 @@
       "Victory over rulers of the Ganga region"
      ],
      "answer": 0,
-     "explanation": "The Buland Darwaza at Fatehpur Sikri commemorated Akbar’s victory over Gujarat."
+     "explanation": "The Buland Darwaza at Fatehpur Sikri commemorated Akbar’s victory over Gujarat.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-history-75-2",
@@ -37497,7 +38573,10 @@
       "Rajendra Chola I"
      ],
      "answer": 3,
-     "explanation": "The Chola Gangam or Ponneri artificial lake is associated with Rajendra Chola I."
+     "explanation": "The Chola Gangam or Ponneri artificial lake is associated with Rajendra Chola I.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-3",
@@ -37511,7 +38590,13 @@
       "The Buland Darwaza commemorated victory in the Deccan/South."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the person associated with the Buland Darwaza. The monument is associated with Akbar, whereas Rajendra Chola I is associated with the Chola Gangam or Ponneri artificial lake."
+     "explanation": "The incorrect detail is the person associated with the Buland Darwaza. The monument is associated with Akbar, whereas Rajendra Chola I is associated with the Chola Gangam or Ponneri artificial lake.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-4",
@@ -37525,7 +38610,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported: Akbar is the ruler associated with the Buland Darwaza, and the monument commemorated victories over Gujarat and in the Deccan/South."
+     "explanation": "Both statements are supported: Akbar is the ruler associated with the Buland Darwaza, and the monument commemorated victories over Gujarat and in the Deccan/South.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-history-75-5",
@@ -37539,7 +38630,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The Chola Gangam is associated with Rajendra Chola I and commemorated victory over rulers of the Ganga region, but the commemorated victory does not itself explain the stated association with the ruler."
+     "explanation": "Both statements are true. The Chola Gangam is associated with Rajendra Chola I and commemorated victory over rulers of the Ganga region, but the commemorated victory does not itself explain the stated association with the ruler.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-6",
@@ -37553,7 +38648,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet records the Battle of Thakkolam as occurring in 949 CE and associates it with Prince Rajaditya Chola."
+     "explanation": "The sheet records the Battle of Thakkolam as occurring in 949 CE and associates it with Prince Rajaditya Chola.",
+     "facts": [
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-75-7",
@@ -37567,7 +38666,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and III are correct. The Chola Gangam was associated with Rajendra Chola I, not Akbar."
+     "explanation": "Statements I and III are correct. The Chola Gangam was associated with Rajendra Chola I, not Akbar.",
+     "facts": [
+      "F1",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-75-8",
@@ -37581,7 +38685,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are a-ii, b-iii, c-iv, and d-i. The Buland Darwaza is associated with Akbar; the Chola Gangam with Rajendra Chola I; the Ponneri artificial lake with victory over rulers of the Ganga region; and Thakkolam with 949 CE."
+     "explanation": "The correct pairs are a-ii, b-iii, c-iv, and d-i. The Buland Darwaza is associated with Akbar; the Chola Gangam with Rajendra Chola I; the Ponneri artificial lake with victory over rulers of the Ganga region; and Thakkolam with 949 CE.",
+     "facts": [
+      "F2",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-75-9",
@@ -37595,7 +38705,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three entries are associated with Akbar: the Buland Darwaza at Fatehpur Sikri, victory in the Deccan/South, and victory over Gujarat. The Chola Gangam is associated with Rajendra Chola I."
+     "explanation": "Three entries are associated with Akbar: the Buland Darwaza at Fatehpur Sikri, victory in the Deccan/South, and victory over Gujarat. The Chola Gangam is associated with Rajendra Chola I.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-10",
@@ -37609,7 +38725,10 @@
       "Chola Gangam"
      ],
      "answer": 0,
-     "explanation": "RTC, Thakkolam was renamed in memory of Prince Rajaditya Chola."
+     "explanation": "RTC, Thakkolam was renamed in memory of Prince Rajaditya Chola.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-75-11",
@@ -37623,7 +38742,10 @@
       "Chola Gangam and Ponneri artificial lake"
      ],
      "answer": 3,
-     "explanation": "Chola Gangam is also known as the Ponneri artificial lake."
+     "explanation": "Chola Gangam is also known as the Ponneri artificial lake.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-history-75-12",
@@ -37637,7 +38759,10 @@
       "948 CE"
      ],
      "answer": 1,
-     "explanation": "The Battle of Thakkolam took place in 949 CE."
+     "explanation": "The Battle of Thakkolam took place in 949 CE.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-75-13",
@@ -37651,7 +38776,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The association of Prince Rajaditya Chola with the Battle of Thakkolam explains why RTC, Thakkolam was renamed in his memory."
+     "explanation": "Both statements are true. The association of Prince Rajaditya Chola with the Battle of Thakkolam explains why RTC, Thakkolam was renamed in his memory.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-75-14",
@@ -37665,7 +38794,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but Rajendra Chola I's association does not explain the fact that Chola Gangam is also known as the Ponneri artificial lake."
+     "explanation": "Both statements are true, but Rajendra Chola I's association does not explain the fact that Chola Gangam is also known as the Ponneri artificial lake.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-15",
@@ -37679,7 +38812,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: Akbar is associated with the Buland Darwaza, while Rajendra Chola I is associated with Chola Gangam."
+     "explanation": "Both statements are true: Akbar is associated with the Buland Darwaza, while Rajendra Chola I is associated with Chola Gangam.",
+     "facts": [
+      "F2",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-16",
@@ -37693,7 +38830,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. The sheet associates the two victories with the Buland Darwaza, the Ganga-region victory with Chola Gangam, and RTC, Thakkolam with Prince Rajaditya Chola's memory."
+     "explanation": "All four statements are correct. The sheet associates the two victories with the Buland Darwaza, the Ganga-region victory with Chola Gangam, and RTC, Thakkolam with Prince Rajaditya Chola's memory.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-75-17",
@@ -37707,7 +38850,14 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: a-iii, b-ii, c-iv and d-i."
+     "explanation": "The correct pairs are: a-iii, b-ii, c-iv and d-i.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-75-18",
@@ -37721,7 +38871,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two items are associated with Prince Rajaditya Chola: the Battle of Thakkolam and RTC, Thakkolam, which was renamed in his memory."
+     "explanation": "Two items are associated with Prince Rajaditya Chola: the Battle of Thakkolam and RTC, Thakkolam, which was renamed in his memory.",
+     "facts": [
+      "F2",
+      "F6",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-75-19",
@@ -37735,7 +38891,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Chola Gangam is identified as the Ponneri artificial lake, and it is associated with Rajendra Chola I."
+     "explanation": "Chola Gangam is identified as the Ponneri artificial lake, and it is associated with Rajendra Chola I.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-75-20",
@@ -37749,9 +38909,19 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "The notes associate the Battle of Thakkolam with 949 CE and state that RTC, Thakkolam was renamed in memory of Prince Rajaditya Chola. Its association with Akbar is incorrect."
+     "explanation": "The notes associate the Battle of Thakkolam with 949 CE and state that RTC, Thakkolam was renamed in memory of Prince Rajaditya Chola. Its association with Akbar is incorrect.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "76": {
    "number": 76,
@@ -41317,7 +42487,11 @@
       "Alauddin Khalji"
      ],
      "answer": 0,
-     "explanation": "Jizya was abolished by Akbar."
+     "explanation": "Jizya was abolished by Akbar.",
+     "facts": [
+      "F1",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-84-2",
@@ -41331,7 +42505,10 @@
       "Akbar"
      ],
      "answer": 3,
-     "explanation": "Akbar abolished the pilgrimage tax."
+     "explanation": "Akbar abolished the pilgrimage tax.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-84-3",
@@ -41345,7 +42522,14 @@
       "Alauddin Khalji abolished the privileges of Khutt, Mukaddam and Chaudhary."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the ruler. The tax on grains and several grain levies were abolished by Sikandar Lodi, not Akbar."
+     "explanation": "The incorrect detail is the ruler. The tax on grains and several grain levies were abolished by Sikandar Lodi, not Akbar.",
+     "facts": [
+      "F3",
+      "F8",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-84-4",
@@ -41359,7 +42543,12 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The Assertion is true because Alauddin Khalji abolished these privileges. The Reason is false; Akbar is associated with abolishing Jizya and the pilgrimage tax."
+     "explanation": "The Assertion is true because Alauddin Khalji abolished these privileges. The Reason is false; Akbar is associated with abolishing Jizya and the pilgrimage tax.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-84-5",
@@ -41373,7 +42562,10 @@
       "Shah Jahan"
      ],
      "answer": 0,
-     "explanation": "Zain-ul-Abidin of Kashmir abolished Jizya."
+     "explanation": "Zain-ul-Abidin of Kashmir abolished Jizya.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-84-6",
@@ -41387,7 +42579,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The notes associate the abolition of cow slaughter with Zain-ul-Abidin of Kashmir, not Akbar."
+     "explanation": "Statement A is true. The notes associate the abolition of cow slaughter with Zain-ul-Abidin of Kashmir, not Akbar.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-history-84-7",
@@ -41401,7 +42596,10 @@
       "Akbar"
      ],
      "answer": 1,
-     "explanation": "Shah Jahan abolished Sijda, the Iranian court tradition."
+     "explanation": "Shah Jahan abolished Sijda, the Iranian court tradition.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-history-84-8",
@@ -41415,7 +42613,10 @@
       "Sikandar Lodi"
      ],
      "answer": 3,
-     "explanation": "The tax on grains and several grain levies were abolished by Sikandar Lodi."
+     "explanation": "The tax on grains and several grain levies were abolished by Sikandar Lodi.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-84-9",
@@ -41429,9 +42630,19 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet states that child marriage and Sati were abolished during Akbar’s reign, while Sijda was abolished by Shah Jahan."
+     "explanation": "The sheet states that child marriage and Sati were abolished during Akbar’s reign, while Sijda was abolished by Shah Jahan.",
+     "facts": [
+      "F10",
+      "F11",
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "85": {
    "number": 85,
@@ -43060,7 +44271,10 @@
       "A Kakatiya ruler"
      ],
      "answer": 2,
-     "explanation": "Kallanai or Grand Anicut is specifically associated with Karikala Chola."
+     "explanation": "Kallanai or Grand Anicut is specifically associated with Karikala Chola.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-history-89-2",
@@ -43074,7 +44288,11 @@
       "Tank irrigation was associated with agricultural development."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the dynasty. The notes identify tank irrigation as a major feature of the Cholas' agricultural economy, not the Vijayanagara rulers'."
+     "explanation": "The incorrect detail is the dynasty. The notes identify tank irrigation as a major feature of the Cholas' agricultural economy, not the Vijayanagara rulers'.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-89-3",
@@ -43088,7 +44306,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Kallanai–Karikala Chola, tank irrigation–Cholas, tanks/reservoirs–Vijayanagara rulers, and large irrigation tanks–Kakatiyas."
+     "explanation": "The correct pairs are: Kallanai–Karikala Chola, tank irrigation–Cholas, tanks/reservoirs–Vijayanagara rulers, and large irrigation tanks–Kakatiyas.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-history-89-4",
@@ -43102,7 +44326,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Tanks and reservoirs are linked with the Vijayanagara rulers, with irrigation and water management identified as their key association."
+     "explanation": "Both statements are true. Tanks and reservoirs are linked with the Vijayanagara rulers, with irrigation and water management identified as their key association.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-89-5",
@@ -43116,7 +44344,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate large irrigation tanks with the Kakatiyas and connect them with agricultural expansion and water management."
+     "explanation": "Both statements are true. The notes associate large irrigation tanks with the Kakatiyas and connect them with agricultural expansion and water management.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-history-89-6",
@@ -43130,7 +44362,13 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct. The sheet links Kallanai with irrigation and agricultural development, tank irrigation with the Chola agricultural economy, and tanks/reservoirs with Vijayanagara irrigation and water management."
+     "explanation": "All three statements are correct. The sheet links Kallanai with irrigation and agricultural development, tank irrigation with the Chola agricultural economy, and tanks/reservoirs with Vijayanagara irrigation and water management.",
+     "facts": [
+      "F3",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-89-7",
@@ -43144,9 +44382,37 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the sheet: Kallanai–Karikala Chola, tank irrigation–Cholas, tanks/reservoirs–Vijayanagara rulers, and large irrigation tanks–Kakatiyas."
+     "explanation": "All four associations are correct according to the sheet: Kallanai–Karikala Chola, tank irrigation–Cholas, tanks/reservoirs–Vijayanagara rulers, and large irrigation tanks–Kakatiyas.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-history-89-8",
+     "format": "Direct Recall",
+     "keyword": "Old name",
+     "question": "The Grand Anicut is another name for which of the following?",
+     "options": [
+      "Tank irrigation",
+      "Kallanai",
+      "Tanks and reservoirs",
+      "Large irrigation tanks"
+     ],
+     "answer": 1,
+     "explanation": "Kallanai is also known as the Grand Anicut.",
+     "facts": [
+      "F1"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "90": {
    "number": 90,
@@ -50229,7 +51495,11 @@
       "Dr. Rajendra Prasad"
      ],
      "answer": 2,
-     "explanation": "Dr. Sachchidananda Sinha was the Temporary Chairman and first President of the Constituent Assembly."
+     "explanation": "Dr. Sachchidananda Sinha was the Temporary Chairman and first President of the Constituent Assembly.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-104-2",
@@ -50243,7 +51513,10 @@
       "Dr. B.R. Ambedkar"
      ],
      "answer": 2,
-     "explanation": "Dr. Rajendra Prasad was the Permanent President of the Constituent Assembly."
+     "explanation": "Dr. Rajendra Prasad was the Permanent President of the Constituent Assembly.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-history-104-3",
@@ -50257,7 +51530,14 @@
       "Jawaharlal Nehru was the Chairman of the Union Powers Committee."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Dr. Sachchidananda Sinha was the Temporary Chairman and first President; Dr. Rajendra Prasad was the Permanent President."
+     "explanation": "The incorrect statement is the fourth one. Dr. Sachchidananda Sinha was the Temporary Chairman and first President; Dr. Rajendra Prasad was the Permanent President.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-4",
@@ -50271,7 +51551,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Dr. B.R. Ambedkar was the Chairman of the Drafting Committee, which establishes the chairmanship referred to in the Assertion."
+     "explanation": "Both statements are true. Dr. B.R. Ambedkar was the Chairman of the Drafting Committee, which establishes the chairmanship referred to in the Assertion.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-history-104-5",
@@ -50285,7 +51568,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Jawaharlal Nehru chaired both the Union Powers Committee and the Union Constitution Committee."
+     "explanation": "Both statements are true. Jawaharlal Nehru chaired both the Union Powers Committee and the Union Constitution Committee.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-104-6",
@@ -50299,7 +51586,10 @@
       "Dr. B.R. Ambedkar"
      ],
      "answer": 2,
-     "explanation": "Sardar Vallabhbhai Patel was the Chairman of the Advisory Committee."
+     "explanation": "Sardar Vallabhbhai Patel was the Chairman of the Advisory Committee.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-7",
@@ -50313,7 +51603,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "Dr. Sachchidananda Sinha, Dr. Rajendra Prasad, Dr. B.R. Ambedkar and Jawaharlal Nehru held the respective positions listed in the correct matching."
+     "explanation": "Dr. Sachchidananda Sinha, Dr. Rajendra Prasad, Dr. B.R. Ambedkar and Jawaharlal Nehru held the respective positions listed in the correct matching.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-104-8",
@@ -50327,7 +51624,12 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements correctly identify the chairpersons of the respective Constituent Assembly committees."
+     "explanation": "All three statements correctly identify the chairpersons of the respective Constituent Assembly committees.",
+     "facts": [
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-9",
@@ -50341,7 +51643,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Jawaharlal Nehru chaired the Union Powers Committee and the Union Constitution Committee."
+     "explanation": "Jawaharlal Nehru chaired the Union Powers Committee and the Union Constitution Committee.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-10",
@@ -50355,7 +51663,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Nehru chaired the Union Constitution Committee and Patel chaired the Advisory Committee."
+     "explanation": "Both statements are correct: Nehru chaired the Union Constitution Committee and Patel chaired the Advisory Committee.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-11",
@@ -50369,7 +51681,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and his designation as Temporary Chairman is linked with his being identified as the first President."
+     "explanation": "Both statements are true, and his designation as Temporary Chairman is linked with his being identified as the first President.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-history-104-12",
@@ -50383,7 +51699,11 @@
       "Sardar Vallabhbhai Patel"
      ],
      "answer": 1,
-     "explanation": "Jawaharlal Nehru was the Chairman of both the Union Powers Committee and the Union Constitution Committee."
+     "explanation": "Jawaharlal Nehru was the Chairman of both the Union Powers Committee and the Union Constitution Committee.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-history-104-13",
@@ -50397,7 +51717,13 @@
       "a-iii, b-i, c-ii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The Drafting Committee was chaired by Ambedkar; the Union Constitution and Union Powers Committees by Nehru; and the Advisory Committee by Patel."
+     "explanation": "The Drafting Committee was chaired by Ambedkar; the Union Constitution and Union Powers Committees by Nehru; and the Advisory Committee by Patel.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-14",
@@ -50411,7 +51737,12 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Nehru chaired the Union Powers and Union Constitution Committees; the Advisory Committee was chaired by Sardar Vallabhbhai Patel."
+     "explanation": "Nehru chaired the Union Powers and Union Constitution Committees; the Advisory Committee was chaired by Sardar Vallabhbhai Patel.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-15",
@@ -50425,7 +51756,16 @@
       "Six"
      ],
      "answer": 2,
-     "explanation": "The list identifies five distinct persons: Sinha, Rajendra Prasad, Ambedkar, Nehru and Patel."
+     "explanation": "The list identifies five distinct persons: Sinha, Rajendra Prasad, Ambedkar, Nehru and Patel.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-16",
@@ -50439,7 +51779,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is correct. Statement B is incorrect because the Union Powers Committee was chaired by Jawaharlal Nehru."
+     "explanation": "Statement A is correct. Statement B is incorrect because the Union Powers Committee was chaired by Jawaharlal Nehru.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-history-104-17",
@@ -50453,7 +51797,13 @@
       "Advisory Committee"
      ],
      "answer": 3,
-     "explanation": "Sardar Vallabhbhai Patel was the Chairman of the Advisory Committee."
+     "explanation": "Sardar Vallabhbhai Patel was the Chairman of the Advisory Committee.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-18",
@@ -50467,7 +51817,14 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The Advisory Committee was chaired by Sardar Vallabhbhai Patel, not Dr. B.R. Ambedkar."
+     "explanation": "Statements I, II and IV are correct. The Advisory Committee was chaired by Sardar Vallabhbhai Patel, not Dr. B.R. Ambedkar.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-19",
@@ -50481,7 +51838,16 @@
       "Only five"
      ],
      "answer": 1,
-     "explanation": "The Temporary Chairman / first President, Permanent President and Drafting Committee Chairman were Dr. Sachchidananda Sinha, Dr. Rajendra Prasad and Dr. B.R. Ambedkar respectively. Thus, three positions were held by persons other than Jawaharlal Nehru and Sardar Vallabhbhai Patel."
+     "explanation": "The Temporary Chairman / first President, Permanent President and Drafting Committee Chairman were Dr. Sachchidananda Sinha, Dr. Rajendra Prasad and Dr. B.R. Ambedkar respectively. Thus, three positions were held by persons other than Jawaharlal Nehru and Sardar Vallabhbhai Patel.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-history-104-20",
@@ -50495,9 +51861,23 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Jawaharlal Nehru held the chairmanships of both the Union Powers Committee and the Union Constitution Committee; all other listed persons held one listed position each. Dr. Sachchidananda Sinha was the Temporary Chairman / first President, while Dr. Rajendra Prasad was the Permanent President."
+     "explanation": "Jawaharlal Nehru held the chairmanships of both the Union Powers Committee and the Union Constitution Committee; all other listed persons held one listed position each. Dr. Sachchidananda Sinha was the Temporary Chairman / first President, while Dr. Rajendra Prasad was the Permanent President.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 7,
+    "covered": 7,
+    "audited": true
+   }
   },
   "105": {
    "number": 105,
@@ -55659,8 +57039,30 @@
       "F19",
       "F22"
      ]
+    },
+    {
+     "id": "indian-history-115-21",
+     "format": "Direct Recall",
+     "keyword": "Movement – Found in/Place",
+     "question": "Direct Action Day was associated with which organisation?",
+     "options": [
+      "Indian National Congress",
+      "Besant Home Rule League",
+      "Tilak Home Rule League",
+      "Muslim League"
+     ],
+     "answer": 3,
+     "explanation": "Direct Action Day was associated with the Muslim League. The notes also specify that it was observed on 16 August 1946.",
+     "facts": [
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "116": {
    "number": 116,
@@ -56084,8 +57486,31 @@
      "facts": [
       "F10"
      ]
+    },
+    {
+     "id": "indian-history-116-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Place – Associated with",
+     "question": "Consider the following statements:\nStatement A: The Arya Samaj was located in Bombay.\nStatement B: The Satyashodhak Samaj was located in Maharashtra.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Arya Samaj was located in Bombay, while the Satyashodhak Samaj was located in Maharashtra.",
+     "facts": [
+      "F17",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 37,
+    "covered": 37,
+    "audited": true
+   }
   },
   "117": {
    "number": 117,

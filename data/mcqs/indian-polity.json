@@ -37030,12 +37030,29 @@
       "F19",
       "F20"
      ]
+    },
+    {
+     "id": "indian-polity-56-39",
+     "format": "Direct Recall",
+     "keyword": "Judge",
+     "question": "The oath of office of a High Court Judge is administered by whom?",
+     "options": [
+      "The Chief Justice of the High Court",
+      "The President of India",
+      "The Chief Justice of India",
+      "The Governor of the State"
+     ],
+     "answer": 3,
+     "explanation": "The oath of a High Court Judge is administered by the Governor of the State.",
+     "facts": [
+      "F60"
+     ]
     }
    ],
    "coverage": {
     "facts": 79,
-    "covered": 78,
-    "audited": false
+    "covered": 79,
+    "audited": true
    }
   },
   "57": {
