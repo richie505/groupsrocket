@@ -692,7 +692,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:09:43+00:00",
+   "generated_at": "2026-09-30T07:58:37+00:00",
    "mcqs": [
     {
      "id": "ap-history-2-1",
@@ -5549,7 +5549,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:09:43+00:00",
+   "generated_at": "2026-09-30T07:58:43+00:00",
    "mcqs": [
     {
      "id": "ap-history-14-1",
@@ -14559,7 +14559,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:10:58+00:00",
+   "generated_at": "2026-09-30T07:58:41+00:00",
    "mcqs": [
     {
      "id": "ap-history-35-1",
@@ -14790,6 +14790,62 @@
      "facts": [
       "F22"
      ]
+    },
+    {
+     "id": "ap-history-35-13",
+     "format": "Direct Recall",
+     "keyword": "Immediate successor",
+     "question": "Who ascended the throne after Rudra Deva?",
+     "options": [
+      "Rudramadevi",
+      "Pratapa Rudra",
+      "Mahadeva",
+      "Ganapatideva"
+     ],
+     "answer": 2,
+     "explanation": "Mahadeva ascended after Rudra Deva."
+    },
+    {
+     "id": "ap-history-35-14",
+     "format": "Direct Recall",
+     "keyword": "Ruler – period – contribution",
+     "question": "Who occupied the throne after Anavema Reddy?",
+     "options": [
+      "Saluva Narasimha",
+      "Mahadeva",
+      "Pratapa Rudra",
+      "Kumaragiri Reddy"
+     ],
+     "answer": 3,
+     "explanation": "Kumaragiri Reddy occupied the throne after Anavema Reddy."
+    },
+    {
+     "id": "ap-history-35-15",
+     "format": "List-Matching",
+     "keyword": "Founder/founded",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Mahadeva\n(b) Kumaragiri Reddy\n(c) Harihara-I\n(d) Lord Cornwallis\n\nList-II\n(i) First ruler of Vijayanagara\n(ii) Occupied throne after Anavema Reddy\n(iii) Introduced the office of Collector\n(iv) Ascended after Rudra Deva\n\nSelect the correct answer using the code below.",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Mahadeva–ascended after Rudra Deva, Kumaragiri Reddy–occupied the throne after Anavema Reddy, Harihara-I–first ruler of Vijayanagara, and Lord Cornwallis–introduced the office of Collector."
+    },
+    {
+     "id": "ap-history-35-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Office – administration",
+     "question": "Consider the following statements:\n\nI. Lord Cornwallis introduced the office of Collector.\nII. The office of Collector was introduced in 1802.\nIII. The office of Collector was introduced in the North Sarkar region.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: Lord Cornwallis introduced the office of Collector in 1802 in the North Sarkar region."
     }
    ],
    "coverage": {
@@ -17227,7 +17283,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-29T07:10:47+00:00",
+   "generated_at": "2026-09-30T07:58:37+00:00",
    "mcqs": [
     {
      "id": "ap-history-43-1",
