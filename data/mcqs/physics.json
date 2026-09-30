@@ -12939,7 +12939,7 @@
     "g2": []
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:07:51+00:00",
+   "generated_at": "2026-09-30T08:07:59+00:00",
    "mcqs": [
     {
      "id": "physics-20-1",
@@ -13542,6 +13542,34 @@
      ],
      "answer": 0,
      "explanation": "SONAR measures the speed of submarines or underwater objects; weather radar detects storm or wind speed; bat navigation uses echolocation with frequency shift; medical ultrasound measures blood-flow velocity."
+    },
+    {
+     "id": "physics-20-44",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "The approximate wavelength of gamma rays is:",
+     "options": [
+      "0.01 to 10 nm",
+      "1 mm to 1 m",
+      "Less than 0.01 nm",
+      "Greater than 1 m"
+     ],
+     "answer": 2,
+     "explanation": "Gamma rays have an approximate wavelength of less than 0.01 nm."
+    },
+    {
+     "id": "physics-20-45",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): We cannot see around corners clearly.\nReason (R): Light has a very small wavelength.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Light’s very small wavelength causes limited diffraction, which is why objects around corners cannot be seen clearly."
     }
    ]
   },

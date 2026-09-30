@@ -17756,7 +17756,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:07:40+00:00",
+   "generated_at": "2026-09-30T08:08:00+00:00",
    "mcqs": [
     {
      "id": "biology-63-1",
@@ -18009,6 +18009,34 @@
      ],
      "answer": 0,
      "explanation": "Statements I and III are correct. Mycoplasma pneumoniae is associated with atypical pneumonia and Mycobacterium leprae with leprosy; Clostridium tetani is associated with tetanus, not botulism."
+    },
+    {
+     "id": "biology-63-19",
+     "format": "Count-Based",
+     "keyword": "Count-Based",
+     "question": "How many bacterium–disease pairs are listed in the BACTERIA → DISEASE table?",
+     "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+     ],
+     "answer": 1,
+     "explanation": "The BACTERIA → DISEASE table contains nine pairs, including C. botulinum–Botulism."
+    },
+    {
+     "id": "biology-63-20",
+     "format": "Direct Recall",
+     "keyword": "Microorganism → Disease",
+     "question": "Which microorganism appears in the BACTERIA → DISEASE table but does not appear in the MICROORGANISM → DISEASE table?",
+     "options": [
+      "Entamoeba histolytica",
+      "C. botulinum",
+      "Leishmania",
+      "Mycoplasma pneumoniae"
+     ],
+     "answer": 1,
+     "explanation": "C. botulinum is listed in the BACTERIA → DISEASE table with Botulism, but it is not listed in the MICROORGANISM → DISEASE table."
     }
    ]
   },
@@ -18024,7 +18052,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:07:55+00:00",
+   "generated_at": "2026-09-30T08:08:05+00:00",
    "mcqs": [
     {
      "id": "biology-64-1",
@@ -18263,6 +18291,48 @@
      ],
      "answer": 0,
      "explanation": "The protozoan table associates Trypanosoma with sleeping sickness."
+    },
+    {
+     "id": "biology-64-18",
+     "format": "Assertion-Reason",
+     "keyword": "Disease Associations",
+     "question": "Assertion (A): Rabies virus is associated with Rabies.\nReason (R): Rabies is listed as the disease corresponding to Rabies virus.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Rabies is the disease associated with Rabies virus, and the reason directly explains the assertion."
+    },
+    {
+     "id": "biology-64-19",
+     "format": "List-Matching",
+     "keyword": "Disease Associations",
+     "question": "Match List-I with List-II:\nList-I\n(a) Candida\n(b) Entamoeba histolytica\n(c) Leishmania donovani\n(d) Influenza virus\n\nList-II\n(i) Kala-azar\n(ii) Influenza\n(iii) Candidiasis\n(iv) Amoebic dysentery",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Candida–Candidiasis, Entamoeba histolytica–Amoebic dysentery, Leishmania donovani–Kala-azar, and Influenza virus–Influenza."
+    },
+    {
+     "id": "biology-64-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease Associations",
+     "question": "Consider the following statements:\nI. Influenza virus is associated with Influenza.\nII. HIV is associated with AIDS.\nIII. Hepatitis B virus is associated with Hepatitis B.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I and III are correct: Influenza virus is associated with Influenza, and Hepatitis B virus with Hepatitis B. Statement II is also a fact in the sheet, but it was excluded here to avoid repeating an already tested association."
     }
    ]
   },
@@ -20324,7 +20394,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:07:52+00:00",
+   "generated_at": "2026-09-30T08:08:11+00:00",
    "mcqs": [
     {
      "id": "biology-73-1",
@@ -20577,6 +20647,34 @@
      ],
      "answer": 2,
      "explanation": "Statements I, II and III are correct. Cellular immunity and phagocytosis are associated with Elie Metchnikoff, not Karl Landsteiner."
+    },
+    {
+     "id": "biology-73-19",
+     "format": "List-Matching",
+     "keyword": "Vaccine type and association",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Moderna\n b. Sputnik-V\n c. Hepatitis-B vaccine\n d. Novavax\n\nList-II\n i. Recombinant protein/nanoparticle\n ii. Vector vaccine\n iii. mRNA vaccine\n iv. Recombinant subunit vaccine\n\nChoose the correct code.",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Moderna is an mRNA vaccine, Sputnik-V is a vector vaccine, and the Hepatitis-B vaccine is a recombinant subunit vaccine. Novavax is identified as a recombinant protein/nanoparticle vaccine."
+    },
+    {
+     "id": "biology-73-20",
+     "format": "Assertion-Reason",
+     "keyword": "Immunological association",
+     "question": "Assertion (A): Nipah is associated with monoclonal antibodies discussed as therapeutic antibodies.\nReason (R): Monoclonal antibodies are discussed as therapeutic antibodies in relation to Nipah.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The immunological association listed for Nipah is monoclonal antibodies, which are discussed as therapeutic antibodies."
     }
    ]
   }
