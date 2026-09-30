@@ -2881,7 +2881,11 @@
       "Cyclone event"
      ],
      "answer": 2,
-     "explanation": "The International Nuclear Event Scale (INES) measures the severity of nuclear or radiological events. It has levels from 0 to 7 and is associated with the IAEA (1990)."
+     "explanation": "The International Nuclear Event Scale (INES) measures the severity of nuclear or radiological events. It has levels from 0 to 7 and is associated with the IAEA (1990).",
+     "facts": [
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "disaster-management-9-2",
@@ -2895,7 +2899,18 @@
       "The Fujita or Enhanced Fujita Scale measures tornado wind speed and damage."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is the third option. The Beaufort Scale measures general wind strength or wind force from 0 to 12; earthquake intensity from I to XII is measured by the Modified Mercalli Intensity or MSK-64 Scale."
+     "explanation": "The incorrect statement is the third option. The Beaufort Scale measures general wind strength or wind force from 0 to 12; earthquake intensity from I to XII is measured by the Modified Mercalli Intensity or MSK-64 Scale.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F36"
+     ]
     },
     {
      "id": "disaster-management-9-3",
@@ -2909,7 +2924,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. The notes state that the Moment Magnitude Scale is preferred over the Richter Scale for large earthquakes and is the modern standard; however, the modern-standard description does not itself explain the specific preference for large earthquakes."
+     "explanation": "Both statements are true according to the notes. The notes state that the Moment Magnitude Scale is preferred over the Richter Scale for large earthquakes and is the modern standard; however, the modern-standard description does not itself explain the specific preference for large earthquakes.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "disaster-management-9-4",
@@ -2923,7 +2942,19 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Saffir-Simpson Scale—hurricane sustained wind speed; Fujita/Enhanced Fujita Scale—tornado wind speed and damage; Richter Scale—earthquake magnitude based on energy released; Beaufort Scale—general wind force."
+     "explanation": "The correct pairs are: Saffir-Simpson Scale—hurricane sustained wind speed; Fujita/Enhanced Fujita Scale—tornado wind speed and damage; Richter Scale—earthquake magnitude based on energy released; Beaufort Scale—general wind force.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F10",
+      "F11",
+      "F30",
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "disaster-management-9-5",
@@ -2937,7 +2968,14 @@
       "I and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. The Indian Cyclone Intensity Scale is used by the IMD and lists the stated cyclone categories; the Saffir-Simpson Scale uses hurricane Categories 1 to 5. Statement IV is incorrect because earthquake intensity from I to XII is associated with the MMI and MSK-64 scales."
+     "explanation": "Statements I, II and III are correct. The Indian Cyclone Intensity Scale is used by the IMD and lists the stated cyclone categories; the Saffir-Simpson Scale uses hurricane Categories 1 to 5. Statement IV is incorrect because earthquake intensity from I to XII is associated with the MMI and MSK-64 scales.",
+     "facts": [
+      "F4",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
     }
    ]
   },
@@ -5239,7 +5277,11 @@
       "A slow-onset emergency caused by prolonged rainfall deficiency"
      ],
      "answer": 1,
-     "explanation": "A hailstorm is precipitation in the form of ice pellets, or hailstones, formed in strong thunderstorms."
+     "explanation": "A hailstorm is precipitation in the form of ice pellets, or hailstones, formed in strong thunderstorms.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "disaster-management-16-2",
@@ -5253,7 +5295,14 @@
       "Hailstorms are rare during the monsoon season in India."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the season. Hailstorms in India mainly occur during the pre-monsoon period, March–May, and winter; they are rare during the monsoon."
+     "explanation": "The incorrect detail is the season. Hailstorms in India mainly occur during the pre-monsoon period, March–May, and winter; they are rare during the monsoon.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "disaster-management-16-3",
@@ -5267,7 +5316,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the definition of hailstorm does not by itself explain all three aspects of its nature—localised, short-duration and high-intensity."
+     "explanation": "Both statements are true according to the notes. However, the definition of hailstorm does not by itself explain all three aspects of its nature—localised, short-duration and high-intensity.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "disaster-management-16-4",
@@ -5281,7 +5337,22 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Maharashtra–especially Vidarbha and Marathwada; Central India–Madhya Pradesh and parts of Chhattisgarh; North and Northwest–Punjab, Haryana, Rajasthan, Uttar Pradesh and Himachal Pradesh; Other affected regions–Bihar, parts of Karnataka and Uttarakhand."
+     "explanation": "The correct pairs are Maharashtra–especially Vidarbha and Marathwada; Central India–Madhya Pradesh and parts of Chhattisgarh; North and Northwest–Punjab, Haryana, Rajasthan, Uttar Pradesh and Himachal Pradesh; Other affected regions–Bihar, parts of Karnataka and Uttarakhand.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "disaster-management-16-5",
@@ -5295,9 +5366,82 @@
       "II and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, III and IV are correct. The notes classify hailstorm as not biological, drought as a slow-onset or creeping emergency, and climate change as increasing the frequency and intensity of extreme convective events; earthquake is identified as a geological disaster, not a rapid-onset disaster."
+     "explanation": "Statements I, III and IV are correct. The notes classify hailstorm as not biological, drought as a slow-onset or creeping emergency, and climate change as increasing the frequency and intensity of extreme convective events; earthquake is identified as a geological disaster, not a rapid-onset disaster.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "disaster-management-16-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hailstorm → Formation",
+     "question": "Consider the following statements:\nStatement A: Strong updrafts in cumulonimbus clouds freeze raindrops during hailstorm formation.\nStatement B: Repeated layering increases the size of hailstones.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Strong updrafts in cumulonimbus clouds freeze raindrops, and repeated layering increases the size of hailstones.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "disaster-management-16-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Hailstorm → Atmospheric/Synoptic/Topographic Factors",
+     "question": "Consider the following statements:\nI. Strong convective instability, abundant moisture and strong updrafts are atmospheric factors associated with hailstorms.\nII. Western Disturbances and wind discontinuity lines are synoptic factors associated with hailstorms.\nIII. Plateaus and hilly regions enhance convection associated with hailstorms.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. The sheet identifies strong convective instability, abundant moisture and strong updrafts as atmospheric factors; Western Disturbances and wind discontinuity lines as synoptic factors; and plateaus and hilly regions as topographic factors enhancing convection.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-16-8",
+     "format": "Count-Based",
+     "keyword": "Rapid-Onset Disasters",
+     "question": "How many of the following are rapid-onset disasters?\nI. Cyclone\nII. Flood\nIII. Tsunami\nIV. Drought",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Cyclone, flood and tsunami are identified as rapid-onset disasters. Drought is a slow-onset or creeping emergency; therefore, three listed items are rapid-onset disasters.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 41,
+    "covered": 41,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
@@ -6361,7 +6505,10 @@
       "Ministry of Home Affairs"
      ],
      "answer": 3,
-     "explanation": "The notes identify the Ministry of Home Affairs as the nodal ministry for overall coordination."
+     "explanation": "The notes identify the Ministry of Home Affairs as the nodal ministry for overall coordination.",
+     "facts": [
+      "F54"
+     ]
     },
     {
      "id": "disaster-management-20-2",
@@ -6375,7 +6522,25 @@
       "Flood, flash flood and avalanche are hydrological natural hazards."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the classification as biological. Drought, heat wave and cold wave are climatological hazards."
+     "explanation": "The incorrect detail is the classification as biological. Drought, heat wave and cold wave are climatological hazards.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F23",
+      "F24",
+      "F25",
+      "F29",
+      "F30",
+      "F31",
+      "F19",
+      "F20",
+      "F21",
+      "F13",
+      "F18",
+      "F22",
+      "F28"
+     ]
     },
     {
      "id": "disaster-management-20-3",
@@ -6389,7 +6554,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. The wider classification of hazards supports the shift towards a multi-hazard risk-reduction approach."
+     "explanation": "Both statements are given in the notes. The wider classification of hazards supports the shift towards a multi-hazard risk-reduction approach.",
+     "facts": [
+      "F55",
+      "F1",
+      "F9",
+      "F51"
+     ]
     },
     {
      "id": "disaster-management-20-4",
@@ -6403,7 +6574,25 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: geophysical–earthquake, tsunami and landslide; hydrological–flood, flash flood and avalanche; meteorological–cyclone, hurricane and tornado; climatological–drought, heat wave and cold wave."
+     "explanation": "The correct pairs are: geophysical–earthquake, tsunami and landslide; hydrological–flood, flash flood and avalanche; meteorological–cyclone, hurricane and tornado; climatological–drought, heat wave and cold wave.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F19",
+      "F20",
+      "F21",
+      "F23",
+      "F24",
+      "F25",
+      "F29",
+      "F30",
+      "F31",
+      "F13",
+      "F18",
+      "F22",
+      "F28"
+     ]
     },
     {
      "id": "disaster-management-20-5",
@@ -6417,7 +6606,223 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Earthquake, landslide and tsunami are listed as geological natural hazards. Cyclone is a hydro-meteorological or meteorological hazard, so the count is three."
+     "explanation": "Earthquake, landslide and tsunami are listed as geological natural hazards. Cyclone is a hydro-meteorological or meteorological hazard, so the count is three.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F13",
+      "F22"
+     ]
+    },
+    {
+     "id": "disaster-management-20-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Hazard Classification",
+     "question": "Consider the following statements:\nI. Flood is a hydro-meteorological or atmospheric hazard.\nII. Drought is a hydro-meteorological or atmospheric hazard.\nIII. Thunderstorm-related hazards are hydro-meteorological or atmospheric hazards.\nIV. Hailstorm is a hydro-meteorological or atmospheric hazard.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Flood, drought, thunderstorm-related hazards and hailstorm are all listed under hydro-meteorological or atmospheric hazards.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "disaster-management-20-7",
+     "format": "Assertion-Reason",
+     "keyword": "Natural and Man-made Hazards",
+     "question": "Assertion (A): Industrial or chemical disasters, nuclear disasters and biological disasters are man-made or human-induced hazards.\nReason (R): These three types are included under the man-made or human-induced hazards category.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes place industrial or chemical disasters, nuclear disasters and biological disasters under man-made or human-induced hazards. Therefore, the reason correctly explains the assertion.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-20-8",
+     "format": "Direct Recall",
+     "keyword": "Geophysical Natural Hazard",
+     "question": "Which one of the following is an example of a geophysical natural hazard?",
+     "options": [
+      "Volcanic eruption",
+      "Epidemic",
+      "Thunderstorm",
+      "Forest fire"
+     ],
+     "answer": 0,
+     "explanation": "Volcanic eruption is listed as an example of a geophysical natural hazard.",
+     "facts": [
+      "F17",
+      "F34"
+     ]
+    },
+    {
+     "id": "disaster-management-20-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Meteorological and Climatological Hazards",
+     "question": "Consider the following statements:\nI. Thunderstorm is an example of a meteorological natural hazard.\nII. Hailstorm is an example of a meteorological natural hazard.\nIII. Forest fire is an example of a climatological natural hazard.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I only"
+     ],
+     "answer": 2,
+     "explanation": "Thunderstorm and hailstorm are listed under meteorological natural hazards, while forest fire is listed under climatological natural hazards.",
+     "facts": [
+      "F26",
+      "F27",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-20-10",
+     "format": "Count-Based",
+     "keyword": "Technological Man-made Hazards",
+     "question": "The technological subtype of man-made or anthropogenic hazards includes which of the following examples?\n1. Industrial accidents\n2. Chemical leaks\n3. Nuclear accidents\n4. Dam failure\nHow many of the above are examples of technological man-made hazards?",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Technological man-made hazards include the technological subtype, whose listed examples are industrial accidents, chemical leaks, nuclear accidents and dam failure.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "disaster-management-20-11",
+     "format": "Count-Based",
+     "keyword": "Transport Hazards",
+     "question": "The transport subtype is included under man-made or anthropogenic hazards. Which of the following are examples of transport man-made hazards?\n1. Air accidents\n2. Rail accidents\n3. Road accidents\n4. Ship accidents\nHow many of the above are examples of transport man-made hazards?",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The transport subtype is listed under man-made or anthropogenic hazards, and its examples include air, rail, road and ship accidents.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "disaster-management-20-12",
+     "format": "Direct Recall",
+     "keyword": "Social or Complex Hazards",
+     "question": "Which subtype is included under man-made or anthropogenic hazards along with technological and transport hazards?",
+     "options": [
+      "Geophysical",
+      "Social or complex",
+      "Hydrological",
+      "Climatological"
+     ],
+     "answer": 1,
+     "explanation": "Man-made or anthropogenic hazards include the social or complex subtype.",
+     "facts": [
+      "F46"
+     ]
+    },
+    {
+     "id": "disaster-management-20-13",
+     "format": "Count-Based",
+     "keyword": "Social / Complex Hazards",
+     "question": "How many of the following are examples of social or complex man-made hazards?\n1. Terrorism\n2. Riots\n3. War\n4. Civil strife",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Terrorism, riots, war and civil strife are all classified as social or complex man-made hazards.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "disaster-management-20-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Socio-Natural Hazards",
+     "question": "Consider the following statements:\nStatement A: Floods can be worsened by deforestation.\nStatement B: Landslides can be caused by unscientific construction.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements describe combinations of natural and human factors under socio-natural hazards.",
+     "facts": [
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "disaster-management-20-15",
+     "format": "Assertion-Reason",
+     "keyword": "Sendai Framework",
+     "question": "Assertion (A): The first priority of the Sendai Framework is understanding disaster risk.\nReason (R): Understanding disaster risk under this priority includes hazards.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The first priority is understanding disaster risk, and this includes hazards. However, the statement that the priority includes hazards does not explain why it is designated as the first priority.",
+     "facts": [
+      "F56"
+     ]
+    },
+    {
+     "id": "disaster-management-20-16",
+     "format": "Direct Recall",
+     "keyword": "High Powered Committee",
+     "question": "Which of the following correctly describes the High Powered Committee?",
+     "options": [
+      "Established in 2000 and classified disasters into four broad categories",
+      "Established in 1999 and classified disasters into five broad categories",
+      "Established in 1999 and classified disasters into four broad categories",
+      "Established in 2000 and classified disasters into five broad categories"
+     ],
+     "answer": 1,
+     "explanation": "The High Powered Committee was established in 1999 and classified disasters into five broad categories.",
+     "facts": [
+      "F57",
+      "F58"
+     ]
     }
    ]
   },
@@ -6447,7 +6852,11 @@
       "Section 48(1)(a) of the Disaster Management Act, 2005"
      ],
      "answer": 0,
-     "explanation": "The SDRF, as a state-level specialised response force, has its legal basis in the Disaster Management Act, 2005, under Section 44 and related rules."
+     "explanation": "The SDRF, as a state-level specialised response force, has its legal basis in the Disaster Management Act, 2005, under Section 44 and related rules.",
+     "facts": [
+      "F2",
+      "F23"
+     ]
     },
     {
      "id": "disaster-management-21-2",
@@ -6461,7 +6870,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, being the counterpart of the NDRF does not itself explain the stated training arrangement."
+     "explanation": "Both statements are true according to the notes. However, being the counterpart of the NDRF does not itself explain the stated training arrangement.",
+     "facts": [
+      "F4",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "disaster-management-21-3",
@@ -6475,7 +6889,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: State Disaster Response Force–Section 44, State Disaster Response Fund–Section 48(1)(a), State Executive Committee–administering body, and state-specific disasters–up to 10% of SDRF."
+     "explanation": "The correct pairs are: State Disaster Response Force–Section 44, State Disaster Response Fund–Section 48(1)(a), State Executive Committee–administering body, and state-specific disasters–up to 10% of SDRF.",
+     "facts": [
+      "F2",
+      "F23",
+      "F26",
+      "F45"
+     ]
     },
     {
      "id": "disaster-management-21-4",
@@ -6489,7 +6909,18 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the SDRF is meant for immediate relief and not for long-term reconstruction."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the SDRF is meant for immediate relief and not for long-term reconstruction.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F45",
+      "F46",
+      "F49",
+      "F47"
+     ]
     },
     {
      "id": "disaster-management-21-5",
@@ -6503,9 +6934,210 @@
       "Cyclone, drought and earthquake are notified disasters."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement is the fourth one. Frost and cold wave are included in the notified disasters under the SDRF; the altered detail is their exclusion."
+     "explanation": "The incorrect statement is the fourth one. Frost and cold wave are included in the notified disasters under the SDRF; the altered detail is their exclusion.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F44"
+     ]
+    },
+    {
+     "id": "disaster-management-21-6",
+     "format": "Direct Recall",
+     "keyword": "Disaster Management – Full Form",
+     "question": "What does SDRF, in the context of the State Disaster Response Force, stand for?",
+     "options": [
+      "State Disaster Relief Force",
+      "State Disaster Response Force",
+      "State Disaster Relief Fund",
+      "State Disaster Response Fund"
+     ],
+     "answer": 1,
+     "explanation": "In this context, SDRF stands for State Disaster Response Force.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "disaster-management-21-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disaster Management – Institutional Structure",
+     "question": "Consider the following statements:\nStatement A: The State Disaster Response Force is a state-level specialised response force.\nStatement B: The State Disaster Response Force is raised by the respective State or Union Territory Governments.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The SDRF is described as a state-level specialised response force and is raised by the respective State or Union Territory Governments.",
+     "facts": [
+      "F3",
+      "F5"
+     ]
+    },
+    {
+     "id": "disaster-management-21-8",
+     "format": "Assertion-Reason",
+     "keyword": "Disaster Management – First Responder",
+     "question": "Assertion (A): The State Disaster Response Force is the first responder within the state.\nReason (R): The State Disaster Response Force responds during the first 24–48 hours.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Its role as the first responder is connected with its response during the initial 24–48 hours.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "disaster-management-21-9",
+     "format": "Count-Based",
+     "keyword": "Disaster Management – Force Composition",
+     "question": "How many of the following are identified as sources from which the State Disaster Response Force is drawn?\n1. State Police\n2. Armed Police\n3. Fire Services\n4. Home Guards\n5. Civil Defence",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "The SDRF is drawn mainly from the State Police and also from the Armed Police, Fire Services, Home Guards and Civil Defence.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "disaster-management-21-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disaster Management – Organisational Structure",
+     "question": "Consider the following statements:\nI. The State Disaster Response Force is organised on a battalion model.\nII. Its organisational model is similar to that of the National Disaster Response Force.\nIII. It has multi-disciplinary teams.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: the SDRF follows a battalion model, its organisational model is similar to that of the NDRF, and it has multi-disciplinary teams.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "disaster-management-21-11",
+     "format": "List-Matching",
+     "keyword": "Disaster Management – Specialised Response",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Search and rescue\n(b) Flood rescue\n(c) Collapsed-structure rescue\n(d) CBRN response\n\nList-II\n(i) Specialisation of the SDRF\n(ii) Specialisation of the SDRF\n(iii) Specialisation of the SDRF\n(iv) Specialisation of the SDRF in some states",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The SDRF specialises in search and rescue, flood rescue and collapsed-structure rescue; CBRN response is a specialisation in some states.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "disaster-management-21-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disaster Management – SDRF Fund",
+     "question": "Consider the following statements:\nStatement A: SDRF, in the context of the State Disaster Response Fund, stands for State Disaster Response Fund.\nStatement B: The State Disaster Response Fund is the primary fund available with states for providing immediate relief to victims of notified disasters.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "SDRF also denotes State Disaster Response Fund. It is the primary fund available with states for immediate relief to victims of notified disasters.",
+     "facts": [
+      "F22",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-21-13",
+     "format": "Direct Recall",
+     "keyword": "Disaster Management – State Executive Committee",
+     "question": "Who heads the State Executive Committee that administers the State Disaster Response Fund?",
+     "options": [
+      "The Chief of the State Disaster Response Force",
+      "The Director General of Police",
+      "The District Collector",
+      "The Chief Secretary"
+     ],
+     "answer": 3,
+     "explanation": "The State Executive Committee is headed by the Chief Secretary.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "disaster-management-21-14",
+     "format": "Count-Based",
+     "keyword": "Disaster Management – Notified Disasters",
+     "question": "How many of the following are notified disasters for which assistance from the State Disaster Response Fund is available?\n1. Fire\n2. Pest attack\n3. Cyclone\n4. Drought",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Fire, pest attack, cyclone and drought are all included among the notified disasters.",
+     "facts": [
+      "F36",
+      "F43"
+     ]
+    },
+    {
+     "id": "disaster-management-21-15",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Disaster Management – SDRF Fund Limitation",
+     "question": "Which of the following statements is incorrect regarding the use of the State Disaster Response Fund?",
+     "options": [
+      "It is not meant for long-term reconstruction.",
+      "It can be used for compensation for individual losses.",
+      "It is available with states for immediate relief to victims of notified disasters.",
+      "It is used only for immediate relief."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement is that the fund can be used for compensation for individual losses. The State Disaster Response Fund cannot be used for such compensation; it is meant for immediate relief and not long-term reconstruction.",
+     "facts": [
+      "F48"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 49,
+    "covered": 49,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -6533,7 +7165,15 @@
       "October 13"
      ],
      "answer": 1,
-     "explanation": "World Tsunami Awareness Day is observed on November 5 and focuses on tsunami risks, early warning and preparedness."
+     "explanation": "World Tsunami Awareness Day is observed on November 5 and focuses on tsunami risks, early warning and preparedness.",
+     "facts": [
+      "F1",
+      "F5",
+      "F8",
+      "F10",
+      "F13",
+      "F21"
+     ]
     },
     {
      "id": "disaster-management-22-2",
@@ -6547,7 +7187,13 @@
       "World Humanitarian Day is observed on August 19."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the date of World Environment Day. It is observed on June 5, not June 15."
+     "explanation": "The incorrect detail is the date of World Environment Day. It is observed on June 5, not June 15.",
+     "facts": [
+      "F1",
+      "F10",
+      "F13",
+      "F18"
+     ]
     },
     {
      "id": "disaster-management-22-3",
@@ -6561,7 +7207,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The focus on weather, climate and water services explains the relevance of World Meteorological Day to disaster risk reduction."
+     "explanation": "Both statements are true. The focus on weather, climate and water services explains the relevance of World Meteorological Day to disaster risk reduction.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "disaster-management-22-4",
@@ -6575,7 +7224,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: International Day for Disaster Risk Reduction–October 13; World Humanitarian Day–August 19; World Meteorological Day–March 23; World Tsunami Awareness Day–November 5."
+     "explanation": "The correct pairs are: International Day for Disaster Risk Reduction–October 13; World Humanitarian Day–August 19; World Meteorological Day–March 23; World Tsunami Awareness Day–November 5.",
+     "facts": [
+      "F1",
+      "F5",
+      "F10",
+      "F13"
+     ]
     },
     {
      "id": "disaster-management-22-5",
@@ -6589,7 +7244,90 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements are supported by the notes: NDMA was notified in 2006, NDRF was raised in 2006, and the listed authorities conduct mock exercises and awareness campaigns throughout the year."
+     "explanation": "All three statements are supported by the notes: NDMA was notified in 2006, NDRF was raised in 2006, and the listed authorities conduct mock exercises and awareness campaigns throughout the year.",
+     "facts": [
+      "F23",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "disaster-management-22-6",
+     "format": "List-Matching",
+     "keyword": "Days",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Earth Day\n(b) World Environment Day\n(c) International Day for Disaster Risk Reduction\n(d) World Meteorological Day\n\nList-II\n(i) Links environmental degradation with increased disaster risk\n(ii) Core global disaster risk reduction awareness day\n(iii) Observed on April 22; relevant through environmental protection and climate-related disaster risk\n(iv) Declared by the World Meteorological Organization\n\nCodes:",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Earth Day is observed on April 22 and is relevant to environmental protection and climate-related disaster risk. World Environment Day links environmental degradation with increased disaster risk, IDDRR is the core global DRR awareness day, and World Meteorological Day was declared by WMO.",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "disaster-management-22-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Days",
+     "question": "Consider the following statements:\n\nI. The United Nations declared World Tsunami Awareness Day.\nII. World Tsunami Awareness Day has been observed since 2015.\nIII. World Tsunami Awareness Day was inspired by Japan’s “Inamura-no-hi.”\nIV. World Humanitarian Day honours humanitarian workers and people affected by crises.\nV. The United Nations declared World Humanitarian Day.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, IV and V only",
+      "I, II, III, IV and V",
+      "II, III, IV and V only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All five statements are correct. The United Nations declared both observances; World Tsunami Awareness Day has been observed since 2015 and was inspired by Japan’s “Inamura-no-hi,” while World Humanitarian Day honours humanitarian workers and people affected by crises.",
+     "facts": [
+      "F6",
+      "F7",
+      "F9",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-22-8",
+     "format": "Assertion-Reason",
+     "keyword": "Days",
+     "question": "Assertion (A): The International Day for Disaster Risk Reduction was declared by the United Nations.\nReason (R): It has been observed since 1989.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the United Nations declared the International Day for Disaster Risk Reduction, and it has been observed since 1989. The year of observance does not explain why the United Nations declared it.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "disaster-management-22-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Days",
+     "question": "Consider the following statements:\n\nStatement A: NDMA Formation Day is observed around September 26–27.\nStatement B: NDRF Raising Day is observed on January 19.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "NDMA Formation Day is observed around September 26–27, whereas NDRF Raising Day is observed on January 19.",
+     "facts": [
+      "F22",
+      "F24"
+     ]
     }
    ]
   },
@@ -7437,7 +8175,11 @@
       "2005"
      ],
      "answer": 2,
-     "explanation": "The National Policy on Disaster Management was approved by the Union Cabinet in 2009."
+     "explanation": "The National Policy on Disaster Management was approved by the Union Cabinet in 2009.",
+     "facts": [
+      "F3",
+      "F2"
+     ]
     },
     {
      "id": "disaster-management-25-2",
@@ -7451,7 +8193,14 @@
       "It was prepared by the National Disaster Management Authority."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the approval year. NPDM was approved by the Union Cabinet on 22 October 2009, not in 2016."
+     "explanation": "The incorrect detail is the approval year. NPDM was approved by the Union Cabinet on 22 October 2009, not in 2016.",
+     "facts": [
+      "F3",
+      "F8",
+      "F5",
+      "F4",
+      "F2"
+     ]
     },
     {
      "id": "disaster-management-25-3",
@@ -7465,7 +8214,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the legal basis of the Policy does not explain the stated paradigm shift."
+     "explanation": "Both statements are true according to the notes. However, the legal basis of the Policy does not explain the stated paradigm shift.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "disaster-management-25-4",
@@ -7479,7 +8232,15 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: National Policy on Disaster Management—approved in 2009; Sendai Framework—2015–2030; Prime Minister’s 10-Point Agenda—announced in 2016 at AMCDRR, New Delhi; CDRI—launched in 2019."
+     "explanation": "The correct pairs are: National Policy on Disaster Management—approved in 2009; Sendai Framework—2015–2030; Prime Minister’s 10-Point Agenda—announced in 2016 at AMCDRR, New Delhi; CDRI—launched in 2019.",
+     "facts": [
+      "F3",
+      "F9",
+      "F12",
+      "F13",
+      "F18",
+      "F2"
+     ]
     },
     {
      "id": "disaster-management-25-5",
@@ -7493,9 +8254,92 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. The notes state the vision of NPDM, the 2019 revision of the National Disaster Management Plan, and India’s leadership of CDRI."
+     "explanation": "All three statements are correct. The notes state the vision of NPDM, the 2019 revision of the National Disaster Management Plan, and India’s leadership of CDRI.",
+     "facts": [
+      "F5",
+      "F16",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-25-6",
+     "format": "Direct Recall",
+     "keyword": "Abbreviation",
+     "question": "The National Policy on Disaster Management is abbreviated as:",
+     "options": [
+      "NDMP",
+      "NPDM",
+      "DRR",
+      "CDRI"
+     ],
+     "answer": 1,
+     "explanation": "The National Policy on Disaster Management is abbreviated as NPDM.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "disaster-management-25-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Policy – Vision",
+     "question": "Consider the following statements:\nStatement A: The vision of the National Policy on Disaster Management is holistic, proactive, multi-disaster oriented and technology-driven.\nStatement B: The Sendai Framework for Disaster Risk Reduction contains four priorities and seven targets.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The NPDM has a holistic, proactive, multi-disaster oriented and technology-driven vision, while the Sendai Framework contains four priorities and seven targets.",
+     "facts": [
+      "F6",
+      "F11"
+     ]
+    },
+    {
+     "id": "disaster-management-25-8",
+     "format": "List-Matching",
+     "keyword": "Framework / Agenda – Significance",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Sendai Framework for Disaster Risk Reduction\n b. Prime Minister’s 10-Point Agenda on Disaster Risk Reduction\n c. National Disaster Management Plan\n d. National Policy on Disaster Management\n\nList-II\n i. Global blueprint\n ii. India’s action-oriented roadmap aligned with the Sendai Framework\n iii. Operational plan implementing the National Policy and the Sendai Framework\n iv. Formulated in pursuance of the Disaster Management Act, 2005",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: Sendai Framework—global blueprint; Prime Minister’s 10-Point Agenda—India’s action-oriented roadmap aligned with Sendai; NDMP—operational plan implementing the Policy and Sendai Framework; NPDM—formulated under the Disaster Management Act, 2005.",
+     "facts": [
+      "F10",
+      "F14",
+      "F17"
+     ]
+    },
+    {
+     "id": "disaster-management-25-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "National Plan – Year",
+     "question": "Consider the following statements:\n\nI. The first National Disaster Management Plan was issued in 2016.\nII. The Sendai Framework for Disaster Risk Reduction guides India’s disaster management policy.\nIII. The first National Disaster Management Plan was issued in 2019.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct: the first National Disaster Management Plan was issued in 2016, and the Sendai Framework guides India’s disaster management policy. Statement III is incorrect; 2019 refers to the revision of the National Disaster Management Plan.",
+     "facts": [
+      "F15",
+      "F20",
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -8415,7 +9259,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "Urban Flood is assigned to the Ministry of Housing and Urban Affairs; GLOF to the Ministry of Jal Shakti; Landslide to the Ministry of Mines; and Biological Disasters/Epidemics to the Ministry of Health and Family Welfare."
+     "explanation": "Urban Flood is assigned to the Ministry of Housing and Urban Affairs; GLOF to the Ministry of Jal Shakti; Landslide to the Ministry of Mines; and Biological Disasters/Epidemics to the Ministry of Health and Family Welfare.",
+     "facts": [
+      "F5",
+      "F6",
+      "F11",
+      "F16"
+     ]
     },
     {
      "id": "disaster-management-29-2",
@@ -8429,7 +9279,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the ministry responsible for biological disasters and epidemics does not explain the assignment of nuclear and radiological emergencies to the Department of Atomic Energy."
+     "explanation": "Both statements are true according to the notes. However, the ministry responsible for biological disasters and epidemics does not explain the assignment of nuclear and radiological emergencies to the Department of Atomic Energy.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "disaster-management-29-3",
@@ -8443,7 +9297,14 @@
       "Oil Spills are assigned to the Ministry of Defence through the Indian Coast Guard."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement concerns Rail Accidents. They are assigned to the Ministry of Railways, whereas the Ministry of Road Transport and Highways is assigned to Road Accidents."
+     "explanation": "The incorrect statement concerns Rail Accidents. They are assigned to the Ministry of Railways, whereas the Ministry of Road Transport and Highways is assigned to Road Accidents.",
+     "facts": [
+      "F13",
+      "F18",
+      "F19",
+      "F20",
+      "F17"
+     ]
     },
     {
      "id": "disaster-management-29-4",
@@ -8457,7 +9318,13 @@
       "I, II, III and IV"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. The technical agency for earthquakes is the National Centre for Seismology under the Ministry of Earth Sciences, not the Geological Survey of India."
+     "explanation": "Statements I, II and III are correct. The technical agency for earthquakes is the National Centre for Seismology under the Ministry of Earth Sciences, not the Geological Survey of India.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "disaster-management-29-5",
@@ -8471,9 +9338,107 @@
       "Ministry of Jal Shakti"
      ],
      "answer": 2,
-     "explanation": "The notes assign hailstorms to the Ministry of Agriculture and Farmers Welfare."
+     "explanation": "The notes assign hailstorms to the Ministry of Agriculture and Farmers Welfare.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "disaster-management-29-6",
+     "format": "List-Matching",
+     "keyword": "Nodal Ministry",
+     "question": "Match List-I with List-II:\n\nList-I (Disaster/Hazard)\n(a) Earthquake\n(b) Cyclone/Tornado\n(c) Tsunami\n(d) Flood\n\nList-II (Nodal Ministry)\n(i) Ministry of Jal Shakti\n(ii) Ministry of Earth Sciences (MoES)\n(iii) Ministry of Agriculture and Farmers Welfare\n(iv) Ministry of Defence\n\nCodes:",
+     "options": [
+      "a-ii, b-ii, c-ii, d-i",
+      "a-ii, b-i, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-ii",
+      "a-i, b-ii, c-ii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The Ministry of Earth Sciences is the nodal ministry for earthquakes, cyclones/tornadoes and tsunamis. The Ministry of Jal Shakti is the nodal ministry for floods.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "disaster-management-29-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Nodal Ministry",
+     "question": "Consider the following statements:\n\nI. The nodal ministry for droughts is the Ministry of Agriculture and Farmers Welfare.\nII. The nodal ministry for frost and cold waves is the Ministry of Agriculture and Farmers Welfare.\nIII. The nodal ministry for pest attacks is the Ministry of Agriculture and Farmers Welfare.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Droughts, frost and cold waves, and pest attacks are assigned to the Ministry of Agriculture and Farmers Welfare.",
+     "facts": [
+      "F7",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "disaster-management-29-8",
+     "format": "Direct Recall",
+     "keyword": "Nodal Ministry",
+     "question": "The nodal ministry for avalanches is:",
+     "options": [
+      "Ministry of Defence",
+      "Ministry of Agriculture and Farmers Welfare",
+      "Ministry of Jal Shakti",
+      "Ministry of Mines"
+     ],
+     "answer": 0,
+     "explanation": "The Ministry of Defence is the nodal ministry for avalanches.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-29-9",
+     "format": "Direct Recall",
+     "keyword": "Technical Agency",
+     "question": "Which organisation is the technical agency for landslides?",
+     "options": [
+      "INCOIS (Hyderabad)",
+      "India Meteorological Department (IMD)",
+      "Central Water Commission (CWC)",
+      "Geological Survey of India (GSI)"
+     ],
+     "answer": 3,
+     "explanation": "The Geological Survey of India (GSI) is the technical agency for landslides.",
+     "facts": [
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-29-10",
+     "format": "Direct Recall",
+     "keyword": "Nodal Ministry",
+     "question": "Which of the following is the nodal ministry for industrial and chemical disasters?",
+     "options": [
+      "Ministry of Mines",
+      "Ministry of Health and Family Welfare",
+      "Ministry of Environment, Forest and Climate Change",
+      "Ministry of Defence"
+     ],
+     "answer": 2,
+     "explanation": "The Ministry of Environment, Forest and Climate Change is the nodal ministry for industrial and chemical disasters.",
+     "facts": [
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -9119,8 +10084,30 @@
      "facts": [
       "F40"
      ]
+    },
+    {
+     "id": "disaster-management-32-10",
+     "format": "Direct Recall",
+     "keyword": "Minimum Standards of Relief",
+     "question": "Which of the following includes special provisions for vulnerable groups?",
+     "options": [
+      "Gender Mainstreaming",
+      "School Safety",
+      "Disability Inclusive DRR",
+      "Minimum Standards of Relief"
+     ],
+     "answer": 3,
+     "explanation": "Minimum Standards of Relief include special provisions for vulnerable groups.",
+     "facts": [
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -9149,7 +10136,10 @@
       "National Disaster Response Force (NDRF)"
      ],
      "answer": 0,
-     "explanation": "The India Meteorological Department (IMD) is the nodal agency for forecasting heatwaves."
+     "explanation": "The India Meteorological Department (IMD) is the nodal agency for forecasting heatwaves.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "disaster-management-33-2",
@@ -9163,7 +10153,13 @@
       "The heatwave season in India mainly extends from March to June and may sometimes continue into July."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement reverses the definition of a heatwave. A heatwave involves abnormally high temperatures exceeding the normal maximum temperature during summer."
+     "explanation": "The incorrect statement reverses the definition of a heatwave. A heatwave involves abnormally high temperatures exceeding the normal maximum temperature during summer.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "disaster-management-33-3",
@@ -9177,7 +10173,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The recent inclusion of heatwave in the notified-disaster list explains its eligibility under SDRF/NDRF."
+     "explanation": "Both statements are true. The recent inclusion of heatwave in the notified-disaster list explains its eligibility under SDRF/NDRF.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "disaster-management-33-4",
@@ -9191,7 +10191,18 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Green—No action; Yellow—Be updated/Monitor; Orange—Be prepared; Red—Take action."
+     "explanation": "The correct pairs are: Green—No action; Yellow—Be updated/Monitor; Orange—Be prepared; Red—Take action.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F29"
+     ]
     },
     {
      "id": "disaster-management-33-5",
@@ -9205,9 +10216,164 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. The minimum threshold temperatures are 40°C for plains, 37°C for coastal areas and 30°C for hilly regions."
+     "explanation": "All three statements are correct. The minimum threshold temperatures are 40°C for plains, 37°C for coastal areas and 30°C for hilly regions.",
+     "facts": [
+      "F9",
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "disaster-management-33-6",
+     "format": "Direct Recall",
+     "keyword": "Guidelines",
+     "question": "Which document provides key guidelines for heatwave management?",
+     "options": [
+      "SDRF/NDRF Guidelines for Notified Disasters",
+      "Heat Action Plans of States and Cities",
+      "NDMA Guidelines for Preparation of Action Plan – Prevention and Management of Heat Wave",
+      "IMD Colour-Coded Alert Guidelines for Heatwave Forecasting"
+     ],
+     "answer": 2,
+     "explanation": "The NDMA Guidelines for Preparation of Action Plan – Prevention and Management of Heat Wave provide key guidelines for heatwave management.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "disaster-management-33-7",
+     "format": "List-Matching",
+     "keyword": "Heatwave Criteria",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Heatwave in plains\n b. Severe heatwave in plains\n c. Heatwave in coastal areas\n d. Heatwave in hilly regions\n\nList-II\n i. Departure from normal is 4.5°C or more\n ii. Departure from normal is more than 6.4°C\n iii. Departure from normal is 4.5°C to 6.4°C\n iv. Departure from normal is 4.5°C to 6.4°C",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "A plains heatwave and a hilly-region heatwave are declared at a departure of 4.5°C to 6.4°C. A severe plains heatwave requires a departure of more than 6.4°C, while the coastal criterion is 4.5°C or more.",
+     "facts": [
+      "F10",
+      "F11",
+      "F13",
+      "F15"
+     ]
+    },
+    {
+     "id": "disaster-management-33-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Heatwave Criteria",
+     "question": "Consider the following statements:\nStatement A: In coastal areas, a heatwave is declared when the temperature departure from normal is 4.5°C or more.\nStatement B: In hilly regions, a severe heatwave is declared when the temperature departure from normal is more than 6.4°C.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements correctly state the heatwave criteria for coastal areas and severe heatwaves in hilly regions.",
+     "facts": [
+      "F13",
+      "F16"
+     ]
+    },
+    {
+     "id": "disaster-management-33-9",
+     "format": "List-Matching",
+     "keyword": "Heatwave Criteria",
+     "question": "Match the condition with the corresponding actual maximum temperature criterion in plains.\n\nList-I\n a. Heatwave identified by actual maximum temperature\n b. Severe heatwave identified by actual maximum temperature\n\nList-II\n i. At least 45°C\n ii. At least 47°C",
+     "options": [
+      "a-i, b-i",
+      "a-ii, b-ii",
+      "a-i, b-ii",
+      "a-ii, b-i"
+     ],
+     "answer": 2,
+     "explanation": "In plains, a heatwave may also be identified when the actual maximum temperature is at least 45°C, while a severe heatwave is identified at at least 47°C.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "disaster-management-33-10",
+     "format": "Direct Recall",
+     "keyword": "Heat Action Plan",
+     "question": "Heat Action Plans are prepared by which of the following with support from NDMA and IMD?",
+     "options": [
+      "States and cities",
+      "Only the National Disaster Management Authority",
+      "States and the SDRF/NDRF",
+      "Only the India Meteorological Department"
+     ],
+     "answer": 0,
+     "explanation": "Heat Action Plans are prepared by states and cities with support from NDMA and IMD.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "disaster-management-33-11",
+     "format": "Direct Recall",
+     "keyword": "Heat Action Plan",
+     "question": "Which of the following best describes cool roofs as a heatwave-management measure?",
+     "options": [
+      "Shade structures over all public roads",
+      "Establishing cooling centres in cities",
+      "Reflective coatings or white painting of roofs",
+      "Adjusting working hours during summer"
+     ],
+     "answer": 2,
+     "explanation": "Cool roofs use reflective coatings or white painting of roofs.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "disaster-management-33-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Public Awareness",
+     "question": "Consider the following measures:\nI. Communicating do’s and don’ts\nII. ORS distribution\nIII. Establishing cooling centres\n\nWhich of the statements given above are public awareness measures?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "Communicating do’s and don’ts, distributing ORS, and establishing cooling centres are all listed as public awareness measures.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-33-13",
+     "format": "List-Matching",
+     "keyword": "Structural Measures",
+     "question": "Match the structural measure with its corresponding description.\n\nList-I\n a. Measure 1\n b. Measure 2\n c. Measure 3\n\nList-II\n i. Shade structures\n ii. Drinking water points\n iii. Adjusted working hours",
+     "options": [
+      "a-ii, b-i, c-iii",
+      "a-i, b-iii, c-ii",
+      "a-i, b-ii, c-iii",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 2,
+     "explanation": "Structural measures include shade structures, drinking water points, and adjusted working hours.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,

@@ -115,7 +115,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "Angel Falls is the highest waterfall, Khone Phapheng Falls is the widest, Inga Falls is the largest by volume, and Lake Baikal is the largest freshwater lake by volume."
+     "explanation": "Angel Falls is the highest waterfall, Khone Phapheng Falls is the widest, Inga Falls is the largest by volume, and Lake Baikal is the largest freshwater lake by volume.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "world-geography-2-2",
@@ -129,7 +135,13 @@
       "The Swedish Archipelago is the largest archipelago by island count."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location-based superlative: Majuli is the largest river island, whereas Madagascar is the largest island in the Indian Ocean."
+     "explanation": "The incorrect detail is the location-based superlative: Majuli is the largest river island, whereas Madagascar is the largest island in the Indian Ocean.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "world-geography-2-3",
@@ -143,7 +155,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the fact that the Atacama Desert is the driest place on Earth does not explain why the McMurdo Dry Valleys are the driest polar region."
+     "explanation": "Both statements are true, but the fact that the Atacama Desert is the driest place on Earth does not explain why the McMurdo Dry Valleys are the driest polar region.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "world-geography-2-4",
@@ -157,7 +173,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct: Kazakhstan is the largest landlocked country, Uzbekistan is the largest doubly landlocked country, and Liechtenstein is a doubly landlocked microstate."
+     "explanation": "All three statements are correct: Kazakhstan is the largest landlocked country, Uzbekistan is the largest doubly landlocked country, and Liechtenstein is a doubly landlocked microstate.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "world-geography-2-5",
@@ -171,7 +192,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The Drake Passage is the widest strait or passage, while the Strait of Malacca is the longest strait; therefore Statement B is false."
+     "explanation": "Statement A is true. The Drake Passage is the widest strait or passage, while the Strait of Malacca is the longest strait; therefore Statement B is false.",
+     "facts": [
+      "F20",
+      "F22",
+      "F23"
+     ]
     }
    ]
   },
@@ -203,7 +229,12 @@
       "Ptolemy"
      ],
      "answer": 2,
-     "explanation": "Eratosthenes was the first to calculate the Earth’s circumference accurately and coined the term “Geography.”"
+     "explanation": "Eratosthenes was the first to calculate the Earth’s circumference accurately and coined the term “Geography.”",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "world-geography-3-2",
@@ -217,7 +248,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are coffee–Brazil, tea–China, maize–USA and natural rubber–Thailand."
+     "explanation": "The correct pairs are coffee–Brazil, tea–China, maize–USA and natural rubber–Thailand.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F30"
+     ]
     },
     {
      "id": "world-geography-3-3",
@@ -231,7 +268,13 @@
       "Shanghai is the busiest container port."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. The notes identify Britain, not China, as the first industrial revolution country."
+     "explanation": "The incorrect statement is the fourth one. The notes identify Britain, not China, as the first industrial revolution country.",
+     "facts": [
+      "F11",
+      "F13",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "world-geography-3-4",
@@ -245,7 +288,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, India’s position as the second-largest producer and leading exporter does not explain why China is the largest producer."
+     "explanation": "Both statements are true according to the notes. However, India’s position as the second-largest producer and leading exporter does not explain why China is the largest producer.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "world-geography-3-5",
@@ -259,9 +307,114 @@
       "I, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The notes state that the first reach of the North Pole was disputed between Robert Peary and Frederick Cook, so III is incorrect."
+     "explanation": "Statements I, II and IV are correct. The notes state that the first reach of the North Pole was disputed between Robert Peary and Frederick Cook, so III is incorrect.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-3-6",
+     "format": "Direct Recall",
+     "keyword": "Largest democracy",
+     "question": "Which country is the world’s largest democracy?",
+     "options": [
+      "China",
+      "Russia",
+      "India",
+      "Britain"
+     ],
+     "answer": 2,
+     "explanation": "India is identified as the world’s largest democracy.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "world-geography-3-7",
+     "format": "List-Matching",
+     "keyword": "Largest producer → Mineral resource",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Crude steel\n(b) Coal\n(c) Iron ore\n(d) Bauxite\n\nList-II\n(i) Australia\n(ii) China\n(iii) Chile\n(iv) Brazil",
+     "options": [
+      "a-ii, b-ii, c-iv, d-i",
+      "a-ii, b-ii, c-i, d-i",
+      "a-i, b-ii, c-i, d-ii",
+      "a-ii, b-i, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "China is the largest producer of crude steel and coal, while Australia is the largest producer of iron ore and bauxite.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-3-8",
+     "format": "Assertion-Reason",
+     "keyword": "Largest producer → Crops",
+     "question": "Assertion (A): Brazil is the world’s largest producer of sugarcane.\nReason (R): China is the world’s largest producer of wheat.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but China’s position as the largest wheat producer does not explain Brazil’s position as the largest sugarcane producer.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-3-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Largest",
+     "question": "Consider the following statements:\nStatement A: Chile is the world’s largest producer of copper.\nStatement B: China is the world’s largest producer of gold.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Chile leads in copper production, while China leads in gold production.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-3-10",
+     "format": "Assertion-Reason",
+     "keyword": "Largest",
+     "question": "Assertion (A): Russia is the world’s largest producer of diamonds by volume.\nReason (R): Botswana is the world’s largest producer of diamonds by value.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Botswana’s leadership by value does not explain Russia’s leadership by volume.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -1371,7 +1524,18 @@
       "Canada–USA"
      ],
      "answer": 3,
-     "explanation": "The Canada–USA border is the longest total border in the world, measuring approximately 8,890–8,891 km."
+     "explanation": "The Canada–USA border is the longest total border in the world, measuring approximately 8,890–8,891 km.",
+     "facts": [
+      "F1",
+      "F3",
+      "F2",
+      "F6",
+      "F7",
+      "F10",
+      "F11",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "world-geography-9-2",
@@ -1385,7 +1549,18 @@
       "Chile–Argentina is the longest mountain border and largely follows the Andes."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is ‘Nepal’. India’s shortest land border is with Afghanistan."
+     "explanation": "The incorrect detail is ‘Nepal’. India’s shortest land border is with Afghanistan.",
+     "facts": [
+      "F5",
+      "F13",
+      "F18",
+      "F20",
+      "F23",
+      "F19",
+      "F21",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "world-geography-9-3",
@@ -1399,7 +1574,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Chile–Argentina border is identified as the longest mountain border because it largely follows the Andes."
+     "explanation": "Both statements are true. The Chile–Argentina border is identified as the longest mountain border because it largely follows the Andes.",
+     "facts": [
+      "F13",
+      "F20",
+      "F21",
+      "F26"
+     ]
     },
     {
      "id": "world-geography-9-4",
@@ -1413,7 +1594,20 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Chile–Argentina–Andes, USA–Mexico–Rio Grande, Canada–USA–Great Lakes, and Russia–Kazakhstan–Eurasian Steppe."
+     "explanation": "The correct pairs are Chile–Argentina–Andes, USA–Mexico–Rio Grande, Canada–USA–Great Lakes, and Russia–Kazakhstan–Eurasian Steppe.",
+     "facts": [
+      "F27",
+      "F32",
+      "F34",
+      "F37",
+      "F9",
+      "F21",
+      "F26",
+      "F31",
+      "F33",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "world-geography-9-5",
@@ -1427,9 +1621,111 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect: Chile–Argentina is the longest mountain border, while Canada–USA is the longest total and longest undefended border."
+     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect: Chile–Argentina is the longest mountain border, while Canada–USA is the longest total and longest undefended border.",
+     "facts": [
+      "F8",
+      "F18",
+      "F20",
+      "F22"
+     ]
+    },
+    {
+     "id": "world-geography-9-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\nStatement A: The Canada–USA border includes the contiguous USA–Canada border and the Alaska–Canada border.\nStatement B: The Canada–USA border includes the contiguous USA–Canada border and the Russia–Canada border.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is correct: the Canada–USA border consists of the contiguous USA–Canada border and the Alaska–Canada border. Statement B is incorrect because the notes do not identify a Russia–Canada segment.",
+     "facts": [
+      "F4"
+     ]
+    },
+    {
+     "id": "world-geography-9-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\nI. The Chile–Argentina border is the longest border in South America.\nII. The India–Bangladesh border ranks fifth by approximate length among the listed borders.\nIII. The approximate length of the India–Bangladesh border is 4,096–4,156 km.\nIV. The Chile–Argentina border has an approximate length of 4,096–4,156 km.",
+     "options": [
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II and III are correct. Chile–Argentina ranks first in South America, India–Bangladesh ranks fifth among the listed borders, and its approximate length is 4,096–4,156 km. Statement IV is incorrect; Chile–Argentina is approximately 5,300–5,308 km long.",
+     "facts": [
+      "F12",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-9-8",
+     "format": "Count-Based",
+     "keyword": "Borders",
+     "question": "How many of the following statements correctly describe Russia?\nI. Russia has the maximum number of neighbouring countries.\nII. Russia shares borders with the most countries of any one nation.\nIII. India–Bangladesh is India’s shortest international land border.\nIV. Chile–Argentina is the longest continuous land border.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct. The notes identify Russia as having the maximum number of neighbouring countries and sharing borders with the most countries of any one nation; India–Bangladesh is India’s longest international border, while Russia–Kazakhstan is the longest continuous land border.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-9-9",
+     "format": "Assertion-Reason",
+     "keyword": "Mountains → Location",
+     "question": "Assertion (A): The India–China border is an example of a mountain-range natural boundary.\nReason (R): The Himalayas form the physical feature of this border and include western, middle, and eastern sectors.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Himalayas are the mountain-range physical feature forming the India–China border, with western, middle and eastern sectors, thereby explaining its classification as a mountain-range natural boundary.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "world-geography-9-10",
+     "format": "Direct Recall",
+     "keyword": "Plateau → Location",
+     "question": "In the Aksai Chin area, which combination correctly identifies the type of natural boundary and its physical features on the India–China border?",
+     "options": [
+      "High plateau or mountains — Tibetan Plateau and Karakoram",
+      "Lakes — Great Lakes and Tibetan Plateau",
+      "Mountain range — Himalayas and Andes",
+      "Desert or steppe — Eurasian Steppe and Karakoram"
+     ],
+     "answer": 0,
+     "explanation": "The India–China border in the Aksai Chin area is a high plateau or mountain natural boundary. Its physical features are the Tibetan Plateau and the Karakoram.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -5036,8 +5332,215 @@
       "F43",
       "F45"
      ]
+    },
+    {
+     "id": "world-geography-17-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Railway → Length and Significance",
+     "question": "Consider the following statements:\nI. The Trans-Siberian Railway is 9,289 km long.\nII. The Trans-Siberian Railway crosses 8 time zones.\nIII. The Trans-Siberian Railway has strategic and economic significance.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. The Trans-Siberian Railway is 9,289 km long, crosses 8 time zones, and has strategic and economic significance.",
+     "facts": [
+      "F1",
+      "F4",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-17-7",
+     "format": "List-Matching",
+     "keyword": "Railway Network → Length and Rank",
+     "question": "Match List-I with List-II:\n\nList-I\n a. United States railway network\n b. China railway network\n c. Russia railway network\n\nList-II\n i. Includes the world's largest high-speed rail network\n ii. 220,000–250,000 km long\n iii. Third-longest railway network and 105,000 km long",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-iii, b-ii, c-i",
+      "a-i, b-iii, c-ii",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 3,
+     "explanation": "The United States network is 220,000–250,000 km long; China’s includes the world’s largest high-speed rail network; and Russia has the third-longest network at 105,000 km.",
+     "facts": [
+      "F6",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "world-geography-17-8",
+     "format": "Assertion-Reason",
+     "keyword": "Railway → Route and Region",
+     "question": "Assertion (A): The Canadian Pacific Railway runs between Montreal and Vancouver in Canada.\nReason (R): It connects the Atlantic and Pacific regions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Canadian Pacific Railway in Canada runs between Montreal and Vancouver and connects the Atlantic and Pacific regions.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-17-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Railway → Freight Network and Route",
+     "question": "Consider the following statements:\nI. The Canadian National Railway runs from the Atlantic to the Pacific and is in Canada.\nII. The Canadian National Railway is a major freight network.\nIII. The Trans-Canadian Railway runs across Canada and is in Canada.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The Canadian National Railway is a Canadian major freight network running from the Atlantic to the Pacific, while the Trans-Canadian Railway runs across Canada.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "world-geography-17-10",
+     "format": "Direct Recall",
+     "keyword": "Railway → Route and Location",
+     "question": "The Orient Express, a historical railway in Europe, ran between which two places?",
+     "options": [
+      "Paris and Istanbul",
+      "Montreal and Vancouver",
+      "Xining and Lhasa",
+      "Moscow and Vladivostok"
+     ],
+     "answer": 0,
+     "explanation": "The Orient Express was a historical railway in Europe that ran from Paris to Istanbul.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "world-geography-17-11",
+     "format": "Direct Recall",
+     "keyword": "Railway → Continent and Region",
+     "question": "The Trans-Andean Railway is located in which continent?",
+     "options": [
+      "Europe",
+      "Asia",
+      "North America",
+      "South America"
+     ],
+     "answer": 3,
+     "explanation": "The Trans-Andean Railway is located in South America.",
+     "facts": [
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-17-12",
+     "format": "Direct Recall",
+     "keyword": "Highest Railway → Location",
+     "question": "Which railway runs from Xining to Lhasa in China?",
+     "options": [
+      "Baikal–Amur Mainline",
+      "Qinghai–Tibet Railway",
+      "Trans-Canadian Railway",
+      "Canadian National Railway"
+     ],
+     "answer": 1,
+     "explanation": "The Qinghai–Tibet Railway runs from Xining to Lhasa and is located in China.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "world-geography-17-13",
+     "format": "Assertion-Reason",
+     "keyword": "Railway → Strategic Route",
+     "question": "Assertion (A): The Baikal–Amur Mainline is located in Russia.\nReason (R): It is an alternative strategic route.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the fact that the Baikal–Amur Mainline is an alternative strategic route does not explain its location in Russia.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "world-geography-17-14",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Which railway was the first transcontinental railway in North America and was completed in 1869?",
+     "options": [
+      "Trans-Siberian Railway",
+      "Trans-Canadian Railway",
+      "Canadian Pacific Railway",
+      "US Transcontinental Railroad"
+     ],
+     "answer": 3,
+     "explanation": "The US Transcontinental Railroad was the first transcontinental railway in North America and was completed in 1869.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-17-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Railway and Road Traffic",
+     "question": "Consider the following statements:\nStatement A: The Channel Tunnel carries rail traffic.\nStatement B: The Channel Tunnel also carries road traffic.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Channel Tunnel carries both rail and road traffic.",
+     "facts": [
+      "F44"
+     ]
+    },
+    {
+     "id": "world-geography-17-16",
+     "format": "Direct Recall",
+     "keyword": "Railway → Significance",
+     "question": "The Trans-Siberian Railway played a major role in which of the following?",
+     "options": [
+      "The development of luxury train services between Paris and Istanbul",
+      "Russian expansion and the development of Siberia",
+      "The connection of the United Kingdom and France under the English Channel",
+      "The construction of the first transcontinental railway in North America"
+     ],
+     "answer": 1,
+     "explanation": "The Trans-Siberian Railway played a major role in Russian expansion and the development of Siberia.",
+     "facts": [
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 46,
+    "covered": 46,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -6795,8 +7298,50 @@
       "F73",
       "F78"
      ]
+    },
+    {
+     "id": "world-geography-21-19",
+     "format": "List-Matching",
+     "keyword": "Major Crop → Region",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rice — major crop region\n(b) Potato — climate\n(c) Wheat — growing region\n(d) Tea — growing setting\n\nList-II\n(i) Monsoon Asia, including East Asia, South Asia and Southeast Asia\n(ii) Cool temperate climates\n(iii) Temperate grasslands such as the Prairies, Steppes and Pampas\n(iv) Hilly slopes with high rainfall",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Rice is a major crop of Monsoon Asia, potato grows in cool temperate climates, wheat is associated with the Prairies, Steppes and Pampas, and tea grows on hilly slopes with high rainfall.",
+     "facts": [
+      "F4",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-21-20",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Largest / Top Producers",
+     "question": "Which of the following statements about world potato production is incorrect?",
+     "options": [
+      "India ranks ahead of Russia among the world’s potato producers.",
+      "China ranks ahead of India among the world’s potato producers.",
+      "Russia and Brazil are listed among the world’s top potato producers.",
+      "Russia and Ukraine are listed among the world’s top potato producers."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement replaces Ukraine with Brazil. The listed top potato producers include Russia and Ukraine; China ranks ahead of India, and India ranks ahead of Russia.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 79,
+    "covered": 79,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -6825,7 +7370,12 @@
       "Caspian Sea"
      ],
      "answer": 3,
-     "explanation": "The Caspian Sea is the world’s largest lake by area. It is saline and is often called a sea."
+     "explanation": "The Caspian Sea is the world’s largest lake by area. It is saline and is often called a sea.",
+     "facts": [
+      "F1",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "world-geography-22-2",
@@ -6839,7 +7389,13 @@
       "Lake Ontario is the second smallest of the Great Lakes."
      ],
      "answer": 3,
-     "explanation": "The incorrect statement is that Lake Ontario is the second smallest. According to the notes, Lake Ontario is the smallest of the five Great Lakes."
+     "explanation": "The incorrect statement is that Lake Ontario is the second smallest. According to the notes, Lake Ontario is the smallest of the five Great Lakes.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "world-geography-22-3",
@@ -6853,7 +7409,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the Dead Sea’s extreme salinity does not explain its status as the lowest point on Earth."
+     "explanation": "Both statements are true according to the notes. However, the Dead Sea’s extreme salinity does not explain its status as the lowest point on Earth.",
+     "facts": [
+      "F46",
+      "F47",
+      "F26",
+      "F28"
+     ]
     },
     {
      "id": "world-geography-22-4",
@@ -6867,7 +7429,15 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Lake Baikal\u0014deepest and largest freshwater lake by volume; Lake Tanganyika\u0014longest and second deepest freshwater lake; Lake Titicaca\u0014highest navigable lake; Aral Sea\u0014shrinkage due to irrigation diversion."
+     "explanation": "The correct pairs are: Lake Baikal\u0014deepest and largest freshwater lake by volume; Lake Tanganyika\u0014longest and second deepest freshwater lake; Lake Titicaca\u0014highest navigable lake; Aral Sea\u0014shrinkage due to irrigation diversion.",
+     "facts": [
+      "F13",
+      "F17",
+      "F19",
+      "F25",
+      "F45",
+      "F50"
+     ]
     },
     {
      "id": "world-geography-22-5",
@@ -6881,9 +7451,182 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because Lake Superior is located between the USA and Canada; Lake Michigan is the Great Lake noted as entirely within the USA."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because Lake Superior is located between the USA and Canada; Lake Michigan is the Great Lake noted as entirely within the USA.",
+     "facts": [
+      "F30",
+      "F40",
+      "F43",
+      "F52",
+      "F11"
+     ]
+    },
+    {
+     "id": "world-geography-22-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sea → Location",
+     "question": "Consider the following statements about the Caspian Sea:\nI. It is located in Russia.\nII. It is located in Kazakhstan.\nIII. It is located in Turkmenistan.\nIV. It is located in Azerbaijan.\nV. It is located in Iran.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III, IV and V",
+      "I, III and V only"
+     ],
+     "answer": 2,
+     "explanation": "The Caspian Sea is located in Russia, Kazakhstan, Turkmenistan, Azerbaijan and Iran. Therefore, all five statements are correct.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "world-geography-22-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Largest",
+     "question": "Consider the following statements about Lake Baikal:\nI. It is located in Siberia.\nII. It is located in Russia.\nIII. It accounts for 20% of the world’s unfrozen freshwater.\nIV. Its maximum depth is 1,642 metres.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Lake Baikal is located in Siberia, Russia, accounts for 20% of the world’s unfrozen freshwater, and has a maximum depth of 1,642 metres.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-22-8",
+     "format": "List-Matching",
+     "keyword": "Lake → Special Feature",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Oldest freshwater lake\n(b) Animal associated with Lake Baikal\n(c) Largest tropical lake\n(d) Alternative name of Lake Malawi\n\nList-II\n(i) Lake Baikal\n(ii) Baikal seal\n(iii) Lake Victoria\n(iv) Lake Nyasa\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Lake Baikal is the oldest freshwater lake; the Baikal seal is associated with it. Lake Victoria is the largest tropical lake, and Lake Malawi is also called Lake Nyasa.",
+     "facts": [
+      "F36",
+      "F37",
+      "F29",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-22-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Largest",
+     "question": "Consider the following statements about Lake Superior:\nI. It is the largest freshwater lake by area.\nII. It is located in the USA.\nIII. It is part of the Great Lakes.\nIV. It is the largest freshwater lake by surface area.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only",
+      "II and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Lake Superior is the largest freshwater lake by area and by surface area. It is located in the USA and forms part of the Great Lakes.",
+     "facts": [
+      "F9",
+      "F10",
+      "F12",
+      "F31"
+     ]
+    },
+    {
+     "id": "world-geography-22-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Lake → Location",
+     "question": "Consider the following statements about Lake Tanganyika:\nI. It is located in East Africa.\nII. It is located in Tanzania, the Democratic Republic of the Congo, Burundi and Zambia.\nIII. It is located in the East African Rift.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "Lake Tanganyika is an East African lake located in Tanzania, the Democratic Republic of the Congo, Burundi and Zambia. It lies in the East African Rift.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F38"
+     ]
+    },
+    {
+     "id": "world-geography-22-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Lake → Location",
+     "question": "Consider the following statements:\nStatement A: The Dead Sea is located between Israel and Jordan.\nStatement B: Lake Victoria is the second largest freshwater lake by area.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Dead Sea is located between Israel and Jordan, while Lake Victoria is the second largest freshwater lake by area.",
+     "facts": [
+      "F27",
+      "F39"
+     ]
+    },
+    {
+     "id": "world-geography-22-12",
+     "format": "List-Matching",
+     "keyword": "Lake → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Lake Malawi\n(b) Lake Titicaca\n(c) Aral Sea\n(d) Lake Balkhash\n\nList-II\n(i) East Africa\n(ii) Peru and Bolivia\n(iii) Kazakhstan and Uzbekistan\n(iv) Kazakhstan",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Lake Malawi is in East Africa; Lake Titicaca is in Peru and Bolivia; the Aral Sea is in Kazakhstan and Uzbekistan; and Lake Balkhash is in Kazakhstan.",
+     "facts": [
+      "F42",
+      "F44",
+      "F48",
+      "F49",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-22-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Lake → Location",
+     "question": "Consider the following statements:\n\nI. Great Bear Lake is located in Canada.\nII. Great Slave Lake is located in Canada.\nIII. Great Bear Lake and Great Slave Lake are large Canadian lakes.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Great Bear Lake and Great Slave Lake are located in Canada and are identified as large Canadian lakes.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 55,
+    "covered": 55,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,
@@ -6912,7 +7655,10 @@
       "Malay / Indonesian Archipelago"
      ],
      "answer": 3,
-     "explanation": "The Malay / Indonesian Archipelago is identified in the notes as the world’s largest archipelago."
+     "explanation": "The Malay / Indonesian Archipelago is identified in the notes as the world’s largest archipelago.",
+     "facts": [
+      "F37"
+     ]
     },
     {
      "id": "world-geography-23-2",
@@ -6926,7 +7672,14 @@
       "Sri Lanka is an island nation south of India."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the description of the Faroe Islands. The notes call them the ‘Sheep Islands’; Svalbard is described as having High Arctic islands."
+     "explanation": "The incorrect detail is the description of the Faroe Islands. The notes call them the ‘Sheep Islands’; Svalbard is described as having High Arctic islands.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F54"
+     ]
     },
     {
      "id": "world-geography-23-3",
@@ -6940,7 +7693,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. Greenland is ranked first with an approximate area of 2.16 million km², supporting its position as the largest island."
+     "explanation": "Both statements are given in the notes. Greenland is ranked first with an approximate area of 2.16 million km², supporting its position as the largest island.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "world-geography-23-4",
@@ -6954,7 +7712,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are New Guinea—north of Australia, Borneo—Southeast Asia, Madagascar—off the east coast of Africa, and Baffin Island—Canada (Arctic)."
+     "explanation": "The correct pairs are New Guinea—north of Australia, Borneo—Southeast Asia, Madagascar—off the east coast of Africa, and Baffin Island—Canada (Arctic).",
+     "facts": [
+      "F7",
+      "F11",
+      "F16",
+      "F19"
+     ]
     },
     {
      "id": "world-geography-23-5",
@@ -6968,9 +7732,356 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct according to the notes. Statement III is incorrect because Borneo is the third largest island and is noted for equatorial rainforest; Madagascar is the fourth largest and is known for high endemism."
+     "explanation": "Statements I, II and IV are correct according to the notes. Statement III is incorrect because Borneo is the third largest island and is noted for equatorial rainforest; Madagascar is the fourth largest and is known for high endemism.",
+     "facts": [
+      "F10",
+      "F25",
+      "F55",
+      "F56",
+      "F57",
+      "F59",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-23-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Islands → Location",
+     "question": "Consider the following statements:\nStatement A: Greenland is located in the North Atlantic.\nStatement B: Greenland is a territory of Denmark.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Greenland is located in the North Atlantic and is a territory of Denmark.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "world-geography-23-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Largest",
+     "question": "Consider the following statements:\nI. New Guinea is ranked second among the largest islands.\nII. New Guinea is shared by Indonesia and Papua New Guinea.\nIII. New Guinea has an approximate area of 785,000 km².",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements correctly describe New Guinea: its rank, sharing countries and approximate area.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-23-8",
+     "format": "List-Matching",
+     "keyword": "Islands → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Borneo\n b. Kalimantan\n c. Approximate area of Borneo\n\nList-II\n i. Indonesian part of Borneo\n ii. Shared by Indonesia, Malaysia and Brunei\n iii. 743,000 km²",
+     "options": [
+      "a-iii, b-i, c-ii",
+      "a-ii, b-iii, c-i",
+      "a-ii, b-i, c-iii",
+      "a-i, b-ii, c-iii"
+     ],
+     "answer": 2,
+     "explanation": "Borneo is shared by Indonesia, Malaysia and Brunei; Kalimantan is the Indonesian part of Borneo; and Borneo has an approximate area of 743,000 km².",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "world-geography-23-9",
+     "format": "List-Matching",
+     "keyword": "Largest",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Madagascar\n b. Baffin Island\n c. Sumatra\n d. Honshu\n\nList-II\n i. Fifth among the largest islands; approximately 507,000 km²\n ii. Seventh among the largest islands; approximately 228,000 km²\n iii. Fourth among the largest islands; approximately 587,000 km²\n iv. Sixth among the largest islands; approximately 473,000 km²",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Madagascar–fourth and 587,000 km², Baffin Island–fifth and 507,000 km², Sumatra–sixth and 473,000 km², and Honshu–seventh and 228,000 km².",
+     "facts": [
+      "F15",
+      "F17",
+      "F18",
+      "F20",
+      "F21",
+      "F23",
+      "F24",
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-23-10",
+     "format": "Assertion-Reason",
+     "keyword": "Largest",
+     "question": "Assertion (A): Victoria Island is ranked eighth among the largest islands.\nReason (R): Victoria Island is located in Canada.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Victoria Island's location in Canada does not explain its eighth rank among the largest islands.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "world-geography-23-11",
+     "format": "Direct Recall",
+     "keyword": "Largest",
+     "question": "What is the approximate area of Victoria Island?",
+     "options": [
+      "209,000 km²",
+      "217,000 km²",
+      "228,000 km²",
+      "196,000 km²"
+     ],
+     "answer": 1,
+     "explanation": "Victoria Island has an approximate area of 217,000 km².",
+     "facts": [
+      "F29"
+     ]
+    },
+    {
+     "id": "world-geography-23-12",
+     "format": "Direct Recall",
+     "keyword": "Island → Area",
+     "question": "Ellesmere Island has an approximate area of:",
+     "options": [
+      "217,000 km²",
+      "228,000 km²",
+      "196,000 km²",
+      "209,000 km²"
+     ],
+     "answer": 2,
+     "explanation": "Ellesmere has an approximate area of 196,000 km².",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "world-geography-23-13",
+     "format": "List-Matching",
+     "keyword": "Archipelago → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Malay or Indonesian Archipelago\n b. Philippines\n c. Caribbean Islands\n d. Aleutian Islands\n\nList-II\n i. Between the Indian and Pacific Oceans\n ii. Southeast Asia\n iii. Caribbean Sea\n iv. Between Alaska and Russia",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The Malay or Indonesian Archipelago lies between the Indian and Pacific Oceans; the Philippines is in Southeast Asia; the Caribbean Islands are in the Caribbean Sea; and the Aleutian Islands lie between Alaska and Russia.",
+     "facts": [
+      "F36",
+      "F39",
+      "F48",
+      "F50"
+     ]
+    },
+    {
+     "id": "world-geography-23-14",
+     "format": "Direct Recall",
+     "keyword": "Archipelago → Highest Number of Islands",
+     "question": "Which country has the highest number of islands?",
+     "options": [
+      "Japan",
+      "The Philippines",
+      "Norway",
+      "Indonesia"
+     ],
+     "answer": 3,
+     "explanation": "The sheet identifies Indonesia as having the highest number of islands.",
+     "facts": [
+      "F38"
+     ]
+    },
+    {
+     "id": "world-geography-23-15",
+     "format": "Direct Recall",
+     "keyword": "Island Nation",
+     "question": "Which description best applies to the Philippines?",
+     "options": [
+      "A large island nation",
+      "An island with equatorial rainforest",
+      "A volcanic chain",
+      "High Arctic islands"
+     ],
+     "answer": 0,
+     "explanation": "The Philippines is described as a large island nation.",
+     "facts": [
+      "F40"
+     ]
+    },
+    {
+     "id": "world-geography-23-16",
+     "format": "List-Matching",
+     "keyword": "Island Group → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Japan\n b. Hokkaido\n c. Kyushu\n d. Shikoku\n\nList-II\n i. East Asia\n ii. An island of Japan\n iii. An island of Japan\n iv. An island of Japan",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Japan is in East Asia, while Hokkaido, Kyushu and Shikoku are islands of Japan.",
+     "facts": [
+      "F41",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "world-geography-23-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Island Group → Composition",
+     "question": "Consider the following statements:\nStatement A: The British Isles are in Northwest Europe.\nStatement B: The British Isles comprise Great Britain and Ireland.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The British Isles are located in Northwest Europe and comprise Great Britain and Ireland.",
+     "facts": [
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "world-geography-23-18",
+     "format": "Assertion-Reason",
+     "keyword": "Island Group → Location and Composition",
+     "question": "Assertion (A): The Caribbean Islands contain many independent nations.\nReason (R): The Caribbean Islands are located in the Caribbean Sea.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Caribbean Islands are in the Caribbean Sea and contain many independent nations. However, their location does not explain the stated political composition.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "world-geography-23-19",
+     "format": "Assertion-Reason",
+     "keyword": "Island Chain → Location and Type",
+     "question": "Assertion (A): The Aleutian Islands form a volcanic chain.\nReason (R): The Aleutian Islands lie between Alaska and Russia.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Aleutian Islands form a volcanic chain and lie between Alaska and Russia. The stated location does not explain why they form a volcanic chain.",
+     "facts": [
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-23-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Island Group → Location and Sovereignty",
+     "question": "Consider the following statements:\nStatement A: Svalbard is in the Arctic.\nStatement B: Svalbard belongs to Norway.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Svalbard is identified as an Arctic island group belonging to Norway.",
+     "facts": [
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "world-geography-23-21",
+     "format": "Direct Recall",
+     "keyword": "Island → Endemism",
+     "question": "Lemurs are associated with Madagascar’s:",
+     "options": [
+      "Dense rainforests",
+      "Equatorial rainforest",
+      "Volcanic character",
+      "High endemism"
+     ],
+     "answer": 3,
+     "explanation": "Madagascar is noted for high endemism, with lemurs associated with this feature.",
+     "facts": [
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-23-22",
+     "format": "List-Matching",
+     "keyword": "Largest",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Sumatra\n b. Great Britain’s rank among the largest islands\n c. Great Britain’s political grouping\n d. Ellesmere’s rank among the largest islands\n\nList-II\n i. Indonesia\n ii. Ninth\n iii. United Kingdom\n iv. Tenth",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Sumatra is in Indonesia. Great Britain is ranked ninth among the largest islands and forms part of the United Kingdom, while Ellesmere is ranked tenth.",
+     "facts": [
+      "F22",
+      "F30",
+      "F31",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-23-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Largest",
+     "question": "Consider the following statements:\nStatement A: Great Britain has an approximate area of 209,000 km².\nStatement B: Ellesmere is located in Canada.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The approximate area of Great Britain is 209,000 km², and Ellesmere is in Canada.",
+     "facts": [
+      "F32",
+      "F34"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 63,
+    "covered": 63,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -6998,7 +8109,12 @@
       "Trans-Siberian Highway"
      ],
      "answer": 1,
-     "explanation": "The Pan-American Highway is approximately 30,000 km long, extending from Alaska to Tierra del Fuego and crossing 14 countries."
+     "explanation": "The Pan-American Highway is approximately 30,000 km long, extending from Alaska to Tierra del Fuego and crossing 14 countries.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "world-geography-24-2",
@@ -7012,7 +8128,11 @@
       "The Trans-Canada Highway runs from Victoria in British Columbia to St. John’s in Newfoundland."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the route. St. Petersburg to Vladivostok is the route of the Trans-Siberian Highway, whereas the Trans-Canada Highway runs from Victoria to St. John’s."
+     "explanation": "The incorrect statement alters the route. St. Petersburg to Vladivostok is the route of the Trans-Siberian Highway, whereas the Trans-Canada Highway runs from Victoria to St. John’s.",
+     "facts": [
+      "F10",
+      "F18"
+     ]
     },
     {
      "id": "world-geography-24-3",
@@ -7026,7 +8146,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Silk Route was a historic land-and-sea trade route rather than one single modern highway, so the reason explains the assertion."
+     "explanation": "Both statements are true. The Silk Route was a historic land-and-sea trade route rather than one single modern highway, so the reason explains the assertion.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "world-geography-24-4",
@@ -7040,7 +8164,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Pan-American Highway—North, Central and South America; Trans-African Highways—planned major roads across Africa; Golden Quadrilateral—India; Asian Highway Network—network promoted by UNESCAP."
+     "explanation": "The correct pairs are: Pan-American Highway—North, Central and South America; Trans-African Highways—planned major roads across Africa; Golden Quadrilateral—India; Asian Highway Network—network promoted by UNESCAP.",
+     "facts": [
+      "F15",
+      "F20",
+      "F25",
+      "F27",
+      "F24"
+     ]
     },
     {
      "id": "world-geography-24-5",
@@ -7054,9 +8185,115 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the notes: Australia’s Highway 1 circles the continent, the Trans-Siberian Highway links St. Petersburg and Vladivostok, and the Golden Quadrilateral connects Delhi, Mumbai, Chennai and Kolkata."
+     "explanation": "All three statements are correct according to the notes: Australia’s Highway 1 circles the continent, the Trans-Siberian Highway links St. Petersburg and Vladivostok, and the Golden Quadrilateral connects Delhi, Mumbai, Chennai and Kolkata.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F10",
+      "F28",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-24-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Longest road network",
+     "question": "Consider the following statements:\nI. The Pan-American Highway is the longest road network.\nII. The Pan-American Highway is the longest road system.\nIII. The Darién Gap is the only major break in the Pan-American Highway.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The Pan-American Highway is described as both the longest road network and the longest road system, with the Darién Gap as its only major break.",
+     "facts": [
+      "F1",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-24-7",
+     "format": "Assertion-Reason",
+     "keyword": "Highway network comparison",
+     "question": "Assertion (A): The Trans-Siberian Highway is the longest highway network within a single country after Australia’s Highway 1.\nReason (R): Highway 1 is the longest continuous national highway.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Australia’s Highway 1 is the longest continuous national highway, while the Trans-Siberian Highway ranks next as the longest highway network within a single country.",
+     "facts": [
+      "F8",
+      "F11"
+     ]
+    },
+    {
+     "id": "world-geography-24-8",
+     "format": "List-Matching",
+     "keyword": "Highway length and route",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Highway 1\n(b) Trans-Siberian Highway\n(c) Asian (AH1) Highway\n(d) Trans-African Highways\n\nList-II\n(i) Approximately 11,000 km\n(ii) Approximately 20,557 km; Tokyo to the Turkey–Bulgaria border\n(iii) Approximately 14,500 km; circles the entire Australian continent\n(iv) Tripoli–Cape Town route",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Highway 1–14,500 km and Australia-wide route; Trans-Siberian Highway–11,000 km; AH1–20,557 km from Tokyo to the Turkey–Bulgaria border; and Trans-African Highways–Tripoli–Cape Town.",
+     "facts": [
+      "F8",
+      "F9",
+      "F12",
+      "F13",
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-24-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Asian Highway Network",
+     "question": "Consider the following statements:\nStatement A: The Asian (AH1) Highway is the longest route in the Asian Highway Network.\nStatement B: The Asian Highway Network extends across Asia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. AH1 is the longest route in the Asian Highway Network, which extends across Asia.",
+     "facts": [
+      "F14",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-24-10",
+     "format": "Direct Recall",
+     "keyword": "Silk Road route",
+     "question": "The Silk Road or Silk Route runs from:",
+     "options": [
+      "China through Central Asia to Europe",
+      "St. Petersburg to Vladivostok",
+      "Alaska through Central America to Argentina",
+      "Tokyo through Central Asia to Europe"
+     ],
+     "answer": 0,
+     "explanation": "The Silk Road or Silk Route runs from China through Central Asia to Europe.",
+     "facts": [
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -7256,7 +8493,24 @@
       "Europe, North Africa, Middle East, and parts of Central and South Asia"
      ],
      "answer": 3,
-     "explanation": "The notes place Caucasoid populations in Europe, North Africa, the Middle East, and parts of Central and South Asia."
+     "explanation": "The notes place Caucasoid populations in Europe, North Africa, the Middle East, and parts of Central and South Asia.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F20",
+      "F21",
+      "F22",
+      "F24",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F43",
+      "F44"
+     ]
     },
     {
      "id": "world-geography-27-2",
@@ -7270,7 +8524,20 @@
       "Negroids generally have dark brown to black skin, woolly or curly hair, broad noses and thick lips."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the physical features of Mongoloids. The notes describe Mongoloids as having yellowish to brown skin, straight black hair, epicanthic folds and broad faces."
+     "explanation": "The incorrect statement alters the physical features of Mongoloids. The notes describe Mongoloids as having yellowish to brown skin, straight black hair, epicanthic folds and broad faces.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F15",
+      "F16",
+      "F17",
+      "F19",
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "world-geography-27-3",
@@ -7284,7 +8551,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: Pygmies are located in the Congo Basin of Central Africa and have a short stature of 1.3–1.5 metres. Their stature is a feature, not an explanation for their geographical location."
+     "explanation": "Both statements are given in the notes: Pygmies are located in the Congo Basin of Central Africa and have a short stature of 1.3–1.5 metres. Their stature is a feature, not an explanation for their geographical location.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "world-geography-27-4",
@@ -7298,7 +8571,25 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Pygmies–Congo Basin and short stature; Eskimos/Inuit–Arctic regions and Mongoloid; Native Americans–Americas and Mongoloid origin; Negrito–Andaman Islands and parts of Southeast Asia and India."
+     "explanation": "The correct pairs are: Pygmies–Congo Basin and short stature; Eskimos/Inuit–Arctic regions and Mongoloid; Native Americans–Americas and Mongoloid origin; Negrito–Andaman Islands and parts of Southeast Asia and India.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "world-geography-27-5",
@@ -7312,9 +8603,106 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct according to the listed examples. Statement III is incorrect because the notes place many Proto-Australoid tribal groups, including Munda, Santhal and Bhil, in Central and South India."
+     "explanation": "Statements I and II are correct according to the listed examples. Statement III is incorrect because the notes place many Proto-Australoid tribal groups, including Munda, Santhal and Bhil, in Central and South India.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F64",
+      "F65",
+      "F66",
+      "F67",
+      "F68",
+      "F23",
+      "F45",
+      "F48"
+     ]
+    },
+    {
+     "id": "world-geography-27-6",
+     "format": "Direct Recall",
+     "keyword": "Physical Features",
+     "question": "Which racial group is also called Caucasian and is characterised by medium to tall stature?",
+     "options": [
+      "Negroid",
+      "Mongoloid",
+      "Caucasoid",
+      "Australoid"
+     ],
+     "answer": 2,
+     "explanation": "Caucasoid is also called Caucasian, and Caucasoids have medium to tall stature.",
+     "facts": [
+      "F1",
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-27-7",
+     "format": "Direct Recall",
+     "keyword": "Physical Features",
+     "question": "Which of the following is a characteristic feature of Mongoloids?",
+     "options": [
+      "Broad noses",
+      "Wavy or curly hair",
+      "Dark skin",
+      "Almond-shaped eyes"
+     ],
+     "answer": 3,
+     "explanation": "Mongoloids are characterised by epicanthic folds, producing almond-shaped eyes.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-27-8",
+     "format": "List-Matching",
+     "keyword": "Physical Features",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Skin colour of Australoids\n b. Nose of Australoids\n c. Hair of Australoids\n d. Stature of Australoids\n\nList-II\n i. Broad\n ii. Medium\n iii. Dark\n iv. Wavy or curly\n\nCodes:",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Australoids have dark skin, broad noses, wavy or curly hair and medium stature. Therefore, a-iii, b-i, c-iv and d-ii are the correct pairs.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-27-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Distribution",
+     "question": "Consider the following statements:\nStatement A: Australoids are associated with Aboriginals.\nStatement B: Australoids are associated with some Melanesians.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet associates Australoids with Aboriginals and with some Melanesians.",
+     "facts": [
+      "F46",
+      "F47"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 68,
+    "covered": 68,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -7342,7 +8730,11 @@
       "Niger-Congo"
      ],
      "answer": 2,
-     "explanation": "Indo-European is the largest language family by speakers, accounting for approximately 46% of the world population."
+     "explanation": "Indo-European is the largest language family by speakers, accounting for approximately 46% of the world population.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "world-geography-28-2",
@@ -7356,7 +8748,22 @@
       "Niger-Congo is the largest language family by number of languages."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the distribution of Dravidian languages. The notes state that Dravidian languages are mainly found in South India, with parts of Sri Lanka and Pakistan."
+     "explanation": "The incorrect detail is the distribution of Dravidian languages. The notes state that Dravidian languages are mainly found in South India, with parts of Sri Lanka and Pakistan.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F44",
+      "F45",
+      "F46",
+      "F27",
+      "F52",
+      "F53",
+      "F54",
+      "F55"
+     ]
     },
     {
      "id": "world-geography-28-3",
@@ -7370,7 +8777,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, listing major Dravidian languages does not explain why the family is mainly distributed in India."
+     "explanation": "Both statements are true according to the notes. However, listing major Dravidian languages does not explain why the family is mainly distributed in India.",
+     "facts": [
+      "F52",
+      "F56",
+      "F57",
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "world-geography-28-4",
@@ -7384,7 +8798,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are English–Indo-European, Mandarin Chinese–Sino-Tibetan, Swahili–Niger-Congo and Tamil–Dravidian."
+     "explanation": "The correct pairs are English–Indo-European, Mandarin Chinese–Sino-Tibetan, Swahili–Niger-Congo and Tamil–Dravidian.",
+     "facts": [
+      "F8",
+      "F23",
+      "F29",
+      "F56"
+     ]
     },
     {
      "id": "world-geography-28-5",
@@ -7398,7 +8818,17 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct. The notes associate Austronesian with Southeast Asia, the Pacific Islands and Madagascar; Trans-New Guinea with Papua New Guinea and nearby islands; and Austro-Asiatic with parts of India and Southeast Asia."
+     "explanation": "All three statements are correct. The notes associate Austronesian with Southeast Asia, the Pacific Islands and Madagascar; Trans-New Guinea with Papua New Guinea and nearby islands; and Austro-Asiatic with parts of India and Southeast Asia.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F67",
+      "F68",
+      "F69",
+      "F61",
+      "F62"
+     ]
     }
    ]
   },
@@ -7514,7 +8944,10 @@
       "India"
      ],
      "answer": 0,
-     "explanation": "Sagarmatha National Park is located in Nepal and is associated with the highest mountain and Himalayan flora-fauna."
+     "explanation": "Sagarmatha National Park is located in Nepal and is associated with the highest mountain and Himalayan flora-fauna.",
+     "facts": [
+      "F35"
+     ]
     },
     {
      "id": "world-geography-30-2",
@@ -7528,7 +8961,17 @@
       "The Okavango Delta is an inland delta with high wildlife density."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Etosha is known for mountain gorillas. Etosha is known for its salt pan and wildlife, whereas Virunga is associated with mountain gorillas."
+     "explanation": "The incorrect statement is that Etosha is known for mountain gorillas. Etosha is known for its salt pan and wildlife, whereas Virunga is associated with mountain gorillas.",
+     "facts": [
+      "F12",
+      "F13",
+      "F48",
+      "F49",
+      "F51",
+      "F52",
+      "F54",
+      "F58"
+     ]
     },
     {
      "id": "world-geography-30-3",
@@ -7542,7 +8985,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Yellowstone was the world’s first national park, established in 1872, and it is known for geysers and hot springs. The features do not explain why it was the first national park."
+     "explanation": "Both statements are true: Yellowstone was the world’s first national park, established in 1872, and it is known for geysers and hot springs. The features do not explain why it was the first national park.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5",
+      "F3"
+     ]
     },
     {
      "id": "world-geography-30-4",
@@ -7556,7 +9005,14 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Serengeti–Tanzania, Komodo–Indonesia, Chitwan–Nepal and Torres del Paine–Chile."
+     "explanation": "The correct pairs are Serengeti–Tanzania, Komodo–Indonesia, Chitwan–Nepal and Torres del Paine–Chile.",
+     "facts": [
+      "F8",
+      "F38",
+      "F55",
+      "F62",
+      "F41"
+     ]
     },
     {
      "id": "world-geography-30-5",
@@ -7570,7 +9026,294 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Masai Mara continues the Serengeti ecosystem, and Virunga is known for mountain gorillas. Statement III is incorrect because Etosha is known for its salt pan and wildlife; the inland delta with high wildlife density is the Okavango Delta."
+     "explanation": "Statements I and II are correct. Masai Mara continues the Serengeti ecosystem, and Virunga is known for mountain gorillas. Statement III is incorrect because Etosha is known for its salt pan and wildlife; the inland delta with high wildlife density is the Okavango Delta.",
+     "facts": [
+      "F16",
+      "F48",
+      "F49",
+      "F51",
+      "F52",
+      "F54"
+     ]
+    },
+    {
+     "id": "world-geography-30-6",
+     "format": "List-Matching",
+     "keyword": "National Park → Country [LOCATION]",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Yellowstone National Park\n(b) Kruger National Park\n(c) Masai Mara National Reserve\n(d) Banff National Park\n\nList-II\n(i) Canada\n(ii) Kenya\n(iii) USA\n(iv) South Africa",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Yellowstone is in the USA, Kruger is in South Africa, Masai Mara is in Kenya, and Banff is in Canada.",
+     "facts": [
+      "F1",
+      "F11",
+      "F15",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-30-7",
+     "format": "Assertion-Reason",
+     "keyword": "Wildlife → National Park",
+     "question": "Assertion (A): Yellowstone National Park has bison and grizzly bears.\nReason (R): Yellowstone National Park has geysers and hot springs.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true features of Yellowstone National Park, but geysers and hot springs do not explain the presence of bison and grizzly bears.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "world-geography-30-8",
+     "format": "Assertion-Reason",
+     "keyword": "Great Migration",
+     "question": "Assertion (A): Serengeti National Park is known for the Great Migration of wildebeest, zebra and gazelle.\nReason (R): Serengeti National Park has Big Five wildlife.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the presence of Big Five wildlife does not explain the Great Migration of wildebeest, zebra and gazelle.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "world-geography-30-9",
+     "format": "Direct Recall",
+     "keyword": "Big Five wildlife",
+     "question": "Which of the following correctly represents the Big Five wildlife of Kruger National Park?",
+     "options": [
+      "Lion, leopard, elephant, rhinoceros and buffalo",
+      "Lion, zebra, wildebeest, rhinoceros and buffalo",
+      "Leopard, mountain gorilla, elephant, buffalo and gazelle",
+      "Lion, tiger, elephant, rhinoceros and one-horned rhinoceros"
+     ],
+     "answer": 0,
+     "explanation": "The Big Five wildlife of Kruger National Park includes the lion, leopard, elephant, rhinoceros and buffalo.",
+     "facts": [
+      "F14"
+     ]
+    },
+    {
+     "id": "world-geography-30-10",
+     "format": "Direct Recall",
+     "keyword": "Great Migration",
+     "question": "Which national reserve is associated with the Great Migration?",
+     "options": [
+      "Masai Mara National Reserve",
+      "Etosha National Park",
+      "Galápagos National Park",
+      "Banff National Park"
+     ],
+     "answer": 0,
+     "explanation": "Masai Mara National Reserve in Kenya is associated with the Great Migration.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-30-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "National Park → Location and Features",
+     "question": "Consider the following statements:\n\nI. Banff National Park is in Canada.\nII. Banff National Park is located in the Rocky Mountains.\nIII. Banff National Park has glaciers.\nIV. Banff National Park has lakes.",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Banff is in Canada, lies in the Rocky Mountains, and has glaciers and lakes.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-30-12",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "National Park → Features",
+     "question": "Which of the following statements about Yosemite National Park is incorrect?",
+     "options": [
+      "It has mangrove forests.",
+      "It has granite cliffs.",
+      "It has waterfalls.",
+      "Yosemite National Park is in the USA."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement is that Yosemite has mangrove forests. The listed features are granite cliffs, waterfalls and giant sequoias.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-30-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Canyon → Location and Distinction",
+     "question": "Consider the following statements:\nStatement A: The Grand Canyon is in the USA.\nStatement B: The Grand Canyon is the world’s largest canyon landscape.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Grand Canyon is in the USA and is described as the world’s largest canyon landscape.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "world-geography-30-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "National Park → Location and Features",
+     "question": "Consider the following statements about Galápagos National Park:\n\nI. It is in Ecuador.\nII. It has unique endemic species.\nIII. It was a site of Darwin’s study.\nIV. It has marine and terrestrial ecosystems.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Galápagos National Park is in Ecuador, has unique endemic species, was a site of Darwin’s study, and contains marine and terrestrial ecosystems.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-30-15",
+     "format": "Direct Recall",
+     "keyword": "Region → Countries",
+     "question": "The Amazon/Yasuni region spans which of the following countries?",
+     "options": [
+      "Tanzania and Kenya",
+      "Botswana and Namibia",
+      "Nepal and India",
+      "Ecuador and Brazil"
+     ],
+     "answer": 3,
+     "explanation": "The Amazon/Yasuni region spans Ecuador and Brazil.",
+     "facts": [
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-30-16",
+     "format": "Assertion-Reason",
+     "keyword": "National Park → Country / Special Feature",
+     "question": "Assertion (A): Sagarmatha National Park contains Mount Everest, the highest mountain.\nReason (R): Sagarmatha National Park has Himalayan flora and fauna.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The presence of Himalayan flora and fauna is a feature of the park but does not explain why it contains Mount Everest.",
+     "facts": [
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "world-geography-30-17",
+     "format": "Direct Recall",
+     "keyword": "Biodiversity",
+     "question": "Which region is described as having a highly biodiverse rainforest?",
+     "options": [
+      "Amazon/Yasuni region",
+      "Sagarmatha region",
+      "Okavango Delta",
+      "Ngorongoro Conservation Area"
+     ],
+     "answer": 0,
+     "explanation": "The Amazon/Yasuni region is described as a highly biodiverse rainforest.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "world-geography-30-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "National Park → Country / Special Feature",
+     "question": "Consider the following statements about the Ngorongoro Conservation Area:\nI. It is in Tanzania.\nII. It has crater wildlife.\nIII. It is a UNESCO site.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: Ngorongoro Conservation Area is in Tanzania, has crater wildlife and is a UNESCO site.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "world-geography-30-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "National Park → Wildlife Species",
+     "question": "Consider the following statements:\nStatement A: Chitwan National Park has one-horned rhinoceroses.\nStatement B: Chitwan National Park has Bengal tigers.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Chitwan National Park is associated with one-horned rhinoceroses and Bengal tigers.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "world-geography-30-20",
+     "format": "List-Matching",
+     "keyword": "National Park → Country / Special Feature",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Royal Chitwan / Kaziranga-like region\n(b) Okavango Delta\n(c) Etosha National Park\n(d) Virunga National Park\n\nList-II\n(i) Nepal / India; rhinoceros conservation\n(ii) Botswana; inland delta and high wildlife density\n(iii) Namibia; salt pan and wildlife\n(iv) Democratic Republic of the Congo; mountain gorillas",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: Royal Chitwan/Kaziranga-like region—Nepal/India and rhinoceros conservation; Okavango—Botswana; Etosha—Namibia; Virunga—Democratic Republic of the Congo.",
+     "facts": [
+      "F42",
+      "F43",
+      "F47",
+      "F50",
+      "F53"
+     ]
     }
    ]
   },
@@ -7693,8 +9436,158 @@
       "F39",
       "F40"
      ]
+    },
+    {
+     "id": "world-geography-31-6",
+     "format": "List-Matching",
+     "keyword": "Sea Routes → Connections and Features",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) North Atlantic Route\n(b) Cape of Good Hope Route\n(c) Panama Canal Route\n(d) Trans-Pacific Route\n\nList-II\n(i) Longer alternative when the Suez Canal is blocked\n(ii) Shortens the voyage between the eastern and western coasts of the Americas\n(iii) Connects the northeastern United States and northwestern Europe, linking two major industrial regions\n(iv) Has growing container traffic",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The North Atlantic Route connects the northeastern United States and northwestern Europe and links two major industrial regions. The Cape of Good Hope Route is a longer alternative when Suez is blocked, the Panama Canal Route shortens voyages between the American coasts, and the Trans-Pacific Route has growing container traffic.",
+     "facts": [
+      "F1",
+      "F4",
+      "F11",
+      "F13",
+      "F15"
+     ]
+    },
+    {
+     "id": "world-geography-31-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Strait → Importance",
+     "question": "Consider the following statements:\nStatement A: The Strait of Malacca is the world’s busiest strait.\nStatement B: About one-third of global trade passes through the Strait of Malacca.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Strait of Malacca is identified as the world’s busiest strait, and about one-third of global trade passes through it.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-31-8",
+     "format": "Count-Based",
+     "keyword": "Strait → Oil Route",
+     "question": "How many of the following are associated with the Strait of Malacca?\n\n1. It is a major oil route to East Asia.\n2. About 20% of global oil passes through it.\n3. About 12–15% of global seaborne trade passes through it.\n4. It has growing container traffic.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 0,
+     "explanation": "Only statement 1 is associated with the Strait of Malacca. The approximately 20% oil figure belongs to the Strait of Hormuz, the 12–15% seaborne-trade figure to the Suez Canal, and growing container traffic to the Trans-Pacific Route.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-31-9",
+     "format": "Assertion-Reason",
+     "keyword": "Oil Chokepoint",
+     "question": "Assertion (A): The Strait of Hormuz is the most critical oil chokepoint.\nReason (R): About 20% of global oil passes through the Strait of Hormuz.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both the assertion and the reason are true. The passage of about 20% of global oil through the Strait of Hormuz accounts for its critical importance as an oil chokepoint.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "world-geography-31-10",
+     "format": "Count-Based",
+     "keyword": "Suez Route → Traffic and Trade",
+     "question": "How many of the following statements are associated with the Suez Route or Suez Canal?\n\n1. The Suez Route has high traffic.\n2. About 12–15% of global seaborne trade passes through the Suez Canal.\n3. The Panama Canal is vital for trade between the Americas and Asia and the United States.\n4. The Trans-Pacific Route has growing container traffic.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements 1 and 2 are associated with the Suez Route or Canal. Statements 3 and 4 describe the Panama Canal and Trans-Pacific Route respectively.",
+     "facts": [
+      "F9",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-31-11",
+     "format": "Direct Recall",
+     "keyword": "Canal → Strategic Importance",
+     "question": "Which canal is vital for trade between the Americas and Asia and the United States?",
+     "options": [
+      "Suez Canal",
+      "Kiel Canal",
+      "Panama Canal",
+      "Corinth Canal"
+     ],
+     "answer": 2,
+     "explanation": "The Panama Canal is vital for trade between the Americas and Asia and the United States.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "world-geography-31-12",
+     "format": "Direct Recall",
+     "keyword": "Strait → Location",
+     "question": "Which strait is the entrance to the Mediterranean Sea?",
+     "options": [
+      "Strait of Bosphorus",
+      "Strait of Malacca",
+      "Strait of Hormuz",
+      "Strait of Gibraltar"
+     ],
+     "answer": 3,
+     "explanation": "The Strait of Gibraltar is the entrance to the Mediterranean Sea.",
+     "facts": [
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-31-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Straits → Connections and Strategic Access",
+     "question": "Consider the following statements:\n\nI. The Turkish Straits consist of the Bosphorus and the Dardanelles.\nII. The Turkish Straits connect the Black Sea and the Mediterranean Sea.\nIII. The Turkish Straits provide Russia’s warm-water access.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The Turkish Straits comprise the Bosphorus and Dardanelles, connect the Black Sea with the Mediterranean Sea, and provide Russia’s warm-water access.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,
@@ -7809,8 +9702,286 @@
       "F63",
       "F66"
      ]
+    },
+    {
+     "id": "world-geography-32-6",
+     "format": "Assertion-Reason",
+     "keyword": "Industry → Raw Material",
+     "question": "Assertion (A): Agricultural industries use agro-based products as raw materials.\nReason (R): Agro-based products include crops and animals.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Agricultural industries use agro-based products as raw materials, and agro-based products include crops and animals. The Reason clarifies what agro-based products are and therefore explains the Assertion.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "world-geography-32-7",
+     "format": "Direct Recall",
+     "keyword": "Agricultural Industry → Dependence",
+     "question": "Agricultural industries primarily depend on which of the following?",
+     "options": [
+      "Coal, petroleum and natural gas",
+      "Forest products",
+      "Minerals",
+      "Farm produce"
+     ],
+     "answer": 3,
+     "explanation": "Agricultural industries depend on farm produce.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "world-geography-32-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Agricultural Industry → Characteristics",
+     "question": "Consider the following statements:\nStatement A: Agricultural industries are often rural and labour-intensive.\nStatement B: Agricultural industries are seasonal.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The characteristics listed for agricultural industries include being often rural and labour-intensive, as well as seasonal.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-32-9",
+     "format": "Count-Based",
+     "keyword": "Agricultural Industry → Major Examples",
+     "question": "How many of the following are agricultural industries?\n1. Cotton textile\n2. Jute\n3. Sugar\n4. Tea\n5. Coffee\n6. Edible oil\n7. Dairy\n8. Food processing\n9. Rubber\n10. Silk",
+     "options": [
+      "Only five",
+      "Only seven",
+      "Only eight",
+      "All ten"
+     ],
+     "answer": 3,
+     "explanation": "All ten listed items—cotton textile, jute, sugar, tea, coffee, edible oil, dairy, food processing, rubber and silk—are agricultural industries.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "world-geography-32-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral-based Industry → Major Examples",
+     "question": "Consider the following statements:\nI. Aluminium and cement are mineral-based industries.\nII. Copper smelting and fertiliser are mineral-based industries.\nIII. Jewellery is a mineral-based industry.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I only"
+     ],
+     "answer": 0,
+     "explanation": "Aluminium, cement, copper smelting, fertiliser and jewellery are all identified as mineral-based industries.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-32-11",
+     "format": "Assertion-Reason",
+     "keyword": "Forest-based Industry → Raw Material",
+     "question": "Assertion (A): Forest-based industries use forest products as raw materials.\nReason (R): Forest-based industries depend on timber and non-timber forest produce.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Forest-based industries use forest products as raw materials and depend on timber and non-timber forest produce. The Reason specifies the forest products on which these industries depend.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "world-geography-32-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forest-based Industry → Major Examples",
+     "question": "Consider the following statements:\nI. Paper and pulp is a forest-based industry.\nII. Furniture is a forest-based industry.\nIII. Plywood is a forest-based industry.",
+     "options": [
+      "I, II and III",
+      "I only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Paper and pulp, furniture and plywood are all listed as forest-based industries.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "world-geography-32-13",
+     "format": "Count-Based",
+     "keyword": "Forest-based industry",
+     "question": "How many of the following are forest-based industries?\n1. Matchsticks\n2. Lac\n3. Resin\n4. Bamboo products\n5. Rayon",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "Matchsticks, lac, resin, bamboo products and rayon are all identified as forest-based industries. Therefore, all five belong to this category.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "world-geography-32-14",
+     "format": "Assertion-Reason",
+     "keyword": "Fuel-based industry",
+     "question": "Assertion (A): Fuel-based industries use coal, petroleum and natural gas as raw materials.\nReason (R): Fuel-based industries are associated with power generation and petrochemicals.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Coal, petroleum and natural gas are raw materials for fuel-based industries, while their association with power generation and petrochemicals is a related characteristic, not an explanation of the raw-material statement.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-32-15",
+     "format": "Count-Based",
+     "keyword": "Fuel-based industry",
+     "question": "How many of the following are fuel-based industries?\n1. Petrochemicals\n2. Oil refining\n3. Gas-based fertilisers\n4. Paper and pulp",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Petrochemicals, oil refining and gas-based fertilisers are fuel-based industries. Paper and pulp is a forest-based industry, so the correct count is three.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "world-geography-32-16",
+     "format": "Assertion-Reason",
+     "keyword": "Manpower-based industry",
+     "question": "Assertion (A): Manpower-based industries are also called labour-intensive industries.\nReason (R): Manpower-based industries have high human labour requirements.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the high human labour requirement explains why manpower-based industries are also termed labour-intensive industries.",
+     "facts": [
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "world-geography-32-17",
+     "format": "Count-Based",
+     "keyword": "Manpower-based industry",
+     "question": "How many of the following are manpower-based industries?\n1. Handloom\n2. Handicrafts\n3. Leather\n4. Garments\n5. Toy-making\n6. Small-scale food processing",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 3,
+     "explanation": "Handloom, handicrafts, leather, garments, toy-making and small-scale food processing are all listed as manpower-based industries. Hence, all six are correct.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "world-geography-32-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Paper and pulp industry",
+     "question": "Consider the following statements:\nStatement A: The paper and pulp industry has low capital requirements and high employment generation.\nStatement B: Nordic countries and Canada are major exporters of paper and pulp.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Paper and pulp is characterised by low capital requirements and high employment generation, while Nordic countries and Canada are major exporters.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "world-geography-32-19",
+     "format": "Direct Recall",
+     "keyword": "Industry Leading Countries / Regions",
+     "question": "Which two countries have major refining capacity?",
+     "options": [
+      "Saudi Arabia and Russia",
+      "USA and China",
+      "India and South Korea",
+      "China and Japan"
+     ],
+     "answer": 1,
+     "explanation": "The USA and China have major refining capacity.",
+     "facts": [
+      "F64",
+      "F62"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 66,
+    "covered": 66,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,

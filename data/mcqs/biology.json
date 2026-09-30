@@ -751,8 +751,65 @@
       "F28",
       "F39"
      ]
+    },
+    {
+     "id": "biology-2-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: Edward Jenner made the first vaccination attempt.\nStatement B: Edward Jenner is known as the father of immunology.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Edward Jenner made the first vaccination attempt and is known as the father of immunology.",
+     "facts": [
+      "F35",
+      "F37"
+     ]
+    },
+    {
+     "id": "biology-2-14",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Which of the following was the first vaccine?",
+     "options": [
+      "Polio vaccine",
+      "Smallpox vaccine",
+      "hCG",
+      "Recombinant insulin"
+     ],
+     "answer": 1,
+     "explanation": "The smallpox vaccine was the first vaccine.",
+     "facts": [
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-2-15",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who developed the first successful polio vaccine?",
+     "options": [
+      "Jonas Salk",
+      "Christian Barnard",
+      "Edward Jenner",
+      "William Harvey"
+     ],
+     "answer": 0,
+     "explanation": "Jonas Salk developed the first successful polio vaccine.",
+     "facts": [
+      "F38"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -950,8 +1007,146 @@
       "F39",
       "F38"
      ]
+    },
+    {
+     "id": "biology-4-6",
+     "format": "List-Matching",
+     "keyword": "Largest/Smallest – Animals",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Largest invertebrate\n(b) Largest or longest venomous snake\n(c) Largest nocturnal primate\n(d) Smallest bat\n\nList-II\n(i) Aye-aye\n(ii) Colossal squid\n(iii) Kitti's hog-nosed bat\n(iv) King cobra",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The colossal squid is the largest invertebrate, the king cobra is the largest or longest venomous snake, the aye-aye is the largest nocturnal primate, and Kitti's hog-nosed bat is the smallest bat.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-4-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Largest bats / Smallest bat",
+     "question": "Consider the following statements:\n\nI. Kitti's hog-nosed bat is also called the bumblebee bat.\nII. Flying foxes are the largest bats.\nIII. The giant golden-crowned flying fox is among the largest bats.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: Kitti's hog-nosed bat is also called the bumblebee bat, flying foxes are the largest bats, and the giant golden-crowned flying fox is among the largest bats.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "biology-4-8",
+     "format": "Assertion-Reason",
+     "keyword": "Largest animal / Largest living creature",
+     "question": "Assertion (A): The blue whale is the largest animal ever known.\nReason (R): The blue whale is the largest living creature.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. However, the statement that the blue whale is the largest living creature does not explain the separate classification that it is the largest animal ever known.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "biology-4-9",
+     "format": "List-Matching",
+     "keyword": "Largest mammal / Largest brain",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Largest mammal\n(b) Largest toothed whale\n(c) Smallest man-like ape\n(d) Largest brain by absolute size\n\nList-II\n(i) Gibbon\n(ii) Sperm whale\n(iii) Whale\n(iv) Sperm whale",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The whale is the largest mammal; the sperm whale is the largest toothed whale and has the largest brain by absolute size; and the gibbon is the smallest man-like ape.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "biology-4-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Largest brain / Water requirement",
+     "question": "Consider the following statements:\n\nI. The elephant has the largest brain among terrestrial animals.\nII. The ant has the largest brain in proportion to its body.\nIII. The kangaroo rat is the animal that lives longest without drinking water.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The elephant has the largest brain among terrestrial animals, the ant has the largest brain relative to body size, and the kangaroo rat lives longest without drinking water.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-4-11",
+     "format": "Direct Recall",
+     "keyword": "Largest flower",
+     "question": "Which of the following is the largest flower?",
+     "options": [
+      "Rafflesia",
+      "Aye-aye",
+      "Colossal squid",
+      "Giant golden-crowned flying fox"
+     ],
+     "answer": 0,
+     "explanation": "Rafflesia is the largest flower.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "biology-4-12",
+     "format": "List-Matching",
+     "keyword": "Largest – Human body structures",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Longest bone\n(b) Largest section of the alimentary canal\n(c) Largest artery\n(d) Largest of the blood cells\n\nList-II\n(i) White blood cells\n(ii) Aorta\n(iii) Femur\n(iv) Ileum",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The femur is the longest bone, the ileum is stated as the largest section of the alimentary canal, the aorta is the largest artery, and white blood cells are stated as the largest blood cells.",
+     "facts": [
+      "F27",
+      "F33",
+      "F34",
+      "F36"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -1510,7 +1705,10 @@
       "Antonie van Leeuwenhoek"
      ],
      "answer": 1,
-     "explanation": "The notes identify Robert Hooke as the discoverer of cells."
+     "explanation": "The notes identify Robert Hooke as the discoverer of cells.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-9-2",
@@ -1524,7 +1722,14 @@
       "Blood circulation was discovered by William Harvey."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the discoverer of the polio vaccine. The notes attribute it to Jonas Salk, whereas Gerhard Domagk is associated with Prontosil."
+     "explanation": "The incorrect detail is the discoverer of the polio vaccine. The notes attribute it to Jonas Salk, whereas Gerhard Domagk is associated with Prontosil.",
+     "facts": [
+      "F1",
+      "F7",
+      "F11",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "biology-9-3",
@@ -1538,7 +1743,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. Watson and Crick's work on DNA structure does not explain Miescher's earlier identification or isolation of DNA."
+     "explanation": "Both statements are given in the notes. Watson and Crick's work on DNA structure does not explain Miescher's earlier identification or isolation of DNA.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-9-4",
@@ -1552,7 +1761,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: glycolysis/EMP pathway—Embden, Meyerhof and Parnas; Krebs cycle—Hans Krebs; restriction endonucleases—Arber, Nathans and Smith; bacterial conjugation—Lederberg and Tatum."
+     "explanation": "The correct pairs are: glycolysis/EMP pathway—Embden, Meyerhof and Parnas; Krebs cycle—Hans Krebs; restriction endonucleases—Arber, Nathans and Smith; bacterial conjugation—Lederberg and Tatum.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-9-5",
@@ -1566,7 +1782,12 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and III are correct according to the notes. Prontosil is associated with Gerhard Domagk, not Alexander Fleming."
+     "explanation": "Statements I and III are correct according to the notes. Prontosil is associated with Gerhard Domagk, not Alexander Fleming.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     }
    ]
   },
@@ -4280,7 +4501,13 @@
       "Leishmania"
      ],
      "answer": 3,
-     "explanation": "Leishmania is the pathogen associated with Kala-azar. Trypanosoma brucei causes sleeping sickness, Entamoeba histolytica causes amoebiasis, and Wuchereria bancrofti causes filariasis."
+     "explanation": "Leishmania is the pathogen associated with Kala-azar. Trypanosoma brucei causes sleeping sickness, Entamoeba histolytica causes amoebiasis, and Wuchereria bancrofti causes filariasis.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "biology-17-2",
@@ -4294,7 +4521,15 @@
       "P. vivax causes recurring malaria."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the disease caused by Mycobacterium leprae. It causes leprosy, whereas Corynebacterium diphtheriae causes diphtheria."
+     "explanation": "The incorrect statement alters the disease caused by Mycobacterium leprae. It causes leprosy, whereas Corynebacterium diphtheriae causes diphtheria.",
+     "facts": [
+      "F2",
+      "F14",
+      "F16",
+      "F17",
+      "F3",
+      "F1"
+     ]
     },
     {
      "id": "biology-17-3",
@@ -4308,7 +4543,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Clostridium tetani causes tetanus and Clostridium botulinum causes botulism. However, the reason does not explain the assertion."
+     "explanation": "Both statements are true: Clostridium tetani causes tetanus and Clostridium botulinum causes botulism. However, the reason does not explain the assertion.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-17-4",
@@ -4322,7 +4561,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Mucormycetes–Mucormycosis, Aspergillus–Aspergillosis, Claviceps purpurea–Ergotism, and Trichophyton etc.–Athlete's foot."
+     "explanation": "The correct pairs are: Mucormycetes–Mucormycosis, Aspergillus–Aspergillosis, Claviceps purpurea–Ergotism, and Trichophyton etc.–Athlete's foot.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "biology-17-5",
@@ -4336,9 +4581,171 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. JEV is associated with Japanese encephalitis, CHIKV with chikungunya, and H5N1 with bird flu."
+     "explanation": "All three statements are correct. JEV is associated with Japanese encephalitis, CHIKV with chikungunya, and H5N1 with bird flu.",
+     "facts": [
+      "F32",
+      "F34",
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-17-6",
+     "format": "Direct Recall",
+     "keyword": "Disease → Causative Agent",
+     "question": "Which of the following accounts for a major share of malaria cases?",
+     "options": [
+      "P. falciparum",
+      "Leishmania",
+      "P. vivax",
+      "Plasmodium"
+     ],
+     "answer": 2,
+     "explanation": "P. vivax accounts for a major share of malaria cases.",
+     "facts": [
+      "F4"
+     ]
+    },
+    {
+     "id": "biology-17-7",
+     "format": "List-Matching",
+     "keyword": "Parasite → Disease",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ascaris lumbricoides\n(b) Taenia solium\n(c) Schistosomes\n(d) Fasciola hepatica/gigantica\n\nList-II\n(i) Fascioliasis\n(ii) Ascariasis\n(iii) Schistosomiasis\n(iv) Neurocysticercosis",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Ascaris lumbricoides–Ascariasis, Taenia solium–Neurocysticercosis, Schistosomes–Schistosomiasis and Fasciola hepatica/gigantica–Fascioliasis.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "biology-17-8",
+     "format": "List-Matching",
+     "keyword": "Bacteria → Disease",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vibrio cholerae\n(b) Mycobacterium tuberculosis\n(c) Neisseria gonorrhoeae\n(d) Treponema palladium\n\nList-II\n(i) Syphilis\n(ii) Cholera\n(iii) Gonorrhoea\n(iv) Tuberculosis",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Vibrio cholerae–Cholera, Mycobacterium tuberculosis–Tuberculosis, Neisseria gonorrhoeae–Gonorrhoea and Treponema palladium–Syphilis.",
+     "facts": [
+      "F13",
+      "F15",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-17-9",
+     "format": "Assertion-Reason",
+     "keyword": "Disease → Causative Agent",
+     "question": "Assertion (A): Bordetella pertussis causes whooping cough.\nReason (R): Streptococcus pneumoniae causes pneumonia.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Bordetella pertussis causes whooping cough, while Streptococcus pneumoniae causes pneumonia. The Reason does not explain the Assertion.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "biology-17-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease → Causative Agent",
+     "question": "Consider the following statements:\n\nI. Streptococcus pyogenes causes rheumatic fever.\nII. SARS-CoV-2 causes COVID-19.\nIII. Poliovirus causes polio.\nIV. Rabies lyssavirus causes rabies.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct pathogen–disease associations: Streptococcus pyogenes–rheumatic fever, SARS-CoV-2–COVID-19, Poliovirus–polio and Rabies lyssavirus–rabies.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-17-11",
+     "format": "List-Matching",
+     "keyword": "Virus → Disease",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) HBV\n(b) HIV\n(c) H1N1\n(d) Dengue virus\n\nList-II\n(i) Dengue\n(ii) AIDS\n(iii) Swine flu\n(iv) Hepatitis-B",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are HBV–Hepatitis-B, HIV–AIDS, H1N1–Swine flu and Dengue virus–Dengue.",
+     "facts": [
+      "F28",
+      "F29",
+      "F31",
+      "F33"
+     ]
+    },
+    {
+     "id": "biology-17-12",
+     "format": "List-Matching",
+     "keyword": "Virus → Disease",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Zika virus\n(b) Yellow fever virus\n(c) Ebola virus\n(d) Nipah virus\n\nList-II\n(i) Nipah disease\n(ii) Yellow fever\n(iii) Ebola\n(iv) Zika fever",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Zika virus–Zika fever, Yellow fever virus–Yellow fever, Ebola virus–Ebola and Nipah virus–Nipah disease.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "biology-17-13",
+     "format": "Direct Recall",
+     "keyword": "Disease → Causative Agent",
+     "question": "Which pathogen causes foot and mouth disease?",
+     "options": [
+      "Aphthovirus",
+      "Dengue virus",
+      "Yellow fever virus",
+      "Nipah virus"
+     ],
+     "answer": 0,
+     "explanation": "Aphthovirus causes foot and mouth disease.",
+     "facts": [
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 43,
+    "covered": 43,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -5450,8 +5857,239 @@
       "F24",
       "F25"
      ]
+    },
+    {
+     "id": "biology-23-6",
+     "format": "Count-Based",
+     "keyword": "Disease-Causing Agents",
+     "question": "How many of the following fungal agents cause athlete's foot?\n1. Trichophyton\n2. Epidermophyton\n3. Microsporum\n4. Aspergillus flavus\n5. Aspergillus parasiticus",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "Only four"
+     ],
+     "answer": 2,
+     "explanation": "Trichophyton, Epidermophyton and Microsporum cause athlete's foot. Aspergillus flavus and Aspergillus parasiticus cause aflatoxin.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-23-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Fungal Diseases",
+     "question": "Consider the following statements:\nI. Mucormycetes causes mucormycosis.\nII. Ustilago nuda tritici causes wheat loose smut.\nIII. Phytophthora infestans causes potato late blight.\nIV. Synchytrium endobioticum causes potato wart.",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct fungal agent–disease associations: Mucormycetes–mucormycosis, Ustilago nuda tritici–wheat loose smut, Phytophthora infestans–potato late blight and Synchytrium endobioticum–potato wart.",
+     "facts": [
+      "F7",
+      "F10",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-23-8",
+     "format": "List-Matching",
+     "keyword": "Fungal Diseases",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Albugo candida\n b. Pyricularia\n c. Claviceps purpurea\n d. Alternaria solani\n\nList-II\n i. Mustard white rust\n ii. Rice blast\n iii. Ergotism\n iv. Potato early blight",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Albugo candida–mustard white rust and Pyricularia–rice blast; the remaining pairs are Claviceps purpurea–ergotism and Alternaria solani–potato early blight.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-23-9",
+     "format": "List-Matching",
+     "keyword": "Virus–Disease Association",
+     "question": "Match List-I with List-II.\n\nList-I\n a. HBV\n b. HIV\n c. JEV\n d. Nipah virus\n\nList-II\n i. AIDS\n ii. Nipah\n iii. Hepatitis-B\n iv. Japanese encephalitis",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "HBV causes Hepatitis-B, HIV causes AIDS, JEV causes Japanese encephalitis and Nipah virus causes Nipah.",
+     "facts": [
+      "F19",
+      "F20",
+      "F26",
+      "F29"
+     ]
+    },
+    {
+     "id": "biology-23-10",
+     "format": "List-Matching",
+     "keyword": "Bacterium–Disease Association",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Vibrio cholerae\n b. Yersinia pestis\n c. Mycobacterium leprae\n d. Streptococcus pneumoniae\n\nList-II\n i. Cholera\n ii. Plague\n iii. Leprosy\n iv. Pneumonia",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Vibrio cholerae–cholera, Yersinia pestis–plague, Mycobacterium leprae–leprosy and Streptococcus pneumoniae–pneumonia.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "biology-23-11",
+     "format": "Assertion-Reason",
+     "keyword": "Bacterium–Disease Association",
+     "question": "Assertion (A): Salmonella typhi causes typhoid.\nReason (R): Corynebacterium diphtheriae causes diphtheria.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the association of Corynebacterium diphtheriae with diphtheria does not explain why Salmonella typhi causes typhoid.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "biology-23-12",
+     "format": "List-Matching",
+     "keyword": "Causative organism → Disease",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Neisseria gonorrhoeae\n b. Treponema pallidium\n c. Bordetella pertussis\n\nList-II\n i. Syphilis\n ii. Whooping cough\n iii. Gonorrhoea\n\nChoose the correct code:",
+     "options": [
+      "a-i, b-ii, c-iii",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i",
+      "a-ii, b-iii, c-i"
+     ],
+     "answer": 1,
+     "explanation": "Neisseria gonorrhoeae causes gonorrhoea, Treponema pallidium causes syphilis, and Bordetella pertussis causes whooping cough.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "biology-23-13",
+     "format": "Assertion-Reason",
+     "keyword": "Bacterium → Disease",
+     "question": "Assertion (A): Streptococcus pyogenes causes rheumatic fever.\nReason (R): Clostridium botulinum causes botulism.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the causation of botulism by Clostridium botulinum does not explain the causation of rheumatic fever by Streptococcus pyogenes.",
+     "facts": [
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "biology-23-14",
+     "format": "List-Matching",
+     "keyword": "Plant disease → Bacterium",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Xanthomonas axonopodis\n b. Xanthomonas campestris\n c. Agrobacterium tumefaciens\n\nList-II\n i. Crown gall\n ii. Black rot of cabbage\n iii. Citrus canker\n\nChoose the correct code:",
+     "options": [
+      "a-i, b-iii, c-ii",
+      "a-ii, b-i, c-iii",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 3,
+     "explanation": "Xanthomonas axonopodis causes citrus canker, Xanthomonas campestris causes black rot of cabbage, and Agrobacterium tumefaciens causes crown gall.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "biology-23-15",
+     "format": "Direct Recall",
+     "keyword": "Plant disease → Bacterium",
+     "question": "Which bacterium causes potato wilt?",
+     "options": [
+      "Xanthomonas campestris",
+      "Xanthomonas axonopodis",
+      "Pseudomonas solanacearum",
+      "Agrobacterium tumefaciens"
+     ],
+     "answer": 2,
+     "explanation": "Pseudomonas solanacearum causes potato wilt.",
+     "facts": [
+      "F51"
+     ]
+    },
+    {
+     "id": "biology-23-16",
+     "format": "Assertion-Reason",
+     "keyword": "Disease → Causative Virus",
+     "question": "Assertion (A): Rabies virus causes rabies.\nReason (R): Dengue virus causes dengue.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Rabies virus causes rabies, while Dengue virus causes dengue. The reason is an independent fact and does not explain the assertion.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "biology-23-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Virus → Disease",
+     "question": "Consider the following statements:\nI. TMV causes tobacco mosaic disease.\nII. RTSV and RTBV cause rice tungro.\nIII. H1N1 causes swine flu.\nIV. Nipah virus causes Nipah disease.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. TMV causes tobacco mosaic disease; RTSV and RTBV cause rice tungro; H1N1 causes swine flu; and Nipah virus causes Nipah disease.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 51,
+    "covered": 51,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -5479,7 +6117,15 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "Vitamin B1 is Thiamine, B2 is Riboflavin, B7 is Biotin/Vitamin-H, and B12 is Cobalamin/Cyanocobalamin."
+     "explanation": "Vitamin B1 is Thiamine, B2 is Riboflavin, B7 is Biotin/Vitamin-H, and B12 is Cobalamin/Cyanocobalamin.",
+     "facts": [
+      "F9",
+      "F16",
+      "F38",
+      "F39",
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "biology-24-2",
@@ -5493,7 +6139,16 @@
       "Vitamin B3 deficiency causes pellagra."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the deficiency disease associated with Vitamin B5. The notes associate pellagra with Vitamin B3, whereas Vitamin B5 deficiency causes paraesthesia and burning sensation."
+     "explanation": "The incorrect detail is the deficiency disease associated with Vitamin B5. The notes associate pellagra with Vitamin B3, whereas Vitamin B5 deficiency causes paraesthesia and burning sensation.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F25",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-24-3",
@@ -5507,7 +6162,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. Vitamin K functions in blood clotting, and its deficiency is associated with increased clotting time and bleeding."
+     "explanation": "Both statements are given in the notes. Vitamin K functions in blood clotting, and its deficiency is associated with increased clotting time and bleeding.",
+     "facts": [
+      "F83",
+      "F84",
+      "F85"
+     ]
     },
     {
      "id": "biology-24-4",
@@ -5521,7 +6181,14 @@
       "All five"
      ],
      "answer": 1,
-     "explanation": "Vitamin B1, Vitamin B9 and Vitamin C are water-soluble. Vitamin D and Vitamin K are fat-soluble. Therefore, three listed vitamins are water-soluble."
+     "explanation": "Vitamin B1, Vitamin B9 and Vitamin C are water-soluble. Vitamin D and Vitamin K are fat-soluble. Therefore, three listed vitamins are water-soluble.",
+     "facts": [
+      "F15",
+      "F49",
+      "F65",
+      "F74",
+      "F86"
+     ]
     },
     {
      "id": "biology-24-5",
@@ -5535,7 +6202,149 @@
       "I and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I and III are correct. The notes identify B7 as Biotin/Vitamin-H and assign DNA synthesis, RBC formation and nervous-system functions to B12; B9 is associated with cell/RBC formation."
+     "explanation": "Statements I and III are correct. The notes identify B7 as Biotin/Vitamin-H and assign DNA synthesis, RBC formation and nervous-system functions to B12; B9 is associated with cell/RBC formation.",
+     "facts": [
+      "F39",
+      "F45",
+      "F46",
+      "F52",
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "biology-24-6",
+     "format": "List-Matching",
+     "keyword": "Chemical name",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Vitamin A\n(b) Vitamin B3\n(c) Vitamin B5\n(d) Vitamin B6\n\nList-II\n(i) Retinol\n(ii) Niacin\n(iii) Pantothenic acid\n(iv) Pyridoxine",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Vitamin A is chemically called retinol, Vitamin B3 is niacin, Vitamin B5 is pantothenic acid and Vitamin B6 is pyridoxine.",
+     "facts": [
+      "F1",
+      "F23",
+      "F27",
+      "F32"
+     ]
+    },
+    {
+     "id": "biology-24-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Main function",
+     "question": "Consider the following statements:\n\nI. Vitamin A functions in vision.\nII. Vitamin A supports epithelial tissue.\nIII. Vitamin A supports immunity.\nIV. Vitamin B1 functions in carbohydrate metabolism.\nV. Vitamin B1 functions in amino-acid metabolism.\nVI. Vitamin B1 supports nerve function.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III, IV and VI only",
+      "I, II, III, IV, V and VI",
+      "I, II, IV and V only",
+      "I, III, V and VI only"
+     ],
+     "answer": 1,
+     "explanation": "The sheet associates Vitamin A with vision, epithelial tissue and immunity, and Vitamin B1 with carbohydrate metabolism, amino-acid metabolism and nerve function.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "biology-24-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Solubility",
+     "question": "Consider the following statements:\n\nStatement A: Vitamin A is fat-soluble.\nStatement B: Vitamin B2 functions in metabolism.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Vitamin A is listed as fat-soluble, while metabolism is listed as the main function of Vitamin B2.",
+     "facts": [
+      "F8",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-24-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Deficiency disease",
+     "question": "Consider the following statements:\n\nStatement A: Vitamin B1 deficiency causes beri-beri.\nStatement B: Vitamin B1 deficiency causes growth retardation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The deficiency effects listed for Vitamin B1 are beri-beri and growth retardation.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "biology-24-10",
+     "format": "Assertion-Reason",
+     "keyword": "Solubility",
+     "question": "Assertion (A): Vitamin B3 is water-soluble.\nReason (R): Vitamin B2 is water-soluble.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both Vitamin B3 and Vitamin B2 are listed as water-soluble. However, the solubility of Vitamin B2 does not explain the solubility of Vitamin B3.",
+     "facts": [
+      "F22",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-24-11",
+     "format": "Direct Recall",
+     "keyword": "Main function",
+     "question": "Which one of the following is a function of Vitamin B3?",
+     "options": [
+      "Vision",
+      "Nerve function",
+      "Metabolism",
+      "Support of epithelial tissue"
+     ],
+     "answer": 2,
+     "explanation": "Vitamin B3 is listed as functioning in metabolism.",
+     "facts": [
+      "F24"
+     ]
+    },
+    {
+     "id": "biology-24-12",
+     "format": "Count-Based",
+     "keyword": "Vitamin B5 and B6",
+     "question": "How many of the following statements are correct?\n\nI. Vitamin B5 functions in metabolism.\nII. Vitamin B5 is water-soluble.\nIII. Vitamin B6 functions in amino-acid metabolism.\nIV. Vitamin B6 deficiency causes anaemia.\nV. Vitamin B6 deficiency causes skin problems.",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five statements are correct: Vitamin B5 is associated with metabolism and is water-soluble; Vitamin B6 is associated with amino-acid metabolism, and its deficiency causes anaemia and skin problems.",
+     "facts": [
+      "F28",
+      "F31",
+      "F33",
+      "F34",
+      "F35"
+     ]
     }
    ]
   },
@@ -5651,7 +6460,11 @@
       "Rickets"
      ],
      "answer": 1,
-     "explanation": "Vitamin B3 deficiency causes pellagra."
+     "explanation": "Vitamin B3 deficiency causes pellagra.",
+     "facts": [
+      "F5",
+      "F4"
+     ]
     },
     {
      "id": "biology-26-2",
@@ -5665,7 +6478,14 @@
       "Vitamin C deficiency causes scurvy."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the disease associated with Vitamin K. Vitamin K deficiency causes a bleeding tendency, while night blindness is associated with Vitamin A deficiency."
+     "explanation": "The incorrect detail is the disease associated with Vitamin K. Vitamin K deficiency causes a bleeding tendency, while night blindness is associated with Vitamin A deficiency.",
+     "facts": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-26-3",
@@ -5679,7 +6499,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Iodine is needed for thyroid hormone synthesis, and its deficiency is associated with goitre."
+     "explanation": "Both statements are true. Iodine is needed for thyroid hormone synthesis, and its deficiency is associated with goitre.",
+     "facts": [
+      "F11",
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "biology-26-4",
@@ -5693,7 +6518,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Iron–haemoglobin and oxygen transport; Calcium–bones and muscle contraction; Potassium–heart rhythm and muscle action; Magnesium–muscle and enzymatic functions."
+     "explanation": "The correct pairs are: Iron–haemoglobin and oxygen transport; Calcium–bones and muscle contraction; Potassium–heart rhythm and muscle action; Magnesium–muscle and enzymatic functions.",
+     "facts": [
+      "F16",
+      "F17",
+      "F23",
+      "F28"
+     ]
     },
     {
      "id": "biology-26-5",
@@ -5707,9 +6538,216 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the notes: boron is linked with internal cork/heart rot, molybdenum with whiptail, and zinc with growth and plant deficiency manifestations."
+     "explanation": "All three statements are correct according to the notes: boron is linked with internal cork/heart rot, molybdenum with whiptail, and zinc with growth and plant deficiency manifestations.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F22",
+      "F33",
+      "F47"
+     ]
+    },
+    {
+     "id": "biology-26-6",
+     "format": "Direct Recall",
+     "keyword": "Deficiency Disease",
+     "question": "Protein deficiency is associated with which of the following pair of conditions?",
+     "options": [
+      "Pellagra and Scurvy",
+      "Rickets and Night blindness",
+      "Kwashiorkor and Marasmus",
+      "Goitre and Beri-beri"
+     ],
+     "answer": 2,
+     "explanation": "The sheet associates protein deficiency with both Kwashiorkor and Marasmus.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "biology-26-7",
+     "format": "Direct Recall",
+     "keyword": "Deficiency Disease",
+     "question": "Iron deficiency causes which of the following?",
+     "options": [
+      "Rickets",
+      "Goitre",
+      "Anaemia",
+      "Pernicious anaemia"
+     ],
+     "answer": 2,
+     "explanation": "Iron deficiency is associated with anaemia.",
+     "facts": [
+      "F10"
+     ]
+    },
+    {
+     "id": "biology-26-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Deficiency",
+     "question": "Consider the following statements:\nStatement A: Calcium deficiency causes bone and muscle problems.\nStatement B: Calcium deficiency causes bone and muscle disorders.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet describes calcium deficiency as causing bone and muscle problems or disorders; both statements express this fact.",
+     "facts": [
+      "F12",
+      "F18"
+     ]
+    },
+    {
+     "id": "biology-26-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Functions",
+     "question": "Consider the following statements about phosphorus:\nI. It functions in acid–base balance.\nII. It functions in bones.\nIII. It functions in ATP and nucleic acids.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Phosphorus is listed as functioning in acid–base balance, bones, and ATP and nucleic acids.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-26-10",
+     "format": "List-Matching",
+     "keyword": "Mineral Function and Deficiency",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Potassium\n b. Sodium\n c. Magnesium\n d. Zinc\n\nList-II\n i. Enzymes and growth\n ii. Fluid and electrolyte disturbances on deficiency\n iii. Deficiency disorders\n iv. Muscle and heart disturbances on deficiency\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Potassium deficiency causes muscle and heart disturbances; sodium deficiency causes fluid and electrolyte disturbances; magnesium deficiency causes deficiency disorders; and zinc functions in enzymes and growth.",
+     "facts": [
+      "F24",
+      "F27",
+      "F29",
+      "F32"
+     ]
+    },
+    {
+     "id": "biology-26-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sodium – Function",
+     "question": "Consider the following statements about sodium:\nI. Sodium functions as an electrolyte.\nII. Sodium functions in muscle and nerve activity.\nIII. Sodium deficiency causes fluid and electrolyte disturbances.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Sodium functions as an electrolyte and in muscle and nerve activity, while its deficiency causes fluid and electrolyte disturbances.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-26-12",
+     "format": "List-Matching",
+     "keyword": "Trace Minerals",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Cobalt\n b. Fluorine/Fluoride\n c. Selenium\n d. Copper\n\nList-II\n i. Essential trace mineral; deficiency causes deficiency disorders\n ii. Component of vitamin B12; deficiency causes B12-related deficiency conditions\n iii. Trace mineral and functions in enzymes; deficiency causes deficiency disorders\n iv. Functions in teeth and bones; deficiency causes dental effects\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Cobalt is a component of vitamin B12 and its deficiency causes B12-related deficiency conditions. Fluorine/fluoride functions in teeth and bones and its deficiency causes dental effects. Selenium is an essential trace mineral associated with deficiency disorders, while copper functions as a trace mineral and in enzymes and its deficiency causes deficiency disorders.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "biology-26-13",
+     "format": "Count-Based",
+     "keyword": "Trace Minerals",
+     "question": "How many of the following minerals are described as trace minerals or essential trace minerals and are also associated with deficiency disorders?\n\n1. Selenium\n2. Copper\n3. Manganese\n4. Chromium",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four are associated with trace-mineral functions: selenium is an essential trace mineral, copper and manganese function as trace minerals and in enzymes, and chromium functions as a trace mineral. Each is also associated with deficiency disorders.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "biology-26-14",
+     "format": "Assertion-Reason",
+     "keyword": "Trace Mineral",
+     "question": "Assertion (A): Manganese functions as a trace mineral and in enzymes.\nReason (R): Manganese deficiency causes deficiency disorders.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but manganese deficiency does not explain manganese's trace-mineral and enzymatic functions; they are separate facts.",
+     "facts": [
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "biology-26-15",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): Chromium deficiency causes deficiency disorders.\nReason (R): Molybdenum functions as a trace mineral.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Chromium deficiency is associated with deficiency disorders, while molybdenum functions as a trace mineral; the latter does not explain the former.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,
@@ -5737,7 +6775,12 @@
       "Growth, repair and tissue building"
      ],
      "answer": 3,
-     "explanation": "Proteins perform functions related to growth, repair and tissue building."
+     "explanation": "Proteins perform functions related to growth, repair and tissue building.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-27-2",
@@ -5751,7 +6794,18 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are α-Keratin–horn, nail, hoof, hair and skin; Gluten–wheat and bread-making quality; Collagen–connective tissue; and Casein–major milk protein."
+     "explanation": "The correct pairs are α-Keratin–horn, nail, hoof, hair and skin; Gluten–wheat and bread-making quality; Collagen–connective tissue; and Casein–major milk protein.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "biology-27-3",
@@ -5765,7 +6819,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that protein provides approximately 4 kcal/g and identify energy as one of its functions. Therefore, the Reason explains the Assertion."
+     "explanation": "The notes state that protein provides approximately 4 kcal/g and identify energy as one of its functions. Therefore, the Reason explains the Assertion.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "biology-27-4",
@@ -5779,7 +6836,13 @@
       "Vitamin B1 deficiency causes beri-beri."
      ],
      "answer": 1,
-     "explanation": "The incorrect pairing is Vitamin C deficiency–rickets. According to the notes, Vitamin C deficiency causes scurvy, whereas Vitamin D deficiency causes rickets."
+     "explanation": "The incorrect pairing is Vitamin C deficiency–rickets. According to the notes, Vitamin C deficiency causes scurvy, whereas Vitamin D deficiency causes rickets.",
+     "facts": [
+      "F30",
+      "F31",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "biology-27-5",
@@ -5793,7 +6856,14 @@
       "I, II, III and IV"
      ],
      "answer": 0,
-     "explanation": "Groundnut is listed as a rich protein source, casein as the major milk protein, and kwashiorkor and marasmus as protein-deficiency conditions. Amino acids are not stored, so Statement II is incorrect."
+     "explanation": "Groundnut is listed as a rich protein source, casein as the major milk protein, and kwashiorkor and marasmus as protein-deficiency conditions. Amino acids are not stored, so Statement II is incorrect.",
+     "facts": [
+      "F6",
+      "F14",
+      "F15",
+      "F18",
+      "F27"
+     ]
     }
    ]
   },
@@ -6309,8 +7379,30 @@
       "F81",
       "F82"
      ]
+    },
+    {
+     "id": "biology-29-21",
+     "format": "Direct Recall",
+     "keyword": "Enzyme",
+     "question": "Which enzyme is present in pancreatic juice and is associated with protein digestion?",
+     "options": [
+      "Trypsin",
+      "Salivary amylase",
+      "Lactase",
+      "Pepsin"
+     ],
+     "answer": 0,
+     "explanation": "Pancreatic juice contains trypsin, which carries out protein digestion.",
+     "facts": [
+      "F84"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 94,
+    "covered": 94,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -6526,8 +7618,218 @@
       "F44",
       "F45"
      ]
+    },
+    {
+     "id": "biology-31-6",
+     "format": "List-Matching",
+     "keyword": "Hormone–Gland and Function",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) T3/T4\n(b) PTH\n(c) Aldosterone\n(d) Cortisol\n\nList-II\n(i) Parathyroid; increases blood calcium\n(ii) Adrenal cortex; regulates sodium and water balance and blood pressure\n(iii) Thyroid; regulates metabolism\n(iv) Adrenal cortex; involved in stress response and glucose metabolism",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "T3/T4 is produced by the thyroid and regulates metabolism. PTH is produced by the parathyroid glands and increases blood calcium, while aldosterone and cortisol are produced by the adrenal cortex with the functions shown.",
+     "facts": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-31-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Pituitary Hormones",
+     "question": "Consider the following statements:\n\nI. GH is also called somatotropin and is produced by the pituitary gland.\nII. TSH is produced by the pituitary gland and stimulates the thyroid gland.\nIII. ACTH is produced by the pituitary gland and stimulates the adrenal cortex.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. GH or somatotropin, TSH and ACTH are produced by the pituitary gland; TSH stimulates the thyroid and ACTH stimulates the adrenal cortex.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "biology-31-8",
+     "format": "List-Matching",
+     "keyword": "Pituitary Hormone Functions",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) FSH\n(b) LH\n(c) Prolactin\n(d) MSH\n\nList-II\n(i) Milk production\n(ii) Melanin regulation\n(iii) Follicle growth and spermatogenesis\n(iv) Ovulation and testosterone production",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "FSH is produced by the pituitary gland and is associated with follicle growth and spermatogenesis. LH, prolactin and MSH are also pituitary hormones associated respectively with ovulation and testosterone production, milk production, and melanin regulation.",
+     "facts": [
+      "F25",
+      "F28",
+      "F31",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "biology-31-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hormone Alternate Name and Source",
+     "question": "Consider the following statements:\n\nStatement A: ADH is also called vasopressin.\nStatement B: Oxytocin is released by the posterior pituitary.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: ADH is also known as vasopressin, and oxytocin is released by the posterior pituitary.",
+     "facts": [
+      "F33",
+      "F38"
+     ]
+    },
+    {
+     "id": "biology-31-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Pancreatic Hormones",
+     "question": "Consider the following statements:\n\nStatement A: Insulin is produced by the beta cells of the pancreas.\nStatement B: Glucagon is produced by the alpha cells of the pancreas.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Insulin is produced by the pancreatic beta cells, whereas glucagon is produced by the pancreatic alpha cells.",
+     "facts": [
+      "F46",
+      "F48"
+     ]
+    },
+    {
+     "id": "biology-31-11",
+     "format": "List-Matching",
+     "keyword": "Hormone – Source and Function",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Testosterone\n(b) Estrogen\n(c) Progesterone\n(d) Glucagon\n\nList-II\n(i) Pancreas α-cells; increases blood glucose\n(ii) Testes; promotes male secondary sexual characters\n(iii) Ovary and follicles; promotes female secondary sexual characters\n(iv) Ovary and corpus luteum; supports pregnancy and the uterus",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Testosterone is produced by the testes and promotes male secondary sexual characters. Estrogen is produced by the ovary and follicles and promotes female secondary sexual characters; progesterone is produced by the ovary and corpus luteum and supports pregnancy and the uterus. Glucagon, produced by pancreatic α-cells, increases blood glucose.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "biology-31-12",
+     "format": "Count-Based",
+     "keyword": "PTH – Deficiency and Excess Effects",
+     "question": "How many of the following statements correctly describe the effects of parathyroid hormone deficiency or excess?\n\nI. PTH deficiency causes low or decreased blood calcium.\nII. PTH deficiency causes tetany and cramps.\nIII. PTH excess causes fragile bones.\nIV. PTH excess causes osteoporosis.\nV. PTH excess causes kidney stones.\nVI. PTH excess causes increased blood calcium.",
+     "options": [
+      "Only four",
+      "Only five",
+      "All six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six statements are correct. PTH deficiency is associated with decreased blood calcium, tetany and cramps, while PTH excess is associated with fragile bones, osteoporosis, kidney stones and increased blood calcium.",
+     "facts": [
+      "F62",
+      "F63",
+      "F64",
+      "F65",
+      "F66",
+      "F78",
+      "F79"
+     ]
+    },
+    {
+     "id": "biology-31-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "ADH – Deficiency and Excess",
+     "question": "Consider the following statements:\nStatement A: ADH deficiency causes diabetes insipidus and excessive urine output.\nStatement B: ADH excess causes decreased urine output.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. ADH deficiency causes diabetes insipidus with excessive urine output, whereas ADH excess causes decreased urine output.",
+     "facts": [
+      "F71",
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "biology-31-14",
+     "format": "Assertion-Reason",
+     "keyword": "Cortisol – Hyposecretion and Hypersecretion",
+     "question": "Assertion (A): Cortisol deficiency causes Addison's disease.\nReason (R): Cortisol excess causes Cushing disease.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and the reason are true. Cortisol deficiency causes Addison's disease, while cortisol excess causes Cushing disease; the second statement does not explain the first.",
+     "facts": [
+      "F74",
+      "F75"
+     ]
+    },
+    {
+     "id": "biology-31-15",
+     "format": "Direct Recall",
+     "keyword": "Adrenal Androgen – Excess Effect",
+     "question": "Adrenal androgen excess causes which of the following conditions?",
+     "options": [
+      "Diabetes insipidus",
+      "Adrenal virilism",
+      "Cushing disease",
+      "Addison's disease"
+     ],
+     "answer": 1,
+     "explanation": "Adrenal androgen excess causes adrenal virilism.",
+     "facts": [
+      "F80"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 80,
+    "covered": 80,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,
@@ -6984,7 +8286,13 @@
       "Hypothalamus"
      ],
      "answer": 1,
-     "explanation": "The cerebellum controls balance, coordination, posture and muscle control."
+     "explanation": "The cerebellum controls balance, coordination, posture and muscle control.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-37-2",
@@ -6998,7 +8306,14 @@
       "The hippocampus is associated with memory."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that the brain itself contains pain receptors. The notes state that the brain itself has no pain receptors."
+     "explanation": "The incorrect statement is that the brain itself contains pain receptors. The notes state that the brain itself has no pain receptors.",
+     "facts": [
+      "F27",
+      "F29",
+      "F33",
+      "F25",
+      "F24"
+     ]
     },
     {
      "id": "biology-37-3",
@@ -7012,7 +8327,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the brainstem performs automatic and vital functions, and the pons is a brainstem component. However, the pons being a component does not explain the brainstem’s functions."
+     "explanation": "Both statements are true: the brainstem performs automatic and vital functions, and the pons is a brainstem component. However, the pons being a component does not explain the brainstem’s functions.",
+     "facts": [
+      "F22",
+      "F23",
+      "F26"
+     ]
     },
     {
      "id": "biology-37-4",
@@ -7026,7 +8346,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are sensory nerve–receptor to CNS, motor nerve–CNS to effector, mixed nerve–sensory and motor functions, and autonomic nervous system–involuntary functions."
+     "explanation": "The correct pairs are sensory nerve–receptor to CNS, motor nerve–CNS to effector, mixed nerve–sensory and motor functions, and autonomic nervous system–involuntary functions.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F39"
+     ]
     },
     {
      "id": "biology-37-5",
@@ -7040,7 +8366,14 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The autonomic nervous system controls involuntary functions, so statement III is incorrect."
+     "explanation": "Statements I, II and IV are correct. The autonomic nervous system controls involuntary functions, so statement III is incorrect.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
     }
    ]
   },
@@ -7668,7 +9001,10 @@
       "Clustered Regularly Integrated Short Palindromic Repeats"
      ],
      "answer": 2,
-     "explanation": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats."
+     "explanation": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-41-2",
@@ -7682,7 +9018,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Cas9 cuts DNA strands, which explains its description as molecular scissors."
+     "explanation": "Both statements are true. Cas9 cuts DNA strands, which explains its description as molecular scissors.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-41-3",
@@ -7696,7 +9036,14 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are CRISPR–specialized stretches of DNA, Cas9–enzyme, Guide RNA–guides Cas9 to the desired genomic location, and Restriction enzyme–cleaves DNA into fragments."
+     "explanation": "The correct pairs are CRISPR–specialized stretches of DNA, Cas9–enzyme, Guide RNA–guides Cas9 to the desired genomic location, and Restriction enzyme–cleaves DNA into fragments.",
+     "facts": [
+      "F3",
+      "F4",
+      "F7",
+      "F22",
+      "F25"
+     ]
     },
     {
      "id": "biology-41-4",
@@ -7710,7 +9057,14 @@
       "A restriction enzyme cleaves DNA into fragments."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the cutting location. Restriction enzymes cut DNA at or near specific recognition sites, not only at random locations."
+     "explanation": "The incorrect statement alters the cutting location. Restriction enzymes cut DNA at or near specific recognition sites, not only at random locations.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "biology-41-5",
@@ -7724,7 +9078,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are supported by the notes: CRISPR-Cas9 can correct genetic defects, treat or prevent disease, improve crops, and raises ethical concerns."
+     "explanation": "All four statements are supported by the notes: CRISPR-Cas9 can correct genetic defects, treat or prevent disease, improve crops, and raises ethical concerns.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     }
    ]
   },
@@ -8015,7 +9375,11 @@
       "Genome → human tissue → antibiotic"
      ],
      "answer": 2,
-     "explanation": "The notes give the example: the human insulin gene is introduced into bacteria, which then produce insulin."
+     "explanation": "The notes give the example: the human insulin gene is introduced into bacteria, which then produce insulin.",
+     "facts": [
+      "F7",
+      "F6"
+     ]
     },
     {
      "id": "biology-43-2",
@@ -8029,7 +9393,13 @@
       "The process may involve transferring a gene from one organism to another."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the final statement. The notes specify that the transfer occurs in ways that would not naturally occur."
+     "explanation": "The incorrect detail is the final statement. The notes specify that the transfer occurs in ways that would not naturally occur.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-43-3",
@@ -8043,7 +9413,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes. The matrix provides additional resistance and protection, contributing to infections that are difficult to eradicate."
+     "explanation": "Both statements are supported by the notes. The matrix provides additional resistance and protection, contributing to infections that are difficult to eradicate.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "biology-43-4",
@@ -8057,7 +9431,14 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: GMO–Genetically Modified Organism, transgenic organism–organism with a foreign gene introduced, biofilm–microbial sessile community, and matrix–extracellular polymeric substances."
+     "explanation": "The correct pairs are: GMO–Genetically Modified Organism, transgenic organism–organism with a foreign gene introduced, biofilm–microbial sessile community, and matrix–extracellular polymeric substances.",
+     "facts": [
+      "F1",
+      "F9",
+      "F14",
+      "F17",
+      "F11"
+     ]
     },
     {
      "id": "biology-43-5",
@@ -8071,9 +9452,78 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "The notes state that biofilms can form on medical implants, human tissues, food, and food-processing surfaces. Therefore, all four are correct."
+     "explanation": "The notes state that biofilms can form on medical implants, human tissues, food, and food-processing surfaces. Therefore, all four are correct.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-43-6",
+     "format": "List-Matching",
+     "keyword": "GMO / Transgenic organism",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) GMO\n(b) Transgenic organism\n(c) Purpose of a transgenic organism\n(d) Transgenic crops\n\nList-II\n(i) Biotechnology or agricultural application\n(ii) Produced through genetic engineering\n(iii) Desired characteristic or product\n(iv) Approximately synonymous with transgenic organism in the relevant context",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "In the relevant context, GMO is approximately synonymous with transgenic organism. A transgenic organism is produced through genetic engineering, its purpose is to produce a desired characteristic or product, and transgenic crops represent a biotechnology or agricultural application.",
+     "facts": [
+      "F8",
+      "F10",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-43-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biofilm",
+     "question": "Consider the following statements:\nStatement A: Biofilm cells adhere to a surface or interface.\nStatement B: Biofilm cells adhere to each other.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A biofilm is a microbial sessile community in which cells adhere both to a surface or interface and to one another.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "biology-43-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Antibiotic resistance / Biofilm tolerance",
+     "question": "Consider the following statements:\nI. Biofilms can exhibit antibiotic resistance.\nII. Biofilms have greater tolerance to host defence.\nIII. Biofilms have greater tolerance to external stress.\nIV. The resistance progression mentioned for bacteria is MDR, XDR and TDR.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: biofilms can exhibit antibiotic resistance, show greater tolerance to host defence and external stress, and the mentioned bacterial resistance progression is MDR, XDR and TDR.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F27"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   },
   "44": {
    "number": 44,
@@ -8101,7 +9551,14 @@
       "It carries the genetic message for protein production"
      ],
      "answer": 3,
-     "explanation": "mRNA is messenger RNA, and its function is to carry the genetic message for protein production. In an mRNA vaccine, it instructs cells to produce the target antigen."
+     "explanation": "mRNA is messenger RNA, and its function is to carry the genetic message for protein production. In an mRNA vaccine, it instructs cells to produce the target antigen.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F3",
+      "F22"
+     ]
     },
     {
      "id": "biology-44-2",
@@ -8115,7 +9572,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. microRNA is a small non-coding RNA whose typical action is post-transcriptional regulation, leading to suppression or reduction of target gene expression."
+     "explanation": "Both statements are true. microRNA is a small non-coding RNA whose typical action is post-transcriptional regulation, leading to suppression or reduction of target gene expression.",
+     "facts": [
+      "F8",
+      "F9",
+      "F7",
+      "F10"
+     ]
     },
     {
      "id": "biology-44-3",
@@ -8129,7 +9592,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: live attenuated—weakened pathogen; subunit—selected antigen or protein; viral vector—vector that delivers genetic instructions; toxoid—inactivated bacterial toxin."
+     "explanation": "The correct pairs are: live attenuated—weakened pathogen; subunit—selected antigen or protein; viral vector—vector that delivers genetic instructions; toxoid—inactivated bacterial toxin.",
+     "facts": [
+      "F11",
+      "F13",
+      "F15",
+      "F18"
+     ]
     },
     {
      "id": "biology-44-4",
@@ -8143,7 +9612,14 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the notes. Genome sequencing provides genomic information, pharmacogenomics links genetics with drug response, and personalised medicine adapts treatment to individual biological or genetic information."
+     "explanation": "All three statements are correct according to the notes. Genome sequencing provides genomic information, pharmacogenomics links genetics with drug response, and personalised medicine adapts treatment to individual biological or genetic information.",
+     "facts": [
+      "F19",
+      "F20",
+      "F23",
+      "F21",
+      "F24"
+     ]
     },
     {
      "id": "biology-44-5",
@@ -8157,9 +9633,56 @@
       "An mRNA vaccine uses mRNA as its core material or principle."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is the third one. A recombinant vaccine consists of a recombinant antigen; a selected antigen or protein describes a subunit vaccine."
+     "explanation": "The incorrect statement is the third one. A recombinant vaccine consists of a recombinant antigen; a selected antigen or protein describes a subunit vaccine.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F16",
+      "F17",
+      "F3"
+     ]
+    },
+    {
+     "id": "biology-44-6",
+     "format": "Assertion-Reason",
+     "keyword": "Immune system → Immune response",
+     "question": "Assertion (A): The immune system recognises an antigen and produces an immune response.\nReason (R): In an mRNA-based vaccine platform, mRNA instructs cells to produce the target antigen.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The mRNA-based platform causes cells to produce the target antigen, which is then recognised by the immune system, producing an immune response.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-44-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "microRNA → Gene Regulation",
+     "question": "Consider the following statements:\nStatement A: microRNA is a small non-coding RNA.\nStatement B: mRNA carries the genetic message for protein production.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: microRNA is a small non-coding RNA, while mRNA carries the genetic message for protein production.",
+     "facts": [
+      "F6"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "45": {
    "number": 45,
@@ -8185,7 +9708,17 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "Cinchona bark yields quinine, saffron stigma is used as spice/colouring, turmeric rhizome yields spice/curcumin, and peppermint leaf yields oil/menthol."
+     "explanation": "Cinchona bark yields quinine, saffron stigma is used as spice/colouring, turmeric rhizome yields spice/curcumin, and peppermint leaf yields oil/menthol.",
+     "facts": [
+      "F9",
+      "F11",
+      "F16",
+      "F13",
+      "F8",
+      "F10",
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "biology-45-2",
@@ -8199,7 +9732,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, sugar/sucrose is Sugarcane's economic importance and does not explain its propagation through stem cuttings or setts."
+     "explanation": "Both statements are true according to the notes. However, sugar/sucrose is Sugarcane's economic importance and does not explain its propagation through stem cuttings or setts.",
+     "facts": [
+      "F57",
+      "F58",
+      "F45",
+      "F28"
+     ]
     },
     {
      "id": "biology-45-3",
@@ -8213,7 +9752,17 @@
       "Mulberry is an inflorescence-derived fruit called sorosis."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. The notes classify jackfruit as an inflorescence-derived sorosis, not as an enlarged-receptacle pome."
+     "explanation": "The incorrect statement is the fourth one. The notes classify jackfruit as an inflorescence-derived sorosis, not as an enlarged-receptacle pome.",
+     "facts": [
+      "F37",
+      "F38",
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "biology-45-4",
@@ -8227,7 +9776,15 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are directly supported by the notes: banana uses suckers/rhizome and tissue culture, potato uses tuber, and Cuscuta is parasitic with haustoria."
+     "explanation": "All three statements are directly supported by the notes: banana uses suckers/rhizome and tissue culture, potato uses tuber, and Cuscuta is parasitic with haustoria.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F70",
+      "F71"
+     ]
     },
     {
      "id": "biology-45-5",
@@ -8241,9 +9798,222 @@
       "Okra"
      ],
      "answer": 2,
-     "explanation": "The notes identify the fleshy aril as the edible part of lychee. Singhara/Trapa has an edible seed, while okra is a fruit/pod and apple has an enlarged receptacle."
+     "explanation": "The notes identify the fleshy aril as the edible part of lychee. Singhara/Trapa has an edible seed, while okra is a fruit/pod and apple has an enlarged receptacle.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F38"
+     ]
+    },
+    {
+     "id": "biology-45-6",
+     "format": "List-Matching",
+     "keyword": "Plant part used → Product/importance",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Opium poppy\n(b) Hing/Asafoetida\n(c) Rubber\n(d) Clove\n\nList-II\n(i) Fruit/capsule produces latex; latex is opium\n(ii) Root/rhizome used as a spice or condiment\n(iii) Stem produces latex or rubber\n(iv) Flower bud used as a spice",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The fruit or capsule of the opium poppy produces latex, which is opium; hing uses the root or rhizome; rubber uses the stem; and clove uses the flower bud as a spice.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-45-7",
+     "format": "Assertion-Reason",
+     "keyword": "Modified stem",
+     "question": "Assertion (A): The rhizome of turmeric is a modified stem.\nReason (R): The rhizome of ginger is used as a spice.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but ginger’s use as a spice does not explain why turmeric rhizome is a modified stem.",
+     "facts": [
+      "F15",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "biology-45-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Plant part used → Food",
+     "question": "Consider the following statements:\n\nI. The tuber is the part of potato used, and potato is used as food.\nII. The bulb is the part of garlic used, and garlic is used as food or spice.\nIII. The corm is the part of suran or jimikand used, and it is used as food.\nIV. The tuberous root is the part of sweet potato used, and sweet potato is used as food.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements correctly pair the plant part used with the stated use of potato, garlic, suran or jimikand, and sweet potato.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-45-9",
+     "format": "Direct Recall",
+     "keyword": "Plant part used",
+     "question": "Which part of sugarcane is used?",
+     "options": [
+      "Rhizome",
+      "Stem",
+      "Bulb",
+      "Tuber"
+     ],
+     "answer": 1,
+     "explanation": "The stem is the part of sugarcane used.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-45-10",
+     "format": "Count-Based",
+     "keyword": "Economic importance",
+     "question": "How many of the following statements are correct?\n\nI. The economic importance of the rubber plant is natural rubber.\nII. The economic importance of Papaver is opium.\nIII. The economic importance of Crocus sativus is saffron.\nIV. Okra is used as a vegetable.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: rubber plant is associated with natural rubber, Papaver with opium, Crocus sativus with saffron, and okra is used as a vegetable.",
+     "facts": [
+      "F36",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "biology-45-11",
+     "format": "List-Matching",
+     "keyword": "Economic importance",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ferula\n(b) Cotton\n(c) Pea\n(d) Okra\n\nList-II\n(i) Fibre\n(ii) Vegetable\n(iii) Hing\n(iv) Food/pulse",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Ferula is economically important for hing, cotton for fibre, pea for food or pulse, and okra for vegetable use.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "biology-45-12",
+     "format": "Assertion-Reason",
+     "keyword": "Economic importance",
+     "question": "Assertion (A): The economic importance of mulberry is fruit.\nReason (R): Mulberry is associated with sericulture.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Mulberry is economically important for its fruit and is also associated with sericulture, but the association with sericulture does not explain its fruit importance.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "biology-45-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Economic importance",
+     "question": "Consider the following statements:\nStatement A: The economic importance of pineapple is fruit.\nStatement B: The economic importance of jackfruit is fruit.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both pineapple and jackfruit have fruit as their economic importance.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "biology-45-14",
+     "format": "List-Matching",
+     "keyword": "Planting material",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ginger\n(b) Garlic\n(c) Turmeric\n(d) Sweet potato\n\nList-II\n(i) Bulb\n(ii) Tuberous root\n(iii) Rhizome\n(iv) Rhizome",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Ginger and turmeric are planted through rhizomes, garlic through a bulb, and sweet potato through a tuberous root.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65",
+      "F66"
+     ]
+    },
+    {
+     "id": "biology-45-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Planting material",
+     "question": "Consider the following statements:\nI. Stem cutting is the planting material for bougainvillea.\nII. Stem cutting is the planting material for carnation.\nIII. Stem cutting is the planting material for grapes.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "Bougainvillea, carnation and grapes are all propagated using stem cuttings.",
+     "facts": [
+      "F67",
+      "F68",
+      "F69"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 71,
+    "covered": 71,
+    "audited": true
+   }
   },
   "46": {
    "number": 46,

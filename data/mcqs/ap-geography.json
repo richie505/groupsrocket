@@ -198,8 +198,86 @@
       "F22",
       "F23"
      ]
+    },
+    {
+     "id": "ap-geography-2-6",
+     "format": "List-Matching",
+     "keyword": "Borders",
+     "question": "Match List-I with List-II regarding the neighbours of Rayalaseema.\n\nList-I\n(a) South\n(b) West\n(c) North\n\nList-II\n(i) Telangana\n(ii) Tamil Nadu\n(iii) Karnataka",
+     "options": [
+      "a-iii, b-ii, c-i",
+      "a-ii, b-iii, c-i",
+      "a-ii, b-i, c-iii",
+      "a-i, b-iii, c-ii"
+     ],
+     "answer": 1,
+     "explanation": "Rayalaseema is bordered by Tamil Nadu to the south, Karnataka to the west and Telangana to the north.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "ap-geography-2-7",
+     "format": "Count-Based",
+     "keyword": "River → State/District/Town [LOCATION]",
+     "question": "How many of the following statements regarding the Sileru River are correct?\n\n1. It originates in Andhra Pradesh.\n2. It flows through Odisha.\n3. It is known as Machkand in its upper reaches.",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: Sileru originates in Andhra Pradesh, flows through Odisha and is known as Machkand in its upper reaches.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "ap-geography-2-8",
+     "format": "Assertion-Reason",
+     "keyword": "River → State/District/Town [LOCATION]",
+     "question": "Assertion (A): The Vedavathi River flows through Karnataka and Andhra Pradesh.\nReason (R): The Vedavathi is also called Hagari in some parts of Andhra Pradesh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The name Hagari in some parts of Andhra Pradesh does not explain the fact that the Vedavathi flows through Karnataka and Andhra Pradesh.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "ap-geography-2-9",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Borders",
+     "question": "Which of the following statements is incorrect regarding the 1960 territorial adjustment and the 2014 transfer?\n\n1. Some villages of Tiruvallur Taluka of Tamil Nadu were added to Andhra Pradesh.\n2. Seven mandals of Khammam were transferred to Andhra Pradesh in 2014.\n3. A large part of Tiruttani Taluka of Chittoor district was given to Tamil Nadu.\n4. Some villages of Tiruvallur Taluka of Tamil Nadu were added to Tamil Nadu.",
+     "options": [
+      "Statement 2",
+      "Statement 4",
+      "Statement 3",
+      "Statement 1"
+     ],
+     "answer": 1,
+     "explanation": "Statement 4 is incorrect. The villages of Tiruvallur Taluka mentioned in the territorial adjustment were added to Andhra Pradesh, not Tamil Nadu.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -2455,8 +2533,88 @@
       "F27",
       "F28"
      ]
+    },
+    {
+     "id": "ap-geography-12-6",
+     "format": "Direct Recall",
+     "keyword": "Coastal Plains",
+     "question": "The Coastal Plains of Andhra Pradesh extend between which two geographical features?",
+     "options": [
+      "Visakhapatnam sea coast and the Eastern Ghats",
+      "Pulicat Lake and the Eastern Ghats",
+      "The Bay of Bengal and Pulicat Lake",
+      "The Eastern Ghats and the Bay of Bengal"
+     ],
+     "answer": 3,
+     "explanation": "The Coastal Plains extend from the Eastern Ghats to the Bay of Bengal.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "ap-geography-12-7",
+     "format": "List-Matching",
+     "keyword": "River → Sea / Bay of Bengal [LOCATION]",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Penna River\n b. Vamsadhara River\n c. Nagavali River\n d. Gosthani River\n e. Gundlakamma River\n\nList-II\n i. Kalingapatnam\n ii. Vutukuru, Palnadu\n iii. Devarampadu village\n iv. Mopasu Bandar\n v. Bheemunipatnam\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-iv, b-v, c-i, d-ii, e-iii",
+      "a-i, b-ii, c-v, d-iii, e-iv",
+      "a-ii, b-i, c-iv, d-v, e-iii",
+      "a-ii, b-iv, c-iii, d-i, e-v"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Penna–Vutukuru, Vamsadhara–Kalingapatnam, Nagavali–Mopasu Bandar, Gosthani–Bheemunipatnam and Gundlakamma–Devarampadu village.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "ap-geography-12-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Sea / Bay of Bengal [LOCATION]",
+     "question": "Consider the following statements:\n\nI. The Arani River joins the southwestern tip of Pulicat Lake.\nII. The Arani River enters the Bay of Bengal after joining Pulicat Lake.\nIII. The Gosthani River enters the Bay of Bengal through an estuary near Bheemunipatnam.\nIV. The Gundlakamma River enters the sea at Devarampadu village.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Arani joins the southwestern tip of Pulicat Lake and then enters the Bay of Bengal; Gosthani enters through an estuary near Bheemunipatnam; and Gundlakamma enters the sea at Devarampadu village.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "ap-geography-12-9",
+     "format": "Direct Recall",
+     "keyword": "Sea / Coastal feature → Alternate Name",
+     "question": "Yarada Hills are also known as which of the following?",
+     "options": [
+      "Antarvedi",
+      "Dolphin Nose",
+      "Pulicat Lake",
+      "Hamsaladeevi"
+     ],
+     "answer": 1,
+     "explanation": "Yarada Hills are also known as Dolphin Nose.",
+     "facts": [
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -2485,7 +2643,11 @@
       "About two-thirds"
      ],
      "answer": 3,
-     "explanation": "The South-West Monsoon gives about two-thirds of the rainfall."
+     "explanation": "The South-West Monsoon gives about two-thirds of the rainfall.",
+     "facts": [
+      "F2",
+      "F1"
+     ]
     },
     {
      "id": "ap-geography-13-2",
@@ -2499,7 +2661,16 @@
       "The Hagari River valley receives less than 51 cm of rainfall."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the monsoon source for Rayalaseema. Rayalaseema receives more rainfall from the North-East Monsoon."
+     "explanation": "The incorrect statement alters the monsoon source for Rayalaseema. Rayalaseema receives more rainfall from the North-East Monsoon.",
+     "facts": [
+      "F11",
+      "F21",
+      "F6",
+      "F14",
+      "F13",
+      "F15",
+      "F20"
+     ]
     },
     {
      "id": "ap-geography-13-3",
@@ -2513,7 +2684,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the greater contribution of the North-East Monsoon explains its particular importance to Rayalaseema."
+     "explanation": "Both statements are true, and the greater contribution of the North-East Monsoon explains its particular importance to Rayalaseema.",
+     "facts": [
+      "F16",
+      "F6"
+     ]
     },
     {
      "id": "ap-geography-13-4",
@@ -2527,7 +2702,12 @@
       "a-iii, b-i, c-ii"
      ],
      "answer": 3,
-     "explanation": "Moist Deciduous forests correspond to erstwhile Srikakulam, Visakhapatnam and Agency areas of East Godavari; Dry Deciduous forests to erstwhile Kadapa and Kurnool; and Short Thorn forests to erstwhile Kadapa, Kurnool, Chittoor and Anantapur."
+     "explanation": "Moist Deciduous forests correspond to erstwhile Srikakulam, Visakhapatnam and Agency areas of East Godavari; Dry Deciduous forests to erstwhile Kadapa and Kurnool; and Short Thorn forests to erstwhile Kadapa, Kurnool, Chittoor and Anantapur.",
+     "facts": [
+      "F23",
+      "F25",
+      "F27"
+     ]
     },
     {
      "id": "ap-geography-13-5",
@@ -2541,9 +2721,162 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct: the South-West Monsoon lasts from mid-June to September, begins in the second week of June, July is the month of greater rainfall, and its retreat occurs during October–December."
+     "explanation": "All four statements are correct: the South-West Monsoon lasts from mid-June to September, begins in the second week of June, July is the month of greater rainfall, and its retreat occurs during October–December.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
+    },
+    {
+     "id": "ap-geography-13-6",
+     "format": "Assertion-Reason",
+     "keyword": "Rainfall",
+     "question": "Assertion (A): Nellore and the southern coastal districts are special retreating-monsoon areas.\nReason (R): These areas receive heavy rains during October.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Nellore and the southern coastal districts are identified as special retreating-monsoon areas because they receive heavy rains during October.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "ap-geography-13-7",
+     "format": "Direct Recall",
+     "keyword": "Rainfall",
+     "question": "October is regarded as the transitional period between which of the following?",
+     "options": [
+      "Winter and summer",
+      "The rainy season and winter",
+      "Summer and the rainy season",
+      "The retreating monsoon and summer"
+     ],
+     "answer": 1,
+     "explanation": "October is the transitional period between the rainy season and winter.",
+     "facts": [
+      "F10"
+     ]
+    },
+    {
+     "id": "ap-geography-13-8",
+     "format": "Direct Recall",
+     "keyword": "Rainfall",
+     "question": "The Sileru and Sabari valleys receive approximately how much rainfall?",
+     "options": [
+      "140–152 cm",
+      "125–200 cm",
+      "Less than 51 cm",
+      "75–100 cm"
+     ],
+     "answer": 0,
+     "explanation": "The Sileru and Sabari valleys receive 140–152 cm of rainfall.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "ap-geography-13-9",
+     "format": "Assertion-Reason",
+     "keyword": "Rainfall",
+     "question": "Assertion (A): Rayalaseema experiences droughts and famines.\nReason (R): Rayalaseema has very low population density because of droughts and famines.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the reason describes the effect of droughts and famines on population density; it does not explain why Rayalaseema experiences droughts and famines.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "ap-geography-13-10",
+     "format": "Direct Recall",
+     "keyword": "Rainfall",
+     "question": "Which of the following is identified as the lowest-rainfall region?",
+     "options": [
+      "The Srikakulam–Visakhapatnam–Agency region",
+      "The Nellore–southern coastal region",
+      "The Sileru–Sabari valley region",
+      "The Anantapur–Hagari valley"
+     ],
+     "answer": 3,
+     "explanation": "The Anantapur–Hagari valley is identified as the lowest-rainfall region.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "ap-geography-13-11",
+     "format": "Count-Based",
+     "keyword": "Forests",
+     "question": "How many of the following forest-rainfall associations are correct?\nI. Moist deciduous forests occur in areas receiving 125–200 cm of rainfall.\nII. Dry deciduous forests occur in areas receiving 75–100 cm of rainfall.\nIII. Short thorn forests occur in areas receiving less than 70 cm of rainfall.\nIV. Short thorn forests occur in areas receiving 75–100 cm of rainfall.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because short thorn forests occur in areas receiving less than 70 cm of rainfall.",
+     "facts": [
+      "F22",
+      "F24",
+      "F26"
+     ]
+    },
+    {
+     "id": "ap-geography-13-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rainfall",
+     "question": "Consider the following statements:\nI. The Srikakulam–Visakhapatnam–Agency region receives 125–200 cm of rainfall.\nII. The Kadapa–Kurnool region receives 75–100 cm of rainfall.\nIII. The Kadapa–Kurnool–Chittoor–Anantapur region receives less than 70 cm of rainfall.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements correctly describe the rainfall received by the respective regional belts.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "ap-geography-13-13",
+     "format": "Direct Recall",
+     "keyword": "Rainfall",
+     "question": "Which of the following correctly represents the rainfall gradient in the regional pattern?",
+     "options": [
+      "Srikakulam–Visakhapatnam–Agency → Kadapa–Kurnool–Chittoor–Anantapur → Kadapa–Kurnool",
+      "Kadapa–Kurnool → Srikakulam–Visakhapatnam–Agency → Kadapa–Kurnool–Chittoor–Anantapur",
+      "Srikakulam–Visakhapatnam–Agency → Kadapa–Kurnool → Kadapa–Kurnool–Chittoor–Anantapur",
+      "Kadapa–Kurnool–Chittoor–Anantapur → Kadapa–Kurnool → Srikakulam–Visakhapatnam–Agency"
+     ],
+     "answer": 2,
+     "explanation": "The rainfall gradient decreases from the Srikakulam–Visakhapatnam–Agency region to the Kadapa–Kurnool region and then to the Kadapa–Kurnool–Chittoor–Anantapur region.",
+     "facts": [
+      "F31"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -4123,8 +4456,104 @@
       "F28",
       "F29"
      ]
+    },
+    {
+     "id": "ap-geography-19-6",
+     "format": "Direct Recall",
+     "keyword": "Forest type",
+     "question": "Forests in Andhra Pradesh are predominantly which type?",
+     "options": [
+      "Mangrove forests",
+      "Tidal forests",
+      "Short thorn forests",
+      "Deciduous forests"
+     ],
+     "answer": 3,
+     "explanation": "The forests in Andhra Pradesh are predominantly deciduous forests.",
+     "facts": [
+      "F2"
+     ]
+    },
+    {
+     "id": "ap-geography-19-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest type",
+     "question": "Consider the following statements:\nStatement A: Dry deciduous forests are associated with the relatively drier parts of Andhra Pradesh.\nStatement B: Moist deciduous forests are associated with wetter areas.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Dry deciduous forests occur in the relatively drier parts of Andhra Pradesh, whereas moist deciduous forests are associated with wetter areas.",
+     "facts": [
+      "F4",
+      "F21"
+     ]
+    },
+    {
+     "id": "ap-geography-19-8",
+     "format": "List-Matching",
+     "keyword": "Forest belt / Eastern Ghats / Southern extent",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Major dry-deciduous forest belt\n(b) Long Eastern Ghats\n(c) Palakonda Hills\n(d) Nallamala Hills\n\nList-II\n(i) Pass through the dry deciduous forests of Seshachalam and Nallamala\n(ii) Mark the southern geographical extent of the forest region\n(iii) Occurs around the Seshachalam–Nallamala hill system\n(iv) Mark the southern geographical extent of the forest region",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The major dry-deciduous belt occurs around Seshachalam–Nallamala; the Eastern Ghats pass through these forests; and both Palakonda and Nallamala Hills mark the southern geographical extent.",
+     "facts": [
+      "F5",
+      "F6",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "ap-geography-19-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest type / Geographical extent",
+     "question": "Consider the following statements:\nStatement A: Dry deciduous forests are associated with the Seshachalam–Nallamala belt.\nStatement B: The southern extent of the forest region reaches the Palakonda and Nallamala Hills.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Seshachalam–Nallamala belt is associated with dry deciduous forests, and the forest region extends southward to the Palakonda and Nallamala Hills.",
+     "facts": [
+      "F22",
+      "F26"
+     ]
+    },
+    {
+     "id": "ap-geography-19-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest Region → Location [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: The Gundlakamma forest zone is associated with the Nallamala forests.\nStatement B: The Gundlakamma forest zone is located in Kurnool.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Gundlakamma forest zone is associated with the Nallamala forests and is located in Kurnool.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   },
   "20": {
    "number": 20,
@@ -4240,7 +4669,10 @@
       "Talakona Falls"
      ],
      "answer": 3,
-     "explanation": "Talakona Falls is identified in the notes as the tallest waterfall in Andhra Pradesh."
+     "explanation": "Talakona Falls is identified in the notes as the tallest waterfall in Andhra Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-geography-21-2",
@@ -4254,7 +4686,18 @@
       "Kothapalli Falls is located in Alluri Sitharama Raju district, near Paderu."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of Chaparai Water Cascades. It is located in Alluri Sitharama Raju district, in the Araku region, not in Palnadu district near Macherla."
+     "explanation": "The incorrect detail is the location of Chaparai Water Cascades. It is located in Alluri Sitharama Raju district, in the Araku region, not in Palnadu district near Macherla.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F24",
+      "F25",
+      "F33",
+      "F34",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "ap-geography-21-3",
@@ -4268,7 +4711,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the height of Talakona Falls does not explain its location in Sri Venkateswara National Park."
+     "explanation": "Both statements are true according to the notes. However, the height of Talakona Falls does not explain its location in Sri Venkateswara National Park.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-geography-21-4",
@@ -4282,7 +4729,14 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Katiki Falls–Araku region, Ethipothala Falls–near Macherla, Kailasakona Falls–near Nagari, and Rampa Waterfalls–near Rampachodavaram."
+     "explanation": "The correct pairs are: Katiki Falls–Araku region, Ethipothala Falls–near Macherla, Kailasakona Falls–near Nagari, and Rampa Waterfalls–near Rampachodavaram.",
+     "facts": [
+      "F7",
+      "F20",
+      "F30",
+      "F39",
+      "F10"
+     ]
     },
     {
      "id": "ap-geography-21-5",
@@ -4296,7 +4750,16 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect: Kailasakona Falls, not Kothapalli Falls, is associated with Kailasanatha Swamy."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect: Kailasakona Falls, not Kothapalli Falls, is associated with Kailasanatha Swamy.",
+     "facts": [
+      "F17",
+      "F18",
+      "F32",
+      "F36",
+      "F37",
+      "F41",
+      "F42"
+     ]
     }
    ]
   },
@@ -4328,7 +4791,10 @@
       "Gundlakamma River"
      ],
      "answer": 1,
-     "explanation": "Cumbum Tank is associated with the Maldevi River. It is described as one of Asia's oldest man-made lakes."
+     "explanation": "Cumbum Tank is associated with the Maldevi River. It is described as one of Asia's oldest man-made lakes.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "ap-geography-22-2",
@@ -4342,7 +4808,14 @@
       "Rayalaseema has more than 6,800 active tanks."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the region and figure. More than 6,800 active tanks supporting irrigation and groundwater recharge are associated with Rayalaseema, while Coastal Andhra has more than 14,000 minor tanks."
+     "explanation": "The incorrect statement alters the region and figure. More than 6,800 active tanks supporting irrigation and groundwater recharge are associated with Rayalaseema, while Coastal Andhra has more than 14,000 minor tanks.",
+     "facts": [
+      "F33",
+      "F34",
+      "F36",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "ap-geography-22-3",
@@ -4356,7 +4829,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify Kanithi Balancing Reservoir in Visakhapatnam as serving industrial water supply and drinking water, with the Visakhapatnam Steel Plant as its key association."
+     "explanation": "Both statements are true. The notes identify Kanithi Balancing Reservoir in Visakhapatnam as serving industrial water supply and drinking water, with the Visakhapatnam Steel Plant as its key association.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "ap-geography-22-4",
@@ -4370,7 +4848,13 @@
       "a-i, b-iii, c-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Kanithi Balancing Reservoir–Visakhapatnam Steel Plant, Mudasarlova Tank–Mudasarlova Park, and Kalyani Dam/Tank–important water source for Tirupati."
+     "explanation": "The correct pairs are: Kanithi Balancing Reservoir–Visakhapatnam Steel Plant, Mudasarlova Tank–Mudasarlova Park, and Kalyani Dam/Tank–important water source for Tirupati.",
+     "facts": [
+      "F23",
+      "F28",
+      "F31",
+      "F30"
+     ]
     },
     {
      "id": "ap-geography-22-5",
@@ -4384,9 +4868,170 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the notes. Anantaraja YSR Sagar is a medieval Vijayanagara tank, Cumbum Tank is associated with the named Vijayanagara queen, and Thimmaraju Cheruvu was integrated with the modern Owk Reservoir system."
+     "explanation": "All three statements are correct according to the notes. Anantaraja YSR Sagar is a medieval Vijayanagara tank, Cumbum Tank is associated with the named Vijayanagara queen, and Thimmaraju Cheruvu was integrated with the modern Owk Reservoir system.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F13",
+      "F18",
+      "F7",
+      "F19"
+     ]
+    },
+    {
+     "id": "ap-geography-22-6",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Anantaraja Sagar\n(b) Cumbum Tank\n(c) Thimmaraju Cheruvu\n(d) Kalyani Dam/Tank\n\nList-II\n(i) Porumamilla Tank\n(ii) Gundlakamma Cheruvu\n(iii) Ancient irrigation tank\n(iv) Tirupati",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Anantaraja Sagar is also called Porumamilla Tank, Cumbum Tank is also called Gundlakamma Cheruvu, Thimmaraju Cheruvu is an ancient irrigation tank, and Kalyani Dam/Tank is located in Tirupati.",
+     "facts": [
+      "F2",
+      "F8",
+      "F17",
+      "F29"
+     ]
+    },
+    {
+     "id": "ap-geography-22-7",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Anantaraja Sagar\n(b) Cumbum Tank\n(c) Thimmaraju Cheruvu\n(d) Kanithi Balancing Reservoir\n\nList-II\n(i) Prakasam\n(ii) Kadapa–Rajampeta region\n(iii) Nandyal–ancient Kurnool region\n(iv) Visakhapatnam",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Anantaraja Sagar is in the Kadapa–Rajampeta region, Cumbum Tank is in Prakasam, Thimmaraju Cheruvu is in the Nandyal–ancient Kurnool region, and Kanithi Balancing Reservoir is in Visakhapatnam.",
+     "facts": [
+      "F3",
+      "F10",
+      "F15",
+      "F20"
+     ]
+    },
+    {
+     "id": "ap-geography-22-8",
+     "format": "Direct Recall",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Which feature is associated with Anantaraja Sagar?",
+     "options": [
+      "A massive earthen bund between natural hills",
+      "A lake associated with the Gundlakamma basin",
+      "A balancing reservoir for industrial water supply",
+      "A modern urban recreation park"
+     ],
+     "answer": 0,
+     "explanation": "Anantaraja Sagar has a massive earthen bund between natural hills.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-22-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Consider the following statements:\n\nI. Cumbum Tank is associated with the Gundlakamma basin.\nII. Cumbum Tank is an ancient man-made lake.\nIII. Cumbum Tank is one of Asia's oldest man-made lakes.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: Cumbum Tank is linked with the Gundlakamma basin, is an ancient man-made lake, and is described as one of Asia's oldest man-made lakes.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "ap-geography-22-10",
+     "format": "Direct Recall",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Thimmaraju Cheruvu is associated with which of the following?",
+     "options": [
+      "Local drainage",
+      "A massive earthen bund between natural hills",
+      "Urban recreation",
+      "Industrial water supply"
+     ],
+     "answer": 0,
+     "explanation": "Thimmaraju Cheruvu is associated with local drainage.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "ap-geography-22-11",
+     "format": "Assertion-Reason",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Assertion (A): Mudasarlova Tank provides drinking water and supports urban recreation.\nReason (R): Mudasarlova Tank is a historic reservoir.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Mudasarlova Tank provides drinking water, supports urban recreation, and is a historic reservoir; however, its historic character does not explain both stated functions.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "ap-geography-22-12",
+     "format": "Direct Recall",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Mudasarlova Tank is located in which district?",
+     "options": [
+      "Kadapa",
+      "Tirupati",
+      "Prakasam",
+      "Visakhapatnam"
+     ],
+     "answer": 3,
+     "explanation": "Mudasarlova Tank is located in Visakhapatnam.",
+     "facts": [
+      "F24"
+     ]
+    },
+    {
+     "id": "ap-geography-22-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Consider the following statements:\n\nStatement A: Coastal Andhra includes Vizianagaram and Srikakulam in the regional tank distribution.\nStatement B: Rayalaseema includes Annamayya and Chittoor in the regional tank distribution.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Vizianagaram and Srikakulam are included under Coastal Andhra, while Annamayya and Chittoor are included under Rayalaseema.",
+     "facts": [
+      "F32",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 38,
+    "covered": 38,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,

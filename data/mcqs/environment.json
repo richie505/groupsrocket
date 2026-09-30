@@ -445,8 +445,145 @@
       "F39",
       "F40"
      ]
+    },
+    {
+     "id": "environment-3-6",
+     "format": "List-Matching",
+     "keyword": "UN / Convention / Conference",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Stockholm Conference as UNCHE\n(b) Rio+5\n(c) Rio+10\n(d) Rio+20\n\nList-II\n(i) Rio de Janeiro, 2012\n(ii) New York, 1997\n(iii) Stockholm Conference, also called the UN Conference on Human Environment\n(iv) Johannesburg, 2002",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The Stockholm Conference is also called the UN Conference on Human Environment (UNCHE). Rio+5, Rio+10 and Rio+20 were held in New York in 1997, Johannesburg in 2002 and Rio de Janeiro in 2012, respectively.",
+     "facts": [
+      "F3",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-3-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Days",
+     "question": "Consider the following statements:\nStatement A: The first World Environment Day was observed in 1973.\nStatement B: World Environment Day is observed on 5 June.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The first World Environment Day was observed in 1973, and World Environment Day is observed on 5 June.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-3-8",
+     "format": "Assertion-Reason",
+     "keyword": "Climate Change/Conference",
+     "question": "Assertion (A): The purpose of the UNFCCC is to stabilise greenhouse-gas concentrations.\nReason (R): COP stands for Conference of Parties.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the UNFCCC aims to stabilise greenhouse-gas concentrations, and COP stands for Conference of Parties. However, the meaning of COP does not explain the purpose of the UNFCCC.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-3-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Convention/Conference",
+     "question": "Consider the following statements regarding the UNCCD:\nI. It was established in 1994.\nII. It links environment with development and sustainable land management.\nIII. It follows a bottom-up approach and involves local-community participation.\nIV. It is linked with SDG 15 and Land Degradation Neutrality.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements correctly describe the UNCCD. It was established in 1994 and links environment, development and sustainable land management through a bottom-up approach involving local communities; it is also linked with SDG 15 and Land Degradation Neutrality.",
+     "facts": [
+      "F18",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "environment-3-10",
+     "format": "Count-Based",
+     "keyword": "Biodiversity",
+     "question": "How many of the following statements are correct regarding the Convention on Biological Diversity (CBD)?\n1. The CBD was adopted at Rio in 1992.\n2. The CBD is linked with sustainable use.\n3. The CBD is linked with benefit sharing.\n4. The CBD was adopted in 2014.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 2 and 3 are correct: the CBD was adopted at Rio in 1992 and is linked with sustainable use and benefit sharing. The 2014 adoption relates to the Nagoya Protocol, so statement 4 is incorrect.",
+     "facts": [
+      "F27",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "environment-3-11",
+     "format": "Direct Recall",
+     "keyword": "Convention/Conference",
+     "question": "The Nagoya Protocol was adopted in which year?",
+     "options": [
+      "2012",
+      "1992",
+      "1994",
+      "2014"
+     ],
+     "answer": 3,
+     "explanation": "The Nagoya Protocol was adopted in 2014.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "environment-3-12",
+     "format": "Direct Recall",
+     "keyword": "Wetlands",
+     "question": "The Ramsar Convention was signed at which place?",
+     "options": [
+      "Johannesburg, South Africa",
+      "Stockholm, Sweden",
+      "Rio de Janeiro, Brazil",
+      "Ramsar, Iran"
+     ],
+     "answer": 3,
+     "explanation": "The Ramsar Convention was signed at Ramsar, Iran.",
+     "facts": [
+      "F36"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -474,7 +611,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The Montreal Protocol was adopted in 1987, the Kyoto Protocol in 1997, the Minamata Convention in 2013 and the Cartagena Protocol in 2000."
+     "explanation": "The Montreal Protocol was adopted in 1987, the Kyoto Protocol in 1997, the Minamata Convention in 2013 and the Cartagena Protocol in 2000.",
+     "facts": [
+      "F1",
+      "F3",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "environment-4-2",
@@ -488,7 +631,14 @@
       "Its initial implementing partners were UNDP, UNEP and the World Bank."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement replaces the World Bank with the CBD. The initial implementing partners were UNDP, UNEP and the World Bank."
+     "explanation": "The incorrect statement replaces the World Bank with the CBD. The initial implementing partners were UNDP, UNEP and the World Bank.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "environment-4-3",
@@ -502,7 +652,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The five conventions listed in the Reason are the conventions for which the GEF acts as a financial mechanism."
+     "explanation": "Both statements are true. The five conventions listed in the Reason are the conventions for which the GEF acts as a financial mechanism.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "environment-4-4",
@@ -516,7 +673,10 @@
       "Montreal"
      ],
      "answer": 1,
-     "explanation": "The notes state that the headquarters of the WMO is in Geneva, Switzerland."
+     "explanation": "The notes state that the headquarters of the WMO is in Geneva, Switzerland.",
+     "facts": [
+      "F29"
+     ]
     },
     {
      "id": "environment-4-5",
@@ -530,7 +690,13 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statement I is correct. The declaration is voluntary and non-legally binding, and India was not an initial signatory according to the notes."
+     "explanation": "Statement I is correct. The declaration is voluntary and non-legally binding, and India was not an initial signatory according to the notes.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F40"
+     ]
     }
    ]
   },
@@ -702,7 +868,8 @@
      "facts": [
       "F22",
       "F23",
-      "F24"
+      "F24",
+      "F1"
      ]
     },
     {
@@ -763,8 +930,52 @@
       "F42",
       "F43"
      ]
+    },
+    {
+     "id": "environment-5-12",
+     "format": "List-Matching",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Match List-I with List-II:\n\nList-I (Functions of the Central Pollution Control Board)\n(a) Abatement of water pollution\n(b) Improvement of air quality\n(c) Promotion of cleanliness of streams\n(d) Promotion of cleanliness of wells\n\nList-II\n(i) Air quality\n(ii) Wells\n(iii) Water pollution\n(iv) Streams\n\nCodes:",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The Central Pollution Control Board abates water pollution, improves air quality, and promotes cleanliness of streams and wells. Therefore, the correct pairs are a-iii, b-i, c-iv and d-ii.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "environment-5-13",
+     "format": "List-Matching",
+     "keyword": "Environment Protection Act",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Alternate designation of the Environment (Protection) Act\n(b) Background to the Environment (Protection) Act\n(c) Major source for the Environment (Protection) Act\n\nList-II\n(i) Stockholm Conference, 1972\n(ii) Bhopal Gas Tragedy\n(iii) Umbrella legislation\n\nCodes:\n1. (a)-(iii), (b)-(ii), (c)-(i)\n2. (a)-(ii), (b)-(iii), (c)-(i)\n3. (a)-(iii), (b)-(i), (c)-(ii)\n4. (a)-(i), (b)-(ii), (c)-(iii)",
+     "options": [
+      "(a)-(iii), (b)-(ii), (c)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii)",
+      "(a)-(iii), (b)-(i), (c)-(ii)"
+     ],
+     "answer": 0,
+     "explanation": "The Environment (Protection) Act is also called umbrella legislation. The Bhopal Gas Tragedy was its background, while the Stockholm Conference of 1972 was a major source for the Act.",
+     "facts": [
+      "F2",
+      "F3",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -1816,7 +2027,11 @@
       "Carbon monoxide"
      ],
      "answer": 3,
-     "explanation": "Carbon monoxide combines with haemoglobin to form carboxyhaemoglobin and reacts with haemoglobin more readily than oxygen."
+     "explanation": "Carbon monoxide combines with haemoglobin to form carboxyhaemoglobin and reacts with haemoglobin more readily than oxygen.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "environment-11-2",
@@ -1830,7 +2045,13 @@
       "Fuel combustion is a major anthropogenic source of air pollution."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes the source classification. Fuel combustion is identified in the notes as a major anthropogenic source, not a natural source."
+     "explanation": "The incorrect statement changes the source classification. Fuel combustion is identified in the notes as a major anthropogenic source, not a natural source.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     },
     {
      "id": "environment-11-3",
@@ -1844,7 +2065,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the Reason directly explains the stated association of photochemical smog."
+     "explanation": "Both statements are true, and the Reason directly explains the stated association of photochemical smog.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "environment-11-4",
@@ -1858,7 +2082,16 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: carbon monoxide–vehicle exhaust, sulphur dioxide–fossil-fuel burning/acid rain, lead–petrol/vehicle pollution, and fly ash–thermal power plants."
+     "explanation": "The correct pairs are: carbon monoxide–vehicle exhaust, sulphur dioxide–fossil-fuel burning/acid rain, lead–petrol/vehicle pollution, and fly ash–thermal power plants.",
+     "facts": [
+      "F7",
+      "F8",
+      "F10",
+      "F11",
+      "F17",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "environment-11-5",
@@ -1872,9 +2105,167 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements match the associations given in the notes: smog with smoke and fog, WAYU with air pollution control, Oilzapper with oil-spill/oily-sludge bioremediation, and CNG with methane."
+     "explanation": "All four statements match the associations given in the notes: smog with smoke and fog, WAYU with air pollution control, Oilzapper with oil-spill/oily-sludge bioremediation, and CNG with methane.",
+     "facts": [
+      "F20",
+      "F34",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "environment-11-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Consider the following statements:\nI. Industries are sources of air pollution.\nII. Nitrogen oxides are associated with combustion and vehicles.\nIII. PM2.5 and PM10 are associated with combustion and vehicles.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Industries are sources of air pollution, while nitrogen oxides and PM2.5/PM10 are associated with combustion and vehicles. Therefore, all three statements are correct.",
+     "facts": [
+      "F5",
+      "F9",
+      "F12"
+     ]
+    },
+    {
+     "id": "environment-11-7",
+     "format": "Direct Recall",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Which of the following is described as a dangerous air pollutant?",
+     "options": [
+      "PM10",
+      "Carbon monoxide",
+      "PAN",
+      "Nitrogen oxides"
+     ],
+     "answer": 1,
+     "explanation": "Carbon monoxide is identified as a dangerous air pollutant.",
+     "facts": [
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-11-8",
+     "format": "Direct Recall",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Which of the following is an indicator of air pollution?",
+     "options": [
+      "Fertilizer",
+      "Lichen",
+      "Decibel",
+      "Ultraviolet radiation"
+     ],
+     "answer": 1,
+     "explanation": "Lichen is identified as an indicator of air pollution.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-11-9",
+     "format": "Assertion-Reason",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Assertion (A): Nitrogen oxides are associated with air pollution.\nReason (R): Nitrogen oxides are associated with acid rain.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true associations of nitrogen oxides. However, the association with acid rain does not explain the broader statement that nitrogen oxides are associated with air pollution.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-11-10",
+     "format": "List-Matching",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) PAN\n(b) Photochemical smog\n(c) Green muffler\n(d) Decibel\n\nList-II\n(i) Peroxyacyl nitrate\n(ii) Associated with PAN\n(iii) Noise pollution control\n(iv) Noise measurement",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "PAN stands for peroxyacyl nitrate and is associated with photochemical smog. A green muffler is associated with noise pollution control, while noise is measured in decibels.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "environment-11-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Consider the following statements:\nStatement A: Rustling leaves produce about 20 dB of noise.\nStatement B: A rocket engine produces about 180 dB of noise.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Rustling leaves produce about 20 dB of noise, whereas a rocket engine produces about 180 dB. Hence, both statements are true.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "environment-11-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Consider the following statements:\nI. Fertilizers contribute to soil pollution.\nII. Fertilizers contribute to water pollution.\nIII. Fertilizers contribute to air pollution.\nIV. Nitrates and phosphates cause eutrophication.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Fertilizers contribute to soil, water and air pollution. Nitrates and phosphates cause eutrophication, so all four statements are correct.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "environment-11-13",
+     "format": "List-Matching",
+     "keyword": "Environment Protection",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Water Act\n(b) Water Cess Act\n(c) Arsenic\n(d) Ultraviolet radiation\n\nList-II\n(i) Kolkata\n(ii) 1974\n(iii) Microorganism inactivation\n(iv) 1977",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The Water Act was enacted in 1974 and the Water Cess Act in 1977. Arsenic is associated with Kolkata, while ultraviolet radiation is used for microorganism inactivation.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 36,
+    "covered": 36,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -2559,8 +2950,123 @@
       "F31",
       "F25"
      ]
+    },
+    {
+     "id": "environment-16-6",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ramsar Convention\n(b) World Heritage Convention\n(c) Convention on Biological Diversity\n(d) Cartagena Protocol\n\nList-II\n(i) 1971\n(ii) 1992\n(iii) 2000\n(iv) 1972",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The Ramsar Convention was adopted in 1971, the World Heritage Convention in 1972, the CBD in 1992 and the Cartagena Protocol in 2000.",
+     "facts": [
+      "F1",
+      "F3",
+      "F6",
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-16-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Convention/Protocol",
+     "question": "Consider the following statements:\n\nI. The Nagoya Protocol was adopted in 2010.\nII. The International Treaty on Plant Genetic Resources for Food and Agriculture was adopted in 2001.\nIII. The International Treaty on Plant Genetic Resources for Food and Agriculture was adopted in 2010.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II only",
+      "I only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "The Nagoya Protocol was adopted in 2010, while the International Treaty on Plant Genetic Resources for Food and Agriculture was adopted in 2001. Therefore, Statements I and II are correct.",
+     "facts": [
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-16-8",
+     "format": "Count-Based",
+     "keyword": "Ozone",
+     "question": "How many of the following statements are correct?\n\nI. The Montreal Protocol entered into force on 1 January 1989.\nII. World Ozone Day is observed on 16 September.\nIII. The Montreal Protocol entered into force on 16 September.",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 1,
+     "explanation": "Statements I and II are correct: the Montreal Protocol entered into force on 1 January 1989, and World Ozone Day is observed on 16 September. Statement III alters the correct date of entry into force.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-16-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Convention/Protocol",
+     "question": "Consider the following statements:\nStatement A: The United Nations Convention to Combat Desertification is abbreviated UNCCD and concerns desertification.\nStatement B: The United Nations Convention on the Law of the Sea is abbreviated UNCLOS and concerns oceans and the law of the sea.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "UNCCD stands for the United Nations Convention to Combat Desertification and concerns desertification. UNCLOS stands for the United Nations Convention on the Law of the Sea and concerns oceans and the law of the sea.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "environment-16-10",
+     "format": "Assertion-Reason",
+     "keyword": "Ozone",
+     "question": "Assertion (A): The Vienna Convention concerns the protection of the ozone layer.\nReason (R): The Vienna Convention is identified as the ozone framework.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The Vienna Convention concerns protection of the ozone layer and is identified as the ozone framework; therefore, both statements are true and the reason explains the assertion.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-16-11",
+     "format": "Direct Recall",
+     "keyword": "Ozone",
+     "question": "In which year was the Montreal Protocol signed?",
+     "options": [
+      "1987",
+      "1989",
+      "1992",
+      "2010"
+     ],
+     "answer": 0,
+     "explanation": "The Montreal Protocol was signed in 1987. It subsequently entered into force on 1 January 1989.",
+     "facts": [
+      "F19"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 41,
+    "covered": 41,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
@@ -2846,7 +3352,10 @@
       "201–300"
      ],
      "answer": 2,
-     "explanation": "The AQI category ‘Severe’ corresponds to the range 401–500."
+     "explanation": "The AQI category ‘Severe’ corresponds to the range 401–500.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "environment-20-2",
@@ -2860,7 +3369,14 @@
       "It was enacted in 1981."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the amendment year. The Act was amended in 1987, not 1991."
+     "explanation": "The incorrect detail is the amendment year. The Act was amended in 1987, not 1991.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "environment-20-3",
@@ -2874,7 +3390,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify ozone as a secondary pollutant and state that it is produced through photochemical reactions. Thus, the Reason correctly explains the Assertion."
+     "explanation": "The notes identify ozone as a secondary pollutant and state that it is produced through photochemical reactions. Thus, the Reason correctly explains the Assertion.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "environment-20-4",
@@ -2888,7 +3408,19 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are SO₂–fuel combustion, power stations, industries and diesel vehicles; CO–transport and combustion; O₃–secondary pollutant formed through photochemical reactions; and Benzene–petrol combustion and petrol stations."
+     "explanation": "The correct pairs are SO₂–fuel combustion, power stations, industries and diesel vehicles; CO–transport and combustion; O₃–secondary pollutant formed through photochemical reactions; and Benzene–petrol combustion and petrol stations.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "environment-20-5",
@@ -2902,7 +3434,150 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because NCAP was launched in January 2019, not January 1981."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because NCAP was launched in January 2019, not January 1981.",
+     "facts": [
+      "F48",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "environment-20-6",
+     "format": "List-Matching",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Particulate Matter\n(b) Fine Particulate Matter\n(c) Nitrogen Dioxide\n(d) Carbon Monoxide\n\nList-II\n(i) CO\n(ii) PM10\n(iii) NO₂\n(iv) PM2.5",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Particulate Matter is coded as PM10, Fine Particulate Matter as PM2.5, Nitrogen Dioxide as NO₂ and Carbon Monoxide as CO.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "environment-20-7",
+     "format": "List-Matching",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ozone\n(b) Sulphur Dioxide\n(c) Ammonia\n(d) Lead\n\nList-II\n(i) Pb\n(ii) NH₃\n(iii) SO₂\n(iv) O₃",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The pollutant codes are O₃ for ozone, SO₂ for sulphur dioxide, NH₃ for ammonia and Pb for lead.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "environment-20-8",
+     "format": "Count-Based",
+     "keyword": "AQI",
+     "question": "How many of the following AQI ranges and categories are correctly matched?\n\n1. 0–50 — Good\n2. 51–100 — Satisfactory\n3. 101–200 — Moderately Polluted\n4. 201–300 — Poor\n5. 301–400 — Very Poor",
+     "options": [
+      "Only three",
+      "Only four",
+      "All five",
+      "Only two"
+     ],
+     "answer": 2,
+     "explanation": "All five matches are correct: 0–50 is Good, 51–100 Satisfactory, 101–200 Moderately Polluted, 201–300 Poor and 301–400 Very Poor.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-20-9",
+     "format": "Count-Based",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "How many of the following are identified as major sources of NOx?\n\n1. Transport\n2. Fuel combustion\n3. Power stations\n4. Industries",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed items—transport, fuel combustion, power stations and industries—are major sources of NOx.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "environment-20-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Consider the following statements about major sources of PM10 and PM2.5:\n\nI. Construction is a major source.\nII. Combustion is a major source.\nIII. Diesel exhaust is a major source.\nIV. Road dust is a major source.\nV. Biomass and domestic burning are major sources.",
+     "options": [
+      "II, III, IV and V only",
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "I, II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Construction, combustion, diesel exhaust, road dust, and biomass and domestic burning are all listed as major sources of PM10 and PM2.5.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "environment-20-11",
+     "format": "Assertion-Reason",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Assertion (A): Fuel combustion is a major source of PAH.\nReason (R): Industrial emissions are also a major source of PAH.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: PAH has fuel combustion and industrial emissions among its major sources. However, the Reason identifies another source and does not explain the Assertion.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "environment-20-12",
+     "format": "Direct Recall",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Which pollutant has transport as a major source along with solvents and industrial/domestic sources?",
+     "options": [
+      "NOx",
+      "PM10 and PM2.5",
+      "PAH",
+      "VOC"
+     ],
+     "answer": 3,
+     "explanation": "Transport, solvents, and industrial/domestic sources are listed as major sources of VOC.",
+     "facts": [
+      "F36"
+     ]
     }
    ]
   },
@@ -3861,7 +4536,8 @@
       "F28",
       "F29",
       "F30",
-      "F31"
+      "F31",
+      "F32"
      ]
     },
     {
@@ -3900,8 +4576,30 @@
       "F37",
       "F39"
      ]
+    },
+    {
+     "id": "environment-25-13",
+     "format": "Direct Recall",
+     "keyword": "Ex-situ conservation",
+     "question": "Which of the following is an example of ex-situ conservation?",
+     "options": [
+      "Wildlife Sanctuary",
+      "Cryobank",
+      "Biosphere Reserve",
+      "National Park"
+     ],
+     "answer": 1,
+     "explanation": "A cryobank conserves biological material outside the natural habitat in a controlled environment, making it an example of ex-situ conservation.",
+     "facts": [
+      "F40"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 45,
+    "covered": 45,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -4018,8 +4716,122 @@
       "F24",
       "F26"
      ]
+    },
+    {
+     "id": "environment-26-6",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Waste Management",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Solid waste requires collection.",
+      "Solid waste requires disposal.",
+      "Solid waste requires collection, processing and recycling.",
+      "Solid waste requires processing."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement replaces disposal with recycling. Solid waste requires collection, processing and disposal.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "environment-26-7",
+     "format": "Direct Recall",
+     "keyword": "Waste Management",
+     "question": "Biodegradable waste decomposes naturally by which agency?",
+     "options": [
+      "Producers",
+      "Earthworms",
+      "Microorganisms",
+      "Catalysts"
+     ],
+     "answer": 2,
+     "explanation": "Biodegradable waste decomposes naturally by microorganisms.",
+     "facts": [
+      "F4"
+     ]
+    },
+    {
+     "id": "environment-26-8",
+     "format": "Count-Based",
+     "keyword": "Waste Management",
+     "question": "How many of the following are associated with the production of compost?\nI. Biodegradable waste decomposed in pits\nII. Livestock excreta\nIII. Vegetable waste",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three are associated with compost: biodegradable waste is decomposed in pits, while livestock excreta and vegetable waste are examples of materials used to make compost.",
+     "facts": [
+      "F12",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-26-9",
+     "format": "Direct Recall",
+     "keyword": "Waste Management",
+     "question": "What is the role of earthworms in vermicomposting?",
+     "options": [
+      "They convert chemical energy into electricity.",
+      "They process waste into usable material.",
+      "They speed up decomposition.",
+      "They promote electronics recycling."
+     ],
+     "answer": 2,
+     "explanation": "Earthworms speed up decomposition in vermicomposting.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "environment-26-10",
+     "format": "Assertion-Reason",
+     "keyword": "Waste Management",
+     "question": "Assertion (A): A company following the required R2 practices can become R2 Certified.\nReason (R): The R2 Code of Practices promotes environmentally responsible electronics-recycling practices.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. R2 promotes environmentally responsible electronics-recycling practices, and a company following the required practices can become R2 Certified; however, the Reason does not directly explain the certification condition.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-26-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Waste Management",
+     "question": "Consider the following statements:\nI. Food-processing residues are biomass sources relevant to waste.\nII. Human sewage is a biomass source relevant to waste.\nIII. Biogenic municipal solid waste is a biomass source relevant to waste.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Food-processing residues, human sewage and biogenic municipal solid waste are all listed as biomass sources relevant to waste.",
+     "facts": [
+      "F25",
+      "F27",
+      "F28"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,
@@ -4132,8 +4944,147 @@
       "F38",
       "F39"
      ]
+    },
+    {
+     "id": "environment-27-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ozone – Formula and Location",
+     "question": "Consider the following statements:\nI. Ozone has the formula O₃.\nII. One ozone molecule contains three oxygen atoms.\nIII. The ozone layer is mainly located in the stratosphere.\nIV. Ozone forms through the reaction UV radiation + O₂ → O₃.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct: ozone is O₃, each molecule contains three oxygen atoms, the ozone layer is mainly in the stratosphere, and ozone forms through the stated reaction.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-27-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ozone – Atmospheric Distribution",
+     "question": "Consider the following statements:\nStatement A: Approximately 90% of ozone is present in the stratosphere.\nStatement B: Approximately 10% of ozone is present in the troposphere.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The stated distribution is approximately 90% of ozone in the stratosphere and approximately 10% in the troposphere.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-27-8",
+     "format": "Assertion-Reason",
+     "keyword": "Tropospheric Ozone",
+     "question": "Assertion (A): Tropospheric ozone is a pollutant.\nReason (R): Tropospheric ozone is harmful to living organisms.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The harmful effect of tropospheric ozone on living organisms explains its characterization as a pollutant.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-27-9",
+     "format": "Count-Based",
+     "keyword": "Ozone-Depleting Substances",
+     "question": "How many of the following are ozone-depleting substances?\n1. Chlorofluorocarbons (CFCs)\n2. Halons\n3. Carbon tetrachloride\n4. Hydrochlorofluorocarbons (HCFCs)\n5. Methyl chloroform\n6. Methyl bromide",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 3,
+     "explanation": "All six listed substances—CFCs, halons, carbon tetrachloride, HCFCs, methyl chloroform and methyl bromide—are identified as ozone-depleting substances.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-27-10",
+     "format": "Direct Recall",
+     "keyword": "Ozone – Atmospheric Layers and Height",
+     "question": "Which one of the following correctly represents the approximate vertical extent of the stratosphere and the main ozone layer?",
+     "options": [
+      "Stratosphere: 15–30 km; Main ozone layer: 10–50 km",
+      "Stratosphere: 15–50 km; Main ozone layer: 10–30 km",
+      "Stratosphere: 10–30 km; Main ozone layer: 15–50 km",
+      "Stratosphere: 10–50 km; Main ozone layer: 15–30 km"
+     ],
+     "answer": 3,
+     "explanation": "The stratosphere extends approximately from 10 km to 50 km, while the main ozone layer extends approximately from 15 km to 30 km.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "environment-27-11",
+     "format": "List-Matching",
+     "keyword": "World Ozone Day",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) World Ozone Day\n(b) Alternative name of World Ozone Day\n(c) Year of declaration by the UN General Assembly\n(d) Event commemorated by World Ozone Day\n\nList-II\n(i) September 16\n(ii) International Day for the Preservation of the Ozone Layer\n(iii) 1994\n(iv) Signing date of the Montreal Protocol",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "World Ozone Day is observed on September 16; it is also called the International Day for the Preservation of the Ozone Layer, was declared by the UN General Assembly in 1994, and commemorates the signing date of the Montreal Protocol.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "environment-27-12",
+     "format": "Assertion-Reason",
+     "keyword": "CFCs – Ozone Depletion and Refrigerants",
+     "question": "Assertion (A): Ozone depletion is associated with CFCs and other ozone-depleting substances.\nReason (R): CFCs are used as refrigerants.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the use of CFCs as refrigerants does not itself explain the association of ozone depletion with CFCs and other ozone-depleting substances.",
+     "facts": [
+      "F35",
+      "F40"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -4161,7 +5112,10 @@
       "Social Forestry"
      ],
      "answer": 0,
-     "explanation": "Agroforestry means the integration of trees with agricultural systems."
+     "explanation": "Agroforestry means the integration of trees with agricultural systems.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "environment-28-2",
@@ -4175,7 +5129,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are FRI–Dehradun, Himalayan Forest Research Institute–Shimla, IIFM–Bhopal and CAFRI–Jhansi."
+     "explanation": "The correct pairs are FRI–Dehradun, Himalayan Forest Research Institute–Shimla, IIFM–Bhopal and CAFRI–Jhansi.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "environment-28-3",
@@ -4189,7 +5149,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. The 1988 establishment and the December 2014 renaming are separate facts, so the Reason does not explain the Assertion."
+     "explanation": "Both statements are given in the notes. The 1988 establishment and the December 2014 renaming are separate facts, so the Reason does not explain the Assertion.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "environment-28-4",
@@ -4203,7 +5167,13 @@
       "The Himalayan Forest Research Institute is located in Shimla."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is the third one. The Indian Institute of Forest Management is located in Bhopal, while CAFRI is located in Jhansi."
+     "explanation": "The incorrect statement is the third one. The Indian Institute of Forest Management is located in Bhopal, while CAFRI is located in Jhansi.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "environment-28-5",
@@ -4217,7 +5187,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Replantation means replanting trees in existing forests, whereas increasing tree or forest cover with emphasis on societal or community needs is Social Forestry."
+     "explanation": "Statement A is true. Replantation means replanting trees in existing forests, whereas increasing tree or forest cover with emphasis on societal or community needs is Social Forestry.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     }
    ]
   },
@@ -4592,7 +5567,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "Sundarbans is in West Bengal, Bhitarkanika in Odisha, Coringa in Andhra Pradesh, and Pichavaram in Tamil Nadu."
+     "explanation": "Sundarbans is in West Bengal, Bhitarkanika in Odisha, Coringa in Andhra Pradesh, and Pichavaram in Tamil Nadu.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "environment-33-2",
@@ -4606,7 +5587,14 @@
       "Carbon dioxide is a major contributor among greenhouse gases."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that argon is a naturally occurring greenhouse gas. The notes identify argon as not a greenhouse gas."
+     "explanation": "The incorrect statement is that argon is a naturally occurring greenhouse gas. The notes identify argon as not a greenhouse gas.",
+     "facts": [
+      "F16",
+      "F20",
+      "F30",
+      "F18",
+      "F26"
+     ]
     },
     {
      "id": "environment-33-3",
@@ -4620,7 +5608,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "An ecosystem is described as a functional unit of nature and includes both biotic and abiotic components. These components together explain its functional-unit character."
+     "explanation": "An ecosystem is described as a functional unit of nature and includes both biotic and abiotic components. These components together explain its functional-unit character.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "environment-33-4",
@@ -4634,7 +5627,13 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. CFCs are identified as ozone-depleting gases as well as greenhouse gases, so statement III is incorrect."
+     "explanation": "Statements I, II and IV are correct. CFCs are identified as ozone-depleting gases as well as greenhouse gases, so statement III is incorrect.",
+     "facts": [
+      "F16",
+      "F27",
+      "F29",
+      "F32"
+     ]
     },
     {
      "id": "environment-33-5",
@@ -4648,7 +5647,11 @@
       "WMO, 1820s"
      ],
      "answer": 0,
-     "explanation": "The greenhouse effect concept is associated with Joseph Fourier and dates to the 1820s."
+     "explanation": "The greenhouse effect concept is associated with Joseph Fourier and dates to the 1820s.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     }
    ]
   },
@@ -5570,7 +6573,11 @@
       "Access and benefit sharing"
      ],
      "answer": 2,
-     "explanation": "The notes identify the key provision of the SWM Rules, 2016 as criteria for landfill and waste-processing sites."
+     "explanation": "The notes identify the key provision of the SWM Rules, 2016 as criteria for landfill and waste-processing sites.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "environment-37-2",
@@ -5584,7 +6591,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: Kyoto Protocol—1997—UNFCCC—GHG emission reduction. However, its association with the UNFCCC does not itself explain the purpose of greenhouse-gas emission reduction."
+     "explanation": "Both statements are given in the notes: Kyoto Protocol—1997—UNFCCC—GHG emission reduction. However, its association with the UNFCCC does not itself explain the purpose of greenhouse-gas emission reduction.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "environment-37-3",
@@ -5598,7 +6609,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Montreal Protocol—ozone-depleting substances; Cartagena Protocol—biosafety/LMOs; Nagoya Protocol—access and benefit sharing; Kigali Amendment—HFC phase-down."
+     "explanation": "The correct pairs are: Montreal Protocol—ozone-depleting substances; Cartagena Protocol—biosafety/LMOs; Nagoya Protocol—access and benefit sharing; Kigali Amendment—HFC phase-down.",
+     "facts": [
+      "F18",
+      "F24",
+      "F27",
+      "F30"
+     ]
     },
     {
      "id": "environment-37-4",
@@ -5612,7 +6629,12 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements agree with the notes: CBD—biodiversity, UNFCCC—climate change, and UNCCD—desertification."
+     "explanation": "All three statements agree with the notes: CBD—biodiversity, UNFCCC—climate change, and UNCCD—desertification.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "environment-37-5",
@@ -5626,9 +6648,209 @@
       "The Nagoya Protocol was adopted in 2010 under the CBD and concerns access and benefit sharing."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year in the fourth statement. The Cartagena Protocol is listed as 2000, not 2010; it concerns biosafety/LMOs under the CBD."
+     "explanation": "The incorrect detail is the year in the fourth statement. The Cartagena Protocol is listed as 2000, not 2010; it concerns biosafety/LMOs under the CBD.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F34"
+     ]
+    },
+    {
+     "id": "environment-37-6",
+     "format": "List-Matching",
+     "keyword": "Waste Management",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Landfill\n(b) Composting\n(c) Vermicompost\n(d) Incinerator\n\nList-II\n(i) Worm compost\n(ii) Burning waste\n(iii) Solid waste disposal\n(iv) Decomposition of biodegradable waste",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "A landfill is used for solid waste disposal; composting is the decomposition of biodegradable waste; vermicompost is worm compost; and an incinerator burns waste.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-37-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Waste-to-Energy",
+     "question": "Consider the following statements:\nStatement A: Pyrolysis is a waste-to-energy process.\nStatement B: Plasma gasification is a waste-to-energy process.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both pyrolysis and plasma gasification are identified as waste-to-energy processes.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-37-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Waste Management",
+     "question": "Consider the following statements:\nI. EPR means a producer's responsibility for end-of-life products.\nII. R2 refers to responsible electronics recycling.\nIII. An MFC is used for wastewater treatment and electricity generation.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: EPR concerns producer responsibility for end-of-life products, R2 refers to responsible electronics recycling, and an MFC has wastewater-treatment and electricity-generation uses.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "environment-37-9",
+     "format": "Direct Recall",
+     "keyword": "Waste Management",
+     "question": "Biogenic MSW is identified as which of the following?",
+     "options": [
+      "A wastewater-treatment unit",
+      "A hazardous chemical",
+      "A solid waste disposal site",
+      "A biomass energy source"
+     ],
+     "answer": 3,
+     "explanation": "Biogenic MSW is a biomass energy source.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-37-10",
+     "format": "Count-Based",
+     "keyword": "Waste Classification",
+     "question": "How many of the following are included under non-biodegradable waste?\n1. Plastic\n2. Sewage\n3. DDT\n4. Asbestos",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Plastic, DDT and asbestos are listed as non-biodegradable waste. Sewage is included under biodegradable waste, so the count is three.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-37-11",
+     "format": "Assertion-Reason",
+     "keyword": "Ozone",
+     "question": "Assertion (A): The Montreal Protocol was adopted in 1987.\nReason (R): The Montreal Protocol is associated with the Vienna Convention.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Montreal Protocol was adopted in 1987 and is associated with the Vienna Convention, but the association does not explain the adoption year.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-37-12",
+     "format": "Direct Recall",
+     "keyword": "Protocol Year",
+     "question": "In which year was the Kyoto Protocol adopted?",
+     "options": [
+      "2000",
+      "1987",
+      "2010",
+      "1997"
+     ],
+     "answer": 3,
+     "explanation": "The Kyoto Protocol was adopted in 1997.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-37-13",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Ramsar Convention\n(b) World Heritage Convention\n(c) ITPGRFA\n(d) Stockholm Convention\n\nList-II\n(i) Persistent organic pollutants\n(ii) Plant genetic resources\n(iii) Wetlands\n(iv) Natural and cultural heritage",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The Ramsar Convention concerns wetlands; the World Heritage Convention concerns natural and cultural heritage; ITPGRFA concerns plant genetic resources; and the Stockholm Convention concerns persistent organic pollutants.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "environment-37-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Convention/Conference",
+     "question": "Consider the following statements:\nI. The Minamata Convention concerns mercury.\nII. The Basel Convention concerns hazardous wastes.\nIII. The Rotterdam Convention concerns prior informed consent for hazardous chemicals and pesticides.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Minamata concerns mercury, Basel concerns hazardous wastes, and Rotterdam concerns prior informed consent for hazardous chemicals and pesticides.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "environment-37-15",
+     "format": "Direct Recall",
+     "keyword": "Biodegradable waste decomposition",
+     "question": "In vermicomposting, which organism is identified as speeding up decomposition?",
+     "options": [
+      "Landfills",
+      "Plasma gasification units",
+      "Incinerators",
+      "Earthworms"
+     ],
+     "answer": 3,
+     "explanation": "Earthworms speed up decomposition. Vermicompost is worm compost, linking earthworms with the decomposition process.",
+     "facts": [
+      "F6"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 41,
+    "covered": 41,
+    "audited": true
+   }
   },
   "38": {
    "number": 38,
@@ -5657,7 +6879,21 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The Wildlife (Protection) Act, 1972 concerns wildlife; the Water Act, 1974 concerns water pollution; the Forest (Conservation) Act, 1980 concerns forest conservation; and the Air Act, 1981 concerns air pollution."
+     "explanation": "The Wildlife (Protection) Act, 1972 concerns wildlife; the Water Act, 1974 concerns water pollution; the Forest (Conservation) Act, 1980 concerns forest conservation; and the Air Act, 1981 concerns air pollution.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F8",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "environment-38-2",
@@ -5671,7 +6907,17 @@
       "EIA assesses the likely environmental consequences of a proposed project or activity before implementation."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement equates R2 Code of Practices with EIA. R2 concerns environmentally responsible electronics recycling, whereas EIA assesses likely environmental consequences before project implementation."
+     "explanation": "The incorrect statement equates R2 Code of Practices with EIA. R2 concerns environmentally responsible electronics recycling, whereas EIA assesses likely environmental consequences before project implementation.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F34",
+      "F35",
+      "F27",
+      "F33"
+     ]
     },
     {
      "id": "environment-38-3",
@@ -5685,7 +6931,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. EIA is conducted before implementation and its purpose is to identify, predict and evaluate the likely environmental impacts of development projects."
+     "explanation": "Both statements are true. EIA is conducted before implementation and its purpose is to identify, predict and evaluate the likely environmental impacts of development projects.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "environment-38-4",
@@ -5699,7 +6952,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are stated associations: CPCB creation is linked to the Water Act, 1974, while a healthy environment is linked with Article 21 and the NGT."
+     "explanation": "Both statements are stated associations: CPCB creation is linked to the Water Act, 1974, while a healthy environment is linked with Article 21 and the NGT.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "environment-38-5",
@@ -5713,9 +6970,93 @@
       "Forest Rights Act, 2006"
      ],
      "answer": 2,
-     "explanation": "The Biological Diversity Act, 2002 is associated with biodiversity and benefit sharing."
+     "explanation": "The Biological Diversity Act, 2002 is associated with biodiversity and benefit sharing.",
+     "facts": [
+      "F22",
+      "F12"
+     ]
+    },
+    {
+     "id": "environment-38-6",
+     "format": "List-Matching",
+     "keyword": "Act – Year",
+     "question": "Match List-I with List-II:\n\nList-I (Legislation)\na. Environment (Protection) Act\nb. Biological Diversity Act\nc. Forest Rights Act\nd. National Green Tribunal Act\n\nList-II (Year of enactment)\ni. 1986\nii. 2002\niii. 2006\niv. 2010",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The Environment (Protection) Act was enacted in 1986, the Biological Diversity Act in 2002, the Forest Rights Act in 2006 and the National Green Tribunal Act in 2010.",
+     "facts": [
+      "F9",
+      "F11",
+      "F13",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-38-7",
+     "format": "Assertion-Reason",
+     "keyword": "Umbrella environmental law",
+     "question": "Assertion (A): The Environment (Protection) Act, 1986 is an umbrella environmental law.\nReason (R): Its core area is the overall environment.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Act is described as an umbrella environmental law because its core area is the overall environment.",
+     "facts": [
+      "F10",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-38-8",
+     "format": "List-Matching",
+     "keyword": "Act – Core area and association",
+     "question": "Match List-I with List-II:\n\nList-I\na. Core area of the Forest Rights Act\nb. Core area of the National Green Tribunal Act\nc. Forest-dweller rights are associated with\nd. Environmental tribunal law is associated with\n\nList-II\ni. Forest-dwelling communities\nii. Environmental justice\niii. Forest Rights Act, 2006\niv. National Green Tribunal Act, 2010",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The Forest Rights Act has forest-dwelling communities as its core area, while the National Green Tribunal Act has environmental justice as its core area. Forest-dweller rights are associated with the Forest Rights Act, 2006, and environmental tribunal law with the National Green Tribunal Act, 2010.",
+     "facts": [
+      "F14",
+      "F16",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "environment-38-9",
+     "format": "Direct Recall",
+     "keyword": "Environmental Impact Assessment",
+     "question": "Environmental Impact Assessment (EIA) is linked with which of the following?",
+     "options": [
+      "Forest-dwelling communities",
+      "Environmental clearance",
+      "Biodiversity and benefit sharing",
+      "Environmental justice"
+     ],
+     "answer": 1,
+     "explanation": "EIA is linked with environmental clearance. It involves assessing the likely environmental consequences of a proposed project or activity before implementation.",
+     "facts": [
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "39": {
    "number": 39,
@@ -5744,7 +7085,15 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "Forests act as carbon sinks; blue carbon refers to oceans and coastal ecosystems; carbon sequestration means capture and long-term storage; geological storage includes coal seams, depleted oil/gas reservoirs and deep saline formations."
+     "explanation": "Forests act as carbon sinks; blue carbon refers to oceans and coastal ecosystems; carbon sequestration means capture and long-term storage; geological storage includes coal seams, depleted oil/gas reservoirs and deep saline formations.",
+     "facts": [
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "environment-39-2",
@@ -5758,7 +7107,13 @@
       "Compost is decomposed biodegradable waste."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is option 4. R2 refers to electronics recycling, whereas MFC is associated with wastewater treatment and electricity."
+     "explanation": "The incorrect statement is option 4. R2 refers to electronics recycling, whereas MFC is associated with wastewater treatment and electricity.",
+     "facts": [
+      "F21",
+      "F33",
+      "F34",
+      "F25"
+     ]
     },
     {
      "id": "environment-39-3",
@@ -5772,7 +7127,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given as correct facts: carbon fertilization involves increased plant growth due to CO₂, while photosynthesis removes CO₂. However, the statement about photosynthesis does not explain the definition of carbon fertilization."
+     "explanation": "Both statements are given as correct facts: carbon fertilization involves increased plant growth due to CO₂, while photosynthesis removes CO₂. However, the statement about photosynthesis does not explain the definition of carbon fertilization.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "environment-39-4",
@@ -5786,7 +7145,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Pyrolysis and plasma gasification are identified as waste-to-energy processes. Compost and vermicompost are forms of processing biodegradable waste, not waste-to-energy processes."
+     "explanation": "Pyrolysis and plasma gasification are identified as waste-to-energy processes. Compost and vermicompost are forms of processing biodegradable waste, not waste-to-energy processes.",
+     "facts": [
+      "F29",
+      "F30",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "environment-39-5",
@@ -5800,7 +7165,10 @@
       "Nepal"
      ],
      "answer": 1,
-     "explanation": "Bhutan is identified as a carbon-negative country."
+     "explanation": "Bhutan is identified as a carbon-negative country.",
+     "facts": [
+      "F18"
+     ]
     }
    ]
   },

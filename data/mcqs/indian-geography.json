@@ -2148,8 +2148,50 @@
       "F21",
       "F22"
      ]
+    },
+    {
+     "id": "indian-geography-5-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\nStatement A: Tripura borders Bangladesh.\nStatement B: Meghalaya borders Bangladesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Tripura and Meghalaya each share an international border with Bangladesh.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-geography-5-17",
+     "format": "Count-Based",
+     "keyword": "Borders",
+     "question": "How many of the following boundary-line and associated-person pairs are correct?\nI. Radcliffe Line — Sir Cyril Radcliffe\nII. McMahon Line — Sir Henry McMahon\nIII. Durand Line — Sir Mortimer Durand\nIV. Radcliffe Line — Sir Henry McMahon",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The first three associations are correct. The incorrect fourth pair alters the associated person: the Radcliffe Line is associated with Sir Cyril Radcliffe, not Sir Henry McMahon.",
+     "facts": [
+      "F36",
+      "F40",
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 64,
+    "covered": 64,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -2263,7 +2305,17 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Bharia–Chhindwara, Pahadi Korba–Jashpur, Chenchu–Andhra Pradesh (Nallamala), and Sentinelese–North Sentinel Island."
+     "explanation": "The correct pairs are Bharia–Chhindwara, Pahadi Korba–Jashpur, Chenchu–Andhra Pradesh (Nallamala), and Sentinelese–North Sentinel Island.",
+     "facts": [
+      "F56",
+      "F57",
+      "F62",
+      "F63",
+      "F72",
+      "F73",
+      "F94",
+      "F95"
+     ]
     },
     {
      "id": "indian-geography-7-2",
@@ -2277,7 +2329,18 @@
       "Bhotia are found in Uttarakhand and Uttar Pradesh."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is option 4. The altered detail is Himachal Pradesh; Jaunsari are listed in Uttarakhand and Uttar Pradesh."
+     "explanation": "The incorrect statement is option 4. The altered detail is Himachal Pradesh; Jaunsari are listed in Uttarakhand and Uttar Pradesh.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7",
+      "F12",
+      "F13",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-7-3",
@@ -2291,7 +2354,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The location specified for the Sentinelese is North Sentinel Island in the Andaman & Nicobar Islands, directly establishing the assertion."
+     "explanation": "Both statements are true. The location specified for the Sentinelese is North Sentinel Island in the Andaman & Nicobar Islands, directly establishing the assertion.",
+     "facts": [
+      "F94",
+      "F95"
+     ]
     },
     {
      "id": "indian-geography-7-4",
@@ -2305,7 +2372,14 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. Mikir are listed in Assam, not Meghalaya."
+     "explanation": "Statements I, II and IV are correct. Mikir are listed in Assam, not Meghalaya.",
+     "facts": [
+      "F65",
+      "F66",
+      "F71",
+      "F77",
+      "F88"
+     ]
     },
     {
      "id": "indian-geography-7-5",
@@ -2319,9 +2393,411 @@
       "Madhya Pradesh"
      ],
      "answer": 0,
-     "explanation": "The Chenchu are listed in Andhra Pradesh, specifically the Nallamala region."
+     "explanation": "The Chenchu are listed in Andhra Pradesh, specifically the Nallamala region.",
+     "facts": [
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "indian-geography-7-6",
+     "format": "Assertion-Reason",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Assertion (A): The Buksa tribe is located in Uttarakhand.\nReason (R): The Raji tribe is located in Uttar Pradesh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Buksa is located in Uttarakhand and Raji is located in Uttar Pradesh. However, the location of Raji does not explain the location of Buksa.",
+     "facts": [
+      "F8",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-geography-7-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: The Buksa tribe is located in Uttar Pradesh.\nStatement B: The Raji tribe is located in Uttarakhand.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Buksa and Raji tribes are each located in Uttar Pradesh and Uttarakhand, respectively, as stated.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-geography-7-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Gond tribe is located in Madhya Pradesh.\nII. The Gond tribe is located in Chhattisgarh.\nIII. The Gond tribe is located in Jharkhand.\nIV. The Gond tribe is located in Maharashtra.",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Madhya Pradesh, Chhattisgarh, Jharkhand and Maharashtra are listed among the locations of the Gond tribe.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-7-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Gond tribe is located in Odisha.\nII. The Gond tribe is located in Uttar Pradesh.\nIII. The Gond tribe is located in Bihar.\nIV. The Gond tribe is located in West Bengal.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "II and III only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. Odisha, Uttar Pradesh, Bihar and West Bengal are among the states where the Gond tribe is located.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-geography-7-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Gond tribe is located in Karnataka.\nII. The Gond tribe is located in Andhra Pradesh.\nIII. The Gond tribe is located in Telangana.\nIV. The Gond tribe is located in Gujarat.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Karnataka, Andhra Pradesh, Telangana and Gujarat are listed as locations of the Gond tribe.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-geography-7-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Bhil tribe is located in Rajasthan.\nII. The Bhil tribe is located in Gujarat.\nIII. The Bhil tribe is located in Madhya Pradesh.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and II only",
+      "I only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Rajasthan, Gujarat and Madhya Pradesh are listed among the locations of the Bhil tribe.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-geography-7-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Bhil tribe is located in Maharashtra.\nII. The Bhil tribe is located in Chhattisgarh.\nIII. The Bhil tribe is located in Karnataka.",
+     "options": [
+      "I only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Maharashtra, Chhattisgarh and Karnataka are among the locations of the Bhil tribe.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "indian-geography-7-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Bhil tribe is located in Tripura.\nII. The Bhil tribe is located in Andhra Pradesh.\nIII. The Bhil tribe is located in Telangana.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Tripura, Andhra Pradesh and Telangana are listed as locations of the Bhil tribe.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-geography-7-14",
+     "format": "Count-Based",
+     "keyword": "Tribes → Location",
+     "question": "How many of the following statements regarding the Santhal tribe are correct?\n\n1. The Santhal tribe is located in Jharkhand.\n2. The Santhal tribe is located in West Bengal.\n3. The Santhal tribe is located in Bihar.\n4. The Santhal tribe is located in Odisha.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The Santhal tribe is located in Jharkhand, West Bengal, Bihar and Odisha.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-geography-7-15",
+     "format": "Count-Based",
+     "keyword": "Tribes → Location",
+     "question": "How many of the following statements regarding the Munda tribe are correct?\n\n1. The Munda tribe is located in Jharkhand.\n2. The Munda tribe is located in Odisha.\n3. The Munda tribe is located in West Bengal.\n4. The Munda tribe is located in Chhattisgarh.\n5. The Munda tribe is located in Bihar.",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five statements are correct. The Munda tribe is located in Jharkhand, Odisha, West Bengal, Chhattisgarh and Bihar.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "indian-geography-7-16",
+     "format": "Assertion-Reason",
+     "keyword": "Tribes → Location",
+     "question": "Assertion (A): The Oraon tribe is located in Jharkhand.\nReason (R): The Oraon tribe is also located in adjoining eastern and central states.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the wider location of the Oraon tribe in adjoining eastern and central states does not explain its location in Jharkhand.",
+     "facts": [
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "indian-geography-7-17",
+     "format": "List-Matching",
+     "keyword": "Tribes → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sahariya or Sehariya tribe\n(b) Sahariya or Sehariya tribe\n(c) Baiga tribe\n(d) Ho tribe\n\nList-II\n(i) Jharkhand\n(ii) Madhya Pradesh\n(iii) Rajasthan\n(iv) Chhattisgarh",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-iii, c-ii, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Sahariya/Sehariya–Madhya Pradesh, Sahariya/Sehariya–Rajasthan, Baiga–Madhya Pradesh and Ho–Jharkhand.",
+     "facts": [
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "indian-geography-7-18",
+     "format": "Count-Based",
+     "keyword": "Tribes → Location",
+     "question": "How many of the following statements regarding the Kol tribe are correct?\n\n1. The Kol tribe is located in Madhya Pradesh.\n2. The Kol tribe is located in Chhattisgarh.\n3. The Kol tribe is located in Bihar.\n4. The Kol tribe is located in Jharkhand.\n5. The Kol tribe is located in Maharashtra.\n6. The Kol tribe is located in Odisha.",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 3,
+     "explanation": "All six statements are correct. The Kol tribe is located in Madhya Pradesh, Chhattisgarh, Bihar, Jharkhand, Maharashtra and Odisha.",
+     "facts": [
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "indian-geography-7-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → Location",
+     "question": "Consider the following statements:\n\nI. The Muria tribe is located in Chhattisgarh.\nII. The Maria tribe is located in Chhindwara.\nIII. The Maria tribe is located in Patalkot.\nIV. The Maria tribe is located in Madhya Pradesh.",
+     "options": [
+      "I, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Muria is located in Chhattisgarh, while Maria is associated with Chhindwara, Patalkot and Madhya Pradesh.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "indian-geography-7-20",
+     "format": "List-Matching",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kharwar tribe\n(b) Lepcha tribe\n(c) Garo tribe\n(d) Bodo tribe\n\nList-II\n(i) Meghalaya\n(ii) Uttar Pradesh\n(iii) Assam\n(iv) Sikkim",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The Kharwar tribe is located in Uttar Pradesh, the Lepcha tribe in Sikkim, the Garo tribe in Meghalaya and the Bodo tribe in Assam.",
+     "facts": [
+      "F64",
+      "F74",
+      "F75",
+      "F78"
+     ]
+    },
+    {
+     "id": "indian-geography-7-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: The Irula tribe is located in Tamil Nadu and South India.\nStatement B: The Kadar tribe is located in Kerala and South India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Irula is associated with Tamil Nadu and South India, while Kadar is associated with Kerala and South India.",
+     "facts": [
+      "F67",
+      "F68",
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "indian-geography-7-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "Consider the following statements:\nI. The Khasi tribe is located in Meghalaya.\nII. The Naga groups are located in Nagaland.\nIII. The Naga groups are located in Northeast India.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: Khasi is located in Meghalaya, while Naga groups are located in Nagaland and Northeast India.",
+     "facts": [
+      "F76",
+      "F79",
+      "F80"
+     ]
+    },
+    {
+     "id": "indian-geography-7-23",
+     "format": "Count-Based",
+     "keyword": "Tribes → State [LOCATION]",
+     "question": "How many of the following statements regarding the Kuki tribe are correct?\n\n1. The Kuki tribe is predominantly located in Manipur.\n2. The Kuki tribe is also located in Assam.\n3. The Kuki tribe is also located in Mizoram.\n4. The Kuki tribe is also located in Tripura.\n5. The Kuki tribe is also located in Meghalaya.\n6. The Kuki tribe is also located in Nagaland.",
+     "options": [
+      "Only four",
+      "Only five",
+      "All six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six statements are correct. The Kuki tribe is predominantly located in Manipur and is also located in Assam, Mizoram, Tripura, Meghalaya and Nagaland.",
+     "facts": [
+      "F81",
+      "F82",
+      "F83",
+      "F84",
+      "F85",
+      "F86"
+     ]
+    },
+    {
+     "id": "indian-geography-7-24",
+     "format": "List-Matching",
+     "keyword": "Tribes → State/Island [LOCATION]",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Lushai or Mizo tribe\n(b) Mishmi tribe\n(c) Jarawa tribe\n(d) Shompen tribe\n\nList-II\n(i) Nicobar Islands\n(ii) Mizoram\n(iii) Andaman and Nicobar Islands\n(iv) Arunachal Pradesh",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Lushai/Mizo–Mizoram, Mishmi–Arunachal Pradesh, Jarawa–Andaman and Nicobar Islands, and Shompen–Nicobar Islands.",
+     "facts": [
+      "F87",
+      "F89",
+      "F90",
+      "F93"
+     ]
+    },
+    {
+     "id": "indian-geography-7-25",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tribes → Island [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: The Onge tribe is located in Little Andaman.\nStatement B: The Onge tribe is located in the Andaman and Nicobar Islands.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Onge tribe is associated with Little Andaman and the Andaman and Nicobar Islands.",
+     "facts": [
+      "F91",
+      "F92"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 95,
+    "covered": 95,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -2849,7 +3325,15 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "Jaunsari are associated with agriculture and polyandry, Raji with jhum cultivation, Gond with hunting and fishing, and Gaddi with seasonal livestock herding."
+     "explanation": "Jaunsari are associated with agriculture and polyandry, Raji with jhum cultivation, Gond with hunting and fishing, and Gaddi with seasonal livestock herding.",
+     "facts": [
+      "F15",
+      "F16",
+      "F19",
+      "F22",
+      "F23",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-9-2",
@@ -2863,7 +3347,15 @@
       "Tharu are also found in Khatima and Sitarganj of Udham Singh Nagar."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the statement that Tharu observe Diwali as a sorrow. The notes state that they observe Diwali as a sorrow; therefore, as written, this option is actually correct. The question contains no altered detail and is invalid."
+     "explanation": "The incorrect detail is the statement that Tharu observe Diwali as a sorrow. The notes state that they observe Diwali as a sorrow; therefore, as written, this option is actually correct. The question contains no altered detail and is invalid.",
+     "facts": [
+      "F37",
+      "F38",
+      "F41",
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-geography-9-3",
@@ -2877,7 +3369,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. The Dhauladhar Range is identified as the physiographic region of the Gaddi, while seasonal livestock herding or migration is their activity; the reason does not explain the physiographic association."
+     "explanation": "Both statements are given in the notes. The Dhauladhar Range is identified as the physiographic region of the Gaddi, while seasonal livestock herding or migration is their activity; the reason does not explain the physiographic association.",
+     "facts": [
+      "F31",
+      "F29"
+     ]
     },
     {
      "id": "indian-geography-9-4",
@@ -2891,7 +3387,18 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three statements match the locations given in the notes for Bhotia, Bakarwal and Tharu."
+     "explanation": "All three statements match the locations given in the notes for Bhotia, Bakarwal and Tharu.",
+     "facts": [
+      "F27",
+      "F28",
+      "F6",
+      "F7",
+      "F34",
+      "F35",
+      "F36",
+      "F3",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-9-5",
@@ -2905,9 +3412,133 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify cattle rearing as the traditional activity of the Maasai and locate them in Kenya, northern Tanzania and eastern Uganda."
+     "explanation": "The notes identify cattle rearing as the traditional activity of the Maasai and locate them in Kenya, northern Tanzania and eastern Uganda.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-geography-9-6",
+     "format": "Assertion-Reason",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Assertion (A): Bhotia traditionally practice migratory pastoralism.\nReason (R): Bhotia are found in the Himalayan region.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Bhotia traditionally practice migratory pastoralism and are found in the Himalayan region. The location does not explain the traditional activity.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-geography-9-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nI. Bhotia traditionally engage in livestock herding.\nII. Bakarwal traditionally practice seasonal livestock herding.\nIII. Gaddi are located in Chamba, Himachal Pradesh.\nIV. Gond also practice shifting cultivation.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: Bhotia engage in livestock herding, Bakarwal practise seasonal livestock herding, Gaddi are located in Chamba, and Gond also practise shifting cultivation.",
+     "facts": [
+      "F2",
+      "F5",
+      "F10",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-geography-9-8",
+     "format": "List-Matching",
+     "keyword": "Community → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gaddi\n(b) Jaunsari\n(c) Raji\n(d) Gond\n\nList-II\n(i) Peninsular India\n(ii) Kangra, Himachal Pradesh\n(iii) Uttarakhand\n(iv) Uttar Pradesh\n\nCodes:",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Gaddi–Kangra, Jaunsari–Uttarakhand, Raji–Uttar Pradesh and Gond–Peninsular India.",
+     "facts": [
+      "F9",
+      "F17",
+      "F21",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-geography-9-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community → Location",
+     "question": "Consider the following statements:\nI. Gaddi are also found in Jammu and Kashmir.\nII. Jaunsari are located in Uttar Pradesh.\nIII. Raji are located in Uttarakhand.\nIV. Gond communities are found in Central India.",
+     "options": [
+      "I, III and IV only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Each statement is correct. The communities listed are associated respectively with Jammu and Kashmir, Uttar Pradesh, Uttarakhand and Central India.",
+     "facts": [
+      "F30",
+      "F18",
+      "F20",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-geography-9-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Consider the following statements:\nStatement A: Tharu traditionally live in joint families.\nStatement B: Tharu follow Hindu religious practices.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Tharu traditionally live in joint families and follow Hindu religious practices.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "indian-geography-9-11",
+     "format": "Direct Recall",
+     "keyword": "Community → Traditional activity + Location",
+     "question": "Which traditional practice is associated with the Bakarwal community?",
+     "options": [
+      "Shifting cultivation",
+      "Seasonal pastoralism",
+      "Migratory pastoralism",
+      "Cattle rearing"
+     ],
+     "answer": 1,
+     "explanation": "Bakarwal traditionally practise seasonal pastoralism.",
+     "facts": [
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 41,
+    "covered": 41,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -3385,8 +4016,30 @@
       "F45",
       "F46"
      ]
+    },
+    {
+     "id": "indian-geography-12-16",
+     "format": "Direct Recall",
+     "keyword": "Mountain peak",
+     "question": "Trishul is located in which of the following states?",
+     "options": [
+      "Uttarakhand",
+      "Sikkim",
+      "Meghalaya",
+      "Nagaland"
+     ],
+     "answer": 0,
+     "explanation": "Trishul is located in Uttarakhand.",
+     "facts": [
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -3445,7 +4098,8 @@
       "F38",
       "F17",
       "F39",
-      "F40"
+      "F40",
+      "F12"
      ]
     },
     {
@@ -3503,10 +4157,269 @@
       "F20",
       "F21",
       "F22",
-      "F23"
+      "F23",
+      "F43",
+      "F45"
+     ]
+    },
+    {
+     "id": "indian-geography-13-6",
+     "format": "List-Matching",
+     "keyword": "Mountain Passes",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Karakoram Pass\n(b) Zoji La\n(c) Tanglang La\n(d) Aghil\n\nList-II\n(i) India–China region\n(ii) Srinagar–Leh route\n(iii) Ladakh\n(iv) Ladakh region",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Karakoram Pass is associated with the India–China region, while Zoji La is on the Srinagar–Leh route. Tanglang La is a major pass in Ladakh, and Aghil is in the Ladakh region.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-geography-13-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain Passes",
+     "question": "Consider the following statements:\n\nI. Banihal is a major pass in Jammu and Kashmir.\nII. Burzil is a major pass in Jammu and Kashmir.\nIII. Pir Panjal is a major pass in Jammu and Kashmir.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Banihal, Burzil and Pir Panjal are all listed as major passes in Jammu and Kashmir.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "indian-geography-13-8",
+     "format": "Count-Based",
+     "keyword": "Mountain Passes → State/UT",
+     "question": "How many of the following are major passes in Uttarakhand?\n\n1. Mana\n2. Kingri-Wingri\n3. Muling La",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "Mana, Kingri-Wingri and Muling La are all listed as major passes in Uttarakhand. Therefore, the number is three.",
+     "facts": [
+      "F13",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-geography-13-9",
+     "format": "Direct Recall",
+     "keyword": "Mountain Pass → Key association",
+     "question": "Rohtang Pass is associated with which of the following?",
+     "options": [
+      "Srinagar–Leh route",
+      "HP–Tibet route",
+      "Manali–Lahaul-Spiti",
+      "Manali–Leh route"
+     ],
+     "answer": 2,
+     "explanation": "Rohtang Pass is associated with Manali–Lahaul-Spiti.",
+     "facts": [
+      "F31"
+     ]
+    },
+    {
+     "id": "indian-geography-13-10",
+     "format": "Direct Recall",
+     "keyword": "Mountain Pass → Location",
+     "question": "Shipki La is located in which of the following places?",
+     "options": [
+      "West Kameng, Arunachal Pradesh",
+      "Tawang, Arunachal Pradesh",
+      "Kinnaur, Himachal Pradesh",
+      "Pithoragarh, Uttarakhand"
+     ],
+     "answer": 2,
+     "explanation": "Shipki La is located in Kinnaur, Himachal Pradesh.",
+     "facts": [
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-geography-13-11",
+     "format": "Direct Recall",
+     "keyword": "Mountain Pass → Key association",
+     "question": "Mana Pass is associated with which of the following regions?",
+     "options": [
+      "India–China",
+      "Eastern Sikkim–Lhasa",
+      "India–Myanmar",
+      "India–Tibet"
+     ],
+     "answer": 3,
+     "explanation": "Mana Pass is associated with India and Tibet.",
+     "facts": [
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-geography-13-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain Pass → Location and name",
+     "question": "Consider the following statements:\n\nStatement A: Bomdila is also written as Bomdi La.\nStatement B: Bomdila is associated with the Arunachal–Tibet route.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Bomdila is also written as Bomdi La, and it is associated with the Arunachal–Tibet route.",
+     "facts": [
+      "F42",
+      "F44"
+     ]
+    },
+    {
+     "id": "indian-geography-13-13",
+     "format": "Direct Recall",
+     "keyword": "Mountain Pass → Border",
+     "question": "Bum La is located on which border?",
+     "options": [
+      "Arunachal–Tibet route",
+      "India–Tibet border",
+      "India–China border",
+      "India–Myanmar border"
+     ],
+     "answer": 2,
+     "explanation": "Bum La is located on the India–China border.",
+     "facts": [
+      "F46"
+     ]
+    },
+    {
+     "id": "indian-geography-13-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain Pass → Border",
+     "question": "Consider the following statements:\n\nStatement A: Diphu La is on the India–Myanmar border.\nStatement B: Pangsau is on the India–Myanmar border.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both Diphu La and Pangsau are associated with the India–Myanmar border.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "indian-geography-13-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain Pass → Region and border",
+     "question": "Consider the following statements:\n\nStatement A: Mintaka is in the Karakoram region.\nStatement B: Mintaka is associated with the India–China region.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Mintaka is located in the Karakoram region and is associated with the India–China region.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "indian-geography-13-16",
+     "format": "Direct Recall",
+     "keyword": "Mountain Passes",
+     "question": "Tanglang La is also written as which of the following?",
+     "options": [
+      "Nathu La",
+      "Thalghat",
+      "Thang La",
+      "Jelep La"
+     ],
+     "answer": 2,
+     "explanation": "Tanglang La is also written as Thang La.",
+     "facts": [
+      "F53"
+     ]
+    },
+    {
+     "id": "indian-geography-13-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain Passes",
+     "question": "Consider the following statements:\nStatement A: Pir Panjal Pass is in the Pir Panjal Range.\nStatement B: Burzil Pass is on the Srinagar–Gilgit route.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Pir Panjal Pass is in the Pir Panjal Range, while Burzil Pass is associated with the Srinagar–Gilgit route.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "indian-geography-13-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain Passes",
+     "question": "Consider the following statements:\nI. Shipki La is a major pass in Himachal Pradesh.\nII. Rohtang is a major pass in Himachal Pradesh.\nIII. Baralacha La is a major pass in Himachal Pradesh.\nIV. Debsa is a major pass in Himachal Pradesh.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Shipki La, Rohtang, Baralacha La and Debsa are all listed as major passes of Himachal Pradesh.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-geography-13-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Rivers → Location",
+     "question": "Consider the following statements:\nStatement A: The Brahmaputra enters India near Yang Yap.\nStatement B: Yang Yap is in Arunachal Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Yang Yap is in Arunachal Pradesh, and the Brahmaputra enters India nearby.",
+     "facts": [
+      "F47"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 55,
+    "covered": 55,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -3897,7 +4810,10 @@
       "South-east India and Sri Lanka"
      ],
      "answer": 3,
-     "explanation": "The Gulf of Mannar lies between south-east India and Sri Lanka."
+     "explanation": "The Gulf of Mannar lies between south-east India and Sri Lanka.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-15-2",
@@ -3911,7 +4827,13 @@
       "The Aral Sea is associated with Kazakhstan and Uzbekistan."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the location of the Red Sea. According to the notes, the Red Sea is associated with Africa and Arabia."
+     "explanation": "The incorrect statement alters the location of the Red Sea. According to the notes, the Red Sea is associated with Africa and Arabia.",
+     "facts": [
+      "F25",
+      "F29",
+      "F24",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-15-3",
@@ -3925,7 +4847,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate Lakshadweep with the Arabian Sea and state that it lies close to Kerala’s Malabar Coast, explaining this association."
+     "explanation": "Both statements are true. The notes associate Lakshadweep with the Arabian Sea and state that it lies close to Kerala’s Malabar Coast, explaining this association.",
+     "facts": [
+      "F8",
+      "F10",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-15-4",
@@ -3939,7 +4866,14 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Sargasso Sea–North Atlantic, Bering Sea–North Pacific, Tyrrhenian Sea–Western Italy, and Sea of Azov–Ukraine–Russia–Crimea."
+     "explanation": "The correct pairs are: Sargasso Sea–North Atlantic, Bering Sea–North Pacific, Tyrrhenian Sea–Western Italy, and Sea of Azov–Ukraine–Russia–Crimea.",
+     "facts": [
+      "F16",
+      "F31",
+      "F32",
+      "F33",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-15-5",
@@ -3953,9 +4887,164 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct according to the notes: the Arabian Sea and Bay of Bengal are associated with the Indian Ocean, the South China Sea with the Pacific Ocean, and the Caspian Sea is inland."
+     "explanation": "All four statements are correct according to the notes: the Arabian Sea and Bay of Bengal are associated with the Indian Ocean, the South China Sea with the Pacific Ocean, and the Caspian Sea is inland.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-geography-15-6",
+     "format": "List-Matching",
+     "keyword": "Sea → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Arabian Sea\n(b) Bay of Bengal\n(c) Andaman Sea\n(d) Laccadive Sea\n\nList-II\ni. East of India\nii. South-west of India\niii. West of India\niv. East of the Andaman and Nicobar Islands",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The Arabian Sea is west of India, the Bay of Bengal is east of India, the Andaman Sea is east of the Andaman and Nicobar Islands, and the Laccadive Sea is south-west of India.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-geography-15-7",
+     "format": "Assertion-Reason",
+     "keyword": "Sea → Ocean/Region",
+     "question": "Assertion (A): The Andaman Sea is part of the Indian Ocean region.\nReason (R): The Red Sea is part of the Indian Ocean.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the Indian Ocean association of the Red Sea does not explain the Andaman Sea's association with the Indian Ocean region.",
+     "facts": [
+      "F5",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-geography-15-8",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Lakshadweep is described as which one of the following?",
+     "options": [
+      "A group of 26 coral islands",
+      "A group of 36 coral islands",
+      "A group of 36 volcanic islands",
+      "A group of 46 coral islands"
+     ],
+     "answer": 1,
+     "explanation": "Lakshadweep is a group of 36 coral islands.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-geography-15-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sea → Ocean/Region",
+     "question": "Consider the following statements:\nStatement A: The Mediterranean Sea is connected to the Atlantic Ocean.\nStatement B: The Black Sea is connected to the Atlantic Ocean.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both the Mediterranean Sea and the Black Sea are described as connected to the Atlantic Ocean.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-geography-15-10",
+     "format": "Count-Based",
+     "keyword": "Sea → Ocean/Region",
+     "question": "How many of the following associations are correct?\n\n1. Aral Sea — Central Asia\n2. Baltic Sea — Atlantic basin\n3. Tyrrhenian Sea — Mediterranean Sea\n4. Sea of Azov — Black Sea system",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four associations are correct: the Aral Sea is in Central Asia, the Baltic Sea is part of the Atlantic basin, the Tyrrhenian Sea is part of the Mediterranean Sea, and the Sea of Azov is part of the Black Sea system.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-geography-15-11",
+     "format": "Direct Recall",
+     "keyword": "Sea → Location",
+     "question": "The Black Sea lies between which of the following regions?",
+     "options": [
+      "Ukraine, Russia, and Crimea",
+      "Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan",
+      "South-eastern Europe, the Caucasus, and Anatolia",
+      "Europe, Africa, and West Asia"
+     ],
+     "answer": 2,
+     "explanation": "The Black Sea lies between south-eastern Europe, the Caucasus, and Anatolia.",
+     "facts": [
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-geography-15-12",
+     "format": "Direct Recall",
+     "keyword": "Sea → Location",
+     "question": "Which of the following correctly lists the countries bordering the Caspian Sea?",
+     "options": [
+      "Russia, Turkmenistan, Iran, Iraq, and Azerbaijan",
+      "Russia, Kazakhstan, Ukraine, Iran, and Azerbaijan",
+      "Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan",
+      "Kazakhstan, Uzbekistan, Turkmenistan, Iran, and Azerbaijan"
+     ],
+     "answer": 2,
+     "explanation": "The Caspian Sea borders Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-geography-15-13",
+     "format": "Direct Recall",
+     "keyword": "Sea → Location",
+     "question": "The South China Sea is located in which region?",
+     "options": [
+      "Northern Europe",
+      "Central Asia",
+      "Southeast Asia",
+      "North Atlantic"
+     ],
+     "answer": 2,
+     "explanation": "The South China Sea is located in Southeast Asia.",
+     "facts": [
+      "F30"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 33,
+    "covered": 33,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,

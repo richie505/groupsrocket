@@ -6604,7 +6604,8 @@
       "F1",
       "F4",
       "F8",
-      "F10"
+      "F10",
+      "F9"
      ]
     },
     {
@@ -6755,7 +6756,8 @@
       "F36",
       "F31",
       "F32",
-      "F33"
+      "F33",
+      "F34"
      ]
     },
     {
@@ -6987,8 +6989,108 @@
      "facts": [
       "F6"
      ]
+    },
+    {
+     "id": "indian-history-8-21",
+     "format": "List-Matching",
+     "keyword": "Newspaper",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) The Leader\n(b) Madan Mohan Malviya\n(c) Bombay Chronicle\n(d) The Independent\n\nList-II\n(i) Published in Bombay\n(ii) Liberal association\n(iii) Published in Allahabad\n(iv) Published in Allahabad",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Leader and The Independent were published in Allahabad, Madan Mohan Malviya had a liberal association, and Bombay Chronicle was published in Bombay.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F7"
+     ]
+    },
+    {
+     "id": "indian-history-8-22",
+     "format": "Assertion-Reason",
+     "keyword": "Place – Associated with",
+     "question": "Assertion (A): Annie Besant was associated with New India.\nReason (R): New India was associated with the Home Rule movement.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Annie Besant was associated with New India, and New India was associated with the Home Rule movement. The association of New India with Home Rule does not explain Annie Besant’s association with the paper.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-history-8-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Newspaper",
+     "question": "Consider the following statements:\n\nI. Indian Nation was published in Patna.\nII. Indian Nation was established in 1931.\nIII. The Pioneer was published in Allahabad.\nIV. The Pioneer was established in 1865.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Indian Nation was published in Patna and established in 1931, while The Pioneer was published in Allahabad and established in 1865.",
+     "facts": [
+      "F43",
+      "F44",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "indian-history-8-24",
+     "format": "List-Matching",
+     "keyword": "Newspaper",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dainik Aaj\n(b) Pratap\n(c) Indian Mirror — place of publication\n(d) Indian Mirror — year of establishment\n\nList-II\n(i) Calcutta\n(ii) Banaras\n(iii) Bijoliya Movement\n(iv) 1861",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Dainik Aaj was published in Banaras, Pratap publicised the Bijoliya Movement, and Indian Mirror was published in Calcutta and established in 1861.",
+     "facts": [
+      "F49",
+      "F51",
+      "F65",
+      "F66"
+     ]
+    },
+    {
+     "id": "indian-history-8-25",
+     "format": "Direct Recall",
+     "keyword": "Newspaper – Place of publication",
+     "question": "Searchlight was associated with which place?",
+     "options": [
+      "Bombay",
+      "Banaras",
+      "Bihar",
+      "Allahabad"
+     ],
+     "answer": 2,
+     "explanation": "Searchlight was associated with Bihar.",
+     "facts": [
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 73,
+    "covered": 73,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -13817,7 +13919,9 @@
       "F27",
       "F30",
       "F35",
-      "F38"
+      "F38",
+      "F25",
+      "F37"
      ]
     },
     {
@@ -13858,7 +13962,8 @@
       "F15",
       "F16",
       "F23",
-      "F24"
+      "F24",
+      "F12"
      ]
     },
     {
@@ -13880,8 +13985,127 @@
       "F29",
       "F35"
      ]
+    },
+    {
+     "id": "indian-history-22-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Caste",
+     "question": "Consider the following statements:\nI. Varna was a four-fold social classification.\nII. The four Varnas were Brahmana, Kshatriya, Vaishya and Shudra.\nIII. Brahmanas performed priestly and religious functions.\nIV. Kshatriyas performed warrior and ruling functions.\nV. Shudras performed servile and manual occupations.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "II, III, IV and V only"
+     ],
+     "answer": 1,
+     "explanation": "All five statements are correct. Varna was a four-fold classification comprising Brahmana, Kshatriya, Vaishya and Shudra; their functions included priestly, warrior/ruling, and servile/manual occupations respectively.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-history-22-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Caste",
+     "question": "Consider the following statements:\nStatement A: Jati consisted of numerous birth-based social groups and was distinct from Varna.\nStatement B: Buddha challenged caste distinctions and ritualism and rejected the idea that birth determined spiritual worth.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Jati referred to numerous birth-based social groups and was distinct from Varna, while Buddha challenged caste distinctions and ritualism and denied that birth determined spiritual worth.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-history-22-8",
+     "format": "Assertion-Reason",
+     "keyword": "Guru Ka Langar",
+     "question": "Assertion (A): Guru Ka Langar promoted social equality.\nReason (R): It involved common dining without caste discrimination.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both A and R are true, and the reason explains the assertion. Common dining without caste discrimination made Guru Ka Langar an instrument of social equality.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-history-22-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Bhakti Movement – Imp Personalities",
+     "question": "Consider the following statements:\nStatement A: Namdev was associated with Maharashtra.\nStatement B: Namdev's Bhakti movement had Islamic influence.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Namdev was associated with Maharashtra, and his Bhakti movement had Islamic influence.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-history-22-10",
+     "format": "List-Matching",
+     "keyword": "Book",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gulamgiri\n(b) Sarvjanik Pustak Satyadharm\n\nList-II\ni. Criticism of Brahmanical domination\nii. Anti-caste thought\n\na. a-i, b-ii\nb. a-ii, b-i\nc. a-i, b-i\nd. a-ii, b-ii",
+     "options": [
+      "a-ii, b-i",
+      "a-ii, b-ii",
+      "a-i, b-i",
+      "a-i, b-ii"
+     ],
+     "answer": 3,
+     "explanation": "Gulamgiri was Jyotiba Phule's work criticising Brahmanical domination, while Sarvjanik Pustak Satyadharm was his work expressing anti-caste thought.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-history-22-11",
+     "format": "Direct Recall",
+     "keyword": "PERSON – Associated with",
+     "question": "Who worked for lower-caste girls?",
+     "options": [
+      "Namdev",
+      "Savitribai Phule",
+      "Deenbandhu",
+      "Guru Nanak"
+     ],
+     "answer": 1,
+     "explanation": "Savitribai Phule worked for lower-caste girls. She was also the head of the women's section of the Satyashodhak Samaj.",
+     "facts": [
+      "F36"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 38,
+    "covered": 38,
+    "audited": true
+   }
   }
  }
 }

@@ -2686,7 +2686,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The caste system is birth-based, the class system is associated with achieved status, the estate system was found in medieval Europe, and slavery treated a person as property."
+     "explanation": "The caste system is birth-based, the class system is associated with achieved status, the estate system was found in medieval Europe, and slavery treated a person as property.",
+     "facts": [
+      "F1",
+      "F14",
+      "F21",
+      "F26"
+     ]
     },
     {
      "id": "indian-society-5-2",
@@ -2700,7 +2706,12 @@
       "It is birth-based."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the feature of occupation. According to the notes, occupation in the caste system is hereditary, not based on freely chosen occupation."
+     "explanation": "The incorrect statement alters the feature of occupation. According to the notes, occupation in the caste system is hereditary, not based on freely chosen occupation.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-society-5-3",
@@ -2714,7 +2725,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The class system is an open system, and therefore social mobility is possible."
+     "explanation": "Both statements are true. The class system is an open system, and therefore social mobility is possible.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-society-5-4",
@@ -2728,7 +2743,13 @@
       "I, III and IV only"
      ],
      "answer": 3,
-     "explanation": "Caste and Varna are listed as traditional bases, while political power is a modern basis. Urbanization is a modern, not traditional, basis."
+     "explanation": "Caste and Varna are listed as traditional bases, while political power is a modern basis. Urbanization is a modern, not traditional, basis.",
+     "facts": [
+      "F31",
+      "F32",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "indian-society-5-5",
@@ -2742,9 +2763,242 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "Vertical mobility involves upward or downward movement; horizontal mobility involves the same status change; intergenerational mobility occurs between generations; and intragenerational mobility occurs within a lifetime."
+     "explanation": "Vertical mobility involves upward or downward movement; horizontal mobility involves the same status change; intergenerational mobility occurs between generations; and intragenerational mobility occurs within a lifetime.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "indian-society-5-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Caste status",
+     "question": "Consider the following statements:\nStatement A: The caste system has restricted mobility.\nStatement B: The caste system is based on the concept of purity and pollution.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Restricted mobility and the purity-and-pollution concept are both features of the caste system.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-society-5-7",
+     "format": "List-Matching",
+     "keyword": "Caste status",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Brahmin\n(b) Kshatriya\n(c) Vaishya\n(d) Shudra\n\nList-II\n(i) Example of a caste\n(ii) Example of a social class\n(iii) Estate in medieval Europe\n(iv) Feature of slavery",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-i, c-i, d-i",
+      "a-ii, b-ii, c-ii, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Brahmin, Kshatriya, Vaishya and Shudra are each given as examples of a caste.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-society-5-8",
+     "format": "List-Matching",
+     "keyword": "G. S. Ghurye",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Hierarchy\n(b) Endogamy\n(c) Social restrictions\n(d) Wealth and occupation\n\nList-II\n(i) Characteristic of caste according to G. S. Ghurye\n(ii) Basis of the class system\n(iii) Example of a social class\n(iv) Estate in medieval Europe",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-i, c-i, d-ii",
+      "a-i, b-ii, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "G. S. Ghurye associated caste with hierarchy, endogamy and social restrictions. Wealth and occupation are the basis of the class system.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-society-5-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Social class",
+     "question": "Consider the following statements:\nI. Upper class is an example of a social class.\nII. Middle class is an example of a social class.\nIII. Lower class is an example of a social class.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Upper class, middle class and lower class are all listed as examples of a social class.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-society-5-10",
+     "format": "Direct Recall",
+     "keyword": "Karl Marx",
+     "question": "Which statement was made by Karl Marx regarding the history of societies?",
+     "options": [
+      "The class system is based on wealth and occupation.",
+      "Caste is characterized by hierarchy, endogamy and social restrictions.",
+      "The caste system is based on purity and pollution.",
+      "The history of all societies is the history of class struggle."
+     ],
+     "answer": 3,
+     "explanation": "Karl Marx stated that the history of all societies is the history of class struggle.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-society-5-11",
+     "format": "List-Matching",
+     "keyword": "Estate System",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Clergy\n(b) Nobility\n(c) Commoners\n(d) Medieval Europe\n\nList-II\n(i) An estate\n(ii) An estate\n(iii) An estate\n(iv) Region where the estate system was found",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Clergy, nobility and commoners were estates, and the estate system was found in medieval Europe.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-society-5-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Slavery",
+     "question": "Consider the following statements:\nStatement A: Slavery involves extreme inequality.\nStatement B: Slavery provides no freedom.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Extreme inequality and absence of freedom are both listed features of slavery.",
+     "facts": [
+      "F25",
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-society-5-13",
+     "format": "List-Matching",
+     "keyword": "Slavery",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ancient Greece\n(b) Rome\n(c) America\n(d) Medieval Europe\n\nList-II\n(i) Example associated with slavery\n(ii) Example associated with slavery\n(iii) Example associated with slavery\n(iv) Found location of the estate system",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Ancient Greece, Rome and America are given as examples of slavery, while medieval Europe is associated with the estate system.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-society-5-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Social stratification",
+     "question": "Consider the following statements:\nI. Tribe is a traditional basis of social stratification in India.\nII. Religion is a traditional basis of social stratification in India.\nIII. Education is a modern basis of social stratification in India.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Tribe and religion are listed among the traditional bases, while education is listed among the modern bases of social stratification in India.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-society-5-15",
+     "format": "Assertion-Reason",
+     "keyword": "Social stratification – Modern bases",
+     "question": "Assertion (A): Occupation is a modern basis of social stratification in India.\nReason (R): Income is a modern basis of social stratification in India.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both occupation and income are listed as modern bases of social stratification in India. Income does not explain why occupation is a modern basis; the two are independent modern bases.",
+     "facts": [
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-society-5-16",
+     "format": "Direct Recall",
+     "keyword": "Social mobility",
+     "question": "What is meant by social mobility?",
+     "options": [
+      "Movement of individuals from one social position to another",
+      "Movement between generations only",
+      "Movement within an individual's lifetime only",
+      "Change within the same social status only"
+     ],
+     "answer": 0,
+     "explanation": "Social mobility is defined as the movement of individuals from one social position to another.",
+     "facts": [
+      "F40"
+     ]
+    },
+    {
+     "id": "indian-society-5-17",
+     "format": "Direct Recall",
+     "keyword": "Social mobility – Example",
+     "question": "A farmer's son becoming an IAS officer is an example of which type of mobility?",
+     "options": [
+      "Downward mobility",
+      "Horizontal mobility",
+      "Intergenerational mobility",
+      "Upward mobility"
+     ],
+     "answer": 3,
+     "explanation": "The example of a farmer's son becoming an IAS officer represents upward mobility.",
+     "facts": [
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 46,
+    "covered": 46,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -7223,7 +7477,10 @@
       "John Rawls"
      ],
      "answer": 0,
-     "explanation": "The notes identify Mary Richmond as the person who introduced Social Diagnosis."
+     "explanation": "The notes identify Mary Richmond as the person who introduced Social Diagnosis.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-society-33-2",
@@ -7237,7 +7494,20 @@
       "It helps identify social problems and assess needs."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement is that Social Diagnosis focuses only on psychological issues. The notes state that it identifies social, economic, and psychological issues."
+     "explanation": "The incorrect statement is that Social Diagnosis focuses only on psychological issues. The notes state that it identifies social, economic, and psychological issues.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F9",
+      "F11",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-society-33-3",
@@ -7251,7 +7521,16 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The assessment of conditions, problems, and needs provides the basis for planning suitable interventions."
+     "explanation": "Both statements are true. The assessment of conditions, problems, and needs provides the basis for planning suitable interventions.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-33-4",
@@ -7265,7 +7544,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly stated in the steps of Social Diagnosis: Analysis determines causes and consequences, while Follow-Up monitors outcomes."
+     "explanation": "Both statements are directly stated in the steps of Social Diagnosis: Analysis determines causes and consequences, while Follow-Up monitors outcomes.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-society-33-5",
@@ -7279,9 +7565,149 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four are listed in the notes as areas where Social Diagnosis is applied: child welfare, family counselling, community development, and rehabilitation services."
+     "explanation": "All four are listed in the notes as areas where Social Diagnosis is applied: child welfare, family counselling, community development, and rehabilitation services.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-society-33-6",
+     "format": "Assertion-Reason",
+     "keyword": "Social Diagnosis",
+     "question": "Assertion (A): Social workers diagnose social problems in the same way that doctors diagnose diseases.\nReason (R): Social Diagnosis is the systematic assessment of an individual's or group's social conditions, problems, and needs before planning interventions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Reason defines Social Diagnosis, but it does not specifically explain the comparison between social workers and doctors.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-society-33-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Social Diagnosis – Objectives and Steps",
+     "question": "Consider the following statements:\nI. Understanding root causes is an objective of Social Diagnosis.\nII. Information collection is the first step in Social Diagnosis.\nIII. Information collection involves gathering facts about the individual or family.\nIV. Problem identification is the second step in Social Diagnosis.",
+     "options": [
+      "II and III only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Understanding root causes is an objective; information collection is the first step and gathers facts about the individual or family; problem identification is the second step.",
+     "facts": [
+      "F10",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-society-33-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Social Diagnosis – Planning",
+     "question": "Consider the following statements:\nStatement A: Planning is the fourth step in Social Diagnosis.\nStatement B: Planning involves developing intervention strategies.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Planning is the fourth step and consists of developing intervention strategies.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-society-33-9",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Social Diagnosis – Areas of Application",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Poverty alleviation programmes are an area of application of Social Diagnosis.",
+      "Rehabilitation services are an area of application of Social Diagnosis.",
+      "Information collection is an area of application of Social Diagnosis.",
+      "Child welfare is an area of application of Social Diagnosis."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is the fourth one. Information collection is the first step in Social Diagnosis, whereas poverty alleviation programmes, child welfare and rehabilitation services are areas of application.",
+     "facts": [
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-society-33-10",
+     "format": "Count-Based",
+     "keyword": "Social Diagnosis – Importance",
+     "question": "How many of the following are stated as importance of Social Diagnosis?\nI. Scientific problem-solving\nII. Effective social work\nIII. Better policy implementation\nIV. Targeted interventions",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four are listed as importance of Social Diagnosis: scientific problem-solving, effective social work, better policy implementation and targeted interventions.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-society-33-11",
+     "format": "Count-Based",
+     "keyword": "Social Diagnosis – Case Example",
+     "question": "How many of the following may be faced by a school dropout diagnosed through Social Diagnosis?\nI. Poverty\nII. Family conflict\nIII. Child labour\nIV. Lack of educational support",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four conditions are identified as possible problems faced by a school dropout: poverty, family conflict, child labour and lack of educational support.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-society-33-12",
+     "format": "Direct Recall",
+     "keyword": "Social Diagnosis – Targeted Intervention",
+     "question": "On what basis are interventions for a diagnosed school dropout designed?",
+     "options": [
+      "According to the information collection stage alone",
+      "According to the fourth step alone",
+      "According to the area of application alone",
+      "According to the identified problems"
+     ],
+     "answer": 3,
+     "explanation": "The intervention for a diagnosed school dropout is designed according to the identified problems.",
+     "facts": [
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,
@@ -8224,8 +8650,142 @@
       "F39",
       "F40"
      ]
+    },
+    {
+     "id": "indian-society-36-6",
+     "format": "Direct Recall",
+     "keyword": "Acts",
+     "question": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Amendment Act was enacted in which year?",
+     "options": [
+      "1955",
+      "2020",
+      "2018",
+      "2021"
+     ],
+     "answer": 2,
+     "explanation": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Amendment Act was enacted in 2018.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-society-36-7",
+     "format": "Assertion-Reason",
+     "keyword": "Women",
+     "question": "Assertion (A): Nirbhaya Fund projects include Fast Track Special Courts and Cyber Forensic Labs.\nReason (R): Nirbhaya Fund projects address crimes against women.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Fast Track Special Courts and Cyber Forensic Labs are identified as Nirbhaya Fund projects, which address crimes against women.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-society-36-8",
+     "format": "Assertion-Reason",
+     "keyword": "Women",
+     "question": "Assertion (A): The mechanism for crimes against women includes speedy trials.\nReason (R): The mechanism for crimes against women includes an investigation tracking system for sexual offences.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the investigation tracking system is an additional mechanism and does not explain why speedy trials are included. The mechanism includes both speedy trials and investigation tracking for sexual offences.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-society-36-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Child Labour and Abuse",
+     "question": "Consider the following statements:\nStatement A: The POCSO Amendment Act addresses child labour and abuse.\nStatement B: The Juvenile Justice (Care and Protection of Children) Amendment Act addresses child labour and abuse.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The POCSO Amendment Act and the Juvenile Justice (Care and Protection of Children) Amendment Act are listed under child labour and abuse.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-society-36-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Youth Unrest and Agitation",
+     "question": "Consider the following statements:\nI. The PM-Vidyalaxmi Scheme addresses youth unrest and agitation.\nII. The Kaushal Vikas Yojana addresses youth unrest and agitation.\nIII. The mechanism for youth unrest and agitation includes future-ready skilling.\nIV. PMKVY 4.0 is associated with the Kaushal Vikas Yojana.",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. PM-Vidyalaxmi and Kaushal Vikas Yojana are listed under youth unrest and agitation; the mechanism includes future-ready skilling, and PMKVY 4.0 is associated with Kaushal Vikas Yojana.",
+     "facts": [
+      "F27",
+      "F28",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-society-36-11",
+     "format": "List-Matching",
+     "keyword": "Regional Disparities",
+     "question": "Match List-I with List-II:\n\nList-I\n a. PM-DevINE\n b. Vibrant Villages Programme\n c. Kaushal Vikas Yojana\n d. Nirbhaya Fund projects\n\nList-II\n i. Prime Minister’s Development Initiative for North East Region\n ii. Addresses regionalisation and insurgency\n iii. Addresses youth unrest and agitation\n iv. Addresses crimes against women",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. PM-DevINE means Prime Minister’s Development Initiative for North East Region; both PM-DevINE and the Vibrant Villages Programme address regionalisation and insurgency, while Kaushal Vikas Yojana and Nirbhaya Fund projects address youth unrest and crimes against women respectively.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-society-36-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Social Justice",
+     "question": "Consider the following statements regarding the mechanism for casteism and atrocities:\n\nI. It includes central assistance for atrocity victim relief.\nII. It includes incentives for inter-caste marriage.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "Neither I nor II",
+      "I only",
+      "Both I and II",
+      "II only"
+     ],
+     "answer": 2,
+     "explanation": "The mechanism for casteism and atrocities includes both central assistance for atrocity victim relief and incentives for inter-caste marriage.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   }
  }
 }

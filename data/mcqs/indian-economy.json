@@ -290,7 +290,11 @@
       "1989"
      ],
      "answer": 2,
-     "explanation": "The notes state that the First Human Development Report was published in 1990 by the UNDP."
+     "explanation": "The notes state that the First Human Development Report was published in 1990 by the UNDP.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-4-2",
@@ -304,7 +308,12 @@
       "The Indian Union Budget was advanced to 1 February."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year of merger. The notes state that the Railway Budget was merged with the General Budget in 2017–18."
+     "explanation": "The incorrect detail is the year of merger. The notes state that the Railway Budget was merged with the General Budget in 2017–18.",
+     "facts": [
+      "F5",
+      "F7",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-4-3",
@@ -318,7 +327,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the timeline: 1951 marked the First Five Year Plan and the First Finance Commission. However, the Finance Commission did not explain the commencement of the First Five Year Plan."
+     "explanation": "Both statements are true according to the timeline: 1951 marked the First Five Year Plan and the First Finance Commission. However, the Finance Commission did not explain the commencement of the First Five Year Plan.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-4-4",
@@ -332,7 +345,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: First RRB–1975, NABARD–1982, First KVK–1974, and First private-sector mutual fund–1993."
+     "explanation": "The correct pairs are: First RRB–1975, NABARD–1982, First KVK–1974, and First private-sector mutual fund–1993.",
+     "facts": [
+      "F27",
+      "F33",
+      "F26",
+      "F38"
+     ]
     },
     {
      "id": "indian-economy-4-5",
@@ -346,9 +365,225 @@
       "C, A, B, D"
      ],
      "answer": 1,
-     "explanation": "The correct sequence is 1960 (First Agricultural University, Pantnagar), 1974 (First KVK, Puducherry), 1966–67 (First Green Revolution phase), and 1969 (First bank nationalisation)."
+     "explanation": "The correct sequence is 1960 (First Agricultural University, Pantnagar), 1974 (First KVK, Puducherry), 1966–67 (First Green Revolution phase), and 1969 (First bank nationalisation).",
+     "facts": [
+      "F20",
+      "F24",
+      "F23",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-economy-4-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Human development",
+     "question": "Consider the following statements:\nStatement A: The Human Development Index is associated with Mahbub-ul-Haq.\nStatement B: Amartya Sen is among the scholars associated with the Human Development Index.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Human Development Index is associated with Mahbub-ul-Haq and with scholars including Amartya Sen.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-economy-4-7",
+     "format": "List-Matching",
+     "keyword": "First",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First National Planning Commission\n(b) First Industrial Policy\n(c) IFCI\n(d) RBI nationalisation\n\nList-II\n(i) 1938\n(ii) 1948\n(iii) 1949\n(iv) 1951",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The First National Planning Commission dates to 1938. The First Industrial Policy and IFCI are associated with 1948, while RBI nationalisation occurred in 1949.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-4-8",
+     "format": "Direct Recall",
+     "keyword": "Finance Commission",
+     "question": "The preparation era of the First Finance Commission was in:",
+     "options": [
+      "1949",
+      "1952",
+      "1948",
+      "1951"
+     ],
+     "answer": 0,
+     "explanation": "The preparation era of the First Finance Commission was in 1949.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-economy-4-9",
+     "format": "List-Matching",
+     "keyword": "First",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Community Development Programme\n(b) SBI\n(c) ICICI\n(d) Second Industrial Policy\n\nList-II\n(i) 1952\n(ii) 1955\n(iii) 1956\n(iv) 1964",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-ii, c-ii, d-iii",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The Community Development Programme was introduced in 1952. SBI and ICICI were established in 1955, and the Second Industrial Policy was introduced in 1956.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-economy-4-10",
+     "format": "Direct Recall",
+     "keyword": "Five Year Plans",
+     "question": "The Second Five Year Plan was introduced in:",
+     "options": [
+      "1964",
+      "1951",
+      "1956",
+      "1955"
+     ],
+     "answer": 2,
+     "explanation": "The Second Five Year Plan was introduced in 1956.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-economy-4-11",
+     "format": "List-Matching",
+     "keyword": "First",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) IDBI\n(b) UTI\n(c) Dandekar–Rath poverty-line study\n(d) First Food-for-Work programme\n\nList-II\n(i) 1964\n(ii) 1971\n(iii) 1977–78\n(iv) 1980",
+     "options": [
+      "a-i, b-ii, c-ii, d-iii",
+      "a-i, b-i, c-ii, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iv, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "IDBI and UTI were established in 1964. The Dandekar–Rath poverty-line study was conducted in 1971, and the first Food-for-Work programme was introduced in 1977–78.",
+     "facts": [
+      "F21",
+      "F22",
+      "F25",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-4-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Poverty",
+     "question": "Consider the following statements:\nI. Antyodaya was first introduced in Rajasthan in 1977–78.\nII. The IRDP was experimentally launched in 1978–79.\nIII. The IRDP was implemented nationwide in 1980.\nIV. The second bank nationalisation occurred in 1980.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Antyodaya began in Rajasthan in 1977–78; IRDP was experimentally launched in 1978–79 and implemented nationwide in 1980; and the second bank nationalisation occurred in 1980.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-economy-4-13",
+     "format": "List-Matching",
+     "keyword": "Economic reforms",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) DWCRA\n(b) JRY\n(c) SIDBI\n(d) New Economic Policy\n\nList-II\n(i) 1982\n(ii) 1989\n(iii) 1990\n(iv) 1991",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "DWCRA was introduced in 1982, JRY in 1989, SIDBI was established in 1990, and the New Economic Policy was introduced in 1991.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-economy-4-14",
+     "format": "List-Matching",
+     "keyword": "First",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First Green Bond\n(b) First BRICS Summit\n\nList-II\n(i) 2007\n(ii) 2009\n(iii) 2013\n(iv) 2015",
+     "options": [
+      "a-iv, b-iii",
+      "a-iii, b-iv",
+      "a-ii, b-i",
+      "a-i, b-ii"
+     ],
+     "answer": 3,
+     "explanation": "The first Green Bond was issued in 2007, while the first BRICS Summit was held in 2009.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "indian-economy-4-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "First",
+     "question": "Consider the following statements:\nStatement A: The NSE established its first dedicated debt platform in 2013.\nStatement B: K. V. Kamath was the first NDB President in 2015.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the NSE established its first dedicated debt platform in 2013, and K. V. Kamath became the first NDB President in 2015.",
+     "facts": [
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "indian-economy-4-16",
+     "format": "Direct Recall",
+     "keyword": "New terms",
+     "question": "The term BRIC was coined in which year?",
+     "options": [
+      "2007",
+      "2013",
+      "2001",
+      "2009"
+     ],
+     "answer": 2,
+     "explanation": "The term BRIC was coined in 2001. The other years correspond to the first Green Bond, the first BRICS Summit and the NSE’s first dedicated debt platform, respectively.",
+     "facts": [
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 43,
+    "covered": 43,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -634,7 +869,12 @@
       "1 April 1935"
      ],
      "answer": 3,
-     "explanation": "The RBI was established on 1 April 1935. The RBI Act was enacted in 1934, while nationalisation took place in 1949."
+     "explanation": "The RBI was established on 1 April 1935. The RBI Act was enacted in 1934, while nationalisation took place in 1949.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-8-2",
@@ -648,7 +888,14 @@
       "It was originally headquartered in Kolkata."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the year of nationalisation. The RBI was nationalised in 1949, not 1937."
+     "explanation": "The incorrect detail is the year of nationalisation. The RBI was nationalised in 1949, not 1937.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F9",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-8-3",
@@ -662,7 +909,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Providing emergency liquidity to banks is the basis of the RBI’s role as Lender of Last Resort."
+     "explanation": "Both statements are true. Providing emergency liquidity to banks is the basis of the RBI’s role as Lender of Last Resort.",
+     "facts": [
+      "F16",
+      "F17",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-8-4",
@@ -676,7 +928,17 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. These correspond respectively to government banking and debt management, credit control, foreign exchange reserve management, and payment-system oversight."
+     "explanation": "The correct pairs are a-iv, b-iii, c-i and d-ii. These correspond respectively to government banking and debt management, credit control, foreign exchange reserve management, and payment-system oversight.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F24",
+      "F26",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-8-5",
@@ -690,9 +952,109 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true: the ₹1 note is issued by the Government of India through the Ministry of Finance. Statement B is false because coins are issued by the Government of India, not the RBI."
+     "explanation": "Statement A is true: the ₹1 note is issued by the Government of India through the Ministry of Finance. Statement B is false because coins are issued by the Government of India, not the RBI.",
+     "facts": [
+      "F29",
+      "F31",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-8-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "RBI",
+     "question": "Consider the following statements:\nStatement A: RBI stands for Reserve Bank of India.\nStatement B: The Reserve Bank of India is the central bank of India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "RBI is the abbreviation for Reserve Bank of India, and the Reserve Bank of India is the central bank of India.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "indian-economy-8-7",
+     "format": "Direct Recall",
+     "keyword": "RBI",
+     "question": "The Reserve Bank of India is classified as which of the following?",
+     "options": [
+      "A commercial bank",
+      "A statutory body",
+      "A public debt management agency",
+      "A currency-issuing ministry"
+     ],
+     "answer": 1,
+     "explanation": "The Reserve Bank of India is a statutory body.",
+     "facts": [
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-economy-8-8",
+     "format": "Assertion-Reason",
+     "keyword": "Banker’s Bank",
+     "question": "Assertion (A): The Reserve Bank of India acts as the banker to banks.\nReason (R): Commercial banks keep deposits and reserves with the Reserve Bank of India.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The RBI is the banker to banks because commercial banks keep their deposits and reserves with it.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-economy-8-9",
+     "format": "List-Matching",
+     "keyword": "Banking regulation",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Advising banks on monetary matters\n(b) Regulating and supervising the banking system\n(c) Supporting financial development\n(d) Supporting economic development\n\nList-II\n(i) Economic development support\n(ii) Banking regulation and supervision\n(iii) Monetary advice to banks\n(iv) Financial development support",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: (a)-iii, (b)-ii, (c)-iv and (d)-i.",
+     "facts": [
+      "F15",
+      "F25",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-8-10",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Currency issued by",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Reserve Bank of India issues other currency notes.",
+      "The Government of India issues coins.",
+      "The ₹1 note is issued by the Government of India through the Ministry of Finance.",
+      "The Reserve Bank of India issues the ₹1 note."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect statement is that the RBI issues the ₹1 note. The RBI issues other currency notes, while the ₹1 note is issued by the Government of India through the Ministry of Finance.",
+     "facts": [
+      "F30"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -1508,7 +1870,10 @@
       "National Bank for Agriculture and Rural Development"
      ],
      "answer": 3,
-     "explanation": "NABARD stands for National Bank for Agriculture and Rural Development."
+     "explanation": "NABARD stands for National Bank for Agriculture and Rural Development.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-16-2",
@@ -1522,7 +1887,13 @@
       "NABARD has its headquarters in Mumbai."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the establishment year. NABARD was established in 1982, whereas 1975 is the year in which Regional Rural Banks were established."
+     "explanation": "The incorrect detail is the establishment year. NABARD was established in 1982, whereas 1975 is the year in which Regional Rural Banks were established.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-16-3",
@@ -1536,7 +1907,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the role of Regional Rural Banks does not explain NABARD's separate role of mainly refinancing institutions."
+     "explanation": "Both statements are true according to the notes. However, the role of Regional Rural Banks does not explain NABARD's separate role of mainly refinancing institutions.",
+     "facts": [
+      "F15",
+      "F16",
+      "F26",
+      "F30"
+     ]
     },
     {
      "id": "indian-economy-16-4",
@@ -1550,7 +1927,16 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are NABARD—mainly refinances institutions; Regional Rural Banks—direct rural banking and credit; State Land Development Banks—long-term rural/agricultural loans; and NABARD in RIDF—nodal agency."
+     "explanation": "The correct pairs are NABARD—mainly refinances institutions; Regional Rural Banks—direct rural banking and credit; State Land Development Banks—long-term rural/agricultural loans; and NABARD in RIDF—nodal agency.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F21",
+      "F20",
+      "F26",
+      "F30"
+     ]
     },
     {
      "id": "indian-economy-16-5",
@@ -1564,9 +1950,132 @@
       "C, B, D, A"
      ],
      "answer": 2,
-     "explanation": "The correct sequence is Regional Rural Banks established in 1975, NABARD established in 1982, SHG–Bank Linkage Programme in 1992–93, and Kisan Credit Card Plan in 1998."
+     "explanation": "The correct sequence is Regional Rural Banks established in 1975, NABARD established in 1982, SHG–Bank Linkage Programme in 1992–93, and Kisan Credit Card Plan in 1998.",
+     "facts": [
+      "F2",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-economy-16-6",
+     "format": "Assertion-Reason",
+     "keyword": "NABARD",
+     "question": "Assertion (A): NABARD was established during the Sixth Five Year Plan.\nReason (R): NABARD is an apex institution or bank for agricultural refinance.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. NABARD was established during the Sixth Five Year Plan and is an apex institution or bank for agricultural refinance, but its refinance role does not explain the timing of its establishment.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "indian-economy-16-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Agriculture and Rural Development",
+     "question": "Consider the following statements:\nI. NABARD is associated with financing agriculture.\nII. NABARD is associated with financing rural development.\nIII. NABARD is associated with financing agriculture alone.\nIV. NABARD is associated with both agriculture and rural development.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and IV are correct. NABARD is associated with both agriculture and rural development and not with agriculture alone; therefore, Statement III is incorrect.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-16-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Refinance",
+     "question": "Which of the following institutions receive refinance from NABARD?\nI. Scheduled Commercial Banks\nII. Regional Rural Banks\nIII. State Land Development Banks\nIV. State Cooperative Banks",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "NABARD provides refinance to Scheduled Commercial Banks, Regional Rural Banks, State Land Development Banks and State Cooperative Banks.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-economy-16-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "RIDF",
+     "question": "Consider the following statements:\nStatement A: RIDF stands for Rural Infrastructure Development Fund.\nStatement B: The Rural Infrastructure Development Fund was created in 1995–96.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. RIDF is the abbreviation for Rural Infrastructure Development Fund, which was created in 1995–96.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-economy-16-10",
+     "format": "Direct Recall",
+     "keyword": "RIDF",
+     "question": "What is the purpose of the Rural Infrastructure Development Fund?",
+     "options": [
+      "Long-term rural and agricultural loans",
+      "Direct rural credit to rural borrowers",
+      "Rural infrastructure development",
+      "Rural and semi-urban banking"
+     ],
+     "answer": 2,
+     "explanation": "The purpose of the Rural Infrastructure Development Fund is rural infrastructure development.",
+     "facts": [
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-economy-16-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Rural Banking",
+     "question": "Consider the following statements:\nStatement A: NABARD provides direct rural credit.\nStatement B: Regional Rural Banks are associated with rural and semi-urban banking.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. NABARD provides direct rural credit, while Regional Rural Banks are associated with rural and semi-urban banking.",
+     "facts": [
+      "F27",
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 30,
+    "covered": 30,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
@@ -1954,7 +2463,15 @@
       "A primarily financial investment in securities that is relatively volatile"
      ],
      "answer": 0,
-     "explanation": "FDI is a largely non-debt-creating capital flow and generally represents longer-term foreign investment in Indian enterprises."
+     "explanation": "FDI is a largely non-debt-creating capital flow and generally represents longer-term foreign investment in Indian enterprises.",
+     "facts": [
+      "F2",
+      "F3",
+      "F14",
+      "F16",
+      "F18",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-19-2",
@@ -1968,7 +2485,16 @@
       "FPI is primarily investment in securities."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the characteristic of FDI. FDI is relatively stable and long-term, whereas FPI is more volatile."
+     "explanation": "The incorrect statement alters the characteristic of FDI. FDI is relatively stable and long-term, whereas FPI is more volatile.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F17",
+      "F18",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-19-3",
@@ -1982,7 +2508,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The relative stability and long-term nature of FDI explain why it generally represents longer-term foreign investment."
+     "explanation": "Both statements are true. The relative stability and long-term nature of FDI explain why it generally represents longer-term foreign investment.",
+     "facts": [
+      "F3",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-19-4",
@@ -1996,7 +2527,18 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: FDI–greater involvement or control, FPI–primarily financial capital, FDI–can bring technology and management skills, and FPI–relatively more volatile."
+     "explanation": "The correct pairs are: FDI–greater involvement or control, FPI–primarily financial capital, FDI–can bring technology and management skills, and FPI–relatively more volatile.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F19",
+      "F5",
+      "F6",
+      "F11",
+      "F12",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-19-5",
@@ -2010,7 +2552,18 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "Statements I, III and IV are correct. The Automatic Route does not require prior government approval, subject to applicable conditions; therefore, Statement II is incorrect."
+     "explanation": "Statements I, III and IV are correct. The Automatic Route does not require prior government approval, subject to applicable conditions; therefore, Statement II is incorrect.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F30",
+      "F34",
+      "F35",
+      "F29",
+      "F31"
+     ]
     }
    ]
   },
@@ -2385,7 +2938,10 @@
       "September 18, 2015"
      ],
      "answer": 0,
-     "explanation": "NITI Aayog was established on January 1, 2015."
+     "explanation": "NITI Aayog was established on January 1, 2015.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-24-2",
@@ -2399,7 +2955,17 @@
       "The Lieutenant Governors of other Union Territories are part of it."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is ‘Jammu and Kashmir’. The notes specify that the Chief Ministers of Delhi and Puducherry are the UT leaders with legislature included in the Governing Council."
+     "explanation": "The incorrect detail is ‘Jammu and Kashmir’. The notes specify that the Chief Ministers of Delhi and Puducherry are the UT leaders with legislature included in the Governing Council.",
+     "facts": [
+      "F13",
+      "F14",
+      "F16",
+      "F17",
+      "F18",
+      "F5",
+      "F12",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-24-3",
@@ -2413,7 +2979,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Cooperative federalism and the bottom-up approach are the basis for greater involvement of States in policy-making."
+     "explanation": "Both statements are true. Cooperative federalism and the bottom-up approach are the basis for greater involvement of States in policy-making.",
+     "facts": [
+      "F6",
+      "F7",
+      "F11",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-24-4",
@@ -2427,7 +3000,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: NITI Aayog—January 1, 2015; DMEO—September 18, 2015; Arvind Panagariya—First Vice-Chairman; NITI—National Institution for Transforming India."
+     "explanation": "The correct pairs are: NITI Aayog—January 1, 2015; DMEO—September 18, 2015; Arvind Panagariya—First Vice-Chairman; NITI—National Institution for Transforming India.",
+     "facts": [
+      "F1",
+      "F23",
+      "F24",
+      "F26"
+     ]
     },
     {
      "id": "indian-economy-24-5",
@@ -2441,9 +3020,95 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. DMEO is an attached office of NITI Aayog, was formed by merging the Programme Evaluation Organization and Independent Evaluation Office, and monitors and evaluates government programmes and initiatives."
+     "explanation": "All three statements are correct. DMEO is an attached office of NITI Aayog, was formed by merging the Programme Evaluation Organization and Independent Evaluation Office, and monitors and evaluates government programmes and initiatives.",
+     "facts": [
+      "F27",
+      "F28",
+      "F31",
+      "F32",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-economy-24-6",
+     "format": "Assertion-Reason",
+     "keyword": "Policy",
+     "question": "Assertion (A): NITI Aayog was created by a Union Cabinet Resolution.\nReason (R): NITI Aayog replaced the Planning Commission.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Union Cabinet Resolution created NITI Aayog, while replacement of the Planning Commission is a separate fact and does not explain its creation.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-economy-24-7",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Policy",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "NITI Aayog is a public policy think tank.",
+      "NITI Aayog follows the approach of cooperative federalism.",
+      "NITI Aayog is the Planning Commission.",
+      "NITI Aayog is a policy think tank."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that NITI Aayog is the Planning Commission. NITI Aayog is described as a public policy think tank and replaced the Planning Commission.",
+     "facts": [
+      "F4",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-24-8",
+     "format": "Count-Based",
+     "keyword": "Committee",
+     "question": "How many of the following are included in the Governing Council of NITI Aayog?\n\nI. Vice-Chairperson\nII. Full-time Members\nIII. Ex-officio Members\nIV. Special Invitees",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed categories are included in the Governing Council of NITI Aayog: Vice-Chairperson, full-time members, ex-officio members and special invitees.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-economy-24-9",
+     "format": "Direct Recall",
+     "keyword": "Policy",
+     "question": "What is the full form of DMEO?",
+     "options": [
+      "Development, Monitoring and Evaluation Office",
+      "Development Measurement and Evaluation Organisation",
+      "District Monitoring and Economic Office",
+      "Development and Management Evaluation Organisation"
+     ],
+     "answer": 0,
+     "explanation": "DMEO stands for Development, Monitoring and Evaluation Office.",
+     "facts": [
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -2471,7 +3136,14 @@
       "A record of only cross-border capital movements during a specified period"
      ],
      "answer": 0,
-     "explanation": "The Balance of Payments is the systematic and complete record of all economic transactions between residents of a country and the rest of the world during a specified period, normally a year."
+     "explanation": "The Balance of Payments is the systematic and complete record of all economic transactions between residents of a country and the rest of the world during a specified period, normally a year.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-25-2",
@@ -2485,7 +3157,20 @@
       "The Current Account includes services, transfer payments and net income as invisible transactions."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement places Foreign Direct Investment in the Current Account. According to the notes, FDI is included in the Capital Account."
+     "explanation": "The incorrect statement places Foreign Direct Investment in the Current Account. According to the notes, FDI is included in the Capital Account.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18",
+      "F19",
+      "F20",
+      "F22",
+      "F23",
+      "F24",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-25-3",
@@ -2499,7 +3184,18 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Current Account covers goods and the specified invisible transactions, and a deficit occurs when payments exceed receipts from them."
+     "explanation": "Both statements are true. The Current Account covers goods and the specified invisible transactions, and a deficit occurs when payments exceed receipts from them.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-economy-25-4",
@@ -2513,7 +3209,18 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Foreign Loans—Capital Account; Private Remittances—Current Account; FDI—Capital Account; Portfolio Investment—Capital Account. Thus, a-ii, b-iii, c-iv, d-ii."
+     "explanation": "The correct pairs are: Foreign Loans—Capital Account; Private Remittances—Current Account; FDI—Capital Account; Portfolio Investment—Capital Account. Thus, a-ii, b-iii, c-iv, d-ii.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F17",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-25-5",
@@ -2527,9 +3234,62 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct definitions of current account and capital account convertibility. Statement III is incorrect because the Balance of Trade covers goods only; the broader combination of goods, services, transfers and capital transactions relates to the Balance of Payments."
+     "explanation": "Statements I and II are correct definitions of current account and capital account convertibility. Statement III is incorrect because the Balance of Trade covers goods only; the broader combination of goods, services, transfers and capital transactions relates to the Balance of Payments.",
+     "facts": [
+      "F5",
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F7",
+      "F8",
+      "F10",
+      "F12",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-economy-25-6",
+     "format": "List-Matching",
+     "keyword": "Balance of Trade",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Balance of Trade\n b. Balance of Payments\n c. Current Account\n d. Capital Account\n\nList-II\n i. Cross-border capital movements\n ii. Exports of goods minus imports of goods\n iii. Includes the Balance of Trade\n iv. Complete record of all economic transactions between residents of a country and the rest of the world\n\nCodes:",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Balance of Trade equals exports of goods minus imports of goods. It is part of the Current Account, while the Balance of Payments is the complete record of international economic transactions and the Capital Account covers cross-border capital movements.",
+     "facts": [
+      "F9",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-economy-25-7",
+     "format": "Assertion-Reason",
+     "keyword": "Trade Surplus and Deficit",
+     "question": "Assertion (A): Positive net exports result in a trade surplus.\nReason (R): Negative net exports result in a trade deficit.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: positive net exports result in a trade surplus, while negative net exports result in a trade deficit. However, the Reason states a separate inverse relationship and does not explain the Assertion.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 36,
+    "covered": 36,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -2730,7 +3490,10 @@
       "Bretton Woods"
      ],
      "answer": 2,
-     "explanation": "The notes state that the IMF’s headquarters is located in Washington, D.C."
+     "explanation": "The notes state that the IMF’s headquarters is located in Washington, D.C.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-28-2",
@@ -2744,7 +3507,13 @@
       "The IMF was formally established on 27 December 1945."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 1944. The IMF was formally established on 27 December 1945; it was conceived at the Bretton Woods Conference in 1944."
+     "explanation": "The incorrect detail is the year 1944. The IMF was formally established on 27 December 1945; it was conceived at the Bretton Woods Conference in 1944.",
+     "facts": [
+      "F1",
+      "F2",
+      "F8",
+      "F27"
+     ]
     },
     {
      "id": "indian-economy-28-3",
@@ -2758,7 +3527,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since Balance of Payments problems are the IMF’s major lending focus, this explains its provision of financial assistance to members facing such difficulties."
+     "explanation": "Both statements are true. Since Balance of Payments problems are the IMF’s major lending focus, this explains its provision of financial assistance to members facing such difficulties.",
+     "facts": [
+      "F5",
+      "F10",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-28-4",
@@ -2772,7 +3547,19 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Reserve Tranche–unconditional drawing right (a-iii); RFI–rapid financial assistance for urgent BoP needs (b-iv); RCF–concessional assistance to Low-Income Countries (c-i); IMF core function–monitoring economies (d-ii)."
+     "explanation": "The correct pairs are: Reserve Tranche–unconditional drawing right (a-iii); RFI–rapid financial assistance for urgent BoP needs (b-iv); RCF–concessional assistance to Low-Income Countries (c-i); IMF core function–monitoring economies (d-ii).",
+     "facts": [
+      "F9",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18",
+      "F19",
+      "F20",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-28-5",
@@ -2786,7 +3573,19 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are correct IMF functions stated in the notes. Development or project financing is listed under the World Bank, not the IMF."
+     "explanation": "Statements I, II and IV are correct IMF functions stated in the notes. Development or project financing is listed under the World Bank, not the IMF.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F24",
+      "F4",
+      "F21",
+      "F22",
+      "F23",
+      "F25",
+      "F26"
+     ]
     }
    ]
   },
@@ -3404,7 +4203,11 @@
       "Article 114"
      ],
      "answer": 1,
-     "explanation": "Under Article 112, the estimated receipts and expenditure of the Government of India for every financial year are laid before both Houses of Parliament."
+     "explanation": "Under Article 112, the estimated receipts and expenditure of the Government of India for every financial year are laid before both Houses of Parliament.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-32-2",
@@ -3418,7 +4221,14 @@
       "Revenue receipts do not create liability and do not reduce government assets."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year. Gender Budgeting was introduced in the Union Budget 2005–06, not 2006–07."
+     "explanation": "The incorrect detail is the year. Gender Budgeting was introduced in the Union Budget 2005–06, not 2006–07.",
+     "facts": [
+      "F3",
+      "F30",
+      "F9",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-32-3",
@@ -3432,7 +4242,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the nature of capital receipts does not explain the separate characteristic of revenue receipts."
+     "explanation": "Both statements are true, but the nature of capital receipts does not explain the separate characteristic of revenue receipts.",
+     "facts": [
+      "F4",
+      "F5",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-32-4",
@@ -3446,7 +4261,17 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "Tax revenue and interest receipts are revenue receipts, while borrowings and disinvestment are capital receipts."
+     "explanation": "Tax revenue and interest receipts are revenue receipts, while borrowings and disinvestment are capital receipts.",
+     "facts": [
+      "F6",
+      "F10",
+      "F7",
+      "F11",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-32-5",
@@ -3460,7 +4285,15 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Dividends and profits from government enterprises are listed as revenue receipts, not capital payments."
+     "explanation": "Statements I, II and III are correct. Dividends and profits from government enterprises are listed as revenue receipts, not capital payments.",
+     "facts": [
+      "F23",
+      "F27",
+      "F29",
+      "F8",
+      "F17",
+      "F20"
+     ]
     }
    ]
   },
@@ -3935,7 +4768,16 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 0,
-     "explanation": "The 1948 Industrial Policy Resolution was associated with the mixed economic model; 1956 with industrialisation, public sector and Joint Sector; 1991 with liberalisation; and the SEZ Policy was announced on April 1st, 2000."
+     "explanation": "The 1948 Industrial Policy Resolution was associated with the mixed economic model; 1956 with industrialisation, public sector and Joint Sector; 1991 with liberalisation; and the SEZ Policy was announced on April 1st, 2000.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-37-2",
@@ -3949,7 +4791,15 @@
       "One objective of the SEZ Policy was to promote exports."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the date. July 24th, 1991 is associated with the New Industrial Policy, whereas the SEZ Policy was announced on April 1st, 2000."
+     "explanation": "The incorrect detail is the date. July 24th, 1991 is associated with the New Industrial Policy, whereas the SEZ Policy was announced on April 1st, 2000.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F15",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "indian-economy-37-3",
@@ -3963,7 +4813,16 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the fiscal objectives do not explain the components of fiscal policy; they state the aims of fiscal policy."
+     "explanation": "Both statements are true according to the notes. However, the fiscal objectives do not explain the components of fiscal policy; they state the aims of fiscal policy.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-economy-37-4",
@@ -3977,7 +4836,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes: the 1991 New Industrial Policy was associated with liberalisation, and a decrease in import duty on capital goods was a liberalisation instrument under LPG reforms."
+     "explanation": "Both statements are supported by the notes: the 1991 New Industrial Policy was associated with liberalisation, and a decrease in import duty on capital goods was a liberalisation instrument under LPG reforms.",
+     "facts": [
+      "F5",
+      "F34"
+     ]
     },
     {
      "id": "indian-economy-37-5",
@@ -3991,7 +4854,16 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. The notes associate the 1956 Industrial Policy with industrialisation, public sector and Joint Sector, not free trade."
+     "explanation": "Statements I, II and IV are correct. The notes associate the 1956 Industrial Policy with industrialisation, public sector and Joint Sector, not free trade.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F10",
+      "F12",
+      "F13",
+      "F29"
+     ]
     }
    ]
   },
@@ -4021,7 +4893,11 @@
       "M0"
      ],
      "answer": 2,
-     "explanation": "M3 is broad money and is described as the most commonly used measure of broad aggregate money supply."
+     "explanation": "M3 is broad money and is described as the most commonly used measure of broad aggregate money supply.",
+     "facts": [
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-38-2",
@@ -4035,7 +4911,18 @@
       "M3 includes time deposits with banks."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the inclusion of time deposits. Time deposits with banks are excluded from M1 and included in M3."
+     "explanation": "The incorrect statement alters the inclusion of time deposits. Time deposits with banks are excluded from M1 and included in M3.",
+     "facts": [
+      "F30",
+      "F36",
+      "F37",
+      "F39",
+      "F40",
+      "F2",
+      "F4",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-38-3",
@@ -4049,7 +4936,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that a lower bank rate makes borrowing cheaper and liquidity expands, describing an expansionary stance. Thus, the Reason correctly explains the Assertion."
+     "explanation": "The notes state that a lower bank rate makes borrowing cheaper and liquidity expands, describing an expansionary stance. Thus, the Reason correctly explains the Assertion.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-economy-38-4",
@@ -4063,7 +4958,17 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: currency with the public—immediate cash in hand; demand deposits—instant withdrawal on demand; time deposits—locked for a fixed period and least liquid; other deposits with RBI—highly liquid balances."
+     "explanation": "The correct pairs are: currency with the public—immediate cash in hand; demand deposits—instant withdrawal on demand; time deposits—locked for a fixed period and least liquid; other deposits with RBI—highly liquid balances.",
+     "facts": [
+      "F32",
+      "F35",
+      "F41",
+      "F42",
+      "F38",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-38-5",
@@ -4077,9 +4982,131 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and IV are correct. The notes define the money multiplier as total money supply divided by base money, represented by M3/M0, and state that increased banking habits raise it; an increase in CRR decreases credit creation."
+     "explanation": "Statements I, II and IV are correct. The notes define the money multiplier as total money supply divided by base money, represented by M3/M0, and state that increased banking habits raise it; an increase in CRR decreases credit creation.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-economy-38-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Money (Narrow/Dear)",
+     "question": "Consider the following statements about M1:\nI. M1 is narrow money.\nII. M1 includes demand deposits.\nIII. M1 has high liquidity.\nIV. M1 is directly spendable transaction money.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "M1 is narrow money and includes demand deposits. It has high liquidity and represents directly spendable transaction money.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-economy-38-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "M3 (Broad Money)",
+     "question": "Consider the following statements:\nStatement A: M3 equals M1 plus time deposits with banks.\nStatement B: M3 minus M1 equals time deposits with banks.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "M3 is calculated as M1 plus time deposits with banks. Therefore, the difference between M3 and M1 is time deposits with banks.",
+     "facts": [
+      "F8",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-economy-38-8",
+     "format": "Assertion-Reason",
+     "keyword": "Money Supply",
+     "question": "Assertion (A): A cash withdrawal does not change the aggregate money supply.\nReason (R): On withdrawing ₹1 lakh from demand deposits, demand deposits fall by ₹1 lakh while currency with the public rises by ₹1 lakh.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The withdrawal reduces demand deposits by ₹1 lakh and increases currency with the public by the same amount. Thus, the aggregate money supply remains unchanged.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-economy-38-9",
+     "format": "Direct Recall",
+     "keyword": "RBI",
+     "question": "Central bank policy rates directly regulate which of the following?",
+     "options": [
+      "The order of liquidity among deposits",
+      "The difference between M3 and M1",
+      "The capacity for credit creation",
+      "The composition of narrow money only"
+     ],
+     "answer": 2,
+     "explanation": "The notes state that central bank policy rates directly regulate the capacity for credit creation.",
+     "facts": [
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-economy-38-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Money (Narrow/Dear)",
+     "question": "Consider the following statements:\nStatement A: Currency with the public is included in M3.\nStatement B: Demand deposits with banks are included in M3.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. M3, or broad money, includes currency with the public and demand deposits with banks.",
+     "facts": [
+      "F31",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-economy-38-11",
+     "format": "Count-Based",
+     "keyword": "M3 (Broad Money)",
+     "question": "How many of the following are included in M3?\nI. Currency with the public\nII. Demand deposits with banks",
+     "options": [
+      "Only one",
+      "Both of them",
+      "Neither of them",
+      "Cannot be determined"
+     ],
+     "answer": 1,
+     "explanation": "Both listed components are included in M3: currency with the public and demand deposits with banks.",
+     "facts": [
+      "F31",
+      "F34"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "39": {
    "number": 39,
@@ -4481,7 +5508,17 @@
       "Liquid assets maintained by the bank itself"
      ],
      "answer": 0,
-     "explanation": "Under CRR, the cash reserve is maintained with the RBI. In contrast, SLR assets are maintained by the bank itself."
+     "explanation": "Under CRR, the cash reserve is maintained with the RBI. In contrast, SLR assets are maintained by the bank itself.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-41-2",
@@ -4495,7 +5532,16 @@
       "SLR is maintained by the bank with itself, unlike CRR, which goes to the RBI."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the place of maintenance. SLR is maintained by the bank itself; a cash reserve deposited with the RBI refers to CRR."
+     "explanation": "The incorrect statement alters the place of maintenance. SLR is maintained by the bank itself; a cash reserve deposited with the RBI refers to CRR.",
+     "facts": [
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F15",
+      "F16",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-41-3",
@@ -4509,7 +5555,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. When banks lock a higher percentage of funds in liquid assets, fewer funds remain available for loans."
+     "explanation": "Both statements are true. When banks lock a higher percentage of funds in liquid assets, fewer funds remain available for loans.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-41-4",
@@ -4523,7 +5573,18 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: SLR maintenance—liquid assets maintained by the bank itself; CRR maintenance—reserve with RBI; SLR increase—reduces investible loan funds; SLR decrease—frees capital for loans."
+     "explanation": "The correct pairs are: SLR maintenance—liquid assets maintained by the bank itself; CRR maintenance—reserve with RBI; SLR increase—reduces investible loan funds; SLR decrease—frees capital for loans.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F13",
+      "F18",
+      "F23",
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-41-5",
@@ -4537,9 +5598,75 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. A higher SLR reduces investible loan funds, decreases credit creation, contracts money supply and helps control inflationary pressures."
+     "explanation": "All three statements are correct. A higher SLR reduces investible loan funds, decreases credit creation, contracts money supply and helps control inflationary pressures.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F27",
+      "F28",
+      "F29",
+      "F7",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-economy-41-6",
+     "format": "Direct Recall",
+     "keyword": "CRR",
+     "question": "The Cash Reserve Ratio (CRR) is used primarily to regulate which of the following?",
+     "options": [
+      "Credit and liquidity",
+      "Gold holdings and securities income",
+      "Inflation and government expenditure",
+      "Broader economic activity only"
+     ],
+     "answer": 0,
+     "explanation": "CRR is used to regulate credit and liquidity.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-41-7",
+     "format": "Assertion-Reason",
+     "keyword": "SLR Decrease",
+     "question": "Assertion (A): A decrease in the Statutory Liquidity Ratio stimulates broader economic activity.\nReason (R): Under a lower SLR, banks hold fewer funds in mandatory liquid assets, freeing capital for loans.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. A lower SLR frees bank capital for lending, which expands lending capacity and stimulates broader economic activity.",
+     "facts": [
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-economy-41-8",
+     "format": "Direct Recall",
+     "keyword": "CRR",
+     "question": "Which of the following statements regarding Cash Reserve Ratio (CRR) reserves is correct?",
+     "options": [
+      "CRR reserves maintained with the RBI earn interest income.",
+      "CRR reserves consist of government securities that earn interest income.",
+      "CRR reserves are maintained by the bank itself and earn interest income.",
+      "CRR reserves maintained with the RBI do not earn interest."
+     ],
+     "answer": 3,
+     "explanation": "CRR is the cash reserve maintained with the RBI, and these reserves do not earn interest. In contrast, government securities commonly used for SLR earn interest income.",
+     "facts": [
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 29,
+    "covered": 29,
+    "audited": true
+   }
   },
   "42": {
    "number": 42,
@@ -4739,7 +5866,10 @@
       "Proportional Tax"
      ],
      "answer": 2,
-     "explanation": "A degressive tax rate initially rises with income and then becomes flat."
+     "explanation": "A degressive tax rate initially rises with income and then becomes flat.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-44-2",
@@ -4753,7 +5883,16 @@
       "The incidence and impact of Corporation Tax fall on the same taxpayer."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement concerns Property Tax. Property Tax is listed as a direct tax, whose burden cannot be shifted to another person; its incidence and impact fall on the same taxpayer."
+     "explanation": "The incorrect statement concerns Property Tax. Property Tax is listed as a direct tax, whose burden cannot be shifted to another person; its incidence and impact fall on the same taxpayer.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F11",
+      "F13",
+      "F14",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-44-3",
@@ -4767,7 +5906,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since the burden of a direct tax cannot be shifted, its incidence and impact fall on the same taxpayer."
+     "explanation": "Both statements are true. Since the burden of a direct tax cannot be shifted, its incidence and impact fall on the same taxpayer.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-44-4",
@@ -4781,7 +5924,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Income Tax–Income, Corporation Tax–Company income or profit, Customs Duty–Import or export of goods, and VAT–Value added at stages."
+     "explanation": "The correct pairs are: Income Tax–Income, Corporation Tax–Company income or profit, Customs Duty–Import or export of goods, and VAT–Value added at stages.",
+     "facts": [
+      "F21",
+      "F22",
+      "F26",
+      "F29"
+     ]
     },
     {
      "id": "indian-economy-44-5",
@@ -4795,7 +5944,12 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and III are correct. A regressive tax has a relative burden that tends to be higher on lower-income groups, so Statement II is incorrect."
+     "explanation": "Statements I and III are correct. A regressive tax has a relative burden that tends to be higher on lower-income groups, so Statement II is incorrect.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     }
    ]
   },
@@ -5549,7 +6703,17 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "Headline inflation includes food and energy, while core inflation excludes volatile food and fuel. CPI refers to retail prices, whereas WPI refers to wholesale goods."
+     "explanation": "Headline inflation includes food and energy, while core inflation excludes volatile food and fuel. CPI refers to retail prices, whereas WPI refers to wholesale goods.",
+     "facts": [
+      "F24",
+      "F25",
+      "F18",
+      "F20",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-51-2",
@@ -5563,7 +6727,15 @@
       "CPI-Combined is used as a monetary policy inflation measure."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that CPI-IW is prepared by the NSO. According to the notes, CPI-IW is prepared by the Labour Bureau; the NSO prepares CPI-Rural, CPI-Urban and CPI-Combined."
+     "explanation": "The incorrect statement is that CPI-IW is prepared by the NSO. According to the notes, CPI-IW is prepared by the Labour Bureau; the NSO prepares CPI-Rural, CPI-Urban and CPI-Combined.",
+     "facts": [
+      "F9",
+      "F21",
+      "F23",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-51-3",
@@ -5577,7 +6749,17 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Headline inflation includes volatile components such as food and energy, while core inflation excludes volatile food and fuel, making headline inflation more volatile."
+     "explanation": "Both statements are true. Headline inflation includes volatile components such as food and energy, while core inflation excludes volatile food and fuel, making headline inflation more volatile.",
+     "facts": [
+      "F7",
+      "F8",
+      "F24",
+      "F25",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-51-4",
@@ -5591,7 +6773,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true because CPI measures retail prices. Statement B is false because WPI covers wholesale goods and excludes services."
+     "explanation": "Statement A is true because CPI measures retail prices. Statement B is false because WPI covers wholesale goods and excludes services.",
+     "facts": [
+      "F18",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-51-5",
@@ -5605,7 +6791,137 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the notes: demand-pull inflation is linked to increased demand, cost-push inflation to increased production cost, bottleneck inflation to supply constraints, and stagflation to inflation with slow growth and unemployment."
+     "explanation": "All four associations are correct according to the notes: demand-pull inflation is linked to increased demand, cost-push inflation to increased production cost, bottleneck inflation to supply constraints, and stagflation to inflation with slow growth and unemployment.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-economy-51-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Inflation",
+     "question": "Consider the following statements:\nI. Headline inflation represents total inflation.\nII. Core inflation indicates the underlying inflation trend.\nIII. Core inflation excludes volatile food and fuel.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Headline inflation represents total inflation, while core inflation indicates the underlying inflation trend. Core inflation excludes volatile food and fuel; therefore, all three statements are correct.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "indian-economy-51-7",
+     "format": "Assertion-Reason",
+     "keyword": "Inflation",
+     "question": "Assertion (A): Inflation is an increase in the general price level.\nReason (R): Inflation decreases the purchasing power of money.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Inflation involves an increase in the general price level and decreases the purchasing power of money, but the reason describes an effect of inflation rather than explaining the definition in the assertion.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-economy-51-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "CPI – Coverage and Use",
+     "question": "Consider the following statements:\nStatement A: CPI covers goods and services.\nStatement B: CPI-IW is used for DA and wage adjustment.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. CPI covers goods and services, while CPI-IW is used for DA and wage adjustment.",
+     "facts": [
+      "F19",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-economy-51-9",
+     "format": "Assertion-Reason",
+     "keyword": "Deflation and Disinflation",
+     "question": "Assertion (A): Deflation is a decrease in the price level.\nReason (R): Disinflation is a decrease in the inflation rate.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both A and R are true. Deflation concerns a decrease in the price level, whereas disinflation concerns a decrease in the inflation rate; the reason does not explain the assertion.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "indian-economy-51-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Bank Rate",
+     "question": "Consider the following statements:\nStatement A: A decrease in the Bank Rate increases liquidity.\nStatement B: An increase in the Bank Rate is contractionary.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. A decrease in the Bank Rate increases liquidity, while an increase in the Bank Rate is contractionary.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-economy-51-11",
+     "format": "Direct Recall",
+     "keyword": "Monetary Policy",
+     "question": "Open Market Operations (OMO) are associated with which of the following?",
+     "options": [
+      "Monetary policy",
+      "Wage adjustment",
+      "Fiscal policy",
+      "Public revenue"
+     ],
+     "answer": 0,
+     "explanation": "OMO is a monetary policy instrument.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-economy-51-12",
+     "format": "Direct Recall",
+     "keyword": "Fiscal Policy",
+     "question": "Public revenue is primarily associated with which of the following policies?",
+     "options": [
+      "Price-index policy",
+      "Monetary policy",
+      "Fiscal policy",
+      "Wage adjustment policy"
+     ],
+     "answer": 2,
+     "explanation": "Public revenue is associated with fiscal policy.",
+     "facts": [
+      "F35"
+     ]
     }
    ]
   },

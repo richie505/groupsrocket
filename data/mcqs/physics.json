@@ -409,7 +409,10 @@
       "Radio waves"
      ],
      "answer": 3,
-     "explanation": "Radio waves have the longest wavelength among electromagnetic radiations listed in the notes."
+     "explanation": "Radio waves have the longest wavelength among electromagnetic radiations listed in the notes.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "physics-2-2",
@@ -423,7 +426,13 @@
       "The maximum efficiency of a heat engine is Carnot efficiency."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the minimum temperature. According to the notes, the minimum temperature is 0 K."
+     "explanation": "The incorrect detail is the minimum temperature. According to the notes, the minimum temperature is 0 K.",
+     "facts": [
+      "F11",
+      "F13",
+      "F17",
+      "F12"
+     ]
     },
     {
      "id": "physics-2-3",
@@ -437,7 +446,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify the strong nuclear force as the shortest-range fundamental force, with a range of approximately 10⁻¹⁵ m."
+     "explanation": "Both statements are true. The notes identify the strong nuclear force as the shortest-range fundamental force, with a range of approximately 10⁻¹⁵ m.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "physics-2-4",
@@ -451,7 +463,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: a-iii (radio waves), b-i (gamma rays), c-ii (alpha particles), and d-iv (top quark)."
+     "explanation": "The correct pairs are: a-iii (radio waves), b-i (gamma rays), c-ii (alpha particles), and d-iv (top quark).",
+     "facts": [
+      "F3",
+      "F8",
+      "F23",
+      "F18"
+     ]
     },
     {
      "id": "physics-2-5",
@@ -465,9 +483,110 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the notes: massive particles can approach zero speed, certain radioactive decays are the slowest known processes, and the proton has an experimental lifetime limit greater than 10³⁴ years."
+     "explanation": "All three statements are correct according to the notes: massive particles can approach zero speed, certain radioactive decays are the slowest known processes, and the proton has an experimental lifetime limit greater than 10³⁴ years.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "physics-2-6",
+     "format": "Count-Based",
+     "keyword": "Force – Range",
+     "question": "How many of the following have infinite range?\n1. Gravity\n2. Electromagnetism\n3. Strong nuclear force\n4. Planck time",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Gravity and electromagnetism have infinite range. The strong nuclear force has a short range, while Planck time is the shortest theoretical time, not a force.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "physics-2-7",
+     "format": "Assertion-Reason",
+     "keyword": "Strong Nuclear Force",
+     "question": "Assertion (A): The strong nuclear force is the most powerful force at short range.\nReason (R): The Planck time is the shortest theoretical time.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the shortest theoretical time does not explain the power of the strong nuclear force.",
+     "facts": [
+      "F10",
+      "F20"
+     ]
+    },
+    {
+     "id": "physics-2-8",
+     "format": "Assertion-Reason",
+     "keyword": "Photoelectric Effect",
+     "question": "Assertion (A): The threshold wavelength for the photoelectric effect is given by λ₀ = hc/φ.\nReason (R): The work function φ is the minimum energy required to eject an electron.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the threshold-wavelength relation follows from the work function being the minimum energy needed to eject an electron.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "physics-2-9",
+     "format": "Direct Recall",
+     "keyword": "Heisenberg Uncertainty Principle",
+     "question": "Which of the following expressions represents the minimum uncertainty product according to the Heisenberg uncertainty principle?",
+     "options": [
+      "Δx·Δp ≥ h/2",
+      "Δx·Δp ≥ ℏ/2",
+      "Δx·Δp ≤ ℏ/2",
+      "Δx·Δp = 0"
+     ],
+     "answer": 1,
+     "explanation": "The Heisenberg uncertainty principle gives the minimum uncertainty product as Δx·Δp ≥ ℏ/2.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "physics-2-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Fundamental Particles and Matter",
+     "question": "Consider the following statements:\nI. Neutrinos or photons are the most abundant particles in the Universe, depending on the context.\nII. The neutrino is the least massive fundamental particle, while the photon has zero mass.\nIII. The intergalactic medium is the least dense form of ordinary matter.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: neutrinos or photons may be identified as most abundant depending on context; the neutrino is least massive while the photon has zero mass; and the intergalactic medium is the least dense form of ordinary matter.",
+     "facts": [
+      "F19",
+      "F21",
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 23,
+    "covered": 23,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -828,8 +947,188 @@
      "facts": [
       "F38"
      ]
+    },
+    {
+     "id": "physics-4-6",
+     "format": "List-Matching",
+     "keyword": "Phenomenon → Scientist",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Photoelectric effect\n(b) Black-body radiation\n(c) Hydrogen spectrum\n(d) Unified theory of electromagnetism\n\nList-II\n(i) Max Planck\n(ii) Albert Einstein\n(iii) James Clerk Maxwell\n(iv) Niels Bohr",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Albert Einstein explained the photoelectric effect, Max Planck explained black-body radiation, and Niels Bohr explained the hydrogen spectrum. James Clerk Maxwell developed the unified theory of electromagnetism.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F25"
+     ]
+    },
+    {
+     "id": "physics-4-7",
+     "format": "List-Matching",
+     "keyword": "Unit → Scientist after whom named",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Newton—force\n(b) Ampere—current\n(c) Ohm—resistance\n(d) Faraday—capacitance and induction\n\nList-II\n(i) Isaac Newton\n(ii) Andre-Marie Ampere\n(iii) Georg Ohm\n(iv) Michael Faraday",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Newton is the unit of force and is named after Isaac Newton. Ampere, Ohm and Faraday are associated respectively with current, resistance, and capacitance/induction, and are named after Andre-Marie Ampere, Georg Ohm and Michael Faraday.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "physics-4-8",
+     "format": "Count-Based",
+     "keyword": "Unit → Quantity and Namesake",
+     "question": "How many of the following unit–namesake pairs are correct?\n\nI. Hertz—frequency—Heinrich Hertz\nII. Tesla—magnetic field—Nikola Tesla\nIII. Coulomb—charge—Charles Coulomb",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three pairs are correct: Hertz is the unit of frequency named after Heinrich Hertz; Tesla is the unit of magnetic field named after Nikola Tesla; and Coulomb is the unit of charge named after Charles Coulomb.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "physics-4-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Founders → Field",
+     "question": "Consider the following statements:\n\nI. Max Planck, Werner Heisenberg and Erwin Schrödinger founded quantum mechanics.\nII. Paul Dirac, Richard Feynman, Julian Schwinger and Sin-Itiro Tomonaga founded quantum electrodynamics.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II only",
+      "I only",
+      "Neither I nor II",
+      "Both I and II"
+     ],
+     "answer": 3,
+     "explanation": "Both statements are correct. The listed scientists are identified as the founders of quantum mechanics and quantum electrodynamics respectively.",
+     "facts": [
+      "F26",
+      "F28"
+     ]
+    },
+    {
+     "id": "physics-4-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Titles → Galileo Galilei",
+     "question": "Consider the following statements:\n\nStatement A: Galileo Galilei is called the father of physics.\nStatement B: Galileo Galilei is called the father of modern science.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Galileo Galilei is called both the father of physics and the father of modern science.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "physics-4-11",
+     "format": "Assertion-Reason",
+     "keyword": "Titles → Albert Einstein",
+     "question": "Assertion (A): Albert Einstein is called the father of modern physics.\nReason (R): Albert Einstein is called the father of relativity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true titles associated with Albert Einstein. However, being called the father of relativity does not explain the separate title, father of modern physics.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "physics-4-12",
+     "format": "Direct Recall",
+     "keyword": "Father → Quantum Mechanics",
+     "question": "Who is called the father of quantum mechanics?",
+     "options": [
+      "Max Planck",
+      "Niels Bohr",
+      "Albert Einstein",
+      "Galileo Galilei"
+     ],
+     "answer": 0,
+     "explanation": "Max Planck is called the father of quantum mechanics.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "physics-4-13",
+     "format": "List-Matching",
+     "keyword": "Father of – Scientist",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Father of Atomic Physics\n(b) Father of Indian Physics\n(c) Man who weighed the Earth\n(d) Father of the Bomb (nuclear)\n\nList-II\n(i) Henry Cavendish\n(ii) Oppenheimer\n(iii) Niels Bohr\n(iv) C. V. Raman",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Niels Bohr is called the father of atomic physics, while C. V. Raman is called the father of Indian physics. Henry Cavendish is known as the man who weighed the Earth, and Oppenheimer is often called the father of the nuclear bomb.",
+     "facts": [
+      "F36",
+      "F37",
+      "F41",
+      "F44"
+     ]
+    },
+    {
+     "id": "physics-4-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Quantum – Energy relation",
+     "question": "Consider the following statements:\nStatement A: Planck's quantum is called an energy quantum.\nStatement B: The energy of a quantum is given by E = hν.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Planck's quantum is called an energy quantum, and its energy is expressed by the relation E = hν.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 46,
+    "covered": 46,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -2962,7 +3261,10 @@
       "J.J. Thomson"
      ],
      "answer": 0,
-     "explanation": "The notes associate the discovery of X-rays with Röntgen."
+     "explanation": "The notes associate the discovery of X-rays with Röntgen.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "physics-10-2",
@@ -2976,7 +3278,14 @@
       "Ohm is associated with Ohm’s Law."
      ],
      "answer": 2,
-     "explanation": "The incorrect pairing is Hooke–Lenz’s Law. According to the notes, Hooke is associated with Hooke’s Law, while Lenz is associated with Lenz’s Law."
+     "explanation": "The incorrect pairing is Hooke–Lenz’s Law. According to the notes, Hooke is associated with Hooke’s Law, while Lenz is associated with Lenz’s Law.",
+     "facts": [
+      "F13",
+      "F16",
+      "F18",
+      "F19",
+      "F14"
+     ]
     },
     {
      "id": "physics-10-3",
@@ -2990,7 +3299,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes, but Heisenberg’s association with the Uncertainty Principle does not explain Pauli’s association with the Exclusion Principle."
+     "explanation": "Both statements are true according to the notes, but Heisenberg’s association with the Uncertainty Principle does not explain Pauli’s association with the Exclusion Principle.",
+     "facts": [
+      "F27",
+      "F26"
+     ]
     },
     {
      "id": "physics-10-4",
@@ -3004,7 +3317,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Voltaic pile / Battery–Volta, Laser (first working)–Maiman, Nuclear reactor–Fermi, and Radio (practical)–Marconi."
+     "explanation": "The correct pairs are: Voltaic pile / Battery–Volta, Laser (first working)–Maiman, Nuclear reactor–Fermi, and Radio (practical)–Marconi.",
+     "facts": [
+      "F31",
+      "F34",
+      "F36",
+      "F33"
+     ]
     },
     {
      "id": "physics-10-5",
@@ -3018,9 +3337,169 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes: Einstein is associated with the photon / photoelectric law, C.V. Raman with the Raman Effect, and Anderson with the positron."
+     "explanation": "All three statements are correct according to the notes: Einstein is associated with the photon / photoelectric law, C.V. Raman with the Raman Effect, and Anderson with the positron.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "physics-10-6",
+     "format": "List-Matching",
+     "keyword": "Discovery → Scientist",
+     "question": "Match List-I with List-II:\n\nList-I (Discovery)\na. Electron\nb. Proton / Nucleus\nc. Neutron\nd. Radioactivity\n\nList-II (Scientist)\ni. Chadwick\nii. Becquerel\niii. J. J. Thomson\niv. Rutherford",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The electron was discovered by J. J. Thomson, the proton and nucleus by Rutherford, the neutron by Chadwick, and radioactivity by Becquerel.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F5"
+     ]
+    },
+    {
+     "id": "physics-10-7",
+     "format": "Direct Recall",
+     "keyword": "Discovery → Scientist",
+     "question": "Radium and polonium were discovered by whom?",
+     "options": [
+      "Becquerel",
+      "Marie Curie",
+      "J. J. Thomson",
+      "C.V. Raman"
+     ],
+     "answer": 1,
+     "explanation": "The discovery of radium and polonium is associated with Marie Curie.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "physics-10-8",
+     "format": "Assertion-Reason",
+     "keyword": "Higgs boson",
+     "question": "Assertion (A): The Higgs boson was experimentally discovered at CERN through ATLAS/CMS.\nReason (R): The Higgs boson was discovered by Rutherford.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 2,
+     "explanation": "The Higgs boson was experimentally discovered at CERN through ATLAS/CMS. Rutherford is associated with the discovery of the proton and nucleus, not the Higgs boson.",
+     "facts": [
+      "F10"
+     ]
+    },
+    {
+     "id": "physics-10-9",
+     "format": "List-Matching",
+     "keyword": "Law → Scientist",
+     "question": "Match List-I with List-II:\n\nList-I (Law)\na. Laws of Motion\nb. Law of Gravitation\nc. Faraday’s Laws\nd. Snell’s Law\n\nList-II (Scientist)\ni. Snell\nii. Newton\niii. Faraday\niv. Newton",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Newton formulated both the laws of motion and the law of gravitation; Faraday formulated Faraday’s laws; and Snell formulated Snell’s law.",
+     "facts": [
+      "F11",
+      "F12",
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-10-10",
+     "format": "List-Matching",
+     "keyword": "Law → Scientist",
+     "question": "Match List-I with List-II:\n\nList-I (Law)\na. Ampere’s Law\nb. Stefan-Boltzmann Law\nc. Coulomb’s Law\nd. Ohm’s Law\n\nList-II (Scientist)\ni. Ohm\nii. Ampere\niii. Stefan & Boltzmann\niv. Coulomb",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Ampere’s law is associated with Ampere, the Stefan-Boltzmann law with Stefan and Boltzmann, Coulomb’s law with Coulomb, and Ohm’s law with Ohm.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "physics-10-11",
+     "format": "List-Matching",
+     "keyword": "Principle → Scientist",
+     "question": "Match List-I with List-II:\n\nList-I (Principle)\na. Archimedes’ Principle\nb. Pascal’s Principle\nc. Bernoulli’s Principle\nd. Huygens’ Principle\n\nList-II (Scientist)\ni. Huygens\nii. Bernoulli\niii. Archimedes\niv. Pascal",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Archimedes, Pascal, Bernoulli and Huygens are respectively associated with their corresponding principles in List-I.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "physics-10-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Principle → Scientist",
+     "question": "Consider the following statements:\nStatement A: The superposition principle is associated with waves and quantum mechanics.\nStatement B: The equivalence principle was formulated by Einstein in general relativity.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The superposition principle is associated with waves and quantum mechanics, while Einstein formulated the equivalence principle in general relativity.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "physics-10-13",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Invention → Scientist",
+     "question": "Which one of the following pairs is not correctly matched?",
+     "options": [
+      "Telescope for astronomical use — Galileo",
+      "Electric motor and dynamo — Faraday",
+      "Transistor — Bardeen, Brattain and Fermi",
+      "Practical electric bulb — Edison"
+     ],
+     "answer": 2,
+     "explanation": "The incorrect pair is the transistor—Bardeen, Brattain and Fermi. The correct third scientist is Shockley; the transistor was invented by Bardeen, Brattain and Shockley.",
+     "facts": [
+      "F30",
+      "F32",
+      "F35",
+      "F37"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 37,
+    "covered": 37,
+    "audited": true
+   }
   },
   "11": {
    "number": 11,
