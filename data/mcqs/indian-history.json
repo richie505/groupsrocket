@@ -51451,7 +51451,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:02:57+00:00",
+   "generated_at": "2026-09-30T08:03:17+00:00",
    "mcqs": [
     {
      "id": "indian-history-141-1",
@@ -51704,6 +51704,330 @@
      ],
      "answer": 0,
      "explanation": "Both statements are true: the table gives 712 CE for Muhammad bin Qasim’s conquest of Sindh and 1000–1027 CE with 17 attacks for Mahmud Ghazni."
+    },
+    {
+     "id": "indian-history-141-19",
+     "format": "Direct Recall",
+     "keyword": "Defeated",
+     "question": "Mihirakula was defeated by whom?",
+     "options": [
+      "Skandagupta",
+      "Yashodharman",
+      "Ibrahim Lodi",
+      "Chandragupta II"
+     ],
+     "answer": 1,
+     "explanation": "Mihirakula was defeated by Yashodharman, as recorded in the invader–opponent/result table."
+    },
+    {
+     "id": "indian-history-141-20",
+     "format": "List-Matching",
+     "keyword": "Invader – Result",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Mihirakula\n(b) Mahmud Ghazni\n(c) Nadir Shah\n(d) Ahmad Shah Abdali\n\nList-II\n(i) Marathas\n(ii) Yashodharman\n(iii) Plunder of North India\n(iv) Sack of Delhi",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Mihirakula–Yashodharman, Mahmud Ghazni–plunder, Nadir Shah–sack of Delhi, and Ahmad Shah Abdali–Marathas."
+    },
+    {
+     "id": "indian-history-141-21",
+     "format": "Direct Recall",
+     "keyword": "Coins",
+     "question": "Rudradaman and the Saka-Kshatrapas are associated with which type of coinage?",
+     "options": [
+      "Silver and copper coinage",
+      "Silver coins with Arabic and Sanskrit legends",
+      "Gold coins for regular use",
+      "Gold coins depicting Buddha"
+     ],
+     "answer": 0,
+     "explanation": "Rudradaman and the Saka-Kshatrapas are associated with silver and copper coinage."
+    }
+   ]
+  },
+  "142": {
+   "number": 142,
+   "title": "Kushanas: Rulers, Coins, Art and Buddhism",
+   "tracker": {
+    "g1": [
+     "G1-A1"
+    ],
+    "g2": [
+     "G2-S1-ANC"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-30T08:03:24+00:00",
+   "mcqs": [
+    {
+     "id": "indian-history-142-1",
+     "format": "Chronological Ordering",
+     "keyword": "Chronology",
+     "question": "Arrange the following in chronological order:\nA. Mauryas\nB. Shungas\nC. Kanvas\nD. Kushanas",
+     "options": [
+      "A, C, B, D",
+      "A, B, C, D",
+      "D, C, B, A",
+      "B, A, C, D"
+     ],
+     "answer": 1,
+     "explanation": "The source sequence places the Kushanas after the Mauryas, Shungas and Kanvas: Maurya → Shunga → Kanva → Kushan."
+    },
+    {
+     "id": "indian-history-142-2",
+     "format": "List-Matching",
+     "keyword": "Founder – Dynasty",
+     "question": "Match List-I with List-II:\nList-I\n(a) Vima Kadphises\n(b) Kujula Kadphises\n(c) Kanishka I\n(d) Patanjali\n\nList-II\n(i) Authored Mahabhashya\n(ii) Adopted the title Sarvalokeshvara\n(iii) Circulated copper coins\n(iv) Had Buddha depicted on coins",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Vima Kadphises adopted Sarvalokeshvara; Kujula Kadphises circulated copper coins; Kanishka had Buddha depicted on his coins; Patanjali authored Mahabhashya."
+    },
+    {
+     "id": "indian-history-142-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Title",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Vima Kadphises adopted the title Sarvalokeshvara.",
+      "Kanishka I adopted the title Sarvalokeshvara.",
+      "Vima Kadphises was a Kushana ruler.",
+      "Sarvalokeshvara means “Lord of the Whole World”."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the ruler: the title Sarvalokeshvara was adopted by Vima Kadphises, not Kanishka I."
+    },
+    {
+     "id": "indian-history-142-4",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Coins",
+     "question": "Consider the following statements:\nI. Vima Kadphises was the first Kushana ruler to issue gold coins.\nII. Vima Kadphises introduced gold coins for regular use in India.\nIII. Vima Kadphises was the first to issue gold coins on a large scale.\nIV. Kujula Kadphises circulated copper coins.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are stated facts about Kushana coinage. Vima Kadphises is associated with gold coins, while Kujula Kadphises circulated copper coins."
+    },
+    {
+     "id": "indian-history-142-5",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Coins",
+     "question": "Consider the following statements:\nStatement A: Indo-Greeks introduced the circulation of gold coins in north-western India.\nStatement B: Kushanas promoted gold and copper coins on a wider scale.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes distinguish the contributions: Indo-Greeks introduced gold-coin circulation in north-western India, while Kushanas promoted gold and copper coins more widely."
+    },
+    {
+     "id": "indian-history-142-6",
+     "format": "Direct Recall",
+     "keyword": "Chinese Connection",
+     "question": "Which of the following correctly describes Kanishka’s Chinese connection and the Kushana–China conflict?",
+     "options": [
+      "Chinese texts identified Kanishka as Yue-tche; after a Han Princess marriage request was refused, the Kushanas marched against Pan Chao in 86 AD and were defeated by a smaller Chinese force.",
+      "Chinese texts identified Kanishka as Pan Chao; the Kushanas defeated the Chinese force in 86 AD.",
+      "Chinese texts identified Kanishka as Han; the conflict followed the acceptance of a marriage request by a Han Princess.",
+      "Chinese texts identified Kanishka as Yue-tche; the Kushanas marched against Pan Chao in 78 AD and defeated a larger Chinese force."
+     ],
+     "answer": 0,
+     "explanation": "Chinese texts identify Kanishka as Yue-tche. After refusal of his marriage request, the Kushanas marched against Pan Chao in 86 AD with 70,000 troops but were defeated by a smaller Chinese force."
+    },
+    {
+     "id": "indian-history-142-7",
+     "format": "Direct Recall",
+     "keyword": "Trade Route",
+     "question": "Through which route did Kushana trade operate?",
+     "options": [
+      "The Red Sea and the Mediterranean Sea",
+      "The Arabian Sea and the Bay of Bengal",
+      "The Persian Bay and the Red Sea",
+      "The Persian Bay and the Black Sea"
+     ],
+     "answer": 2,
+     "explanation": "The notes state that Kushana trade operated through the Persian Bay and Red Sea."
+    },
+    {
+     "id": "indian-history-142-8",
+     "format": "Direct Recall",
+     "keyword": "Trading centre",
+     "question": "Which of the following provided evidence of Kushana ports and trading centres?",
+     "options": [
+      "Puranas and Ashtadhyayi",
+      "Sarnath inscription and Mahabhashya",
+      "Periplus of the Erythraean Sea and the excavation at Arikamedu",
+      "Rabatak inscription and Yaudheya coins"
+     ],
+     "answer": 2,
+     "explanation": "The Periplus of the Erythraean Sea and the Arikamedu excavation provide evidence of ports and trading centres."
+    },
+    {
+     "id": "indian-history-142-9",
+     "format": "Assertion-Reason",
+     "keyword": "Gandhara School",
+     "question": "Assertion (A): The Gandhara School developed and flourished during the Kushana period.\nReason (R): Gandhara style was based on Indo-Greek style and was influenced by Greek art.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. However, the Indo-Greek and Greek influence describes the style of Gandhara art; it does not directly explain why the school flourished during the Kushana period."
+    },
+    {
+     "id": "indian-history-142-10",
+     "format": "Count-Based",
+     "keyword": "Sculptural Schools",
+     "question": "How many of the following sculptural schools developed distinct styles during the Kushana period?\n1. Gandhara\n2. Mathura\n3. Sarnath\n4. Amaravati",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Two schools are identified: Gandhara and Mathura. They developed distinct styles during the Kushana period."
+    },
+    {
+     "id": "indian-history-142-11",
+     "format": "List-Matching",
+     "keyword": "Buddhist Council",
+     "question": "Match List-I with List-II:\nList-I\n(a) Kanishka\n(b) Kundalvana\n(c) Vasumitra\n(d) Ashvaghosha\n\nList-II\n(i) Vice-president of the Fourth Buddhist Council\n(ii) Place of the Fourth Buddhist Council\n(iii) Ruler associated with the Fourth Buddhist Council\n(iv) President of the Fourth Buddhist Council",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Kanishka was the associated ruler; Kundalvana in Kashmir was the place; Vasumitra was president; and Ashvaghosha was vice-president."
+    },
+    {
+     "id": "indian-history-142-12",
+     "format": "Assertion-Reason",
+     "keyword": "Buddhism",
+     "question": "Assertion (A): The Fourth Buddhist Council during Kanishka’s reign was associated with the division into Hinayana and Mahayana.\nReason (R): In Mahayana, Buddha came to be treated as God and idol worship became associated with it.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The treatment of Buddha as God and the association of idol worship describe Mahayana, but do not explain the division itself."
+    },
+    {
+     "id": "indian-history-142-13",
+     "format": "Count-Based",
+     "keyword": "Court Scholars",
+     "question": "How many of the following were listed as scholars of Kanishka’s court?\n1. Parshva\n2. Nagarjuna\n3. Charaka\n4. Patanjali",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Parshva, Nagarjuna and Charaka were listed among Kanishka’s court scholars. Patanjali was not associated with his court."
+    },
+    {
+     "id": "indian-history-142-14",
+     "format": "List-Matching",
+     "keyword": "Court Scholars",
+     "question": "Match List-I with List-II:\nList-I\n(a) Ashvaghosha\n(b) Vasumitra\n(c) Charaka\n(d) Patanjali\n\nList-II\n(i) Author of Mahabhashya\n(ii) Poet laureate of Kanishka\n(iii) Headed the Fourth Buddhist Council\n(iv) Court physician of Kanishka",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Ashvaghosha was Kanishka’s poet laureate; Vasumitra headed the Fourth Buddhist Council; Charaka was court physician; and Patanjali authored Mahabhashya."
+    },
+    {
+     "id": "indian-history-142-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Inscription",
+     "question": "Consider the following statements:\nStatement A: The Sarnath Buddhist image inscription of Kanishka is dated 81 AD.\nStatement B: The inscription was established three years after Kanishka’s coronation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The inscription is dated 81 AD, while Kanishka’s coronation was in 78 AD. Thus, it was established three years after his coronation."
+    },
+    {
+     "id": "indian-history-142-16",
+     "format": "Direct Recall",
+     "keyword": "Saka Samvat",
+     "question": "Which statement regarding the Saka Samvat is correct?",
+     "options": [
+      "The Saka Samvat began in 81 AD with the Sarnath inscription.",
+      "The Saka Samvat began 135 years after the Vikrama era.",
+      "Many historians consider Kanishka the originator of the Saka Samvat beginning in 78 AD.",
+      "The Saka Samvat was introduced by Vima Kadphises in the 1st century BCE."
+     ],
+     "answer": 2,
+     "explanation": "The notes state that many historians consider Kanishka the originator of the Saka Samvat in 78 AD."
+    },
+    {
+     "id": "indian-history-142-17",
+     "format": "Direct Recall",
+     "keyword": "Era",
+     "question": "What is the difference between the Saka and Vikrama eras as stated in the source?",
+     "options": [
+      "78 years",
+      "100 years",
+      "135 years",
+      "326 years"
+     ],
+     "answer": 2,
+     "explanation": "The stated difference between the Saka and Vikrama eras is 135 years."
+    },
+    {
+     "id": "indian-history-142-18",
+     "format": "List-Matching",
+     "keyword": "Inscription",
+     "question": "Match List-I with List-II:\nList-I\n(a) Rabatak inscription\n(b) Year of discovery\n(c) Script\n(d) Language\n\nList-II\n(i) Bactrian\n(ii) 1993\n(iii) Greek\n(iv) Near Surkh Kotal, Afghanistan",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The Rabatak inscription was found in 1993 near Surkh Kotal in Afghanistan. It uses Greek script and is in the Bactrian language."
+    },
+    {
+     "id": "indian-history-142-19",
+     "format": "Direct Recall",
+     "keyword": "Coins",
+     "question": "What is depicted on Yaudheya copper coins associated with the Kushana period?",
+     "options": [
+      "A horse surrounded by warriors",
+      "A four-armed Vishnu with a conch",
+      "Buddha seated beside a stupa",
+      "A six-headed Kartikeya with a peacock"
+     ],
+     "answer": 3,
+     "explanation": "Yaudheya copper coins depict six-headed Kartikeya with a peacock."
     }
    ]
   },
@@ -52326,7 +52650,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:02:57+00:00",
+   "generated_at": "2026-09-30T08:03:24+00:00",
    "mcqs": [
     {
      "id": "indian-history-144-2-1",
@@ -52621,6 +52945,104 @@
      ],
      "answer": 3,
      "explanation": "Badami or Vatapi was associated with the Chalukyas, Kanchi with the Pallavas, Tanjore with the Cholas, and the Narmada with the conflict between Pulakeshin II and Harsha."
+    },
+    {
+     "id": "indian-history-144-2-22",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Who was the real founder of the Vatapi Chalukya dynasty?",
+     "options": [
+      "Pulakeshin I",
+      "Kirtivarman I",
+      "Pulakeshin II",
+      "Mangalesha"
+     ],
+     "answer": 0,
+     "explanation": "Pulakeshin I was the real founder of the Vatapi Chalukya dynasty, also known as the Chalukyas of Badami."
+    },
+    {
+     "id": "indian-history-144-2-23",
+     "format": "Direct Recall",
+     "keyword": "Title",
+     "question": "Which title was assumed by Pulakeshin II?",
+     "options": [
+      "Lord of Vatapi",
+      "Vatapikonda",
+      "Kaviraja",
+      "Dakshinapatheshwara"
+     ],
+     "answer": 3,
+     "explanation": "Pulakeshin II bore the title Dakshinapatheshwara, meaning “Lord of the Deccan.”"
+    },
+    {
+     "id": "indian-history-144-2-24",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Inscription",
+     "question": "Which of the following statements regarding the Aihole inscription is incorrect?",
+     "options": [
+      "It is a key source for the history of Pulakeshin II.",
+      "It was written in Prakrit and Southern Brahmi.",
+      "It was composed by Ravikirti.",
+      "It was written in Sanskrit and Southern Brahmi."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the language: the Aihole inscription was written in Sanskrit and Southern Brahmi, not Prakrit and Southern Brahmi."
+    },
+    {
+     "id": "indian-history-144-2-25",
+     "format": "Assertion-Reason",
+     "keyword": "RULER – period – contribution",
+     "question": "Assertion (A): Vikramaditya II defeated the Pallavas three times and captured Kanchi.\nReason (R): Vikramaditya II ruled approximately from 733 to 746 CE.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Vikramaditya II’s period of rule does not explain his victories over the Pallavas."
+    },
+    {
+     "id": "indian-history-144-2-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Place – Associated with",
+     "question": "Consider the following statements:\nStatement A: The inscription concerning land-grant practices was discovered at Madapura Lake in Davangere.\nStatement B: The inscription is associated with Vikramaditya I.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A 7th-century inscription associated with Vikramaditya I was discovered at Madapura Lake, Davangere, and concerns land-grant practices."
+    },
+    {
+     "id": "indian-history-144-2-27",
+     "format": "List-Matching",
+     "keyword": "Architecture",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Badami\n(b) Aihole\n(c) Pattadakal\n(d) Vesara\n\nList-II\n(i) Hybrid of Nagara and Dravida\n(ii) Rock-cut caves\n(iii) Experimental or early temple architecture\n(iv) Synthesis of Nagara and Dravida styles",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Badami is associated with rock-cut caves; Aihole with experimental or early temple architecture; Pattadakal with the synthesis of Nagara and Dravida; and Vesara with the hybrid style."
+    },
+    {
+     "id": "indian-history-144-2-28",
+     "format": "Direct Recall",
+     "keyword": "Queen – Contribution",
+     "question": "Which of the following correctly describes Vijaya Bhattarika?",
+     "options": [
+      "She was the queen of Chandraditya who issued two copper plates in her own name and administered the kingdom after her husband’s death.",
+      "She was the sister of Vikramaditya I who recommended a village grant to a Jain monastery.",
+      "She was the queen of Pulakeshin II who received the Persian embassy.",
+      "She was the wife of Narasimhavarman I who captured Vatapi."
+     ],
+     "answer": 0,
+     "explanation": "Vijaya Bhattarika was the queen of Chandraditya, a poetess who issued two copper plates in her own name and administered the kingdom after her husband’s death."
     }
    ]
   },
@@ -53512,6 +53934,331 @@
     }
    ]
   },
+  "148": {
+   "number": 148,
+   "title": "Imperial Cholas: Rule, Culture and Administration",
+   "tracker": {
+    "g1": [
+     "G1-A2"
+    ],
+    "g2": [
+     "G2-S1-MED",
+     "G2-M1A-U1"
+    ]
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-30T08:03:33+00:00",
+   "mcqs": [
+    {
+     "id": "indian-history-148-1",
+     "format": "Direct Recall",
+     "keyword": "Founder – Dynasty",
+     "question": "Who founded the Imperial Chola dynasty by capturing Tanjavur?",
+     "options": [
+      "Parantaka I",
+      "Vijayalaya Chola",
+      "Rajaraja I",
+      "Aditya I"
+     ],
+     "answer": 1,
+     "explanation": "Vijayalaya Chola founded the Imperial Cholas after capturing Tanjavur."
+    },
+    {
+     "id": "indian-history-148-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Empire – Period",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Imperial Cholas flourished approximately from the 9th to the 13th century CE.",
+      "Parantaka I defeated the Pandyas and Sri Lanka.",
+      "Rajaraja I ruled from 985 to 1014 CE.",
+      "Aditya I defeated the Pallava ruler Aparajita and expanded northward."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement alters the period. The Imperial Cholas flourished approximately from the 9th to the 13th century CE, not merely from the 10th to the 13th century."
+    },
+    {
+     "id": "indian-history-148-3",
+     "format": "Assertion-Reason",
+     "keyword": "Conquered",
+     "question": "Assertion (A): Rajendra I completed the Chola conquest of Ceylon.\nReason (R): He captured the southern part of the island and defeated Mahinda V.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Rajendra I completed the conquest of Ceylon by capturing southern Sri Lanka and defeating Mahinda V."
+    },
+    {
+     "id": "indian-history-148-4",
+     "format": "List-Matching",
+     "keyword": "Built – City/Town/Construction",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Brihadeeswara Temple\n b. Gangaikondacholapuram\n c. Airavatesvara Temple\n d. Chola Gangam\n\nList-II\n i. Rajaraja II\n ii. Rajendra I\n iii. Rajaraja I\n iv. Rajendra I",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Brihadeeswara is associated with Rajaraja I; Gangaikondacholapuram and Chola Gangam with Rajendra I; and Airavatesvara with Rajaraja II."
+    },
+    {
+     "id": "indian-history-148-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "TERMS @ administration",
+     "question": "Consider the following statements about Chola administration:\n\nI. Ur denoted ordinary villages.\nII. Sabha denoted Brahmana villages.\nIII. Nagaram denoted merchant towns.\nIV. Variyam denoted the central imperial army.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Ur, Sabha and Nagaram referred respectively to ordinary villages, Brahmana villages and merchant towns. Variyam referred to specialised village committees, not the central imperial army."
+    },
+    {
+     "id": "indian-history-148-6",
+     "format": "Direct Recall",
+     "keyword": "Temple",
+     "question": "In which year was the Brihadeeswara, or Peruvudaiyar, Temple at Thanjavur built?",
+     "options": [
+      "1035 CE",
+      "1025 CE",
+      "949 CE",
+      "1010 CE"
+     ],
+     "answer": 3,
+     "explanation": "The Brihadeeswara Temple at Thanjavur was built by Rajaraja I in 1010 CE."
+    },
+    {
+     "id": "indian-history-148-7",
+     "format": "Count-Based",
+     "keyword": "Conquered",
+     "question": "How many of the following are associated with Rajaraja I?\n\n1. Capture of northern Sri Lanka\n2. Conquest of the Maldives\n3. Construction of Gangaikondacholapuram\n4. Creation of a naval army",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Capture of northern Sri Lanka, conquest of the Maldives and creation of a naval army are associated with Rajaraja I. Gangaikondacholapuram was built by Rajendra I."
+    },
+    {
+     "id": "indian-history-148-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Merchant Guilds",
+     "question": "Consider the following statements:\nStatement A: Ayyavole 500 and Manigramam were Chola merchant guilds.\nStatement B: The Chola maritime network extended from Sri Lanka through the Malay Peninsula and Sumatra to Southeast Asia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ayyavole 500 and Manigramam were merchant guilds, while the Chola maritime network connected Sri Lanka, the Malay Peninsula, Sumatra and Southeast Asia."
+    },
+    {
+     "id": "indian-history-148-9",
+     "format": "Chronological Ordering",
+     "keyword": "Historical Event – Year",
+     "question": "Arrange the following Chola rulers in chronological order of the beginning of their reigns:\n\nA. Rajendra III\nB. Rajaraja I\nC. Kulottunga I\nD. Rajendra I",
+     "options": [
+      "B, D, C, A",
+      "C, D, B, A",
+      "D, B, C, A",
+      "B, C, D, A"
+     ],
+     "answer": 0,
+     "explanation": "The correct sequence is Rajaraja I (985), Rajendra I (1014), Kulottunga I (1070) and Rajendra III (1246)."
+    },
+    {
+     "id": "indian-history-148-10",
+     "format": "Direct Recall",
+     "keyword": "Built – City/Town/Construction",
+     "question": "Who built Gangaikondacholapuram around 1035 CE?",
+     "options": [
+      "Kulottunga I",
+      "Rajaraja I",
+      "Rajendra I",
+      "Rajendra III"
+     ],
+     "answer": 2,
+     "explanation": "Gangaikondacholapuram was built by Rajendra I around 1035 CE."
+    },
+    {
+     "id": "indian-history-148-11",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Abolished",
+     "question": "Which of the following statements is incorrect regarding Kulottunga I?",
+     "options": [
+      "He ruled from 1070 to 1122 CE.",
+      "He abolished tolls.",
+      "He married his daughter to a Sinhala prince.",
+      "He gave complete freedom to Sri Lanka."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect statement alters the direction of the Sri Lankan policy. Kulottunga I gave complete freedom to Sri Lanka, whereas the other three statements are correct."
+    },
+    {
+     "id": "indian-history-148-12",
+     "format": "Assertion-Reason",
+     "keyword": "Inscription",
+     "question": "Assertion (A): Chola inscriptions provide an unusually rich historical record.\nReason (R): Extensive inscriptions were engraved on temple walls.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The extensive temple-wall inscriptions account for the unusually rich historical record associated with the Cholas."
+    },
+    {
+     "id": "indian-history-148-13",
+     "format": "List-Matching",
+     "keyword": "Battle",
+     "question": "Match the Chola rulers with the associated events:\n\nList-I\n a. Aditya I\n b. Parantaka I\n c. Rajendra I\n d. Kulottunga I\n\nList-II\n i. Naval expedition against Kadaram and Srivijaya\n ii. Abolition of tolls\n iii. Defeat of Pallava Aparajita\n iv. Loss at Thakkolam to the Rashtrakutas\n\nOptions:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Aditya I defeated Pallava Aparajita; Parantaka I lost at Thakkolam; Rajendra I conducted the expedition against Kadaram and Srivijaya; and Kulottunga I abolished tolls."
+    },
+    {
+     "id": "indian-history-148-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Architecture",
+     "question": "Consider the following statements about Chola cultural achievements:\n\nI. Chola architecture followed the Dravida style.\nII. Chola bronzes were made using the lost-wax technique.\nIII. Nataraja is associated with Chola bronze sculpture.\nIV. Chola rulers patronised both Tamil and Sanskrit literature.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Chola culture included Dravida architecture, lost-wax bronze sculpture featuring Nataraja, and patronage of Tamil and Sanskrit literature."
+    },
+    {
+     "id": "indian-history-148-15",
+     "format": "Direct Recall",
+     "keyword": "Inscription",
+     "question": "The Thanjavur inscription of Rajaraja I records his military achievement against which naval force at Kandallur?",
+     "options": [
+      "Rashtrakuta naval force",
+      "Chera naval force",
+      "Pallava naval force",
+      "Sinhala naval force"
+     ],
+     "answer": 1,
+     "explanation": "The Thanjavur inscription records Rajaraja I’s defeat of the Chera naval force at Kandallur."
+    },
+    {
+     "id": "indian-history-148-16",
+     "format": "List-Matching",
+     "keyword": "Historical Event – Year",
+     "question": "Match the event with its date:\n\nList-I\n a. Battle of Thakkolam\n b. Brihadeeswara Temple\n c. Naval expedition against Kadaram and Srivijaya\n d. Construction of Gangaikondacholapuram\n\nList-II\n i. 1010 CE\n ii. 949 CE\n iii. c. 1035 CE\n iv. 1025 CE\n\nOptions:",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The Battle of Thakkolam occurred in 949, Brihadeeswara was built in 1010, Rajendra’s naval expedition took place in 1025, and Gangaikondacholapuram was built around 1035."
+    },
+    {
+     "id": "indian-history-148-17",
+     "format": "Count-Based",
+     "keyword": "Religion/Arts",
+     "question": "How many of the following are associated with Chola religious and artistic institutions?\n\n1. Shaivism\n2. Temple institutions\n3. Music and dance\n4. Festivals",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four are associated with Chola religion and arts. Shaivism and temple institutions supported music, dance and festivals."
+    },
+    {
+     "id": "indian-history-148-18",
+     "format": "Assertion-Reason",
+     "keyword": "Defeated",
+     "question": "Assertion (A): The Rashtrakutas were eventually overthrown by the Kalyani Chalukyas.\nReason (R): Tailapa II led the Kalyani Chalukyas in 973 CE.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Rashtrakutas were eventually overthrown by the Kalyani Chalukyas under Tailapa II in 973 CE."
+    },
+    {
+     "id": "indian-history-148-19",
+     "format": "Direct Recall",
+     "keyword": "Book",
+     "question": "Who composed Ramavataram?",
+     "options": [
+      "Rajaraja I",
+      "Tailapa II",
+      "Kamban",
+      "Rajendra I"
+     ],
+     "answer": 2,
+     "explanation": "Kamban composed Ramavataram, reflecting the literary tradition patronised under the Cholas."
+    },
+    {
+     "id": "indian-history-148-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Village Administration",
+     "question": "Consider the following statements:\nStatement A: The Chola village administrative sequence was Mandalam, Kottam or Valanadu, Nadu and Ur.\nStatement B: The Kudavolai system was associated with village self-government at Uttaramerur.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Chola village administration proceeded through Mandalam, Kottam or Valanadu, Nadu and Ur, while Uttaramerur is associated with the Kudavolai system of village self-government."
+    },
+    {
+     "id": "indian-history-148-21",
+     "format": "Direct Recall",
+     "keyword": "Village Administration",
+     "question": "What were the specialized village committees in the Chola administrative system called?",
+     "options": [
+      "Ur",
+      "Nagaram",
+      "Sabha",
+      "Variyam"
+     ],
+     "answer": 3,
+     "explanation": "Variyam denoted the specialized village committees in the Chola administrative system."
+    },
+    {
+     "id": "indian-history-148-22",
+     "format": "Assertion-Reason",
+     "keyword": "Navy",
+     "question": "Assertion (A): Rajaraja I is credited as the first Chola king with creating a Naval Army.\nReason (R): Rajaraja I was associated with major imperial expansion.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Rajaraja I is credited with creating a Naval Army and is also noted for major imperial expansion, but the latter does not explain the specific attribution of Naval Army creation."
+    }
+   ]
+  },
   "149": {
    "number": 149,
    "title": "Hoysala Dynasty and Architecture",
@@ -53820,7 +54567,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:02:58+00:00",
+   "generated_at": "2026-09-30T08:03:13+00:00",
    "mcqs": [
     {
      "id": "indian-history-149-2-1",
@@ -54073,6 +54820,20 @@
      ],
      "answer": 2,
      "explanation": "The first three pairs are correct. Kanchi was associated with the Pallavas, not the Pandyas."
+    },
+    {
+     "id": "indian-history-149-2-19",
+     "format": "Direct Recall",
+     "keyword": "Empire – Period",
+     "question": "The Yadava Dynasty of Devagiri flourished from which period?",
+     "options": [
+      "11th century to the early 13th century",
+      "13th century to the late 15th century",
+      "12th century to the mid-14th century",
+      "10th century to the mid-12th century"
+     ],
+     "answer": 2,
+     "explanation": "The Yadava Dynasty of Devagiri is dated from the 12th century to the mid-14th century. The more specific period of around 1187–1317 AD is also associated with their rule in western India."
     }
    ]
   },
