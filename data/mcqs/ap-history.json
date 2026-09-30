@@ -706,7 +706,10 @@
       "Vasanta Raju"
      ],
      "answer": 0,
-     "explanation": "Bezawada Gopala Reddy was the last Chief Minister of Andhra State."
+     "explanation": "Bezawada Gopala Reddy was the last Chief Minister of Andhra State.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-history-2-2",
@@ -720,7 +723,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The merger of Andhra State to form Andhra Pradesh in 1956 explains the end of Bezawada Gopala Reddy’s tenure as its Chief Minister."
+     "explanation": "Both statements are true. The merger of Andhra State to form Andhra Pradesh in 1956 explains the end of Bezawada Gopala Reddy’s tenure as its Chief Minister.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "ap-history-2-3",
@@ -734,7 +741,12 @@
       "Pulomavi III was regarded as the last ruler of the Satavahanas according to the Puranas."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Errana was the last king of the Eastern Chalukyas. The correct name is Vijayaditya VII; Errana was the last poet of the Kavitrayam."
+     "explanation": "The incorrect statement is that Errana was the last king of the Eastern Chalukyas. The correct name is Vijayaditya VII; Errana was the last poet of the Kavitrayam.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "ap-history-2-4",
@@ -748,7 +760,10 @@
       "Errana"
      ],
      "answer": 1,
-     "explanation": "According to the Puranas, Pulomavi III was the last ruler of the Satavahanas."
+     "explanation": "According to the Puranas, Pulomavi III was the last ruler of the Satavahanas.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "ap-history-2-5",
@@ -762,9 +777,19 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Vasanta Raju was the last Reddy king, while Errana was the last poet of the Kavitrayam and the court poet of Prolaya Vema Reddy."
+     "explanation": "Both statements are true. Vasanta Raju was the last Reddy king, while Errana was the last poet of the Kavitrayam and the court poet of Prolaya Vema Reddy.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 8,
+    "covered": 8,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -1453,7 +1478,10 @@
       "Cave No. 10"
      ],
      "answer": 3,
-     "explanation": "The notes state that the “Swetagaja Jataka” painting can be seen in Ajanta Cave No. 10."
+     "explanation": "The notes state that the “Swetagaja Jataka” painting can be seen in Ajanta Cave No. 10.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-history-4-2",
@@ -1467,7 +1495,13 @@
       "Bhairavakonda has eight caves."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Bhairavakonda was a centre for the Rajagirika school of Buddhists. The notes associate Bhairavakonda with Nellore district, eight caves and Saivism; Guntupalli was the centre for the Rajagirika school."
+     "explanation": "The incorrect statement is that Bhairavakonda was a centre for the Rajagirika school of Buddhists. The notes associate Bhairavakonda with Nellore district, eight caves and Saivism; Guntupalli was the centre for the Rajagirika school.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-4-3",
@@ -1481,7 +1515,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the issuer and period do not explain why the inscription mentions Gautamiputra Satakarni’s military achievements."
+     "explanation": "Both statements are true according to the notes. However, the issuer and period do not explain why the inscription mentions Gautamiputra Satakarni’s military achievements.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-history-4-4",
@@ -1495,7 +1533,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Ajanta–“Swetagaja Jataka” painting, Nasik–Nasik Cave Inscription, Bhairavakonda–eight caves and centre of Saivism, and Guntupalli–Rajagirika school of Buddhists."
+     "explanation": "The correct pairs are Ajanta–“Swetagaja Jataka” painting, Nasik–Nasik Cave Inscription, Bhairavakonda–eight caves and centre of Saivism, and Guntupalli–Rajagirika school of Buddhists.",
+     "facts": [
+      "F2",
+      "F3",
+      "F7",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-4-5",
@@ -1509,7 +1554,11 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct: Guntupalli is near Kamavarapukota in Eluru district. The notes associate the centre of Saivism with Bhairavakonda, not Guntupalli, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct: Guntupalli is near Kamavarapukota in Eluru district. The notes associate the centre of Saivism with Bhairavakonda, not Guntupalli, so Statement III is incorrect.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-4-6",
@@ -1523,7 +1572,11 @@
       "Nasik"
      ],
      "answer": 1,
-     "explanation": "Bhairavakonda, located in Nellore district, has eight caves and was a centre of Saivism."
+     "explanation": "Bhairavakonda, located in Nellore district, has eight caves and was a centre of Saivism.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-history-4-7",
@@ -1537,7 +1590,10 @@
       "Vasishtiputra school"
      ],
      "answer": 1,
-     "explanation": "Guntupalli was a centre for the Rajagirika school of Buddhists."
+     "explanation": "Guntupalli was a centre for the Rajagirika school of Buddhists.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "ap-history-4-8",
@@ -1551,7 +1607,10 @@
       "Nellore district"
      ],
      "answer": 3,
-     "explanation": "Bhairavakonda is located in Nellore district."
+     "explanation": "Bhairavakonda is located in Nellore district.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "ap-history-4-9",
@@ -1565,7 +1624,10 @@
       "Nasik"
      ],
      "answer": 0,
-     "explanation": "Guntupalli is near Kamavarapukota."
+     "explanation": "Guntupalli is near Kamavarapukota.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "ap-history-4-10",
@@ -1579,7 +1641,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the number of caves does not explain Bhairavakonda's association with Saivism."
+     "explanation": "Both statements are true, but the number of caves does not explain Bhairavakonda's association with Saivism.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-history-4-11",
@@ -1593,7 +1659,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Guntupalli is in Eluru district, while Bhairavakonda is in Nellore district."
+     "explanation": "Guntupalli is in Eluru district, while Bhairavakonda is in Nellore district.",
+     "facts": [
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-4-12",
@@ -1607,7 +1677,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct: Bhairavakonda had eight caves and was a Saivite centre, while Guntupalli was associated with the Rajagirika school of Buddhists."
+     "explanation": "All three statements are correct: Bhairavakonda had eight caves and was a Saivite centre, while Guntupalli was associated with the Rajagirika school of Buddhists.",
+     "facts": [
+      "F7",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-4-13",
@@ -1621,7 +1696,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Ajanta–Swetagaja Jataka painting, Nasik Cave Inscription–Gautami Balasri, Bhairavakonda–eight caves, and Guntupalli–Rajagirika school of Buddhists."
+     "explanation": "The correct pairs are Ajanta–Swetagaja Jataka painting, Nasik Cave Inscription–Gautami Balasri, Bhairavakonda–eight caves, and Guntupalli–Rajagirika school of Buddhists.",
+     "facts": [
+      "F2",
+      "F4",
+      "F7",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-4-14",
@@ -1635,7 +1716,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "Ajanta is associated with Cave No. 10, the Nasik inscription with Gautamiputra Satakarni's military achievements, Bhairavakonda with Nellore district, and Guntupalli with Eluru district."
+     "explanation": "Ajanta is associated with Cave No. 10, the Nasik inscription with Gautamiputra Satakarni's military achievements, Bhairavakonda with Nellore district, and Guntupalli with Eluru district.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-4-15",
@@ -1649,7 +1736,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three statements are correct. The fourth is incorrect because Guntupalli is in Eluru district."
+     "explanation": "The first three statements are correct. The fourth is incorrect because Guntupalli is in Eluru district.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-4-16",
@@ -1663,7 +1756,11 @@
       "It mentions the military achievements of Gautamiputra Satakarni."
      ],
      "answer": 2,
-     "explanation": "The altered detail is the issuer. The inscription was issued by Gautami Balasri, not by Gautamiputra Satakarni."
+     "explanation": "The altered detail is the issuer. The inscription was issued by Gautami Balasri, not by Gautamiputra Satakarni.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-history-4-17",
@@ -1677,7 +1774,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the period of issue does not explain the inscription's connection with Gautami Balasri as its issuer."
+     "explanation": "Both statements are true, but the period of issue does not explain the inscription's connection with Gautami Balasri as its issuer.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-history-4-18",
@@ -1691,7 +1791,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "The Swetagaja Jataka painting is associated with Ajanta Cave No. 10. The Nasik Cave Inscription is associated with Nasik, not Ajanta Cave No. 10."
+     "explanation": "The Swetagaja Jataka painting is associated with Ajanta Cave No. 10. The Nasik Cave Inscription is associated with Nasik, not Ajanta Cave No. 10.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "ap-history-4-19",
@@ -1705,7 +1809,11 @@
       "I, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Vasishtiputra Pulomavi is given as the period during which it was issued, not as its issuer."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Vasishtiputra Pulomavi is given as the period during which it was issued, not as its issuer.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-history-4-20",
@@ -1719,9 +1827,17 @@
       "Ajanta"
      ],
      "answer": 1,
-     "explanation": "The Nasik Cave Inscription is associated with the Nasik site."
+     "explanation": "The Nasik Cave Inscription is associated with the Nasik site.",
+     "facts": [
+      "F3"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -5322,7 +5438,8 @@
       "F7",
       "F8",
       "F10",
-      "F11"
+      "F11",
+      "F9"
      ]
     },
     {
@@ -5340,7 +5457,8 @@
      "explanation": "Putti was a Wahindi cess levied on dry lands, whereas Pullari was a Kakatiya tax levied on grass.",
      "facts": [
       "F10",
-      "F12"
+      "F12",
+      "F9"
      ]
     },
     {
@@ -5357,7 +5475,8 @@
      "answer": 3,
      "explanation": "The notes associate Putti with the Wahindi context.",
      "facts": [
-      "F8"
+      "F8",
+      "F9"
      ]
     },
     {
@@ -5376,7 +5495,8 @@
      "facts": [
       "F5",
       "F6",
-      "F8"
+      "F8",
+      "F9"
      ]
     },
     {
@@ -5490,8 +5610,30 @@
       "F11",
       "F12"
      ]
+    },
+    {
+     "id": "ap-history-13-21",
+     "format": "Direct Recall",
+     "keyword": "Administration",
+     "question": "In the Kakatiya context, Ayagarlu were identified as which of the following?",
+     "options": [
+      "Officials associated with tax on wetlands",
+      "Officials who enjoyed land without any cess or tax",
+      "Officials who levied taxes based on the Karanam’s assessment",
+      "Farmers who paid taxes"
+     ],
+     "answer": 1,
+     "explanation": "Ayagarlu were Kakatiya officials who enjoyed land without any cess or tax.",
+     "facts": [
+      "F19"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -9591,8 +9733,47 @@
       "F12",
       "F15"
      ]
+    },
+    {
+     "id": "ap-history-23-20",
+     "format": "Direct Recall",
+     "keyword": "Traveller – nationality",
+     "question": "Which of the following correctly describes Nuniz?",
+     "options": [
+      "A Chinese traveller",
+      "A ruler of Vijayanagara",
+      "An Italian traveller",
+      "A traveller of the 17th century"
+     ],
+     "answer": 2,
+     "explanation": "Nuniz was an Italian traveller. The notes separately identify Itsing as Chinese and Tavernier as belonging to the 17th century.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "ap-history-23-21",
+     "format": "Direct Recall",
+     "keyword": "Traveller – period",
+     "question": "Itsing belonged to which era?",
+     "options": [
+      "Post-Satavahana era",
+      "Reign of Devaraya I",
+      "17th century",
+      "Kakatiya period"
+     ],
+     "answer": 0,
+     "explanation": "Itsing belonged to the post-Satavahana era. The other periods are associated in the notes with Marco Polo, Nicolo Conti and Tavernier respectively.",
+     "facts": [
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "23-2": {
    "number": 23,
@@ -9622,7 +9803,10 @@
       "Babur"
      ],
      "answer": 3,
-     "explanation": "Babur is identified as a contemporary of Sri Krishnadevaraya."
+     "explanation": "Babur is identified as a contemporary of Sri Krishnadevaraya.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-history-23-2-2",
@@ -9636,7 +9820,15 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Brahmo Samaj (combined AP)—Kandukuri Veeresalingam; Brahma Samaj (spread in Andhra)—R. Venkataratnam; Dasa Samaj—Brahma Naidu; Fort St. George—English at Madrasapatnam."
+     "explanation": "The correct pairs are: Brahmo Samaj (combined AP)—Kandukuri Veeresalingam; Brahma Samaj (spread in Andhra)—R. Venkataratnam; Dasa Samaj—Brahma Naidu; Fort St. George—English at Madrasapatnam.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "ap-history-23-2-3",
@@ -9650,7 +9842,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true. The reason is false because the English built Fort St. George at Madrasapatnam; the notes do not attribute Udayagiri Fort to them."
+     "explanation": "The assertion is true. The reason is false because the English built Fort St. George at Madrasapatnam; the notes do not attribute Udayagiri Fort to them.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "ap-history-23-2-4",
@@ -9664,7 +9860,11 @@
       "Swayambhu Devalayam was built inside Warangal Fort by Prola Raju-II."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is option 4. The builder was altered from Prola Raju-II to Sri Krishnadevaraya; Prola Raju-II built Swayambhu Devalayam and Kesavalayam inside Warangal Fort."
+     "explanation": "The incorrect statement is option 4. The builder was altered from Prola Raju-II to Sri Krishnadevaraya; Prola Raju-II built Swayambhu Devalayam and Kesavalayam inside Warangal Fort.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "ap-history-23-2-5",
@@ -9678,7 +9878,10 @@
       "Pedakomati Vema Reddy"
      ],
      "answer": 2,
-     "explanation": "The contemporary association given for Annamayya is Saluva Narasimha Raya."
+     "explanation": "The contemporary association given for Annamayya is Saluva Narasimha Raya.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-history-23-2-6",
@@ -9692,7 +9895,10 @@
       "Srinatha"
      ],
      "answer": 2,
-     "explanation": "The contemporary pairing given is Kharavela–Hala."
+     "explanation": "The contemporary pairing given is Kharavela–Hala.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-history-23-2-7",
@@ -9706,7 +9912,10 @@
       "Saluva Narasimha Raya"
      ],
      "answer": 0,
-     "explanation": "The notes pair Hastivarma (Salankayana) with Samudragupta."
+     "explanation": "The notes pair Hastivarma (Salankayana) with Samudragupta.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "ap-history-23-2-8",
@@ -9720,7 +9929,10 @@
       "Pedakomati Vema Reddy"
      ],
      "answer": 3,
-     "explanation": "Potana is paired with Pedakomati Vema Reddy as a contemporary."
+     "explanation": "Potana is paired with Pedakomati Vema Reddy as a contemporary.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "ap-history-23-2-9",
@@ -9734,7 +9946,10 @@
       "Annamayya"
      ],
      "answer": 1,
-     "explanation": "The notes identify Srinatha as a contemporary of Potana."
+     "explanation": "The notes identify Srinatha as a contemporary of Potana.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "ap-history-23-2-10",
@@ -9748,7 +9963,11 @@
       "Brahma Naidu"
      ],
      "answer": 1,
-     "explanation": "Kandukuri Veeresalingam is given as the founder of the Brahmo Samaj in combined Andhra Pradesh."
+     "explanation": "Kandukuri Veeresalingam is given as the founder of the Brahmo Samaj in combined Andhra Pradesh.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-history-23-2-11",
@@ -9762,7 +9981,11 @@
       "Brahma Naidu"
      ],
      "answer": 1,
-     "explanation": "R. Venkataratnam was responsible for spreading the idea of the Brahma Samaj in Andhra."
+     "explanation": "R. Venkataratnam was responsible for spreading the idea of the Brahma Samaj in Andhra.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-23-2-12",
@@ -9776,7 +9999,10 @@
       "Brahma Naidu"
      ],
      "answer": 3,
-     "explanation": "The Dasa Samaj was established in Andhra by Brahma Naidu."
+     "explanation": "The Dasa Samaj was established in Andhra by Brahma Naidu.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "ap-history-23-2-13",
@@ -9790,7 +10016,11 @@
       "Kandukuri Veeresalingam"
      ],
      "answer": 0,
-     "explanation": "Prola Raju-II built the Swayambhu Devalayam and Kesavalayam inside Warangal Fort."
+     "explanation": "Prola Raju-II built the Swayambhu Devalayam and Kesavalayam inside Warangal Fort.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "ap-history-23-2-14",
@@ -9804,7 +10034,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the role of R. Venkataratnam in spreading the Brahma Samaj does not explain Kandukuri Veeresalingam’s founding of the Brahmo Samaj."
+     "explanation": "Both statements are true, but the role of R. Venkataratnam in spreading the Brahma Samaj does not explain Kandukuri Veeresalingam’s founding of the Brahmo Samaj.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-23-2-15",
@@ -9818,7 +10053,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both Swayambhu Devalayam and Kesavalayam inside Warangal Fort are attributed to Prola Raju-II."
+     "explanation": "Both Swayambhu Devalayam and Kesavalayam inside Warangal Fort are attributed to Prola Raju-II.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "ap-history-23-2-16",
@@ -9832,7 +10071,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three pairings are given: Kharavela–Hala, Hastivarma–Samudragupta and Potana–Pedakomati Vema Reddy."
+     "explanation": "All three pairings are given: Kharavela–Hala, Hastivarma–Samudragupta and Potana–Pedakomati Vema Reddy.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5"
+     ]
     },
     {
      "id": "ap-history-23-2-17",
@@ -9846,7 +10090,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Kharavela–Hala, Hastivarma–Samudragupta, Potana–Pedakomati Vema Reddy and Potana–Srinatha."
+     "explanation": "The correct pairs are Kharavela–Hala, Hastivarma–Samudragupta, Potana–Pedakomati Vema Reddy and Potana–Srinatha.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "ap-history-23-2-18",
@@ -9860,7 +10110,16 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Brahmo Samaj–Kandukuri Veeresalingam, Brahma Samaj–R. Venkataratnam, Dasa Samaj–Brahma Naidu and Warangal Fort temples–Prola Raju-II."
+     "explanation": "The correct pairs are Brahmo Samaj–Kandukuri Veeresalingam, Brahma Samaj–R. Venkataratnam, Dasa Samaj–Brahma Naidu and Warangal Fort temples–Prola Raju-II.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "ap-history-23-2-19",
@@ -9874,7 +10133,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairings are correct according to the given associations."
+     "explanation": "All four pairings are correct according to the given associations.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "ap-history-23-2-20",
@@ -9888,9 +10156,19 @@
       "Prola Raju-II built both these structures inside Warangal Fort."
      ],
      "answer": 2,
-     "explanation": "The altered detail is the fort’s name. The Swayambhu Devalayam and Kesavalayam were built inside Warangal Fort, not Fort St. George."
+     "explanation": "The altered detail is the fort’s name. The Swayambhu Devalayam and Kesavalayam were built inside Warangal Fort, not Fort St. George.",
+     "facts": [
+      "F12",
+      "F14",
+      "F15"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -15038,7 +15316,8 @@
       "F1",
       "F5",
       "F6",
-      "F4"
+      "F4",
+      "F3"
      ]
     },
     {
@@ -15119,7 +15398,8 @@
       "F4",
       "F1",
       "F2",
-      "F6"
+      "F6",
+      "F3"
      ]
     },
     {
@@ -15254,7 +15534,8 @@
       "F6",
       "F11",
       "F4",
-      "F20"
+      "F20",
+      "F3"
      ]
     },
     {
@@ -15366,7 +15647,8 @@
       "F21",
       "F15",
       "F4",
-      "F6"
+      "F6",
+      "F3"
      ]
     },
     {
@@ -15385,10 +15667,16 @@
      "facts": [
       "F11",
       "F6",
-      "F4"
+      "F4",
+      "F3"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "38": {
    "number": 38,
@@ -16034,7 +16322,10 @@
       "It considered them essential for national unity"
      ],
      "answer": 0,
-     "explanation": "The Dhar Commission, in 1948, opined that the creation of linguistic states was a threat to unity."
+     "explanation": "The Dhar Commission, in 1948, opined that the creation of linguistic states was a threat to unity.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-history-40-2",
@@ -16048,7 +16339,13 @@
       "a-iii, b-i, c-ii"
      ],
      "answer": 2,
-     "explanation": "Andhra University was inaugurated on 26 April 1926 at Guntur, Osmania University was established in 1918, and Sri Venkateswara University was founded in 1954 at Tirupathi."
+     "explanation": "Andhra University was inaugurated on 26 April 1926 at Guntur, Osmania University was established in 1918, and Sri Venkateswara University was founded in 1954 at Tirupathi.",
+     "facts": [
+      "F4",
+      "F7",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-40-3",
@@ -16062,7 +16359,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The first Andhra Mahasabha is dated to 1913, and the notes also record the demand for a university for separate Telugu."
+     "explanation": "The first Andhra Mahasabha is dated to 1913, and the notes also record the demand for a university for separate Telugu.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "ap-history-40-4",
@@ -16076,7 +16377,12 @@
       "Errana was associated with the later part of Aranya Parvam of the Mahabharata."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is the third one. L. Linga Raju translated Maxim Gorky’s ‘Mother’ into Telugu, not Tamil."
+     "explanation": "The incorrect statement is the third one. L. Linga Raju translated Maxim Gorky’s ‘Mother’ into Telugu, not Tamil.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "ap-history-40-5",
@@ -16090,7 +16396,10 @@
       "L. Linga Raju"
      ],
      "answer": 2,
-     "explanation": "Errana was associated with the later part of Aranya Parvam of the Mahabharata."
+     "explanation": "Errana was associated with the later part of Aranya Parvam of the Mahabharata.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "ap-history-40-6",
@@ -16104,7 +16413,10 @@
       "Osmania University"
      ],
      "answer": 3,
-     "explanation": "The notes associate the Vandemataram Struggle of 1938 with Osmania University."
+     "explanation": "The notes associate the Vandemataram Struggle of 1938 with Osmania University.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "ap-history-40-7",
@@ -16118,7 +16430,10 @@
       "1918"
      ],
      "answer": 3,
-     "explanation": "Osmania University was established in 1918."
+     "explanation": "Osmania University was established in 1918.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "ap-history-40-8",
@@ -16132,7 +16447,11 @@
       "a-i, b-ii"
      ],
      "answer": 3,
-     "explanation": "L. Linga Raju translated Maxim Gorky’s ‘Mother’ into Telugu, while Errana was associated with the later part of Aranya Parvam of the Mahabharata."
+     "explanation": "L. Linga Raju translated Maxim Gorky’s ‘Mother’ into Telugu, while Errana was associated with the later part of Aranya Parvam of the Mahabharata.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "ap-history-40-9",
@@ -16146,7 +16465,10 @@
       "Gorky"
      ],
      "answer": 0,
-     "explanation": "The translator named in the notes is L. Linga Raju."
+     "explanation": "The translator named in the notes is L. Linga Raju.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "ap-history-40-10",
@@ -16160,7 +16482,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes list the States Reorganisation Commission alongside the Dhar Commission and discuss the Dhar Commission in relation to linguistic states."
+     "explanation": "The notes list the States Reorganisation Commission alongside the Dhar Commission and discuss the Dhar Commission in relation to linguistic states.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "ap-history-40-11",
@@ -16174,7 +16500,10 @@
       "1926"
      ],
      "answer": 3,
-     "explanation": "Andhra University was inaugurated in 1926. The notes specify the date as 26 April 1926."
+     "explanation": "Andhra University was inaugurated in 1926. The notes specify the date as 26 April 1926.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-history-40-12",
@@ -16188,7 +16517,10 @@
       "Hyderabad"
      ],
      "answer": 1,
-     "explanation": "Andhra University was inaugurated at Guntur."
+     "explanation": "Andhra University was inaugurated at Guntur.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-history-40-13",
@@ -16202,7 +16534,27 @@
       "Errana"
      ],
      "answer": 2,
-     "explanation": "C. R. Reddy was the first Vice-Chancellor of Andhra University."
+     "explanation": "C. R. Reddy was the first Vice-Chancellor of Andhra University.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-history-40-14",
+     "format": "Direct Recall",
+     "keyword": "Commission",
+     "question": "In which year was the Dhar Commission constituted?",
+     "options": [
+      "1948",
+      "1918",
+      "1913",
+      "1954"
+     ],
+     "answer": 0,
+     "explanation": "The Dhar Commission was constituted in 1948.",
+     "facts": [
+      "F1"
+     ]
     }
    ]
   },
@@ -16633,7 +16985,11 @@
       "Devinaganika"
      ],
      "answer": 3,
-     "explanation": "Devinaganika was the Satavahana queen who acted as regent during the minority of her son Mallamma."
+     "explanation": "Devinaganika was the Satavahana queen who acted as regent during the minority of her son Mallamma.",
+     "facts": [
+      "F2",
+      "F1"
+     ]
     },
     {
      "id": "ap-history-42-2",
@@ -16647,7 +17003,14 @@
       "Ganapatideva shifted the capital to Warangal in 1254."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the association of Mallamma Devi with Pedakomati Vema Reddy. Mallamma Devi was the Queen of Bobbili during the Bobbili-Vizianagaram battle; Surambika Reddy was the queen of Pedakomati Vema Reddy."
+     "explanation": "The incorrect detail is the association of Mallamma Devi with Pedakomati Vema Reddy. Mallamma Devi was the Queen of Bobbili during the Bobbili-Vizianagaram battle; Surambika Reddy was the queen of Pedakomati Vema Reddy.",
+     "facts": [
+      "F3",
+      "F5",
+      "F18",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "ap-history-42-3",
@@ -16661,7 +17024,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the year of Rudramadevi's accession does not explain her succession to Ganapatideva."
+     "explanation": "Both statements are true according to the notes. However, the year of Rudramadevi's accession does not explain her succession to Ganapatideva.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-42-4",
@@ -16675,7 +17042,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Gautamiputra Satakarni–defeated Nahapana; Ganapatideva–shifted the capital to Warangal; Prolaya Vema Reddy–founder of the Reddy Kingdom; and Hala–title Kavivatsala."
+     "explanation": "The correct pairs are Gautamiputra Satakarni–defeated Nahapana; Ganapatideva–shifted the capital to Warangal; Prolaya Vema Reddy–founder of the Reddy Kingdom; and Hala–title Kavivatsala.",
+     "facts": [
+      "F11",
+      "F13",
+      "F18",
+      "F20"
+     ]
     },
     {
      "id": "ap-history-42-5",
@@ -16689,7 +17062,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes: Virapurushadatta was a popular king during the Golden age of Buddhism, and Surambika Reddy excavated the Santana Sagaram tank."
+     "explanation": "Both statements are directly supported by the notes: Virapurushadatta was a popular king during the Golden age of Buddhism, and Surambika Reddy excavated the Santana Sagaram tank.",
+     "facts": [
+      "F5",
+      "F6",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "ap-history-42-6",
@@ -16703,7 +17082,11 @@
       "Rudramadevi"
      ],
      "answer": 2,
-     "explanation": "Devi Mallamma was the Queen of Bobbili during the Bobbili–Vizianagaram battle of 1757."
+     "explanation": "Devi Mallamma was the Queen of Bobbili during the Bobbili–Vizianagaram battle of 1757.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "ap-history-42-7",
@@ -16717,9 +17100,56 @@
       "Ganapatideva"
      ],
      "answer": 1,
-     "explanation": "Kumaragiri Reddy, a Reddy ruler, was an expert in Bharata Natya."
+     "explanation": "Kumaragiri Reddy, a Reddy ruler, was an expert in Bharata Natya.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "ap-history-42-8",
+     "format": "List-Matching",
+     "keyword": "RULER – period – contribution",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rudramadevi\n(b) Hala\n(c) Virapurushadatta\n(d) Prolaya Vema Reddy\n\nList-II\n(i) Satavahana dynasty\n(ii) Kakatiya dynasty\n(iii) Ikshvaku dynasty\n(iv) Reddy dynasty",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Rudramadevi belonged to the Kakatiya dynasty, Hala and Gautamiputra Satakarni were associated with the Satavahana dynasty, Virapurushadatta belonged to the Ikshvaku dynasty, and Prolaya Vema Reddy belonged to the Reddy dynasty.",
+     "facts": [
+      "F7",
+      "F10",
+      "F14",
+      "F19"
+     ]
+    },
+    {
+     "id": "ap-history-42-9",
+     "format": "Assertion-Reason",
+     "keyword": "Dynasty",
+     "question": "Assertion (A): Gautamiputra Satakarni belonged to the Satavahana dynasty.\nReason (R): Ganapatideva shifted the capital to Warangal in 1254.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Gautamiputra Satakarni belonged to the Satavahana dynasty, while Ganapatideva shifted the capital to Warangal in 1254. The shift of capital does not explain Gautamiputra Satakarni’s dynastic affiliation.",
+     "facts": [
+      "F12",
+      "F17"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "43": {
    "number": 43,
@@ -17202,7 +17632,10 @@
       "Fourfold caste system"
      ],
      "answer": 0,
-     "explanation": "Samayamu was associated with caste associations during the Kakatiya period."
+     "explanation": "Samayamu was associated with caste associations during the Kakatiya period.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-history-45-2",
@@ -17216,7 +17649,10 @@
       "Bhogam"
      ],
      "answer": 1,
-     "explanation": "The notes identify Kayastha as the caste of record-keepers."
+     "explanation": "The notes identify Kayastha as the caste of record-keepers.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-history-45-3",
@@ -17230,7 +17666,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, the fact that Brahmins were a caste of the Satavahanas does not explain the existence of the fourfold caste system."
+     "explanation": "Both statements are given in the notes. However, the fact that Brahmins were a caste of the Satavahanas does not explain the existence of the fourfold caste system.",
+     "facts": [
+      "F5",
+      "F3"
+     ]
     },
     {
      "id": "ap-history-45-4",
@@ -17244,7 +17684,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Nandampudi village–Narayana Bhattu and Rajaraja Narendra; Pantur village–eight Brahmins during Jayavarma's period; Vilasan Grant–Kapaya Nayaka; Land grant to Vishnu–Pedavegi inscription of Nandi Varma-II."
+     "explanation": "The correct pairs are: Nandampudi village–Narayana Bhattu and Rajaraja Narendra; Pantur village–eight Brahmins during Jayavarma's period; Vilasan Grant–Kapaya Nayaka; Land grant to Vishnu–Pedavegi inscription of Nandi Varma-II.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-45-5",
@@ -17258,7 +17704,12 @@
       "Bhogam disappeared from Andhra society due to the efforts of Rajaraja Narendra."
      ],
      "answer": 3,
-     "explanation": "The incorrect statement alters the person associated with the reform. The notes attribute the disappearance of Bhogam from Andhra society to the efforts of Venkataratnam Naidu, not Rajaraja Narendra."
+     "explanation": "The incorrect statement alters the person associated with the reform. The notes attribute the disappearance of Bhogam from Andhra society to the efforts of Venkataratnam Naidu, not Rajaraja Narendra.",
+     "facts": [
+      "F4",
+      "F5",
+      "F2"
+     ]
     },
     {
      "id": "ap-history-45-6",
@@ -17272,7 +17723,10 @@
       "Kayastha"
      ],
      "answer": 1,
-     "explanation": "Bhogam is identified as the caste that disappeared from Andhra society due to the efforts of Venkataratnam Naidu."
+     "explanation": "Bhogam is identified as the caste that disappeared from Andhra society due to the efforts of Venkataratnam Naidu.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-history-45-7",
@@ -17286,7 +17740,10 @@
       "Nandi Varma-II"
      ],
      "answer": 1,
-     "explanation": "Nandampudi village was received by Narayana Bhattu from Rajaraja Narendra."
+     "explanation": "Nandampudi village was received by Narayana Bhattu from Rajaraja Narendra.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "ap-history-45-8",
@@ -17300,7 +17757,10 @@
       "Eight"
      ],
      "answer": 3,
-     "explanation": "Pantur village was granted to eight Brahmins during the Jayavarma period."
+     "explanation": "Pantur village was granted to eight Brahmins during the Jayavarma period.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "ap-history-45-9",
@@ -17314,7 +17774,10 @@
       "Narayana Bhattu"
      ],
      "answer": 2,
-     "explanation": "The Vilasan Grant was issued by Kapaya Nayaka."
+     "explanation": "The Vilasan Grant was issued by Kapaya Nayaka.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "ap-history-45-10",
@@ -17328,7 +17791,10 @@
       "Pedavegi inscription"
      ],
      "answer": 3,
-     "explanation": "The land grant to Vishnu is mentioned in the Pedavegi inscription."
+     "explanation": "The land grant to Vishnu is mentioned in the Pedavegi inscription.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "ap-history-45-11",
@@ -17342,7 +17808,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the efforts of Venkataratnam Naidu are given as the reason for the disappearance of Bhogam from Andhra society."
+     "explanation": "Both statements are true, and the efforts of Venkataratnam Naidu are given as the reason for the disappearance of Bhogam from Andhra society.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-history-45-12",
@@ -17356,7 +17825,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Nandampudi village was received by Narayana Bhattu from Rajaraja Narendra; therefore, the reason correctly explains the assertion."
+     "explanation": "Nandampudi village was received by Narayana Bhattu from Rajaraja Narendra; therefore, the reason correctly explains the assertion.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "ap-history-45-13",
@@ -17370,7 +17842,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported: Pantur village was granted to eight Brahmins in the Jayavarma period, and Kapaya Nayaka issued the Vilasan Grant."
+     "explanation": "Both statements are directly supported: Pantur village was granted to eight Brahmins in the Jayavarma period, and Kapaya Nayaka issued the Vilasan Grant.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-history-45-14",
@@ -17384,7 +17860,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct: Samayamu was linked with Kakatiya caste associations, Kayastha was the caste of record-keepers, and the fourfold caste system existed during Satavahana rule."
+     "explanation": "All three statements are correct: Samayamu was linked with Kakatiya caste associations, Kayastha was the caste of record-keepers, and the fourfold caste system existed during Satavahana rule.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "ap-history-45-15",
@@ -17398,7 +17879,13 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct according to the recorded details of the villages, grant and inscription."
+     "explanation": "All four statements are correct according to the recorded details of the villages, grant and inscription.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-45-16",
@@ -17412,7 +17899,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Nandampudi village–received by Narayana Bhattu; Pantur village–granted to eight Brahmins; Vilasan Grant–issued by Kapaya Nayaka; land grant to Vishnu–mentioned in the Pedavegi inscription."
+     "explanation": "The correct pairs are: Nandampudi village–received by Narayana Bhattu; Pantur village–granted to eight Brahmins; Vilasan Grant–issued by Kapaya Nayaka; land grant to Vishnu–mentioned in the Pedavegi inscription.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-45-17",
@@ -17426,7 +17919,13 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Samayamu–Kakatiya caste associations, Kayastha–record-keepers, Bhogam–disappeared due to Venkataratnam Naidu, and Brahmins–caste of the Satavahanas."
+     "explanation": "The correct pairs are Samayamu–Kakatiya caste associations, Kayastha–record-keepers, Bhogam–disappeared due to Venkataratnam Naidu, and Brahmins–caste of the Satavahanas.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F3"
+     ]
     },
     {
      "id": "ap-history-45-18",
@@ -17440,9 +17939,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the recorded grant details."
+     "explanation": "All four associations are correct according to the recorded grant details.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "46": {
    "number": 46,

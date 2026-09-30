@@ -2403,7 +2403,8 @@
      "explanation": "The incorrect statement alters the order of the last two towns. The notes give the order as Venkatagiri–Badvel–Porumamilla–Giddalur–Markapur.",
      "facts": [
       "F1",
-      "F4"
+      "F4",
+      "F9"
      ]
     },
     {
@@ -2462,8 +2463,30 @@
       "F7",
       "F8"
      ]
+    },
+    {
+     "id": "ap-geography-9-6",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain Passes",
+     "question": "Assertion (A): Ganjikunta acts as a geographical break in the region.\nReason (R): It divides parts of the uplands and lowlands.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ganjikunta acts as a geographical break because it divides parts of the uplands and lowlands in the region.",
+     "facts": [
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 14,
+    "covered": 14,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -2491,7 +2514,10 @@
       "1501 m"
      ],
      "answer": 0,
-     "explanation": "Jindhagada peak has a height of 1690 m and is located at Araku."
+     "explanation": "Jindhagada peak has a height of 1690 m and is located at Araku.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-10-2",
@@ -2505,7 +2531,12 @@
       "a-ii, b-iii, c-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Jindhagada–Araku, Aroma–Chintapalli and Mahendragiri–Ganjam, Odisha."
+     "explanation": "The correct pairs are Jindhagada–Araku, Aroma–Chintapalli and Mahendragiri–Ganjam, Odisha.",
+     "facts": [
+      "F3",
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "ap-geography-10-3",
@@ -2519,7 +2550,15 @@
       "Dolphin Nose is located in Visakhapatnam and has a height of 335 m."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the rock type. The bauxite-bearing highest mountains of the Eastern Ghats are associated with Khondalite rocks, not granite rocks."
+     "explanation": "The incorrect statement alters the rock type. The bauxite-bearing highest mountains of the Eastern Ghats are associated with Khondalite rocks, not granite rocks.",
+     "facts": [
+      "F10",
+      "F15",
+      "F11",
+      "F12",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "ap-geography-10-4",
@@ -2533,7 +2572,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. The lowest-height Eastern Ghats hills merge with Dolphin Nose, while the bauxite-bearing highest mountains are mainly in erstwhile Visakhapatnam and East Godavari."
+     "explanation": "Both statements are correct. The lowest-height Eastern Ghats hills merge with Dolphin Nose, while the bauxite-bearing highest mountains are mainly in erstwhile Visakhapatnam and East Godavari.",
+     "facts": [
+      "F13",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-geography-10-5",
@@ -2547,7 +2592,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Papikonda Ranges are in the Godavari districts and have an average height of 915 m. However, their average height does not explain their location."
+     "explanation": "Both statements are true: the Papikonda Ranges are in the Godavari districts and have an average height of 915 m. However, their average height does not explain their location.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     }
    ]
   },
@@ -4298,7 +4347,10 @@
       "297 persons/km²"
      ],
      "answer": 1,
-     "explanation": "The population density of Andhra Pradesh was 304 persons per square kilometre."
+     "explanation": "The population density of Andhra Pradesh was 304 persons per square kilometre.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "ap-geography-17-2",
@@ -4312,7 +4364,14 @@
       "Andhra Pradesh was the 10th largest state by population in 2011."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the literacy rate. Andhra Pradesh recorded a literacy rate of 67.35%; 72.98% was the All-India literacy rate."
+     "explanation": "The incorrect detail is the literacy rate. Andhra Pradesh recorded a literacy rate of 67.35%; 72.98% was the All-India literacy rate.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F10",
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-17-3",
@@ -4326,7 +4385,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The difference between Andhra Pradesh's 67.35% literacy rate and the All-India rate of 72.98% establishes and explains the assertion."
+     "explanation": "Both statements are true. The difference between Andhra Pradesh's 67.35% literacy rate and the All-India rate of 72.98% establishes and explains the assertion.",
+     "facts": [
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "ap-geography-17-4",
@@ -4340,7 +4403,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The female literacy rate was 59.96%, and the urban population share was 29.47%."
+     "explanation": "Both statements are true. The female literacy rate was 59.96%, and the urban population share was 29.47%.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-geography-17-5",
@@ -4354,9 +4421,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. The listed figures are 9.21%, 17.7%, 4.10%, and 997 females per 1000 males, respectively."
+     "explanation": "All four statements are correct. The listed figures are 9.21%, 17.7%, 4.10%, and 997 females per 1000 males, respectively.",
+     "facts": [
+      "F8",
+      "F9",
+      "F1",
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -4971,8 +5049,52 @@
       "F29",
       "F30"
      ]
+    },
+    {
+     "id": "ap-geography-20-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Soils",
+     "question": "Consider the following statements:\nI. Bajra grows in black soils.\nII. Tobacco grows in black soils.\nIII. Turmeric grows in black soils.\nIV. Chillies grow in black soils.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Bajra, tobacco, turmeric and chillies are all associated with black soils. Therefore, all four statements are correct.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "ap-geography-20-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Soils",
+     "question": "Consider the following statements:\nStatement A: Green gram and horse gram grow in red soils.\nStatement B: Castor grows in red soils.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both green gram and horse gram are listed under crops of red soils, and castor is also associated with red soils.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -5808,7 +5930,11 @@
       "14th"
      ],
      "answer": 0,
-     "explanation": "According to the notes, Andhra Pradesh is the 8th largest state by area, covering 1,62,970 sq km."
+     "explanation": "According to the notes, Andhra Pradesh is the 8th largest state by area, covering 1,62,970 sq km.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-24-2",
@@ -5822,7 +5948,12 @@
       "Nallamala forests are the biggest forest."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the population rank: the notes state that Andhra Pradesh was the 10th largest state according to the 2011 Census figures, not the 9th."
+     "explanation": "The incorrect detail is the population rank: the notes state that Andhra Pradesh was the 10th largest state according to the 2011 Census figures, not the 9th.",
+     "facts": [
+      "F3",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "ap-geography-24-3",
@@ -5836,7 +5967,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, being the biggest river among those born in the Eastern Ghats does not explain why Vamsadhara enters Andhra Pradesh at Pathapatnam."
+     "explanation": "Both statements are given in the notes. However, being the biggest river among those born in the Eastern Ghats does not explain why Vamsadhara enters Andhra Pradesh at Pathapatnam.",
+     "facts": [
+      "F7",
+      "F8",
+      "F6"
+     ]
     },
     {
      "id": "ap-geography-24-4",
@@ -5850,7 +5986,17 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Godavari–iv, Vamsadhara–iii, Hagari–i and Nallamala forests–ii."
+     "explanation": "The correct pairs are Godavari–iv, Vamsadhara–iii, Hagari–i and Nallamala forests–ii.",
+     "facts": [
+      "F4",
+      "F5",
+      "F7",
+      "F8",
+      "F12",
+      "F13",
+      "F6",
+      "F11"
+     ]
     },
     {
      "id": "ap-geography-24-5",
@@ -5864,9 +6010,21 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because Vamsadhara, not Godavari, enters Andhra Pradesh at Pathapatnam."
+     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because Vamsadhara, not Godavari, enters Andhra Pradesh at Pathapatnam.",
+     "facts": [
+      "F8",
+      "F10",
+      "F12",
+      "F9",
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 14,
+    "covered": 14,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -5894,7 +6052,17 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "Jindhagada is listed at 1690 m, Aroma at 1680 m, Mahendragiri at 1501 m, and Dolphin Nose at 335 m."
+     "explanation": "Jindhagada is listed at 1690 m, Aroma at 1680 m, Mahendragiri at 1501 m, and Dolphin Nose at 335 m.",
+     "facts": [
+      "F3",
+      "F6",
+      "F9",
+      "F19",
+      "F1",
+      "F4",
+      "F7",
+      "F18"
+     ]
     },
     {
      "id": "ap-geography-25-2",
@@ -5908,7 +6076,12 @@
       "The highest rainfall district is Visakhapatnam."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of the maximum height of the Eastern Ghats. The notes identify Chintapalli (Paderu), not Visakhapatnam."
+     "explanation": "The incorrect detail is the location of the maximum height of the Eastern Ghats. The notes identify Chintapalli (Paderu), not Visakhapatnam.",
+     "facts": [
+      "F10",
+      "F12",
+      "F11"
+     ]
     },
     {
      "id": "ap-geography-25-3",
@@ -5922,7 +6095,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: Visakhapatnam has the highest rainfall and the highest forest percentage. However, the forest percentage statement does not explain the rainfall ranking."
+     "explanation": "Both statements are given in the notes: Visakhapatnam has the highest rainfall and the highest forest percentage. However, the forest percentage statement does not explain the rainfall ranking.",
+     "facts": [
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "ap-geography-25-4",
@@ -5936,7 +6113,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify Visakhapatnam as the smallest district and YSR Kadapa as the district with the highest forest area."
+     "explanation": "The notes identify Visakhapatnam as the smallest district and YSR Kadapa as the district with the highest forest area.",
+     "facts": [
+      "F14",
+      "F12"
+     ]
     },
     {
      "id": "ap-geography-25-5",
@@ -5950,9 +6131,55 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched according to the notes: Krishna has the least forest area and lowest forest percentage, Anantapur has the lowest rainfall, and Lambasingi has the least temperature."
+     "explanation": "All four pairs are correctly matched according to the notes: Krishna has the least forest area and lowest forest percentage, Anantapur has the lowest rainfall, and Lambasingi has the least temperature.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F20"
+     ]
+    },
+    {
+     "id": "ap-geography-25-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain peak",
+     "question": "Consider the following statements:\nStatement A: Jindhagada, the highest peak in the Eastern Ghats, is located in Araku.\nStatement B: Aroma, the second-highest listed peak, is located in Chintapalli.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Jindhagada is located in Araku, while Aroma is located in Chintapalli.",
+     "facts": [
+      "F2",
+      "F5"
+     ]
+    },
+    {
+     "id": "ap-geography-25-7",
+     "format": "Direct Recall",
+     "keyword": "Mountain peak",
+     "question": "Mahendragiri, the third-highest listed peak of the Eastern Ghats, is located in which place?",
+     "options": [
+      "Araku",
+      "Ganjam, Odisha",
+      "Chintapalli",
+      "Dolphin Nose"
+     ],
+     "answer": 1,
+     "explanation": "Mahendragiri is the third-highest listed peak at 1501 m and is located in Ganjam, Odisha.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -6493,7 +6720,16 @@
       "Transformation of ancient residual rocks into gneiss and schists"
      ],
      "answer": 1,
-     "explanation": "The Deccan Trap was formed by lava outpouring through fissures during the Cretaceous."
+     "explanation": "The Deccan Trap was formed by lava outpouring through fissures during the Cretaceous.",
+     "facts": [
+      "F35",
+      "F3",
+      "F28",
+      "F29",
+      "F30",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "ap-geography-28-2",
@@ -6507,7 +6743,13 @@
       "It is found in Srikakulam and parts of Eluru."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “contains fossils.” The notes state that the Archaean Rock System has no fossils."
+     "explanation": "The incorrect detail is “contains fossils.” The notes state that the Archaean Rock System has no fossils.",
+     "facts": [
+      "F2",
+      "F4",
+      "F3",
+      "F5"
+     ]
     },
     {
      "id": "ap-geography-28-3",
@@ -6521,7 +6763,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: Dharwar consists of transformed ancient residual rocks and is associated with gneiss and schists. The reason does not specifically explain the association of those two rock types."
+     "explanation": "Both statements are given in the notes: Dharwar consists of transformed ancient residual rocks and is associated with gneiss and schists. The reason does not specifically explain the association of those two rock types.",
+     "facts": [
+      "F13",
+      "F12"
+     ]
     },
     {
      "id": "ap-geography-28-4",
@@ -6535,7 +6781,14 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Archaean–Srikakulam and parts of Eluru; Dharwar–erstwhile Vizianagaram, Visakhapatnam and East Godavari; Kurnool–erstwhile Cuddapah and Kurnool; Deccan Trap–Prakasam and Guntur."
+     "explanation": "The correct pairs are: Archaean–Srikakulam and parts of Eluru; Dharwar–erstwhile Vizianagaram, Visakhapatnam and East Godavari; Kurnool–erstwhile Cuddapah and Kurnool; Deccan Trap–Prakasam and Guntur.",
+     "facts": [
+      "F5",
+      "F14",
+      "F27",
+      "F36",
+      "F31"
+     ]
     },
     {
      "id": "ap-geography-28-5",
@@ -6549,9 +6802,90 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All four statements are supported by the notes. The listed resources and associated materials are given for the respective rock systems."
+     "explanation": "All four statements are supported by the notes. The listed resources and associated materials are given for the respective rock systems.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F15",
+      "F28",
+      "F29",
+      "F30",
+      "F32",
+      "F33",
+      "F37"
+     ]
+    },
+    {
+     "id": "ap-geography-28-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rock Systems",
+     "question": "Consider the following statements:\nI. Archaean is a rock system.\nII. Dharwar is a rock system.\nIII. Kadapa is a rock system.\nIV. Kurnool is a rock system.\nV. Deccan Trap is a rock system.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV only",
+      "II, III, IV and V only",
+      "I, II, III, IV and V"
+     ],
+     "answer": 3,
+     "explanation": "Archaean, Dharwar, Kadapa, Kurnool and Deccan Trap are all identified as rock systems.",
+     "facts": [
+      "F1",
+      "F11",
+      "F16",
+      "F25",
+      "F34"
+     ]
+    },
+    {
+     "id": "ap-geography-28-7",
+     "format": "Count-Based",
+     "keyword": "Mineral Resources \u0012 Rock System",
+     "question": "How many of the following are associated with the Kadapa Rock System?\n1. Iron\n2. Manganese\n3. Copper\n4. Cobalt\n5. Nickel\n6. Asbestos\n7. Barytes\n8. Steatite",
+     "options": [
+      "Only five",
+      "Only six",
+      "Only seven",
+      "All eight"
+     ],
+     "answer": 3,
+     "explanation": "All eight listed resources—iron, manganese, copper, cobalt, nickel, asbestos, barytes and steatite—are associated with the Kadapa Rock System.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "ap-geography-28-8",
+     "format": "Direct Recall",
+     "keyword": "Rock System – Key Characteristics",
+     "question": "The Kurnool Rock System consists of which of the following?",
+     "options": [
+      "Lava outpouring through fissures during the Cretaceous",
+      "Transformed ancient residual rocks",
+      "Most ancient, no-fossil rock zone",
+      "Ancient residual rocks"
+     ],
+     "answer": 3,
+     "explanation": "The Kurnool Rock System consists of ancient residual rocks. Transformed ancient residual rocks describe the Dharwar Rock System, while the other options describe the Archaean and Deccan Trap systems respectively.",
+     "facts": [
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 37,
+    "covered": 37,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,

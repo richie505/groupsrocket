@@ -2407,8 +2407,91 @@
       "F4",
       "F24"
      ]
+    },
+    {
+     "id": "environment-10-6",
+     "format": "List-Matching",
+     "keyword": "SDG",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) SDG 2\n(b) SDG 3\n(c) SDG 4\n(d) SDG 5\n\nList-II\n(i) Zero Hunger\n(ii) Good Health & Well-being\n(iii) Quality Education\n(iv) Gender Equality",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "SDG 2 is Zero Hunger, SDG 3 is Good Health & Well-being, SDG 4 is Quality Education, and SDG 5 is Gender Equality.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-10-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "SDG",
+     "question": "Consider the following statements:\n\nI. SDG 7 is Affordable & Clean Energy.\nII. SDG 8 is Decent Work & Economic Growth.\nIII. SDG 9 is Industry, Innovation & Infrastructure.\nIV. SDG 10 is Reduced Inequalities.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements correctly identify SDGs 7, 8, 9 and 10 respectively.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-10-8",
+     "format": "List-Matching",
+     "keyword": "SDG",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) SDG 11\n(b) SDG 12\n(c) SDG 14\n(d) SDG 15\n\nList-II\n(i) Life on Land\n(ii) Responsible Consumption & Production\n(iii) Sustainable Cities & Communities\n(iv) Life Below Water",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "SDG 11 is Sustainable Cities & Communities, SDG 12 is Responsible Consumption & Production, SDG 14 is Life Below Water, and SDG 15 is Life on Land.",
+     "facts": [
+      "F17",
+      "F18",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-10-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "SDG",
+     "question": "Consider the following statements:\n\nStatement A: SDG 15 is Life on Land.\nStatement B: SDG 16 is Peace, Justice & Strong Institutions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: SDG 15 is Life on Land and SDG 16 is Peace, Justice & Strong Institutions.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "11": {
    "number": 11,
@@ -2703,7 +2786,10 @@
       "Assam"
      ],
      "answer": 3,
-     "explanation": "The notes list Kaziranga Tiger Reserve under Assam."
+     "explanation": "The notes list Kaziranga Tiger Reserve under Assam.",
+     "facts": [
+      "F23"
+     ]
     },
     {
      "id": "environment-12-2",
@@ -2717,7 +2803,13 @@
       "Bandipur Tiger Reserve is located in Karnataka."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the second state of Pench from Maharashtra to Telangana. The notes identify Pench as being in Madhya Pradesh and Maharashtra."
+     "explanation": "The incorrect statement alters the second state of Pench from Maharashtra to Telangana. The notes identify Pench as being in Madhya Pradesh and Maharashtra.",
+     "facts": [
+      "F8",
+      "F9",
+      "F19",
+      "F18"
+     ]
     },
     {
      "id": "environment-12-3",
@@ -2731,7 +2823,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Corbett–Uttarakhand, Sariska–Rajasthan, Dampa–Mizoram and Pakke–Arunachal Pradesh."
+     "explanation": "The correct pairs are Corbett–Uttarakhand, Sariska–Rajasthan, Dampa–Mizoram and Pakke–Arunachal Pradesh.",
+     "facts": [
+      "F1",
+      "F3",
+      "F11",
+      "F20"
+     ]
     },
     {
      "id": "environment-12-4",
@@ -2745,7 +2843,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the location of Amrabad does not explain the location of Nagarjunasagar–Srisailam."
+     "explanation": "Both statements are true according to the notes. However, the location of Amrabad does not explain the location of Nagarjunasagar–Srisailam.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "environment-12-5",
@@ -2759,9 +2862,95 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct as listed in the notes: Rajaji–Uttarakhand, Sariska–Rajasthan, Buxa–West Bengal and Dampa–Mizoram."
+     "explanation": "All four statements are correct as listed in the notes: Rajaji–Uttarakhand, Sariska–Rajasthan, Buxa–West Bengal and Dampa–Mizoram.",
+     "facts": [
+      "F2",
+      "F3",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-12-6",
+     "format": "List-Matching",
+     "keyword": "Tiger Reserve → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ranthambore Tiger Reserve\n(b) Bandhavgarh Tiger Reserve\n(c) Kanha Tiger Reserve\n(d) Sanjay-Dubri Tiger Reserve\n\nList-II\n(i) Rajasthan\n(ii) Madhya Pradesh\n(iii) Assam\n(iv) Chhattisgarh",
+     "options": [
+      "a-i, b-ii, c-iii, d-ii",
+      "a-iv, b-ii, c-ii, d-i",
+      "a-ii, b-i, c-ii, d-iv",
+      "a-i, b-ii, c-ii, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Ranthambore is located in Rajasthan. Bandhavgarh, Kanha and Sanjay-Dubri are located in Madhya Pradesh.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-12-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tiger Reserve → Location",
+     "question": "Consider the following statements:\nStatement A: Nameri Tiger Reserve is located in Assam.\nStatement B: Namdapha Tiger Reserve is located in Arunachal Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Nameri is in Assam, while Namdapha is in Arunachal Pradesh.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-12-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tiger Reserve → Location",
+     "question": "Consider the following statements:\nI. Manas Tiger Reserve is located in Assam.\nII. Guru Ghasidas–Tamor Pingla Tiger Reserve is located in Chhattisgarh.\nIII. Srivilliputhur–Megamalai Tiger Reserve is located in Tamil Nadu.\nIV. Orang Tiger Reserve is located in Assam.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Manas and Orang are in Assam, Guru Ghasidas–Tamor Pingla is in Chhattisgarh, and Srivilliputhur–Megamalai is in Tamil Nadu.",
+     "facts": [
+      "F14",
+      "F21",
+      "F22",
+      "F24"
+     ]
+    },
+    {
+     "id": "environment-12-9",
+     "format": "Direct Recall",
+     "keyword": "Tiger Reserve → Location",
+     "question": "Kamlang Tiger Reserve is located in which state?",
+     "options": [
+      "Madhya Pradesh",
+      "Assam",
+      "Tamil Nadu",
+      "Arunachal Pradesh"
+     ],
+     "answer": 3,
+     "explanation": "Kamlang Tiger Reserve is located in Arunachal Pradesh.",
+     "facts": [
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -2789,7 +2978,10 @@
       "National Government Tribunal"
      ],
      "answer": 0,
-     "explanation": "NGT stands for National Green Tribunal."
+     "explanation": "NGT stands for National Green Tribunal.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "environment-13-2",
@@ -2803,7 +2995,14 @@
       "The NGT was established under the NGT Act, 2010."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the Article number. The notes identify Article 21, not Article 28, as the constitutional anchor of the NGT."
+     "explanation": "The incorrect detail is the Article number. The notes identify Article 21, not Article 28, as the constitutional anchor of the NGT.",
+     "facts": [
+      "F3",
+      "F4",
+      "F8",
+      "F12",
+      "F2"
+     ]
     },
     {
      "id": "environment-13-3",
@@ -2817,7 +3016,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, promoting cleanliness of streams and wells is a function of the CPCB, not an explanation of its statutory status under the Water Act, 1974."
+     "explanation": "Both statements are given in the notes. However, promoting cleanliness of streams and wells is a function of the CPCB, not an explanation of its statutory status under the Water Act, 1974.",
+     "facts": [
+      "F13",
+      "F15",
+      "F9"
+     ]
     },
     {
      "id": "environment-13-4",
@@ -2831,7 +3035,14 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: NGT—National Green Tribunal; first Chairperson—Justice Lokeshwar Singh Panta; CPCB—statutory organisation under the Water Act, 1974; NEAA—NEAA Act, 1997."
+     "explanation": "The correct pairs are: NGT—National Green Tribunal; first Chairperson—Justice Lokeshwar Singh Panta; CPCB—statutory organisation under the Water Act, 1974; NEAA—NEAA Act, 1997.",
+     "facts": [
+      "F1",
+      "F8",
+      "F10",
+      "F13",
+      "F9"
+     ]
     },
     {
      "id": "environment-13-5",
@@ -2845,9 +3056,74 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct according to the notes. Improving air quality and controlling pollution is listed under the CPCB, not the NGT."
+     "explanation": "Statements I and II are correct according to the notes. Improving air quality and controlling pollution is listed under the CPCB, not the NGT.",
+     "facts": [
+      "F3",
+      "F5",
+      "F19",
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-13-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "NGT – Functions",
+     "question": "Consider the following statements:\nI. The National Green Tribunal deals with forest conservation.\nII. The National Green Tribunal deals with natural resources.\nIII. The National Green Tribunal deals with environmental cases.\nIV. The National Green Tribunal deals with forest and natural-resource matters.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. The NGT deals with forest conservation, natural resources, environmental cases, and forest and natural-resource matters.",
+     "facts": [
+      "F6",
+      "F7",
+      "F14",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-13-7",
+     "format": "Direct Recall",
+     "keyword": "NGT – Institutional History",
+     "question": "Which body was dissolved after the establishment of the National Green Tribunal?",
+     "options": [
+      "Central Pollution Control Board",
+      "National Environmental Appellate Authority",
+      "National Green Tribunal",
+      "National Environmental Engineering Research Institute"
+     ],
+     "answer": 1,
+     "explanation": "The National Environmental Appellate Authority (NEAA) was dissolved after the establishment of the National Green Tribunal.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-13-8",
+     "format": "Direct Recall",
+     "keyword": "NGT",
+     "question": "Which of the following is an important institutional effect of the National Green Tribunal?",
+     "options": [
+      "It promotes cleanliness of streams and wells",
+      "It serves as a statutory organisation under the Water Act, 1974",
+      "It reduces the litigation burden on higher courts",
+      "It improves air quality and controls pollution"
+     ],
+     "answer": 2,
+     "explanation": "The National Green Tribunal reduces the litigation burden on higher courts. Promotion of cleanliness of streams and wells is associated with the CPCB.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 19,
+    "covered": 19,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -4063,7 +4339,12 @@
       "Forest Survey"
      ],
      "answer": 0,
-     "explanation": "The notes state: “Red Data Book → IUCN” and that it contains lists of threatened plant and animal species."
+     "explanation": "The notes state: “Red Data Book → IUCN” and that it contains lists of threatened plant and animal species.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "environment-19-2",
@@ -4077,7 +4358,13 @@
       "The Himalayan Musk Deer is Endangered."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the status of the Siberian Crane. It is listed as Critically Endangered, not Endangered."
+     "explanation": "The incorrect detail is the status of the Siberian Crane. It is listed as Critically Endangered, not Endangered.",
+     "facts": [
+      "F13",
+      "F14",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "environment-19-3",
@@ -4091,7 +4378,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are directly supported by the notes. However, the fact that the Red Data Book contains lists of threatened species does not explain its association with the IUCN."
+     "explanation": "Both statements are directly supported by the notes. However, the fact that the Red Data Book contains lists of threatened species does not explain its association with the IUCN.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "environment-19-4",
@@ -4105,7 +4397,17 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Red Panda–Endangered, Wild Ass–Near Threatened, Desert Cat–Least Concern, and Chinese Mountain Cat–Vulnerable."
+     "explanation": "The correct pairs are: Red Panda–Endangered, Wild Ass–Near Threatened, Desert Cat–Least Concern, and Chinese Mountain Cat–Vulnerable.",
+     "facts": [
+      "F17",
+      "F18",
+      "F24",
+      "F25",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "environment-19-5",
@@ -4119,9 +4421,59 @@
       "I and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I and III are correct: Not Evaluated is first and Critically Endangered is seventh. Statement II is incorrect because Extinct in the Wild is eighth and Extinct is ninth."
+     "explanation": "Statements I and III are correct: Not Evaluated is first and Critically Endangered is seventh. Statement II is incorrect because Extinct in the Wild is eighth and Extinct is ninth.",
+     "facts": [
+      "F1",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-19-6",
+     "format": "List-Matching",
+     "keyword": "Animal/Bird/New Species/New Discovery",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sociable Lapwing\n(b) Gharial\n(c) Lion-tailed Macaque\n(d) Golden Langur\n\nList-II\n(i) Endangered\n(ii) Critically Endangered\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-ii, b-ii, c-i, d-i",
+      "a-i, b-i, c-ii, d-ii",
+      "a-i, b-ii, c-i, d-ii",
+      "a-ii, b-i, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The Sociable Lapwing and Gharial are Critically Endangered. The Lion-tailed Macaque and Golden Langur are Endangered.",
+     "facts": [
+      "F15",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-19-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "IUCN Species Categories",
+     "question": "Consider the following statements:\n\nI. Data Deficient is an IUCN species category.\nII. The Hoolock Gibbon is Endangered.\nIII. The Asiatic Wild Dog is Endangered.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Data Deficient is listed among the IUCN species categories, while both the Hoolock Gibbon and Asiatic Wild Dog are classified as Endangered.",
+     "facts": [
+      "F2",
+      "F22",
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "20": {
    "number": 20,
@@ -4448,7 +4800,10 @@
       "State-level pollution-control legislation"
      ],
      "answer": 0,
-     "explanation": "The CPCB was constituted in September 1974 under the Water (Prevention and Control of Pollution) Act, 1974."
+     "explanation": "The CPCB was constituted in September 1974 under the Water (Prevention and Control of Pollution) Act, 1974.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "environment-21-2",
@@ -4462,7 +4817,12 @@
       "The CPCB was constituted in September 1974."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the level of functioning. The CPCB functions at the central level, while SPCBs implement pollution-control functions at the state level."
+     "explanation": "The incorrect detail is the level of functioning. The CPCB functions at the central level, while SPCBs implement pollution-control functions at the state level.",
+     "facts": [
+      "F1",
+      "F2",
+      "F6"
+     ]
     },
     {
      "id": "environment-21-3",
@@ -4476,7 +4836,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Maintaining and restoring the wholesomeness of water explains the objective of preventing and controlling water pollution."
+     "explanation": "Both statements are true. Maintaining and restoring the wholesomeness of water explains the objective of preventing and controlling water pollution.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "environment-21-4",
@@ -4490,7 +4856,15 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: CPCB–Central level, SPCBs–State level, Water Act 1974–Prevention and control of water pollution, and Pollution-control Boards–Monitoring water bodies and industrial discharges."
+     "explanation": "The correct pairs are: CPCB–Central level, SPCBs–State level, Water Act 1974–Prevention and control of water pollution, and Pollution-control Boards–Monitoring water bodies and industrial discharges.",
+     "facts": [
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "environment-21-5",
@@ -4504,7 +4878,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. SPCBs perform pollution-control functions at the state level, and the Boards can act against violators."
+     "explanation": "Both statements are true according to the notes. SPCBs perform pollution-control functions at the state level, and the Boards can act against violators.",
+     "facts": [
+      "F7",
+      "F17"
+     ]
     }
    ]
   },
@@ -4534,7 +4912,10 @@
       "Punjab"
      ],
      "answer": 0,
-     "explanation": "The notes identify Kolleru Lake as a wetland located in Andhra Pradesh."
+     "explanation": "The notes identify Kolleru Lake as a wetland located in Andhra Pradesh.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "environment-22-2",
@@ -4548,7 +4929,14 @@
       "Kabartal/Kanwar Lake is located in Begusarai, Bihar."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the State. The notes place Sundarban Wetland in West Bengal, not Odisha."
+     "explanation": "The incorrect detail is the State. The notes place Sundarban Wetland in West Bengal, not Odisha.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "environment-22-3",
@@ -4562,7 +4950,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Chilika Lake–Odisha, Keoladeo–Rajasthan, Wular Lake–J&K, and Loktak Lake–Manipur."
+     "explanation": "The correct pairs are Chilika Lake–Odisha, Keoladeo–Rajasthan, Wular Lake–J&K, and Loktak Lake–Manipur.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "environment-22-4",
@@ -4576,7 +4970,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes, which list microclimate regulation as a function of wetlands."
+     "explanation": "Both statements are directly supported by the notes, which list microclimate regulation as a function of wetlands.",
+     "facts": [
+      "F20"
+     ]
     },
     {
      "id": "environment-22-5",
@@ -4590,9 +4987,57 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed items—flood buffering, water storage, water purification and aquifer recharge—are given as functions of wetlands."
+     "explanation": "All four listed items—flood buffering, water storage, water purification and aquifer recharge—are given as functions of wetlands.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-22-6",
+     "format": "Direct Recall",
+     "keyword": "Wetlands – Location",
+     "question": "Sambhar Lake is located in which State?",
+     "options": [
+      "Rajasthan",
+      "Odisha",
+      "Andhra Pradesh",
+      "Punjab"
+     ],
+     "answer": 0,
+     "explanation": "Sambhar Lake is located in Rajasthan.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "environment-22-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wetlands – Functions",
+     "question": "Consider the following statements regarding the functions of wetlands:\nI. Wetlands control erosion.\nII. Wetlands retain sediment.\nIII. Wetlands support nutrient cycling.\nIV. Wetlands support biodiversity.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and IV only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Wetlands control erosion, retain sediment, support nutrient cycling and support biodiversity. Therefore, all four statements are correct.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,
@@ -5108,7 +5553,10 @@
       "Himachal Pradesh"
      ],
      "answer": 1,
-     "explanation": "The notes list Seshachalam Hills Biosphere Reserve in Andhra Pradesh, established in 2010."
+     "explanation": "The notes list Seshachalam Hills Biosphere Reserve in Andhra Pradesh, established in 2010.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "environment-24-2",
@@ -5122,7 +5570,17 @@
       "Pachmarhi Biosphere Reserve is in Madhya Pradesh and was established in 1999."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year for Kachchh. The notes give its year as 2008, not 2009."
+     "explanation": "The incorrect detail is the year for Kachchh. The notes give its year as 2008, not 2009.",
+     "facts": [
+      "F7",
+      "F8",
+      "F27",
+      "F28",
+      "F33",
+      "F34",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "environment-24-3",
@@ -5136,7 +5594,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are directly supported by the notes. However, the year 1989 does not explain why Great Nicobar is associated with the Andaman & Nicobar region."
+     "explanation": "Both statements are directly supported by the notes. However, the year 1989 does not explain why Great Nicobar is associated with the Andaman & Nicobar region.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "environment-24-4",
@@ -5150,7 +5612,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Nilgiri–TN–Kerala–Karnataka, Gulf of Mannar–Tamil Nadu, Cold Desert–Himachal Pradesh, and Dihang-Dibang–Arunachal Pradesh."
+     "explanation": "The correct pairs are Nilgiri–TN–Kerala–Karnataka, Gulf of Mannar–Tamil Nadu, Cold Desert–Himachal Pradesh, and Dihang-Dibang–Arunachal Pradesh.",
+     "facts": [
+      "F1",
+      "F5",
+      "F29",
+      "F15"
+     ]
     },
     {
      "id": "environment-24-5",
@@ -5164,7 +5632,13 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct according to the notes. Dibru-Saikhowa is listed in Assam, not Meghalaya, so statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct according to the notes. Dibru-Saikhowa is listed in Assam, not Meghalaya, so statement IV is incorrect.",
+     "facts": [
+      "F9",
+      "F11",
+      "F13",
+      "F35"
+     ]
     }
    ]
   },
@@ -6241,8 +6715,49 @@
       "F2",
       "F3"
      ]
+    },
+    {
+     "id": "environment-29-6",
+     "format": "Assertion-Reason",
+     "keyword": "Bio Geo Chemical Cycling/Nutrient Cycling",
+     "question": "Assertion (A): A biogeochemical cycle involves nutrient movement through biotic and abiotic components.\nReason (R): Biotic components are living organisms, while abiotic components comprise the non-living environment.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "A biogeochemical cycle involves nutrient movement through both biotic and abiotic components. The reason explains these two components as living organisms and the non-living environment.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "environment-29-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Bio Geo Chemical Cycling/Nutrient Cycling",
+     "question": "Consider the following statements:\nI. Respiration releases CO₂.\nII. Decay releases CO₂.\nIII. Fossil-fuel combustion releases CO₂.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify respiration, decay and fossil-fuel combustion as processes that release CO₂. Therefore, all three statements are correct.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 13,
+    "covered": 13,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -6423,7 +6938,13 @@
       "Pyramid of Biomass"
      ],
      "answer": 1,
-     "explanation": "The pyramid of energy is always upright. The notes state that energy decreases at successive trophic levels."
+     "explanation": "The pyramid of energy is always upright. The notes state that energy decreases at successive trophic levels.",
+     "facts": [
+      "F7",
+      "F3",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "environment-31-2",
@@ -6437,7 +6958,14 @@
       "The biomass pyramid in a grassland is upright."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement concerns the marine ecosystem. The biomass pyramid in a marine ecosystem is inverted, not upright."
+     "explanation": "The incorrect statement concerns the marine ecosystem. The biomass pyramid in a marine ecosystem is inverted, not upright.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F5"
+     ]
     },
     {
      "id": "environment-31-3",
@@ -6451,7 +6979,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify heat loss and the 10% energy transfer law as the main reason energy decreases upward."
+     "explanation": "Both statements are true. The notes identify heat loss and the 10% energy transfer law as the main reason energy decreases upward.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "environment-31-4",
@@ -6465,7 +6997,14 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: 1st trophic level–Producers, 2nd–Primary consumers, 3rd–Secondary consumers, and 4th–Tertiary/top carnivores."
+     "explanation": "The correct pairs are: 1st trophic level–Producers, 2nd–Primary consumers, 3rd–Secondary consumers, and 4th–Tertiary/top carnivores.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F14"
+     ]
     },
     {
      "id": "environment-31-5",
@@ -6479,9 +7018,37 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because the pyramid of energy is always upright."
+     "explanation": "Statements I and II are correct according to the notes. Statement III is incorrect because the pyramid of energy is always upright.",
+     "facts": [
+      "F2",
+      "F4",
+      "F7",
+      "F6"
+     ]
+    },
+    {
+     "id": "environment-31-6",
+     "format": "Direct Recall",
+     "keyword": "Ecological Pyramids",
+     "question": "What does an ecological pyramid represent in an ecosystem?",
+     "options": [
+      "Energy at each trophic level only",
+      "Trophic-level relationships",
+      "Biomass at each trophic level only",
+      "The number of organisms only"
+     ],
+     "answer": 1,
+     "explanation": "An ecological pyramid represents trophic-level relationships in an ecosystem. Numbers, biomass and energy are represented through specific types of ecological pyramids.",
+     "facts": [
+      "F1"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,
@@ -6509,7 +7076,10 @@
       "1976"
      ],
      "answer": 1,
-     "explanation": "The notes state that the Chipko Movement, a forest conservation movement, started in 1973."
+     "explanation": "The notes state that the Chipko Movement, a forest conservation movement, started in 1973.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "environment-32-2",
@@ -6523,7 +7093,14 @@
       "The Appiko Movement was associated with Karnataka."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the place. The Silent Valley Movement was associated with Kerala, not Uttarakhand."
+     "explanation": "The incorrect detail is the place. The Silent Valley Movement was associated with Kerala, not Uttarakhand.",
+     "facts": [
+      "F12",
+      "F16",
+      "F18",
+      "F14",
+      "F3"
+     ]
     },
     {
      "id": "environment-32-3",
@@ -6537,7 +7114,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. Hugging trees to prevent felling was the key action that reflected the movement's forest-conservation objective."
+     "explanation": "Both statements are given in the notes. Hugging trees to prevent felling was the key action that reflected the movement's forest-conservation objective.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "environment-32-4",
@@ -6551,7 +7132,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct associations are Chipko–Gaura Devi, Appiko–P. Hegde, Narmada Bachao–Medha Patkar, and Silent Valley–Dr. Salim Ali."
+     "explanation": "The correct associations are Chipko–Gaura Devi, Appiko–P. Hegde, Narmada Bachao–Medha Patkar, and Silent Valley–Dr. Salim Ali.",
+     "facts": [
+      "F9",
+      "F13",
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "environment-32-5",
@@ -6565,9 +7152,38 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes: Gaura Devi led village women at Raini in 1974, while Sunderlal Bahuguna played a leading role in the Chipko Movement."
+     "explanation": "Both statements are supported by the notes: Gaura Devi led village women at Raini in 1974, while Sunderlal Bahuguna played a leading role in the Chipko Movement.",
+     "facts": [
+      "F5",
+      "F7",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-32-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Environmental Movements",
+     "question": "Consider the following statements:\nI. Chandi Prasad Bhatt was a protagonist and key figure of the Chipko Movement.\nII. Chandi Prasad Bhatt was associated with the Chipko Movement.\nIII. The slogan of the Chipko Movement was “Ecology is permanent economy.”\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Chandi Prasad Bhatt was both associated with the Chipko Movement and identified as its protagonist and key figure; its slogan was “Ecology is permanent economy.”",
+     "facts": [
+      "F6",
+      "F8",
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -7205,7 +7821,15 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Solar and wind are renewable sources, while coal is non-renewable. Petroleum is listed as non-renewable, so Statement IV is incorrect."
+     "explanation": "Solar and wind are renewable sources, while coal is non-renewable. Petroleum is listed as non-renewable, so Statement IV is incorrect.",
+     "facts": [
+      "F12",
+      "F2",
+      "F13",
+      "F4",
+      "F1",
+      "F3"
+     ]
     },
     {
      "id": "environment-35-2",
@@ -7219,7 +7843,14 @@
       "Hydroelectricity is associated with sustainable-development electricity."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that nuclear energy is renewable. The notes classify nuclear energy as non-renewable."
+     "explanation": "The incorrect statement is that nuclear energy is renewable. The notes classify nuclear energy as non-renewable.",
+     "facts": [
+      "F14",
+      "F8",
+      "F4",
+      "F16",
+      "F5"
+     ]
     },
     {
      "id": "environment-35-3",
@@ -7233,7 +7864,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Biomass is identified as renewable organic material, which explains why it is a renewable source."
+     "explanation": "Both statements are true. Biomass is identified as renewable organic material, which explains why it is a renewable source.",
+     "facts": [
+      "F14",
+      "F17",
+      "F5"
+     ]
     },
     {
      "id": "environment-35-4",
@@ -7247,7 +7883,15 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Jatropha—biodiesel crop, Pongamia pinnata—alternative biodiesel plant, Sugarcane—bio-ethanol, and Solar—photovoltaic technology."
+     "explanation": "The correct pairs are Jatropha—biodiesel crop, Pongamia pinnata—alternative biodiesel plant, Sugarcane—bio-ethanol, and Solar—photovoltaic technology.",
+     "facts": [
+      "F18",
+      "F19",
+      "F24",
+      "F25",
+      "F20",
+      "F23"
+     ]
     },
     {
      "id": "environment-35-5",
@@ -7261,7 +7905,10 @@
       "National Biofuel Mission"
      ],
      "answer": 2,
-     "explanation": "The notes specifically associate solar energy with the National Solar Mission. They also mention photovoltaic technology for converting solar energy to electricity."
+     "explanation": "The notes specifically associate solar energy with the National Solar Mission. They also mention photovoltaic technology for converting solar energy to electricity.",
+     "facts": [
+      "F26"
+     ]
     }
    ]
   },

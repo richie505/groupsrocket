@@ -5676,8 +5676,70 @@
       "F17",
       "F22"
      ]
+    },
+    {
+     "id": "indian-society-12-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Social stability",
+     "question": "Consider the following statements:\nStatement A: Social harmony is a key feature of social stability.\nStatement B: Economic security is a key feature of social stability.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both social harmony and economic security are identified as key features of social stability.",
+     "facts": [
+      "F8",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-society-12-7",
+     "format": "Assertion-Reason",
+     "keyword": "Social stability",
+     "question": "Assertion (A): Constitutional values promote social stability.\nReason (R): Democratic institutions promote social stability.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true as separate factors promoting social stability. However, the fact that democratic institutions promote social stability does not explain why constitutional values promote social stability.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-society-12-8",
+     "format": "Count-Based",
+     "keyword": "Social stability",
+     "question": "How many of the following are factors that threaten social stability?\nI. Poverty and unemployment\nII. Casteism\nIII. Communalism\nIV. Social inequality\nV. Gender discrimination",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed factors—poverty and unemployment, casteism, communalism, social inequality, and gender discrimination—threaten social stability.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F24",
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -5856,7 +5918,10 @@
       "Originator of Anomie"
      ],
      "answer": 2,
-     "explanation": "Emile Durkheim is regarded as the Father of Modern Sociology."
+     "explanation": "Emile Durkheim is regarded as the Father of Modern Sociology.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-society-14-2",
@@ -5870,7 +5935,12 @@
       "a-ii, b-iii, c-i"
      ],
      "answer": 1,
-     "explanation": "Social facts are external forces influencing individual behaviour; collective conscience consists of shared beliefs and values; anomie is normlessness caused by rapid social change."
+     "explanation": "Social facts are external forces influencing individual behaviour; collective conscience consists of shared beliefs and values; anomie is normlessness caused by rapid social change.",
+     "facts": [
+      "F7",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-society-14-3",
@@ -5884,7 +5954,12 @@
       "Suicide is an important work of Emile Durkheim."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement names The Social Contract. The works listed for Emile Durkheim are The Division of Labour in Society, Suicide and Rules of Sociological Method."
+     "explanation": "The incorrect statement names The Social Contract. The works listed for Emile Durkheim are The Division of Labour in Society, Suicide and Rules of Sociological Method.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-society-14-4",
@@ -5898,7 +5973,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The condition of normlessness caused by rapid social change is identified with examples such as crime, suicide and social unrest."
+     "explanation": "Both statements are true. The condition of normlessness caused by rapid social change is identified with examples such as crime, suicide and social unrest.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-society-14-5",
@@ -5912,9 +5993,40 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Laws, customs, religion and traditions are examples of social facts. Collective conscience refers instead to shared beliefs and values that unite society, so Statement IV is incorrect."
+     "explanation": "Laws, customs, religion and traditions are examples of social facts. Collective conscience refers instead to shared beliefs and values that unite society, so Statement IV is incorrect.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-society-14-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Emile Durkheim",
+     "question": "Consider the following statements:\nStatement A: Emile Durkheim was born in 1858.\nStatement B: Emile Durkheim died in 1917.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Emile Durkheim was born in 1858 and died in 1917.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -5940,7 +6052,10 @@
       "Founder of the Metaphysical Stage"
      ],
      "answer": 1,
-     "explanation": "The notes identify Auguste Comte as the Father of Sociology."
+     "explanation": "The notes identify Auguste Comte as the Father of Sociology.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-society-15-2",
@@ -5954,7 +6069,15 @@
       "a-i, b-iii, c-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Theological Stage—divine or supernatural forces; Metaphysical Stage—abstract concepts; Positive Stage—scientific explanations."
+     "explanation": "The correct pairs are: Theological Stage—divine or supernatural forces; Metaphysical Stage—abstract concepts; Positive Stage—scientific explanations.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-15-3",
@@ -5968,7 +6091,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, the description of the Positive Stage does not explain the stated basis of knowledge under Positivism."
+     "explanation": "Both statements are given in the notes. However, the description of the Positive Stage does not explain the stated basis of knowledge under Positivism.",
+     "facts": [
+      "F12",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-society-15-4",
@@ -5982,7 +6111,13 @@
       "He was the founder of Positivism."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the motto. The notes give Comte’s motto as “Order and Progress,” not “Order and Equality.”"
+     "explanation": "The incorrect detail is the motto. The notes give Comte’s motto as “Order and Progress,” not “Order and Equality.”",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F17"
+     ]
     },
     {
      "id": "indian-society-15-5",
@@ -5996,9 +6131,19 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true according to the example for the Theological Stage. Statement B is false because atmospheric processes are the example for the Positive Stage; the Metaphysical Stage refers to nature’s force."
+     "explanation": "Statement A is true according to the example for the Theological Stage. Statement B is false because atmospheric processes are the example for the Positive Stage; the Metaphysical Stage refers to nature’s force.",
+     "facts": [
+      "F7",
+      "F10",
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,
@@ -6177,7 +6322,10 @@
       "The occupation obtained through personal effort"
      ],
      "answer": 1,
-     "explanation": "Caste status refers to the social position occupied by an individual within the caste hierarchy."
+     "explanation": "Caste status refers to the social position occupied by an individual within the caste hierarchy.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-society-17-2",
@@ -6191,7 +6339,13 @@
       "It is linked with occupation."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is that caste status is obtained through personal effort. Caste status is determined by birth, whereas status obtained through personal effort is achieved status."
+     "explanation": "The incorrect detail is that caste status is obtained through personal effort. Caste status is determined by birth, whereas status obtained through personal effort is achieved status.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F10"
+     ]
     },
     {
      "id": "indian-society-17-3",
@@ -6205,7 +6359,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Caste is listed as an example of ascribed status, which is obtained by birth."
+     "explanation": "Both statements are true. Caste is listed as an example of ascribed status, which is obtained by birth.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-society-17-4",
@@ -6219,7 +6377,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "Caste and gender are ascribed status examples, while IAS Officer and Doctor are achieved status examples. Therefore, the correct pairs are a-ii, b-iv, c-iii, d-i."
+     "explanation": "Caste and gender are ascribed status examples, while IAS Officer and Doctor are achieved status examples. Therefore, the correct pairs are a-ii, b-iv, c-iii, d-i.",
+     "facts": [
+      "F7",
+      "F8",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-17-5",
@@ -6233,9 +6397,72 @@
       "I, III and IV only"
      ],
      "answer": 0,
-     "explanation": "The notes state that education, urbanization, industrialization, reservation policies and globalization have increased achieved status in modern India. Hence all four statements are correct."
+     "explanation": "The notes state that education, urbanization, industrialization, reservation policies and globalization have increased achieved status in modern India. Hence all four statements are correct.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-society-17-6",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Caste status",
+     "question": "Which of the following statements about caste status is correct?",
+     "options": [
+      "Caste status is determined by birth.",
+      "Caste status is unrelated to occupation.",
+      "Caste status does not affect social prestige.",
+      "Caste status is a temporary social position."
+     ],
+     "answer": 0,
+     "explanation": "Caste status is determined by birth. It is a fixed social position, is linked with occupation, and determines social prestige.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-society-17-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ascribed and Achieved Status",
+     "question": "Consider the following statements:\nStatement A: Family background is an example of ascribed status.\nStatement B: A Scientist is an example of achieved status.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Family background is obtained by birth and is therefore an example of ascribed status. A Scientist is listed as an example of achieved status, which is obtained through personal effort.",
+     "facts": [
+      "F9",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-society-17-8",
+     "format": "Assertion-Reason",
+     "keyword": "Reservation policies and achieved status",
+     "question": "Assertion (A): Reservation policies have increased achieved status in modern India.\nReason (R): Achieved status is obtained through personal effort.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: reservation policies are identified as having increased achieved status in modern India, and achieved status is obtained through personal effort. However, the definition of achieved status does not explain the specific effect of reservation policies.",
+     "facts": [
+      "F17"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -6261,7 +6488,13 @@
       "Marriage within one's own social group"
      ],
      "answer": 3,
-     "explanation": "Endogamy refers to marriage within one's own social group."
+     "explanation": "Endogamy refers to marriage within one's own social group.",
+     "facts": [
+      "F1",
+      "F11",
+      "F13",
+      "F15"
+     ]
     },
     {
      "id": "indian-society-18-2",
@@ -6275,7 +6508,13 @@
       "Endogamy maintains caste boundaries."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “weakens caste boundaries.” The notes state that endogamy maintains caste boundaries."
+     "explanation": "The incorrect detail is “weakens caste boundaries.” The notes state that endogamy maintains caste boundaries.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F2"
+     ]
     },
     {
      "id": "indian-society-18-3",
@@ -6289,7 +6528,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Marriage within one's own social group helps preserve the boundaries of that group, including caste boundaries."
+     "explanation": "Both statements are true. Marriage within one's own social group helps preserve the boundaries of that group, including caste boundaries.",
+     "facts": [
+      "F1",
+      "F6",
+      "F2"
+     ]
     },
     {
      "id": "indian-society-18-4",
@@ -6303,7 +6547,15 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Endogamy—marriage within one's own social group; Exogamy—marriage outside one's own social group; Hypergamy—marriage into a higher caste; Hypogamy—marriage into a lower caste."
+     "explanation": "The correct pairs are: Endogamy—marriage within one's own social group; Exogamy—marriage outside one's own social group; Hypergamy—marriage into a higher caste; Hypogamy—marriage into a lower caste.",
+     "facts": [
+      "F1",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-society-18-5",
@@ -6317,9 +6569,38 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Cultural continuity, social solidarity and preservation of traditions are functions of endogamy. “Controls property transfer” is listed as a feature, not a function."
+     "explanation": "Cultural continuity, social solidarity and preservation of traditions are functions of endogamy. “Controls property transfer” is listed as a feature, not a function.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-society-18-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Endogamy",
+     "question": "Consider the following statements:\nStatement A: Endogamy includes marriage within a tribe.\nStatement B: Endogamy includes marriage within a religion.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Endogamy includes marriage within one’s own social group, including marriage within a tribe and within a religion.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 15,
+    "covered": 15,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -6645,7 +6926,10 @@
       "Only modern census reports and economic surveys"
      ],
      "answer": 0,
-     "explanation": "Indology studies Indian society through ancient texts, scriptures, epics, religious literature, and historical records."
+     "explanation": "Indology studies Indian society through ancient texts, scriptures, epics, religious literature, and historical records.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-society-22-2",
@@ -6659,7 +6943,13 @@
       "It emphasises continuity."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is “economic interpretation.” The notes identify cultural interpretation, not economic interpretation, as a feature of the Indological approach."
+     "explanation": "The incorrect detail is “economic interpretation.” The notes identify cultural interpretation, not economic interpretation, as a feature of the Indological approach.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-society-22-3",
@@ -6673,7 +6963,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The use of historical records explains why the Indological approach has a historical perspective."
+     "explanation": "Both statements are true. The use of historical records explains why the Indological approach has a historical perspective.",
+     "facts": [
+      "F1",
+      "F15"
+     ]
     },
     {
      "id": "indian-society-22-4",
@@ -6687,7 +6981,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes: G.S. Ghurye is the Father of Indian Sociology, while Louis Dumont studied caste through religious and cultural texts."
+     "explanation": "Both statements are true according to the notes: G.S. Ghurye is the Father of Indian Sociology, while Louis Dumont studied caste through religious and cultural texts.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-society-22-5",
@@ -6701,9 +7000,57 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct because the notes list the Vedas, Upanishads and Dharmashastras among the sources. Statement III is incorrect because the Ramayana and Mahabharata are also listed as sources."
+     "explanation": "Statements I, II and IV are correct because the notes list the Vedas, Upanishads and Dharmashastras among the sources. Statement III is incorrect because the Ramayana and Mahabharata are also listed as sources.",
+     "facts": [
+      "F2",
+      "F3",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-society-22-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Indological study of Indian society",
+     "question": "Consider the following statements:\nI. The Indological approach seeks to understand Indian society through the Smritis.\nII. The Indological approach seeks to understand Indian society through the Puranas.\nIII. The Indological approach is limited only to contemporary social surveys.\nIV. The Indological approach is a text-based approach.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, III and IV only",
+      "I and II only",
+      "I, II and IV only"
+     ],
+     "answer": 3,
+     "explanation": "The Indological approach seeks to understand Indian society through the Smritis and Puranas. It is also described as a text-based approach; the claim that it is limited only to contemporary social surveys is incorrect.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-society-22-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Indological study of Indian society",
+     "question": "Consider the following statements:\nStatement A: K.M. Kapadia studied family systems.\nStatement B: K.M. Kapadia studied marriage systems.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "K.M. Kapadia is identified among the major scholars of Indology and is stated to have studied both family systems and marriage systems.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,
@@ -6729,7 +7076,13 @@
       "Treat public issues as unrelated to personal troubles"
      ],
      "answer": 1,
-     "explanation": "Sociological Imagination is the ability to connect personal experiences with larger social forces and historical processes."
+     "explanation": "Sociological Imagination is the ability to connect personal experiences with larger social forces and historical processes.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-society-23-2",
@@ -6743,7 +7096,10 @@
       "Competitive education system"
      ],
      "answer": 1,
-     "explanation": "The notes state that Sociological Imagination was introduced by C. Wright Mills."
+     "explanation": "The notes state that Sociological Imagination was introduced by C. Wright Mills.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-society-23-3",
@@ -6757,7 +7113,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. The idea that individual problems reflect wider social issues explains why personal experiences should be connected with larger social forces."
+     "explanation": "Both statements are given in the notes. The idea that individual problems reflect wider social issues explains why personal experiences should be connected with larger social forces.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-23-4",
@@ -6771,7 +7132,13 @@
       "a-ii, b-i"
      ],
      "answer": 3,
-     "explanation": "A person being unemployed is a personal trouble linked with the public issue of large-scale unemployment due to economic slowdown. Student stress is linked with the public issue of the competitive education system."
+     "explanation": "A person being unemployed is a personal trouble linked with the public issue of large-scale unemployment due to economic slowdown. Student stress is linked with the public issue of the competitive education system.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-society-23-5",
@@ -6785,9 +7152,20 @@
       "Sociological Imagination was introduced in 1959."
      ],
      "answer": 3,
-     "explanation": "The incorrect statement is the second one. The notes state that C. Wright Mills introduced Sociological Imagination in 1959, not in the altered year stated in the option."
+     "explanation": "The incorrect statement is the second one. The notes state that C. Wright Mills introduced Sociological Imagination in 1959, not in the altered year stated in the option.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -6813,7 +7191,12 @@
       "Auguste Comte"
      ],
      "answer": 0,
-     "explanation": "The notes identify C. Wright Mills as the author of The Sociological Imagination, published in 1959."
+     "explanation": "The notes identify C. Wright Mills as the author of The Sociological Imagination, published in 1959.",
+     "facts": [
+      "F4",
+      "F5",
+      "F3"
+     ]
     },
     {
      "id": "indian-society-24-2",
@@ -6827,7 +7210,15 @@
       "The Sociological Imagination was published in 1959."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year of Mills's death. The notes state that C. Wright Mills lived from 1916 to 1962."
+     "explanation": "The incorrect detail is the year of Mills's death. The notes state that C. Wright Mills lived from 1916 to 1962.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-society-24-3",
@@ -6841,7 +7232,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes define sociological imagination through the relationship between biography, history and society, which the Reason explains."
+     "explanation": "Both statements are true. The notes define sociological imagination through the relationship between biography, history and society, which the Reason explains.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-society-24-4",
@@ -6855,7 +7249,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that Mills's critique of modern society highlighted both inequality and the concentration of power."
+     "explanation": "The notes state that Mills's critique of modern society highlighted both inequality and the concentration of power.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-society-24-5",
@@ -6869,9 +7267,23 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Sociological Imagination—relationship between biography, history and society; Power Elite Theory—power among political, military and corporate elites; Critique of Modern Society—inequality and concentration of power; The Sociological Imagination—major work published in 1959."
+     "explanation": "The correct pairs are: Sociological Imagination—relationship between biography, history and society; Power Elite Theory—power among political, military and corporate elites; Critique of Modern Society—inequality and concentration of power; The Sociological Imagination—major work published in 1959.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -6897,7 +7309,11 @@
       "National income and poverty"
      ],
      "answer": 1,
-     "explanation": "George Simmel was a German sociologist known for studying social interaction and urban life."
+     "explanation": "George Simmel was a German sociologist known for studying social interaction and urban life.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-25-2",
@@ -6911,7 +7327,13 @@
       "Formal Sociology studies patterns of social interaction."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the size of a dyad. A dyad is a group of two people, whereas a triad is a group of three people."
+     "explanation": "The incorrect detail is the size of a dyad. A dyad is a group of two people, whereas a triad is a group of three people.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "indian-society-25-3",
@@ -6925,7 +7347,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The existence of society is linked to individuals interacting with one another."
+     "explanation": "Both statements are true. The existence of society is linked to individuals interacting with one another.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-society-25-4",
@@ -6939,7 +7364,15 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Formal Sociology—study of patterns of social interaction; Dyad—group of two; Triad—group of three; Metropolitan life—urbanization increases individualism, competition and social distance."
+     "explanation": "The correct pairs are: Formal Sociology—study of patterns of social interaction; Dyad—group of two; Triad—group of three; Metropolitan life—urbanization increases individualism, competition and social distance.",
+     "facts": [
+      "F5",
+      "F7",
+      "F9",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-society-25-5",
@@ -6953,9 +7386,39 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "All four statements are supported by the notes: Simmel was German, husband and wife illustrate a dyad, teacher-parent-student illustrate a triad, and urbanization increases individualism, competition and social distance."
+     "explanation": "All four statements are supported by the notes: Simmel was German, husband and wife illustrate a dyad, teacher-parent-student illustrate a triad, and urbanization increases individualism, competition and social distance.",
+     "facts": [
+      "F2",
+      "F8",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-society-25-6",
+     "format": "Assertion-Reason",
+     "keyword": "Social research",
+     "question": "Assertion (A): George Simmel lived from 1858 to 1918.\nReason (R): George Simmel was a German sociologist.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The notes state that George Simmel lived from 1858 to 1918 and was a German sociologist. His occupation does not explain his lifespan, so both statements are true but R is not the correct explanation of A.",
+     "facts": [
+      "F1"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 13,
+    "covered": 13,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -6981,7 +7444,12 @@
       "American sociologist and founder of Symbolic Interactionism"
      ],
      "answer": 3,
-     "explanation": "The notes describe Herbert Blumer as an American sociologist and the founder of Symbolic Interactionism."
+     "explanation": "The notes describe Herbert Blumer as an American sociologist and the founder of Symbolic Interactionism.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-26-2",
@@ -6995,7 +7463,15 @@
       "Language creates meaning."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that individuals act without interpreting meanings. The notes state that individuals interpret meanings."
+     "explanation": "The incorrect statement is that individuals act without interpreting meanings. The notes state that individuals interpret meanings.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-society-26-3",
@@ -7009,7 +7485,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes as aspects of Symbolic Interactionism. Language creates meaning, which helps explain how people act according to meanings."
+     "explanation": "Both statements are given in the notes as aspects of Symbolic Interactionism. Language creates meaning, which helps explain how people act according to meanings.",
+     "facts": [
+      "F5",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-26-4",
@@ -7023,7 +7503,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes give a wedding ring as an example of marriage commitment and a uniform as an example of authority."
+     "explanation": "The notes give a wedding ring as an example of marriage commitment and a uniform as an example of authority.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-society-26-5",
@@ -7037,9 +7521,53 @@
       "a-ii, b-i, c-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Meaning—people act according to meanings; Language—language creates meaning; Thought—individuals interpret meanings."
+     "explanation": "The correct pairs are Meaning—people act according to meanings; Language—language creates meaning; Thought—individuals interpret meanings.",
+     "facts": [
+      "F5",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-society-26-6",
+     "format": "Assertion-Reason",
+     "keyword": "Sociologists – Statements",
+     "question": "Assertion (A): Herbert Blumer lived from 1900 to 1987.\nReason (R): Herbert Blumer was an American sociologist and founder of Symbolic Interactionism.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Herbert Blumer lived from 1900 to 1987, while his profession and contribution do not explain the period of his life.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "indian-society-26-7",
+     "format": "Direct Recall",
+     "keyword": "Terms (e.g. Angra Mainyu)",
+     "question": "The national flag represents which of the following?",
+     "options": [
+      "Social interaction",
+      "Marriage commitment",
+      "Authority",
+      "Patriotism"
+     ],
+     "answer": 3,
+     "explanation": "In Symbolic Interactionism examples, the national flag represents patriotism.",
+     "facts": [
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 13,
+    "covered": 13,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,
@@ -7067,7 +7595,13 @@
       "Gender justice"
      ],
      "answer": 0,
-     "explanation": "Gender budgeting is listed as a component of gender auditing. Gender justice, identifying gender gaps and gender-sensitive governance are listed among its objectives."
+     "explanation": "Gender budgeting is listed as a component of gender auditing. Gender justice, identifying gender gaps and gender-sensitive governance are listed among its objectives.",
+     "facts": [
+      "F10",
+      "F7",
+      "F9",
+      "F6"
+     ]
     },
     {
      "id": "indian-society-27-2",
@@ -7081,7 +7615,16 @@
       "It aims to improve women's participation."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that gender auditing excludes workplace safety. Workplace safety is specifically listed as one of its components."
+     "explanation": "The incorrect statement is that gender auditing excludes workplace safety. Workplace safety is specifically listed as one of its components.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F12",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-27-3",
@@ -7095,7 +7638,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. By systematically assessing policies, programmes, institutions and budgets for gender equality, gender auditing supports the objective of promoting gender justice."
+     "explanation": "Both statements are true. By systematically assessing policies, programmes, institutions and budgets for gender equality, gender auditing supports the objective of promoting gender justice.",
+     "facts": [
+      "F6",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-27-4",
@@ -7109,7 +7660,13 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All four statements are listed objectives of gender auditing: promoting gender justice, identifying gender gaps, improving women's participation and ensuring gender-sensitive governance."
+     "explanation": "All four statements are listed objectives of gender auditing: promoting gender justice, identifying gender gaps, improving women's participation and ensuring gender-sensitive governance.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-society-27-5",
@@ -7123,9 +7680,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed items are components of gender auditing: gender budgeting, equal opportunities, workplace safety and decision-making participation."
+     "explanation": "All four listed items are components of gender auditing: gender budgeting, equal opportunities, workplace safety and decision-making participation.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 13,
+    "covered": 13,
+    "audited": true
+   }
   },
   "28": {
    "number": 28,
@@ -7233,7 +7801,14 @@
       "Political institutions and international relations"
      ],
      "answer": 1,
-     "explanation": "Social Research is defined as the systematic and scientific study of society, social relationships, and social problems."
+     "explanation": "Social Research is defined as the systematic and scientific study of society, social relationships, and social problems.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-29-2",
@@ -7247,7 +7822,12 @@
       "Testing theories is an objective of social research."
      ],
      "answer": 2,
-     "explanation": "Predicting market prices is the altered detail. The listed objectives are discovering facts, explaining social phenomena, testing theories, and solving social problems."
+     "explanation": "Predicting market prices is the altered detail. The listed objectives are discovering facts, explaining social phenomena, testing theories, and solving social problems.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-society-29-3",
@@ -7261,7 +7841,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The Reason identifies the subject areas of social research but does not explain why the study is systematic and scientific."
+     "explanation": "Both statements are true. The Reason identifies the subject areas of social research but does not explain why the study is systematic and scientific.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-29-4",
@@ -7275,7 +7862,16 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Problem Identification—Step 1, Literature Review—Step 2, Hypothesis Formulation—Step 3, and Data Collection—Step 4."
+     "explanation": "The correct pairs are: Problem Identification—Step 1, Literature Review—Step 2, Hypothesis Formulation—Step 3, and Data Collection—Step 4.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-society-29-5",
@@ -7289,7 +7885,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All four statements are listed objectives of Social Research: discovering facts, explaining social phenomena, testing theories, and solving social problems."
+     "explanation": "All four statements are listed objectives of Social Research: discovering facts, explaining social phenomena, testing theories, and solving social problems.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     }
    ]
   },
@@ -7317,7 +7919,13 @@
       "Literal interpretation of scriptures"
      ],
      "answer": 3,
-     "explanation": "Literal interpretation of scriptures is listed as a characteristic of religious fundamentalism. Identity crisis, political mobilization and economic inequalities are listed as causes."
+     "explanation": "Literal interpretation of scriptures is listed as a characteristic of religious fundamentalism. Identity crisis, political mobilization and economic inequalities are listed as causes.",
+     "facts": [
+      "F3",
+      "F7",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-society-30-2",
@@ -7331,7 +7939,13 @@
       "It promotes resistance to change."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is “group inclusiveness.” The notes identify group exclusiveness as a characteristic of religious fundamentalism."
+     "explanation": "The incorrect detail is “group inclusiveness.” The notes identify group exclusiveness as a characteristic of religious fundamentalism.",
+     "facts": [
+      "F6",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-30-3",
@@ -7345,7 +7959,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The strict adherence to religious beliefs and practices explains why religious fundamentalism often rejects modern interpretations."
+     "explanation": "Both statements are true. The strict adherence to religious beliefs and practices explains why religious fundamentalism often rejects modern interpretations.",
+     "facts": [
+      "F2",
+      "F1"
+     ]
     },
     {
      "id": "indian-society-30-4",
@@ -7359,7 +7977,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. Economic inequalities are listed among the causes, while group exclusiveness is listed among the characteristics."
+     "explanation": "Both statements are directly supported by the notes. Economic inequalities are listed among the causes, while group exclusiveness is listed among the characteristics.",
+     "facts": [
+      "F11",
+      "F6"
+     ]
     },
     {
      "id": "indian-society-30-5",
@@ -7373,9 +7995,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Identity crisis, globalization and social insecurity are causes of religious fundamentalism. Group exclusiveness is a characteristic, so the correct count is three."
+     "explanation": "Identity crisis, globalization and social insecurity are causes of religious fundamentalism. Group exclusiveness is a characteristic, so the correct count is three.",
+     "facts": [
+      "F7",
+      "F6",
+      "F8",
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 11,
+    "covered": 11,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,

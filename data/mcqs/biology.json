@@ -835,7 +835,10 @@
       "Archaeopteryx"
      ],
      "answer": 0,
-     "explanation": "Blue-green algae, also called Cyanobacteria, are identified as the earliest organism on Earth."
+     "explanation": "Blue-green algae, also called Cyanobacteria, are identified as the earliest organism on Earth.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-3-2",
@@ -849,7 +852,13 @@
       "Louis Lartet discovered the earliest Cro-Magnon skull in 1868."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one because the notes identify the Uranium–Lead method as the dating method for the oldest rocks and ancient mountains, not merely as an unspecified method."
+     "explanation": "The incorrect statement is the fourth one because the notes identify the Uranium–Lead method as the dating method for the oldest rocks and ancient mountains, not merely as an unspecified method.",
+     "facts": [
+      "F4",
+      "F10",
+      "F11",
+      "F6"
+     ]
     },
     {
      "id": "biology-3-3",
@@ -863,7 +872,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given as facts. However, the absence of free oxygen in the earliest atmosphere does not directly explain the identification of primitive unicellular organisms as the earliest life forms."
+     "explanation": "Both statements are given as facts. However, the absence of free oxygen in the earliest atmosphere does not directly explain the identification of primitive unicellular organisms as the earliest life forms.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-3-4",
@@ -877,7 +890,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Uranium–Lead method—dating of oldest rocks and ancient mountains; Louis Lartet—Cro-Magnon skull discovery; Litmus—oldest pH indicator; No free O₂—earliest atmosphere."
+     "explanation": "The correct pairs are: Uranium–Lead method—dating of oldest rocks and ancient mountains; Louis Lartet—Cro-Magnon skull discovery; Litmus—oldest pH indicator; No free O₂—earliest atmosphere.",
+     "facts": [
+      "F11",
+      "F6",
+      "F10",
+      "F3"
+     ]
     },
     {
      "id": "biology-3-5",
@@ -891,9 +910,22 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct according to the given facts: farmers were the earliest biotechnologists; the seed sequence is Nucleus, Breeder, Foundation and Certified; Archaeopteryx has a bird–reptilian connection; and Cro-Magnon remains are about 30,000–45,000 years old."
+     "explanation": "All four statements are correct according to the given facts: farmers were the earliest biotechnologists; the seed sequence is Nucleus, Breeder, Foundation and Certified; Archaeopteryx has a bird–reptilian connection; and Cro-Magnon remains are about 30,000–45,000 years old.",
+     "facts": [
+      "F9",
+      "F8",
+      "F4",
+      "F12",
+      "F5",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 12,
+    "covered": 12,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -1174,7 +1206,10 @@
       "King Cobra"
      ],
      "answer": 3,
-     "explanation": "The King Cobra is identified as the world's largest or longest venomous snake."
+     "explanation": "The King Cobra is identified as the world's largest or longest venomous snake.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-5-2",
@@ -1188,7 +1223,12 @@
       "The shortest segment of the small intestine is the duodenum."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement identifies the longest cell as the sartorius. The longest cell of the body is the nerve cell or neuron; the sartorius is the longest muscle."
+     "explanation": "The incorrect statement identifies the longest cell as the sartorius. The longest cell of the body is the nerve cell or neuron; the sartorius is the longest muscle.",
+     "facts": [
+      "F3",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "biology-5-3",
@@ -1202,7 +1242,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because the kangaroo rat is associated with the longest duration without drinking water. The reason is false; the guinea worm is the longest nematode infecting humans, not the organism with the longest duration without drinking water."
+     "explanation": "The assertion is true because the kangaroo rat is associated with the longest duration without drinking water. The reason is false; the guinea worm is the longest nematode infecting humans, not the organism with the longest duration without drinking water.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-5-4",
@@ -1216,7 +1260,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: longest bone—Femur; longest muscle—Sartorius; shortest muscle—Stapedius; longest cell—Nerve cell/Neuron."
+     "explanation": "The correct pairs are: longest bone—Femur; longest muscle—Sartorius; shortest muscle—Stapedius; longest cell—Nerve cell/Neuron.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-5-5",
@@ -1230,9 +1280,19 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct: the duodenum is the shortest segment of the small intestine, the ileum is its longest part, and the femur is the longest bone of the human skeleton."
+     "explanation": "All three statements are correct: the duodenum is the shortest segment of the small intestine, the ileum is its longest part, and the femur is the longest bone of the human skeleton.",
+     "facts": [
+      "F4",
+      "F8",
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -1534,7 +1594,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "Aristotle is associated with Zoology, Birbal Sahni with Indian Palaeobotany, Antony/Antonie van Leeuwenhoek with Microbiology, and Edward Jenner with Immunology."
+     "explanation": "Aristotle is associated with Zoology, Birbal Sahni with Indian Palaeobotany, Antony/Antonie van Leeuwenhoek with Microbiology, and Edward Jenner with Immunology.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "biology-7-2",
@@ -1548,7 +1614,10 @@
       "Aristotle"
      ],
      "answer": 1,
-     "explanation": "Carl (Carolus) Linnaeus is identified in the notes as the Father of Modern Taxonomy."
+     "explanation": "Carl (Carolus) Linnaeus is identified in the notes as the Father of Modern Taxonomy.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-7-3",
@@ -1562,7 +1631,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, being identified as the Father of Modern Genetics does not explain the separate designation of Father of Genetics."
+     "explanation": "Both statements are true according to the notes. However, being identified as the Father of Modern Genetics does not explain the separate designation of Father of Genetics.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-7-4",
@@ -1576,7 +1649,13 @@
       "Shanti Swarup Bhatnagar is known as the Father of Research Laboratories."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the person associated with Indian DNA Fingerprinting. The notes identify Dr. Lalji Singh, not Gregor Johann Mendel, as its father."
+     "explanation": "The incorrect statement alters the person associated with Indian DNA Fingerprinting. The notes identify Dr. Lalji Singh, not Gregor Johann Mendel, as its father.",
+     "facts": [
+      "F8",
+      "F10",
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "biology-7-5",
@@ -1590,9 +1669,20 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two designations are associated with Gregor Johann Mendel: Father of Genetics and Father of Modern Genetics. Father of Taxonomy is associated with Linnaeus, while Father of Indian DNA Fingerprinting is associated with Dr. Lalji Singh."
+     "explanation": "Two designations are associated with Gregor Johann Mendel: Father of Genetics and Father of Modern Genetics. Father of Taxonomy is associated with Linnaeus, while Father of Indian DNA Fingerprinting is associated with Dr. Lalji Singh.",
+     "facts": [
+      "F6",
+      "F7",
+      "F4",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -1618,7 +1708,10 @@
       "Shanti Swarup Bhatnagar"
      ],
      "answer": 2,
-     "explanation": "The notes identify Dr. Lalji Singh as the founder of DNA Fingerprinting technology in India."
+     "explanation": "The notes identify Dr. Lalji Singh as the founder of DNA Fingerprinting technology in India.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-8-2",
@@ -1632,7 +1725,11 @@
       "Shanti Swarup Bhatnagar was the first Director-General of CSIR."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the name: the Founder Director of CSIR was Shanti Swarup Bhatnagar, not Dr. Lalji Singh."
+     "explanation": "The incorrect detail is the name: the Founder Director of CSIR was Shanti Swarup Bhatnagar, not Dr. Lalji Singh.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-8-3",
@@ -1646,7 +1743,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes, but the founding of the First Dental College does not explain the founding year of the International Potato Centre."
+     "explanation": "Both statements are true according to the notes, but the founding of the First Dental College does not explain the founding year of the International Potato Centre.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-8-4",
@@ -1660,7 +1762,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that the National Institute of Virology was founded in collaboration with the Rockefeller Foundation and that the First Dental College was founded in 1920 at Kolkata."
+     "explanation": "The notes state that the National Institute of Virology was founded in collaboration with the Rockefeller Foundation and that the First Dental College was founded in 1920 at Kolkata.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-8-5",
@@ -1674,9 +1781,21 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: (a)-ii, Dr. Lalji Singh; (b)-iv, Shanti Swarup Bhatnagar; (c)-iii, 1971; and (d)-i, 1920, Kolkata."
+     "explanation": "The correct pairs are: (a)-ii, Dr. Lalji Singh; (b)-iv, Shanti Swarup Bhatnagar; (c)-iii, 1971; and (d)-i, 1920, Kolkata.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 7,
+    "covered": 7,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -1934,7 +2053,10 @@
       "Sutton and Boveri"
      ],
      "answer": 0,
-     "explanation": "The Oparin–Haldane Hypothesis of Origin of Life was proposed by A.I. Oparin and J.B.S. Haldane."
+     "explanation": "The Oparin–Haldane Hypothesis of Origin of Life was proposed by A.I. Oparin and J.B.S. Haldane.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-10-2",
@@ -1948,7 +2070,16 @@
       "Charles Darwin gave the Theory of Natural Selection, also called Darwinism."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the theory attributed to R.H. Whittaker. R.H. Whittaker gave the Five-Kingdom Classification, whereas the Chromosomal Theory of Inheritance was given by Sutton and Boveri."
+     "explanation": "The incorrect detail is the theory attributed to R.H. Whittaker. R.H. Whittaker gave the Five-Kingdom Classification, whereas the Chromosomal Theory of Inheritance was given by Sutton and Boveri.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-10-3",
@@ -1962,7 +2093,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, Virchow’s statement is a separate contribution and does not explain why Cell Theory was proposed by Schleiden and Schwann."
+     "explanation": "Both statements are true according to the notes. However, Virchow’s statement is a separate contribution and does not explain why Cell Theory was proposed by Schleiden and Schwann.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-10-4",
@@ -1976,7 +2111,15 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Inheritance of Acquired Characteristics—Jean-Baptiste Lamarck; Theory of Natural Selection—Charles Darwin; Mutation Theory—Hugo de Vries; Five-Kingdom Classification—R.H. Whittaker."
+     "explanation": "The correct pairs are: Inheritance of Acquired Characteristics—Jean-Baptiste Lamarck; Theory of Natural Selection—Charles Darwin; Mutation Theory—Hugo de Vries; Five-Kingdom Classification—R.H. Whittaker.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "biology-10-5",
@@ -1990,9 +2133,36 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes: Sutton and Boveri gave the Chromosomal Theory of Inheritance, Watson and Crick gave the Double Helix Model of DNA, and the Synthetic Theory of Evolution was given by multiple scientists."
+     "explanation": "All three statements are correct according to the notes: Sutton and Boveri gave the Chromosomal Theory of Inheritance, Watson and Crick gave the Double Helix Model of DNA, and the Synthetic Theory of Evolution was given by multiple scientists.",
+     "facts": [
+      "F9",
+      "F10",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-10-6",
+     "format": "Direct Recall",
+     "keyword": "Hypothesis",
+     "question": "The Oparin–Haldane Hypothesis explains which of the following?",
+     "options": [
+      "Inheritance of acquired characteristics",
+      "The origin of life",
+      "Natural selection",
+      "Five-kingdom classification"
+     ],
+     "answer": 1,
+     "explanation": "The Oparin–Haldane Hypothesis explains the origin of life. Inheritance of acquired characteristics, natural selection and five-kingdom classification are associated with different entries in the biology syllabus.",
+     "facts": [
+      "F1"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 13,
+    "covered": 13,
+    "audited": true
+   }
   },
   "11": {
    "number": 11,
@@ -2237,7 +2407,10 @@
       "Robert Gordon Webster"
      ],
      "answer": 3,
-     "explanation": "H5N1 influenza virus was identified by Robert Gordon Webster."
+     "explanation": "H5N1 influenza virus was identified by Robert Gordon Webster.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "biology-12-2",
@@ -2251,7 +2424,13 @@
       "MERS was first identified in 2012."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year of Ebola disease identification. It was first identified in 1976, not 1978."
+     "explanation": "The incorrect detail is the year of Ebola disease identification. It was first identified in 1976, not 1978.",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F15"
+     ]
     },
     {
      "id": "biology-12-3",
@@ -2265,7 +2444,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: COVID-19 was first identified in Wuhan and in December 2019. The date does not explain the location."
+     "explanation": "Both statements are true: COVID-19 was first identified in Wuhan and in December 2019. The date does not explain the location.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "biology-12-4",
@@ -2279,7 +2461,15 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: DNA–Friedrich Miescher; transposable elements–Barbara McClintock; main blood groups–Karl Landsteiner; Rh factor–Landsteiner and Alexander S. Wiener."
+     "explanation": "The correct pairs are: DNA–Friedrich Miescher; transposable elements–Barbara McClintock; main blood groups–Karl Landsteiner; Rh factor–Landsteiner and Alexander S. Wiener.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F6",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-12-5",
@@ -2293,9 +2483,38 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. Regulatory T cells and FOXP3-related immune tolerance were associated with Mary E. Brunkow, Frederick J. Ramsdell and Shimon Sakaguchi, not Robert Gordon Webster."
+     "explanation": "Statements I and II are correct. Regulatory T cells and FOXP3-related immune tolerance were associated with Mary E. Brunkow, Frederick J. Ramsdell and Shimon Sakaguchi, not Robert Gordon Webster.",
+     "facts": [
+      "F7",
+      "F8",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "biology-12-6",
+     "format": "Direct Recall",
+     "keyword": "Identified by",
+     "question": "Anopheles is identified by which characteristic?",
+     "options": [
+      "Its characteristic breeding position",
+      "Its characteristic resting position",
+      "Its characteristic feeding position",
+      "Its characteristic flying position"
+     ],
+     "answer": 1,
+     "explanation": "Anopheles is identified by its characteristic resting position.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -4664,7 +4883,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "Sandfly – Phlebotomus argentipes is associated with Kala-azar, rat flea with plague, leafhopper with rice tungro, and snail with schistosomiasis."
+     "explanation": "Sandfly – Phlebotomus argentipes is associated with Kala-azar, rat flea with plague, leafhopper with rice tungro, and snail with schistosomiasis.",
+     "facts": [
+      "F13",
+      "F14",
+      "F17",
+      "F20",
+      "F23"
+     ]
     },
     {
      "id": "biology-16-2",
@@ -4678,7 +4904,17 @@
       "Aedes albopictus is also known as the tiger mosquito."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the disease. Tsetse fly – Glossina is associated with sleeping sickness, whereas kala-azar is associated with sandfly – Phlebotomus argentipes."
+     "explanation": "The incorrect statement alters the disease. Tsetse fly – Glossina is associated with sleeping sickness, whereas kala-azar is associated with sandfly – Phlebotomus argentipes.",
+     "facts": [
+      "F6",
+      "F11",
+      "F12",
+      "F14",
+      "F15",
+      "F16",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-16-3",
@@ -4692,7 +4928,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Yellow fever is specifically listed among the diseases associated with Aedes aegypti, which directly supports the assertion."
+     "explanation": "Both statements are true. Yellow fever is specifically listed among the diseases associated with Aedes aegypti, which directly supports the assertion.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-16-4",
@@ -4706,7 +4945,11 @@
       "Sleeping sickness"
      ],
      "answer": 3,
-     "explanation": "The notes associate Tsetse fly – Glossina with sleeping sickness."
+     "explanation": "The notes associate Tsetse fly – Glossina with sleeping sickness.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-16-5",
@@ -4720,9 +4963,61 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "Four diseases are listed against Aedes aegypti: dengue, yellow fever, chikungunya and Zika."
+     "explanation": "Four diseases are listed against Aedes aegypti: dengue, yellow fever, chikungunya and Zika.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-16-6",
+     "format": "List-Matching",
+     "keyword": "Vector → Disease",
+     "question": "Match List-I with List-II.\n\nList-I (Vector)\na. Female Anopheles mosquito\nb. Aedes albopictus\nc. Anopheles mosquitoes in some regions\nd. Cyclops\n\nList-II (Disease or disease group)\ni. Malaria\nii. Dengue, chikungunya, Zika and yellow fever\niii. Filariasis and encephalitis\niv. Guinea worm\n\nCodes:",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The female Anopheles mosquito is a vector of malaria. Aedes albopictus is associated with dengue, chikungunya, Zika and yellow fever; Anopheles mosquitoes are also associated with filariasis and encephalitis in some regions, while Cyclops transmits guinea worm.",
+     "facts": [
+      "F1",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F18",
+      "F19",
+      "F25"
+     ]
+    },
+    {
+     "id": "biology-16-7",
+     "format": "Direct Recall",
+     "keyword": "Vector → Alternate Name",
+     "question": "Cyclops is also known as which of the following?",
+     "options": [
+      "Water flea",
+      "Sandfly – Phlebotomus argentipes",
+      "Rat flea",
+      "Tiger mosquito"
+     ],
+     "answer": 0,
+     "explanation": "Cyclops is also known as a water flea.",
+     "facts": [
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
@@ -5235,8 +5530,64 @@
       "F37",
       "F38"
      ]
+    },
+    {
+     "id": "biology-18-12",
+     "format": "Direct Recall",
+     "keyword": "Vector",
+     "question": "Trypanosoma is transmitted by which of the following?",
+     "options": [
+      "Sandfly",
+      "Tsetse fly",
+      "Culex mosquito",
+      "Female Anopheles"
+     ],
+     "answer": 1,
+     "explanation": "Trypanosoma is transmitted by the tsetse fly.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "biology-18-13",
+     "format": "Direct Recall",
+     "keyword": "Host",
+     "question": "Which of the following serves as a host for Ascaris lumbricoides?",
+     "options": [
+      "Dogs",
+      "Snails",
+      "Humans",
+      "Cattle and sheep"
+     ],
+     "answer": 2,
+     "explanation": "Ascaris lumbricoides has humans as hosts.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "biology-18-14",
+     "format": "Assertion-Reason",
+     "keyword": "Host",
+     "question": "Assertion (A): Dracunculus medinensis has humans as hosts.\nReason (R): The host listing for Dracunculus medinensis includes humans along with Cyclops.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The listing of humans among the hosts directly supports the assertion; Cyclops is also included.",
+     "facts": [
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -9436,8 +9787,143 @@
      "facts": [
       "F30"
      ]
+    },
+    {
+     "id": "biology-32-6",
+     "format": "Count-Based",
+     "keyword": "Component Core function",
+     "question": "How many of the following are transported by plasma?\n1. Proteins\n2. Hormones\n3. Antibodies\n4. Clotting factors",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Plasma transports proteins, hormones, antibodies and clotting factors. Therefore, all four listed substances are transported by plasma.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-32-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Full form",
+     "question": "Consider the following statements:\nI. RBCs are also called erythrocytes.\nII. WBCs are also called leucocytes.\nIII. Platelets are also called thrombocytes.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "The alternative names are erythrocytes for RBCs, leucocytes for WBCs and thrombocytes for platelets. Hence, all three statements are correct.",
+     "facts": [
+      "F6",
+      "F8",
+      "F10"
+     ]
+    },
+    {
+     "id": "biology-32-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Respiratory pigment",
+     "question": "Consider the following statements:\nStatement A: Haemoglobin is a respiratory pigment.\nStatement B: Fibrinogen functions in clot formation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Haemoglobin is a respiratory pigment, while fibrinogen functions in clot formation. Therefore, both statements are true.",
+     "facts": [
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "biology-32-9",
+     "format": "Assertion-Reason",
+     "keyword": "Blood clotting",
+     "question": "Assertion (A): Thrombin has a direct role in the formation of fibrin.\nReason (R): Thrombin converts fibrinogen into fibrin.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Thrombin converts fibrinogen into fibrin, thereby directly bringing about fibrin formation. Both the Assertion and the Reason are true, and the Reason explains the Assertion.",
+     "facts": [
+      "F15"
+     ]
+    },
+    {
+     "id": "biology-32-10",
+     "format": "List-Matching",
+     "keyword": "Plasma protein",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Albumin\n(b) Globulins\n(c) Albumin\n(d) Globulins\n\nList-II\n(i) Plasma protein\n(ii) Osmotic role\n(iii) Antibodies\n(iv) Transport proteins",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Albumin is a plasma protein and has an osmotic role. Globulins function as antibodies and transport proteins, giving the pairing a-i, b-iii, c-ii and d-iv.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "biology-32-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Blood group",
+     "question": "Consider the following statements about blood group B:\nI. Blood group B has the B antigen on RBCs.\nII. Blood group B has anti-A antibodies in plasma.\nIII. Blood group B has the A antigen on RBCs.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I only",
+      "I, II and III"
+     ],
+     "answer": 1,
+     "explanation": "Blood group B has the B antigen on RBCs and anti-A antibodies in plasma. It does not have the A antigen on RBCs, so statements I and II only are correct.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "biology-32-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disease → Rh incompatibility",
+     "question": "Consider the following statements:\nStatement A: Erythroblastosis fetalis is associated with Rh incompatibility.\nStatement B: Hemolytic disease is associated with Rh incompatibility.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Erythroblastosis fetalis and hemolytic disease are diseases associated with Rh incompatibility.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -9465,7 +9951,11 @@
       "Prothrombin"
      ],
      "answer": 2,
-     "explanation": "Thrombin converts fibrinogen into fibrin. Fibrin subsequently forms a mesh that traps blood cells and produces a clot."
+     "explanation": "Thrombin converts fibrinogen into fibrin. Fibrin subsequently forms a mesh that traps blood cells and produces a clot.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-33-2",
@@ -9479,7 +9969,15 @@
       "Polycythemia involves an increase in RBC volume."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that leukopenia involves an increase in WBCs. According to the notes, leukopenia means a decrease in WBCs; leukocytosis involves an increase in WBCs."
+     "explanation": "The incorrect statement is that leukopenia involves an increase in WBCs. According to the notes, leukopenia means a decrease in WBCs; leukocytosis involves an increase in WBCs.",
+     "facts": [
+      "F11",
+      "F14",
+      "F15",
+      "F16",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-33-3",
@@ -9493,7 +9991,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, alum’s coagulation-promoting action does not explain heparin’s anticoagulant action."
+     "explanation": "Both statements are true according to the notes. However, alum’s coagulation-promoting action does not explain heparin’s anticoagulant action.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-33-4",
@@ -9507,7 +10009,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Anaemia–decreased RBCs or haemoglobin, Polycythemia–increased RBC volume, Haemophilia–inherited clotting disorder, and Thrombocytopenia–low platelets with bleeding tendency."
+     "explanation": "The correct pairs are: Anaemia–decreased RBCs or haemoglobin, Polycythemia–increased RBC volume, Haemophilia–inherited clotting disorder, and Thrombocytopenia–low platelets with bleeding tendency.",
+     "facts": [
+      "F11",
+      "F14",
+      "F17",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-33-5",
@@ -9521,9 +10030,59 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Heparin is an anticoagulant, whereas alum promotes coagulation due to aluminium ions."
+     "explanation": "Statements I, II and III are correct. Heparin is an anticoagulant, whereas alum promotes coagulation due to aluminium ions.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7",
+      "F9",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-33-6",
+     "format": "Direct Recall",
+     "keyword": "Vitamin K",
+     "question": "Vitamin K is required for the synthesis of which of the following?",
+     "options": [
+      "Red blood cells",
+      "Clotting factors",
+      "Platelets",
+      "Abnormal white blood cells"
+     ],
+     "answer": 1,
+     "explanation": "Vitamin K is required for clotting-factor synthesis.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "biology-33-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease/condition \u001a Impact",
+     "question": "Consider the following statements:\nI. Leukaemia causes abnormal white blood cells.\nII. Leukaemia usually begins in the bone marrow.\nIII. Erythroblastosis fetalis is associated with Rh incompatibility.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: leukaemia causes abnormal white blood cells and usually begins in the bone marrow, while erythroblastosis fetalis is associated with Rh incompatibility.",
+     "facts": [
+      "F12",
+      "F13",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 20,
+    "covered": 20,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,
@@ -9551,7 +10110,10 @@
       "Vena cava"
      ],
      "answer": 1,
-     "explanation": "Cardiac veins drain the heart muscle, whereas coronary arteries supply it."
+     "explanation": "Cardiac veins drain the heart muscle, whereas coronary arteries supply it.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "biology-34-2",
@@ -9565,7 +10127,14 @@
       "The bicuspid or mitral valve is located between the left atrium and left ventricle."
      ],
      "answer": 1,
-     "explanation": "The altered detail is the destination of the pulmonary semilunar valve. It is located between the right ventricle and the pulmonary artery, not the aorta."
+     "explanation": "The altered detail is the destination of the pulmonary semilunar valve. It is located between the right ventricle and the pulmonary artery, not the aorta.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13",
+      "F14",
+      "F11"
+     ]
     },
     {
      "id": "biology-34-3",
@@ -9579,7 +10148,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes, but the function of coronary arteries does not explain the draining function of cardiac veins."
+     "explanation": "Both statements are true according to the notes, but the function of coronary arteries does not explain the draining function of cardiac veins.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-34-4",
@@ -9593,7 +10166,20 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: tricuspid–right atrium to right ventricle; bicuspid/mitral–left atrium to left ventricle; pulmonary semilunar–right ventricle to pulmonary artery; aortic semilunar–left ventricle to aorta."
+     "explanation": "The correct pairs are: tricuspid–right atrium to right ventricle; bicuspid/mitral–left atrium to left ventricle; pulmonary semilunar–right ventricle to pulmonary artery; aortic semilunar–left ventricle to aorta.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13",
+      "F14",
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "biology-34-5",
@@ -9607,9 +10193,58 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. Statement III is incorrect because the pulmonary vein carries oxygenated blood from the lungs to the left atrium."
+     "explanation": "Statements I and II are correct. Statement III is incorrect because the pulmonary vein carries oxygenated blood from the lungs to the left atrium.",
+     "facts": [
+      "F15",
+      "F16",
+      "F19",
+      "F20",
+      "F1",
+      "F2",
+      "F9"
+     ]
+    },
+    {
+     "id": "biology-34-6",
+     "format": "List-Matching",
+     "keyword": "Chamber → Blood Vessel",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Right atrium\n b. Right ventricle\n c. Left atrium\n d. Left ventricle\n\nList-II\n i. Pulmonary veins\n ii. Right atrium\n iii. Left atrium\n iv. Superior and inferior vena cava",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The right atrium receives blood from the superior and inferior vena cava, the right ventricle from the right atrium, the left atrium from the pulmonary veins, and the left ventricle from the left atrium.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-34-7",
+     "format": "Assertion-Reason",
+     "keyword": "Pulmonary artery",
+     "question": "Assertion (A): The pulmonary artery carries blood from the right ventricle to the lungs.\nReason (R): The blood in the pulmonary artery is deoxygenated.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the pulmonary artery carries blood from the right ventricle to the lungs, and this blood is deoxygenated. However, its oxygenation status does not explain the direction of blood flow.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "35": {
    "number": 35,
@@ -9916,8 +10551,48 @@
       "F19",
       "F22"
      ]
+    },
+    {
+     "id": "biology-36-6",
+     "format": "List-Matching",
+     "keyword": "Nephron – Structure and Function",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Proximal convoluted tubule\n b. Distal convoluted tubule\n\nList-II\n i. Regulation, reabsorption and secretion\n ii. Major selective reabsorption\n iii. Concentration and osmoregulation\n iv. Final urine concentration",
+     "options": [
+      "a-iii, b-iv",
+      "a-ii, b-i",
+      "a-i, b-ii",
+      "a-iv, b-iii"
+     ],
+     "answer": 1,
+     "explanation": "The proximal convoluted tubule performs major selective reabsorption, while the distal convoluted tubule performs regulation, reabsorption and secretion.",
+     "facts": [
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-36-7",
+     "format": "Direct Recall",
+     "keyword": "Renal artery – Function",
+     "question": "Which of the following correctly describes the function of the renal artery?",
+     "options": [
+      "It carries filtered blood from the kidney to circulation",
+      "It carries blood to the kidney",
+      "It regulates, reabsorbs and secretes substances in the nephron",
+      "It performs major selective reabsorption"
+     ],
+     "answer": 1,
+     "explanation": "The renal artery carries blood to the kidney. Filtered blood is carried to circulation by the renal vein.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "37": {
    "number": 37,

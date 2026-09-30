@@ -189,8 +189,49 @@
       "F26",
       "F27"
      ]
+    },
+    {
+     "id": "world-geography-1-10",
+     "format": "List-Matching",
+     "keyword": "Lake → Location; Coral Reef → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Lake Baikal\n b. Great Barrier Reef\n\nList-II\n i. Australia\n ii. Russia",
+     "options": [
+      "a-ii, b-i",
+      "a-ii, b-ii",
+      "a-i, b-i",
+      "a-i, b-ii"
+     ],
+     "answer": 0,
+     "explanation": "Lake Baikal is in Russia, while the Great Barrier Reef is in Australia.",
+     "facts": [
+      "F21",
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-1-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Largest",
+     "question": "Consider the following statements:\nStatement A: Antarctica is the world’s largest desert by cold-desert classification.\nStatement B: The Sahara is the world’s largest hot desert.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: Antarctica is the world’s largest cold desert, and the Sahara is the world’s largest hot desert.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -818,7 +859,12 @@
       "Indonesia"
      ],
      "answer": 1,
-     "explanation": "India is identified as the largest producer, consumer and importer of total pulses."
+     "explanation": "India is identified as the largest producer, consumer and importer of total pulses.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "world-geography-5-2",
@@ -832,7 +878,12 @@
       "Malaysia is the second-largest producer of palm oil."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that Indonesia is second-largest in palm-oil production. Malaysia is stated to be the second-largest producer, while Indonesia is the largest."
+     "explanation": "The incorrect statement is that Indonesia is second-largest in palm-oil production. Malaysia is stated to be the second-largest producer, while Indonesia is the largest.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "world-geography-5-3",
@@ -846,7 +897,15 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, India’s position in pulses does not explain its stated position in spices."
+     "explanation": "Both statements are true. However, India’s position in pulses does not explain its stated position in spices.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-5-4",
@@ -860,7 +919,19 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are cotton–(iii), jute–(iv), palm oil–(ii), and milk–(i)."
+     "explanation": "The correct pairs are cotton–(iii), jute–(iv), palm oil–(ii), and milk–(i).",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "world-geography-5-5",
@@ -874,9 +945,55 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. China is the largest tobacco producer, while India and Brazil are major producers; therefore statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. China is the largest tobacco producer, while India and Brazil are major producers; therefore statement IV is incorrect.",
+     "facts": [
+      "F8",
+      "F17",
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "world-geography-5-6",
+     "format": "Direct Recall",
+     "keyword": "Largest",
+     "question": "Which of the following statements about cotton is correct?",
+     "options": [
+      "China has the world’s largest cultivated area for cotton.",
+      "Indonesia has the world’s largest cultivated area for cotton.",
+      "Bangladesh has the world’s largest cultivated area for cotton.",
+      "India has the world’s largest cultivated area for cotton."
+     ],
+     "answer": 3,
+     "explanation": "India has the world’s largest cultivated area for cotton.",
+     "facts": [
+      "F4"
+     ]
+    },
+    {
+     "id": "world-geography-5-7",
+     "format": "Direct Recall",
+     "keyword": "Major Producer → Commodity",
+     "question": "Which country is identified as a major leader in lint production?",
+     "options": [
+      "Bangladesh",
+      "India",
+      "China",
+      "Indonesia"
+     ],
+     "answer": 2,
+     "explanation": "China is identified as a major leader in lint production. India has the largest cultivated area under cotton, while Bangladesh is important in raw-jute exports and Indonesia is the leading producer of palm oil.",
+     "facts": [
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 23,
+    "covered": 23,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -904,7 +1021,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "Shree Hubballi Siddharoodha Station is in Karnataka, Chenab Bridge is in Jammu & Kashmir, the Trans-Siberian Railway is in Russia, and the Grand Canal is in China."
+     "explanation": "Shree Hubballi Siddharoodha Station is in Karnataka, Chenab Bridge is in Jammu & Kashmir, the Trans-Siberian Railway is in Russia, and the Grand Canal is in China.",
+     "facts": [
+      "F2",
+      "F6",
+      "F9",
+      "F13"
+     ]
     },
     {
      "id": "world-geography-6-2",
@@ -918,7 +1041,12 @@
       "Laerdal Tunnel"
      ],
      "answer": 1,
-     "explanation": "The Trans-Siberian Railway is the longest railway line, extending approximately 9,289 km from Moscow to Vladivostok."
+     "explanation": "The Trans-Siberian Railway is the longest railway line, extending approximately 9,289 km from Moscow to Vladivostok.",
+     "facts": [
+      "F8",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "world-geography-6-3",
@@ -932,7 +1060,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Laerdal Tunnel is the longest highway/road tunnel and is located in Norway. Its location does not explain why it is the longest."
+     "explanation": "Both statements are true: Laerdal Tunnel is the longest highway/road tunnel and is located in Norway. Its location does not explain why it is the longest.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-6-4",
@@ -946,7 +1078,12 @@
       "Chenab Bridge is 359 m above the river bed."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location. Chenab Bridge is located in Jammu & Kashmir, not Himachal Pradesh."
+     "explanation": "The incorrect detail is the location. Chenab Bridge is located in Jammu & Kashmir, not Himachal Pradesh.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "world-geography-6-5",
@@ -960,7 +1097,88 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Grand Canal is approximately 1,776 km long and follows the Beijing–Hangzhou corridor."
+     "explanation": "Both statements are true. The Grand Canal is approximately 1,776 km long and follows the Beijing–Hangzhou corridor.",
+     "facts": [
+      "F12",
+      "F15",
+      "F14"
+     ]
+    },
+    {
+     "id": "world-geography-6-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Longest railway platform",
+     "question": "Consider the following statements:\nI. Shree Hubballi Siddharoodha Swamiji Station has the longest railway platform.\nII. The railway platform at Shree Hubballi Siddharoodha Swamiji Station is 1,507 metres long.\nIII. Shree Hubballi Siddharoodha Swamiji Station surpassed Gorakhpur as the station with the longest railway platform.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The station has the longest railway platform, measuring 1,507 metres, and it surpassed Gorakhpur.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "world-geography-6-7",
+     "format": "List-Matching",
+     "keyword": "Infrastructure → Location/Length",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Daocheng Yading Airport\n(b) Laerdal Tunnel\n(c) Atal Tunnel\n(d) Shree Hubballi Siddharoodha Swamiji Station\n\nList-II\n(i) 1,507 metres\n(ii) Sichuan, China\n(iii) 24.5 kilometres\n(iv) Approximately 9.0 kilometres\n\nSelect the correct code:",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Daocheng Yading Airport–Sichuan, China; Laerdal Tunnel–24.5 kilometres; Atal Tunnel–approximately 9.0 kilometres; and Shree Hubballi Siddharoodha Swamiji Station–1,507 metres.",
+     "facts": [
+      "F17",
+      "F21",
+      "F24",
+      "F3"
+     ]
+    },
+    {
+     "id": "world-geography-6-8",
+     "format": "Direct Recall",
+     "keyword": "Longest tunnel → Length",
+     "question": "What is the length of the Laerdal Tunnel?",
+     "options": [
+      "359 metres",
+      "Approximately 9.0 kilometres",
+      "1,507 metres",
+      "24.5 kilometres"
+     ],
+     "answer": 3,
+     "explanation": "The Laerdal Tunnel is 24.5 kilometres long.",
+     "facts": [
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-6-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tunnel → Location and distinction",
+     "question": "Consider the following statements:\nI. Atal Tunnel is the longest tunnel above 10,000 feet in India.\nII. Atal Tunnel is located in Himachal Pradesh.\nIII. Atal Tunnel is approximately 9.0 kilometres long.\nIV. Atal Tunnel is located in the Rohtang region.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and IV only",
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Atal Tunnel is India’s longest tunnel above 10,000 feet, located in Himachal Pradesh’s Rohtang region, and is approximately 9.0 kilometres long.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     }
    ]
   },
@@ -8697,8 +8915,109 @@
       "F7",
       "F33"
      ]
+    },
+    {
+     "id": "world-geography-25-6",
+     "format": "List-Matching",
+     "keyword": "Ports → Rank/Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Shanghai\n(b) Singapore\n(c) Shenzhen\n(d) Rotterdam\n\nList-II\n(i) Netherlands\n(ii) Ranked 1st among the listed ports\n(iii) Singapore\n(iv) Ranked 4th among the listed ports",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Shanghai is ranked 1st, Singapore is located in Singapore, Shenzhen is ranked 4th, and Rotterdam is located in the Netherlands.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F11",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-25-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ports → Location",
+     "question": "Consider the following statements:\n\nI. Ningbo-Zhoushan is located in China.\nII. Qingdao and Guangzhou are ranked 5th among the listed ports.\nIII. Qingdao and Guangzhou are located in China.\nIV. Qingdao and Guangzhou are major Chinese ports.\nV. Shenzhen is located in China.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "I, II, III, IV and V",
+      "II, III and IV only",
+      "I, III, IV and V only"
+     ],
+     "answer": 1,
+     "explanation": "All five statements are correct: Ningbo-Zhoushan and Shenzhen are located in China, while Qingdao and Guangzhou share the 5th rank, are located in China, and are major Chinese ports.",
+     "facts": [
+      "F8",
+      "F11",
+      "F12",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "world-geography-25-8",
+     "format": "Assertion-Reason",
+     "keyword": "Ports → Special Feature",
+     "question": "Assertion (A): Antwerp-Bruges is a major European container and bulk port.\nReason (R): Los Angeles and Long Beach are the busiest ports in North America.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the status of Los Angeles and Long Beach does not explain the special feature of Antwerp-Bruges.",
+     "facts": [
+      "F21",
+      "F23"
+     ]
+    },
+    {
+     "id": "world-geography-25-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ports → Location",
+     "question": "Consider the following statements:\n\nStatement A: Maracaibo is located in Venezuela.\nStatement B: New York is located in the USA.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Maracaibo is located in Venezuela, and New York is located in the USA.",
+     "facts": [
+      "F28",
+      "F30"
+     ]
+    },
+    {
+     "id": "world-geography-25-10",
+     "format": "Direct Recall",
+     "keyword": "Ports → Location",
+     "question": "London is located in which country?",
+     "options": [
+      "UK",
+      "Japan",
+      "Egypt",
+      "Belgium"
+     ],
+     "answer": 0,
+     "explanation": "London is a historic port city located in the UK.",
+     "facts": [
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 33,
+    "covered": 33,
+    "audited": true
+   }
   },
   "26": {
    "number": 26,
@@ -8758,7 +9077,9 @@
       "F23",
       "F25",
       "F13",
-      "F15"
+      "F15",
+      "F14",
+      "F24"
      ]
     },
     {
@@ -8798,7 +9119,9 @@
       "F30",
       "F31",
       "F36",
-      "F37"
+      "F37",
+      "F32",
+      "F38"
      ]
     },
     {
@@ -8818,10 +9141,145 @@
       "F3",
       "F13",
       "F23",
-      "F40"
+      "F40",
+      "F4",
+      "F14",
+      "F24",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-26-6",
+     "format": "List-Matching",
+     "keyword": "Power station → Rank",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Three Gorges Dam\n(b) Baihetan Dam\n(c) Itaipu Dam\n(d) Xiluodu Dam\n\nList-II\n(i) First\n(ii) Second\n(iii) Third\n(iv) Fourth",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Three Gorges Dam, Baihetan Dam, Itaipu Dam and Xiluodu Dam are ranked first, second, third and fourth respectively among the listed power stations.",
+     "facts": [
+      "F1",
+      "F6",
+      "F11",
+      "F16"
+     ]
+    },
+    {
+     "id": "world-geography-26-7",
+     "format": "Direct Recall",
+     "keyword": "Power station → Rank",
+     "question": "Which of the following power stations is ranked fifth among the listed power stations?",
+     "options": [
+      "Baihetan Dam",
+      "Xiluodu Dam",
+      "Itaipu Dam",
+      "Belo Monte Dam"
+     ],
+     "answer": 3,
+     "explanation": "Belo Monte Dam is ranked fifth among the listed power stations.",
+     "facts": [
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-26-8",
+     "format": "Assertion-Reason",
+     "keyword": "Power station → Type and location",
+     "question": "Assertion (A): Baihetan Dam is a hydro power station.\nReason (R): Baihetan Dam is located on the Jinsha River.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Baihetan Dam is a hydro power station and is located on the Jinsha River. Its river location does not explain why it is classified as a hydro power station.",
+     "facts": [
+      "F2",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-26-9",
+     "format": "Direct Recall",
+     "keyword": "Power station → Capacity",
+     "question": "What is the approximate capacity of the Three Gorges Dam?",
+     "options": [
+      "22,500 MW",
+      "13,860 MW",
+      "14,000 MW",
+      "16,000 MW"
+     ],
+     "answer": 0,
+     "explanation": "The approximate capacity of the Three Gorges Dam is 22,500 MW.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-26-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Power station → Type",
+     "question": "Consider the following statements:\nStatement A: Itaipu Dam is a hydro power station.\nStatement B: Xiluodu Dam is a hydro power station.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both Itaipu Dam and Xiluodu Dam are identified as hydro power stations.",
+     "facts": [
+      "F12",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-26-11",
+     "format": "Direct Recall",
+     "keyword": "Power station → Type and largest",
+     "question": "Which of the following is the largest natural-gas-fired plant?",
+     "options": [
+      "Tuoketuo",
+      "Jebel Ali",
+      "Sayano-Shushenskaya",
+      "Kori Plant"
+     ],
+     "answer": 1,
+     "explanation": "Jebel Ali is a natural-gas-fired power station and is identified as the largest natural-gas-fired plant.",
+     "facts": [
+      "F33",
+      "F35"
+     ]
+    },
+    {
+     "id": "world-geography-26-12",
+     "format": "Direct Recall",
+     "keyword": "Power station → Type",
+     "question": "Sayano-Shushenskaya is classified as which type of power station?",
+     "options": [
+      "Natural-gas-fired power station",
+      "Coal-fired power station",
+      "Nuclear power station",
+      "Hydro power station"
+     ],
+     "answer": 3,
+     "explanation": "Sayano-Shushenskaya is a hydro power station and is described as a major Russian hydro station.",
+     "facts": [
+      "F39"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,

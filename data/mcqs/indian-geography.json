@@ -1767,8 +1767,163 @@
       "F17",
       "F16"
      ]
+    },
+    {
+     "id": "indian-geography-3-6",
+     "format": "List-Matching",
+     "keyword": "Waterfalls → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dhuandhar\n(b) Chitrakote\n(c) Dudhsagar\n(d) Chulia\n\nList-II\n(i) Goa\n(ii) Bastar, Chhattisgarh\n(iii) Jabalpur, Madhya Pradesh\n(iv) Rajasthan-Madhya Pradesh region",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Dhuandhar is located in Jabalpur, Madhya Pradesh; Chitrakote is in Bastar, Chhattisgarh; Dudhsagar is in Goa; and Chulia lies in the Rajasthan-Madhya Pradesh region.",
+     "facts": [
+      "F6",
+      "F14",
+      "F30",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-geography-3-7",
+     "format": "List-Matching",
+     "keyword": "Waterfall → River/Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kapildhara\n(b) Bheraghat\n(c) Hundru\n(d) Lodh\n\nList-II\n(i) Latehar, Jharkhand\n(ii) Narmada River\n(iii) Subarnarekha River\n(iv) Jabalpur region, Madhya Pradesh",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Kapildhara is on the Narmada River, Bheraghat is in the Jabalpur region of Madhya Pradesh, Hundru is on the Subarnarekha River, and Lodh is located in Latehar, Jharkhand.",
+     "facts": [
+      "F7",
+      "F11",
+      "F12",
+      "F15",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-geography-3-8",
+     "format": "Assertion-Reason",
+     "keyword": "Waterfall → River/Location",
+     "question": "Assertion (A): Dugdhdhara is located in Madhya Pradesh.\nReason (R): Dugdhdhara is on the Narmada River.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Dugdhdhara is located in Madhya Pradesh and is on the Narmada River. The river association does not explain its stated location.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-geography-3-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Waterfalls → Location",
+     "question": "Consider the following statements:\nStatement A: Jog Falls is located in Shimoga, also known as Shivamogga, Karnataka.\nStatement B: Kunchikal is located in Karnataka.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Jog Falls is located in Shimoga, also known as Shivamogga, Karnataka. Kunchikal is also located in Karnataka.",
+     "facts": [
+      "F2",
+      "F41"
+     ]
+    },
+    {
+     "id": "indian-geography-3-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Waterfall → River",
+     "question": "Consider the following statements:\nStatement A: Chulia is on the Chambal River.\nStatement B: Hasdeo is also written as Hasdo.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Chulia is on the Chambal River, and Hasdeo is also written as Hasdo.",
+     "facts": [
+      "F26",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-geography-3-11",
+     "format": "Count-Based",
+     "keyword": "Waterfall → River/Location",
+     "question": "How many of the following statements about Bhalkund are correct?\n\nI. Bhalkund is also known as Rahatgarh.\nII. Bhalkund is on the Bina River.\nIII. Bhalkund is located in Madhya Pradesh.\nIV. Bhalkund is on the Narmada River.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct: Bhalkund is also known as Rahatgarh, is on the Bina River, and is located in Madhya Pradesh. Statement IV is incorrect.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-geography-3-12",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "WIDTH",
+     "question": "Which of the following statements about the waterfall ranking by width is incorrect?",
+     "options": [
+      "Jog Falls is the waterfall listed under the width ranking.",
+      "The width-ranking entry for Jog Falls names Sharavati.",
+      "The width-ranking entry for Jog Falls places it in Karnataka.",
+      "The width-ranking entry for Jog Falls names Sharava."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the name Sharavati. The width-ranking entry for Jog Falls names Sharava and places it in Karnataka.",
+     "facts": [
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-geography-3-13",
+     "format": "Assertion-Reason",
+     "keyword": "Waterfalls → Location",
+     "question": "Assertion (A): Dudhsagar is situated on the Mandovi River.\nReason (R): Mandovi is also written as Mandvi.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Dudhsagar is on the Mandovi River, and Mandovi is also written as Mandvi. The alternate spelling does not explain Dudhsagar’s location on the river.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 41,
+    "covered": 41,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -2332,7 +2487,14 @@
       "Nepal"
      ],
      "answer": 0,
-     "explanation": "Pakistan shares a land boundary with Ladakh, Jammu & Kashmir, Punjab, Rajasthan and Gujarat."
+     "explanation": "Pakistan shares a land boundary with Ladakh, Jammu & Kashmir, Punjab, Rajasthan and Gujarat.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-6-2",
@@ -2346,7 +2508,13 @@
       "Afghanistan lies to the north-west of India."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that Bhutan lies to the east. Bhutan lies to the north-east of India."
+     "explanation": "The incorrect statement is that Bhutan lies to the east. Bhutan lies to the north-east of India.",
+     "facts": [
+      "F1",
+      "F3",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-6-3",
@@ -2360,7 +2528,17 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The seven countries listed in the Reason account for India’s seven land-border countries."
+     "explanation": "Both statements are true. The seven countries listed in the Reason account for India’s seven land-border countries.",
+     "facts": [
+      "F8",
+      "F9",
+      "F14",
+      "F15",
+      "F20",
+      "F25",
+      "F29",
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-6-4",
@@ -2374,7 +2552,23 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Afghanistan–Ladakh, Nepal–Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim, Bhutan–West Bengal, Sikkim, Assam and Arunachal Pradesh, and Myanmar–Arunachal Pradesh, Nagaland, Manipur and Mizoram."
+     "explanation": "The correct pairs are Afghanistan–Ladakh, Nepal–Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim, Bhutan–West Bengal, Sikkim, Assam and Arunachal Pradesh, and Myanmar–Arunachal Pradesh, Nagaland, Manipur and Mizoram.",
+     "facts": [
+      "F14",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "indian-geography-6-5",
@@ -2388,9 +2582,62 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, III and IV are correct. Bangladesh shares a boundary with Meghalaya, Nepal with Bihar, and Myanmar with Mizoram; Nagaland is not listed among the Indian states sharing a boundary with China."
+     "explanation": "Statements I, III and IV are correct. Bangladesh shares a boundary with Meghalaya, Nepal with Bihar, and Myanmar with Mizoram; Nagaland is not listed among the Indian states sharing a boundary with China.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F22",
+      "F31",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-geography-6-6",
+     "format": "List-Matching",
+     "keyword": "Borders",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Nepal\n(b) Pakistan\n(c) Bangladesh\n(d) Afghanistan\n\nList-II\ni. East\nii. North\niii. North-West\niv. West",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "Nepal lies to the north of India, Pakistan to the west, Bangladesh to the east and Afghanistan to the north-west.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-geography-6-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\n\nI. Bangladesh shares a land boundary with Assam.\nII. Bangladesh shares a land boundary with Tripura.\nIII. Bangladesh shares a land boundary with Mizoram.\nIV. Bangladesh shares a land boundary with Nagaland.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Bangladesh shares land boundaries with Assam, Tripura and Mizoram. Nagaland is listed among the Indian states sharing a land boundary with Myanmar, not Bangladesh.",
+     "facts": [
+      "F30",
+      "F32",
+      "F33"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 37,
+    "covered": 37,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -3978,7 +4225,22 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Indira Gandhi Canal–Harike Barrage/Sutlej + Beas, Upper Ganga Canal–Bhimgoda, Lower Ganga Canal–Narora, and Sharda Major Canal–Banbasa."
+     "explanation": "The correct pairs are: Indira Gandhi Canal–Harike Barrage/Sutlej + Beas, Upper Ganga Canal–Bhimgoda, Lower Ganga Canal–Narora, and Sharda Major Canal–Banbasa.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-11-2",
@@ -3992,7 +4254,18 @@
       "The Saran Canal is associated with the Gandak and located in Bihar."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the state in the fourth statement. The Farakka Canal is located in Murshidabad, West Bengal, not Bihar."
+     "explanation": "The incorrect detail is the state in the fourth statement. The Farakka Canal is located in Murshidabad, West Bengal, not Bihar.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-11-3",
@@ -4006,7 +4279,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify the Buckingham Canal as a coastal/backwater system on the Coromandel Coast of Andhra Pradesh and Tamil Nadu."
+     "explanation": "Both statements are true. The notes identify the Buckingham Canal as a coastal/backwater system on the Coromandel Coast of Andhra Pradesh and Tamil Nadu.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-11-4",
@@ -4020,7 +4297,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes: the Chambal Canal is linked to the Chambal River and is located in Madhya Pradesh and Rajasthan."
+     "explanation": "Both statements are true according to the notes: the Chambal Canal is linked to the Chambal River and is located in Madhya Pradesh and Rajasthan.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-11-5",
@@ -4034,9 +4315,20 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two canals are associated with the Gandak: the Saran Canal and the Triveni Canal."
+     "explanation": "Two canals are associated with the Gandak: the Saran Canal and the Triveni Canal.",
+     "facts": [
+      "F14",
+      "F17",
+      "F19",
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -5661,7 +5953,15 @@
       "Potato production"
      ],
      "answer": 1,
-     "explanation": "The notes associate the White Revolution with milk or dairy production."
+     "explanation": "The notes associate the White Revolution with milk or dairy production.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-17-2",
@@ -5675,7 +5975,18 @@
       "The Blue Revolution is related to fish, fisheries or aquaculture."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is option 3. The Yellow Revolution is related to oilseeds, whereas horticulture, fruits and honey are associated with the Golden Revolution."
+     "explanation": "The incorrect statement is option 3. The Yellow Revolution is related to oilseeds, whereas horticulture, fruits and honey are associated with the Golden Revolution.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-17-3",
@@ -5689,7 +6000,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes define the Rainbow Revolution as the integrated development of agriculture and allied sectors."
+     "explanation": "Both statements are true. The notes define the Rainbow Revolution as the integrated development of agriculture and allied sectors.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-17-4",
@@ -5703,7 +6017,17 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Black Revolution—petroleum or crude oil; Round Revolution—potato production; Pink Revolution—onion production or export of meat; Brown Revolution—fertilizer production or non-conventional energy."
+     "explanation": "The correct pairs are Black Revolution—petroleum or crude oil; Round Revolution—potato production; Pink Revolution—onion production or export of meat; Brown Revolution—fertilizer production or non-conventional energy.",
+     "facts": [
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F19",
+      "F20",
+      "F21",
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-17-5",
@@ -5717,9 +6041,26 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched according to the notes: Golden with horticulture, fruits and honey; Black with petroleum or crude oil; Brown with fertilizer production or non-conventional energy; and Red with meat and tomato production."
+     "explanation": "All four pairs are correctly matched according to the notes: Golden with horticulture, fruits and honey; Black with petroleum or crude oil; Brown with fertilizer production or non-conventional energy; and Red with meat and tomato production.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F19",
+      "F20",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
