@@ -13631,7 +13631,10 @@
       "Solid"
      ],
      "answer": 2,
-     "explanation": "Ethylene is identified as a gas."
+     "explanation": "Ethylene is identified as a gas.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-50-2",
@@ -13645,7 +13648,10 @@
       "Carbon dioxide release"
      ],
      "answer": 2,
-     "explanation": "Ethylene promotes fruit ripening."
+     "explanation": "Ethylene promotes fruit ripening.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-50-3",
@@ -13659,7 +13665,10 @@
       "Ethylene"
      ],
      "answer": 3,
-     "explanation": "Respiratory climacteric is listed as a function associated with ethylene."
+     "explanation": "Respiratory climacteric is listed as a function associated with ethylene.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-50-4",
@@ -13673,7 +13682,10 @@
       "It converts root hairs into leaves"
      ],
      "answer": 1,
-     "explanation": "Ethylene promotes root hair formation."
+     "explanation": "Ethylene promotes root hair formation.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "biology-50-5",
@@ -13687,7 +13699,10 @@
       "It promotes elongation"
      ],
      "answer": 2,
-     "explanation": "Ethylene inhibits stem and root elongation."
+     "explanation": "Ethylene inhibits stem and root elongation.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-50-6",
@@ -13701,7 +13716,13 @@
       "Ethylene promotes flower abscission."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the effect on latex flow. Ethylene stimulates latex flow in rubber."
+     "explanation": "The incorrect detail is the effect on latex flow. Ethylene stimulates latex flow in rubber.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "biology-50-7",
@@ -13715,7 +13736,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are listed functions of ethylene, but leaf and flower abscission does not explain the separate fact that ethylene promotes senescence."
+     "explanation": "Both statements are listed functions of ethylene, but leaf and flower abscission does not explain the separate fact that ethylene promotes senescence.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-50-8",
@@ -13729,7 +13755,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but storage as starch or sucrose does not explain why glucose is the main food product."
+     "explanation": "Both statements are true, but storage as starch or sucrose does not explain why glucose is the main food product.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-50-9",
@@ -13743,7 +13773,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given facts, but conversion of carbon dioxide into organic compounds does not explain the stated conversion of light energy into chemical energy."
+     "explanation": "Both statements are given facts, but conversion of carbon dioxide into organic compounds does not explain the stated conversion of light energy into chemical energy.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "biology-50-10",
@@ -13757,7 +13791,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The leaf is the main organ, and mesophyll is the tissue associated with photosynthesis."
+     "explanation": "The leaf is the main organ, and mesophyll is the tissue associated with photosynthesis.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-50-11",
@@ -13771,7 +13809,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "The light reaction occurs on the thylakoid membrane. The dark reaction or Calvin cycle occurs in the stroma, not in the grana."
+     "explanation": "The light reaction occurs on the thylakoid membrane. The dark reaction or Calvin cycle occurs in the stroma, not in the grana.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-50-12",
@@ -13785,7 +13827,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. The stroma is the site of the dark reaction or Calvin cycle, not the light reaction."
+     "explanation": "Statements I and II are correct. The stroma is the site of the dark reaction or Calvin cycle, not the light reaction.",
+     "facts": [
+      "F15",
+      "F18",
+      "F20"
+     ]
     },
     {
      "id": "biology-50-13",
@@ -13799,7 +13846,12 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Oxygen is a by-product and carbon dioxide is converted into organic compounds. Glucose is stored as starch or sucrose, so it is not stored only as sucrose."
+     "explanation": "Oxygen is a by-product and carbon dioxide is converted into organic compounds. Glucose is stored as starch or sucrose, so it is not stored only as sucrose.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "biology-50-14",
@@ -13813,7 +13865,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are plant—green parts, main organ—leaf, tissue—mesophyll and organelle—chloroplast."
+     "explanation": "The correct pairs are plant—green parts, main organ—leaf, tissue—mesophyll and organelle—chloroplast.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "biology-50-15",
@@ -13827,7 +13885,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The thylakoid membrane is the site of the light reaction, the stroma is the site of the dark reaction, chlorophyll is associated with the grana/thylakoid system, and chlorophyll is located in the chloroplast."
+     "explanation": "The thylakoid membrane is the site of the light reaction, the stroma is the site of the dark reaction, chlorophyll is associated with the grana/thylakoid system, and chlorophyll is located in the chloroplast.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F23"
+     ]
     },
     {
      "id": "biology-50-16",
@@ -13841,7 +13905,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are main pigment—chlorophyll, function—absorbs light, strong absorption—red and blue light, and green appearance—green light largely reflected."
+     "explanation": "The correct pairs are main pigment—chlorophyll, function—absorbs light, strong absorption—red and blue light, and green appearance—green light largely reflected.",
+     "facts": [
+      "F22",
+      "F24",
+      "F25",
+      "F27"
+     ]
     },
     {
      "id": "biology-50-17",
@@ -13855,7 +13925,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are associated with ethylene: it promotes fruit ripening and root hair formation, inhibits stem and root elongation, and stimulates latex flow in rubber."
+     "explanation": "All four are associated with ethylene: it promotes fruit ripening and root hair formation, inhibits stem and root elongation, and stimulates latex flow in rubber.",
+     "facts": [
+      "F2",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-50-18",
@@ -13869,7 +13945,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are listed facts about photosynthesis products, storage and energy conversion."
+     "explanation": "All four statements are listed facts about photosynthesis products, storage and energy conversion.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-50-19",
@@ -13883,7 +13965,10 @@
       "Stroma"
      ],
      "answer": 1,
-     "explanation": "Chlorophyll is located in the chloroplast."
+     "explanation": "Chlorophyll is located in the chloroplast.",
+     "facts": [
+      "F23"
+     ]
     },
     {
      "id": "biology-50-20",
@@ -13897,9 +13982,17 @@
       "Yellow"
      ],
      "answer": 0,
-     "explanation": "Red light is the most effective light in photosynthesis."
+     "explanation": "Red light is the most effective light in photosynthesis.",
+     "facts": [
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   },
   "51": {
    "number": 51,
@@ -14219,7 +14312,10 @@
       "Closure of stomata"
      ],
      "answer": 1,
-     "explanation": "Transpiration means the loss of water vapour from a plant."
+     "explanation": "Transpiration means the loss of water vapour from a plant.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-52-2",
@@ -14233,7 +14329,11 @@
       "Transpiration involves the loss of water vapour."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘roots’. Stomata are the major route of transpiration."
+     "explanation": "The incorrect detail is ‘roots’. Stomata are the major route of transpiration.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "biology-52-3",
@@ -14247,7 +14347,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes link transpiration with water movement and state that it helps create transpiration pull."
+     "explanation": "The notes link transpiration with water movement and state that it helps create transpiration pull.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-52-4",
@@ -14261,7 +14364,10 @@
       "Stomatal closure"
      ],
      "answer": 2,
-     "explanation": "Cooling through transpiration helps regulate leaf temperature."
+     "explanation": "Cooling through transpiration helps regulate leaf temperature.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-52-5",
@@ -14275,7 +14381,10 @@
       "Downward mineral transport"
      ],
      "answer": 1,
-     "explanation": "Transpiration is associated with upward water transport and mineral movement."
+     "explanation": "Transpiration is associated with upward water transport and mineral movement.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "biology-52-6",
@@ -14289,7 +14398,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "ABA reduces water loss through stomatal closure, so the reason correctly explains the assertion."
+     "explanation": "ABA reduces water loss through stomatal closure, so the reason correctly explains the assertion.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "biology-52-7",
@@ -14303,7 +14415,10 @@
       "Reduce transpiration"
      ],
      "answer": 3,
-     "explanation": "Xerophyte adaptations reduce transpiration."
+     "explanation": "Xerophyte adaptations reduce transpiration.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-52-8",
@@ -14317,7 +14432,13 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Nitrogen is a macronutrient associated with growth and development, proteins, chlorophyll and nucleic acids. Statement III is false."
+     "explanation": "Nitrogen is a macronutrient associated with growth and development, proteins, chlorophyll and nucleic acids. Statement III is false.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-52-9",
@@ -14331,7 +14452,12 @@
       "Root development, ATP and nucleic acids"
      ],
      "answer": 3,
-     "explanation": "Phosphorus is associated with root development, ATP and nucleic acids."
+     "explanation": "Phosphorus is associated with root development, ATP and nucleic acids.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-52-10",
@@ -14345,7 +14471,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Potassium is linked with stomatal regulation, while calcium is associated with plant structure and enzyme activation."
+     "explanation": "Potassium is linked with stomatal regulation, while calcium is associated with plant structure and enzyme activation.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "biology-52-11",
@@ -14359,7 +14490,10 @@
       "Sulphur"
      ],
      "answer": 2,
-     "explanation": "Magnesium is associated with chlorophyll."
+     "explanation": "Magnesium is associated with chlorophyll.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "biology-52-12",
@@ -14373,7 +14507,12 @@
       "Electron transport only"
      ],
      "answer": 0,
-     "explanation": "Sulphur is associated with amino acids, chloroplasts and N₂ fixation."
+     "explanation": "Sulphur is associated with amino acids, chloroplasts and N₂ fixation.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-52-13",
@@ -14387,7 +14526,13 @@
       "a-ii, b-ii"
      ],
      "answer": 1,
-     "explanation": "Fe is associated with chlorophyll synthesis and electron transport, while B is associated with meristem growth and nodule formation."
+     "explanation": "Fe is associated with chlorophyll synthesis and electron transport, while B is associated with meristem growth and nodule formation.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "biology-52-14",
@@ -14401,7 +14546,12 @@
       "a-ii, b-ii"
      ],
      "answer": 1,
-     "explanation": "Zn is associated with enzyme and growth functions; Cu is associated with enzyme functions."
+     "explanation": "Zn is associated with enzyme and growth functions; Cu is associated with enzyme functions.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "biology-52-15",
@@ -14415,7 +14565,12 @@
       "a-i, b-i"
      ],
      "answer": 1,
-     "explanation": "Mn is associated with photosynthetic and enzyme functions, while Mo is associated with nitrogen metabolism."
+     "explanation": "Mn is associated with photosynthetic and enzyme functions, while Mo is associated with nitrogen metabolism.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "biology-52-16",
@@ -14429,7 +14584,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both chlorine and nickel are listed as micronutrients."
+     "explanation": "Both chlorine and nickel are listed as micronutrients.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "biology-52-17",
@@ -14443,7 +14602,8 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Nitrogen, phosphorus and potassium are macronutrients. Iron is a micronutrient; therefore, the number is three."
+     "explanation": "Nitrogen, phosphorus and potassium are macronutrients. Iron is a micronutrient; therefore, the number is three.",
+     "facts": []
     },
     {
      "id": "biology-52-18",
@@ -14457,7 +14617,8 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Iron, boron and zinc are micronutrients, whereas magnesium is a macronutrient. Therefore, the number is three."
+     "explanation": "Iron, boron and zinc are micronutrients, whereas magnesium is a macronutrient. Therefore, the number is three.",
+     "facts": []
     },
     {
      "id": "biology-52-19",
@@ -14471,7 +14632,10 @@
       "Nuclei"
      ],
      "answer": 0,
-     "explanation": "Stomata are identified as the major route of transpiration."
+     "explanation": "Stomata are identified as the major route of transpiration.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-52-20",
@@ -14485,9 +14649,17 @@
       "Water loss"
      ],
      "answer": 3,
-     "explanation": "The notes associate excessive transpiration with water loss."
+     "explanation": "The notes associate excessive transpiration with water loss.",
+     "facts": [
+      "F6"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 34,
+    "covered": 34,
+    "audited": true
+   }
   },
   "53": {
    "number": 53,
@@ -15480,8 +15652,33 @@
       "F28",
       "F32"
      ]
+    },
+    {
+     "id": "biology-54-23",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Molybdenum\n b. Zinc\n c. Copper\n d. Manganese\n\nList-II\n i. Mo\n ii. Zn\n iii. Cu\n iv. Mn",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Molybdenum, zinc, copper and manganese have the symbols Mo, Zn, Cu and Mn, respectively.",
+     "facts": [
+      "F36",
+      "F39",
+      "F42",
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 65,
+    "covered": 65,
+    "audited": true
+   }
   },
   "55": {
    "number": 55,
@@ -15900,7 +16097,11 @@
       "Fe"
      ],
      "answer": 3,
-     "explanation": "Fe is associated with chlorophyll synthesis and electron transport."
+     "explanation": "Fe is associated with chlorophyll synthesis and electron transport.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "biology-56-2",
@@ -15914,7 +16115,11 @@
       "Photosynthetic and enzyme functions"
      ],
      "answer": 0,
-     "explanation": "B is associated with meristem growth and nodule formation."
+     "explanation": "B is associated with meristem growth and nodule formation.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "biology-56-3",
@@ -15928,7 +16133,10 @@
       "Mn"
      ],
      "answer": 1,
-     "explanation": "Mo is associated with nitrogen metabolism."
+     "explanation": "Mo is associated with nitrogen metabolism.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "biology-56-4",
@@ -15942,7 +16150,11 @@
       "Cl"
      ],
      "answer": 1,
-     "explanation": "Mn is associated with photosynthetic and enzyme functions."
+     "explanation": "Mn is associated with photosynthetic and enzyme functions.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-56-5",
@@ -15956,7 +16168,10 @@
       "Azotobacter"
      ],
      "answer": 3,
-     "explanation": "Azotobacter is identified as a free-living nitrogen fixer."
+     "explanation": "Azotobacter is identified as a free-living nitrogen fixer.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "biology-56-6",
@@ -15970,7 +16185,17 @@
       "Cu is associated with enzyme functions."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the function assigned to Mo. Mo is associated with nitrogen metabolism, whereas chlorophyll synthesis and electron transport are associated with Fe."
+     "explanation": "The incorrect detail is the function assigned to Mo. Mo is associated with nitrogen metabolism, whereas chlorophyll synthesis and electron transport are associated with Fe.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-56-7",
@@ -15984,7 +16209,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly states the function associated with Fe."
+     "explanation": "Both statements are true, and the reason directly states the function associated with Fe.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "biology-56-8",
@@ -15998,7 +16227,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the crop association of Azolla–Anabaena."
+     "explanation": "Both statements are true, and the reason directly explains the crop association of Azolla–Anabaena.",
+     "facts": [
+      "F17",
+      "F21"
+     ]
     },
     {
      "id": "biology-56-9",
@@ -16012,7 +16245,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason restates the association given for mycorrhiza."
+     "explanation": "Both statements are true, and the reason restates the association given for mycorrhiza.",
+     "facts": [
+      "F26"
+     ]
     },
     {
      "id": "biology-56-10",
@@ -16026,7 +16262,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Zn is associated with enzyme and growth functions, while Cu is associated with enzyme functions."
+     "explanation": "Both statements are correct: Zn is associated with enzyme and growth functions, while Cu is associated with enzyme functions.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-56-11",
@@ -16040,7 +16281,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both cyanobacteria and Anabaena are listed as performing nitrogen fixation."
+     "explanation": "Both cyanobacteria and Anabaena are listed as performing nitrogen fixation.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-56-12",
@@ -16054,7 +16299,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements correctly reproduce the listed nitrogen-fixer and crop associations."
+     "explanation": "All four statements correctly reproduce the listed nitrogen-fixer and crop associations.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-56-13",
@@ -16068,7 +16319,13 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct according to the biofertilizer–organism associations."
+     "explanation": "All four statements are correct according to the biofertilizer–organism associations.",
+     "facts": [
+      "F14",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "biology-56-14",
@@ -16082,7 +16339,16 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Fe–chlorophyll synthesis and electron transport, B–meristem growth and nodule formation, Zn–enzyme and growth functions, and Mo–nitrogen metabolism."
+     "explanation": "The correct pairs are Fe–chlorophyll synthesis and electron transport, B–meristem growth and nodule formation, Zn–enzyme and growth functions, and Mo–nitrogen metabolism.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "biology-56-15",
@@ -16096,7 +16362,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "Rhizobium is associated with symbiotic N₂ fixation in legume root nodules; Azotobacter is free-living; cyanobacteria and Anabaena are associated with nitrogen fixation."
+     "explanation": "Rhizobium is associated with symbiotic N₂ fixation in legume root nodules; Azotobacter is free-living; cyanobacteria and Anabaena are associated with nitrogen fixation.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-56-16",
@@ -16110,7 +16382,13 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Rhizobium–leguminous crops, Azolla–Anabaena–rice or paddy fields, cyanobacteria–rice or wetland agriculture, and Rhizobium–pea."
+     "explanation": "The correct pairs are Rhizobium–leguminous crops, Azolla–Anabaena–rice or paddy fields, cyanobacteria–rice or wetland agriculture, and Rhizobium–pea.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-56-17",
@@ -16124,7 +16402,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Rhizobium–symbiotic bacterium, Azolla–associated with Anabaena, Azotobacter–free-living N fixer, and Mycorrhiza–fungus–root association."
+     "explanation": "The correct pairs are Rhizobium–symbiotic bacterium, Azolla–associated with Anabaena, Azotobacter–free-living N fixer, and Mycorrhiza–fungus–root association.",
+     "facts": [
+      "F14",
+      "F23",
+      "F24",
+      "F26"
+     ]
     },
     {
      "id": "biology-56-18",
@@ -16138,7 +16422,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Zn has enzyme and growth functions, Cu has enzyme functions, and Mn has photosynthetic and enzyme functions. Mo is associated with nitrogen metabolism, so the count is three."
+     "explanation": "Zn has enzyme and growth functions, Cu has enzyme functions, and Mn has photosynthetic and enzyme functions. Mo is associated with nitrogen metabolism, so the count is three.",
+     "facts": [
+      "F5",
+      "F7",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-56-19",
@@ -16152,7 +16442,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed nitrogen-fixer and crop associations are present: Rhizobium with pea and leguminous crops, Azolla–Anabaena with rice or paddy fields, and cyanobacteria with rice or wetland agriculture."
+     "explanation": "All four listed nitrogen-fixer and crop associations are present: Rhizobium with pea and leguminous crops, Azolla–Anabaena with rice or paddy fields, and cyanobacteria with rice or wetland agriculture.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-56-20",
@@ -16166,9 +16462,20 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Chlorine (Cl) and nickel (Ni) are listed simply as micronutrients without a specified key function. Molybdenum is associated with nitrogen metabolism, while copper is associated with enzyme functions."
+     "explanation": "Chlorine (Cl) and nickel (Ni) are listed simply as micronutrients without a specified key function. Molybdenum is associated with nitrogen metabolism, while copper is associated with enzyme functions.",
+     "facts": [
+      "F7",
+      "F10",
+      "F11",
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "57": {
    "number": 57,
@@ -17323,8 +17630,192 @@
       "F92",
       "F96"
      ]
+    },
+    {
+     "id": "biology-59-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Kingdom–Phylum–Class",
+     "question": "Consider the following statements:\nI. Human belongs to kingdom Animalia and phylum Chordata.\nII. Lion belongs to kingdom Animalia and phylum Chordata.\nIII. Tiger belongs to kingdom Animalia, phylum Chordata and class Mammalia.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Human and lion are placed in Animalia and Chordata, while tiger is placed in Animalia, Chordata and Mammalia.",
+     "facts": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "biology-59-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Kingdom–Phylum",
+     "question": "Consider the following statements:\nStatement A: Shark and seahorse belong to kingdom Animalia and phylum Chordata.\nStatement B: Golden Mahseer belongs to kingdom Animalia and phylum Chordata.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Shark, seahorse and Golden Mahseer are each classified under Animalia and Chordata.",
+     "facts": [
+      "F17",
+      "F18",
+      "F21",
+      "F22",
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "biology-59-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Arthropoda – Crustacean and Arachnid",
+     "question": "Consider the following statements:\nI. Crab belongs to kingdom Animalia and phylum Arthropoda.\nII. Crab is a crustacean.\nIII. Spider belongs to kingdom Animalia, phylum Arthropoda and class Arachnida.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. Crab is an arthropod crustacean, while spider is an Animalia member of Arthropoda and class Arachnida.",
+     "facts": [
+      "F33",
+      "F34",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "biology-59-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Insects – Kingdom and Phylum",
+     "question": "Consider the following statements:\nStatement A: Insects belong to kingdom Animalia.\nStatement B: Insects belong to phylum Arthropoda.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Insects are classified under kingdom Animalia and phylum Arthropoda.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "biology-59-25",
+     "format": "Direct Recall",
+     "keyword": "Mammal – Not a Fish",
+     "question": "Which one of the following correctly describes a whale?",
+     "options": [
+      "It is a fish.",
+      "It is a true fish.",
+      "It is a cartilaginous fish.",
+      "It is not a fish."
+     ],
+     "answer": 3,
+     "explanation": "Whale is specifically identified as not being a fish.",
+     "facts": [
+      "F52"
+     ]
+    },
+    {
+     "id": "biology-59-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Kingdom and Phylum",
+     "question": "Consider the following statements:\nI. Crocodile belongs to kingdom Animalia.\nII. Crocodile belongs to phylum Chordata.\nIII. Archaeopteryx belongs to kingdom Animalia.\nIV. Archaeopteryx belongs to phylum Chordata.",
+     "options": [
+      "I and III only",
+      "III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Crocodile and Archaeopteryx are both placed in kingdom Animalia and phylum Chordata. Therefore, all four statements are correct.",
+     "facts": [
+      "F57",
+      "F58",
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "biology-59-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Signature organism",
+     "question": "Consider the following statements:\nStatement A: Mushroom is a signature organism of Fungi.\nStatement B: Mushroom belongs to kingdom Fungi.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Mushroom is listed as a signature organism of Fungi and is classified under kingdom Fungi.",
+     "facts": [
+      "F80",
+      "F98"
+     ]
+    },
+    {
+     "id": "biology-59-28",
+     "format": "Count-Based",
+     "keyword": "Kingdom characteristics",
+     "question": "How many of the following statements correctly describe Plantae?\n1. Plantae has eukaryotic cells.\n2. Plantae is multicellular.\n3. Plantae is mainly autotrophic.\n4. Algae to angiosperms are the signature range of Plantae.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements correctly describe Plantae: it has eukaryotic cells, is multicellular, is mainly autotrophic, and has algae to angiosperms as its signature range.",
+     "facts": [
+      "F81",
+      "F82",
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "biology-59-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Kingdom/Phylum → Classification",
+     "question": "Consider the following statements regarding the octopus:\nI. It belongs to kingdom Animalia.\nII. It belongs to phylum Mollusca.\nIII. It is a soft-bodied mollusc.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: the octopus belongs to kingdom Animalia and phylum Mollusca, and it is a soft-bodied mollusc.",
+     "facts": [
+      "F29",
+      "F30",
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 103,
+    "covered": 103,
+    "audited": true
+   }
   },
   "60": {
    "number": 60,
@@ -17352,7 +17843,10 @@
       "Homo sapiens"
      ],
      "answer": 3,
-     "explanation": "The scientific name of the human is Homo sapiens."
+     "explanation": "The scientific name of the human is Homo sapiens.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-60-2",
@@ -17366,7 +17860,10 @@
       "Viverra civettina"
      ],
      "answer": 0,
-     "explanation": "The tiger is scientifically named Panthera tigris."
+     "explanation": "The tiger is scientifically named Panthera tigris.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-60-3",
@@ -17380,7 +17877,10 @@
       "Potato"
      ],
      "answer": 3,
-     "explanation": "Solanum tuberosum is the scientific name of potato."
+     "explanation": "Solanum tuberosum is the scientific name of potato.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "biology-60-4",
@@ -17394,7 +17894,10 @@
       "Tor putitora"
      ],
      "answer": 1,
-     "explanation": "Mango is scientifically known as Mangifera indica."
+     "explanation": "Mango is scientifically known as Mangifera indica.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "biology-60-5",
@@ -17408,7 +17911,10 @@
       "Arthropoda"
      ],
      "answer": 3,
-     "explanation": "Arthropoda is identified as the largest animal phylum."
+     "explanation": "Arthropoda is identified as the largest animal phylum.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "biology-60-6",
@@ -17422,7 +17928,13 @@
       "Housefly is Musca domestica."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement is the first one. Panthera pardus is the scientific name of the leopard, so this statement is actually correct; however, the altered detail is not present. Wait—no option is incorrect."
+     "explanation": "The incorrect statement is the first one. Panthera pardus is the scientific name of the leopard, so this statement is actually correct; however, the altered detail is not present. Wait—no option is incorrect.",
+     "facts": [
+      "F4",
+      "F8",
+      "F9",
+      "F12"
+     ]
     },
     {
      "id": "biology-60-7",
@@ -17436,7 +17948,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: whale is a mammal and shark has a cartilaginous skeleton. The reason does not explain the classification of a whale."
+     "explanation": "Both statements are true: whale is a mammal and shark has a cartilaginous skeleton. The reason does not explain the classification of a whale.",
+     "facts": [
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "biology-60-8",
@@ -17450,7 +17966,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and its classification under Echinodermata explains why starfish is not a fish."
+     "explanation": "Both statements are true, and its classification under Echinodermata explains why starfish is not a fish.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "biology-60-9",
@@ -17464,7 +17984,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the heterotrophic mode of fungi does not explain why plants are mainly autotrophic producers."
+     "explanation": "Both statements are true, but the heterotrophic mode of fungi does not explain why plants are mainly autotrophic producers.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "biology-60-10",
@@ -17478,7 +18002,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Insecta has the largest number of known animal species. Arachnida has four pairs of legs, so Statement B is false."
+     "explanation": "Insecta has the largest number of known animal species. Arachnida has four pairs of legs, so Statement B is false.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-60-11",
@@ -17492,7 +18020,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: the seahorse is a true fish, while the hagfish is a cyclostome and not a true fish."
+     "explanation": "Both statements are true: the seahorse is a true fish, while the hagfish is a cyclostome and not a true fish.",
+     "facts": [
+      "F23",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-60-12",
@@ -17506,7 +18039,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Only Statement I is correct. Panthera leo is lion, while Panthera tigris is tiger and Panthera pardus is leopard."
+     "explanation": "Only Statement I is correct. Panthera leo is lion, while Panthera tigris is tiger and Panthera pardus is leopard.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "biology-60-13",
@@ -17520,7 +18058,12 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct scientific-name associations."
+     "explanation": "All three statements are correct scientific-name associations.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-60-14",
@@ -17534,7 +18077,14 @@
       "I only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. Echinodermata is marine, not terrestrial, though its adults have pentamerous radial symmetry."
+     "explanation": "Statements I and II are correct. Echinodermata is marine, not terrestrial, though its adults have pentamerous radial symmetry.",
+     "facts": [
+      "F19",
+      "F20",
+      "F27",
+      "F28",
+      "F31"
+     ]
     },
     {
      "id": "biology-60-15",
@@ -17548,7 +18098,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are lion–Panthera leo, potato–Solanum tuberosum, brinjal–Solanum melongena and mango–Mangifera indica."
+     "explanation": "The correct pairs are lion–Panthera leo, potato–Solanum tuberosum, brinjal–Solanum melongena and mango–Mangifera indica.",
+     "facts": [
+      "F2",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-60-16",
@@ -17562,7 +18118,13 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Malabar civet–Viverra civettina, Sambar–Rusa unicolor, Cuscuta–Cuscuta and Housefly–Musca domestica."
+     "explanation": "The correct pairs are Malabar civet–Viverra civettina, Sambar–Rusa unicolor, Cuscuta–Cuscuta and Housefly–Musca domestica.",
+     "facts": [
+      "F8",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-60-17",
@@ -17576,7 +18138,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are shark–cartilaginous skeleton, whale–mammal, octopus–cephalopod mollusc and cyanobacteria–photosynthetic prokaryotes."
+     "explanation": "The correct pairs are shark–cartilaginous skeleton, whale–mammal, octopus–cephalopod mollusc and cyanobacteria–photosynthetic prokaryotes.",
+     "facts": [
+      "F22",
+      "F24",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "biology-60-18",
@@ -17590,7 +18158,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three matches are correct. Fungi are absorptive heterotrophs, while plants are mainly autotrophic producers; therefore, only three are correctly matched."
+     "explanation": "The first three matches are correct. Fungi are absorptive heterotrophs, while plants are mainly autotrophic producers; therefore, only three are correctly matched.",
+     "facts": [
+      "F16",
+      "F17",
+      "F19",
+      "F34"
+     ]
     },
     {
      "id": "biology-60-19",
@@ -17604,7 +18178,10 @@
       "Mycoplasma"
      ],
      "answer": 3,
-     "explanation": "Mycoplasma is characterized by the absence of a cell wall."
+     "explanation": "Mycoplasma is characterized by the absence of a cell wall.",
+     "facts": [
+      "F33"
+     ]
     },
     {
      "id": "biology-60-20",
@@ -17618,9 +18195,34 @@
       "Echinodermata"
      ],
      "answer": 1,
-     "explanation": "Mollusca is characterized by soft-bodied animals."
+     "explanation": "Mollusca is characterized by soft-bodied animals.",
+     "facts": [
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-60-21",
+     "format": "Direct Recall",
+     "keyword": "Organism",
+     "question": "The body of an insect belonging to Insecta is divided into which three regions?",
+     "options": [
+      "Head, thorax and abdomen",
+      "Abdomen, thorax and head",
+      "Thorax, head and abdomen",
+      "Head, abdomen and thorax"
+     ],
+     "answer": 0,
+     "explanation": "The body of Insecta consists of the head, thorax and abdomen.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "61": {
    "number": 61,
@@ -19393,7 +19995,10 @@
       "Acetobacter"
      ],
      "answer": 2,
-     "explanation": "Rhizobium is associated with nitrogen fixation."
+     "explanation": "Rhizobium is associated with nitrogen fixation.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-65-2",
@@ -19407,7 +20012,14 @@
       "Cyanobacteria perform photosynthesis and nitrogen fixation."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the symbiont relationship. Anabaena is a symbiont of Azolla, not Azotobacter."
+     "explanation": "The incorrect detail is the symbiont relationship. Anabaena is a symbiont of Azolla, not Azotobacter.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-65-3",
@@ -19421,7 +20033,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the symbiotic relationship explains the association of Anabaena with Azolla."
+     "explanation": "Both statements are true, and the symbiotic relationship explains the association of Anabaena with Azolla.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "biology-65-4",
@@ -19435,7 +20050,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet associates Lactobacillus with curd formation and Acetobacter with vinegar production."
+     "explanation": "The sheet associates Lactobacillus with curd formation and Acetobacter with vinegar production.",
+     "facts": [
+      "F7",
+      "F18"
+     ]
     },
     {
      "id": "biology-65-5",
@@ -19449,7 +20068,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three statements correctly match the microorganisms with their listed functions."
+     "explanation": "All three statements correctly match the microorganisms with their listed functions.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-65-6",
@@ -19463,7 +20087,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Rhizobium–nitrogen fixation, Lactobacillus–curd formation, Aspergillus–citric acid production and Methanogens–methane production."
+     "explanation": "The correct pairs are Rhizobium–nitrogen fixation, Lactobacillus–curd formation, Aspergillus–citric acid production and Methanogens–methane production.",
+     "facts": [
+      "F1",
+      "F7",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-65-7",
@@ -19477,7 +20107,11 @@
       "Industrial bacteria"
      ],
      "answer": 1,
-     "explanation": "Mycorrhizal fungi are associated with nutrient and water uptake."
+     "explanation": "Mycorrhizal fungi are associated with nutrient and water uptake.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-65-8",
@@ -19491,7 +20125,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed microorganisms are associated with nitrogen fixation."
+     "explanation": "All four listed microorganisms are associated with nitrogen fixation.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-65-9",
@@ -19505,7 +20145,10 @@
       "Penicillium"
      ],
      "answer": 2,
-     "explanation": "Saccharomyces is associated with fermentation."
+     "explanation": "Saccharomyces is associated with fermentation.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-65-10",
@@ -19519,7 +20162,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Rhizobium–N₂ fixation, Lactobacillus–curd, Acetobacter–vinegar and methanogenic archaea–methane/biogas."
+     "explanation": "The correct pairs are Rhizobium–N₂ fixation, Lactobacillus–curd, Acetobacter–vinegar and methanogenic archaea–methane/biogas.",
+     "facts": [
+      "F1",
+      "F7",
+      "F18",
+      "F20"
+     ]
     },
     {
      "id": "biology-65-11",
@@ -19533,7 +20182,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements reflect the listed functions of industrial bacteria and microorganisms generally."
+     "explanation": "Both statements reflect the listed functions of industrial bacteria and microorganisms generally.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F27"
+     ]
     },
     {
      "id": "biology-65-12",
@@ -19547,7 +20202,10 @@
       "Aspergillus"
      ],
      "answer": 1,
-     "explanation": "Penicillium is associated with penicillin."
+     "explanation": "Penicillium is associated with penicillin.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "biology-65-13",
@@ -19561,7 +20219,14 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Penicillium–penicillin, Streptomyces–streptomycin, Bacillus–several antibiotics and Acetobacter–vinegar/acetic acid production."
+     "explanation": "The correct pairs are Penicillium–penicillin, Streptomyces–streptomycin, Bacillus–several antibiotics and Acetobacter–vinegar/acetic acid production.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "biology-65-14",
@@ -19575,7 +20240,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true; the sheet identifies Acetobacter with vinegar/acetic acid production."
+     "explanation": "Both statements are true; the sheet identifies Acetobacter with vinegar/acetic acid production.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-65-15",
@@ -19589,7 +20258,17 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements correctly reproduce the listed bacteria or bacterial-group functions."
+     "explanation": "All four statements correctly reproduce the listed bacteria or bacterial-group functions.",
+     "facts": [
+      "F3",
+      "F4",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F13"
+     ]
     },
     {
      "id": "biology-65-16",
@@ -19603,7 +20282,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Penicillium, Streptomyces and Bacillus are associated with penicillin, streptomycin and several antibiotics respectively. Aspergillus is associated with citric acid production."
+     "explanation": "Penicillium, Streptomyces and Bacillus are associated with penicillin, streptomycin and several antibiotics respectively. Aspergillus is associated with citric acid production.",
+     "facts": [
+      "F9",
+      "F17",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "biology-65-17",
@@ -19617,7 +20302,11 @@
       "Alcohol and bread"
      ],
      "answer": 3,
-     "explanation": "Yeast is associated with alcohol and bread."
+     "explanation": "Yeast is associated with alcohol and bread.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-65-18",
@@ -19631,7 +20320,10 @@
       "Lactobacillus"
      ],
      "answer": 1,
-     "explanation": "Azotobacter is associated with free-living nitrogen fixation, whereas Rhizobium and Anabaena are associated with nitrogen fixation in other contexts."
+     "explanation": "Azotobacter is associated with free-living nitrogen fixation, whereas Rhizobium and Anabaena are associated with nitrogen fixation in other contexts.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-65-19",
@@ -19645,9 +20337,36 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Azotobacter is associated with N₂ fixation, and decomposer bacteria break down organic matter."
+     "explanation": "Both statements are true. Azotobacter is associated with N₂ fixation, and decomposer bacteria break down organic matter.",
+     "facts": [
+      "F2",
+      "F21",
+      "F13"
+     ]
+    },
+    {
+     "id": "biology-65-20",
+     "format": "Direct Recall",
+     "keyword": "Microorganism → Function",
+     "question": "Which microorganism performs decomposition?",
+     "options": [
+      "Lactobacillus",
+      "Fungi",
+      "Penicillium",
+      "Yeast"
+     ],
+     "answer": 1,
+     "explanation": "Fungi perform decomposition. Yeast is associated with alcohol and bread, Penicillium with penicillin, and Lactobacillus with curd formation.",
+     "facts": [
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   },
   "66": {
    "number": 66,
@@ -20361,7 +21080,10 @@
       "Aspergillus"
      ],
      "answer": 0,
-     "explanation": "Rhizobium is identified as a biofertilizer microorganism."
+     "explanation": "Rhizobium is identified as a biofertilizer microorganism.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-68-2",
@@ -20375,7 +21097,10 @@
       "Lactobacillus"
      ],
      "answer": 3,
-     "explanation": "Lactobacillus is associated with food biotechnology."
+     "explanation": "Lactobacillus is associated with food biotechnology.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "biology-68-3",
@@ -20389,7 +21114,10 @@
       "Yeast"
      ],
      "answer": 2,
-     "explanation": "Aspergillus is listed under industrial biotechnology."
+     "explanation": "Aspergillus is listed under industrial biotechnology.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-68-4",
@@ -20403,7 +21131,10 @@
       "Antibiotics"
      ],
      "answer": 1,
-     "explanation": "Methanogens are associated with biogas production."
+     "explanation": "Methanogens are associated with biogas production.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "biology-68-5",
@@ -20417,7 +21148,10 @@
       "Mycovirus"
      ],
      "answer": 2,
-     "explanation": "A bacteriophage is the virus associated with bacteria."
+     "explanation": "A bacteriophage is the virus associated with bacteria.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "biology-68-6",
@@ -20431,7 +21165,13 @@
       "A virus associated with animals is an animal virus."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘mycovirus’. A virus associated with bacteria is a bacteriophage; mycovirus is associated with fungi."
+     "explanation": "The incorrect detail is ‘mycovirus’. A virus associated with bacteria is a bacteriophage; mycovirus is associated with fungi.",
+     "facts": [
+      "F16",
+      "F17",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-68-7",
@@ -20445,7 +21185,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the role of mycorrhiza in nutrient uptake explains its biofertilizer application."
+     "explanation": "Both statements are true, and the role of mycorrhiza in nutrient uptake explains its biofertilizer application.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-68-8",
@@ -20459,7 +21203,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The association of Azolla and Anabaena with rice fields explains their rice-field biofertilization role."
+     "explanation": "Both statements are true. The association of Azolla and Anabaena with rice fields explains their rice-field biofertilization role.",
+     "facts": [
+      "F3",
+      "F26"
+     ]
     },
     {
      "id": "biology-68-9",
@@ -20473,7 +21221,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the fermentation role of yeast explains its use in fermentation technology."
+     "explanation": "Both statements are true, and the fermentation role of yeast explains its use in fermentation technology.",
+     "facts": [
+      "F6",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-68-10",
@@ -20487,7 +21240,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are stated associations under microorganism-mediated nitrogen fixation."
+     "explanation": "Both statements are stated associations under microorganism-mediated nitrogen fixation.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-68-11",
@@ -20501,7 +21258,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Bacteria decompose organic matter, but biogas is associated with methanogens, not fungi in the given classification."
+     "explanation": "Bacteria decompose organic matter, but biogas is associated with methanogens, not fungi in the given classification.",
+     "facts": [
+      "F9",
+      "F27"
+     ]
     },
     {
      "id": "biology-68-12",
@@ -20515,7 +21276,16 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Lactobacillus is associated with food biotechnology, not industrial biotechnology."
+     "explanation": "Statements I and II are correct. Lactobacillus is associated with food biotechnology, not industrial biotechnology.",
+     "facts": [
+      "F7",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-68-13",
@@ -20529,7 +21299,13 @@
       "I and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Rhizobium is associated with legume root nodules, whereas Azotobacter is free-living."
+     "explanation": "Statements I, II and III are correct. Rhizobium is associated with legume root nodules, whereas Azotobacter is free-living.",
+     "facts": [
+      "F21",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "biology-68-14",
@@ -20543,7 +21319,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Rhizobium–Biofertilizer, Yeast–Fermentation technology, Lactobacillus–Food biotechnology and Methanogens–Biogas."
+     "explanation": "The correct pairs are Rhizobium–Biofertilizer, Yeast–Fermentation technology, Lactobacillus–Food biotechnology and Methanogens–Biogas.",
+     "facts": [
+      "F1",
+      "F6",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "biology-68-15",
@@ -20557,7 +21339,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Human–Human virus, Animals–Animal virus, Plants–Plant virus and Bacteria–Bacteriophage."
+     "explanation": "The correct pairs are Human–Human virus, Animals–Animal virus, Plants–Plant virus and Bacteria–Bacteriophage.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-68-16",
@@ -20571,7 +21359,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Rhizobium–Legume root nodules, Rhizobium japonicum–Soybean, Azotobacter–Free-living and Anabaena–Azolla."
+     "explanation": "The correct pairs are Rhizobium–Legume root nodules, Rhizobium japonicum–Soybean, Azotobacter–Free-living and Anabaena–Azolla.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "biology-68-17",
@@ -20585,7 +21379,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are connected with biofertilizer applications: Rhizobium and cyanobacteria are biofertilizers, Azolla–Anabaena is used for rice-field biofertilization, and mycorrhiza supports nutrient uptake as a biofertilizer."
+     "explanation": "All four are connected with biofertilizer applications: Rhizobium and cyanobacteria are biofertilizers, Azolla–Anabaena is used for rice-field biofertilization, and mycorrhiza supports nutrient uptake as a biofertilizer.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "biology-68-18",
@@ -20599,7 +21399,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four are associated with the listed roles: bacteria and fungi decompose organic matter, yeast has decomposition roles, and microorganisms collectively perform nutrient recycling."
+     "explanation": "All four are associated with the listed roles: bacteria and fungi decompose organic matter, yeast has decomposition roles, and microorganisms collectively perform nutrient recycling.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F31"
+     ]
     },
     {
      "id": "biology-68-19",
@@ -20613,7 +21419,10 @@
       "Biogas production"
      ],
      "answer": 1,
-     "explanation": "Microorganisms collectively contribute to nutrient recycling."
+     "explanation": "Microorganisms collectively contribute to nutrient recycling.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "biology-68-20",
@@ -20627,9 +21436,17 @@
       "Fungi"
      ],
      "answer": 3,
-     "explanation": "Mycovirus is the virus associated with fungi."
+     "explanation": "Mycovirus is the virus associated with fungi.",
+     "facts": [
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "70": {
    "number": 70,
@@ -20657,7 +21474,11 @@
       "Smallpox"
      ],
      "answer": 3,
-     "explanation": "Smallpox is caused by Variola virus, and the smallpox vaccine is associated with it."
+     "explanation": "Smallpox is caused by Variola virus, and the smallpox vaccine is associated with it.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "biology-70-2",
@@ -20671,7 +21492,11 @@
       "Hepatitis B"
      ],
      "answer": 2,
-     "explanation": "BCG is associated with tuberculosis, whose pathogen is Mycobacterium tuberculosis."
+     "explanation": "BCG is associated with tuberculosis, whose pathogen is Mycobacterium tuberculosis.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-70-3",
@@ -20685,7 +21510,12 @@
       "Rabies virus"
      ],
      "answer": 0,
-     "explanation": "Hepatitis B is associated with HBV and the recombinant Hep-B vaccine."
+     "explanation": "Hepatitis B is associated with HBV and the recombinant Hep-B vaccine.",
+     "facts": [
+      "F8",
+      "F20",
+      "F7"
+     ]
     },
     {
      "id": "biology-70-4",
@@ -20699,7 +21529,11 @@
       "Variola virus"
      ],
      "answer": 1,
-     "explanation": "COVID-19 is associated with SARS-CoV-2."
+     "explanation": "COVID-19 is associated with SARS-CoV-2.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "biology-70-5",
@@ -20713,7 +21547,12 @@
       "Diphtheria, Pertussis and Tetanus"
      ],
      "answer": 3,
-     "explanation": "DPT/DTaP is associated with Diphtheria, Pertussis and Tetanus."
+     "explanation": "DPT/DTaP is associated with Diphtheria, Pertussis and Tetanus.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-70-6",
@@ -20727,7 +21566,19 @@
       "Rabies is caused by Rabies virus and is associated with the rabies vaccine."
      ],
      "answer": 2,
-     "explanation": "The incorrect pathogen is the altered detail. Tetanus is caused by Clostridium tetani, not Mycobacterium tuberculosis."
+     "explanation": "The incorrect pathogen is the altered detail. Tetanus is caused by Clostridium tetani, not Mycobacterium tuberculosis.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6",
+      "F9",
+      "F10",
+      "F19",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "biology-70-7",
@@ -20741,7 +21592,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true. The reason is false because a live attenuated platform uses a weakened living pathogen, whereas a killed pathogen belongs to the inactivated or killed platform."
+     "explanation": "The assertion is true. The reason is false because a live attenuated platform uses a weakened living pathogen, whereas a killed pathogen belongs to the inactivated or killed platform.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-70-8",
@@ -20755,7 +21610,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason explains the assertion: a viral vector is a modified different virus that carries antigen instructions."
+     "explanation": "Both statements are true, and the reason explains the assertion: a viral vector is a modified different virus that carries antigen instructions.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "biology-70-9",
@@ -20769,7 +21627,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true. The reason is false because an mRNA platform uses mRNA instructions for antigen production; DNA instructions describe a DNA vaccine."
+     "explanation": "The assertion is true. The reason is false because an mRNA platform uses mRNA instructions for antigen production; DNA instructions describe a DNA vaccine.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "biology-70-10",
@@ -20783,7 +21645,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Poliomyelitis is associated with Poliovirus. Rabies is associated with Rabies virus, not SARS-CoV-2."
+     "explanation": "Poliomyelitis is associated with Poliovirus. Rabies is associated with Rabies virus, not SARS-CoV-2.",
+     "facts": [
+      "F4",
+      "F10"
+     ]
     },
     {
      "id": "biology-70-11",
@@ -20797,7 +21663,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "MMR is associated with Measles, Mumps and Rubella. DPT/DTaP is associated with Diphtheria, Pertussis and Tetanus."
+     "explanation": "MMR is associated with Measles, Mumps and Rubella. DPT/DTaP is associated with Diphtheria, Pertussis and Tetanus.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-70-12",
@@ -20811,7 +21685,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct pathogen associations: Variola virus with smallpox, Mycobacterium tuberculosis with tuberculosis, and HBV with Hepatitis B."
+     "explanation": "All three statements are correct pathogen associations: Variola virus with smallpox, Mycobacterium tuberculosis with tuberculosis, and HBV with Hepatitis B.",
+     "facts": [
+      "F2",
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "biology-70-13",
@@ -20825,7 +21704,13 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because a recombinant protein/subunit platform uses a genetically engineered antigen protein."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because a recombinant protein/subunit platform uses a genetically engineered antigen protein.",
+     "facts": [
+      "F30",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "biology-70-14",
@@ -20839,7 +21724,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are smallpox vaccine–Smallpox, polio vaccine–Poliomyelitis, BCG–Tuberculosis and rabies vaccine–Rabies."
+     "explanation": "The correct pairs are smallpox vaccine–Smallpox, polio vaccine–Poliomyelitis, BCG–Tuberculosis and rabies vaccine–Rabies.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F9"
+     ]
     },
     {
      "id": "biology-70-15",
@@ -20853,7 +21744,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Smallpox–Variola virus, Polio–Poliovirus, Hepatitis B–HBV and Measles–Measles virus."
+     "explanation": "The correct pairs are Smallpox–Variola virus, Polio–Poliovirus, Hepatitis B–HBV and Measles–Measles virus.",
+     "facts": [
+      "F2",
+      "F4",
+      "F8",
+      "F25"
+     ]
     },
     {
      "id": "biology-70-16",
@@ -20867,7 +21764,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are live attenuated–weakened living pathogen, viral vector–modified different virus carrying antigen instructions, mRNA–mRNA instructions, and DNA vaccine–DNA instructions."
+     "explanation": "The correct pairs are live attenuated–weakened living pathogen, viral vector–modified different virus carrying antigen instructions, mRNA–mRNA instructions, and DNA vaccine–DNA instructions.",
+     "facts": [
+      "F29",
+      "F31",
+      "F32",
+      "F34"
+     ]
     },
     {
      "id": "biology-70-17",
@@ -20881,7 +21784,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three associations are correct. Rabies vaccine is associated with Rabies, not Hepatitis B."
+     "explanation": "The first three associations are correct. Rabies vaccine is associated with Rabies, not Hepatitis B.",
+     "facts": [
+      "F1",
+      "F5",
+      "F9",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-70-18",
@@ -20895,7 +21806,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three descriptions are correct. The fourth is altered: a DNA vaccine uses DNA instructions for antigen, while mRNA gives instructions for antigen production in the mRNA platform."
+     "explanation": "The first three descriptions are correct. The fourth is altered: a DNA vaccine uses DNA instructions for antigen, while mRNA gives instructions for antigen production in the mRNA platform.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "biology-70-19",
@@ -20909,7 +21827,10 @@
       "BCG"
      ],
      "answer": 1,
-     "explanation": "The table identifies polio with Poliovirus and lists the Salk vaccine as its key association."
+     "explanation": "The table identifies polio with Poliovirus and lists the Salk vaccine as its key association.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "biology-70-20",
@@ -20923,9 +21844,38 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are stated in the table: tetanus is associated with Clostridium tetani and its key association is tetanus toxoid. However, the pathogen association does not explain why tetanus toxoid is listed as the key association."
+     "explanation": "Both statements are stated in the table: tetanus is associated with Clostridium tetani and its key association is tetanus toxoid. However, the pathogen association does not explain why tetanus toxoid is listed as the key association.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "biology-70-21",
+     "format": "List-Matching",
+     "keyword": "Platform",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) mRNA platform\n(b) Viral-vector platform\n(c) Inactivated platform\n(d) Recombinant platform\n\nList-II\n(i) Uses a killed pathogen\n(ii) Uses a genetically engineered antigen protein\n(iii) Uses mRNA instructions for antigen production\n(iv) Uses a modified different virus to carry antigen instructions",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "COVID-19 vaccines use mRNA, viral-vector, inactivated and recombinant platforms. The correct pairings are mRNA–instructions for antigen production, viral vector–modified virus carrying antigen instructions, inactivated–killed pathogen, and recombinant–genetically engineered antigen protein.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 34,
+    "covered": 34,
+    "audited": true
+   }
   },
   "71": {
    "number": 71,
@@ -21308,8 +22258,84 @@
      "facts": [
       "F3"
      ]
+    },
+    {
+     "id": "biology-71-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Vaccine → Disease",
+     "question": "Consider the following statements:\nI. Sputnik-V is a vaccine for COVID-19.\nII. Novavax is a vaccine for COVID-19.\nIII. Sputnik-V is a vaccine for polio.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Sputnik-V and Novavax are both vaccines for COVID-19. The statement that Sputnik-V is a polio vaccine is incorrect.",
+     "facts": [
+      "F6",
+      "F14"
+     ]
+    },
+    {
+     "id": "biology-71-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Immunity → Key Feature",
+     "question": "Consider the following statements:\nStatement A: Natural active immunity involves memory formation.\nStatement B: Artificial active immunity involves memory formation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Natural active immunity follows infection and the body's own immune response, while artificial active immunity follows vaccination and the body's own immune response. Both involve memory formation.",
+     "facts": [
+      "F38",
+      "F40"
+     ]
+    },
+    {
+     "id": "biology-71-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Vaccine",
+     "question": "Consider the following statements:\nStatement A: Edward Jenner is known as the Father of Immunology.\nStatement B: Louis Pasteur was a vaccine pioneer.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Edward Jenner is identified as the Father of Immunology, while Louis Pasteur is identified as a vaccine pioneer.",
+     "facts": [
+      "F16",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-71-23",
+     "format": "Direct Recall",
+     "keyword": "Vaccine",
+     "question": "Which of the following correctly describes Robert Koch?",
+     "options": [
+      "He was a vaccine pioneer associated with the rabies vaccine.",
+      "He was associated with cellular immunity and phagocytosis.",
+      "He was the Father of Immunology and was associated with the smallpox vaccine.",
+      "He was associated with TB and bacteriology and was not the father of immunology."
+     ],
+     "answer": 3,
+     "explanation": "Robert Koch was associated with TB and bacteriology and was not the father of immunology. The other associations belong to Edward Jenner, Louis Pasteur and Elie Metchnikoff, respectively.",
+     "facts": [
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 44,
+    "covered": 44,
+    "audited": true
+   }
   },
   "72": {
    "number": 72,
@@ -21337,7 +22363,10 @@
       "WBCs"
      ],
      "answer": 3,
-     "explanation": "WBCs have the immunological role of disease defence."
+     "explanation": "WBCs have the immunological role of disease defence.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-72-2",
@@ -21351,7 +22380,10 @@
       "Lymphocytes"
      ],
      "answer": 3,
-     "explanation": "Lymphocytes are identified as the major cells associated with immunity."
+     "explanation": "Lymphocytes are identified as the major cells associated with immunity.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-72-3",
@@ -21365,7 +22397,10 @@
       "WBCs only"
      ],
      "answer": 1,
-     "explanation": "B cells are associated with the antibody-mediated response."
+     "explanation": "B cells are associated with the antibody-mediated response.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-72-4",
@@ -21379,7 +22414,10 @@
       "Antigen formation"
      ],
      "answer": 1,
-     "explanation": "T cells are associated with cell-mediated immunity."
+     "explanation": "T cells are associated with cell-mediated immunity.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-72-5",
@@ -21393,7 +22431,10 @@
       "IgM"
      ],
      "answer": 3,
-     "explanation": "The first immunoglobulin produced in an infection is IgM."
+     "explanation": "The first immunoglobulin produced in an infection is IgM.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "biology-72-6",
@@ -21407,7 +22448,14 @@
       "An antibody is a blood protein or globulin."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the trigger: antibody formation is triggered by an antigen, not by a T cell."
+     "explanation": "The incorrect detail is the trigger: antibody formation is triggered by an antigen, not by a T cell.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F20"
+     ]
     },
     {
      "id": "biology-72-7",
@@ -21421,7 +22469,14 @@
       "An antibody helps neutralize or remove a foreign antigen."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is 'nonspecifically'; an antibody combines specifically with its inducing antigen."
+     "explanation": "The incorrect detail is 'nonspecifically'; an antibody combines specifically with its inducing antigen.",
+     "facts": [
+      "F10",
+      "F12",
+      "F14",
+      "F17",
+      "F16"
+     ]
     },
     {
      "id": "biology-72-8",
@@ -21435,7 +22490,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since an antigen triggers the immune system, it induces antibody formation."
+     "explanation": "Both statements are true. Since an antigen triggers the immune system, it induces antibody formation.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-72-9",
@@ -21449,7 +22508,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and specific combination with the inducing antigen explains antibody specificity."
+     "explanation": "Both statements are true, and specific combination with the inducing antigen explains antibody specificity.",
+     "facts": [
+      "F10",
+      "F16"
+     ]
     },
     {
      "id": "biology-72-10",
@@ -21463,7 +22526,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but antibody production in response to antigens does not itself explain why the binding is part of the immune response."
+     "explanation": "Both statements are true, but antibody production in response to antigens does not itself explain why the binding is part of the immune response.",
+     "facts": [
+      "F13",
+      "F20"
+     ]
     },
     {
      "id": "biology-72-11",
@@ -21477,7 +22544,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Natural Killer cells are associated with immune defence, whereas T cells are associated with cell-mediated immunity, not the antibody-mediated response."
+     "explanation": "Natural Killer cells are associated with immune defence, whereas T cells are associated with cell-mediated immunity, not the antibody-mediated response.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-72-12",
@@ -21491,7 +22563,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The relationship given is that an antibody is produced in response to an antigen, not the reverse."
+     "explanation": "Statement A is true. The relationship given is that an antibody is produced in response to an antigen, not the reverse.",
+     "facts": [
+      "F7",
+      "F8",
+      "F20"
+     ]
     },
     {
      "id": "biology-72-13",
@@ -21505,7 +22582,12 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the stated roles of B cells, T cells and Natural Killer cells."
+     "explanation": "All three statements are correct according to the stated roles of B cells, T cells and Natural Killer cells.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-72-14",
@@ -21519,7 +22601,12 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Statements I and III are correct. The substance that triggers the immune system is an antigen, not an antibody."
+     "explanation": "Statements I and III are correct. The substance that triggers the immune system is an antigen, not an antibody.",
+     "facts": [
+      "F9",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-72-15",
@@ -21533,7 +22620,13 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct: antibodies bind specifically, help neutralize or remove foreign antigens, and immunoglobulin is a major antibody class."
+     "explanation": "All three statements are correct: antibodies bind specifically, help neutralize or remove foreign antigens, and immunoglobulin is a major antibody class.",
+     "facts": [
+      "F12",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-72-16",
@@ -21547,7 +22640,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are B cells–antibody-mediated response, T cells–cell-mediated immunity, Natural Killer cells–immune defence, and IgM–first immunoglobulin produced in infection."
+     "explanation": "The correct pairs are B cells–antibody-mediated response, T cells–cell-mediated immunity, Natural Killer cells–immune defence, and IgM–first immunoglobulin produced in infection.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F11"
+     ]
     },
     {
      "id": "biology-72-17",
@@ -21561,7 +22660,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are antigen–substance that triggers the immune system, antibody–blood protein or globulin, immunoglobulin–major antibody class, and antibody-producing cell–lymphocyte or B-cell lineage."
+     "explanation": "The correct pairs are antigen–substance that triggers the immune system, antibody–blood protein or globulin, immunoglobulin–major antibody class, and antibody-producing cell–lymphocyte or B-cell lineage.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F15",
+      "F18"
+     ]
     },
     {
      "id": "biology-72-18",
@@ -21575,7 +22681,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are antigen–induces formation of antibodies, antibody–produced in response to antigen, antibody–antigen binding–immune response, and antibody function–helps neutralize or remove foreign antigen."
+     "explanation": "The correct pairs are antigen–induces formation of antibodies, antibody–produced in response to antigen, antibody–antigen binding–immune response, and antibody function–helps neutralize or remove foreign antigen.",
+     "facts": [
+      "F13",
+      "F14",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-72-19",
@@ -21589,7 +22701,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 3 are correct. The first immunoglobulin produced in infection is IgM, not antigen."
+     "explanation": "Statements 1, 2 and 3 are correct. The first immunoglobulin produced in infection is IgM, not antigen.",
+     "facts": [
+      "F10",
+      "F11",
+      "F18",
+      "F20"
+     ]
     },
     {
      "id": "biology-72-20",
@@ -21603,7 +22721,10 @@
       "Antigen → Immune response → Antibody"
      ],
      "answer": 1,
-     "explanation": "The basic relationship is antigen leading to antibody and then to an immune response."
+     "explanation": "The basic relationship is antigen leading to antibody and then to an immune response.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "biology-72-21",
@@ -21617,9 +22738,18 @@
       "Cell-mediated immunity"
      ],
      "answer": 0,
-     "explanation": "Antibody specificity refers to the antibody combining specifically with its inducing antigen."
+     "explanation": "Antibody specificity refers to the antibody combining specifically with its inducing antigen.",
+     "facts": [
+      "F10",
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "73": {
    "number": 73,
@@ -21647,7 +22777,13 @@
       "The immune system defends against the pathogen"
      ],
      "answer": 3,
-     "explanation": "An infectious disease is associated with the immune system defending against a pathogen."
+     "explanation": "An infectious disease is associated with the immune system defending against a pathogen.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-73-2",
@@ -21661,7 +22797,13 @@
       "Nipah is associated with monoclonal antibodies discussed as therapeutic antibodies."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the description of allergy. Allergy is associated with an abnormal or excessive immune response."
+     "explanation": "The incorrect detail is the description of allergy. Allergy is associated with an abnormal or excessive immune response.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-73-3",
@@ -21675,7 +22817,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the defining association of an autoimmune disease."
+     "explanation": "Both statements are true, and the reason directly explains the defining association of an autoimmune disease.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-73-4",
@@ -21689,7 +22834,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. An infectious disease is associated with defence against a pathogen, not reaction against self."
+     "explanation": "Statement A is true. An infectious disease is associated with defence against a pathogen, not reaction against self.",
+     "facts": [
+      "F1",
+      "F5"
+     ]
     },
     {
      "id": "biology-73-5",
@@ -21703,7 +22852,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are infectious disease–defence against pathogen, COVID-19–vaccine-induced immune response, Nipah–monoclonal antibodies, and autoimmune disease–reaction against self."
+     "explanation": "The correct pairs are infectious disease–defence against pathogen, COVID-19–vaccine-induced immune response, Nipah–monoclonal antibodies, and autoimmune disease–reaction against self.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "biology-73-6",
@@ -21717,7 +22872,11 @@
       "Elie Metchnikoff"
      ],
      "answer": 2,
-     "explanation": "Edward Jenner is identified as the Father of Immunology and is associated with vaccination."
+     "explanation": "Edward Jenner is identified as the Father of Immunology and is associated with vaccination.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-73-7",
@@ -21731,7 +22890,17 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Edward Jenner is paired with Father of Immunology and vaccination; Metchnikoff with cellular immunity and phagocytosis; Pasteur with vaccines and microbiology; and Koch with bacteriology and disease pathogens."
+     "explanation": "Edward Jenner is paired with Father of Immunology and vaccination; Metchnikoff with cellular immunity and phagocytosis; Pasteur with vaccines and microbiology; and Koch with bacteriology and disease pathogens.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-73-8",
@@ -21745,7 +22914,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason restates the association of Elie Metchnikoff with cellular immunity and phagocytosis."
+     "explanation": "Both statements are true, and the reason restates the association of Elie Metchnikoff with cellular immunity and phagocytosis.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-73-9",
@@ -21759,7 +22932,11 @@
       "Louis Pasteur"
      ],
      "answer": 2,
-     "explanation": "Karl Landsteiner is associated with blood groups and their immunological relevance."
+     "explanation": "Karl Landsteiner is associated with blood groups and their immunological relevance.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-73-10",
@@ -21773,7 +22950,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both Moderna and Pfizer-BioNTech are listed as mRNA vaccines associated with COVID-19."
+     "explanation": "Both Moderna and Pfizer-BioNTech are listed as mRNA vaccines associated with COVID-19.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-73-11",
@@ -21787,7 +22968,13 @@
       "a-i, b-ii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Sputnik-V, Covishield and Janssen are vector vaccines associated with COVID-19, while the Ebola vaccine is associated with Ebola disease."
+     "explanation": "Sputnik-V, Covishield and Janssen are vector vaccines associated with COVID-19, while the Ebola vaccine is associated with Ebola disease.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "biology-73-12",
@@ -21801,7 +22988,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but association with COVID-19 does not explain why Sputnik-V is classified as a vector vaccine."
+     "explanation": "Both statements are true, but association with COVID-19 does not explain why Sputnik-V is classified as a vector vaccine.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "biology-73-13",
@@ -21815,7 +23005,10 @@
       "Ebola disease"
      ],
      "answer": 3,
-     "explanation": "The Ebola vaccine is listed in association with Ebola disease."
+     "explanation": "The Ebola vaccine is listed in association with Ebola disease.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "biology-73-14",
@@ -21829,7 +23022,11 @@
       "Moderna"
      ],
      "answer": 2,
-     "explanation": "The Hepatitis-B vaccine is identified as a recombinant subunit vaccine for Hepatitis B."
+     "explanation": "The Hepatitis-B vaccine is identified as a recombinant subunit vaccine for Hepatitis B.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-73-15",
@@ -21843,7 +23040,16 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Hepatitis-B vaccine–Hepatitis B, Novavax–COVID-19 recombinant protein/nanoparticle, recombinant vaccines–antigen produced using genetic engineering, and Moderna–COVID-19."
+     "explanation": "The correct pairs are Hepatitis-B vaccine–Hepatitis B, Novavax–COVID-19 recombinant protein/nanoparticle, recombinant vaccines–antigen produced using genetic engineering, and Moderna–COVID-19.",
+     "facts": [
+      "F16",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "biology-73-16",
@@ -21857,7 +23063,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly states the key point of recombinant vaccines."
+     "explanation": "Both statements are true, and the reason directly states the key point of recombinant vaccines.",
+     "facts": [
+      "F27"
+     ]
     },
     {
      "id": "biology-73-17",
@@ -21871,7 +23080,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Moderna, Pfizer-BioNTech and Sputnik-V are associated with COVID-19. The Ebola vaccine is associated with Ebola disease. Therefore, three are associated with COVID-19."
+     "explanation": "Moderna, Pfizer-BioNTech and Sputnik-V are associated with COVID-19. The Ebola vaccine is associated with Ebola disease. Therefore, three are associated with COVID-19.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F21"
+     ]
     },
     {
      "id": "biology-73-18",
@@ -21885,7 +23100,16 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Cellular immunity and phagocytosis are associated with Elie Metchnikoff, not Karl Landsteiner."
+     "explanation": "Statements I, II and III are correct. Cellular immunity and phagocytosis are associated with Elie Metchnikoff, not Karl Landsteiner.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-73-19",
@@ -21899,7 +23123,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "Moderna is an mRNA vaccine, Sputnik-V is a vector vaccine, and the Hepatitis-B vaccine is a recombinant subunit vaccine. Novavax is identified as a recombinant protein/nanoparticle vaccine."
+     "explanation": "Moderna is an mRNA vaccine, Sputnik-V is a vector vaccine, and the Hepatitis-B vaccine is a recombinant subunit vaccine. Novavax is identified as a recombinant protein/nanoparticle vaccine.",
+     "facts": [
+      "F16",
+      "F18",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "biology-73-20",
@@ -21913,9 +23143,17 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The immunological association listed for Nipah is monoclonal antibodies, which are discussed as therapeutic antibodies."
+     "explanation": "Both statements are true. The immunological association listed for Nipah is monoclonal antibodies, which are discussed as therapeutic antibodies.",
+     "facts": [
+      "F3"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   }
  }
 }

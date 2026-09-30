@@ -9213,6 +9213,166 @@
       "F84",
       "F87"
      ]
+    },
+    {
+     "id": "indian-geography-24-28",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Crop → Season and Location",
+     "question": "Consider the following statements:\nI. Lathyrus is grown in central and eastern India.\nII. French bean requires a cool season and is grown in various parts of India.\nIII. Moong, also called green gram, is a Kharif pulse and is grown in various parts of India.\nIV. Moong is not a Rabi pulse.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. Lathyrus is grown in central and eastern India; French bean requires a cool season and occurs in various parts of India; and Moong, or green gram, is a Kharif pulse rather than a Rabi pulse and is grown in various parts of India.",
+     "facts": [
+      "F88",
+      "F91",
+      "F92",
+      "F94",
+      "F95",
+      "F96",
+      "F97"
+     ]
+    },
+    {
+     "id": "indian-geography-24-29",
+     "format": "List-Matching",
+     "keyword": "Crop → Climate Requirement",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Watermelon requirement\n(b) Muskmelon location\n(c) Cucumber requirement\n(d) Vegetables location\n\nList-II\n(i) Hot summer conditions\n(ii) Irrigated areas\n(iii) Warm or summer conditions\n(iv) Irrigated regions\n\nChoose the correct code from the options given below.",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: watermelon requirement—hot summer conditions; muskmelon location—irrigated areas; cucumber requirement—warm or summer conditions; vegetables location—irrigated regions.",
+     "facts": [
+      "F98",
+      "F101",
+      "F102",
+      "F104",
+      "F107",
+      "F108"
+     ]
+    },
+    {
+     "id": "indian-geography-24-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Crop → Irrigation Location",
+     "question": "Consider the following statements:\nStatement A: Watermelon and muskmelon are grown in irrigated areas.\nStatement B: Cucumber and vegetables are grown in irrigated areas or irrigated regions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Watermelon and muskmelon are grown in irrigated areas, while cucumber is grown in irrigated areas and vegetables in irrigated regions.",
+     "facts": [
+      "F99",
+      "F102",
+      "F105",
+      "F108"
+     ]
+    },
+    {
+     "id": "indian-geography-24-31",
+     "format": "Direct Recall",
+     "keyword": "Crop → Season and Climate",
+     "question": "Which one of the following correctly describes fodder and sunflower?",
+     "options": [
+      "Fodder is cultivated in summer and grown in irrigated areas; sunflower requires a tropical humid climate and is grown in various regions.",
+      "Fodder is cultivated in summer and grown in various regions; sunflower requires a warm season and is grown in irrigated areas.",
+      "Fodder is cultivated in a cool season and grown in irrigated areas; sunflower requires a warm season and is grown in various regions.",
+      "Fodder is cultivated in summer and grown in irrigated areas; sunflower requires a warm season and is grown in various regions."
+     ],
+     "answer": 3,
+     "explanation": "Fodder is cultivated in summer and grown in irrigated areas. Sunflower requires a warm season and is grown in various regions.",
+     "facts": [
+      "F110",
+      "F111",
+      "F113",
+      "F114"
+     ]
+    },
+    {
+     "id": "indian-geography-24-32",
+     "format": "Direct Recall",
+     "keyword": "Plantation Crop → Climate",
+     "question": "Which one of the following correctly describes arecanut?",
+     "options": [
+      "It is a plantation crop requiring a warm and humid climate.",
+      "It is a plantation crop requiring tropical conditions only.",
+      "It is a plantation/commercial crop with a tropical or subtropical requirement depending on the crop.",
+      "It is a plantation crop requiring a tropical humid climate."
+     ],
+     "answer": 3,
+     "explanation": "Arecanut is a plantation crop and requires a tropical humid climate. The other descriptions correspond to different plantation or commercial-crop entries.",
+     "facts": [
+      "F120",
+      "F121"
+     ]
+    },
+    {
+     "id": "indian-geography-24-33",
+     "format": "List-Matching",
+     "keyword": "Major Crops",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Arecanut\n(b) Cocoa\n(c) Cashew\n(d) Palm oil\n\nList-II\n(i) Plantation crop; tropical humid climate; grown in tropical/coastal regions; included in the Ministry of Agriculture's plantation framing\n(ii) Plantation crop; tropical humid climate; grown in tropical regions; included in plantation-crop classification\n(iii) Plantation crop; tropical conditions; grown in coastal/tropical India; included in the Ministry of Agriculture's plantation framing\n(iv) Plantation crop; tropical humid climate; grown in tropical regions; listed among plantation crops",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Arecanut matches (i), cocoa matches (ii), cashew matches (iii), and palm oil matches (iv). The pairings combine each crop's plantation status, climate, location and classification or framing detail.",
+     "facts": [
+      "F122",
+      "F123",
+      "F124",
+      "F125",
+      "F126",
+      "F127",
+      "F128",
+      "F129",
+      "F130",
+      "F131",
+      "F132",
+      "F133",
+      "F134",
+      "F135"
+     ]
+    },
+    {
+     "id": "indian-geography-24-34",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements:\n\nI. Pineapple is a plantation crop requiring a tropical humid climate; it is grown in tropical regions and is listed among plantation crops.\nII. Banana is a plantation crop requiring a warm and humid climate; it is grown in tropical and subtropical regions and is listed among plantation crops.\nIII. Spices are plantation or commercial crops requiring tropical or subtropical conditions depending on the spice and are grown in various Indian regions.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Pineapple, banana and spices are respectively described by the plantation or commercial classification, their climatic requirements and their stated growing regions.",
+     "facts": [
+      "F136",
+      "F137",
+      "F138",
+      "F139",
+      "F140",
+      "F141",
+      "F142",
+      "F143",
+      "F144",
+      "F145",
+      "F146"
+     ]
     }
    ]
   },
@@ -11045,8 +11205,68 @@
       "F33",
       "F43"
      ]
+    },
+    {
+     "id": "indian-geography-29-21",
+     "format": "List-Matching",
+     "keyword": "Refinery → Location",
+     "question": "Match List-I with List-II:\n\nList-I (Refinery)\na. Digboi Refinery\nb. Numaligarh Refinery\nc. Jamnagar Refinery\n\nList-II (Location)\ni. Jamnagar, Gujarat\nii. Golaghat district, Assam\niii. Digboi, Tinsukia region, Assam\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 3,
+     "explanation": "Digboi Refinery is located in Assam, specifically in the Digboi, Tinsukia region. Numaligarh Refinery is in Golaghat district of Assam, while Jamnagar Refinery is located at Jamnagar in Gujarat.",
+     "facts": [
+      "F4",
+      "F6",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-geography-29-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Refinery → Important regional refinery",
+     "question": "Consider the following statements:\nStatement A: Noonmati Refinery is an important Assam refinery.\nStatement B: Numaligarh Refinery is an important Assam refinery.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Noonmati Refinery and Numaligarh Refinery are identified as important Assam refineries.",
+     "facts": [
+      "F27",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-geography-29-23",
+     "format": "Direct Recall",
+     "keyword": "Refinery → Location",
+     "question": "Which of the following correctly describes Visakhapatnam Refinery?",
+     "options": [
+      "It is located at Guwahati and is an important Assam refinery",
+      "It is located at Visakhapatnam and is an important Andhra Pradesh refinery",
+      "It is located at Jamnagar and is an important Gujarat refinery",
+      "It is located at Golaghat and is an important Assam refinery"
+     ],
+     "answer": 1,
+     "explanation": "Visakhapatnam Refinery is located in Visakhapatnam and is identified as an important Andhra Pradesh refinery.",
+     "facts": [
+      "F47",
+      "F49"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 55,
+    "covered": 55,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -11727,8 +11947,30 @@
       "F5",
       "F6"
      ]
+    },
+    {
+     "id": "indian-geography-31-21",
+     "format": "Direct Recall",
+     "keyword": "Project \u001a Location",
+     "question": "The Telugu Ganga Project is located in which State?",
+     "options": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Maharashtra",
+      "Uttarakhand"
+     ],
+     "answer": 0,
+     "explanation": "The Telugu Ganga Project is located in Andhra Pradesh. Telangana and Maharashtra are associated with other projects listed in the irrigation-project locations.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 38,
+    "covered": 38,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,
@@ -13058,7 +13300,10 @@
       "Maharashtra"
      ],
      "answer": 1,
-     "explanation": "Kolleru Lake is located in Andhra Pradesh."
+     "explanation": "Kolleru Lake is located in Andhra Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-37-2",
@@ -13072,7 +13317,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Nakki–Rajasthan, Ashtamudi–Kerala, Sala–Arunachal Pradesh and Badkhal–Haryana."
+     "explanation": "The correct pairs are Nakki–Rajasthan, Ashtamudi–Kerala, Sala–Arunachal Pradesh and Badkhal–Haryana.",
+     "facts": [
+      "F7",
+      "F10",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-37-3",
@@ -13086,7 +13337,12 @@
       "Chilika Lake is located in Odisha."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of Pulicat Lake. It is located on the Andhra Pradesh–Tamil Nadu border, not in Odisha."
+     "explanation": "The incorrect detail is the location of Pulicat Lake. It is located on the Andhra Pradesh–Tamil Nadu border, not in Odisha.",
+     "facts": [
+      "F2",
+      "F4",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-37-4",
@@ -13100,7 +13356,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given as facts. However, Kolleru being freshwater and a Ramsar site does not explain its association with the Godavari–Krishna region."
+     "explanation": "Both statements are given as facts. However, Kolleru being freshwater and a Ramsar site does not explain its association with the Godavari–Krishna region.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-37-5",
@@ -13114,7 +13375,11 @@
       "Pulicat"
      ],
      "answer": 2,
-     "explanation": "Chilika is described as the largest brackish lake and is located in Odisha."
+     "explanation": "Chilika is described as the largest brackish lake and is located in Odisha.",
+     "facts": [
+      "F30",
+      "F29"
+     ]
     },
     {
      "id": "indian-geography-37-6",
@@ -13128,7 +13393,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: Wular is the largest freshwater lake by volume, while Loktak is associated with phumdis."
+     "explanation": "Both statements are correct: Wular is the largest freshwater lake by volume, while Loktak is associated with phumdis.",
+     "facts": [
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-37-7",
@@ -13142,7 +13411,10 @@
       "Lonar"
      ],
      "answer": 2,
-     "explanation": "Wular is described as the largest freshwater lake by volume."
+     "explanation": "Wular is described as the largest freshwater lake by volume.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "indian-geography-37-8",
@@ -13156,7 +13428,10 @@
       "Wular"
      ],
      "answer": 2,
-     "explanation": "Kolleru is described as the largest freshwater lake by area."
+     "explanation": "Kolleru is described as the largest freshwater lake by area.",
+     "facts": [
+      "F32"
+     ]
     },
     {
      "id": "indian-geography-37-9",
@@ -13170,7 +13445,14 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Loktak–Phumdis, Lonar–Meteorite crater, Roopkund–Mystery/Skeleton Lake and Ghepan–Glacial lake."
+     "explanation": "The correct pairs are Loktak–Phumdis, Lonar–Meteorite crater, Roopkund–Mystery/Skeleton Lake and Ghepan–Glacial lake.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-37-10",
@@ -13184,7 +13466,10 @@
       "Phumdis"
      ],
      "answer": 0,
-     "explanation": "Lonar is associated with a meteorite crater."
+     "explanation": "Lonar is associated with a meteorite crater.",
+     "facts": [
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-37-11",
@@ -13198,7 +13483,11 @@
       "Mystery/Skeleton Lake"
      ],
      "answer": 3,
-     "explanation": "Roopkund is described as the Mystery/Skeleton Lake."
+     "explanation": "Roopkund is described as the Mystery/Skeleton Lake.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-geography-37-12",
@@ -13212,7 +13501,10 @@
       "Vembanad"
      ],
      "answer": 0,
-     "explanation": "Phulhar is identified as the source of the Gomati."
+     "explanation": "Phulhar is identified as the source of the Gomati.",
+     "facts": [
+      "F37"
+     ]
     },
     {
      "id": "indian-geography-37-13",
@@ -13226,7 +13518,10 @@
       "Lonar"
      ],
      "answer": 0,
-     "explanation": "Ghepan is described as a glacial lake."
+     "explanation": "Ghepan is described as a glacial lake.",
+     "facts": [
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-37-14",
@@ -13240,7 +13535,10 @@
       "Artificial lake"
      ],
      "answer": 3,
-     "explanation": "Kodaikanal is described as an artificial lake."
+     "explanation": "Kodaikanal is described as an artificial lake.",
+     "facts": [
+      "F39"
+     ]
     },
     {
      "id": "indian-geography-37-15",
@@ -13254,7 +13552,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. Vembanad is associated with Kerala Kayal, and Kodaikanal is an artificial lake."
+     "explanation": "Both statements are correct. Vembanad is associated with Kerala Kayal, and Kodaikanal is an artificial lake.",
+     "facts": [
+      "F40",
+      "F39"
+     ]
     },
     {
      "id": "indian-geography-37-16",
@@ -13268,7 +13570,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct: Sambhar and Nakki are in Rajasthan, while Ashtamudi is in Kerala."
+     "explanation": "All three statements are correct: Sambhar and Nakki are in Rajasthan, while Ashtamudi is in Kerala.",
+     "facts": [
+      "F8",
+      "F10",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-37-17",
@@ -13282,7 +13589,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Chapanala–Assam, Surajkund–Haryana, Bhim Tal–Uttarakhand and Uday Sagar–Rajasthan."
+     "explanation": "The correct pairs are Chapanala–Assam, Surajkund–Haryana, Bhim Tal–Uttarakhand and Uday Sagar–Rajasthan.",
+     "facts": [
+      "F16",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-37-18",
@@ -13296,7 +13609,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Wular, Dal and Anchar are located in Jammu & Kashmir. Phulhar is located in Pilibhit, Uttar Pradesh. Therefore, the number is three."
+     "explanation": "Wular, Dal and Anchar are located in Jammu & Kashmir. Phulhar is located in Pilibhit, Uttar Pradesh. Therefore, the number is three.",
+     "facts": [
+      "F4",
+      "F12",
+      "F14",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-37-19",
@@ -13310,7 +13629,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Didwana–Rajasthan, Anchar–Jammu & Kashmir, Hamirsar–Gujarat and Kaliveli–Tamil Nadu."
+     "explanation": "The correct pairs are Didwana–Rajasthan, Anchar–Jammu & Kashmir, Hamirsar–Gujarat and Kaliveli–Tamil Nadu.",
+     "facts": [
+      "F25",
+      "F14",
+      "F15",
+      "F21"
+     ]
     }
    ]
   },
@@ -13341,7 +13666,10 @@
       "West Bengal"
      ],
      "answer": 3,
-     "explanation": "Kolkata (Syama Prasad Mukherjee) Port is located in West Bengal."
+     "explanation": "Kolkata (Syama Prasad Mukherjee) Port is located in West Bengal.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-38-2",
@@ -13355,7 +13683,10 @@
       "Tamil Nadu"
      ],
      "answer": 0,
-     "explanation": "Paradip Port is located in Odisha."
+     "explanation": "Paradip Port is located in Odisha.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-38-3",
@@ -13369,7 +13700,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Visakhapatnam–Andhra Pradesh, V.O. Chidambaranar–Tamil Nadu, New Mangalore–Karnataka and Kochi–Kerala."
+     "explanation": "The correct pairs are Visakhapatnam–Andhra Pradesh, V.O. Chidambaranar–Tamil Nadu, New Mangalore–Karnataka and Kochi–Kerala.",
+     "facts": [
+      "F4",
+      "F7",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-38-4",
@@ -13383,7 +13720,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 1,
-     "explanation": "Mormugao is in Goa; Mumbai and Jawaharlal Nehru Port are in Maharashtra; Kamarajar is in Tamil Nadu."
+     "explanation": "Mormugao is in Goa; Mumbai and Jawaharlal Nehru Port are in Maharashtra; Kamarajar is in Tamil Nadu.",
+     "facts": [
+      "F11",
+      "F12",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-38-5",
@@ -13397,7 +13740,10 @@
       "Odisha"
      ],
      "answer": 1,
-     "explanation": "Kandla (Deendayal) Port is located in Gujarat."
+     "explanation": "Kandla (Deendayal) Port is located in Gujarat.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-38-6",
@@ -13411,7 +13757,14 @@
       "Visakhapatnam is India’s deepest port and a natural port."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Mumbai is a natural port, whereas Mundra is the largest privately owned port."
+     "explanation": "The incorrect statement is the fourth one. Mumbai is a natural port, whereas Mundra is the largest privately owned port.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-38-7",
@@ -13425,7 +13778,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the fact that Visakhapatnam is a natural port does not explain why it is India’s deepest port."
+     "explanation": "Both statements are true, but the fact that Visakhapatnam is a natural port does not explain why it is India’s deepest port.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-38-8",
@@ -13439,7 +13796,10 @@
       "Kolkata"
      ],
      "answer": 2,
-     "explanation": "Chennai is the largest artificial port."
+     "explanation": "Chennai is the largest artificial port.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-38-9",
@@ -13453,7 +13813,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The sheet identifies Mumbai as a natural port and Jawaharlal Nehru Port (Nhava Sheva) as the largest container port."
+     "explanation": "The sheet identifies Mumbai as a natural port and Jawaharlal Nehru Port (Nhava Sheva) as the largest container port.",
+     "facts": [
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-38-10",
@@ -13467,7 +13831,10 @@
       "Mormugao"
      ],
      "answer": 2,
-     "explanation": "Mundra is identified as the largest privately owned port."
+     "explanation": "Mundra is identified as the largest privately owned port.",
+     "facts": [
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-38-11",
@@ -13481,7 +13848,11 @@
       "Kandla"
      ],
      "answer": 3,
-     "explanation": "Kandla is a tidal port and is associated with the Gulf of Kutch."
+     "explanation": "Kandla is a tidal port and is associated with the Gulf of Kutch.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-38-12",
@@ -13495,7 +13866,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Mormugao–Zuari River mouth, Paradip–Mahanadi–Bay of Bengal region, Dahej–Gulf of Khambhat and Bharuch, and Cochin–largest shipyard association."
+     "explanation": "The correct pairs are Mormugao–Zuari River mouth, Paradip–Mahanadi–Bay of Bengal region, Dahej–Gulf of Khambhat and Bharuch, and Cochin–largest shipyard association.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-38-13",
@@ -13509,7 +13887,10 @@
       "Alang"
      ],
      "answer": 3,
-     "explanation": "Alang is associated with the largest ship-recycling yard."
+     "explanation": "Alang is associated with the largest ship-recycling yard.",
+     "facts": [
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-38-14",
@@ -13523,7 +13904,10 @@
       "Dabhol"
      ],
      "answer": 3,
-     "explanation": "Dabhol LNG Terminal is located in Maharashtra."
+     "explanation": "Dabhol LNG Terminal is located in Maharashtra.",
+     "facts": [
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-38-15",
@@ -13537,7 +13921,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Dahej and Hazira are in Gujarat, Kochi is in Kerala, and Dabhol is in Maharashtra."
+     "explanation": "Dahej and Hazira are in Gujarat, Kochi is in Kerala, and Dabhol is in Maharashtra.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-38-16",
@@ -13551,7 +13941,13 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "Ennore is in Tamil Nadu, Mundra and Chhara are in Gujarat, and Dhamra is in Odisha."
+     "explanation": "Ennore is in Tamil Nadu, Mundra and Chhara are in Gujarat, and Dhamra is in Odisha.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "indian-geography-38-17",
@@ -13565,7 +13961,14 @@
       "All five"
      ],
      "answer": 2,
-     "explanation": "Dahej, Hazira, Mundra and Chhara are located in Gujarat. Kochi is in Kerala; therefore, four terminals are in Gujarat."
+     "explanation": "Dahej, Hazira, Mundra and Chhara are located in Gujarat. Kochi is in Kerala; therefore, four terminals are in Gujarat.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F40",
+      "F42"
+     ]
     },
     {
      "id": "indian-geography-38-18",
@@ -13579,7 +13982,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct: Kolkata is the only riverine major port, Chennai is the largest artificial port, and Mundra is the largest privately owned port."
+     "explanation": "All three statements are correct: Kolkata is the only riverine major port, Chennai is the largest artificial port, and Mundra is the largest privately owned port.",
+     "facts": [
+      "F19",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-38-19",
@@ -13593,7 +14001,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Paradip is associated with the Mahanadi–Bay of Bengal region, while Mormugao is associated with the Zuari River mouth."
+     "explanation": "Paradip is associated with the Mahanadi–Bay of Bengal region, while Mormugao is associated with the Zuari River mouth.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-38-20",
@@ -13607,7 +14019,11 @@
       "Alang"
      ],
      "answer": 2,
-     "explanation": "Cochin is associated with the largest shipyard. Alang is associated with the largest ship-recycling yard."
+     "explanation": "Cochin is associated with the largest shipyard. Alang is associated with the largest ship-recycling yard.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     }
    ]
   },
@@ -14304,8 +14720,68 @@
       "F73",
       "F72"
      ]
+    },
+    {
+     "id": "indian-geography-40-20",
+     "format": "List-Matching",
+     "keyword": "Plateau → Location / Key Feature",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ranchi Plateau\n(b) Hazaribagh Plateau\n(c) Palamu Plateau\n(d) Bhander Plateau\n\nList-II\ni. Jharkhand\nii. Patland Plateau\niii. Madhya Pradesh\niv. Chota Nagpur region",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Ranchi Plateau–Patland Plateau, Hazaribagh Plateau–Chota Nagpur region, Palamu Plateau–Jharkhand, and Bhander Plateau–Madhya Pradesh.",
+     "facts": [
+      "F42",
+      "F44",
+      "F48",
+      "F57"
+     ]
+    },
+    {
+     "id": "indian-geography-40-21",
+     "format": "Assertion-Reason",
+     "keyword": "Plateau → Location / Extent",
+     "question": "Assertion (A): Dandakaranya is located in the central-eastern Peninsular region.\nReason (R): Dandakaranya extends approximately 480 kilometres from east to west.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Dandakaranya is in the central-eastern Peninsular region and extends approximately 480 kilometres from east to west. However, its east–west extent does not explain its regional location.",
+     "facts": [
+      "F37",
+      "F39"
+     ]
+    },
+    {
+     "id": "indian-geography-40-22",
+     "format": "Direct Recall",
+     "keyword": "Plateau → Location",
+     "question": "The Karnataka Plateau is located in which of the following states?",
+     "options": [
+      "Jharkhand",
+      "Madhya Pradesh",
+      "Tamil Nadu",
+      "Karnataka"
+     ],
+     "answer": 3,
+     "explanation": "The Karnataka Plateau is located in Karnataka.",
+     "facts": [
+      "F65"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 73,
+    "covered": 72,
+    "audited": false
+   }
   },
   "41": {
    "number": 41,
@@ -16433,8 +16909,30 @@
      "facts": [
       "F6"
      ]
+    },
+    {
+     "id": "indian-geography-47-20",
+     "format": "Direct Recall",
+     "keyword": "Longitude",
+     "question": "The easternmost extent of India is approximately located between which longitudes?",
+     "options": [
+      "68°7′ E and 68°30′ E",
+      "80°34′ E and 81°12′ E",
+      "82°30′ E and 83° E",
+      "97°25′ E and 97°30′ E"
+     ],
+     "answer": 3,
+     "explanation": "The easternmost extent of India is approximately 97°25′ E to 97°30′ E.",
+     "facts": [
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 28,
+    "covered": 28,
+    "audited": true
+   }
   },
   "48": {
    "number": 48,
@@ -17591,7 +18089,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "Tarapur is in Maharashtra, Rawatbhata in Rajasthan, Kaiga in Karnataka and Kudankulam in Tamil Nadu."
+     "explanation": "Tarapur is in Maharashtra, Rawatbhata in Rajasthan, Kaiga in Karnataka and Kudankulam in Tamil Nadu.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-geography-51-2",
@@ -17605,7 +18109,14 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "Narora is in Uttar Pradesh, Kakrapar in Gujarat, Madras/Kalpakkam in Tamil Nadu and Farakka in West Bengal."
+     "explanation": "Narora is in Uttar Pradesh, Kakrapar in Gujarat, Madras/Kalpakkam in Tamil Nadu and Farakka in West Bengal.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-51-3",
@@ -17619,7 +18130,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Farakka is located in West Bengal and Ukai is located in Gujarat."
+     "explanation": "Farakka is located in West Bengal and Ukai is located in Gujarat.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-51-4",
@@ -17633,7 +18148,13 @@
       "Obra Thermal Power Station is located in Uttar Pradesh."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the location of Korba. Korba Thermal Power Station is in Chhattisgarh, not Rajasthan."
+     "explanation": "The incorrect detail is the location of Korba. Korba Thermal Power Station is in Chhattisgarh, not Rajasthan.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-51-5",
@@ -17647,7 +18168,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Korba is in Chhattisgarh, Obra in Uttar Pradesh, Kahalgaon in Bihar and Khargone in Madhya Pradesh."
+     "explanation": "Korba is in Chhattisgarh, Obra in Uttar Pradesh, Kahalgaon in Bihar and Khargone in Madhya Pradesh.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-51-6",
@@ -17661,7 +18188,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "Kudgi is in Karnataka, Neyveli in Tamil Nadu, Ramagundam in Telangana and Uran in Maharashtra."
+     "explanation": "Kudgi is in Karnataka, Neyveli in Tamil Nadu, Ramagundam in Telangana and Uran in Maharashtra.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-51-7",
@@ -17675,7 +18208,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "Patratu is in Jharkhand, Pench in Madhya Pradesh, Dabhol in Maharashtra and Srisailam is associated with the Krishna River."
+     "explanation": "Patratu is in Jharkhand, Pench in Madhya Pradesh, Dabhol in Maharashtra and Srisailam is associated with the Krishna River.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-51-8",
@@ -17689,7 +18228,16 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "Omkareshwar and Indira Sagar are associated with the Narmada River in Madhya Pradesh; Tehri with the Bhagirathi in Uttarakhand; and Bhakra-Nangal with the Sutlej."
+     "explanation": "Omkareshwar and Indira Sagar are associated with the Narmada River in Madhya Pradesh; Tehri with the Bhagirathi in Uttarakhand; and Bhakra-Nangal with the Sutlej.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "indian-geography-51-9",
@@ -17703,7 +18251,11 @@
       "Mahanadi, Odisha"
      ],
      "answer": 3,
-     "explanation": "Hirakud is associated with the Mahanadi in Odisha."
+     "explanation": "Hirakud is associated with the Mahanadi in Odisha.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "indian-geography-51-10",
@@ -17717,7 +18269,10 @@
       "Tamil Nadu"
      ],
      "answer": 2,
-     "explanation": "Rawatbhata Nuclear Power Plant is located in Rajasthan."
+     "explanation": "Rawatbhata Nuclear Power Plant is located in Rajasthan.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-51-11",
@@ -17731,7 +18286,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the location of Madras Atomic Power Station does not explain the location of Kakrapar Atomic Power Station."
+     "explanation": "Both statements are true, but the location of Madras Atomic Power Station does not explain the location of Kakrapar Atomic Power Station.",
+     "facts": [
+      "F6",
+      "F8",
+      "F7"
+     ]
     },
     {
      "id": "indian-geography-51-12",
@@ -17745,7 +18305,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Neyveli is located in Tamil Nadu, while Uran is located in Maharashtra."
+     "explanation": "Neyveli is located in Tamil Nadu, while Uran is located in Maharashtra.",
+     "facts": [
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-51-13",
@@ -17759,7 +18323,12 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct: Ramagundam is in Telangana, Patratu in Jharkhand and Pench in Madhya Pradesh."
+     "explanation": "All three statements are correct: Ramagundam is in Telangana, Patratu in Jharkhand and Pench in Madhya Pradesh.",
+     "facts": [
+      "F17",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-51-14",
@@ -17773,7 +18342,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Tarapur and Kaiga are nuclear or atomic power stations. Farakka is a super thermal power plant and Kudgi is listed under thermal power stations. Therefore, the count is two."
+     "explanation": "Tarapur and Kaiga are nuclear or atomic power stations. Farakka is a super thermal power plant and Kudgi is listed under thermal power stations. Therefore, the count is two.",
+     "facts": [
+      "F1",
+      "F3",
+      "F9",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-51-15",
@@ -17787,7 +18362,17 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Omkareshwar and Indira Sagar are associated with the Narmada River in Madhya Pradesh. Tehri is associated with the Bhagirathi, and Hirakud with the Mahanadi."
+     "explanation": "Omkareshwar and Indira Sagar are associated with the Narmada River in Madhya Pradesh. Tehri is associated with the Bhagirathi, and Hirakud with the Mahanadi.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "indian-geography-51-16",
@@ -17801,7 +18386,13 @@
       "Korba Thermal Power Station"
      ],
      "answer": 1,
-     "explanation": "Kakrapar Atomic Power Station is located in Gujarat."
+     "explanation": "Kakrapar Atomic Power Station is located in Gujarat.",
+     "facts": [
+      "F6",
+      "F11",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-51-17",
@@ -17815,7 +18406,11 @@
       "Bhagirathi, Uttarakhand"
      ],
      "answer": 3,
-     "explanation": "Tehri is associated with the Bhagirathi in Uttarakhand."
+     "explanation": "Tehri is associated with the Bhagirathi in Uttarakhand.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-51-18",
@@ -17829,7 +18424,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both stations are listed with the Narmada River and Madhya Pradesh, and this common association supports the assertion."
+     "explanation": "Both stations are listed with the Narmada River and Madhya Pradesh, and this common association supports the assertion.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-51-19",
@@ -17843,7 +18444,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Srisailam, Tehri and Hirakud are listed as hydroelectric stations. Ukai is listed as a thermal power station; therefore, the count is three."
+     "explanation": "Srisailam, Tehri and Hirakud are listed as hydroelectric stations. Ukai is listed as a thermal power station; therefore, the count is three.",
+     "facts": [
+      "F10",
+      "F22",
+      "F27",
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-51-20",
@@ -17857,9 +18464,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Tarapur Atomic Power Station, Uran Gas Turbine Power Station and Dabhol are located in Maharashtra. Narora Atomic Power Station is located in Uttar Pradesh, making the count three."
+     "explanation": "Tarapur Atomic Power Station, Uran Gas Turbine Power Station and Dabhol are located in Maharashtra. Narora Atomic Power Station is located in Uttar Pradesh, making the count three.",
+     "facts": [
+      "F1",
+      "F5",
+      "F18",
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "52": {
    "number": 52,

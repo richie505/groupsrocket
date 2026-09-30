@@ -9376,7 +9376,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Participatory Notes are linked to Indian securities, while FDI involves investment in an enterprise or business. The ultimate P-Note investor has no direct SEBI registration, whereas an FDI investor makes a direct investment."
+     "explanation": "Participatory Notes are linked to Indian securities, while FDI involves investment in an enterprise or business. The ultimate P-Note investor has no direct SEBI registration, whereas an FDI investor makes a direct investment.",
+     "facts": [
+      "F3",
+      "F4",
+      "F9",
+      "F6",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-48-2-2",
@@ -9390,7 +9397,13 @@
       "Non-regular or casual employment"
      ],
      "answer": 0,
-     "explanation": "The notes define the Gig Economy as task/assignment-based work."
+     "explanation": "The notes define the Gig Economy as task/assignment-based work.",
+     "facts": [
+      "F11",
+      "F20",
+      "F16",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-48-2-3",
@@ -9404,7 +9417,12 @@
       "The Marketplace Model connects buyers and sellers."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the model: the Marketplace Model connects buyers and sellers. An entity owning or controlling inventory is the feature of the Inventory Model."
+     "explanation": "The incorrect statement alters the model: the Marketplace Model connects buyers and sellers. An entity owning or controlling inventory is the feature of the Inventory Model.",
+     "facts": [
+      "F12",
+      "F14",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-48-2-4",
@@ -9418,7 +9436,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the definition of casual workers does not explain disguised unemployment."
+     "explanation": "Both statements are true according to the notes. However, the definition of casual workers does not explain disguised unemployment.",
+     "facts": [
+      "F19",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-48-2-5",
@@ -9432,7 +9454,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 4 are correct. The Real Sector refers to goods and services, whereas money and financial assets belong to the Financial Sector."
+     "explanation": "Statements 1, 2 and 4 are correct. The Real Sector refers to goods and services, whereas money and financial assets belong to the Financial Sector.",
+     "facts": [
+      "F17",
+      "F18",
+      "F20",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-48-2-6",
@@ -9446,7 +9475,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Participatory Notes provide portfolio-type exposure and enable overseas investors to obtain market exposure."
+     "explanation": "Participatory Notes provide portfolio-type exposure and enable overseas investors to obtain market exposure.",
+     "facts": [
+      "F1",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-48-2-7",
@@ -9460,9 +9493,35 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Participatory Notes are relatively more mobile and volatile, whereas FDI is relatively more stable and long-term; the statement about FDI does not explain the mobility and volatility of Participatory Notes."
+     "explanation": "Both statements are true. Participatory Notes are relatively more mobile and volatile, whereas FDI is relatively more stable and long-term; the statement about FDI does not explain the mobility and volatility of Participatory Notes.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-48-2-8",
+     "format": "Direct Recall",
+     "keyword": "FDI",
+     "question": "Direct investment is subject to which of the following?",
+     "options": [
+      "The Marketplace Model",
+      "Employment for a predetermined period",
+      "The applicable FDI framework",
+      "Direct SEBI registration by the ultimate P-Note investor"
+     ],
+     "answer": 2,
+     "explanation": "Direct investment is subject to the applicable FDI framework.",
+     "facts": [
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 22,
+    "covered": 22,
+    "audited": true
+   }
   },
   "49": {
    "number": 49,
@@ -11059,7 +11118,10 @@
       "CDSL"
      ],
      "answer": 2,
-     "explanation": "BSE stands for Bombay Stock Exchange."
+     "explanation": "BSE stands for Bombay Stock Exchange.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-56-2",
@@ -11073,7 +11135,10 @@
       "1875"
      ],
      "answer": 1,
-     "explanation": "BSE moved to Dalal Street in 1874."
+     "explanation": "BSE moved to Dalal Street in 1874.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-56-3",
@@ -11087,7 +11152,10 @@
       "Bengaluru"
      ],
      "answer": 2,
-     "explanation": "Dalal Street is located in Mumbai and is associated with BSE."
+     "explanation": "Dalal Street is located in Mumbai and is associated with BSE.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-56-4",
@@ -11101,7 +11169,10 @@
       "STT"
      ],
      "answer": 2,
-     "explanation": "SENSEX is a popular index of BSE."
+     "explanation": "SENSEX is a popular index of BSE.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-56-5",
@@ -11115,7 +11186,10 @@
       "Debt-market weighted index"
      ],
      "answer": 1,
-     "explanation": "SENSEX is a free-float market-capitalization weighted index."
+     "explanation": "SENSEX is a free-float market-capitalization weighted index.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-56-6",
@@ -11129,7 +11203,13 @@
       "A rise in SENSEX indicates an overall rise in prices of the selected group of 30 companies."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the coverage of SENSEX. It represents the selected 30 companies, not all BSE shares."
+     "explanation": "The incorrect statement alters the coverage of SENSEX. It represents the selected 30 companies, not all BSE shares.",
+     "facts": [
+      "F5",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-56-7",
@@ -11143,7 +11223,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since SENSEX represents the movement of the selected 30 companies, its rise indicates an overall price rise in that group."
+     "explanation": "Both statements are true. Since SENSEX represents the movement of the selected 30 companies, its rise indicates an overall price rise in that group.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-56-8",
@@ -11157,7 +11241,10 @@
       "Beta"
      ],
      "answer": 2,
-     "explanation": "A bull expects prices to rise."
+     "explanation": "A bull expects prices to rise.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-56-9",
@@ -11171,7 +11258,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: prices generally rise in a bull market and generally decline in a bear market."
+     "explanation": "Both statements are true: prices generally rise in a bull market and generally decline in a bear market.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-56-10",
@@ -11185,7 +11276,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are bull–expects prices to rise, bear–expects prices to fall, bull market–prices generally rising, and bear market–prices generally declining."
+     "explanation": "The correct pairs are bull–expects prices to rise, bear–expects prices to fall, bull market–prices generally rising, and bear market–prices generally declining.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-56-11",
@@ -11199,7 +11296,10 @@
       "STT"
      ],
      "answer": 2,
-     "explanation": "Blue Chip refers to shares of large, well-established, financially sound companies."
+     "explanation": "Blue Chip refers to shares of large, well-established, financially sound companies.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-56-12",
@@ -11213,7 +11313,11 @@
       "The tax on specified securities transactions"
      ],
      "answer": 2,
-     "explanation": "Beta measures a security's fluctuations or systematic risk relative to the overall market."
+     "explanation": "Beta measures a security's fluctuations or systematic risk relative to the overall market.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-56-13",
@@ -11227,7 +11331,10 @@
       "Government securities only"
      ],
      "answer": 1,
-     "explanation": "Credit rating agencies are regulated by SEBI."
+     "explanation": "Credit rating agencies are regulated by SEBI.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "indian-economy-56-14",
@@ -11241,7 +11348,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The facts identify SEBI as the regulator or monitor of mutual funds and the regulator of credit rating agencies."
+     "explanation": "Both statements are true. The facts identify SEBI as the regulator or monitor of mutual funds and the regulator of credit rating agencies.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-56-15",
@@ -11255,7 +11366,11 @@
       "BSE"
      ],
      "answer": 3,
-     "explanation": "CDSL is a depository initially promoted by BSE."
+     "explanation": "CDSL is a depository initially promoted by BSE.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-56-16",
@@ -11269,7 +11384,14 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct: they describe SENSEX, Beta, CDSL and STT respectively."
+     "explanation": "All four statements are correct: they describe SENSEX, Beta, CDSL and STT respectively.",
+     "facts": [
+      "F6",
+      "F16",
+      "F18",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-56-17",
@@ -11283,7 +11405,11 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two items—credit rating agencies and mutual funds—are identified as regulated or monitored by SEBI."
+     "explanation": "Two items—credit rating agencies and mutual funds—are identified as regulated or monitored by SEBI.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-56-18",
@@ -11297,7 +11423,15 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Blue Chip–shares of large, well-established and financially sound companies; Beta–systematic risk measure; STT–Securities Transaction Tax; and CDSL–depository initially promoted by BSE."
+     "explanation": "The correct pairs are Blue Chip–shares of large, well-established and financially sound companies; Beta–systematic risk measure; STT–Securities Transaction Tax; and CDSL–depository initially promoted by BSE.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-56-19",
@@ -11311,9 +11445,51 @@
       "Share Transfer Tax"
      ],
      "answer": 0,
-     "explanation": "STT stands for Securities Transaction Tax. It applies to specified securities transactions on domestic exchanges."
+     "explanation": "STT stands for Securities Transaction Tax. It applies to specified securities transactions on domestic exchanges.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-economy-56-20",
+     "format": "Direct Recall",
+     "keyword": "Stock exchange",
+     "question": "Dalal Street is associated with which of the following?",
+     "options": [
+      "BSE and the share market",
+      "CDSL and mutual funds",
+      "Government securities and credit rating agencies",
+      "SENSEX and the share market"
+     ],
+     "answer": 0,
+     "explanation": "Dalal Street is associated with the BSE and the share market.",
+     "facts": [
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-economy-56-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Government securities",
+     "question": "Consider the following statements:\nStatement A: Government securities can be traded through securities-market platforms.\nStatement B: Government securities cannot be traded through securities-market platforms.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is correct: government securities can be traded through securities-market platforms. Statement B reverses this fact and is therefore false.",
+     "facts": [
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 23,
+    "covered": 23,
+    "audited": true
+   }
   },
   "57": {
    "number": 57,
@@ -12170,7 +12346,10 @@
       "Consolidated Fund of India"
      ],
      "answer": 3,
-     "explanation": "The Consolidated Fund of India is the main government account."
+     "explanation": "The Consolidated Fund of India is the main government account.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-59-2",
@@ -12184,7 +12363,12 @@
       "Public Account of India"
      ],
      "answer": 2,
-     "explanation": "Government revenues, loans raised and loan recoveries are credited to the Consolidated Fund of India."
+     "explanation": "Government revenues, loans raised and loan recoveries are credited to the Consolidated Fund of India.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-59-3",
@@ -12198,7 +12382,11 @@
       "Generating returns without depleting a corpus"
      ],
      "answer": 0,
-     "explanation": "The Contingency Fund of India is used for urgent or unforeseen expenditure."
+     "explanation": "The Contingency Fund of India is used for urgent or unforeseen expenditure.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-59-4",
@@ -12212,7 +12400,14 @@
       "The Government is liable to repay or use Public Account money according to applicable rules."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the stated purpose. Urgent or unforeseen expenditure is associated with the Contingency Fund of India, not the Public Account of India."
+     "explanation": "The incorrect detail is the stated purpose. Urgent or unforeseen expenditure is associated with the Contingency Fund of India, not the Public Account of India.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-59-5",
@@ -12226,7 +12421,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the description of the Consolidated Fund of India as the main government account explains why government revenues are credited there."
+     "explanation": "Both statements are true, and the description of the Consolidated Fund of India as the main government account explains why government revenues are credited there.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-59-6",
@@ -12240,7 +12439,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true for the Public Account of India. Statement B is false because the Consolidated Fund of India is the main government account."
+     "explanation": "Statement A is true for the Public Account of India. Statement B is false because the Consolidated Fund of India is the main government account.",
+     "facts": [
+      "F1",
+      "F2",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-59-7",
@@ -12254,7 +12458,14 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Consolidated Fund of India is the main government account."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because the Consolidated Fund of India is the main government account.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-59-8",
@@ -12268,7 +12479,10 @@
       "November 2005"
      ],
      "answer": 3,
-     "explanation": "The National Investment Fund was established in November 2005."
+     "explanation": "The National Investment Fund was established in November 2005.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-59-9",
@@ -12282,7 +12496,10 @@
       "Rural infrastructure institutions"
      ],
      "answer": 2,
-     "explanation": "The purpose of the National Investment Fund is to channelise proceeds from disinvestment of CPSEs."
+     "explanation": "The purpose of the National Investment Fund is to channelise proceeds from disinvestment of CPSEs.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-59-10",
@@ -12296,7 +12513,13 @@
       "It is classified under the Public Account."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is 'by depleting the corpus.' The Government objective is to generate returns without depleting the corpus."
+     "explanation": "The incorrect detail is 'by depleting the corpus.' The Government objective is to generate returns without depleting the corpus.",
+     "facts": [
+      "F9",
+      "F11",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-59-11",
@@ -12310,7 +12533,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Generating returns without depleting the corpus supports the intended permanent nature of the corpus."
+     "explanation": "Both statements are true. Generating returns without depleting the corpus supports the intended permanent nature of the corpus.",
+     "facts": [
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-59-12",
@@ -12324,7 +12551,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Consolidated Fund–main government account, Contingency Fund–urgent or unforeseen expenditure, Public Account–money held in trust, and NIF–permanent corpus."
+     "explanation": "The correct pairs are Consolidated Fund–main government account, Contingency Fund–urgent or unforeseen expenditure, Public Account–money held in trust, and NIF–permanent corpus.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F7",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-59-13",
@@ -12338,7 +12572,13 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The National Investment Fund was established in November 2005; 1995–96 is the creation period given for RIDF."
+     "explanation": "Statements I, II and IV are correct. The National Investment Fund was established in November 2005; 1995–96 is the creation period given for RIDF.",
+     "facts": [
+      "F10",
+      "F12",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-59-14",
@@ -12352,7 +12592,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The National Investment Fund is professionally managed and classified under the Public Account."
+     "explanation": "Both statements are true. The National Investment Fund is professionally managed and classified under the Public Account.",
+     "facts": [
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-59-15",
@@ -12366,7 +12610,10 @@
       "2005–06"
      ],
      "answer": 1,
-     "explanation": "The Rural Infrastructure Development Fund was created in 1995–96."
+     "explanation": "The Rural Infrastructure Development Fund was created in 1995–96.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-59-16",
@@ -12380,7 +12627,11 @@
       "NABARD"
      ],
      "answer": 3,
-     "explanation": "RIDF was created by NABARD and is administered by NABARD."
+     "explanation": "RIDF was created by NABARD and is administered by NABARD.",
+     "facts": [
+      "F16",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-59-17",
@@ -12394,7 +12645,14 @@
       "Its initial corpus was ₹2,000 crore."
      ],
      "answer": 0,
-     "explanation": "The incorrect amount is ₹20,000 crore. The initial corpus of RIDF was ₹2,000 crore."
+     "explanation": "The incorrect amount is ₹20,000 crore. The initial corpus of RIDF was ₹2,000 crore.",
+     "facts": [
+      "F15",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-59-18",
@@ -12408,7 +12666,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Rural roads are listed as an example under the broad area of rural connectivity."
+     "explanation": "Both statements are true. Rural roads are listed as an example under the broad area of rural connectivity.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-59-19",
@@ -12422,7 +12684,16 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 0,
-     "explanation": "Rural roads are an example under rural connectivity, rural water supply under the social sector, rural electrification under agriculture and related sector, and the initial corpus was ₹2,000 crore."
+     "explanation": "Rural roads are an example under rural connectivity, rural water supply under the social sector, rural electrification under agriculture and related sector, and the initial corpus was ₹2,000 crore.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-59-20",
@@ -12436,7 +12707,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three listed items are broad areas of RIDF: agriculture and related sector, social sector and rural connectivity. Disinvestment of CPSEs is associated with the National Investment Fund."
+     "explanation": "Three listed items are broad areas of RIDF: agriculture and related sector, social sector and rural connectivity. Disinvestment of CPSEs is associated with the National Investment Fund.",
+     "facts": [
+      "F10",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-59-21",
@@ -12450,9 +12727,20 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct for RIDF. Channelising disinvestment proceeds from CPSEs is the purpose of the National Investment Fund."
+     "explanation": "Statements I, II and III are correct for RIDF. Channelising disinvestment proceeds from CPSEs is the purpose of the National Investment Fund.",
+     "facts": [
+      "F10",
+      "F15",
+      "F17",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "60": {
    "number": 60,
@@ -12480,7 +12768,10 @@
       "National Investment Fund"
      ],
      "answer": 1,
-     "explanation": "The notes identify RIDF under the institution NABARD."
+     "explanation": "The notes identify RIDF under the institution NABARD.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-60-2",
@@ -12494,7 +12785,10 @@
       "NABARD"
      ],
      "answer": 1,
-     "explanation": "The notes state that mutual funds are regulated by SEBI."
+     "explanation": "The notes state that mutual funds are regulated by SEBI.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-60-3",
@@ -12508,7 +12802,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported: the notes pair Pension Fund / NPS with PFRDA, and the reason explains the association."
+     "explanation": "Both statements are directly supported: the notes pair Pension Fund / NPS with PFRDA, and the reason explains the association.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-60-4",
@@ -12522,7 +12819,10 @@
       "Contingency Fund advances"
      ],
      "answer": 2,
-     "explanation": "The notes associate the National Investment Fund with disinvestment proceeds."
+     "explanation": "The notes associate the National Investment Fund with disinvestment proceeds.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-60-5",
@@ -12536,7 +12836,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "The notes describe Provident Fund as contractual retirement savings. They describe the Consolidated Fund, not the State Provident Fund, as the main government fund."
+     "explanation": "The notes describe Provident Fund as contractual retirement savings. They describe the Consolidated Fund, not the State Provident Fund, as the main government fund.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-60-6",
@@ -12550,7 +12855,10 @@
       "Contingency Fund"
      ],
      "answer": 1,
-     "explanation": "The notes describe the Public Account as a government-held trust/liability account."
+     "explanation": "The notes describe the Public Account as a government-held trust/liability account.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-60-7",
@@ -12564,7 +12872,12 @@
       "The Consolidated Fund is the main government fund."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the description of the Contingency Fund as the main government fund. The notes assign that description to the Consolidated Fund; the Contingency Fund is associated with unforeseen expenditure."
+     "explanation": "The incorrect detail is the description of the Contingency Fund as the main government fund. The notes assign that description to the Consolidated Fund; the Contingency Fund is associated with unforeseen expenditure.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-60-8",
@@ -12578,7 +12891,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are RIDF–NABARD, Mutual Funds–SEBI regulation, Pension Fund/NPS–PFRDA, and National Investment Fund–disinvestment proceeds."
+     "explanation": "The correct pairs are RIDF–NABARD, Mutual Funds–SEBI regulation, Pension Fund/NPS–PFRDA, and National Investment Fund–disinvestment proceeds.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-60-9",
@@ -12592,7 +12911,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Contractual retirement savings are associated with Provident Fund, not the National Investment Fund."
+     "explanation": "Statements I, II and III are correct. Contractual retirement savings are associated with Provident Fund, not the National Investment Fund.",
+     "facts": [
+      "F5",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-60-10",
@@ -12606,7 +12931,10 @@
       "A retirement savings contract"
      ],
      "answer": 2,
-     "explanation": "The notes define a bond as a debt instrument through which the issuer borrows money from investors."
+     "explanation": "The notes define a bond as a debt instrument through which the issuer borrows money from investors.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-60-11",
@@ -12620,7 +12948,10 @@
       "Creditor or lender to the issuer"
      ],
      "answer": 3,
-     "explanation": "A bond holder is described as the creditor/lender to the issuer and receives interest or returns as per the terms."
+     "explanation": "A bond holder is described as the creditor/lender to the issuer and receives interest or returns as per the terms.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-60-12",
@@ -12634,7 +12965,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the fact that an issuer may be a government, company or other eligible entity does not explain the act of raising funds through a bond."
+     "explanation": "Both statements are true, but the fact that an issuer may be a government, company or other eligible entity does not explain the act of raising funds through a bond.",
+     "facts": [
+      "F10",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-60-13",
@@ -12648,7 +12983,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Bond holder–creditor/lender, Maturity–repayment date, Face/Par Value–nominal value, and Coupon/Interest–stated interest payment."
+     "explanation": "The correct pairs are Bond holder–creditor/lender, Maturity–repayment date, Face/Par Value–nominal value, and Coupon/Interest–stated interest payment.",
+     "facts": [
+      "F11",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-60-14",
@@ -12662,7 +13003,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is correct. Face or par value is the nominal value of a bond, whereas return earned by an investor is yield."
+     "explanation": "Statement A is correct. Face or par value is the nominal value of a bond, whereas return earned by an investor is yield.",
+     "facts": [
+      "F13",
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-60-15",
@@ -12676,7 +13022,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three are correct. Yield is the return earned by an investor, while nominal value is face/par value; therefore, three are correctly matched."
+     "explanation": "The first three are correct. Yield is the return earned by an investor, while nominal value is face/par value; therefore, three are correctly matched.",
+     "facts": [
+      "F10",
+      "F11",
+      "F14",
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-60-16",
@@ -12690,7 +13043,10 @@
       "Nominal value of a bond"
      ],
      "answer": 2,
-     "explanation": "The notes define yield as the return earned by an investor."
+     "explanation": "The notes define yield as the return earned by an investor.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-60-17",
@@ -12704,7 +13060,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the definition of yield does not itself explain the stated inverse movement between market yield and bond price."
+     "explanation": "Both statements are true according to the notes. However, the definition of yield does not itself explain the stated inverse movement between market yield and bond price.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-60-18",
@@ -12718,7 +13078,14 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because coupon/interest is the stated interest payment; the repayment date is maturity."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because coupon/interest is the stated interest payment; the repayment date is maturity.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-60-19",
@@ -12732,7 +13099,12 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Provident Fund–contractual retirement savings, State Provident Fund–the specified State Provident Fund category, Contingency Fund–unforeseen expenditure, and Consolidated Fund–main government fund."
+     "explanation": "The correct pairs are Provident Fund–contractual retirement savings, State Provident Fund–the specified State Provident Fund category, Contingency Fund–unforeseen expenditure, and Consolidated Fund–main government fund.",
+     "facts": [
+      "F5",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-60-20",
@@ -12746,9 +13118,20 @@
       "Yield"
      ],
      "answer": 0,
-     "explanation": "Coupon or interest is the stated interest payment on a bond. Maturity refers to the repayment date, face/par value to nominal value, and yield to the investor’s return."
+     "explanation": "Coupon or interest is the stated interest payment on a bond. Maturity refers to the repayment date, face/par value to nominal value, and yield to the investor’s return.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "61": {
    "number": 61,
@@ -13072,7 +13455,10 @@
       "Government borrowing raised only from foreign sources"
      ],
      "answer": 1,
-     "explanation": "Debt is the amount borrowed that creates an obligation to repay."
+     "explanation": "Debt is the amount borrowed that creates an obligation to repay.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-62-2",
@@ -13086,7 +13472,10 @@
       "Borrowing by domestic institutions from foreign creditors"
      ],
      "answer": 1,
-     "explanation": "Public debt means government borrowing or government liabilities."
+     "explanation": "Public debt means government borrowing or government liabilities.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-62-3",
@@ -13100,7 +13489,10 @@
       "Government Dated Securities and Treasury Bills"
      ],
      "answer": 2,
-     "explanation": "Public Debt is classified into Internal Debt and External Debt."
+     "explanation": "Public Debt is classified into Internal Debt and External Debt.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-62-4",
@@ -13114,7 +13506,10 @@
       "Domestic economy"
      ],
      "answer": 3,
-     "explanation": "Internal Debt is government debt raised within the domestic economy."
+     "explanation": "Internal Debt is government debt raised within the domestic economy.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-62-5",
@@ -13128,7 +13523,10 @@
       "The domestic economy only"
      ],
      "answer": 1,
-     "explanation": "External Debt is government debt raised from external or foreign sources."
+     "explanation": "External Debt is government debt raised from external or foreign sources.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-62-6",
@@ -13142,7 +13540,10 @@
       "External assistance received by the government"
      ],
      "answer": 1,
-     "explanation": "Government Dated Securities or G-Secs are long-term government securities."
+     "explanation": "Government Dated Securities or G-Secs are long-term government securities.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-62-7",
@@ -13156,7 +13557,10 @@
       "Short-term government debt instruments"
      ],
      "answer": 3,
-     "explanation": "Treasury Bills are short-term government debt instruments."
+     "explanation": "Treasury Bills are short-term government debt instruments.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-62-8",
@@ -13170,7 +13574,10 @@
       "Through domestic creditors only"
      ],
      "answer": 0,
-     "explanation": "The notes identify auctions as the method through which market-based securities are issued."
+     "explanation": "The notes identify auctions as the method through which market-based securities are issued.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-62-9",
@@ -13184,7 +13591,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The classification reflects whether government borrowing comes from the domestic economy or from external or foreign sources."
+     "explanation": "Both statements are true. The classification reflects whether government borrowing comes from the domestic economy or from external or foreign sources.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-62-10",
@@ -13198,7 +13610,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Internal Debt is associated with domestic lenders, institutions and investors, while External Debt is associated with foreign creditors and institutions."
+     "explanation": "Both statements are true. Internal Debt is associated with domestic lenders, institutions and investors, while External Debt is associated with foreign creditors and institutions.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-62-11",
@@ -13212,7 +13628,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Foreign-denominated obligations are associated with External Debt, not as a stated feature of Internal Debt."
+     "explanation": "Statements I and II are correct. Foreign-denominated obligations are associated with External Debt, not as a stated feature of Internal Debt.",
+     "facts": [
+      "F9",
+      "F14",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-62-12",
@@ -13226,7 +13647,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct descriptions of External Debt."
+     "explanation": "All three statements are correct descriptions of External Debt.",
+     "facts": [
+      "F10",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-62-13",
@@ -13240,7 +13666,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv."
+     "explanation": "The correct pairs are a-ii, b-i, c-iii and d-iv.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-62-14",
@@ -13254,7 +13686,13 @@
       "Domestic lenders, institutions and investors may be creditors for Internal Debt."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘foreign creditors and institutions.’ Internal Debt is raised from the domestic economy and is associated with domestic lenders, institutions and investors."
+     "explanation": "The incorrect detail is ‘foreign creditors and institutions.’ Internal Debt is raised from the domestic economy and is associated with domestic lenders, institutions and investors.",
+     "facts": [
+      "F3",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-62-15",
@@ -13268,7 +13706,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Borrowing from external or foreign sources explains why External Debt may involve foreign currency or foreign-denominated obligations."
+     "explanation": "Both statements are true. Borrowing from external or foreign sources explains why External Debt may involve foreign currency or foreign-denominated obligations.",
+     "facts": [
+      "F4",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-62-16",
@@ -13282,7 +13724,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the currency features of Internal Debt and External Debt."
+     "explanation": "Both statements are true according to the currency features of Internal Debt and External Debt.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-62-17",
@@ -13296,7 +13742,11 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "G-Secs and Treasury Bills are identified as major conceptual instruments of Internal Debt. External assistance and foreign borrowings are associated with External Debt."
+     "explanation": "G-Secs and Treasury Bills are identified as major conceptual instruments of Internal Debt. External assistance and foreign borrowings are associated with External Debt.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-62-18",
@@ -13310,7 +13760,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Internal Debt-domestic economy, External Debt-external sources, G-Secs-long-term securities and Treasury Bills-short-term instruments."
+     "explanation": "The correct pairs are Internal Debt-domestic economy, External Debt-external sources, G-Secs-long-term securities and Treasury Bills-short-term instruments.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-62-19",
@@ -13324,7 +13780,12 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements correctly describe the creditor base, key idea and major conceptual instruments of External Debt."
+     "explanation": "All three statements correctly describe the creditor base, key idea and major conceptual instruments of External Debt.",
+     "facts": [
+      "F12",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-62-20",
@@ -13338,7 +13799,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The definition of debt as an amount borrowed is linked to the resulting obligation to repay."
+     "explanation": "Both statements are true. The definition of debt as an amount borrowed is linked to the resulting obligation to repay.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-62-21",
@@ -13352,9 +13816,18 @@
       "Domestic currency; domestic borrowing"
      ],
      "answer": 2,
-     "explanation": "The key idea of Internal Debt is domestic borrowing, while the key idea of External Debt is foreign borrowing."
+     "explanation": "The key idea of Internal Debt is domestic borrowing, while the key idea of External Debt is foreign borrowing.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "63": {
    "number": 63,
@@ -14621,6 +15094,41 @@
       "F36",
       "F28"
      ]
+    },
+    {
+     "id": "indian-economy-66-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Chairman",
+     "question": "Consider the following statements:\nStatement A: S.S. Tarapore chaired Tarapore Committee – II.\nStatement B: M. Narasimham chaired Narasimham Committee – I.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Tarapore Committee – II was chaired by S.S. Tarapore, while Narasimham Committee – I was chaired by M. Narasimham.",
+     "facts": [
+      "F3",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-economy-66-22",
+     "format": "Assertion-Reason",
+     "keyword": "Chairman",
+     "question": "Assertion (A): Onkar Goswami chaired the Goswami Committee.\nReason (R): The Goswami Committee focused on Industrial Sickness.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Onkar Goswami chaired the Goswami Committee, which focused on Industrial Sickness. The focus area does not explain who chaired the committee.",
+     "facts": [
+      "F23"
+     ]
     }
    ]
   },
@@ -15557,8 +16065,30 @@
       "F3",
       "F6"
      ]
+    },
+    {
+     "id": "indian-economy-68-22",
+     "format": "Assertion-Reason",
+     "keyword": "Capital output ratio",
+     "question": "Assertion (A): A high Capital Output Ratio combined with high savings may still result in slow output growth.\nReason (R): A high Capital Output Ratio means that investment produces relatively less output.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. When the Capital Output Ratio is high, investment produces relatively less output; therefore, even high savings may not lead to rapid output growth.",
+     "facts": [
+      "F4"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "69": {
    "number": 69,
