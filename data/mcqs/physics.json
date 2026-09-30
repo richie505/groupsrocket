@@ -12928,6 +12928,1631 @@
     "covered": 155,
     "audited": true
    }
+  },
+  "20": {
+   "number": 20,
+   "title": "Waves, Their Properties and Applications",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-30T08:07:51+00:00",
+   "mcqs": [
+    {
+     "id": "physics-20-1",
+     "format": "Direct Recall",
+     "keyword": "Wave Classification",
+     "question": "Waves classified on the basis of the medium are known as:",
+     "options": [
+      "Progressive waves and stationary waves",
+      "Mechanical waves and electromagnetic waves",
+      "Transverse waves and longitudinal waves",
+      "One-dimensional, two-dimensional and three-dimensional waves"
+     ],
+     "answer": 1,
+     "explanation": "On the basis of medium, waves are classified as mechanical waves and electromagnetic waves."
+    },
+    {
+     "id": "physics-20-2",
+     "format": "List-Matching",
+     "keyword": "Wave Classification",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Direction of vibration\n(b) Energy propagation\n(c) Dimension\n(d) Other classification\n\nList-II\n(i) Progressive and stationary waves\n(ii) Matter and shock waves\n(iii) One-dimensional, two-dimensional and three-dimensional waves\n(iv) Transverse and longitudinal waves",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Direction of vibration gives transverse and longitudinal waves; energy propagation gives progressive and stationary waves; dimension gives 1-D, 2-D and 3-D waves; other types include matter and shock waves."
+    },
+    {
+     "id": "physics-20-3",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Medium Requirement",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Mechanical waves require a material medium such as a solid, liquid or gas.",
+      "Matter waves are associated with moving particles and require a material medium.",
+      "Light waves can travel in vacuum.",
+      "Electromagnetic waves can travel in vacuum."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is the claim that matter waves require a material medium. Matter waves are associated with moving particles and need no medium."
+    },
+    {
+     "id": "physics-20-4",
+     "format": "Assertion-Reason",
+     "keyword": "Medium Requirement",
+     "question": "Assertion (A): Electromagnetic waves can travel through vacuum.\nReason (R): Electromagnetic waves do not require a medium for propagation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the absence of a medium requirement explains why electromagnetic waves can travel in vacuum."
+    },
+    {
+     "id": "physics-20-5",
+     "format": "List-Matching",
+     "keyword": "Mechanical Wave Examples",
+     "question": "Match the wave examples with their classifications:\n\nList-I\n(a) Sound waves in air\n(b) Waves on a string or water surface\n(c) Seismic P and S waves\n(d) Waves in a spring\n\nList-II\n(i) Both transverse and longitudinal\n(ii) Longitudinal/transverse\n(iii) Transverse\n(iv) Longitudinal",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Sound waves in air are longitudinal; string or water-surface waves are transverse; seismic P and S waves include both; spring waves may be longitudinal or transverse."
+    },
+    {
+     "id": "physics-20-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Electromagnetic Spectrum",
+     "question": "Consider the following statements:\nI. Radio waves have wavelengths greater than 1 m.\nII. Microwaves have wavelengths from 1 mm to 1 m.\nIII. Infrared waves have wavelengths from 10 to 400 nm.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Radio waves are greater than 1 m and microwaves range from 1 mm to 1 m. The 10–400 nm range belongs to ultraviolet waves, not infrared waves."
+    },
+    {
+     "id": "physics-20-7",
+     "format": "Direct Recall",
+     "keyword": "Electromagnetic Spectrum",
+     "question": "Which electromagnetic radiation has an approximate wavelength range of 400–700 nm?",
+     "options": [
+      "Ultraviolet",
+      "Visible light",
+      "X-rays",
+      "Infrared"
+     ],
+     "answer": 1,
+     "explanation": "Visible light has an approximate wavelength range of 400–700 nm."
+    },
+    {
+     "id": "physics-20-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Amplitude Effects",
+     "question": "Consider the following statements:\nStatement A: Higher amplitude produces louder sound and brighter light.\nStatement B: Amplitude affects the speed, frequency and wavelength of a wave.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Higher amplitude increases loudness and brightness. The notes state that amplitude has no effect on speed, frequency or wavelength."
+    },
+    {
+     "id": "physics-20-9",
+     "format": "Assertion-Reason",
+     "keyword": "Amplitude and Energy",
+     "question": "Assertion (A): The energy of a wave is proportional to the square of its amplitude.\nReason (R): Intensity is proportional to the square of amplitude.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. However, the stated intensity relationship does not itself explain the separate energy relationship given in the notes."
+    },
+    {
+     "id": "physics-20-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Velocity and Frequency",
+     "question": "Consider the following statements:\nI. In the same medium, wave velocity is independent of frequency.\nII. In different media, velocity changes with the properties of the medium.\nIII. In vacuum, the speed of light is different for different frequencies.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Velocity is independent of frequency in the same medium and changes with medium properties. The speed of light is the same for all frequencies in vacuum."
+    },
+    {
+     "id": "physics-20-11",
+     "format": "List-Matching",
+     "keyword": "Velocity and Wavelength",
+     "question": "Match the conditions with the corresponding wavelength relation:\n\nList-I\n(a) Same frequency and higher velocity\n(b) Same medium\n(c) Sound travelling faster in solids\n(d) Constant velocity\n\nList-II\n(i) Wavelength is inversely proportional to frequency\n(ii) Longer wavelength for the same frequency\n(iii) Higher velocity gives longer wavelength\n(iv) Velocity remains constant",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "At the same frequency, higher velocity gives a longer wavelength. In the same medium velocity is constant; faster sound in solids has a longer wavelength for the same frequency; with constant velocity, wavelength is inversely proportional to frequency."
+    },
+    {
+     "id": "physics-20-12",
+     "format": "Direct Recall",
+     "keyword": "Wave Energy",
+     "question": "Energy transport by waves involves:",
+     "options": [
+      "Transfer of neither energy nor matter",
+      "Transfer of matter without energy",
+      "Transfer of matter and energy in equal amounts",
+      "Transfer of energy without transfer of matter"
+     ],
+     "answer": 3,
+     "explanation": "Waves transfer energy without transferring matter."
+    },
+    {
+     "id": "physics-20-13",
+     "format": "Count-Based",
+     "keyword": "Wave Energy",
+     "question": "How many of the following statements are correct?\n1. Energy in mechanical waves comes from particle oscillation.\n2. Energy in electromagnetic waves comes from oscillating electric and magnetic fields.\n3. Power per unit area is proportional to the square of amplitude.\n4. Wave energy is proportional only to frequency.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Statements 1, 2 and 3 are correct. The notes give energy dependence as proportional to amplitude squared multiplied by frequency squared, not frequency alone."
+    },
+    {
+     "id": "physics-20-14",
+     "format": "List-Matching",
+     "keyword": "Interference Applications",
+     "question": "Match the phenomenon with its description:\n\nList-I\n(a) Young’s double-slit experiment\n(b) Colours in soap bubbles or oil films\n(c) Beats in sound\n(d) Anti-reflective coatings\n\nList-II\n(i) Interference of two close frequencies\n(ii) Thin-film interference\n(iii) Constructive and destructive interference of light\n(iv) Destructive interference",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Young’s double-slit experiment demonstrates constructive and destructive interference of light; soap-bubble colours involve thin-film interference; beats involve two close frequencies; anti-reflective coatings use destructive interference."
+    },
+    {
+     "id": "physics-20-15",
+     "format": "Assertion-Reason",
+     "keyword": "Interference Applications",
+     "question": "Assertion (A): Noise-cancelling headphones use destructive interference.\nReason (R): Noise-cancelling headphones use destructive interference of sound.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the destructive interference of sound explains the operation identified in the assertion."
+    },
+    {
+     "id": "physics-20-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Diffraction",
+     "question": "Consider the following statements:\nI. Sound waves diffract easily because they have long wavelengths.\nII. A single-slit diffraction pattern has a central bright fringe and secondary fringes.\nIII. A diffraction grating produces spectra.\nIV. Light cannot be seen around corners clearly because it has a very large wavelength.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and III are correct. Light has a very small wavelength, which is why it cannot be seen around corners clearly."
+    },
+    {
+     "id": "physics-20-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Polarization Applications",
+     "question": "Consider the following statements:\nStatement A: Polaroid sunglasses reduce glare by cutting reflected light.\nStatement B: Polarization in optical fibres can be used for communication multiplexing.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct applications of polarization."
+    },
+    {
+     "id": "physics-20-18",
+     "format": "Direct Recall",
+     "keyword": "Doppler Effect Applications",
+     "question": "Which application uses the Doppler effect to measure blood-flow velocity?",
+     "options": [
+      "Bat navigation",
+      "Medical Doppler ultrasound",
+      "Police radar",
+      "Weather radar"
+     ],
+     "answer": 1,
+     "explanation": "Medical ultrasound using the Doppler effect measures blood-flow velocity."
+    },
+    {
+     "id": "physics-20-19",
+     "format": "Direct Recall",
+     "keyword": "Wave Classification",
+     "question": "Waves associated with moving particles are known as:",
+     "options": [
+      "Shock waves",
+      "Mechanical waves",
+      "Electromagnetic waves",
+      "Matter waves"
+     ],
+     "answer": 3,
+     "explanation": "Matter waves are associated with moving particles and do not need a medium."
+    },
+    {
+     "id": "physics-20-20",
+     "format": "Direct Recall",
+     "keyword": "Wave Classification",
+     "question": "Which one of the following is classified on the basis of energy propagation?",
+     "options": [
+      "Mechanical and electromagnetic waves",
+      "Progressive and stationary waves",
+      "Transverse and longitudinal waves",
+      "One-dimensional and two-dimensional waves"
+     ],
+     "answer": 1,
+     "explanation": "Progressive and stationary waves are classified on the basis of energy propagation."
+    },
+    {
+     "id": "physics-20-21",
+     "format": "Direct Recall",
+     "keyword": "Wave Classification",
+     "question": "Shock waves are included under which category of wave classification?",
+     "options": [
+      "Based on dimension",
+      "Based on medium",
+      "Other classification",
+      "Based on direction of vibration"
+     ],
+     "answer": 2,
+     "explanation": "Matter waves and shock waves are listed under the other classification."
+    },
+    {
+     "id": "physics-20-22",
+     "format": "Direct Recall",
+     "keyword": "Mechanical Wave → Example",
+     "question": "Which of the following waves may be either longitudinal or transverse?",
+     "options": [
+      "Waves in a spring",
+      "Waves on a string",
+      "Sound waves in air",
+      "Ultrasonic waves"
+     ],
+     "answer": 0,
+     "explanation": "Waves in springs, such as a slinky, may be longitudinal or transverse."
+    },
+    {
+     "id": "physics-20-23",
+     "format": "Direct Recall",
+     "keyword": "Electromagnetic Wave → Example",
+     "question": "The approximate wavelength range of ultraviolet radiation is:",
+     "options": [
+      "10–400 nm",
+      "0.01–10 nm",
+      "Less than 0.01 nm",
+      "700 nm–1 mm"
+     ],
+     "answer": 0,
+     "explanation": "Ultraviolet radiation has an approximate wavelength range of 10–400 nm."
+    },
+    {
+     "id": "physics-20-24",
+     "format": "Assertion-Reason",
+     "keyword": "Wave Applications",
+     "question": "Assertion (A): Radio waves are used in mobile communication.\nReason (R): Microwaves are used in satellite communication.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but microwave use in satellite communication does not explain the use of radio waves in mobile communication."
+    },
+    {
+     "id": "physics-20-25",
+     "format": "Assertion-Reason",
+     "keyword": "Amplitude → Effect",
+     "question": "Assertion (A): Increasing the amplitude of a wave does not change its wavelength.\nReason (R): Amplitude has no effect on speed, frequency or wavelength.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Since amplitude has no effect on wavelength, increasing amplitude does not change wavelength."
+    },
+    {
+     "id": "physics-20-26",
+     "format": "Assertion-Reason",
+     "keyword": "Velocity → Wavelength",
+     "question": "Assertion (A): For the same frequency, a wave travelling with higher velocity has a longer wavelength.\nReason (R): In the same medium, velocity is inversely proportional to frequency.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 2,
+     "explanation": "The assertion is true. The reason is false because, in the same medium, velocity is constant and wavelength is inversely proportional to frequency."
+    },
+    {
+     "id": "physics-20-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Velocity → Frequency",
+     "question": "Consider the following statements:\nStatement A: The speed of light is the same for all frequencies in vacuum.\nStatement B: Wave velocity changes with the properties of different media.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are stated relationships for wave velocity: light has the same speed for all frequencies in vacuum, while velocity changes with medium properties."
+    },
+    {
+     "id": "physics-20-28",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wave Energy",
+     "question": "Consider the following statements:\nStatement A: The energy of electromagnetic waves comes from oscillating electric and magnetic fields.\nStatement B: The power per unit area is proportional to the square of amplitude.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Electromagnetic-wave energy comes from oscillating electric and magnetic fields, and intensity or power per unit area is proportional to amplitude squared."
+    },
+    {
+     "id": "physics-20-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wave Energy",
+     "question": "Consider the following statements:\nI. Wave energy depends on the square of amplitude and the square of frequency.\nII. Mechanical-wave energy comes from particle oscillation.\nIII. Waves transfer matter from one place to another without transferring energy.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I and II are correct. Waves transfer energy without transferring matter, so statement III is incorrect."
+    },
+    {
+     "id": "physics-20-30",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wave Applications",
+     "question": "Consider the following statements:\nI. Sound waves are used in sonar.\nII. Radio waves are used in broadcasting.\nIII. X-rays are used in security scanning.\nIV. Ultrasonic waves are used in ranging.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct applications listed for sound, radio, X-rays and ultrasonic waves."
+    },
+    {
+     "id": "physics-20-31",
+     "format": "List-Matching",
+     "keyword": "Wave Applications",
+     "question": "Match List-I with List-II:\nList-I\n(a) Sound waves\n(b) Light waves\n(c) Radio waves\n(d) X-rays\n\nList-II\n(i) Medical imaging\n(ii) Vision and optical fibres\n(iii) Communication and sonar\n(iv) Broadcasting and mobile communication",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are sound–communication and sonar, light–vision and optical fibres, radio–broadcasting and mobile communication, and X-rays–medical imaging."
+    },
+    {
+     "id": "physics-20-32",
+     "format": "List-Matching",
+     "keyword": "Interference → Example",
+     "question": "Match List-I with List-II:\nList-I\n(a) Young’s double-slit experiment\n(b) Colours in soap bubbles or oil films\n(c) Beats in sound\n(d) Anti-reflective coatings\n\nList-II\n(i) Interference of two close frequencies\n(ii) Thin-film interference\n(iii) Constructive and destructive interference of light\n(iv) Destructive interference",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Young’s experiment–constructive and destructive interference of light; soap bubbles or oil films–thin-film interference; beats–two close frequencies; anti-reflective coatings–destructive interference."
+    },
+    {
+     "id": "physics-20-33",
+     "format": "List-Matching",
+     "keyword": "Diffraction → Example",
+     "question": "Match List-I with List-II:\nList-I\n(a) Diffraction grating\n(b) Fresnel diffraction\n(c) Fraunhofer diffraction\n(d) Light around an obstacle\n\nList-II\n(i) Far-field pattern\n(ii) Produces spectra\n(iii) Near-field pattern\n(iv) Bending of light around an obstacle",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "A diffraction grating produces spectra; Fresnel and Fraunhofer diffraction give near-field and far-field patterns respectively; diffraction is the bending of light around an obstacle."
+    },
+    {
+     "id": "physics-20-34",
+     "format": "Count-Based",
+     "keyword": "Polarization → Application",
+     "question": "How many of the following are applications of polarization?\n1. Reducing glare with Polaroid sunglasses\n2. Separating images for each eye in 3D movies\n3. Controlling light transmission in LCD screens\n4. Measuring concentration of solutions through optical activity",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed items are applications of polarization."
+    },
+    {
+     "id": "physics-20-35",
+     "format": "Count-Based",
+     "keyword": "Doppler Effect → Application",
+     "question": "How many of the following applications involve the Doppler effect?\n1. Measuring vehicle speed with radar speed guns\n2. Measuring blood-flow velocity with medical ultrasound\n3. Detecting storm or wind speed with weather radar\n4. Bat navigation through echolocation with frequency shift",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four are listed applications of the Doppler effect."
+    },
+    {
+     "id": "physics-20-36",
+     "format": "Direct Recall",
+     "keyword": "Polarization → Application",
+     "question": "Which application of polarization is used for stress-pattern analysis?",
+     "options": [
+      "Optical activity",
+      "Photoelasticity",
+      "Polarization multiplexing",
+      "Glare-reduction filters"
+     ],
+     "answer": 1,
+     "explanation": "Stress analysis uses photoelasticity to study stress patterns."
+    },
+    {
+     "id": "physics-20-37",
+     "format": "Direct Recall",
+     "keyword": "Wavelength – Electromagnetic Spectrum",
+     "question": "The approximate wavelength range of X-rays is:",
+     "options": [
+      "10–400 nm",
+      "0.01–10 nm",
+      "700 nm–1 mm",
+      "Less than 0.01 nm"
+     ],
+     "answer": 1,
+     "explanation": "The wavelength range given for X-rays is approximately 0.01–10 nm."
+    },
+    {
+     "id": "physics-20-38",
+     "format": "Assertion-Reason",
+     "keyword": "Doppler Effect – Astronomy",
+     "question": "Assertion (A): The Doppler effect is used in astronomy to study the motion of stars.\nReason (R): Red shift and blue shift indicate star motion.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Astronomy uses Doppler-related red shift and blue shift to study star motion, so the Reason explains the Assertion."
+    },
+    {
+     "id": "physics-20-39",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wave Applications",
+     "question": "Consider the following statements:\nStatement A: Light waves are used in lasers.\nStatement B: Microwaves are used in cooking.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The applications listed for light waves include lasers, while microwaves are used in cooking."
+    },
+    {
+     "id": "physics-20-40",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Polarization – Applications",
+     "question": "Consider the following statements:\nI. LCD screens use polarization to control light transmission.\nII. Optical activity is used to measure the concentration of solutions.\nIII. Polarization multiplexing is used in optical-fibre communication.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct applications of polarization."
+    },
+    {
+     "id": "physics-20-41",
+     "format": "List-Matching",
+     "keyword": "Polarization – Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Photography\n(b) Optical activity\n(c) LCD screens\n(d) Communication\n\nList-II\n(i) Polarization multiplexing in optical fibres\n(ii) Control of light transmission\n(iii) Measurement of concentration of solutions\n(iv) Glare-reduction filters",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are photography–glare-reduction filters, optical activity–measurement of concentration, LCD screens–control of light transmission, and communication–polarization multiplexing in optical fibres."
+    },
+    {
+     "id": "physics-20-42",
+     "format": "Direct Recall",
+     "keyword": "Ultrasonic Waves – Applications",
+     "question": "Which one of the following is an application of ultrasonic waves?",
+     "options": [
+      "Formation of spectra by a diffraction grating",
+      "Cleaning",
+      "Broadcasting",
+      "Optical-fibre transmission"
+     ],
+     "answer": 1,
+     "explanation": "Ultrasonic waves are used for cleaning, echo-cardiography and ranging."
+    },
+    {
+     "id": "physics-20-43",
+     "format": "List-Matching",
+     "keyword": "Doppler Effect – Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) SONAR\n(b) Weather radar\n(c) Bat navigation\n(d) Medical ultrasound\n\nList-II\n(i) Blood-flow velocity measurement\n(ii) Echolocation with frequency shift\n(iii) Speed of submarines or underwater objects\n(iv) Storm or wind-speed detection",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "SONAR measures the speed of submarines or underwater objects; weather radar detects storm or wind speed; bat navigation uses echolocation with frequency shift; medical ultrasound measures blood-flow velocity."
+    }
+   ]
+  },
+  "22": {
+   "number": 22,
+   "title": "Fluid Properties and Elasticity Applications",
+   "tracker": {
+    "g1": [
+     "G1-F18"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-30T08:07:45+00:00",
+   "mcqs": [
+    {
+     "id": "physics-22-1",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Floating or sinking\n(b) Hydrometer/Lactometer\n(c) Separation of mixtures\n(d) Designing ships and submarines\n\nList-II\n(i) Measures relative density of liquids\n(ii) Average density controlled using ballast\n(iii) Centrifugation, in which denser particles settle\n(iv) Object floats if its density is less than the liquid density",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Floating or sinking depends on comparison of object and liquid densities. Hydrometers/lactometers measure relative density, centrifugation separates denser particles, and ballast controls the average density of ships and submarines."
+    },
+    {
+     "id": "physics-22-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Applications",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The density of the atmosphere decreases with height.",
+      "Centrifugation separates mixtures because denser particles settle.",
+      "An object floats when its density is greater than the density of the liquid.",
+      "A hydrometer measures the relative density of liquids."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is the density condition for floating. An object floats when its density is less than the liquid density."
+    },
+    {
+     "id": "physics-22-3",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): A hydraulic lift provides force multiplication.\nReason (R): In a hydraulic lift, the applied force is transmitted through the hydraulic system.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The hydraulic lift is an application of Pascal’s law and provides force multiplication. Transmission of applied force through the hydraulic system explains this operation."
+    },
+    {
+     "id": "physics-22-4",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Applications",
+     "question": "Consider the following statements:\nStatement A: Hydraulic brakes transmit pressure equally to all wheels.\nStatement B: In a syringe, pressure applied at one end is transmitted to the other end.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements describe applications of Pascal’s law. Hydraulic brakes transmit pressure equally to all wheels, while a syringe transmits pressure from one end to the other."
+    },
+    {
+     "id": "physics-22-5",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Applications",
+     "question": "Consider the following statements regarding applications of Archimedes’ principle:\nI. Ships and boats float because their weight equals the buoyant force.\nII. Submarines control buoyancy using ballast tanks.\nIII. Hot-air balloons and airships rise when buoyant force is greater than weight.\nIV. Life jackets are designed to increase buoyant force.",
+     "options": [
+      "I, II and III only",
+      "II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are given applications of Archimedes’ principle. They cover ships and boats, submarines, hot-air balloons or airships, and life jackets."
+    },
+    {
+     "id": "physics-22-6",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "The net upward force due to buoyancy is caused by:",
+     "options": [
+      "Higher hydrostatic pressure at greater depth",
+      "Lower pressure at the bottom than at the top",
+      "Equal pressure at the top and bottom of a submerged object",
+      "The downward direction of buoyant force"
+     ],
+     "answer": 0,
+     "explanation": "Pressure at the bottom of a submerged object is greater than pressure at the top. This pressure difference produces the net upward force."
+    },
+    {
+     "id": "physics-22-7",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match the buoyancy-related application with its role.\n\nList-I\n(a) Floating of ships\n(b) Swimming\n(c) Fish bladder\n(d) Hot-air balloon\n\nList-II\n(i) Helps a person stay afloat\n(ii) Controls buoyancy for depth regulation\n(iii) Weight equals buoyant force\n(iv) Heated air has lower density and produces a net upward force",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Ships float when weight equals buoyant force. Buoyancy helps in swimming, the fish bladder regulates depth, and heated air in a hot-air balloon produces a net upward force."
+    },
+    {
+     "id": "physics-22-8",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match the surface-tension example with its observation.\n\nList-I\n(a) Water strider walking on water\n(b) Small liquid drops\n(c) Needle or razor blade on water\n(d) Soap bubbles\n\nList-II\n(i) Surface tension supports its weight\n(ii) Two surfaces produce higher excess pressure\n(iii) Surface acts like an elastic membrane\n(iv) Spherical shape minimises surface area",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "A water surface acts like an elastic membrane for a water strider. Drops become spherical to minimise area, surface tension supports a needle or razor blade, and soap bubbles have two surfaces with higher excess pressure."
+    },
+    {
+     "id": "physics-22-9",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): Detergents and soaps improve cleaning.\nReason (R): They reduce surface tension.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes state that detergents and soaps reduce surface tension, resulting in better cleaning. Therefore, the reason correctly explains the assertion."
+    },
+    {
+     "id": "physics-22-10",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match the capillarity-related item with its observation.\n\nList-I\n(a) Water in a narrow glass tube\n(b) Mercury in a glass tube\n(c) Water in plants and trees\n(d) Ink absorbed by blotting paper\n\nList-II\n(i) Capillary action in pores\n(ii) Convex meniscus and depression\n(iii) Capillary action in xylem\n(iv) Concave meniscus and rise",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Water rises in a narrow tube with a concave meniscus, whereas mercury falls with a convex meniscus. Water movement in plants occurs through capillary action in xylem, and blotting paper absorbs ink through capillary action in its pores."
+    },
+    {
+     "id": "physics-22-11",
+     "format": "Count-Based",
+     "keyword": "Applications",
+     "question": "How many of the following are examples of capillary action?\n\n1. Oil rising in a lamp wick\n2. Moisture rising in walls\n3. Water rising in plants or trees\n4. Ink absorption by blotting paper",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed phenomena are attributed to capillary action: oil in a lamp wick, moisture in bricks or walls, water in xylem, and ink in the pores of blotting paper."
+    },
+    {
+     "id": "physics-22-12",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "Which of the following is associated with the slow flow of high-viscosity liquids?",
+     "options": [
+      "Steel cables and rubber bands",
+      "Air and heated air",
+      "Paint and honey",
+      "Water and mercury"
+     ],
+     "answer": 2,
+     "explanation": "The notes identify paint and honey as high-viscosity liquids that flow slowly."
+    },
+    {
+     "id": "physics-22-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Applications",
+     "question": "Consider the following statements about viscosity:\nI. Viscous oils reduce friction and wear in machines.\nII. Streamlined shapes reduce viscous drag in ships and aeroplanes.\nIII. Viscosity affects blood pressure and flow.\nIV. Raindrops and parachutes can reach constant speed as terminal velocity.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are applications or effects of viscosity listed in the sheet. Viscous oils provide lubrication, streamlined shapes reduce drag, viscosity affects blood flow, and terminal velocity is associated with raindrops and parachutes."
+    },
+    {
+     "id": "physics-22-14",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match the elasticity-related application with the description.\n\nList-I\n(a) Springs and shock absorbers\n(b) Rubber bands and tyres\n(c) Cranes and lifting machines\n(d) Musical instruments\n\nList-II\n(i) Strings under tension\n(ii) High elastic limit and resilience\n(iii) Store and release elastic energy\n(iv) Steel cables with high Young’s modulus",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Springs and shock absorbers store and release elastic energy. Rubber bands and tyres require elastic limit and resilience, cranes use steel cables with high Young’s modulus, and musical instruments use strings under tension."
+    },
+    {
+     "id": "physics-22-15",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): Hydraulic systems use liquids for force transmission.\nReason (R): Liquids have low compressibility.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Hydraulic systems use liquids for force transmission because liquids have low compressibility. This is an application of the contrast between incompressibility of liquids and compressibility of gases."
+    },
+    {
+     "id": "physics-22-16",
+     "format": "List-Matching",
+     "keyword": "Applications",
+     "question": "Match the compressibility-related application with the relevant description.\n\nList-I\n(a) Submarine hulls\n(b) Sound propagation\n(c) Pneumatic shock absorbers\n(d) Bulk modulus applications\n\nList-II\n(i) Speed of sound depends on compressibility of the medium\n(ii) Air compressibility provides cushioning\n(iii) Hulls must withstand high pressure using low-compressibility materials\n(iv) Incompressibility of liquids contrasted with compressibility of gases",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Submarine hulls require low-compressibility materials to withstand high pressure. Sound speed depends on medium compressibility, pneumatic shock absorbers use compressible air for cushioning, and bulk modulus applications compare liquids and gases."
+    },
+    {
+     "id": "physics-22-17",
+     "format": "Count-Based",
+     "keyword": "Applications",
+     "question": "How many of the following are listed as applications of Archimedes’ principle?\n\n1. Ships and boats\n2. Submarines\n3. Hot-air balloons and airships\n4. Hydrometers and lactometers\n5. Designing life jackets",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five are listed under applications of Archimedes’ principle: ships and boats, submarines, hot-air balloons or airships, hydrometers, lactometers, and life jackets."
+    },
+    {
+     "id": "physics-22-18",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "In which direction does buoyant force act?",
+     "options": [
+      "Horizontally through the centre of buoyancy",
+      "Vertically upward through the centre of buoyancy",
+      "Along the surface of the liquid",
+      "Vertically downward through the centre of gravity"
+     ],
+     "answer": 1,
+     "explanation": "Buoyant force always acts vertically upward through the centre of buoyancy."
+    },
+    {
+     "id": "physics-22-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Applications",
+     "question": "Consider the following statements:\nStatement A: Waterproofing of fabrics increases the contact angle.\nStatement B: The contact angle depends on surface tension.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are given under surface-tension applications and observations. Waterproofing increases contact angle, and contact angle depends on surface tension."
+    },
+    {
+     "id": "physics-22-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Applications",
+     "question": "Consider the following statements about surface tension and its applications:\nI. Capillary action enables water to rise against gravity in plants.\nII. Lung surfactants reduce surface tension in alveoli.\nIII. Molten metals can form spherical shapes in space or in powder metallurgy.\nIV. Formation of drops is used in medicine droppers and ink pens.",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are listed applications of capillary action or surface tension. They include plant water rise, lung surfactants, spherical molten metals, and drop formation in droppers and ink pens."
+    },
+    {
+     "id": "physics-22-21",
+     "format": "Direct Recall",
+     "keyword": "Density → Application",
+     "question": "What happens to the density of atmospheric layers with increasing height?",
+     "options": [
+      "It decreases",
+      "It first increases and then decreases",
+      "It remains constant",
+      "It increases"
+     ],
+     "answer": 0,
+     "explanation": "The density of atmospheric layers decreases with height."
+    },
+    {
+     "id": "physics-22-22",
+     "format": "Direct Recall",
+     "keyword": "Pascal’s Law → Hydraulic Jack",
+     "question": "A hydraulic jack is primarily used for:",
+     "options": [
+      "Reducing surface tension",
+      "Lifting heavy vehicles",
+      "Measuring the density of liquids",
+      "Measuring blood pressure"
+     ],
+     "answer": 1,
+     "explanation": "A hydraulic jack is used for lifting heavy vehicles."
+    },
+    {
+     "id": "physics-22-23",
+     "format": "List-Matching",
+     "keyword": "Pascal’s Law → Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Hydraulic jack\n(b) Excavators and bulldozers\n(c) Hydraulic press\n(d) Hydraulic brakes\n\nList-II\n(i) Pressure transmitted equally to all wheels\n(ii) Force multiplication\n(iii) Lifting heavy vehicles\n(iv) Force amplification\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: hydraulic jack—lifting heavy vehicles; excavators and bulldozers—force amplification; hydraulic press—force multiplication; hydraulic brakes—equal pressure transmission to all wheels."
+    },
+    {
+     "id": "physics-22-24",
+     "format": "Direct Recall",
+     "keyword": "Archimedes Principle → Lactometer",
+     "question": "Which instrument is used to check the purity of milk?",
+     "options": [
+      "Lactometer",
+      "Hydrometer",
+      "Barometer",
+      "Manometer"
+     ],
+     "answer": 0,
+     "explanation": "A lactometer checks the purity of milk."
+    },
+    {
+     "id": "physics-22-25",
+     "format": "Assertion-Reason",
+     "keyword": "Archimedes Principle → Life Jackets",
+     "question": "Assertion (A): Life jackets help a person remain afloat.\nReason (R): Life jackets are designed to increase buoyant force.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Increasing buoyant force enables a life jacket to help a person remain afloat."
+    },
+    {
+     "id": "physics-22-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Archimedes Principle → Instruments and Applications",
+     "question": "Consider the following statements:\n\nI. A hydrometer measures the density of liquids.\nII. A lactometer checks the purity of milk.\nIII. Life jackets are designed to increase buoyant force.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct applications related to Archimedes’ principle."
+    },
+    {
+     "id": "physics-22-27",
+     "format": "Direct Recall",
+     "keyword": "Surface Tension → Soap Bubbles",
+     "question": "Why do soap bubbles have higher excess pressure?",
+     "options": [
+      "Their contact angle is always zero.",
+      "They have two surfaces.",
+      "They have no surface tension.",
+      "They contain only one surface."
+     ],
+     "answer": 1,
+     "explanation": "A soap bubble has two surfaces, resulting in higher excess pressure."
+    },
+    {
+     "id": "physics-22-28",
+     "format": "Direct Recall",
+     "keyword": "Capillarity → Mercury",
+     "question": "What type of meniscus is formed by mercury in a glass tube?",
+     "options": [
+      "Convex meniscus, with a depression",
+      "Spherical meniscus, with a rise",
+      "Concave meniscus, with a rise",
+      "Flat meniscus, with no change"
+     ],
+     "answer": 0,
+     "explanation": "Mercury forms a convex meniscus and depresses in a glass tube."
+    },
+    {
+     "id": "physics-22-29",
+     "format": "List-Matching",
+     "keyword": "Viscosity → Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Blood flow in the body\n(b) Hydraulic shock absorbers\n(c) Paint and honey\n(d) Terminal velocity\n\nList-II\n(i) Viscous damping\n(ii) Viscosity affects blood pressure and flow\n(iii) High-viscosity liquids flow slowly\n(iv) Raindrops and parachutes reach constant speed\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are blood flow—effect on blood pressure and flow; hydraulic shock absorbers—viscous damping; paint and honey—slow flow; terminal velocity—constant speed of raindrops and parachutes."
+    },
+    {
+     "id": "physics-22-30",
+     "format": "Direct Recall",
+     "keyword": "Viscosity → Blood Flow",
+     "question": "In the human body, viscosity affects:",
+     "options": [
+      "Blood pressure and flow",
+      "The contact angle of waterproof fabrics",
+      "The expansion gaps in railway tracks",
+      "The density of atmospheric layers"
+     ],
+     "answer": 0,
+     "explanation": "The viscosity of blood affects blood pressure and flow."
+    },
+    {
+     "id": "physics-22-31",
+     "format": "Assertion-Reason",
+     "keyword": "Viscosity → Terminal Velocity",
+     "question": "Assertion (A): Raindrops and parachutes can reach terminal velocity.\nReason (R): At terminal velocity, the object reaches constant speed.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Terminal velocity is the constant speed reached by raindrops and parachutes."
+    },
+    {
+     "id": "physics-22-32",
+     "format": "Count-Based",
+     "keyword": "Viscosity → Applications",
+     "question": "How many of the following are applications or effects of viscosity?\n\n1. Viscous damping in hydraulic shock absorbers\n2. Effect on blood pressure and flow\n3. Constant speed reached by raindrops and parachutes\n4. High-viscosity liquids flowing slowly",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are listed applications or effects of viscosity."
+    },
+    {
+     "id": "physics-22-33",
+     "format": "Direct Recall",
+     "keyword": "Elasticity → Bridges and Buildings",
+     "question": "Materials used in bridges and buildings are selected for:",
+     "options": [
+      "Low buoyant force",
+      "High elasticity or strength",
+      "High compressibility only",
+      "High surface tension only"
+     ],
+     "answer": 1,
+     "explanation": "Materials for bridges and buildings are chosen for high elasticity or strength."
+    },
+    {
+     "id": "physics-22-34",
+     "format": "Direct Recall",
+     "keyword": "Elasticity → Musical Instruments",
+     "question": "The elastic property used in the strings of musical instruments is associated with strings:",
+     "options": [
+      "Filled with liquid",
+      "Under no stress",
+      "Under tension",
+      "Placed in a vacuum"
+     ],
+     "answer": 2,
+     "explanation": "Musical instruments use strings under tension, relying on elastic properties."
+    },
+    {
+     "id": "physics-22-35",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Elasticity → Railway Tracks",
+     "question": "Consider the following statements:\nStatement A: Expansion gaps are provided in railway tracks to handle thermal stress.\nStatement B: Rubber bands and tyres have a high elastic limit and resilience.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true applications of elasticity."
+    },
+    {
+     "id": "physics-22-36",
+     "format": "List-Matching",
+     "keyword": "Elasticity → Applications",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Bridges and buildings\n(b) Musical instruments\n(c) Railway tracks\n(d) Rubber bands and tyres\n\nList-II\n(i) Strings under tension\n(ii) Expansion gaps for thermal stress\n(iii) High elastic limit and resilience\n(iv) Materials with high elasticity or strength\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are bridges and buildings—high elasticity or strength; musical instruments—strings under tension; railway tracks—expansion gaps; rubber bands and tyres—high elastic limit and resilience."
+    },
+    {
+     "id": "physics-22-37",
+     "format": "Direct Recall",
+     "keyword": "Compressibility → Gas Storage",
+     "question": "Gas storage cylinders are designed to store:",
+     "options": [
+      "Liquids with zero density",
+      "Materials with no elasticity",
+      "High-pressure gases",
+      "Only incompressible liquids"
+     ],
+     "answer": 2,
+     "explanation": "Gas storage cylinders are used for high-pressure gases."
+    },
+    {
+     "id": "physics-22-38",
+     "format": "Assertion-Reason",
+     "keyword": "Compressibility → Sound Propagation",
+     "question": "Assertion (A): The speed of sound depends on the compressibility of the medium.\nReason (R): Compressibility is a property relevant to sound propagation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The notes directly relate the speed of sound to the compressibility of the medium."
+    },
+    {
+     "id": "physics-22-39",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Compressibility → Bulk Modulus",
+     "question": "Consider the following statements:\n\nI. Hydraulic systems use liquids because liquids have low compressibility.\nII. Pneumatic shock absorbers use air compressibility for cushioning.\nIII. Bulk modulus applications involve the incompressibility of liquids and compressibility of gases.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements correctly describe applications of compressibility and bulk modulus."
+    },
+    {
+     "id": "physics-22-40",
+     "format": "Direct Recall",
+     "keyword": "Density → Application",
+     "question": "Which process is used for the separation of mixtures because denser particles settle?",
+     "options": [
+      "Ballast control",
+      "Capillary action",
+      "Centrifugation",
+      "Viscous damping"
+     ],
+     "answer": 2,
+     "explanation": "Centrifugation separates mixtures as denser particles settle."
+    },
+    {
+     "id": "physics-22-41",
+     "format": "Assertion-Reason",
+     "keyword": "Surface Tension → Application",
+     "question": "Assertion (A): Lung surfactants are important in the alveoli.\nReason (R): Lung surfactants reduce surface tension in the alveoli.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Lung surfactants reduce surface tension in the alveoli, which explains their importance there."
+    },
+    {
+     "id": "physics-22-42",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Elasticity → Young’s Modulus",
+     "question": "Consider the following statements:\nStatement A: Steel cables used in cranes and lifting machines have high Young’s modulus.\nStatement B: Molten metals acquire a spherical shape in space and in powder metallurgy.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Cranes and lifting machines use steel cables with high Young’s modulus, while molten metals form spherical shapes in space and in powder metallurgy."
+    }
+   ]
+  },
+  "23": {
+   "number": 23,
+   "title": "Gravity, Weightlessness and Satellite Orbits",
+   "tracker": {
+    "g1": [
+     "G1-F18",
+     "G1-F20"
+    ],
+    "g2": []
+   },
+   "model": "gpt-5.6-luna",
+   "generated_at": "2026-09-30T08:07:27+00:00",
+   "mcqs": [
+    {
+     "id": "physics-23-1",
+     "format": "Direct Recall",
+     "keyword": "Gravity → Effect",
+     "question": "Which of the following correctly describes weight in relation to gravity?",
+     "options": [
+      "The differential gravitational pull of the Moon and Sun",
+      "The force with which Earth attracts a body",
+      "The acceleration of a freely falling body",
+      "The force that keeps planets in orbit"
+     ],
+     "answer": 1,
+     "explanation": "Weight is the force with which Earth attracts a body."
+    },
+    {
+     "id": "physics-23-2",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Gravity → Effect",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Free fall refers to the acceleration of a freely falling body.",
+      "Tides are caused by the differential gravitational pull of the Moon and Sun.",
+      "The shape of Earth is perfectly spherical because of rotation and gravity.",
+      "Orbital motion keeps planets and satellites in orbit."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is 'perfectly spherical'. Earth is slightly oblate, with a bulge at the equator, due to rotation and gravity."
+    },
+    {
+     "id": "physics-23-3",
+     "format": "Direct Recall",
+     "keyword": "Gravity → Effect",
+     "question": "Which effect of gravity helps prevent the atmosphere from escaping?",
+     "options": [
+      "Tides",
+      "Orbital motion",
+      "Free fall",
+      "Atmosphere retention"
+     ],
+     "answer": 3,
+     "explanation": "Gravity prevents the atmosphere from escaping, an effect described as atmosphere retention."
+    },
+    {
+     "id": "physics-23-4",
+     "format": "Assertion-Reason",
+     "keyword": "Gravity → Acceleration",
+     "question": "Assertion (A): In a vacuum, all bodies fall with the same acceleration.\nReason (R): Free-fall acceleration is independent of mass.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Since free-fall acceleration is independent of mass, all bodies fall with the same acceleration in a vacuum."
+    },
+    {
+     "id": "physics-23-5",
+     "format": "Direct Recall",
+     "keyword": "Gravity → Acceleration",
+     "question": "The acceleration due to gravity is always directed:",
+     "options": [
+      "Away from the centre of Earth",
+      "Towards the equator",
+      "Parallel to the surface of Earth",
+      "Towards the centre of Earth"
+     ],
+     "answer": 3,
+     "explanation": "The direction of acceleration due to gravity is always towards the centre of Earth."
+    },
+    {
+     "id": "physics-23-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "g → Variation",
+     "question": "Consider the following statements:\nI. The value of g is maximum at the poles and minimum at the equator.\nII. The value of g decreases with height.\nIII. The value of g increases with depth.\nIV. Rotation of Earth slightly reduces g.",
+     "options": [
+      "I and II only",
+      "I, II and IV only",
+      "II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "Statements I, II and IV are correct. The value of g decreases with depth, so statement III is incorrect."
+    },
+    {
+     "id": "physics-23-7",
+     "format": "List-Matching",
+     "keyword": "g → Variation",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Latitude\n b. Altitude\n c. Depth\n d. Rotation of Earth\n\nList-II\n i. g decreases with height\n ii. g is slightly reduced by centrifugal effect\n iii. g is maximum at poles and minimum at equator\n iv. g decreases below the surface",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are latitude–iii, altitude–i, depth–iv and rotation of Earth–ii."
+    },
+    {
+     "id": "physics-23-8",
+     "format": "Direct Recall",
+     "keyword": "Weight → Mass",
+     "question": "Which equation expresses the relation between weight W, mass m and acceleration due to gravity g?",
+     "options": [
+      "W = m/g",
+      "W = m + g",
+      "W = g/m",
+      "W = mg"
+     ],
+     "answer": 3,
+     "explanation": "Weight is given by W = mg."
+    },
+    {
+     "id": "physics-23-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Weight → Mass",
+     "question": "Consider the following statements:\nStatement A: Mass is a scalar and remains constant.\nStatement B: Weight is a vector and depends on location.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Mass is the scalar amount of matter or inertia and is constant, whereas weight is a location-dependent vector force."
+    },
+    {
+     "id": "physics-23-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Weight → Location",
+     "question": "Consider the following statements:\nStatement A: Weight on the Moon is approximately one-sixth of weight on Earth.\nStatement B: Weight decreases with both height above Earth’s surface and depth below Earth’s surface.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: lunar weight is approximately one-sixth of Earth weight, and weight decreases with height and depth."
+    },
+    {
+     "id": "physics-23-11",
+     "format": "Assertion-Reason",
+     "keyword": "Weight → Maximum",
+     "question": "Assertion (A): A body weighs more at the poles than at the equator.\nReason (R): The poles are closer to Earth’s centre and have zero centrifugal force.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the smaller distance from Earth’s centre together with zero centrifugal force explains the greater polar weight."
+    },
+    {
+     "id": "physics-23-12",
+     "format": "Direct Recall",
+     "keyword": "Weight → Minimum",
+     "question": "At which location is g equal to zero and, consequently, weight is zero?",
+     "options": [
+      "At a height of approximately 400 km",
+      "At the poles",
+      "At the equator",
+      "At the centre of Earth"
+     ],
+     "answer": 3,
+     "explanation": "At the centre of Earth, g = 0 and therefore weight is zero."
+    },
+    {
+     "id": "physics-23-13",
+     "format": "Count-Based",
+     "keyword": "Weight → Minimum",
+     "question": "How many of the following situations are associated with weight approaching or becoming zero?\n1. Centre of Earth\n2. Very large height\n3. Inside a freely falling elevator\n4. On the poles of Earth",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The centre of Earth, very large height, and a freely falling elevator are associated with zero or approaching-zero weight. The poles have maximum weight on Earth’s surface."
+    },
+    {
+     "id": "physics-23-14",
+     "format": "Assertion-Reason",
+     "keyword": "Weightlessness → Cause",
+     "question": "Assertion (A): Astronauts in an orbiting satellite experience apparent weightlessness.\nReason (R): The satellite and astronaut both accelerate towards Earth with the same acceleration due to gravity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Equal gravitational acceleration of the satellite and astronaut produces apparent weightlessness."
+    },
+    {
+     "id": "physics-23-15",
+     "format": "List-Matching",
+     "keyword": "Weightlessness → Cause",
+     "question": "Match the cause of weightlessness in List-I with its explanation in List-II.\n\nList-I\n a. Free fall\n b. Orbiting satellite\n c. Centre of Earth\n d. Effective gravity zero\n\nList-II\n i. True g = 0\n ii. Normal force becomes zero\n iii. Apparent weight N = 0\n iv. Satellite and astronaut accelerate towards Earth with the same g",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are free fall–ii, orbiting satellite–iv, centre of Earth–i and effective gravity zero–iii."
+    },
+    {
+     "id": "physics-23-16",
+     "format": "Direct Recall",
+     "keyword": "Weightlessness → Application",
+     "question": "Which activity uses aircraft parabolic flights for weightlessness training?",
+     "options": [
+      "Zero-g training",
+      "Satellite instrumentation",
+      "Crystal growth experiments",
+      "Space station training"
+     ],
+     "answer": 0,
+     "explanation": "Zero-g training is conducted through aircraft parabolic flights."
+    },
+    {
+     "id": "physics-23-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Weightlessness → Application",
+     "question": "Consider the following statements:\nI. Astronauts in space stations experience continuous free fall.\nII. Microgravity experiments study fluid behaviour, crystal growth and human physiology.\nIII. Satellite instruments are designed for a weightless environment.",
+     "options": [
+      "I and II only",
+      "I only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct applications or consequences of weightlessness and microgravity."
+    },
+    {
+     "id": "physics-23-18",
+     "format": "Direct Recall",
+     "keyword": "Satellite → Orbit",
+     "question": "What is the stated altitude range of Low Earth Orbit (LEO)?",
+     "options": [
+      "Only 24 km",
+      "Approximately 4000–6000 km",
+      "160–2000 km",
+      "Approximately 36000 km"
+     ],
+     "answer": 2,
+     "explanation": "Low Earth Orbit is described as extending from 160 to 2000 km; the ISS is approximately 400 km above Earth."
+    },
+    {
+     "id": "physics-23-19",
+     "format": "List-Matching",
+     "keyword": "Satellite → Orbit",
+     "question": "Match each orbit type with its description.\n\nList-I\n a. Low Earth Orbit\n b. Geostationary Orbit\n c. Polar Orbit\n d. Elliptical Orbit\n\nList-II\n i. Passes over the poles\n ii. Apogee and perigee are different\n iii. 160–2000 km altitude\n iv. Approximately 36000 km above the equator with a 24-hour period",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are LEO–iii, geostationary orbit–iv, polar orbit–i and elliptical orbit–ii."
+    },
+    {
+     "id": "physics-23-20",
+     "format": "Assertion-Reason",
+     "keyword": "Satellite → Orbit",
+     "question": "Assertion (A): A circular orbit is possible when centripetal force equals gravitational force.\nReason (R): An elliptical orbit has different apogee and perigee distances.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the different apogee and perigee of an elliptical orbit does not explain the condition for a circular orbit."
+    },
+    {
+     "id": "physics-23-21",
+     "format": "List-Matching",
+     "keyword": "Effect",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Weight\n b. Orbital motion\n c. Tides\n d. Atmosphere retention\n\nList-II\n i. Prevents atmosphere from escaping\n ii. Keeps planets and satellites in orbit\n iii. Force with which Earth attracts a body\n iv. Caused by differential gravitational pull of the Moon and Sun",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Weight is the force with which Earth attracts a body; orbital motion keeps planets and satellites in orbit; tides result from differential gravitational pull of the Moon and Sun; and gravity prevents the atmosphere from escaping."
+    },
+    {
+     "id": "physics-23-22",
+     "format": "Assertion-Reason",
+     "keyword": "Shape of Earth",
+     "question": "Assertion (A): The Earth is slightly oblate, with a bulge at the equator.\nReason (R): The shape of the Earth is related to the combined effects of rotation and gravity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The Earth is slightly oblate, meaning it has an equatorial bulge. This shape is attributed to the combined effects of rotation and gravity."
+    },
+    {
+     "id": "physics-23-23",
+     "format": "Direct Recall",
+     "keyword": "Satellite",
+     "question": "The International Space Station (ISS) is located at an altitude of approximately:",
+     "options": [
+      "36000 km",
+      "400 km",
+      "2000 km",
+      "160 km"
+     ],
+     "answer": 1,
+     "explanation": "The notes specify that the ISS is located at approximately 400 km, within Low Earth Orbit."
+    },
+    {
+     "id": "physics-23-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Weightlessness",
+     "question": "Consider the following statements:\nStatement A: In far space, weight approaches zero.\nStatement B: Satellites have instruments designed for a weightless environment.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "At a very large distance from Earth, g approaches zero and weight approaches zero. The notes also state that satellite instruments are designed for a weightless environment."
+    },
+    {
+     "id": "physics-23-25",
+     "format": "Direct Recall",
+     "keyword": "Weight → Location",
+     "question": "At which location is weight described as maximum under normal conditions?",
+     "options": [
+      "The Earth’s surface",
+      "Far space",
+      "The equator only",
+      "The centre of the Earth"
+     ],
+     "answer": 0,
+     "explanation": "Weight at the Earth’s surface is described as maximum under normal conditions. At the centre of Earth and in far space, weight approaches or becomes zero."
+    },
+    {
+     "id": "physics-23-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Weight → Mass",
+     "question": "Consider the following statements:\nI. Weight is measured in Newton (N).\nII. Mass is measured in kilogram (kg).\nIII. Weight can become zero in weightlessness, while mass remains present.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: Newton is the unit of weight, kilogram is the unit of mass, and weight may become zero in weightlessness while mass remains."
+    },
+    {
+     "id": "physics-23-27",
+     "format": "Count-Based",
+     "keyword": "Weight → Location",
+     "question": "How many of the following locations are associated with weight decreasing from its normal maximum value?\n\n1. Height above Earth’s surface\n2. Depth below Earth’s surface\n3. The Moon\n4. Far space",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Weight decreases with height and depth, is approximately one-sixth of Earth weight on the Moon, and approaches zero in far space. Thus, all four locations or conditions are associated with reduced weight."
+    },
+    {
+     "id": "physics-23-28",
+     "format": "Direct Recall",
+     "keyword": "Applications",
+     "question": "Which of the following is studied through scientific experiments conducted in microgravity?",
+     "options": [
+      "Human physiology",
+      "Centrifugal reduction of gravity",
+      "Atmospheric retention",
+      "Differential gravitational pull of the Moon and Sun"
+     ],
+     "answer": 0,
+     "explanation": "Scientific experiments in microgravity study human physiology, along with fluid behaviour and crystal growth."
+    }
+   ]
   }
  }
 }

@@ -51761,7 +51761,7 @@
     ]
    },
    "model": "gpt-5.6-luna",
-   "generated_at": "2026-09-30T08:03:24+00:00",
+   "generated_at": "2026-09-30T08:04:08+00:00",
    "mcqs": [
     {
      "id": "indian-history-142-1",
@@ -52028,6 +52028,188 @@
      ],
      "answer": 3,
      "explanation": "Yaudheya copper coins depict six-headed Kartikeya with a peacock."
+    },
+    {
+     "id": "indian-history-142-20",
+     "format": "Direct Recall",
+     "keyword": "Empire – Period",
+     "question": "The Kushanas ruled approximately during which period?",
+     "options": [
+      "4th–6th century CE",
+      "1st–3rd century CE",
+      "1st century BCE–1st century CE",
+      "3rd–5th century CE"
+     ],
+     "answer": 1,
+     "explanation": "The Kushanas are placed in the 1st–3rd century CE."
+    },
+    {
+     "id": "indian-history-142-21",
+     "format": "Chronological Ordering",
+     "keyword": "Chronology",
+     "question": "Arrange the following in chronological order:\nA. Greeks\nB. Sakas\nC. Kushanas",
+     "options": [
+      "B, A, C",
+      "A, B, C",
+      "C, B, A",
+      "A, C, B"
+     ],
+     "answer": 1,
+     "explanation": "The sequence given is Greeks (326 BCE), Sakas (1st BCE), and Kushanas (1st CE)."
+    },
+    {
+     "id": "indian-history-142-22",
+     "format": "Direct Recall",
+     "keyword": "Coins",
+     "question": "Which Kushana ruler circulated copper coins?",
+     "options": [
+      "Kujula Kadphises",
+      "Kanishka I",
+      "Vima Kadphises",
+      "Vasumitra"
+     ],
+     "answer": 0,
+     "explanation": "Kujula Kadphises is associated with the circulation of copper coins."
+    },
+    {
+     "id": "indian-history-142-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Coins",
+     "question": "Consider the following statements:\nStatement A: Buddha is depicted on the coins of Kanishka.\nStatement B: Copper coins were circulated by Kujula Kadphises.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet states that Buddha appears on Kanishka’s coins and that Kujula Kadphises circulated copper coins."
+    },
+    {
+     "id": "indian-history-142-24",
+     "format": "Assertion-Reason",
+     "keyword": "Gandhara School",
+     "question": "Assertion (A): Kanishka encouraged and protected Gandhara art.\nReason (R): The Gandhara School developed and flourished during the Kushana period.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the flourishing of the Gandhara School does not explain Kanishka’s stated patronage of the art."
+    },
+    {
+     "id": "indian-history-142-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Literary work",
+     "question": "Consider the following statements about Ashvaghosha’s works:\nI. Saundarananda was attributed to Ashvaghosha.\nII. Buddhacharita was attributed to Ashvaghosha.\nIII. Sariputrapakaran was attributed to Ashvaghosha.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "Saundarananda, Buddhacharita and Sariputrapakaran are all listed as works of Ashvaghosha."
+    },
+    {
+     "id": "indian-history-142-26",
+     "format": "Direct Recall",
+     "keyword": "4th Buddhist Council – Period",
+     "question": "The Fourth Buddhist Council associated with Kanishka is placed in which period?",
+     "options": [
+      "1st century BCE",
+      "3rd century AD",
+      "2nd century BCE",
+      "1st century AD"
+     ],
+     "answer": 3,
+     "explanation": "The Fourth Buddhist Council is placed in the 1st century AD."
+    },
+    {
+     "id": "indian-history-142-27",
+     "format": "List-Matching",
+     "keyword": "Inscription",
+     "question": "Match List-I with List-II:\nList-I\n(a) Ashvaghosha\n(b) Rabatak inscription\n(c) Yaudheya coins\n(d) Kujula Kadphises\n\nList-II\n(i) Copper coins\n(ii) Found in Puranas and Ashtadhyayi\n(iii) Works include Saundarananda\n(iv) Associated with Kanishka",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Ashvaghosha is associated with Saundarananda; the Rabatak inscription with Kanishka; Yaudheya coins with evidence in the Puranas and Ashtadhyayi; and Kujula Kadphises with copper coins."
+    },
+    {
+     "id": "indian-history-142-28",
+     "format": "Direct Recall",
+     "keyword": "Inscription",
+     "question": "Which ruler is associated with the Rabatak inscription?",
+     "options": [
+      "Kanishka",
+      "Ashvaghosha",
+      "Kujula Kadphises",
+      "Vima Kadphises"
+     ],
+     "answer": 0,
+     "explanation": "The Rabatak inscription is associated with Kanishka."
+    },
+    {
+     "id": "indian-history-142-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Inscription",
+     "question": "Which of the following cities are mentioned in the Rabatak inscription?\nI. Saket\nII. Kaushambi\nIII. Pataliputra\nIV. Sri Champa",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The cities listed in connection with the Rabatak inscription are Saket, Kaushambi, Pataliputra and Sri Champa."
+    },
+    {
+     "id": "indian-history-142-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Yaudheya Coins",
+     "question": "Consider the following statements:\nStatement A: Yaudheya evidence is found in the Puranas.\nStatement B: Yaudheya evidence is found in the Ashtadhyayi.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet states that Yaudheya evidence is found in both the Puranas and the Ashtadhyayi."
+    },
+    {
+     "id": "indian-history-142-31",
+     "format": "Count-Based",
+     "keyword": "Manusmriti",
+     "question": "How many of the following groups were described in the Manusmriti as “Fallen Kshatriyas” when they did not follow priestly customs or local traditions?\n1. Shakas\n2. Kushans\n3. Hunas\n4. Pratiharas",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four groups—Shakas, Kushans, Hunas and Pratiharas—are listed as “Fallen Kshatriyas” in this context."
+    },
+    {
+     "id": "indian-history-142-32",
+     "format": "Direct Recall",
+     "keyword": "Empire – Period",
+     "question": "Which of the following correctly describes the ruling house and territorial extent of the Kushana Empire?",
+     "options": [
+      "It was ruled by the Kanva dynasty and remained confined to India",
+      "It was ruled by the Shunga dynasty and extended beyond India",
+      "It was ruled by the Maurya dynasty and remained confined to north-western India",
+      "It was ruled by the Kushana dynasty and extended beyond India"
+     ],
+     "answer": 3,
+     "explanation": "The notes identify the ruling house as the Kushana dynasty and state that the empire extended beyond India."
     }
    ]
   },
