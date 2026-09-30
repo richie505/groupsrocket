@@ -134,6 +134,7 @@ def main() -> None:
     ap.add_argument("--workers", type=int, default=4, help="parallel requests")
     ap.add_argument("--force", action="store_true", help="discard existing MCQs and regenerate from scratch")
     ap.add_argument("--limit", type=int, help="stop after this many sheets (for a trial run)")
+    ap.add_argument("--new-only", action="store_true", help="only sheets that have no MCQs yet")
     ap.add_argument(
         "--redo-notes-mentions",
         action="store_true",
@@ -173,6 +174,8 @@ def main() -> None:
                 if not done or not any(mentions_notes(q) for q in done["mcqs"]):
                     continue
                 redo = True
+            elif done and args.new_only:
+                continue
             elif done and not args.force and len(done["mcqs"]) >= question_count(sheet["text"], args.per_sheet) * 0.9:
                 continue  # already at target
             jobs.append((subj, slug, system, sheet, redo))
