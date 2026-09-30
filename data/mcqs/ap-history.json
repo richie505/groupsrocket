@@ -5662,7 +5662,10 @@
       "Copper coins"
      ],
      "answer": 3,
-     "explanation": "Karpanamulu are identified in the notes as Satavahana copper coins."
+     "explanation": "Karpanamulu are identified in the notes as Satavahana copper coins.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-history-14-2",
@@ -5676,7 +5679,13 @@
       "Coins of Pulomavi and Yagnasri indicate maritime trade."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the second site: the notes mention Nagarjuna Konda, not Amaravati."
+     "explanation": "The incorrect detail is the second site: the notes mention Nagarjuna Konda, not Amaravati.",
+     "facts": [
+      "F5",
+      "F7",
+      "F8",
+      "F4"
+     ]
     },
     {
      "id": "ap-history-14-3",
@@ -5690,7 +5699,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes, but the discovery of Roman coins does not directly explain the maritime-trade indication of the coins of Pulomavi and Yagnasri."
+     "explanation": "Both statements are given in the notes, but the discovery of Roman coins does not directly explain the maritime-trade indication of the coins of Pulomavi and Yagnasri.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-history-14-4",
@@ -5704,7 +5718,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Karpanamulu–Satavahana copper coins; Mada–Kakatiya gold coins; Nishkam, Tankam and Varaha–Kakatiya gold coins in currency; coins of Pulomavi and Yagnasri–maritime trade."
+     "explanation": "The correct pairs are: Karpanamulu–Satavahana copper coins; Mada–Kakatiya gold coins; Nishkam, Tankam and Varaha–Kakatiya gold coins in currency; coins of Pulomavi and Yagnasri–maritime trade.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F4"
+     ]
     },
     {
      "id": "ap-history-14-5",
@@ -5718,7 +5738,14 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I, III and IV agree with the notes. Statement II is incorrect because nickel was not used by the Satavahanas."
+     "explanation": "Statements I, III and IV agree with the notes. Statement II is incorrect because nickel was not used by the Satavahanas.",
+     "facts": [
+      "F1",
+      "F2",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-14-6",
@@ -5732,9 +5759,34 @@
       "Yagnasri of the Satavahana dynasty"
      ],
      "answer": 2,
-     "explanation": "The notes state that Santamula-I of the Ikshvaku dynasty issued crores of gold coins."
+     "explanation": "The notes state that Santamula-I of the Ikshvaku dynasty issued crores of gold coins.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "ap-history-14-7",
+     "format": "Direct Recall",
+     "keyword": "Coins",
+     "question": "Coins of Pulomavi and Yagnasri belonged to which dynasty?",
+     "options": [
+      "Roman",
+      "Kakatiya",
+      "Satavahana",
+      "Ikshvaku"
+     ],
+     "answer": 2,
+     "explanation": "The coins of Pulomavi and Yagnasri were Satavahana coins.",
+     "facts": [
+      "F3"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 9,
+    "covered": 9,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -12270,7 +12322,12 @@
       "1386"
      ],
      "answer": 1,
-     "explanation": "Rudramba/Rudramadevi ascended the throne after Ganapathi Deva in 1260."
+     "explanation": "Rudramba/Rudramadevi ascended the throne after Ganapathi Deva in 1260.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-history-29-2",
@@ -12284,7 +12341,16 @@
       "Pratapa Rudra succeeded Rudrama, his grandmother, in 1296."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘son’. The notes state that Durga Nripathi succeeded his father, Betha Raju II."
+     "explanation": "The incorrect detail is ‘son’. The notes state that Durga Nripathi succeeded his father, Betha Raju II.",
+     "facts": [
+      "F3",
+      "F4",
+      "F10",
+      "F11",
+      "F12",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-29-3",
@@ -12298,7 +12364,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes, but Rudramba’s succession after Ganapathi Deva does not explain Mahadeva’s succession after Rudra Deva."
+     "explanation": "Both statements are true according to the notes, but Rudramba’s succession after Ganapathi Deva does not explain Mahadeva’s succession after Rudra Deva.",
+     "facts": [
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-history-29-4",
@@ -12312,7 +12384,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes: Pratapa Rudra succeeded Rudrama in 1296, and Durga Nripathi succeeded his father Betha Raju II."
+     "explanation": "Both statements are supported by the notes: Pratapa Rudra succeeded Rudrama in 1296, and Durga Nripathi succeeded his father Betha Raju II.",
+     "facts": [
+      "F8",
+      "F9",
+      "F12"
+     ]
     },
     {
      "id": "ap-history-29-5",
@@ -12326,7 +12403,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Cloths–Kakatiya, Imports and Exports–Reddy, Haravilasam–Srinatha, and Kazipet inscription–Durga Nripathi."
+     "explanation": "The correct pairs are: Cloths–Kakatiya, Imports and Exports–Reddy, Haravilasam–Srinatha, and Kazipet inscription–Durga Nripathi.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "ap-history-29-6",
@@ -12340,7 +12423,10 @@
       "1158"
      ],
      "answer": 3,
-     "explanation": "Rudra Deva ascended the throne in 1158, after Praia Raju."
+     "explanation": "Rudra Deva ascended the throne in 1158, after Praia Raju.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "ap-history-29-7",
@@ -12354,7 +12440,11 @@
       "Kumaragiri Reddy"
      ],
      "answer": 2,
-     "explanation": "The succession table states that Mahadeva came after Rudra Deva in 1196."
+     "explanation": "The succession table states that Mahadeva came after Rudra Deva in 1196.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "ap-history-29-8",
@@ -12368,7 +12458,10 @@
       "Durga Nripathi"
      ],
      "answer": 2,
-     "explanation": "Kumaragiri Reddy succeeded Anavema Reddy in 1386."
+     "explanation": "Kumaragiri Reddy succeeded Anavema Reddy in 1386.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "ap-history-29-9",
@@ -12382,7 +12475,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Kazipet inscription mentions Durga Nripathi and records his succession after his father Betha Raju II."
+     "explanation": "Both statements are true. The Kazipet inscription mentions Durga Nripathi and records his succession after his father Betha Raju II.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "ap-history-29-10",
@@ -12396,7 +12493,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The table associates cloths with the Kakatiya dynasty and imports and exports with the Reddy dynasty."
+     "explanation": "The table associates cloths with the Kakatiya dynasty and imports and exports with the Reddy dynasty.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "ap-history-29-11",
@@ -12410,7 +12511,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Rudra Deva–ascended after Praia Raju, Mahadeva–succeeded Rudra Deva, Kumaragiri Reddy–succeeded Anavema Reddy, and Durga Nripathi–succeeded Betha Raju II."
+     "explanation": "The correct pairs are Rudra Deva–ascended after Praia Raju, Mahadeva–succeeded Rudra Deva, Kumaragiri Reddy–succeeded Anavema Reddy, and Durga Nripathi–succeeded Betha Raju II.",
+     "facts": [
+      "F2",
+      "F4",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "ap-history-29-12",
@@ -12424,7 +12531,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Cloths–Kakatiya, Imports and Exports–Reddy, Haravilasam–Srinatha, and Kazipet inscription–Durga Nripathi."
+     "explanation": "The correct pairs are Cloths–Kakatiya, Imports and Exports–Reddy, Haravilasam–Srinatha, and Kazipet inscription–Durga Nripathi.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "ap-history-29-13",
@@ -12438,7 +12551,13 @@
       "D, C, A, B"
      ],
      "answer": 3,
-     "explanation": "The years are Rudra Deva—1158, Mahadeva—1196, Rudramba—1260, and Kumaragiri Reddy—1386."
+     "explanation": "The years are Rudra Deva—1158, Mahadeva—1196, Rudramba—1260, and Kumaragiri Reddy—1386.",
+     "facts": [
+      "F1",
+      "F3",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-29-14",
@@ -12452,7 +12571,13 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. The year 1296 is given for Pratapa Rudra, while Durga Nripathi is described through his succession and the Kazipet inscription."
+     "explanation": "Statements I, II and III are correct. The year 1296 is given for Pratapa Rudra, while Durga Nripathi is described through his succession and the Kazipet inscription.",
+     "facts": [
+      "F1",
+      "F3",
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-29-15",
@@ -12466,7 +12591,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct according to the succession table."
+     "explanation": "All four associations are correct according to the succession table.",
+     "facts": [
+      "F1",
+      "F3",
+      "F6",
+      "F10"
+     ]
     },
     {
      "id": "ap-history-29-16",
@@ -12480,7 +12611,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Kumaragiri Reddy’s succession after Anavema Reddy in 1386 establishes his place in the Reddy succession listed."
+     "explanation": "Both statements are true. Kumaragiri Reddy’s succession after Anavema Reddy in 1386 establishes his place in the Reddy succession listed.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "ap-history-29-17",
@@ -12494,7 +12629,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly stated in the ruler and inscription details."
+     "explanation": "Both statements are directly stated in the ruler and inscription details.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "ap-history-29-18",
@@ -12508,7 +12647,10 @@
       "Rudra Deva"
      ],
      "answer": 0,
-     "explanation": "Haravilasam is described as being by Srinatha."
+     "explanation": "Haravilasam is described as being by Srinatha.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "ap-history-29-19",
@@ -12522,7 +12664,18 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Mahadeva succeeded Rudra Deva in 1196, not 1260."
+     "explanation": "Statements I, II and III are correct. Mahadeva succeeded Rudra Deva in 1196, not 1260.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "ap-history-29-20",
@@ -12536,9 +12689,17 @@
       "Rashtrakuta"
      ],
      "answer": 0,
-     "explanation": "The Kakatiya dynasty is identified as the chief exporter of cloths."
+     "explanation": "The Kakatiya dynasty is identified as the chief exporter of cloths.",
+     "facts": [
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,
@@ -12963,7 +13124,11 @@
       "Vengipuram"
      ],
      "answer": 2,
-     "explanation": "The table associates Brihatpalayana under Jayavarma with Koduru."
+     "explanation": "The table associates Brihatpalayana under Jayavarma with Koduru.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "ap-history-31-2",
@@ -12977,7 +13142,14 @@
       "Vijayapuri was the capital of the Ikshvaku kingdom."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “only capital.” Anamakonda/Ammakonda was the initial Kakatiya capital, followed later by Warangal/Orugallu."
+     "explanation": "The incorrect detail is “only capital.” Anamakonda/Ammakonda was the initial Kakatiya capital, followed later by Warangal/Orugallu.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "ap-history-31-3",
@@ -12991,7 +13163,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true in the table, but the capital of Vijayanagara after Tallikota does not explain the capital associated with Andhra State in 1953."
+     "explanation": "Both statements are true in the table, but the capital of Vijayanagara after Tallikota does not explain the capital associated with Andhra State in 1953.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "ap-history-31-4",
@@ -13005,7 +13181,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The table gives the Reddy sequence as Addanki under Prolaya Vema followed by Kondaveedu/Kondavidu under Anapota Reddy. It also identifies Penugonda as the Vijayanagara capital after Tallikota."
+     "explanation": "The table gives the Reddy sequence as Addanki under Prolaya Vema followed by Kondaveedu/Kondavidu under Anapota Reddy. It also identifies Penugonda as the Vijayanagara capital after Tallikota.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F16"
+     ]
     },
     {
      "id": "ap-history-31-5",
@@ -13019,7 +13201,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Satavahana–Paithan, Ikshvaku–Vijayapuri, Salankayana–Vengipuram and Musunuri–Rekapalli."
+     "explanation": "The correct pairs are Satavahana–Paithan, Ikshvaku–Vijayapuri, Salankayana–Vengipuram and Musunuri–Rekapalli.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F11"
+     ]
     },
     {
      "id": "ap-history-31-6",
@@ -13033,7 +13221,11 @@
       "Rekapalli"
      ],
      "answer": 2,
-     "explanation": "The Kakatiya dynasty initially had Anamakonda / Ammakonda as its capital."
+     "explanation": "The Kakatiya dynasty initially had Anamakonda / Ammakonda as its capital.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-history-31-7",
@@ -13047,7 +13239,13 @@
       "Vengipuram"
      ],
      "answer": 2,
-     "explanation": "The Kakatiya capital shifted from Anamakonda / Ammakonda to Warangal / Orugallu."
+     "explanation": "The Kakatiya capital shifted from Anamakonda / Ammakonda to Warangal / Orugallu.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-history-31-8",
@@ -13061,7 +13259,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly describe the sequence of Kakatiya capitals."
+     "explanation": "Both statements correctly describe the sequence of Kakatiya capitals.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-history-31-9",
@@ -13075,7 +13279,15 @@
       "Brihatpalayana under Jayavarma"
      ],
      "answer": 0,
-     "explanation": "Mahishmathi was associated with Anupa under Gautamiputra Satakarni."
+     "explanation": "Mahishmathi was associated with Anupa under Gautamiputra Satakarni.",
+     "facts": [
+      "F3",
+      "F12",
+      "F13",
+      "F14",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-history-31-10",
@@ -13089,7 +13301,13 @@
       "Koduru"
      ],
      "answer": 0,
-     "explanation": "Bodhan was the capital of the Assaka Janapada."
+     "explanation": "Bodhan was the capital of the Assaka Janapada.",
+     "facts": [
+      "F1",
+      "F2",
+      "F12",
+      "F14"
+     ]
     },
     {
      "id": "ap-history-31-11",
@@ -13103,7 +13321,15 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Kakatiya–Anamakonda / Ammakonda, Assaka Janapada–Bodhan, Anupa–Mahishmathi and Brihatpalayana–Koduru."
+     "explanation": "The correct pairs are Kakatiya–Anamakonda / Ammakonda, Assaka Janapada–Bodhan, Anupa–Mahishmathi and Brihatpalayana–Koduru.",
+     "facts": [
+      "F4",
+      "F5",
+      "F12",
+      "F14",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-history-31-12",
@@ -13117,7 +13343,14 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the dynasty-capital associations."
+     "explanation": "All three statements are correct according to the dynasty-capital associations.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F14"
+     ]
     },
     {
      "id": "ap-history-31-13",
@@ -13131,7 +13364,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the indicated Kakatiya capital sequence."
+     "explanation": "Both statements are true, and the reason directly explains the indicated Kakatiya capital sequence.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-history-31-14",
@@ -13145,7 +13384,15 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four associations are correct."
+     "explanation": "All four associations are correct.",
+     "facts": [
+      "F4",
+      "F5",
+      "F12",
+      "F14",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-history-31-15",
@@ -13159,7 +13406,14 @@
       "Satavahana — Paithan"
      ],
      "answer": 1,
-     "explanation": "Koduru was associated with the Brihatpalayana dynasty under Jayavarma."
+     "explanation": "Koduru was associated with the Brihatpalayana dynasty under Jayavarma.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "ap-history-31-16",
@@ -13173,7 +13427,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly reproduce the associations of Anupa and Assaka Janapada."
+     "explanation": "Both statements correctly reproduce the associations of Anupa and Assaka Janapada.",
+     "facts": [
+      "F14",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "ap-history-31-17",
@@ -13187,7 +13446,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three dynasty-capital associations are correct."
+     "explanation": "All three dynasty-capital associations are correct.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "ap-history-31-18",
@@ -13201,7 +13465,14 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Satavahana–Paithan, Ikshvaku–Vijayapuri, Salankayana–Vengipuram and Kakatiya–Warangal / Orugallu as later capital."
+     "explanation": "The correct pairs are Satavahana–Paithan, Ikshvaku–Vijayapuri, Salankayana–Vengipuram and Kakatiya–Warangal / Orugallu as later capital.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "ap-history-31-19",
@@ -13215,7 +13486,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the fact that Bodhan was the capital explains its association with the Assaka Janapada."
+     "explanation": "Both statements are true, and the fact that Bodhan was the capital explains its association with the Assaka Janapada.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "ap-history-31-20",
@@ -13229,9 +13503,22 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "Kurnool was associated with Andhra State in 1953, Penugonda with Vijayanagara after Tallikota, Mahishmathi with Anupa under Gautamiputra Satakarni, and Koduru with Brihatpalayana under Jayavarma."
+     "explanation": "Kurnool was associated with Andhra State in 1953, Penugonda with Vijayanagara after Tallikota, Mahishmathi with Anupa under Gautamiputra Satakarni, and Koduru with Brihatpalayana under Jayavarma.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "32": {
    "number": 32,
@@ -16555,8 +16842,30 @@
      "facts": [
       "F1"
      ]
+    },
+    {
+     "id": "ap-history-40-15",
+     "format": "Direct Recall",
+     "keyword": "University",
+     "question": "The first headquarters of Andhra University was located at:",
+     "options": [
+      "26 April 1926",
+      "Guntur",
+      "Vijayawada (Bezawada)",
+      "Tirupathi"
+     ],
+     "answer": 2,
+     "explanation": "The first headquarters of Andhra University was at Vijayawada, also known as Bezawada.",
+     "facts": [
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 14,
+    "covered": 14,
+    "audited": true
+   }
   },
   "41": {
    "number": 41,
@@ -17179,7 +17488,11 @@
       "Paithan → Vijayapuri"
      ],
      "answer": 2,
-     "explanation": "The notes state that the Reddy kingdom had Addanki as its capital initially and later Kondaveedu."
+     "explanation": "The notes state that the Reddy kingdom had Addanki as its capital initially and later Kondaveedu.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-history-43-2",
@@ -17193,7 +17506,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs in the notes are Satavahana–Paithan, Ikshvaku–Vijayapuri, Salankayana–Vengipuram and Musunuri–Rekapalli."
+     "explanation": "The correct pairs in the notes are Satavahana–Paithan, Ikshvaku–Vijayapuri, Salankayana–Vengipuram and Musunuri–Rekapalli.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F9"
+     ]
     },
     {
      "id": "ap-history-43-3",
@@ -17207,7 +17526,15 @@
       "The Brihatpalayana capital was Koduru."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the capital of Andhra State in 1953. The notes identify Kurnool, not Penugonda, as its capital."
+     "explanation": "The incorrect detail is the capital of Andhra State in 1953. The notes identify Kurnool, not Penugonda, as its capital.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F12",
+      "F14",
+      "F11"
+     ]
     },
     {
      "id": "ap-history-43-4",
@@ -17221,7 +17548,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes: Vijayanagara had Penugonda as its capital after Tallikota, and Anupa under Gautamiputra had Mahishmathi as its capital."
+     "explanation": "Both statements are directly supported by the notes: Vijayanagara had Penugonda as its capital after Tallikota, and Anupa under Gautamiputra had Mahishmathi as its capital.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "ap-history-43-5",
@@ -17235,7 +17567,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct according to the notes: Musunuri–Rekapalli, Andhra State (1953)–Kurnool and Assaka Janapada–Bodhan."
+     "explanation": "All three statements are correct according to the notes: Musunuri–Rekapalli, Andhra State (1953)–Kurnool and Assaka Janapada–Bodhan.",
+     "facts": [
+      "F9",
+      "F14",
+      "F12"
+     ]
     },
     {
      "id": "ap-history-43-6",
@@ -17249,9 +17586,39 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The Kakatiya capital was Anamakonda initially and later Warangal or Orugallu. Koduru was associated with Brihatpalayana (Jayavarma), while Bodhan was the capital of the Assaka Janapada."
+     "explanation": "The Kakatiya capital was Anamakonda initially and later Warangal or Orugallu. Koduru was associated with Brihatpalayana (Jayavarma), while Bodhan was the capital of the Assaka Janapada.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "ap-history-43-7",
+     "format": "Direct Recall",
+     "keyword": "Event – month/date/year",
+     "question": "The Andhra State was established in which year?",
+     "options": [
+      "Mahishmathi",
+      "1953",
+      "Penugonda",
+      "Kurnool"
+     ],
+     "answer": 1,
+     "explanation": "The Andhra State was established in 1953. Kurnool, Penugonda and Mahishmathi are places associated with capitals in the given historical list, not the establishment year.",
+     "facts": [
+      "F13"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "44": {
    "number": 44,

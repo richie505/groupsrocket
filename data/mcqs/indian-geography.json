@@ -8686,7 +8686,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "Rice is a Kharif crop, Gram is a Rabi crop, and Watermelon is a Zaid crop. Sunflower is also listed under Zaid; therefore the matching option uses the repeated Zaid entry represented as List-II (iv)."
+     "explanation": "Rice is a Kharif crop, Gram is a Rabi crop, and Watermelon is a Zaid crop. Sunflower is also listed under Zaid; therefore the matching option uses the repeated Zaid entry represented as List-II (iv).",
+     "facts": [
+      "F1",
+      "F5",
+      "F3",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-24-2",
@@ -8700,7 +8706,13 @@
       "Cotton is a Kharif crop."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Jowar is a Rabi crop. The notes list Jowar under Kharif."
+     "explanation": "The incorrect statement is that Jowar is a Rabi crop. The notes list Jowar under Kharif.",
+     "facts": [
+      "F2",
+      "F21",
+      "F4",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-24-3",
@@ -8714,7 +8726,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true because Sugarcane and Jute are listed under Kharif. However, the listing of Jute does not explain the seasonal classification of Sugarcane."
+     "explanation": "Both statements are true because Sugarcane and Jute are listed under Kharif. However, the listing of Jute does not explain the seasonal classification of Sugarcane.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-24-4",
@@ -8728,7 +8744,13 @@
       "I and IV only"
      ],
      "answer": 1,
-     "explanation": "Peas are listed under Rabi, Bitter gourd under Zaid, and Soybean under Kharif. Linseed is listed under Rabi, not Zaid."
+     "explanation": "Peas are listed under Rabi, Bitter gourd under Zaid, and Soybean under Kharif. Linseed is listed under Rabi, not Zaid.",
+     "facts": [
+      "F8",
+      "F18",
+      "F19",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-24-5",
@@ -8742,9 +8764,94 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Gram, Mustard and Lathyrus are listed under Rabi. Cucumber is listed under Zaid, so the total is three."
+     "explanation": "Gram, Mustard and Lathyrus are listed under Rabi. Cucumber is listed under Zaid, so the total is three.",
+     "facts": [
+      "F5",
+      "F11",
+      "F23",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-geography-24-6",
+     "format": "List-Matching",
+     "keyword": "Major Crops",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Muskmelon\n(b) Maize\n(c) Bajra\n(d) Fodder\n\nList-II\n(i) Kharif\n(ii) Rabi\n(iii) Zaid",
+     "options": [
+      "a-ii, b-i, c-iii, d-i",
+      "a-iii, b-i, c-i, d-iii",
+      "a-i, b-iii, c-i, d-ii",
+      "a-iii, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Muskmelon and Fodder are listed as Zaid crops, while Maize and Bajra are listed as Kharif crops.",
+     "facts": [
+      "F6",
+      "F7",
+      "F10",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-geography-24-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements:\n\nI. Ragi is a Kharif crop.\nII. Lentil is a Rabi crop.\nIII. Vegetables are Zaid crops.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: Ragi is Kharif, Lentil is Rabi, and Vegetables are Zaid crops.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-geography-24-8",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops",
+     "question": "Assertion (A): Groundnut is a Kharif crop.\nReason (R): Red chilli is a Kharif crop.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, as Groundnut and Red chilli are listed under Kharif crops. However, the classification of Red chilli does not explain the classification of Groundnut.",
+     "facts": [
+      "F22",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-geography-24-9",
+     "format": "Direct Recall",
+     "keyword": "Major Crops",
+     "question": "Which one of the following is listed as a Rabi crop?",
+     "options": [
+      "French bean",
+      "Red chilli",
+      "Fodder",
+      "Muskmelon"
+     ],
+     "answer": 0,
+     "explanation": "French bean is listed as a Rabi crop. Red chilli is Kharif, while Muskmelon and Fodder are Zaid crops.",
+     "facts": [
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   }
  }
 }

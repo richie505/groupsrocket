@@ -1179,8 +1179,31 @@
       "F24",
       "F25"
      ]
+    },
+    {
+     "id": "world-geography-6-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Highest",
+     "question": "Consider the following statements:\nI. Daocheng Yading Airport is the highest civilian airport.\nII. Daocheng Yading Airport is situated at 4,411 metres above sea level.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II only",
+      "I only",
+      "Both I and II",
+      "Neither I nor II"
+     ],
+     "answer": 2,
+     "explanation": "Both statements are correct. Daocheng Yading Airport is identified as the highest civilian airport and is 4,411 metres above sea level.",
+     "facts": [
+      "F16",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -4618,7 +4641,12 @@
       "Canada"
      ],
      "answer": 3,
-     "explanation": "Canada ranks first, with an approximate coastline length of 202,080 km."
+     "explanation": "Canada ranks first, with an approximate coastline length of 202,080 km.",
+     "facts": [
+      "F1",
+      "F7",
+      "F12"
+     ]
     },
     {
      "id": "world-geography-14-2",
@@ -4632,7 +4660,12 @@
       "Norway has an approximate coastline length of 83,281 km."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is Norway’s coastline length. The correct approximate length is 83,281 km, not 83,821 km."
+     "explanation": "The incorrect detail is Norway’s coastline length. The correct approximate length is 83,281 km, not 83,821 km.",
+     "facts": [
+      "F2",
+      "F8",
+      "F13"
+     ]
     },
     {
      "id": "world-geography-14-3",
@@ -4646,7 +4679,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Canada’s vast Arctic Archipelago and its borders with three oceans account for its exceptionally long coastline."
+     "explanation": "Both statements are true. Canada’s vast Arctic Archipelago and its borders with three oceans account for its exceptionally long coastline.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "world-geography-14-4",
@@ -4660,7 +4700,12 @@
       "a-ii, b-i, c-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Canada–202,080 km, Norway–83,281 km and Indonesia–54,716 km."
+     "explanation": "The correct pairs are Canada–202,080 km, Norway–83,281 km and Indonesia–54,716 km.",
+     "facts": [
+      "F2",
+      "F8",
+      "F13"
+     ]
     },
     {
      "id": "world-geography-14-5",
@@ -4674,9 +4719,58 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Uzbekistan and Liechtenstein are identified as doubly landlocked. Therefore, the number is two."
+     "explanation": "Uzbekistan and Liechtenstein are identified as doubly landlocked. Therefore, the number is two.",
+     "facts": [
+      "F2",
+      "F13",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-14-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sea",
+     "question": "Consider the following statements:\nI. Norway has an extremely indented coastline.\nII. Norway has thousands of fjords.\nIII. Norway has thousands of islands.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: Norway has an extremely indented coastline, thousands of fjords and thousands of islands.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "world-geography-14-7",
+     "format": "Assertion-Reason",
+     "keyword": "Islands",
+     "question": "Assertion (A): Indonesia is an archipelago.\nReason (R): Indonesia has more than 17,000 islands.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Indonesia is an archipelago, and its character as an island group is explained by the fact that it has more than 17,000 islands.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,

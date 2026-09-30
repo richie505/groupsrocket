@@ -6626,7 +6626,13 @@
       "Occupations selected only through formal education"
      ],
      "answer": 1,
-     "explanation": "Hereditary refers to characteristics, occupations, rights, or positions passed from one generation to another."
+     "explanation": "Hereditary refers to characteristics, occupations, rights, or positions passed from one generation to another.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-19-2",
@@ -6640,7 +6646,15 @@
       "Property ownership may be hereditary."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that industrialization strengthens hereditary occupations. The notes state that education, industrialization, urbanization, and occupational mobility have weakened hereditary occupations."
+     "explanation": "The incorrect statement is that industrialization strengthens hereditary occupations. The notes state that education, industrialization, urbanization, and occupational mobility have weakened hereditary occupations.",
+     "facts": [
+      "F5",
+      "F7",
+      "F14",
+      "F6",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-society-19-3",
@@ -6654,7 +6668,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Education is specifically identified as a modern change that has weakened hereditary occupations."
+     "explanation": "Both statements are true. Education is specifically identified as a modern change that has weakened hereditary occupations.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-society-19-4",
@@ -6668,7 +6685,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both potter and weaver are listed as examples of hereditary occupations in the caste system."
+     "explanation": "Both potter and weaver are listed as examples of hereditary occupations in the caste system.",
+     "facts": [
+      "F9",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-19-5",
@@ -6682,9 +6703,37 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "Potter, carpenter, blacksmith, and weaver are all listed as examples of hereditary occupations in the caste system. Therefore, the complete matching is a-i, b-ii, c-iii, d-iv."
+     "explanation": "Potter, carpenter, blacksmith, and weaver are all listed as examples of hereditary occupations in the caste system. Therefore, the complete matching is a-i, b-ii, c-iii, d-iv.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-society-19-6",
+     "format": "Direct Recall",
+     "keyword": "Hereditary occupations",
+     "question": "Family businesses are examples of which of the following?",
+     "options": [
+      "Occupational mobility",
+      "Hereditary occupations",
+      "Industrialization",
+      "Modern changes weakening hereditary occupations"
+     ],
+     "answer": 1,
+     "explanation": "Family businesses are listed as examples of hereditary occupations. Education, industrialization, urbanization and occupational mobility are modern changes that have weakened hereditary occupations.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 16,
+    "covered": 16,
+    "audited": true
+   }
   },
   "20": {
    "number": 20,
@@ -6710,7 +6759,13 @@
       "Authority, office, position, or property"
      ],
      "answer": 3,
-     "explanation": "Succession refers to the transfer of authority, office, position, or property from one person to another."
+     "explanation": "Succession refers to the transfer of authority, office, position, or property from one person to another.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-20-2",
@@ -6724,7 +6779,15 @@
       "Collateral succession involves transfer among relatives."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes the type: brother-to-brother transfer is an example of collateral succession, not lineal succession."
+     "explanation": "The incorrect statement changes the type: brother-to-brother transfer is an example of collateral succession, not lineal succession.",
+     "facts": [
+      "F6",
+      "F7",
+      "F9",
+      "F10",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-20-3",
@@ -6738,7 +6801,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Father-to-son transfer illustrates the parent-to-child nature of lineal succession."
+     "explanation": "Both statements are true. Father-to-son transfer illustrates the parent-to-child nature of lineal succession.",
+     "facts": [
+      "F6",
+      "F7",
+      "F5"
+     ]
     },
     {
      "id": "indian-society-20-4",
@@ -6752,7 +6820,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes: collateral succession occurs among relatives, and political stability is an importance of succession."
+     "explanation": "Both statements are directly supported by the notes: collateral succession occurs among relatives, and political stability is an importance of succession.",
+     "facts": [
+      "F9",
+      "F12",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-20-5",
@@ -6766,9 +6839,58 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: lineal succession—transfer from parent to child; collateral succession—transfer among relatives; political leadership transition—leadership example; transfer of family property—property example."
+     "explanation": "The correct pairs are: lineal succession—transfer from parent to child; collateral succession—transfer among relatives; political leadership transition—leadership example; transfer of family property—property example.",
+     "facts": [
+      "F6",
+      "F9",
+      "F15",
+      "F17",
+      "F5",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-society-20-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Institution – Continuity and Social Order",
+     "question": "Consider the following statements:\nI. Continuity of institutions is an importance of succession.\nII. Social order is an importance of succession.\nIII. Legitimacy is an importance of succession.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Continuity of institutions, social order and legitimacy are all listed as importances of succession.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-society-20-7",
+     "format": "Direct Recall",
+     "keyword": "Succession – Examples",
+     "question": "Which of the following is identified as an example of succession?",
+     "options": [
+      "Collateral succession",
+      "Royal succession",
+      "Lineal succession",
+      "Political stability"
+     ],
+     "answer": 1,
+     "explanation": "Royal succession is listed among the examples of succession. Lineal succession and collateral succession are types, while political stability is an importance.",
+     "facts": [
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -7719,7 +7841,10 @@
       "Auguste Comte"
      ],
      "answer": 0,
-     "explanation": "The notes state that the concept of Network Society was propounded by Manuel Castells."
+     "explanation": "The notes state that the concept of Network Society was propounded by Manuel Castells.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-society-28-2",
@@ -7733,7 +7858,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Internet-based communication and digital platforms help explain how activities are organized through digital networks."
+     "explanation": "Both statements are true. Internet-based communication and digital platforms help explain how activities are organized through digital networks.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "indian-society-28-3",
@@ -7747,7 +7880,16 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Network Society–society organized through digital networks; Manuel Castells–propounder; Information economy–feature; Digital governance–example."
+     "explanation": "The correct pairs are: Network Society–society organized through digital networks; Manuel Castells–propounder; Information economy–feature; Digital governance–example.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F8",
+      "F13"
+     ]
     },
     {
      "id": "indian-society-28-4",
@@ -7761,7 +7903,16 @@
       "It includes online education as an example."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the type of network. The notes state that Network Society is organized through digital networks."
+     "explanation": "The incorrect statement alters the type of network. The notes state that Network Society is organized through digital networks.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F12"
+     ]
     },
     {
      "id": "indian-society-28-5",
@@ -7775,9 +7926,20 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, III and IV are correct according to the notes. E-commerce is listed as an example, not as a feature; therefore Statement II is incorrect."
+     "explanation": "Statements I, III and IV are correct according to the notes. E-commerce is listed as an example, not as a feature; therefore Statement II is incorrect.",
+     "facts": [
+      "F10",
+      "F11",
+      "F13",
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 14,
+    "covered": 14,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -7892,8 +8054,71 @@
       "F8",
       "F9"
      ]
+    },
+    {
+     "id": "indian-society-29-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Social research – Steps",
+     "question": "Consider the following statements about the steps in Social Research:\nI. Data analysis is a step in social research.\nII. Interpretation is a step in social research.\nIII. Report writing is a step in social research.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "Data analysis, interpretation and report writing are all listed as steps in social research.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-society-29-7",
+     "format": "Chronological Ordering",
+     "keyword": "Social research – Sequence of steps",
+     "question": "Arrange the following steps of Social Research in the correct sequence:\nA. Data Collection\nB. Data Analysis\nC. Interpretation\nD. Report Writing",
+     "options": [
+      "D, C, B, A",
+      "A, B, C, D",
+      "B, A, C, D",
+      "A, C, B, D"
+     ],
+     "answer": 1,
+     "explanation": "Data collection precedes data analysis; data analysis precedes interpretation; and interpretation precedes report writing.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-society-29-8",
+     "format": "Count-Based",
+     "keyword": "Types of social research",
+     "question": "How many of the following are listed as types of social research?\nI. Basic Research\nII. Applied Research\nIII. Quantitative Research\nIV. Qualitative Research",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Basic research, applied research, quantitative research and qualitative research are all listed as types of social research.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "30": {
    "number": 30,

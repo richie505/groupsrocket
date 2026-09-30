@@ -2597,8 +2597,50 @@
       "F14",
       "F15"
      ]
+    },
+    {
+     "id": "ap-geography-10-6",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain peak",
+     "question": "Assertion (A): Aroma is a mountain peak.\nReason (R): Aroma has a height of 1680 m.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Aroma is identified as a mountain peak and its height is 1680 m, but its height does not explain why it is classified as a mountain peak.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "ap-geography-10-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain peak",
+     "question": "Consider the following statements:\nI. Jindhagada is a mountain peak.\nII. Mahendragiri is a mountain peak.\nIII. Mahendragiri has a height of 1501 m.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: Jindhagada and Mahendragiri are mountain peaks, and Mahendragiri has a height of 1501 m.",
+     "facts": [
+      "F1",
+      "F7",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 18,
+    "covered": 18,
+    "audited": true
+   }
   },
   "11": {
    "number": 11,
@@ -3649,7 +3691,11 @@
       "Laterite soil"
      ],
      "answer": 2,
-     "explanation": "The notes associate alluvial soil with the Krishna–Godavari–Penna–Vamsadhara delta and describe it as fertile."
+     "explanation": "The notes associate alluvial soil with the Krishna–Godavari–Penna–Vamsadhara delta and describe it as fertile.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-15-2",
@@ -3663,7 +3709,15 @@
       "Red soil is associated with Rayalaseema and barren lands."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the location detail for alluvial soil. Satyavedu and Puttur are listed under laterite soil, while alluvial soil is associated with the Krishna–Godavari–Penna–Vamsadhara delta."
+     "explanation": "The incorrect statement alters the location detail for alluvial soil. Satyavedu and Puttur are listed under laterite soil, while alluvial soil is associated with the Krishna–Godavari–Penna–Vamsadhara delta.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F19",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "ap-geography-15-3",
@@ -3677,7 +3731,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. The fertility of alluvial soil explains its association with rice and sugarcane."
+     "explanation": "Both statements are given in the notes. The fertility of alluvial soil explains its association with rice and sugarcane.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "ap-geography-15-4",
@@ -3691,7 +3751,20 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: alluvial–rice and sugarcane; black–maize, bajra, tobacco, turmeric and chillies; red–cotton; laterite–tamarind, cashew and mango."
+     "explanation": "The correct pairs are: alluvial–rice and sugarcane; black–maize, bajra, tobacco, turmeric and chillies; red–cotton; laterite–tamarind, cashew and mango.",
+     "facts": [
+      "F3",
+      "F4",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F36",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "ap-geography-15-5",
@@ -3705,9 +3778,103 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are supported by the notes: the listed districts include West Godavari, Krishna and Guntur for black soil; red soil is less fertile and low in nitrogen and phosphorous; and laterite soil is associated with tamarind, cashew and mango."
+     "explanation": "All three statements are supported by the notes: the listed districts include West Godavari, Krishna and Guntur for black soil; red soil is less fertile and low in nitrogen and phosphorous; and laterite soil is associated with tamarind, cashew and mango.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F20",
+      "F21",
+      "F22",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "ap-geography-15-6",
+     "format": "List-Matching",
+     "keyword": "Soils → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Mid-Kurnool\n(b) Northwestern Cuddapah\n(c) Thadipatri\n(d) Ellavaram\n\nList-II\n(i) Black soil\n(ii) Laterite soil\n(iii) Red soil\n(iv) Alluvial soil",
+     "options": [
+      "a-iii, b-iii, c-i, d-ii",
+      "a-ii, b-i, c-ii, d-i",
+      "a-i, b-i, c-i, d-ii",
+      "a-i, b-ii, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Black soil occurs in Mid-Kurnool, northwestern Cuddapah and Thadipatri. Laterite soil occurs in Ellavaram.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F28"
+     ]
+    },
+    {
+     "id": "ap-geography-15-7",
+     "format": "Count-Based",
+     "keyword": "Soils → Location",
+     "question": "How many of the following places are associated with laterite soil?\n\n1. Peddapuram\n2. Kavali\n3. Kovvuru\n4. Guduru\n5. Sullurpet",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All five"
+     ],
+     "answer": 2,
+     "explanation": "Laterite soil occurs in all five listed places: Peddapuram, Kavali, Kovvuru, Guduru and Sullurpet.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "ap-geography-15-8",
+     "format": "Assertion-Reason",
+     "keyword": "Soils → Fertility and nutrients",
+     "question": "Assertion (A): Laterite soil is less fertile.\nReason (R): Laterite soil has high nitrogen.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are factual properties of laterite soil. However, the high nitrogen content is not stated as the reason for its being less fertile.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "ap-geography-15-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Soils → Crops",
+     "question": "Consider the following statements:\n\nI. Pulses are grown in red soil.\nII. Groundnut is grown in red soil.\nIII. Castor is grown in red soil.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Pulses, groundnut and castor are all listed as crops grown in red soil.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 38,
+    "covered": 38,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,

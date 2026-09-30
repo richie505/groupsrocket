@@ -8182,8 +8182,32 @@
       "F7",
       "F10"
      ]
+    },
+    {
+     "id": "indian-economy-42-6",
+     "format": "Count-Based",
+     "keyword": "Repo",
+     "question": "How many of the following statements about repo are correct?\n\nI. Repo is a short-term borrowing mechanism.\nII. Banks borrow from the RBI through repo.\nIII. Repo borrowing is against eligible securities.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: repo is a short-term borrowing mechanism, banks borrow from the RBI through repo, and such borrowing is against eligible securities.",
+     "facts": [
+      "F2",
+      "F4",
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 10,
+    "covered": 10,
+    "audited": true
+   }
   },
   "43": {
    "number": 43,
@@ -9660,7 +9684,17 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: 1st—1951, K.C. Neogy; 5th—1968, Mahaveer Tyagi; 10th—1992, K.C. Pant; and 15th—2017, N.K. Singh."
+     "explanation": "The correct pairs are: 1st—1951, K.C. Neogy; 5th—1968, Mahaveer Tyagi; 10th—1992, K.C. Pant; and 15th—2017, N.K. Singh.",
+     "facts": [
+      "F1",
+      "F2",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-50-2",
@@ -9674,7 +9708,11 @@
       "Arvind Panagariya"
      ],
      "answer": 3,
-     "explanation": "The 16th Finance Commission was constituted in 2023 under the chairmanship of Arvind Panagariya."
+     "explanation": "The 16th Finance Commission was constituted in 2023 under the chairmanship of Arvind Panagariya.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-50-3",
@@ -9688,7 +9726,17 @@
       "The 3rd Finance Commission was constituted in 1960 under the chairmanship of A.K. Chanda."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year of the 11th Finance Commission. It was constituted in 1998, not 2002; its chairman was A.M. Khusro."
+     "explanation": "The incorrect detail is the year of the 11th Finance Commission. It was constituted in 1998, not 2002; its chairman was A.M. Khusro.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-50-4",
@@ -9702,7 +9750,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the chairman's name does not explain the year in which the commission was constituted."
+     "explanation": "Both statements are true according to the notes. However, the chairman's name does not explain the year in which the commission was constituted.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-50-5",
@@ -9716,9 +9768,20 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: the 13th Finance Commission was constituted in 2007 with Vijay L. Kelkar as chairman, while the 14th was constituted in 2013 with Y.V. Reddy as chairman."
+     "explanation": "Both statements are correct: the 13th Finance Commission was constituted in 2007 with Vijay L. Kelkar as chairman, while the 14th was constituted in 2013 with Y.V. Reddy as chairman.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 24,
+    "covered": 24,
+    "audited": true
+   }
   },
   "51": {
    "number": 51,

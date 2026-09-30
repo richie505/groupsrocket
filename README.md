@@ -1,7 +1,7 @@
 # Rocket Sheets MCQ — APPSC practice app (Android)
 
 Offline Android app for practising MCQs generated **only from the ROCKET Sheets notes**
-(no PYQs). Every `ROCKET SHEET #N` of every subject gets its own MCQ set, mapped onto the
+(no PYQs). **8,466 MCQs covering all 25,402 facts** of the 451 sheets. Every `ROCKET SHEET #N` of every subject gets its own MCQ set, mapped onto the
 **APPSC combined syllabus tracker** (Group 1 Prelims + Group 2), and scheduled in a
 **90-day plan starting 29 Sep 2026**.
 
@@ -55,6 +55,16 @@ Download the Drive `rocket sheets` folder (`<Subject> - ROCKET Sheets.pdf`), the
 python scripts/extract_sheets.py path/to/rocket-sheets
 python scripts/generate_mcqs.py
 ```
+
+### Fact coverage (every fact gets an MCQ)
+
+```bash
+python scripts/cover_facts.py --workers 32     # resumable; finished sheets are skipped
+```
+
+For each sheet it extracts every atomic fact (`data/facts/`), links each MCQ to the facts it
+tests, writes new MCQs for untested facts, and re-checks the gaps. The app shows
+"facts covered" per sheet and a Facts checklist.
 
 ## Building the APK
 

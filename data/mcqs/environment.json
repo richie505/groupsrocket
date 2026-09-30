@@ -4802,7 +4802,9 @@
      "answer": 0,
      "explanation": "The CPCB was constituted in September 1974 under the Water (Prevention and Control of Pollution) Act, 1974.",
      "facts": [
-      "F3"
+      "F3",
+      "F9",
+      "F14"
      ]
     },
     {
@@ -4821,7 +4823,8 @@
      "facts": [
       "F1",
       "F2",
-      "F6"
+      "F6",
+      "F4"
      ]
     },
     {
@@ -4863,7 +4866,8 @@
       "F10",
       "F11",
       "F15",
-      "F16"
+      "F16",
+      "F4"
      ]
     },
     {
@@ -4883,8 +4887,30 @@
       "F7",
       "F17"
      ]
+    },
+    {
+     "id": "environment-21-6",
+     "format": "Direct Recall",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "The Central Pollution Control Board (CPCB) deals with which of the following types of pollution?",
+     "options": [
+      "Soil and marine pollution",
+      "Water and soil pollution",
+      "Air and noise pollution",
+      "Water and air pollution"
+     ],
+     "answer": 3,
+     "explanation": "The CPCB deals with water and air pollution.",
+     "facts": [
+      "F8"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 17,
+    "covered": 17,
+    "audited": true
+   }
   },
   "22": {
    "number": 22,
@@ -5639,8 +5665,110 @@
       "F13",
       "F35"
      ]
+    },
+    {
+     "id": "environment-24-6",
+     "format": "List-Matching",
+     "keyword": "Biosphere Reserve/Location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Nilgiri Biosphere Reserve\n b. Nanda Devi Biosphere Reserve\n c. Gulf of Mannar Biosphere Reserve\n d. Similipal Biosphere Reserve\n\nList-II\n i. 1986\n ii. 1988\n iii. 1989\n iv. 1994",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Nilgiri, Nanda Devi, Gulf of Mannar and Similipal Biosphere Reserves were established in 1986, 1988, 1989 and 1994, respectively.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F14"
+     ]
+    },
+    {
+     "id": "environment-24-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Biosphere Reserve/Location",
+     "question": "Consider the following statements:\n\nI. Nanda Devi Biosphere Reserve is located in Uttarakhand.\nII. Khangchendzonga Biosphere Reserve is located in Sikkim.\nIII. Agasthyamalai Biosphere Reserve is located in Kerala and Tamil Nadu.\nIV. Achanakmar–Amarkantak Biosphere Reserve is located in Madhya Pradesh and Chhattisgarh.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct: the reserves are located in Uttarakhand, Sikkim, Kerala–Tamil Nadu, and Madhya Pradesh–Chhattisgarh, respectively.",
+     "facts": [
+      "F3",
+      "F19",
+      "F21",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-24-8",
+     "format": "Assertion-Reason",
+     "keyword": "Biosphere Reserve/Location",
+     "question": "Assertion (A): Manas Biosphere Reserve was established before Dibru-Saikhowa Biosphere Reserve.\nReason (R): Manas Biosphere Reserve was established in 1989, whereas Dibru-Saikhowa Biosphere Reserve was established in 1997.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The years 1989 and 1997 establish that Manas was established before Dibru-Saikhowa, so the Reason correctly explains the Assertion.",
+     "facts": [
+      "F12",
+      "F36"
+     ]
+    },
+    {
+     "id": "environment-24-9",
+     "format": "List-Matching",
+     "keyword": "Biosphere Reserve/Location",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Sundarbans Biosphere Reserve\n b. Dihang-Dibang Biosphere Reserve\n c. Khangchendzonga Biosphere Reserve\n d. Agasthyamalai Biosphere Reserve\n\nList-II\n i. 1989\n ii. 1998\n iii. 2000\n iv. 2001",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Sundarbans, Dihang-Dibang, Khangchendzonga and Agasthyamalai Biosphere Reserves were established in 1989, 1998, 2000 and 2001, respectively.",
+     "facts": [
+      "F10",
+      "F16",
+      "F20",
+      "F22"
+     ]
+    },
+    {
+     "id": "environment-24-10",
+     "format": "List-Matching",
+     "keyword": "Biosphere Reserve/Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Achanakmar–Amarkantak Biosphere Reserve\n(b) Cold Desert Biosphere Reserve\n(c) Seshachalam Hills Biosphere Reserve\n\nList-II\n(i) 2005\n(ii) 2009\n(iii) 2010\n\nChoose the correct answer using the code given below:",
+     "options": [
+      "a-i, b-iii, c-ii",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii"
+     ],
+     "answer": 3,
+     "explanation": "Achanakmar–Amarkantak Biosphere Reserve was established in 2005, Cold Desert Biosphere Reserve in 2009, and Seshachalam Hills Biosphere Reserve in 2010.",
+     "facts": [
+      "F24",
+      "F30",
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 36,
+    "covered": 36,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -7909,8 +8037,69 @@
      "facts": [
       "F26"
      ]
+    },
+    {
+     "id": "environment-35-6",
+     "format": "List-Matching",
+     "keyword": "Renewable / Non-renewable Energy",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Natural gas\n(b) Hydroelectric energy\n(c) Tidal energy\n(d) Uranium\n\nList-II\n(i) Renewable energy\n(ii) Non-renewable energy",
+     "options": [
+      "a-i, b-ii, c-i, d-ii",
+      "a-i, b-i, c-ii, d-ii",
+      "a-ii, b-i, c-i, d-ii",
+      "a-ii, b-i, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Natural gas and uranium are non-renewable energy sources. Hydroelectric and tidal energy are renewable.",
+     "facts": [
+      "F6",
+      "F7",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "environment-35-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Renewable Energy",
+     "question": "Consider the following statements:\nStatement A: Non-conventional energy is renewable energy.\nStatement B: Hydroelectric energy is a renewable source.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: non-conventional energy is renewable, and hydroelectric energy is a renewable source.",
+     "facts": [
+      "F11",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-35-8",
+     "format": "Count-Based",
+     "keyword": "Biofuel Sources",
+     "question": "How many of the following are identified as biofuel sources?\n\nI. Mahua\nII. Neem\nIII. Photovoltaic technology\nIV. National Solar Mission",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Mahua and neem are listed as biofuel sources. Photovoltaic technology and the National Solar Mission are associated with solar energy, not listed as biofuel sources.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "36": {
    "number": 36,
@@ -8355,12 +8544,29 @@
      "facts": [
       "F73"
      ]
+    },
+    {
+     "id": "environment-36-23",
+     "format": "Direct Recall",
+     "keyword": "Pollution",
+     "question": "Nanoparticles cause pollution of which of the following?",
+     "options": [
+      "Food chain, acid rain and industrial emissions",
+      "Soil, ozone layer and groundwater",
+      "Water, soil and the food chain",
+      "Air, water and radioactive waste"
+     ],
+     "answer": 2,
+     "explanation": "Nanoparticles cause pollution of water, soil and the food chain.",
+     "facts": [
+      "F74"
+     ]
     }
    ],
    "coverage": {
     "facts": 76,
-    "covered": 75,
-    "audited": false
+    "covered": 76,
+    "audited": true
    }
   },
   "37": {
