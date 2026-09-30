@@ -84,6 +84,17 @@ class AppState(val repo: Repository, val progress: Progress) {
     fun todayDay(): Int = ChronoUnit.DAYS.between(planStart(), LocalDate.now()).toInt() + 1
 
     fun dayDate(day: Int): LocalDate = planStart().plusDays(day - 1L)
+
+    fun isDayDone(day: Int): Boolean {
+        val d = index.plan.getOrNull(day - 1) ?: return false
+        return progress.isDayDone(day) || (d.isStudy && d.sheets.isNotEmpty() && d.sheets.all { progress.bestScore(it) != null })
+    }
+
+    /** Questions whose latest attempt was wrong. */
+    fun wrongQuestions(): List<Mcq> {
+        val ids = progress.wrongIds()
+        return repo.mcqs(ids.values.toSet()).filter { it.id in ids }
+    }
 }
 
 sealed interface Screen {
@@ -97,7 +108,7 @@ sealed interface Screen {
     data class UnitDetail(val id: String) : Screen
     data class Notes(val ref: SheetRef) : Screen
     data class Facts(val ref: SheetRef) : Screen
-    data class Quiz(val title: String, val questions: List<Mcq>) : Screen
+    data class Quiz(val title: String, val questions: List<Mcq>, val day: Int? = null) : Screen
 }
 
 private val tabs = listOf(Screen.Plan, Screen.Subjects, Screen.TrackerTab, Screen.Review)
@@ -273,18 +284,37 @@ fun scoreColor(percent: Int): Color = when {
     else -> MaterialTheme.colorScheme.error
 }
 
-fun quizOf(app: AppState, title: String, refs: List<SheetRef>, limit: Int? = null): Screen.Quiz {
+fun quizOf(app: AppState, title: String, refs: List<SheetRef>, limit: Int? = null, day: Int? = null): Screen.Quiz {
     var qs = app.repo.mcqs(refs)
     if (limit != null) qs = qs.shuffled().take(limit)
-    return Screen.Quiz(title, qs)
+    return Screen.Quiz(title, qs, day)
 }
 
 @Composable
-fun PracticeButtons(app: AppState, title: String, refs: List<SheetRef>, go: (Screen) -> Unit) {
+fun PracticeButtons(app: AppState, title: String, refs: List<SheetRef>, go: (Screen) -> Unit, day: Int? = null) {
     val total = refs.sumOf { app.index.sheet(it)?.count ?: 0 }
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        Button(onClick = { go(quizOf(app, title, refs)) }, enabled = total > 0) { Text("Practice all ($total)") }
+        Button(onClick = { go(quizOf(app, title, refs, day = day)) }, enabled = total > 0) { Text("Practice all ($total)") }
         if (total > 20) OutlinedButton(onClick = { go(quizOf(app, "$title · Mixed 20", refs, limit = 20)) }) { Text("Random 20") }
+    }
+}
+
+/** The start button(s) for a plan day, depending on its type. */
+@Composable
+fun DayButtons(app: AppState, day: Int, go: (Screen) -> Unit) {
+    val d = app.index.plan.getOrNull(day - 1) ?: return
+    when (d.type) {
+        "study" -> PracticeButtons(app, "Day $day", d.sheets, go, day)
+        "repair" -> {
+            val wrong = app.wrongQuestions()
+            Button(
+                onClick = { go(Screen.Quiz("Day $day · Repair", wrong.shuffled(), day)) },
+                enabled = wrong.isNotEmpty(),
+            ) { Text("Practise wrong answers (${wrong.size})") }
+        }
+        else -> Button(onClick = { go(quizOf(app, "Day $day · ${d.title}", d.sheets, limit = d.questions, day = day)) }) {
+            Text("Start test (${d.questions} random Qs)")
+        }
     }
 }
 
@@ -302,45 +332,41 @@ fun PlanScreen(app: AppState, go: (Screen) -> Unit) {
                     today < 1 -> Text("Plan starts ${app.planStart().format(dateFmt)}", style = MaterialTheme.typography.titleLarge)
                     today > plan.size -> Text("90-day plan complete 🎉", style = MaterialTheme.typography.titleLarge)
                     else -> {
-                        val refs = plan[today - 1]
                         Text("Day $today of ${plan.size}", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                         Text(LocalDate.now().format(dateFmt), style = MaterialTheme.typography.bodyMedium)
-                        Text("${refs.size} sheets today", style = MaterialTheme.typography.bodyMedium)
-                        PracticeButtons(app, "Day $today", refs, go)
+                        Text(plan[today - 1].title, style = MaterialTheme.typography.titleMedium)
+                        DayButtons(app, today, go)
                     }
                 }
-                val daysDone = plan.indices.count { d -> plan[d].isNotEmpty() && plan[d].all { app.progress.bestScore(it) != null } }
+                val daysDone = (1..plan.size).count { app.isDayDone(it) }
                 Text("$daysDone / ${plan.size} days completed", style = MaterialTheme.typography.bodySmall)
                 ProgressLine(daysDone, plan.size)
             }
         }
-        if (today in 1..plan.size) {
+        if (today in 1..plan.size && plan[today - 1].isStudy) {
             item { SectionHeader("Today's sheets") }
-            items(plan[today - 1]) { ref -> app.index.sheet(ref)?.let { SheetRow(app, it, go) } }
+            items(plan[today - 1].sheets) { ref -> app.index.sheet(ref)?.let { SheetRow(app, it, go, showSubject = false) } }
         }
         item { SectionHeader("All 90 days · started ${app.planStart().format(dateFmt)}") }
         items(plan.indices.toList()) { d ->
             val day = d + 1
-            val refs = plan[d]
-            val done = refs.count { app.progress.bestScore(it) != null }
+            val p = plan[d]
             ClickCard(onClick = { go(Screen.Day(day)) }) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Text(
-                            "Day $day" + if (day == today) " · Today" else "",
-                            style = MaterialTheme.typography.titleSmall,
+                            "Day $day · ${app.dayDate(day).format(dateFmt)}" + if (day == today) " · Today" else "",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.primary,
                             fontWeight = if (day == today) FontWeight.Bold else FontWeight.Normal,
                         )
-                        Text(
-                            app.dayDate(day).format(dateFmt) + " · " +
-                                refs.mapNotNull { app.index.sheet(it)?.subjectName }.distinct().joinToString(", "),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            maxLines = 2,
-                            overflow = TextOverflow.Ellipsis,
-                        )
+                        Text(p.title, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
                     }
-                    Text(if (done == refs.size && refs.isNotEmpty()) "✓" else "$done/${refs.size}", style = MaterialTheme.typography.titleMedium)
+                    if (app.isDayDone(day)) {
+                        Text("✓", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.tertiary)
+                    } else if (p.isStudy) {
+                        Text("${p.sheets.count { app.progress.bestScore(it) != null }}/${p.sheets.size}", style = MaterialTheme.typography.titleMedium)
+                    }
                 }
             }
         }
@@ -361,15 +387,21 @@ fun PlanScreen(app: AppState, go: (Screen) -> Unit) {
 
 @Composable
 fun DayScreen(app: AppState, day: Int, go: (Screen) -> Unit) {
-    val refs = app.index.plan.getOrElse(day - 1) { emptyList() }
+    val d = app.index.plan.getOrNull(day - 1) ?: return
     LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
         item {
             InfoCard {
-                Text(app.dayDate(day).format(dateFmt), style = MaterialTheme.typography.titleMedium)
-                PracticeButtons(app, "Day $day", refs, go)
+                Text(app.dayDate(day).format(dateFmt), style = MaterialTheme.typography.labelLarge)
+                Text(d.title, style = MaterialTheme.typography.titleLarge)
+                if (!d.isStudy && d.sheets.isNotEmpty()) {
+                    Text("Random questions from ${d.sheets.size} sheets", style = MaterialTheme.typography.bodySmall)
+                }
+                DayButtons(app, day, go)
             }
         }
-        items(refs) { ref -> app.index.sheet(ref)?.let { SheetRow(app, it, go) } }
+        if (d.type == "study" || d.type == "review" || (d.type == "revision" && d.sheets.size < 200)) {
+            items(d.sheets) { ref -> app.index.sheet(ref)?.let { SheetRow(app, it, go, showSubject = !d.isStudy) } }
+        }
     }
 }
 
@@ -542,7 +574,7 @@ fun ReviewScreen(app: AppState, go: (Screen) -> Unit) {
             if (overall.attempted > 0) Text("Accuracy ${overall.correct * 100 / overall.attempted}%")
             ProgressLine(overall.attempted, app.index.totalMcqs)
         }
-        ClickCard(onClick = { if (wrong.isNotEmpty()) go(Screen.Quiz("Wrong answers", load(wrong).shuffled())) }) {
+        ClickCard(onClick = { if (wrong.isNotEmpty()) go(Screen.Quiz("Wrong answers", app.wrongQuestions().shuffled())) }) {
             Text("Wrong answers", style = MaterialTheme.typography.titleMedium)
             Text("${wrong.size} questions whose last attempt was wrong", style = MaterialTheme.typography.bodySmall)
         }

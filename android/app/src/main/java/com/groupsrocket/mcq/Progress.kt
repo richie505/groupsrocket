@@ -102,6 +102,13 @@ class Progress(context: Context) {
         version++
     }
 
+    fun isDayDone(day: Int) = prefs.getBoolean("dayDone$day", false)
+
+    fun markDayDone(day: Int) {
+        prefs.edit().putBoolean("dayDone$day", true).apply()
+        version++
+    }
+
     fun resetAll() {
         prefs.edit().clear().apply()
         listOf(answers, best, bookmarks).forEach { o -> o.keys().asSequence().toList().forEach(o::remove) }

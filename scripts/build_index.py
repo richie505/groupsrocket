@@ -9,18 +9,103 @@ PLAN_DAYS = 90
 PLAN_START = "2026-09-29"  # Day 1 of the 90-day plan
 
 
-def build_plan(subjects: list[dict]) -> list[list[str]]:
-    """Spread every subject's sheets evenly over PLAN_DAYS days, in sheet order."""
-    slots = []
-    for subj in subjects:
-        n = len(subj["sheets"])
-        for k, sheet in enumerate(subj["sheets"]):
-            slots.append(((k + 0.5) / n, subj["slug"], sheet["id"]))
-    slots.sort()
-    days = [[] for _ in range(PLAN_DAYS)]
-    for i, (_, slug, sheet_id) in enumerate(slots):
-        days[i * PLAN_DAYS // len(slots)].append(f"{slug}/{sheet_id}")
-    return days
+# Mirrors the "APPSC Restructured 90-Day Plan": subject blocks in book order, a review + weekly
+# test every 7th day up to Day 70, revision Days 71-83, mocks and repair Days 84-90.
+BLOCKS = [
+    ("Polity & Society", ["Indian Polity", "Indian Society"]),
+    ("History", ["Indian History", "AP History"]),
+    ("Geography", ["General Geography", "Indian Geography", "World Geography", "AP Geography"]),
+    ("Economy", ["Indian Economy"]),
+    ("Science & Environment", ["Physics", "Chemistry", "Biology", "Environment", "Disaster Management"]),
+]
+STUDY_UNTIL = 70
+REVISION = [  # (block, parts) in the original plan's order, Days 71-82
+    ("Polity & Society", 3), ("History", 3), ("Geography", 2), ("Economy", 2), ("Science & Environment", 2),
+]
+FINAL_DAYS = [
+    {"type": "revision", "title": "Revision: all subjects (mixed)", "all": True, "questions": 100},
+    {"type": "mock", "title": "Full mock: G1 Prelims Paper-I style (120 Q)", "questions": 120},
+    {"type": "mock", "title": "Full mock: G1 Prelims Paper-II style (120 Q)", "questions": 120},
+    {"type": "mock", "title": "Full mock: G2 Screening style (150 Q)", "questions": 150},
+    {"type": "repair", "title": "Repair day: re-practise every question you got wrong"},
+    {"type": "mock", "title": "Exam-day simulation: two 120 Q papers", "questions": 240},
+    {"type": "mock", "title": "Full mock: G2 Screening style (150 Q)", "questions": 150},
+    {"type": "repair", "title": "Repair day: wrong answers + weakest sheets"},
+]
+
+
+def _split(items: list, parts: int, weight) -> list[list]:
+    """Split items into `parts` contiguous groups of roughly equal total weight."""
+    total = sum(weight(i) for i in items) or 1
+    groups, cur, acc = [], [], 0.0
+    for i, item in enumerate(items):
+        cur.append(item)
+        acc += weight(item)
+        left_items, left_groups = len(items) - i - 1, parts - len(groups) - 1
+        if left_groups and (acc >= total * (len(groups) + 1) / parts or left_items == left_groups):
+            groups.append(cur)
+            cur = []
+    groups.append(cur)
+    return [g for g in groups if g]
+
+
+def build_plan(subjects: list[dict]) -> list[dict]:
+    by_name = {s["name"]: s for s in subjects}
+    ref = lambda s, sh: f"{s['slug']}/{sh['id']}"  # noqa: E731
+    count = lambda item: max(1, item[1]["count"])  # noqa: E731
+
+    study_days = [d for d in range(1, STUDY_UNTIL + 1) if d % 7]
+    # Days per subject in proportion to its MCQ count (largest remainder, at least 1).
+    order = [n for _, names in BLOCKS for n in names if n in by_name]
+    load = {n: max(1, by_name[n]["total"]) for n in order}
+    total = sum(load.values())
+    quota = {n: len(study_days) * load[n] / total for n in order}
+    alloc = {n: max(1, int(quota[n])) for n in order}
+    for n in sorted(order, key=lambda n: quota[n] - int(quota[n]), reverse=True):
+        if sum(alloc.values()) >= len(study_days):
+            break
+        alloc[n] += 1
+    while sum(alloc.values()) > len(study_days):
+        alloc[max(order, key=lambda n: alloc[n])] -= 1
+
+    plan: dict[int, dict] = {}
+    days = iter(study_days)
+    block_of = {n: b for b, names in BLOCKS for n in names}
+    for name in order:
+        subj = by_name[name]
+        items = [(subj, sh) for sh in subj["sheets"]]
+        for group in _split(items, alloc[name], count):
+            first, last = group[0][1]["id"], group[-1][1]["id"]
+            plan[next(days)] = {
+                "type": "study",
+                "block": block_of[name],
+                "title": f"{name} – Sheets #{first}" + (f" to #{last}" if first != last else ""),
+                "sheets": [ref(s, sh) for s, sh in group],
+            }
+    for d in range(7, STUDY_UNTIL + 1, 7):
+        week = [r for w in range(d - 6, d) for r in plan.get(w, {}).get("sheets", [])]
+        plan[d] = {"type": "review", "title": f"Weekly review + test (Days {d - 6}–{d - 1})", "sheets": week, "questions": 50}
+
+    day = STUDY_UNTIL + 1
+    for block, parts in REVISION:
+        names = dict(BLOCKS)[block]
+        items = [(by_name[n], sh) for n in names if n in by_name for sh in by_name[n]["sheets"]]
+        for k, group in enumerate(_split(items, parts, count), 1):
+            plan[day] = {
+                "type": "revision",
+                "block": block,
+                "title": f"Revision {k}/{parts}: {block}",
+                "sheets": [ref(s, sh) for s, sh in group],
+                "questions": 100,
+            }
+            day += 1
+    everything = [ref(s, sh) for s in subjects for sh in s["sheets"]]
+    for item in FINAL_DAYS:
+        entry = {k: v for k, v in item.items() if k != "all"}
+        entry["sheets"] = everything if item["type"] in ("mock", "revision") else []
+        plan[day] = entry
+        day += 1
+    return [plan[d] for d in range(1, PLAN_DAYS + 1)]
 
 
 def build_index() -> dict:

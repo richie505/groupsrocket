@@ -183,6 +183,7 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
             onClick = {
                 if (pos == questions.lastIndex) {
                     finished = true
+                    quiz.day?.let { app.progress.markDayDone(it) }
                     // Score every sheet whose full question set was part of this quiz.
                     val wrongIds = wrong.map { it.id }.toSet()
                     questions.groupBy { it.sheet }.forEach { (ref, qs) ->

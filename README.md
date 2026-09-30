@@ -23,7 +23,7 @@ Disaster Management, Physics, Chemistry, Biology.
 
 ## App features
 
-- **90-Day Plan** — Day 1 = 29 Sep 2026; ~5 sheets/day, every subject spread evenly across the 90 days. "Practice all" for the day, per-day completion ticks, restart option.
+- **90-Day Plan** — Day 1 = 29 Sep 2026, same structure as the "APPSC Restructured 90-Day Plan": one subject per day with consecutive sheets (Polity & Society → History → Geography → Economy → Science & Environment, ~140 MCQs/day), a weekly review test every 7th day, revision Days 71–83, full mocks + repair days 84–90.
 - **Subjects** → sheets → practice a sheet, or read that sheet's notes.
 - **Syllabus Tracker** — Group 1 / Group 2 tabs, each unit shows its mapped sheets, MCQ count and progress.
 - **Quiz** — instant right/wrong, explanation, MCQ format + blueprint keyword tags, bookmarks, score summary, "retry wrong".

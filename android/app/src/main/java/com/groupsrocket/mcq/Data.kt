@@ -35,6 +35,11 @@ data class SyllabusUnit(
     val sheets: List<SheetRef>,
 )
 
+/** One day of the 90-day plan: "study", "review", "revision", "mock" or "repair". */
+data class PlanDay(val type: String, val title: String, val sheets: List<SheetRef>, val questions: Int) {
+    val isStudy get() = type == "study"
+}
+
 data class Fact(val id: String, val text: String)
 
 data class Mcq(
@@ -54,7 +59,7 @@ class Index(
     val planStart: String,
     val subjects: List<Subject>,
     val units: List<SyllabusUnit>,
-    val plan: List<List<SheetRef>>,
+    val plan: List<PlanDay>,
 ) {
     private val sheetsByRef = subjects.flatMap { it.sheets }.associateBy { it.ref }
     val unitsById = units.associateBy { it.id }
@@ -105,7 +110,14 @@ class Repository(private val context: Context) {
         val units = root.optJSONArray("units")?.objects { u ->
             SyllabusUnit(u.getString("id"), u.getString("exam"), u.getString("section"), u.getString("title"), u.getJSONArray("sheets").strings())
         } ?: emptyList()
-        val plan = root.optJSONArray("plan")?.let { p -> List(p.length()) { p.getJSONArray(it).strings() } } ?: emptyList()
+        val plan = root.optJSONArray("plan")?.objects { d ->
+            PlanDay(
+                type = d.getString("type"),
+                title = d.getString("title"),
+                sheets = d.getJSONArray("sheets").strings(),
+                questions = d.optInt("questions"),
+            )
+        } ?: emptyList()
         return Index(root.optString("tracker"), root.optString("plan_start", "2026-09-29"), subjects, units, plan)
     }
 
