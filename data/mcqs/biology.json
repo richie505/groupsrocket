@@ -15440,6 +15440,46 @@
       "F40",
       "F43"
      ]
+    },
+    {
+     "id": "biology-54-21",
+     "format": "List-Matching",
+     "keyword": "Full form",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Nitrogen\n b. Phosphorus\n c. Potassium\n d. Sulphur\n\nList-II\n i. S\n ii. K\n iii. N\n iv. P",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Nitrogen, phosphorus, potassium and sulphur have the symbols N, P, K and S, respectively.",
+     "facts": [
+      "F1",
+      "F7",
+      "F12",
+      "F15"
+     ]
+    },
+    {
+     "id": "biology-54-22",
+     "format": "List-Matching",
+     "keyword": "Full form",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Calcium\n b. Magnesium\n c. Iron\n d. Boron\n\nList-II\n i. Fe\n ii. B\n iii. Ca\n iv. Mg",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The symbols are Ca for calcium, Mg for magnesium, Fe for iron and B for boron.",
+     "facts": [
+      "F21",
+      "F25",
+      "F28",
+      "F32"
+     ]
     }
    ]
   },
@@ -15470,7 +15510,10 @@
       "Chemical fertilizer"
      ],
      "answer": 1,
-     "explanation": "Nitrogen fertilizer is associated with wheat growth and development."
+     "explanation": "Nitrogen fertilizer is associated with wheat growth and development.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-55-2",
@@ -15484,7 +15527,16 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "Phosphorus fertilizer is associated with early plant/root growth; potassium fertilizer with stomatal regulation and plant vigor; NPK represents major plant nutrients; and chemical fertilizer is an important source of concentrated nutrients."
+     "explanation": "Phosphorus fertilizer is associated with early plant/root growth; potassium fertilizer with stomatal regulation and plant vigor; NPK represents major plant nutrients; and chemical fertilizer is an important source of concentrated nutrients.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F8",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "biology-55-3",
@@ -15498,7 +15550,13 @@
       "Chemical fertilizer is an important source of concentrated nutrients."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the source: chemical fertilizer, not organic manure, is an important source of concentrated nutrients."
+     "explanation": "The incorrect statement alters the source: chemical fertilizer, not organic manure, is an important source of concentrated nutrients.",
+     "facts": [
+      "F1",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "biology-55-4",
@@ -15512,7 +15570,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Amino acids contain nitrogen as a component, linking nitrogen with proteins."
+     "explanation": "Both statements are true. Amino acids contain nitrogen as a component, linking nitrogen with proteins.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "biology-55-5",
@@ -15526,7 +15587,10 @@
       "Phospholipids"
      ],
      "answer": 2,
-     "explanation": "Nitrogen is an essential component of chlorophyll."
+     "explanation": "Nitrogen is an essential component of chlorophyll.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "biology-55-6",
@@ -15540,7 +15604,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: nitrogen occurs in the nitrogen-containing bases of DNA/RNA and is associated with growth and development."
+     "explanation": "Both statements are true: nitrogen occurs in the nitrogen-containing bases of DNA/RNA and is associated with growth and development.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-55-7",
@@ -15554,7 +15622,13 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct descriptions of nitrogen deficiency, uptake and fixation."
+     "explanation": "All three statements are correct descriptions of nitrogen deficiency, uptake and fixation.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "biology-55-8",
@@ -15568,7 +15642,10 @@
       "Amino acids"
      ],
      "answer": 1,
-     "explanation": "Nitrogen is mainly taken up as nitrate (NO₃⁻)."
+     "explanation": "Nitrogen is mainly taken up as nitrate (NO₃⁻).",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "biology-55-9",
@@ -15582,7 +15659,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the association of ATP with energy transfer explains the role of phosphorus in this process."
+     "explanation": "Both statements are true, and the association of ATP with energy transfer explains the role of phosphorus in this process.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "biology-55-10",
@@ -15596,7 +15676,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are ATP–energy transfer, DNA/RNA–structural component, phospholipids–membrane development, and phosphorus deficiency–dark/intense green or reddish leaves."
+     "explanation": "The correct pairs are ATP–energy transfer, DNA/RNA–structural component, phospholipids–membrane development, and phosphorus deficiency–dark/intense green or reddish leaves.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "biology-55-11",
@@ -15610,7 +15697,10 @@
       "Potassium"
      ],
      "answer": 0,
-     "explanation": "Phosphorus hastens maturity."
+     "explanation": "Phosphorus hastens maturity.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "biology-55-12",
@@ -15624,7 +15714,10 @@
       "Phosphorus"
      ],
      "answer": 3,
-     "explanation": "Phosphorus promotes early flowering."
+     "explanation": "Phosphorus promotes early flowering.",
+     "facts": [
+      "F23"
+     ]
     },
     {
      "id": "biology-55-13",
@@ -15638,7 +15731,10 @@
       "Structural contribution to DNA/RNA"
      ],
      "answer": 2,
-     "explanation": "Potassium regulates the opening and closing of stomata."
+     "explanation": "Potassium regulates the opening and closing of stomata.",
+     "facts": [
+      "F26"
+     ]
     },
     {
      "id": "biology-55-14",
@@ -15652,7 +15748,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and enzyme activation explains potassium's role in supporting enzyme activity."
+     "explanation": "Both statements are true, and enzyme activation explains potassium's role in supporting enzyme activity.",
+     "facts": [
+      "F27"
+     ]
     },
     {
      "id": "biology-55-15",
@@ -15666,7 +15765,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Potassium helps regulate water balance and contributes to plant resilience under stress."
+     "explanation": "Both statements are true. Potassium helps regulate water balance and contributes to plant resilience under stress.",
+     "facts": [
+      "F28",
+      "F32"
+     ]
     },
     {
      "id": "biology-55-16",
@@ -15680,7 +15783,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "Necrosis, interveinal chlorosis and wilting are all listed symptoms of potassium deficiency."
+     "explanation": "Necrosis, interveinal chlorosis and wilting are all listed symptoms of potassium deficiency.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "biology-55-17",
@@ -15694,7 +15802,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three are associated with phosphorus. Regulation of stomatal opening and closing is associated with potassium."
+     "explanation": "The first three are associated with phosphorus. Regulation of stomatal opening and closing is associated with potassium.",
+     "facts": [
+      "F17",
+      "F19",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "biology-55-18",
@@ -15708,7 +15822,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are stomata–opening and closing, enzymes–activation, water relations–regulation of water balance, and plant stress–resilience."
+     "explanation": "The correct pairs are stomata–opening and closing, enzymes–activation, water relations–regulation of water balance, and plant stress–resilience.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F32"
+     ]
     },
     {
      "id": "biology-55-19",
@@ -15722,7 +15842,10 @@
       "Chemical fertilizer"
      ],
      "answer": 3,
-     "explanation": "Chemical fertilizer is an important source of concentrated nutrients."
+     "explanation": "Chemical fertilizer is an important source of concentrated nutrients.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-55-20",
@@ -15736,9 +15859,19 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: organic manure supplies nutrients but is relatively limited in phosphorus, while NPK represents the major plant nutrients."
+     "explanation": "Both statements are true: organic manure supplies nutrients but is relatively limited in phosphorus, while NPK represents the major plant nutrients.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "56": {
    "number": 56,
@@ -16838,7 +16971,8 @@
       "F43",
       "F49",
       "F50",
-      "F51"
+      "F51",
+      "F44"
      ]
     },
     {
@@ -16936,7 +17070,8 @@
       "F19",
       "F23",
       "F59",
-      "F63"
+      "F63",
+      "F60"
      ]
     },
     {
@@ -17044,7 +17179,9 @@
       "F73",
       "F74",
       "F75",
-      "F88"
+      "F88",
+      "F94",
+      "F95"
      ]
     },
     {
@@ -17064,7 +17201,9 @@
       "F89",
       "F93",
       "F97",
-      "F99"
+      "F99",
+      "F67",
+      "F79"
      ]
     },
     {
@@ -17509,7 +17648,12 @@
       "Saline soils and waters"
      ],
      "answer": 0,
-     "explanation": "The lion-tailed macaque is associated with the Western Ghats, tropical moist evergreen/monsoon forests and the upper canopy."
+     "explanation": "The lion-tailed macaque is associated with the Western Ghats, tropical moist evergreen/monsoon forests and the upper canopy.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "biology-61-2",
@@ -17523,7 +17667,20 @@
       "The sambar is found in the Indian subcontinent and mainly shows crepuscular and nocturnal activity."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the habitat of the golden mahseer. It is associated with rapid streams, riverine pools and Himalayan lakes, whereas anaerobic wetlands and ruminant digestive tracts are associated with methanogens."
+     "explanation": "The incorrect statement alters the habitat of the golden mahseer. It is associated with rapid streams, riverine pools and Himalayan lakes, whereas anaerobic wetlands and ruminant digestive tracts are associated with methanogens.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "biology-61-3",
@@ -17537,7 +17694,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct: the Malabar civet is associated with the Western Ghats and is nocturnal, while the sambar mainly has crepuscular and nocturnal activity."
+     "explanation": "Both statements are correct: the Malabar civet is associated with the Western Ghats and is nocturnal, while the sambar mainly has crepuscular and nocturnal activity.",
+     "facts": [
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "biology-61-4",
@@ -17551,7 +17713,12 @@
       "Rocks and rocky surfaces"
      ],
      "answer": 1,
-     "explanation": "The golden mahseer is associated with rapid streams, riverine pools and Himalayan lakes."
+     "explanation": "The golden mahseer is associated with rapid streams, riverine pools and Himalayan lakes.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "biology-61-5",
@@ -17565,7 +17732,18 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: cyanobacteria—terrestrial and aquatic habitats; methanogens—anaerobic wetlands and ruminant digestive tract; protists—water, moist terrestrial habitats and parasitic/symbiotic associations; halophytes—saline soils/waters."
+     "explanation": "The correct pairs are: cyanobacteria—terrestrial and aquatic habitats; methanogens—anaerobic wetlands and ruminant digestive tract; protists—water, moist terrestrial habitats and parasitic/symbiotic associations; halophytes—saline soils/waters.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-61-6",
@@ -17579,7 +17757,13 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true. The reason is false because the association with both terrestrial and aquatic habitats is stated for cyanobacteria, not methanogens."
+     "explanation": "The assertion is true. The reason is false because the association with both terrestrial and aquatic habitats is stated for cyanobacteria, not methanogens.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "biology-61-7",
@@ -17593,7 +17777,10 @@
       "Cuscuta"
      ],
      "answer": 2,
-     "explanation": "Nepenthes is associated with a tropical pitcher plant habitat."
+     "explanation": "Nepenthes is associated with a tropical pitcher plant habitat.",
+     "facts": [
+      "F23"
+     ]
     },
     {
      "id": "biology-61-8",
@@ -17607,7 +17794,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: hydrophytes—aquatic habitats; lithophytes—rocks; epiphytes—another plant mainly for support; Cuscuta—host plants as a stem parasite."
+     "explanation": "The correct pairs are: hydrophytes—aquatic habitats; lithophytes—rocks; epiphytes—another plant mainly for support; Cuscuta—host plants as a stem parasite.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "biology-61-9",
@@ -17621,7 +17814,12 @@
       "Piercing/sucking mouthparts for blood-feeding"
      ],
      "answer": 0,
-     "explanation": "The camel has desert adaptation, can withstand prolonged water deprivation and has broad leathery foot pads."
+     "explanation": "The camel has desert adaptation, can withstand prolonged water deprivation and has broad leathery foot pads.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "biology-61-10",
@@ -17635,7 +17833,16 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: female mosquito—piercing/sucking mouthparts and blood-feeding; male mosquito—nectar/flower feeding; camel—desert adaptation with prolonged water deprivation and broad leathery foot pads; xerophytes—adapted to dry conditions."
+     "explanation": "The correct pairs are: female mosquito—piercing/sucking mouthparts and blood-feeding; male mosquito—nectar/flower feeding; camel—desert adaptation with prolonged water deprivation and broad leathery foot pads; xerophytes—adapted to dry conditions.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F36"
+     ]
     },
     {
      "id": "biology-61-11",
@@ -17649,7 +17856,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the assertion by specifying the different feeding adaptations of female and male mosquitoes."
+     "explanation": "Both statements are true, and the reason directly explains the assertion by specifying the different feeding adaptations of female and male mosquitoes.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "biology-61-12",
@@ -17663,7 +17875,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. Halophytes are adapted to saline conditions, hydrophytes to aquatic environments and xerophytes to dry conditions."
+     "explanation": "All three statements are correct. Halophytes are adapted to saline conditions, hydrophytes to aquatic environments and xerophytes to dry conditions.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "biology-61-13",
@@ -17677,7 +17894,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the reason describes lithophytes and does not explain the support relationship of epiphytes."
+     "explanation": "Both statements are true, but the reason describes lithophytes and does not explain the support relationship of epiphytes.",
+     "facts": [
+      "F22",
+      "F37"
+     ]
     },
     {
      "id": "biology-61-14",
@@ -17691,7 +17912,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect because epiphytes use another plant mainly for physical support; adaptation to grow on rocks describes lithophytes."
+     "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect because epiphytes use another plant mainly for physical support; adaptation to grow on rocks describes lithophytes.",
+     "facts": [
+      "F22",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F37"
+     ]
     },
     {
      "id": "biology-61-15",
@@ -17705,7 +17934,10 @@
       "Reptilia and Aves"
      ],
      "answer": 3,
-     "explanation": "Archaeopteryx is the connecting link between Reptilia and Aves."
+     "explanation": "Archaeopteryx is the connecting link between Reptilia and Aves.",
+     "facts": [
+      "F38"
+     ]
     },
     {
      "id": "biology-61-16",
@@ -17719,7 +17951,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly correct: Archaeopteryx has reptilian and avian characters, and the mammoth is closely related to modern elephants."
+     "explanation": "Both statements are directly correct: Archaeopteryx has reptilian and avian characters, and the mammoth is closely related to modern elephants.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "biology-61-17",
@@ -17733,7 +17970,10 @@
       "Invertebrates to vertebrates"
      ],
      "answer": 3,
-     "explanation": "Protochordates represent the transition concept from invertebrates to vertebrates."
+     "explanation": "Protochordates represent the transition concept from invertebrates to vertebrates.",
+     "facts": [
+      "F42"
+     ]
     },
     {
      "id": "biology-61-18",
@@ -17747,7 +17987,14 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct. They describe the connecting-link status and characters of Archaeopteryx, the transition concept represented by protochordates, and the relationship of mammoths to modern elephants."
+     "explanation": "All four statements are correct. They describe the connecting-link status and characters of Archaeopteryx, the transition concept represented by protochordates, and the relationship of mammoths to modern elephants.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "biology-61-19",
@@ -17761,7 +18008,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. The camel shows desert adaptation, including tolerance of prolonged water deprivation and broad leathery foot pads."
+     "explanation": "Both statements are correct. The camel shows desert adaptation, including tolerance of prolonged water deprivation and broad leathery foot pads.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "biology-61-20",
@@ -17775,9 +18026,21 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two are associated with parasitism: protists may have parasitic or symbiotic associations, while Cuscuta grows on host plants as a stem parasite. Nepenthes is associated with tropical pitcher plant habitats, and cyanobacteria occur in terrestrial and aquatic habitats."
+     "explanation": "Two are associated with parasitism: protists may have parasitic or symbiotic associations, while Cuscuta grows on host plants as a stem parasite. Nepenthes is associated with tropical pitcher plant habitats, and cyanobacteria occur in terrestrial and aquatic habitats.",
+     "facts": [
+      "F11",
+      "F12",
+      "F17",
+      "F23",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "61-2": {
    "number": 61,
@@ -21007,7 +21270,8 @@
      "explanation": "Elie Metchnikoff is associated with cellular immunity and phagocytosis.",
      "facts": [
       "F25",
-      "F26"
+      "F26",
+      "F27"
      ]
     },
     {

@@ -10771,7 +10771,8 @@
      "answer": 2,
      "explanation": "Noonmati Refinery is located at Guwahati in Assam.",
      "facts": [
-      "F25"
+      "F25",
+      "F5"
      ]
     },
     {
@@ -10810,7 +10811,11 @@
       "F7",
       "F8",
       "F9",
-      "F10"
+      "F10",
+      "F31",
+      "F34",
+      "F37",
+      "F40"
      ]
     },
     {
@@ -10827,7 +10832,9 @@
      "answer": 0,
      "explanation": "Barauni Refinery is located at Barauni in Bihar. It is not located in Assam.",
      "facts": [
-      "F8"
+      "F8",
+      "F34",
+      "F36"
      ]
     },
     {
@@ -10845,7 +10852,8 @@
      "explanation": "Both statements are true: Kochi Refinery is located at Kochi in Kerala and is associated with BPCL. Its location does not explain its company association.",
      "facts": [
       "F9",
-      "F41"
+      "F41",
+      "F40"
      ]
     },
     {
@@ -10863,7 +10871,8 @@
      "explanation": "Both statements are correct. Mathura Refinery is located at Mathura in Uttar Pradesh and was commissioned in 1982.",
      "facts": [
       "F10",
-      "F39"
+      "F39",
+      "F37"
      ]
     },
     {
@@ -10880,7 +10889,8 @@
      "answer": 3,
      "explanation": "Manali Refinery is located at Chennai in Tamil Nadu.",
      "facts": [
-      "F42"
+      "F42",
+      "F11"
      ]
     },
     {
@@ -10898,7 +10908,9 @@
      "explanation": "Tatipaka Refinery is associated with ONGC, while Visakhapatnam Refinery is associated with HPCL.",
      "facts": [
       "F45",
-      "F48"
+      "F48",
+      "F12",
+      "F13"
      ]
     },
     {
@@ -10974,7 +10986,9 @@
      "explanation": "Bhilai Steel Plant is located at Bhilai in Chhattisgarh and is associated with the iron and steel industry.",
      "facts": [
       "F51",
-      "F52"
+      "F52",
+      "F50",
+      "F55"
      ]
     },
     {
@@ -10992,7 +11006,8 @@
      "explanation": "Titagarh in West Bengal is associated with the paper industry. The statement placing it in Chhattisgarh is false.",
      "facts": [
       "F53",
-      "F54"
+      "F54",
+      "F55"
      ]
     },
     {
@@ -11357,7 +11372,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements correctly state the CCA classifications: minor projects are up to 2,000 ha, medium projects are above 2,000 to 10,000 ha, and major projects are above 10,000 ha."
+     "explanation": "All three statements correctly state the CCA classifications: minor projects are up to 2,000 ha, medium projects are above 2,000 to 10,000 ha, and major projects are above 10,000 ha.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-31-2",
@@ -11371,7 +11391,10 @@
       "Babli Project"
      ],
      "answer": 0,
-     "explanation": "The Telugu Ganga Project is located in Andhra Pradesh and supplies Chennai."
+     "explanation": "The Telugu Ganga Project is located in Andhra Pradesh and supplies Chennai.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-31-3",
@@ -11385,7 +11408,12 @@
       "Pochampad Project is located in Telangana."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Srisailam Project is located on the Andhra Pradesh–Telangana border, not in Karnataka."
+     "explanation": "The incorrect statement is the fourth one. Srisailam Project is located on the Andhra Pradesh–Telangana border, not in Karnataka.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-31-4",
@@ -11399,7 +11427,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Krishna River association does not explain the project's location on the Andhra Pradesh–Telangana border."
+     "explanation": "Both statements are true, but the Krishna River association does not explain the project's location on the Andhra Pradesh–Telangana border.",
+     "facts": [
+      "F4",
+      "F19"
+     ]
     },
     {
      "id": "indian-geography-31-5",
@@ -11413,7 +11445,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Bhakra–Nangal–Himachal Pradesh, Punjab, Haryana and Rajasthan; Damodar Valley–Jharkhand and West Bengal; Hirakud–Odisha; and Rihand–Uttar Pradesh."
+     "explanation": "The correct pairs are Bhakra–Nangal–Himachal Pradesh, Punjab, Haryana and Rajasthan; Damodar Valley–Jharkhand and West Bengal; Hirakud–Odisha; and Rihand–Uttar Pradesh.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-31-6",
@@ -11427,7 +11465,10 @@
       "Uttarakhand"
      ],
      "answer": 1,
-     "explanation": "The Babli Project is located in Maharashtra."
+     "explanation": "The Babli Project is located in Maharashtra.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-31-7",
@@ -11441,7 +11482,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Bhakra–Nangal covers Himachal Pradesh, Punjab, Haryana and Rajasthan, while Hirakud is located in Odisha."
+     "explanation": "Both statements are true. Bhakra–Nangal covers Himachal Pradesh, Punjab, Haryana and Rajasthan, while Hirakud is located in Odisha.",
+     "facts": [
+      "F11",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-31-8",
@@ -11455,7 +11500,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Nagarjuna Sagar is associated with the Krishna River and Pochampad with the Godavari River. Srisailam is associated with the Krishna River, not the Tungabhadra River."
+     "explanation": "Nagarjuna Sagar is associated with the Krishna River and Pochampad with the Godavari River. Srisailam is associated with the Krishna River, not the Tungabhadra River.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-31-9",
@@ -11469,7 +11519,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Srisailam–Krishna, Tungabhadra–Tungabhadra, Hirakud–Mahanadi and Rihand–Rihand."
+     "explanation": "The correct pairs are Srisailam–Krishna, Tungabhadra–Tungabhadra, Hirakud–Mahanadi and Rihand–Rihand.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-31-10",
@@ -11483,7 +11539,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the river identification directly establishes the association of the Tehri Project with the Bhagirathi River."
+     "explanation": "Both statements are true, and the river identification directly establishes the association of the Tehri Project with the Bhagirathi River.",
+     "facts": [
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-31-11",
@@ -11497,7 +11556,10 @@
       "Periyar"
      ],
      "answer": 3,
-     "explanation": "The Idukki Project is associated with the Periyar River."
+     "explanation": "The Idukki Project is associated with the Periyar River.",
+     "facts": [
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-31-12",
@@ -11511,7 +11573,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two projects in the list—Hirakud Project and Mahanadi Project—are located in Odisha."
+     "explanation": "Two projects in the list—Hirakud Project and Mahanadi Project—are located in Odisha.",
+     "facts": [
+      "F13",
+      "F14",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-31-13",
@@ -11525,7 +11593,10 @@
       "Bihar and Nepal"
      ],
      "answer": 3,
-     "explanation": "The Kosi Project is located in Bihar and Nepal."
+     "explanation": "The Kosi Project is located in Bihar and Nepal.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-31-14",
@@ -11539,7 +11610,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the project-location classifications."
+     "explanation": "Both statements are true according to the project-location classifications.",
+     "facts": [
+      "F7",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-31-15",
@@ -11553,7 +11628,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Matatila–Betwa, Jayakwadi–Godavari, Shivasamudram–Cauvery and Tawa–Tawa."
+     "explanation": "The correct pairs are Matatila–Betwa, Jayakwadi–Godavari, Shivasamudram–Cauvery and Tawa–Tawa.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-31-16",
@@ -11567,7 +11648,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Mandal–North Koel, Mayurakshi–Mayurakshi, Bhakra–Nangal–Sutlej and Chambal projects–Chambal."
+     "explanation": "The correct pairs are Mandal–North Koel, Mayurakshi–Mayurakshi, Bhakra–Nangal–Sutlej and Chambal projects–Chambal.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-31-17",
@@ -11581,7 +11668,10 @@
       "Pamba"
      ],
      "answer": 3,
-     "explanation": "The Pamba Project is associated with the Pamba River."
+     "explanation": "The Pamba Project is associated with the Pamba River.",
+     "facts": [
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-31-18",
@@ -11595,7 +11685,13 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct project–river pairings."
+     "explanation": "All four statements are correct project–river pairings.",
+     "facts": [
+      "F31",
+      "F32",
+      "F34",
+      "F36"
+     ]
     },
     {
      "id": "indian-geography-31-19",
@@ -11609,7 +11705,10 @@
       ">10,000 hectares"
      ],
      "answer": 3,
-     "explanation": "A major irrigation project has a CCA of more than 10,000 hectares."
+     "explanation": "A major irrigation project has a CCA of more than 10,000 hectares.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-31-20",
@@ -11623,7 +11722,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The project-location listings place Pochampad Project in Telangana and Srisailam Project on the Andhra Pradesh–Telangana border."
+     "explanation": "The project-location listings place Pochampad Project in Telangana and Srisailam Project on the Andhra Pradesh–Telangana border.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     }
    ]
   },
@@ -15996,7 +16099,10 @@
       "Guhar Moti, Kutch"
      ],
      "answer": 3,
-     "explanation": "Guhar Moti in Kutch, Gujarat, is identified as the westernmost point of India."
+     "explanation": "Guhar Moti in Kutch, Gujarat, is identified as the westernmost point of India.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-47-2",
@@ -16010,7 +16116,10 @@
       "97°25′ E"
      ],
      "answer": 1,
-     "explanation": "The westernmost longitude is 68°7′ E."
+     "explanation": "The westernmost longitude is 68°7′ E.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-47-3",
@@ -16024,7 +16133,10 @@
       "Arunachal Pradesh"
      ],
      "answer": 3,
-     "explanation": "The easternmost extent of India is in Arunachal Pradesh."
+     "explanation": "The easternmost extent of India is in Arunachal Pradesh.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-47-4",
@@ -16038,7 +16150,10 @@
       "78° E"
      ],
      "answer": 1,
-     "explanation": "The IST Meridian is 82°30′ E."
+     "explanation": "The IST Meridian is 82°30′ E.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-47-5",
@@ -16052,7 +16167,15 @@
       "The IST Meridian passes through Madhya Pradesh."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is Maharashtra. The five states listed are Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh."
+     "explanation": "The incorrect detail is Maharashtra. The five states listed are Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-47-6",
@@ -16066,7 +16189,10 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The west-to-east order is Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh."
+     "explanation": "The west-to-east order is Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-47-7",
@@ -16080,7 +16206,11 @@
       "Kutch"
      ],
      "answer": 0,
-     "explanation": "Mirzapur district in Uttar Pradesh is the reference location for the IST Meridian."
+     "explanation": "Mirzapur district in Uttar Pradesh is the reference location for the IST Meridian.",
+     "facts": [
+      "F21",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-47-8",
@@ -16094,7 +16224,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. At four minutes per degree, 15° correspond to 60 minutes, or one hour."
+     "explanation": "Both statements are true. At four minutes per degree, 15° correspond to 60 minutes, or one hour.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-47-9",
@@ -16108,7 +16242,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The stated direction rule is that eastward movement increases time, while westward movement decreases time."
+     "explanation": "The stated direction rule is that eastward movement increases time, while westward movement decreases time.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-47-10",
@@ -16122,7 +16260,10 @@
       "6 hours"
      ],
      "answer": 1,
-     "explanation": "The notes specify IST as GMT + 5 hours 30 minutes."
+     "explanation": "The notes specify IST as GMT + 5 hours 30 minutes.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-47-11",
@@ -16136,7 +16277,13 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct descriptions of the Indian Standard Time Meridian."
+     "explanation": "All three statements are correct descriptions of the Indian Standard Time Meridian.",
+     "facts": [
+      "F3",
+      "F21",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-geography-47-12",
@@ -16150,7 +16297,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Hyderabad is ~78° E, Bhopal ~77° E, Lucknow ~80°34′–81°12′ E and Bengaluru ~77° E."
+     "explanation": "Hyderabad is ~78° E, Bhopal ~77° E, Lucknow ~80°34′–81°12′ E and Bengaluru ~77° E.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-47-13",
@@ -16164,7 +16317,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three pairs are correct. Bengaluru is listed at approximately 77° E, not 78° E."
+     "explanation": "The first three pairs are correct. Bengaluru is listed at approximately 77° E, not 78° E.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-geography-47-14",
@@ -16178,7 +16337,10 @@
       "Bosphorus Strait"
      ],
      "answer": 0,
-     "explanation": "The Bering Strait is identified as the strait nearest to the International Date Line."
+     "explanation": "The Bering Strait is identified as the strait nearest to the International Date Line.",
+     "facts": [
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-47-15",
@@ -16192,7 +16354,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the westward adjustment does not explain the separate eastward adjustment."
+     "explanation": "Both statements are true, but the westward adjustment does not explain the separate eastward adjustment.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-47-16",
@@ -16206,7 +16372,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "The International Date Line is approximately at 180°. However, eastward crossing requires subtracting one day."
+     "explanation": "The International Date Line is approximately at 180°. However, eastward crossing requires subtracting one day.",
+     "facts": [
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-47-17",
@@ -16220,7 +16390,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Time increases towards the east, so statement III is false."
+     "explanation": "Statements I and II are correct. Time increases towards the east, so statement III is false.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-geography-47-18",
@@ -16234,7 +16409,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "One degree equals four minutes, 15° equals one hour, the IST Meridian is 82°30′ E, and IST is GMT + 5 hours 30 minutes."
+     "explanation": "One degree equals four minutes, 15° equals one hour, the IST Meridian is 82°30′ E, and IST is GMT + 5 hours 30 minutes.",
+     "facts": [
+      "F3",
+      "F13",
+      "F14",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-47-19",
@@ -16248,7 +16429,10 @@
       "Six"
      ],
      "answer": 0,
-     "explanation": "The 82°30′ E IST Meridian passes through five states: Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh."
+     "explanation": "The 82°30′ E IST Meridian passes through five states: Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh.",
+     "facts": [
+      "F6"
+     ]
     }
    ]
   },

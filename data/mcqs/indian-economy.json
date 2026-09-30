@@ -11716,8 +11716,47 @@
       "F28",
       "F14"
      ]
+    },
+    {
+     "id": "indian-economy-57-21",
+     "format": "List-Matching",
+     "keyword": "Sector Classification",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Processing\n(b) Banking\n(c) Agriculture\n(d) Weaving\n\nList-II\ni. Primary Sector\nii. Secondary Sector\niii. Tertiary Sector\niv. Financial Sector",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-ii",
+      "a-i, b-iii, c-ii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Processing and weaving are classified under the Secondary Sector, banking under the Tertiary Sector, and agriculture under the Primary Sector. Thus, the correct pairs are a-ii, b-iii, c-i and d-ii.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-economy-57-22",
+     "format": "Assertion-Reason",
+     "keyword": "Secondary Sector",
+     "question": "Assertion (A): Processing raw materials belongs to the Secondary Sector.\nReason (R): The Secondary Sector converts raw materials or natural products into finished or other forms.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Processing raw materials is a Secondary Sector activity because this sector converts raw materials or natural products into finished or other forms.",
+     "facts": [
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 49,
+    "covered": 49,
+    "audited": true
+   }
   },
   "58": {
    "number": 58,
@@ -11745,7 +11784,11 @@
       "Limiting banking infrastructure to urban areas"
      ],
      "answer": 0,
-     "explanation": "Promoting financial literacy is listed as an objective of financial inclusion, aimed at awareness and informed use."
+     "explanation": "Promoting financial literacy is listed as an objective of financial inclusion, aimed at awareness and informed use.",
+     "facts": [
+      "F4",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-58-2",
@@ -11759,7 +11802,10 @@
       "Only urban entrepreneurs"
      ],
      "answer": 2,
-     "explanation": "Extending financial services to the poor population is one of the stated objectives of financial inclusion."
+     "explanation": "Extending financial services to the poor population is one of the stated objectives of financial inclusion.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-58-3",
@@ -11773,7 +11819,10 @@
       "Only metropolitan areas"
      ],
      "answer": 2,
-     "explanation": "The notes associate expansion of banking infrastructure with underserved and rural areas."
+     "explanation": "The notes associate expansion of banking infrastructure with underserved and rural areas.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-58-4",
@@ -11787,7 +11836,11 @@
       "Weaker sections"
      ],
      "answer": 3,
-     "explanation": "Providing access to credit to weaker sections is a stated objective of financial inclusion."
+     "explanation": "Providing access to credit to weaker sections is a stated objective of financial inclusion.",
+     "facts": [
+      "F3",
+      "F19"
+     ]
     },
     {
      "id": "indian-economy-58-5",
@@ -11801,7 +11854,10 @@
       "Only large industrial units"
      ],
      "answer": 1,
-     "explanation": "Small Financing Banks are associated with providing credit to small and marginal farmers."
+     "explanation": "Small Financing Banks are associated with providing credit to small and marginal farmers.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-58-6",
@@ -11815,7 +11871,12 @@
       "The Committee on Financial Inclusion was constituted on 26 June 2006."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the chairmanship. The Committee on Financial Inclusion was chaired by Dr. C. Rangarajan; the Union Finance Minister chairs the FSDC."
+     "explanation": "The incorrect detail is the chairmanship. The Committee on Financial Inclusion was chaired by Dr. C. Rangarajan; the Union Finance Minister chairs the FSDC.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-58-7",
@@ -11829,7 +11890,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes link promotion of financial literacy with awareness and informed use."
+     "explanation": "Both statements are true. The notes link promotion of financial literacy with awareness and informed use.",
+     "facts": [
+      "F4",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-58-8",
@@ -11843,7 +11908,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but financial security is listed as an objective rather than as the explanation specifically given for promoting insurance access."
+     "explanation": "Both statements are true, but financial security is listed as an objective rather than as the explanation specifically given for promoting insurance access.",
+     "facts": [
+      "F6",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-58-9",
@@ -11857,7 +11926,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the date of the final report does not explain the committee's stated focus on a strategy for financial inclusion."
+     "explanation": "Both statements are true, but the date of the final report does not explain the committee's stated focus on a strategy for financial inclusion.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-58-10",
@@ -11871,7 +11944,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Its apex-level role in financial stability and development explains its responsibility for macroprudential supervision."
+     "explanation": "Both statements are true. Its apex-level role in financial stability and development explains its responsibility for macroprudential supervision.",
+     "facts": [
+      "F27",
+      "F30"
+     ]
     },
     {
      "id": "indian-economy-58-11",
@@ -11885,7 +11962,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly state the contrasting definitions of financial inclusion and financial exclusion."
+     "explanation": "Both statements correctly state the contrasting definitions of financial inclusion and financial exclusion.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-58-12",
@@ -11899,7 +11980,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "A bank account is listed under financial inclusion, whereas credit constraints are listed under financial exclusion."
+     "explanation": "A bank account is listed under financial inclusion, whereas credit constraints are listed under financial exclusion.",
+     "facts": [
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-58-13",
@@ -11913,7 +11998,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 3,
-     "explanation": "Statement A is false because the FSDC also focuses on financial literacy and financial inclusion. Statement B is true."
+     "explanation": "Statement A is false because the FSDC also focuses on financial literacy and financial inclusion. Statement B is true.",
+     "facts": [
+      "F27",
+      "F31"
+     ]
     },
     {
      "id": "indian-economy-58-14",
@@ -11927,7 +12016,13 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct objectives. Statement III is incorrect because financial inclusion promotes financial security."
+     "explanation": "Statements I and II are correct objectives. Statement III is incorrect because financial inclusion promotes financial security.",
+     "facts": [
+      "F5",
+      "F6",
+      "F21",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-58-15",
@@ -11941,7 +12036,12 @@
       "I and IV only"
      ],
      "answer": 2,
-     "explanation": "Small business units, small and marginal farmers, and rural entrepreneurs are identified beneficiaries. Financial-sector regulators are members associated with the FSDC, not listed beneficiaries of Small Financing Banks' credit."
+     "explanation": "Small business units, small and marginal farmers, and rural entrepreneurs are identified beneficiaries. Financial-sector regulators are members associated with the FSDC, not listed beneficiaries of Small Financing Banks' credit.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-58-16",
@@ -11955,7 +12055,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Committee—Committee on Financial Inclusion; Chairman—Dr. C. Rangarajan; Constitution date—26 June 2006; Final report date—4 January 2008."
+     "explanation": "The correct pairs are: Committee—Committee on Financial Inclusion; Chairman—Dr. C. Rangarajan; Constitution date—26 June 2006; Final report date—4 January 2008.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-58-17",
@@ -11969,7 +12075,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: financial inclusion—access to formal financial services and financial security; financial exclusion—lack of insurance access and lack of awareness."
+     "explanation": "The correct pairs are: financial inclusion—access to formal financial services and financial security; financial exclusion—lack of insurance access and lack of awareness.",
+     "facts": [
+      "F6",
+      "F15",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "indian-economy-58-18",
@@ -11983,7 +12095,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three are associated with financial exclusion. Financial security is an objective of financial inclusion, so the count is three."
+     "explanation": "The first three are associated with financial exclusion. Financial security is an objective of financial inclusion, so the count is three.",
+     "facts": [
+      "F6",
+      "F18",
+      "F20",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-58-19",
@@ -11997,7 +12115,10 @@
       "Only small and marginal farmers"
      ],
      "answer": 0,
-     "explanation": "The FSDC includes financial-sector regulators and others among its members."
+     "explanation": "The FSDC includes financial-sector regulators and others among its members.",
+     "facts": [
+      "F29"
+     ]
     },
     {
      "id": "indian-economy-58-20",
@@ -12011,9 +12132,17 @@
       "Dr. C. Rangarajan"
      ],
      "answer": 0,
-     "explanation": "The FSDC is chaired by the Union Finance Minister. Financial-sector regulators are among its members, while Dr. C. Rangarajan chaired the Committee on Financial Inclusion."
+     "explanation": "The FSDC is chaired by the Union Finance Minister. Financial-sector regulators are among its members, while Dr. C. Rangarajan chaired the Committee on Financial Inclusion.",
+     "facts": [
+      "F28"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 31,
+    "covered": 31,
+    "audited": true
+   }
   },
   "59": {
    "number": 59,
@@ -14128,7 +14257,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "Tarapore I dealt with Capital Account Convertibility, while Tarapore II dealt with Fuller Capital Account Convertibility. Narasimham I focused on Financial Sector / Banking Reforms and Narasimham II on Banking Sector Reforms."
+     "explanation": "Tarapore I dealt with Capital Account Convertibility, while Tarapore II dealt with Fuller Capital Account Convertibility. Narasimham I focused on Financial Sector / Banking Reforms and Narasimham II on Banking Sector Reforms.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-66-2",
@@ -14142,7 +14277,14 @@
       "M. Narasimham chaired Narasimham Committee – II."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the chairman. The Chelliah Committee was chaired by Raja J. Chelliah, whereas the Kelkar Task Force was chaired by Vijay L. Kelkar."
+     "explanation": "The incorrect statement alters the chairman. The Chelliah Committee was chaired by Raja J. Chelliah, whereas the Kelkar Task Force was chaired by Vijay L. Kelkar.",
+     "facts": [
+      "F1",
+      "F9",
+      "F11",
+      "F21",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-66-3",
@@ -14156,7 +14298,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the focus of Tarapore Committee – I does not explain the focus of Tarapore Committee – II."
+     "explanation": "Both statements are true, but the focus of Tarapore Committee – I does not explain the focus of Tarapore Committee – II.",
+     "facts": [
+      "F4",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-66-4",
@@ -14170,7 +14316,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly identify the focus areas of the two Narasimham Committees."
+     "explanation": "Both statements correctly identify the focus areas of the two Narasimham Committees.",
+     "facts": [
+      "F6",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-66-5",
@@ -14184,7 +14334,13 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Chelliah–Tax Reforms, Kelkar Task Force–Direct & Indirect Tax Reforms, Kelkar Committee–PPP Infrastructure Model, and Malhotra–Insurance Sector Reforms."
+     "explanation": "The correct pairs are Chelliah–Tax Reforms, Kelkar Task Force–Direct & Indirect Tax Reforms, Kelkar Committee–PPP Infrastructure Model, and Malhotra–Insurance Sector Reforms.",
+     "facts": [
+      "F10",
+      "F12",
+      "F14",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-66-6",
@@ -14198,7 +14354,10 @@
       "Vijay L. Kelkar"
      ],
      "answer": 0,
-     "explanation": "The Chelliah Committee was chaired by Raja J. Chelliah and focused on Tax Reforms."
+     "explanation": "The Chelliah Committee was chaired by Raja J. Chelliah and focused on Tax Reforms.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-economy-66-7",
@@ -14212,7 +14371,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The chairman's identity does not explain why the committee focused on Financial Inclusion."
+     "explanation": "Both statements are true. The chairman's identity does not explain why the committee focused on Financial Inclusion.",
+     "facts": [
+      "F16",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-66-8",
@@ -14226,7 +14389,13 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The three Rangarajan committees correspond respectively to Financial Inclusion, Sugar-sector deregulation, and Disinvestment of PSUs. The Malhotra Committee focused on Insurance Sector Reforms."
+     "explanation": "The three Rangarajan committees correspond respectively to Financial Inclusion, Sugar-sector deregulation, and Disinvestment of PSUs. The Malhotra Committee focused on Insurance Sector Reforms.",
+     "facts": [
+      "F16",
+      "F18",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-66-9",
@@ -14240,7 +14409,10 @@
       "Goswami Committee"
      ],
      "answer": 0,
-     "explanation": "The Malhotra Committee, chaired by R.N. Malhotra, focused on Insurance Sector Reforms."
+     "explanation": "The Malhotra Committee, chaired by R.N. Malhotra, focused on Insurance Sector Reforms.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-66-10",
@@ -14254,7 +14426,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Goswami–Industrial Sickness, Janakiraman–Stock Market Scam, Vaghul–Call Money Market, and Abid Hussain–De-reservation of small-scale industry items."
+     "explanation": "The correct pairs are Goswami–Industrial Sickness, Janakiraman–Stock Market Scam, Vaghul–Call Money Market, and Abid Hussain–De-reservation of small-scale industry items.",
+     "facts": [
+      "F24",
+      "F26",
+      "F28",
+      "F30"
+     ]
     },
     {
      "id": "indian-economy-66-11",
@@ -14268,7 +14446,11 @@
       "Vaghul"
      ],
      "answer": 2,
-     "explanation": "Abid Hussain chaired the Abid Hussain Committee, which focused on de-reservation of small-scale industry items."
+     "explanation": "Abid Hussain chaired the Abid Hussain Committee, which focused on de-reservation of small-scale industry items.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-economy-66-12",
@@ -14282,7 +14464,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly state the focus areas of the Janakiraman and Vaghul Committees."
+     "explanation": "Both statements correctly state the focus areas of the Janakiraman and Vaghul Committees.",
+     "facts": [
+      "F26",
+      "F28"
+     ]
     },
     {
      "id": "indian-economy-66-13",
@@ -14296,7 +14482,12 @@
       "C, B, D, A"
      ],
      "answer": 0,
-     "explanation": "The sequence is Vaghul Committee (1987), Narasimham Committee – I (1991), Narasimham Committee – II (1997; report 1998), and Raghuram Rajan Committee (2008)."
+     "explanation": "The sequence is Vaghul Committee (1987), Narasimham Committee – I (1991), Narasimham Committee – II (1997; report 1998), and Raghuram Rajan Committee (2008).",
+     "facts": [
+      "F31",
+      "F33",
+      "F35"
+     ]
     },
     {
      "id": "indian-economy-66-14",
@@ -14310,7 +14501,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements reproduce the years and report-year detail given for these committees."
+     "explanation": "All three statements reproduce the years and report-year detail given for these committees.",
+     "facts": [
+      "F31",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-economy-66-15",
@@ -14324,7 +14520,10 @@
       "Tarapore Committee – I"
      ],
      "answer": 1,
-     "explanation": "The Vaghul Committee focused on the Call Money Market."
+     "explanation": "The Vaghul Committee focused on the Call Money Market.",
+     "facts": [
+      "F28"
+     ]
     },
     {
      "id": "indian-economy-66-16",
@@ -14338,7 +14537,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct year pairs are Narasimham I–1991, Narasimham II–1997 with report in 1998, Raghuram Rajan–2008, and Vaghul–1987."
+     "explanation": "The correct year pairs are Narasimham I–1991, Narasimham II–1997 with report in 1998, Raghuram Rajan–2008, and Vaghul–1987.",
+     "facts": [
+      "F31",
+      "F33",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "indian-economy-66-17",
@@ -14352,7 +14557,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "C. Rangarajan chaired the three Rangarajan committees listed in I, II and III. The Malhotra Committee was chaired by R.N. Malhotra."
+     "explanation": "C. Rangarajan chaired the three Rangarajan committees listed in I, II and III. The Malhotra Committee was chaired by R.N. Malhotra.",
+     "facts": [
+      "F15",
+      "F17",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-66-18",
@@ -14366,7 +14577,10 @@
       "1997"
      ],
      "answer": 0,
-     "explanation": "The Raghuram Rajan Committee is associated with 2008 and focused on Financial Sector Reforms."
+     "explanation": "The Raghuram Rajan Committee is associated with 2008 and focused on Financial Sector Reforms.",
+     "facts": [
+      "F35"
+     ]
     },
     {
      "id": "indian-economy-66-19",
@@ -14380,7 +14594,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The Kelkar Task Force and Kelkar Committee were chaired by Vijay L. Kelkar; the Malhotra Committee by R.N. Malhotra; and the Janakiraman Committee by R. Janakiraman."
+     "explanation": "The Kelkar Task Force and Kelkar Committee were chaired by Vijay L. Kelkar; the Malhotra Committee by R.N. Malhotra; and the Janakiraman Committee by R. Janakiraman.",
+     "facts": [
+      "F11",
+      "F13",
+      "F21",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-66-20",
@@ -14394,7 +14614,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Narasimham Committee–I and the Raghuram Rajan Committee focused on Financial Sector Reforms. Narasimham Committee–II focused on Banking Sector Reforms, while the Vaghul Committee focused on the Call Money Market."
+     "explanation": "Narasimham Committee–I and the Raghuram Rajan Committee focused on Financial Sector Reforms. Narasimham Committee–II focused on Banking Sector Reforms, while the Vaghul Committee focused on the Call Money Market.",
+     "facts": [
+      "F32",
+      "F8",
+      "F36",
+      "F28"
+     ]
     }
    ]
   },
@@ -14942,7 +15168,14 @@
       "More capital is needed for each unit of output"
      ],
      "answer": 3,
-     "explanation": "A high COR means that more capital is needed to produce each unit of output."
+     "explanation": "A high COR means that more capital is needed to produce each unit of output.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-68-2",
@@ -14956,7 +15189,14 @@
       "A low COR means that more capital is needed for each unit of output."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the effect attributed to a low COR. A low COR indicates greater output from a given amount of capital, not that more capital is needed for each unit of output."
+     "explanation": "The incorrect detail is the effect attributed to a low COR. A low COR indicates greater output from a given amount of capital, not that more capital is needed for each unit of output.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-68-3",
@@ -14970,7 +15210,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. When investment produces relatively less output, capital productivity is lower."
+     "explanation": "Both statements are true. When investment produces relatively less output, capital productivity is lower.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-68-4",
@@ -14984,7 +15228,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly describe the effect of a low COR."
+     "explanation": "Both statements correctly describe the effect of a low COR.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-68-5",
@@ -14998,7 +15246,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are listed effects of a high COR."
+     "explanation": "All three statements are listed effects of a high COR.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-68-6",
@@ -15012,7 +15265,10 @@
       "National Statistical Office"
      ],
      "answer": 1,
-     "explanation": "The term ‘Hindu Rate of Growth’ was coined by economist Raj Krishna."
+     "explanation": "The term ‘Hindu Rate of Growth’ was coined by economist Raj Krishna.",
+     "facts": [
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-68-7",
@@ -15026,7 +15282,14 @@
       "It referred to an approximate growth rate of around 5.5%."
      ],
      "answer": 3,
-     "explanation": "The altered detail is the approximate growth rate. The Hindu Rate of Growth was around 3.5%, not 5.5%."
+     "explanation": "The altered detail is the approximate growth rate. The Hindu Rate of Growth was around 3.5%, not 5.5%.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-68-8",
@@ -15040,7 +15303,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the approximate rate of around 3.5% explains why the growth was characterised as slow."
+     "explanation": "Both statements are true, and the approximate rate of around 3.5% explains why the growth was characterised as slow.",
+     "facts": [
+      "F8",
+      "F10",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-68-9",
@@ -15054,7 +15322,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct descriptions of the period and context associated with the Hindu Rate of Growth."
+     "explanation": "Both statements are correct descriptions of the period and context associated with the Hindu Rate of Growth.",
+     "facts": [
+      "F9",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-68-10",
@@ -15068,7 +15340,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed items are associated with the Hindu Rate of Growth."
+     "explanation": "All four listed items are associated with the Hindu Rate of Growth.",
+     "facts": [
+      "F7",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-68-11",
@@ -15082,7 +15360,14 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Industrial Corridor–industrial development and connectivity; Economic Corridor–movement of goods, services and economic activity; Dedicated Freight Corridor–railway freight infrastructure; NIMZ–large developed manufacturing areas."
+     "explanation": "The correct pairs are: Industrial Corridor–industrial development and connectivity; Economic Corridor–movement of goods, services and economic activity; Dedicated Freight Corridor–railway freight infrastructure; NIMZ–large developed manufacturing areas.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-12",
@@ -15096,7 +15381,10 @@
       "Dedicated railway freight transportation only"
      ],
      "answer": 2,
-     "explanation": "An Industrial Corridor combines industrial development with connectivity."
+     "explanation": "An Industrial Corridor combines industrial development with connectivity.",
+     "facts": [
+      "F13"
+     ]
     },
     {
      "id": "indian-economy-68-13",
@@ -15110,7 +15398,14 @@
       "A Dedicated Freight Corridor is dedicated railway freight transportation infrastructure."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the description of an Economic Corridor. Large developed areas with an ecosystem for world-class manufacturing describe NIMZs."
+     "explanation": "The incorrect detail is the description of an Economic Corridor. Large developed areas with an ecosystem for world-class manufacturing describe NIMZs.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-14",
@@ -15124,7 +15419,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Connectivity facilitates the movement of goods, services and economic activity."
+     "explanation": "Both statements are true. Connectivity facilitates the movement of goods, services and economic activity.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-68-15",
@@ -15138,7 +15436,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is correct. Statement B describes the envisaged ecosystem of NIMZs, not a Dedicated Freight Corridor."
+     "explanation": "Statement A is correct. Statement B describes the envisaged ecosystem of NIMZs, not a Dedicated Freight Corridor.",
+     "facts": [
+      "F14",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-16",
@@ -15152,7 +15455,14 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii."
+     "explanation": "The correct pairs are a-iv, b-ii, c-i and d-iii.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-17",
@@ -15166,7 +15476,10 @@
       "National Income Policy, 2011"
      ],
      "answer": 0,
-     "explanation": "NIMZs are instruments of the National Manufacturing Policy, 2011."
+     "explanation": "NIMZs are instruments of the National Manufacturing Policy, 2011.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-68-18",
@@ -15180,7 +15493,13 @@
       "NIMZs are envisaged as dedicated railway freight transportation infrastructure."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the description of NIMZs as railway freight infrastructure. NIMZs are large developed areas with the required ecosystem for world-class manufacturing."
+     "explanation": "The incorrect detail is the description of NIMZs as railway freight infrastructure. NIMZs are large developed areas with the required ecosystem for world-class manufacturing.",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-19",
@@ -15194,7 +15513,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The developed areas are envisaged with the ecosystem required for world-class manufacturing."
+     "explanation": "Both statements are true. The developed areas are envisaged with the ecosystem required for world-class manufacturing.",
+     "facts": [
+      "F14",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-20",
@@ -15208,7 +15531,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements describe NIMZs as presented in the policy framework."
+     "explanation": "All three statements describe NIMZs as presented in the policy framework.",
+     "facts": [
+      "F14",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-68-21",
@@ -15222,7 +15550,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three are effects of a high COR. Greater output from a given amount of capital is associated with a low COR."
+     "explanation": "The first three are effects of a high COR. Greater output from a given amount of capital is associated with a low COR.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6"
+     ]
     }
    ]
   },
