@@ -5941,7 +5941,8 @@
      "answer": 1,
      "explanation": "Graphite is used in crucibles. Gas masks and medical detoxification are applications of activated charcoal, while carbon black is used in tyres as a reinforcing agent.",
      "facts": [
-      "F66"
+      "F66",
+      "F86"
      ]
     },
     {
@@ -5959,7 +5960,8 @@
      "explanation": "Activated charcoal is used in gas masks and for medical detoxification. Tyres as a reinforcing agent is an application of carbon black, while perfumes are associated with esters.",
      "facts": [
       "F78",
-      "F79"
+      "F79",
+      "F86"
      ]
     },
     {
@@ -6059,8 +6061,139 @@
       "F119",
       "F120"
      ]
+    },
+    {
+     "id": "chemistry-6-29",
+     "format": "Direct Recall",
+     "keyword": "Fuel",
+     "question": "Which of the following is listed under the industrial application ‘Fuel’?",
+     "options": [
+      "Graphite",
+      "CNG",
+      "Acetic acid",
+      "Carbon black"
+     ],
+     "answer": 1,
+     "explanation": "CNG is listed as a fuel in the industrial applications of carbon and its compounds.",
+     "facts": [
+      "F129"
+     ]
+    },
+    {
+     "id": "chemistry-6-30",
+     "format": "Assertion-Reason",
+     "keyword": "Chemicals and Solvents",
+     "question": "Assertion (A): Acetic acid is used in chemicals and solvents.\nReason (R): Carbon black is used in construction and tyres.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the use of carbon black in construction and tyres does not explain the use of acetic acid in chemicals and solvents.",
+     "facts": [
+      "F131",
+      "F136",
+      "F86"
+     ]
+    },
+    {
+     "id": "chemistry-6-31",
+     "format": "Direct Recall",
+     "keyword": "Plastics & Polymers",
+     "question": "Which of the following is used to make plastics and polymers?",
+     "options": [
+      "Ethanoic acid",
+      "Carbon black",
+      "Graphite",
+      "Hydrocarbon monomers"
+     ],
+     "answer": 3,
+     "explanation": "Hydrocarbon monomers are used to make plastics and polymers.",
+     "facts": [
+      "F132"
+     ]
+    },
+    {
+     "id": "chemistry-6-32",
+     "format": "Count-Based",
+     "keyword": "Electronics and Nanotechnology",
+     "question": "How many of the following are used in electronics and nanotechnology?\nI. Fullerenes\nII. Carbon nanotubes\nIII. Carbon black\nIV. Hydrocarbon monomers",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Fullerenes and carbon nanotubes are used in electronics and nanotechnology. Carbon black is used in construction and tyres, while hydrocarbon monomers are used to make plastics and polymers.",
+     "facts": [
+      "F134",
+      "F135"
+     ]
+    },
+    {
+     "id": "chemistry-6-33",
+     "format": "Assertion-Reason",
+     "keyword": "Carbon allotrope → Use / Application",
+     "question": "Assertion (A): Carbon black is also called lampblack.\nReason (R): Carbon black is used in ink.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Carbon black is also called lampblack, and it is used in ink. However, its use in ink does not explain why it is called lampblack.",
+     "facts": [
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "chemistry-6-34",
+     "format": "Direct Recall",
+     "keyword": "Carbon allotrope → Use / Application",
+     "question": "Carbon black is used in which of the following?",
+     "options": [
+      "Nuclear reactor moderators",
+      "Li-ion battery anodes",
+      "Paints",
+      "Glass cutters"
+     ],
+     "answer": 2,
+     "explanation": "Carbon black, also called lampblack, is used in paints.",
+     "facts": [
+      "F85"
+     ]
+    },
+    {
+     "id": "chemistry-6-35",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industrial application → Fuel",
+     "question": "Consider the following statements:\nI. Coal is used as a fuel.\nII. Hydrocarbons are used as fuels.\nIII. Petrol is used as a fuel.\nIV. Diesel is used as a fuel.",
+     "options": [
+      "I and II only",
+      "I, III and IV only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Coal, hydrocarbons, petrol and diesel are all identified as fuels or fuel sources.",
+     "facts": [
+      "F125",
+      "F126",
+      "F127",
+      "F128"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 136,
+    "covered": 136,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -9372,8 +9505,67 @@
       "F78",
       "F79"
      ]
+    },
+    {
+     "id": "chemistry-11-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Radioactivity",
+     "question": "Consider the following statements:\nStatement A: Radioactivity emits beta particles.\nStatement B: Radioactivity emits gamma radiation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Beta particles and gamma radiation are both listed among the particles emitted in radioactivity.",
+     "facts": [
+      "F80",
+      "F81"
+     ]
+    },
+    {
+     "id": "chemistry-11-23",
+     "format": "List-Matching",
+     "keyword": "Radioactivity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Alpha particle\n(b) Beta particle as a negative particle\n(c) Beta particle as a positive particle\n(d) Gamma radiation\n\nList-II\n(i) Electron\n(ii) Electromagnetic radiation\n(iii) Helium nucleus with a +2 charge\n(iv) Positron",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "An alpha particle is a helium nucleus with a +2 charge. A beta particle may be an electron or positron, while gamma radiation is electromagnetic radiation.",
+     "facts": [
+      "F82",
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "chemistry-11-24",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "What are protons and neutrons collectively called?",
+     "options": [
+      "Isobars",
+      "Nucleons",
+      "Isotones",
+      "Isotopes"
+     ],
+     "answer": 1,
+     "explanation": "Protons and neutrons are collectively known as nucleons.",
+     "facts": [
+      "F54"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 84,
+    "covered": 84,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -10998,10 +11190,185 @@
      "answer": 2,
      "explanation": "Formation of curd involves lactic acid bacteria converting lactose.",
      "facts": [
-      "F25"
+      "F25",
+      "F27"
+     ]
+    },
+    {
+     "id": "chemistry-13-18",
+     "format": "List-Matching",
+     "keyword": "Reversible Changes",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sublimation and deposition\n(b) Dissolution and crystallisation\n(c) Expansion and contraction\n\nList-II\n(i) Metals on heating or cooling\n(ii) Camphor or ammonium chloride\n(iii) Salt in water",
+     "options": [
+      "a-ii, b-i, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-i, b-ii, c-iii"
+     ],
+     "answer": 1,
+     "explanation": "Sublimation and deposition are reversible physical changes involving camphor or ammonium chloride. Dissolution and crystallisation involve salt in water, while expansion and contraction involve metals on heating or cooling.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "chemistry-13-19",
+     "format": "Assertion-Reason",
+     "keyword": "Haber Process",
+     "question": "Assertion (A): The Haber process represents a reversible chemical equilibrium.\nReason (R): It is represented by N₂ + 3H₂ ⇌ 2NH₃.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Some chemical equilibria are reversible chemical changes. The Haber process is represented by N₂ + 3H₂ ⇌ 2NH₃, which shows the reversible equilibrium.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "chemistry-13-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Irreversible Chemical Changes",
+     "question": "Consider the following statements:\n\nI. Burning can involve paper, wood, or fuels.\nII. Cooking and digestion change food permanently.\nIII. Souring of milk is a reversible physical change.\nIV. Explosion can involve fireworks or bombs.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "I, III and IV only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Burning of paper, wood or fuels, permanent changes caused by cooking and digestion, and explosions involving fireworks or bombs are correctly stated. Souring of milk is an irreversible chemical change, not a reversible physical change.",
+     "facts": [
+      "F57",
+      "F60",
+      "F61",
+      "F64",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "chemistry-13-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Melting of Ice → Applications",
+     "question": "Consider the following statements:\nStatement A: Melting of ice occurs when heat overcomes intermolecular forces.\nStatement B: Melting of ice is relevant to cooling, refrigeration and weather.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Melting of ice occurs when heat overcomes intermolecular forces. The process is relevant to cooling, refrigeration and weather.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "chemistry-13-22",
+     "format": "Direct Recall",
+     "keyword": "Neutralisation → Application",
+     "question": "Which of the following is listed as an application of neutralisation in an industrial context?",
+     "options": [
+      "Preparation of intravenous saline",
+      "Industrial processes",
+      "Production of hydrogen and oxygen",
+      "Food preservation and nutrition"
+     ],
+     "answer": 1,
+     "explanation": "Neutralisation is used in industrial processes. Food preservation and nutrition are associated with curd formation, hydrogen and oxygen production with electrolysis of water, and intravenous saline preparation with dissolving salt.",
+     "facts": [
+      "F86"
+     ]
+    },
+    {
+     "id": "chemistry-13-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Formation of Curd",
+     "question": "Consider the following statements:\nStatement A: Formation of curd results from microbial action by Lactobacillus.\nStatement B: Formation of curd is important for food preservation and nutrition.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Curd formation results from microbial action by Lactobacillus. It is important for food preservation and nutrition.",
+     "facts": [
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "chemistry-13-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Dissolving Salt → Applications",
+     "question": "Consider the following statements:\nStatement A: Dissolving salt involves physical dispersion of ions.\nStatement B: Dissolving salt is used in cooking and to prepare intravenous saline.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Dissolving salt involves physical dispersion of ions. This process is used in cooking and in preparing intravenous saline.",
+     "facts": [
+      "F91",
+      "F92",
+      "F93"
+     ]
+    },
+    {
+     "id": "chemistry-13-25",
+     "format": "Assertion-Reason",
+     "keyword": "Chemical change",
+     "question": "Assertion (A): Souring of milk is a chemical change.\nReason (R): Lactic acid is formed during the souring of milk.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Souring of milk is a chemical change because lactic acid, a new substance, is formed.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "chemistry-13-26",
+     "format": "Direct Recall",
+     "keyword": "Chemical change",
+     "question": "Which of the following correctly describes the explosion of fireworks?",
+     "options": [
+      "It produces hydrogen and oxygen gases by decomposition of water",
+      "It produces new gases and compounds",
+      "It forms lactic acid from lactose",
+      "It produces hydrated iron oxide"
+     ],
+     "answer": 1,
+     "explanation": "The explosion of fireworks is a chemical change that produces new gases and compounds.",
+     "facts": [
+      "F29"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 93,
+    "covered": 93,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -11332,8 +11699,308 @@
       "F25",
       "F26"
      ]
+    },
+    {
+     "id": "chemistry-14-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Alloy",
+     "question": "Consider the following statements:\nI. Alloys are examples of solid-in-solid solutions.\nII. Brass is an alloy of copper and zinc.\nIII. Bronze is an alloy of copper and tin.\nIV. Brass is an alloy of copper and tin.",
+     "options": [
+      "I, II and III only",
+      "I, II and IV only",
+      "I, III and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Alloys are solid-in-solid solutions. Brass consists of copper and zinc, while bronze consists of copper and tin; therefore, statement IV is incorrect.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "chemistry-14-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Concentration",
+     "question": "Consider the following statements:\nStatement A: An unsaturated solution can dissolve more solute.\nStatement B: A saturated solution contains the maximum amount of solute dissolved at a given temperature and pressure, and excess solute remains undissolved.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "An unsaturated solution can dissolve additional solute. A saturated solution has the maximum dissolved solute at the specified temperature and pressure, with excess solute remaining undissolved.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "chemistry-14-19",
+     "format": "Count-Based",
+     "keyword": "Solubility",
+     "question": "How many of the following are listed ways of expressing solubility?\n1. Grams of solute per 100 grams of solvent\n2. Grams of solute per 100 millilitres of solvent\n3. Molarity\n4. Molality\n5. Mole fraction",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed forms are ways of expressing solubility: grams per 100 grams or 100 millilitres of solvent, molarity, molality and mole fraction.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "chemistry-14-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Aerosol",
+     "question": "Consider the following statements:\nI. Dust is a solid aerosol.\nII. A liquid aerosol has a liquid dispersed phase.\nIII. A liquid aerosol has a gas dispersion medium.\nIV. Cloud, mist and fog are liquid aerosols.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Dust is a solid aerosol. In a liquid aerosol, liquid is dispersed in a gas; cloud, mist and fog are examples of liquid aerosols.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58",
+      "F91",
+      "F93"
+     ]
+    },
+    {
+     "id": "chemistry-14-21",
+     "format": "List-Matching",
+     "keyword": "Colloid → Example",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Cream\n(b) Mayonnaise\n(c) Butter\n(d) Cheese\n\nList-II\n(i) Emulsion\n(ii) Foam\n(iii) Gel\n(iv) Solid aerosol",
+     "options": [
+      "a-i, b-i, c-iii, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iii, c-i, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Cream and mayonnaise are emulsions. Butter and cheese are gels. Hence the correct pairs are a-i, b-i, c-iii and d-iii.",
+     "facts": [
+      "F62",
+      "F63",
+      "F67",
+      "F68"
+     ]
+    },
+    {
+     "id": "chemistry-14-22",
+     "format": "Assertion-Reason",
+     "keyword": "Sol",
+     "question": "Assertion (A): A sol has a solid dispersed phase and a liquid dispersion medium.\nReason (R): In a sol, a solid is dispersed in a liquid.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "A sol is a colloid in which the dispersed phase is solid and the dispersion medium is liquid. The reason directly explains the assertion.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "chemistry-14-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Colloid → Type / Example / Dispersed Phase / Dispersion Medium",
+     "question": "Consider the following statements:\nI. Gold sol and sulfur sol are sols.\nII. A solid sol has a solid dispersed phase and a solid dispersion medium.\nIII. Coloured glass and gems are solid sols.\nIV. Ruby glass is a solid sol.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Gold sol and sulfur sol are sols. Solid sols have both solid dispersed phase and solid dispersion medium, and coloured glass, gems and ruby glass are examples of solid sols.",
+     "facts": [
+      "F71",
+      "F72",
+      "F73",
+      "F74",
+      "F75",
+      "F76",
+      "F77"
+     ]
+    },
+    {
+     "id": "chemistry-14-24",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Foam → Example / Dispersed Phase / Dispersion Medium",
+     "question": "Consider the following statements:\nI. A foam has a gas dispersed phase and a liquid dispersion medium.\nII. A solid foam has a gas dispersed phase and a solid dispersion medium.\nIII. Pumice stone is a solid foam.\nIV. Foam rubber is a solid foam.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Foam consists of gas dispersed in a liquid medium, whereas solid foam has gas dispersed in a solid medium. Pumice stone and foam rubber are solid foams.",
+     "facts": [
+      "F78",
+      "F79",
+      "F82",
+      "F83",
+      "F84",
+      "F85"
+     ]
+    },
+    {
+     "id": "chemistry-14-25",
+     "format": "Assertion-Reason",
+     "keyword": "Colloid → Example",
+     "question": "Assertion (A): Honey is not a colloid.\nReason (R): Honey is a supercooled liquid.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Honey is identified as a supercooled liquid and is therefore not classified as a colloid.",
+     "facts": [
+      "F86",
+      "F87"
+     ]
+    },
+    {
+     "id": "chemistry-14-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Emulsion → Example",
+     "question": "Consider the following statements:\nStatement A: Cream is an emulsion.\nStatement B: Mayonnaise is an emulsion.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both cream and mayonnaise are listed as examples of emulsions.",
+     "facts": [
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "chemistry-14-27",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Foam → Example / Dispersed Phase",
+     "question": "Consider the following statements:\nI. Soap lather is a foam.\nII. Soap lather is an example of gas dispersed in liquid.\nIII. Solid foam is gas dispersed in solid.\nIV. Pumice stone and foam rubber are examples of gas dispersed in solid.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, III and IV only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Soap lather is foam formed by gas dispersed in liquid. Solid foam consists of gas dispersed in solid, with pumice stone and foam rubber as examples.",
+     "facts": [
+      "F81",
+      "F97",
+      "F98",
+      "F99",
+      "F100"
+     ]
+    },
+    {
+     "id": "chemistry-14-28",
+     "format": "Direct Recall",
+     "keyword": "Osmosis → Description",
+     "question": "Osmosis is best defined as the:",
+     "options": [
+      "Movement of solute through a semipermeable membrane",
+      "Movement of solvent through a solid medium",
+      "Movement of gas through a semipermeable membrane",
+      "Movement of solvent through a semipermeable membrane"
+     ],
+     "answer": 3,
+     "explanation": "Osmosis is the movement of solvent through a semipermeable membrane.",
+     "facts": [
+      "F101"
+     ]
+    },
+    {
+     "id": "chemistry-14-29",
+     "format": "List-Matching",
+     "keyword": "Osmosis → Application",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Solvent involved in osmosis\n(b) Direction of solvent movement in osmosis\n(c) Process by which plant roots absorb water\n(d) Side on which external pressure is applied in reverse osmosis\n\nList-II\n(i) Concentrated side\n(ii) Water\n(iii) Low solute concentration to high solute concentration\n(iv) Osmosis\n\nCodes:\n(a) a-ii, b-iii, c-iv, d-i\n(b) a-iii, b-ii, c-i, d-iv\n(c) a-ii, b-i, c-iii, d-iv\n(d) a-iv, b-iii, c-ii, d-i",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "In osmosis, water moves through a semipermeable membrane from low solute concentration to high solute concentration, and plant roots absorb water by this process. In reverse osmosis, external pressure is applied on the concentrated side.",
+     "facts": [
+      "F102",
+      "F103",
+      "F104",
+      "F105"
+     ]
+    },
+    {
+     "id": "chemistry-14-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nStatement A: A concentrated solution contains a large amount of solute relative to the solvent.\nStatement B: A dilute solution contains a small amount of solute.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A concentrated solution has a large amount of solute relative to the solvent, whereas a dilute solution contains a small amount of solute.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "chemistry-14-31",
+     "format": "Assertion-Reason",
+     "keyword": "Applications",
+     "question": "Assertion (A): In reverse osmosis, the solvent moves from high concentration to low concentration.\nReason (R): In reverse osmosis, external pressure is applied on the concentrated side.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Reverse osmosis involves applying external pressure on the concentrated side, causing the solvent to move from high concentration to low concentration.",
+     "facts": [
+      "F106"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 110,
+    "covered": 110,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -12849,7 +13516,15 @@
       "Sodium or potassium salts of higher fatty acids"
      ],
      "answer": 3,
-     "explanation": "Soap consists of sodium or potassium salts of higher fatty acids, generally having carbon chains of C₁₂–C₁₈."
+     "explanation": "Soap consists of sodium or potassium salts of higher fatty acids, generally having carbon chains of C₁₂–C₁₈.",
+     "facts": [
+      "F1",
+      "F2",
+      "F37",
+      "F42",
+      "F56",
+      "F57"
+     ]
     },
     {
      "id": "chemistry-17-2",
@@ -12863,7 +13538,15 @@
       "Caustic soda is used to prepare soft soap."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the alkali used for soft soap. Caustic soda (NaOH) produces hard soap, whereas caustic potash (KOH) produces soft soap."
+     "explanation": "The incorrect detail is the alkali used for soft soap. Caustic soda (NaOH) produces hard soap, whereas caustic potash (KOH) produces soft soap.",
+     "facts": [
+      "F5",
+      "F6",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "chemistry-17-3",
@@ -12877,7 +13560,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Calcium and magnesium salts of fatty acids form insoluble scum, causing poor lather and poor cleaning, which explains why soap is unsuitable for hard water."
+     "explanation": "Both statements are true. Calcium and magnesium salts of fatty acids form insoluble scum, causing poor lather and poor cleaning, which explains why soap is unsuitable for hard water.",
+     "facts": [
+      "F37",
+      "F41",
+      "F38",
+      "F40",
+      "F62"
+     ]
     },
     {
      "id": "chemistry-17-4",
@@ -12891,7 +13581,14 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: sodium rosinate—increases foam; glycerol—prevents drying in shaving soap; sodium silicate—provides hardness and durability; sulfur—anti-acne property."
+     "explanation": "The correct pairs are: sodium rosinate—increases foam; glycerol—prevents drying in shaving soap; sodium silicate—provides hardness and durability; sulfur—anti-acne property.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "chemistry-17-5",
@@ -12905,7 +13602,16 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are correct. Detergent solutions are usually neutral, not generally alkaline, so Statement III is incorrect."
+     "explanation": "Statements I, II and IV are correct. Detergent solutions are usually neutral, not generally alkaline, so Statement III is incorrect.",
+     "facts": [
+      "F50",
+      "F52",
+      "F53",
+      "F55",
+      "F40",
+      "F54",
+      "F63"
+     ]
     },
     {
      "id": "chemistry-17-6",
@@ -12919,9 +13625,229 @@
       "a-ii, b-ii"
      ],
      "answer": 0,
-     "explanation": "Palmitic acid is C₁₅H₃₁COOH, while stearic acid is C₁₇H₃₅COOH; therefore, the correct pairing is a-ii, b-i."
+     "explanation": "Palmitic acid is C₁₅H₃₁COOH, while stearic acid is C₁₇H₃₅COOH; therefore, the correct pairing is a-ii, b-i.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "chemistry-17-7",
+     "format": "List-Matching",
+     "keyword": "Structure",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Long hydrocarbon chain of soap\n(b) –COO⁻Na⁺ group of soap\n(c) Hydrophobic tail\n(d) Hydrophilic head\n\nList-II\n(i) Hydrophobic nature\n(ii) Hydrophilic nature\n(iii) Dissolves in grease or oil\n(iv) Dissolves in water",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The long hydrocarbon chain is hydrophobic, while the –COO⁻Na⁺ group is hydrophilic. The hydrophobic tail dissolves in grease or oil, and the hydrophilic head dissolves in water.",
+     "facts": [
+      "F7",
+      "F8",
+      "F29",
+      "F31"
+     ]
+    },
+    {
+     "id": "chemistry-17-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Saponification",
+     "question": "Consider the following statements:\n\nI. The soap-making process is called saponification.\nII. Saponification involves the reaction of fat or oil with an alkali.\nIII. Saponification produces soap and glycerol.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I only"
+     ],
+     "answer": 0,
+     "explanation": "Saponification is the soap-making process in which fat or oil reacts with an alkali to produce soap and glycerol.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "chemistry-17-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Raw materials",
+     "question": "Consider the following statements:\n\nStatement A: Vegetable fats and oils are raw materials for soap manufacture.\nStatement B: Animal fats and oils are raw materials for soap manufacture.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both vegetable fats and oils and animal fats and oils are identified as raw materials for soap manufacture.",
+     "facts": [
+      "F12",
+      "F19"
+     ]
+    },
+    {
+     "id": "chemistry-17-10",
+     "format": "Count-Based",
+     "keyword": "Raw materials",
+     "question": "How many of the following are used as raw materials for soap manufacture?\n\n1. Peanut oil\n2. Mahua oil\n3. Castor oil\n4. Coconut oil\n5. Olive oil\n6. Palm kernel oil",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six listed oils—peanut, mahua, castor, coconut, olive and palm kernel oils—are used as raw materials for soap manufacture.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "chemistry-17-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Cleansing action",
+     "question": "Consider the following statements:\n\nI. The hydrophobic tail of soap forms micelles.\nII. Soap suspends grease or oil in water as tiny droplets.\nIII. The suspended tiny droplets of grease or oil are washed away with water.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The hydrophobic tail forms micelles around grease or oil. Soap suspends the grease or oil as tiny droplets, which are then washed away with water.",
+     "facts": [
+      "F30",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "chemistry-17-12",
+     "format": "Assertion-Reason",
+     "keyword": "Surface tension and alkalinity",
+     "question": "Assertion (A): Soap is not suitable for delicate fabrics.\nReason (R): Soap solutions are alkaline because of hydrolysis.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Soap decreases the surface tension of water, and its solution is alkaline because of hydrolysis. This alkalinity makes soap unsuitable for delicate fabrics.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "chemistry-17-13",
+     "format": "Direct Recall",
+     "keyword": "Hard water → Wastage of soap",
+     "question": "What is a consequence of hard water in relation to soap?",
+     "options": [
+      "It makes soap suitable for delicate fabrics",
+      "It converts soap into glycerol",
+      "It changes soap into a non-ionic surfactant",
+      "It causes wastage of soap"
+     ],
+     "answer": 3,
+     "explanation": "Hard water causes wastage of soap. The notes also associate hard water with insoluble scum formation and poor cleaning.",
+     "facts": [
+      "F39"
+     ]
+    },
+    {
+     "id": "chemistry-17-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Detergent surfactants",
+     "question": "Consider the following statements:\n\nI. Detergent surfactants may be ionic, non-ionic, or zwitterionic.\nII. Alkylbenzene sulfonates are common detergents.\nIII. Sodium lauryl sulphate is a common detergent.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Detergent surfactants may be ionic, non-ionic or zwitterionic. Alkylbenzene sulfonates and sodium lauryl sulphate are listed as common detergents.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "chemistry-17-15",
+     "format": "List-Matching",
+     "keyword": "Detergent → Composition",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sodium lauryl sulphate—chemical nature\n(b) Sodium lauryl sulphate—carbon chain\n(c) Detergents—long carbon chain\n(d) Detergents—polar group\n\nList-II\n(i) 12–18 carbon atoms\n(ii) Anionic detergent\n(iii) Sulfonate\n(iv) 12-carbon chain",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Sodium lauryl sulphate is an anionic detergent with a 12-carbon chain. Detergents contain a 12–18-carbon chain and a polar group such as sulfonate.",
+     "facts": [
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "chemistry-17-16",
+     "format": "Assertion-Reason",
+     "keyword": "Delicate clothes → Detergent",
+     "question": "Assertion (A): Detergents are suitable for delicate clothes.\nReason (R): Detergent solutions are usually neutral, and neutral detergent solutions are safe for delicate fabrics.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Detergents are suitable for delicate clothes because their solutions are usually neutral; neutral detergent solutions are safe for delicate fabrics.",
+     "facts": [
+      "F51",
+      "F59"
+     ]
+    },
+    {
+     "id": "chemistry-17-17",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Soap vs Detergent → Biodegradability",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Soap is harmful to delicate clothes.",
+      "Soap is generally biodegradable.",
+      "Some older detergents are biodegradable.",
+      "Detergents are suitable for delicate clothes."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that some older detergents are biodegradable. The correct fact is that some older detergents are non-biodegradable; the other three statements are correct.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F61"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 63,
+    "covered": 63,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -13116,8 +14042,335 @@
       "F43",
       "F44"
      ]
+    },
+    {
+     "id": "chemistry-18-9",
+     "format": "List-Matching",
+     "keyword": "Alternate Name",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Trinitroglycerine\n(b) CL-20\n(c) HMX\n(d) Gun cotton\n\nList-II\n(i) High Melting Explosive\n(ii) HNIW\n(iii) Nitroglycerine\n(iv) Nitrated cellulose",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Trinitroglycerine is also called nitroglycerine; CL-20 is HNIW; HMX is associated with High Melting Explosive; and gun cotton is nitrated cellulose.",
+     "facts": [
+      "F3",
+      "F13",
+      "F16",
+      "F32",
+      "F37"
+     ]
+    },
+    {
+     "id": "chemistry-18-10",
+     "format": "List-Matching",
+     "keyword": "Chemical Name",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) TNG\n(b) TNP\n(c) RDX\n(d) HMX\n\nList-II\n(i) High Melting Explosive\n(ii) Trinitrophenol\n(iii) Cyclotrimethylenetrinitramine\n(iv) Trinitroglycerine / Glyceryl trinitrate",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "TNG is trinitroglycerine or glyceryl trinitrate; TNP is trinitrophenol; RDX is cyclotrimethylenetrinitramine; and HMX is High Melting Explosive.",
+     "facts": [
+      "F5",
+      "F19",
+      "F20",
+      "F21",
+      "F23",
+      "F25"
+     ]
+    },
+    {
+     "id": "chemistry-18-11",
+     "format": "List-Matching",
+     "keyword": "Formula",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) TNG\n(b) TNP\n(c) RDX\n(d) CL-20\n\nList-II\n(i) C₆H₆N₁₂O₁₂\n(ii) (O₂N)₃C₆H₂OH\n(iii) C₃H₅(ONO₂)₃\n(iv) (O₂NNCH₂)₃",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The formulae are TNG—C₃H₅(ONO₂)₃, TNP—(O₂N)₃C₆H₂OH, RDX—(O₂NNCH₂)₃, and CL-20—C₆H₆N₁₂O₁₂.",
+     "facts": [
+      "F6",
+      "F8",
+      "F14"
+     ]
+    },
+    {
+     "id": "chemistry-18-12",
+     "format": "Assertion-Reason",
+     "keyword": "High Melting Explosive",
+     "question": "Assertion (A): HMX is a related nitroamine.\nReason (R): HMX is associated with the term High Melting Explosive.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the association of HMX with the term High Melting Explosive does not explain why it is described as a related nitroamine.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "chemistry-18-13",
+     "format": "Direct Recall",
+     "keyword": "Chemical Name",
+     "question": "The chemical name of TNT is:",
+     "options": [
+      "Trinitrophenol",
+      "Trinitroglycerine",
+      "Cyclotrimethylenetrinitramine",
+      "Trinitrotoluene"
+     ],
+     "answer": 3,
+     "explanation": "TNT is chemically named trinitrotoluene.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "chemistry-18-14",
+     "format": "Direct Recall",
+     "keyword": "Composition",
+     "question": "Which of the following correctly describes the composition of gun cotton?",
+     "options": [
+      "TNT mixed with ammonium nitrate",
+      "Nitroglycerine absorbed in sawdust or kieselguhr",
+      "Cotton or wood fibres treated with HNO₃ and H₂SO₄",
+      "RDX in a plastic matrix"
+     ],
+     "answer": 2,
+     "explanation": "Gun cotton uses cotton or wood fibres, nitric acid (HNO₃), and sulphuric acid (H₂SO₄) in its composition.",
+     "facts": [
+      "F57"
+     ]
+    },
+    {
+     "id": "chemistry-18-15",
+     "format": "Assertion-Reason",
+     "keyword": "Founder/founded",
+     "question": "Assertion (A): Dynamite was invented by Alfred Nobel in 1867.\nReason (R): Nobel used nitroglycerine for dynamite.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Dynamite is associated with Alfred Nobel and the year 1867, while nitroglycerine was used by Nobel for dynamite; the second statement does not explain the invention date or inventor.",
+     "facts": [
+      "F41",
+      "F42",
+      "F47"
+     ]
+    },
+    {
+     "id": "chemistry-18-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Patented / Used",
+     "question": "Consider the following statements:\nI. RDX was patented in 1898.\nII. RDX was used extensively in World War II.\nIII. RDX was invented by Alfred Nobel.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "RDX was patented in 1898 and used extensively in World War II. The notes associate Alfred Nobel with dynamite, not with the invention of RDX.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "chemistry-18-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "High-performance explosives",
+     "question": "Consider the following statements:\nStatement A: HMX, CL-20 and LLM-105 are associated with modern military research.\nStatement B: HMX, CL-20 and LLM-105 are high-performance explosives.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The three explosives are associated with modern military research and are identified as high-performance explosives.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "chemistry-18-18",
+     "format": "Assertion-Reason",
+     "keyword": "Explosive → Composition",
+     "question": "Assertion (A): Cordite contains nitroglycerine.\nReason (R): Cordite is a propellant.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Cordite contains nitroglycerine and is classified as a propellant. Its propellant function does not explain its composition.",
+     "facts": [
+      "F59",
+      "F60"
+     ]
+    },
+    {
+     "id": "chemistry-18-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Explosive → Uses / Applications",
+     "question": "Consider the following statements regarding TNT:\nI. TNT is used for deep-well blasting.\nII. TNT is used for underwater blasting.\nIII. TNT is used as an intermediate for dyes.\nIV. TNT is used as an intermediate for photographic chemicals.",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "TNT is used in deep-well and underwater blasting and also serves as an intermediate for dyes and photographic chemicals.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "chemistry-18-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Explosive → Uses / Applications",
+     "question": "Consider the following statements regarding dynamite:\nI. Dynamite is used in mining.\nII. Dynamite is used in quarrying.\nIII. Dynamite is used in construction.\nIV. Dynamite is used in demolition.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "The listed applications of dynamite include mining, quarrying, construction and demolition.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "chemistry-18-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Explosive → Uses / Applications",
+     "question": "Consider the following statements:\nStatement A: Blasting gelatin is used in quarries.\nStatement B: Blasting gelatin is used in mining.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Blasting gelatin is used in both quarries and mining.",
+     "facts": [
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "chemistry-18-22",
+     "format": "Assertion-Reason",
+     "keyword": "Explosive → Uses / Applications",
+     "question": "Assertion (A): RDX is used as a military high explosive.\nReason (R): RDX is also called Royal Demolition Explosive and Research Department Explosive.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "RDX is used as a military high explosive and has the alternate names Royal Demolition Explosive and Research Department Explosive. The alternate names do not explain its military use.",
+     "facts": [
+      "F74",
+      "F90",
+      "F91"
+     ]
+    },
+    {
+     "id": "chemistry-18-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Explosive → Uses / Applications",
+     "question": "Consider the following statements:\nI. Gun cotton is used in printing inks.\nII. Gun cotton is used in leather finishing.\nIII. Gun cotton is used in celluloid.\nIV. TNP is used as an explosive and in dyes.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Gun cotton is used in printing inks, leather finishing and celluloid. TNP is used as an explosive and in dyes.",
+     "facts": [
+      "F77",
+      "F78",
+      "F79",
+      "F80",
+      "F82"
+     ]
+    },
+    {
+     "id": "chemistry-18-24",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Explosive → Uses / Applications",
+     "question": "Consider the following statements regarding HMX, CL-20 and LLM-105:\nI. They are used in military weapons.\nII. They are used in solid rocket propellants.\nIII. They are used in missile propellants.\nIV. They are used in advanced warheads.",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "HMX, CL-20 and LLM-105 are used in military weapons, solid rocket and missile propellants, and advanced warheads.",
+     "facts": [
+      "F84",
+      "F85",
+      "F86",
+      "F87"
+     ]
+    },
+    {
+     "id": "chemistry-18-25",
+     "format": "Direct Recall",
+     "keyword": "Explosive → Composition",
+     "question": "Which of the following statements about Amatol is correct?",
+     "options": [
+      "Amatol contains nitroglycerine.",
+      "Amatol is used as a solid missile propellant.",
+      "Amatol contains no nitroglycerine.",
+      "Amatol is a propellant containing nitroglycerine."
+     ],
+     "answer": 2,
+     "explanation": "Amatol contains no nitroglycerine. It is described as a high explosive mixture.",
+     "facts": [
+      "F89"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 91,
+    "covered": 91,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -14626,7 +15879,8 @@
       "F81",
       "F87",
       "F88",
-      "F89"
+      "F89",
+      "F82"
      ]
     },
     {
@@ -14754,8 +16008,65 @@
       "F104",
       "F105"
      ]
+    },
+    {
+     "id": "chemistry-20-36",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Poor Conductor / Thermal Conductivity",
+     "question": "Consider the following statements:\nI. Mercury is the poorest heat conductor among metals.\nII. Mercury has a thermal conductivity of 8.3 W/mK.\nIII. Silver is the best electrical and thermal conductor.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Mercury is identified as the poorest heat conductor among metals, with thermal conductivity of 8.3 W/mK, while silver is the best electrical and thermal conductor.",
+     "facts": [
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "chemistry-20-37",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Thermal Conductivity",
+     "question": "Consider the following statements:\nStatement A: Mercury has lower thermal conductivity than lead.\nStatement B: Lead has lower thermal conductivity than mercury.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is correct: mercury has lower thermal conductivity than lead. Statement B reverses this comparison and is therefore false.",
+     "facts": [
+      "F85"
+     ]
+    },
+    {
+     "id": "chemistry-20-38",
+     "format": "Assertion-Reason",
+     "keyword": "Least Reactive",
+     "question": "Assertion (A): Gold, platinum and silver are among the least reactive metals.\nReason (R): Gold, platinum and silver are noble metals that occur in the free state in nature.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Gold, platinum and silver are identified as noble metals, among the least reactive metals, and they occur in the free state in nature.",
+     "facts": [
+      "F38"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 105,
+    "covered": 105,
+    "audited": true
+   }
   }
  }
 }

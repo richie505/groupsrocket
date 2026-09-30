@@ -25,7 +25,10 @@
       "Newton"
      ],
      "answer": 3,
-     "explanation": "The notes identify Newton with the first law of motion."
+     "explanation": "The notes identify Newton with the first law of motion.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "physics-1-2",
@@ -39,7 +42,18 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: first successful measurement of the speed of light—Ole Romer; first modern atomic theory—John Dalton; first discovery of electron—J.J. Thomson; first quantum hypothesis—Max Planck."
+     "explanation": "The correct pairs are: first successful measurement of the speed of light—Ole Romer; first modern atomic theory—John Dalton; first discovery of electron—J.J. Thomson; first quantum hypothesis—Max Planck.",
+     "facts": [
+      "F5",
+      "F8",
+      "F10",
+      "F14",
+      "F6",
+      "F7",
+      "F9",
+      "F11",
+      "F15"
+     ]
     },
     {
      "id": "physics-1-3",
@@ -53,7 +67,17 @@
       "Galileo improved and used the earliest known telescopes for astronomy."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the fact about the earliest effective theory of physics. The notes associate the earliest effective theory of physics with Aristotle, while Thales of Miletus is associated with the earliest natural philosophy."
+     "explanation": "The incorrect statement alters the fact about the earliest effective theory of physics. The notes associate the earliest effective theory of physics with Aristotle, while Thales of Miletus is associated with the earliest natural philosophy.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "physics-1-4",
@@ -67,7 +91,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that absolute zero is the lowest possible temperature and has a value of 0 K. Thus, both statements are true, and the reason gives the stated value defining it."
+     "explanation": "The notes state that absolute zero is the lowest possible temperature and has a value of 0 K. Thus, both statements are true, and the reason gives the stated value defining it.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
     },
     {
      "id": "physics-1-5",
@@ -81,7 +109,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are directly supported by the notes: Ganymede, Planck length, elementary charge, and Planck time are respectively identified with these distinctions."
+     "explanation": "All four statements are directly supported by the notes: Ganymede, Planck length, elementary charge, and Planck time are respectively identified with these distinctions.",
+     "facts": [
+      "F35",
+      "F39",
+      "F41",
+      "F45"
+     ]
     },
     {
      "id": "physics-1-6",
@@ -95,7 +129,164 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify the Helios probes or Parker Solar Probe as the fastest man-made objects relative to the Sun, and near-c protons or electrons in LHC or LEP as the fastest accelerator particles."
+     "explanation": "The notes identify the Helios probes or Parker Solar Probe as the fastest man-made objects relative to the Sun, and near-c protons or electrons in LHC or LEP as the fastest accelerator particles.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "physics-1-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "First",
+     "question": "Consider the following statements:\nI. Chicago Pile-1 was the first nuclear reactor to produce a controlled chain reaction.\nII. Enrico Fermi was associated with Chicago Pile-1.\nIII. Chicago Pile-1 achieved the controlled chain reaction in 1942.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Chicago Pile-1 was the first nuclear reactor producing a controlled chain reaction. Enrico Fermi was associated with it, and the controlled chain reaction was achieved in 1942.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "physics-1-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "First",
+     "question": "Consider the following statements:\nI. Rutherford proposed the first nuclear model of the atom.\nII. Rutherford proposed the first nuclear model of the atom in 1911.\nIII. Bardeen, Brattain and Shockley developed the first transistor.\nIV. The first transistor was developed in 1947.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Rutherford proposed the first nuclear model of the atom in 1911. Bardeen, Brattain and Shockley developed the first transistor in 1947.",
+     "facts": [
+      "F12",
+      "F13",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-1-9",
+     "format": "Assertion-Reason",
+     "keyword": "Oldest known physical law",
+     "question": "Assertion (A): Archimedes’ principle is the oldest known physical law that is still valid.\nReason (R): Archimedes’ principle concerns buoyancy.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Archimedes’ principle concerns buoyancy, but this does not explain why it is regarded as the oldest known still-valid physical law.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "physics-1-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Fundamental force",
+     "question": "Consider the following statements:\nStatement A: Gravity is the oldest fundamental force concept still used.\nStatement B: Newton formalised gravity.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Gravity is identified as the oldest fundamental force concept still used, and Newton formalised gravity.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "physics-1-11",
+     "format": "List-Matching",
+     "keyword": "Largest",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Large Hadron Collider\n b. Top quark\n c. Observable Universe\n d. Ganymede\n\nList-II\n i. Galilean moon of Jupiter\n ii. Largest known structure\n iii. Largest particle accelerator, in energy and size, located at CERN\n iv. Largest fundamental particle by mass, approximately 172.5 GeV/c²\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: Large Hadron Collider–CERN and largest accelerator; Top quark–approximately 172.5 GeV/c²; Observable Universe–largest known structure; Ganymede–Galilean moon of Jupiter.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F36"
+     ]
+    },
+    {
+     "id": "physics-1-12",
+     "format": "Count-Based",
+     "keyword": "Smallest",
+     "question": "How many of the following statements are correct?\n1. The neutrino is the smallest fundamental particle by mass, within the stated upper limit.\n2. The neutrino has near-zero mass.\n3. The Planck length is approximately 1.6 × 10⁻³⁵ m.\n4. The symbol for the elementary charge is e.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: the neutrino has near-zero mass and is the smallest fundamental particle by mass within the stated upper limit; the Planck length is approximately 1.6 × 10⁻³⁵ m; and the elementary charge is represented by e.",
+     "facts": [
+      "F37",
+      "F38",
+      "F40",
+      "F42"
+     ]
+    },
+    {
+     "id": "physics-1-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Smallest charge",
+     "question": "Consider the following statements:\nStatement A: An electron has the elementary charge.\nStatement B: A proton has the elementary charge.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both an electron and a proton have the elementary charge.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "physics-1-14",
+     "format": "Direct Recall",
+     "keyword": "Smallest time",
+     "question": "The Planck time is approximately equal to:",
+     "options": [
+      "5.4 × 10⁻⁴⁴ s",
+      "172.5 GeV/c²",
+      "1.6 × 10⁻³⁵ m",
+      "3 × 10⁸ m/s"
+     ],
+     "answer": 0,
+     "explanation": "The Planck time is approximately 5.4 × 10⁻⁴⁴ seconds.",
+     "facts": [
+      "F46"
+     ]
     }
    ]
   },
@@ -1434,7 +1625,11 @@
       "Erwin Schrödinger"
      ],
      "answer": 0,
-     "explanation": "The notes associate Paul Dirac with relativistic quantum theory and antimatter."
+     "explanation": "The notes associate Paul Dirac with relativistic quantum theory and antimatter.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "physics-8-2",
@@ -1448,7 +1643,16 @@
       "The Davisson–Germer experiment demonstrated the wave nature of electrons."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the result of the Michelson–Morley experiment. The notes state that it produced a negative result for ether drift."
+     "explanation": "The incorrect detail is the result of the Michelson–Morley experiment. The notes state that it produced a negative result for ether drift.",
+     "facts": [
+      "F19",
+      "F20",
+      "F23",
+      "F24",
+      "F33",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "physics-8-3",
@@ -1462,7 +1666,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. The experiment is identified by its associated scientists, while the nuclear atom is its stated result; the reason does not explain why the experiment is associated with them."
+     "explanation": "Both statements are true according to the notes. The experiment is identified by its associated scientists, while the nuclear atom is its stated result; the reason does not explain why the experiment is associated with them.",
+     "facts": [
+      "F17",
+      "F18",
+      "F65"
+     ]
     },
     {
      "id": "physics-8-4",
@@ -1476,7 +1685,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes place Michael Faraday under electromagnetism and electrochemistry, and C. V. Raman under optics and spectroscopy."
+     "explanation": "The notes place Michael Faraday under electromagnetism and electrochemistry, and C. V. Raman under optics and spectroscopy.",
+     "facts": [
+      "F38",
+      "F39",
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "physics-8-5",
@@ -1490,7 +1705,15 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are supported by the notes: Galileo by the experimental method, inertia and telescope astronomy; Chadwick by neutron discovery; and Planck by the birth of quantum theory."
+     "explanation": "All three statements are supported by the notes: Galileo by the experimental method, inertia and telescope astronomy; Chadwick by neutron discovery; and Planck by the birth of quantum theory.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F66",
+      "F61",
+      "F3"
+     ]
     },
     {
      "id": "physics-8-6",
@@ -1504,7 +1727,134 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are Isaac Newton–Classical Mechanics/Gravitation, Homi J. Bhabha–Nuclear Physics (India), Albert Einstein–Relativity/Modern Physics, and Niels Bohr–Atomic Physics."
+     "explanation": "The correct pairs are Isaac Newton–Classical Mechanics/Gravitation, Homi J. Bhabha–Nuclear Physics (India), Albert Einstein–Relativity/Modern Physics, and Niels Bohr–Atomic Physics.",
+     "facts": [
+      "F36",
+      "F37",
+      "F53",
+      "F47",
+      "F48",
+      "F46",
+      "F57",
+      "F62"
+     ]
+    },
+    {
+     "id": "physics-8-7",
+     "format": "List-Matching",
+     "keyword": "Theory – Scientist Matching",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Albert Einstein\n(b) Niels Bohr\n(c) James Clerk Maxwell\n(d) Louis de Broglie\n\nList-II\n(i) Wave theory of matter\n(ii) Electromagnetic theory and Maxwell's equations\n(iii) Special and General Relativity\n(iv) Bohr's atomic theory/model",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Albert Einstein is associated with special and general relativity; Niels Bohr with Bohr's atomic theory/model; James Clerk Maxwell with electromagnetic theory and Maxwell's equations; and Louis de Broglie with the wave theory of matter.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "physics-8-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Quantum Mechanics – Scientist Association",
+     "question": "Consider the following statements:\nStatement A: Erwin Schrödinger is associated with wave mechanics.\nStatement B: Werner Heisenberg is associated with matrix mechanics.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Schrödinger is associated with wave mechanics, while Heisenberg is associated with matrix mechanics.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "physics-8-9",
+     "format": "List-Matching",
+     "keyword": "Experiment – Scientist Matching",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Young\n(b) Franck and Hertz\n(c) Stern and Gerlach\n(d) Fermi\n\nList-II\n(i) Chicago Pile-1, the first controlled chain reaction\n(ii) Space quantization and spin\n(iii) Confirmation of the Bohr model\n(iv) Double-slit experiment and wave nature of light",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Young is associated with the double-slit experiment and the wave nature of light; Franck and Hertz with confirmation of the Bohr model; Stern and Gerlach with space quantization and spin; and Fermi with Chicago Pile-1, the first controlled chain reaction.",
+     "facts": [
+      "F21",
+      "F22",
+      "F25",
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "physics-8-10",
+     "format": "Assertion-Reason",
+     "keyword": "Gravitational Waves – Detection",
+     "question": "Assertion (A): The LIGO team is associated with gravitational wave detection.\nReason (R): Gravitational waves were detected in 2015.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The LIGO team is associated with gravitational wave detection, and the detection occurred in 2015; however, the date does not explain the association of LIGO with the detection.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "physics-8-11",
+     "format": "Direct Recall",
+     "keyword": "Experiment – Scientist",
+     "question": "The parity violation experiment is associated with which scientist?",
+     "options": [
+      "Cowan and Reines",
+      "Wu",
+      "Franck and Hertz",
+      "Stern and Gerlach"
+     ],
+     "answer": 1,
+     "explanation": "Wu is associated with the parity violation experiment.",
+     "facts": [
+      "F32"
+     ]
+    },
+    {
+     "id": "physics-8-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Field – Scientist Association",
+     "question": "Consider the following statements:\nStatement A: James Clerk Maxwell is associated with electromagnetism.\nStatement B: James Clerk Maxwell is associated with optics.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. James Clerk Maxwell is associated with the fields of electromagnetism and optics.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
     }
    ]
   },
@@ -1532,7 +1882,10 @@
       "Tata Institute of Fundamental Research (TIFR)"
      ],
      "answer": 3,
-     "explanation": "Homi J. Bhabha was associated with the Tata Institute of Fundamental Research (TIFR)."
+     "explanation": "Homi J. Bhabha was associated with the Tata Institute of Fundamental Research (TIFR).",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "physics-9-2",
@@ -1546,7 +1899,15 @@
       "Enrico Fermi’s country sequence was Italy → USA."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the country. Niels Bohr was from Denmark, not Germany."
+     "explanation": "The incorrect detail is the country. Niels Bohr was from Denmark, not Germany.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "physics-9-3",
@@ -1560,7 +1921,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Röntgen received the First Nobel Prize in Physics in 1901 for work associated with X-rays."
+     "explanation": "Both statements are true. Röntgen received the First Nobel Prize in Physics in 1901 for work associated with X-rays.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "physics-9-4",
@@ -1574,7 +1939,15 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Wilhelm Röntgen–First Nobel Prize in Physics (1901) for X-rays; Albert Einstein–Nobel Physics (1921) for the photoelectric effect; Max Planck–Nobel Physics (1918); James Chadwick–Nobel Physics (1932)."
+     "explanation": "The correct pairs are: Wilhelm Röntgen–First Nobel Prize in Physics (1901) for X-rays; Albert Einstein–Nobel Physics (1921) for the photoelectric effect; Max Planck–Nobel Physics (1918); James Chadwick–Nobel Physics (1932).",
+     "facts": [
+      "F35",
+      "F36",
+      "F39",
+      "F40",
+      "F42",
+      "F46"
+     ]
     },
     {
      "id": "physics-9-5",
@@ -1588,7 +1961,14 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the institutional associations listed for Rutherford, Bohr and Einstein."
+     "explanation": "All three statements are correct according to the institutional associations listed for Rutherford, Bohr and Einstein.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F28"
+     ]
     },
     {
      "id": "physics-9-6",
@@ -1602,7 +1982,118 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "Germany is included in the country entries of all four: Albert Einstein, Max Planck, Werner Heisenberg and Wilhelm Röntgen."
+     "explanation": "Germany is included in the country entries of all four: Albert Einstein, Max Planck, Werner Heisenberg and Wilhelm Röntgen.",
+     "facts": [
+      "F5",
+      "F8",
+      "F9",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-9-7",
+     "format": "Count-Based",
+     "keyword": "Scientist → Country",
+     "question": "How many of the following scientists were associated with England/UK?\n1. Isaac Newton\n2. Michael Faraday\n3. J.J. Thomson\n4. James Chadwick",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Isaac Newton, Michael Faraday, J.J. Thomson and James Chadwick were all associated with England/UK.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "physics-9-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scientist → Country",
+     "question": "Consider the following statements:\nI. Marie Curie was associated with Poland and France.\nII. C.V. Raman was associated with India.\nIII. Homi J. Bhabha was associated with India.\nIV. Henri Becquerel was associated with France.\nV. Marie Curie was associated only with Poland.",
+     "options": [
+      "II, III, IV and V only",
+      "I, II and III only",
+      "I, III and V only",
+      "I, II, III and IV only"
+     ],
+     "answer": 3,
+     "explanation": "Statements I, II, III and IV are correct. Statement V is incorrect because Marie Curie was associated with both Poland and France.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F18"
+     ]
+    },
+    {
+     "id": "physics-9-9",
+     "format": "List-Matching",
+     "keyword": "Scientist → Institution",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Isaac Newton\n(b) J.J. Thomson\n(c) Enrico Fermi\n(d) C.V. Raman\n\nList-II\n(i) Indian Association for the Cultivation of Science and IISc\n(ii) Cambridge University and Royal Society\n(iii) University of Chicago and Columbia\n(iv) Cavendish Laboratory, Cambridge",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Isaac Newton was associated with Cambridge University and the Royal Society; J.J. Thomson with the Cavendish Laboratory, Cambridge; Enrico Fermi with the University of Chicago and Columbia; and C.V. Raman with the Indian Association for the Cultivation of Science and IISc.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F26",
+      "F27",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "physics-9-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Scientist → Institution",
+     "question": "Consider the following statements:\nStatement A: Max Planck was associated with the University of Berlin.\nStatement B: Marie Curie was associated with the University of Paris and the Radium Institute.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Max Planck was associated with the University of Berlin, while Marie Curie was associated with the University of Paris and the Radium Institute.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "physics-9-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scientist → Award",
+     "question": "Consider the following statements:\nI. Marie Curie received the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911.\nII. Niels Bohr received the Nobel Prize in Physics in 1922.\nIII. Heisenberg received the Nobel Prize in Physics in 1932.\nIV. Schrödinger and Dirac received the Nobel Prize in Physics in 1933.",
+     "options": [
+      "I and II only",
+      "I, III and IV only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Marie Curie received the Physics and Chemistry Nobel Prizes in 1903 and 1911 respectively; Bohr received the Physics Nobel in 1922; Heisenberg in 1932; and Schrödinger and Dirac in 1933.",
+     "facts": [
+      "F37",
+      "F38",
+      "F41",
+      "F43",
+      "F44",
+      "F45"
+     ]
     }
    ]
   },

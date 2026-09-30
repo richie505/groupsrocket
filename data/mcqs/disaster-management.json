@@ -719,8 +719,186 @@
       "F59",
       "F60"
      ]
+    },
+    {
+     "id": "disaster-management-2-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Preparedness",
+     "question": "Consider the following statements:\nI. Preparedness includes Emergency Operation Centres.\nII. Preparedness includes contingency plans.\nIII. Emergency Operation Centres are included under the recovery phase.\nIV. Contingency plans are included under the response phase.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "Preparedness includes Emergency Operation Centres and contingency plans. The third and fourth statements incorrectly place these activities under recovery and response, respectively.",
+     "facts": [
+      "F65",
+      "F66"
+     ]
+    },
+    {
+     "id": "disaster-management-2-21",
+     "format": "Count-Based",
+     "keyword": "Response",
+     "question": "How many of the following are objectives or characteristics of the response phase?\n1. Saving lives\n2. Meeting basic needs\n3. Providing first aid\n4. Providing temporary shelters\n5. Providing food and water\n6. Maintaining law and order\n7. Being time-critical\n8. Being a long-term activity",
+     "options": [
+      "Only five",
+      "Only six",
+      "Only seven",
+      "All eight"
+     ],
+     "answer": 2,
+     "explanation": "The first seven are associated with response. Being long-term is a characteristic of recovery, so seven statements are correct for response.",
+     "facts": [
+      "F69",
+      "F70",
+      "F73",
+      "F74",
+      "F75",
+      "F76",
+      "F77"
+     ]
+    },
+    {
+     "id": "disaster-management-2-22",
+     "format": "Count-Based",
+     "keyword": "Recovery",
+     "question": "How many of the following are included in, or describe, the recovery phase?\n1. Rehabilitation\n2. Reconstruction\n3. Livelihood support\n4. Psycho-social care\n5. Resilient infrastructure\n6. Long-term activity\n7. Time-critical action",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "All seven"
+     ],
+     "answer": 2,
+     "explanation": "Recovery includes rehabilitation, reconstruction, livelihood support, psycho-social care and resilient infrastructure, and it is long-term. Time-critical action characterises response, not recovery.",
+     "facts": [
+      "F81",
+      "F82",
+      "F83",
+      "F84",
+      "F85",
+      "F86"
+     ]
+    },
+    {
+     "id": "disaster-management-2-23",
+     "format": "List-Matching",
+     "keyword": "Pre-disaster / During-disaster / Post-disaster stages",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Pre-disaster stage\n(b) During-disaster stage\n(c) Post-disaster stage\n\nList-II\n(i) Recovery; focus on rebuilding better and reducing future risk\n(ii) Prevention, mitigation and preparedness; focus on risk reduction and readiness\n(iii) Response; focus on immediate life-saving action\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-iii, b-i, c-ii",
+      "a-ii, b-i, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii"
+     ],
+     "answer": 2,
+     "explanation": "The pre-disaster stage covers prevention, mitigation and preparedness and focuses on risk reduction and readiness. The during-disaster stage covers response and immediate life-saving action, while the post-disaster stage focuses on rebuilding better and reducing future risk.",
+     "facts": [
+      "F88",
+      "F89",
+      "F90",
+      "F91",
+      "F93"
+     ]
+    },
+    {
+     "id": "disaster-management-2-24",
+     "format": "Direct Recall",
+     "keyword": "Three Ps",
+     "question": "Which of the following correctly represents the three Ps in the post-2005 disaster management approach?",
+     "options": [
+      "Rescue, Relief and Rehabilitation",
+      "Prevention, Response and Recovery",
+      "Preparedness, Relief and Reconstruction",
+      "Prevention, Preparedness and Proofing/Mitigation"
+     ],
+     "answer": 3,
+     "explanation": "The three Ps are prevention, preparedness and proofing or mitigation.",
+     "facts": [
+      "F97"
+     ]
+    },
+    {
+     "id": "disaster-management-2-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Post-DM Act 2005 approach",
+     "question": "Consider the following statements about the approach after the Disaster Management Act, 2005:\nI. It is holistic.\nII. It is multi-phase.\nIII. It is a continuous cycle.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The post-DM Act 2005 approach is described as holistic, multi-phase and a continuous cycle.",
+     "facts": [
+      "F99",
+      "F100",
+      "F101"
+     ]
+    },
+    {
+     "id": "disaster-management-2-26",
+     "format": "Assertion-Reason",
+     "keyword": "Preparedness",
+     "question": "Assertion (A): Preparedness is the first and critical step in disaster management.\nReason (R): Preparedness is concerned with being ready before a disaster occurs.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Preparedness is the first and critical step because it ensures readiness before a disaster occurs.",
+     "facts": [
+      "F105"
+     ]
+    },
+    {
+     "id": "disaster-management-2-27",
+     "format": "Assertion-Reason",
+     "keyword": "Environment Conference/Framework",
+     "question": "Assertion (A): The disaster management cycle has a continuous nature.\nReason (R): Lessons from recovery lead to better prevention.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The cycle is continuous because lessons learned during recovery contribute to better prevention in the future.",
+     "facts": [
+      "F106",
+      "F107"
+     ]
+    },
+    {
+     "id": "disaster-management-2-28",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Environment Conference/Framework",
+     "question": "Consider the following statements:\nStatement A: The Sendai Framework provides global alignment for disaster management.\nStatement B: The Sendai Framework covers the period 2015–2030.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Sendai Framework provides global alignment for disaster management and covers 2015–2030.",
+     "facts": [
+      "F108",
+      "F109"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 109,
+    "covered": 109,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -1248,8 +1426,236 @@
       "F27",
       "F28"
      ]
+    },
+    {
+     "id": "disaster-management-4-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tsunami – Causes and Triggers",
+     "question": "Consider the following statements:\nI. Tsunamis are most commonly associated with earthquakes.\nII. Submarine impacts can trigger tsunamis.\nIII. Terrestrial impacts can trigger tsunamis.\nIV. Landslides can trigger tsunamis.\nV. Volcanic eruptions can trigger tsunamis.\nVI. Explosions can trigger tsunamis.\nVII. Bolide impacts can trigger tsunamis.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, III, IV, VI and VII only",
+      "II, III, V and VI only",
+      "I, II, III, IV, V, VI and VII",
+      "I, II, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "Earthquakes are the most common association of tsunamis. Submarine and terrestrial impacts, landslides, volcanic eruptions, explosions and bolide impacts are also listed as triggers.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "disaster-management-4-9",
+     "format": "Direct Recall",
+     "keyword": "Tsunami – Occurrence",
+     "question": "A tsunami can occur at:",
+     "options": [
+      "Only during the daytime",
+      "Any time of day or night",
+      "Only during the night",
+      "Only during the rainy season"
+     ],
+     "answer": 1,
+     "explanation": "Tsunamis can occur at any time of day or night.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-4-10",
+     "format": "Count-Based",
+     "keyword": "Tsunami – Coastal Effects",
+     "question": "How many of the following are effects of a tsunami on coastal areas?\n1. Stripping beaches\n2. Uprooting plantations\n3. Inundating large inland areas\n4. Damaging life and property",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed effects are associated with tsunamis: they strip beaches, uproot plantations, inundate large inland areas and damage life and property.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "disaster-management-4-11",
+     "format": "Direct Recall",
+     "keyword": "Tsunami – Shore Effect",
+     "question": "What happens to a tsunami wave as it approaches the shore?",
+     "options": [
+      "It slows down in speed",
+      "It disappears before reaching the coast",
+      "It moves away from the shore",
+      "It changes into an earthquake"
+     ],
+     "answer": 0,
+     "explanation": "A tsunami wave slows down in speed as it approaches the shore.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "disaster-management-4-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tsunami – Coastal Inundation",
+     "question": "Consider the following statements:\nStatement A: Tsunami waves reach coastal areas.\nStatement B: Tsunami waves cause inundation and destruction of life and property.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Tsunami waves reach coastal areas and cause inundation along with destruction of life and property.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "disaster-management-4-13",
+     "format": "Direct Recall",
+     "keyword": "Tsunami – 2004 Indian Ocean Event",
+     "question": "The 2004 Indian Ocean tsunami occurred in:",
+     "options": [
+      "November 2004",
+      "December 2005",
+      "October 2004",
+      "December 2004"
+     ],
+     "answer": 3,
+     "explanation": "The Indian Ocean tsunami mentioned occurred in December 2004.",
+     "facts": [
+      "F23"
+     ]
+    },
+    {
+     "id": "disaster-management-4-14",
+     "format": "List-Matching",
+     "keyword": "Tsunami – India Damage Statistics",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Confirmed deaths in India\n(b) Unaccounted people in India\n(c) Estimated damage in rupees\n(d) Estimated damage in US dollars\n\nList-II\n(i) Approximately US$2.56 billion\n(ii) More than 12,000\n(iii) 5,640\n(iv) More than ₹11,000 crore",
+     "options": [
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: confirmed deaths—more than 12,000; unaccounted people—5,640; estimated damage—more than ₹11,000 crore; and approximately US$2.56 billion.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-4-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tsunami Warning System – ITEWC and INCOIS",
+     "question": "Consider the following statements:\nStatement A: The Indian Tsunami Early Warning Centre is abbreviated as ITEWC.\nStatement B: INCOIS is located in Hyderabad.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Indian Tsunami Early Warning Centre is abbreviated as ITEWC, and INCOIS is located in Hyderabad.",
+     "facts": [
+      "F34",
+      "F38"
+     ]
+    },
+    {
+     "id": "disaster-management-4-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Earthquake – Tsunami and Seismology",
+     "question": "Consider the following statements:\nStatement A: An earthquake beneath the sea can cause a tsunami.\nStatement B: The study of earthquakes is called seismology.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "An earthquake beneath the sea is listed as a cause of a tsunami, while the study of earthquakes is called seismology.",
+     "facts": [
+      "F41",
+      "F46"
+     ]
+    },
+    {
+     "id": "disaster-management-4-17",
+     "format": "Direct Recall",
+     "keyword": "Seismology – Father",
+     "question": "Who is known as the Father of Modern Seismology?",
+     "options": [
+      "ITEWC",
+      "INCOIS",
+      "Mercalli",
+      "John Milne"
+     ],
+     "answer": 3,
+     "explanation": "John Milne is identified as the Father of Modern Seismology.",
+     "facts": [
+      "F47"
+     ]
+    },
+    {
+     "id": "disaster-management-4-18",
+     "format": "List-Matching",
+     "keyword": "Days",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) World Tsunami Awareness Day\n(b) International Day for Disaster Risk Reduction\n(c) Sendai Framework\n(d) GIS\n\nList-II\n(i) Spatial data\n(ii) Disaster risk reduction\n(iii) November 5\n(iv) October 13",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "World Tsunami Awareness Day is observed on November 5, while the International Day for Disaster Risk Reduction is observed on October 13. The Sendai Framework concerns disaster risk reduction, and GIS is spatial data.",
+     "facts": [
+      "F48",
+      "F49",
+      "F51",
+      "F55"
+     ]
+    },
+    {
+     "id": "disaster-management-4-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disaster Risk Reduction",
+     "question": "Consider the following statements:\nStatement A: The Sendai Framework concerns disaster risk reduction.\nStatement B: GIS is spatial data.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Sendai Framework is associated with disaster risk reduction. GIS is identified as spatial data and is also used as a disaster-management tool.",
+     "facts": [
+      "F51",
+      "F55"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 56,
+    "covered": 56,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -1366,7 +1772,11 @@
       "Indian Meteorological Department (IMD)"
      ],
      "answer": 3,
-     "explanation": "The notes identify the Indian Meteorological Department (IMD) as the agency responsible for cyclone forecasting in India."
+     "explanation": "The notes identify the Indian Meteorological Department (IMD) as the agency responsible for cyclone forecasting in India.",
+     "facts": [
+      "F6",
+      "F9"
+     ]
     },
     {
      "id": "disaster-management-6-2",
@@ -1380,7 +1790,20 @@
       "A typhoon occurs in the Northwest Pacific Ocean."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘gets hurricanes’. The notes state that India does not get hurricanes; it gets tropical cyclones in the Bay of Bengal and Arabian Sea."
+     "explanation": "The incorrect detail is ‘gets hurricanes’. The notes state that India does not get hurricanes; it gets tropical cyclones in the Bay of Bengal and Arabian Sea.",
+     "facts": [
+      "F1",
+      "F2",
+      "F26",
+      "F28",
+      "F31",
+      "F42",
+      "F43",
+      "F3",
+      "F13",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "disaster-management-6-3",
@@ -1394,7 +1817,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes state that India gets tropical cyclones, not hurricanes, and identifies the Bay of Bengal and Arabian Sea as their regions of occurrence."
+     "explanation": "Both statements are true. The notes state that India gets tropical cyclones, not hurricanes, and identifies the Bay of Bengal and Arabian Sea as their regions of occurrence.",
+     "facts": [
+      "F42",
+      "F43",
+      "F13",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "disaster-management-6-4",
@@ -1408,7 +1838,15 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Hurricane–Saffir–Simpson Wind Scale, Tornado–Fujita Scale, Typhoon–Northwest Pacific Ocean, and Cyclone–Indian Ocean and South Pacific."
+     "explanation": "The correct pairs are: Hurricane–Saffir–Simpson Wind Scale, Tornado–Fujita Scale, Typhoon–Northwest Pacific Ocean, and Cyclone–Indian Ocean and South Pacific.",
+     "facts": [
+      "F4",
+      "F8",
+      "F26",
+      "F28",
+      "F31",
+      "F9"
+     ]
     },
     {
      "id": "disaster-management-6-5",
@@ -1422,7 +1860,17 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. Category 5 is classified as wind speeds of at least 252 km/h with catastrophic damage; 209–251 km/h corresponds to Category 4."
+     "explanation": "Statements I and II are correct. Category 5 is classified as wind speeds of at least 252 km/h with catastrophic damage; 209–251 km/h corresponds to Category 4.",
+     "facts": [
+      "F32",
+      "F33",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "disaster-management-6-6",
@@ -1436,9 +1884,220 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes define a hurricane as a rotating tropical storm with sustained winds of at least 119 km/h, equivalent to 74 mph, the stated minimum classification speed."
+     "explanation": "Both statements are true. The notes define a hurricane as a rotating tropical storm with sustained winds of at least 119 km/h, equivalent to 74 mph, the stated minimum classification speed.",
+     "facts": [
+      "F10",
+      "F11",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-6-7",
+     "format": "Direct Recall",
+     "keyword": "Cyclone",
+     "question": "Which of the following is a low-pressure area?",
+     "options": [
+      "Cyclone",
+      "Hurricane",
+      "Tornado",
+      "Typhoon"
+     ],
+     "answer": 0,
+     "explanation": "A cyclone is defined as a low-pressure area.",
+     "facts": [
+      "F5"
+     ]
+    },
+    {
+     "id": "disaster-management-6-8",
+     "format": "Direct Recall",
+     "keyword": "Institute/Organisation → Location",
+     "question": "The headquarters of the Indian Meteorological Department (IMD) is located in:",
+     "options": [
+      "Mumbai",
+      "Chennai",
+      "Delhi",
+      "Kolkata"
+     ],
+     "answer": 2,
+     "explanation": "The headquarters of the IMD is in Delhi.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "disaster-management-6-9",
+     "format": "Direct Recall",
+     "keyword": "Hurricane",
+     "question": "A hurricane forms over:",
+     "options": [
+      "Dry continental interiors",
+      "Warm ocean waters",
+      "Cold ocean waters",
+      "Mountain valleys"
+     ],
+     "answer": 1,
+     "explanation": "A hurricane forms over warm ocean waters.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-6-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Hurricane",
+     "question": "Consider the following statements about a hurricane:\nI. It has a low-pressure centre called the eye.\nII. It has spiral rain bands.\nIII. It produces strong winds.\nIV. It produces heavy rainfall.\nV. It produces storm surge.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "II, III and IV only",
+      "I, IV and V only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "The eye is the low-pressure centre of a hurricane. Hurricanes also have spiral rain bands and produce strong winds, heavy rainfall and storm surge.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "disaster-management-6-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hurricane",
+     "question": "Consider the following statements:\nStatement A: A hurricane rotates counter-clockwise in the Northern Hemisphere.\nStatement B: A hurricane rotates clockwise in the Southern Hemisphere.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Hurricanes rotate counter-clockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "disaster-management-6-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sea",
+     "question": "Consider the following statements regarding the occurrence of hurricanes:\nI. Hurricanes occur in the North and Central Atlantic.\nII. Hurricanes occur in the Caribbean Sea.\nIII. Hurricanes occur in the Gulf of Mexico.\nIV. Hurricanes occur in the Northeast Pacific.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The North and Central Atlantic, Caribbean Sea, Gulf of Mexico and Northeast Pacific are all listed regions of hurricane occurrence.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-6-13",
+     "format": "Direct Recall",
+     "keyword": "Sea",
+     "question": "The Northwest Pacific region associated with typhoons includes:",
+     "options": [
+      "The North Atlantic, South Atlantic and Indian Ocean",
+      "The Caribbean Sea, Gulf of Mexico and Northeast Pacific",
+      "East Asia, the Philippines and Japan",
+      "The Bay of Bengal, Arabian Sea and South Pacific"
+     ],
+     "answer": 2,
+     "explanation": "The Northwest Pacific includes East Asia, the Philippines and Japan.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "disaster-management-6-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Saffir–Simpson Wind Scale",
+     "question": "Consider the following statements about Category 2 hurricanes:\nStatement A: Their wind speeds range from 154–177 km/h.\nStatement B: They cause moderate damage.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Category 2 hurricanes have wind speeds of 154–177 km/h and are associated with moderate damage.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "disaster-management-6-15",
+     "format": "Direct Recall",
+     "keyword": "Cyclone",
+     "question": "What is the common name used for a tropical cyclone in India?",
+     "options": [
+      "Hurricane",
+      "Typhoon",
+      "Cyclone",
+      "Tornado"
+     ],
+     "answer": 2,
+     "explanation": "Cyclone is the common name used in India.",
+     "facts": [
+      "F44"
+     ]
+    },
+    {
+     "id": "disaster-management-6-16",
+     "format": "Count-Based",
+     "keyword": "Cyclone",
+     "question": "How many of the following are identified as major threats from cyclones?\n1. High winds\n2. Storm surge\n3. Heavy rainfall\n4. Flooding\n5. Coastal inundation",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed phenomena—high winds, storm surge, heavy rainfall, flooding and coastal inundation—are major threats from cyclones.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "disaster-management-6-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Important Programmes",
+     "question": "Consider the following statements:\nStatement A: The National Cyclone Risk Mitigation Project is abbreviated as NCRMP.\nStatement B: Cyclone shelters are included among the key Indian cyclone-related projects.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "NCRMP stands for National Cyclone Risk Mitigation Project, and cyclone shelters are listed among the key Indian cyclone-related projects.",
+     "facts": [
+      "F50",
+      "F51"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 51,
+    "covered": 51,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -1598,8 +2257,124 @@
       "F26",
       "F27"
      ]
+    },
+    {
+     "id": "disaster-management-7-8",
+     "format": "List-Matching",
+     "keyword": "Disaster Management – Institutions and Types",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Cabinet Committee on Security (CCS)\n(b) Nuclear disaster\n(c) Radiological disaster\n(d) Key threat in a nuclear disaster\n\nList-II\n(i) Ionising radiation\n(ii) Nuclear, biological and chemical emergencies\n(iii) Nuclear accidents involving reactors\n(iv) Orphan-source incidents, transport accidents and dirty-bomb incidents\n\nCodes:",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The CCS handles nuclear, biological and chemical emergencies. Nuclear disasters include reactor accidents, radiological disasters include orphan-source, transport and dirty-bomb incidents, and ionising radiation is the key threat.",
+     "facts": [
+      "F7",
+      "F9",
+      "F10",
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-7-9",
+     "format": "Assertion-Reason",
+     "keyword": "Nuclear Disaster – Ionising Radiation",
+     "question": "Assertion (A): The key threat in a nuclear disaster is ionising radiation.\nReason (R): Ionising radiation includes alpha radiation, beta radiation, gamma radiation and neutrons.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The reason lists the forms of ionising radiation, but that list does not explain why ionising radiation is the key threat in a nuclear disaster.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "disaster-management-7-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Nuclear Disaster – Long-Term Impacts",
+     "question": "Consider the following statements:\nI. Nuclear disasters can cause cancer as a long-term impact.\nII. Nuclear disasters can cause genetic damage as a long-term impact.\nIII. Nuclear disasters can cause environmental contamination for decades or centuries.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct long-term impacts of nuclear disasters: cancer, genetic damage and environmental contamination lasting for decades or centuries.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "disaster-management-7-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Radiological Disaster – Incident and Response Network",
+     "question": "Consider the following statements:\nStatement A: The Mayapuri incident was a radiological emergency.\nStatement B: The BARC/DAE Emergency Response Centres form a network of specialised centres for detection and response.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Mayapuri was a radiological emergency, while the BARC/DAE Emergency Response Centres constitute a specialised detection-and-response network.",
+     "facts": [
+      "F29",
+      "F34"
+     ]
+    },
+    {
+     "id": "disaster-management-7-12",
+     "format": "Direct Recall",
+     "keyword": "Emergency Planning Zone",
+     "question": "What does the Emergency Planning Zone (EPZ) consist of?",
+     "options": [
+      "Concentric zones for protective actions",
+      "A single exclusion area of 1–1.5 km around a reactor",
+      "A network of specialised centres for detection and response",
+      "A district-level command structure led by the District Collector"
+     ],
+     "answer": 0,
+     "explanation": "The Emergency Planning Zone consists of concentric zones designed for protective actions.",
+     "facts": [
+      "F40"
+     ]
+    },
+    {
+     "id": "disaster-management-7-13",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Chernobyl disaster\n(b) Fukushima Daiichi disaster\n(c) Three Mile Island accident\n(d) Mayapuri Incident\n\nList-II\n(i) 1979, USA; partial core meltdown with no major release\n(ii) 1986, Ukraine (formerly USSR); worst nuclear accident\n(iii) 2010, Delhi, India; orphan Cobalt-60 source and radiological emergency\n(iv) 2011, Japan; tsunami-triggered disaster\n\nSelect the correct answer using the codes given below:",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Chernobyl occurred in Ukraine, formerly the USSR, and was the worst nuclear accident. Fukushima Daiichi occurred in Japan and was tsunami-triggered; the other pairs correctly identify the Three Mile Island accident and the Mayapuri Incident.",
+     "facts": [
+      "F19",
+      "F20",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 44,
+    "covered": 44,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -2020,7 +2795,10 @@
       "John Milne"
      ],
      "answer": 3,
-     "explanation": "John Milne is identified in the notes as the Father of Modern Seismology."
+     "explanation": "John Milne is identified in the notes as the Father of Modern Seismology.",
+     "facts": [
+      "F62"
+     ]
     },
     {
      "id": "disaster-management-10-2",
@@ -2034,7 +2812,21 @@
       "Zone III has a moderate risk level, an expected intensity of VII, and a zone factor of 0.24."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is Zone III's zone factor. Its correct zone factor is 0.16, not 0.24."
+     "explanation": "The incorrect detail is Zone III's zone factor. Its correct zone factor is 0.16, not 0.24.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F13",
+      "F14",
+      "F15",
+      "F17",
+      "F18",
+      "F19",
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "disaster-management-10-3",
@@ -2048,7 +2840,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes describe the 2001 Bhuj earthquake as a major turning point and state that it led to the Disaster Management Act, 2005."
+     "explanation": "The notes describe the 2001 Bhuj earthquake as a major turning point and state that it led to the Disaster Management Act, 2005.",
+     "facts": [
+      "F43",
+      "F45"
+     ]
     },
     {
      "id": "disaster-management-10-4",
@@ -2062,7 +2858,17 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are NCS–real-time monitoring, NDMA–policy guidelines, BIS Code IS 1893–earthquake-resistant design, and NDRF–specialised search and rescue."
+     "explanation": "The correct pairs are NCS–real-time monitoring, NDMA–policy guidelines, BIS Code IS 1893–earthquake-resistant design, and NDRF–specialised search and rescue.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F60",
+      "F61"
+     ]
     },
     {
      "id": "disaster-management-10-5",
@@ -2076,7 +2882,13 @@
       "I, II and III only"
      ],
      "answer": 0,
-     "explanation": "All four statements are supported by the notes: the origin point is the focus, the surface point above it is the epicentre, intensity uses the Mercalli Scale, and India has four seismic zones."
+     "explanation": "All four statements are supported by the notes: the origin point is the focus, the surface point above it is the epicentre, intensity uses the Mercalli Scale, and India has four seismic zones.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
     }
    ]
   },
@@ -2108,7 +2920,15 @@
       "Sudden bursting of glacial lakes in Himalayan states"
      ],
      "answer": 0,
-     "explanation": "A flood is the overflow of water onto normally dry land due to excess rainfall, river overflow, or other causes."
+     "explanation": "A flood is the overflow of water onto normally dry land due to excess rainfall, river overflow, or other causes.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F42",
+      "F45"
+     ]
     },
     {
      "id": "disaster-management-11-2",
@@ -2122,7 +2942,14 @@
       "Assam and Bihar are the worst-affected states."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the estimate of about 49 million hectares. The Rashtriya Barh Ayog estimate was about 40 million hectares; recent estimates are up to approximately 49 million hectares."
+     "explanation": "The incorrect detail is the estimate of about 49 million hectares. The Rashtriya Barh Ayog estimate was about 40 million hectares; recent estimates are up to approximately 49 million hectares.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "disaster-management-11-3",
@@ -2136,7 +2963,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since GIS deals with spatial data and can model and analyse it, it can display community vulnerability."
+     "explanation": "Both statements are true. Since GIS deals with spatial data and can model and analyse it, it can display community vulnerability.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "disaster-management-11-4",
@@ -2150,7 +2983,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The National Flood Commission is identified with the Rashtriya Barh Ayog, while the Central Water Commission has a flood forecasting network across India."
+     "explanation": "Both statements are true. The National Flood Commission is identified with the Rashtriya Barh Ayog, while the Central Water Commission has a flood forecasting network across India.",
+     "facts": [
+      "F5",
+      "F6",
+      "F49",
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "disaster-management-11-5",
@@ -2164,7 +3004,13 @@
       "I, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because GLOFs result from the bursting of glacial lakes, whereas storm surge, cyclones and high tides are causes of coastal floods."
+     "explanation": "Statements I, II and IV are correct. Statement III is incorrect because GLOFs result from the bursting of glacial lakes, whereas storm surge, cyclones and high tides are causes of coastal floods.",
+     "facts": [
+      "F28",
+      "F36",
+      "F42",
+      "F45"
+     ]
     },
     {
      "id": "disaster-management-11-6",
@@ -2178,7 +3024,13 @@
       "a-i, b-iv, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: CWC—flood forecasting; NDMA—policy guidelines and coordination; Brahmaputra Board—flood and erosion control in the North-East; NDRF/SDRF—search, rescue and relief."
+     "explanation": "The correct pairs are a-ii, b-iv, c-iii and d-i: CWC—flood forecasting; NDMA—policy guidelines and coordination; Brahmaputra Board—flood and erosion control in the North-East; NDRF/SDRF—search, rescue and relief.",
+     "facts": [
+      "F49",
+      "F50",
+      "F54",
+      "F56"
+     ]
     },
     {
      "id": "disaster-management-11-7",
@@ -2192,9 +3044,238 @@
       "C, B, D, A"
      ],
      "answer": 1,
-     "explanation": "The correct chronological order is B, D, C, A: Mumbai in 2005, Uttarakhand in 2013, Chennai in 2015 and Kerala in 2018."
+     "explanation": "The correct chronological order is B, D, C, A: Mumbai in 2005, Uttarakhand in 2013, Chennai in 2015 and Kerala in 2018.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F62",
+      "F63",
+      "F64",
+      "F65",
+      "F66",
+      "F67",
+      "F68",
+      "F69",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "disaster-management-11-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Flood – Definition and Type",
+     "question": "Consider the following statements:\nStatement A: Flood water flows in rivers, streams and other water bodies and cannot be contained.\nStatement B: Floods are rapid-onset disasters.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: flood water flows in rivers, streams and other water bodies and cannot be contained, and floods are classified as rapid-onset disasters.",
+     "facts": [
+      "F1",
+      "F7"
+     ]
+    },
+    {
+     "id": "disaster-management-11-9",
+     "format": "List-Matching",
+     "keyword": "Flood Hazard Atlas – Odisha",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Developer of the unique flood hazard atlas\n(b) Basis of the atlas\n(c) Period covered\n(d) Intended purpose\n\nList-II\n(i) 2000–2018\n(ii) Odisha\n(iii) Historical flood inundation captured through satellite imagery\n(iv) More efficient flood management",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Odisha–developer, historical flood inundation captured through satellite imagery–basis, 2000–2018–period, and more efficient flood management–purpose.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "disaster-management-11-10",
+     "format": "Count-Based",
+     "keyword": "Flood – Nature and Impacts",
+     "question": "How many of the following statements about floods are correct?\n\n1. Floods are the most frequent natural disaster in India.\n2. Floods cause damage worth thousands of crores annually.\n3. Floods cause significant loss of life annually.\n4. Floods cause significant loss of crops annually.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Floods are the most frequent natural disaster in India and cause annual damage worth thousands of crores, along with significant loss of life and crops.",
+     "facts": [
+      "F20",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-11-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Riverine or Fluvial Floods – Basins",
+     "question": "Consider the following statements:\n\nI. The Ganga basin is commonly affected by riverine or fluvial floods.\nII. The Brahmaputra basin is commonly affected by riverine or fluvial floods.\nIII. The Kosi basin is commonly affected by riverine or fluvial floods.\nIV. The Godavari basin is commonly affected by riverine or fluvial floods.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four basins listed—Ganga, Brahmaputra, Kosi and Godavari—are commonly affected by riverine or fluvial floods.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-11-12",
+     "format": "Assertion-Reason",
+     "keyword": "Flash Floods – Cause and Regions",
+     "question": "Assertion (A): Flash floods result from sudden intense rainfall or cloudbursts.\nReason (R): Himalayan regions and urban areas commonly experience flash floods.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and reason are true. Sudden intense rainfall or cloudbursts cause flash floods, while Himalayan regions and urban areas are commonly affected; the regional occurrence does not explain the stated cause.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "disaster-management-11-13",
+     "format": "List-Matching",
+     "keyword": "Urban Floods – Locations",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Mumbai\n(b) Chennai\n(c) Bengaluru\n(d) Hyderabad\n(e) Delhi\n\nList-II\n(i) Commonly experiences urban floods\n(ii) Commonly experiences urban floods\n(iii) Commonly experiences urban floods\n(iv) Commonly experiences urban floods\n(v) Commonly experiences urban floods",
+     "options": [
+      "a-ii, b-i, c-iv, d-v, e-iii",
+      "a-iii, b-iv, c-v, d-i, e-ii",
+      "a-v, b-iii, c-ii, d-iv, e-i",
+      "a-i, b-ii, c-iii, d-iv, e-v"
+     ],
+     "answer": 3,
+     "explanation": "Mumbai, Chennai, Bengaluru, Hyderabad and Delhi are all listed as places that commonly experience urban floods. Hence the direct pairings in option 1 are correct.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "disaster-management-11-14",
+     "format": "Direct Recall",
+     "keyword": "Coastal Floods – Location",
+     "question": "Which of the following coastal regions commonly experiences coastal floods?",
+     "options": [
+      "The Ganga basin",
+      "The Kosi basin",
+      "The east coast",
+      "The Himalayan regions"
+     ],
+     "answer": 2,
+     "explanation": "The east coast commonly experiences coastal floods.",
+     "facts": [
+      "F43"
+     ]
+    },
+    {
+     "id": "disaster-management-11-15",
+     "format": "List-Matching",
+     "keyword": "Flood Type → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) West coast\n(b) Himalayan states\n(c) Uttarakhand\n(d) Sikkim\n\nList-II\n(i) Commonly experiences coastal floods\n(ii) Commonly experiences Glacial Lake Outburst Floods as a regional pattern\n(iii) Commonly experiences Glacial Lake Outburst Floods as a state-level pattern\n(iv) Commonly experiences Glacial Lake Outburst Floods as a state-level pattern",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The west coast commonly experiences coastal floods. Himalayan states, including Uttarakhand and Sikkim, commonly experience Glacial Lake Outburst Floods.",
+     "facts": [
+      "F44",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "disaster-management-11-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Flood Management – Authority and Role",
+     "question": "Consider the following statements:\nStatement A: The Rashtriya Barh Ayog recommended comprehensive flood management.\nStatement B: State Irrigation or Water Resources Departments implement structural flood-control works.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Rashtriya Barh Ayog recommended comprehensive flood management, while State Irrigation or Water Resources Departments implement structural flood-control works.",
+     "facts": [
+      "F53",
+      "F55"
+     ]
+    },
+    {
+     "id": "disaster-management-11-17",
+     "format": "Assertion-Reason",
+     "keyword": "Flood Event – Year and Cause",
+     "question": "Assertion (A): Bihar experienced a major flood in 2008.\nReason (R): An embankment breach caused the 2008 Bihar flood in the Kosi region.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The 2008 Bihar flood occurred in the Kosi region, and its key cause was an embankment breach. Thus, both statements are true and the Reason explains the Assertion.",
+     "facts": [
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "disaster-management-11-18",
+     "format": "List-Matching",
+     "keyword": "Flood Management Guidelines – Year",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Guidelines on Management of Floods\n(b) Guidelines on Urban Flooding\n(c) Odisha Flood Hazard Atlas: period covered\n(d) Establishment of Rashtriya Barh Ayog\n\nList-II\n(i) 2008\n(ii) 2010\n(iii) 2000–2018\n(iv) 1980",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The NDMA issued Guidelines on Management of Floods in 2008 and Guidelines on Urban Flooding in 2010. The Odisha Flood Hazard Atlas covers 2000–2018, while the Rashtriya Barh Ayog was established in 1980.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 71,
+    "covered": 71,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -2224,7 +3305,11 @@
       "Replacing preparedness with long-term rehabilitation"
      ],
      "answer": 1,
-     "explanation": "The notes define mitigation as measures aimed at reducing the risk, impact or effects of a disaster or threatening disaster situation."
+     "explanation": "The notes define mitigation as measures aimed at reducing the risk, impact or effects of a disaster or threatening disaster situation.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "disaster-management-12-2",
@@ -2238,7 +3323,12 @@
       "The maximum human-life loss in Andhra Pradesh occurred during the 1977 Cyclone."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the cyclone stretch. The notes identify the vulnerable stretch as Ongole–Machilipatnam, not Machilipatnam–Kakinada."
+     "explanation": "The incorrect detail is the cyclone stretch. The notes identify the vulnerable stretch as Ongole–Machilipatnam, not Machilipatnam–Kakinada.",
+     "facts": [
+      "F4",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "disaster-management-12-3",
@@ -2252,7 +3342,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes. Mitigation reduces vulnerability and hazard impact, which explains why it is regarded as the most cost-effective phase."
+     "explanation": "Both statements are given in the notes. Mitigation reduces vulnerability and hazard impact, which explains why it is regarded as the most cost-effective phase.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "disaster-management-12-4",
@@ -2266,7 +3361,23 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Flood—embankments, dams and channel improvement; Cyclone—multi-purpose coastal embankments and cyclone shelters; Drought—check dams, farm ponds and irrigation; Landslide—retaining walls and slope stabilisation."
+     "explanation": "The correct pairs are: Flood—embankments, dams and channel improvement; Cyclone—multi-purpose coastal embankments and cyclone shelters; Drought—check dams, farm ponds and irrigation; Landslide—retaining walls and slope stabilisation.",
+     "facts": [
+      "F26",
+      "F41",
+      "F42",
+      "F43",
+      "F54",
+      "F58",
+      "F59",
+      "F60",
+      "F64",
+      "F65",
+      "F10",
+      "F24",
+      "F25",
+      "F30"
+     ]
     },
     {
      "id": "disaster-management-12-5",
@@ -2280,7 +3391,15 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because mainstreaming disaster risk reduction requires its integration into all development sectors."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because mainstreaming disaster risk reduction requires its integration into all development sectors.",
+     "facts": [
+      "F71",
+      "F72",
+      "F73",
+      "F74",
+      "F69",
+      "F70"
+     ]
     },
     {
      "id": "disaster-management-12-6",
@@ -2294,9 +3413,287 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. The notes classify physical or engineering constructions as structural mitigation and policies, laws, awareness and planning as non-structural mitigation."
+     "explanation": "Both statements are correct. The notes classify physical or engineering constructions as structural mitigation and policies, laws, awareness and planning as non-structural mitigation.",
+     "facts": [
+      "F23",
+      "F31",
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "disaster-management-12-7",
+     "format": "List-Matching",
+     "keyword": "Disaster Mitigation Measures",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) General mitigation\n(b) Earthquake mitigation\n(c) Flood mitigation\n(d) Landslide mitigation\n\nList-II\n(i) Regulating settlements in hazard-prone areas\n(ii) Risk assessment\n(iii) Flood-plain management\n(iv) Reframing and implementing building-construction guidelines",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Risk assessment is a general mitigation measure; reframing and implementing building-construction guidelines is an earthquake measure; flood-plain management is a flood measure; and regulating settlements in hazard-prone areas is a landslide measure.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F9",
+      "F66"
+     ]
+    },
+    {
+     "id": "disaster-management-12-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Flood Mitigation Measures",
+     "question": "Consider the following statements:\nStatement A: Flood-proofing is a flood mitigation measure.\nStatement B: Forecasting and warning are flood mitigation measures.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Flood-proofing and forecasting and warning are both identified as flood mitigation measures.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "disaster-management-12-9",
+     "format": "Assertion-Reason",
+     "keyword": "Disaster Management Cycle",
+     "question": "Assertion (A): Mitigation belongs to the pre-disaster phase of the Disaster Management Cycle.\nReason (R): Prevention, mitigation and preparedness belong to the pre-disaster phase.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Mitigation is part of the pre-disaster phase, along with prevention and preparedness. Therefore, the reason correctly explains the assertion.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "disaster-management-12-10",
+     "format": "Assertion-Reason",
+     "keyword": "Disaster Management Paradigm Shift",
+     "question": "Assertion (A): The disaster-management paradigm has shifted from relief-centric management, represented by the 3Rs, to mitigation-centric management, represented by prevention, mitigation and preparedness.\nReason (R): The relief-centric approach is represented by the 3Rs.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The paradigm shift and both approaches are correctly stated. However, the representation of the relief-centric approach by the 3Rs does not by itself explain the broader shift to mitigation-centric management.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "disaster-management-12-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Structural Mitigation Measures in India",
+     "question": "Consider the following statements:\nI. Earthquake-resistant buildings are structural mitigation measures in India.\nII. Retrofitting is a structural mitigation measure in India.\nIII. Sea walls are structural mitigation measures in India.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Earthquake-resistant buildings, retrofitting and sea walls are all listed as structural mitigation measures in India.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "disaster-management-12-12",
+     "format": "Count-Based",
+     "keyword": "Non-Structural Mitigation Measures in India",
+     "question": "How many of the following are non-structural mitigation measures or examples of non-structural mitigation in India?\n\n1. Building codes\n2. IS 1893\n3. National Building Code\n4. Flood Plain Zoning\n5. Land-use planning\n6. Insurance\n7. Public awareness\n8. Early warning systems\n9. Training",
+     "options": [
+      "Only six",
+      "Only seven",
+      "Only eight",
+      "All nine"
+     ],
+     "answer": 3,
+     "explanation": "All nine listed items are associated with non-structural mitigation in India. Building codes, including IS 1893 and the National Building Code, as well as planning, insurance, awareness, warning systems and training are included in this category.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "disaster-management-12-13",
+     "format": "Assertion-Reason",
+     "keyword": "Flood Mitigation and Forecasting",
+     "question": "Assertion (A): Flood Plain Zoning is a non-structural flood-mitigation measure.\nReason (R): The Central Water Commission is associated with flood forecasting.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Flood Plain Zoning is a non-structural flood-mitigation measure, and the Central Water Commission is associated with flood forecasting. The forecasting role of the Central Water Commission does not explain why Flood Plain Zoning is non-structural.",
+     "facts": [
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "disaster-management-12-14",
+     "format": "List-Matching",
+     "keyword": "Flood/Earthquake Mitigation",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Flood forecasting\n(b) Watershed management\n(c) Retrofitting\n(d) Seismic microzonation\n\nList-II\n(i) Non-structural earthquake-mitigation measure\n(ii) Structural earthquake-mitigation measure\n(iii) Non-structural flood-mitigation measure\n(iv) Non-structural flood-mitigation measure",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Flood forecasting and watershed management are non-structural flood-mitigation measures. Retrofitting is a structural earthquake-mitigation measure, while seismic microzonation is non-structural.",
+     "facts": [
+      "F46",
+      "F47",
+      "F48",
+      "F51"
+     ]
+    },
+    {
+     "id": "disaster-management-12-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Earthquake Mitigation",
+     "question": "Consider the following statements:\n\nI. Earthquake-resistant design is a structural earthquake-mitigation measure.\nII. IS 1893 is associated with earthquake-resistant design.\nIII. Building codes are structural earthquake-mitigation measures.\nIV. Awareness is a non-structural earthquake-mitigation measure.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II, III and IV",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "Earthquake-resistant design is structural, and IS 1893 is associated with it. Building codes and awareness are non-structural measures, making Statements I, II and IV correct.",
+     "facts": [
+      "F49",
+      "F50",
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "disaster-management-12-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Cyclone Mitigation",
+     "question": "Consider the following statements:\n\nStatement A: Early warning systems and coastal regulation zones are non-structural cyclone-mitigation measures.\nStatement B: Community training is a non-structural cyclone-mitigation measure.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Early warning systems, coastal regulation zones and community training are all identified as non-structural cyclone-mitigation measures.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "disaster-management-12-17",
+     "format": "Count-Based",
+     "keyword": "Drought Mitigation",
+     "question": "How many of the following are non-structural drought-mitigation measures?\n\n1. Drought-resistant crops\n2. Water conservation\n3. Insurance under PMFBY\n4. Irrigation",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Drought-resistant crops, water conservation and insurance under PMFBY are non-structural drought-mitigation measures. Irrigation is listed as a structural drought-mitigation measure.",
+     "facts": [
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "disaster-management-12-18",
+     "format": "Assertion-Reason",
+     "keyword": "Mainstreaming Disaster Risk Reduction",
+     "question": "Assertion (A): Mainstreaming Disaster Risk Reduction is part of the Prime Minister's 10-Point Agenda.\nReason (R): Mainstreaming Disaster Risk Reduction is to be integrated into all development sectors.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The sheet states that mainstreaming Disaster Risk Reduction is to be integrated into all development sectors under the Prime Minister's 10-Point Agenda. Thus, both statements are true and the Reason explains the Assertion.",
+     "facts": [
+      "F75"
+     ]
+    },
+    {
+     "id": "disaster-management-12-19",
+     "format": "Direct Recall",
+     "keyword": "Landslide mitigation",
+     "question": "Which of the following is a non-structural landslide-mitigation measure?",
+     "options": [
+      "Afforestation",
+      "Slope stabilisation",
+      "Retaining walls",
+      "Check dams"
+     ],
+     "answer": 0,
+     "explanation": "Afforestation is classified as a non-structural landslide-mitigation measure. Retaining walls and slope stabilisation are structural measures for landslides.",
+     "facts": [
+      "F67"
+     ]
+    },
+    {
+     "id": "disaster-management-12-20",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Landslide mitigation",
+     "question": "Which of the following statements regarding landslide mitigation is incorrect?",
+     "options": [
+      "Early warning is a structural landslide-mitigation measure.",
+      "Retaining walls are structural landslide-mitigation measures.",
+      "Early warning is a non-structural landslide-mitigation measure.",
+      "Slope stabilisation is a structural landslide-mitigation measure."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement classifies early warning as structural. Early warning is a non-structural landslide-mitigation measure.",
+     "facts": [
+      "F68"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 75,
+    "covered": 75,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -2565,8 +3962,235 @@
       "F59",
       "F6"
      ]
+    },
+    {
+     "id": "disaster-management-14-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Terminology",
+     "question": "Consider the following statements:\nStatement A: North Atlantic cyclones are called hurricanes.\nStatement B: A cyclone is a rapid-onset disaster.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: North Atlantic cyclones are called hurricanes, and cyclones are classified as rapid-onset disasters.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "disaster-management-14-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Cyclone → Location",
+     "question": "Consider the following statements:\nStatement A: Phethai made landfall in Andhra Pradesh in December 2018.\nStatement B: Phethai travelled from the Bay of Bengal to Andhra Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements correctly describe Phethai: it travelled from the Bay of Bengal to Andhra Pradesh and made landfall there in December 2018.",
+     "facts": [
+      "F7",
+      "F9"
+     ]
+    },
+    {
+     "id": "disaster-management-14-11",
+     "format": "List-Matching",
+     "keyword": "Institution/Organisation → Role",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Andhra Pradesh State Disaster Management Authority\n(b) National Cyclone Risk Mitigation Project\n(c) National Disaster Management Authority\n(d) INCOIS\n\nList-II\n(i) Early warning\n(ii) Storm surge and high-wave warnings\n(iii) Disaster mitigation and response in Andhra Pradesh\n(iv) Policy guidelines and overall coordination",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: AP SDMA—disaster mitigation and response in Andhra Pradesh; NCRMP—early warning; NDMA—policy guidelines and overall coordination; INCOIS—storm surge and high-wave warnings.",
+     "facts": [
+      "F17",
+      "F50"
+     ]
+    },
+    {
+     "id": "disaster-management-14-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Most Vulnerable Coasts",
+     "question": "Consider the following statements:\nStatement A: The East Coast is more vulnerable to cyclones than the West Coast.\nStatement B: The vulnerable East Coast includes Odisha, Andhra Pradesh, West Bengal and Tamil Nadu.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The East Coast is identified as more vulnerable, and the listed states form the vulnerable East Coast group in the classification.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-14-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ratio; Guidelines – Year",
+     "question": "Consider the following statements:\nStatement A: The approximate ratio of cyclones in the Bay of Bengal to those in the Arabian Sea is 4:1.\nStatement B: The NDMA Guidelines on Management of Cyclones were issued in 2008.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Bay of Bengal–Arabian Sea cyclone ratio is approximately 4:1, and the NDMA cyclone-management guidelines were issued in 2008.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "disaster-management-14-14",
+     "format": "List-Matching",
+     "keyword": "IMD Classification – Wind Speed",
+     "question": "Match List-I with List-II on the basis of IMD wind-speed classification:\n\nList-I\n(a) Low-pressure area\n(b) Deep depression\n(c) Severe cyclonic storm\n\nList-II\n(i) 50–61 km/h and 28–33 knots\n(ii) Below 31 km/h and below 17 knots\n(iii) 89–117 km/h and 48–63 knots",
+     "options": [
+      "a-i, b-iii, c-ii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-ii, c-i",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: low-pressure area—below 31 km/h and below 17 knots; deep depression—50–61 km/h and 28–33 knots; severe cyclonic storm—89–117 km/h and 48–63 knots.",
+     "facts": [
+      "F28",
+      "F29",
+      "F32",
+      "F33",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "disaster-management-14-15",
+     "format": "Count-Based",
+     "keyword": "Cyclone History; Early Warning; Disaster Management",
+     "question": "How many of the following statements are correct?\n\nI. NCRMP provides early warning.\nII. The 1999 Super Cyclone occurred in Odisha.\nIII. The 1999 Super Cyclone caused approximately 10,000 deaths.\nIV. The 1999 Super Cyclone led to a major push for a modern disaster-management system.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The 1999 Super Cyclone occurred in Odisha, caused approximately 10,000 deaths and prompted a major push for a modern disaster-management system; NCRMP provides early warning.",
+     "facts": [
+      "F50",
+      "F53",
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "disaster-management-14-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Cyclone Impact and Evacuation",
+     "question": "Consider the following statements:\nStatement A: Phailin led to massive evacuation.\nStatement B: Phailin resulted in very low casualties.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Phailin was associated with massive evacuation and very low casualties.",
+     "facts": [
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "disaster-management-14-17",
+     "format": "List-Matching",
+     "keyword": "Cyclone → Year/Location/Impact",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Hudhud\n(b) Fani\n(c) Amphan\n\nList-II\n(i) West Bengal, 2020\n(ii) Odisha, 2019; gold-standard evacuation of approximately 1.2 million people\n(iii) Severe damage to Visakhapatnam\n\nOptions:",
+     "options": [
+      "a-ii, b-i, c-iii",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i",
+      "a-i, b-iii, c-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: Hudhud—severe damage to Visakhapatnam; Fani—Odisha in 2019 with gold-standard evacuation of approximately 1.2 million people; Amphan—West Bengal in 2020.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "disaster-management-14-18",
+     "format": "Direct Recall",
+     "keyword": "Cyclone classification",
+     "question": "Amphan was classified as which of the following?",
+     "options": [
+      "A Severe Cyclonic Storm",
+      "A Super Cyclonic Storm",
+      "A Very Severe Cyclonic Storm",
+      "A Cyclonic Storm"
+     ],
+     "answer": 1,
+     "explanation": "Amphan was a Super Cyclonic Storm.",
+     "facts": [
+      "F64"
+     ]
+    },
+    {
+     "id": "disaster-management-14-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Cyclone → Year/Location",
+     "question": "Consider the following statements:\nStatement A: Tauktae occurred in the Arabian Sea.\nStatement B: Tauktae occurred in 2021.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Tauktae occurred in the Arabian Sea in 2021.",
+     "facts": [
+      "F65"
+     ]
+    },
+    {
+     "id": "disaster-management-14-20",
+     "format": "Assertion-Reason",
+     "keyword": "Cyclone significance",
+     "question": "Assertion (A): Tauktae was a rare intense west-coast cyclone.\nReason (R): Tauktae occurred in the Arabian Sea in 2021.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Tauktae was described as a rare intense west-coast cyclone and occurred in the Arabian Sea in 2021, but the year and sea of occurrence do not fully explain its description as rare and intense.",
+     "facts": [
+      "F66",
+      "F65"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 66,
+    "covered": 66,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -2594,7 +4218,10 @@
       "Hyderabad"
      ],
      "answer": 1,
-     "explanation": "The NDRF Regional Headquarters serving Andhra Pradesh, Telangana and Karnataka is located at Vijayawada."
+     "explanation": "The NDRF Regional Headquarters serving Andhra Pradesh, Telangana and Karnataka is located at Vijayawada.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "disaster-management-15-2",
@@ -2608,7 +4235,12 @@
       "The NDRF was established in 2006."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the year of establishment. The NDRF was established in 2006; 2005 is the year of the Disaster Management Act mentioned in the legal basis."
+     "explanation": "The incorrect detail is the year of establishment. The NDRF was established in 2006; 2005 is the year of the Disaster Management Act mentioned in the legal basis.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "disaster-management-15-3",
@@ -2622,7 +4254,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The NDRF expanded from an initial 8 battalions to 16 battalions, directly explaining the assertion."
+     "explanation": "Both statements are true. The NDRF expanded from an initial 8 battalions to 16 battalions, directly explaining the assertion.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "disaster-management-15-4",
@@ -2636,7 +4272,15 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: NDRF–Response force, NCMC–Crisis coordination, State Crisis Management Committee–Chief Secretary, and District Disaster Management–Collector."
+     "explanation": "The correct pairs are: NDRF–Response force, NCMC–Crisis coordination, State Crisis Management Committee–Chief Secretary, and District Disaster Management–Collector.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "disaster-management-15-5",
@@ -2650,7 +4294,20 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. NDRF also undertakes mountain rescue, so statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. NDRF also undertakes mountain rescue, so statement IV is incorrect.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "disaster-management-15-6",
@@ -2664,7 +4321,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes: the NDRF Academy is in Nagpur and the NDRF headquarters is in New Delhi."
+     "explanation": "Both statements are true according to the notes: the NDRF Academy is in Nagpur and the NDRF headquarters is in New Delhi.",
+     "facts": [
+      "F15",
+      "F61"
+     ]
     }
    ]
   },
@@ -2910,10 +4571,214 @@
       "F60",
       "F61",
       "F62",
-      "F63"
+      "F63",
+      "F18"
+     ]
+    },
+    {
+     "id": "disaster-management-17-8",
+     "format": "Direct Recall",
+     "keyword": "Nodal Ministry",
+     "question": "At the Union level, which ministry has nodal responsibility for disaster management in India?",
+     "options": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Ministry of Home Affairs",
+      "Ministry of Health and Family Welfare",
+      "Ministry of Earth Sciences"
+     ],
+     "answer": 1,
+     "explanation": "The Ministry of Home Affairs is the nodal ministry for disaster management and has nodal responsibility at the Union level.",
+     "facts": [
+      "F1",
+      "F10",
+      "F18"
+     ]
+    },
+    {
+     "id": "disaster-management-17-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Union Government role",
+     "question": "Consider the following statements:\nStatement A: The Union Government provides early warning for disasters.\nStatement B: The Ministry of Home Affairs is responsible for overall coordination of disaster management at the national level.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Union Government provides early warning, while the Ministry of Home Affairs is responsible for overall national-level coordination of disaster management.",
+     "facts": [
+      "F6",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-17-10",
+     "format": "List-Matching",
+     "keyword": "Crisis Management Institutions",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Cabinet Committee on Security (CCS)\n(b) National Crisis Management Committee\n(c) State Government\n(d) State Crisis Management Committee\n\nList-II\n(i) Handles nuclear, biological and chemical emergencies\n(ii) Coordinates and directs responses to national crises\n(iii) Responsible for post-disaster relief and rehabilitation\n(iv) Handles state-level crises and is chaired by the Chief Secretary",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The CCS handles nuclear, biological and chemical emergencies; the NCMC coordinates national crises; the State Government undertakes post-disaster relief and rehabilitation; and the State Crisis Management Committee handles state-level crises under the Chief Secretary.",
+     "facts": [
+      "F9",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "disaster-management-17-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disaster Management Division – Functions",
+     "question": "Consider the following statements:\n\nI. The Disaster Management Division is the division of the Ministry of Home Affairs concerned with disaster management.\nII. It mobilises resources for response and relief.\nIII. It coordinates central assistance to states for response and relief.\nIV. It is concerned with prevention, mitigation, preparedness and long-term rehabilitation.",
+     "options": [
+      "I, III and IV only",
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements describe functions or responsibilities of the Disaster Management Division of the Ministry of Home Affairs.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "disaster-management-17-12",
+     "format": "Count-Based",
+     "keyword": "Disaster Management Funds",
+     "question": "How many of the following funds are matters handled by the Disaster Management Division?\n\n1. National Disaster Response Fund (NDRF)\n2. State Disaster Response Fund (SDRF)\n3. National Disaster Mitigation Fund (NDMF)\n4. State Disaster Mitigation Fund (SDMF)",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The Disaster Management Division handles matters related to all four listed funds: NDRF, SDRF, NDMF and SDMF.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-17-13",
+     "format": "Assertion-Reason",
+     "keyword": "Administrative Control",
+     "question": "Assertion (A): The Disaster Management Division handles administrative and budgetary matters of the National Disaster Management Authority.\nReason (R): The Disaster Management Division handles administrative matters of the National Disaster Response Force.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true responsibilities of the Disaster Management Division. However, the administrative matters of the NDRF do not explain its handling of the administrative and budgetary matters of the NDMA.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "disaster-management-17-14",
+     "format": "List-Matching",
+     "keyword": "Institution → Function",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Budgetary matters of NDRF\n(b) Administrative matters of NIDM\n(c) Budgetary matters of NIDM\n(d) Strengthening of Fire Services\n\nList-II\n(i) Fire Services\n(ii) NIDM administrative matters\n(iii) NDRF budgetary matters\n(iv) NIDM budgetary matters",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The Disaster Management Division handles budgetary matters of NDRF, administrative and budgetary matters of NIDM, and strengthens Fire Services. Hence, the correct pairs are a-iii, b-ii, c-iv and d-i.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "disaster-management-17-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disaster Management Division → Strengthening and Administrative Control",
+     "question": "Consider the following statements:\n\nI. The Disaster Management Division strengthens Civil Defence.\nII. The Disaster Management Division strengthens Home Guards.\nIII. The National Disaster Management Authority is under the administrative control of the Ministry of Home Affairs.\nIV. The National Disaster Response Force is under the Ministry of Home Affairs.",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I and II only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. The Disaster Management Division strengthens Civil Defence and Home Guards, while NDMA is under the administrative control of MHA and NDRF is under MHA.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F51"
+     ]
+    },
+    {
+     "id": "disaster-management-17-16",
+     "format": "Direct Recall",
+     "keyword": "High Level Committee → Financial Approvals",
+     "question": "The High Level Committee is concerned with which of the following?",
+     "options": [
+      "Operation of the National Emergency Operations Centre",
+      "Post-disaster relief and rehabilitation",
+      "Coordination of international assistance and HADR operations",
+      "Financial approvals"
+     ],
+     "answer": 3,
+     "explanation": "The High Level Committee, chaired by the Union Home Minister, deals with financial approvals.",
+     "facts": [
+      "F56"
+     ]
+    },
+    {
+     "id": "disaster-management-17-17",
+     "format": "List-Matching",
+     "keyword": "Disaster Type → Nodal Ministry/Department",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Nuclear disasters\n(b) Radiological disasters\n(c) Forest fire\n(d) Chemical disasters\n\nList-II\n(i) Department of Atomic Energy\n(ii) Ministry of Environment, Forest and Climate Change\n(iii) Ministry of Home Affairs\n(iv) Ministry of Agriculture and Farmers Welfare",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-i, c-ii, d-ii",
+      "a-ii, b-ii, c-i, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The Department of Atomic Energy is the nodal department for nuclear and radiological disasters. The Ministry of Environment, Forest and Climate Change is the nodal ministry for forest fire and chemical disasters.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F67"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 67,
+    "covered": 67,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -2942,7 +4807,12 @@
       "Sudden upward movement of rocks under the influence of gravity"
      ],
      "answer": 2,
-     "explanation": "A landslide is the mass movement of rocks, debris or earth down mountain slopes or riverbanks."
+     "explanation": "A landslide is the mass movement of rocks, debris or earth down mountain slopes or riverbanks.",
+     "facts": [
+      "F1",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "disaster-management-18-2",
@@ -2956,7 +4826,14 @@
       "Prolonged rainfall is a major rainfall trigger for landslides."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year. The NDMA Guidelines on Management of Landslides and Snow Avalanches were issued in 2009, not 2019."
+     "explanation": "The incorrect detail is the year. The NDMA Guidelines on Management of Landslides and Snow Avalanches were issued in 2009, not 2019.",
+     "facts": [
+      "F10",
+      "F17",
+      "F19",
+      "F6",
+      "F58"
+     ]
     },
     {
      "id": "disaster-management-18-3",
@@ -2970,7 +4847,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify National Landslide Susceptibility Mapping as a key initiative and associate it with the Geological Survey of India."
+     "explanation": "Both statements are true. The notes identify National Landslide Susceptibility Mapping as a key initiative and associate it with the Geological Survey of India.",
+     "facts": [
+      "F53"
+     ]
     },
     {
      "id": "disaster-management-18-4",
@@ -2984,7 +4864,19 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Northwest Himalayas—earthquakes, heavy rainfall and road cutting; Northeast Himalayas—heavy rainfall and jhum cultivation; Western Ghats and Konkan—intense monsoon rainfall and deforestation; Eastern Ghats—localised heavy rainfall."
+     "explanation": "The correct pairs are: Northwest Himalayas—earthquakes, heavy rainfall and road cutting; Northeast Himalayas—heavy rainfall and jhum cultivation; Western Ghats and Konkan—intense monsoon rainfall and deforestation; Eastern Ghats—localised heavy rainfall.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F33",
+      "F34",
+      "F40",
+      "F41",
+      "F43",
+      "F7",
+      "F58"
+     ]
     },
     {
      "id": "disaster-management-18-5",
@@ -2998,7 +4890,13 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. Retaining walls are structural, Landslide Hazard Zonation mapping is non-structural, and mountain-specific building codes are regulatory measures."
+     "explanation": "All three statements are correct. Retaining walls are structural, Landslide Hazard Zonation mapping is non-structural, and mountain-specific building codes are regulatory measures.",
+     "facts": [
+      "F44",
+      "F49",
+      "F56",
+      "F12"
+     ]
     },
     {
      "id": "disaster-management-18-6",
@@ -3012,9 +4910,278 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes: approximately 12.6% of India's land area is landslide-prone, and Wayanad, Kerala, is listed as a recent major event in 2024."
+     "explanation": "Both statements are supported by the notes: approximately 12.6% of India's land area is landslide-prone, and Wayanad, Kerala, is listed as a recent major event in 2024.",
+     "facts": [
+      "F17",
+      "F18",
+      "F59"
+     ]
+    },
+    {
+     "id": "disaster-management-18-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Nature",
+     "question": "Consider the following statements:\nStatement A: Landslides may occur gradually or suddenly without warning.\nStatement B: Hilly regions are common terrain for landslides.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Landslides may occur gradually or suddenly without warning, and hilly regions are common terrain for them.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "disaster-management-18-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Associated hazards",
+     "question": "Consider the following statements:\nI. The Himalayas are among the most vulnerable regions to landslides in India.\nII. The Western Ghats are among the most vulnerable regions to landslides in India.\nIII. Floods are associated with landslides.\nIV. Volcanic eruptions are associated with landslides.",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are supported: the Himalayas and Western Ghats are highly vulnerable regions, while floods and volcanic eruptions are associated with landslides.",
+     "facts": [
+      "F4",
+      "F5",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "disaster-management-18-9",
+     "format": "Direct Recall",
+     "keyword": "Mitigation",
+     "question": "Which of the following is a landslide mitigation measure?",
+     "options": [
+      "Removing land-use regulation",
+      "Increasing construction in high-risk zones",
+      "Declaring all hilly regions as safe zones",
+      "Regulating settlements in hazard-prone areas"
+     ],
+     "answer": 3,
+     "explanation": "Regulating settlements in hazard-prone areas is identified as a landslide mitigation measure.",
+     "facts": [
+      "F11"
+     ]
+    },
+    {
+     "id": "disaster-management-18-10",
+     "format": "Assertion-Reason",
+     "keyword": "Nature",
+     "question": "Assertion (A): A landslide is a geological hazard.\nReason (R): A landslide is a hydro-meteorological hazard.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true because the nature of a landslide is described as geological as well as hydro-meteorological. However, the Reason does not explain the Assertion; it states another classification.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "disaster-management-18-11",
+     "format": "Direct Recall",
+     "keyword": "Policy",
+     "question": "In which year was the National Landslide Risk Management Strategy issued?",
+     "options": [
+      "2009",
+      "2024",
+      "2019",
+      "2011"
+     ],
+     "answer": 2,
+     "explanation": "The National Landslide Risk Management Strategy was issued in 2019.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "disaster-management-18-12",
+     "format": "Count-Based",
+     "keyword": "Himalayas → State [LOCATION]",
+     "question": "How many of the following are included among the landslide-prone areas of the Northwest Himalayas?\n1. Jammu and Kashmir\n2. Himachal Pradesh\n3. Uttarakhand\n4. Sikkim\n5. Kerala",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "Only four"
+     ],
+     "answer": 2,
+     "explanation": "Jammu and Kashmir, Himachal Pradesh and Uttarakhand are included in the Northwest Himalayas. Sikkim belongs to the Northeast Himalayas, while Kerala is listed under the Western Ghats and Konkan region.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "disaster-management-18-13",
+     "format": "Count-Based",
+     "keyword": "Himalayas → State [LOCATION]",
+     "question": "How many of the following are included among the landslide-prone areas of the Northeast Himalayas?\n1. Sikkim\n2. Arunachal Pradesh\n3. Manipur\n4. Mizoram\n5. Nagaland\n6. Meghalaya\n7. Goa",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "All seven"
+     ],
+     "answer": 2,
+     "explanation": "The first six areas—Sikkim, Arunachal Pradesh, Manipur, Mizoram, Nagaland and Meghalaya—are included in the Northeast Himalayas. Goa is listed under the Western Ghats and Konkan region.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-18-14",
+     "format": "Count-Based",
+     "keyword": "Western Ghats → State [LOCATION]",
+     "question": "How many of the following are included among the landslide-prone areas of the Western Ghats and Konkan region?\n1. Kerala\n2. Karnataka\n3. Maharashtra\n4. Goa\n5. Tamil Nadu’s Nilgiris\n6. Araku region",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 2,
+     "explanation": "Kerala, Karnataka, Maharashtra, Goa and Tamil Nadu’s Nilgiris are included in the Western Ghats and Konkan region. The Araku region belongs to the Eastern Ghats.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "disaster-management-18-15",
+     "format": "Direct Recall",
+     "keyword": "Eastern Ghats → Location",
+     "question": "Which of the following is identified as a landslide-prone area of the Eastern Ghats?",
+     "options": [
+      "Uttarakhand",
+      "Nilgiris",
+      "Araku region",
+      "Meghalaya"
+     ],
+     "answer": 2,
+     "explanation": "The Araku region, in Andhra Pradesh, is identified as a landslide-prone area of the Eastern Ghats.",
+     "facts": [
+      "F42"
+     ]
+    },
+    {
+     "id": "disaster-management-18-16",
+     "format": "Count-Based",
+     "keyword": "Landslide Mitigation Measures",
+     "question": "How many of the following are structural landslide-mitigation measures?\n1. Rock bolting\n2. Wire mesh\n3. Drainage improvement\n4. Slope grading",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Rock bolting, wire mesh, drainage improvement and slope grading are all identified as structural landslide-mitigation measures.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "disaster-management-18-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Landslide Mitigation Measures",
+     "question": "Consider the following statements:\nI. Early Warning Systems are non-structural landslide-mitigation measures.\nII. Land-use regulation is a non-structural landslide-mitigation measure.\nIII. Awareness is a non-structural landslide-mitigation measure.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "Early Warning Systems, land-use regulation and awareness are all listed as non-structural landslide-mitigation measures.",
+     "facts": [
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "disaster-management-18-18",
+     "format": "Direct Recall",
+     "keyword": "Landslide Initiatives",
+     "question": "Which of the following is identified as a key landslide initiative?",
+     "options": [
+      "National Landslide Susceptibility Mapping",
+      "Landslide Hazard Zonation mapping",
+      "National Landslide Forecasting Centre",
+      "Geological Survey of India"
+     ],
+     "answer": 2,
+     "explanation": "The National Landslide Forecasting Centre is identified as a key landslide initiative.",
+     "facts": [
+      "F54"
+     ]
+    },
+    {
+     "id": "disaster-management-18-19",
+     "format": "Direct Recall",
+     "keyword": "Landslide Risk Regulation",
+     "question": "Which of the following is the appropriate regulatory measure for high-risk landslide zones?",
+     "options": [
+      "Construction should be shifted to riverbanks",
+      "Construction should be permitted without regulation",
+      "Construction should be expanded",
+      "Construction should be restricted"
+     ],
+     "answer": 3,
+     "explanation": "Construction in high-risk zones should be restricted as part of landslide-risk regulation.",
+     "facts": [
+      "F55"
+     ]
+    },
+    {
+     "id": "disaster-management-18-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Landslide Vulnerability",
+     "question": "Consider the following statements:\nStatement A: The Northeast is among the most vulnerable regions to landslides in India.\nStatement B: The Eastern Ghats are identified as the most vulnerable region to landslides in India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "The Northeast is among India’s most vulnerable regions to landslides. The notes identify the Himalayas, Western Ghats and Northeast as the most vulnerable regions, not the Eastern Ghats.",
+     "facts": [
+      "F57"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 59,
+    "covered": 59,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -3043,7 +5210,11 @@
       "Rainfall of at least 200 mm in one hour over approximately 10–15 sq km"
      ],
      "answer": 0,
-     "explanation": "The IMD defines a cloudburst as extremely intense rainfall of at least 100 mm in one hour over an area of approximately 20–30 sq km."
+     "explanation": "The IMD defines a cloudburst as extremely intense rainfall of at least 100 mm in one hour over an area of approximately 20–30 sq km.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "disaster-management-19-2",
@@ -3057,7 +5228,13 @@
       "Cloudbursts are often accompanied by thunderstorms."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement alters the altitude range. Cloudbursts mostly occur between 1,000 and 2,500 metres in mountainous regions."
+     "explanation": "The incorrect statement alters the altitude range. Cloudbursts mostly occur between 1,000 and 2,500 metres in mountainous regions.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F16"
+     ]
     },
     {
      "id": "disaster-management-19-3",
@@ -3071,7 +5248,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The highly localised nature of cloudbursts is the reason they are extremely difficult to forecast."
+     "explanation": "Both statements are true. The highly localised nature of cloudbursts is the reason they are extremely difficult to forecast.",
+     "facts": [
+      "F11",
+      "F31"
+     ]
     },
     {
      "id": "disaster-management-19-4",
@@ -3085,7 +5266,14 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: orographic lifting–warm moist air rising over slopes; atmospheric instability–strong convection; moisture availability–high moisture in monsoon air; sudden release–intense fall of accumulated water."
+     "explanation": "The correct pairs are: orographic lifting–warm moist air rising over slopes; atmospheric instability–strong convection; moisture availability–high moisture in monsoon air; sudden release–intense fall of accumulated water.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F29"
+     ]
     },
     {
      "id": "disaster-management-19-5",
@@ -3099,7 +5287,17 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. Statement III is incorrect because flood management includes flood forecasting, warning and disaster preparedness."
+     "explanation": "Statements I and II are correct. Statement III is incorrect because flood management includes flood forecasting, warning and disaster preparedness.",
+     "facts": [
+      "F5",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F21",
+      "F29"
+     ]
     }
    ]
   },
@@ -3709,8 +5907,109 @@
       "F22",
       "F23"
      ]
+    },
+    {
+     "id": "disaster-management-23-18",
+     "format": "Count-Based",
+     "keyword": "Organisations",
+     "question": "How many of the following abbreviations are correctly matched with the organisation?\n\n1. NDRF — National Disaster Response Force\n2. IMD — Indian Meteorological Department\n3. INCOIS — Indian National Centre for Ocean Information Services\n4. NRSC — National Remote Sensing Centre\n5. GSI — Geological Survey of India\n6. CWC — Central Water Commission",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All six abbreviations are correctly matched: NDRF, IMD, INCOIS, NRSC, GSI and CWC correspond to the organisations listed.",
+     "facts": [
+      "F46",
+      "F51",
+      "F54",
+      "F56",
+      "F60",
+      "F63"
+     ]
+    },
+    {
+     "id": "disaster-management-23-19",
+     "format": "Assertion-Reason",
+     "keyword": "Organisations",
+     "question": "Assertion (A): The SAARC Disaster Management Centre was earlier located in New Delhi, India and has been restructured.\nReason (R): It promotes regional cooperation among SAARC countries and is abbreviated as SDMC.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The centre was earlier located in New Delhi and has been restructured; it also promotes regional cooperation among SAARC countries and is abbreviated as SDMC. The reason does not explain its earlier location or restructuring.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "disaster-management-23-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Location",
+     "question": "Consider the following statements:\nStatement A: The Asian Disaster Center is located in Bangkok, Thailand.\nStatement B: The Asian Disaster Center supports regional capacity building in Asia and is associated with the abbreviation ADPC.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Asian Disaster Center is located in Bangkok, Thailand, supports regional capacity building in Asia, and is associated with ADPC.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "disaster-management-23-21",
+     "format": "Direct Recall",
+     "keyword": "Organisations",
+     "question": "Which of the following correctly identifies the abbreviation and key role of the Asian Disaster Reduction Center?",
+     "options": [
+      "ADRC — Information sharing and research on disasters",
+      "NDRF — Specialised force for disaster response",
+      "SDMC — Regional cooperation among SAARC countries",
+      "ADPC — Regional capacity building in Asia"
+     ],
+     "answer": 0,
+     "explanation": "The Asian Disaster Reduction Center is abbreviated as ADRC and supports information sharing and research on disasters.",
+     "facts": [
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "disaster-management-23-22",
+     "format": "Direct Recall",
+     "keyword": "Location",
+     "question": "The headquarters of the National Disaster Response Force is located in:",
+     "options": [
+      "Kolkata",
+      "New Delhi",
+      "Hyderabad",
+      "Vijayawada"
+     ],
+     "answer": 1,
+     "explanation": "The headquarters of the National Disaster Response Force is located in New Delhi.",
+     "facts": [
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 73,
+    "covered": 73,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -4038,8 +6337,47 @@
       "F48",
       "F55"
      ]
+    },
+    {
+     "id": "disaster-management-24-17",
+     "format": "Direct Recall",
+     "keyword": "Disaster Management Institutions",
+     "question": "Who heads the National Crisis Management Committee (NCMC)?",
+     "options": [
+      "The Home Secretary",
+      "The Prime Minister",
+      "The Chief Minister of Andhra Pradesh",
+      "The Cabinet Secretary"
+     ],
+     "answer": 3,
+     "explanation": "The National Crisis Management Committee is headed by the Cabinet Secretary.",
+     "facts": [
+      "F10"
+     ]
+    },
+    {
+     "id": "disaster-management-24-18",
+     "format": "Direct Recall",
+     "keyword": "Disaster Management Institutions",
+     "question": "The Cabinet Committee on Security handles which of the following emergencies?",
+     "options": [
+      "Biological, state-level and district-level emergencies",
+      "Nuclear, biological and state-level emergencies",
+      "Nuclear, biological and chemical emergencies",
+      "Nuclear, district-level and chemical emergencies"
+     ],
+     "answer": 2,
+     "explanation": "The Cabinet Committee on Security handles nuclear, biological and chemical emergencies.",
+     "facts": [
+      "F11"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 55,
+    "covered": 55,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,
@@ -4326,7 +6664,11 @@
       "Second UN World Conference on Disaster Risk Reduction, Hyogo, Japan"
      ],
      "answer": 0,
-     "explanation": "The Sendai Framework was adopted on 18 March 2015 at the Third UN World Conference on Disaster Risk Reduction in Sendai, Japan."
+     "explanation": "The Sendai Framework was adopted on 18 March 2015 at the Third UN World Conference on Disaster Risk Reduction in Sendai, Japan.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "disaster-management-28-2",
@@ -4340,7 +6682,13 @@
       "Its custodian is the United Nations Office for Disaster Risk Reduction (UNDRR)."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is the period of the Hyogo Framework for Action. The Sendai Framework succeeded the HFA 2005–2015, not the HFA 2010–2020."
+     "explanation": "The incorrect detail is the period of the Hyogo Framework for Action. The Sendai Framework succeeded the HFA 2005–2015, not the HFA 2010–2020.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-28-3",
@@ -4354,7 +6702,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, being the successor to the HFA does not explain why the Sendai Framework is voluntary and non-binding."
+     "explanation": "Both statements are true according to the notes. However, being the successor to the HFA does not explain why the Sendai Framework is voluntary and non-binding.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "disaster-management-28-4",
@@ -4368,7 +6722,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Priority 1–Understanding disaster risk; Priority 2–Strengthening disaster risk governance; Priority 3–Investing in disaster risk reduction for resilience; Priority 4–Enhancing disaster preparedness for effective response and to “Build Back Better”."
+     "explanation": "The correct pairs are: Priority 1–Understanding disaster risk; Priority 2–Strengthening disaster risk governance; Priority 3–Investing in disaster risk reduction for resilience; Priority 4–Enhancing disaster preparedness for effective response and to “Build Back Better”.",
+     "facts": [
+      "F20",
+      "F26",
+      "F31",
+      "F34"
+     ]
     },
     {
      "id": "disaster-management-28-5",
@@ -4382,7 +6742,16 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and III are correct. Target E sets 2020, not 2030, for increasing the number of countries with national and local DRR strategies."
+     "explanation": "Statements I and III are correct. Target E sets 2020, not 2030, for increasing the number of countries with national and local DRR strategies.",
+     "facts": [
+      "F41",
+      "F44",
+      "F45",
+      "F47",
+      "F48",
+      "F49",
+      "F50"
+     ]
     },
     {
      "id": "disaster-management-28-6",
@@ -4396,9 +6765,216 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Sendai Framework principle of all-of-society engagement identifies the listed stakeholders, while the multi-hazard approach covers natural and man-made hazards."
+     "explanation": "Both statements are true. The Sendai Framework principle of all-of-society engagement identifies the listed stakeholders, while the multi-hazard approach covers natural and man-made hazards.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "disaster-management-28-7",
+     "format": "Direct Recall",
+     "keyword": "Environment / Conference",
+     "question": "The Sendai Framework for Disaster Risk Reduction was adopted on which date?",
+     "options": [
+      "18 March 2020",
+      "18 May 2015",
+      "18 March 2015",
+      "15 March 2018"
+     ],
+     "answer": 2,
+     "explanation": "The Sendai Framework for Disaster Risk Reduction was adopted on 18 March 2015.",
+     "facts": [
+      "F2"
+     ]
+    },
+    {
+     "id": "disaster-management-28-8",
+     "format": "Count-Based",
+     "keyword": "Environment / Disaster Risk Reduction",
+     "question": "How many of the following are included among the losses or risks that the Sendai Framework seeks to substantially reduce?\n\n1. Disaster risk\n2. Losses in lives\n3. Losses in livelihoods\n4. Losses in health\n5. Losses in economic assets\n6. Losses in physical assets\n7. Losses in social assets\n8. Losses in cultural assets\n9. Losses in environmental assets",
+     "options": [
+      "Only six",
+      "Only seven",
+      "Only eight",
+      "All nine"
+     ],
+     "answer": 3,
+     "explanation": "All nine listed items are included in the expected outcome: substantial reduction of disaster risk and losses in lives, livelihoods, health, and economic, physical, social, cultural and environmental assets.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-28-9",
+     "format": "Assertion-Reason",
+     "keyword": "Environment / Risk Assessment",
+     "question": "Assertion (A): Understanding disaster risk emphasizes risk assessment in all dimensions.\nReason (R): The dimensions of risk assessment include hazard, vulnerability, exposure and capacity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Hazard, vulnerability, exposure and capacity constitute the dimensions in which disaster risk is assessed.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-28-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Environment / Disaster Risk Governance",
+     "question": "Consider the following statements regarding strengthening disaster risk governance:\n\nI. It emphasizes laws.\nII. It emphasizes institutions.\nIII. It emphasizes policies.\nIV. It emphasizes coordination at all levels.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Strengthening disaster risk governance emphasizes laws, institutions, policies and coordination at all levels.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "disaster-management-28-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Environment / Disaster Risk Reduction for Resilience",
+     "question": "Consider the following statements:\nStatement A: Investing in disaster risk reduction for resilience emphasizes public investment in prevention and mitigation.\nStatement B: Investing in disaster risk reduction for resilience emphasizes private investment in prevention and mitigation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both public and private investment in prevention and mitigation are emphasized under investing in disaster risk reduction for resilience.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "disaster-management-28-12",
+     "format": "List-Matching",
+     "keyword": "Environment / Build Back Better",
+     "question": "Match List-I with List-II regarding the emphasis of enhancing disaster preparedness for effective response and to “Build Back Better”.\n\nList-I\n(a) Preparedness\n(b) Recovery\n(c) Rehabilitation\n(d) Reconstruction\n\nList-II\n(i) Part of the emphasis under Priority 4\n(ii) Part of the emphasis under Priority 1\n(iii) Part of the emphasis under Priority 3\n(iv) Part of the emphasis under Priority 2",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-i, c-i, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Preparedness, recovery, rehabilitation and reconstruction are all emphasized under Priority 4: enhancing disaster preparedness for effective response and to “Build Back Better”.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "disaster-management-28-13",
+     "format": "List-Matching",
+     "keyword": "Environment",
+     "question": "Match List-I with List-II regarding the targets of the Sendai Framework.\n\nList-I\n(a) Target A\n(b) Target B\n(c) Target D: critical infrastructure\n(d) Target D: basic services\n\nList-II\n(i) Substantially reduce the number of affected people globally by 2030\n(ii) Substantially reduce disaster damage to critical infrastructure by 2030\n(iii) Substantially reduce global disaster mortality by 2030\n(iv) Substantially reduce disruption of basic services by 2030\n\nChoose the correct answer using the code given below:",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Target A concerns global disaster mortality, Target B concerns the number of affected people, and Target D covers both damage to critical infrastructure and disruption of basic services by 2030.",
+     "facts": [
+      "F39",
+      "F40",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "disaster-management-28-14",
+     "format": "Direct Recall",
+     "keyword": "International Cooperation",
+     "question": "Which of the following correctly describes Target F of the Sendai Framework?",
+     "options": [
+      "Substantially enhance international cooperation to developing countries by 2030",
+      "Reduce direct economic loss in relation to global GDP by 2030",
+      "Substantially increase the number of countries with national and local DRR strategies by 2020",
+      "Substantially increase the availability of and access to multi-hazard early warning systems by 2030"
+     ],
+     "answer": 0,
+     "explanation": "Target F is to substantially enhance international cooperation to developing countries by 2030.",
+     "facts": [
+      "F46"
+     ]
+    },
+    {
+     "id": "disaster-management-28-15",
+     "format": "Assertion-Reason",
+     "keyword": "Disaster Risk Governance",
+     "question": "Assertion (A): States have the primary role in reducing disaster risk.\nReason (R): The primary responsibility of States is a principle of the Sendai Framework.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The principle of primary responsibility of States directly explains why States have the primary role in reducing disaster risk.",
+     "facts": [
+      "F51"
+     ]
+    },
+    {
+     "id": "disaster-management-28-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Build Back Better",
+     "question": "Consider the following statements:\nStatement A: Build Back Better uses recovery as an opportunity to reduce future risk.\nStatement B: The inclusive and people-centred principle gives special attention to vulnerable groups.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Build Back Better links recovery with reducing future risk, while the inclusive and people-centred principle specifically gives attention to vulnerable groups.",
+     "facts": [
+      "F59",
+      "F60"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 60,
+    "covered": 60,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -4600,7 +7176,10 @@
       "Sudden movement of molten rock from a volcanic slope"
      ],
      "answer": 2,
-     "explanation": "An avalanche is the rapid flow of snow, ice, and debris down a mountain slope."
+     "explanation": "An avalanche is the rapid flow of snow, ice, and debris down a mountain slope.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-31-2",
@@ -4614,7 +7193,12 @@
       "DGRE was earlier known as the Snow and Avalanche Study Establishment."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the nodal ministry. The notes identify the Ministry of Defence, not the Ministry of Home Affairs, as the nodal ministry."
+     "explanation": "The incorrect statement alters the nodal ministry. The notes identify the Ministry of Defence, not the Ministry of Home Affairs, as the nodal ministry.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "disaster-management-31-3",
@@ -4628,7 +7212,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, DGRE’s former name does not explain why it is the key technical agency."
+     "explanation": "Both statements are true according to the notes. However, DGRE’s former name does not explain why it is the key technical agency.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "disaster-management-31-4",
@@ -4642,7 +7231,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Slab Avalanche–large cohesive slab of snow; Loose Snow Avalanche–small slide of dry powdery snow; Ice Avalanche–ice masses from glaciers; Rock/Debris Avalanche–mixture of rock, soil and snow."
+     "explanation": "The correct pairs are: Slab Avalanche–large cohesive slab of snow; Loose Snow Avalanche–small slide of dry powdery snow; Ice Avalanche–ice masses from glaciers; Rock/Debris Avalanche–mixture of rock, soil and snow.",
+     "facts": [
+      "F9",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "disaster-management-31-5",
@@ -4656,7 +7251,14 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Heavy snowfall and wind loading are listed as natural causes, while skiing, mountaineering and artificial triggering through explosives are human or other causes. Therefore, IV is incorrect."
+     "explanation": "Heavy snowfall and wind loading are listed as natural causes, while skiing, mountaineering and artificial triggering through explosives are human or other causes. Therefore, IV is incorrect.",
+     "facts": [
+      "F14",
+      "F18",
+      "F21",
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "disaster-management-31-6",
@@ -4670,7 +7272,16 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. BRO performs road and protection-related work, while the listed structures are structural avalanche-management measures."
+     "explanation": "Both statements are directly supported by the notes. BRO performs road and protection-related work, while the listed structures are structural avalanche-management measures.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
     }
    ]
   },

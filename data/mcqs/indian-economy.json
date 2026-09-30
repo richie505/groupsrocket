@@ -2679,8 +2679,248 @@
       "F72",
       "F73"
      ]
+    },
+    {
+     "id": "indian-economy-30-8",
+     "format": "Direct Recall",
+     "keyword": "Act",
+     "question": "In which year was the Banking Regulation Act enacted?",
+     "options": [
+      "1949",
+      "1959",
+      "1948",
+      "1955"
+     ],
+     "answer": 0,
+     "explanation": "The Banking Regulation Act was enacted in 1949.",
+     "facts": [
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-economy-30-9",
+     "format": "Assertion-Reason",
+     "keyword": "Nationalisation of Banks",
+     "question": "Assertion (A): The State Bank of India was established by taking over the Imperial Bank of India.\nReason (R): The State Bank of India was established under the State Bank of India Act, 1955.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. SBI was formed by taking over the Imperial Bank of India and was established under the State Bank of India Act, 1955; the Reason states its legal basis but does not explain the takeover itself.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-30-10",
+     "format": "Count-Based",
+     "keyword": "Nationalisation of Banks",
+     "question": "How many of the following banks were among the six commercial banks nationalised in 1980?\n1. Andhra Bank\n2. Corporation Bank\n3. New Bank of India\n4. Oriental Bank of Commerce\n5. Punjab & Sind Bank\n6. Vijaya Bank",
+     "options": [
+      "Only four",
+      "Only five",
+      "All six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six listed banks—Andhra Bank, Corporation Bank, New Bank of India, Oriental Bank of Commerce, Punjab & Sind Bank and Vijaya Bank—were among the six commercial banks nationalised in 1980.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-economy-30-11",
+     "format": "Direct Recall",
+     "keyword": "Nationalisation of Banks",
+     "question": "The SBI (Subsidiary Banks) Act brought how many princely state-associated banks under SBI ownership?",
+     "options": [
+      "6",
+      "5",
+      "10",
+      "8"
+     ],
+     "answer": 3,
+     "explanation": "The SBI (Subsidiary Banks) Act brought eight princely state-associated banks under SBI ownership.",
+     "facts": [
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-economy-30-12",
+     "format": "Direct Recall",
+     "keyword": "Act",
+     "question": "The 14 major commercial banks were nationalised under which legislation in 1969?",
+     "options": [
+      "State Bank of India Act, 1955",
+      "Banking Companies (Acquisition and Transfer of Undertakings) Act, 1969",
+      "NABARD Act, 1981",
+      "Life Insurance Corporation Act, 1956"
+     ],
+     "answer": 1,
+     "explanation": "The 14 major commercial banks were nationalised under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1969.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-economy-30-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "NABARD",
+     "question": "Consider the following statements:\nStatement A: NABARD was established through the NABARD Act, 1981.\nStatement B: EXIM Bank was set up in 1982.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. NABARD was established through the NABARD Act, 1981, and EXIM Bank was set up in 1982.",
+     "facts": [
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-economy-30-14",
+     "format": "Assertion-Reason",
+     "keyword": "Economic reforms (Liberalisation)",
+     "question": "Assertion (A): The Narasimham Committee I report kicked off economic liberalisation.\nReason (R): The report led to the entry of private banks and deregulation of interest rates.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The report initiated economic liberalisation, reflected through the entry of private banks and deregulation of interest rates.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "indian-economy-30-15",
+     "format": "Direct Recall",
+     "keyword": "Bank Merger",
+     "question": "New Bank of India merged into which bank because of financial distress?",
+     "options": [
+      "Punjab National Bank",
+      "Bank of Baroda",
+      "Union Bank of India",
+      "Canara Bank"
+     ],
+     "answer": 0,
+     "explanation": "New Bank of India merged into Punjab National Bank because of financial distress.",
+     "facts": [
+      "F47"
+     ]
+    },
+    {
+     "id": "indian-economy-30-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Bank Merger",
+     "question": "Consider the following statements regarding the 2020 public sector bank consolidation:\nI. Oriental Bank of Commerce merged into Punjab National Bank.\nII. United Bank of India merged into Punjab National Bank.\nIII. Syndicate Bank merged into Canara Bank.\nIV. Andhra Bank merged into Union Bank of India.\nV. Corporation Bank merged into Union Bank of India.",
+     "options": [
+      "II, III and IV only",
+      "I, III, IV and V only",
+      "I, II, III, IV and V",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Oriental Bank of Commerce and United Bank of India merged into Punjab National Bank; Syndicate Bank merged into Canara Bank; and Andhra Bank and Corporation Bank merged into Union Bank of India.",
+     "facts": [
+      "F61",
+      "F62",
+      "F63",
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "indian-economy-30-17",
+     "format": "List-Matching",
+     "keyword": "Bank Merger",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Oriental Bank of Commerce + United Bank of India\n b. Syndicate Bank\n c. Andhra Bank + Corporation Bank\n d. Allahabad Bank\n\nList-II\n i. Indian Bank\n ii. Punjab National Bank\n iii. Canara Bank\n iv. Union Bank of India\n\nCodes:",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "In the 2020 Mega PSB Consolidation, Oriental Bank of Commerce and United Bank of India merged into Punjab National Bank; Syndicate Bank merged into Canara Bank; Andhra Bank and Corporation Bank merged into Union Bank of India; and Allahabad Bank merged into Indian Bank.",
+     "facts": [
+      "F66"
+     ]
+    },
+    {
+     "id": "indian-economy-30-18",
+     "format": "Direct Recall",
+     "keyword": "Bank Merger",
+     "question": "Following the 2020 Mega PSB Consolidation, the number of Public Sector Banks in India was reduced to:",
+     "options": [
+      "14",
+      "12",
+      "10",
+      "16"
+     ],
+     "answer": 1,
+     "explanation": "The 2020 Mega PSB Consolidation reduced the number of Public Sector Banks in India to 12.",
+     "facts": [
+      "F67"
+     ]
+    },
+    {
+     "id": "indian-economy-30-19",
+     "format": "Assertion-Reason",
+     "keyword": "Bank Merger",
+     "question": "Assertion (A): Dena Bank merged into Bank of Baroda in 2019.\nReason (R): Vijaya Bank also merged into Bank of Baroda in 2019.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Dena Bank and Vijaya Bank each merged into Bank of Baroda in 2019. However, the merger of Vijaya Bank does not explain the merger of Dena Bank.",
+     "facts": [
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "indian-economy-30-20",
+     "format": "Direct Recall",
+     "keyword": "Bank Merger",
+     "question": "The consolidation involving the merger of Dena Bank and Vijaya Bank into Bank of Baroda took effect on which date?",
+     "options": [
+      "July 1, 1955",
+      "April 1, 2019",
+      "September 1, 1956",
+      "April 1, 2020"
+     ],
+     "answer": 1,
+     "explanation": "The Bank of Baroda consolidation, involving Dena Bank and Vijaya Bank, took effect on April 1, 2019.",
+     "facts": [
+      "F58"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 73,
+    "covered": 73,
+    "audited": true
+   }
   },
   "31": {
    "number": 31,
@@ -3399,7 +3639,10 @@
       "Decline in agriculture's share of GDP"
      ],
      "answer": 2,
-     "explanation": "The 1991 New Economic Policy was introduced to address the severe 1991 Balance of Payments crisis."
+     "explanation": "The 1991 New Economic Policy was introduced to address the severe 1991 Balance of Payments crisis.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-39-2",
@@ -3413,7 +3656,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Stabilisation is described as short-term and demand-side, addressing inflation and macroeconomic imbalances."
+     "explanation": "Both statements are true. Stabilisation is described as short-term and demand-side, addressing inflation and macroeconomic imbalances.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-39-3",
@@ -3427,7 +3676,14 @@
       "Foreign Direct Investment inflows increased."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the trend for agriculture. The notes state that agriculture's share in GDP declined after the 1991 reforms."
+     "explanation": "The incorrect statement alters the trend for agriculture. The notes state that agriculture's share in GDP declined after the 1991 reforms.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "indian-economy-39-4",
@@ -3441,7 +3697,20 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: 1951–IDR Act, 1956–Industrial Policy Resolution, 1991–New Industrial Policy, and 2000–SEZ Policy announcement."
+     "explanation": "The correct pairs are: 1951–IDR Act, 1956–Industrial Policy Resolution, 1991–New Industrial Policy, and 2000–SEZ Policy announcement.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-39-5",
@@ -3455,7 +3724,18 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct. The notes connect globalisation with integration into the world economy, MNC participation, and flows of trade, FDI and cross-border technology."
+     "explanation": "All three statements are correct. The notes connect globalisation with integration into the world economy, MNC participation, and flows of trade, FDI and cross-border technology.",
+     "facts": [
+      "F2",
+      "F33",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F6",
+      "F9",
+      "F34"
+     ]
     },
     {
      "id": "indian-economy-39-6",
@@ -3469,9 +3749,156 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The SEZ Policy was announced on 1 April 2000 under the Globalisation framework, with objectives including export competitiveness and attracting FDI."
+     "explanation": "Both statements are true. The SEZ Policy was announced on 1 April 2000 under the Globalisation framework, with objectives including export competitiveness and attracting FDI.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "indian-economy-39-7",
+     "format": "Assertion-Reason",
+     "keyword": "Liberalisation",
+     "question": "Assertion (A): Liberalisation removes or reduces domestic controls.\nReason (R): Liberalisation focuses on removing state controls through industrial de-licensing, import deregulation and private-sector expansion.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Liberalisation removes or reduces domestic controls by removing state controls through de-licensing, import deregulation and private-sector expansion.",
+     "facts": [
+      "F1",
+      "F23",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-economy-39-8",
+     "format": "List-Matching",
+     "keyword": "Liberalisation",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) De-licensing\n(b) Deregulation\n(c) Import liberalisation\n(d) Liberalisation\n\nList-II\n(i) International trade\n(ii) Foreign investment\n(iii) Multinational corporation participation\n(iv) Greater market orientation",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are de-licensing–international trade, deregulation–foreign investment, import liberalisation–multinational corporation participation, and liberalisation–greater market orientation.",
+     "facts": [
+      "F3",
+      "F4",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-39-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "LPG model",
+     "question": "Consider the following statements:\n\nI. The LPG model consists of Liberalisation, Privatisation and Globalisation.\nII. Globalisation involves the reduction of import duties on capital goods.\nIII. Liberalisation reduces restrictions.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The LPG model comprises Liberalisation, Privatisation and Globalisation; globalisation includes reducing import duties on capital goods, while liberalisation reduces restrictions.",
+     "facts": [
+      "F5",
+      "F11",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-economy-39-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Structural Adjustment",
+     "question": "Consider the following statements:\nStatement A: Structural Adjustment is a long-term, supply-side strategy.\nStatement B: Structural Adjustment addresses industrial, trade, financial and investment structures.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Structural Adjustment is long-term and supply-side in nature, and it addresses industrial, trade, financial and investment structures.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-economy-39-11",
+     "format": "Direct Recall",
+     "keyword": "New Industrial Policy",
+     "question": "The New Industrial Policy associated with the beginning of liberalisation was announced on:",
+     "options": [
+      "1956",
+      "1 April 2000",
+      "24 July 1991",
+      "1951"
+     ],
+     "answer": 2,
+     "explanation": "The New Industrial Policy was announced on 24 July 1991.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-economy-39-12",
+     "format": "Direct Recall",
+     "keyword": "New Industrial Policy",
+     "question": "The New Industrial Policy announced in 1991 served as the primary starting anchor of:",
+     "options": [
+      "Stabilisation",
+      "Privatisation",
+      "Structural Adjustment",
+      "Liberalisation"
+     ],
+     "answer": 3,
+     "explanation": "The New Industrial Policy announced on 24 July 1991 was the primary starting anchor of liberalisation.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-39-13",
+     "format": "Assertion-Reason",
+     "keyword": "Economic competitiveness",
+     "question": "Assertion (A): Liberalisation instruments boost domestic manufacturing competitiveness.\nReason (R): They lower the cost of technology and capital equipment.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason explains the assertion. Lower technology and capital-equipment costs help domestic manufacturing become more competitive.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 56,
+    "covered": 56,
+    "audited": true
+   }
   },
   "40": {
    "number": 40,

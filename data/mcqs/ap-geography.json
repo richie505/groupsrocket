@@ -849,7 +849,12 @@
       "Adinimmayapalli"
      ],
      "answer": 1,
-     "explanation": "The notes state that Tungabhadra, the biggest and most important tributary of Krishna, joins Krishna at Sangameswaram in Kurnool."
+     "explanation": "The notes state that Tungabhadra, the biggest and most important tributary of Krishna, joins Krishna at Sangameswaram in Kurnool.",
+     "facts": [
+      "F17",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "ap-geography-4-2",
@@ -863,7 +868,13 @@
       "Chitravathi joins Penna at Gandikota, Kadapa."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that Chitravathi is formed by Bahuda and Pancha. The notes attribute this formation to Cheyyeru; Chitravathi joins Penna at Gandikota, Kadapa."
+     "explanation": "The incorrect statement is that Chitravathi is formed by Bahuda and Pancha. The notes attribute this formation to Cheyyeru; Chitravathi joins Penna at Gandikota, Kadapa.",
+     "facts": [
+      "F21",
+      "F24",
+      "F26",
+      "F28"
+     ]
     },
     {
      "id": "ap-geography-4-3",
@@ -877,7 +888,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, the construction of a rubber dam on Janjavathi does not explain its tributary relationship with Nagavali."
+     "explanation": "Both statements are given in the notes. However, the construction of a rubber dam on Janjavathi does not explain its tributary relationship with Nagavali.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "ap-geography-4-4",
@@ -891,7 +906,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Vamsadhara–Mahendratanaya, Sabari–Sileru, Swarnamukhi–Kalyani, and Champavathi–Gadi Gedda."
+     "explanation": "The correct pairs are Vamsadhara–Mahendratanaya, Sabari–Sileru, Swarnamukhi–Kalyani, and Champavathi–Gadi Gedda.",
+     "facts": [
+      "F29",
+      "F34",
+      "F36",
+      "F41",
+      "F30"
+     ]
     },
     {
      "id": "ap-geography-4-5",
@@ -905,7 +927,15 @@
       "I, II and III"
      ],
      "answer": 1,
-     "explanation": "Statements I and II are correct. Papagni joins Penna near Kamalapuram, whereas Gandikota, Kadapa is the joining point given for Chitravathi."
+     "explanation": "Statements I and II are correct. Papagni joins Penna near Kamalapuram, whereas Gandikota, Kadapa is the joining point given for Chitravathi.",
+     "facts": [
+      "F24",
+      "F26",
+      "F27",
+      "F28",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "ap-geography-4-6",
@@ -919,9 +949,185 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four—Manjeera, Pranahita, Indravathi and Kinnerasani—are listed as tributaries of Godavari."
+     "explanation": "All four—Manjeera, Pranahita, Indravathi and Kinnerasani—are listed as tributaries of Godavari.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "ap-geography-4-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Tributary",
+     "question": "Consider the following statements:\nStatement A: Sabari is a tributary of Godavari.\nStatement B: Sileru is a tributary of Godavari.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Sabari and Sileru are listed as tributaries of Godavari.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-4-8",
+     "format": "Direct Recall",
+     "keyword": "River → Branches",
+     "question": "Into how many branches does the Godavari divide?",
+     "options": [
+      "Eight",
+      "Six",
+      "Five",
+      "Seven"
+     ],
+     "answer": 3,
+     "explanation": "The Godavari divides into seven branches.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "ap-geography-4-9",
+     "format": "List-Matching",
+     "keyword": "River → Branch [LOCATION]",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gowthami\n(b) Vashista\n(c) Vinateya\n(d) Tulya\n\nList-II\n(i) Antarvedi\n(ii) Yanam\n(iii) Bendamoorlanka\n(iv) Komarigiripatnam",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Gowthami–Yanam, Vashista–Antarvedi, Vinateya–Komarigiripatnam and Tulya–Bendamoorlanka.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "ap-geography-4-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Branch [LOCATION]",
+     "question": "Consider the following statements:\nI. Bharadwaja is a branch of Godavari located at Bendamoorlanka.\nII. Koushika is a branch of Godavari located in the Kakinda or Coringa delta region.\nIII. Athreya is a branch of Godavari located at Coringa village.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Bharadwaja is at Bendamoorlanka, Koushika is in the Kakinda or Coringa delta region, and Athreya is at Coringa village.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "ap-geography-4-11",
+     "format": "Assertion-Reason",
+     "keyword": "River → Tributary",
+     "question": "Assertion (A): Hagari is the biggest tributary of Tungabhadra.\nReason (R): Hagari is a tributary of Tungabhadra.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both A and R are true. Hagari is identified as a tributary of Tungabhadra and as its biggest tributary, but the latter description is not explained merely by its being a tributary.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "ap-geography-4-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Tributary / Confluence",
+     "question": "Consider the following statements:\nStatement A: Cheyyeru is a tributary of Penna.\nStatement B: Cheyyeru joins Penna at Gundlamada in Kadapa.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Cheyyeru is a tributary of Penna and joins it at Gundlamada in Kadapa.",
+     "facts": [
+      "F20",
+      "F25"
+     ]
+    },
+    {
+     "id": "ap-geography-4-13",
+     "format": "Count-Based",
+     "keyword": "River → Tributary",
+     "question": "How many of the following are tributaries of Champavathi?\n1. Eduvampula Gedda\n2. Chitti Gedda\n3. Pothula Gedda\n4. Vedavathi",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Eduvampula Gedda, Chitti Gedda and Pothula Gedda are tributaries of Champavathi. Vedavathi is a tributary of Tungabhadra, so the count is three.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F42"
+     ]
+    },
+    {
+     "id": "ap-geography-4-14",
+     "format": "Direct Recall",
+     "keyword": "Dam/Reservoir → Location",
+     "question": "Kalyani Dam was constructed on which river?",
+     "options": [
+      "Janjavathi",
+      "Sileru",
+      "Kalyani",
+      "Cheyyeru"
+     ],
+     "answer": 2,
+     "explanation": "Kalyani Dam was constructed on Kalyani.",
+     "facts": [
+      "F37"
+     ]
+    },
+    {
+     "id": "ap-geography-4-15",
+     "format": "Assertion-Reason",
+     "keyword": "River → Tributary / River feature",
+     "question": "Assertion (A): Sabari is the main tributary of Godavari.\nReason (R): Sileru is known as Machkand in its upper reaches.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Sabari is the main tributary of Godavari, while Sileru is known as Machkand in its upper reaches. The name of Sileru in its upper reaches does not explain Sabari’s status as the main tributary.",
+     "facts": [
+      "F33",
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "5": {
    "number": 5,
@@ -949,7 +1155,18 @@
       "Yanadi — Godavari Basin / River Valley"
      ],
      "answer": 0,
-     "explanation": "The notes associate the Gadaba tribe with Salur, Parvathipuram and northern border areas. Jatapu is associated with Srikakulam and Vizianagaram, Koya with the Godavari Valley, and Yanadi with Nellore and surrounding plains."
+     "explanation": "The notes associate the Gadaba tribe with Salur, Parvathipuram and northern border areas. Jatapu is associated with Srikakulam and Vizianagaram, Koya with the Godavari Valley, and Yanadi with Nellore and surrounding plains.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F31",
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "ap-geography-5-2",
@@ -963,7 +1180,19 @@
       "Konda Reddi is associated with the Godavari river banks and adjoining hills."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Nellore and surrounding plains are associated with Yanadi, whereas Savara is associated with Srikakulam and Vizianagaram."
+     "explanation": "The incorrect statement is the fourth one. Nellore and surrounding plains are associated with Yanadi, whereas Savara is associated with Srikakulam and Vizianagaram.",
+     "facts": [
+      "F2",
+      "F3",
+      "F20",
+      "F21",
+      "F32",
+      "F33",
+      "F35",
+      "F36",
+      "F37",
+      "F47"
+     ]
     },
     {
      "id": "ap-geography-5-3",
@@ -977,7 +1206,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the listed districts of the Nallamala Forests describe the region and do not explain why Chenchu is associated with it."
+     "explanation": "Both statements are true according to the notes. However, the listed districts of the Nallamala Forests describe the region and do not explain why Chenchu is associated with it.",
+     "facts": [
+      "F35"
+     ]
     },
     {
      "id": "ap-geography-5-4",
@@ -991,7 +1223,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly given in the notes under Plains and Mixed Rural Areas. Yanadi is linked with Nellore and surrounding plains, while Sugali/Lambadi/Banjara is linked with Rayalaseema and central Andhra."
+     "explanation": "Both statements are directly given in the notes under Plains and Mixed Rural Areas. Yanadi is linked with Nellore and surrounding plains, while Sugali/Lambadi/Banjara is linked with Rayalaseema and central Andhra.",
+     "facts": [
+      "F36",
+      "F37",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "ap-geography-5-5",
@@ -1005,7 +1245,13 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. Nakkala is associated with plains and commercial areas, not the Nallamala Forests; therefore, only I and II are correct."
+     "explanation": "Statements I and II are correct. Nakkala is associated with plains and commercial areas, not the Nallamala Forests; therefore, only I and II are correct.",
+     "facts": [
+      "F10",
+      "F13",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "ap-geography-5-6",
@@ -1019,7 +1265,18 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Bagata—Visakhapatnam and Alluri Sitharama Raju; Jatapu—Srikakulam and Vizianagaram; Mukha Dhora/Nooka Dhora—Vizianagaram and Visakhapatnam; Porja—Visakhapatnam/Araku Valley."
+     "explanation": "The correct pairs are: Bagata—Visakhapatnam and Alluri Sitharama Raju; Jatapu—Srikakulam and Vizianagaram; Mukha Dhora/Nooka Dhora—Vizianagaram and Visakhapatnam; Porja—Visakhapatnam/Araku Valley.",
+     "facts": [
+      "F2",
+      "F3",
+      "F7",
+      "F8",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     }
    ]
   },
@@ -1738,7 +1995,14 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Kolleru & Atapaka is associated with freshwater tank and Barringtonia forests; Pulicat with a brackish-water lagoon; Rollapadu with dry grassland/rangeland; and Kondakarla Ava with a freshwater lake and wetlands."
+     "explanation": "Kolleru & Atapaka is associated with freshwater tank and Barringtonia forests; Pulicat with a brackish-water lagoon; Rollapadu with dry grassland/rangeland; and Kondakarla Ava with a freshwater lake and wetlands.",
+     "facts": [
+      "F15",
+      "F16",
+      "F26",
+      "F39",
+      "F53"
+     ]
     },
     {
      "id": "ap-geography-14-2",
@@ -1752,7 +2016,14 @@
       "Rajiv Gandhi Wildlife Sanctuary is located in Kurnool and Prakasam."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the location of Koundinya Wildlife Sanctuary. The notes place it in Chittoor, not Nellore district."
+     "explanation": "The incorrect detail is the location of Koundinya Wildlife Sanctuary. The notes place it in Chittoor, not Nellore district.",
+     "facts": [
+      "F58",
+      "F67",
+      "F68",
+      "F61",
+      "F45"
+     ]
     },
     {
      "id": "ap-geography-14-3",
@@ -1766,7 +2037,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: the sanctuary has a freshwater tank and Barringtonia forests and is located in Eluru and Krishna districts. The location does not explain its ecosystem feature."
+     "explanation": "Both statements are given in the notes: the sanctuary has a freshwater tank and Barringtonia forests and is located in Eluru and Krishna districts. The location does not explain its ecosystem feature.",
+     "facts": [
+      "F15",
+      "F16",
+      "F14"
+     ]
     },
     {
      "id": "ap-geography-14-4",
@@ -1780,7 +2056,14 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct according to the category list. Statement IV is incorrect because Indira Gandhi Zoological Park is located in Vizag."
+     "explanation": "Statements I, II and III are correct according to the category list. Statement IV is incorrect because Indira Gandhi Zoological Park is located in Vizag.",
+     "facts": [
+      "F69",
+      "F70",
+      "F71",
+      "F72",
+      "F4"
+     ]
     },
     {
      "id": "ap-geography-14-5",
@@ -1794,7 +2077,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes locate Pulicat Lake Bird Sanctuary at the Tirupati–Tamil Nadu border. They also list the Great Indian Bustard and lesser florican among the important species of Rollapadu Bird Sanctuary."
+     "explanation": "The notes locate Pulicat Lake Bird Sanctuary at the Tirupati–Tamil Nadu border. They also list the Great Indian Bustard and lesser florican among the important species of Rollapadu Bird Sanctuary.",
+     "facts": [
+      "F25",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "ap-geography-14-6",
@@ -1808,7 +2096,119 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Only Indira Gandhi Zoological Park and Sri Venkateswara Zoological Park are listed under Zoological Park. Dolphin Conservation Society is identified as the first ex-situ Biodiversity Park, while Seshachalam is a Biosphere Reserve."
+     "explanation": "Only Indira Gandhi Zoological Park and Sri Venkateswara Zoological Park are listed under Zoological Park. Dolphin Conservation Society is identified as the first ex-situ Biodiversity Park, while Seshachalam is a Biosphere Reserve.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74",
+      "F71",
+      "F4"
+     ]
+    },
+    {
+     "id": "ap-geography-14-7",
+     "format": "List-Matching",
+     "keyword": "National Park → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sri Venkateswara National Park\n(b) Rajiv Gandhi National Park\n(c) Papikonda National Park\n\nList-II\n(i) Rajamahendravaram\n(ii) Tirupathi\n(iii) Rameswaram",
+     "options": [
+      "a-ii, b-i, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii",
+      "a-iii, b-i, c-ii"
+     ],
+     "answer": 1,
+     "explanation": "Sri Venkateswara National Park is located in Tirupathi, Rajiv Gandhi National Park in Rameswaram, and Papikonda National Park in Rajamahendravaram.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "ap-geography-14-8",
+     "format": "List-Matching",
+     "keyword": "Deer Park → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kandaleru Deer Park\n(b) Chittoor Reserve Forest Deer Park\n(c) Kotappakonda Deer Park\n\nList-II\n(i) Chittoor\n(ii) Narsaraopeta, Palnadu district\n(iii) Rapur Mandal, Nellore district",
+     "options": [
+      "a-i, b-ii, c-iii",
+      "a-iii, b-ii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-iii, c-i"
+     ],
+     "answer": 2,
+     "explanation": "Kandaleru Deer Park is in Rapur Mandal of Nellore district, Chittoor Reserve Forest Deer Park is in Chittoor, and Kotappakonda Deer Park is in Narsaraopeta of Palnadu district.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "ap-geography-14-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Bird Sanctuary → Location",
+     "question": "Consider the following statements regarding Nelapattu Bird Sanctuary:\n\nI. It is located in Tirupati, near Doravarisatram.\nII. Spot-billed pelicans and flamingos are found there.\nIII. Open-billed storks and little cormorants are found there.\nIV. White ibises are found there.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and IV only",
+      "I, II and III only",
+      "I and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Nelapattu is near Doravarisatram in Tirupati and has spot-billed pelicans, flamingos, open-billed storks, little cormorants and white ibises.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "ap-geography-14-10",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Bird Sanctuary → Ecosystem/Species",
+     "question": "Which of the following statements regarding Kolleru and Atapaka Bird Sanctuary is incorrect?",
+     "options": [
+      "It is a freshwater wetland, and Kolleru Lake is a key feature of the sanctuary.",
+      "Painted storks and grey pelicans are found in the sanctuary.",
+      "Glossy ibises, herons, egrets and migratory ducks are found in the sanctuary.",
+      "Glossy ibises, herons, egrets and greater flamingos are found in the sanctuary."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect detail is 'greater flamingos'. The listed species include migratory ducks, along with glossy ibises, herons and egrets.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "ap-geography-14-11",
+     "format": "Count-Based",
+     "keyword": "Bird Sanctuary → Important Species",
+     "question": "How many of the following species are associated with Pulicat Lake Bird Sanctuary?\n\n1. Greater flamingos\n2. Pintails\n3. Gulls\n4. Terns\n5. Kingfishers",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed species—greater flamingos, pintails, gulls, terns and kingfishers—are associated with Pulicat Lake Bird Sanctuary.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
     }
    ]
   },

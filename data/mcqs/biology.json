@@ -1010,8 +1010,125 @@
       "F42",
       "F39"
      ]
+    },
+    {
+     "id": "biology-6-8",
+     "format": "List-Matching",
+     "keyword": "Source",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Wheat germ oil\n(b) Rice\n(c) ATP → ADP\n(d) Carbohydrate + fat + protein\n\nList-II\n(i) Highest percentage of carbohydrate\n(ii) Maximum energy-yielding diet group\n(iii) Source of vitamin E\n(iv) Biotransformation providing maximum energy\n\nCodes:",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Wheat germ oil is a source of vitamin E; rice has the highest percentage of carbohydrate; ATP → ADP provides maximum energy; and carbohydrate, fat and protein together form the maximum energy-yielding diet group.",
+     "facts": [
+      "F12",
+      "F16",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "biology-6-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Highest / Lowest",
+     "question": "Consider the following statements:\n\nI. Fats provide the highest calories per unit.\nII. Fats provide the maximum energy per gram.\nIII. Carbohydrate, fat and protein together form the maximum energy-yielding diet group.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: fats provide the highest calories per unit and maximum energy per gram, while carbohydrate, fat and protein together constitute the maximum energy-yielding diet group.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "biology-6-10",
+     "format": "Count-Based",
+     "keyword": "Highest / Lowest",
+     "question": "How many of the following statements are correct?\n\n1. WBCs are the fewest among the blood cells.\n2. Basophils are the least common WBCs by percentage.\n3. WBCs are the most numerous among the blood cells.\n4. Basophils are the most common WBCs by percentage.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements 1 and 2 are correct. WBCs are the fewest among blood cells, and basophils are the least common WBCs by percentage; statements 3 and 4 reverse these facts.",
+     "facts": [
+      "F23",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-6-11",
+     "format": "List-Matching",
+     "keyword": "Source",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Chlorella\n(b) Leaf of peppermint\n(c) Lemon\n(d) Green vegetables\n\nList-II\n(i) Highest concentration of citrate among citrus fruits\n(ii) Maximum efficiency of converting solar energy into chemical energy\n(iii) Richest source of iron\n(iv) Maximum oil percentage in peppermint\n\nCodes:",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Chlorella has the maximum solar-to-chemical energy conversion efficiency; the leaf has the maximum oil percentage in peppermint; lemon has the highest citrate concentration among citrus fruits; and green vegetables are the richest source of iron.",
+     "facts": [
+      "F31",
+      "F32",
+      "F34",
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-6-12",
+     "format": "Assertion-Reason",
+     "keyword": "Vital capacity",
+     "question": "Assertion (A): Vital capacity is higher in athletes and mountain dwellers.\nReason (R): Vital capacity is lower in women, elderly people and smokers.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The notes separately state that vital capacity is higher in athletes and mountain dwellers and lower in women, elderly people and smokers; the Reason does not explain the Assertion.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "biology-6-13",
+     "format": "Direct Recall",
+     "keyword": "Photosynthesis",
+     "question": "After red light, which light is the second most effective for photosynthesis?",
+     "options": [
+      "Blue light",
+      "Yellow light",
+      "Green light",
+      "Violet light"
+     ],
+     "answer": 0,
+     "explanation": "Blue light is the second most effective light for photosynthesis.",
+     "facts": [
+      "F47"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -5870,7 +5987,10 @@
       "An organism identified through DNA fingerprinting"
      ],
      "answer": 0,
-     "explanation": "A GMO is an organism whose genetic makeup has been altered through genetic engineering."
+     "explanation": "A GMO is an organism whose genetic makeup has been altered through genetic engineering.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "biology-39-2",
@@ -5884,7 +6004,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the definition of recombinant DNA as combined genetic material does not itself explain its application in transferring microbial genes to higher organisms."
+     "explanation": "Both statements are true according to the notes. However, the definition of recombinant DNA as combined genetic material does not itself explain its application in transferring microbial genes to higher organisms.",
+     "facts": [
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "biology-39-3",
@@ -5898,7 +6022,19 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Agriculture—improved and transgenic/GM crops; Medicine—drugs, vaccines, diagnostics and gene therapy; Industry—microbial production of useful products; Research—biochips in basic research."
+     "explanation": "The correct pairs are: Agriculture—improved and transgenic/GM crops; Medicine—drugs, vaccines, diagnostics and gene therapy; Industry—microbial production of useful products; Research—biochips in basic research.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "biology-39-4",
@@ -5912,7 +6048,12 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are supported by the notes. A desired gene is inserted into a plasmid, introduced into a bacterium through transformation, and bacterial multiplication enables large-scale production."
+     "explanation": "All three statements are supported by the notes. A desired gene is inserted into a plasmid, introduced into a bacterium through transformation, and bacterial multiplication enables large-scale production.",
+     "facts": [
+      "F24",
+      "F25",
+      "F27"
+     ]
     },
     {
      "id": "biology-39-5",
@@ -5926,7 +6067,13 @@
       "DNA polymorphisms are identical among all individuals."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is that DNA polymorphisms are identical among all individuals. The notes state that DNA polymorphisms vary among individuals, making identification and parentage testing possible."
+     "explanation": "The incorrect detail is that DNA polymorphisms are identical among all individuals. The notes state that DNA polymorphisms vary among individuals, making identification and parentage testing possible.",
+     "facts": [
+      "F28",
+      "F30",
+      "F31",
+      "F40"
+     ]
     }
    ]
   },
@@ -5956,7 +6103,12 @@
       "Gene therapy"
      ],
      "answer": 0,
-     "explanation": "DNA fingerprinting is the technique used to establish or prove paternity."
+     "explanation": "DNA fingerprinting is the technique used to establish or prove paternity.",
+     "facts": [
+      "F7",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "biology-40-2",
@@ -5970,7 +6122,12 @@
       "Saliva can provide DNA evidence."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement replaces dried semen with dried blood. The listed sources of DNA evidence are hair, saliva and dried semen."
+     "explanation": "The incorrect statement replaces dried semen with dried blood. The listed sources of DNA evidence are hair, saliva and dried semen.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-40-3",
@@ -5984,7 +6141,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "DNA sequencing determines the order of nucleotides or bases, and the order of bases carries genetic information."
+     "explanation": "DNA sequencing determines the order of nucleotides or bases, and the order of bases carries genetic information.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-40-4",
@@ -5998,7 +6159,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The genome represents complete genetic information or genetic makeup. A zygote genome combines DNA from two gametes."
+     "explanation": "The genome represents complete genetic information or genetic makeup. A zygote genome combines DNA from two gametes.",
+     "facts": [
+      "F22",
+      "F23",
+      "F30"
+     ]
     },
     {
      "id": "biology-40-5",
@@ -6012,7 +6178,15 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Gene therapy targets genetic abnormalities or diseases and seeks to alter, replace or correct defective genetic function; changing environmental conditions is not its stated basic idea."
+     "explanation": "Statements I, II and III are correct. Gene therapy targets genetic abnormalities or diseases and seeks to alter, replace or correct defective genetic function; changing environmental conditions is not its stated basic idea.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "biology-40-6",
@@ -6026,9 +6200,156 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: DNA fingerprinting–DNA polymorphism, Genome–complete genetic information, Transcriptome–sum total of expressed mRNA molecules, and Gene therapy–altering, replacing or correcting defective genetic function."
+     "explanation": "The correct pairs are: DNA fingerprinting–DNA polymorphism, Genome–complete genetic information, Transcriptome–sum total of expressed mRNA molecules, and Gene therapy–altering, replacing or correcting defective genetic function.",
+     "facts": [
+      "F4",
+      "F22",
+      "F31",
+      "F36",
+      "F37",
+      "F38",
+      "F3",
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-40-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "DNA Fingerprinting → Polymorphism",
+     "question": "Consider the following statements:\nStatement A: Most human DNA is similar among individuals.\nStatement B: Variable DNA regions differ among individuals.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Most human DNA is similar, while variable DNA regions differ among individuals. These variable regions constitute the basis of individual variation or polymorphism.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "biology-40-8",
+     "format": "List-Matching",
+     "keyword": "DNA Fingerprinting → Polymorphism",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Tissues from the same person\n b. Polymorphisms\n c. DNA fingerprinting as a method\n d. DNA fingerprinting in forensic cases\n\nList-II\n i. Are inheritable from parent to child\n ii. Show the same degree and pattern of polymorphism\n iii. Is a biotechnological method for identifying humans\n iv. Is used in forensic cases",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Tissues of the same person show the same degree and pattern of polymorphism; polymorphisms are inherited from parent to child. DNA fingerprinting identifies humans and is used in forensic cases.",
+     "facts": [
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "biology-40-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "DNA Sequencing → Application",
+     "question": "Consider the following statements:\nI. DNA fingerprinting is used in conservation.\nII. The DNA bases are A, G, C and T.\nIII. DNA sequencing is used in genetics to study genes and genomes.\nIV. DNA sequencing is used to detect sequence differences in genetic variation.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "DNA fingerprinting has an application in conservation. The four DNA bases are A, G, C and T, while DNA sequencing is used both to study genes and genomes and to detect sequence differences in genetic variation.",
+     "facts": [
+      "F12",
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "biology-40-10",
+     "format": "List-Matching",
+     "keyword": "Genome / Genome Sequencing",
+     "question": "Match List-I with List-II:\n\nList-I\n a. DNA sequencing in biotechnology\n b. Genome\n c. GMO\n d. CRISPR\n\nList-II\n i. Used for genome editing\n ii. Contains the genetic information required to form an individual\n iii. Has a deliberately altered genome or genetic makeup\n iv. Used for molecular and genomic analysis",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "In biotechnology, DNA sequencing is used for molecular and genomic analysis. A genome contains the information required to form an individual, a GMO has deliberately altered genetic makeup, and CRISPR is used for genome editing.",
+     "facts": [
+      "F21",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-40-11",
+     "format": "Direct Recall",
+     "keyword": "Genome Sequencing",
+     "question": "What does genome sequencing analyze?",
+     "options": [
+      "The DNA sequence of a genome",
+      "The pattern of polymorphism in the same person's tissues",
+      "The genetic function altered by gene therapy",
+      "The sum total of expressed mRNA molecules"
+     ],
+     "answer": 0,
+     "explanation": "Genome sequencing analyzes the DNA sequence of a genome.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-40-12",
+     "format": "Count-Based",
+     "keyword": "Genome / Transcriptome",
+     "question": "How many of the following statements are correct?\n1. The human genome contains approximately 3 billion DNA bases.\n2. More than 99% of DNA bases are the same among humans.\n3. A genome is roughly fixed for a line except for mutations.\n4. A transcriptome can change with environmental conditions.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The human genome has approximately 3 billion bases, most DNA bases are shared among humans, a genome is roughly fixed except for mutations, and the transcriptome can vary with environmental conditions.",
+     "facts": [
+      "F28",
+      "F29",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "biology-40-13",
+     "format": "Direct Recall",
+     "keyword": "CRISPR",
+     "question": "CRISPR has the potential to be used for which of the following?",
+     "options": [
+      "Identifying humans in forensic cases",
+      "Detecting sequence differences in genetic variation",
+      "Molecular and genomic analysis",
+      "Correcting genetic defects"
+     ],
+     "answer": 3,
+     "explanation": "CRISPR has the potential to correct genetic defects. The other options describe applications of DNA sequencing or DNA fingerprinting.",
+     "facts": [
+      "F40"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "41": {
    "number": 41,
@@ -6138,7 +6459,18 @@
       "Copying a complete organism"
      ],
      "answer": 0,
-     "explanation": "DNA ligase joins desired DNA with vector DNA. It functions by forming or sealing DNA linkages and is popularly described as a molecular stitcher or molecular glue."
+     "explanation": "DNA ligase joins desired DNA with vector DNA. It functions by forming or sealing DNA linkages and is popularly described as a molecular stitcher or molecular glue.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F26",
+      "F27",
+      "F32",
+      "F42"
+     ]
     },
     {
      "id": "biology-42-2",
@@ -6152,7 +6484,15 @@
       "Plasmids are commonly found in bacteria."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is “only in eukaryotes.” Plasmids are commonly found in bacteria and are also found in some archaea and eukaryotes."
+     "explanation": "The incorrect detail is “only in eukaryotes.” Plasmids are commonly found in bacteria and are also found in some archaea and eukaryotes.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-42-3",
@@ -6166,7 +6506,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. PCR amplifies DNA by producing many copies of the selected DNA sequence."
+     "explanation": "Both statements are true. PCR amplifies DNA by producing many copies of the selected DNA sequence.",
+     "facts": [
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "biology-42-4",
@@ -6180,7 +6524,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: DNA ligase—molecular stitcher; PCR—amplification of DNA; pBR322—early widely used E. coli cloning vector; plasmid—small DNA molecule."
+     "explanation": "The correct pairs are: DNA ligase—molecular stitcher; PCR—amplification of DNA; pBR322—early widely used E. coli cloning vector; plasmid—small DNA molecule.",
+     "facts": [
+      "F4",
+      "F6",
+      "F22",
+      "F26",
+      "F21"
+     ]
     },
     {
      "id": "biology-42-5",
@@ -6194,7 +6545,14 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. Gene cloning copies or amplifies a desired gene or DNA fragment, whole-animal cloning produces a complete organism, and bacteria can rapidly copy recombinant DNA."
+     "explanation": "All three statements are correct. Gene cloning copies or amplifies a desired gene or DNA fragment, whole-animal cloning produces a complete organism, and bacteria can rapidly copy recombinant DNA.",
+     "facts": [
+      "F38",
+      "F39",
+      "F41",
+      "F42",
+      "F20"
+     ]
     }
    ]
   },

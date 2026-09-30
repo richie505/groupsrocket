@@ -1533,8 +1533,126 @@
       "F72",
       "F73"
      ]
+    },
+    {
+     "id": "indian-geography-2-23",
+     "format": "List-Matching",
+     "keyword": "River → Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Johilla\n(b) Mahanadi\n(c) Banas\n(d) Gopad\n\nList-II\n(i) Tributary of the Son\n(ii) Tributary of the Kosi\n(iii) Tributary of the Cauvery\n(iv) Tributary of the Sutlej",
+     "options": [
+      "a-i, b-ii, c-i, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-i, c-i, d-i",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Johilla, Mahanadi, Banas and Gopad are all listed as tributaries of the Son.",
+     "facts": [
+      "F75",
+      "F76",
+      "F77",
+      "F78"
+     ]
+    },
+    {
+     "id": "indian-geography-2-24",
+     "format": "Count-Based",
+     "keyword": "River → Tributary",
+     "question": "How many of the following are tributaries of the Son?\n\n1. Rihand\n2. Ghogher\n3. Kanhar\n4. North Koel",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four—Rihand, Ghogher, Kanhar and North Koel—are listed as tributaries of the Son.",
+     "facts": [
+      "F79",
+      "F80",
+      "F81",
+      "F82"
+     ]
+    },
+    {
+     "id": "indian-geography-2-25",
+     "format": "List-Matching",
+     "keyword": "River → Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Baspa\n(b) Jhelum\n(c) Ravi\n(d) Beas\n\nList-II\n(i) Major tributary of the Indus\n(ii) Tributary of the Sutlej\n(iii) Tributary of the Kosi\n(iv) Tributary of the Cauvery",
+     "options": [
+      "a-ii, b-i, c-i, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Baspa is a tributary of the Sutlej, while Jhelum, Ravi and Beas are major tributaries of the Indus.",
+     "facts": [
+      "F85",
+      "F86",
+      "F88",
+      "F89"
+     ]
+    },
+    {
+     "id": "indian-geography-2-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Tributary",
+     "question": "Consider the following statements:\n\nI. Sun Kosi is a tributary of the Kosi.\nII. Arun Kosi is a tributary of the Kosi.\nIII. Tamur Kosi is a tributary of the Kosi.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "Sun Kosi, Arun Kosi and Tamur Kosi are all listed as tributaries of the Kosi.",
+     "facts": [
+      "F94",
+      "F95",
+      "F96"
+     ]
+    },
+    {
+     "id": "indian-geography-2-27",
+     "format": "Direct Recall",
+     "keyword": "River → Tributary",
+     "question": "Hemavathi is a tributary of which of the following rivers?",
+     "options": [
+      "Krishna",
+      "Cauvery",
+      "Mahanadi",
+      "Godavari"
+     ],
+     "answer": 1,
+     "explanation": "Hemavathi is listed as a tributary of the Cauvery.",
+     "facts": [
+      "F99"
+     ]
+    },
+    {
+     "id": "indian-geography-2-28",
+     "format": "Assertion-Reason",
+     "keyword": "River → Tributary",
+     "question": "Assertion (A): Damodar flows into the Hugli.\nReason (R): The Barakar–Damodar–Hugli chain shows the connection of Barakar with Damodar and Damodar with Hugli.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes give the chain as Barakar–Damodar–Hugli, indicating that Damodar flows into the Hugli.",
+     "facts": [
+      "F74"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 100,
+    "covered": 100,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -1995,7 +2113,17 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Mica is associated with Koderma in Jharkhand, manganese with Keonjhar in Odisha, diamond with Panna in Madhya Pradesh, and chromite with Sukinda in Odisha."
+     "explanation": "Mica is associated with Koderma in Jharkhand, manganese with Keonjhar in Odisha, diamond with Panna in Madhya Pradesh, and chromite with Sukinda in Odisha.",
+     "facts": [
+      "F1",
+      "F70",
+      "F72",
+      "F73",
+      "F106",
+      "F107",
+      "F108",
+      "F109"
+     ]
     },
     {
      "id": "indian-geography-8-2",
@@ -2009,7 +2137,17 @@
       "Singareni in Telangana is a coal location."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the state. Khetri is a copper location in Rajasthan, not Jharkhand."
+     "explanation": "The incorrect detail is the state. Khetri is a copper location in Rajasthan, not Jharkhand.",
+     "facts": [
+      "F1",
+      "F2",
+      "F33",
+      "F34",
+      "F39",
+      "F40",
+      "F74",
+      "F75"
+     ]
     },
     {
      "id": "indian-geography-8-3",
@@ -2023,7 +2161,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: natural gas is associated with the Krishna-Godavari Basin, while Rava–KG Basin is listed under petroleum. The petroleum location does not explain the natural-gas association."
+     "explanation": "Both statements are true: natural gas is associated with the Krishna-Godavari Basin, while Rava–KG Basin is listed under petroleum. The petroleum location does not explain the natural-gas association.",
+     "facts": [
+      "F100",
+      "F101"
+     ]
     },
     {
      "id": "indian-geography-8-4",
@@ -2037,7 +2179,15 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. Bilaspur is listed as a dolomite location in Chhattisgarh, not as stated in the altered form represented by the incorrect combination."
+     "explanation": "Statements I, II and IV are correct. Bilaspur is listed as a dolomite location in Chhattisgarh, not as stated in the altered form represented by the incorrect combination.",
+     "facts": [
+      "F51",
+      "F94",
+      "F95",
+      "F104",
+      "F105",
+      "F111"
+     ]
     },
     {
      "id": "indian-geography-8-5",
@@ -2051,7 +2201,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Limestone is associated with Kaimur–Rohtas in Bihar, and Rajasthan is listed for gypsum."
+     "explanation": "Both statements are true. Limestone is associated with Kaimur–Rohtas in Bihar, and Rajasthan is listed for gypsum.",
+     "facts": [
+      "F89",
+      "F90",
+      "F92"
+     ]
     },
     {
      "id": "indian-geography-8-6",
@@ -2065,7 +2220,195 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed places—Bastar, Bilaspur, Dantewada and Jashpur—are bauxite locations in Chhattisgarh."
+     "explanation": "All four listed places—Bastar, Bilaspur, Dantewada and Jashpur—are bauxite locations in Chhattisgarh.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "indian-geography-8-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nI. Badampahar and Sundargarh are in Odisha and are associated with iron ore.\nII. Dalli-Rajhara and Bailadila are in Chhattisgarh and are associated with iron ore.\nIII. Noamundi and Singhbhum are in Jharkhand and are associated with iron ore.\nIV. Kudremukh and Bellary/Ballari are in Karnataka and are associated with iron ore.",
+     "options": [
+      "I and II only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Badampahar and Sundargarh are Odisha iron-ore locations; Dalli-Rajhara and Bailadila are in Chhattisgarh. Noamundi and Singhbhum are in Jharkhand, while Kudremukh and Bellary/Ballari are in Karnataka; all are associated with iron ore.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-geography-8-8",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Noamundi\n(b) Singhbhum\n(c) Kudremukh\n(d) Bellary/Ballari\n\nList-II\n(i) Jharkhand — Noamundi — Iron ore\n(ii) Jharkhand — Singhbhum — Iron ore\n(iii) Karnataka — Kudremukh — Iron ore\n(iv) Karnataka — Bellary/Ballari — Iron ore",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Noamundi–Jharkhand–iron ore, Singhbhum–Jharkhand–iron ore, Kudremukh–Karnataka–iron ore, and Bellary/Ballari–Karnataka–iron ore.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-geography-8-9",
+     "format": "Direct Recall",
+     "keyword": "Mineral Resources → Location",
+     "question": "Which of the following is correctly matched?",
+     "options": [
+      "Chitradurga — Karnataka — Coal",
+      "Chitradurga — Odisha — Iron ore",
+      "Chitradurga — Karnataka — Iron ore",
+      "Chitradurga — Jharkhand — Iron ore"
+     ],
+     "answer": 2,
+     "explanation": "Chitradurga is in Karnataka, and iron ore is found there.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-geography-8-10",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Giridih\n(b) Talcher\n(c) Korba\n(d) Makum\n\nList-II\n(i) Jharkhand — Coal\n(ii) Odisha — Coal\n(iii) Chhattisgarh — Coal\n(iv) Assam — Coal",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Giridih is a coal location in Jharkhand, Talcher in Odisha, Korba in Chhattisgarh and Makum in Assam.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "indian-geography-8-11",
+     "format": "Assertion-Reason",
+     "keyword": "Mineral Resources → Location",
+     "question": "Assertion (A): Kamptee is located in Maharashtra.\nReason (R): Kamptee is associated with coal.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Kamptee is in Maharashtra and is a coal location. However, its coal association does not explain its geographical location in Maharashtra.",
+     "facts": [
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-geography-8-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Lignite",
+     "question": "Consider the following statements:\nStatement A: Tamil Nadu has lignite reserves.\nStatement B: Rajasthan has lignite reserves.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Lignite reserves are listed for both Tamil Nadu and Rajasthan.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "indian-geography-8-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Bauxite → Location",
+     "question": "Consider the following statements:\n\nI. Koraput is in Odisha and is associated with bauxite.\nII. Lanjigarh is in Odisha and is associated with bauxite.\nIII. Kalahandi is in Odisha and is associated with bauxite.\nIV. Kalahandi is in Chhattisgarh and is associated with bauxite.",
+     "options": [
+      "I, III and IV only",
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Koraput, Lanjigarh and Kalahandi are listed as bauxite locations in Odisha. Kalahandi is not listed in Chhattisgarh.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "indian-geography-8-14",
+     "format": "Count-Based",
+     "keyword": "Bauxite → Location",
+     "question": "How many of the following are correctly stated as bauxite locations in Chhattisgarh?\n\n1. Kanker\n2. Kawardha/Kabirdham\n3. Korba\n4. Raigarh",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed locations—Kanker, Kawardha/Kabirdham, Korba and Raigarh—are associated with bauxite in Chhattisgarh.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
     }
    ]
   },
@@ -2525,7 +2868,12 @@
       "Palni"
      ],
      "answer": 2,
-     "explanation": "Guru Shikhar is the highest peak of the Aravalli Range. It is located in Sirohi district of Rajasthan."
+     "explanation": "Guru Shikhar is the highest peak of the Aravalli Range. It is located in Sirohi district of Rajasthan.",
+     "facts": [
+      "F36",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "indian-geography-14-2",
@@ -2539,7 +2887,17 @@
       "The Vindhya Range is located in Central India."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the place of convergence. The Vindhya and Satpura ranges converge at Amarkantak, not Yercaud."
+     "explanation": "The incorrect detail is the place of convergence. The Vindhya and Satpura ranges converge at Amarkantak, not Yercaud.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F40",
+      "F42",
+      "F43",
+      "F44",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-14-3",
@@ -2553,7 +2911,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Aravalli Range is described as one of the oldest ranges, with a geological age of about 570 million years."
+     "explanation": "Both statements are true. The Aravalli Range is described as one of the oldest ranges, with a geological age of about 570 million years.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-14-4",
@@ -2567,7 +2929,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Shevaroy Hills–Salem district, Biligirirangan–south-eastern Karnataka, Garo–Khasi–Jaintia–Meghalaya, and Mandav–Gujarat."
+     "explanation": "The correct pairs are: Shevaroy Hills–Salem district, Biligirirangan–south-eastern Karnataka, Garo–Khasi–Jaintia–Meghalaya, and Mandav–Gujarat.",
+     "facts": [
+      "F12",
+      "F21",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-14-5",
@@ -2581,7 +2949,15 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes: Anaimudi is in Ernakulam and Idukki, Yela Mala is the alternative name of the Cardamom Range, and Nokrek Peak is in the Garo Hills of Meghalaya."
+     "explanation": "All three statements are correct according to the notes: Anaimudi is in Ernakulam and Idukki, Yela Mala is the alternative name of the Cardamom Range, and Nokrek Peak is in the Garo Hills of Meghalaya.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57",
+      "F61",
+      "F66",
+      "F67"
+     ]
     },
     {
      "id": "indian-geography-14-6",
@@ -2595,7 +2971,19 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three are located in both Tamil Nadu and Kerala: the Nilgiri, Anaimalai and Cardamom ranges. Shevaroy Hills are located in Salem district of Tamil Nadu."
+     "explanation": "Three are located in both Tamil Nadu and Kerala: the Nilgiri, Anaimalai and Cardamom ranges. Shevaroy Hills are located in Salem district of Tamil Nadu.",
+     "facts": [
+      "F13",
+      "F14",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F21",
+      "F48",
+      "F49",
+      "F50"
+     ]
     }
    ]
   },

@@ -1406,7 +1406,11 @@
       "G. S. Ghurye"
      ],
      "answer": 1,
-     "explanation": "*The Remembered Village* was authored by M. N. Srinivas and deals with rural society."
+     "explanation": "*The Remembered Village* was authored by M. N. Srinivas and deals with rural society.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-2-2",
@@ -1420,7 +1424,14 @@
       "*Caste and Race in India* was authored by G. S. Ghurye."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the author of *The Baiga*. It was authored by Verrier Elwin, not G. S. Ghurye."
+     "explanation": "The incorrect detail is the author of *The Baiga*. It was authored by Verrier Elwin, not G. S. Ghurye.",
+     "facts": [
+      "F26",
+      "F39",
+      "F11",
+      "F52",
+      "F58"
+     ]
     },
     {
      "id": "indian-society-2-3",
@@ -1434,7 +1445,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes: *Gulamgiri* is linked with social equality and was authored by Jyotirao Phule. The authorship does not itself explain the book's stated theme."
+     "explanation": "Both statements are true according to the notes: *Gulamgiri* is linked with social equality and was authored by Jyotirao Phule. The authorship does not itself explain the book's stated theme.",
+     "facts": [
+      "F37",
+      "F59"
+     ]
     },
     {
      "id": "indian-society-2-4",
@@ -1448,7 +1463,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: G. S. Ghurye—*Caste and Race in India*; A. R. Desai—*Social Background of Indian Nationalism*; Yogendra Singh—*Modernization of Indian Tradition*; Andre Beteille—*Caste, Class and Power*."
+     "explanation": "The correct pairs are: G. S. Ghurye—*Caste and Race in India*; A. R. Desai—*Social Background of Indian Nationalism*; Yogendra Singh—*Modernization of Indian Tradition*; Andre Beteille—*Caste, Class and Power*.",
+     "facts": [
+      "F11",
+      "F42",
+      "F44",
+      "F46",
+      "F57"
+     ]
     },
     {
      "id": "indian-society-2-5",
@@ -1462,7 +1484,13 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. *The Gospel of Sri Ramakrishna* was authored by Mahendranath Gupta, not Swami Vivekananda, so III is incorrect."
+     "explanation": "Statements I, II and IV are correct. *The Gospel of Sri Ramakrishna* was authored by Mahendranath Gupta, not Swami Vivekananda, so III is incorrect.",
+     "facts": [
+      "F36",
+      "F38",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-society-2-6",
@@ -1476,9 +1504,298 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the caste books table. *Annihilation of Caste* is linked with the anti-caste theme, while *Who Were the Shudras?* is linked with caste origins."
+     "explanation": "Both statements are true according to the caste books table. *Annihilation of Caste* is linked with the anti-caste theme, while *Who Were the Shudras?* is linked with caste origins.",
+     "facts": [
+      "F19",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-society-2-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nI. Kinship Organization in India was written by Irawati Karve.\nII. Family and Kin in Indo-European Culture was written by Irawati Karve.\nIII. Indian Kinship System was written by Irawati Karve.",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three books—Kinship Organization in India, Family and Kin in Indo-European Culture, and Indian Kinship System—were written by Irawati Karve.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-society-2-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nI. Kinship Organization in India concerns kinship.\nII. Family and Kin in Indo-European Culture concerns family.\nIII. Indian Kinship System concerns kinship.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Kinship Organization in India and Indian Kinship System concern kinship, while Family and Kin in Indo-European Culture concerns family.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-society-2-9",
+     "format": "List-Matching",
+     "keyword": "Books and Authors",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Annihilation of Caste\n(b) Who Were the Shudras?\n(c) The Untouchables\n(d) Castes in India\n\nList-II\n(i) Caste Origins\n(ii) Caste System\n(iii) Anti-Caste\n(iv) Untouchability",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Annihilation of Caste—Anti-Caste; Who Were the Shudras?—Caste Origins; The Untouchables—Untouchability; and Castes in India—Caste System.",
+     "facts": [
+      "F18",
+      "F20",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-society-2-10",
+     "format": "Direct Recall",
+     "keyword": "Books and Authors",
+     "question": "The book The Baiga concerns which of the following?",
+     "options": [
+      "Tribal Policy",
+      "Tribal Culture",
+      "Tribe",
+      "Tribes"
+     ],
+     "answer": 2,
+     "explanation": "The Baiga concerns tribe.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-society-2-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nStatement A: The Muria and Their Ghotul was written by Verrier Elwin.\nStatement B: The Muria and Their Ghotul concerns tribal culture.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: The Muria and Their Ghotul was written by Verrier Elwin and concerns tribal culture.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-society-2-12",
+     "format": "Assertion-Reason",
+     "keyword": "Books and Authors",
+     "question": "Assertion (A): A Philosophy for NEFA concerns tribal policy.\nReason (R): A Philosophy for NEFA was written by Verrier Elwin.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. A Philosophy for NEFA was written by Verrier Elwin and concerns tribal policy, but its authorship does not explain its theme.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "indian-society-2-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nI. The Tribal World of Verrier Elwin was written by Verrier Elwin and concerns tribes.\nII. The Aboriginals (So-Called) and Their Future was written by G. S. Ghurye and concerns tribal assimilation.",
+     "options": [
+      "I only",
+      "Both I and II",
+      "II only",
+      "Neither I nor II"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are correct. The Tribal World of Verrier Elwin is associated with Verrier Elwin and tribes, while The Aboriginals (So-Called) and Their Future is associated with G. S. Ghurye and tribal assimilation.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-society-2-14",
+     "format": "List-Matching",
+     "keyword": "Books and Authors",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Social Background of Indian Nationalism\n(b) Modernization of Indian Tradition\n(c) Caste, Class and Power\n(d) The Baiga\n\nList-II\n(i) Indian nationalism\n(ii) Modernization of Indian tradition\n(iii) Caste, class and power\n(iv) Tribe",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Social Background of Indian Nationalism–Indian nationalism, Modernization of Indian Tradition–modernization of Indian tradition, and Caste, Class and Power–caste, class and power. The Baiga concerns tribes.",
+     "facts": [
+      "F43",
+      "F45",
+      "F47"
+     ]
+    },
+    {
+     "id": "indian-society-2-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nI. Ram Ahuja wrote Social Problems in India.\nII. Social Problems in India concerns social problems in India.\nIII. N. K. Bose wrote Hindu Society in Transition.\nIV. Hindu Society in Transition concerns Hindu society in transition.",
+     "options": [
+      "I, II, III and IV",
+      "III and IV only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Ram Ahuja is associated with Social Problems in India, while N. K. Bose is associated with Hindu Society in Transition; the themes correspond to their titles.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "indian-society-2-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Women",
+     "question": "Consider the following statements:\nStatement A: Stri Purush Tulana was written by Tarabai Shinde.\nStatement B: Stri Purush Tulana concerns women.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Stri Purush Tulana was written by Tarabai Shinde and concerns women.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "indian-society-2-17",
+     "format": "Assertion-Reason",
+     "keyword": "Women",
+     "question": "Assertion (A): The High-Caste Hindu Woman concerns widow issues.\nReason (R): The High-Caste Hindu Woman was written by Pandita Ramabai.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the Assertion and the Reason are true: The High-Caste Hindu Woman concerns widow issues and was written by Pandita Ramabai. The authorship does not explain the book’s theme, so the second option is correct.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "indian-society-2-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nStatement A: Village, Caste, Gender and Method was written by M. N. Srinivas.\nStatement B: Village, Caste, Gender and Method concerns rural society.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Village, Caste, Gender and Method was written by M. N. Srinivas and concerns rural society.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "indian-society-2-19",
+     "format": "Direct Recall",
+     "keyword": "Books and Authors",
+     "question": "The book Caste and Race in India concerns which of the following?",
+     "options": [
+      "Tribal policy",
+      "Sanskritization",
+      "Rural society",
+      "Caste"
+     ],
+     "answer": 3,
+     "explanation": "Caste and Race in India concerns caste.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-society-2-20",
+     "format": "Assertion-Reason",
+     "keyword": "Books and Authors",
+     "question": "Assertion (A): Religion and Society among the Coorgs of South India was written by M. N. Srinivas.\nReason (R): Religion and Society among the Coorgs of South India concerns Sanskritization.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the theme of the book does not explain its authorship. The book was written by M. N. Srinivas and concerns Sanskritization.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-society-2-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Books and Authors",
+     "question": "Consider the following statements:\nI. Social Change in Modern India was written by M. N. Srinivas.\nII. Social Change in Modern India concerns Sanskritization.\nIII. Social Change in Modern India concerns caste.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Social Change in Modern India was written by M. N. Srinivas and concerns Sanskritization and caste.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 59,
+    "covered": 59,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -1630,8 +1947,161 @@
       "F36",
       "F38"
      ]
+    },
+    {
+     "id": "indian-society-3-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Caste status",
+     "question": "Consider the following statements regarding the characteristics of caste:\nI. Caste has segmental division.\nII. Caste has restrictions on feeding.\nIII. Caste has restrictions on social intercourse.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Caste is characterized by segmental division, restrictions on feeding and restrictions on social intercourse.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "indian-society-3-9",
+     "format": "Direct Recall",
+     "keyword": "Kinship",
+     "question": "Who stated that kinship is the backbone of Indian social organization?",
+     "options": [
+      "Yogendra Singh",
+      "Irawati Karve",
+      "G. S. Ghurye",
+      "A. M. Shah"
+     ],
+     "answer": 1,
+     "explanation": "Irawati Karve stated that kinship is the backbone of Indian social organization.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-society-3-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sanskritization",
+     "question": "Consider the following statements:\nStatement A: Lower castes improve their status by adopting upper-caste practices through Sanskritization.\nStatement B: Yogendra Singh studied the modernization of Indian tradition.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes associate Sanskritization with the adoption of upper-caste practices by lower castes and associate Yogendra Singh with the modernization of Indian tradition.",
+     "facts": [
+      "F10",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-society-3-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Caste status",
+     "question": "Consider the following statements:\nI. Louis Dumont stated that hierarchy is the essence of caste.\nII. Herbert Risley stated that caste is based on common descent.\nIII. Herbert Risley stated that caste is based on occupation.\nIV. J. H. Hutton stated that caste developed through social disabilities.\nV. J. H. Hutton stated that caste developed through religious disabilities.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, IV and V only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements correctly reproduce the views attributed to Louis Dumont, Herbert Risley and J. H. Hutton.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-society-3-12",
+     "format": "List-Matching",
+     "keyword": "Books and Authors",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Caste and Race in India\n(b) Kinship Organization in India\n(c) Modernization of Indian Tradition\n(d) Backward Hindus\n\nList-II\n(i) G. S. Ghurye\n(ii) Irawati Karve\n(iii) Yogendra Singh\n(iv) A. R. Desai",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Caste and Race in India and Backward Hindus are associated with G. S. Ghurye; Kinship Organization in India with Irawati Karve; and Modernization of Indian Tradition with Yogendra Singh.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F46"
+     ]
+    },
+    {
+     "id": "indian-society-3-13",
+     "format": "Assertion-Reason",
+     "keyword": "Karl Marx",
+     "question": "Assertion (A): Max Weber studied the Protestant Ethic.\nReason (R): Karl Marx stated that history is the history of class struggle.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Marx’s statement about class struggle does not explain Weber’s study of the Protestant Ethic.",
+     "facts": [
+      "F32",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-society-3-14",
+     "format": "Direct Recall",
+     "keyword": "Father of Sociology",
+     "question": "Who is known as the Father of Sociology?",
+     "options": [
+      "Max Weber",
+      "Emile Durkheim",
+      "Auguste Comte",
+      "Karl Marx"
+     ],
+     "answer": 2,
+     "explanation": "Auguste Comte is known as the Father of Sociology.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-society-3-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sociologists – Statements",
+     "question": "Consider the following statements:\nStatement A: Emile Durkheim stated that society is a reality sui generis.\nStatement B: Robert K. Merton developed the concepts of Manifest Functions and Latent Functions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The notes attribute the statement about society as a reality sui generis to Emile Durkheim and the concepts of Manifest and Latent Functions to Robert K. Merton.",
+     "facts": [
+      "F30",
+      "F37"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -2300,7 +2770,10 @@
       "School"
      ],
      "answer": 1,
-     "explanation": "The notes state that the family is the first school of the child and teaches language, customs, values, traditions and norms."
+     "explanation": "The notes state that the family is the first school of the child and teaches language, customs, values, traditions and norms.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-society-6-2",
@@ -2314,7 +2787,16 @@
       "Social control encourages acceptable behaviour."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the meaning of inheritance of property. In the notes, inheritance refers to the transfer of wealth and property; collective consumption is a separate economic function."
+     "explanation": "The incorrect statement alters the meaning of inheritance of property. In the notes, inheritance refers to the transfer of wealth and property; collective consumption is a separate economic function.",
+     "facts": [
+      "F1",
+      "F15",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "indian-society-6-3",
@@ -2328,7 +2810,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify reproduction as a biological function because it produces the next generation and ensures continuity of society."
+     "explanation": "Both statements are true. The notes identify reproduction as a biological function because it produces the next generation and ensures continuity of society.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-society-6-4",
@@ -2342,7 +2828,10 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Division of labour belongs to the economic functions, while mental support is listed under the psychological functions of the family."
+     "explanation": "Both statements are true. Division of labour belongs to the economic functions, while mental support is listed under the psychological functions of the family.",
+     "facts": [
+      "F34"
+     ]
     },
     {
      "id": "indian-society-6-5",
@@ -2356,7 +2845,16 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct according to the religious and protective functions of the family. Statement IV is incorrect because social control discourages deviant behaviour and encourages acceptable behaviour."
+     "explanation": "Statements I, II and III are correct according to the religious and protective functions of the family. Statement IV is incorrect because social control discourages deviant behaviour and encourages acceptable behaviour.",
+     "facts": [
+      "F15",
+      "F16",
+      "F42",
+      "F43",
+      "F46",
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "indian-society-6-6",
@@ -2370,9 +2868,285 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Reproductive—Birth of children; Economic—Economic cooperation; Educational—Socialization of children; Sexual regulation—Regulation of sexual relations."
+     "explanation": "The correct pairs are: Reproductive—Birth of children; Economic—Economic cooperation; Educational—Socialization of children; Sexual regulation—Regulation of sexual relations.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "indian-society-6-7",
+     "format": "Assertion-Reason",
+     "keyword": "Family – functions",
+     "question": "Assertion (A): The family provides socially approved sexual relations.\nReason (R): Regulation of sexual behaviour by the family prevents social disorder.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The family regulates sexual behaviour by providing socially approved sexual relations, and this function prevents social disorder; therefore, R explains A.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-society-6-8",
+     "format": "Count-Based",
+     "keyword": "Family – functions",
+     "question": "How many of the following members are protected by the family?\nI. Infants\nII. Children\nIII. Elderly members\nIV. Sick members",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The family’s care and protection function covers infants, children, elderly members and sick members. Hence, all four are included.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-society-6-9",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Family – functions",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The family teaches language and customs.",
+      "The family teaches norms and provides economic identity.",
+      "The family teaches language, customs, values, traditions and norms.",
+      "The family teaches values and traditions."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect detail is ‘economic identity’. The family teaches norms, while the identities it provides include caste, religious, language, national and social status identities.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-society-6-10",
+     "format": "List-Matching",
+     "keyword": "Social identity",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Caste\n b. Religion\n c. Language\n d. Nationality\n e. Social status\n\nList-II\n i. Language identity\n ii. Caste identity\n iii. National identity\n iv. Social status\n v. Religious identity",
+     "options": [
+      "a-iii, b-i, c-ii, d-v, e-iv",
+      "a-ii, b-v, c-i, d-iii, e-iv",
+      "a-v, b-ii, c-iii, d-i, e-iv",
+      "a-i, b-iii, c-v, d-ii, e-iv"
+     ],
+     "answer": 1,
+     "explanation": "The family provides caste identity, religious identity, language identity, national identity and social status. Therefore, the correct pairs are a-ii, b-v, c-i, d-iii and e-iv.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-society-6-11",
+     "format": "Assertion-Reason",
+     "keyword": "Transmission of culture",
+     "question": "Assertion (A): The family transfers traditions from one generation to another.\nReason (R): Transmission of culture involves transferring traditions from one generation to another.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both A and R are true. Transferring traditions from one generation to another is precisely the family’s function of transmitting culture.",
+     "facts": [
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-society-6-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Economic support",
+     "question": "Consider the following statements:\nStatement A: The family provides food, shelter and clothing.\nStatement B: Family members perform different roles.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Providing food, shelter and clothing is part of economic security, while members performing different roles reflects division of labour.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-society-6-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Personality development",
+     "question": "Consider the following statements:\nStatement A: The family builds confidence.\nStatement B: The family builds self-esteem.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Building confidence and self-esteem are psychological functions of the family under personality development.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-society-6-14",
+     "format": "Assertion-Reason",
+     "keyword": "Family – functions",
+     "question": "Assertion (A): The family teaches basic education before school.\nReason (R): The family develops discipline.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true educational functions of the family. However, developing discipline does not explain the separate fact that basic education is taught before school.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "indian-society-6-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Family – functions",
+     "question": "Consider the following statements about the educational functions of the family:\nI. The family develops moral values.\nII. The family encourages learning habits.\nIII. A child learns language in the family.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct educational functions or outcomes associated with the family.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "indian-society-6-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Family – functions",
+     "question": "Consider the following statements:\nStatement A: A child learns manners in the family.\nStatement B: A child learns respect for elders in the family.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The family teaches children manners and respect for elders as part of their early learning.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "indian-society-6-17",
+     "format": "Assertion-Reason",
+     "keyword": "Family – functions",
+     "question": "Assertion (A): Celebrating festivals and ceremonies is associated with the religious functions of the family.\nReason (R): The family celebrates festivals and ceremonies.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the family’s celebration of festivals and ceremonies demonstrates this religious function.",
+     "facts": [
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "indian-society-6-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Family – functions",
+     "question": "Consider the following statements about family celebrations:\nI. The family celebrates Diwali.\nII. The family celebrates Eid.\nIII. The family celebrates Christmas.\nIV. The family celebrates Gurpurab.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "Diwali, Eid, Christmas and Gurpurab are all listed as festivals celebrated by the family.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "indian-society-6-19",
+     "format": "Count-Based",
+     "keyword": "Family – functions",
+     "question": "How many of the following groups are specifically supported by the family?\nI. Children\nII. Women\nIII. Elderly persons\nIV. Disabled persons",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The family supports children, women, elderly persons and disabled persons. Therefore, all four groups are included.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "indian-society-6-20",
+     "format": "Direct Recall",
+     "keyword": "Family – functions",
+     "question": "Who identified the four universal functions of the family?",
+     "options": [
+      "Emile Durkheim",
+      "George Peter Murdock",
+      "Karl Marx",
+      "Max Weber"
+     ],
+     "answer": 1,
+     "explanation": "George Peter Murdock identified four universal functions of the family: sexual regulation, reproduction, economic cooperation and education.",
+     "facts": [
+      "F57"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 61,
+    "covered": 61,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -2913,8 +3687,183 @@
      "facts": [
       "F72"
      ]
+    },
+    {
+     "id": "indian-society-8-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Caste status",
+     "question": "Consider the following statements:\nStatement A: Caste is characterized by hierarchy.\nStatement B: Caste imposes social restrictions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Caste is characterized by hierarchy and also imposes social restrictions.",
+     "facts": [
+      "F73",
+      "F75"
+     ]
+    },
+    {
+     "id": "indian-society-8-25",
+     "format": "Direct Recall",
+     "keyword": "Sociologists – Statements",
+     "question": "Who among the following is identified as a scholar of caste?",
+     "options": [
+      "Talcott Parsons",
+      "G. S. Ghurye",
+      "Emile Durkheim",
+      "George Peter Murdock"
+     ],
+     "answer": 1,
+     "explanation": "G. S. Ghurye is identified as a scholar of caste.",
+     "facts": [
+      "F76"
+     ]
+    },
+    {
+     "id": "indian-society-8-26",
+     "format": "Count-Based",
+     "keyword": "Caste status",
+     "question": "How many of the following are identified as scholars or important concepts related to caste?\n1. M. N. Srinivas\n2. Sanskritization\n3. Dominant Caste\n4. Westernization",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "M. N. Srinivas is a scholar of caste, while Sanskritization, Dominant Caste and Westernization are important concepts related to caste. Thus, all four qualify.",
+     "facts": [
+      "F77",
+      "F78",
+      "F79",
+      "F80"
+     ]
+    },
+    {
+     "id": "indian-society-8-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tribe",
+     "question": "Consider the following statements:\nStatement A: A tribe practices endogamy.\nStatement B: A tribe has political organization.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Endogamy and political organization are both identified as features of a tribe.",
+     "facts": [
+      "F84",
+      "F85"
+     ]
+    },
+    {
+     "id": "indian-society-8-28",
+     "format": "Count-Based",
+     "keyword": "Tribe",
+     "question": "How many of the following are important terms related to tribes?\n1. Animism\n2. Totemism\n3. Ghotul\n4. Jhum Cultivation",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Animism, Totemism, Ghotul and Jhum Cultivation are all listed as important terms related to tribes.",
+     "facts": [
+      "F87",
+      "F88",
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "indian-society-8-29",
+     "format": "Assertion-Reason",
+     "keyword": "Institution",
+     "question": "Assertion (A): Media is a modern social institution.\nReason (R): Media disseminates information.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Media is identified as a modern social institution and it disseminates information. However, information dissemination does not explain why media is classified as a modern social institution.",
+     "facts": [
+      "F91",
+      "F92"
+     ]
+    },
+    {
+     "id": "indian-society-8-30",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Media",
+     "question": "Consider the following statements:\nI. Media creates awareness.\nII. Media forms public opinion.\nIII. Media contributes to social change.\nIV. Media contributes to cultural diffusion.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements describe functions or impacts of media: awareness creation, public opinion formation, social change and cultural diffusion.",
+     "facts": [
+      "F93",
+      "F94",
+      "F98",
+      "F100"
+     ]
+    },
+    {
+     "id": "indian-society-8-31",
+     "format": "Count-Based",
+     "keyword": "Media",
+     "question": "How many of the following are types of media?\n1. Print media\n2. Electronic media\n3. Social media",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "Print media, electronic media and social media are all identified as types of media.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97"
+     ]
+    },
+    {
+     "id": "indian-society-8-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Marriage – Important Terms",
+     "question": "Consider the following statements:\nI. Anuloma is an important term related to marriage.\nII. Pratiloma is an important term related to marriage.\nIII. Levirate is an important term related to marriage.\nIV. Sororate is an important term related to marriage.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Anuloma, Pratiloma, Levirate and Sororate are all listed as important terms related to marriage.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 100,
+    "covered": 100,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -3916,7 +4865,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The Rohini Commission dealt with OBC sub-categorization, the Dhebar Commission with tribal welfare, the Sachar Committee with the socio-economic status of Muslims, and the Justice Verma Committee with sexual violence laws."
+     "explanation": "The Rohini Commission dealt with OBC sub-categorization, the Dhebar Commission with tribal welfare, the Sachar Committee with the socio-economic status of Muslims, and the Justice Verma Committee with sexual violence laws.",
+     "facts": [
+      "F13",
+      "F16",
+      "F25",
+      "F40"
+     ]
     },
     {
      "id": "indian-society-11-2",
@@ -3930,7 +4885,15 @@
       "The report Towards Equality was associated with the Committee on Status of Women in India."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year. The Committee on Status of Women in India was constituted in 1971, while 1974 is associated with its Towards Equality report."
+     "explanation": "The incorrect detail is the year. The Committee on Status of Women in India was constituted in 1971, while 1974 is associated with its Towards Equality report.",
+     "facts": [
+      "F32",
+      "F33",
+      "F35",
+      "F36",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "indian-society-11-3",
@@ -3944,7 +4907,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. The Second Backward Classes Commission was chaired by B. P. Mandal and its purpose was OBC reservation, but that purpose does not explain why it was called the Mandal Commission."
+     "explanation": "Both statements are true according to the notes. The Second Backward Classes Commission was chaired by B. P. Mandal and its purpose was OBC reservation, but that purpose does not explain why it was called the Mandal Commission.",
+     "facts": [
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "indian-society-11-4",
@@ -3958,7 +4925,24 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect: the National Knowledge Commission was chaired by Sam Pitroda and dealt with the knowledge society; K. Kasturirangan chaired the 2017 committee on national education policy."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect: the National Knowledge Commission was chaired by Sam Pitroda and dealt with the knowledge society; K. Kasturirangan chaired the 2017 committee on national education policy.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
     },
     {
      "id": "indian-society-11-5",
@@ -3972,7 +4956,15 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. The Tendulkar Committee concerned poverty estimation, while the Rangarajan Committee concerned poverty measurement."
+     "explanation": "Both statements are directly supported by the notes. The Tendulkar Committee concerned poverty estimation, while the Rangarajan Committee concerned poverty measurement.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-society-11-6",
@@ -3986,7 +4978,211 @@
       "The Union Education Minister"
      ],
      "answer": 1,
-     "explanation": "The notes state that the National Integration Council is chaired by the Prime Minister."
+     "explanation": "The notes state that the National Integration Council is chaired by the Prime Minister.",
+     "facts": [
+      "F71"
+     ]
+    },
+    {
+     "id": "indian-society-11-7",
+     "format": "List-Matching",
+     "keyword": "Committee – Year and Chairman",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) First Backward Classes Commission\n(b) Second Backward Classes Commission\n(c) National Commission to Review Working of Constitution\n(d) Rohini Commission\n\nList-II\n(i) 1953 — Kaka Kalelkar\n(ii) 1979 — B. P. Mandal\n(iii) 2000 — M. Venkatachaliah\n(iv) 2017 — G. Rohini",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The First Backward Classes Commission was established in 1953 under Kaka Kalelkar; the Second Backward Classes Commission in 1979 under B. P. Mandal. The National Commission to Review Working of the Constitution was established in 2000 under M. Venkatachaliah, while the Rohini Commission was established in 2017 under G. Rohini.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6",
+      "F8",
+      "F9",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-society-11-8",
+     "format": "Direct Recall",
+     "keyword": "Committee – Purpose",
+     "question": "What was the purpose of the First Backward Classes Commission?",
+     "options": [
+      "OBC reservation",
+      "Tribal development review",
+      "Identification of backward classes",
+      "Minority welfare"
+     ],
+     "answer": 2,
+     "explanation": "The First Backward Classes Commission was constituted for the identification of backward classes.",
+     "facts": [
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-society-11-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Committee – Tribal Welfare and Development",
+     "question": "Consider the following statements:\n\nI. The Dhebar Commission was established in 1960 under U. N. Dhebar for tribal welfare.\nII. The Bhuria Committee was established in 1995 under Dilip Singh Bhuria and provided the basis for the PESA Act.\nIII. The Xaxa Committee was established in 2013 under Virginius Xaxa to review tribal development.",
+     "options": [
+      "I only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The Dhebar Commission concerned tribal welfare, the Bhuria Committee provided the basis for the PESA Act, and the Xaxa Committee reviewed tribal development.",
+     "facts": [
+      "F14",
+      "F15",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-society-11-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Minorities – Committees and Commissions",
+     "question": "Consider the following statements:\n\nI. The Sachar Committee was established in 2005 under Rajinder Sachar to study the socio-economic status of Muslims.\nII. The Ranganath Misra Commission was established in 2004 under Ranganath Misra to study religious and linguistic minorities.\nIII. The Gopal Singh Committee was established in 1983 under Gopal Singh for minority welfare.",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The Sachar Committee studied the socio-economic status of Muslims, the Ranganath Misra Commission studied religious and linguistic minorities, and the Gopal Singh Committee concerned minority welfare.",
+     "facts": [
+      "F23",
+      "F24",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-society-11-11",
+     "format": "List-Matching",
+     "keyword": "Committee",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gopal Singh Committee\n(b) Committee on the Status of Women in India\n(c) Towards Equality Report\n(d) Justice Verma Committee\n\nList-II\n(i) Minority welfare\n(ii) Study of women's status\n(iii) Landmark report on women\n(iv) Established in 2013",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The Gopal Singh Committee concerned minority welfare; the Committee on the Status of Women in India studied women's status; the Towards Equality Report was a landmark report on women; and the Justice Verma Committee was established in 2013.",
+     "facts": [
+      "F31",
+      "F34",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-society-11-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Women",
+     "question": "Consider the following statements:\nStatement A: J. S. Verma chaired the Justice Verma Committee.\nStatement B: The purpose of the High-Level Committee on the Status of Women was women empowerment.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. J. S. Verma chaired the Justice Verma Committee, while the High-Level Committee on the Status of Women focused on women empowerment.",
+     "facts": [
+      "F39",
+      "F43"
+     ]
+    },
+    {
+     "id": "indian-society-11-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Committee",
+     "question": "Consider the following statements:\nI. The Hashim Committee was established in 2009.\nII. S. R. Hashim chaired the Hashim Committee, whose purpose was BPL identification.\nIII. The Saxena Committee was established in 2009.\nIV. N. C. Saxena chaired the Saxena Committee, whose purpose was rural poverty.",
+     "options": [
+      "I, II and III only",
+      "III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The Hashim Committee was established in 2009 under S. R. Hashim for BPL identification, and the Saxena Committee was established in 2009 under N. C. Saxena for rural poverty.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67",
+      "F68",
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "indian-society-11-14",
+     "format": "Assertion-Reason",
+     "keyword": "Commission",
+     "question": "Assertion (A): The Sri Krishna Commission was chaired by B. N. Srikrishna.\nReason (R): The Sri Krishna Commission investigated the Mumbai riots.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both A and R are true, but the commission's investigation of the Mumbai riots does not explain why it was chaired by B. N. Srikrishna.",
+     "facts": [
+      "F73",
+      "F74"
+     ]
+    },
+    {
+     "id": "indian-society-11-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Commission",
+     "question": "Consider the following statements:\nStatement A: The Liberhan Commission was chaired by M. S. Liberhan.\nStatement B: The Liberhan Commission inquired into the Babri Masjid demolition.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. M. S. Liberhan chaired the Liberhan Commission, which inquired into the Babri Masjid demolition.",
+     "facts": [
+      "F75",
+      "F76"
+     ]
+    },
+    {
+     "id": "indian-society-11-16",
+     "format": "Direct Recall",
+     "keyword": "Purpose",
+     "question": "What is the purpose of the National Integration Council?",
+     "options": [
+      "Women empowerment",
+      "Rural poverty",
+      "Minority welfare",
+      "National integration"
+     ],
+     "answer": 3,
+     "explanation": "The purpose of the National Integration Council is national integration.",
+     "facts": [
+      "F72"
+     ]
     }
    ]
   },
@@ -5704,7 +6900,11 @@
       "The Fourth World Conference on Women held in Beijing (1995)"
      ],
      "answer": 3,
-     "explanation": "Gender mainstreaming was promoted globally during the Fourth World Conference on Women held in Beijing in 1995."
+     "explanation": "Gender mainstreaming was promoted globally during the Fourth World Conference on Women held in Beijing in 1995.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-society-32-2",
@@ -5718,7 +6918,15 @@
       "It was prepared after the atrocities of World War II to safeguard human dignity."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year 1950. The UDHR was adopted by the United Nations General Assembly on 10 December 1948."
+     "explanation": "The incorrect detail is the year 1950. The UDHR was adopted by the United Nations General Assembly on 10 December 1948.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F34",
+      "F35",
+      "F47"
+     ]
     },
     {
      "id": "indian-society-32-3",
@@ -5732,7 +6940,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The UDHR’s emphasis on human dignity explains its preparation after the atrocities of World War II to safeguard that dignity."
+     "explanation": "Both statements are true. The UDHR’s emphasis on human dignity explains its preparation after the atrocities of World War II to safeguard that dignity.",
+     "facts": [
+      "F24",
+      "F25",
+      "F33"
+     ]
     },
     {
      "id": "indian-society-32-4",
@@ -5746,7 +6959,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Gender mainstreaming integrates gender perspectives across policies, programmes, laws, and institutions, and seeks to ensure equitable development."
+     "explanation": "Both statements are true. Gender mainstreaming integrates gender perspectives across policies, programmes, laws, and institutions, and seeks to ensure equitable development.",
+     "facts": [
+      "F1",
+      "F8"
+     ]
     },
     {
      "id": "indian-society-32-5",
@@ -5760,7 +6977,18 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. The UDHR has a Preamble and 30 Articles and covers the listed categories of rights; promoting women’s participation is an objective of gender mainstreaming."
+     "explanation": "All three statements are correct. The UDHR has a Preamble and 30 Articles and covers the listed categories of rights; promoting women’s participation is an objective of gender mainstreaming.",
+     "facts": [
+      "F7",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F34",
+      "F35",
+      "F22"
+     ]
     },
     {
      "id": "indian-society-32-6",
@@ -5774,9 +7002,177 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are a-ii, b-iv, c-i, and d-iii: Gender Analysis assesses impacts, Gender Planning incorporates concerns in policymaking, Gender Budgeting allocates resources, and Gender Monitoring evaluates outcomes."
+     "explanation": "The correct pairs are a-ii, b-iv, c-i, and d-iii: Gender Analysis assesses impacts, Gender Planning incorporates concerns in policymaking, Gender Budgeting allocates resources, and Gender Monitoring evaluates outcomes.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-society-32-7",
+     "format": "Assertion-Reason",
+     "keyword": "Gender mainstreaming – Objectives",
+     "question": "Assertion (A): Gender mainstreaming aims to achieve gender equality.\nReason (R): It integrates gender perspectives into all policies, programmes, laws, and institutions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Gender mainstreaming integrates gender perspectives into policies, programmes, laws, and institutions as a means of achieving gender equality.",
+     "facts": [
+      "F2",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-society-32-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Gender mainstreaming – Objectives",
+     "question": "Consider the following statements:\nI. Gender mainstreaming aims to reduce gender discrimination.\nII. Gender mainstreaming aims to promote women's empowerment.\nIII. Gender mainstreaming aims to ensure equitable development.\nIV. Gender mainstreaming aims to promote inclusive governance.",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Reducing gender discrimination is an objective of gender mainstreaming, while women's empowerment, inclusive governance and equitable development are among its stated importance or objectives. All four statements are supported.",
+     "facts": [
+      "F6",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-society-32-9",
+     "format": "Count-Based",
+     "keyword": "Gender mainstreaming – Importance",
+     "question": "How many of the following are listed as areas promoted by gender mainstreaming?\n1. Women's empowerment\n2. Inclusive governance\n3. Social justice\n4. Sustainable development",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Gender mainstreaming promotes women's empowerment, inclusive governance, social justice and sustainable development. Thus, all four listed items are correct.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-society-32-10",
+     "format": "Count-Based",
+     "keyword": "Gender mainstreaming – Examples",
+     "question": "How many of the following are examples of gender mainstreaming?\n1. Beti Bachao Beti Padhao\n2. Gender Budget Statements\n3. Mission Shakti\n4. Women Reservation initiatives",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Beti Bachao Beti Padhao, Gender Budget Statements, Mission Shakti and Women Reservation initiatives are all identified as examples of gender mainstreaming.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-society-32-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Universal Declaration of Human Rights – Features",
+     "question": "Consider the following statements:\nStatement A: The Universal Declaration of Human Rights is a foundational international document.\nStatement B: The Universal Declaration of Human Rights has universal applicability and upholds equality and non-discrimination.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The UDHR is described as a foundational international document. Its key features include universal applicability, equality and non-discrimination.",
+     "facts": [
+      "F21",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-society-32-12",
+     "format": "Count-Based",
+     "keyword": "Universal Declaration of Human Rights – Rights",
+     "question": "How many of the following rights are recognized by the Universal Declaration of Human Rights?\n1. Right to life\n2. Freedom of speech\n3. Freedom of religion\n4. Equality before law\n5. Right to work\n6. Right to education\n7. Right to health\n8. Right to social security",
+     "options": [
+      "Only four",
+      "Only six",
+      "Only seven",
+      "All eight"
+     ],
+     "answer": 3,
+     "explanation": "The UDHR recognizes all eight listed rights: four civil and political rights and four economic and social rights.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "indian-society-32-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Universal Declaration of Human Rights – Importance for India",
+     "question": "Consider the following statements:\nStatement A: The Universal Declaration of Human Rights influenced Fundamental Rights in India and inspired the Directive Principles of State Policy.\nStatement B: The Universal Declaration of Human Rights is a basis for human rights legislation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The UDHR influenced Fundamental Rights, inspired the Directive Principles of State Policy, and serves as a basis for human rights legislation in India.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "indian-society-32-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Human Rights Commission",
+     "question": "Consider the following statements:\nStatement A: The National Human Rights Commission is related to the Universal Declaration of Human Rights.\nStatement B: State Human Rights Commissions are related to the Universal Declaration of Human Rights.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Universal Declaration of Human Rights is related to both the National Human Rights Commission and State Human Rights Commissions under its related institutions.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 49,
+    "covered": 49,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,
@@ -6077,7 +7473,9 @@
       "F1",
       "F59",
       "F60",
-      "F61"
+      "F61",
+      "F13",
+      "F15"
      ]
     },
     {
@@ -6209,7 +7607,12 @@
       "F52"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 61,
+    "covered": 61,
+    "audited": true
+   }
   },
   "35": {
    "number": 35,

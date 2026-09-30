@@ -115,7 +115,14 @@
       "National, Reserved and Community forests, along with Grasslands"
      ],
      "answer": 0,
-     "explanation": "The National Forest Policy, 1952 classified forests into National, Protected and Village forests, along with Tree-lands."
+     "explanation": "The National Forest Policy, 1952 classified forests into National, Protected and Village forests, along with Tree-lands.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F1"
+     ]
     },
     {
      "id": "environment-2-2",
@@ -129,7 +136,17 @@
       "It included afforestation and wasteland development."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the inclusion of wide use of insecticides and pesticides. The notes state that this was not included in the 1988 Policy."
+     "explanation": "The incorrect detail is the inclusion of wide use of insecticides and pesticides. The notes state that this was not included in the 1988 Policy.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F17",
+      "F21",
+      "F6",
+      "F11"
+     ]
     },
     {
      "id": "environment-2-3",
@@ -143,7 +160,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the launch date does not explain why it was India's first National Action Plan on Climate Change."
+     "explanation": "Both statements are true according to the notes. However, the launch date does not explain why it was India's first National Action Plan on Climate Change.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "environment-2-4",
@@ -157,7 +178,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Mission 1–National Solar Mission, Mission 3–National Mission on Sustainable Habitat, Mission 5–National Mission for Sustaining Himalayan Ecosystem, and Mission 8–National Mission on Strategic Knowledge for Climate Change."
+     "explanation": "The correct pairs are: Mission 1–National Solar Mission, Mission 3–National Mission on Sustainable Habitat, Mission 5–National Mission for Sustaining Himalayan Ecosystem, and Mission 8–National Mission on Strategic Knowledge for Climate Change.",
+     "facts": [
+      "F27",
+      "F29",
+      "F31",
+      "F34"
+     ]
     },
     {
      "id": "environment-2-5",
@@ -171,7 +198,13 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and III are correct. Euro-I was introduced in Europe in 1992, not in India."
+     "explanation": "Statements I and III are correct. Euro-I was introduced in Europe in 1992, not in India.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F35"
+     ]
     },
     {
      "id": "environment-2-6",
@@ -185,9 +218,118 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. The 2006 Policy provided the stated framework, and the 2010 Wetlands Rules followed the recommendation of the relevant Expert Panel."
+     "explanation": "Both statements are directly supported by the notes. The 2006 Policy provided the stated framework, and the 2010 Wetlands Rules followed the recommendation of the relevant Expert Panel.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "environment-2-7",
+     "format": "List-Matching",
+     "keyword": "Forest Policy",
+     "question": "Match List-I with List-II regarding the National Forest Policy, 1988.\n\nList-I\n(a) Ecological afforestation\n(b) Soil and water conservation\n(c) Reforestation and replantation\n(d) Alternative fuels\n\nList-II\n(i) Major objective of the Policy\n(ii) Included in the Policy\n\nCodes:",
+     "options": [
+      "a-ii, b-i, c-i, d-ii",
+      "a-i, b-ii, c-ii, d-i",
+      "a-i, b-i, c-ii, d-ii",
+      "a-ii, b-ii, c-i, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Ecological afforestation and soil and water conservation are major objectives of the National Forest Policy, 1988. Reforestation and replantation, and alternative fuels, are included in the Policy.",
+     "facts": [
+      "F12",
+      "F16",
+      "F18",
+      "F20"
+     ]
+    },
+    {
+     "id": "environment-2-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forest Policy",
+     "question": "Consider the following statements regarding the National Forest Policy, 1988:\n\nI. Ecological balance is a major objective of the Policy.\nII. Social forestry is a major objective of the Policy.\nIII. Biodiversity conservation is a major objective of the Policy.\nIV. Wood substitutes are a major objective of the Policy.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "Ecological balance, social forestry and biodiversity conservation are major objectives of the National Forest Policy, 1988. Wood substitutes are included in the Policy, but are not listed as a major objective.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-2-9",
+     "format": "Assertion-Reason",
+     "keyword": "Forest Policy",
+     "question": "Assertion (A): A Draft National Forest Policy was issued in 2018.\nReason (R): The National Action Plan on Climate Change is abbreviated as NAPCC.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Draft National Forest Policy was issued in 2018, and the National Action Plan on Climate Change is abbreviated as NAPCC. The abbreviation does not explain the issuance of the Draft Policy.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "environment-2-10",
+     "format": "Count-Based",
+     "keyword": "Climate Change/Conference",
+     "question": "The core feature of the National Action Plan on Climate Change is eight National Missions. How many of the following are among these missions?\n\n1. National Mission for Enhanced Energy Efficiency\n2. National Water Mission\n3. National Mission for Green India\n4. National Mission for Sustainable Agriculture",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed items are among the eight National Missions under the National Action Plan on Climate Change.",
+     "facts": [
+      "F26",
+      "F28",
+      "F30",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "environment-2-11",
+     "format": "Assertion-Reason",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Assertion (A): Euro emission standards were implemented under the National Auto Fuel Policy to control vehicle pollution.\nReason (R): BS-VI was implemented in India from 1 April 2020.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The purpose of implementing Euro emission standards was to control vehicle pollution, while BS-VI was implemented in India from 1 April 2020; the latter does not explain the former.",
+     "facts": [
+      "F36",
+      "F40"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 45,
+    "covered": 45,
+    "audited": true
+   }
   },
   "3": {
    "number": 3,
@@ -779,8 +921,315 @@
       "F49",
       "F53"
      ]
+    },
+    {
+     "id": "environment-8-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Convention/Conference",
+     "question": "Consider the following statements:\nStatement A: The UN Conference on Human Environment was held in 1972.\nStatement B: The UN Conference on Human Environment was the first major global environmental conference.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The UN Conference on Human Environment was held in 1972 and was the first major global environmental conference.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
+    },
+    {
+     "id": "environment-8-9",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Earth Summit / UNCED\n b. Earth Summit +5\n c. Rio +10 / WSSD\n d. Rio +20 / UNCSD\n\nList-II\n i. Rio de Janeiro — The Future We Want\n ii. New York — Review of Rio Summit progress\n iii. Johannesburg — Sustainable development\n iv. Rio de Janeiro — Sustainable development and Agenda 21",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The Earth Summit was held at Rio de Janeiro and focused on sustainable development and Agenda 21. Earth Summit +5 was held in New York to review Rio Summit progress; Rio +10 was held in Johannesburg with a sustainable-development focus; and Rio +20 was held at Rio de Janeiro and produced The Future We Want.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F10",
+      "F11",
+      "F14",
+      "F15",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-8-10",
+     "format": "List-Matching",
+     "keyword": "Climate Change/Conference",
+     "question": "Match the climate conferences in List-I with their year, venue and key association in List-II:\n\nList-I\n a. COP 27\n b. COP 28\n c. COP 29\n d. COP 30\n\nList-II\n i. 2024 — Baku — Climate finance\n ii. 2022 — Sharm el-Sheikh — Climate change\n iii. 2025 — Belem — Climate change\n iv. 2023 — Dubai — Climate change",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "COP 27 was held in 2022 at Sharm el-Sheikh and was associated with climate change. COP 28 was held in 2023 at Dubai and COP 30 in 2025 at Belem, both associated with climate change. COP 29 was held in 2024 at Baku and was associated with climate finance.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-8-11",
+     "format": "Assertion-Reason",
+     "keyword": "Convention/Conference",
+     "question": "Assertion (A): CBD COP 10 was held in 2010.\nReason (R): In the context of the CBD, COP means Conference of Parties.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "CBD COP 10 was held in 2010, and COP means Conference of Parties in the context of the CBD. However, the meaning of COP does not explain the year in which CBD COP 10 was held.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "environment-8-12",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II:\n\nList-I\n a. CBD COP 10\n b. CBD COP 11\n c. CBD COP 12\n d. CBD COP 13\n\nList-II\n i. 2010 — Nagoya, Japan\n ii. 2012 — Hyderabad, India\n iii. 2014 — Pyeongchang, Korea\n iv. 2016 — Cancun, Mexico",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "CBD COP 10 was held in 2010 at Nagoya, COP 11 in 2012 at Hyderabad, COP 12 in 2014 at Pyeongchang, and COP 13 in 2016 at Cancun.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "environment-8-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Convention/Conference",
+     "question": "Consider the following statements:\n\nI. CBD COP 14 was held in 2018 at Sharm el-Sheikh, Egypt.\nII. CBD COP 15 was held during 2021–22 in Kunming and Montreal.\nIII. CBD COP 16 was held in 2024 at Cali, Colombia.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: COP 14 was held at Sharm el-Sheikh in 2018, COP 15 during 2021–22 at Kunming and Montreal, and COP 16 in 2024 at Cali.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "environment-8-14",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match the conferences in List-I with their year and key concern or designation in List-II:\n\nList-I\n a. Stockholm conference\n b. Rio conference\n c. Kyoto conference\n d. Johannesburg conference\n\nList-II\n i. 1972 — Human Environment\n ii. 1992 — UNCED or Earth Summit\n iii. 1997 — Climate change\n iv. 2002 — Sustainable development",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The Stockholm conference concerned the Human Environment; Rio was UNCED or the Earth Summit; Kyoto in 1997 concerned climate change; and Johannesburg concerned sustainable development.",
+     "facts": [
+      "F48",
+      "F50",
+      "F51",
+      "F52",
+      "F54"
+     ]
+    },
+    {
+     "id": "environment-8-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Climate Change/Conference",
+     "question": "Consider the following statements:\nStatement A: The Paris conference was held in 2015, concerned climate change, and produced the Paris Agreement.\nStatement B: The Glasgow conference was held in 2021, was COP 26, and was associated with Panchamrit.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Statement A is correct because the Paris conference was held in 2015, concerned climate change, and produced the Paris Agreement. Statement B is also correct because Glasgow was the 2021 COP 26 associated with Panchamrit.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57",
+      "F58",
+      "F59",
+      "F60"
+     ]
+    },
+    {
+     "id": "environment-8-16",
+     "format": "Direct Recall",
+     "keyword": "Climate Change/Conference",
+     "question": "What is the stated role of the Green Climate Fund?",
+     "options": [
+      "It regulates forest-land diversion",
+      "It reviews progress of the Rio Summit",
+      "It establishes protected forests",
+      "It supports developing countries"
+     ],
+     "answer": 3,
+     "explanation": "The Green Climate Fund supports developing countries.",
+     "facts": [
+      "F62"
+     ]
+    },
+    {
+     "id": "environment-8-17",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Environment – Green Climate Fund",
+     "question": "Which of the following statements regarding the Green Climate Fund is incorrect?",
+     "options": [
+      "The Green Climate Fund supports developing countries.",
+      "The Green Climate Fund was not established at the Durban COP.",
+      "The Green Climate Fund was established at the Durban COP.",
+      "The Green Climate Fund was formally established at COP 16 in Cancun in 2010."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that the Green Climate Fund was established at the Durban COP. It was formally established at COP 16 in Cancun in 2010.",
+     "facts": [
+      "F63"
+     ]
+    },
+    {
+     "id": "environment-8-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest Policy – Classification",
+     "question": "Consider the following statements:\nStatement A: The National Forest Policy of 1952 classified forests as tree lands.\nStatement B: National Parks were included among the classifications under the National Forest Policy of 1952.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "The National Forest Policy of 1952 included tree lands among its classifications. National Parks were not included in that classification.",
+     "facts": [
+      "F67"
+     ]
+    },
+    {
+     "id": "environment-8-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forest Policy – National Forest Policy of 1988",
+     "question": "Consider the following statements about the National Forest Policy of 1988:\nI. It promoted reforestation and replantation.\nII. It encouraged wood substitutes and alternative fuel.\nIII. It aimed at ecological stability.",
+     "options": [
+      "I and II only",
+      "II only",
+      "I, II and III",
+      "I only"
+     ],
+     "answer": 2,
+     "explanation": "The National Forest Policy of 1988 promoted reforestation and replantation, encouraged wood substitutes and alternative fuel, and aimed at ecological stability.",
+     "facts": [
+      "F70",
+      "F71",
+      "F74"
+     ]
+    },
+    {
+     "id": "environment-8-20",
+     "format": "Direct Recall",
+     "keyword": "Forest Categories",
+     "question": "Unclassed forests are best described as forests:",
+     "options": [
+      "included within the reserved category",
+      "outside the reserved and protected categories",
+      "with the highest restriction on activities",
+      "regulated more strictly than protected forests"
+     ],
+     "answer": 1,
+     "explanation": "Unclassed forests are forests outside the reserved and protected categories. Reserved forests have the highest restriction, while protected forests are more regulated than unclassed forests.",
+     "facts": [
+      "F81"
+     ]
+    },
+    {
+     "id": "environment-8-21",
+     "format": "Direct Recall",
+     "keyword": "Forest Rights Act – Year and Scope",
+     "question": "Which of the following correctly describes the Forest Rights Act?",
+     "options": [
+      "It was enacted in 1927 and concerns forest administration and legal framework.",
+      "It was enacted in 1980 and regulates forest-land diversion.",
+      "It was enacted in 2006 and concerns the forest rights of eligible forest-dwelling communities.",
+      "It was enacted in 1972 and concerns wildlife protection."
+     ],
+     "answer": 2,
+     "explanation": "The Forest Rights Act was enacted in 2006 and concerns the forest rights of eligible forest-dwelling communities.",
+     "facts": [
+      "F90",
+      "F91"
+     ]
+    },
+    {
+     "id": "environment-8-22",
+     "format": "List-Matching",
+     "keyword": "Forest Terms – Afforestation and Social Forestry",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Afforestation\n b. Reforestation\n c. Social forestry\n d. Community participation\n\nList-II\n i. Major thrust of the National Forest Policy of 1988\n ii. Creation or establishment of forest or tree cover\n iii. Re-establishment of forest cover where forests have been depleted\n iv. Tree or forest development aimed at local or community needs and reducing pressure on natural forests",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Afforestation means creation or establishment of forest or tree cover; reforestation means re-establishment of depleted forest cover. Social forestry meets local or community needs and reduces pressure on natural forests, while community participation was a major thrust of the National Forest Policy of 1988.",
+     "facts": [
+      "F92",
+      "F93",
+      "F94",
+      "F95"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 96,
+    "covered": 96,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -2039,7 +2488,9 @@
      "explanation": "FRI's roots are traced to the Imperial Forest Research Institute, established in 1906.",
      "facts": [
       "F27",
-      "F28"
+      "F28",
+      "F32",
+      "F60"
      ]
     },
     {
@@ -2136,8 +2587,345 @@
      "facts": [
       "F47"
      ]
+    },
+    {
+     "id": "environment-23-8",
+     "format": "List-Matching",
+     "keyword": "Organisations",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) CPCB\n(b) NGT\n(c) NBA\n(d) NTCA\n\nList-II\n(i) Tiger conservation\n(ii) Air and water pollution control\n(iii) Biological Diversity Act implementation\n(iv) Environmental justice",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "CPCB is associated with air and water pollution control, NGT with environmental justice, NBA with Biological Diversity Act implementation, and NTCA with tiger conservation.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F7"
+     ]
+    },
+    {
+     "id": "environment-23-9",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) CPCB\n(b) NGT\n(c) NBA\n(d) NTCA\n\nList-II\n(i) Chennai\n(ii) New Delhi\n(iii) Delhi\n(iv) New Delhi",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The CPCB is located in Delhi; the NGT and NTCA are located in New Delhi; and the NBA is headquartered in Chennai.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6",
+      "F8"
+     ]
+    },
+    {
+     "id": "environment-23-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Organisations",
+     "question": "Consider the following statements:\n\nI. The WII is associated with wildlife research and training.\nII. The FRI is associated with forest research.\nIII. The ICFRE is associated with forestry research and education.\nIV. The IIFM is associated with forest management.",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: WII concerns wildlife research and training, FRI forest research, ICFRE forestry research and education, and IIFM forest management.",
+     "facts": [
+      "F9",
+      "F11",
+      "F13",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-23-11",
+     "format": "List-Matching",
+     "keyword": "Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) WII\n(b) FRI\n(c) CSE\n(d) Indian Institute of Ecology and Environment\n\nList-II\n(i) New Delhi\n(ii) Dehradun\n(iii) New Delhi\n(iv) Dehradun",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "WII and FRI are located in Dehradun, while CSE and the Indian Institute of Ecology and Environment are located in New Delhi.",
+     "facts": [
+      "F10",
+      "F12",
+      "F20",
+      "F26"
+     ]
+    },
+    {
+     "id": "environment-23-12",
+     "format": "Assertion-Reason",
+     "keyword": "Organisations",
+     "question": "Assertion (A): The ICFRE promotes need-based forestry research and extension.\nReason (R): The ICFRE undertakes need-based forestry research and extension.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are stated functions of the ICFRE. The undertaking of need-based research and extension is a parallel function, not an explanation of its promotion of such activities.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-23-13",
+     "format": "Direct Recall",
+     "keyword": "Organisations",
+     "question": "Which of the following is the apex body in the national forestry research system?",
+     "options": [
+      "Forest Research Institute (FRI)",
+      "Indian Council of Forestry Research and Education (ICFRE)",
+      "Indian Institute of Forest Management (IIFM)",
+      "Central Arid Zone Research Institute (CAZRI)"
+     ],
+     "answer": 1,
+     "explanation": "The ICFRE is identified as the apex body in the national forestry research system.",
+     "facts": [
+      "F29"
+     ]
+    },
+    {
+     "id": "environment-23-14",
+     "format": "Assertion-Reason",
+     "keyword": "Organisations",
+     "question": "Assertion (A): The CAZRI conducts central arid zone research.\nReason (R): The CAZRI is associated with arid-zone research.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The association of CAZRI with arid-zone research explains its conduct of central arid zone research.",
+     "facts": [
+      "F17",
+      "F34"
+     ]
+    },
+    {
+     "id": "environment-23-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Organisations",
+     "question": "Consider the following statements:\nStatement A: The CSE is associated with environment-related non-governmental organization activities.\nStatement B: The BNHS is associated with wildlife research and nature conservation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "CSE is associated with environment-related non-governmental organization activities, while BNHS is associated with wildlife research and nature conservation.",
+     "facts": [
+      "F19",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-23-16",
+     "format": "Direct Recall",
+     "keyword": "Organisations",
+     "question": "The Indian Institute of Ecology and Environment is associated with which of the following?",
+     "options": [
+      "Forest management",
+      "Environmental justice",
+      "Ecology and environment",
+      "Tiger conservation"
+     ],
+     "answer": 2,
+     "explanation": "The Indian Institute of Ecology and Environment is associated with ecology and environment.",
+     "facts": [
+      "F25"
+     ]
+    },
+    {
+     "id": "environment-23-17",
+     "format": "Direct Recall",
+     "keyword": "Organisations",
+     "question": "The WII is described as a wildlife research and training institution. WII stands for which organisation?",
+     "options": [
+      "Indian Institute of Forest Management",
+      "Wildlife Institute of India",
+      "Central Arid Zone Research Institute",
+      "Indian Council of Forestry Research and Education"
+     ],
+     "answer": 1,
+     "explanation": "The WII is identified as a wildlife research and training institution.",
+     "facts": [
+      "F33"
+     ]
+    },
+    {
+     "id": "environment-23-18",
+     "format": "Assertion-Reason",
+     "keyword": "Organisation–Mandate",
+     "question": "Assertion (A): The CAZRI operates under the ICAR.\nReason (R): The CAZRI is associated with central arid-zone research.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "CAZRI operates under ICAR and is associated with central arid-zone research. The research association does not explain its administrative relationship with ICAR.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "environment-23-19",
+     "format": "List-Matching",
+     "keyword": "Wildlife Conservation Bodies",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) NTCA — statutory status\n(b) NTCA — principal association\n(c) National Board for Wildlife — principal role\n(d) National Board for Wildlife — chairperson\n\nList-II\n(i) Provides the policy framework for wildlife conservation\n(ii) Prime Minister\n(iii) Statutory body\n(iv) Tiger conservation",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The NTCA is a statutory body associated with tiger conservation. The National Board for Wildlife provides the policy framework for wildlife conservation and is chaired by the Prime Minister.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "environment-23-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biodiversity Organisations",
+     "question": "Consider the following statements:\nStatement A: The National Biodiversity Authority implements the Biological Diversity Act, 2002.\nStatement B: The Centre for Biodiversity Policy and Law is located within the National Biodiversity Authority in Chennai and is a collaboration between India and Norway.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The National Biodiversity Authority implements the Biological Diversity Act, 2002. The Centre for Biodiversity Policy and Law is located within the NBA in Chennai and is an India–Norway collaboration.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "environment-23-21",
+     "format": "Direct Recall",
+     "keyword": "Year – Establishment",
+     "question": "TRAFFIC was established in which year?",
+     "options": [
+      "1883",
+      "1976",
+      "1999",
+      "1982"
+     ],
+     "answer": 1,
+     "explanation": "TRAFFIC was established in 1976.",
+     "facts": [
+      "F48"
+     ]
+    },
+    {
+     "id": "environment-23-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Organisation–Mandate",
+     "question": "Consider the following statements:\nI. BirdLife International works for the conservation of birds, habitats, and biodiversity.\nII. UNEP is associated with the global environment.\nIII. WWF is associated with wildlife and biodiversity conservation.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: BirdLife International focuses on birds, habitats and biodiversity; UNEP is associated with the global environment; and WWF is associated with wildlife and biodiversity conservation.",
+     "facts": [
+      "F50",
+      "F52",
+      "F54"
+     ]
+    },
+    {
+     "id": "environment-23-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Organisation–Mandate",
+     "question": "Consider the following statements:\nStatement A: WMO is associated with meteorology and climate.\nStatement B: WHO is associated with health and environmental health.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "WMO is associated with meteorology and climate, while WHO is associated with health and environmental health.",
+     "facts": [
+      "F57",
+      "F59"
+     ]
+    },
+    {
+     "id": "environment-23-24",
+     "format": "Count-Based",
+     "keyword": "Organisation–Activities",
+     "question": "How many of the following are activities of the Bombay Natural History Society?\nI. Maintaining natural-history collections\nII. Conducting research\nIII. Conducting conservation activities\nIV. Conducting outreach activities",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "The BNHS has natural-history collections and conducts research, conservation activities and outreach activities. Thus, all four listed activities apply to it.",
+     "facts": [
+      "F61",
+      "F62",
+      "F63",
+      "F64"
+     ]
+    },
+    {
+     "id": "environment-23-25",
+     "format": "Direct Recall",
+     "keyword": "Organisation – Full Form",
+     "question": "The Indian National Centre for Ocean Information Services is abbreviated as:",
+     "options": [
+      "INCOIS",
+      "WII",
+      "ICFRE",
+      "IIFM"
+     ],
+     "answer": 0,
+     "explanation": "The Indian National Centre for Ocean Information Services is known as INCOIS.",
+     "facts": [
+      "F65"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 67,
+    "covered": 67,
+    "audited": true
+   }
   },
   "24": {
    "number": 24,
@@ -3551,7 +4339,13 @@
       "Oilzapper"
      ],
      "answer": 3,
-     "explanation": "The notes associate Oilzapper with oil spills and oily sludge. MFC is associated with wastewater and electricity generation, while composting concerns biodegradable waste."
+     "explanation": "The notes associate Oilzapper with oil spills and oily sludge. MFC is associated with wastewater and electricity generation, while composting concerns biodegradable waste.",
+     "facts": [
+      "F2",
+      "F4",
+      "F16",
+      "F19"
+     ]
     },
     {
      "id": "environment-40-2",
@@ -3565,7 +4359,14 @@
       "Desertification is associated with the UNCCD."
      ],
      "answer": 1,
-     "explanation": "The incorrect association is Rotterdam Convention–Mercury. According to the notes, mercury is associated with the Minamata Convention, whereas Rotterdam concerns hazardous chemicals and pesticides."
+     "explanation": "The incorrect association is Rotterdam Convention–Mercury. According to the notes, mercury is associated with the Minamata Convention, whereas Rotterdam concerns hazardous chemicals and pesticides.",
+     "facts": [
+      "F20",
+      "F35",
+      "F33",
+      "F26",
+      "F36"
+     ]
     },
     {
      "id": "environment-40-3",
@@ -3579,7 +4380,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes specifically identify HFC phase-down as the key association of the Kigali Amendment."
+     "explanation": "Both statements are true. The notes specifically identify HFC phase-down as the key association of the Kigali Amendment.",
+     "facts": [
+      "F32"
+     ]
     },
     {
      "id": "environment-40-4",
@@ -3593,7 +4397,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Biodiversity–CBD, Biosafety/LMO–Cartagena Protocol, Access & Benefit Sharing–Nagoya Protocol, and Plant genetic resources–ITPGRFA."
+     "explanation": "The correct pairs are: Biodiversity–CBD, Biosafety/LMO–Cartagena Protocol, Access & Benefit Sharing–Nagoya Protocol, and Plant genetic resources–ITPGRFA.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "environment-40-5",
@@ -3607,7 +4417,13 @@
       "C, D, B, A"
      ],
      "answer": 2,
-     "explanation": "The correct sequence is Stockholm Declaration (1972), Our Common Future (1987), Rio Declaration (1992), and Johannesburg Declaration (2002)."
+     "explanation": "The correct sequence is Stockholm Declaration (1972), Our Common Future (1987), Rio Declaration (1992), and Johannesburg Declaration (2002).",
+     "facts": [
+      "F37",
+      "F41",
+      "F43",
+      "F49"
+     ]
     },
     {
      "id": "environment-40-6",
@@ -3621,9 +4437,232 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. The notes identify The Future We Want as the 2012 Rio+20 outcome document, not a 2000 document."
+     "explanation": "Statements I, II and IV are correct. The notes identify The Future We Want as the 2012 Rio+20 outcome document, not a 2000 document.",
+     "facts": [
+      "F46",
+      "F48",
+      "F52",
+      "F53",
+      "F55"
+     ]
+    },
+    {
+     "id": "environment-40-7",
+     "format": "List-Matching",
+     "keyword": "Pollution",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Bioremediation\n(b) Genetically engineered microbes\n(c) UV purification\n(d) Pyrolysis\n\nList-II\n(i) Microorganisms in water\n(ii) Specific pollutants\n(iii) Waste-to-energy\n(iv) Toxic pollutants and oil spills",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "Bioremediation addresses toxic pollutants and oil spills; genetically engineered microbes address specific pollutants; UV purification addresses microorganisms in water; and pyrolysis converts waste into energy.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "environment-40-8",
+     "format": "List-Matching",
+     "keyword": "Alternative Energy",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Plasma gasification\n(b) Bio-asphalt\n(c) Hydrogen fuel\n(d) Biofuels\n\nList-II\n(i) Alternative to fossil fuels\n(ii) Cleaner energy and transport\n(iii) Alternative to petroleum-based asphalt\n(iv) Waste-to-energy",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Plasma gasification converts waste into energy; bio-asphalt is an alternative to petroleum-based asphalt; hydrogen fuel provides cleaner energy and transport; and biofuels are an alternative to fossil fuels.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "environment-40-9",
+     "format": "Assertion-Reason",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Assertion (A): The Green Muffler addresses noise and some air pollution.\nReason (R): Euro/BS emission norms address vehicle emissions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but vehicle-emission norms do not explain the Green Muffler's role in addressing noise and some air pollution.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "environment-40-10",
+     "format": "Direct Recall",
+     "keyword": "Renewable Energy",
+     "question": "Which of the following addresses fossil-fuel pollution?",
+     "options": [
+      "Vermicomposting",
+      "Incineration",
+      "UV purification",
+      "Renewable energy"
+     ],
+     "answer": 3,
+     "explanation": "Renewable energy addresses fossil-fuel pollution.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-40-11",
+     "format": "Count-Based",
+     "keyword": "Waste Management",
+     "question": "How many of the following associations are correct?\n\nI. Landfill — Solid waste disposal\nII. Incineration — Burning waste\nIII. Vermicomposting — Earthworms and organic waste\nIV. Bioremediation — Microorganisms for pollutant removal",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four associations are correct: landfill is used for solid waste disposal, incineration involves burning waste, vermicomposting uses earthworms and organic waste, and bioremediation uses microorganisms for pollutant removal.",
+     "facts": [
+      "F14",
+      "F15",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "environment-40-12",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Natural and cultural heritage\n(b) Climate change framework\n(c) GHG commitments\n(d) Climate action and the 1.5°C goal\n\nList-II\n(i) Paris Agreement\n(ii) World Heritage Convention\n(iii) Kyoto Protocol\n(iv) UNFCCC",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Natural and cultural heritage is associated with the World Heritage Convention; the climate change framework with UNFCCC; GHG commitments with the Kyoto Protocol; and climate action with the 1.5°C goal with the Paris Agreement.",
+     "facts": [
+      "F25",
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "environment-40-13",
+     "format": "List-Matching",
+     "keyword": "Ozone",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Ozone\n(b) ODS phase-out\n(c) Hazardous waste\n(d) Human environment\n\nList-II\n(i) Basel Convention\n(ii) Stockholm Declaration\n(iii) Montreal Protocol\n(iv) Vienna Convention",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Ozone is associated with the Vienna Convention, ODS phase-out with the Montreal Protocol, hazardous waste with the Basel Convention, and the human environment with the Stockholm Declaration.",
+     "facts": [
+      "F30",
+      "F31",
+      "F34",
+      "F38"
+     ]
+    },
+    {
+     "id": "environment-40-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Convention/Conference",
+     "question": "Consider the following statements:\n\nI. The Stockholm Declaration was associated with the first major UN conference.\nII. The Stockholm Declaration concerns the human environment.\nIII. Our Common Future is also called the Brundtland Report.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The Stockholm Declaration concerned the human environment and was associated with the first major UN conference, while Our Common Future is also called the Brundtland Report.",
+     "facts": [
+      "F39",
+      "F38",
+      "F40"
+     ]
+    },
+    {
+     "id": "environment-40-15",
+     "format": "List-Matching",
+     "keyword": "Convention/Conference",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Our Common Future\n(b) Rio Declaration on Environment and Development\n(c) Agenda 21\n(d) Forest Principles\n\nList-II\n(i) Sustainable development\n(ii) Sustainable development and environmental principles\n(iii) Adopted in 1992\n(iv) Sustainable management of forests",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Our Common Future concerns sustainable development; the Rio Declaration concerns sustainable development and environmental principles. Agenda 21 and the Forest Principles were adopted in 1992, with the latter concerning sustainable management of forests.",
+     "facts": [
+      "F42",
+      "F44",
+      "F45",
+      "F47"
+     ]
+    },
+    {
+     "id": "environment-40-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sustainable Development",
+     "question": "Consider the following statements:\nStatement A: The Johannesburg Declaration was associated with the World Summit on Sustainable Development (WSSD).\nStatement B: The Johannesburg Declaration concerns sustainable development and implementation commitments.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Johannesburg Declaration was associated with WSSD and concerned sustainable development and implementation commitments.",
+     "facts": [
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "environment-40-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "SDG",
+     "question": "Consider the following statements:\nI. The Millennium Declaration was issued in 2000.\nII. The 2030 Agenda was adopted in 2015.\nIII. The 2030 Agenda contains 17 Sustainable Development Goals.",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "The Millennium Declaration was issued in 2000. The 2030 Agenda was adopted in 2015 and contains 17 SDGs.",
+     "facts": [
+      "F54",
+      "F56",
+      "F57"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 57,
+    "covered": 57,
+    "audited": true
+   }
   }
  }
 }

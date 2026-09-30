@@ -12149,8 +12149,262 @@
       "F49",
       "F50"
      ]
+    },
+    {
+     "id": "general-geography-12-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sea",
+     "question": "Consider the following statements:\nI. Waves are oscillatory movements of water.\nII. Wind is the main driver of waves.\nIII. Tsunamis have causes different from ordinary wind-driven waves.\nIV. Waves mainly transfer energy.\nV. The timing of waves is variable.",
+     "options": [
+      "I, II and III only",
+      "I, III, IV and V only",
+      "I, II, III, IV and V",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Waves are oscillatory water movements mainly driven by wind, mainly transfer energy, have variable timing, and differ in cause from tsunamis.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F13",
+      "F16"
+     ]
+    },
+    {
+     "id": "general-geography-12-9",
+     "format": "Assertion-Reason",
+     "keyword": "Sea",
+     "question": "Assertion (A): Tides cause vertical and periodic changes in water level.\nReason (R): Tides are highly periodic.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Tides involve vertical and periodic water-level changes and are highly periodic, but their high periodicity does not by itself explain the vertical nature of the change.",
+     "facts": [
+      "F2",
+      "F14",
+      "F17",
+      "F34"
+     ]
+    },
+    {
+     "id": "general-geography-12-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Sea",
+     "question": "Consider the following statements about ocean currents:\nI. Ocean currents are continuous directed movements of water.\nII. Density differences drive ocean currents.\nIII. The Coriolis force drives ocean currents.\nIV. Pressure differences drive ocean currents.\nV. Ocean-floor configuration influences ocean currents.",
+     "options": [
+      "I, II and III only",
+      "I, III and IV only",
+      "I, II, III, IV and V",
+      "II, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Ocean currents are continuous directed movements, and their movement is influenced by density, Coriolis force, pressure differences and ocean-floor configuration.",
+     "facts": [
+      "F3",
+      "F8",
+      "F9",
+      "F10",
+      "F12"
+     ]
+    },
+    {
+     "id": "general-geography-12-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sea",
+     "question": "Consider the following statements:\nStatement A: Ocean currents are relatively continuous.\nStatement B: Ocean-current effects include direction and warm- or cold-water characteristics.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ocean currents are relatively continuous and are characterised by their direction and by whether they carry relatively warm or cold water.",
+     "facts": [
+      "F18",
+      "F24"
+     ]
+    },
+    {
+     "id": "general-geography-12-12",
+     "format": "List-Matching",
+     "keyword": "Sea",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Spring tide\n(b) Neap tide\n(c) Spring-tide Moon phase and gravitational effect\n(d) Neap-tide Moon phase and gravitational effect\n\nList-II\n(i) Minimum tidal range\n(ii) New moon or full moon; gravitational effects are reinforcing\n(iii) Maximum tidal range\n(iv) First or third quarter; gravitational effects are partially opposing",
+     "options": [
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Spring tides have the maximum tidal range, while neap tides have the minimum range. Spring tides occur at the new or full moon with reinforcing gravitational effects; neap tides occur at the first or third quarter with partially opposing effects.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F30",
+      "F32"
+     ]
+    },
+    {
+     "id": "general-geography-12-13",
+     "format": "Assertion-Reason",
+     "keyword": "Sea",
+     "question": "Assertion (A): Waves are associated with coastal erosion.\nReason (R): Coastal erosion is a key effect of waves.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason correctly explains the assertion. Coastal erosion is identified as a key effect and association of waves.",
+     "facts": [
+      "F19",
+      "F22",
+      "F33"
+     ]
+    },
+    {
+     "id": "general-geography-12-14",
+     "format": "Direct Recall",
+     "keyword": "Sea",
+     "question": "Which of the following is associated with tides?",
+     "options": [
+      "Tidal energy",
+      "Continuous directed movement of water",
+      "Variable wave timing",
+      "Oscillatory movement of water"
+     ],
+     "answer": 0,
+     "explanation": "Tides contribute to tidal energy. Variable timing and oscillatory movement are associated with waves, while continuous directed movement describes ocean currents.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "general-geography-12-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ocean Currents – Controlling Forces",
+     "question": "Consider the following statements:\nI. Earth's rotation deflects moving water through the Coriolis effect.\nII. Salinity changes water density.\nIII. Density differences drive deep-ocean circulation.\nIV. Ocean-floor configuration influences current pathways.\nV. Air pressure influences surface-water movement.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, III, IV and V only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct. The Coriolis effect, salinity-related density change, density differences, ocean-floor configuration and air pressure are identified as controls or influences on ocean-water movement.",
+     "facts": [
+      "F41",
+      "F43",
+      "F44",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "general-geography-12-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Warm and Cold Currents",
+     "question": "Consider the following statements:\nStatement A: Warm currents often originate in lower latitudes.\nStatement B: Cold currents are often associated with higher-latitude or cold-water regions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Warm currents commonly originate in lower latitudes, whereas cold currents are associated with higher-latitude or cold-water regions.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "general-geography-12-17",
+     "format": "Assertion-Reason",
+     "keyword": "Warm and Cold Currents – Coastal Effect",
+     "question": "Assertion (A): Warm currents can warm adjacent coastal areas.\nReason (R): Cold currents can cool adjacent coastal areas.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the cooling effect of cold currents does not explain the warming effect of warm currents. These are two separate coastal effects of ocean currents.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "general-geography-12-18",
+     "format": "Direct Recall",
+     "keyword": "Current → Location",
+     "question": "Which of the following correctly describes the Mozambique Current?",
+     "options": [
+      "A cold current in the North Atlantic Ocean associated with north-western Africa",
+      "A warm current in the South Atlantic Ocean associated with the east coast of Brazil",
+      "A cold current in the Pacific Ocean associated with the west coast of South America",
+      "A warm current in the Indian Ocean associated with the Mozambique Channel"
+     ],
+     "answer": 3,
+     "explanation": "The Mozambique Current is a warm current in the Indian Ocean and is associated with the Mozambique Channel.",
+     "facts": [
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "general-geography-12-19",
+     "format": "Direct Recall",
+     "keyword": "Current → Coast Location",
+     "question": "The Brazil Current is associated with which of the following?",
+     "options": [
+      "The east coast of Brazil",
+      "The north-western coast of Africa",
+      "The west coast of North America",
+      "The Norwegian coast"
+     ],
+     "answer": 0,
+     "explanation": "The Brazil Current is associated with the east coast of Brazil.",
+     "facts": [
+      "F61"
+     ]
+    },
+    {
+     "id": "general-geography-12-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "North Atlantic Currents – Location and Direction",
+     "question": "Consider the following statements:\nI. The North Atlantic Drift is a warm current in the North Atlantic Ocean.\nII. The North Atlantic Drift flows toward Europe.\nIII. The Norwegian Current is a warm current in the North Atlantic Ocean.\nIV. The Norwegian Current is associated with the Norwegian coast.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and IV only",
+      "I and II only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The North Atlantic Drift is a warm North Atlantic current flowing toward Europe, while the Norwegian Current is a warm North Atlantic current associated with the Norwegian coast.",
+     "facts": [
+      "F69",
+      "F70",
+      "F71",
+      "F72"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 72,
+    "covered": 72,
+    "audited": true
+   }
   }
  }
 }

@@ -547,7 +547,11 @@
       "Volga River"
      ],
      "answer": 3,
-     "explanation": "The Volga River is the longest river in Europe. It is about 3,530 km long and drains into the landlocked Caspian Sea."
+     "explanation": "The Volga River is the longest river in Europe. It is about 3,530 km long and drains into the landlocked Caspian Sea.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "world-geography-7-2",
@@ -561,7 +565,18 @@
       "The Limpopo River is associated with the name “Crocodile River” and drains into the Indian Ocean."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. The Danube is the most international river, whereas the Rhine is the busiest commercial inland waterway."
+     "explanation": "The incorrect statement is the fourth one. The Danube is the most international river, whereas the Rhine is the busiest commercial inland waterway.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F19",
+      "F20",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "world-geography-7-3",
@@ -575,7 +590,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the high sediment load caused by erosion of the Loess Plateau explains why the Huang He is known as the “Sorrow of China.”"
+     "explanation": "Both statements are true, and the high sediment load caused by erosion of the Loess Plateau explains why the Huang He is known as the “Sorrow of China.”",
+     "facts": [
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "world-geography-7-4",
@@ -589,7 +608,15 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. The Nile is the longest river, the Amazon is largest by discharge, the Congo is deepest, and the Murray is the longest individual river in Australia."
+     "explanation": "The correct pairs are a-iv, b-i, c-ii and d-iii. The Nile is the longest river, the Amazon is largest by discharge, the Congo is deepest, and the Murray is the longest individual river in Australia.",
+     "facts": [
+      "F1",
+      "F3",
+      "F5",
+      "F41",
+      "F43",
+      "F8"
+     ]
     },
     {
      "id": "world-geography-7-5",
@@ -603,7 +630,19 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. The notes identify the Shatt al-Arab formation by the Tigris and Euphrates, the northward Siberian rivers entering the Arctic Ocean, and the countries through which the Mekong flows."
+     "explanation": "All three statements are correct. The notes identify the Shatt al-Arab formation by the Tigris and Euphrates, the northward Siberian rivers entering the Arctic Ocean, and the countries through which the Mekong flows.",
+     "facts": [
+      "F63",
+      "F64",
+      "F66",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F65"
+     ]
     },
     {
      "id": "world-geography-7-6",
@@ -617,7 +656,148 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correct. The Zambezi is associated with Victoria Falls, the Niger with the historical palm-oil trade, the Rio Grande with the USA–Mexico boundary, and the Colorado with the Grand Canyon."
+     "explanation": "All four pairs are correct. The Zambezi is associated with Victoria Falls, the Niger with the historical palm-oil trade, the Rio Grande with the USA–Mexico boundary, and the Colorado with the Grand Canyon.",
+     "facts": [
+      "F54",
+      "F59",
+      "F68",
+      "F49",
+      "F51",
+      "F56",
+      "F60"
+     ]
+    },
+    {
+     "id": "world-geography-7-7",
+     "format": "Direct Recall",
+     "keyword": "Longest river — LENGTH",
+     "question": "What is the length of the Nile River?",
+     "options": [
+      "The length is not specified",
+      "3,530 km",
+      "6,650 km",
+      "2,508 km"
+     ],
+     "answer": 2,
+     "explanation": "The Nile is 6,650 km long.",
+     "facts": [
+      "F2"
+     ]
+    },
+    {
+     "id": "world-geography-7-8",
+     "format": "List-Matching",
+     "keyword": "River — Distinctive Feature",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Amazon\n(b) Yangtze\n(c) Amazon\n(d) Congo\n\nList-II\ni. Longest river in South America\nii. Largest drainage basin\niii. Crosses the Equator twice\niv. Longest river in Asia",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Amazon has the largest drainage basin and is the longest river in South America. The Yangtze, or Chang Jiang, is the longest river in Asia, while the Congo crosses the Equator twice.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-7-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River — Tropic Crossing and Location",
+     "question": "Consider the following statements:\n\nI. The Mississippi River has a bird’s-foot delta.\nII. The Mahi River crosses the Tropic of Cancer twice.\nIII. The Limpopo River crosses the Tropic of Capricorn twice.\nIV. The Limpopo River is in Africa.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I, II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: the Mississippi has a bird’s-foot delta; the Mahi crosses the Tropic of Cancer twice; and the Limpopo, an African river, crosses the Tropic of Capricorn twice.",
+     "facts": [
+      "F10",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-7-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River — Alternate Name and Drainage",
+     "question": "Consider the following statements:\n\nStatement A: The Huang He is also known as the Yellow River.\nStatement B: The Huang He drains into the Bohai Sea.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Huang He is another name for the Yellow River, and it drains into the Bohai Sea.",
+     "facts": [
+      "F30",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-7-11",
+     "format": "Assertion-Reason",
+     "keyword": "River — Popular Name",
+     "question": "Assertion (A): The Mekong River is called the “Danube of the East.”\nReason (R): The Mekong River flows through China, Myanmar, Laos, Thailand, Cambodia and Vietnam.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and the reason are true. However, the listed countries through which the Mekong flows do not explain why it is called the “Danube of the East.”",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "world-geography-7-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rivers → Aral Sea and Australia",
+     "question": "Consider the following statements:\n\nI. The Murray River is approximately 2,508 km long.\nII. The Murray-Darling is the major river system in Australia.\nIII. The Amu Darya drains into the Aral Sea.\nIV. The Syr Darya drains into the Aral Sea.\nV. The Amu Darya and Syr Darya are in Central Asia.\nVI. Diversion of the Amu Darya and Syr Darya for irrigation contributed to the shrinkage of the Aral Sea.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV, V and VI",
+      "I, III, IV, V and VI only",
+      "II, III, IV and V only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All six statements are correct. The Murray is approximately 2,508 km long and belongs to the major Murray-Darling system, while the Amu Darya and Syr Darya are Central Asian rivers draining into the Aral Sea; irrigation diversion contributed to its shrinkage.",
+     "facts": [
+      "F42",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "world-geography-7-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Location and Associated Lake",
+     "question": "Consider the following statements:\n\nStatement A: The Colorado River is in the USA.\nStatement B: Lake Mead is associated with the Colorado River.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: the Colorado River is in the USA, and Lake Mead is associated with it.",
+     "facts": [
+      "F50",
+      "F52"
+     ]
     }
    ]
   },
@@ -1544,7 +1724,11 @@
       "India"
      ],
      "answer": 0,
-     "explanation": "China is the largest coal producer and produces more than 50% of global coal."
+     "explanation": "China is the largest coal producer and produces more than 50% of global coal.",
+     "facts": [
+      "F1",
+      "F7"
+     ]
     },
     {
      "id": "world-geography-11-2",
@@ -1558,7 +1742,12 @@
       "Odisha produces more than half of India's bauxite output."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Brazil has the world's largest bauxite reserves. The notes identify Guinea as having the world's largest bauxite reserves."
+     "explanation": "The incorrect statement is that Brazil has the world's largest bauxite reserves. The notes identify Guinea as having the world's largest bauxite reserves.",
+     "facts": [
+      "F19",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "world-geography-11-3",
@@ -1572,7 +1761,15 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, the critical uses of rare earth elements do not explain China's dominance in mining and processing."
+     "explanation": "Both statements are true. However, the critical uses of rare earth elements do not explain China's dominance in mining and processing.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97",
+      "F98",
+      "F99",
+      "F91"
+     ]
     },
     {
      "id": "world-geography-11-4",
@@ -1586,7 +1783,15 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Diamonds–Russia, Lithium–Australia, Manganese–South Africa and Uranium–Kazakhstan."
+     "explanation": "The correct pairs are Diamonds–Russia, Lithium–Australia, Manganese–South Africa and Uranium–Kazakhstan.",
+     "facts": [
+      "F38",
+      "F60",
+      "F67",
+      "F85",
+      "F64",
+      "F89"
+     ]
     },
     {
      "id": "world-geography-11-5",
@@ -1600,7 +1805,13 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct. The notes associate Australia with the largest recoverable uranium resources, Chile with major lithium reserves, Sukinda Valley with India's major chromite region, and the Kalahari Manganese Field with a major global manganese resource."
+     "explanation": "All four statements are correct. The notes associate Australia with the largest recoverable uranium resources, Chile with major lithium reserves, Sukinda Valley with India's major chromite region, and the Kalahari Manganese Field with a major global manganese resource.",
+     "facts": [
+      "F90",
+      "F65",
+      "F79",
+      "F72"
+     ]
     },
     {
      "id": "world-geography-11-6",
@@ -1614,7 +1825,319 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct according to the mineral production data."
+     "explanation": "All four statements are correct according to the mineral production data.",
+     "facts": [
+      "F32",
+      "F50",
+      "F58",
+      "F25",
+      "F45",
+      "F53"
+     ]
+    },
+    {
+     "id": "world-geography-11-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Producer",
+     "question": "Consider the following statements:\nStatement A: India is a major coal producer and coal consumer.\nStatement B: The United States is a major coal producer and has very large proven recoverable coal reserves.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "India is identified as both a major coal producer and consumer. The United States is a major coal producer and has very large proven recoverable coal reserves.",
+     "facts": [
+      "F2",
+      "F4",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-11-8",
+     "format": "Count-Based",
+     "keyword": "Mineral Producer",
+     "question": "How many of the following countries are identified as major coal producers?\n1. Indonesia\n2. Australia\n3. Russia",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Indonesia, Australia and Russia are all listed as major coal producers. Therefore, all three statements are correct.",
+     "facts": [
+      "F3",
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "world-geography-11-9",
+     "format": "List-Matching",
+     "keyword": "Mineral Producer",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Australia\n(b) Brazil\n(c) China\n(d) Russia\n\nList-II\n(i) Largest iron ore producer\n(ii) Major iron ore producer and one of the countries dominating seaborne iron ore exports\n(iii) Largest iron ore importer and largest crude steel producer\n(iv) Major iron ore producer",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Australia is the largest iron ore producer; Brazil and Russia are major producers. China is the largest iron ore importer and crude steel producer, while Australia and Brazil dominate seaborne iron ore exports.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-11-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Producer",
+     "question": "Consider the following statements:\nI. China is a major iron ore producer.\nII. India is a major iron ore producer.\nIII. Australia and Brazil dominate seaborne iron ore exports.\nIV. China is the largest crude steel producer.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: China and India are major iron ore producers; Australia and Brazil dominate seaborne exports; and China is the largest crude steel producer.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-11-11",
+     "format": "Direct Recall",
+     "keyword": "Mineral Producer",
+     "question": "Which country is identified as the largest bauxite producer?",
+     "options": [
+      "Brazil",
+      "China",
+      "India",
+      "Guinea"
+     ],
+     "answer": 3,
+     "explanation": "Guinea is identified as the largest bauxite producer.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-11-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Producer",
+     "question": "Consider the following statements:\nI. China is a major bauxite producer.\nII. Brazil is a major bauxite producer.\nIII. India is a major bauxite producer.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "China, Brazil and India are all listed as major bauxite producers.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "world-geography-11-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Producer",
+     "question": "Consider the following statements:\nI. The Democratic Republic of the Congo is a major copper producer.\nII. Peru is a major copper producer.\nIII. China is a major copper producer.\nIV. The United States is a major copper producer.",
+     "options": [
+      "I and II only",
+      "I, III and IV only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "The Democratic Republic of the Congo, Peru, China and the United States are all identified as major copper producers.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "world-geography-11-14",
+     "format": "Assertion-Reason",
+     "keyword": "Mineral Producer",
+     "question": "Assertion (A): Chile has the largest copper reserves.\nReason (R): Escondida is a major copper mine.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Chile has the largest copper reserves, and Escondida is a major copper mine. However, the status of Escondida does not explain the size of Chile's copper reserves.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "world-geography-11-15",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources \u0007 Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gold\n(b) Diamonds\n(c) Nickel\n(d) Lithium\n\nList-II\n(i) Australia\n(ii) Botswana\n(iii) The Philippines\n(iv) Chile",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Australia is a major gold producer, Botswana is a major diamond producer, the Philippines is a major nickel producer, and Chile is a major lithium producer.",
+     "facts": [
+      "F33",
+      "F39",
+      "F46",
+      "F61"
+     ]
+    },
+    {
+     "id": "world-geography-11-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources \u0007 Location",
+     "question": "Consider the following statements:\nI. Russia is a major gold producer.\nII. Canada is a major gold producer.\nIII. The United States is a major gold producer.\nIV. Australia has very large economic gold resources.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: Russia, Canada and the United States are major gold producers, while Australia has very large economic gold resources.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "world-geography-11-17",
+     "format": "Count-Based",
+     "keyword": "Mineral Resources \u0007 Location",
+     "question": "How many of the following countries are identified as major diamond producers?\n1. Canada\n2. The Democratic Republic of the Congo\n3. South Africa\n4. Angola",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed countries\u0007Canada, the Democratic Republic of the Congo, South Africa and Angola\u0007are major diamond producers.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "world-geography-11-18",
+     "format": "Direct Recall",
+     "keyword": "Mineral Resources \u0007 Location",
+     "question": "Which country is identified as a major high-value diamond producer?",
+     "options": [
+      "South Africa",
+      "Botswana",
+      "Canada",
+      "Angola"
+     ],
+     "answer": 1,
+     "explanation": "Botswana is identified as a major high-value diamond producer.",
+     "facts": [
+      "F44"
+     ]
+    },
+    {
+     "id": "world-geography-11-19",
+     "format": "Count-Based",
+     "keyword": "Mineral Resources \u0007 Location",
+     "question": "How many of the following are identified as major nickel producers?\n1. Russia\n2. New Caledonia\n3. Canada",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Russia, New Caledonia and Canada are all identified as major nickel producers.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "world-geography-11-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Resources \u0007 Industrial Use",
+     "question": "Consider the following statements:\nStatement A: Nickel is important for stainless steel.\nStatement B: Nickel is important for electric vehicle batteries.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Nickel is important both for stainless steel and for electric vehicle batteries.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "world-geography-11-21",
+     "format": "Direct Recall",
+     "keyword": "Mineral Resources \u0007 Industrial Processing",
+     "question": "Which country dominates downstream cobalt refining?",
+     "options": [
+      "China",
+      "Australia",
+      "The Philippines",
+      "Russia"
+     ],
+     "answer": 0,
+     "explanation": "China dominates downstream cobalt refining.",
+     "facts": [
+      "F59"
+     ]
+    },
+    {
+     "id": "world-geography-11-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Resources \u0007 Location",
+     "question": "Consider the following statements:\nStatement A: Argentina is a major lithium producer.\nStatement B: China is a major lithium producer.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Argentina and China are both identified as major lithium producers.",
+     "facts": [
+      "F62",
+      "F63"
+     ]
     }
    ]
   },
@@ -1732,7 +2255,10 @@
       "Caribbean Sea"
      ],
      "answer": 1,
-     "explanation": "The Philippine Sea is identified in the notes as the largest sea by area."
+     "explanation": "The Philippine Sea is identified in the notes as the largest sea by area.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "world-geography-13-2",
@@ -1746,7 +2272,14 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Sargasso Sea–only sea without land boundaries, Dead Sea–lowest land elevation, Sea of Azov–shallowest sea, and Bering Sea–between Russia and Alaska."
+     "explanation": "The correct pairs are Sargasso Sea–only sea without land boundaries, Dead Sea–lowest land elevation, Sea of Azov–shallowest sea, and Bering Sea–between Russia and Alaska.",
+     "facts": [
+      "F70",
+      "F10",
+      "F74",
+      "F76",
+      "F11"
+     ]
     },
     {
      "id": "world-geography-13-3",
@@ -1760,7 +2293,17 @@
       "The Black Sea is an inland sea."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement is that Croatia borders the Black Sea. The notes specifically state that Croatia does not border it."
+     "explanation": "The incorrect statement is that Croatia borders the Black Sea. The notes specifically state that Croatia does not border it.",
+     "facts": [
+      "F27",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F29"
+     ]
     },
     {
      "id": "world-geography-13-4",
@@ -1774,7 +2317,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, being landlocked and bordered by five countries does not explain why the Caspian Sea is the largest lake by area and volume."
+     "explanation": "Both statements are true according to the notes. However, being landlocked and bordered by five countries does not explain why the Caspian Sea is the largest lake by area and volume.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F1"
+     ]
     },
     {
      "id": "world-geography-13-5",
@@ -1788,7 +2338,20 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are supported by the notes: the Dead Sea is hypersaline and at the lowest land elevation, the Aral Sea has severely shrunk due to human activities, and the Yellow Sea borders China, North Korea and South Korea."
+     "explanation": "All three statements are supported by the notes: the Dead Sea is hypersaline and at the lowest land elevation, the Aral Sea has severely shrunk due to human activities, and the Yellow Sea borders China, North Korea and South Korea.",
+     "facts": [
+      "F73",
+      "F10",
+      "F67",
+      "F68",
+      "F61",
+      "F62",
+      "F63",
+      "F9",
+      "F11",
+      "F13",
+      "F66"
+     ]
     },
     {
      "id": "world-geography-13-6",
@@ -1802,9 +2365,374 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate the Red Sea with very little precipitation and no permanent rivers, while the South China Sea is described as strategic with multiple claimants."
+     "explanation": "Both statements are true. The notes associate the Red Sea with very little precipitation and no permanent rivers, while the South China Sea is described as strategic with multiple claimants.",
+     "facts": [
+      "F52",
+      "F53",
+      "F78",
+      "F79"
+     ]
+    },
+    {
+     "id": "world-geography-13-7",
+     "format": "Direct Recall",
+     "keyword": "Sea → Location",
+     "question": "The Philippine Sea is located in which region?",
+     "options": [
+      "South Indian Ocean",
+      "Eastern Mediterranean",
+      "North Atlantic",
+      "Western Pacific"
+     ],
+     "answer": 3,
+     "explanation": "The Philippine Sea is located in the Western Pacific.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "world-geography-13-8",
+     "format": "Direct Recall",
+     "keyword": "Deepest sea",
+     "question": "Which of the following is identified as the deepest sea among the given options?",
+     "options": [
+      "Bering Sea",
+      "Caribbean Sea",
+      "Dead Sea",
+      "Sea of Azov"
+     ],
+     "answer": 0,
+     "explanation": "The Bering Sea is identified as the deepest sea among the options.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "world-geography-13-9",
+     "format": "Assertion-Reason",
+     "keyword": "Sea → Cause of change",
+     "question": "Assertion (A): The Dead Sea is shrinking.\nReason (R): Human activity is responsible for its shrinking.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "The Dead Sea is shrinking, and the stated cause is human activity. Therefore, both statements are true and the reason explains the assertion.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "world-geography-13-10",
+     "format": "List-Matching",
+     "keyword": "Sea Bordering Countries",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Russia\n(b) Kazakhstan\n(c) Turkmenistan\n(d) Iran\n\nList-II\n(i) Black Sea\n(ii) Caspian Sea\n(iii) Mediterranean Sea\n(iv) Red Sea",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-ii, c-ii, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Russia, Kazakhstan, Turkmenistan and Iran are all countries bordering the Caspian Sea.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "world-geography-13-11",
+     "format": "Count-Based",
+     "keyword": "Sea Bordering Countries",
+     "question": "How many of the following countries border the Caspian Sea?\n\n1. Azerbaijan\n2. Armenia",
+     "options": [
+      "Only one",
+      "Both countries",
+      "Neither country",
+      "The information is not specified"
+     ],
+     "answer": 0,
+     "explanation": "Azerbaijan borders the Caspian Sea, whereas Armenia does not. Hence, only one of the two countries borders it.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-13-12",
+     "format": "Direct Recall",
+     "keyword": "Sea Bordering Countries → Location",
+     "question": "Which of the following places in Azerbaijan is located on the coast of the Caspian Sea?",
+     "options": [
+      "Tbilisi",
+      "Ankara",
+      "Baku",
+      "Yerevan"
+     ],
+     "answer": 2,
+     "explanation": "Baku in Azerbaijan is located on the coast of the Caspian Sea.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "world-geography-13-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sea Bordering Countries",
+     "question": "Consider the following statements:\nStatement A: Syria does not border the Black Sea.\nStatement B: Syria borders the Mediterranean Sea.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Syria is specifically identified as not bordering the Black Sea, while it is listed among the countries bordering the Mediterranean Sea.",
+     "facts": [
+      "F28",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-13-14",
+     "format": "Count-Based",
+     "keyword": "Sea Bordering Countries",
+     "question": "How many of the following countries have a coastline on the Mediterranean Sea?\n\n1. Spain\n2. France\n3. Italy\n4. Greece\n5. Turkey\n6. Egypt\n7. Libya\n8. Tunisia\n9. Algeria\n10. Morocco\n11. Israel\n12. Syria\n13. Lebanon",
+     "options": [
+      "Only ten",
+      "Only eleven",
+      "Only twelve",
+      "All thirteen"
+     ],
+     "answer": 3,
+     "explanation": "All thirteen listed countries—Spain, France, Italy, Greece, Turkey, Egypt, Libya, Tunisia, Algeria, Morocco, Israel, Syria and Lebanon—are identified as having a coastline on the Mediterranean Sea.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-13-15",
+     "format": "Direct Recall",
+     "keyword": "Sea Bordering Countries",
+     "question": "How many countries have a coastline on the Mediterranean Sea?",
+     "options": [
+      "Twenty-one",
+      "Twenty-five",
+      "Twelve",
+      "Nineteen"
+     ],
+     "answer": 0,
+     "explanation": "The Mediterranean Sea has coastlines belonging to twenty-one countries.",
+     "facts": [
+      "F43"
+     ]
+    },
+    {
+     "id": "world-geography-13-16",
+     "format": "Count-Based",
+     "keyword": "Sea → Bordering Countries",
+     "question": "How many of the following countries border the Red Sea?\n1. Egypt\n2. Sudan\n3. Eritrea\n4. Djibouti\n5. Saudi Arabia\n6. Yemen\n7. Israel\n8. Jordan",
+     "options": [
+      "Only six",
+      "Only seven",
+      "All eight",
+      "Only five"
+     ],
+     "answer": 2,
+     "explanation": "All eight listed countries—Egypt, Sudan, Eritrea, Djibouti, Saudi Arabia, Yemen, Israel and Jordan—border the Red Sea.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-13-17",
+     "format": "Count-Based",
+     "keyword": "Sea → Bordering Countries",
+     "question": "How many of the following countries border the Adriatic Sea?\n1. Italy\n2. Slovenia\n3. Croatia\n4. Bosnia and Herzegovina\n5. Montenegro\n6. Albania",
+     "options": [
+      "Only four",
+      "Only five",
+      "All six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six listed countries—Italy, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro and Albania—border the Adriatic Sea.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "world-geography-13-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sea → Bordering Countries",
+     "question": "Consider the following statements:\nStatement A: Kazakhstan borders the Aral Sea.\nStatement B: Uzbekistan borders the Aral Sea.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: Kazakhstan and Uzbekistan border the Aral Sea.",
+     "facts": [
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "world-geography-13-19",
+     "format": "Direct Recall",
+     "keyword": "Sea Sequence",
+     "question": "Which of the following correctly represents the west-to-east sequence of the Mediterranean Sea, Black Sea, Caspian Sea and Aral Sea?",
+     "options": [
+      "Mediterranean Sea → Black Sea → Caspian Sea → Aral Sea",
+      "Caspian Sea → Black Sea → Mediterranean Sea → Aral Sea",
+      "Aral Sea → Caspian Sea → Black Sea → Mediterranean Sea",
+      "Black Sea → Mediterranean Sea → Aral Sea → Caspian Sea"
+     ],
+     "answer": 0,
+     "explanation": "The correct west-to-east sequence is Mediterranean Sea, Black Sea, Caspian Sea and Aral Sea.",
+     "facts": [
+      "F69"
+     ]
+    },
+    {
+     "id": "world-geography-13-20",
+     "format": "Assertion-Reason",
+     "keyword": "Sea → Distinctive Feature",
+     "question": "Assertion (A): The Sargasso Sea is defined by ocean currents in the North Atlantic.\nReason (R): Floating sargassum weed occurs in the Sargasso Sea.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Sargasso Sea is defined by North Atlantic ocean currents, while floating sargassum weed is a feature found there; the reason does not explain its definition by currents.",
+     "facts": [
+      "F71",
+      "F72"
+     ]
+    },
+    {
+     "id": "world-geography-13-21",
+     "format": "Direct Recall",
+     "keyword": "Sea → Connection",
+     "question": "The Sea of Azov is connected to which of the following seas?",
+     "options": [
+      "Mediterranean Sea",
+      "Aral Sea",
+      "Black Sea",
+      "Caspian Sea"
+     ],
+     "answer": 2,
+     "explanation": "The Sea of Azov is connected to the Black Sea.",
+     "facts": [
+      "F75"
+     ]
+    },
+    {
+     "id": "world-geography-13-22",
+     "format": "Direct Recall",
+     "keyword": "Sea → Distinctive Feature",
+     "question": "Which of the following is identified as a deep sea?",
+     "options": [
+      "Sargasso Sea",
+      "Sea of Azov",
+      "Dead Sea",
+      "Bering Sea"
+     ],
+     "answer": 3,
+     "explanation": "The Bering Sea is identified as deep.",
+     "facts": [
+      "F77"
+     ]
+    },
+    {
+     "id": "world-geography-13-23",
+     "format": "Direct Recall",
+     "keyword": "Sea → Location",
+     "question": "The Coral Sea is located in which direction relative to Australia?",
+     "options": [
+      "North-east of Australia",
+      "South-west of Australia",
+      "North-west of Australia",
+      "South-east of Australia"
+     ],
+     "answer": 0,
+     "explanation": "The Coral Sea is located north-east of Australia.",
+     "facts": [
+      "F80"
+     ]
+    },
+    {
+     "id": "world-geography-13-24",
+     "format": "Direct Recall",
+     "keyword": "Sea → Location",
+     "question": "The Caribbean Sea lies between which two regions?",
+     "options": [
+      "Asia and Africa",
+      "Europe and Africa",
+      "North America and Europe",
+      "Central America and South America"
+     ],
+     "answer": 3,
+     "explanation": "The Caribbean Sea lies between Central America and South America.",
+     "facts": [
+      "F81"
+     ]
+    },
+    {
+     "id": "world-geography-13-25",
+     "format": "Direct Recall",
+     "keyword": "Sea",
+     "question": "The Adriatic Sea is a part of which larger sea?",
+     "options": [
+      "Caspian Sea",
+      "Mediterranean Sea",
+      "Red Sea",
+      "Black Sea"
+     ],
+     "answer": 1,
+     "explanation": "The Adriatic Sea is part of the Mediterranean Sea.",
+     "facts": [
+      "F60"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 81,
+    "covered": 81,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -1918,7 +2846,13 @@
       "Mediterranean agriculture"
      ],
      "answer": 2,
-     "explanation": "Commercial grain farming is associated with temperate grasslands, including the Prairies, Pampas and Steppes."
+     "explanation": "Commercial grain farming is associated with temperate grasslands, including the Prairies, Pampas and Steppes.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F97"
+     ]
     },
     {
      "id": "world-geography-15-2",
@@ -1932,7 +2866,14 @@
       "Cocoa is associated with South Asia."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the location of cocoa. The notes associate cocoa with West Africa, not South Asia."
+     "explanation": "The incorrect detail is the location of cocoa. The notes associate cocoa with West Africa, not South Asia.",
+     "facts": [
+      "F29",
+      "F34",
+      "F35",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "world-geography-15-3",
@@ -1946,7 +2887,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given in the notes, and the notes describe plantation agriculture as a product of colonialism and export-oriented monoculture."
+     "explanation": "Both statements are given in the notes, and the notes describe plantation agriculture as a product of colonialism and export-oriented monoculture.",
+     "facts": [
+      "F98",
+      "F99",
+      "F40",
+      "F42"
+     ]
     },
     {
      "id": "world-geography-15-4",
@@ -1960,7 +2907,16 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that dairy farming requires a cold chain of refrigeration and transport, while Mediterranean agriculture specialises in olives, grapes and citrus fruits."
+     "explanation": "The notes state that dairy farming requires a cold chain of refrigeration and transport, while Mediterranean agriculture specialises in olives, grapes and citrus fruits.",
+     "facts": [
+      "F60",
+      "F61",
+      "F69",
+      "F70",
+      "F71",
+      "F68",
+      "F72"
+     ]
     },
     {
      "id": "world-geography-15-5",
@@ -1974,7 +2930,13 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Livestock ranching is described as large-scale commercial rearing of animals on ranches, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct. Livestock ranching is described as large-scale commercial rearing of animals on ranches, so Statement III is incorrect.",
+     "facts": [
+      "F14",
+      "F15",
+      "F21",
+      "F81"
+     ]
     },
     {
      "id": "world-geography-15-6",
@@ -1988,7 +2950,15 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Jhum–North-east India, Ladang–Malaysia and Indonesia, Roca–Brazil, and Taungya–Myanmar."
+     "explanation": "The correct pairs are Jhum–North-east India, Ladang–Malaysia and Indonesia, Roca–Brazil, and Taungya–Myanmar.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13",
+      "F88",
+      "F89",
+      "F11"
+     ]
     },
     {
      "id": "world-geography-15-7",
@@ -2002,7 +2972,397 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Prairies, Pampas and Steppes are associated with commercial grain farming. The Mediterranean Basin is associated with Mediterranean agriculture, so the count is three."
+     "explanation": "Prairies, Pampas and Steppes are associated with commercial grain farming. The Mediterranean Basin is associated with Mediterranean agriculture, so the count is three.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F73"
+     ]
+    },
+    {
+     "id": "world-geography-15-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Type of Agriculture – Key Features",
+     "question": "Consider the following statements about shifting cultivation:\nI. It involves clearing forests by burning.\nII. It is also called slash-and-burn cultivation.\nIII. It is a form of primitive subsistence agriculture.\nIV. It involves temporary cultivation.\nV. It uses low technology.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "I, II, IV and V only",
+      "II, III, IV and V only"
+     ],
+     "answer": 0,
+     "explanation": "Shifting cultivation involves clearing forests by burning and is also known as slash-and-burn cultivation. It is primitive subsistence agriculture involving temporary cultivation and low technology.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "world-geography-15-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Shifting Cultivation → Major Practicing Regions",
+     "question": "Consider the following statements:\nStatement A: Shifting cultivation is practised in the Amazon Basin and Tropical Africa.\nStatement B: Shifting cultivation is practised in South-East Asia and North-East India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The major practising regions listed for shifting cultivation include the Amazon Basin, Tropical Africa, South-East Asia and North-East India.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-15-10",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Nomadic Herding → Location",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Nomadic herding is practised in the Sahara and Central Asia.",
+      "Nomadic herding is practised in parts of Jammu and Kashmir and the Sahara.",
+      "Nomadic herding is practised in Central Asia and parts of Gujarat.",
+      "Nomadic herding is practised in the Arabian Desert and parts of Rajasthan."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect detail is 'parts of Gujarat'. The correct region given is parts of Rajasthan; nomadic herding is also practised in Central Asia.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "world-geography-15-11",
+     "format": "Assertion-Reason",
+     "keyword": "Intensive Subsistence Farming – Key Features",
+     "question": "Assertion (A): Intensive subsistence farming uses family labour.\nReason (R): Intensive subsistence farming produces a high yield per hectare.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are features of intensive subsistence farming. However, the fact that it produces a high yield per hectare does not explain the use of family labour.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "world-geography-15-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Intensive Subsistence Farming → Location",
+     "question": "Consider the following statements:\nStatement A: Intensive subsistence farming is practised in Monsoon Asia.\nStatement B: Its practising regions include East Asia, South Asia and South-East Asia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Intensive subsistence farming is practised in Monsoon Asia, particularly in East Asia, South Asia and South-East Asia.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27"
+     ]
+    },
+    {
+     "id": "world-geography-15-13",
+     "format": "Direct Recall",
+     "keyword": "Intensive Subsistence Farming – Major Crop",
+     "question": "Which crop dominates intensive subsistence farming in wet areas?",
+     "options": [
+      "Tea",
+      "Wheat",
+      "Coffee",
+      "Rice"
+     ],
+     "answer": 3,
+     "explanation": "Rice dominates intensive subsistence farming in wet areas.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "world-geography-15-14",
+     "format": "Count-Based",
+     "keyword": "Plantation Agriculture → Location",
+     "question": "How many of the following regions are associated with plantation agriculture?\n1. Latin America\n2. South-East Asia\n3. South Asia\n4. Sub-Saharan Africa",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed regions—Latin America, South-East Asia, South Asia and Sub-Saharan Africa—are associated with plantation agriculture.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-15-15",
+     "format": "Assertion-Reason",
+     "keyword": "Commercial grain farming",
+     "question": "Assertion (A): Commercial grain farming has a high commodity rate.\nReason (R): Wheat dominates commercial grain farming.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but wheat dominance does not explain the high commodity rate. These are separate characteristics of commercial grain farming.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "world-geography-15-16",
+     "format": "Direct Recall",
+     "keyword": "Commercial grain farming → Location",
+     "question": "Commercial grain farming is practised in which of the following regions?",
+     "options": [
+      "The Downs of Australia",
+      "North-western Europe",
+      "Southern Europe",
+      "Western Europe"
+     ],
+     "answer": 0,
+     "explanation": "The Downs of Australia is listed as a region of commercial grain farming.",
+     "facts": [
+      "F50"
+     ]
+    },
+    {
+     "id": "world-geography-15-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mixed farming",
+     "question": "Consider the following statements:\nI. Mixed farming combines crops and livestock on the same farm.\nII. Mixed farming is highly mechanised.\nIII. Mixed farming is practised in Western Europe, the eastern United States and Argentina.\nIV. Mixed farming is practised in south-eastern Australia, New Zealand and South Africa.",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Mixed farming combines crops and livestock, is highly mechanised, and is practised in all the regions listed.",
+     "facts": [
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-15-18",
+     "format": "Direct Recall",
+     "keyword": "Dairy farming",
+     "question": "Dairy farming specialises in the production of which of the following?",
+     "options": [
+      "Wheat",
+      "Milk",
+      "Rubber",
+      "Grapes"
+     ],
+     "answer": 1,
+     "explanation": "Dairy farming specialises in milk production.",
+     "facts": [
+      "F59"
+     ]
+    },
+    {
+     "id": "world-geography-15-19",
+     "format": "Count-Based",
+     "keyword": "Dairy farming → Location",
+     "question": "How many of the following are regions where dairy farming is practised?\n1. North-western Europe\n2. Denmark\n3. The Netherlands\n4. New Zealand\n5. The Midwest of the United States\n6. South-eastern Australia",
+     "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+     ],
+     "answer": 2,
+     "explanation": "All six listed regions are associated with dairy farming: north-western Europe, Denmark, the Netherlands, New Zealand, the Midwest of the United States and south-eastern Australia.",
+     "facts": [
+      "F62",
+      "F63",
+      "F64",
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "world-geography-15-20",
+     "format": "Direct Recall",
+     "keyword": "Plantation agriculture → Location",
+     "question": "Rubber plantation agriculture is practised in which of the following countries?",
+     "options": [
+      "West Africa",
+      "Brazil",
+      "India",
+      "Malaysia"
+     ],
+     "answer": 3,
+     "explanation": "Malaysia is identified as a region of rubber plantation agriculture.",
+     "facts": [
+      "F37"
+     ]
+    },
+    {
+     "id": "world-geography-15-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mediterranean agriculture → Location",
+     "question": "Consider the following statements:\nStatement A: Mediterranean agriculture is practised in southern Europe.\nStatement B: Mediterranean agriculture is practised in northern Africa.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Southern Europe and northern Africa are listed among the regions where Mediterranean agriculture is practised.",
+     "facts": [
+      "F74",
+      "F75"
+     ]
+    },
+    {
+     "id": "world-geography-15-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mediterranean Agriculture → Location",
+     "question": "Consider the following statements:\nI. Mediterranean agriculture is practised in western Asia.\nII. Mediterranean agriculture is practised in California.\nIII. Mediterranean agriculture is practised in Central Chile.\nIV. Mediterranean agriculture is practised in the Cape Province of South Africa.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "Mediterranean agriculture is practised in western Asia, California, Central Chile and the Cape Province of South Africa. Therefore, all four statements are correct.",
+     "facts": [
+      "F76",
+      "F77",
+      "F78",
+      "F79"
+     ]
+    },
+    {
+     "id": "world-geography-15-23",
+     "format": "Direct Recall",
+     "keyword": "Mediterranean Agriculture → Location",
+     "question": "Mediterranean agriculture is practised in which of the following regions?",
+     "options": [
+      "New Zealand",
+      "South-western Australia",
+      "Pampas of Argentina",
+      "Western United States"
+     ],
+     "answer": 1,
+     "explanation": "The notes identify south-western Australia as a region where Mediterranean agriculture is practised.",
+     "facts": [
+      "F80"
+     ]
+    },
+    {
+     "id": "world-geography-15-24",
+     "format": "List-Matching",
+     "keyword": "Shifting Cultivation → Regional Names",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Milpa\n(b) Chena\n(c) Conuco\n(d) Tavy\n\nList-II\n(i) Sri Lanka\n(ii) Venezuela\n(iii) Madagascar\n(iv) Central America and Mexico",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Milpa–Central America and Mexico, Chena–Sri Lanka, Conuco–Venezuela and Tavy–Madagascar.",
+     "facts": [
+      "F90",
+      "F91",
+      "F92",
+      "F93",
+      "F94"
+     ]
+    },
+    {
+     "id": "world-geography-15-25",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Shifting Cultivation → Environment",
+     "question": "Consider the following statements:\nStatement A: Shifting cultivation is practised in thickly forested areas.\nStatement B: Shifting cultivation is practised in areas of high rainfall.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Shifting cultivation is associated with thickly forested areas and areas receiving high rainfall.",
+     "facts": [
+      "F95",
+      "F96"
+     ]
+    },
+    {
+     "id": "world-geography-15-26",
+     "format": "List-Matching",
+     "keyword": "Livestock Ranching → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Western United States\n(b) Pampas\n(c) Australia\n(d) New Zealand\n\nList-II\n(i) Argentina\n(ii) New Zealand\n(iii) Australia\n(iv) United States",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Livestock ranching is practised in the Western United States, the Pampas of Argentina, Australia and New Zealand. Thus, the correct pairs are a-iv, b-i, c-iii and d-ii.",
+     "facts": [
+      "F83",
+      "F84",
+      "F85",
+      "F86"
+     ]
+    },
+    {
+     "id": "world-geography-15-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Livestock Ranching → Practice and Location",
+     "question": "Consider the following statements:\nStatement A: Livestock ranching is conducted on ranches.\nStatement B: Livestock ranching is practised in South Africa.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Livestock ranching is described as large-scale commercial rearing of animals conducted on ranches, and South Africa is one of its practising regions.",
+     "facts": [
+      "F82",
+      "F87"
+     ]
     }
    ]
   },
@@ -2205,7 +3565,11 @@
       "Congo Basin"
      ],
      "answer": 1,
-     "explanation": "The Amazon Basin contains the world’s largest continuous tropical rainforest, also called Selva."
+     "explanation": "The Amazon Basin contains the world’s largest continuous tropical rainforest, also called Selva.",
+     "facts": [
+      "F71",
+      "F11"
+     ]
     },
     {
      "id": "world-geography-18-2",
@@ -2219,7 +3583,18 @@
       "Canada is the largest producer and exporter of softwood timber and wood pulp."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘away from the equator’. The notes state that dense forests are mostly found near the equator."
+     "explanation": "The incorrect detail is ‘away from the equator’. The notes state that dense forests are mostly found near the equator.",
+     "facts": [
+      "F63",
+      "F68",
+      "F69",
+      "F70",
+      "F64",
+      "F65",
+      "F66",
+      "F67",
+      "F8"
+     ]
     },
     {
      "id": "world-geography-18-3",
@@ -2233,7 +3608,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The nutrient-poor nature of tropical rainforest soil explains why regeneration is slow after clearance."
+     "explanation": "Both statements are true. The nutrient-poor nature of tropical rainforest soil explains why regeneration is slow after clearance.",
+     "facts": [
+      "F69",
+      "F68",
+      "F8"
+     ]
     },
     {
      "id": "world-geography-18-4",
@@ -2247,7 +3627,19 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Congo Basin—Tropical Rainforest; Siberia, Canada and Scandinavia—Taiga; Western Europe and Eastern USA—Temperate Deciduous Forest; Mediterranean lands—Mediterranean Forest."
+     "explanation": "The correct pairs are: Congo Basin—Tropical Rainforest; Siberia, Canada and Scandinavia—Taiga; Western Europe and Eastern USA—Temperate Deciduous Forest; Mediterranean lands—Mediterranean Forest.",
+     "facts": [
+      "F72",
+      "F29",
+      "F30",
+      "F36",
+      "F37",
+      "F39",
+      "F26",
+      "F27",
+      "F74",
+      "F47"
+     ]
     },
     {
      "id": "world-geography-18-5",
@@ -2261,7 +3653,16 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are supported by the notes: Taiga has the highest percentage by forest type, Selva has broadleaf evergreen trees, and mangroves occur in coastal, saline and tidal environments."
+     "explanation": "All three statements are supported by the notes: Taiga has the highest percentage by forest type, Selva has broadleaf evergreen trees, and mangroves occur in coastal, saline and tidal environments.",
+     "facts": [
+      "F59",
+      "F1",
+      "F5",
+      "F52",
+      "F53",
+      "F54",
+      "F57"
+     ]
     },
     {
      "id": "world-geography-18-6",
@@ -2275,7 +3676,296 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. Canada leads in the production and export of softwood timber and wood pulp, while dense forests are mostly found near the equator."
+     "explanation": "Both statements are true according to the notes. Canada leads in the production and export of softwood timber and wood pulp, while dense forests are mostly found near the equator.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F67",
+      "F70"
+     ]
+    },
+    {
+     "id": "world-geography-18-7",
+     "format": "Direct Recall",
+     "keyword": "Climate",
+     "question": "The climate of tropical rainforests is best described as:",
+     "options": [
+      "Equatorial",
+      "Mediterranean",
+      "Cold temperate",
+      "Moderate"
+     ],
+     "answer": 0,
+     "explanation": "Tropical rainforests have an equatorial climate.",
+     "facts": [
+      "F2"
+     ]
+    },
+    {
+     "id": "world-geography-18-8",
+     "format": "Count-Based",
+     "keyword": "Rainfall",
+     "question": "How many of the following are characteristics of tropical rainforests?\n1. They receive more than 200 cm of rainfall.\n2. They have hot and humid conditions.",
+     "options": [
+      "None",
+      "Only one",
+      "Only two",
+      "All three"
+     ],
+     "answer": 2,
+     "explanation": "Both statements are correct: tropical rainforests receive more than 200 cm of rainfall and have hot and humid conditions.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "world-geography-18-9",
+     "format": "List-Matching",
+     "keyword": "Forest Characteristics",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Canopy structure of tropical rainforests\n(b) Plant forms found in tropical rainforests\n(c) Decomposition in tropical rainforests\n\nList-II\n(i) Rapid\n(ii) Climbers and epiphytes\n(iii) Multilayered canopy",
+     "options": [
+      "a-iii, b-ii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-i, c-iii",
+      "a-i, b-iii, c-ii"
+     ],
+     "answer": 0,
+     "explanation": "Tropical rainforests have a multilayered canopy, contain climbers and epiphytes, and have rapid decomposition.",
+     "facts": [
+      "F6",
+      "F7",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-18-10",
+     "format": "List-Matching",
+     "keyword": "Forest Location",
+     "question": "Match the tropical rainforest regions with their locations or occurrence.\n\nList-I\n(a) Amazon Basin\n(b) Congo Basin\n(c) Tropical rainforests in Indonesia\n(d) Tropical rainforests in Southeast Asia\n\nList-II\n(i) Africa\n(ii) Indonesia\n(iii) Brazil\n(iv) Southeast Asia",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The Amazon Basin is in Brazil, the Congo Basin is in Africa, and tropical rainforests occur in Indonesia and Southeast Asia.",
+     "facts": [
+      "F10",
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "world-geography-18-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tropical Deciduous Forests → Location",
+     "question": "Consider the following statements:\nI. Tropical deciduous forests occur in India.\nII. Tropical deciduous forests occur in Africa.\nIII. Tropical deciduous forests occur in Myanmar.\nIV. Tropical deciduous forests occur in Southeast Asia.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Tropical deciduous forests occur in India, Africa, Myanmar and Southeast Asia.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "world-geography-18-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Temperate Deciduous Forests",
+     "question": "Consider the following statements:\nStatement A: Temperate deciduous forests have a moderate climate and distinct seasons.\nStatement B: They contain broadleaf trees that shed their leaves in autumn.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Temperate deciduous forests have a moderate climate, distinct seasons, broadleaf trees, and trees that shed leaves in autumn.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-18-13",
+     "format": "Direct Recall",
+     "keyword": "Forest Type → Location",
+     "question": "Temperate deciduous forests occur in which of the following regions?",
+     "options": [
+      "Southeast Asia",
+      "The Amazon Basin",
+      "East Asia",
+      "The Congo Basin"
+     ],
+     "answer": 2,
+     "explanation": "East Asia is one of the regions where temperate deciduous forests occur.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "world-geography-18-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Temperate Coniferous Forests",
+     "question": "Consider the following statements:\nStatement A: Temperate coniferous forests have a cold-temperate climate and long winters.\nStatement B: They contain needle-leaved evergreen trees.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Temperate coniferous forests have a cold-temperate climate, long winters, and needle-leaved evergreen trees.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-18-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Forest type – Characteristics and Location",
+     "question": "Consider the following statements regarding temperate coniferous trees and forests:\nI. Temperate coniferous trees are softwood trees.\nII. Temperate coniferous trees have a conical shape.\nIII. Temperate coniferous forests occur in Russia.\nIV. Temperate coniferous forests occur in Alaska.",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Temperate coniferous trees are softwood trees with a conical shape, and their forests occur in Russia and Alaska.",
+     "facts": [
+      "F34",
+      "F35",
+      "F38",
+      "F40"
+     ]
+    },
+    {
+     "id": "world-geography-18-16",
+     "format": "Direct Recall",
+     "keyword": "Largest",
+     "question": "Which forest biome is described as the world’s largest terrestrial biome?",
+     "options": [
+      "Temperate coniferous forest (Taiga)",
+      "Tropical deciduous forest",
+      "Mediterranean forest",
+      "Temperate deciduous forest"
+     ],
+     "answer": 0,
+     "explanation": "The temperate coniferous forest, also called the Taiga or Boreal forest, is described as the world’s largest terrestrial biome.",
+     "facts": [
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-18-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mediterranean Forests – Climate and Vegetation",
+     "question": "Consider the following statements about Mediterranean forests:\nI. They have hot, dry summers.\nII. They have mild, wet winters.\nIII. They contain evergreen shrubs.\nIV. They contain oaks.\nV. They contain cork trees.",
+     "options": [
+      "I, II and III only",
+      "I, III and V only",
+      "I, II, III, IV and V",
+      "II, III, IV and V only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements correctly describe Mediterranean forests: their summers are hot and dry, their winters mild and wet, and their vegetation includes evergreen shrubs, oaks and cork trees.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "world-geography-18-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mediterranean Forests → Location",
+     "question": "Consider the following statements:\nStatement A: Mediterranean forests occur in California and Central Chile.\nStatement B: Mediterranean forests occur in southwestern Australia and the Cape Province.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. California and Central Chile are listed among the regions of Mediterranean forests, as are southwestern Australia and the Cape Province.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-18-19",
+     "format": "Assertion-Reason",
+     "keyword": "Mangrove Forests – Characteristics and Location",
+     "question": "Assertion (A): Mangrove trees have pneumatophores.\nReason (R): Mangrove forests occur in the Sundarbans.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the occurrence of mangrove forests in the Sundarbans does not explain the presence of pneumatophores in mangrove trees.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "world-geography-18-20",
+     "format": "Direct Recall",
+     "keyword": "Tropical Rainforest → Largest and Densest",
+     "question": "Which region is described as the densest tropical rainforest?",
+     "options": [
+      "Amazon Basin",
+      "Sundarbans",
+      "Congo Basin",
+      "Mediterranean Basin"
+     ],
+     "answer": 0,
+     "explanation": "The Amazon Basin is described as the densest tropical rainforest.",
+     "facts": [
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-18-21",
+     "format": "Count-Based",
+     "keyword": "Taiga – Climatic Region and Distribution",
+     "question": "How many of the following statements are correct regarding the Taiga?\n1. Taiga forests occur in temperate regions.\n2. Taiga forests occur in sub-Arctic regions.\n3. Taiga forests do not occur in Amazonia.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Taiga forests occur in temperate and sub-Arctic regions and are not found in Amazonia.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62"
+     ]
     }
    ]
   },
@@ -2305,7 +3995,10 @@
       "Polar / Tundra"
      ],
      "answer": 2,
-     "explanation": "The notes identify Tropical Rainforests, including the Amazon, Congo and Southeast Asia, as having the highest biodiversity."
+     "explanation": "The notes identify Tropical Rainforests, including the Amazon, Congo and Southeast Asia, as having the highest biodiversity.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "world-geography-19-2",
@@ -2319,7 +4012,17 @@
       "The Orangutan is native to Borneo and Sumatra in Southeast Asia."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of the Komodo Dragon. According to the notes, it is native to Indonesia, specifically the Komodo islands."
+     "explanation": "The incorrect detail is the location of the Komodo Dragon. According to the notes, it is native to Indonesia, specifically the Komodo islands.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F82",
+      "F83",
+      "F84",
+      "F80",
+      "F81"
+     ]
     },
     {
      "id": "world-geography-19-3",
@@ -2333,7 +4036,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes describe the Australasian realm as having marsupials and monotremes, unique due to isolation."
+     "explanation": "Both statements are true. The notes describe the Australasian realm as having marsupials and monotremes, unique due to isolation.",
+     "facts": [
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "world-geography-19-4",
@@ -2347,7 +4054,13 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Giant Panda–Central China, Komodo Dragon–Indonesia, Orangutan–Borneo and Sumatra, and Andean Condor–Andes Mountains."
+     "explanation": "The correct pairs are: Giant Panda–Central China, Komodo Dragon–Indonesia, Orangutan–Borneo and Sumatra, and Andean Condor–Andes Mountains.",
+     "facts": [
+      "F68",
+      "F83",
+      "F80",
+      "F85"
+     ]
     },
     {
      "id": "world-geography-19-5",
@@ -2361,7 +4074,21 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are supported by the notes. They correctly describe the coverage and signature wildlife of the Afrotropical, Neotropical and Palearctic realms."
+     "explanation": "All three statements are supported by the notes. They correctly describe the coverage and signature wildlife of the Afrotropical, Neotropical and Palearctic realms.",
+     "facts": [
+      "F87",
+      "F88",
+      "F89",
+      "F90",
+      "F91",
+      "F92",
+      "F93",
+      "F94",
+      "F95",
+      "F104",
+      "F105",
+      "F106"
+     ]
     }
    ]
   },
@@ -2515,8 +4242,192 @@
       "F39",
       "F49"
      ]
+    },
+    {
+     "id": "world-geography-20-8",
+     "format": "List-Matching",
+     "keyword": "Channel",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) English Channel\n(b) Strait of Dover\n(c) Channel Tunnel\n(d) Strait of Gibraltar\n\nList-II\n(i) Connects the Atlantic Ocean with the Mediterranean Sea, separates Spain from Morocco and serves as a gateway to the Mediterranean\n(ii) Runs underneath the English Channel\n(iii) Separates the United Kingdom from France and is the busiest shipping lane in Europe\n(iv) Connects the English Channel with the North Sea and is the narrowest and busiest part of the English Channel",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The English Channel separates the United Kingdom from France and is Europe's busiest shipping lane. The Strait of Dover connects it with the North Sea, the Channel Tunnel runs beneath it, and the Strait of Gibraltar connects the Atlantic and Mediterranean while separating Spain from Morocco.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-20-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Strait",
+     "question": "Consider the following statements:\nStatement A: The Strait of Malacca lies between Malaysia and Sumatra in Indonesia, is the world’s busiest commercial strait, and is critical for oil and trade.\nStatement B: The Strait of Hormuz is critical for oil exports from Persian Gulf countries, and Bahrain and Qatar must use it to reach the Indian Ocean.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Strait of Malacca has major commercial, oil and trade importance, while the Strait of Hormuz is essential for oil exports and for Bahrain and Qatar to reach the Indian Ocean.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "world-geography-20-10",
+     "format": "Assertion-Reason",
+     "keyword": "Strait",
+     "question": "Assertion (A): Bab-el-Mandeb is a strategic choke point.\nReason (R): Bab-el-Mandeb lies between Yemen and Djibouti or Eritrea.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and the reason are true. Bab-el-Mandeb is identified as a strategic choke point, and it lies between Yemen and Djibouti or Eritrea; the location statement does not itself explain the strategic designation.",
+     "facts": [
+      "F20",
+      "F22"
+     ]
+    },
+    {
+     "id": "world-geography-20-11",
+     "format": "List-Matching",
+     "keyword": "Strait",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Bosphorus\n(b) Dardanelles\n(c) Palk Strait\n(d) Mozambique Channel\n\nList-II\n(i) Lies in European and Asian Turkey and forms Russia’s only warm-water exit to the Mediterranean\n(ii) Lies in Turkey\n(iii) Connects the Bay of Bengal with Palk Bay and the Gulf of Mannar; lies between Tamil Nadu and Sri Lanka; is shallow and is associated with Adam’s Bridge or Ram Setu\n(iv) Is a long channel and an important shipping route",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Bosphorus–i, Dardanelles–ii, Palk Strait–iii and Mozambique Channel–iv. The Palk Strait is specifically described as shallow and associated with Adam’s Bridge or Ram Setu.",
+     "facts": [
+      "F24",
+      "F26",
+      "F28",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "world-geography-20-12",
+     "format": "Direct Recall",
+     "keyword": "Sea",
+     "question": "Which of the following correctly describes the Bering Strait?",
+     "options": [
+      "It connects the Bay of Bengal with Palk Bay and the Gulf of Mannar",
+      "It connects the English Channel with the North Sea",
+      "It connects the Pacific Ocean with the Arctic Ocean",
+      "It connects the Atlantic Ocean with the Mediterranean Sea"
+     ],
+     "answer": 2,
+     "explanation": "The Bering Strait connects the Pacific Ocean with the Arctic Ocean.",
+     "facts": [
+      "F38"
+     ]
+    },
+    {
+     "id": "world-geography-20-13",
+     "format": "List-Matching",
+     "keyword": "Channel",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Bass Strait\n(b) Ten Degree Channel\n(c) Eight Degree Channel\n(d) Nine Degree Channel\n\nList-II\n(i) Connects the Tasman Sea with the Southern Ocean\n(ii) Connects the Andaman Sea with the Indian Ocean\n(iii) Lies in the Arabian Sea and marks India’s southern maritime limit\n(iv) Lies in the Arabian Sea",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Bass Strait connects the Tasman Sea with the Southern Ocean. The Ten Degree Channel connects the Andaman Sea with the Indian Ocean; the Eight Degree Channel lies in the Arabian Sea and marks India’s southern maritime limit, while the Nine Degree Channel lies in the Arabian Sea.",
+     "facts": [
+      "F41",
+      "F43",
+      "F45",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "world-geography-20-14",
+     "format": "Direct Recall",
+     "keyword": "Channel",
+     "question": "The Strait of Magellan connects which of the following pairs of oceans?",
+     "options": [
+      "Atlantic Ocean and Southern Ocean",
+      "Pacific Ocean and Arctic Ocean",
+      "Atlantic Ocean and Pacific Ocean",
+      "Indian Ocean and Pacific Ocean"
+     ],
+     "answer": 2,
+     "explanation": "The Strait of Magellan connects the Atlantic Ocean with the Pacific Ocean.",
+     "facts": [
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-20-15",
+     "format": "Assertion-Reason",
+     "keyword": "Channel",
+     "question": "Assertion (A): The Drake Passage lies between South America and Antarctica.\nReason (R): The Drake Passage connects the Atlantic Ocean with the Pacific Ocean and the Southern Ocean.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Drake Passage lies between South America and Antarctica and connects the Atlantic Ocean with the Pacific Ocean and the Southern Ocean. However, its connections do not explain its geographical position between the two landmasses.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "world-geography-20-16",
+     "format": "Count-Based",
+     "keyword": "Channel",
+     "question": "How many of the following descriptions apply to the Drake Passage?\n\n1. It is the stormiest passage.\n2. It is the widest passage.",
+     "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "answer": 2,
+     "explanation": "Both descriptions apply to the Drake Passage: it is identified as the stormiest passage and the widest passage.",
+     "facts": [
+      "F56",
+      "F57"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 57,
+    "covered": 57,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -3580,7 +5491,15 @@
       "Great Lakes / Manufacturing Belt (Rust Belt)"
      ],
      "answer": 3,
-     "explanation": "The Great Lakes / Manufacturing Belt, also called the Rust Belt, includes Pittsburgh, Detroit, Chicago and Cleveland in the USA and extends into South-Eastern Canada."
+     "explanation": "The Great Lakes / Manufacturing Belt, also called the Rust Belt, includes Pittsburgh, Detroit, Chicago and Cleveland in the USA and extends into South-Eastern Canada.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "world-geography-33-2",
@@ -3594,7 +5513,20 @@
       "Its key industries include iron and steel, automobiles, machinery and chemicals."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the source of iron ore. The notes state that the Ruhr Region obtained iron ore from Lorraine, not from the Ruhr."
+     "explanation": "The incorrect detail is the source of iron ore. The notes state that the Ruhr Region obtained iron ore from Lorraine, not from the Ruhr.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F21",
+      "F22",
+      "F23",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "world-geography-33-3",
@@ -3608,7 +5540,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify port facilities, skilled labour, technology and market as the main reasons for the development of Tokyo–Yokohama."
+     "explanation": "Both statements are true. The notes identify port facilities, skilled labour, technology and market as the main reasons for the development of Tokyo–Yokohama.",
+     "facts": [
+      "F33",
+      "F34",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     },
     {
      "id": "world-geography-33-4",
@@ -3622,7 +5562,18 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes: New England is described as the oldest industrial region, while Silicon Valley is associated with high-tech, IT, aerospace and electronics."
+     "explanation": "Both statements are directly supported by the notes: New England is described as the oldest industrial region, while Silicon Valley is associated with high-tech, IT, aerospace and electronics.",
+     "facts": [
+      "F123",
+      "F124",
+      "F125",
+      "F126",
+      "F127",
+      "F128",
+      "F129",
+      "F130",
+      "F131"
+     ]
     },
     {
      "id": "world-geography-33-5",
@@ -3636,7 +5587,24 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I, III and IV are correct. Statement II is incorrect because the Pearl River Delta is associated with electronics, textiles, light manufacturing and toys, not heavy machinery."
+     "explanation": "Statements I, III and IV are correct. Statement II is incorrect because the Pearl River Delta is associated with electronics, textiles, light manufacturing and toys, not heavy machinery.",
+     "facts": [
+      "F66",
+      "F67",
+      "F68",
+      "F69",
+      "F76",
+      "F77",
+      "F78",
+      "F79",
+      "F83",
+      "F84",
+      "F85",
+      "F86",
+      "F120",
+      "F121",
+      "F122"
+     ]
     },
     {
      "id": "world-geography-33-6",
@@ -3650,7 +5618,23 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Northern Italy—Textiles, Automobiles, Machinery, Fashion; Ural Region—Iron & Steel, Heavy machinery, Defence; Pearl River Delta—Electronics, Textiles, Light manufacturing, Toys; Ontario–St. Lawrence—Steel, Automobiles, Paper & Pulp."
+     "explanation": "The correct pairs are: Northern Italy—Textiles, Automobiles, Machinery, Fashion; Ural Region—Iron & Steel, Heavy machinery, Defence; Pearl River Delta—Electronics, Textiles, Light manufacturing, Toys; Ontario–St. Lawrence—Steel, Automobiles, Paper & Pulp.",
+     "facts": [
+      "F99",
+      "F100",
+      "F101",
+      "F113",
+      "F114",
+      "F115",
+      "F116",
+      "F133",
+      "F134",
+      "F135",
+      "F66",
+      "F67",
+      "F68",
+      "F69"
+     ]
     },
     {
      "id": "world-geography-33-7",
@@ -3664,9 +5648,549 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four regions list chemicals among their key industries: Ruhr Region, Yangtze River Delta / Shanghai, Moscow–Tula and Sao Paulo."
+     "explanation": "All four regions list chemicals among their key industries: Ruhr Region, Yangtze River Delta / Shanghai, Moscow–Tula and Sao Paulo.",
+     "facts": [
+      "F17",
+      "F57",
+      "F85",
+      "F143"
+     ]
+    },
+    {
+     "id": "world-geography-33-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements about the Great Lakes Manufacturing Belt:\nI. Manufacturing is a key industry of the belt.\nII. Iron ore from the Mesabi Range supports its development.\nIII. Coal from Appalachia supports its development.\nIV. Great Lakes water transport supports its development.\nV. Skilled labour supports its development.",
+     "options": [
+      "I, II, III, IV and V only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, III, IV and V only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct. Manufacturing is a key industry, while Mesabi Range iron ore, Appalachian coal, Great Lakes water transport and skilled labour supported the belt’s development.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "world-geography-33-9",
+     "format": "Direct Recall",
+     "keyword": "Industry → Location",
+     "question": "Which of the following is identified as a key industry of the Ruhr Region?",
+     "options": [
+      "Fashion",
+      "Engineering",
+      "Textiles",
+      "Electronics"
+     ],
+     "answer": 1,
+     "explanation": "Engineering is listed as a key industry of the Ruhr Region.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "world-geography-33-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements:\nStatement A: The Midlands is also called the Black Country and is located in the United Kingdom.\nStatement B: Iron and steel, engineering, automobiles and textiles are key industries of the Midlands.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Midlands, or Black Country, is in the United Kingdom, and its listed key industries are iron and steel, engineering, automobiles and textiles.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "world-geography-33-11",
+     "format": "Assertion-Reason",
+     "keyword": "Industry → Location",
+     "question": "Assertion (A): The Midlands developed as an industrial region.\nReason (R): Its development was supported by the early Industrial Revolution, coal, iron ore, and the canal and rail network.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both A and R are true, and the listed historical, mineral and transport factors explain the development of the Midlands. These included the early Industrial Revolution, coal, iron ore, and the canal and rail network.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-33-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements about Tokyo–Yokohama:\nI. Electronics are a key industry.\nII. Automobiles are a key industry.\nIII. Shipbuilding is a key industry.\nIV. Chemicals are a key industry.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and IV only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Electronics, automobiles, shipbuilding and chemicals are listed as key industries of Tokyo–Yokohama.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "world-geography-33-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements:\nStatement A: Osaka–Kobe is also known as the Hanshin industrial region.\nStatement B: Osaka–Kobe is located in Japan.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Osaka–Kobe is identified as the Hanshin industrial region and is located in Japan.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "world-geography-33-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements about Osaka–Kobe:\nI. Steel is a key industry.\nII. Shipbuilding is a key industry.\nIII. Textiles are a key industry.\nIV. Engineering is a key industry.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Steel, shipbuilding, textiles and engineering are listed as key industries of Osaka–Kobe.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "world-geography-33-15",
+     "format": "Assertion-Reason",
+     "keyword": "Industry → Development Factors",
+     "question": "Assertion (A): The development of Osaka–Kobe was supported by port access, coal imports, iron imports and dense population.\nReason (R): Osaka–Kobe is also known as the Hanshin industrial region.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Port access, coal imports, iron imports and dense population supported the development of Osaka–Kobe. Its alternate name, Hanshin, does not explain these development factors.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "world-geography-33-16",
+     "format": "List-Matching",
+     "keyword": "Industrial Region → Key Features",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Centre of the Yangtze River Delta industrial region\n b. Country of the Yangtze River Delta industrial region\n c. Key industries: electronics and textiles\n d. Key industries: steel and automobiles\n\nList-II\n i. China\n ii. Shanghai\n iii. Electronics and Textiles\n iv. Steel and Automobiles",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Yangtze River Delta is centred on Shanghai and is located in China. Its listed industries include electronics, textiles, steel and automobiles.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "world-geography-33-17",
+     "format": "Count-Based",
+     "keyword": "Industry → Development Factors",
+     "question": "How many of the following support the development of the Yangtze River Delta?\n\n1. The port of Shanghai\n2. Labour\n3. The market\n4. Government policy",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed factors—the port of Shanghai, labour, the market and government policy—support the development of the Yangtze River Delta.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "world-geography-33-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industrial Region → Location",
+     "question": "Consider the following statements:\nStatement A: The Pearl River Delta is in China.\nStatement B: The Pearl River Delta is located in Guangdong.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Pearl River Delta is located in China, specifically in Guangdong.",
+     "facts": [
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "world-geography-33-19",
+     "format": "Count-Based",
+     "keyword": "Industry → Development Factors",
+     "question": "How many of the following support the development of the Pearl River Delta?\n\n1. An export-oriented economy\n2. The port of Hong Kong\n3. The port of Shenzhen\n4. Cheap labour",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed factors support the Pearl River Delta: an export-oriented economy, the ports of Hong Kong and Shenzhen, and cheap labour.",
+     "facts": [
+      "F70",
+      "F71",
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "world-geography-33-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industrial Region → Location",
+     "question": "Consider the following statements:\nStatement A: Manchuria is in China.\nStatement B: Manchuria is also called Northeast China.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Manchuria is located in China and is also known as Northeast China.",
+     "facts": [
+      "F74",
+      "F75"
+     ]
+    },
+    {
+     "id": "world-geography-33-21",
+     "format": "Assertion-Reason",
+     "keyword": "Industry → Development Factors",
+     "question": "Assertion (A): Coal deposits support the development of Manchuria.\nReason (R): Iron ore deposits support the development of Manchuria.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Coal deposits and iron ore deposits are both stated as factors supporting Manchuria's development. The reason is a separate supporting factor and does not explain the assertion.",
+     "facts": [
+      "F80",
+      "F81"
+     ]
+    },
+    {
+     "id": "world-geography-33-22",
+     "format": "Direct Recall",
+     "keyword": "Industrial Region → Location",
+     "question": "Moscow–Tula is located in which country?",
+     "options": [
+      "Russia",
+      "China",
+      "Ukraine",
+      "Japan"
+     ],
+     "answer": 0,
+     "explanation": "Moscow–Tula is an industrial region in Russia.",
+     "facts": [
+      "F82"
+     ]
+    },
+    {
+     "id": "world-geography-33-23",
+     "format": "Assertion-Reason",
+     "keyword": "Industrial Region → Reasons for Development",
+     "question": "Assertion (A): The development of Moscow–Tula is supported by the market and skilled labour.\nReason (R): Transport and nearby resources also support the development of Moscow–Tula.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The market and skilled labour, as well as transport and nearby resources, support the development of Moscow–Tula; however, the Reason adds separate supporting factors rather than explaining the Assertion.",
+     "facts": [
+      "F87",
+      "F88",
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "world-geography-33-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industrial Region → Location",
+     "question": "Consider the following statements:\nStatement A: The Donbas is also called the Donetsk Basin.\nStatement B: The Donbas is a region of Ukraine and Russia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Donbas is also known as the Donetsk Basin and is located in a region of Ukraine and Russia.",
+     "facts": [
+      "F91",
+      "F92"
+     ]
+    },
+    {
+     "id": "world-geography-33-25",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industrial Region → Key Industries",
+     "question": "Consider the following statements about the Donbas:\nI. Coal is a key industry of the Donbas.\nII. Iron and steel are key industries of the Donbas.\nIII. Heavy machinery is a key industry of the Donbas.\nIV. Coal and iron ore deposits support the development of the Donbas.",
+     "options": [
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. The Donbas has coal, iron and steel, and heavy machinery industries, and its development is supported by coal and iron ore deposits.",
+     "facts": [
+      "F93",
+      "F94",
+      "F95",
+      "F96",
+      "F97"
+     ]
+    },
+    {
+     "id": "world-geography-33-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements about the Ural Region:\nI. The Ural Region is in Russia.\nII. Mineral resources support the development of the Ural Region.\nIII. Iron is a mineral resource of the Ural Region.\nIV. Copper is a mineral resource of the Ural Region.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. The Ural Region is in Russia, and its development is supported by mineral resources including iron and copper.",
+     "facts": [
+      "F98",
+      "F102",
+      "F103",
+      "F104"
+     ]
+    },
+    {
+     "id": "world-geography-33-27",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industrial Region → Location",
+     "question": "Consider the following statements:\nStatement A: The Kuznetsk Basin is also called Kuzbass.\nStatement B: The Kuznetsk Basin is in Siberia, Russia.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Kuznetsk Basin is also known as Kuzbass and is located in Siberia, Russia.",
+     "facts": [
+      "F105",
+      "F106"
+     ]
+    },
+    {
+     "id": "world-geography-33-28",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industrial Region → Key Industries",
+     "question": "Consider the following statements about the Kuznetsk Basin:\nI. Coal is a key industry of the Kuznetsk Basin.\nII. Metallurgy is a key industry of the Kuznetsk Basin.\nIII. Chemicals are a key industry of the Kuznetsk Basin.\nIV. Vast coal reserves support the development of the Kuznetsk Basin.",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. Coal, metallurgy and chemicals are key industries of the Kuznetsk Basin, whose development is supported by vast coal reserves.",
+     "facts": [
+      "F107",
+      "F108",
+      "F109",
+      "F110"
+     ]
+    },
+    {
+     "id": "world-geography-33-29",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industrial Region → Location",
+     "question": "Consider the following statements:\nStatement A: Northern Italy is also called the Industrial Triangle.\nStatement B: Northern Italy's Industrial Triangle covers Lombardy, Piedmont and Liguria.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Northern Italy is known as the Industrial Triangle, covering Lombardy, Piedmont and Liguria.",
+     "facts": [
+      "F111",
+      "F112"
+     ]
+    },
+    {
+     "id": "world-geography-33-30",
+     "format": "Count-Based",
+     "keyword": "Industrial Region → Reasons for Development",
+     "question": "How many of the following support the development of Northern Italy?\n1. Skilled labour\n2. The market\n3. Textiles\n4. Automobiles",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Two listed factors—skilled labour and the market—support the development of Northern Italy. Textiles and automobiles are key industries, not the listed development factors in this question.",
+     "facts": [
+      "F117",
+      "F118"
+     ]
+    },
+    {
+     "id": "world-geography-33-31",
+     "format": "List-Matching",
+     "keyword": "Industry → Region",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ontario–St. Lawrence\n(b) Silesia\n(c) São Paulo\n(d) Gauteng\n\nList-II\n(i) Canada — Steel, Automobiles, Paper & Pulp\n(ii) Poland — Coal, Steel, Heavy industry\n(iii) Brazil — Automobiles, Textiles, Chemicals, Food processing\n(iv) South Africa — Mining-based, Steel, Automotive production",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Ontario–St. Lawrence is in Canada; Silesia is in Poland and has coal, steel and heavy industry. São Paulo is in Brazil and has automobiles, textiles, chemicals and food processing, while Gauteng is in South Africa and is mining-based with steel and automotive production.",
+     "facts": [
+      "F132",
+      "F136",
+      "F137",
+      "F138",
+      "F139",
+      "F140",
+      "F141",
+      "F142",
+      "F144",
+      "F145",
+      "F146",
+      "F147",
+      "F148"
+     ]
+    },
+    {
+     "id": "world-geography-33-32",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements about São Paulo:\n\nI. São Paulo is in Brazil.\nII. Automobiles are a key industry of São Paulo.\nIII. Textiles are a key industry of São Paulo.\nIV. Food processing is a key industry of São Paulo.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: São Paulo is in Brazil, and its key industries include automobiles, textiles and food processing.",
+     "facts": [
+      "F140",
+      "F141",
+      "F142",
+      "F144"
+     ]
+    },
+    {
+     "id": "world-geography-33-33",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industry → Location",
+     "question": "Consider the following statements:\nStatement A: Gauteng is in South Africa and is mining-based.\nStatement B: Steel and automotive production are key industries of Gauteng.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Gauteng is a mining-based region in South Africa, with steel and automotive production as key industries.",
+     "facts": [
+      "F145",
+      "F146",
+      "F147",
+      "F148"
+     ]
+    },
+    {
+     "id": "world-geography-33-34",
+     "format": "Direct Recall",
+     "keyword": "Industry Region → Development Factor",
+     "question": "Which factor supports the development of Northern Italy?",
+     "options": [
+      "Market",
+      "Hydropower",
+      "Skilled labour",
+      "Textiles"
+     ],
+     "answer": 1,
+     "explanation": "Hydropower supports the development of Northern Italy.",
+     "facts": [
+      "F119"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 148,
+    "covered": 148,
+    "audited": true
+   }
   }
  }
 }
