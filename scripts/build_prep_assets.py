@@ -82,9 +82,11 @@ def main() -> None:
                 fact_text = {f["id"]: f["text"] for f in fl}
                 codes, sub, tag = tracker_lines(rec["tracker"], units)
                 p1, p2 = sh.get("pages", [0, 0])
+                source = f"{name} · ROCKET SHEET #{sh['id']} · pp {p1}-{p2}"
                 secs = [
                     {"t": f"Key facts ({len(fl)})", "badges": ["ROCKET"], "p": p1,
-                     "b": [{"k": "b", "x": [[f["text"], 0]]} for f in fl]},
+                     "b": [{"k": "n", "x": [["Source: ", 1], [f"{name} – ROCKET Sheets.pdf, ROCKET SHEET #{sh['id']}, pages {p1}-{p2}", 0]]}]
+                     + [{"k": "b", "x": [[f["text"] + " ", 0], [f"[{source}]", 4]]} for f in fl]},
                     {"t": "Sheet text (PDF)", "badges": [], "p": p1, "b": paragraphs(sh["text"])},
                 ]
                 row_index = len(idx_rows) + len(rows)
@@ -98,7 +100,8 @@ def main() -> None:
                     "id": "n" + q["id"], "s": q["question"], "o": q["options"], "a": q["answer"],
                     "x": q["explanation"],
                     "tq": f"{q['format']} · tests the “{q['keyword']}” angle" if q.get("keyword") else q["format"],
-                    **({"n": [fact_text[f] for f in q.get("facts", []) if f in fact_text]} if q.get("facts") else {}),
+                    **({"n": [f"{fact_text[f]} [{name} · ROCKET SHEET #{sh['id']} · pp {p1}-{p2}]"
+                              for f in q.get("facts", []) if f in fact_text]} if q.get("facts") else {}),
                 } for q in rec["mcqs"]]
                 if qs:
                     mcq_rows[str(row_index)] = qs

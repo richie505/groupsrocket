@@ -411,7 +411,7 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int) {
         }
         if (q.notes.isNotEmpty()) {
             Spacer(Modifier.height(10.dp))
-            Text("EXAM NOTE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.ExamInk, letterSpacing = 0.8.sp))
+            Text("FACTS TESTED · SOURCE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.ExamInk, letterSpacing = 0.8.sp))
             q.notes.forEach {
                 Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 3.dp))
             }
