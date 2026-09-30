@@ -1,6 +1,14 @@
 package com.groupsrocket.mcq
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.runtime.mutableStateMapOf
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -49,26 +57,45 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
     }
 
     var pos by remember(quiz) { mutableIntStateOf(0) }
-    var chosen by remember(quiz) { mutableStateOf<Int?>(null) }
-    val wrong = remember(quiz) { mutableStateListOf<Mcq>() }
-    var correct by remember(quiz) { mutableIntStateOf(0) }
+    val answers = remember(quiz) { mutableStateMapOf<Int, Int>() } // question index -> chosen option
+    val skipped = remember(quiz) { mutableStateListOf<Int>() }
+    val hints = remember(quiz) { mutableStateMapOf<Int, List<Int>>() } // question index -> eliminated options
     var finished by remember(quiz) { mutableStateOf(false) }
+    val correct = answers.count { (i, a) -> questions[i].answer == a }
+    val wrong = answers.filter { (i, a) -> questions[i].answer != a }.keys.sorted().map { questions[it] }
+    val skippedQs = skipped.filter { it !in answers }.sorted().map { questions[it] }
+
+    fun finish() {
+        finished = true
+        quiz.day?.let { app.progress.markDayDone(it) }
+        // Score every sheet whose full question set was answered in this quiz.
+        questions.indices.groupBy { questions[it].sheet }.forEach { (ref, idx) ->
+            if (idx.size == app.index.sheet(ref)?.count && idx.all { it in answers }) {
+                app.progress.recordSheetScore(ref, idx.count { questions[it].answer == answers[it] } * 100 / idx.size)
+            }
+        }
+    }
 
     if (finished) {
-        val pct = correct * 100 / questions.size
+        val answered = answers.size
+        val pct = if (answered == 0) 0 else correct * 100 / answered
         Column(
             Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Text("$pct%", style = MaterialTheme.typography.displayLarge, color = scoreColor(pct), fontWeight = FontWeight.Bold)
-            Text("$correct of ${questions.size} correct", style = MaterialTheme.typography.titleMedium)
+            Text("$correct of $answered answered correctly", style = MaterialTheme.typography.titleMedium)
+            if (skippedQs.isNotEmpty()) Text("${skippedQs.size} skipped", style = MaterialTheme.typography.bodyMedium)
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 if (wrong.isNotEmpty()) {
-                    Button(onClick = { onRetry(Screen.Quiz("${quiz.title} · Retry", wrong.toList())) }) { Text("Retry wrong (${wrong.size})") }
+                    Button(onClick = { onRetry(Screen.Quiz("${quiz.title} · Retry", wrong)) }) { Text("Retry wrong (${wrong.size})") }
                 }
-                OutlinedButton(onClick = onExit) { Text("Done") }
+                if (skippedQs.isNotEmpty()) {
+                    OutlinedButton(onClick = { onRetry(Screen.Quiz("${quiz.title} · Skipped", skippedQs)) }) { Text("Practise skipped (${skippedQs.size})") }
+                }
             }
+            OutlinedButton(onClick = onExit) { Text("Done") }
             if (wrong.isNotEmpty()) {
                 HorizontalDivider()
                 Text("Review your mistakes", style = MaterialTheme.typography.titleMedium, modifier = Modifier.fillMaxWidth())
@@ -88,24 +115,39 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
 
     val q = questions[pos]
     val sheet = app.index.sheet(q.sheet)
+    val chosen = answers[pos]
+    val eliminated = hints[pos].orEmpty()
     @Suppress("UNUSED_VARIABLE") val v = app.progress.version
 
+    fun next() {
+        if (pos == questions.lastIndex) finish() else pos++
+    }
+
     Column(Modifier.fillMaxSize()) {
-        LinearProgressIndicator(
-            progress = { (pos + 1f) / questions.size },
-            modifier = Modifier.fillMaxWidth(),
-            drawStopIndicator = {},
-        )
         Column(
             Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    "Question ${pos + 1} of ${questions.size}  ·  ✓ $correct",
-                    style = MaterialTheme.typography.labelLarge,
+                    "Question ${pos + 1} of ${questions.size}",
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold,
                     modifier = Modifier.weight(1f),
                 )
+                Text("Score $correct", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            LinearProgressIndicator(
+                progress = { (pos + 1f) / questions.size },
+                modifier = Modifier.fillMaxWidth().height(6.dp),
+                drawStopIndicator = {},
+            )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Tag(q.format)
+                    if (sheet != null) Tag(sheet.subjectName, MaterialTheme.colorScheme.surfaceContainerHighest)
+                }
                 IconButton(onClick = { app.progress.toggleBookmark(q) }) {
                     val marked = app.progress.isBookmarked(q.id)
                     Text(
@@ -114,10 +156,6 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
                         color = if (marked) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
-            }
-            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Tag(q.format)
-                if (q.keyword.isNotBlank()) Tag(q.keyword, MaterialTheme.colorScheme.tertiaryContainer)
             }
             if (sheet != null) {
                 Surface(color = MaterialTheme.colorScheme.secondaryContainer, shape = RoundedCornerShape(8.dp)) {
@@ -129,10 +167,11 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
                     )
                 }
             }
-            Text(q.question, style = MaterialTheme.typography.titleMedium)
+            Text(q.question, style = MaterialTheme.typography.titleLarge)
 
             q.options.forEachIndexed { i, opt ->
                 val answered = chosen != null
+                val out = i in eliminated && !answered
                 val border = when {
                     answered && i == q.answer -> BorderStroke(2.dp, correctGreen)
                     answered && i == chosen -> BorderStroke(2.dp, wrongRed)
@@ -145,31 +184,57 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
                 }
                 Surface(
                     onClick = {
-                        if (!answered) {
-                            chosen = i
-                            val ok = i == q.answer
-                            if (ok) correct++ else wrong.add(q)
-                            app.progress.record(q, ok)
+                        if (!answered && !out) {
+                            answers[pos] = i
+                            skipped.remove(pos)
+                            app.progress.record(q, i == q.answer)
                         }
                     },
-                    shape = RoundedCornerShape(10.dp),
+                    shape = RoundedCornerShape(14.dp),
                     border = border,
                     color = bg,
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth().alpha(if (out) 0.4f else 1f),
                 ) {
-                    Row(Modifier.padding(14.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        Text("${'A' + i})", fontWeight = FontWeight.Bold)
-                        Text(opt, style = MaterialTheme.typography.bodyLarge)
+                    Row(Modifier.padding(14.dp), horizontalArrangement = Arrangement.spacedBy(14.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Box(
+                            Modifier.size(34.dp).background(MaterialTheme.colorScheme.surfaceContainerHighest, CircleShape),
+                            contentAlignment = Alignment.Center,
+                        ) { Text("${i + 1}", fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                        Text(
+                            opt,
+                            style = MaterialTheme.typography.bodyLarge,
+                            textDecoration = if (out) TextDecoration.LineThrough else null,
+                        )
                     }
                 }
             }
 
-            if (chosen != null) {
+            if (chosen == null) {
+                if (eliminated.isEmpty()) {
+                    OutlinedButton(
+                        onClick = {
+                            // Cross out two wrong options (a fixed pick per question).
+                            val wrongOpts = q.options.indices.filter { it != q.answer }
+                            hints[pos] = wrongOpts.shuffled(java.util.Random(q.id.hashCode().toLong())).take(2)
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(14.dp),
+                    ) { Text("Stuck? Show a hint", modifier = Modifier.padding(vertical = 6.dp)) }
+                } else {
+                    Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh)) {
+                        Text(
+                            "Hint: two wrong options are crossed out." + if (q.keyword.isNotBlank()) " This question tests the \"${q.keyword}\" angle." else "",
+                            style = MaterialTheme.typography.bodyMedium,
+                            modifier = Modifier.padding(14.dp),
+                        )
+                    }
+                }
+            } else {
                 val ok = chosen == q.answer
                 Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh)) {
                     Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         Text(
-                            if (ok) "Correct!" else "Wrong — answer is ${'A' + q.answer}",
+                            if (ok) "Correct!" else "Wrong — correct answer is option ${q.answer + 1}",
                             color = if (ok) correctGreen else wrongRed,
                             fontWeight = FontWeight.Bold,
                         )
@@ -178,25 +243,19 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
                 }
             }
         }
-        Button(
-            onClick = {
-                if (pos == questions.lastIndex) {
-                    finished = true
-                    quiz.day?.let { app.progress.markDayDone(it) }
-                    // Score every sheet whose full question set was part of this quiz.
-                    val wrongIds = wrong.map { it.id }.toSet()
-                    questions.groupBy { it.sheet }.forEach { (ref, qs) ->
-                        if (qs.size == app.index.sheet(ref)?.count) {
-                            app.progress.recordSheetScore(ref, (qs.size - qs.count { it.id in wrongIds }) * 100 / qs.size)
-                        }
-                    }
-                } else {
-                    pos++
-                    chosen = null
-                }
-            },
-            enabled = chosen != null,
-            modifier = Modifier.fillMaxWidth().padding(16.dp),
-        ) { Text(if (pos == questions.lastIndex) "Finish" else "Next") }
+        Row(
+            Modifier.fillMaxWidth().padding(16.dp),
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            OutlinedButton(onClick = { pos-- }, enabled = pos > 0, modifier = Modifier.weight(1f)) { Text("Previous") }
+            OutlinedButton(
+                onClick = { if (pos !in skipped) skipped.add(pos); next() },
+                enabled = chosen == null,
+                modifier = Modifier.weight(1f),
+            ) { Text("Skip") }
+            Button(onClick = ::next, enabled = chosen != null, modifier = Modifier.weight(1.3f)) {
+                Text(if (pos == questions.lastIndex) "Finish" else "Next")
+            }
+        }
     }
 }
