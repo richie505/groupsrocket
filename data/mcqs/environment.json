@@ -358,7 +358,11 @@
       "Stockholm, 1972"
      ],
      "answer": 3,
-     "explanation": "The Stockholm Conference, held in 1972, was the first World Conference on Environment."
+     "explanation": "The Stockholm Conference, held in 1972, was the first World Conference on Environment.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "environment-3-2",
@@ -372,7 +376,13 @@
       "The headquarters of UNEP is in Nairobi, Kenya."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters UNEP’s origin. UNEP originated from the Stockholm Conference, not the Rio Earth Summit of 1992."
+     "explanation": "The incorrect statement alters UNEP’s origin. UNEP originated from the Stockholm Conference, not the Rio Earth Summit of 1992.",
+     "facts": [
+      "F4",
+      "F5",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "environment-3-3",
@@ -386,7 +396,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the adoption of the UNFCCC at Rio in 1992 does not explain the specific date on which it entered into force."
+     "explanation": "Both statements are true according to the notes. However, the adoption of the UNFCCC at Rio in 1992 does not explain the specific date on which it entered into force.",
+     "facts": [
+      "F14",
+      "F15",
+      "F8"
+     ]
     },
     {
      "id": "environment-3-4",
@@ -400,7 +415,15 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: UNCCD—Desertification and land degradation; Convention on Biological Diversity—Biodiversity conservation; Cartagena Protocol—Biosafety/LMOs-GMOs; Nagoya Protocol—Access and Benefit Sharing."
+     "explanation": "The correct pairs are: UNCCD—Desertification and land degradation; Convention on Biological Diversity—Biodiversity conservation; Cartagena Protocol—Biosafety/LMOs-GMOs; Nagoya Protocol—Access and Benefit Sharing.",
+     "facts": [
+      "F19",
+      "F20",
+      "F28",
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "environment-3-5",
@@ -414,7 +437,14 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct. The notes associate the Ramsar Convention with wetlands, February 2nd, World Wetlands Day, and conservation along with wise or sustainable use."
+     "explanation": "All four statements are correct. The notes associate the Ramsar Convention with wetlands, February 2nd, World Wetlands Day, and conservation along with wise or sustainable use.",
+     "facts": [
+      "F35",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
     }
    ]
   },
@@ -530,7 +560,10 @@
       "Article 48A"
      ],
      "answer": 1,
-     "explanation": "The constitutional basis of the Environment (Protection) Act, 1986 is Article 253."
+     "explanation": "The constitutional basis of the Environment (Protection) Act, 1986 is Article 253.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "environment-5-2",
@@ -544,7 +577,12 @@
       "The National Green Tribunal was established under the NGT Act, 2010."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 2011. The National Green Tribunal was established on 18 October 2010."
+     "explanation": "The incorrect detail is the year 2011. The National Green Tribunal was established on 18 October 2010.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "environment-5-3",
@@ -558,7 +596,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Article 48A contains the directive concerning the environment, forests and wildlife, while the 42nd Constitutional Amendment Act, 1976 introduced it; the Reason provides its constitutional background rather than explaining the content of the directive."
+     "explanation": "Both statements are true. Article 48A contains the directive concerning the environment, forests and wildlife, while the 42nd Constitutional Amendment Act, 1976 introduced it; the Reason provides its constitutional background rather than explaining the content of the directive.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "environment-5-4",
@@ -572,7 +617,15 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are GEAC–genetically engineered organisms and biotechnology regulation, CGWA–Section 3(3) of the Environment (Protection) Act, NGT–NGT Act, 2010, and CPCB–Water Act, 1974."
+     "explanation": "The correct pairs are GEAC–genetically engineered organisms and biotechnology regulation, CGWA–Section 3(3) of the Environment (Protection) Act, NGT–NGT Act, 2010, and CPCB–Water Act, 1974.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F32",
+      "F41",
+      "F40"
+     ]
     },
     {
      "id": "environment-5-5",
@@ -586,7 +639,130 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements are correct: Section 3(3) concerns constitution of authorities, Section 5 concerns directions and measures, Sections 15–21 contain penal provisions, and the last amendment mentioned was in 1991."
+     "explanation": "All four statements are correct: Section 3(3) concerns constitution of authorities, Section 5 concerns directions and measures, Sections 15–21 contain penal provisions, and the last amendment mentioned was in 1991.",
+     "facts": [
+      "F8",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-5-6",
+     "format": "Assertion-Reason",
+     "keyword": "Environment Protection",
+     "question": "Assertion (A): The purpose of the Environment (Protection) Act includes protection and improvement of the environment.\nReason (R): The Central Government has a major coordinating and enabling role under the Act.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Protection and improvement describe the purpose of the Act, while the Central Government’s coordinating and enabling role is a separate institutional provision and does not explain that purpose.",
+     "facts": [
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "environment-5-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Environment Protection",
+     "question": "Consider the following statements about Article 51A(g):\nI. It directs citizens to protect the natural environment.\nII. It directs citizens to improve the natural environment.\nIII. It directs citizens to show compassion for living creatures.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements correctly describe the directions under Article 51A(g): protection and improvement of the natural environment, along with compassion for living creatures.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-5-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Environment Protection",
+     "question": "Consider the following statements about the Genetic Engineering Appraisal Committee:\nI. It was constituted under the Environment (Protection) Act, 1986.\nII. Its earlier name was the Genetic Engineering Approval Committee.\nIII. The Genetic Engineering Approval Committee was renamed the Genetic Engineering Appraisal Committee in 2010.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The committee was constituted under the Environment (Protection) Act, 1986, was earlier called the Genetic Engineering Approval Committee, and was renamed in 2010.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "environment-5-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Environment Protection",
+     "question": "Consider the following statements:\nStatement A: The Central Ground Water Authority regulates and controls groundwater development.\nStatement B: The Central Ground Water Authority regulates and controls groundwater management.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Central Ground Water Authority regulates and controls both groundwater development and groundwater management.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-5-10",
+     "format": "Count-Based",
+     "keyword": "NGT",
+     "question": "How many of the following are associated with the National Green Tribunal?\nI. Environmental matters\nII. Forests\nIII. Natural resources\nIV. A constitutional connection with Article 21\nV. The concept of the right to a healthy environment",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only three",
+      "Only two"
+     ],
+     "answer": 1,
+     "explanation": "All five listed features are associated with the National Green Tribunal. It covers environmental matters, forests and natural resources, has a constitutional connection with Article 21, and is based on the concept of the right to a healthy environment.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "environment-5-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "Consider the following statements about the Central Pollution Control Board:\nStatement A: It prevents water pollution.\nStatement B: It controls water pollution.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Prevention and control of water pollution are among the functions of the Central Pollution Control Board.",
+     "facts": [
+      "F42",
+      "F43"
+     ]
     }
    ]
   },
@@ -702,7 +878,10 @@
       "The Green India Mission"
      ],
      "answer": 1,
-     "explanation": "The notes state that the concept of the greenhouse effect was proposed by Joseph Fourier in the 1820s."
+     "explanation": "The notes state that the concept of the greenhouse effect was proposed by Joseph Fourier in the 1820s.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "environment-7-2",
@@ -716,7 +895,12 @@
       "Developed countries undertake projects in developing countries."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement reverses the arrangement given in the notes. The notes state that developed countries undertake projects in developing countries."
+     "explanation": "The incorrect statement reverses the arrangement given in the notes. The notes state that developed countries undertake projects in developing countries.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "environment-7-3",
@@ -730,7 +914,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The Green India Mission responds to climate change through adaptation and mitigation. It also aims to protect, restore and enhance forest cover."
+     "explanation": "The Green India Mission responds to climate change through adaptation and mitigation. It also aims to protect, restore and enhance forest cover.",
+     "facts": [
+      "F36"
+     ]
     },
     {
      "id": "environment-7-4",
@@ -744,7 +931,14 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: COP21–Paris, 2015; Clean Development Mechanism–Article 12; 1 CER–1 tonne CO₂ equivalent; and COP26–Glasgow."
+     "explanation": "The correct pairs are: COP21–Paris, 2015; Clean Development Mechanism–Article 12; 1 CER–1 tonne CO₂ equivalent; and COP26–Glasgow.",
+     "facts": [
+      "F21",
+      "F25",
+      "F28",
+      "F43",
+      "F27"
+     ]
     },
     {
      "id": "environment-7-5",
@@ -758,9 +952,201 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV agree with the notes. Statement III is incorrect because argon is identified as not being a greenhouse gas."
+     "explanation": "Statements I, II and IV agree with the notes. Statement III is incorrect because argon is identified as not being a greenhouse gas.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F19"
+     ]
+    },
+    {
+     "id": "environment-7-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Environment Protection",
+     "question": "Consider the following statements:\nStatement A: The greenhouse effect is natural warming caused by the absorption and re-radiation of heat by greenhouse gases.\nStatement B: Without the greenhouse effect, Earth’s average temperature would be approximately −18°C.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The greenhouse effect is natural warming resulting from the absorption and re-radiation of heat by greenhouse gases. In its absence, Earth’s average temperature would be approximately −18°C.",
+     "facts": [
+      "F1",
+      "F3"
+     ]
+    },
+    {
+     "id": "environment-7-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Greenhouse Gases",
+     "question": "Consider the following statements:\nI. Water vapour, carbon dioxide, methane, nitrous oxide and ozone are natural greenhouse gases.\nII. CFCs, HFCs, PFCs and SF₆ are anthropogenic or synthetic greenhouse gases.\nIII. Carbon dioxide is a major contributor to global warming.",
+     "options": [
+      "II and III only",
+      "I and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Water vapour, carbon dioxide, methane, nitrous oxide and ozone are natural greenhouse gases. CFCs, HFCs, PFCs and SF₆ are anthropogenic or synthetic greenhouse gases, and carbon dioxide is a major contributor to global warming.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "environment-7-8",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Pollution",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "Paddy fields are a source of methane under anaerobic conditions.",
+      "Carbon dioxide is a major contributor to global warming.",
+      "Hydrogen is a greenhouse gas.",
+      "Nitrogen fertilisers are a source of nitrous oxide."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement is that hydrogen is a greenhouse gas. Hydrogen is not a greenhouse gas; the other statements correctly identify methane, nitrous oxide and carbon dioxide-related facts.",
+     "facts": [
+      "F7",
+      "F18",
+      "F20"
+     ]
+    },
+    {
+     "id": "environment-7-9",
+     "format": "Direct Recall",
+     "keyword": "Climate Change/Conference",
+     "question": "Which of the following correctly describes the Clean Development Mechanism?",
+     "options": [
+      "It generates Certified Emission Reductions and is one of the eight NAPCC missions.",
+      "It generates Certified Emission Reductions and is one of Kyoto’s flexible mechanisms.",
+      "It generates Certified Emission Reductions and is one of the Paris Agreement’s core targets.",
+      "It generates carbon intensity targets and is one of Kyoto’s flexible mechanisms."
+     ],
+     "answer": 1,
+     "explanation": "The Clean Development Mechanism generates Certified Emission Reductions (CERs) and is one of the flexible mechanisms of the Kyoto Protocol.",
+     "facts": [
+      "F24",
+      "F26"
+     ]
+    },
+    {
+     "id": "environment-7-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Climate Change/Conference",
+     "question": "Consider the following statements:\nI. The Paris Agreement aims to keep warming well below 2°C above the pre-industrial level.\nII. The Paris Agreement aims to pursue efforts toward limiting warming to 1.5°C above the pre-industrial level.\nIII. INDC stands for Intended Nationally Determined Contributions.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "The Paris Agreement contains both the well-below-2°C aim and the effort to limit warming to 1.5°C above the pre-industrial level. INDC means Intended Nationally Determined Contributions.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-7-11",
+     "format": "List-Matching",
+     "keyword": "Forest Policy",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Status of the Green India Mission\n(b) Forest-cover objective\n(c) Specific areas of focus\n(d) Additional focus areas\n\nList-II\n(i) Biodiversity and water\n(ii) One of the eight NAPCC missions\n(iii) Protect, restore and enhance forest cover\n(iv) Biomass, mangroves, wetlands and critical habitats",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The Green India Mission is one of the eight NAPCC missions. It aims to protect, restore and enhance forest cover, and focuses on biodiversity, water, biomass, mangroves, wetlands and critical habitats.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "environment-7-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Important Programmes",
+     "question": "Consider the following statements:\nStatement A: The Green India Mission focuses on biomass and mangroves.\nStatement B: The Green India Mission focuses on wetlands and critical habitats.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Green India Mission focuses on biomass, mangroves, wetlands and critical habitats. Therefore, both statements are true.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "environment-7-13",
+     "format": "Direct Recall",
+     "keyword": "Climate Change/Conference",
+     "question": "How many targets are included in Panchamrit?",
+     "options": [
+      "Five",
+      "Eight",
+      "Two",
+      "One"
+     ],
+     "answer": 0,
+     "explanation": "Panchamrit has five targets.",
+     "facts": [
+      "F44"
+     ]
+    },
+    {
+     "id": "environment-7-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Climate Change/Conference",
+     "question": "Consider the following statements regarding India's Panchamrit targets:\nI. India targets 500 GW of non-fossil capacity by 2030.\nII. India targets meeting 50% of its energy requirements from renewable energy by 2030.\nIII. India targets reducing projected cumulative carbon emissions by 1 billion tonnes by 2030.\nIV. India targets reducing carbon intensity by 45% by 2030.\nV. India targets achieving Net Zero by 2070.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV only",
+      "II, III, IV and V only",
+      "I, II, III, IV and V"
+     ],
+     "answer": 3,
+     "explanation": "All five statements correctly state India's Panchamrit targets: 500 GW non-fossil capacity, 50% renewable energy requirements, a 1-billion-tonne reduction in projected cumulative carbon emissions, a 45% reduction in carbon intensity by 2030, and Net Zero by 2070.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 49,
+    "covered": 49,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -1689,7 +2075,10 @@
       "Conservation Reserves"
      ],
      "answer": 1,
-     "explanation": "Section 36C of the Wildlife Protection Act, 1972 deals with Community Reserves."
+     "explanation": "Section 36C of the Wildlife Protection Act, 1972 deals with Community Reserves.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "environment-14-2",
@@ -1703,7 +2092,13 @@
       "The Act received Presidential assent on 9 September 1972."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year of Presidential assent. The correct year is 1972, not 1973."
+     "explanation": "The incorrect detail is the year of Presidential assent. The correct year is 1972, not 1973.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F39"
+     ]
     },
     {
      "id": "environment-14-3",
@@ -1717,7 +2112,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Section 39(1) identifies the Central Government as the owner of an animal hunted in a Sanctuary or National Park declared by it."
+     "explanation": "Both statements are true. Section 39(1) identifies the Central Government as the owner of an animal hunted in a Sanctuary or National Park declared by it.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "environment-14-4",
@@ -1731,7 +2130,13 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: National Tiger Conservation Authority—Statutory body; Project Tiger—1973; Project Elephant—1992; NGT—2010."
+     "explanation": "The correct pairs are: National Tiger Conservation Authority—Statutory body; Project Tiger—1973; Project Elephant—1992; NGT—2010.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "environment-14-5",
@@ -1745,9 +2150,204 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. In National Parks, human activity is not generally permitted except as permitted by the Chief Wildlife Warden, so Statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. In National Parks, human activity is not generally permitted except as permitted by the Chief Wildlife Warden, so Statement IV is incorrect.",
+     "facts": [
+      "F27",
+      "F28",
+      "F30",
+      "F32",
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-14-6",
+     "format": "Direct Recall",
+     "keyword": "Act",
+     "question": "The Wildlife Protection Act was passed by which of the following?",
+     "options": [
+      "State Government",
+      "President",
+      "Central Government",
+      "Parliament"
+     ],
+     "answer": 3,
+     "explanation": "The Wildlife Protection Act was passed by Parliament.",
+     "facts": [
+      "F2"
+     ]
+    },
+    {
+     "id": "environment-14-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wildlife Protection Act",
+     "question": "Which of the following are protected areas under the Wildlife Protection Act?\nI. National Parks\nII. Wildlife Sanctuaries\nIII. Conservation Reserves\nIV. Community Reserves",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "National Parks, Wildlife Sanctuaries, Conservation Reserves and Community Reserves are all protected areas under the Wildlife Protection Act.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "environment-14-8",
+     "format": "Count-Based",
+     "keyword": "Wildlife Protection Act",
+     "question": "How many of the following animals cannot be hunted except as permitted by law?\n1. Gharial\n2. Indian wild ass\n3. Wild buffalo",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "The gharial, Indian wild ass and wild buffalo cannot be hunted except as permitted by law.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "environment-14-9",
+     "format": "Assertion-Reason",
+     "keyword": "Wildlife Protection Act",
+     "question": "Assertion (A): A protected animal may be captured or killed when it poses a danger to human life.\nReason (R): A protected animal may be captured or killed when it is diseased.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both danger to human life and disease are circumstances in which a protected animal may be captured or killed. The disease of an animal does not explain why danger to human life permits capture or killing.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "environment-14-10",
+     "format": "Direct Recall",
+     "keyword": "Wildlife Protection Act",
+     "question": "A protected animal may be captured or killed when it is:",
+     "options": [
+      "Disabled beyond recovery",
+      "Present in a Wildlife Sanctuary",
+      "Present on private land",
+      "A member of a protected species"
+     ],
+     "answer": 0,
+     "explanation": "A protected animal may be captured or killed when it is disabled beyond recovery.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-14-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community Reserve",
+     "question": "Consider the following statements:\nStatement A: Private land may form a Community Reserve.\nStatement B: Community land may form a Community Reserve.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "A Community Reserve may be formed on private land as well as community land.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "environment-14-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Community Reserve",
+     "question": "Consider the following statements regarding the formation of a Community Reserve:\nI. Land already designated as a National Park cannot form a Community Reserve.\nII. Land already designated as a Wildlife Sanctuary cannot form a Community Reserve.\nIII. Land already designated as a Conservation Reserve cannot form a Community Reserve.\nIV. A Community Reserve is declared by the State Government.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Land already designated as a National Park, Wildlife Sanctuary or Conservation Reserve cannot form a Community Reserve. A Community Reserve is declared by the State Government.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "environment-14-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Community Reserve",
+     "question": "Consider the following statements:\nStatement A: The purpose of a Community Reserve is the conservation of fauna and flora.\nStatement B: A Community Reserve conserves traditional and cultural values.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The purpose of a Community Reserve includes conservation of fauna and flora, as well as traditional and cultural conservation values.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "environment-14-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wildlife Sanctuary",
+     "question": "Consider the following statements:\nStatement A: Cattle grazing is regular or allowed in a Wildlife Sanctuary.\nStatement B: Some human activities are permitted in a Wildlife Sanctuary as restricted activities.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "In a Wildlife Sanctuary, cattle grazing is regular or allowed, and some human activities are permitted as restricted activities.",
+     "facts": [
+      "F29",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-14-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wildlife Protection Act",
+     "question": "Consider the following statements:\nStatement A: The legal framework for a Wildlife Sanctuary is the Wildlife Protection Act, 1972.\nStatement B: The legal framework for a National Park is the Wildlife Protection Act, 1972.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Wildlife Protection Act, 1972 provides the legal framework for both Wildlife Sanctuaries and National Parks.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -1863,7 +2463,12 @@
       "World Heritage Convention"
      ],
      "answer": 3,
-     "explanation": "The World Heritage Convention, adopted in 1972, focuses on cultural and natural heritage."
+     "explanation": "The World Heritage Convention, adopted in 1972, focuses on cultural and natural heritage.",
+     "facts": [
+      "F4",
+      "F5",
+      "F2"
+     ]
     },
     {
      "id": "environment-16-2",
@@ -1877,7 +2482,17 @@
       "The Minamata Convention deals with mercury."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the focus of the Rotterdam Convention. It deals with prior informed consent for certain hazardous chemicals and pesticides, whereas biosafety and GMOs are associated with the Cartagena Protocol."
+     "explanation": "The incorrect detail is the focus of the Rotterdam Convention. It deals with prior informed consent for certain hazardous chemicals and pesticides, whereas biosafety and GMOs are associated with the Cartagena Protocol.",
+     "facts": [
+      "F10",
+      "F11",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "environment-16-3",
@@ -1891,7 +2506,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since the Montreal Protocol concerns substances that deplete the ozone layer, it controls their production and consumption."
+     "explanation": "Both statements are true. Since the Montreal Protocol concerns substances that deplete the ozone layer, it controls their production and consumption.",
+     "facts": [
+      "F18",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "environment-16-4",
@@ -1905,7 +2525,16 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are CBD—biodiversity conservation, Cartagena Protocol—biosafety/GMOs, Nagoya Protocol—Access and Benefit Sharing, and ITPGRFA—plant genetic resources for food and agriculture."
+     "explanation": "The correct pairs are CBD—biodiversity conservation, Cartagena Protocol—biosafety/GMOs, Nagoya Protocol—Access and Benefit Sharing, and ITPGRFA—plant genetic resources for food and agriculture.",
+     "facts": [
+      "F8",
+      "F10",
+      "F11",
+      "F13",
+      "F16",
+      "F7",
+      "F15"
+     ]
     },
     {
      "id": "environment-16-5",
@@ -1919,7 +2548,17 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct according to the notes: UNFCCC—1992 climate change framework, Kyoto Protocol—1997 greenhouse gas emission commitments, and Paris Agreement—2015 climate action and temperature goal."
+     "explanation": "All three statements are correct according to the notes: UNFCCC—1992 climate change framework, Kyoto Protocol—1997 greenhouse gas emission commitments, and Paris Agreement—2015 climate action and temperature goal.",
+     "facts": [
+      "F24",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F25"
+     ]
     }
    ]
   },
@@ -3039,7 +3678,13 @@
       "Anthrome"
      ],
      "answer": 0,
-     "explanation": "An ecotone is the transition zone between two ecosystems or communities."
+     "explanation": "An ecotone is the transition zone between two ecosystems or communities.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F12"
+     ]
     },
     {
      "id": "environment-25-2",
@@ -3053,7 +3698,14 @@
       "Alien species are introduced outside their natural range."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the meaning of genetic diversity. Genetic diversity means variation within species, whereas the variety of ecosystems is ecosystem diversity."
+     "explanation": "The incorrect statement alters the meaning of genetic diversity. Genetic diversity means variation within species, whereas the variety of ecosystems is ecosystem diversity.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "environment-25-3",
@@ -3067,7 +3719,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Biological richness and high threat together define a biodiversity hotspot."
+     "explanation": "Both statements are true. Biological richness and high threat together define a biodiversity hotspot.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "environment-25-4",
@@ -3081,7 +3737,14 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Biosphere Reserve—Edward Suess; Ecosystem—A.G. Tansley; Ecology—Reiter & Ernst Haeckel; Biodiversity—Raymond F. Dasmann."
+     "explanation": "The correct pairs are: Biosphere Reserve—Edward Suess; Ecosystem—A.G. Tansley; Ecology—Reiter & Ernst Haeckel; Biodiversity—Raymond F. Dasmann.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "environment-25-5",
@@ -3095,7 +3758,148 @@
       "I and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct: National Parks are in-situ conservation examples, while Seed Banks are ex-situ conservation examples. Sacred Groves are also listed under in-situ conservation, so statement III is incorrect."
+     "explanation": "Statements I and II are correct: National Parks are in-situ conservation examples, while Seed Banks are ex-situ conservation examples. Sacred Groves are also listed under in-situ conservation, so statement III is incorrect.",
+     "facts": [
+      "F27",
+      "F33",
+      "F38"
+     ]
+    },
+    {
+     "id": "environment-25-6",
+     "format": "Assertion-Reason",
+     "keyword": "Terminology",
+     "question": "Assertion (A): Ecology is the study of relationships between organisms and the environment.\nReason (R): An ecosystem is a functional unit of organisms and the environment.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Ecology studies relationships between organisms and the environment, whereas an ecosystem is a functional unit comprising organisms and the environment; the Reason does not explain the Assertion.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "environment-25-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terminology",
+     "question": "Consider the following statements:\nI. Ponds, lakes and swamps are examples of lentic environments.\nII. Rivers and streams are examples of lotic environments.\nIII. Lotic water is flowing water.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Ponds, lakes and swamps are lentic environments, while rivers and streams are lotic environments; lotic water is flowing water.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
+    },
+    {
+     "id": "environment-25-8",
+     "format": "List-Matching",
+     "keyword": "Terminology",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Anthropogenic biome\n b. Ecological footprint\n c. Global hectare\n d. Biogeochemical cycle\n\nList-II\n i. Unit of ecological footprint\n ii. Movement of nutrient elements through ecosystem components\n iii. Human-altered terrestrial biosphere\n iv. Human demand on Earth's ecosystems",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: anthropogenic biome—human-altered terrestrial biosphere; ecological footprint—human demand on Earth's ecosystems; global hectare—unit of ecological footprint; biogeochemical cycle—movement of nutrient elements through ecosystem components.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-25-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biodiversity",
+     "question": "Consider the following statements:\nStatement A: Habitat fragmentation is the breaking of continuous habitat into smaller isolated patches.\nStatement B: Species diversity is the variety of species.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Habitat fragmentation creates smaller isolated patches from continuous habitat, while species diversity refers to the variety of species.",
+     "facts": [
+      "F22",
+      "F24"
+     ]
+    },
+    {
+     "id": "environment-25-10",
+     "format": "Count-Based",
+     "keyword": "Biodiversity",
+     "question": "How many of the following are examples of in-situ conservation?\nI. Wildlife sanctuary\nII. Biosphere reserve\nIII. Reserved forest\nIV. Protected forest\nV. Nature reserve\nVI. Botanical garden",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 2,
+     "explanation": "Five listed items—wildlife sanctuary, biosphere reserve, reserved forest, protected forest and nature reserve—are examples of in-situ conservation. A botanical garden is an ex-situ example.",
+     "facts": [
+      "F26",
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "environment-25-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biodiversity",
+     "question": "Consider the following statements:\nStatement A: Ex-situ conservation occurs outside the natural habitat.\nStatement B: Ex-situ conservation occurs in a controlled environment.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Ex-situ conservation takes place outside the natural habitat and in a controlled environment.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "environment-25-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Biodiversity",
+     "question": "Consider the following statements:\nI. A botanical garden is an example of ex-situ conservation.\nII. A zoological park is an example of ex-situ conservation.\nIII. A gene bank is an example of ex-situ conservation.\nIV. A zoological park is an example of in-situ conservation.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "Statements I, II and III are correct because botanical gardens, zoological parks and gene banks are examples of ex-situ conservation. Statement IV is incorrect because a zoological park is an ex-situ example.",
+     "facts": [
+      "F36",
+      "F37",
+      "F39"
+     ]
     }
    ]
   },
@@ -3125,7 +3929,16 @@
       "Controlled burning of waste"
      ],
      "answer": 1,
-     "explanation": "Compost is decomposed organic waste that becomes a nutrient-rich material."
+     "explanation": "Compost is decomposed organic waste that becomes a nutrient-rich material.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "F10",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "environment-26-2",
@@ -3139,7 +3952,12 @@
       "EPR was introduced under the Plastic Waste Management and Handling Rules, 2011."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 2012. The notes state that EPR was introduced under the Plastic Waste Management and Handling Rules, 2011."
+     "explanation": "The incorrect detail is the year 2012. The notes state that EPR was introduced under the Plastic Waste Management and Handling Rules, 2011.",
+     "facts": [
+      "F11",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "environment-26-3",
@@ -3153,7 +3971,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The catalytic action of microorganisms and conversion of chemical energy into electricity explain how an MFC can support wastewater treatment while generating electricity."
+     "explanation": "Both statements are true. The catalytic action of microorganisms and conversion of chemical energy into electricity explain how an MFC can support wastewater treatment while generating electricity.",
+     "facts": [
+      "F29",
+      "F30",
+      "F32",
+      "F31"
+     ]
     },
     {
      "id": "environment-26-4",
@@ -3167,7 +3991,14 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Vermicompost–compost produced using earthworms, Landfill–disposal in a designated land area, Incineration–controlled burning, and Recycling–processing waste into usable material."
+     "explanation": "The correct pairs are: Vermicompost–compost produced using earthworms, Landfill–disposal in a designated land area, Incineration–controlled burning, and Recycling–processing waste into usable material.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F17"
+     ]
     },
     {
      "id": "environment-26-5",
@@ -3181,7 +4012,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct according to the notes. Animal manure is included among the relevant biomass sources, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct according to the notes. Animal manure is included among the relevant biomass sources, so Statement III is incorrect.",
+     "facts": [
+      "F21",
+      "F24",
+      "F26"
+     ]
     }
    ]
   },
@@ -3211,7 +4047,12 @@
       "1 mm of pure ozone at 0°C and 1 atm"
      ],
      "answer": 1,
-     "explanation": "The notes state that 1 DU represents 0.01 mm of pure O₃ at 0°C and 1 atm."
+     "explanation": "The notes state that 1 DU represents 0.01 mm of pure O₃ at 0°C and 1 atm.",
+     "facts": [
+      "F6",
+      "F26",
+      "F5"
+     ]
     },
     {
      "id": "environment-27-2",
@@ -3225,7 +4066,12 @@
       "It aims at the gradual reduction of HFC consumption and production."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the date. According to the notes, the Kigali Amendment came into force on January 1, 2019."
+     "explanation": "The incorrect detail is the date. According to the notes, the Kigali Amendment came into force on January 1, 2019.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "environment-27-3",
@@ -3239,7 +4085,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Stratospheric ozone protects life because it absorbs harmful UV radiation."
+     "explanation": "Both statements are true. Stratospheric ozone protects life because it absorbs harmful UV radiation.",
+     "facts": [
+      "F4",
+      "F10",
+      "F11",
+      "F12",
+      "F34"
+     ]
     },
     {
      "id": "environment-27-4",
@@ -3253,7 +4106,12 @@
       "a-i, b-ii, c-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: UV-A—315–400 nm, UV-B—280–315 nm, and UV-C—100–280 nm."
+     "explanation": "The correct pairs are: UV-A—315–400 nm, UV-B—280–315 nm, and UV-C—100–280 nm.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "environment-27-5",
@@ -3267,7 +4125,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All four statements are supported by the notes: the Montreal Protocol and Vienna Convention concern ozone, the Antarctic ozone hole was discovered by a British team, and the Tibetan ozone hole or halo is associated with G. W. Kent Moore."
+     "explanation": "All four statements are supported by the notes: the Montreal Protocol and Vienna Convention concern ozone, the Antarctic ozone hole was discovered by a British team, and the Tibetan ozone hole or halo is associated with G. W. Kent Moore.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
     }
    ]
   },
@@ -3816,7 +4680,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes state that A.G. Tansley proposed the ecosystem term in 1935, so the Reason correctly explains the Assertion."
+     "explanation": "Both statements are true. The notes state that A.G. Tansley proposed the ecosystem term in 1935, so the Reason correctly explains the Assertion.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "environment-34-2",
@@ -3830,7 +4698,15 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Himalaya–biodiversity-rich region, Western Ghats–biodiversity hotspot and highly biodiversity-rich, Indo-Myanmar/Indo-Burma–biodiversity hotspot, and Sundaland–biodiversity hotspot with Nicobar Islands."
+     "explanation": "The correct pairs are Himalaya–biodiversity-rich region, Western Ghats–biodiversity hotspot and highly biodiversity-rich, Indo-Myanmar/Indo-Burma–biodiversity hotspot, and Sundaland–biodiversity hotspot with Nicobar Islands.",
+     "facts": [
+      "F22",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "environment-34-3",
@@ -3844,7 +4720,16 @@
       "Uranium is a non-renewable source."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that uranium is a fossil fuel. The notes classify uranium as a non-renewable source and explicitly state that it is not a fossil fuel."
+     "explanation": "The incorrect statement is that uranium is a fossil fuel. The notes classify uranium as a non-renewable source and explicitly state that it is not a fossil fuel.",
+     "facts": [
+      "F30",
+      "F43",
+      "F48",
+      "F53",
+      "F31",
+      "F38",
+      "F50"
+     ]
     },
     {
      "id": "environment-34-4",
@@ -3858,7 +4743,14 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. The notes state that energy transfer upward decreases by 10%, so Statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. The notes state that energy transfer upward decreases by 10%, so Statement IV is incorrect.",
+     "facts": [
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "environment-34-5",
@@ -3872,9 +4764,246 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. Fossil-fuel energy ultimately comes from the Sun, while nuclear energy comes from the nucleus of an atom."
+     "explanation": "Both statements are true according to the notes. Fossil-fuel energy ultimately comes from the Sun, while nuclear energy comes from the nucleus of an atom.",
+     "facts": [
+      "F51",
+      "F53",
+      "F35",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "environment-34-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ecosystem",
+     "question": "Consider the following statements:\nI. An ecosystem is an open system.\nII. The components of an ecosystem include abiotic components, producers, consumers and decomposers.\nIII. An ecosystem is a closed system.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "An ecosystem is an open system, and its components are abiotic components, producers, consumers and decomposers. Statement III is incorrect.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "environment-34-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Trophic Levels and Decomposers",
+     "question": "Consider the following statements:\nI. Top carnivores occupy the highest trophic level.\nII. Bacteria are main decomposers.\nIII. Fungi are main decomposers.\nIV. Herbivores occupy the highest trophic level.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 1,
+     "explanation": "Top carnivores occupy the highest trophic level, while bacteria and fungi are the main decomposers. Herbivores occupy the second trophic level, not the highest level.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "environment-34-8",
+     "format": "List-Matching",
+     "keyword": "Productivity",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Primary productivity\n(b) Secondary productivity\n(c) Mangroves\n(d) Oceans\n\nList-II\n(i) Lowest productivity among the listed ecosystems\n(ii) Heterotroph level\n(iii) Highest productivity among the listed ecosystems\n(iv) Autotroph level\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Primary productivity occurs at the autotroph level and secondary productivity at the heterotroph level. Among the listed ecosystems, mangroves have the highest productivity and oceans the lowest.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-34-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Ecological Pyramids",
+     "question": "Consider the following statements:\nStatement A: The energy pyramid is always upright.\nStatement B: The biomass pyramid is inverted in a pond.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The energy pyramid is always upright, whereas the biomass pyramid is inverted in a pond.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "environment-34-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ecological Terminology",
+     "question": "Consider the following statements:\nI. The niche concept is associated with Grinnell.\nII. The maximum sustainable population is called carrying capacity.\nIII. The biosphere comprises all ecosystems together.\nIV. The niche concept is associated with A.G. Tansley.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and IV only",
+      "I, II and III only"
+     ],
+     "answer": 3,
+     "explanation": "The niche concept is associated with Grinnell. Carrying capacity means the maximum sustainable population, and the biosphere comprises all ecosystems together. Statement IV is incorrect.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-34-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biodiversity Hotspot",
+     "question": "Consider the following statements:\nStatement A: The Himalaya is a biodiversity hotspot.\nStatement B: The Andaman Islands are associated with the Indo-Myanmar hotspot.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Himalaya is identified as a biodiversity hotspot, and the Andaman Islands are associated with the Indo-Myanmar hotspot.",
+     "facts": [
+      "F23",
+      "F29"
+     ]
+    },
+    {
+     "id": "environment-34-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Fossil Fuels and Nuclear Energy",
+     "question": "Consider the following statements:\nI. Fossil fuels are non-renewable.\nII. Nuclear energy is non-renewable.\nIII. Fossil fuels originated from buried organisms.\nIV. Combustion is the main process involving fossil fuels.\nV. The main nuclear processes are fission and fusion.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, III and IV only",
+      "II, IV and V only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Fossil fuels and nuclear energy are non-renewable. Fossil fuels originated from buried organisms and mainly involve combustion, while the main nuclear processes are fission and fusion.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "environment-34-13",
+     "format": "List-Matching",
+     "keyword": "Renewable and Non-renewable Energy",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Coal\n(b) Petroleum\n(c) Natural gas\n(d) Solar energy\n\nList-II\n(i) Renewable\n(ii) Non-renewable\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-i, b-ii, c-i, d-ii",
+      "a-i, b-i, c-ii, d-ii",
+      "a-ii, b-ii, c-ii, d-i",
+      "a-ii, b-i, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Coal, petroleum and natural gas are non-renewable, whereas solar energy is renewable.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42",
+      "F44"
+     ]
+    },
+    {
+     "id": "environment-34-14",
+     "format": "Count-Based",
+     "keyword": "Classification",
+     "question": "How many of the following are renewable sources of energy?\n1. Wind energy\n2. Biomass\n3. Biogas\n4. Petroleum",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Wind energy, biomass and biogas are renewable, whereas petroleum is non-renewable. Therefore, three listed sources are renewable.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F49"
+     ]
+    },
+    {
+     "id": "environment-34-15",
+     "format": "Direct Recall",
+     "keyword": "Nuclear energy",
+     "question": "Which of the following correctly identifies the nuclear processes?",
+     "options": [
+      "Combustion and respiration",
+      "Fusion and carbon emission",
+      "Photosynthesis and combustion",
+      "Fission and fusion"
+     ],
+     "answer": 3,
+     "explanation": "The nuclear processes identified are fission and fusion.",
+     "facts": [
+      "F52"
+     ]
+    },
+    {
+     "id": "environment-34-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Energy crisis",
+     "question": "Consider the following statements:\nStatement A: Fossil-fuel exhaustion causes an energy crisis.\nStatement B: Thermal power is a major power source in Chhattisgarh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: exhaustion of fossil fuels causes an energy crisis, and thermal power is a major power source in Chhattisgarh.",
+     "facts": [
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "environment-34-17",
+     "format": "Direct Recall",
+     "keyword": "Pollution/Air Quality/CPCB",
+     "question": "What is caused by fossil-fuel combustion?",
+     "options": [
+      "Oxygen enrichment",
+      "Energy conservation",
+      "Carbon dioxide emissions",
+      "Nuclear fusion"
+     ],
+     "answer": 2,
+     "explanation": "Fossil-fuel combustion causes carbon dioxide emissions.",
+     "facts": [
+      "F56"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 56,
+    "covered": 56,
+    "audited": true
+   }
   },
   "35": {
    "number": 35,
@@ -3990,7 +5119,25 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "SO₂ is associated with fuel combustion, power stations, industries, diesel and smelters; NOx with transport, fuel combustion, power stations and boilers; CO with vehicles, combustion, industries and waste burning; and benzene with petrol-related sources."
+     "explanation": "SO₂ is associated with fuel combustion, power stations, industries, diesel and smelters; NOx with transport, fuel combustion, power stations and boilers; CO with vehicles, combustion, industries and waste burning; and benzene with petrol-related sources.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F42",
+      "F43",
+      "F44"
+     ]
     },
     {
      "id": "environment-36-2",
@@ -4004,7 +5151,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: acid rain has a pH below 5.6, and SO₂ plus NOx are associated with acid rain. However, the presence of SO₂ and NOx does not explain the specific pH value stated in the assertion."
+     "explanation": "Both statements are given in the notes: acid rain has a pH below 5.6, and SO₂ plus NOx are associated with acid rain. However, the presence of SO₂ and NOx does not explain the specific pH value stated in the assertion.",
+     "facts": [
+      "F68",
+      "F69"
+     ]
     },
     {
      "id": "environment-36-3",
@@ -4018,7 +5169,18 @@
       "Pongamia pinnata is an alternative biodiesel plant associated with Karanja."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the association of Mahua and Neem with ethanol crops. The notes mention Mahua and Neem as biofuel sources, while sugarcane and maize are the ethanol crops mentioned."
+     "explanation": "The incorrect detail is the association of Mahua and Neem with ethanol crops. The notes mention Mahua and Neem as biofuel sources, while sugarcane and maize are the ethanol crops mentioned.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "environment-36-4",
@@ -4032,7 +5194,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are supported by the notes: SpiceJet operated the first airline biofuel flight on the Dehradun–Delhi route on 27 August 2018."
+     "explanation": "All three statements are supported by the notes: SpiceJet operated the first airline biofuel flight on the Dehradun–Delhi route on 27 August 2018.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "environment-36-5",
@@ -4046,9 +5213,334 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. Bioremediation involves microorganisms removing or detoxifying pollutants, and cadmium plus lead are identified under heavy-metal limitation."
+     "explanation": "Both statements are true according to the notes. Bioremediation involves microorganisms removing or detoxifying pollutants, and cadmium plus lead are identified under heavy-metal limitation.",
+     "facts": [
+      "F75",
+      "F76"
+     ]
+    },
+    {
+     "id": "environment-36-6",
+     "format": "List-Matching",
+     "keyword": "Biofuel – MFC",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) MFC catalyst\n(b) MFC substrate\n(c) MFC application\n(d) Algae biofuel sources\n\nList-II\n(i) Organic substrate\n(ii) Sea-based and continent-based sources\n(iii) Microorganisms\n(iv) Wastewater treatment",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Microorganisms act as catalysts in MFCs, organic substrate is used as the substrate, and wastewater treatment is an application. Algae biofuel can use both sea-based and continent-based sources.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "environment-36-7",
+     "format": "Assertion-Reason",
+     "keyword": "Algae biofuel – Limitation",
+     "question": "Assertion (A): Algae biofuel requires expertise, capital and large-scale facilities.\nReason (R): Large-scale facilities are one of the requirements associated with algae biofuel.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The need for large-scale facilities forms one part of the stated requirements of algae biofuel, along with expertise and capital.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "environment-36-8",
+     "format": "Direct Recall",
+     "keyword": "Biofuel – Limitation",
+     "question": "Which one of the following correctly describes a limitation of biofuel?",
+     "options": [
+      "It is a secondary pollutant",
+      "It is a non-petroleum construction material",
+      "It is not cost-effective",
+      "It requires photochemical reactions"
+     ],
+     "answer": 2,
+     "explanation": "The stated limitation of biofuel is that it is not cost-effective.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "environment-36-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Producer gas / Bio-asphalt",
+     "question": "Consider the following statements:\n\nI. Producer gas or synthetic gas is a mixture of carbon monoxide, hydrogen, carbon dioxide and methane.\nII. Bio-asphalt is a renewable construction material.\nIII. Bio-asphalt is a non-petroleum construction material.",
+     "options": [
+      "I only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Producer or synthetic gas contains CO, H₂, CO₂ and methane, while bio-asphalt is both renewable and non-petroleum based.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "environment-36-10",
+     "format": "Count-Based",
+     "keyword": "Pollution – PM10 and PM2.5 sources",
+     "question": "How many of the following are major sources of particulate matter (PM10 and PM2.5)?\n\n1. Combustion\n2. Construction\n3. Industries\n4. Diesel exhaust\n5. Road dust",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed items—combustion, construction, industries, diesel exhaust and road dust—are major sources of PM10 and PM2.5.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "environment-36-11",
+     "format": "Assertion-Reason",
+     "keyword": "Ozone – Secondary pollutant",
+     "question": "Assertion (A): Ozone (O₃) is a secondary pollutant.\nReason (R): Photochemical reactions produce ozone (O₃).",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Ozone is identified as a secondary pollutant, and photochemical reactions produce ozone. Thus, the reason explains why ozone is classified as secondary.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "environment-36-12",
+     "format": "List-Matching",
+     "keyword": "Pollutant – Major sources",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Fuel combustion as a source\n(b) Industrial emissions as a source\n(c) Fuel-originated particles as a source\n(d) Soil-originated particles as a source\n\nList-II\n(i) Lead pollution\n(ii) Polycyclic aromatic hydrocarbons (PAHs)\n(iii) Cadmium pollution\n(iv) Ozone pollution",
+     "options": [
+      "a-ii, b-ii, c-i, d-i",
+      "a-i, b-i, c-ii, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Fuel combustion and industrial emissions are major sources of PAHs. Fuel-originated and soil-originated particles are sources of lead pollution.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "environment-36-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Cadmium pollution – Major sources",
+     "question": "Consider the following statements:\n\nI. Fuel combustion is a major source of cadmium pollution.\nII. Metal production is a major source of cadmium pollution.\nIII. Transport is a major source of cadmium pollution.\nIV. Human-made pollution is called anthropogenic pollution.",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Fuel combustion, metal production and transport are listed as major sources of cadmium pollution. Pollution caused by human activities is called anthropogenic pollution.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "environment-36-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Biodegradable pollutant",
+     "question": "Consider the following statements:\nStatement A: Sewage is a biodegradable pollutant.\nStatement B: DDT, plastic and asbestos are non-biodegradable pollutants.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Sewage is identified as a biodegradable pollutant, whereas DDT, plastic and asbestos are listed as non-biodegradable pollutants.",
+     "facts": [
+      "F53"
+     ]
+    },
+    {
+     "id": "environment-36-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Pollution – Biodegradable/Non-biodegradable",
+     "question": "Consider the following statements:\nI. DDT is a non-biodegradable pollutant.\nII. Plastic is a non-biodegradable pollutant.\nIII. Asbestos is a non-biodegradable pollutant.\nIV. Mercury undergoes biomagnification.",
+     "options": [
+      "I, II and IV only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: DDT, plastic and asbestos are non-biodegradable pollutants, while mercury undergoes biomagnification.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F58"
+     ]
+    },
+    {
+     "id": "environment-36-16",
+     "format": "Count-Based",
+     "keyword": "Biomagnification",
+     "question": "How many of the following statements are correct?\n1. DDT undergoes biomagnification.\n2. Mercury undergoes biomagnification.\n3. The highest concentration of DDT occurs at the top trophic level.",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. DDT and mercury undergo biomagnification, and the highest concentration of DDT occurs at the top trophic level.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "environment-36-17",
+     "format": "List-Matching",
+     "keyword": "Primary and Secondary Pollutants",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Carbon monoxide (CO)\n(b) Sulfur dioxide (SO₂)\n(c) Nitrogen oxides (NOx)\n(d) Ozone (O₃)\n\nList-II\n(i) Primary pollutant\n(ii) Secondary pollutant",
+     "options": [
+      "a-ii, b-ii, c-i, d-i",
+      "a-i, b-i, c-i, d-ii",
+      "a-ii, b-i, c-i, d-i",
+      "a-i, b-ii, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "CO, SO₂ and NOx are primary pollutants, whereas ozone is a secondary pollutant.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "environment-36-18",
+     "format": "Direct Recall",
+     "keyword": "Secondary Pollutants",
+     "question": "Which of the following pair consists entirely of secondary pollutants?",
+     "options": [
+      "CO and SO₂",
+      "NOx and CO",
+      "SO₂ and PAN",
+      "PAN and smog"
+     ],
+     "answer": 3,
+     "explanation": "Peroxyacetyl nitrate (PAN) and smog are secondary pollutants.",
+     "facts": [
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "environment-36-19",
+     "format": "Assertion-Reason",
+     "keyword": "Air Pollution – Carbon Monoxide",
+     "question": "Assertion (A): Carbon monoxide poisoning involves the formation of carboxyhaemoglobin.\nReason (R): Carbon monoxide combines with haemoglobin.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Carbon monoxide combines with haemoglobin, forming carboxyhaemoglobin.",
+     "facts": [
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "environment-36-20",
+     "format": "Assertion-Reason",
+     "keyword": "Photochemical Smog",
+     "question": "Assertion (A): Photochemical smog is formed in the presence of sunlight.\nReason (R): Nitrogen oxides and hydrocarbons, along with sunlight, cause photochemical smog.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason correctly explains the assertion: nitrogen oxides and hydrocarbons in sunlight cause photochemical smog.",
+     "facts": [
+      "F70"
+     ]
+    },
+    {
+     "id": "environment-36-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Radioactive Pollution – Health Effects",
+     "question": "Consider the following statements:\nStatement A: Radioactive pollution causes hereditary changes.\nStatement B: Radioactive pollution causes carcinogenesis.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct effects associated with radioactive pollution.",
+     "facts": [
+      "F71",
+      "F72"
+     ]
+    },
+    {
+     "id": "environment-36-22",
+     "format": "Direct Recall",
+     "keyword": "Nuclear Pollution Accident",
+     "question": "Chernobyl is associated with which of the following?",
+     "options": [
+      "A nuclear pollution accident",
+      "Biomagnification of mercury",
+      "Photochemical smog formation",
+      "Nanoparticle pollution"
+     ],
+     "answer": 0,
+     "explanation": "Chernobyl is associated with a nuclear pollution accident.",
+     "facts": [
+      "F73"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 76,
+    "covered": 75,
+    "audited": false
+   }
   },
   "37": {
    "number": 37,

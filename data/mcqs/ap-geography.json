@@ -115,7 +115,14 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "Andhra Pradesh is bounded by Chhattisgarh and Odisha in the north, the Bay of Bengal in the east, Tamil Nadu in the south and Karnataka in the west."
+     "explanation": "Andhra Pradesh is bounded by Chhattisgarh and Odisha in the north, the Bay of Bengal in the east, Tamil Nadu in the south and Karnataka in the west.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "ap-geography-2-2",
@@ -129,7 +136,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Sileru joins the Sabari at the tri-junction boundary, which explains its association with that tri-junction."
+     "explanation": "Both statements are true. Sileru joins the Sabari at the tri-junction boundary, which explains its association with that tri-junction.",
+     "facts": [
+      "F9",
+      "F13",
+      "F10"
+     ]
     },
     {
      "id": "ap-geography-2-3",
@@ -143,7 +155,12 @@
       "Tammileru Dam was constructed on the river."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters West Godavari to East Godavari. Tammileru forms the boundary between Krishna and West Godavari districts."
+     "explanation": "The incorrect statement alters West Godavari to East Godavari. Tammileru forms the boundary between Krishna and West Godavari districts.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "ap-geography-2-4",
@@ -157,7 +174,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes. Vedavathi rises from the Western Ghats and is also called Hagari in some parts of Andhra Pradesh."
+     "explanation": "Both statements are true according to the notes. Vedavathi rises from the Western Ghats and is also called Hagari in some parts of Andhra Pradesh.",
+     "facts": [
+      "F18",
+      "F20"
+     ]
     },
     {
      "id": "ap-geography-2-5",
@@ -171,7 +192,12 @@
       "Tamil Nadu"
      ],
      "answer": 3,
-     "explanation": "In the 1960 Tiruttani/Tiruvallur territorial adjustment, a large part of Tiruttani Taluka of Chittoor district was given to Tamil Nadu."
+     "explanation": "In the 1960 Tiruttani/Tiruvallur territorial adjustment, a large part of Tiruttani Taluka of Chittoor district was given to Tamil Nadu.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23"
+     ]
     }
    ]
   },
@@ -1277,8 +1303,128 @@
       "F18",
       "F19"
      ]
+    },
+    {
+     "id": "ap-geography-5-7",
+     "format": "List-Matching",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Bagata\n(b) Konda Dhora\n(c) Nakkala\n(d) Chenchu\n\nList-II\n(i) Bhagata\n(ii) Kubi\n(iii) Kurvikaran\n(iv) Particularly Vulnerable Tribal Group (PVTG)",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Bagata is also known as Bhagata, Konda Dhora as Kubi, and Nakkala as Kurvikaran. Chenchu is identified as a Particularly Vulnerable Tribal Group (PVTG).",
+     "facts": [
+      "F1",
+      "F9",
+      "F34",
+      "F43"
+     ]
+    },
+    {
+     "id": "ap-geography-5-8",
+     "format": "Assertion-Reason",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Assertion (A): Konda Kapu is associated with northern hill and frontier areas.\nReason (R): Manna Dhora is also associated with northern hill and frontier areas.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, as Konda Kapu and Manna Dhora are each associated with northern hill and frontier areas. However, the association of Manna Dhora does not explain the association of Konda Kapu.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "ap-geography-5-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Consider the following statements about Valmiki:\n\nI. Valmiki is associated with Visakhapatnam.\nII. Valmiki is associated with Srikakulam.\nIII. Valmiki is associated with Vizianagaram.\nIV. Valmiki is associated with East Godavari.\nV. Valmiki is associated with West Godavari.\nVI. Valmiki is associated with north and coastal agency districts.",
+     "options": [
+      "I, II and III only",
+      "I, II, III, IV and V only",
+      "I, II, III, IV, V and VI",
+      "II, III, IV and VI only"
+     ],
+     "answer": 2,
+     "explanation": "Valmiki is associated with Visakhapatnam, Srikakulam, Vizianagaram, East Godavari and West Godavari. It is also associated with north and coastal agency districts.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F46"
+     ]
+    },
+    {
+     "id": "ap-geography-5-10",
+     "format": "Count-Based",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "How many of the following tribes are associated with northern agency tracts?\n\n1. Kulia\n2. Malis\n3. Goud\n4. Rona",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed tribes—Kulia, Malis, Goud and Rona—are associated with northern agency tracts.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "ap-geography-5-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: Yerukula is associated with almost all plain districts.\nStatement B: Yerukula is associated with the plains of Andhra Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Yerukula is associated with almost all plain districts and with the plains of Andhra Pradesh.",
+     "facts": [
+      "F38",
+      "F48"
+     ]
+    },
+    {
+     "id": "ap-geography-5-12",
+     "format": "Direct Recall",
+     "keyword": "Tribes → District [LOCATION]",
+     "question": "Kotia is associated with which of the following areas?",
+     "options": [
+      "Northern Eastern Ghats",
+      "Visakhapatnam highlands",
+      "Northern hill and frontier areas",
+      "Northern agency tracts"
+     ],
+     "answer": 1,
+     "explanation": "Kotia is associated with the Visakhapatnam highlands.",
+     "facts": [
+      "F14"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 48,
+    "covered": 48,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -1306,7 +1452,10 @@
       "Anantapur"
      ],
      "answer": 2,
-     "explanation": "Srikakulam is stated to be first in both manganese production and reserves."
+     "explanation": "Srikakulam is stated to be first in both manganese production and reserves.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "ap-geography-6-2",
@@ -1320,7 +1469,13 @@
       "Asbestos production and reserves are highest in Kadapa."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the location of first-place limestone production and reserves. The notes identify Kurnool, not Kadapa, for limestone."
+     "explanation": "The incorrect statement alters the location of first-place limestone production and reserves. The notes identify Kurnool, not Kadapa, for limestone.",
+     "facts": [
+      "F17",
+      "F18",
+      "F22",
+      "F20"
+     ]
     },
     {
      "id": "ap-geography-6-3",
@@ -1334,7 +1489,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Kasipatnam–Visakhapatnam is first in vermiculite reserves and production, and vermiculite is listed under non-metallic minerals. However, its classification as a non-metallic mineral does not explain its specific location."
+     "explanation": "Both statements are true: Kasipatnam–Visakhapatnam is first in vermiculite reserves and production, and vermiculite is listed under non-metallic minerals. However, its classification as a non-metallic mineral does not explain its specific location.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "ap-geography-6-4",
@@ -1348,7 +1506,14 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Diamond–Vajrakarur–Anantapur, Chromite–Kondapalli Hills–Krishna, Ulframite–Buruguwada–East Godavari, and Asbestos–Kadapa."
+     "explanation": "The correct pairs are Diamond–Vajrakarur–Anantapur, Chromite–Kondapalli Hills–Krishna, Ulframite–Buruguwada–East Godavari, and Asbestos–Kadapa.",
+     "facts": [
+      "F7",
+      "F11",
+      "F26",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "ap-geography-6-5",
@@ -1362,9 +1527,171 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. The notes locate gold reserves at Ramagiri–Anantapur, copper in erstwhile Guntur and Kadapa, and abundant lead resources in erstwhile Kurnool."
+     "explanation": "All three statements are correct. The notes locate gold reserves at Ramagiri–Anantapur, copper in erstwhile Guntur and Kadapa, and abundant lead resources in erstwhile Kurnool.",
+     "facts": [
+      "F5",
+      "F8",
+      "F10",
+      "F9"
+     ]
+    },
+    {
+     "id": "ap-geography-6-6",
+     "format": "Direct Recall",
+     "keyword": "Mineral Resources → Location",
+     "question": "Which district ranks first in iron production?",
+     "options": [
+      "Anantapur",
+      "Nellore",
+      "Kurnool",
+      "Kadapa"
+     ],
+     "answer": 0,
+     "explanation": "Anantapur ranks first in iron production.",
+     "facts": [
+      "F1"
+     ]
+    },
+    {
+     "id": "ap-geography-6-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nI. Iron resources are located in erstwhile Krishna, Kurnool, Anantapur, Kadapa, Nellore, Prakasam, Guntur and Chittoor districts.\nII. Iron ore stocks are abundant in erstwhile Anantapur and Kadapa districts.",
+     "options": [
+      "Both I and II",
+      "I only",
+      "Neither I nor II",
+      "II only"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The listed eight districts contain iron resources, while iron ore stocks are abundant in erstwhile Anantapur and Kadapa districts.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "ap-geography-6-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nStatement A: Gold-bearing quartz occurs in Rayalaseema, specifically in erstwhile Anantapur, Chittoor and Kurnool districts.\nStatement B: Gold-bearing quartz occurs in erstwhile Guntur, Kadapa and Nellore districts.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 2,
+     "explanation": "Statement A is correct. The specified locations are erstwhile Anantapur, Chittoor and Kurnool in Rayalaseema; Statement B alters these locations.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-6-9",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kondapalli Hills\n(b) Zirconium\n(c) Monazite—abundant rocks\n(d) Ilmenite and monazite\n\nList-II\n(i) Between Ibrahimpatnam and Gangineni\n(ii) Erstwhile Vizianagaram and Srikakulam districts\n(iii) Bheemunipatnam\n(iv) East-coast sands of specified erstwhile districts",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Kondapalli Hills—between Ibrahimpatnam and Gangineni; Zirconium—erstwhile Vizianagaram and Srikakulam; monazite-abundant rocks—Bheemunipatnam; and ilmenite-monazite—east-coast sands of the specified districts.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "ap-geography-6-10",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Andhra Pradesh ranks first in the production of which mineral?",
+     "options": [
+      "Limestone",
+      "Apatite",
+      "Monazite",
+      "Vermiculite"
+     ],
+     "answer": 2,
+     "explanation": "Andhra Pradesh ranks first in monazite production.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "ap-geography-6-11",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "At which place do apatite reserves and production rank first?",
+     "options": [
+      "Bheemunipatnam",
+      "Kasipatnam in Visakhapatnam",
+      "Jammalamadugu in Kadapa",
+      "Bethamcherla in Kurnool"
+     ],
+     "answer": 1,
+     "explanation": "Apatite reserves and production rank first at Kasipatnam in Visakhapatnam.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "ap-geography-6-12",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Major limestone centres\n(b) High-quality limestone\n(c) Barytes\n\nList-II\n(i) Associated with the Kadapa Rock System\n(ii) Bethamcherla and Koilakuntla in Kurnool district\n(iii) Jammalamadugu and Maidakuru in Kadapa district\n\nOptions:\n1. a-ii, b-iii, c-i\n2. a-iii, b-i, c-ii\n3. a-i, b-ii, c-iii\n4. a-ii, b-i, c-iii",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are major limestone centres—Bethamcherla and Koilakuntla; high-quality limestone—Jammalamadugu and Maidakuru; and barytes—associated with the Kadapa Rock System.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "ap-geography-6-13",
+     "format": "Count-Based",
+     "keyword": "Mineral Resources → Location",
+     "question": "How many of the following statements correctly identify bauxite occurrences or the stated bauxite-bearing region?\n\n1. Bauxite occurs in the Eastern Ghats of erstwhile Visakhapatnam and East Godavari districts.\n2. Bauxite occurs at Sunkaramitta.\n3. Bauxite occurs at Ananthagiri.\n4. Bauxite occurs at Araku.\n5. Bauxite occurs at Galikonda.\n6. Bauxite occurs at Rakthakonda.\n7. Bauxite occurs at Katuki–Bittamugondi Hills.\n8. Bauxite occurs at Jarrela.\n9. Bauxite occurs at Saparla.\n10. Bauxite occurs at Dhumakondalu in Rampachodavaram.",
+     "options": [
+      "Only eight",
+      "Only nine",
+      "All ten",
+      "Only seven"
+     ],
+     "answer": 2,
+     "explanation": "All ten statements are correct. Bauxite is associated with the Eastern Ghats of erstwhile Visakhapatnam and East Godavari districts and occurs at each of the nine specified locations.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 36,
+    "covered": 36,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,
@@ -1478,7 +1805,11 @@
       "Dolphin Nose"
      ],
      "answer": 2,
-     "explanation": "The notes identify Chintapalli in the Paderu area as the maximum height of the Eastern Ghats."
+     "explanation": "The notes identify Chintapalli in the Paderu area as the maximum height of the Eastern Ghats.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "ap-geography-8-2",
@@ -1492,7 +1823,14 @@
       "Papikonda Ranges have an average height of 915 m."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the river associated with Nandidurga Hills. The notes state that Nandidurga Hills are the origin point of the Penna/Penneru, while Nagavali originates in the Rayagarh Hills."
+     "explanation": "The incorrect detail is the river associated with Nandidurga Hills. The notes state that Nandidurga Hills are the origin point of the Penna/Penneru, while Nagavali originates in the Rayagarh Hills.",
+     "facts": [
+      "F10",
+      "F25",
+      "F26",
+      "F36",
+      "F12"
+     ]
     },
     {
      "id": "ap-geography-8-3",
@@ -1506,7 +1844,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The reason directly explains the assertion because the notes state that the Gosthani originates in the Anantagiri Hills."
+     "explanation": "Both statements are true. The reason directly explains the assertion because the notes state that the Gosthani originates in the Anantagiri Hills.",
+     "facts": [
+      "F25"
+     ]
     },
     {
      "id": "ap-geography-8-4",
@@ -1520,7 +1861,17 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Nandi Hills–Papagni, Madugula Hills–Machkund, Jayapur Hills–Vamsadhara, and Rayagarh Hills–Nagavali."
+     "explanation": "The correct pairs are Nandi Hills–Papagni, Madugula Hills–Machkund, Jayapur Hills–Vamsadhara, and Rayagarh Hills–Nagavali.",
+     "facts": [
+      "F27",
+      "F28",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "ap-geography-8-5",
@@ -1534,9 +1885,205 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements are supported by the notes: the northern section is called the Eastern Ranges, the southern section the Kadapa Ranges, and Khondalite hills or mountains are bauxite-bearing areas."
+     "explanation": "All three statements are supported by the notes: the northern section is called the Eastern Ranges, the southern section the Kadapa Ranges, and Khondalite hills or mountains are bauxite-bearing areas.",
+     "facts": [
+      "F3",
+      "F5",
+      "F43",
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "ap-geography-8-6",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain range → Location",
+     "question": "Consider the following statements:\nStatement A: The Eastern Ghats lie between the eastern side of the Deccan Plateau and the western side of the Coastal Plain.\nStatement B: The Eastern Ghats are the major hill system of Andhra Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Eastern Ghats lie between the Deccan Plateau and the Coastal Plain and constitute the major hill system of Andhra Pradesh.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "ap-geography-8-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain range → Location",
+     "question": "Consider the following statements:\nI. The Papikonda Ranges are spread over the Godavari districts.\nII. The Simhachalam Hills are north of Andhra Pradesh's geographical extent.\nIII. The Palakonda Hills are located in the south of Andhra Pradesh.\nIV. The Nallamala Hills are located in the south of Andhra Pradesh.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements correctly identify the locations of the Papikonda, Simhachalam, Palakonda and Nallamala hill systems.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "ap-geography-8-8",
+     "format": "Direct Recall",
+     "keyword": "Mountain range → Location",
+     "question": "The Balaghat Hills are located in which part of Andhra Pradesh?",
+     "options": [
+      "West",
+      "South",
+      "East",
+      "North"
+     ],
+     "answer": 0,
+     "explanation": "The Balaghat Hills are located in the west of Andhra Pradesh.",
+     "facts": [
+      "F16"
+     ]
+    },
+    {
+     "id": "ap-geography-8-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain Passes",
+     "question": "Consider the following statements:\nI. The Seshachalam Hills are part of the Eastern Ghats.\nII. The Seshachalam Hills form a mountain-pass zone.\nIII. The pass from the Seshachalam Hills extends northward toward the Nallamala Hills.\nIV. The Nallamala Hills are part of the Eastern Ghats.\nV. The Nallamala Hills form the northern mountain-pass zone.\nVI. The long mountain-pass zone extends from Seshachalam to Nallamala.",
+     "options": [
+      "I, II and III only",
+      "I, II, III, IV, V and VI",
+      "II, III, IV and V only",
+      "I, III, V and VI only"
+     ],
+     "answer": 1,
+     "explanation": "All six statements are correct. Together, they describe the Eastern Ghats mountain-pass zone extending from Seshachalam northward to Nallamala.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "ap-geography-8-10",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain range → Location",
+     "question": "Assertion (A): The Anantagiri Hills are part of the Eastern Ghats.\nReason (R): The Anantagiri Hills are located in the Visakhapatnam region.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the Assertion and Reason are true. However, the Visakhapatnam location does not explain why the Anantagiri Hills are part of the Eastern Ghats.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "ap-geography-8-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain range → Location",
+     "question": "Consider the following statements:\nStatement A: The Varaha Mountains are part of the Western Ghats.\nStatement B: The Tungabhadra River originates in the Varaha Mountains.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Varaha Mountains are identified as part of the Western Ghats and as the origin of the Tungabhadra River.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "ap-geography-8-12",
+     "format": "Count-Based",
+     "keyword": "Mountain range → Location",
+     "question": "How many of the following statements about Sadasivakonda are correct?\n1. Sadasivakonda is located at Narayanavanam in Chittoor.\n2. Sadasivakonda is a protected forest.\n3. The Arani or Araniyar River originates in Sadasivakonda.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Sadasivakonda is at Narayanavanam in Chittoor, is a protected forest, and is the origin of the Arani or Araniyar River.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "ap-geography-8-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Origin",
+     "question": "Consider the following statements:\nStatement A: The Sinkaram Hill Ranges are located in Odisha.\nStatement B: The Sabari River originates in the Sinkaram Hill Ranges.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Sinkaram Hill Ranges are in Odisha and are identified as the origin of the Sabari River.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "ap-geography-8-14",
+     "format": "Direct Recall",
+     "keyword": "Mountain range → Location",
+     "question": "The Khondalite hills or mountains are part of which mountain system?",
+     "options": [
+      "The Western Ghats",
+      "The Papikonda Ranges",
+      "The Eastern Ghats",
+      "The Balaghat Hills"
+     ],
+     "answer": 2,
+     "explanation": "The Khondalite hills or mountains are part of the Eastern Ghats.",
+     "facts": [
+      "F42"
+     ]
+    },
+    {
+     "id": "ap-geography-8-15",
+     "format": "Direct Recall",
+     "keyword": "Hills → Location",
+     "question": "The lowest hills of the Eastern Ghats merge with which feature at Visakhapatnam?",
+     "options": [
+      "Nallamala Hills",
+      "Simhachalam Hills",
+      "Dolphin Nose",
+      "Palakonda Hills"
+     ],
+     "answer": 2,
+     "explanation": "The lowest hills of the Eastern Ghats merge with Dolphin Nose in Visakhapatnam.",
+     "facts": [
+      "F9"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 43,
+    "covered": 43,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -1822,7 +2369,11 @@
       "It is the 1st longest coastline in India and measures 950 km"
      ],
      "answer": 1,
-     "explanation": "Andhra Pradesh has the 3rd longest coastline in India, measuring 1053.07 km."
+     "explanation": "Andhra Pradesh has the 3rd longest coastline in India, measuring 1053.07 km.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "ap-geography-12-2",
@@ -1836,7 +2387,14 @@
       "Coastal Andhra is located along the Bay of Bengal."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is ‘Kakinada’. The Coastal Plains extend from erstwhile Srikakulam to Nellore."
+     "explanation": "The incorrect detail is ‘Kakinada’. The Coastal Plains extend from erstwhile Srikakulam to Nellore.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F6",
+      "F2"
+     ]
     },
     {
      "id": "ap-geography-12-3",
@@ -1850,7 +2408,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify Yarada Hills on the Visakhapatnam sea coast as providing natural protection to Visakhapatnam Port."
+     "explanation": "Both statements are true. The notes identify Yarada Hills on the Visakhapatnam sea coast as providing natural protection to Visakhapatnam Port.",
+     "facts": [
+      "F23",
+      "F8"
+     ]
     },
     {
      "id": "ap-geography-12-4",
@@ -1864,7 +2426,14 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Gowthami–Yanam, Vashista–Antarvedi, Krishna–Hamsaladeevi, and Champavathi–Konada."
+     "explanation": "The correct pairs are: Gowthami–Yanam, Vashista–Antarvedi, Krishna–Hamsaladeevi, and Champavathi–Konada.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "ap-geography-12-5",
@@ -1878,7 +2447,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true according to the notes on the special coastal features of Andhra Pradesh."
+     "explanation": "Both statements are true according to the notes on the special coastal features of Andhra Pradesh.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     }
    ]
   },
@@ -2209,8 +2785,170 @@
       "F30",
       "F31"
      ]
+    },
+    {
+     "id": "ap-geography-14-12",
+     "format": "Assertion-Reason",
+     "keyword": "Bird Sanctuary → Location",
+     "question": "Assertion (A): Uppalapadu Protection Centre is located in Guntur.\nReason (R): Uppalapadu Protection Centre has village tanks and ponds.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Uppalapadu Protection Centre is located in Guntur and has village tanks and ponds. However, the presence of tanks and ponds does not explain its location in Guntur.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "ap-geography-14-13",
+     "format": "Count-Based",
+     "keyword": "Bird Sanctuary → Important Species",
+     "question": "How many of the following are associated with Uppalapadu Protection Centre?\n1. Spot-billed storks\n2. Cattle egrets\n3. Pelicans\n4. Black-headed painted ibises",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed birds are associated with Uppalapadu Protection Centre.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "ap-geography-14-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Bird Sanctuary → Location and Species",
+     "question": "Consider the following statements regarding Rollapadu Bird Sanctuary:\nI. It is located in the Nandyal and Kurnool region.\nII. It has blackbucks.\nIII. It has foxes.\nIV. It has jackals.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, III and IV only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Rollapadu Bird Sanctuary is located in the Nandyal and Kurnool region and is associated with blackbucks, foxes and jackals.",
+     "facts": [
+      "F38",
+      "F42",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "ap-geography-14-15",
+     "format": "Count-Based",
+     "keyword": "Wildlife Sanctuary → Ecosystem and Species",
+     "question": "How many of the following features or species are associated with Coringa Wildlife Sanctuary?\n1. Estuarine mangroves\n2. Fishing cats\n3. Sandpipers\n4. Otters\n5. Vultures\n6. Seagulls",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "Only three"
+     ],
+     "answer": 2,
+     "explanation": "All six listed features or species are associated with Coringa Wildlife Sanctuary: estuarine mangroves, fishing cats, sandpipers, otters, vultures and seagulls.",
+     "facts": [
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "ap-geography-14-16",
+     "format": "Count-Based",
+     "keyword": "Bird Sanctuary → Location and Important Species",
+     "question": "How many of the following statements are correct regarding Kondakarla Ava Bird Sanctuary?\n1. It is located near Anakapalle in Visakhapatnam.\n2. It has pheasant-tailed jacanas.\n3. It has herons.\n4. It has egrets.\n5. It has purple moorhens.",
+     "options": [
+      "Only three",
+      "Only four",
+      "All five",
+      "Only two"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Kondakarla Ava Bird Sanctuary is near Anakapalle in Visakhapatnam and has pheasant-tailed jacanas, herons, egrets and purple moorhens.",
+     "facts": [
+      "F52",
+      "F54",
+      "F55",
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "ap-geography-14-17",
+     "format": "List-Matching",
+     "keyword": "Wildlife Sanctuary → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kolleru Wildlife Sanctuary\n(b) Krishna Wildlife Sanctuary\n(c) Rollapadu Wildlife Sanctuary\n(d) Gundla Brahmeswara Wildlife Sanctuary\n\nList-II\n(i) Kurnool district\n(ii) Machilipatnam\n(iii) Eluru\n\nSelect the correct code:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iii",
+      "a-ii, b-iii, c-i, d-i",
+      "a-iii, b-i, c-ii, d-i",
+      "a-iii, b-ii, c-i, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Kolleru Wildlife Sanctuary is located in Eluru; Krishna Wildlife Sanctuary is in Machilipatnam; Rollapadu Wildlife Sanctuary and Gundla Brahmeswara Wildlife Sanctuary are located in Kurnool district.",
+     "facts": [
+      "F59",
+      "F60",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "ap-geography-14-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wildlife sanctuary \u0014 District [LOCATION]",
+     "question": "Consider the following statements:\nI. Sri Lanka Malleshwara Wildlife Sanctuary is located in Cuddapah.\nII. Nelapattu Wildlife Sanctuary is located in Tirupathi district.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II only",
+      "Neither I nor II",
+      "I only",
+      "Both I and II"
+     ],
+     "answer": 3,
+     "explanation": "Both statements are correct. Sri Lanka Malleshwara Wildlife Sanctuary is located in Cuddapah, while Nelapattu Wildlife Sanctuary is located in Tirupathi district.",
+     "facts": [
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "ap-geography-14-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wildlife sanctuary \u0014 District [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: Pulicat Wildlife Sanctuary is located in Tirupathi district.\nStatement B: Dolphin Conservation Society is located in Visakhapatnam.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Pulicat Wildlife Sanctuary is located in Tirupathi district, and Dolphin Conservation Society is located in Visakhapatnam.",
+     "facts": [
+      "F66",
+      "F75"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 75,
+    "covered": 75,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -3023,7 +3761,10 @@
       "Sriharikota, Tirupati"
      ],
      "answer": 0,
-     "explanation": "The notes identify NARL (National Laboratory for Atmospheric Research) as being located at Gadanki, Tirupati."
+     "explanation": "The notes identify NARL (National Laboratory for Atmospheric Research) as being located at Gadanki, Tirupati.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "ap-geography-18-2",
@@ -3037,7 +3778,18 @@
       "APSAC is located in Vijayawada and focuses on space applications, remote sensing and GIS."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the institution and focus area. NIOT is located at Thupilipallam, Nellore and focuses on ocean technology or marine engineering; IIOPR at Pedavegi, Eluru focuses on oil palm research."
+     "explanation": "The incorrect statement alters the institution and focus area. NIOT is located at Thupilipallam, Nellore and focuses on ocean technology or marine engineering; IIOPR at Pedavegi, Eluru focuses on oil palm research.",
+     "facts": [
+      "F8",
+      "F9",
+      "F43",
+      "F44",
+      "F34",
+      "F35",
+      "F11",
+      "F12",
+      "F38"
+     ]
     },
     {
      "id": "ap-geography-18-3",
@@ -3051,7 +3803,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are directly given in the notes: SDSC SHAR is at Sriharikota, Tirupati and its focus area is space launches and launch vehicle operations. The location does not explain the stated focus area."
+     "explanation": "Both statements are directly given in the notes: SDSC SHAR is at Sriharikota, Tirupati and its focus area is space launches and launch vehicle operations. The location does not explain the stated focus area.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "ap-geography-18-4",
@@ -3065,7 +3821,15 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are IIM–Visakhapatnam, NIT Andhra Pradesh–Tadepalligudem, IIITDM–Kurnool and NACIN–Palasamudram, Hindupur region."
+     "explanation": "The correct pairs are IIM–Visakhapatnam, NIT Andhra Pradesh–Tadepalligudem, IIITDM–Kurnool and NACIN–Palasamudram, Hindupur region.",
+     "facts": [
+      "F17",
+      "F20",
+      "F23",
+      "F46",
+      "F16",
+      "F22"
+     ]
     },
     {
      "id": "ap-geography-18-5",
@@ -3079,9 +3843,173 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct according to the notes. Statement III is incorrect because NACIN focuses on customs, GST/indirect taxes and narcotics training; NIO Regional Centre focuses on marine and oceanographic research."
+     "explanation": "Statements I, II and IV are correct according to the notes. Statement III is incorrect because NACIN focuses on customs, GST/indirect taxes and narcotics training; NIO Regional Centre focuses on marine and oceanographic research.",
+     "facts": [
+      "F32",
+      "F37",
+      "F41",
+      "F6",
+      "F47"
+     ]
+    },
+    {
+     "id": "ap-geography-18-6",
+     "format": "List-Matching",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) SDSC SHAR\n(b) NARL\n(c) NSTL\n(d) APSAC\n\nList-II\n(i) Andhra Pradesh Space Applications Centre\n(ii) Satish Dhawan Space Centre\n(iii) Naval Science & Technological Laboratory\n(iv) National Atmospheric Research Laboratory",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "SDSC SHAR stands for Satish Dhawan Space Centre; NARL stands for National Atmospheric Research Laboratory; NSTL stands for Naval Science & Technological Laboratory; and APSAC stands for Andhra Pradesh Space Applications Centre.",
+     "facts": [
+      "F1",
+      "F4",
+      "F7",
+      "F10"
+     ]
+    },
+    {
+     "id": "ap-geography-18-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Consider the following statements:\nStatement A: IIT Tirupati stands for Indian Institute of Technology Tirupati.\nStatement B: IIT Tirupati is located at Tirupati and is an IIT.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "IIT Tirupati expands to Indian Institute of Technology Tirupati. It is located at Tirupati and is an IIT.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "ap-geography-18-8",
+     "format": "List-Matching",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) IIM Visakhapatnam\n(b) NIT Andhra Pradesh\n(c) IIITDM Kurnool\n(d) IIIT Sri City\n\nList-II\n(i) Indian Institute of Information Technology, Design & Manufacturing\n(ii) Indian Institute of Management\n(iii) National Institute of Technology\n(iv) Indian Institute of Information Technology Sri City",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "IIM Visakhapatnam is an IIM, NIT Andhra Pradesh is an NIT, IIITDM Kurnool is an IIITDM, and IIIT Sri City stands for Indian Institute of Information Technology Sri City and is an IIIT.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21",
+      "F24",
+      "F25",
+      "F27"
+     ]
+    },
+    {
+     "id": "ap-geography-18-9",
+     "format": "Assertion-Reason",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Assertion (A): The Central University of Andhra Pradesh is located at Anantapur.\nReason (R): The Central University of Andhra Pradesh is a Central University.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Central University of Andhra Pradesh is located at Anantapur and is a Central University. Its institutional type does not explain its location.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "ap-geography-18-10",
+     "format": "List-Matching",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) CCMB\n(b) CTRI\n(c) IIOPR\n(d) NIO\n\nList-II\n(i) Indian Institute of Oil Palm Research\n(ii) Centre for Cellular & Molecular Biology\n(iii) National Institute of Oceanography\n(iv) Central Institute Tobacco Research",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "CCMB stands for Centre for Cellular & Molecular Biology; CTRI for Central Institute Tobacco Research; IIOPR for Indian Institute of Oil Palm Research; and NIO for National Institute of Oceanography.",
+     "facts": [
+      "F30",
+      "F33",
+      "F36",
+      "F39"
+     ]
+    },
+    {
+     "id": "ap-geography-18-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Consider the following statements:\nStatement A: CCMB is located at Vaddeswaram in the Guntur region.\nStatement B: The NIO Regional Centre is located at Visakhapatnam.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "CCMB is located at Vaddeswaram in the Guntur region, while the NIO Regional Centre is located at Visakhapatnam.",
+     "facts": [
+      "F31",
+      "F40"
+     ]
+    },
+    {
+     "id": "ap-geography-18-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Institute/Organisation → Location",
+     "question": "Consider the following statements:\nI. NIOT stands for National Institute of Ocean Technology.\nII. NACIN stands for National Academy of Customs, Indirect Taxes & Narcotics.",
+     "options": [
+      "II only",
+      "I only",
+      "Neither I nor II",
+      "Both I and II"
+     ],
+     "answer": 3,
+     "explanation": "Both statements are correct. NIOT expands to National Institute of Ocean Technology, and NACIN expands to National Academy of Customs, Indirect Taxes & Narcotics.",
+     "facts": [
+      "F42",
+      "F45"
+     ]
+    },
+    {
+     "id": "ap-geography-18-13",
+     "format": "Direct Recall",
+     "keyword": "Institute/Organisation → Location",
+     "question": "IIIT Sri City is located at which place?",
+     "options": [
+      "Tirupati",
+      "Sri City in Tirupati district",
+      "Anantapur",
+      "Vaddeswaram in the Guntur region"
+     ],
+     "answer": 1,
+     "explanation": "IIIT Sri City is located at Sri City in Tirupati district.",
+     "facts": [
+      "F26"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 47,
+    "covered": 47,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -3109,7 +4037,11 @@
       "More than 150 cm"
      ],
      "answer": 0,
-     "explanation": "The notes specify that dry deciduous forests receive 75–100 cm of rainfall."
+     "explanation": "The notes specify that dry deciduous forests receive 75–100 cm of rainfall.",
+     "facts": [
+      "F3",
+      "F1"
+     ]
     },
     {
      "id": "ap-geography-19-2",
@@ -3123,7 +4055,14 @@
       "Tidal forests are also called Koringa forests."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location. Koringa forests are located at the mouths of the Krishna and Godavari rivers, not around the Seshachalam–Nallamala hill system."
+     "explanation": "The incorrect detail is the location. Koringa forests are located at the mouths of the Krishna and Godavari rivers, not around the Seshachalam–Nallamala hill system.",
+     "facts": [
+      "F9",
+      "F10",
+      "F18",
+      "F11",
+      "F24"
+     ]
     },
     {
      "id": "ap-geography-19-3",
@@ -3137,7 +4076,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate short thorn forests with the driest areas and state that their rainfall is below 70 cm."
+     "explanation": "Both statements are true. The notes associate short thorn forests with the driest areas and state that their rainfall is below 70 cm.",
+     "facts": [
+      "F7",
+      "F8",
+      "F23"
+     ]
     },
     {
      "id": "ap-geography-19-4",
@@ -3151,7 +4095,15 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Nallamala Forests–biggest forest in AP; Seshachalam Forests/Hills–southern AP; Balaghat Hills–western geographical extent; Simhachalam Hills–northern geographical extent."
+     "explanation": "The correct pairs are: Nallamala Forests–biggest forest in AP; Seshachalam Forests/Hills–southern AP; Balaghat Hills–western geographical extent; Simhachalam Hills–northern geographical extent.",
+     "facts": [
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F25",
+      "F27"
+     ]
     },
     {
      "id": "ap-geography-19-5",
@@ -3165,7 +4117,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes: YSR Kadapa has the highest forest area, Krishna the least, and Nallamala is the biggest forest."
+     "explanation": "All three statements are correct according to the notes: YSR Kadapa has the highest forest area, Krishna the least, and Nallamala is the biggest forest.",
+     "facts": [
+      "F12",
+      "F28",
+      "F29"
+     ]
     }
    ]
   },
@@ -3717,7 +4674,12 @@
       "Kakinada Anchorage Port"
      ],
      "answer": 1,
-     "explanation": "Kakinada Deep Water Port handles agricultural exports, chemicals and fertilisers."
+     "explanation": "Kakinada Deep Water Port handles agricultural exports, chemicals and fertilisers.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "ap-geography-26-2",
@@ -3731,7 +4693,27 @@
       "Gangavaram is associated with the AP Maritime Board/private-captive port category and is legally an Other Than Major Port."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is the fourth one. Kakinada Anchorage Port is associated with lighterage operations and rice exports; offshore oil and gas petroleum-related cargo is associated with Rawa Port."
+     "explanation": "The incorrect statement is the fourth one. Kakinada Anchorage Port is associated with lighterage operations and rice exports; offshore oil and gas petroleum-related cargo is associated with Rawa Port.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F6",
+      "F11",
+      "F12",
+      "F34",
+      "F35",
+      "F36",
+      "F42",
+      "F43",
+      "F44",
+      "F49",
+      "F7",
+      "F28",
+      "F32",
+      "F45"
+     ]
     },
     {
      "id": "ap-geography-26-3",
@@ -3745,7 +4727,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify Ramayapatnam as a greenfield deep-water port serving the southern hinterland, so the stated purpose explains its development."
+     "explanation": "Both statements are true. The notes identify Ramayapatnam as a greenfield deep-water port serving the southern hinterland, so the stated purpose explains its development.",
+     "facts": [
+      "F51",
+      "F53",
+      "F14"
+     ]
     },
     {
      "id": "ap-geography-26-4",
@@ -3759,7 +4746,13 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Gangavaram–Visakhapatnam, Krishnapatnam–SPSR Nellore, Kakinada Anchorage–Kakinada, and Rawa–Kakinada region."
+     "explanation": "The correct pairs are Gangavaram–Visakhapatnam, Krishnapatnam–SPSR Nellore, Kakinada Anchorage–Kakinada, and Rawa–Kakinada region.",
+     "facts": [
+      "F31",
+      "F34",
+      "F42",
+      "F47"
+     ]
     },
     {
      "id": "ap-geography-26-5",
@@ -3773,9 +4766,214 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct according to the notes. These are the listed locations, former name and SEZ linkage of the greenfield ports."
+     "explanation": "All four statements are correct according to the notes. These are the listed locations, former name and SEZ linkage of the greenfield ports.",
+     "facts": [
+      "F50",
+      "F55",
+      "F57",
+      "F64",
+      "F63"
+     ]
+    },
+    {
+     "id": "ap-geography-26-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ports – Administrative/Status",
+     "question": "Consider the following statements:\nI. Visakhapatnam Port is administered by the Visakhapatnam Port Authority.\nII. Kakinada Deep Water is a non-major/private port.\nIII. Kakinada Anchorage is a non-major/private port.\nIV. Rawa is a non-major/private port.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Visakhapatnam Port is administered by the Visakhapatnam Port Authority, while Kakinada Deep Water, Kakinada Anchorage and Rawa are identified as non-major/private ports.",
+     "facts": [
+      "F3",
+      "F8",
+      "F9",
+      "F10"
+     ]
+    },
+    {
+     "id": "ap-geography-26-7",
+     "format": "Assertion-Reason",
+     "keyword": "Port → Location",
+     "question": "Assertion (A): Visakhapatnam Port Authority is located in Visakhapatnam district.\nReason (R): Visakhapatnam Port Authority is an all-weather, deep-water port.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the authority is located in Visakhapatnam district and is an all-weather, deep-water port. However, its port characteristics do not explain its district location.",
+     "facts": [
+      "F27",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "ap-geography-26-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Greenfield Ports",
+     "question": "Consider the following statements:\nI. Five greenfield ports are operational.\nII. Mulapeta is an operational greenfield port.\nIII. Machilipatnam is an operational greenfield port.\nIV. Kakinada Gateway/SEZ is an operational greenfield port.\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. The sheet identifies five operational greenfield ports and specifically lists Mulapeta, Machilipatnam and Kakinada Gateway/SEZ among them.",
+     "facts": [
+      "F13",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "ap-geography-26-9",
+     "format": "Direct Recall",
+     "keyword": "Greenfield Ports – Timeline",
+     "question": "Greenfield ports in Andhra Pradesh target Phase-I commercial operations by:",
+     "options": [
+      "December 2025",
+      "December 2026",
+      "March 2026",
+      "March 2027"
+     ],
+     "answer": 1,
+     "explanation": "The target for Phase-I commercial operations of the greenfield ports is December 2026.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "ap-geography-26-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Future / Notified Ports",
+     "question": "Consider the following statements:\nStatement A: Four future/notified ports are under construction.\nStatement B: Future/notified ports represent state-led maritime expansion.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The future/notified port category contains four ports under construction and represents state-led maritime expansion.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "ap-geography-26-11",
+     "format": "Count-Based",
+     "keyword": "Future / Prospective Ports",
+     "question": "How many of the following are named proposed/notified future ports?\n1. Bheemunipatnam\n2. Kalingapatnam\n3. Vodarevu\n4. Narsapur\n5. Nizampatnam",
+     "options": [
+      "Only three",
+      "Only four",
+      "All five",
+      "Only two"
+     ],
+     "answer": 2,
+     "explanation": "All five listed ports—Bheemunipatnam, Kalingapatnam, Vodarevu, Narsapur and Nizampatnam—form the five-named future/prospective development list.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "ap-geography-26-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Deep-water Port → Location",
+     "question": "Consider the following statements:\nStatement A: Gangavaram Port is a deep-water private port.\nStatement B: Kakinada Deep Water Port is located in Kakinada district and is a non-major/private port.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Gangavaram is a deep-water private port, while Kakinada Deep Water Port is located in Kakinada district and is classified as non-major/private.",
+     "facts": [
+      "F33",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "ap-geography-26-13",
+     "format": "Direct Recall",
+     "keyword": "Port – Alternate Name and Status",
+     "question": "Which of the following correctly describes Rawa Port?",
+     "options": [
+      "It is also called Bhavanapadu Port and is a major port.",
+      "It is also called Mulapeta Port and is a greenfield port.",
+      "It is also called Ravva Port and is a captive/non-major port.",
+      "It is also called Kakinada Anchorage and is a private major port."
+     ],
+     "answer": 2,
+     "explanation": "Rawa Port is also called Ravva Port and is classified as a captive/non-major port.",
+     "facts": [
+      "F46",
+      "F48"
+     ]
+    },
+    {
+     "id": "ap-geography-26-14",
+     "format": "List-Matching",
+     "keyword": "Ports → Status/Feature",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ramayapatnam Port\n(b) Mulapeta Port\n(c) Machilipatnam Port\n(d) Kakinada Gateway/Kakinada SEZ Port\n\nList-II\n(i) Landlord model\n(ii) Phase-I construction advanced\n(iii) Greenfield multi-purpose port\n(iv) Located in Srikakulam district",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Ramayapatnam Port has advanced Phase-I construction; Mulapeta Port is in Srikakulam district; Machilipatnam Port is a greenfield multi-purpose port; and Kakinada Gateway/Kakinada SEZ Port follows the landlord model.",
+     "facts": [
+      "F52",
+      "F54",
+      "F58",
+      "F62"
+     ]
+    },
+    {
+     "id": "ap-geography-26-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Ports → Location/Cargo/Development",
+     "question": "Consider the following statements:\n\nI. Mulapeta Port is associated with northern coastal cargo.\nII. Machilipatnam was an ancient trading hub.\nIII. Machilipatnam Port is being developed as a modern port.\nIV. Kakinada Gateway/Kakinada SEZ Port is located in Kakinada district.",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Mulapeta is associated with northern coastal cargo; Machilipatnam was an ancient trading hub and is being developed as a modern port; and Kakinada Gateway/Kakinada SEZ Port is located in Kakinada district.",
+     "facts": [
+      "F56",
+      "F59",
+      "F60",
+      "F61"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 64,
+    "covered": 64,
+    "audited": true
+   }
   },
   "27": {
    "number": 27,

@@ -1853,7 +1853,11 @@
       "India–Bangladesh"
      ],
      "answer": 3,
-     "explanation": "The India–Bangladesh boundary is 4096.7 km long and is India’s longest land frontier with any country."
+     "explanation": "The India–Bangladesh boundary is 4096.7 km long and is India’s longest land frontier with any country.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "indian-geography-5-2",
@@ -1867,7 +1871,20 @@
       "The McMahon Line is associated with the India–China boundary and the Simla Convention."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the country association. The Line of Control is associated with India–Pakistan and the 1972 Simla Agreement, not India–China."
+     "explanation": "The incorrect detail is the country association. The Line of Control is associated with India–Pakistan and the 1972 Simla Agreement, not India–China.",
+     "facts": [
+      "F34",
+      "F35",
+      "F38",
+      "F39",
+      "F41",
+      "F42",
+      "F43",
+      "F45",
+      "F46",
+      "F47",
+      "F37"
+     ]
     },
     {
      "id": "indian-geography-5-3",
@@ -1881,7 +1898,15 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, West Bengal’s neighbouring countries do not explain Assam’s borders."
+     "explanation": "Both statements are true according to the notes. However, West Bengal’s neighbouring countries do not explain Assam’s borders.",
+     "facts": [
+      "F61",
+      "F62",
+      "F17",
+      "F18",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-5-4",
@@ -1895,7 +1920,18 @@
       "a-b, b-d, c-a, d-c"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Radcliffe Line–India–Pakistan, 1947; McMahon Line–India–China, 1914; Durand Line–Pakistan–Afghanistan, 1893; and Line of Control–India–Pakistan, 1972."
+     "explanation": "The correct pairs are: Radcliffe Line–India–Pakistan, 1947; McMahon Line–India–China, 1914; Durand Line–Pakistan–Afghanistan, 1893; and Line of Control–India–Pakistan, 1972.",
+     "facts": [
+      "F34",
+      "F35",
+      "F38",
+      "F39",
+      "F42",
+      "F43",
+      "F45",
+      "F46",
+      "F37"
+     ]
     },
     {
      "id": "indian-geography-5-5",
@@ -1909,7 +1945,209 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "All four statements are directly stated in the notes: Palk Strait is between Tamil Nadu and Sri Lanka, the Gulf of Mannar is between southeastern India and western Sri Lanka, the Arabian Sea is south-west of India, and the Bay of Bengal is south-east of India."
+     "explanation": "All four statements are directly stated in the notes: Palk Strait is between Tamil Nadu and Sri Lanka, the Gulf of Mannar is between southeastern India and western Sri Lanka, the Arabian Sea is south-west of India, and the Bay of Bengal is south-east of India.",
+     "facts": [
+      "F52",
+      "F53",
+      "F55",
+      "F57",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "indian-geography-5-6",
+     "format": "List-Matching",
+     "keyword": "Borders",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ladakh\n(b) Uttarakhand\n(c) Sikkim\n(d) Arunachal Pradesh\n\nList-II\n(i) China and Nepal\n(ii) Pakistan, China and Afghanistan\n(iii) China, Nepal and Bhutan\n(iv) China, Bhutan and Myanmar",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Ladakh borders Pakistan, China and Afghanistan; Uttarakhand borders China and Nepal; Sikkim borders China, Nepal and Bhutan; and Arunachal Pradesh borders China, Bhutan and Myanmar.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-geography-5-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\n\nI. Jammu and Kashmir borders Pakistan.\nII. Punjab borders Pakistan.\nIII. Rajasthan borders Pakistan.\nIV. Gujarat borders Pakistan.\nV. Himachal Pradesh borders China.",
+     "options": [
+      "I, II, III, IV and V",
+      "I, III and IV only",
+      "II, III and V only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct: Jammu and Kashmir, Punjab, Rajasthan and Gujarat border Pakistan, while Himachal Pradesh borders China.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-geography-5-8",
+     "format": "Assertion-Reason",
+     "keyword": "Borders",
+     "question": "Assertion (A): Nagaland borders Myanmar.\nReason (R): Manipur borders Myanmar.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Nagaland and Manipur each border Myanmar, but Manipur’s border does not explain Nagaland’s border.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-geography-5-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\nStatement A: West Bengal borders Nepal, Bhutan and Bangladesh.\nStatement B: Bihar borders Nepal.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "West Bengal borders Nepal, Bhutan and Bangladesh, while Bihar borders Nepal. Therefore, both statements are true.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-geography-5-10",
+     "format": "Direct Recall",
+     "keyword": "Borders",
+     "question": "Uttar Pradesh shares an international border with which country?",
+     "options": [
+      "Bhutan",
+      "Myanmar",
+      "Nepal",
+      "Bangladesh"
+     ],
+     "answer": 2,
+     "explanation": "Uttar Pradesh borders Nepal.",
+     "facts": [
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-geography-5-11",
+     "format": "Direct Recall",
+     "keyword": "Borders",
+     "question": "Which of the following correctly describes the India–Afghanistan international land boundary?",
+     "options": [
+      "It is 4096.7 km long and is India’s shortest international land boundary.",
+      "It is 106 km long and is India’s shortest international land boundary.",
+      "It is 106 km long and is India’s longest international land boundary.",
+      "It is 4096.7 km long and is India’s longest international land boundary."
+     ],
+     "answer": 1,
+     "explanation": "The India–Afghanistan international land boundary is 106 km long and is India’s shortest international land boundary.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "indian-geography-5-12",
+     "format": "Assertion-Reason",
+     "keyword": "Line",
+     "question": "Assertion (A): The Line of Actual Control is a de facto military boundary from the post-1962 period.\nReason (R): The Line of Actual Control separates India and China.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The Line of Actual Control separates India and China and is described as a post-1962 de facto military boundary, but the separation does not explain its post-1962 de facto character.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "indian-geography-5-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\nStatement A: The Himalayas lie north of India.\nStatement B: The Indian Ocean lies south of India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Himalayas are located north of India, while the Indian Ocean lies south of India.",
+     "facts": [
+      "F54",
+      "F56"
+     ]
+    },
+    {
+     "id": "indian-geography-5-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain range",
+     "question": "Consider the following statements about the Eastern Hills or Purvanchal:\nI. The Patkai Bum is included in the Eastern Hills.\nII. The Naga Hills are included in the Eastern Hills.\nIII. The Arakan Yoma is included in the Eastern Hills.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "The Eastern Hills or Purvanchal include the Patkai Bum, Naga Hills and Arakan Yoma.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60"
+     ]
+    },
+    {
+     "id": "indian-geography-5-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Borders",
+     "question": "Consider the following statements:\nStatement A: Mizoram borders Bangladesh and Myanmar.\nStatement B: Arunachal Pradesh has the maximum boundary with Myanmar.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Mizoram borders both Bangladesh and Myanmar. Arunachal Pradesh has the maximum boundary with Myanmar.",
+     "facts": [
+      "F63",
+      "F64",
+      "F21",
+      "F22"
+     ]
     }
    ]
   },
@@ -2326,7 +2564,8 @@
       "F31",
       "F32",
       "F35",
-      "F36"
+      "F36",
+      "F27"
      ]
     },
     {
@@ -2409,8 +2648,180 @@
       "F62",
       "F63"
      ]
+    },
+    {
+     "id": "indian-geography-8-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nI. Bauxite is found at Surguja.\nII. Palamu is in Jharkhand.\nIII. Bauxite is found at Palamu.\nIV. Dharwar is in Karnataka.\nV. Manganese is found at Dharwar.\nVI. Manganese is found at Chitradurga.",
+     "options": [
+      "I, III, IV and VI only",
+      "I, II, III, IV, V and VI only",
+      "I, II, III and IV only",
+      "II, III, IV, V and VI only"
+     ],
+     "answer": 1,
+     "explanation": "All six statements are correct. Surguja and Palamu are associated with bauxite, Palamu is in Jharkhand, Dharwar is in Karnataka and associated with manganese, and Chitradurga is also a manganese centre.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67",
+      "F68",
+      "F69",
+      "F71"
+     ]
+    },
+    {
+     "id": "indian-geography-8-16",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Mosabani\n(b) Alwar\n(c) Kolar Gold Fields\n(d) Hutti\n\nList-II\n(i) Karnataka — Gold\n(ii) Jharkhand — Copper\n(iii) Karnataka — Gold\n(iv) Rajasthan — Copper",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Mosabani is in Jharkhand and is associated with copper; Alwar is in Rajasthan and is associated with copper. Kolar Gold Fields and Hutti are Karnataka locations associated with gold. Therefore, the correct matching is a-ii, b-iv, c-iii, d-i.",
+     "facts": [
+      "F76",
+      "F77",
+      "F78",
+      "F79",
+      "F80",
+      "F81",
+      "F82",
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "indian-geography-8-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nStatement A: Neyveli is in Tamil Nadu and is associated with lignite.\nStatement B: Hazaribagh is in Jharkhand and is associated with mica.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Neyveli is a lignite location in Tamil Nadu, while Hazaribagh is in Jharkhand and is associated with mica.",
+     "facts": [
+      "F85",
+      "F86",
+      "F87",
+      "F88"
+     ]
+    },
+    {
+     "id": "indian-geography-8-18",
+     "format": "Assertion-Reason",
+     "keyword": "Mineral Resources → Location",
+     "question": "Assertion (A): Digboi/Amguri is an Assam location associated with petroleum.\nReason (R): Petroleum is found at Digboi/Amguri.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both A and R are true, and the reason correctly identifies why Digboi/Amguri is associated with petroleum. The location Digboi/Amguri is in Assam and petroleum is found there.",
+     "facts": [
+      "F98",
+      "F99"
+     ]
+    },
+    {
+     "id": "indian-geography-8-19",
+     "format": "Assertion-Reason",
+     "keyword": "Mineral Resources \u00192 Location",
+     "question": "Assertion (A): Uranium is found in Jharkhand.\nReason (R): Uranium is found in Rajasthan.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Uranium is listed in both Jharkhand and Rajasthan. The occurrence of uranium in Rajasthan does not explain its occurrence in Jharkhand.",
+     "facts": [
+      "F102",
+      "F103"
+     ]
+    },
+    {
+     "id": "indian-geography-8-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources \u00192 Location",
+     "question": "Consider the following statements:\nI. Dolomite is found in Chhattisgarh.\nII. Dolomite is found at Janjgir.\nIII. Dolomite is found at Bastar.\nIV. Dolomite is found at Durg.\nV. Dolomite is found at Raipur.",
+     "options": [
+      "II, III, IV and V only",
+      "I, II and III only",
+      "I, II, III, IV and V",
+      "I, III and V only"
+     ],
+     "answer": 2,
+     "explanation": "Dolomite is associated with Chhattisgarh, with the listed locations being Janjgir, Bastar, Durg and Raipur.",
+     "facts": [
+      "F110",
+      "F112",
+      "F113",
+      "F114",
+      "F115"
+     ]
+    },
+    {
+     "id": "indian-geography-8-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Coal → Location",
+     "question": "Consider the following statements:\nI. Raniganj is in West Bengal.\nII. Coal is found at Raniganj.\nIII. Jharia is in Jharkhand.\nIV. Coal is found at Jharia.\nV. Bokaro is in Jharkhand.\nVI. Coal is found at Bokaro.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, II, V and VI only",
+      "II, III, IV and V only",
+      "I, II, III, IV, V and VI"
+     ],
+     "answer": 3,
+     "explanation": "Raniganj is a coal location in West Bengal, while Jharia and Bokaro are coal locations in Jharkhand. Therefore, all six statements are correct.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-geography-8-22",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Vindhya\n(b) Rajasthan\n(c) Dantewada\n(d) Surguja\n\nList-II\n(i) Limestone\n(ii) Salt\n(iii) Chhattisgarh — Tin\n(iv) Chhattisgarh",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Limestone is found in Vindhya, salt is associated with Rajasthan, and tin is found at Dantewada in Chhattisgarh. Surguja is also in Chhattisgarh.",
+     "facts": [
+      "F64",
+      "F91",
+      "F93",
+      "F96",
+      "F97"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 115,
+    "covered": 115,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -2696,7 +3107,10 @@
       "Guru Shikhar"
      ],
      "answer": 0,
-     "explanation": "Anaimudi is identified as the highest peak of South India. It is located in Kerala, has an elevation of 2,695 m, and forms part of the Western Ghats."
+     "explanation": "Anaimudi is identified as the highest peak of South India. It is located in Kerala, has an elevation of 2,695 m, and forms part of the Western Ghats.",
+     "facts": [
+      "F36"
+     ]
     },
     {
      "id": "indian-geography-12-2",
@@ -2710,7 +3124,15 @@
       "Doddabetta is located in the Nilgiri Hills of Tamil Nadu."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that Saramati is located in the Garo Hills of Meghalaya. Saramati is located in Nagaland; Nokrek is the peak located in the Garo Hills of Meghalaya."
+     "explanation": "The incorrect statement is that Saramati is located in the Garo Hills of Meghalaya. Saramati is located in Nagaland; Nokrek is the peak located in the Garo Hills of Meghalaya.",
+     "facts": [
+      "F2",
+      "F20",
+      "F23",
+      "F47",
+      "F19",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-12-3",
@@ -2724,7 +3146,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. K2 is listed as K2/Godwin Austen and is located in the Karakoram Range of Ladakh, but its alternate name does not explain its location."
+     "explanation": "Both statements are true according to the notes. K2 is listed as K2/Godwin Austen and is located in the Karakoram Range of Ladakh, but its alternate name does not explain its location.",
+     "facts": [
+      "F27"
+     ]
     },
     {
      "id": "indian-geography-12-4",
@@ -2738,7 +3163,17 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Tamil Nadu–Doddabetta, Rajasthan–Guru Shikhar, Nagaland–Saramati, and Madhya Pradesh–Dhupgarh."
+     "explanation": "The correct pairs are: Tamil Nadu–Doddabetta, Rajasthan–Guru Shikhar, Nagaland–Saramati, and Madhya Pradesh–Dhupgarh.",
+     "facts": [
+      "F19",
+      "F2",
+      "F23",
+      "F20",
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-12-5",
@@ -2752,7 +3187,204 @@
       "B, A, D, C"
      ],
      "answer": 2,
-     "explanation": "The notes give the east-to-west order as Namcha Barwa, Kanchenjunga, Mount Everest and Nanda Devi. Therefore, the correct sequence is C, D, A, B."
+     "explanation": "The notes give the east-to-west order as Namcha Barwa, Kanchenjunga, Mount Everest and Nanda Devi. Therefore, the correct sequence is C, D, A, B.",
+     "facts": [
+      "F41",
+      "F24",
+      "F25",
+      "F28",
+      "F29",
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "indian-geography-12-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain range → Location",
+     "question": "Consider the following statements:\nI. The Aravalli Range is located in Rajasthan, Haryana and Delhi.\nII. The Vindhya Range is located in Central India.\nIII. The Satpura Range is located in Central India.\nIV. The Mahadeo Hills are located in Central India.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and IV only",
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: the Aravalli Range extends across Rajasthan, Haryana and Delhi, while the Vindhya Range, Satpura Range and Mahadeo Hills are located in Central India.",
+     "facts": [
+      "F1",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-geography-12-7",
+     "format": "List-Matching",
+     "keyword": "Mountain range → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kaimur Range\n(b) Nallamalai Hills\n(c) Seshachalam Hills\n(d) Biligirirangan Hills\n\nList-II\n(i) Southern Andhra Pradesh\n(ii) Madhya Pradesh, Uttar Pradesh and Bihar\n(iii) Southeastern Karnataka\n(iv) Andhra Pradesh and Telangana",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are Kaimur–Madhya Pradesh, Uttar Pradesh and Bihar; Nallamalai–Andhra Pradesh and Telangana; Seshachalam–southern Andhra Pradesh; and Biligirirangan–southeastern Karnataka.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-geography-12-8",
+     "format": "List-Matching",
+     "keyword": "Hills → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Garhjat Hills\n(b) Shevaroy Hills\n(c) Palni Hills\n(d) Cardamom or Yela Mala Hills\n\nList-II\n(i) Dindigul, Tamil Nadu\n(ii) Kerala and Tamil Nadu\n(iii) Odisha\n(iv) Salem, Tamil Nadu",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Garhjat Hills are in Odisha; Shevaroy Hills are in Salem, Tamil Nadu; Palni Hills are in Dindigul, Tamil Nadu; and Cardamom or Yela Mala Hills are in Kerala and Tamil Nadu.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "indian-geography-12-9",
+     "format": "Count-Based",
+     "keyword": "Mountain range → Location",
+     "question": "How many of the following ranges or hills are located in Maharashtra?\nI. Balaghat Range\nII. Harishchandra Range\nIII. Satmala Range\nIV. Mandav Hills",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The Balaghat Range, Harishchandra Range and Satmala Range are located in Maharashtra. Mandav Hills are located in Gujarat, so the number is three.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-12-10",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain peak → Location",
+     "question": "Assertion (A): Anaimudi, also known as Anamudi, is located in the Ernakulam and Idukki districts of Kerala.\nReason (R): Anaimudi has an elevation of 2,695 metres.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Anaimudi is also called Anamudi and is located in Ernakulam and Idukki districts of Kerala, while its elevation is 2,695 metres. The elevation does not explain its location or alternate name.",
+     "facts": [
+      "F18",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-geography-12-11",
+     "format": "Direct Recall",
+     "keyword": "Mountain range → Location",
+     "question": "Anaimudi is a part of which mountain range?",
+     "options": [
+      "The Garo Hills",
+      "The Nilgiri Hills",
+      "The Western Ghats",
+      "The Eastern Ghats"
+     ],
+     "answer": 2,
+     "explanation": "Anaimudi is part of the Western Ghats.",
+     "facts": [
+      "F39"
+     ]
+    },
+    {
+     "id": "indian-geography-12-12",
+     "format": "List-Matching",
+     "keyword": "Mountain peak → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gaurlata, also called Samri Pat\n(b) Nokrek\n(c) Kamet\n(d) Kailash\n\nList-II\n(i) Tibet\n(ii) Chhattisgarh\n(iii) Uttarakhand\n(iv) Meghalaya",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "Gaurlata or Samri Pat is located in Chhattisgarh; Nokrek in Meghalaya; Kamet in Uttarakhand; and Kailash in Tibet.",
+     "facts": [
+      "F21",
+      "F22",
+      "F26",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-geography-12-13",
+     "format": "Direct Recall",
+     "keyword": "Highest",
+     "question": "Which of the following is the highest peak of Chhattisgarh?",
+     "options": [
+      "Doddabetta",
+      "Dhupgarh",
+      "Saramati",
+      "Gaurlata"
+     ],
+     "answer": 3,
+     "explanation": "Gaurlata is the highest peak of Chhattisgarh.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-geography-12-14",
+     "format": "Direct Recall",
+     "keyword": "Mountains → Location",
+     "question": "Mahendragiri is located in which geographical region?",
+     "options": [
+      "Eastern Ghats region",
+      "Nilgiri Hills region",
+      "Western Ghats region",
+      "Karakoram Range region"
+     ],
+     "answer": 0,
+     "explanation": "Mahendragiri is located in the Eastern Ghats region.",
+     "facts": [
+      "F40"
+     ]
+    },
+    {
+     "id": "indian-geography-12-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain peak → Location",
+     "question": "Consider the following statements:\nStatement A: Nanga Parbat is located in the Himalaya in the Jammu and Kashmir region.\nStatement B: Namcha Barwa is located in Tibet near Arunachal Pradesh.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Nanga Parbat is located in the Himalaya in the Jammu and Kashmir region, while Namcha Barwa is located in Tibet near Arunachal Pradesh.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
     }
    ]
   },
@@ -2782,7 +3414,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Karakoram Pass is associated with the India–China region, Zoji La with the Srinagar–Leh route, Baralacha La with the Manali–Leh route, and Shipki La with the Himachal Pradesh–Tibet route."
+     "explanation": "Karakoram Pass is associated with the India–China region, Zoji La with the Srinagar–Leh route, Baralacha La with the Manali–Leh route, and Shipki La with the Himachal Pradesh–Tibet route.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-13-2",
@@ -2796,7 +3434,19 @@
       "Nathu La is in Sikkim and is associated with the India–China border and Chumbi Valley."
      ],
      "answer": 2,
-     "explanation": "The incorrect association is the Uttarakhand–Myanmar border. Niti Pass is associated with Uttarakhand–Tibet."
+     "explanation": "The incorrect association is the Uttarakhand–Myanmar border. Niti Pass is associated with Uttarakhand–Tibet.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F18",
+      "F41",
+      "F14",
+      "F38",
+      "F17",
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "indian-geography-13-3",
@@ -2810,7 +3460,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Tuju is in Manipur and is associated with the Imphal–Tamu/Myanmar route. However, its location does not explain the stated route association."
+     "explanation": "Both statements are true: Tuju is in Manipur and is associated with the Imphal–Tamu/Myanmar route. However, its location does not explain the stated route association.",
+     "facts": [
+      "F50",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-13-4",
@@ -2824,7 +3478,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Palghat Gap is listed under Kerala, while Thalghat and Bhor Ghat are listed under Maharashtra."
+     "explanation": "Palghat Gap is listed under Kerala, while Thalghat and Bhor Ghat are listed under Maharashtra.",
+     "facts": [
+      "F27",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-13-5",
@@ -2838,7 +3497,14 @@
       "All six"
      ],
      "answer": 1,
-     "explanation": "Five passes are listed under Arunachal Pradesh: Bomdila, Bum La, Diphu, Pangsau and Yang Yap."
+     "explanation": "Five passes are listed under Arunachal Pradesh: Bomdila, Bum La, Diphu, Pangsau and Yang Yap.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     }
    ]
   },
@@ -2984,8 +3650,225 @@
       "F49",
       "F50"
      ]
+    },
+    {
+     "id": "indian-geography-14-7",
+     "format": "List-Matching",
+     "keyword": "Mountains → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Satpura Range\n(b) Western Ghats\n(c) Eastern Ghats\n(d) Seshachalam Hills\n\nList-II\n(i) Eastern Deccan\n(ii) Southern Andhra Pradesh\n(iii) Central India\n(iv) Western Deccan",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Satpura Range is in Central India; the Western Ghats, also known as the Sahyadri, are in the Western Deccan; the Eastern Ghats are in the Eastern Deccan; and the Seshachalam Hills are in southern Andhra Pradesh.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-geography-14-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountains → Location",
+     "question": "Consider the following statements:\n\nI. The Nallamala Hills are located in Andhra Pradesh.\nII. The Nallamala Hills are located in Telangana.\nIII. The Nilgiri Range is located in Karnataka.\nIV. The Palni Hills are located in Dindigul, Tamil Nadu.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The Nallamala Hills are located in Andhra Pradesh and Telangana, the Nilgiri Range is located in Karnataka, and the Palni Hills are in Dindigul, Tamil Nadu.",
+     "facts": [
+      "F9",
+      "F10",
+      "F15",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-geography-14-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountains → Location",
+     "question": "Consider the following statements:\n\nI. The Kaimur Range is located in Madhya Pradesh.\nII. The Kaimur Range is located in Uttar Pradesh.\nIII. The Kaimur Range is located in Bihar.\nIV. The Mahadeo Hills are located in Central India.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and IV only"
+     ],
+     "answer": 2,
+     "explanation": "The Kaimur Range extends across Madhya Pradesh, Uttar Pradesh and Bihar. The Mahadeo Hills are located in Central India, so all four statements are correct.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-geography-14-10",
+     "format": "Count-Based",
+     "keyword": "Mountains → Location",
+     "question": "How many of the following hills or ranges are located in Maharashtra?\n\n1. Satmala Hills\n2. Harishchandra Range\n3. Balaghat Range\n4. Mahadeo Hills",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The Satmala Hills, Harishchandra Range and Balaghat Range are located in Maharashtra. The Mahadeo Hills are located in Central India; therefore, three listed ranges or hills are located in Maharashtra.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-geography-14-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountains → Location",
+     "question": "Consider the following statements:\nStatement A: The Chin Range is located in Manipur.\nStatement B: The Arakan Yoma is located in western Myanmar.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: the Chin Range is located in Manipur, while the Arakan Yoma is located in western Myanmar.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-geography-14-12",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain range type and peak elevation",
+     "question": "Assertion (A): The Aravalli Range is a residual mountain range.\nReason (R): The elevation of Guru Shikhar is 1,722 metres.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the elevation of Guru Shikhar does not explain why the Aravalli Range is classified as a residual mountain range.",
+     "facts": [
+      "F35",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-geography-14-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Western Ghats → Regional name",
+     "question": "Consider the following statements:\n\nI. The Western Ghats are called Sahyadri in Maharashtra.\nII. The Western Ghats are called Sahyadri in Goa.\nIII. The Western Ghats are called Sahyadri in Karnataka.\nIV. The Nilgiri Range is a southern section of the Western Ghats.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. The Western Ghats are called Sahyadri in Maharashtra, Goa and Karnataka, and the Nilgiri Range forms a southern section of the Western Ghats.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F51"
+     ]
+    },
+    {
+     "id": "indian-geography-14-14",
+     "format": "List-Matching",
+     "keyword": "Mountains → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ooty and Udhagamandalam\n(b) Anaimalai Range\n(c) Cardamom Range\n(d) Shevaroy Hills\n\nList-II\n(i) Yercaud\n(ii) Western Ghats\n(iii) Nilgiri Range\n(iv) Yela Mala",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Ooty and Udhagamandalam are located in the Nilgiri Range. The Anaimalai Range and Cardamom Range are parts of the Western Ghats, while Yela Mala is the alternative name of the Cardamom Range. Yercaud is an important place in the Shevaroy Hills.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F60",
+      "F62"
+     ]
+    },
+    {
+     "id": "indian-geography-14-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain peak",
+     "question": "Consider the following statements:\nStatement A: Anaimudi is the highest peak of South India.\nStatement B: The elevation of Anaimudi is 2,695 metres.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Anaimudi is identified as the highest peak of South India, and its elevation is 2,695 metres.",
+     "facts": [
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "indian-geography-14-16",
+     "format": "Count-Based",
+     "keyword": "Mountain range → Components",
+     "question": "How many of the following are components of the Garo–Khasi–Jaintia Range?\n\n1. Garo Hills\n2. Khasi Hills\n3. Jaintia Hills\n4. Shevaroy Hills",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The Garo–Khasi–Jaintia Range comprises the Garo Hills, Khasi Hills and Jaintia Hills. Shevaroy Hills are not listed as a component of this range.",
+     "facts": [
+      "F63",
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "indian-geography-14-17",
+     "format": "Direct Recall",
+     "keyword": "Plateau",
+     "question": "The Satpura Range is part of which plateau?",
+     "options": [
+      "Western Deccan",
+      "Central India",
+      "Deccan Plateau",
+      "Eastern Deccan"
+     ],
+     "answer": 2,
+     "explanation": "The Satpura Range is located in Central India and forms part of the Deccan Plateau.",
+     "facts": [
+      "F41"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 67,
+    "covered": 67,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -3100,7 +3983,17 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Western Ghats–heavy orographic rainfall, Meghalaya Hills–extremely heavy rainfall, Himalayas–orographic barrier, and Aravallis–little orographic rainfall in Rajasthan."
+     "explanation": "The correct pairs are Western Ghats–heavy orographic rainfall, Meghalaya Hills–extremely heavy rainfall, Himalayas–orographic barrier, and Aravallis–little orographic rainfall in Rajasthan.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F7",
+      "F14",
+      "F44"
+     ]
     },
     {
      "id": "indian-geography-16-2",
@@ -3114,7 +4007,15 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Arabian Sea branch strikes the Western Ghats, producing orographic rainfall and contributing to the heaviest rainfall on the Western Coast."
+     "explanation": "Both statements are true. The Arabian Sea branch strikes the Western Ghats, producing orographic rainfall and contributing to the heaviest rainfall on the Western Coast.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9",
+      "F10",
+      "F7",
+      "F39"
+     ]
     },
     {
      "id": "indian-geography-16-3",
@@ -3128,7 +4029,16 @@
       "Punjab receives winter rainfall due to Western Disturbances."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes the cause for Tamil Nadu coast. The notes associate the Tamil Nadu coast with the northeast or retreating monsoon, whereas Western Disturbances cause winter rainfall in northwestern India."
+     "explanation": "The incorrect statement changes the cause for Tamil Nadu coast. The notes associate the Tamil Nadu coast with the northeast or retreating monsoon, whereas Western Disturbances cause winter rainfall in northwestern India.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F45",
+      "F28",
+      "F46"
+     ]
     },
     {
      "id": "indian-geography-16-4",
@@ -3142,7 +4052,19 @@
       "II, III and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are supported by the notes. Statement IV is incorrect because the rain-shadow Deccan is associated with low or scanty rainfall."
+     "explanation": "Statements I, II and III are supported by the notes. Statement IV is incorrect because the rain-shadow Deccan is associated with low or scanty rainfall.",
+     "facts": [
+      "F4",
+      "F5",
+      "F11",
+      "F18",
+      "F7",
+      "F14",
+      "F25",
+      "F26",
+      "F27",
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-16-5",
@@ -3156,9 +4078,147 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Telangana is named as an important rain-shadow area, and the notes attribute low rainfall in the interior Deccan to the Western Ghats rain shadow."
+     "explanation": "Both statements are true. Telangana is named as an important rain-shadow area, and the notes attribute low rainfall in the interior Deccan to the Western Ghats rain shadow.",
+     "facts": [
+      "F22",
+      "F43",
+      "F38"
+     ]
+    },
+    {
+     "id": "indian-geography-16-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rainfall Zones",
+     "question": "Consider the following statements:\nI. The very heavy rainfall zone includes the Western Coast and Northeast India.\nII. The heavy rainfall zone includes the Western Ghats and Meghalaya.\nIII. The moderate rainfall zone includes most of the Northern Plains and parts of Central India.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "II and III only",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct. The very heavy zone covers the Western Coast and Northeast India, the heavy zone includes the Western Ghats and Meghalaya, and the moderate zone covers most of the Northern Plains and parts of Central India.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "indian-geography-16-7",
+     "format": "Assertion-Reason",
+     "keyword": "Rainfall",
+     "question": "Assertion (A): Meghalaya receives very heavy rainfall.\nReason (R): The Bay of Bengal branch and orographic uplift contribute to rainfall in Meghalaya.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the reason explains the assertion. The Bay of Bengal branch causes very heavy rainfall in Meghalaya, while uplift over the hills produces orographic rainfall.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-16-8",
+     "format": "Direct Recall",
+     "keyword": "Rainfall",
+     "question": "Which of the following is identified as a famous location for very heavy rainfall?",
+     "options": [
+      "Kerala",
+      "Tamil Nadu",
+      "Cherrapunji",
+      "Konkan coast"
+     ],
+     "answer": 2,
+     "explanation": "Cherrapunji is identified as a famous location for very heavy rainfall.",
+     "facts": [
+      "F19"
+     ]
+    },
+    {
+     "id": "indian-geography-16-9",
+     "format": "Count-Based",
+     "keyword": "Rainfall",
+     "question": "How many of the following are important rain-shadow areas?\n1. Interior Maharashtra\n2. Interior Karnataka\n3. Telangana\n4. Andhra Pradesh\n5. Tamil Nadu",
+     "options": [
+      "Only three",
+      "Only four",
+      "All five",
+      "Only two"
+     ],
+     "answer": 2,
+     "explanation": "All five listed regions are identified as important rain-shadow areas: interior Maharashtra, interior Karnataka, Telangana, Andhra Pradesh and Tamil Nadu.",
+     "facts": [
+      "F20",
+      "F21",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-geography-16-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Rainfall",
+     "question": "Consider the following statements:\nStatement A: Meghalaya receives rainfall from the Bay of Bengal branch in association with its hills.\nStatement B: Orographic uplift causes rainfall at Mawsynram.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Meghalaya receives rainfall from the Bay of Bengal branch in association with its hills, and orographic uplift causes rainfall at Mawsynram.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "indian-geography-16-11",
+     "format": "Direct Recall",
+     "keyword": "Rainfall",
+     "question": "Orographic uplift causes rainfall at which of the following places?",
+     "options": [
+      "Konkan coast",
+      "Cherrapunji",
+      "Tamil Nadu",
+      "Kerala"
+     ],
+     "answer": 1,
+     "explanation": "The notes identify Cherrapunji as a place where orographic uplift causes rainfall.",
+     "facts": [
+      "F42"
+     ]
+    },
+    {
+     "id": "indian-geography-16-12",
+     "format": "List-Matching",
+     "keyword": "Rainfall",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Coastal Karnataka\n(b) Konkan coast and Maharashtra\n(c) Garo, Khasi and Jaintia Hills\n\nList-II\n(i) Associated with very heavy rainfall in Meghalaya\n(ii) Key region of heavy rainfall on the Western Coast\n(iii) Key region of heavy rainfall on the Western Coast\n\nCodes:",
+     "options": [
+      "a-iii, b-i, c-ii",
+      "a-ii, b-iii, c-i",
+      "a-i, b-ii, c-iii",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 1,
+     "explanation": "Coastal Karnataka and the Konkan coast/Maharashtra are key regions of heavy rainfall on the Western Coast. The Garo, Khasi and Jaintia Hills are associated with very heavy rainfall in Meghalaya.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 46,
+    "covered": 46,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,

@@ -5183,8 +5183,30 @@
      "facts": [
       "F72"
      ]
+    },
+    {
+     "id": "indian-society-11-17",
+     "format": "Direct Recall",
+     "keyword": "Committee",
+     "question": "Which commission reviewed the Constitution, including issues related to social justice?",
+     "options": [
+      "National Commission to Review Working of Constitution",
+      "Ranganath Misra Commission",
+      "Education Commission",
+      "National Integration Council"
+     ],
+     "answer": 0,
+     "explanation": "The National Commission to Review Working of Constitution reviewed the Constitution, including social justice.",
+     "facts": [
+      "F10"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 76,
+    "covered": 76,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -8106,7 +8128,10 @@
       "14566"
      ],
      "answer": 3,
-     "explanation": "The notes identify National Toll-Free Helpline 14566 under casteism and atrocities initiatives."
+     "explanation": "The notes identify National Toll-Free Helpline 14566 under casteism and atrocities initiatives.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "indian-society-36-2",
@@ -8120,7 +8145,15 @@
       "The POCSO Amendment Act provides stringent punishments."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes the initiative’s area of application. The National Database on Sexual Offenders relates to crimes against women, whereas inter-agency coordination for rescuing and rehabilitating child labourers is associated with the PENCIL Portal."
+     "explanation": "The incorrect statement changes the initiative’s area of application. The National Database on Sexual Offenders relates to crimes against women, whereas inter-agency coordination for rescuing and rehabilitating child labourers is associated with the PENCIL Portal.",
+     "facts": [
+      "F11",
+      "F16",
+      "F18",
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-society-36-3",
@@ -8134,7 +8167,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. SHe-Box is identified as the Sexual Harassment electronic Box and as a mechanism for streamlined POSH Act redressal."
+     "explanation": "Both statements are directly supported by the notes. SHe-Box is identified as the Sexual Harassment electronic Box and as a mechanism for streamlined POSH Act redressal.",
+     "facts": [
+      "F12",
+      "F15"
+     ]
     },
     {
      "id": "indian-society-36-4",
@@ -8148,7 +8185,17 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: casteism and atrocities—Protection of Civil Rights Act, 1955; crimes against women—National Database on Sexual Offenders; child labour and abuse—PENCIL Portal; youth unrest and agitation—PM-YUVA/Mera Yuva Bharat Portal."
+     "explanation": "The correct pairs are: casteism and atrocities—Protection of Civil Rights Act, 1955; crimes against women—National Database on Sexual Offenders; child labour and abuse—PENCIL Portal; youth unrest and agitation—PM-YUVA/Mera Yuva Bharat Portal.",
+     "facts": [
+      "F1",
+      "F2",
+      "F11",
+      "F16",
+      "F17",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-society-36-5",
@@ -8162,7 +8209,21 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct according to the notes. Automatic FIR registration without preliminary inquiry is associated with casteism and atrocity enforcement initiatives, not the PENCIL Portal."
+     "explanation": "Statements I, II and IV are correct according to the notes. Automatic FIR registration without preliminary inquiry is associated with casteism and atrocity enforcement initiatives, not the PENCIL Portal.",
+     "facts": [
+      "F5",
+      "F16",
+      "F17",
+      "F24",
+      "F26",
+      "F29",
+      "F30",
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
     }
    ]
   }

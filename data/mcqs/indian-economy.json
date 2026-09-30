@@ -1238,7 +1238,10 @@
       "1 July 2016"
      ],
      "answer": 0,
-     "explanation": "According to the notes, GST was implemented on 1 July 2017."
+     "explanation": "According to the notes, GST was implemented on 1 July 2017.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-15-2",
@@ -1252,7 +1255,13 @@
       "The Union Finance Minister is its Chairperson."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the Chairperson. The Union Finance Minister, not the Union Minister of State in charge of Revenue/Finance, is the Chairperson of the GST Council."
+     "explanation": "The incorrect detail is the Chairperson. The Union Finance Minister, not the Union Minister of State in charge of Revenue/Finance, is the Chairperson of the GST Council.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-15-3",
@@ -1266,7 +1275,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. GST being destination-based explains why revenue accrues to the jurisdiction of consumption rather than production."
+     "explanation": "Both statements are true. GST being destination-based explains why revenue accrues to the jurisdiction of consumption rather than production.",
+     "facts": [
+      "F3",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-15-4",
@@ -1280,7 +1294,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are CGST–Central Goods & Services Tax, SGST–State Goods & Services Tax, IGST–Integrated Goods & Services Tax, and UTGST–Union Territory GST."
+     "explanation": "The correct pairs are CGST–Central Goods & Services Tax, SGST–State Goods & Services Tax, IGST–Integrated Goods & Services Tax, and UTGST–Union Territory GST.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-15-5",
@@ -1294,9 +1314,171 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct according to the GST constitutional linkages given in the notes."
+     "explanation": "All four statements are correct according to the GST constitutional linkages given in the notes.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F36"
+     ]
+    },
+    {
+     "id": "indian-economy-15-6",
+     "format": "Direct Recall",
+     "keyword": "GST",
+     "question": "GST is best described as which of the following?",
+     "options": [
+      "Goods and Services Tax, an indirect tax",
+      "General Supply Tax, an indirect tax",
+      "Goods and State Tax, a direct tax",
+      "Goods and Services Tariff, a direct tax"
+     ],
+     "answer": 0,
+     "explanation": "GST stands for Goods and Services Tax and is an indirect tax.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
+    },
+    {
+     "id": "indian-economy-15-7",
+     "format": "Assertion-Reason",
+     "keyword": "Tax – GST",
+     "question": "Assertion (A): GST was introduced through the 101st Constitutional Amendment Act, 2016.\nReason (R): The basic principle of GST is taxation on the supply of goods and services.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the principle of taxing the supply of goods and services does not explain the constitutional amendment through which GST was introduced.",
+     "facts": [
+      "F4",
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-economy-15-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Objective",
+     "question": "Consider the following statements:\nStatement A: Creating a common or unified national market is a major objective of GST.\nStatement B: Reducing the cascading of taxes is a major objective of GST.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both creating a common or unified national market and reducing tax cascading are stated as major objectives of GST.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-15-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "GST Council",
+     "question": "Consider the following statements regarding the GST Council:\nI. The Minister in charge of Finance or Taxation from each State is a member of the GST Council.\nII. The GST Council makes recommendations regarding tax rates.\nIII. The GST Council makes recommendations regarding exemptions and threshold limits.\nIV. The GST Council makes recommendations regarding other GST-related matters.",
+     "options": [
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct. State Finance or Taxation Ministers are members, and the Council recommends on tax rates, exemptions, threshold limits and other GST-related matters.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "indian-economy-15-10",
+     "format": "Direct Recall",
+     "keyword": "Articles – NUMBER GAME",
+     "question": "Which Article provides restrictions relating to taxation of supplies outside a State and import-export?",
+     "options": [
+      "Article 246A",
+      "Article 279A",
+      "Article 286",
+      "Article 269A"
+     ],
+     "answer": 2,
+     "explanation": "Article 286 provides restrictions relating to taxation of supplies outside a State and import-export.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "indian-economy-15-11",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Tax – GST",
+     "question": "Which of the following statements regarding taxes subsumed under GST is incorrect?",
+     "options": [
+      "Central Excise Duty was subsumed under GST.",
+      "State VAT was subsumed under GST.",
+      "Various other Central and State direct taxes were subsumed under GST.",
+      "Service Tax was subsumed under GST."
+     ],
+     "answer": 2,
+     "explanation": "The incorrect statement alters one detail: GST subsumed various other Central and State indirect taxes, not direct taxes. Central Excise Duty, Service Tax and State VAT were also subsumed under GST.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-economy-15-12",
+     "format": "Assertion-Reason",
+     "keyword": "Revenue Neutral Rate",
+     "question": "Assertion (A): An RNR is intended to generate approximately the same revenue under GST as under the earlier tax system.\nReason (R): The calculation of an RNR is subject to the assumptions used.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "RNR stands for Revenue Neutral Rate. Its intended outcome is approximately equal revenue under GST and the earlier system, while its calculation depends on the assumptions used; the reason does not explain the definition itself.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-economy-15-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "GST Council",
+     "question": "Consider the following statements regarding GST administration:\nI. The GST Council makes recommendations.\nII. The Centre administers and collects CGST and IGST.\nIII. States administer SGST.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: the GST Council makes recommendations, the Centre administers and collects CGST and IGST, and States administer SGST.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,
@@ -1412,7 +1594,10 @@
       "National Payments Commission of India"
      ],
      "answer": 0,
-     "explanation": "NPCI stands for National Payments Corporation of India."
+     "explanation": "NPCI stands for National Payments Corporation of India.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-17-2",
@@ -1426,7 +1611,14 @@
       "NPCI was incorporated in December 2008."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the legal provision under the Companies Act, 1956. NPCI was incorporated as a Section 25 company under the Companies Act, 1956; Section 8 is the corresponding provision under the Companies Act, 2013."
+     "explanation": "The incorrect detail is the legal provision under the Companies Act, 1956. NPCI was incorporated as a Section 25 company under the Companies Act, 1956; Section 8 is the corresponding provision under the Companies Act, 2013.",
+     "facts": [
+      "F2",
+      "F3",
+      "F18",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-17-3",
@@ -1440,7 +1632,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Aadhaar-authenticated basic banking transactions make AePS relevant to financial inclusion and interoperable banking."
+     "explanation": "Both statements are true. Aadhaar-authenticated basic banking transactions make AePS relevant to financial inclusion and interoperable banking.",
+     "facts": [
+      "F43",
+      "F44",
+      "F45",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-17-4",
@@ -1454,7 +1652,15 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are UPI–instant account-to-account payments, IMPS–immediate interbank electronic fund transfer, RuPay–domestic card-payment network, and NETC–electronic toll collection/FASTag."
+     "explanation": "The correct pairs are UPI–instant account-to-account payments, IMPS–immediate interbank electronic fund transfer, RuPay–domestic card-payment network, and NETC–electronic toll collection/FASTag.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F12",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-economy-17-5",
@@ -1468,9 +1674,173 @@
       "D, C, A, B"
      ],
      "answer": 1,
-     "explanation": "The correct sequence is C (2009), D (2010), A (2012), and B (2016)."
+     "explanation": "The correct sequence is C (2009), D (2010), A (2012), and B (2016).",
+     "facts": [
+      "F22",
+      "F23",
+      "F25",
+      "F27"
+     ]
+    },
+    {
+     "id": "indian-economy-17-6",
+     "format": "List-Matching",
+     "keyword": "NPCI – Key Associations",
+     "question": "Match List-I with List-II:\n\nList-I\n a. NACH\n b. BHIM\n c. Bharat BillPay\n d. RBI\n\nList-II\n i. Central bank and regulator\n ii. UPI-based payment app\n iii. High-volume recurring electronic transactions\n iv. Interoperable bill-payment system",
+     "options": [
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "NACH is associated with high-volume recurring electronic transactions, BHIM is a UPI-based payment app, Bharat BillPay is an interoperable bill-payment system, and RBI is the central bank and regulator.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-economy-17-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Legal Framework",
+     "question": "Consider the following statements:\nStatement A: NPCI was an initiative of the Reserve Bank of India and the Indian Banks’ Association.\nStatement B: NPCI operates under the Payment and Settlement Systems Act, 2007.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "NPCI was initiated by RBI and the Indian Banks’ Association, and it operates under the Payment and Settlement Systems Act, 2007.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "indian-economy-17-8",
+     "format": "Direct Recall",
+     "keyword": "Umbrella Organisation",
+     "question": "What is the core role of NPCI?",
+     "options": [
+      "It is the umbrella organisation for retail payment and settlement systems",
+      "It is the central bank and regulator",
+      "It is an interoperable bill-payment system",
+      "It is a banking-industry association"
+     ],
+     "answer": 0,
+     "explanation": "NPCI is the umbrella organisation for retail payment and settlement systems.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "indian-economy-17-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "NPCI – Organisational Nature",
+     "question": "Consider the following statements:\nStatement A: The Indian Banks’ Association is a banking-industry association.\nStatement B: NPCI is a payment-system infrastructure and operations organisation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "IBA is identified as a banking-industry association, while NPCI is identified as a payment-system infrastructure and operations organisation.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-economy-17-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "NPCI Milestones – Years",
+     "question": "Consider the following statements:\nI. The Payment and Settlement Systems Act was enacted in 2007.\nII. AePS was introduced in 2010.\nIII. NACH was implemented in 2012.\nIV. BHIM was launched in 2016.\nV. NETC FASTag was launched in 2016.",
+     "options": [
+      "I, II, III, IV and V",
+      "I, III, IV and V only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct: the Act dates to 2007, AePS was introduced in 2010, NACH was implemented in 2012, and BHIM and NETC FASTag were launched in 2016.",
+     "facts": [
+      "F20",
+      "F24",
+      "F26",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-economy-17-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "UPI",
+     "question": "Consider the following statements:\nI. UPI stands for Unified Payments Interface.\nII. UPI was developed by NPCI.\nIII. UPI uses interoperable payment infrastructure.\nIV. NPCI’s payment infrastructure supports digital payments.",
+     "options": [
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "UPI means Unified Payments Interface, was developed by NPCI, and uses interoperable payment infrastructure. NPCI’s payment infrastructure also supports digital payments.",
+     "facts": [
+      "F30",
+      "F31",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-economy-17-12",
+     "format": "Assertion-Reason",
+     "keyword": "Financial Inclusion",
+     "question": "Assertion (A): Digital payments provide wider access.\nReason (R): Wider access contributes to financial inclusion.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Digital payments provide wider access, and wider access contributes to financial inclusion; however, the Reason states the consequence of wider access rather than explaining why digital payments provide it.",
+     "facts": [
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-economy-17-13",
+     "format": "Count-Based",
+     "keyword": "NPCI Payment Infrastructure",
+     "question": "How many of the following are identified as particularly relevant to NPCI’s payment infrastructure?\n\n1. AePS\n2. UPI\n3. IMPS\n4. RuPay\n5. NACH",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed systems—AePS, UPI, IMPS, RuPay and NACH—are identified as particularly relevant to NPCI’s payment infrastructure.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 45,
+    "covered": 45,
+    "audited": true
+   }
   },
   "18": {
    "number": 18,
@@ -3120,7 +3490,12 @@
       "Current Weekly Status (CWS)"
      ],
      "answer": 1,
-     "explanation": "Current Daily Status (CDS) uses each day of the reference week as its reference period."
+     "explanation": "Current Daily Status (CDS) uses each day of the reference week as its reference period.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-33-2",
@@ -3134,7 +3509,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the definition of low employment elasticity does not explain why high employment elasticity generates relatively more employment."
+     "explanation": "Both statements are true, but the definition of low employment elasticity does not explain why high employment elasticity generates relatively more employment.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-33-3",
@@ -3148,7 +3527,16 @@
       "Structural unemployment involves a mismatch of skills or geography."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the type: surplus labour with zero marginal output describes disguised or hidden unemployment. Underemployment refers to underutilization of worker capacity."
+     "explanation": "The incorrect statement alters the type: surplus labour with zero marginal output describes disguised or hidden unemployment. Underemployment refers to underutilization of worker capacity.",
+     "facts": [
+      "F6",
+      "F9",
+      "F18",
+      "F21",
+      "F24",
+      "F22",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-33-4",
@@ -3162,7 +3550,15 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: frictional—transition between jobs; structural—mismatch of skills or geography; cyclical—deficiency in aggregate demand; vulnerable—lack of formal contracts and social security."
+     "explanation": "The correct pairs are: frictional—transition between jobs; structural—mismatch of skills or geography; cyclical—deficiency in aggregate demand; vulnerable—lack of formal contracts and social security.",
+     "facts": [
+      "F6",
+      "F9",
+      "F12",
+      "F28",
+      "F7",
+      "F29"
+     ]
     },
     {
      "id": "indian-economy-33-5",
@@ -3176,9 +3572,82 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct according to the notes. Predictable demand shifts by season describe seasonal unemployment, not institutional unemployment."
+     "explanation": "Statements I, II and III are correct according to the notes. Predictable demand shifts by season describe seasonal unemployment, not institutional unemployment.",
+     "facts": [
+      "F15",
+      "F18",
+      "F19",
+      "F23",
+      "F24",
+      "F16",
+      "F22",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-economy-33-6",
+     "format": "Assertion-Reason",
+     "keyword": "Unemployment",
+     "question": "Assertion (A): A recent graduate searching for a first job is an example of frictional unemployment.\nReason (R): Frictional unemployment arises during the transition between jobs.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Searching for a first job represents a transition into employment and is classified as frictional unemployment.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-economy-33-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Unemployment",
+     "question": "Consider the following statements:\nI. Structural unemployment is long-term and driven by technology or industry shifts.\nII. Factory workers displaced by industrial automation are an example of structural unemployment.\nIII. Cyclical unemployment is directly tied to business cycles, including recessions and downturns.\nIV. Layoffs across sectors during an economic recession are an example of cyclical unemployment.",
+     "options": [
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Technology or industry shifts and automation-related displacement describe structural unemployment, while recessions, business cycles and economy-wide layoffs describe cyclical unemployment.",
+     "facts": [
+      "F10",
+      "F11",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-economy-33-8",
+     "format": "List-Matching",
+     "keyword": "Unemployment",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Agricultural labourers or resort staff unemployed during the off-season\n(b) Five family members working on a farm plot that needs only two workers\n(c) Employers halting hiring because of rigid layoff regulations\n(d) Daily-wage construction labour or unorganized street vending\n\nList-II\ni. Seasonal unemployment\nii. Disguised unemployment\niii. Institutional unemployment\niv. Vulnerable unemployment",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are a-i, b-ii, c-iii and d-iv. Off-season joblessness is seasonal; surplus workers on a farm plot indicate disguised unemployment; rigid layoff regulations create institutional unemployment; and daily-wage construction or unorganized vending represents vulnerable unemployment.",
+     "facts": [
+      "F17",
+      "F20",
+      "F26",
+      "F27",
+      "F30"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 30,
+    "covered": 30,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,
@@ -4528,7 +4997,15 @@
       "The market-driven rise in the value of a currency"
      ],
      "answer": 0,
-     "explanation": "The exchange rate is the price or value of one currency expressed in terms of another currency."
+     "explanation": "The exchange rate is the price or value of one currency expressed in terms of another currency.",
+     "facts": [
+      "F1",
+      "F2",
+      "F13",
+      "F14",
+      "F15",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-47-2",
@@ -4542,7 +5019,19 @@
       "In 1991, devaluation occurred in two steps on July 1 and July 3."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the second date: the two devaluation steps in 1991 occurred on July 1 and July 3, not July 2."
+     "explanation": "The incorrect detail is the second date: the two devaluation steps in 1991 occurred on July 1 and July 3, not July 2.",
+     "facts": [
+      "F4",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F27",
+      "F28",
+      "F26"
+     ]
     },
     {
      "id": "indian-economy-47-3",
@@ -4556,7 +5045,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. A cheaper domestic currency makes exports relatively cheaper abroad, which may improve export competitiveness."
+     "explanation": "Both statements are true. A cheaper domestic currency makes exports relatively cheaper abroad, which may improve export competitiveness.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-47-4",
@@ -4570,7 +5064,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: market-determined value—flexible/floating exchange rate; official reduction—devaluation; official increase—revaluation; market-driven fall—depreciation."
+     "explanation": "The correct pairs are: market-determined value—flexible/floating exchange rate; official reduction—devaluation; official increase—revaluation; market-driven fall—depreciation.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-47-5",
@@ -4584,9 +5084,96 @@
       "I, II, III and IV"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the World Bank does not determine the currency price; demand and supply influence the exchange rate."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the World Bank does not determine the currency price; demand and supply influence the exchange rate.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-economy-47-6",
+     "format": "List-Matching",
+     "keyword": "Exchange",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Change from $1 = ₹60 to $1 = ₹58\n(b) Change from $1 = ₹60 to $1 = ₹65\n(c) Flexible exchange rate\n(d) Fixed exchange rate\n\nList-II\n(i) Rupee depreciation\n(ii) Devaluation or revaluation\n(iii) Rupee appreciation\n(iv) Depreciation or appreciation\n\nSelect the correct answer using the codes given below:",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "A change from $1 = ₹60 to $1 = ₹58 represents rupee appreciation, while a change to ₹65 represents rupee depreciation. Flexible exchange rates can involve depreciation or appreciation, whereas fixed exchange rates can involve devaluation or revaluation.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "indian-economy-47-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Exchange",
+     "question": "Consider the following statements:\n\nI. Devaluation makes imports relatively expensive.\nII. An increase in NEER does not indicate appreciation in the cited convention.\nIII. An increase in REER automatically means better competitiveness.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "Devaluation makes imports relatively expensive, and an increase in NEER does not indicate appreciation in the cited convention. An increase in REER does not automatically mean better competitiveness.",
+     "facts": [
+      "F6",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "indian-economy-47-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Exchange",
+     "question": "Consider the following statements:\nStatement A: Inflation can affect the exchange value.\nStatement B: A fiscal deficit can affect the exchange value.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The exchange value can be affected by both inflation and a fiscal deficit.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-economy-47-9",
+     "format": "Assertion-Reason",
+     "keyword": "Exchange",
+     "question": "Assertion (A): Devaluation necessarily improves the trade balance.\nReason (R): Devaluation makes exports relatively cheaper.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 3,
+     "explanation": "The assertion is false because devaluation does not necessarily improve the trade balance. The reason is true: devaluation makes exports relatively cheaper.",
+     "facts": [
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 35,
+    "covered": 35,
+    "audited": true
+   }
   },
   "48": {
    "number": 48,

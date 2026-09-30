@@ -798,8 +798,138 @@
       "F50",
       "F52"
      ]
+    },
+    {
+     "id": "world-geography-7-14",
+     "format": "List-Matching",
+     "keyword": "Dam/Reservoir \u0012 Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Hoover Dam\n(b) Kariba Dam\n(c) Niger Delta\n(d) R\u000000edo Bravo\n\nList-II\ni. Colorado River\nii. Zambezi River\niii. Major petroleum region\niv. Rio Grande",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Hoover Dam is associated with the Colorado River, while Kariba Dam is associated with the Zambezi River. The Niger Delta is a major petroleum region, and R\u000000edo Bravo is the name used for the Rio Grande in Mexico.",
+     "facts": [
+      "F53",
+      "F57",
+      "F61",
+      "F69"
+     ]
+    },
+    {
+     "id": "world-geography-7-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River \u0012 Location",
+     "question": "Consider the following statements:\nStatement A: The Zambezi River is located in Africa.\nStatement B: The Zambezi River forms part of the Zambia\u0012Zimbabwe boundary.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Zambezi is an African river and forms part of the boundary between Zambia and Zimbabwe.",
+     "facts": [
+      "F55",
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-7-16",
+     "format": "Direct Recall",
+     "keyword": "River \u0012 Feature",
+     "question": "Which pair represents the twin rivers of Mesopotamia?",
+     "options": [
+      "Nile and Congo",
+      "Tigris and Euphrates",
+      "Ob and Yenisei",
+      "Amu Darya and Syr Darya"
+     ],
+     "answer": 1,
+     "explanation": "The Tigris and Euphrates are identified as the twin rivers of Mesopotamia.",
+     "facts": [
+      "F62"
+     ]
+    },
+    {
+     "id": "world-geography-7-17",
+     "format": "Assertion-Reason",
+     "keyword": "River \u0012 Flooding",
+     "question": "Assertion (A): Spring ice blockage on the Ob, Yenisei and Lena contributes to flooding.\nReason (R): The Ob, Yenisei and Lena flow northward across Siberia into the Arctic Ocean.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. These rivers flow northward into the Arctic Ocean, and spring ice blockage in their courses contributes to flooding.",
+     "facts": [
+      "F67"
+     ]
+    },
+    {
+     "id": "world-geography-7-18",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → State/District/Town [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: The Rhine River flows through Europe.\nStatement B: The Rhine River flows through Switzerland.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Rhine is a river of Europe and flows through Switzerland.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-7-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → State/District/Town [LOCATION]",
+     "question": "Consider the following statements:\nI. The Rhine River flows through Germany.\nII. The Rhine River flows through the Netherlands.",
+     "options": [
+      "Both I and II",
+      "II only",
+      "Neither I nor II",
+      "I only"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Rhine flows through Germany and the Netherlands.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "world-geography-7-20",
+     "format": "Direct Recall",
+     "keyword": "River → State/District/Town [LOCATION]",
+     "question": "The Rhine River enters which sea near Rotterdam?",
+     "options": [
+      "The North Sea",
+      "Europe",
+      "Germany",
+      "Switzerland"
+     ],
+     "answer": 0,
+     "explanation": "The Rhine River enters the North Sea near Rotterdam.",
+     "facts": [
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 69,
+    "covered": 69,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -827,7 +957,10 @@
       "The Andes"
      ],
      "answer": 1,
-     "explanation": "The notes state that the source of the Mississippi is Lake Itasca."
+     "explanation": "The notes state that the source of the Mississippi is Lake Itasca.",
+     "facts": [
+      "F32"
+     ]
     },
     {
      "id": "world-geography-8-2",
@@ -841,7 +974,19 @@
       "The White Nile originates from Lake Victoria, while the Blue Nile originates from Lake Tana in Ethiopia."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is Malaysia. The notes specifically state that the Mekong does not flow through Malaysia; it drains into the South China Sea."
+     "explanation": "The incorrect detail is Malaysia. The notes specifically state that the Mekong does not flow through Malaysia; it drains into the South China Sea.",
+     "facts": [
+      "F42",
+      "F43",
+      "F53",
+      "F54",
+      "F62",
+      "F63",
+      "F1",
+      "F2",
+      "F3",
+      "F68"
+     ]
     },
     {
      "id": "world-geography-8-3",
@@ -855,7 +1000,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The White Nile from Lake Victoria and the Blue Nile from Lake Tana meet at Khartoum to form the Nile."
+     "explanation": "Both statements are true. The White Nile from Lake Victoria and the Blue Nile from Lake Tana meet at Khartoum to form the Nile.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "world-geography-8-4",
@@ -869,7 +1020,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Zambezi–Indian Ocean, Danube–Black Sea, Volga–Caspian Sea and Thames–North Sea."
+     "explanation": "The correct pairs are Zambezi–Indian Ocean, Danube–Black Sea, Volga–Caspian Sea and Thames–North Sea.",
+     "facts": [
+      "F17",
+      "F59",
+      "F53",
+      "F62"
+     ]
     },
     {
      "id": "world-geography-8-5",
@@ -883,9 +1040,310 @@
       "I only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct according to the notes: the Congo crosses the Equator twice, the Amazon originates in Peru’s Andes and reaches the Atlantic through Brazil mainly, and the Limpopo crosses the Tropic of Capricorn twice."
+     "explanation": "All three statements are correct according to the notes: the Congo crosses the Equator twice, the Amazon originates in Peru’s Andes and reaches the Atlantic through Brazil mainly, and the Limpopo crosses the Tropic of Capricorn twice.",
+     "facts": [
+      "F11",
+      "F12",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F20"
+     ]
+    },
+    {
+     "id": "world-geography-8-6",
+     "format": "Assertion-Reason",
+     "keyword": "Sea/Ocean → Major River",
+     "question": "Assertion (A): The Nile flows into the Mediterranean Sea.\nReason (R): Khartoum is in Sudan.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The Nile flows into the Mediterranean Sea, and Khartoum is in Sudan. However, the location of Khartoum does not explain where the Nile flows.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "world-geography-8-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River Basin → Countries",
+     "question": "Consider the following statements:\nI. The Nile basin has 11 countries.\nII. Chad is not in the Nile basin.\nIII. Egypt is known as the “Gift of the Nile”.",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: the Nile basin has 11 countries, Chad is not part of it, and Egypt is known as the “Gift of the Nile”.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "world-geography-8-8",
+     "format": "List-Matching",
+     "keyword": "River → Alternative Name / Features",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Congo River\n(b) Congo River\n(c) Congo Basin\n(d) Congo Basin\n\nList-II\n(i) World’s largest tropical peatland\n(ii) Drains into the Atlantic Ocean\n(iii) Also called the Zaire River\n(iv) World’s second-largest tropical rainforest",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-iii, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "The Congo River is also called the Zaire River and drains into the Atlantic Ocean. The Congo Basin is the world’s second-largest tropical rainforest and the world’s largest tropical peatland.",
+     "facts": [
+      "F10",
+      "F13",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "world-geography-8-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Associated Feature / Region",
+     "question": "Consider the following statements:\nStatement A: The Zambezi is associated with Victoria Falls.\nStatement B: The Niger is a West African river with an inland delta.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Victoria Falls is associated with the Zambezi, while the Niger is in West Africa and has an inland delta.",
+     "facts": [
+      "F16",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-8-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Discharge / Drainage Area / Location",
+     "question": "Consider the following statements:\nI. The Amazon is the largest river by discharge.\nII. The Amazon has the largest drainage area.\nIII. The Orinoco flows through Venezuela and Colombia.\nIV. The Paraná–Paraguay river system is important for the Southern Cone.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. The Amazon leads in discharge and drainage area; the Orinoco flows through Venezuela and Colombia; and the Paraná–Paraguay system is important for the Southern Cone.",
+     "facts": [
+      "F21",
+      "F22",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "world-geography-8-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River System → Features / Location",
+     "question": "Consider the following statements:\nStatement A: The Mississippi–Missouri is a combined river system that is very long and has a bird’s-foot delta.\nStatement B: The Colorado is associated with the Grand Canyon and is not on the Mississippi.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Mississippi–Missouri forms a very long combined system with a bird’s-foot delta, while the Colorado is associated with the Grand Canyon and is distinct from the Mississippi.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "world-geography-8-12",
+     "format": "Direct Recall",
+     "keyword": "River → Location / Sea Connection",
+     "question": "Which river connects the Great Lakes to the Atlantic Ocean?",
+     "options": [
+      "The St. Lawrence",
+      "The Zambezi",
+      "The Orinoco",
+      "The Congo"
+     ],
+     "answer": 0,
+     "explanation": "The St. Lawrence connects the Great Lakes to the Atlantic Ocean.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "world-geography-8-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Dam / Largest",
+     "question": "Consider the following statements:\nI. The Yangtze is the longest river in Asia.\nII. The Three Gorges Dam is on the Yangtze.\nIII. The Three Gorges Dam is the world’s largest hydroelectric power project.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The Yangtze is Asia’s longest river, and the Three Gorges Dam on it is the world’s largest hydroelectric power project.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "world-geography-8-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Rivers → Characteristics",
+     "question": "Consider the following statements:\nI. The Yellow River is also called the Huang He.\nII. The Yellow River is known as “China’s sorrow.”\nIII. The Yellow River carries heavy silt.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: Huang He is another name for the Yellow River, which is known as “China’s sorrow” because it carries heavy silt.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-8-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rivers → Location and Drainage",
+     "question": "Consider the following statements:\nI. The Amur is in the Far East of Russia and China.\nII. The Lena is a Siberian river and drains into the Arctic Ocean.\nIII. The Yenisei is a Siberian river and drains into the Arctic Ocean.\nIV. The Ob is a Siberian river and drains into the Arctic Ocean.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. The Amur lies in the Far East of Russia and China, while the Lena, Yenisei and Ob are Siberian rivers draining into the Arctic Ocean.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-8-16",
+     "format": "Direct Recall",
+     "keyword": "Longest River → Europe",
+     "question": "Which of the following is Europe’s longest river?",
+     "options": [
+      "Volga",
+      "Danube",
+      "Dnieper",
+      "Rhine"
+     ],
+     "answer": 0,
+     "explanation": "The Volga is identified as Europe’s longest river.",
+     "facts": [
+      "F52"
+     ]
+    },
+    {
+     "id": "world-geography-8-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Rivers → Mesopotamia and Drainage",
+     "question": "Consider the following statements:\nStatement A: The Tigris and Euphrates are associated with Mesopotamia.\nStatement B: The Tigris and Euphrates drain into the Persian Gulf.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Tigris and Euphrates are associated with Mesopotamia and drain into the Persian Gulf.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "world-geography-8-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → International Status and Location",
+     "question": "Consider the following statements:\nI. The Danube is the most international river.\nII. The Danube flows through 10 countries.\nIII. The Rhine is associated with a rift valley.\nIV. The Rhine is an important waterway.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. The Danube is the most international river and flows through 10 countries, while the Rhine is associated with a rift valley and is an important waterway.",
+     "facts": [
+      "F57",
+      "F58",
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "world-geography-8-19",
+     "format": "List-Matching",
+     "keyword": "Sea/Ocean → Major Rivers",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dnieper\n(b) Mississippi\n(c) Niger\n(d) Yangtze\n\nList-II\n(i) Atlantic Ocean\n(ii) Black Sea\n(iii) Caspian Sea\n(iv) Pacific / East China Sea category",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-ii, b-i, c-i, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-ii, c-i, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Dnieper–Black Sea, Mississippi–Atlantic Ocean, Niger–Atlantic Ocean and Yangtze–Pacific / East China Sea category.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "world-geography-8-20",
+     "format": "Direct Recall",
+     "keyword": "Sea",
+     "question": "The Mekong drains into which of the following water bodies?",
+     "options": [
+      "Caspian Sea",
+      "South China Sea",
+      "Andaman Sea",
+      "Black Sea"
+     ],
+     "answer": 1,
+     "explanation": "The Mekong drains into the South China Sea; it does not drain into the Andaman Sea.",
+     "facts": [
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 68,
+    "covered": 68,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -2138,8 +2596,167 @@
       "F62",
       "F63"
      ]
+    },
+    {
+     "id": "world-geography-11-23",
+     "format": "Direct Recall",
+     "keyword": "Mineral Resources → Location",
+     "question": "Which country has the world's largest identified lithium resources?",
+     "options": [
+      "Australia",
+      "Bolivia",
+      "China",
+      "Chile"
+     ],
+     "answer": 1,
+     "explanation": "Bolivia has the world's largest identified lithium resources. Australia is the leading hard-rock producer, while Chile has major reserves.",
+     "facts": [
+      "F66"
+     ]
+    },
+    {
+     "id": "world-geography-11-24",
+     "format": "Count-Based",
+     "keyword": "Mineral Resources → Location",
+     "question": "How many of the following countries are identified as major manganese producers?\n1. Gabon\n2. China\n3. India\n4. Australia",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed countries—Gabon, China, India and Australia—are identified as major manganese producers.",
+     "facts": [
+      "F68",
+      "F69",
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "world-geography-11-25",
+     "format": "Direct Recall",
+     "keyword": "Mineral Resources → Location",
+     "question": "Which mineral is important in steelmaking?",
+     "options": [
+      "Rare earth elements",
+      "Uranium",
+      "Lithium",
+      "Manganese"
+     ],
+     "answer": 3,
+     "explanation": "Manganese is important in steelmaking.",
+     "facts": [
+      "F73"
+     ]
+    },
+    {
+     "id": "world-geography-11-26",
+     "format": "List-Matching",
+     "keyword": "Mineral Resources → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Largest chromium or chromite producer\n(b) Major chromium or chromite producer — Turkey\n(c) Major chromium or chromite producer — India\n(d) Major chromium or chromite producer with very large reserves\n\nList-II\n(i) Kazakhstan\n(ii) South Africa\n(iii) India\n(iv) Turkey",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "South Africa is the largest chromium or chromite producer; Turkey and India are major producers; Kazakhstan is a major producer with very large chromite reserves. Thus, the correct pairs are a-ii, b-iv, c-iii and d-i.",
+     "facts": [
+      "F74",
+      "F75",
+      "F76",
+      "F77",
+      "F78"
+     ]
+    },
+    {
+     "id": "world-geography-11-27",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\n\nI. China is the largest tin producer.\nII. Myanmar is a major tin producer.\nIII. Indonesia is a major tin producer.\nIV. Peru is a major tin producer.\nV. Southeast Asia is a historically important tin-producing region.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III, IV and V only",
+      "I, II and IV only",
+      "I, II and III only",
+      "I, II, III, IV and V"
+     ],
+     "answer": 3,
+     "explanation": "All five statements are correct: China is the largest tin producer; Myanmar, Indonesia and Peru are major producers; and Southeast Asia is historically important for tin production.",
+     "facts": [
+      "F80",
+      "F81",
+      "F82",
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "world-geography-11-28",
+     "format": "Count-Based",
+     "keyword": "Mineral Resources → Location",
+     "question": "How many of the following countries are identified as major uranium producers?\n1. Canada\n2. Namibia\n3. Australia",
+     "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+     ],
+     "answer": 2,
+     "explanation": "Canada, Namibia and Australia are all identified as major uranium producers.",
+     "facts": [
+      "F86",
+      "F87",
+      "F88"
+     ]
+    },
+    {
+     "id": "world-geography-11-29",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nStatement A: The United States and Myanmar are major rare earth element producers.\nStatement B: Australia is a major rare earth element producer.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The United States, Myanmar and Australia are each identified as major rare earth element producers.",
+     "facts": [
+      "F92",
+      "F93",
+      "F94"
+     ]
+    },
+    {
+     "id": "world-geography-11-30",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mineral Resources → Location",
+     "question": "Consider the following statements:\nI. Indonesia is a major cobalt producer.\nII. Russia is a major cobalt producer.\nIII. Australia is a major cobalt producer.\nIV. The Philippines is a major cobalt producer.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Indonesia, Russia, Australia and the Philippines are listed as other major cobalt producers.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56",
+      "F57"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 99,
+    "covered": 99,
+    "audited": true
+   }
   },
   "12": {
    "number": 12,
@@ -2168,7 +2785,12 @@
       "Aconcagua"
      ],
      "answer": 2,
-     "explanation": "Denali, also known as Mt. McKinley, is identified in the notes as the highest peak in North America."
+     "explanation": "Denali, also known as Mt. McKinley, is identified in the notes as the highest peak in North America.",
+     "facts": [
+      "F78",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "world-geography-12-2",
@@ -2182,7 +2804,20 @@
       "The Rocky Mountains extend for approximately 4,800 km in North America across the USA and Canada."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the continent. The Great Dividing Range is located in Australia, not Africa."
+     "explanation": "The incorrect detail is the continent. The Great Dividing Range is located in Australia, not Africa.",
+     "facts": [
+      "F2",
+      "F3",
+      "F8",
+      "F9",
+      "F14",
+      "F20",
+      "F21",
+      "F28",
+      "F35",
+      "F24",
+      "F55"
+     ]
     },
     {
      "id": "world-geography-12-3",
@@ -2196,7 +2831,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes list Kilimanjaro as a volcanic peak and state that volcanic mountains are formed by volcanic activity. Therefore, the Reason correctly explains the Assertion."
+     "explanation": "The notes list Kilimanjaro as a volcanic peak and state that volcanic mountains are formed by volcanic activity. Therefore, the Reason correctly explains the Assertion.",
+     "facts": [
+      "F54",
+      "F98",
+      "F94"
+     ]
     },
     {
      "id": "world-geography-12-4",
@@ -2210,7 +2850,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Andes–7,000 km, Rocky Mountains–4,800 km, Himalayas–2,400–2,500 km, and Great Dividing Range–3,500–3,600 km."
+     "explanation": "The correct pairs are: Andes–7,000 km, Rocky Mountains–4,800 km, Himalayas–2,400–2,500 km, and Great Dividing Range–3,500–3,600 km.",
+     "facts": [
+      "F2",
+      "F8",
+      "F14",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-12-5",
@@ -2224,9 +2870,417 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct according to the peak table. Statement IV is incorrect because Lhotse is listed as 8,516 m high, not 8,485 m."
+     "explanation": "Statements I, II and III are correct according to the peak table. Statement IV is incorrect because Lhotse is listed as 8,516 m high, not 8,485 m.",
+     "facts": [
+      "F17",
+      "F18",
+      "F60",
+      "F61",
+      "F62",
+      "F64",
+      "F65",
+      "F66",
+      "F68",
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "world-geography-12-6",
+     "format": "List-Matching",
+     "keyword": "Mountain range – Rank/Highest peak",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Andes\n(b) Rocky Mountains\n(c) Himalayas\n(d) Great Dividing Range\n\nList-II\n(i) Rank 1; Aconcagua (6,961 m)\n(ii) Rank 2; fold mountains; Mount Elbert (4,401 m)\n(iii) Rank 3\n(iv) Rank 4; Mount Kosciuszko (2,228 m)",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The Andes rank first and have Aconcagua at 6,961 m as their highest peak. The Rocky Mountains rank second and have Mount Elbert at 4,401 m; the Himalayas rank third; and the Great Dividing Range ranks fourth with Mount Kosciuszko at 2,228 m.",
+     "facts": [
+      "F1",
+      "F5",
+      "F6",
+      "F7",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F19",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "world-geography-12-7",
+     "format": "Assertion-Reason",
+     "keyword": "Mountain type/Volcanic activity",
+     "question": "Assertion (A): The Andes are young fold mountains.\nReason (R): The Andes have volcanic activity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Andes are young fold mountains and have volcanic activity. However, volcanic activity is not stated as the explanation for their young fold nature.",
+     "facts": [
+      "F4",
+      "F27"
+     ]
+    },
+    {
+     "id": "world-geography-12-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Highest peak/Location; Longest mountain range",
+     "question": "Consider the following statements:\nStatement A: Aconcagua is located in Argentina.\nStatement B: The Andes are the longest continental mountain range.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Aconcagua is located in Argentina, and the Andes are the longest continental mountain range.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-12-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain range – Location/Type",
+     "question": "Consider the following statements:\nStatement A: The Himalayas are located in India, Nepal, Bhutan, China, and Pakistan.\nStatement B: The Himalayas are young fold mountains.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Himalayas extend across India, Nepal, Bhutan, China, and Pakistan, and they are young fold mountains.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "world-geography-12-10",
+     "format": "Count-Based",
+     "keyword": "Mountain ranges → Continent/Location",
+     "question": "How many of the following are listed as major mountain ranges in North America?\n\n1. Alaska Range\n2. Appalachians\n3. Sierra Nevada\n4. Andes",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "The Alaska Range, Appalachians, and Sierra Nevada are listed as major ranges in North America. The Andes are listed under South America.",
+     "facts": [
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "world-geography-12-11",
+     "format": "Direct Recall",
+     "keyword": "Mountain type",
+     "question": "Which of the following is an old fold mountain range?",
+     "options": [
+      "Rocky Mountains",
+      "Himalayas",
+      "Andes",
+      "Appalachians"
+     ],
+     "answer": 3,
+     "explanation": "The Appalachians are identified as old fold mountains. The Andes and Himalayas are young fold mountains, while the Rocky Mountains are identified as fold mountains.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "world-geography-12-12",
+     "format": "Count-Based",
+     "keyword": "Mountain ranges → Continent/Location",
+     "question": "How many of the following are listed as major mountain ranges in Asia?\n\n1. Karakoram\n2. Hindu Kush\n3. Kunlun Mountains\n4. Tien Shan",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed ranges—the Karakoram, Hindu Kush, Kunlun Mountains, and Tien Shan—are identified as major ranges in Asia.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "world-geography-12-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain range → Continent / Highest peak",
+     "question": "Consider the following statements:\nI. The Alps are a major range in Europe, and Mont Blanc is their highest peak.\nII. The Caucasus is a major range in Europe, and Elbrus is its highest peak.\nIII. The Pyrenees, Carpathians and Urals are major ranges in Europe, and the Alps are young fold mountains.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. The Alps, Pyrenees, Caucasus, Carpathians and Urals are listed as major European ranges; Mont Blanc is the highest peak of the Alps, Elbrus of the Caucasus, and the Alps are young fold mountains.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "world-geography-12-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountain range → Continent",
+     "question": "Consider the following statements:\nI. The Altai Mountains are a major range in Asia.\nII. The Himalayas contain the highest peaks in the world.\nIII. The Atlas Mountains, Drakensberg and Ruwenzori are major ranges in Africa.\nIV. Mount Kilimanjaro is located in Tanzania.",
+     "options": [
+      "I, II and IV only",
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Altai is listed under Asia; the Himalayas contain the highest peaks in the world; Atlas, Drakensberg and Ruwenzori are African ranges; and Kilimanjaro is located in Tanzania.",
+     "facts": [
+      "F40",
+      "F41",
+      "F50",
+      "F51",
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "world-geography-12-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain range → Location / Highest peak",
+     "question": "Consider the following statements:\nStatement A: The Southern Alps are located in New Zealand, and Mount Cook is listed as their highest peak.\nStatement B: Mount Kosciuszko is listed as a highest peak for Australia and Oceania.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Southern Alps are located in New Zealand and Mount Cook is listed as their highest peak, while Mount Kosciuszko is listed as a highest peak for Australia and Oceania.",
+     "facts": [
+      "F56",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-12-16",
+     "format": "List-Matching",
+     "keyword": "Highest peaks → Rank",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) K2\n(b) Kangchenjunga\n(c) Lhotse\n(d) Makalu\n\nList-II\n(i) Third-highest peak in the listed peak table\n(ii) Fifth-highest peak in the listed peak table\n(iii) Second-highest peak in the listed peak table\n(iv) Fourth-highest peak in the listed peak table",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are K2–second, Kangchenjunga–third, Lhotse–fourth and Makalu–fifth in the listed peak table.",
+     "facts": [
+      "F59",
+      "F63",
+      "F67",
+      "F71"
+     ]
+    },
+    {
+     "id": "world-geography-12-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountain peak → Height / Location",
+     "question": "Consider the following statements:\nStatement A: Makalu is 8,485 m high and is located in the Himalayas.\nStatement B: Makalu is located on the Nepal–China border.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Makalu is listed as 8,485 m high, located in the Himalayas, and situated on the Nepal–China border.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74"
+     ]
+    },
+    {
+     "id": "world-geography-12-18",
+     "format": "Direct Recall",
+     "keyword": "Highest peak outside Asia",
+     "question": "Which of the following is the highest peak outside Asia?",
+     "options": [
+      "Mont Blanc",
+      "Aconcagua",
+      "Mount Kilimanjaro",
+      "Mount Kosciuszko"
+     ],
+     "answer": 1,
+     "explanation": "Aconcagua is listed as the highest peak outside Asia. It is located in the Andes in Argentina.",
+     "facts": [
+      "F75"
+     ]
+    },
+    {
+     "id": "world-geography-12-19",
+     "format": "List-Matching",
+     "keyword": "Mountain peak",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Aconcagua\n(b) Mount Kilimanjaro\n(c) Mont Blanc\n(d) Mount Cook\n\nList-II\n(i) Europe\n(ii) Southern Alps\n(iii) Andes of Argentina\n(iv) Africa",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Aconcagua is located in the Andes of Argentina, Mount Kilimanjaro is the highest peak in Africa, and Mont Blanc is the highest peak in Europe. Mount Cook is associated with the Southern Alps.",
+     "facts": [
+      "F76",
+      "F77",
+      "F79"
+     ]
+    },
+    {
+     "id": "world-geography-12-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountains → Type",
+     "question": "Consider the following statements:\n\nI. The Himalayas are examples of young fold mountains.\nII. The Andes are examples of young fold mountains.\nIII. The Alps are examples of young fold mountains.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The Himalayas, Andes and Alps are all listed as examples of young fold mountains.",
+     "facts": [
+      "F80",
+      "F81",
+      "F82"
+     ]
+    },
+    {
+     "id": "world-geography-12-21",
+     "format": "Assertion-Reason",
+     "keyword": "Mountains → Formation",
+     "question": "Assertion (A): Young fold mountains are associated with recent plate collision.\nReason (R): Recent plate collision is associated with the Tertiary period.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The facts state that young fold mountains formed through recent plate collision and that recent plate collision is associated with the Tertiary period. The period association does not explain the formation mechanism itself.",
+     "facts": [
+      "F83",
+      "F84"
+     ]
+    },
+    {
+     "id": "world-geography-12-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Mountains → Type",
+     "question": "Consider the following statements:\n\nI. The Appalachians are examples of old fold mountains.\nII. The Aravallis are examples of old fold mountains.\nIII. The Urals are examples of old fold mountains.\nIV. The Pennines are examples of old fold mountains.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I, II and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "The Appalachians, Aravallis, Urals and Pennines are all listed as examples of old fold mountains.",
+     "facts": [
+      "F85",
+      "F86",
+      "F87",
+      "F88"
+     ]
+    },
+    {
+     "id": "world-geography-12-23",
+     "format": "Direct Recall",
+     "keyword": "Mountains → Formation",
+     "question": "Old fold mountains are best described as mountains that are:",
+     "options": [
+      "Formed by volcanic activity",
+      "Ancient and eroded",
+      "Formed through recent plate collision",
+      "Formed through vertical displacement along faults"
+     ],
+     "answer": 1,
+     "explanation": "Old fold mountains are described as ancient and eroded.",
+     "facts": [
+      "F89"
+     ]
+    },
+    {
+     "id": "world-geography-12-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Mountains → Formation",
+     "question": "Consider the following statements:\n\nStatement A: The Vosges, Black Forest and Sierra Nevada are examples of block or fault-block mountains.\nStatement B: Block or fault-block mountains form through vertical displacement along faults.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Vosges, Black Forest and Sierra Nevada are listed as block or fault-block mountains. Their formation is attributed to vertical displacement along faults.",
+     "facts": [
+      "F90",
+      "F91",
+      "F92",
+      "F93"
+     ]
+    },
+    {
+     "id": "world-geography-12-25",
+     "format": "Count-Based",
+     "keyword": "Mountains → Type",
+     "question": "How many of the following are examples of volcanic mountains?\n\n1. Fujiyama\n2. Mount St. Helens\n3. Cotopaxi\n4. The Urals",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Fujiyama, Mount St. Helens and Cotopaxi are examples of volcanic mountains. The Urals are listed as old fold mountains.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 98,
+    "covered": 98,
+    "audited": true
+   }
   },
   "13": {
    "number": 13,
@@ -3363,8 +4417,49 @@
       "F82",
       "F87"
      ]
+    },
+    {
+     "id": "world-geography-15-28",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Plantation Agriculture – Key Features",
+     "question": "Consider the following statements:\nStatement A: Plantation agriculture involves large estates.\nStatement B: Plantation agriculture is capital-intensive.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Plantation agriculture involves large estates and is capital-intensive.",
+     "facts": [
+      "F39",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-15-29",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Commercial Grain Farming – Key Features",
+     "question": "Consider the following statements:\nStatement A: Commercial grain farming is practised on large farms.\nStatement B: Commercial grain farming is highly mechanised.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Commercial grain farming is practised on large farms and is highly mechanised.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 99,
+    "covered": 99,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,
@@ -3392,7 +4487,20 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The Ruhr Region is associated with Essen, Dortmund and Duisburg; the Great Lakes Region with Chicago, Detroit, Pittsburgh, Cleveland and Buffalo; Kuzbass with Kemerovo; and Tokyo–Yokohama with Tokyo and Yokohama."
+     "explanation": "The Ruhr Region is associated with Essen, Dortmund and Duisburg; the Great Lakes Region with Chicago, Detroit, Pittsburgh, Cleveland and Buffalo; Kuzbass with Kemerovo; and Tokyo–Yokohama with Tokyo and Yokohama.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F34",
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "world-geography-16-2",
@@ -3406,7 +4514,29 @@
       "The Great Lakes Region extends across the USA and Canada and is associated with iron and steel, automobiles and engineering."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “Asia.” Aberdeen is described in the notes as the “Oil Capital of Europe.”"
+     "explanation": "The incorrect detail is “Asia.” Aberdeen is described in the notes as the “Oil Capital of Europe.”",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F83",
+      "F84",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F85"
+     ]
     },
     {
      "id": "world-geography-16-3",
@@ -3420,7 +4550,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The reason directly explains why the Ruhr Region is identified as a traditional heavy industrial region."
+     "explanation": "Both statements are true. The reason directly explains why the Ruhr Region is identified as a traditional heavy industrial region.",
+     "facts": [
+      "F98",
+      "F99",
+      "F100"
+     ]
     },
     {
      "id": "world-geography-16-4",
@@ -3434,7 +4569,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes define Information Technology and electronics as sunrise industries, and define umland as the economically linked area surrounding a town or city."
+     "explanation": "The notes define Information Technology and electronics as sunrise industries, and define umland as the economically linked area surrounding a town or city.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97"
+     ]
     },
     {
      "id": "world-geography-16-5",
@@ -3448,9 +4588,338 @@
       "Birmingham"
      ],
      "answer": 1,
-     "explanation": "Detroit in the USA is identified as the “Motor City” and is a famous centre of automobile production."
+     "explanation": "Detroit in the USA is identified as the “Motor City” and is a famous centre of automobile production.",
+     "facts": [
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "world-geography-16-6",
+     "format": "List-Matching",
+     "keyword": "Industry Region → Country and Centre",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Appalachian Region\n(b) Midlands\n(c) Donbas or Donetsk Basin\n(d) Kuzbass or Kuznetsk Basin\n\nList-II\n(i) USA; iron and steel industries; Pittsburgh\n(ii) UK; iron and steel, engineering and textile industries; Birmingham and Sheffield\n(iii) Ukraine; coal and iron and steel industries; Donetsk\n(iv) Siberia, Russia; coal and iron and steel industries; Kemerovo",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The Appalachian Region is in the USA and has Pittsburgh as an important centre. The Midlands is in the UK with Birmingham and Sheffield as centres; the Donbas is in Ukraine with Donetsk; and the Kuzbass is in Siberia, Russia, with Kemerovo.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-16-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industry Region → Country",
+     "question": "Consider the following statements:\nStatement A: The Tokyo–Yokohama, or Keihin, region is in Japan.\nStatement B: The Osaka–Kobe, or Hanshin, region is in Japan.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both the Tokyo–Yokohama (Keihin) region and the Osaka–Kobe (Hanshin) region are located in Japan.",
+     "facts": [
+      "F35",
+      "F41"
+     ]
+    },
+    {
+     "id": "world-geography-16-8",
+     "format": "Count-Based",
+     "keyword": "Industry Region → Key Industries",
+     "question": "How many of the following industries are associated with the Tokyo–Yokohama, or Keihin, region?\n\n1. Electronics\n2. Shipbuilding\n3. Automobiles\n4. Textiles",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "Three listed industries—electronics, shipbuilding and automobiles—are associated with the Tokyo–Yokohama (Keihin) region.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "world-geography-16-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industry Region → Key Industries and Centre",
+     "question": "Consider the following statements about the Osaka–Kobe, or Hanshin, region:\n\nI. It has steel industries.\nII. It has shipbuilding industries.\nIII. It has textile industries.\nIV. Osaka is an important centre of the region.",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: the Hanshin region has steel, shipbuilding and textile industries, and Osaka is an important centre of the region.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "world-geography-16-10",
+     "format": "Assertion-Reason",
+     "keyword": "Industry Region → Location and Centres",
+     "question": "Assertion (A): The Shanghai–Yangtze Delta region in China has textile, electronics and heavy industries.\nReason (R): Shanghai and Wuhan are important centres of the Shanghai–Yangtze Delta region.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Shanghai–Yangtze Delta region is in China and has textile, electronics and heavy industries, while Shanghai and Wuhan are its important centres. The centres do not explain the listed industrial composition.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "world-geography-16-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Industry Region → Location and Centres",
+     "question": "Consider the following statements about Manchuria:\nI. Manchuria is in China.\nII. Manchuria has heavy industries.\nIII. Manchuria has steel industries.\nIV. Manchuria has machinery industries.\nV. Anshan is an important centre of Manchuria.",
+     "options": [
+      "I, II and III only",
+      "I, III, IV and V only",
+      "I, II, III, IV and V",
+      "II, III and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Manchuria is in China, has heavy, steel and machinery industries, and Anshan is an important centre of the region.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "world-geography-16-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industry Region → Location",
+     "question": "Consider the following statements:\nStatement A: Lorraine is in France.\nStatement B: Lorraine has iron and steel industries.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: Lorraine is located in France and has iron and steel industries.",
+     "facts": [
+      "F63",
+      "F64"
+     ]
+    },
+    {
+     "id": "world-geography-16-13",
+     "format": "List-Matching",
+     "keyword": "Iron and Steel Centres → Country",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Pittsburgh\n(b) Birmingham\n(c) Essen\n(d) Anshan\n\nList-II\n(i) Germany\n(ii) China\n(iii) USA\n(iv) UK",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Pittsburgh–USA, Birmingham–UK, Essen–Germany and Anshan–China; each is a famous centre of iron and steel industries.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67",
+      "F68"
+     ]
+    },
+    {
+     "id": "world-geography-16-14",
+     "format": "Direct Recall",
+     "keyword": "Iron and Steel Centres → Country",
+     "question": "Which one of the following is a famous centre of iron and steel industries in Canada?",
+     "options": [
+      "Hamilton",
+      "Anshan",
+      "Pittsburgh",
+      "Essen"
+     ],
+     "answer": 0,
+     "explanation": "Hamilton is identified as a famous centre of iron and steel industries in Canada.",
+     "facts": [
+      "F69"
+     ]
+    },
+    {
+     "id": "world-geography-16-15",
+     "format": "List-Matching",
+     "keyword": "Automobile and Textile Centres → Country and Industry",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Stuttgart\n(b) Nagoya\n(c) Manchester\n(d) Osaka\n\nList-II\n(i) Automobile industries in Japan\n(ii) Textile industries in the UK\n(iii) Automobile industries in Germany\n(iv) Textile industries in Japan",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are Stuttgart–automobile industries in Germany, Nagoya–automobile industries in Japan, Manchester–textile industries in the UK and Osaka–textile industries in Japan.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74",
+      "F75"
+     ]
+    },
+    {
+     "id": "world-geography-16-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Textile Industry Centres → Country",
+     "question": "Consider the following statements:\nStatement A: Shanghai is a famous centre of textile industries in China.\nStatement B: Ahmedabad is a famous centre of textile industries in India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Shanghai is listed as a textile-industry centre in China, while Ahmedabad is listed as one in India.",
+     "facts": [
+      "F76",
+      "F77"
+     ]
+    },
+    {
+     "id": "world-geography-16-17",
+     "format": "Direct Recall",
+     "keyword": "Industry Region → Important Centre",
+     "question": "Which city is an important centre of the Osaka–Kobe, or Hanshin, region?",
+     "options": [
+      "Tokyo",
+      "Kobe",
+      "Wuhan",
+      "Anshan"
+     ],
+     "answer": 1,
+     "explanation": "Kobe is an important centre of the Osaka–Kobe, or Hanshin, region.",
+     "facts": [
+      "F46"
+     ]
+    },
+    {
+     "id": "world-geography-16-18",
+     "format": "List-Matching",
+     "keyword": "Industry \u0012 Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Glasgow\n(b) Yokohama\n(c) Hamburg\n(d) Baku\n\nList-II\n(i) Petroleum or oil industries in Azerbaijan\n(ii) Shipbuilding industries in the UK\n(iii) Shipbuilding industries in Germany\n(iv) Shipbuilding industries in Japan",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Glasgow is a shipbuilding centre in the UK, Yokohama in Japan, Hamburg in Germany, and Baku is a petroleum or oil industry centre in Azerbaijan.",
+     "facts": [
+      "F78",
+      "F79",
+      "F80",
+      "F81"
+     ]
+    },
+    {
+     "id": "world-geography-16-19",
+     "format": "List-Matching",
+     "keyword": "Industry \u0012 Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Abadan\n(b) Amsterdam\n(c) Antwerp\n(d) Dresden\n\nList-II\n(i) Optical goods industries in Germany\n(ii) Diamond cutting in Belgium\n(iii) Petroleum or oil industries in Iran\n(iv) Diamond cutting in the Netherlands",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Abadan is associated with petroleum or oil industries in Iran; Amsterdam and Antwerp with diamond cutting in the Netherlands and Belgium respectively; and Dresden with optical goods industries in Germany.",
+     "facts": [
+      "F82",
+      "F88",
+      "F89",
+      "F90"
+     ]
+    },
+    {
+     "id": "world-geography-16-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Industry \u0012 Location",
+     "question": "Consider the following statements:\nStatement A: Tokyo is a famous centre of electronics or information-technology industries.\nStatement B: Bangalore is a famous centre of electronics or information-technology industries in India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Tokyo is a famous centre of electronics or information-technology industries, while Bangalore is such a centre in India. Therefore, both statements are true.",
+     "facts": [
+      "F86",
+      "F87"
+     ]
+    },
+    {
+     "id": "world-geography-16-21",
+     "format": "Assertion-Reason",
+     "keyword": "Industry classification",
+     "question": "Assertion (A): Electronics, software and watch-making are examples of footloose industries.\nReason (R): A footloose industry is one whose location is not dependent on raw materials.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "A footloose industry is not dependent on the location of raw materials. Electronics, software and watch-making are listed as examples, so the reason correctly explains the assertion.",
+     "facts": [
+      "F91",
+      "F92",
+      "F93",
+      "F94"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 100,
+    "covered": 100,
+    "audited": true
+   }
   },
   "17": {
    "number": 17,
@@ -3478,7 +4947,12 @@
       "Orient Express"
      ],
      "answer": 2,
-     "explanation": "The Trans-Siberian Railway runs from Moscow to Vladivostok and is identified as the longest continuous railway."
+     "explanation": "The Trans-Siberian Railway runs from Moscow to Vladivostok and is identified as the longest continuous railway.",
+     "facts": [
+      "F2",
+      "F3",
+      "F17"
+     ]
     },
     {
      "id": "world-geography-17-2",
@@ -3492,7 +4966,17 @@
       "China has the second-longest railway network, measuring 159,000 km."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the ranking of China. China has the second-longest network, while the United States is ranked first; the remaining statements match the notes."
+     "explanation": "The incorrect detail is the ranking of China. China has the second-longest network, while the United States is ranked first; the remaining statements match the notes.",
+     "facts": [
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "world-geography-17-3",
@@ -3506,7 +4990,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, being primarily freight-oriented is stated as a feature of the US network, not as the explanation for its largest total length."
+     "explanation": "Both statements are true according to the notes. However, being primarily freight-oriented is stated as a feature of the US network, not as the explanation for its largest total length.",
+     "facts": [
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "world-geography-17-4",
@@ -3520,7 +5008,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Canadian Pacific Railway–first transcontinental railway of Canada, Orient Express–famous luxury train, Trans-Andean Railway–across the Andes, and Qinghai–Tibet Railway–highest railway in the world."
+     "explanation": "The correct pairs are Canadian Pacific Railway–first transcontinental railway of Canada, Orient Express–famous luxury train, Trans-Andean Railway–across the Andes, and Qinghai–Tibet Railway–highest railway in the world.",
+     "facts": [
+      "F22",
+      "F30",
+      "F31",
+      "F33",
+      "F36"
+     ]
     },
     {
      "id": "world-geography-17-5",
@@ -3534,7 +5029,13 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. The Channel Tunnel connects the UK and France, the Baikal–Amur Mainline is parallel to the Trans-Siberian Railway, and the Trans-Siberian Railway was built mainly between 1891 and 1916."
+     "explanation": "All three statements are correct. The Channel Tunnel connects the UK and France, the Baikal–Amur Mainline is parallel to the Trans-Siberian Railway, and the Trans-Siberian Railway was built mainly between 1891 and 1916.",
+     "facts": [
+      "F37",
+      "F42",
+      "F43",
+      "F45"
+     ]
     }
    ]
   },
@@ -3869,7 +5370,8 @@
      "answer": 0,
      "explanation": "The temperate coniferous forest, also called the Taiga or Boreal forest, is described as the world’s largest terrestrial biome.",
      "facts": [
-      "F41"
+      "F41",
+      "F73"
      ]
     },
     {
@@ -3966,8 +5468,48 @@
       "F61",
       "F62"
      ]
+    },
+    {
+     "id": "world-geography-18-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest type → Climate and Characteristics",
+     "question": "Consider the following statements:\nStatement A: Tropical deciduous forests are also called monsoon forests.\nStatement B: Tropical deciduous forests receive seasonal rainfall of 100–200 cm.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Tropical deciduous forests are also known as monsoon forests and receive seasonal rainfall ranging from 100 to 200 cm.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "world-geography-18-23",
+     "format": "Direct Recall",
+     "keyword": "Forest type → Key Characteristics",
+     "question": "Tropical deciduous trees shed their leaves during which period?",
+     "options": [
+      "The wet season",
+      "The mild winter season",
+      "The autumn season",
+      "The dry season"
+     ],
+     "answer": 3,
+     "explanation": "Tropical deciduous trees shed their leaves during the dry season.",
+     "facts": [
+      "F17"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 74,
+    "covered": 74,
+    "audited": true
+   }
   },
   "19": {
    "number": 19,
@@ -4039,7 +5581,8 @@
      "explanation": "Both statements are true. The notes describe the Australasian realm as having marsupials and monotremes, unique due to isolation.",
      "facts": [
       "F63",
-      "F64"
+      "F64",
+      "F97"
      ]
     },
     {
@@ -4089,8 +5632,456 @@
       "F105",
       "F106"
      ]
+    },
+    {
+     "id": "world-geography-19-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Biome → Region [LOCATION]",
+     "question": "Consider the following statements:\nI. The tropical rainforest biome includes the Amazon region.\nII. The tropical rainforest biome includes the Congo region.\nIII. The tropical rainforest biome includes Southeast Asia.\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and II only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "The Amazon region, the Congo region and Southeast Asia are all included in the tropical rainforest biome.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "world-geography-19-7",
+     "format": "Count-Based",
+     "keyword": "Wildlife → Biome",
+     "question": "How many of the following are wildlife of tropical rainforests?\n1. Monkeys\n2. Apes\n3. Gorillas\n4. Orangutans\n5. Jaguars\n6. Leopards\n7. Tigers\n8. Parrots\n9. Macaws\n10. Countless insects",
+     "options": [
+      "Only eight",
+      "Only nine",
+      "All ten",
+      "Only seven"
+     ],
+     "answer": 2,
+     "explanation": "All ten listed—monkeys, apes, gorillas, orangutans, jaguars, leopards, tigers, parrots, macaws and countless insects—are wildlife of tropical rainforests.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "world-geography-19-8",
+     "format": "Assertion-Reason",
+     "keyword": "Biome → Characteristic",
+     "question": "Assertion (A): Tropical grasslands are also called savannas.\nReason (R): Africa's tropical grasslands have the richest large mammal diversity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Tropical grasslands are called savannas, while Africa's tropical grasslands are noted for the richest large mammal diversity; the latter does not explain the former.",
+     "facts": [
+      "F15",
+      "F25"
+     ]
+    },
+    {
+     "id": "world-geography-19-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Wildlife → Tropical Grasslands",
+     "question": "Consider the following statements:\nI. African elephants are wildlife of tropical grasslands.\nII. Lions are wildlife of tropical grasslands.\nIII. Cheetahs are wildlife of tropical grasslands.\nIV. Zebras are wildlife of tropical grasslands.\nV. Giraffes are wildlife of tropical grasslands.\nVI. Rhinoceroses are wildlife of tropical grasslands.\nVII. Antelopes are wildlife of tropical grasslands.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV, V, VI and VII",
+      "II, IV, VI and VII only",
+      "I, III, V and VII only",
+      "I, II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All seven statements are correct: African elephants, lions, cheetahs, zebras, giraffes, rhinoceroses and antelopes are listed as wildlife of tropical grasslands.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "world-geography-19-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Wildlife → Habitat + Region",
+     "question": "Consider the following statements:\nStatement A: Bison are wildlife of tropical grasslands.\nStatement B: The bison associated with the tropical grasslands entry are associated with North America.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Bison are included among tropical grassland wildlife, and the entry associates them with North America.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "world-geography-19-11",
+     "format": "Direct Recall",
+     "keyword": "Wildlife → Temperate Forests / Grasslands",
+     "question": "Red deer are wildlife of which of the following habitats?",
+     "options": [
+      "Temperate forests and grasslands",
+      "Polar or tundra regions",
+      "Boreal or taiga forests",
+      "Mountains"
+     ],
+     "answer": 0,
+     "explanation": "Red deer are listed under temperate forests and grasslands.",
+     "facts": [
+      "F26"
+     ]
+    },
+    {
+     "id": "world-geography-19-12",
+     "format": "List-Matching",
+     "keyword": "Forest/Desert/Tundra → Wildlife",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Fox\n(b) Moose\n(c) Camel\n(d) Polar Bear\n\nList-II\ni. Temperate forests and grasslands\nii. Boreal or taiga forests\niii. Cold-adapted deserts or arid lands\niv. Polar or tundra regions",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Foxes are wildlife of temperate forests and grasslands, moose of boreal or taiga forests, camels of cold-adapted deserts or arid lands, and polar bears of polar or tundra regions.",
+     "facts": [
+      "F27",
+      "F31",
+      "F37",
+      "F44"
+     ]
+    },
+    {
+     "id": "world-geography-19-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Boreal/Taiga Forests → Wildlife",
+     "question": "Consider the following statements:\n\nI. Beavers are wildlife of boreal or taiga forests.\nII. Wolves are wildlife of boreal or taiga forests.\nIII. Wolverines are wildlife of boreal or taiga forests.\nIV. Squirrels are wildlife of boreal or taiga forests.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Beavers, wolves, wolverines and squirrels are all listed as wildlife of boreal or taiga forests.",
+     "facts": [
+      "F32",
+      "F34",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "world-geography-19-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Cold-Adapted Deserts → Wildlife",
+     "question": "Consider the following statements:\n\nI. Jackals and lizards are wildlife of cold-adapted deserts or arid lands.\nII. Scorpions and springboks are wildlife of cold-adapted deserts or arid lands.\nIII. Foxes are wildlife of cold-adapted deserts or arid lands.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "Jackals, lizards, scorpions, springboks and foxes are all identified as wildlife of cold-adapted deserts or arid lands.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-19-15",
+     "format": "Assertion-Reason",
+     "keyword": "Cold-Adapted Deserts → Adaptations",
+     "question": "Assertion (A): Cold-adapted desert animals have water-conserving adaptations.\nReason (R): Polar or tundra animals are extreme-cold specialists.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but being an extreme-cold specialist does not explain the water-conserving adaptations of cold-adapted desert animals.",
+     "facts": [
+      "F43",
+      "F51"
+     ]
+    },
+    {
+     "id": "world-geography-19-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Polar/Tundra → Wildlife",
+     "question": "Consider the following statements:\nStatement A: Penguins and foxes are wildlife of polar or tundra regions.\nStatement B: Musk oxen are wildlife of polar or tundra regions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Penguins, foxes and musk oxen are all listed as wildlife of polar or tundra regions.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "world-geography-19-17",
+     "format": "Direct Recall",
+     "keyword": "Polar/Tundra → Wildlife",
+     "question": "Which of the following group consists entirely of wildlife of polar or tundra regions?",
+     "options": [
+      "Jackals, Lizards and Scorpions",
+      "Badgers, Raccoons and Koalas",
+      "Beavers, Lynxes and Wolverines",
+      "Krill, Seals and Walruses"
+     ],
+     "answer": 3,
+     "explanation": "Krill, seals and walruses are identified as wildlife of polar or tundra regions. The other groups belong to boreal or taiga forests, cold-adapted deserts or arid lands, and temperate forests or grasslands respectively.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50",
+      "F28",
+      "F29",
+      "F30",
+      "F33"
+     ]
+    },
+    {
+     "id": "world-geography-19-18",
+     "format": "Assertion-Reason",
+     "keyword": "Mountains → Wildlife",
+     "question": "Assertion (A): Mountain animals are high-altitude specialists.\nReason (R): Snow leopards, yaks, pandas, mountain goats and condors are wildlife of mountains.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The listed animals are wildlife of mountains, but that list does not itself explain why mountain animals are high-altitude specialists.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "world-geography-19-19",
+     "format": "Count-Based",
+     "keyword": "Australasian Realm → Wildlife",
+     "question": "How many of the following are wildlife of the Australasian realm?\n1. Kangaroos\n2. Koalas\n3. Platypuses\n4. Emus\n5. Dingoes",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed animals—kangaroos, koalas, platypuses, emus and dingoes—are wildlife of the Australasian realm.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "world-geography-19-20",
+     "format": "Direct Recall",
+     "keyword": "Realm → Coverage",
+     "question": "The Australasian realm covers which of the following regions?",
+     "options": [
+      "South and Central America",
+      "Australia, New Guinea, and New Zealand",
+      "South and South-East Asia",
+      "Sub-Saharan Africa and Madagascar"
+     ],
+     "answer": 1,
+     "explanation": "The Australasian realm covers Australia, New Guinea, and New Zealand.",
+     "facts": [
+      "F96"
+     ]
+    },
+    {
+     "id": "world-geography-19-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Madagascar → Endemism",
+     "question": "Consider the following statements:\nStatement A: Lemurs and tenrecs are wildlife of Madagascar.\nStatement B: Madagascar has high endemism.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: lemurs and tenrecs are wildlife of Madagascar, and Madagascar has high endemism.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "world-geography-19-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Animal → Native Region",
+     "question": "Consider the following statements:\nI. The kangaroo is native to Australia.\nII. The koala is native to Australia.\nIII. The penguin is native to Antarctica and sub-Antarctic islands.\nIV. The polar bear is native to Arctic regions.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. Kangaroos and koalas are native to Australia, penguins to Antarctica and sub-Antarctic islands, and polar bears to Arctic regions.",
+     "facts": [
+      "F71",
+      "F72",
+      "F73",
+      "F74"
+     ]
+    },
+    {
+     "id": "world-geography-19-23",
+     "format": "List-Matching",
+     "keyword": "Animal → Native Region",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Snow leopard\n(b) Jaguar\n(c) Gorilla\n(d) Andean condor\n\nList-II\ni. Central African rainforests\nii. High mountains of Central Asia\niii. Central and South America\niv. Andes Mountains",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-ii, c-iv, d-i"
+     ],
+     "answer": 1,
+     "explanation": "The correct pairs are: snow leopard–high mountains of Central Asia, jaguar–Central and South America, gorilla–Central African rainforests, and Andean condor–Andes Mountains.",
+     "facts": [
+      "F75",
+      "F76",
+      "F77",
+      "F78",
+      "F79"
+     ]
+    },
+    {
+     "id": "world-geography-19-24",
+     "format": "Direct Recall",
+     "keyword": "Largest → Flying Bird by Wingspan",
+     "question": "Which of the following is the largest flying bird by wingspan?",
+     "options": [
+      "Jaguar",
+      "Snow leopard",
+      "Gorilla",
+      "Andean condor"
+     ],
+     "answer": 3,
+     "explanation": "The Andean condor is the largest flying bird by wingspan.",
+     "facts": [
+      "F86"
+     ]
+    },
+    {
+     "id": "world-geography-19-25",
+     "format": "List-Matching",
+     "keyword": "Wildlife Realm Matching",
+     "question": "Match List-I with List-II:\n\nList-I (Biogeographic Realm)\n(a) Australasian\n(b) Indomalayan\n(c) Nearctic\n(d) Afrotropical\n\nList-II (Signature Wildlife)\n(i) Bison and grizzly bear\n(ii) Tiger, Asian elephant and rhinoceros\n(iii) Lion, elephant, gorilla and lemur\n(iv) Kangaroo and koala\n\nSelect the correct answer using the code below.",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The Australasian realm has kangaroos and koalas as signature wildlife; the Indomalayan realm has tigers, Asian elephants and rhinoceroses; and the Nearctic realm has bison and grizzly bears. The Afrotropical pairing is lion, elephant, gorilla and lemur.",
+     "facts": [
+      "F98",
+      "F99",
+      "F101",
+      "F102",
+      "F103",
+      "F108",
+      "F109"
+     ]
+    },
+    {
+     "id": "world-geography-19-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Realm Coverage",
+     "question": "Consider the following statements:\nStatement A: The Indomalayan realm covers South Asia and Southeast Asia.\nStatement B: The Nearctic realm covers North America.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Indomalayan realm covers South Asia and Southeast Asia, while the Nearctic realm covers North America.",
+     "facts": [
+      "F100",
+      "F107"
+     ]
+    },
+    {
+     "id": "world-geography-19-27",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Signature Wildlife",
+     "question": "Consider the following statements:\nI. Kangaroos and koalas are signature wildlife of the Australasian realm.\nII. Tigers, Asian elephants and rhinoceroses are signature wildlife of the Indomalayan realm.\nIII. Bison and grizzly bears are signature wildlife of the Nearctic realm.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Kangaroos and koalas are associated with the Australasian realm, tigers, Asian elephants and rhinoceroses with the Indomalayan realm, and bison and grizzly bears with the Nearctic realm.",
+     "facts": [
+      "F98",
+      "F99",
+      "F101",
+      "F102",
+      "F103",
+      "F108",
+      "F109"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 109,
+    "covered": 109,
+    "audited": true
+   }
   },
   "20": {
    "number": 20,
@@ -4455,7 +6446,11 @@
       "India"
      ],
      "answer": 0,
-     "explanation": "China is listed as the leading producer of rice, followed by India, Indonesia, Bangladesh and Vietnam."
+     "explanation": "China is listed as the leading producer of rice, followed by India, Indonesia, Bangladesh and Vietnam.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "world-geography-21-2",
@@ -4469,7 +6464,21 @@
       "Wheat requires a cool growing season, bright sunshine at ripening, and well-drained loamy soil."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the rainfall requirement for rubber. Rubber requires an equatorial climate with more than 200 cm of rainfall."
+     "explanation": "The incorrect detail is the rainfall requirement for rubber. Rubber requires an equatorial climate with more than 200 cm of rainfall.",
+     "facts": [
+      "F62",
+      "F63",
+      "F74",
+      "F75",
+      "F76",
+      "F77",
+      "F79",
+      "F64",
+      "F65",
+      "F66",
+      "F5",
+      "F48"
+     ]
     },
     {
      "id": "world-geography-21-3",
@@ -4483,7 +6492,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Since sugarcane is a weight-losing crop, its mills are located near the fields."
+     "explanation": "Both statements are true. Since sugarcane is a weight-losing crop, its mills are located near the fields.",
+     "facts": [
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "world-geography-21-4",
@@ -4497,7 +6510,14 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Cotton–China, India, USA; Tea–China, India; Coffee–Brazil, Vietnam; and Rubber–Thailand, Indonesia, Vietnam."
+     "explanation": "The correct pairs are Cotton–China, India, USA; Tea–China, India; Coffee–Brazil, Vietnam; and Rubber–Thailand, Indonesia, Vietnam.",
+     "facts": [
+      "F26",
+      "F31",
+      "F40",
+      "F45",
+      "F46"
+     ]
     },
     {
      "id": "world-geography-21-5",
@@ -4511,7 +6531,270 @@
       "I and IV only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because India is listed as the leading producer of jute, followed by Bangladesh."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because India is listed as the leading producer of jute, followed by Bangladesh.",
+     "facts": [
+      "F44",
+      "F53",
+      "F50",
+      "F56",
+      "F49",
+      "F51",
+      "F52",
+      "F54"
+     ]
+    },
+    {
+     "id": "world-geography-21-6",
+     "format": "List-Matching",
+     "keyword": "Major Crops",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Rice\n(b) Wheat — leading sequence\n(c) Wheat — other listed top producers\n(d) Maize\n\nList-II\n(i) Indonesia, Bangladesh and Vietnam\n(ii) China > India > Russia\n(iii) Russia, USA, France, Ukraine and Australia\n(iv) USA > China > Brazil, Argentina and India",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Indonesia, Bangladesh and Vietnam are listed among the top rice producers. China ranks ahead of India and Russia in wheat, while Russia, the USA, France, Ukraine and Australia are also listed among the top wheat producers; the maize sequence is USA > China > Brazil, Argentina and India.",
+     "facts": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F11",
+      "F12",
+      "F13"
+     ]
+    },
+    {
+     "id": "world-geography-21-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements:\nStatement A: Wheat is grown in temperate grasslands such as the Prairies, Steppes and Pampas, and includes winter wheat and spring wheat.\nStatement B: Maize is grown in temperate and subtropical regions, and the USA Corn Belt is a classic maize-producing region.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Prairies, Steppes and Pampas are identified as temperate grasslands suitable for wheat, which includes winter and spring wheat. Maize grows in temperate and subtropical regions, with the USA Corn Belt cited as a classic producing region.",
+     "facts": [
+      "F9",
+      "F10",
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "world-geography-21-8",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops",
+     "question": "Assertion (A): The listed order of sugarcane producers places Brazil ahead of India and India ahead of China; China and Thailand are also listed among the top producers.\nReason (R): Sugarcane is grown in tropical and subtropical regions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Brazil ranks ahead of India, India ahead of China, and China and Thailand are listed among the top sugarcane producers. The tropical and subtropical growing condition does not explain the producer ranking.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "world-geography-21-9",
+     "format": "List-Matching",
+     "keyword": "Soils",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Cotton — climate\n(b) Cotton — frost-free requirement\n(c) Cotton — rainfall requirement\n(d) Cotton — soil requirement\n\nList-II\n(i) Sub-tropical crop\n(ii) 210 frost-free days\n(iii) 50–100 cm of rainfall\n(iv) Well-drained soil",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Cotton is a subtropical crop requiring 210 frost-free days, 50–100 cm of rainfall and well-drained soil.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "world-geography-21-10",
+     "format": "Direct Recall",
+     "keyword": "Major Crops",
+     "question": "India ranks ahead of which of the following countries among the world’s tea producers?",
+     "options": [
+      "Kenya",
+      "China",
+      "Sri Lanka",
+      "Vietnam"
+     ],
+     "answer": 0,
+     "explanation": "India ranks ahead of Kenya among the world’s tea producers.",
+     "facts": [
+      "F32"
+     ]
+    },
+    {
+     "id": "world-geography-21-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements:\nI. Kenya and Sri Lanka are listed among the world’s top tea producers.\nII. Tea grows on hilly slopes with high rainfall.\nIII. Assam, Darjeeling and the Nilgiris are tea-producing regions.\nIV. Sri Lanka and Kenya are tea-producing regions.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and IV only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Kenya and Sri Lanka are listed among the top tea producers, while tea grows on hilly slopes with high rainfall; Assam, Darjeeling, the Nilgiris, Sri Lanka and Kenya are tea-producing regions.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "world-geography-21-12",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Major Crops",
+     "question": "Which of the following statements about world coffee production is incorrect?",
+     "options": [
+      "Vietnam ranks behind Colombia among the world’s coffee producers.",
+      "Colombia, Indonesia and Ethiopia are listed among the world’s top coffee producers.",
+      "Brazil is the traditional leading producer of coffee.",
+      "Vietnam ranks ahead of Colombia among the world’s coffee producers."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect statement reverses the ranking of Vietnam and Colombia. Vietnam ranks ahead of Colombia among the world’s coffee producers.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "world-geography-21-13",
+     "format": "Direct Recall",
+     "keyword": "Major Crops",
+     "question": "Coffee grows mainly in which of the following environments?",
+     "options": [
+      "Equatorial or tropical humid regions",
+      "Hot and humid delta regions",
+      "Tropical highlands",
+      "Hilly slopes with high rainfall"
+     ],
+     "answer": 2,
+     "explanation": "Coffee grows in tropical highlands.",
+     "facts": [
+      "F43"
+     ]
+    },
+    {
+     "id": "world-geography-21-14",
+     "format": "Direct Recall",
+     "keyword": "Major Crops",
+     "question": "Which of the following groups consists of countries listed among the world’s top rubber producers?",
+     "options": [
+      "Brazil, India and the USA",
+      "Colombia, Indonesia and Ethiopia",
+      "Kenya, Sri Lanka and India",
+      "Vietnam, Malaysia and India"
+     ],
+     "answer": 3,
+     "explanation": "Vietnam, Malaysia and India are listed among the world’s top rubber producers.",
+     "facts": [
+      "F47"
+     ]
+    },
+    {
+     "id": "world-geography-21-15",
+     "format": "Direct Recall",
+     "keyword": "Major Crops",
+     "question": "Which crop is a major source of palm oil?",
+     "options": [
+      "Tea",
+      "Oil palm",
+      "Rubber",
+      "Jute"
+     ],
+     "answer": 1,
+     "explanation": "Oil palm is a major source of palm oil.",
+     "facts": [
+      "F55"
+     ]
+    },
+    {
+     "id": "world-geography-21-16",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops",
+     "question": "Assertion (A): The Ganga–Brahmaputra region is a major jute-producing delta region.\nReason (R): Jute grows in hot, humid delta regions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the climatic and geographical requirements of jute explain the importance of the Ganga–Brahmaputra delta region for jute production.",
+     "facts": [
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "world-geography-21-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements about world tobacco production:\nI. China ranks ahead of India among the world’s tobacco producers.\nII. India ranks ahead of Brazil among the world’s tobacco producers.\nIII. Brazil and the USA are listed among the world’s top tobacco producers.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: the listed order places China ahead of India and India ahead of Brazil, while Brazil and the USA are also listed among the top tobacco producers.",
+     "facts": [
+      "F59",
+      "F60",
+      "F61"
+     ]
+    },
+    {
+     "id": "world-geography-21-18",
+     "format": "List-Matching",
+     "keyword": "Crop Climate / Soil Requirements",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Cotton\n(b) Sugarcane\n(c) Tea\n(d) Rubber\n\nList-II\n(i) Needs light, well-drained soil\n(ii) Needs hot and humid conditions, heavy rainfall or irrigation, and fertile soil\n(iii) Needs moderate temperature, high rainfall and well-drained slopes\n(iv) Needs hot and humid conditions",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are cotton–light, well-drained soil; sugarcane–hot and humid conditions with heavy rainfall or irrigation and fertile soil; tea–moderate temperature, high rainfall and well-drained slopes; and rubber–hot and humid conditions.",
+     "facts": [
+      "F67",
+      "F68",
+      "F69",
+      "F70",
+      "F71",
+      "F72",
+      "F73",
+      "F78"
+     ]
     }
    ]
   },
@@ -5319,7 +7602,12 @@
       "Trans-Pacific Route"
      ],
      "answer": 2,
-     "explanation": "The North Atlantic Route is the busiest sea route in the world and is known as the “Big Trunk Route.”"
+     "explanation": "The North Atlantic Route is the busiest sea route in the world and is known as the “Big Trunk Route.”",
+     "facts": [
+      "F2",
+      "F3",
+      "F36"
+     ]
     },
     {
      "id": "world-geography-31-2",
@@ -5333,7 +7621,13 @@
       "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “Gulf of Aden.” The Suez Canal connects the Mediterranean Sea with the Red Sea."
+     "explanation": "The incorrect detail is “Gulf of Aden.” The Suez Canal connects the Mediterranean Sea with the Red Sea.",
+     "facts": [
+      "F16",
+      "F20",
+      "F23",
+      "F31"
+     ]
     },
     {
      "id": "world-geography-31-3",
@@ -5347,7 +7641,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Suez Route links Europe and Asia through the Suez Canal and provides the shortest route between them."
+     "explanation": "Both statements are true. The Suez Route links Europe and Asia through the Suez Canal and provides the shortest route between them.",
+     "facts": [
+      "F6",
+      "F8",
+      "F24"
+     ]
     },
     {
      "id": "world-geography-31-4",
@@ -5361,7 +7660,16 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Panama Canal Route–Atlantic and Pacific; Trans-Pacific Route–East Asia and West Coast of the Americas; Cape of Good Hope Route–Europe and Asia via southern Africa; Mediterranean–Indian Ocean Route–Europe and Asia/East Africa via the Suez Canal."
+     "explanation": "The correct pairs are: Panama Canal Route–Atlantic and Pacific; Trans-Pacific Route–East Asia and West Coast of the Americas; Cape of Good Hope Route–Europe and Asia via southern Africa; Mediterranean–Indian Ocean Route–Europe and Asia/East Africa via the Suez Canal.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F10",
+      "F12",
+      "F14",
+      "F26"
+     ]
     },
     {
      "id": "world-geography-31-5",
@@ -5375,7 +7683,16 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct according to the notes: Lombok and Sunda are alternatives to Malacca, the Silk Route was a land route, the Spice Routes were sea routes, and Bab-el-Mandeb is the gateway to Suez."
+     "explanation": "All three statements are correct according to the notes: Lombok and Sunda are alternatives to Malacca, the Silk Route was a land route, the Spice Routes were sea routes, and Bab-el-Mandeb is the gateway to Suez.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
     }
    ]
   },
@@ -5405,7 +7722,11 @@
       "Agricultural industry"
      ],
      "answer": 1,
-     "explanation": "Iron and Steel is listed as a major example of mineral-based industries, which depend on metallic and non-metallic minerals."
+     "explanation": "Iron and Steel is listed as a major example of mineral-based industries, which depend on metallic and non-metallic minerals.",
+     "facts": [
+      "F16",
+      "F20"
+     ]
     },
     {
      "id": "world-geography-32-2",
@@ -5419,7 +7740,14 @@
       "China, USA, Germany, Italy, Vietnam and Indonesia are leading countries or regions for Furniture and Plywood."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is 'largest furniture importer'. The notes state that China is the largest furniture exporter."
+     "explanation": "The incorrect detail is 'largest furniture importer'. The notes state that China is the largest furniture exporter.",
+     "facts": [
+      "F54",
+      "F57",
+      "F58",
+      "F59",
+      "F61"
+     ]
     },
     {
      "id": "world-geography-32-3",
@@ -5433,7 +7761,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes. However, the reason states their mineral dependence and does not fully explain the characteristics of being capital-intensive and located near mines or ports."
+     "explanation": "Both statements are given in the notes. However, the reason states their mineral dependence and does not fully explain the characteristics of being capital-intensive and located near mines or ports.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "world-geography-32-4",
@@ -5447,7 +7780,14 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Paper and Pulp—iv; Furniture and Plywood—ii; Rayon or Artificial Silk—i; Thermal Power—iii."
+     "explanation": "The correct pairs are: Paper and Pulp—iv; Furniture and Plywood—ii; Rayon or Artificial Silk—i; Thermal Power—iii.",
+     "facts": [
+      "F54",
+      "F57",
+      "F59",
+      "F60",
+      "F65"
+     ]
     },
     {
      "id": "world-geography-32-5",
@@ -5461,7 +7801,14 @@
       "I, II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are supported by the notes. Thermal power, petrochemicals and oil refining are examples of fuel-based industries; coal-based thermal power is dominant in Asia, the Middle East is important for crude, and nuclear is listed as a source."
+     "explanation": "All four statements are supported by the notes. Thermal power, petrochemicals and oil refining are examples of fuel-based industries; coal-based thermal power is dominant in Asia, the Middle East is important for crude, and nuclear is listed as a source.",
+     "facts": [
+      "F36",
+      "F40",
+      "F42",
+      "F63",
+      "F66"
+     ]
     }
    ]
   },

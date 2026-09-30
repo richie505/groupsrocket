@@ -3312,7 +3312,8 @@
       "F26",
       "F29",
       "F32",
-      "F35"
+      "F35",
+      "F55"
      ]
     },
     {
@@ -3353,7 +3354,9 @@
       "F5",
       "F11",
       "F17",
-      "F27"
+      "F27",
+      "F36",
+      "F53"
      ]
     },
     {
@@ -3379,10 +3382,170 @@
       "F47",
       "F48",
       "F49",
-      "F50"
+      "F50",
+      "F19",
+      "F21"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-6",
+     "format": "List-Matching",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Second Schedule\n(b) Third Schedule\n(c) Fifth Schedule\n(d) Sixth Schedule\n\nList-II\n(i) Administration and control of Scheduled Areas and Scheduled Tribes\n(ii) Emoluments, allowances and privileges of specified constitutional authorities\n(iii) Administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram\n(iv) Forms of oaths and affirmations",
+     "options": [
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The Second Schedule deals with emoluments, allowances and privileges; the Third with oaths and affirmations; the Fifth with Scheduled Areas and Scheduled Tribes; and the Sixth with tribal areas in the four specified States.",
+     "facts": [
+      "F7",
+      "F9",
+      "F13",
+      "F15"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Consider the following statements:\n\nI. The First Schedule was part of the original Constitution.\nII. The Second Schedule was part of the original Constitution.\nIII. The Third Schedule was part of the original Constitution.\nIV. The Fourth Schedule was part of the original Constitution.",
+     "options": [
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and IV only"
+     ],
+     "answer": 1,
+     "explanation": "The First, Second, Third and Fourth Schedules were all part of the original Constitution.",
+     "facts": [
+      "F6",
+      "F8",
+      "F10",
+      "F12"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Consider the following statements:\nStatement A: The Fifth Schedule was part of the original Constitution.\nStatement B: The Sixth Schedule was part of the original Constitution.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both the Fifth Schedule and the Sixth Schedule were included in the original Constitution.",
+     "facts": [
+      "F14",
+      "F16"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-9",
+     "format": "Direct Recall",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Which of the following Schedules was part of the original Constitution and deals with the division of powers among the Union List, State List and Concurrent List?",
+     "options": [
+      "Eighth Schedule",
+      "Seventh Schedule",
+      "Sixth Schedule",
+      "Fourth Schedule"
+     ],
+     "answer": 1,
+     "explanation": "The Seventh Schedule was part of the original Constitution and deals with the division of powers through the Union, State and Concurrent Lists.",
+     "facts": [
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-10",
+     "format": "List-Matching",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tenth Schedule\n(b) Eleventh Schedule\n(c) Twelfth Schedule\n\nList-II\n(i) Powers, authority and responsibilities of Municipalities; 18 subjects\n(ii) Disqualification of Members of Parliament and Members of Legislative Assemblies\n(iii) Powers, authority and responsibilities of Panchayats; 29 subjects",
+     "options": [
+      "a-i, b-iii, c-ii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-i, c-iii"
+     ],
+     "answer": 1,
+     "explanation": "The Tenth Schedule provides for disqualification of MPs and MLAs. The Eleventh Schedule concerns Panchayats and contains 29 subjects, while the Twelfth concerns Municipalities and contains 18 subjects.",
+     "facts": [
+      "F28",
+      "F30",
+      "F31",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Consider the following statements about the Lists in the Seventh Schedule:\n\nI. The Union List originally contained 97 subjects and now contains 100 subjects.\nII. The State List originally contained 66 subjects and now contains 61 subjects.\nIII. The Concurrent List originally contained 47 subjects and now contains 52 subjects.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements correctly state the original and present number of subjects in the Union, State and Concurrent Lists.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Schedules – Number Game + Subject",
+     "question": "Consider the following statements:\nStatement A: The Ninth Schedule originally contained 13 Acts.\nStatement B: The Ninth Schedule now contains around 284 Acts.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Ninth Schedule originally contained 13 Acts and now contains around 284 Acts.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "indian-polity-5-2-13",
+     "format": "Direct Recall",
+     "keyword": "Anti-defection law",
+     "question": "The Anti-Defection Law was amended further by which Constitutional Amendment?",
+     "options": [
+      "74th Amendment",
+      "91st Amendment",
+      "73rd Amendment",
+      "52nd Amendment"
+     ],
+     "answer": 1,
+     "explanation": "The Anti-Defection Law, associated with the Tenth Schedule, was amended further by the 91st Amendment.",
+     "facts": [
+      "F54"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 55,
+    "covered": 55,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -3410,7 +3573,10 @@
       "Part XV"
      ],
      "answer": 1,
-     "explanation": "Part XIV-A deals with Tribunals and covers Articles 323-A to 323-B."
+     "explanation": "Part XIV-A deals with Tribunals and covers Articles 323-A to 323-B.",
+     "facts": [
+      "F54"
+     ]
     },
     {
      "id": "indian-polity-6-2",
@@ -3424,7 +3590,18 @@
       "Part XIX deals with Miscellaneous provisions and covers Articles 361 to 367."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the ending article of Part XXI. Part XXI covers Articles 369 to 392, while Part XXII covers Articles 393 to 395."
+     "explanation": "The incorrect statement alters the ending article of Part XXI. Part XXI covers Articles 369 to 392, while Part XXII covers Articles 393 to 395.",
+     "facts": [
+      "F66",
+      "F67",
+      "F72",
+      "F73",
+      "F75",
+      "F76",
+      "F69",
+      "F70",
+      "F79"
+     ]
     },
     {
      "id": "indian-polity-6-3",
@@ -3438,7 +3615,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Part IX deals with the Panchayats, and its inclusion is noted as having been made through the 73rd Amendment, 1992."
+     "explanation": "Both statements are true. Part IX deals with the Panchayats, and its inclusion is noted as having been made through the 73rd Amendment, 1992.",
+     "facts": [
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-6-4",
@@ -3452,7 +3633,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Part I–The Union and its Territory, Part II–Citizenship, Part V–The Union, and Part XX–Amendment of the Constitution."
+     "explanation": "The correct pairs are: Part I–The Union and its Territory, Part II–Citizenship, Part V–The Union, and Part XX–Amendment of the Constitution.",
+     "facts": [
+      "F4",
+      "F7",
+      "F19",
+      "F72"
+     ]
     },
     {
      "id": "indian-polity-6-5",
@@ -3466,7 +3653,17 @@
       "II, III and IV only"
      ],
      "answer": 0,
-     "explanation": "All four statements are correct according to the notes: Parts III, XII, XVII and XX cover the subjects and article ranges stated."
+     "explanation": "All four statements are correct according to the notes: Parts III, XII, XVII and XX cover the subjects and article ranges stated.",
+     "facts": [
+      "F10",
+      "F11",
+      "F45",
+      "F46",
+      "F63",
+      "F64",
+      "F72",
+      "F73"
+     ]
     }
    ]
   },
@@ -8838,7 +9035,12 @@
       "Part IV, Articles 36 to 51"
      ],
      "answer": 3,
-     "explanation": "The DPSP are contained in Part IV of the Constitution, covering Articles 36 to 51."
+     "explanation": "The DPSP are contained in Part IV of the Constitution, covering Articles 36 to 51.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-polity-20-2",
@@ -8852,7 +9054,14 @@
       "Article 46 promotes the educational and economic interests of SCs, STs and weaker sections."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the amendment number. Article 43B was added by the 97th Amendment, not the 42nd Amendment."
+     "explanation": "The incorrect detail is the amendment number. Article 43B was added by the 97th Amendment, not the 42nd Amendment.",
+     "facts": [
+      "F43",
+      "F55",
+      "F56",
+      "F57",
+      "F68"
+     ]
     },
     {
      "id": "indian-polity-20-3",
@@ -8866,7 +9075,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Article 37 specifies the non-justiciable nature of DPSP while describing them as fundamental in governance."
+     "explanation": "Both statements are true. Article 37 specifies the non-justiciable nature of DPSP while describing them as fundamental in governance.",
+     "facts": [
+      "F5",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "indian-polity-20-4",
@@ -8880,7 +9094,16 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Article 40–Organisation of Village Panchayats, Article 47–Nutrition and prohibition, Article 50–Separation of Judiciary from Executive, and Article 51–International peace and security."
+     "explanation": "The correct pairs are: Article 40–Organisation of Village Panchayats, Article 47–Nutrition and prohibition, Article 50–Separation of Judiciary from Executive, and Article 51–International peace and security.",
+     "facts": [
+      "F43",
+      "F58",
+      "F59",
+      "F60",
+      "F68",
+      "F69",
+      "F70"
+     ]
     },
     {
      "id": "indian-polity-20-5",
@@ -8894,7 +9117,115 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct according to the amendment details given in the notes."
+     "explanation": "All four statements are correct according to the amendment details given in the notes.",
+     "facts": [
+      "F73"
+     ]
+    },
+    {
+     "id": "indian-polity-20-6",
+     "format": "Assertion-Reason",
+     "keyword": "Borrowed Features of Indian Constitution",
+     "question": "Assertion (A): The Directive Principles of State Policy were borrowed from Ireland.\nReason (R): The Directive Principles of State Policy aim to establish social democracy, economic democracy and a welfare state.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The Directive Principles were borrowed from Ireland. Their aims are to establish social democracy, economic democracy and a welfare state, but these aims do not explain their Irish origin.",
+     "facts": [
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "indian-polity-20-7",
+     "format": "Direct Recall",
+     "keyword": "DPSP – Number Game",
+     "question": "The Socialistic Principles under the Directive Principles of State Policy comprise approximately how many articles?",
+     "options": [
+      "8–9",
+      "7",
+      "10–11",
+      "6"
+     ],
+     "answer": 0,
+     "explanation": "The Socialistic Principles comprise 8–9 articles.",
+     "facts": [
+      "F9"
+     ]
+    },
+    {
+     "id": "indian-polity-20-8",
+     "format": "Count-Based",
+     "keyword": "DPSP – Number Game",
+     "question": "How many of the following are key articles under the Socialistic Principles?\n1. Article 38\n2. Article 39\n3. Article 39A\n4. Article 41\n5. Article 42\n6. Article 43\n7. Article 43A\n8. Article 47",
+     "options": [
+      "Only six",
+      "Only seven",
+      "Only eight",
+      "Only nine"
+     ],
+     "answer": 2,
+     "explanation": "All eight listed articles—38, 39, 39A, 41, 42, 43, 43A and 47—are identified as key articles under the Socialistic Principles.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-polity-20-9",
+     "format": "Count-Based",
+     "keyword": "DPSP – Number Game",
+     "question": "How many of the following are key articles under the Gandhian Principles?\n1. Article 40\n2. Article 43\n3. Article 43B\n4. Article 46\n5. Article 47\n6. Article 48",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "Only seven"
+     ],
+     "answer": 2,
+     "explanation": "All six listed articles are key articles under the Gandhian Principles. The Gandhian Principles comprise six articles.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-polity-20-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "DPSP – Number Game",
+     "question": "Consider the following statements:\nStatement A: The Liberal-Intellectual Principles comprise seven articles.\nStatement B: Articles 44, 45, 48 and 48A are key articles under the Liberal-Intellectual Principles.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Liberal-Intellectual Principles comprise seven articles. Articles 44, 45, 48 and 48A are among their key articles.",
+     "facts": [
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     }
    ]
   },
@@ -14454,7 +14785,14 @@
       "Establishment of the Election Commission"
      ],
      "answer": 0,
-     "explanation": "The Punchhi Commission was the second major Commission on Centre–State Relations and Indian Federalism."
+     "explanation": "The Punchhi Commission was the second major Commission on Centre–State Relations and Indian Federalism.",
+     "facts": [
+      "F1",
+      "F2",
+      "F12",
+      "F13",
+      "F3"
+     ]
     },
     {
      "id": "indian-polity-28-2",
@@ -14468,7 +14806,23 @@
       "The Sarkaria Commission recommended the establishment of a permanent Inter-State Council."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement concerns the Indrajit Gupta Committee. It was related to State funding of elections, not Centre–State Relations."
+     "explanation": "The incorrect statement concerns the Indrajit Gupta Committee. It was related to State funding of elections, not Centre–State Relations.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F3",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-polity-28-3",
@@ -14482,7 +14836,16 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Article 263 provides the constitutional basis, while the date and Sarkaria Commission recommendation describe its establishment; the Reason does not explain the constitutional basis."
+     "explanation": "Both statements are true. Article 263 provides the constitutional basis, while the date and Sarkaria Commission recommendation describe its establishment; the Reason does not explain the constitutional basis.",
+     "facts": [
+      "F20",
+      "F25",
+      "F26",
+      "F16",
+      "F19",
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "indian-polity-28-4",
@@ -14496,7 +14859,16 @@
       "a-iii, b-iv, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Punchhi Commission–Federal dialogue and coordination mechanisms; Sarkaria Commission–Recommendation for a permanent Inter-State Council; Rajamannar Committee–State-level initiative for federal autonomy; Indrajit Gupta Committee–State funding of elections."
+     "explanation": "The correct pairs are: Punchhi Commission–Federal dialogue and coordination mechanisms; Sarkaria Commission–Recommendation for a permanent Inter-State Council; Rajamannar Committee–State-level initiative for federal autonomy; Indrajit Gupta Committee–State funding of elections.",
+     "facts": [
+      "F7",
+      "F12",
+      "F15",
+      "F17",
+      "F3",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-polity-28-5",
@@ -14510,9 +14882,18 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true: the Inter-State Council was established by the President of India. Statement B is false because it was not enacted or established by Parliament."
+     "explanation": "Statement A is true: the Inter-State Council was established by the President of India. Statement B is false because it was not enacted or established by Parliament.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 26,
+    "covered": 26,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -15867,7 +16248,13 @@
       "The Chief Minister of the State"
      ],
      "answer": 1,
-     "explanation": "Under Article 165(1), the Advocate General of a State is appointed by the Governor of the State."
+     "explanation": "Under Article 165(1), the Advocate General of a State is appointed by the Governor of the State.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F4"
+     ]
     },
     {
      "id": "indian-polity-32-2",
@@ -15881,7 +16268,16 @@
       "The Advocate General holds office during the pleasure of the Governor."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is “fixed constitutional tenure.” Under Article 165(3), the Advocate General holds office during the pleasure of the Governor and has no fixed constitutional tenure."
+     "explanation": "The incorrect detail is “fixed constitutional tenure.” Under Article 165(3), the Advocate General holds office during the pleasure of the Governor and has no fixed constitutional tenure.",
+     "facts": [
+      "F1",
+      "F2",
+      "F10",
+      "F11",
+      "F12",
+      "F15",
+      "F31"
+     ]
     },
     {
      "id": "indian-polity-32-3",
@@ -15895,7 +16291,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Advocate General must possess the qualification for appointment as a High Court Judge, as referred to in Article 217."
+     "explanation": "Both statements are true. The Advocate General must possess the qualification for appointment as a High Court Judge, as referred to in Article 217.",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-polity-32-4",
@@ -15909,7 +16309,14 @@
       "a-i, b-ii, c-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Advocate General of the State—Article 165, Part VI; Attorney General of India—Article 76, Part V; Solicitor General of India—assists the Attorney General."
+     "explanation": "The correct pairs are: Advocate General of the State—Article 165, Part VI; Attorney General of India—Article 76, Part V; Solicitor General of India—assists the Attorney General.",
+     "facts": [
+      "F28",
+      "F29",
+      "F33",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-polity-32-5",
@@ -15923,9 +16330,96 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct rights under Article 177. The Advocate General is not a member of the State Legislature and cannot vote on a motion or bill."
+     "explanation": "Statements I, II and III are correct rights under Article 177. The Advocate General is not a member of the State Legislature and cannot vote on a motion or bill.",
+     "facts": [
+      "F19",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F27",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-polity-32-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Advocate General",
+     "question": "Consider the following statements regarding the tenure of the Advocate General of a State:\nI. The Advocate General holds office during the pleasure of the Governor.\nII. The Advocate General does not hold office during the pleasure of the Cabinet.\nIII. The Advocate General does not hold office during the pleasure of the Chief Minister.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The Advocate General holds office during the pleasure of the Governor, and not during the pleasure of the Cabinet or the Chief Minister.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-polity-32-7",
+     "format": "Assertion-Reason",
+     "keyword": "Articles – NUMBER GAME",
+     "question": "Assertion (A): The duties of the Advocate General of a State are provided under Article 165(2).\nReason (R): These duties include performing other legal duties assigned by the Governor or by the Constitution.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Article 165(2) provides for the Advocate General’s duties, including other legal duties assigned by the Governor or the Constitution.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "indian-polity-32-8",
+     "format": "Direct Recall",
+     "keyword": "State assembly",
+     "question": "The two Houses of the State Legislature are which of the following?",
+     "options": [
+      "Legislative Assembly and Lok Sabha",
+      "Legislative Assembly and State Council",
+      "Legislative Assembly and Legislative Council",
+      "Legislative Council and Rajya Sabha"
+     ],
+     "answer": 2,
+     "explanation": "The two Houses of the State Legislature are the Legislative Assembly and the Legislative Council.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-polity-32-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Attorney General",
+     "question": "Consider the following statements:\nStatement A: The Solicitor General of India has a non-constitutional, statutory basis.\nStatement B: The jurisdiction level of the Attorney General of India is the Union Government.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Solicitor General has a non-constitutional, statutory basis, while the Attorney General of India operates at the Union Government level.",
+     "facts": [
+      "F30",
+      "F32"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 33,
+    "covered": 33,
+    "audited": true
+   }
   }
  }
 }

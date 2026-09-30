@@ -230,7 +230,8 @@
       "F32",
       "F33",
       "F34",
-      "F36"
+      "F36",
+      "F50"
      ]
     },
     {
@@ -287,8 +288,102 @@
      "facts": [
       "F46"
      ]
+    },
+    {
+     "id": "physics-1-15",
+     "format": "Assertion-Reason",
+     "keyword": "Speed of light",
+     "question": "Assertion (A): The symbol for the speed of light is c.\nReason (R): The speed of light in vacuum is 3 × 10⁸ m/s.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: c is the symbol for the speed of light, and its speed in vacuum is 3 × 10⁸ m/s. However, the numerical value does not explain the symbol c.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "physics-1-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Lowest",
+     "question": "Consider the following statements:\nStatement A: The ground state is the lowest energy state of an atom.\nStatement B: Radio waves are the lowest-frequency electromagnetic radiation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The ground state is the lowest energy state of an atom, while radio waves are the lowest-frequency electromagnetic radiation.",
+     "facts": [
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "physics-1-17",
+     "format": "Direct Recall",
+     "keyword": "Fastest speed in nature",
+     "question": "Which of the following represents the fastest speed in nature?",
+     "options": [
+      "The speed of quark-gluon plasma",
+      "The speed of light",
+      "The speed of radio waves",
+      "The speed of gamma rays"
+     ],
+     "answer": 1,
+     "explanation": "The speed of light is identified as the fastest speed in nature.",
+     "facts": [
+      "F58",
+      "F47"
+     ]
+    },
+    {
+     "id": "physics-1-18",
+     "format": "Assertion-Reason",
+     "keyword": "Highest temperature achieved in laboratory",
+     "question": "Assertion (A): Quark-gluon plasma is the highest temperature achieved in a laboratory.\nReason (R): Quark-gluon plasma has been achieved at the Large Hadron Collider and RHIC.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Quark-gluon plasma is identified as the highest temperature achieved in a laboratory, and it has been achieved at the Large Hadron Collider and RHIC; however, the locations do not explain why it represents the highest laboratory temperature.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "physics-1-19",
+     "format": "Direct Recall",
+     "keyword": "Highest frequency electromagnetic radiation",
+     "question": "Which of the following is the highest-frequency electromagnetic radiation?",
+     "options": [
+      "Radio waves",
+      "Quark-gluon plasma",
+      "Gamma rays",
+      "Ground state"
+     ],
+     "answer": 2,
+     "explanation": "Gamma rays are the highest-frequency electromagnetic radiation.",
+     "facts": [
+      "F53"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 61,
+    "covered": 61,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -398,7 +493,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "Michael Faraday is associated with the electric motor/generator based on induction, Alessandro Volta with the first practical electric battery, Theodore Maiman with the first working laser, and Ernest Lawrence with the cyclotron."
+     "explanation": "Michael Faraday is associated with the electric motor/generator based on induction, Alessandro Volta with the first practical electric battery, Theodore Maiman with the first working laser, and Ernest Lawrence with the cyclotron.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "physics-3-2",
@@ -412,7 +514,13 @@
       "The proton was discovered by Rutherford in 1919."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year. According to the notes, Henri Becquerel discovered radioactivity in 1896, not 1895."
+     "explanation": "The incorrect detail is the year. According to the notes, Henri Becquerel discovered radioactivity in 1896, not 1895.",
+     "facts": [
+      "F8",
+      "F11",
+      "F12",
+      "F9"
+     ]
     },
     {
      "id": "physics-3-3",
@@ -426,7 +534,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, Hertz's discovery of the effect does not explain why Einstein explained it."
+     "explanation": "Both statements are true according to the notes. However, Hertz's discovery of the effect does not explain why Einstein explained it.",
+     "facts": [
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "physics-3-4",
@@ -440,7 +552,14 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct as listed under formulation in the notes."
+     "explanation": "All three statements are correct as listed under formulation in the notes.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F24",
+      "F26"
+     ]
     },
     {
      "id": "physics-3-5",
@@ -454,9 +573,154 @@
       "Cowan and Reines"
      ],
      "answer": 0,
-     "explanation": "The notes identify Fermi as the scientist who demonstrated the first controlled nuclear chain reaction in 1942."
+     "explanation": "The notes identify Fermi as the scientist who demonstrated the first controlled nuclear chain reaction in 1942.",
+     "facts": [
+      "F38"
+     ]
+    },
+    {
+     "id": "physics-3-6",
+     "format": "List-Matching",
+     "keyword": "Developed by",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Transistor\n b. Cloud chamber\n c. Neutron\n d. Positron\n\nList-II\n i. James Chadwick\n ii. Bardeen, Brattain and Shockley\n iii. Carl Anderson\n iv. C. T. R. Wilson",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "The transistor is associated with Bardeen, Brattain and Shockley; the cloud chamber with C. T. R. Wilson; the neutron with James Chadwick; and the positron with Carl Anderson.",
+     "facts": [
+      "F5",
+      "F7",
+      "F10",
+      "F15"
+     ]
+    },
+    {
+     "id": "physics-3-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Discovery Scientist and Year",
+     "question": "Consider the following statements:\n\nI. The Raman effect was discovered by C. V. Raman in 1928.\nII. The expanding universe was proposed by Friedmann and Lemaître.\nIII. The Higgs mechanism was proposed by Higgs, Englert, Brout and others in 1964.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct: the Raman effect is associated with C. V. Raman in 1928, the expanding universe with Friedmann and Lemaître, and the Higgs mechanism with Higgs, Englert, Brout and others in 1964.",
+     "facts": [
+      "F16",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "physics-3-8",
+     "format": "List-Matching",
+     "keyword": "Proposal Scientist",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Photon or light quanta\n b. Quantum hypothesis\n c. Wave nature of matter\n d. Antiparticles\n\nList-II\n i. de Broglie\n ii. Dirac\n iii. Einstein\n iv. Max Planck",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Einstein proposed the photon or light quanta, Max Planck the quantum hypothesis, de Broglie the wave nature of matter, and Dirac antiparticles.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F22"
+     ]
+    },
+    {
+     "id": "physics-3-9",
+     "format": "List-Matching",
+     "keyword": "Development Scientist",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Quantum mechanics in matrix form\n b. Special and general relativity\n c. Bohr model of the atom\n d. Concept of a field\n\nList-II\n i. Niels Bohr\n ii. Faraday and Maxwell\n iii. Heisenberg\n iv. Einstein",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Heisenberg developed quantum mechanics in matrix form; Einstein developed special and general relativity; Niels Bohr developed the Bohr model; and the concept of a field is associated with Faraday and Maxwell.",
+     "facts": [
+      "F23",
+      "F25",
+      "F27",
+      "F29"
+     ]
+    },
+    {
+     "id": "physics-3-10",
+     "format": "Count-Based",
+     "keyword": "Concept Scientist",
+     "question": "How many of the following associations are correct?\n\n1. Concept of inertia — Galileo\n2. Quantum of action, h — Planck\n3. Space-time continuum — Minkowski and Einstein\n4. Spin — Uhlenbeck and Goudsmit",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four associations are correct. Inertia is associated with Galileo, the quantum of action with Planck, the space-time continuum with Minkowski and Einstein, and spin with Uhlenbeck and Goudsmit.",
+     "facts": [
+      "F28",
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "physics-3-11",
+     "format": "Assertion-Reason",
+     "keyword": "Formulation Scientist",
+     "question": "Assertion (A): The laws of motion and gravitation were formulated by Newton in 1687.\nReason (R): The uncertainty principle was formulated by Heisenberg.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but Heisenberg’s formulation of the uncertainty principle does not explain Newton’s formulation of the laws of motion and gravitation in 1687.",
+     "facts": [
+      "F33",
+      "F37"
+     ]
+    },
+    {
+     "id": "physics-3-12",
+     "format": "List-Matching",
+     "keyword": "Demonstrated by",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Wave nature of electrons\n b. Parity violation\n c. Photoelectric effect quantitatively\n d. Existence of neutrino\n\nList-II\n i. Millikan\n ii. Cowan and Reines\n iii. Davisson and Germer and G. P. Thomson\n iv. Chien-Shiung Wu",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The wave nature of electrons was demonstrated by Davisson and Germer and by G. P. Thomson; parity violation by Chien-Shiung Wu; the quantitative photoelectric effect by Millikan; and the existence of the neutrino by Cowan and Reines.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,
@@ -482,7 +746,13 @@
       "a-iii, b-ii, c-i, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Raman Effect–C.V. Raman, Compton Effect–Arthur Compton, Doppler Effect–Christian Doppler and Planck constant–Max Planck."
+     "explanation": "The correct pairs are Raman Effect–C.V. Raman, Compton Effect–Arthur Compton, Doppler Effect–Christian Doppler and Planck constant–Max Planck.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "physics-4-2",
@@ -496,7 +766,13 @@
       "Thomas Edison is known as America’s greatest inventor."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is option 3. The notes identify J.J. Thomson as the discoverer of the electron, while Chadwick is identified as the discoverer of the neutron."
+     "explanation": "The incorrect statement is option 3. The notes identify J.J. Thomson as the discoverer of the electron, while Chadwick is identified as the discoverer of the neutron.",
+     "facts": [
+      "F39",
+      "F40",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "physics-4-3",
@@ -510,7 +786,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Newton is identified in the notes as the founder of Classical Mechanics, which explains why he is called its father."
+     "explanation": "Both statements are true. Newton is identified in the notes as the founder of Classical Mechanics, which explains why he is called its father.",
+     "facts": [
+      "F24",
+      "F31"
+     ]
     },
     {
      "id": "physics-4-4",
@@ -524,7 +804,13 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are directly supported by the notes: Einstein is associated with Brownian motion, Bardeen–Cooper–Schrieffer with superconductivity, and Rutherford with nuclear physics."
+     "explanation": "All three statements are directly supported by the notes: Einstein is associated with Brownian motion, Bardeen–Cooper–Schrieffer with superconductivity, and Rutherford with nuclear physics.",
+     "facts": [
+      "F4",
+      "F5",
+      "F34",
+      "F27"
+     ]
     },
     {
      "id": "physics-4-5",
@@ -538,7 +824,10 @@
       "Ernest Rutherford"
      ],
      "answer": 0,
-     "explanation": "The notes identify Homi J. Bhabha as the Father of India’s Atomic Energy Programme."
+     "explanation": "The notes identify Homi J. Bhabha as the Father of India’s Atomic Energy Programme.",
+     "facts": [
+      "F38"
+     ]
     }
    ]
   },
@@ -1541,7 +1830,14 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "J.J. Thomson is associated with the electron, Henri Becquerel with radioactivity, Max Planck with energy quanta/quantum theory, and C.V. Raman with the Raman Effect."
+     "explanation": "J.J. Thomson is associated with the electron, Henri Becquerel with radioactivity, Max Planck with energy quanta/quantum theory, and C.V. Raman with the Raman Effect.",
+     "facts": [
+      "F1",
+      "F6",
+      "F9",
+      "F10",
+      "F13"
+     ]
     },
     {
      "id": "physics-7-2",
@@ -1555,7 +1851,17 @@
       "Alessandro Volta is associated with the electric generator."
      ],
      "answer": 3,
-     "explanation": "The incorrect statement is option 2. Alessandro Volta is associated with the electric battery, specifically the voltaic pile, not the electric generator."
+     "explanation": "The incorrect statement is option 2. Alessandro Volta is associated with the electric battery, specifically the voltaic pile, not the electric generator.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "physics-7-3",
@@ -1569,7 +1875,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Theodore Maiman is associated with the first working laser, which is dated 1960."
+     "explanation": "Both statements are true. Theodore Maiman is associated with the first working laser, which is dated 1960.",
+     "facts": [
+      "F26"
+     ]
     },
     {
      "id": "physics-7-4",
@@ -1583,7 +1892,12 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct. Hooke, Kepler and Snell are respectively associated with Hooke’s law, Kepler’s laws of planetary motion and Snell’s law of refraction."
+     "explanation": "All three statements are correct. Hooke, Kepler and Snell are respectively associated with Hooke’s law, Kepler’s laws of planetary motion and Snell’s law of refraction.",
+     "facts": [
+      "F48",
+      "F49",
+      "F50"
+     ]
     },
     {
      "id": "physics-7-5",
@@ -1597,9 +1911,264 @@
       "Henri Becquerel"
      ],
      "answer": 1,
-     "explanation": "Marie Curie is associated with the discovery of Radium and Polonium."
+     "explanation": "Marie Curie is associated with the discovery of Radium and Polonium.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
+    },
+    {
+     "id": "physics-7-6",
+     "format": "List-Matching",
+     "keyword": "Discovery",
+     "question": "Match List-I with List-II:\n\nList-I (Scientist's discovery)\na. Atomic nucleus\nb. Proton\nc. Neutron\nd. X-rays\n\nList-II (Scientist and year)\ni. James Chadwick, 1932\nii. Ernest Rutherford, 1919\niii. Wilhelm Röntgen, 1895\niv. Ernest Rutherford, 1911",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 0,
+     "explanation": "Ernest Rutherford discovered the atomic nucleus in 1911 and the proton in 1919. James Chadwick discovered the neutron in 1932, while Wilhelm Röntgen discovered X-rays in 1895.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "physics-7-7",
+     "format": "Assertion-Reason",
+     "keyword": "Photon",
+     "question": "Assertion (A): Albert Einstein is associated with the photon.\nReason (R): Albert Einstein explained the photoelectric effect using the photon.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Einstein is associated with the photon, and his use of the photon to explain the photoelectric effect explains that association.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
+    },
+    {
+     "id": "physics-7-8",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Particle Discovery",
+     "question": "Consider the following statements:\nStatement A: Carl Anderson discovered the positron in 1932.\nStatement B: Enrico Fermi achieved a controlled nuclear chain reaction in 1942.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Carl Anderson is associated with the discovery of the positron in 1932. Enrico Fermi achieved a controlled nuclear chain reaction in 1942.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
+    },
+    {
+     "id": "physics-7-9",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Higgs Mechanism",
+     "question": "Consider the following statements:\nStatement A: Higgs and Englert et al. are associated with the Higgs mechanism.\nStatement B: The Higgs mechanism was confirmed in 2012.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Higgs and Englert et al. are associated with the Higgs mechanism, which was confirmed in 2012.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "physics-7-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Invention",
+     "question": "Consider the following statements:\nI. Bardeen, Brattain and Shockley invented the transistor in 1947.\nII. Enrico Fermi is associated with the nuclear reactor.\nIII. Enrico Fermi’s nuclear reactor was the Chicago Pile-1.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The transistor was invented by Bardeen, Brattain and Shockley in 1947, and Fermi is associated with the Chicago Pile-1 nuclear reactor.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "physics-7-11",
+     "format": "Assertion-Reason",
+     "keyword": "Scientist and Invention",
+     "question": "Assertion (A): Galileo Galilei improved the telescope.\nReason (R): Galileo Galilei developed the thermoscope.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the development of the thermoscope does not explain Galileo Galilei’s improvement of the telescope.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "physics-7-12",
+     "format": "List-Matching",
+     "keyword": "Principle",
+     "question": "Match List-I with List-II:\n\nList-I (Scientist)\na. Archimedes\nb. Pascal\nc. Bernoulli\nd. Huygens\n\nList-II (Principle)\ni. Huygens’ principle of the wavefront\nii. Bernoulli’s principle\niii. Archimedes’ principle of buoyancy\niv. Pascal’s principle of pressure in fluids",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are Archimedes—principle of buoyancy, Pascal—principle of pressure in fluids, Bernoulli—Bernoulli’s principle, and Huygens—principle of the wavefront.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "physics-7-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Principle",
+     "question": "Consider the following statements:\nI. Heisenberg formulated the uncertainty principle.\nII. Pauli formulated the exclusion principle.\nIII. Fermat formulated Fermat’s principle of least time.\nIV. Le Chatelier formulated Le Chatelier’s principle concerning equilibrium.\nV. Le Chatelier’s principle is often linked with equilibrium.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, III, IV and V only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All five statements are correct. The sheet associates Heisenberg with uncertainty, Pauli with exclusion, Fermat with least time, and Le Chatelier’s principle with equilibrium, with the latter often linked to equilibrium.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "physics-7-14",
+     "format": "List-Matching",
+     "keyword": "Scientist → Law",
+     "question": "Match List-I with List-II:\n\nList-I (Scientist)\na. Isaac Newton\nb. Coulomb\nc. Ohm\nd. Lenz\n\nList-II (Law)\ni. Ohm’s law\nii. Lenz’s law\niii. Laws of motion\niv. Coulomb’s law",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Isaac Newton formulated the laws of motion, Coulomb formulated Coulomb’s law, Ohm formulated Ohm’s law, and Lenz formulated Lenz’s law.",
+     "facts": [
+      "F42",
+      "F44",
+      "F45",
+      "F55"
+     ]
+    },
+    {
+     "id": "physics-7-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scientist → Law",
+     "question": "Consider the following statements:\n\nI. Isaac Newton formulated the law of universal gravitation.\nII. Faraday formulated Faraday’s laws of electromagnetic induction.\nIII. Faraday formulated Faraday’s laws of electrolysis.\nIV. Ampere formulated Ampere’s law.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "II and III only",
+      "I, III and IV only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Newton is associated with universal gravitation; Faraday with the laws of electromagnetic induction and electrolysis; and Ampere with Ampere’s law.",
+     "facts": [
+      "F43",
+      "F46",
+      "F47",
+      "F56"
+     ]
+    },
+    {
+     "id": "physics-7-16",
+     "format": "Direct Recall",
+     "keyword": "Scientist → Law",
+     "question": "Who formulated the Biot-Savart law?",
+     "options": [
+      "Stefan-Boltzmann",
+      "Biot and Savart",
+      "Kirchhoff",
+      "Ampere"
+     ],
+     "answer": 1,
+     "explanation": "The Biot-Savart law was formulated by Biot and Savart.",
+     "facts": [
+      "F57"
+     ]
+    },
+    {
+     "id": "physics-7-17",
+     "format": "Assertion-Reason",
+     "keyword": "Law → Formulator",
+     "question": "Assertion (A): Stefan-Boltzmann formulated the Stefan-Boltzmann law.\nReason (R): Wien formulated Wien’s displacement law.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Stefan-Boltzmann formulated the Stefan-Boltzmann law, while Wien formulated Wien’s displacement law; the latter does not explain the former.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "physics-7-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Kirchhoff → Laws",
+     "question": "Consider the following statements:\nI. Kirchhoff formulated Kirchhoff’s laws for circuits.\nII. Kirchhoff formulated Kirchhoff’s laws of radiation.",
+     "options": [
+      "II only",
+      "Both I and II",
+      "Neither I nor II",
+      "I only"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are correct: Kirchhoff is associated with Kirchhoff’s laws for circuits as well as Kirchhoff’s laws of radiation.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 57,
+    "covered": 57,
+    "audited": true
+   }
   },
   "8": {
    "number": 8,
@@ -1855,8 +2424,176 @@
       "F40",
       "F41"
      ]
+    },
+    {
+     "id": "physics-8-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scientist → Field",
+     "question": "Consider the following statements:\nI. Max Planck is associated with quantum mechanics.\nII. Werner Heisenberg is associated with quantum mechanics.\nIII. Erwin Schrödinger is associated with quantum mechanics.\nIV. Ernest Rutherford is associated with nuclear physics.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and IV only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Max Planck, Werner Heisenberg and Erwin Schrödinger are associated with quantum mechanics, while Ernest Rutherford is associated with nuclear physics.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
+    },
+    {
+     "id": "physics-8-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Scientist → Field",
+     "question": "Consider the following statements:\nStatement A: Enrico Fermi is associated with nuclear physics.\nStatement B: Enrico Fermi is associated with particle physics.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Enrico Fermi is associated with both nuclear physics and particle physics.",
+     "facts": [
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "physics-8-15",
+     "format": "List-Matching",
+     "keyword": "Major Contribution",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Faraday — first contribution\n(b) Faraday — second contribution\n(c) Maxwell\n(d) Einstein\n\nList-II\n(i) Unification of electricity, magnetism and light\n(ii) Photoelectric effect\n(iii) Electromagnetic induction\n(iv) Field concept\n\nCodes:",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "Faraday is associated with electromagnetic induction and the field concept. Maxwell unified electricity, magnetism and light, while Einstein is associated with the photoelectric effect.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F63"
+     ]
+    },
+    {
+     "id": "physics-8-16",
+     "format": "Direct Recall",
+     "keyword": "Major Contribution",
+     "question": "Which of the following contributions is associated with Niels Bohr?",
+     "options": [
+      "Wave mechanics",
+      "Nuclear model of the atom",
+      "Relativistic quantum theory",
+      "Quantized atomic model"
+     ],
+     "answer": 3,
+     "explanation": "Niels Bohr is associated with the quantized atomic model.",
+     "facts": [
+      "F64"
+     ]
+    },
+    {
+     "id": "physics-8-17",
+     "format": "List-Matching",
+     "keyword": "Major Contribution",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Fermi — first contribution\n(b) Fermi — second contribution\n(c) Raman\n(d) Inelastic scattering of light\n\nList-II\n(i) Controlled nuclear reaction\n(ii) Fermi–Dirac statistics\n(iii) Inelastic scattering of light\n(iv) Raman effect\n\nCodes:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Fermi is associated with controlled nuclear reaction and Fermi–Dirac statistics. Raman is associated with inelastic scattering of light, which is called the Raman effect.",
+     "facts": [
+      "F67",
+      "F68",
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "physics-8-18",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Big Bang\n(b) Special and General Relativity\n(c) Quantum theory\n(d) Wave mechanics\n\nList-II\n(i) Max Planck\n(ii) Lemaître and Hubble\n(iii) Albert Einstein\n(iv) Schrödinger",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-ii, b-i, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The Big Bang is associated with Lemaître and Hubble. Special and General Relativity, quantum theory and wave mechanics are associated with Einstein, Planck and Schrödinger respectively.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "physics-8-19",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "The Big Bang is associated with which of the following?",
+     "options": [
+      "Superconductivity theory",
+      "Expanding universe",
+      "Electromagnetic theory",
+      "Matrix mechanics"
+     ],
+     "answer": 1,
+     "explanation": "The Big Bang is associated with the expanding universe.",
+     "facts": [
+      "F14"
+     ]
+    },
+    {
+     "id": "physics-8-20",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which theory is associated with the Big Bang?",
+     "options": [
+      "Wave theory of matter",
+      "Bohr’s atomic theory",
+      "Big Bang theory",
+      "Electromagnetic theory"
+     ],
+     "answer": 2,
+     "explanation": "The Big Bang is associated with Big Bang theory.",
+     "facts": [
+      "F15"
+     ]
+    },
+    {
+     "id": "physics-8-21",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): BCS is associated with superconductivity theory.\nReason (R): BCS stands for Bardeen-Cooper-Schrieffer.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "BCS is associated with superconductivity theory, and the abbreviation BCS refers to Bardeen-Cooper-Schrieffer. However, the expansion of the abbreviation does not explain its association with superconductivity theory.",
+     "facts": [
+      "F16"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 70,
+    "covered": 70,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -2094,8 +2831,112 @@
       "F44",
       "F45"
      ]
+    },
+    {
+     "id": "physics-9-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Nobel Prize",
+     "question": "Consider the following statements:\nI. Enrico Fermi received the Nobel Prize in Physics in 1938.\nII. C.V. Raman received the Nobel Prize in Physics in 1930.\nIII. Bardeen received the Nobel Prize in Physics twice.\nIV. Bardeen received the Nobel Prize in Physics in 1956.\nV. Bardeen received the Nobel Prize in Physics in 1972.",
+     "options": [
+      "II, III, IV and V only",
+      "I, II and III only",
+      "I, II, IV and V only",
+      "I, II, III, IV and V"
+     ],
+     "answer": 3,
+     "explanation": "All five statements are correct. Fermi received the Physics Nobel in 1938; C.V. Raman in 1930; and Bardeen received it twice, in 1956 and 1972.",
+     "facts": [
+      "F47",
+      "F48",
+      "F50",
+      "F51",
+      "F52"
+     ]
+    },
+    {
+     "id": "physics-9-13",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who is known as the first Asian to receive the Nobel Prize in Physics?",
+     "options": [
+      "Niels Bohr",
+      "C.V. Raman",
+      "Enrico Fermi",
+      "Max Planck"
+     ],
+     "answer": 1,
+     "explanation": "C.V. Raman is identified as the first Asian to receive the Nobel Prize in Physics.",
+     "facts": [
+      "F49"
+     ]
+    },
+    {
+     "id": "physics-9-14",
+     "format": "List-Matching",
+     "keyword": "Father of",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Galileo Galilei\n(b) Isaac Newton\n(c) Albert Einstein\n(d) Ernest Rutherford\n\nList-II\n(i) Father of Modern Science and Father of Experimental Physics\n(ii) Father of Classical Mechanics and Father of Physics\n(iii) Father of Modern Physics and Father of Relativity\n(iv) Father of Nuclear Physics",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Galileo Galilei is associated with Modern Science and Experimental Physics; Isaac Newton with Classical Mechanics and Physics; Albert Einstein with Modern Physics and Relativity; and Ernest Rutherford with Nuclear Physics.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56",
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "physics-9-15",
+     "format": "List-Matching",
+     "keyword": "Father of",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Niels Bohr\n(b) Max Planck\n(c) C.V. Raman\n(d) Homi J. Bhabha\n\nList-II\n(i) Father of Atomic Physics\n(ii) Father of Quantum Theory\n(iii) Father of Indian Physics\n(iv) Father of the Indian Nuclear Programme",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Niels Bohr is known as the Father of Atomic Physics, Max Planck as the Father of Quantum Theory, C.V. Raman as the Father of Indian Physics, and Homi J. Bhabha as the Father of the Indian Nuclear Programme.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "physics-9-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Father of",
+     "question": "Consider the following statements:\nStatement A: Michael Faraday is popularly known as the Father of Electricity.\nStatement B: Enrico Fermi is known as the Architect of the Nuclear Age.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Michael Faraday is popularly called the Father of Electricity, while Enrico Fermi is known as the Architect of the Nuclear Age.",
+     "facts": [
+      "F64",
+      "F65"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 65,
+    "covered": 65,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,

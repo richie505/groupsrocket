@@ -537,7 +537,14 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "Dolly was the first cloned mammal, Samrupa the first cloned buffalo, Ganga India’s first cloned cow, and Injaz the world’s first cloned camel."
+     "explanation": "Dolly was the first cloned mammal, Samrupa the first cloned buffalo, Ganga India’s first cloned cow, and Injaz the world’s first cloned camel.",
+     "facts": [
+      "F1",
+      "F4",
+      "F5",
+      "F7",
+      "F3"
+     ]
     },
     {
      "id": "biology-2-2",
@@ -551,7 +558,13 @@
       "Flavr Savr tomato was the first genetically engineered commercial food."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the place: Bollgard-I Bt cotton was the first biotech crop technology commercialised in India, not Taiwan."
+     "explanation": "The incorrect detail is the place: Bollgard-I Bt cotton was the first biotech crop technology commercialised in India, not Taiwan.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-2-3",
@@ -565,7 +578,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the double-helix work of Watson and Crick does not explain Miescher’s earlier discovery or isolation of DNA."
+     "explanation": "Both statements are true, but the double-helix work of Watson and Crick does not explain Miescher’s earlier discovery or isolation of DNA.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-2-4",
@@ -579,7 +598,10 @@
       "Triticale"
      ],
      "answer": 1,
-     "explanation": "OAA was the first organic product in the C₄ pathway."
+     "explanation": "OAA was the first organic product in the C₄ pathway.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "biology-2-5",
@@ -593,7 +615,142 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. The first heart transplant country was South Africa, so statement III is incorrect."
+     "explanation": "Statements I and II are correct. The first heart transplant country was South Africa, so statement III is incorrect.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-2-6",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dolly\n(b) Ganga\n(c) First transgenic glowing pig\n(d) Insulin\n\nList-II\n(i) Gir breed\n(ii) Sheep\n(iii) First recombinant human hormone\n(iv) Taiwan",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "Dolly was a sheep, Ganga’s breed was Gir, Taiwan produced the first transgenic glowing pig, and insulin was the first recombinant human hormone.",
+     "facts": [
+      "F2",
+      "F6",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "biology-2-7",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Arthur Kornberg\n(b) First DNA-fingerprinting crime case\n(c) S. pombe\n(d) Barbara McClintock\n\nList-II\n(i) England, 1983\n(ii) Transposons\n(iii) DNA polymerase I\n(iv) Yeast\n\nChoose the correct code.",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Arthur Kornberg discovered DNA polymerase I; the first DNA-fingerprinting crime case occurred in England in 1983; S. pombe is a yeast; and Barbara McClintock discovered transposons.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F21"
+     ]
+    },
+    {
+     "id": "biology-2-8",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nI. Gregor Mendel conducted pea hybridisation experiments.\nII. Triticale was the first man-made cereal.\nIII. Barney Clark was the recipient of an artificial heart.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct: Mendel conducted pea hybridisation experiments, Triticale was the first man-made cereal, and Barney Clark received an artificial heart.",
+     "facts": [
+      "F22",
+      "F23",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-2-9",
+     "format": "Assertion-Reason",
+     "keyword": "FIRST",
+     "question": "Assertion (A): hCG is the first placental hormone.\nReason (R): The embryonic heartbeat begins in the fourth to fifth week.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the beginning of the embryonic heartbeat does not explain why hCG is the first placental hormone.",
+     "facts": [
+      "F29",
+      "F30"
+     ]
+    },
+    {
+     "id": "biology-2-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: Kakinada in Andhra Pradesh had the first biodiesel plant in India.\nStatement B: Jaya was the first dwarf rice variety in India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The first biodiesel plant in India was at Kakinada in Andhra Pradesh, and Jaya was the first dwarf rice variety in India.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "biology-2-11",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who developed the first vascular-tissue-based classification?",
+     "options": [
+      "Arthur Kornberg",
+      "A. P. de Candolle",
+      "Gregor Mendel",
+      "Barbara McClintock"
+     ],
+     "answer": 1,
+     "explanation": "A. P. de Candolle developed the first vascular-tissue-based classification.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "biology-2-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: IgM is the primary antibody.\nStatement B: IgM is the first antibody produced during an infection.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: IgM is identified as the primary antibody and as the first antibody produced during an infection.",
+     "facts": [
+      "F28",
+      "F39"
+     ]
     }
    ]
   },
@@ -708,7 +865,10 @@
       "Mollusca"
      ],
      "answer": 1,
-     "explanation": "Arthropoda is identified in the notes as the largest phylum in the Animal Kingdom."
+     "explanation": "Arthropoda is identified in the notes as the largest phylum in the Animal Kingdom.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-4-2",
@@ -722,7 +882,14 @@
       "Viroids are the smallest infectious pathogens."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that the cell is the smallest infectious pathogen. The notes identify the cell as the smallest unit of life, while viroids are the smallest infectious pathogens."
+     "explanation": "The incorrect statement is that the cell is the smallest infectious pathogen. The notes identify the cell as the smallest unit of life, while viroids are the smallest infectious pathogens.",
+     "facts": [
+      "F19",
+      "F21",
+      "F22",
+      "F23",
+      "F20"
+     ]
     },
     {
      "id": "biology-4-3",
@@ -736,7 +903,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are given in the notes: the liver is the largest gland and the largest internal organ. However, the latter fact does not explain why it is the largest gland."
+     "explanation": "Both statements are given in the notes: the liver is the largest gland and the largest internal organ. However, the latter fact does not explain why it is the largest gland.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "biology-4-4",
@@ -750,7 +921,14 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Stapes—smallest bone, Femur—largest bone, Stapedius—smallest muscle, and Sartorius—longest muscle."
+     "explanation": "The correct pairs are: Stapes—smallest bone, Femur—largest bone, Stapedius—smallest muscle, and Sartorius—longest muscle.",
+     "facts": [
+      "F24",
+      "F26",
+      "F28",
+      "F29",
+      "F25"
+     ]
     },
     {
      "id": "biology-4-5",
@@ -764,7 +942,14 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the pancreas is the second-largest gland; the liver is the largest gland."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because the pancreas is the second-largest gland; the liver is the largest gland.",
+     "facts": [
+      "F32",
+      "F35",
+      "F37",
+      "F39",
+      "F38"
+     ]
     }
    ]
   },
@@ -4353,7 +4538,14 @@
       "Quinine"
      ],
      "answer": 0,
-     "explanation": "The notes associate AIDS with Zidovudine/AZT."
+     "explanation": "The notes associate AIDS with Zidovudine/AZT.",
+     "facts": [
+      "F13",
+      "F14",
+      "F11",
+      "F16",
+      "F1"
+     ]
     },
     {
      "id": "biology-20-2",
@@ -4367,7 +4559,15 @@
       "DDT is used against Anopheles for malaria prevention."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “treatment.” The notes state that the toxoid vaccine is used for the prevention of diphtheria."
+     "explanation": "The incorrect detail is “treatment.” The notes state that the toxoid vaccine is used for the prevention of diphtheria.",
+     "facts": [
+      "F8",
+      "F9",
+      "F11",
+      "F12",
+      "F16",
+      "F10"
+     ]
     },
     {
      "id": "biology-20-3",
@@ -4381,7 +4581,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes identify ergotism as being caused by ergot alkaloids and associate them with Claviceps purpurea."
+     "explanation": "Both statements are true. The notes identify ergotism as being caused by ergot alkaloids and associate them with Claviceps purpurea.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "biology-20-4",
@@ -4395,7 +4599,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Phenylketonuria—lack of phenylalanine hydroxylase; Down syndrome—non-disjunction; Turner syndrome—missing or partly missing X; Alkaptonuria—autosomal recessive."
+     "explanation": "The correct pairs are: Phenylketonuria—lack of phenylalanine hydroxylase; Down syndrome—non-disjunction; Turner syndrome—missing or partly missing X; Alkaptonuria—autosomal recessive.",
+     "facts": [
+      "F41",
+      "F57",
+      "F59",
+      "F48"
+     ]
     },
     {
      "id": "biology-20-5",
@@ -4409,9 +4619,307 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I, III and IV are correct. Turner syndrome is associated with a missing or partly missing X chromosome, not an extra X chromosome."
+     "explanation": "Statements I, III and IV are correct. Turner syndrome is associated with a missing or partly missing X chromosome, not an extra X chromosome.",
+     "facts": [
+      "F57",
+      "F59",
+      "F61",
+      "F63"
+     ]
+    },
+    {
+     "id": "biology-20-6",
+     "format": "Count-Based",
+     "keyword": "Drug → Disease Treatment",
+     "question": "How many of the following drugs are used in the treatment of malaria?\n1. Chloroquine\n2. Amodiaquine\n3. Atovaquone\n4. Proguanil\n5. Mefloquine\n6. Primaquine",
+     "options": [
+      "Only three",
+      "Only four",
+      "Only five",
+      "All six"
+     ],
+     "answer": 3,
+     "explanation": "All six listed drugs—chloroquine, amodiaquine, atovaquone, proguanil, mefloquine and primaquine—are used in the treatment of malaria.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+     ]
+    },
+    {
+     "id": "biology-20-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Antibiotics → Bacterial Diseases",
+     "question": "Consider the following statements:\nStatement A: Antibiotics are used to treat bacterial diseases.\nStatement B: Sulpha drugs are used to treat bacterial diseases.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: antibiotics and sulpha drugs are used to treat bacterial diseases.",
+     "facts": [
+      "F15",
+      "F27"
+     ]
+    },
+    {
+     "id": "biology-20-8",
+     "format": "Assertion-Reason",
+     "keyword": "Toxin-mediated Disease",
+     "question": "Assertion (A): Botulism is a toxin-mediated disease.\nReason (R): Clostridium botulinum is associated with botulinum toxin in botulism.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Botulism is toxin-mediated because it is associated with botulinum toxin, which is linked to Clostridium botulinum.",
+     "facts": [
+      "F17",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "biology-20-9",
+     "format": "List-Matching",
+     "keyword": "Radiotherapy → Isotope",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) P-32\n(b) Co-60\n(c) Radioactive isotopes used in diagnosis\n(d) Radioactive isotopes used in treatment\n\nList-II\n(i) Radiotherapy for leukaemia\n(ii) Radiotherapy for leukaemia\n(iii) Cancer diagnosis\n(iv) Cancer treatment",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "P-32 and Co-60 are used in radiotherapy for leukaemia, while radioactive isotopes are used in cancer diagnosis and treatment. Thus, the correct pairs are a-i, b-ii, c-iii and d-iv.",
+     "facts": [
+      "F18",
+      "F19",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "biology-20-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Chloramphenicol → Disease Treatment",
+     "question": "Consider the following statements:\nI. Chloramphenicol is used to treat meningitis.\nII. Chloramphenicol is used to treat plague.\nIII. Chloramphenicol is used to treat cholera.\nIV. Chloramphenicol is used to treat typhoid.",
+     "options": [
+      "I, II, III and IV",
+      "I, III and IV only",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Chloramphenicol is used to treat meningitis, plague, cholera and typhoid.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-20-11",
+     "format": "Direct Recall",
+     "keyword": "Radiotherapy → Cancer",
+     "question": "Co-60 radiotherapy is used in the treatment of which of the following?",
+     "options": [
+      "Cancer",
+      "Malaria",
+      "Plague",
+      "Meningitis"
+     ],
+     "answer": 0,
+     "explanation": "Co-60 radiotherapy is used in cancer treatment.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "biology-20-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Toxic Cause → Plant Compound",
+     "question": "Consider the following statements:\nI. Epidemic dropsy is caused by Argemone mexicana oil.\nII. Argemone mexicana oil contains sanguinarine.\nIII. Argemone mexicana oil contains dihydrosanguinarine.",
+     "options": [
+      "II and III only",
+      "I, II and III",
+      "I only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct: epidemic dropsy is caused by Argemone mexicana oil, which contains sanguinarine and dihydrosanguinarine.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "biology-20-13",
+     "format": "Direct Recall",
+     "keyword": "Toxicity → Causative Organism",
+     "question": "Aflatoxin toxicity is caused by which of the following pair of organisms?",
+     "options": [
+      "Aspergillus flavus and Aspergillus parasiticus",
+      "Clostridium botulinum and Amanita",
+      "Claviceps purpurea and Amanita",
+      "Aspergillus flavus and Claviceps purpurea"
+     ],
+     "answer": 0,
+     "explanation": "Aflatoxin toxicity is caused by Aspergillus flavus and Aspergillus parasiticus.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-20-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Toxin / toxic cause",
+     "question": "Consider the following statements:\nI. Aspergillus flavus produces aflatoxin.\nII. Aspergillus parasiticus produces aflatoxin.\nIII. Mushroom poisoning is caused by Amanita.\nIV. Amanita contains α-amanitin.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: Aspergillus flavus and Aspergillus parasiticus produce aflatoxin, while Amanita causes mushroom poisoning and contains α-amanitin.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40"
+     ]
+    },
+    {
+     "id": "biology-20-15",
+     "format": "Assertion-Reason",
+     "keyword": "Inheritance – X-linked recessive",
+     "question": "Assertion (A): Haemophilia is caused by a defect in a clotting-factor gene.\nReason (R): Haemophilia has X-linked recessive inheritance.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. A defect in a clotting-factor gene causes haemophilia, and its inheritance is X-linked recessive; however, the inheritance pattern does not explain the stated genetic defect.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "biology-20-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Genetic cause and inheritance",
+     "question": "Consider the following statements:\nStatement A: Phenylketonuria has autosomal recessive inheritance.\nStatement B: Albinism is caused by defective or absent alleles of tyrosinase and has recessive inheritance.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Phenylketonuria is autosomal recessive, while albinism is linked to defective or absent tyrosinase alleles and has recessive inheritance.",
+     "facts": [
+      "F42",
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "biology-20-17",
+     "format": "Direct Recall",
+     "keyword": "Gene mutation",
+     "question": "Alkaptonuria is caused by a mutation in which gene?",
+     "options": [
+      "Colour-sensing gene",
+      "HGD gene",
+      "Tyrosinase gene",
+      "Clotting-factor gene"
+     ],
+     "answer": 1,
+     "explanation": "Alkaptonuria is caused by an HGD gene mutation.",
+     "facts": [
+      "F47"
+     ]
+    },
+    {
+     "id": "biology-20-18",
+     "format": "List-Matching",
+     "keyword": "Genetic cause and inheritance",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Muscular dystrophy\n(b) Sickle-cell disease\n(c) Thalassemia\n(d) Colour blindness\n\nList-II\n(i) Abnormal gene affecting muscle proteins; X-linked recessive inheritance\n(ii) Gene mutation affecting haemoglobin; single-gene inherited disorder\n(iii) Defective haemoglobin production; inherited\n(iv) Defective colour-sensing genes; X-linked recessive inheritance",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are: muscular dystrophy—abnormal gene affecting muscle proteins and X-linked recessive inheritance; sickle-cell disease—gene mutation affecting haemoglobin and a single-gene inherited disorder; thalassemia—defective haemoglobin production and inherited; colour blindness—defective colour-sensing genes and X-linked recessive inheritance.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "biology-20-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Chromosomal abnormality",
+     "question": "Consider the following statements:\nI. Down syndrome is a chromosomal abnormality.\nII. Turner syndrome is a chromosomal abnormality.\nIII. Klinefelter syndrome is a chromosomal abnormality.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Down syndrome, Turner syndrome and Klinefelter syndrome are all classified as chromosomal abnormalities.",
+     "facts": [
+      "F58",
+      "F60",
+      "F62"
+     ]
+    },
+    {
+     "id": "biology-20-20",
+     "format": "Direct Recall",
+     "keyword": "Genetic disorder",
+     "question": "SCID, also known as Bubble Baby syndrome, is classified as which of the following?",
+     "options": [
+      "An X-linked recessive disorder",
+      "A chromosomal abnormality",
+      "A single-gene inherited disorder",
+      "A genetic disorder"
+     ],
+     "answer": 3,
+     "explanation": "SCID or Bubble Baby syndrome is identified as a genetic disorder.",
+     "facts": [
+      "F64"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 64,
+    "covered": 64,
+    "audited": true
+   }
   },
   "21": {
    "number": 21,
@@ -4525,7 +5033,11 @@
       "Endemic disease"
      ],
      "answer": 3,
-     "explanation": "An endemic disease is regularly found in a particular place or population."
+     "explanation": "An endemic disease is regularly found in a particular place or population.",
+     "facts": [
+      "F1",
+      "F4"
+     ]
     },
     {
      "id": "biology-22-2",
@@ -4539,7 +5051,13 @@
       "An epidemic is a rapid or large occurrence in a population within a short period."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year. The notes state that Ebola had simultaneous outbreaks in 1976, not 2011."
+     "explanation": "The incorrect detail is the year. The notes state that Ebola had simultaneous outbreaks in 1976, not 2011.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F7"
+     ]
     },
     {
      "id": "biology-22-3",
@@ -4553,7 +5071,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, identifying Rinderpest as an animal disease does not explain its eradication in 2011."
+     "explanation": "Both statements are true according to the notes. However, identifying Rinderpest as an animal disease does not explain its eradication in 2011.",
+     "facts": [
+      "F8",
+      "F9",
+      "F25"
+     ]
     },
     {
      "id": "biology-22-4",
@@ -4567,7 +5090,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Rice Blast–Pyricularia/Magnaporthe, Rice Khaira–Zinc deficiency, Potato Early blight–Alternaria solani, and Mustard White rust–Albugo candida."
+     "explanation": "The correct pairs are Rice Blast–Pyricularia/Magnaporthe, Rice Khaira–Zinc deficiency, Potato Early blight–Alternaria solani, and Mustard White rust–Albugo candida.",
+     "facts": [
+      "F28",
+      "F30",
+      "F37",
+      "F42"
+     ]
     },
     {
      "id": "biology-22-5",
@@ -4581,9 +5110,235 @@
       "I, II and IV only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and IV are correct. Potato Black heart is associated with oxygen deficiency, whereas Phytophthora infestans causes Potato Late blight."
+     "explanation": "Statements I, II and IV are correct. Potato Black heart is associated with oxygen deficiency, whereas Phytophthora infestans causes Potato Late blight.",
+     "facts": [
+      "F30",
+      "F33",
+      "F38",
+      "F40",
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "biology-22-6",
+     "format": "Direct Recall",
+     "keyword": "Disease classification",
+     "question": "Which of the following pairs is correctly matched?",
+     "options": [
+      "COVID-19—Pandemic; Nipah—simultaneous outbreaks in 1976",
+      "COVID-19—Epidemic; Nipah—outbreak in Kerala",
+      "COVID-19—Pandemic; Nipah—outbreak in Kerala",
+      "COVID-19—Pandemic; Nipah—eradicated in 2011"
+     ],
+     "answer": 2,
+     "explanation": "COVID-19 is identified as a pandemic, while Nipah had an outbreak in Kerala.",
+     "facts": [
+      "F5",
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-22-7",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disease → Host and Pathogen",
+     "question": "Consider the following statements:\nI. Ranikhet disease affects chickens and is caused by a virus.\nII. Bird flu affects birds and poultry, and its pathogen is H5N1.\nIII. Swine flu is associated with pigs, and its pathogen is H1N1.\nIV. Foot and mouth disease affects cattle, sheep, goats and pigs, and is caused by Aphthovirus.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements correctly state the animal hosts and pathogens associated with the respective diseases.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-22-8",
+     "format": "List-Matching",
+     "keyword": "Animal Disease → Pathogen",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Anthrax affecting livestock and humans\n(b) Black quarter affecting cattle, sheep and goats\n(c) Cowpox affecting cattle\n(d) Rinderpest affecting cattle and buffalo\n\nList-II\n(i) Morbillivirus\n(ii) Bacillus anthracis\n(iii) Clostridium chauvoei\n(iv) Cowpox virus\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "Anthrax is caused by Bacillus anthracis; black quarter by Clostridium chauvoei; cowpox by cowpox virus; and rinderpest by Morbillivirus.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-22-9",
+     "format": "List-Matching",
+     "keyword": "Crop Disease → Cause",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Brown leaf spot of rice\n(b) Rice tungro\n(c) Black rust of wheat\n(d) Loose smut of wheat\n\nList-II\n(i) Ustilago nuda tritici\n(ii) RTSV and RTBV viruses\n(iii) Puccinia graminis tritici\n(iv) Sphaerulina oryzina\n\nSelect the correct answer using the code given below.",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Brown leaf spot is caused by Sphaerulina oryzina; rice tungro by RTSV and RTBV viruses; black rust by Puccinia graminis tritici; and loose smut by Ustilago nuda tritici.",
+     "facts": [
+      "F27",
+      "F29",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "biology-22-10",
+     "format": "Direct Recall",
+     "keyword": "Crop Disease → Cause",
+     "question": "The cause of ear cockle of wheat is:",
+     "options": [
+      "Colletotrichum falcatum",
+      "A nematode",
+      "Pyrilla perpusilla",
+      "Sphaerulina oryzina"
+     ],
+     "answer": 1,
+     "explanation": "Ear cockle of wheat is caused by a nematode.",
+     "facts": [
+      "F34"
+     ]
+    },
+    {
+     "id": "biology-22-11",
+     "format": "Assertion-Reason",
+     "keyword": "Crop Disease → Cause",
+     "question": "Assertion (A): Red rot of sugarcane is caused by Colletotrichum falcatum.\nReason (R): The leafhopper problem of sugarcane is caused by Pyrilla perpusilla.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the cause of the leafhopper problem does not explain the cause of red rot.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-22-12",
+     "format": "List-Matching",
+     "keyword": "Plant disease → Cause",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Potato wart disease\n(b) Tikka disease of groundnut\n(c) Green ear of bajra\n(d) Ergot of bajra\n\nList-II\n(i) Claviceps purpurea\n(ii) Synchytrium endobioticum\n(iii) Cercospora spp.\n(iv) Sclerospora graminicola",
+     "options": [
+      "a-iii, b-ii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 3,
+     "explanation": "Potato wart disease is caused by Synchytrium endobioticum, groundnut tikka by Cercospora spp., bajra green ear by Sclerospora graminicola, and bajra ergot by Claviceps purpurea.",
+     "facts": [
+      "F39",
+      "F41",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "biology-22-13",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Plant disease → Cause",
+     "question": "Consider the following statements:\n\nI. Wilt of arhar or pigeon pea is caused by Fusarium oxysporum.\nII. Citrus canker is caused by Xanthomonas axonopodis.\nIII. Black rot of cabbage is caused by Xanthomonas campestris.\nIV. Potato wilt is caused by Pseudomonas solanacearum.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, II and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: the listed causes are respectively Fusarium oxysporum, Xanthomonas axonopodis, Xanthomonas campestris and Pseudomonas solanacearum.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48"
+     ]
+    },
+    {
+     "id": "biology-22-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Deficiency disease → Cause",
+     "question": "Consider the following statements:\nStatement A: Citrus mottle, little leaf or frenching is caused by zinc deficiency.\nStatement B: White bud of maize is caused by zinc deficiency.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Zinc deficiency causes citrus mottle, little leaf or frenching, as well as white bud of maize.",
+     "facts": [
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "biology-22-15",
+     "format": "Direct Recall",
+     "keyword": "Cause",
+     "question": "The internal cork disease of apple is caused by deficiency of which nutrient?",
+     "options": [
+      "Oxygen",
+      "Zinc",
+      "Boron",
+      "Molybdenum"
+     ],
+     "answer": 2,
+     "explanation": "Internal cork of apple is caused by boron deficiency.",
+     "facts": [
+      "F51"
+     ]
+    },
+    {
+     "id": "biology-22-16",
+     "format": "Direct Recall",
+     "keyword": "Deficiency Disease",
+     "question": "Whiptail disease of cabbage is caused by the deficiency of which nutrient?",
+     "options": [
+      "Oxygen",
+      "Molybdenum",
+      "Boron",
+      "Zinc"
+     ],
+     "answer": 1,
+     "explanation": "Cabbage whiptail is caused by molybdenum deficiency. Zinc deficiency causes rice khaira and citrus mottle/little leaf/frenching, while boron deficiency causes internal cork of apple.",
+     "facts": [
+      "F52"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 54,
+    "covered": 54,
+    "audited": true
+   }
   },
   "23": {
    "number": 23,
@@ -4611,7 +5366,10 @@
       "Aspergillus flavus"
      ],
      "answer": 1,
-     "explanation": "Claviceps purpurea is listed as the fungal agent causing ergot/ergotism."
+     "explanation": "Claviceps purpurea is listed as the fungal agent causing ergot/ergotism.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "biology-23-2",
@@ -4625,7 +5383,14 @@
       "SARS-CoV-2 causes COVID-19."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the disease associated with H5N1. H5N1 causes bird flu, whereas H1N1 causes swine flu."
+     "explanation": "The incorrect detail is the disease associated with H5N1. H5N1 causes bird flu, whereas H1N1 causes swine flu.",
+     "facts": [
+      "F17",
+      "F23",
+      "F27",
+      "F28",
+      "F18"
+     ]
     },
     {
      "id": "biology-23-3",
@@ -4639,7 +5404,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, tuberculosis caused by Mycobacterium tuberculosis does not explain why Clostridium tetani causes tetanus."
+     "explanation": "Both statements are true according to the notes. However, tuberculosis caused by Mycobacterium tuberculosis does not explain why Clostridium tetani causes tetanus.",
+     "facts": [
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "biology-23-4",
@@ -4653,7 +5422,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are: Colletotrichum falcatum–Sugarcane red rot, Puccinia graminis tritici–Wheat black rust, Alternaria solani–Potato early blight, and Cercospora spp.–Groundnut Tikka."
+     "explanation": "The correct pairs are: Colletotrichum falcatum–Sugarcane red rot, Puccinia graminis tritici–Wheat black rust, Alternaria solani–Potato early blight, and Cercospora spp.–Groundnut Tikka.",
+     "facts": [
+      "F8",
+      "F9",
+      "F11",
+      "F14"
+     ]
     },
     {
      "id": "biology-23-5",
@@ -4667,7 +5442,14 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because Zika virus causes Zika, while yellow fever is caused by yellow fever virus."
+     "explanation": "Statements I, II and III are correct according to the notes. Statement IV is incorrect because Zika virus causes Zika, while yellow fever is caused by yellow fever virus.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F24",
+      "F25"
+     ]
     }
    ]
   },
@@ -5127,7 +5909,12 @@
       "Heart"
      ],
      "answer": 3,
-     "explanation": "The heart is located between the lungs in the mediastinum and pumps blood."
+     "explanation": "The heart is located between the lungs in the mediastinum and pumps blood.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "biology-29-2",
@@ -5141,7 +5928,21 @@
       "The parathyroid is located on the dorsal side of the thyroid and secretes PTH."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the location and function of the pituitary gland. The pituitary is in the brain and is the master gland, whereas the thymus, located behind the lungs, is associated with T-cell development."
+     "explanation": "The incorrect statement alters the location and function of the pituitary gland. The pituitary is in the brain and is the master gland, whereas the thymus, located behind the lungs, is associated with T-cell development.",
+     "facts": [
+      "F39",
+      "F40",
+      "F41",
+      "F42",
+      "F43",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F54",
+      "F50"
+     ]
     },
     {
      "id": "biology-29-3",
@@ -5155,7 +5956,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Pancreatic juice contains lipase, and lipase carries out fat digestion."
+     "explanation": "Both statements are true. Pancreatic juice contains lipase, and lipase carries out fat digestion.",
+     "facts": [
+      "F83",
+      "F88",
+      "F89"
+     ]
     },
     {
      "id": "biology-29-4",
@@ -5169,7 +5975,19 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Liver–iv, Kidneys–ii, Large intestine–i, and Bone marrow–iii."
+     "explanation": "The correct pairs are: Liver–iv, Kidneys–ii, Large intestine–i, and Bone marrow–iii.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F27",
+      "F29",
+      "F30",
+      "F36",
+      "F37",
+      "F38",
+      "F78"
+     ]
     },
     {
      "id": "biology-29-5",
@@ -5183,7 +6001,314 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements II, III and IV are correct according to the notes. Statement I is incorrect because bile has no digestive enzyme; its main action is emulsification of fats."
+     "explanation": "Statements II, III and IV are correct according to the notes. Statement I is incorrect because bile has no digestive enzyme; its main action is emulsification of fats.",
+     "facts": [
+      "F68",
+      "F72",
+      "F73",
+      "F74",
+      "F76",
+      "F77",
+      "F79",
+      "F80"
+     ]
+    },
+    {
+     "id": "biology-29-6",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. The brain is located in the cranial cavity.\nII. The brain controls coordination and thinking.\nIII. The brain controls balance and vital functions.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. The brain is located in the cranial cavity and controls coordination, thinking, balance and vital functions.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-29-7",
+     "format": "List-Matching",
+     "keyword": "Terms",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Lungs\n b. Liver\n c. Spleen\n\nList-II\n i. Thoracic cavity; respiration and gas exchange\n ii. Abdominal cavity; largest gland\n iii. Abdominal cavity; blood filtering, removal of old red blood cells and immune role\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-i, b-ii, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-i, b-iii, c-ii",
+      "a-iii, b-i, c-ii"
+     ],
+     "answer": 0,
+     "explanation": "The lungs are in the thoracic cavity and perform respiration and gas exchange. The liver is in the abdominal cavity and is the largest gland, while the spleen is in the abdominal cavity and filters blood, removes old red blood cells and has an immune role.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "biology-29-8",
+     "format": "Assertion-Reason",
+     "keyword": "Terms",
+     "question": "Assertion (A): The pancreas performs both digestive and endocrine functions.\nReason (R): The pancreas is located in the abdominal cavity.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the location of the pancreas in the abdominal cavity does not explain its digestive and endocrine functions.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "biology-29-9",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Which one of the following correctly describes the stomach?",
+     "options": [
+      "It is located in the thoracic cavity, performs respiration and gas exchange",
+      "It is located in the upper abdomen, performs digestion and produces gastric enzymes",
+      "It is located in the abdominal cavity, filters blood and removes old red blood cells",
+      "It is located in the abdominal cavity, performs absorption and produces intestinal juice"
+     ],
+     "answer": 1,
+     "explanation": "The stomach is located in the upper abdomen, performs digestion and produces gastric enzymes.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "biology-29-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nStatement A: The small intestine is located in the abdominal cavity and performs major digestion and absorption.\nStatement B: The large intestine is located in the abdominal cavity.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The small intestine is located in the abdominal cavity and performs major digestion and absorption; the large intestine is also located in the abdominal cavity.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "biology-29-11",
+     "format": "Direct Recall",
+     "keyword": "Terms",
+     "question": "Each kidney is located on either side of the:",
+     "options": [
+      "Vertebral column",
+      "Upper abdomen",
+      "Thoracic cavity",
+      "Cranial cavity"
+     ],
+     "answer": 0,
+     "explanation": "Each kidney is located on either side of the vertebral column.",
+     "facts": [
+      "F28"
+     ]
+    },
+    {
+     "id": "biology-29-12",
+     "format": "List-Matching",
+     "keyword": "Organ/Gland → Location or Function",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Bone marrow\n(b) Parathyroid gland\n(c) Pituitary gland\n(d) Thymus\n\nList-II\n(i) Regulates calcium\n(ii) Located inside bones\n(iii) Produces tropic hormones\n(iv) Located behind the sternum and between the lungs",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Bone marrow is located inside bones; the parathyroid regulates calcium; the pituitary produces tropic hormones; and the thymus is behind the sternum and between the lungs.",
+     "facts": [
+      "F35",
+      "F44",
+      "F51",
+      "F52",
+      "F53"
+     ]
+    },
+    {
+     "id": "biology-29-13",
+     "format": "Assertion-Reason",
+     "keyword": "Gland → Secretion and Function",
+     "question": "Assertion (A): The pineal gland is located in the brain and epithalamus.\nReason (R): The pineal gland produces melatonin, which regulates the biological clock.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the pineal gland is located in the brain and epithalamus, and it produces melatonin, which regulates the biological clock. However, melatonin production does not explain the gland’s location.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57"
+     ]
+    },
+    {
+     "id": "biology-29-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Reproductive glands → Location and Secretions",
+     "question": "Consider the following statements:\n\nI. The testes are located in the scrotum.\nII. The testes produce sperm and testosterone.\nIII. The ovaries are located in the pelvic or abdominal cavity.\nIV. The ovaries produce ova, estrogen and progesterone.",
+     "options": [
+      "I and II only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The testes are in the scrotum and produce sperm and testosterone, while the ovaries are in the pelvic or abdominal cavity and produce ova, estrogen and progesterone.",
+     "facts": [
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F64"
+     ]
+    },
+    {
+     "id": "biology-29-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Saliva → Enzyme and Function",
+     "question": "Consider the following statements:\nStatement A: The mouth or salivary glands secrete saliva.\nStatement B: Saliva contains salivary amylase, also called ptyalin.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Saliva is secreted by the mouth or salivary glands, and it contains salivary amylase, also called ptyalin.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67"
+     ]
+    },
+    {
+     "id": "biology-29-16",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Stomach → Secretions and Digestion",
+     "question": "Consider the following statements:\n\nI. The stomach secretes gastric juice.\nII. Gastric juice contains pepsin.\nIII. Pepsin digests proteins.\nIV. The stomach secretes hydrochloric acid.",
+     "options": [
+      "I, II and III only",
+      "I, II, III and IV",
+      "I, II and IV only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. The stomach secretes gastric juice containing pepsin, which digests proteins, and it also secretes hydrochloric acid.",
+     "facts": [
+      "F69",
+      "F70",
+      "F71",
+      "F75"
+     ]
+    },
+    {
+     "id": "biology-29-17",
+     "format": "List-Matching",
+     "keyword": "Enzymes – Main action",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Trypsin\n(b) Pancreatic amylase\n(c) Pancreatic juice\n\nList-II\n(i) Contains amylase\n(ii) Digests proteins\n(iii) Digests carbohydrates",
+     "options": [
+      "a-i, b-iii, c-ii",
+      "a-ii, b-i, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 2,
+     "explanation": "Trypsin digests proteins, pancreatic amylase digests carbohydrates, and pancreatic juice contains amylase.",
+     "facts": [
+      "F85",
+      "F86",
+      "F87"
+     ]
+    },
+    {
+     "id": "biology-29-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Small intestine – Digestive secretion",
+     "question": "Consider the following statements:\n\nI. The small intestine secretes intestinal juice.\nII. Intestinal juice contains various enzymes.\nIII. Intestinal juice performs final digestion.",
+     "options": [
+      "I, II and III",
+      "I and III only",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "All three statements are correct: the small intestine secretes intestinal juice, which contains various enzymes and performs final digestion.",
+     "facts": [
+      "F90",
+      "F91",
+      "F92"
+     ]
+    },
+    {
+     "id": "biology-29-19",
+     "format": "Assertion-Reason",
+     "keyword": "Enzyme – Lactase",
+     "question": "Assertion (A): The intestine secretes lactase.\nReason (R): Lactase digests lactose.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. The intestine secretes lactase, and lactase digests lactose; however, the digestive action of lactase does not explain why the intestine secretes it.",
+     "facts": [
+      "F93",
+      "F94"
+     ]
+    },
+    {
+     "id": "biology-29-20",
+     "format": "Assertion-Reason",
+     "keyword": "Organ/Gland → Function",
+     "question": "Assertion (A): The gallbladder stores bile.\nReason (R): The gallbladder releases bile into the duodenum.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The gallbladder stores bile and releases it into the duodenum. Both statements are true, but bile release does not explain the storage function.",
+     "facts": [
+      "F81",
+      "F82"
+     ]
     }
    ]
   },
@@ -5299,7 +6424,13 @@
       "Noradrenaline"
      ],
      "answer": 2,
-     "explanation": "Adrenaline is secreted by the adrenal medulla and performs the fight-or-flight function."
+     "explanation": "Adrenaline is secreted by the adrenal medulla and performs the fight-or-flight function.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-31-2",
@@ -5313,7 +6444,23 @@
       "Excess thyroxine is associated with Graves'/exophthalmia and Plummer disease."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the effect of growth hormone hyposecretion. According to the notes, GH hyposecretion causes growth retardation or dwarfism, whereas gigantism in children and acromegaly in adults result from hypersecretion."
+     "explanation": "The incorrect statement alters the effect of growth hormone hyposecretion. According to the notes, GH hyposecretion causes growth retardation or dwarfism, whereas gigantism in children and acromegaly in adults result from hypersecretion.",
+     "facts": [
+      "F56",
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F67",
+      "F68",
+      "F69",
+      "F70",
+      "F76",
+      "F77",
+      "F20",
+      "F47"
+     ]
     },
     {
      "id": "biology-31-3",
@@ -5327,7 +6474,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, identifying the thyroid as the source does not explain how calcitonin decreases blood calcium or promotes bone formation."
+     "explanation": "Both statements are true according to the notes. However, identifying the thyroid as the source does not explain how calcitonin decreases blood calcium or promotes bone formation.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-31-4",
@@ -5341,7 +6493,16 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are FSH–follicle growth and spermatogenesis, LH–ovulation and testosterone production, Prolactin–milk production, and Oxytocin–uterine contraction and milk ejection."
+     "explanation": "The correct pairs are FSH–follicle growth and spermatogenesis, LH–ovulation and testosterone production, Prolactin–milk production, and Oxytocin–uterine contraction and milk ejection.",
+     "facts": [
+      "F26",
+      "F27",
+      "F29",
+      "F30",
+      "F32",
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "biology-31-5",
@@ -5355,7 +6516,16 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "All three statements are supported by the notes: ADH is linked with water reabsorption, melatonin with circadian rhythm and sleep, and thymosin with T-cell maturation."
+     "explanation": "All three statements are supported by the notes: ADH is linked with water reabsorption, melatonin with circadian rhythm and sleep, and thymosin with T-cell maturation.",
+     "facts": [
+      "F34",
+      "F35",
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
     }
    ]
   },
@@ -5989,7 +7159,8 @@
      "answer": 0,
      "explanation": "A GMO is an organism whose genetic makeup has been altered through genetic engineering.",
      "facts": [
-      "F11"
+      "F11",
+      "F9"
      ]
     },
     {
@@ -6007,7 +7178,8 @@
      "explanation": "Both statements are true according to the notes. However, the definition of recombinant DNA as combined genetic material does not itself explain its application in transferring microbial genes to higher organisms.",
      "facts": [
       "F19",
-      "F21"
+      "F21",
+      "F20"
      ]
     },
     {
@@ -6033,7 +7205,8 @@
       "F7",
       "F16",
       "F17",
-      "F18"
+      "F18",
+      "F10"
      ]
     },
     {
@@ -6052,7 +7225,8 @@
      "facts": [
       "F24",
       "F25",
-      "F27"
+      "F27",
+      "F26"
      ]
     },
     {
@@ -6072,10 +7246,129 @@
       "F28",
       "F30",
       "F31",
-      "F40"
+      "F40",
+      "F29",
+      "F42"
+     ]
+    },
+    {
+     "id": "biology-39-6",
+     "format": "List-Matching",
+     "keyword": "Genetics / Gene cloning / Drug discovery",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Genetic library\n(b) Genetic diagnostics\n(c) Biochips\n(d) Gene cloning\n\nList-II\n(i) Drug discovery\n(ii) Amplification or copying of a desired gene\n(iii) Creation of a collection of genetic material\n(iv) Identification of genetic diseases",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 1,
+     "explanation": "Genetic libraries involve the creation of genetic material collections, genetic diagnostics identify genetic diseases, biochips are used in drug discovery, and gene cloning amplifies or copies a desired gene.",
+     "facts": [
+      "F8",
+      "F13",
+      "F15",
+      "F23"
+     ]
+    },
+    {
+     "id": "biology-39-7",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Insulin",
+     "question": "Consider the following statements:\nStatement A: Human insulin can be produced using genetically engineered bacteria.\nStatement B: Recombinant bacteria can produce human insulin.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: genetically engineered or recombinant bacteria can be used to produce human insulin.",
+     "facts": [
+      "F12",
+      "F22"
+     ]
+    },
+    {
+     "id": "biology-39-8",
+     "format": "Direct Recall",
+     "keyword": "Diagnosis",
+     "question": "Genetic diagnostics are used for which of the following purposes?",
+     "options": [
+      "Establishing biological parentage",
+      "Identification of genetic diseases",
+      "Conservation of endangered living beings",
+      "Drug discovery through biochips"
+     ],
+     "answer": 1,
+     "explanation": "Genetic diagnostics are used to identify genetic diseases.",
+     "facts": [
+      "F14"
+     ]
+    },
+    {
+     "id": "biology-39-9",
+     "format": "Assertion-Reason",
+     "keyword": "DNA Fingerprinting → APPLICATION",
+     "question": "Assertion (A): DNA evidence is useful in rape and assault cases.\nReason (R): DNA fingerprinting is used for the conservation of endangered living beings.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true applications of DNA evidence or DNA fingerprinting, but conservation of endangered living beings does not explain the use of DNA evidence in rape and assault cases.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
+    },
+    {
+     "id": "biology-39-10",
+     "format": "Count-Based",
+     "keyword": "DNA Fingerprinting → Biological samples",
+     "question": "How many of the following are biological samples used in DNA fingerprinting?\n\n1. Blood\n2. Saliva\n3. Skin\n4. Bone\n5. Hair follicles\n6. Sperm\n7. Genetic diagnostics\n8. Biochips",
+     "options": [
+      "Only five",
+      "Only six",
+      "Only seven",
+      "All eight"
+     ],
+     "answer": 1,
+     "explanation": "Blood, saliva, skin, bone, hair follicles and sperm are biological samples used in DNA fingerprinting. Genetic diagnostics and biochips are not biological samples.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "biology-39-11",
+     "format": "Direct Recall",
+     "keyword": "DNA Fingerprinting → Inheritance",
+     "question": "DNA polymorphisms are inherited from",
+     "options": [
+      "Biochips to genetic diagnostics",
+      "Parents to offspring",
+      "Bacteria to higher organisms",
+      "A desired gene to a plasmid"
+     ],
+     "answer": 1,
+     "explanation": "DNA polymorphisms are inherited from parents to offspring.",
+     "facts": [
+      "F41"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 42,
+    "covered": 42,
+    "audited": true
+   }
   },
   "40": {
    "number": 40,
@@ -6553,8 +7846,148 @@
       "F42",
       "F20"
      ]
+    },
+    {
+     "id": "biology-42-6",
+     "format": "List-Matching",
+     "keyword": "Plasmid",
+     "question": "Match List-I with List-II:\n\nList-I\n\na. Common form of a plasmid\nb. Advantage conferred by some natural plasmid genes\nc. Experimental plasmid\n d. Biotechnology functions of plasmids\n\nList-II\n\ni. Vector\n ii. Circular, double-stranded DNA\n iii. Clone, transfer and manipulate genes\n iv. Antibiotic resistance",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "A common plasmid is circular, double-stranded DNA; natural plasmid genes may confer antibiotic resistance; an experimental plasmid is a vector; and plasmids are used to clone, transfer and manipulate genes.",
+     "facts": [
+      "F10",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "biology-42-7",
+     "format": "Assertion-Reason",
+     "keyword": "Recombinant plasmid",
+     "question": "Assertion (A): A plasmid combined with a gene forms a recombinant plasmid.\nReason (R): The entry of a recombinant plasmid into bacteria is called transformation.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Combining a gene with a plasmid produces a recombinant plasmid, whereas its entry into bacteria is termed transformation; the reason does not explain the assertion.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "biology-42-8",
+     "format": "List-Matching",
+     "keyword": "Full form",
+     "question": "Match the components in List-I with their meanings in List-II:\n\nList-I\n\na. p in pBR322\nb. BR in pBR322\nc. PCR\n\nList-II\n\ni. Polymerase Chain Reaction\n ii. Bolivar and Rodriguez\n iii. Plasmid",
+     "options": [
+      "a-i, b-ii, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-ii, c-i",
+      "a-iii, b-i, c-ii"
+     ],
+     "answer": 2,
+     "explanation": "The letter p in pBR322 denotes plasmid, BR refers to Bolivar and Rodriguez, and PCR stands for Polymerase Chain Reaction.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25"
+     ]
+    },
+    {
+     "id": "biology-42-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "PCR – Applications",
+     "question": "Consider the following statements:\n\nI. PCR is used for molecular and genetic analysis.\nII. PCR is used for detection and diagnostic testing.\nIII. PCR is used in DNA-based research.\nIV. PCR supports analysis of small quantities of DNA.",
+     "options": [
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements describe applications of PCR: molecular and genetic analysis, detection and diagnostic testing, DNA-based research, and analysis of small quantities of DNA.",
+     "facts": [
+      "F28",
+      "F29",
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "biology-42-10",
+     "format": "List-Matching",
+     "keyword": "Stem cells",
+     "question": "Match List-I with List-II:\n\nList-I\n\na. Cells used in the described gene-transfer approach\nb. Stem-cell laboratory procedure\nc. Genetic-engineering step\n d. Fate of modified stem cells\n\nList-II\n\ni. Desired gene inserted into stem cells\n ii. Embryonic stem cells\n iii. Isolated and grown in the laboratory\n iv. Returned to an organism or embryonic system",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The approach uses embryonic stem cells. Stem cells can be isolated and grown in the laboratory, a desired gene is inserted into them, and the modified cells are returned to an organism or embryonic system.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-42-11",
+     "format": "Direct Recall",
+     "keyword": "Stem cells – Applications",
+     "question": "Stem cells are used in which of the following applications mentioned in biotechnology?",
+     "options": [
+      "Detection and diagnostic testing only",
+      "Joining DNA fragments and sealing DNA linkages",
+      "Copying a complete organism only",
+      "Gene transfer and biotechnology"
+     ],
+     "answer": 3,
+     "explanation": "The stated application of stem cells is gene transfer and biotechnology.",
+     "facts": [
+      "F37"
+     ]
+    },
+    {
+     "id": "biology-42-12",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Cloning technology",
+     "question": "Consider the following statements:\nStatement A: Plasmid cloning involves inserting a gene into a plasmid vector.\nStatement B: Cloning technology is both a genetic technique and a biotechnological technique.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Plasmid cloning inserts a gene into a plasmid vector. Cloning technology is described as both a genetic technique and a biotechnological technique.",
+     "facts": [
+      "F40",
+      "F43",
+      "F44"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 44,
+    "covered": 44,
+    "audited": true
+   }
   },
   "43": {
    "number": 43,
