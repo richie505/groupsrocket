@@ -9059,6 +9059,160 @@
       "F53",
       "F54"
      ]
+    },
+    {
+     "id": "indian-geography-24-20",
+     "format": "List-Matching",
+     "keyword": "Soils; Crop → Location; Association",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Cotton\n(b) Groundnut\n(c) Sugarcane\n(d) Jute\n\nList-II\n(i) Brazil as origin\n(ii) Ganges Delta\n(iii) Black soil highly suitable\n(iv) Red rot",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Cotton is associated with black soil, Brazil is the origin of groundnut, sugarcane is associated with red rot, and jute is grown in the Ganges Delta.",
+     "facts": [
+      "F55",
+      "F60",
+      "F64",
+      "F68"
+     ]
+    },
+    {
+     "id": "indian-geography-24-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops; Crop → Location; Soils",
+     "question": "Consider the following statements:\n\nI. Cotton is grown in Maharashtra, Gujarat, Telangana, Karnataka and Andhra Pradesh.\nII. Black soil is associated with cotton.\nIII. Groundnut requires a warm climate.\nIV. Groundnut is grown in India.",
+     "options": [
+      "I and II only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct: the listed five states are cotton-growing regions; black soil is associated with cotton; groundnut requires a warm climate and is grown in India.",
+     "facts": [
+      "F56",
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "indian-geography-24-22",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops; Climate",
+     "question": "Assertion (A): Sugarcane requires a warm and humid climate.\nReason (R): Sugarcane requires a long growing season.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are correct requirements of sugarcane. However, the need for a long growing season does not explain the crop’s requirement for a warm and humid climate.",
+     "facts": [
+      "F61",
+      "F62"
+     ]
+    },
+    {
+     "id": "indian-geography-24-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Sugarcane → Location; Major Production",
+     "question": "Consider the following statements:\nStatement A: Uttar Pradesh is a major location for sugarcane.\nStatement B: Uttar Pradesh is a major sugarcane producer.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Uttar Pradesh is identified both as a major sugarcane location and as a major sugarcane producer.",
+     "facts": [
+      "F63",
+      "F65"
+     ]
+    },
+    {
+     "id": "indian-geography-24-24",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Climate; Water Resources; Crop → Location",
+     "question": "Consider the following statements about jute:\n\nI. Jute requires a warm and humid climate.\nII. Jute requires abundant water.\nIII. Jute is grown in the Ganges Delta.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "Jute requires warm and humid conditions, abundant water, and is grown in the Ganges Delta.",
+     "facts": [
+      "F66",
+      "F67",
+      "F68"
+     ]
+    },
+    {
+     "id": "indian-geography-24-25",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops; Climate",
+     "question": "Assertion (A): Soybean requires a warm growing season.\nReason (R): Soybean is a major oilseed crop.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true characteristics of soybean. Its classification as a major oilseed crop does not explain its requirement for a warm growing season.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "indian-geography-24-26",
+     "format": "Direct Recall",
+     "keyword": "Major Crops; Crop → Location; Climate",
+     "question": "Which one of the following combinations is correct?",
+     "options": [
+      "Red chilli — hot and dry conditions — Rajasthan",
+      "Red chilli — warm climate — Andhra Pradesh",
+      "Red chilli — cool season — northern India",
+      "Red chilli — warm and humid climate — Ganges Delta"
+     ],
+     "answer": 1,
+     "explanation": "Red chilli requires a warm climate, and Andhra Pradesh is an important chilli-growing region.",
+     "facts": [
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "indian-geography-24-27",
+     "format": "List-Matching",
+     "keyword": "Climate; Crop → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gram\n(b) Lentil\n(c) Pea\n(d) Lathyrus\n\nList-II\n(i) Cool season; northern and central India\n(ii) Cool season; northern India\n(iii) Cool and relatively dry conditions; northern and central India\n(iv) Cool and dry season",
+     "options": [
+      "a-iv, b-iii, c-i, d-ii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-i, c-ii, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "Gram requires cool and relatively dry conditions and is grown in northern and central India. Lentil requires a cool season and is grown in northern and central India; pea requires a cool season and is grown in northern India; Lathyrus requires a cool and dry season.",
+     "facts": [
+      "F75",
+      "F76",
+      "F79",
+      "F80",
+      "F83",
+      "F84",
+      "F87"
+     ]
     }
    ]
   },
@@ -9981,7 +10135,8 @@
      "facts": [
       "F35",
       "F36",
-      "F37"
+      "F37",
+      "F49"
      ]
     },
     {
@@ -10019,7 +10174,8 @@
       "F15",
       "F39",
       "F42",
-      "F43"
+      "F43",
+      "F75"
      ]
     },
     {
@@ -10037,7 +10193,8 @@
      "explanation": "Anaimudi is the highest peak associated with the Anamalai Hills, with a height of 2,695 m.",
      "facts": [
       "F47",
-      "F48"
+      "F48",
+      "F49"
      ]
     },
     {
@@ -10149,7 +10306,8 @@
       "F13",
       "F14",
       "F16",
-      "F69"
+      "F69",
+      "F71"
      ]
     },
     {
@@ -10170,7 +10328,8 @@
       "F38",
       "F41",
       "F73",
-      "F74"
+      "F74",
+      "F40"
      ]
     },
     {
@@ -10316,7 +10475,8 @@
      "explanation": "Both statements are true. The notes identify the Vindhyan Range as lying north of the Narmada valley and as part of the Central Indian highlands, but the latter does not explain its north-of-Narmada location.",
      "facts": [
       "F62",
-      "F63"
+      "F63",
+      "F61"
      ]
     },
     {
@@ -10334,7 +10494,8 @@
      "explanation": "The Mukandara Hills in southeastern Rajasthan are an extension of the Vindhyan Range.",
      "facts": [
       "F64",
-      "F66"
+      "F66",
+      "F65"
      ]
     },
     {
@@ -10393,8 +10554,102 @@
      "facts": [
       "F55"
      ]
+    },
+    {
+     "id": "indian-geography-28-29",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Location",
+     "question": "Consider the following statements:\nStatement A: The Anamalai Hills are located in Tamil Nadu and Kerala.\nStatement B: The Anamalai Hills are also called Anaimalai Hills.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Anamalai Hills are located in Tamil and Kerala and are also referred to as the Anaimalai Hills.",
+     "facts": [
+      "F7",
+      "F45"
+     ]
+    },
+    {
+     "id": "indian-geography-28-30",
+     "format": "Direct Recall",
+     "keyword": "Hill/Range → Associated Range",
+     "question": "The Mahadeo Range is associated with which of the following ranges?",
+     "options": [
+      "Maikal Range",
+      "Mukandara Range",
+      "Vindhyan Range",
+      "Satpura Range"
+     ],
+     "answer": 0,
+     "explanation": "The Mahadeo Range is associated with the Maikal Range.",
+     "facts": [
+      "F56"
+     ]
+    },
+    {
+     "id": "indian-geography-28-31",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Hills → Hill System",
+     "question": "Consider the following statements:\nStatement A: The Khasi Hills belong to the northeastern hill system.\nStatement B: The Garo Hills belong to the northeastern hill system.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The Khasi Hills and the Garo Hills are identified with the northeastern hill system.",
+     "facts": [
+      "F67",
+      "F70"
+     ]
+    },
+    {
+     "id": "indian-geography-28-32",
+     "format": "Direct Recall",
+     "keyword": "Hills → Hill System",
+     "question": "The Dalma Hills belong to which hill system?",
+     "options": [
+      "Eastern Himalayan hill system",
+      "Northeastern hill system",
+      "Eastern Ghats hill system",
+      "Eastern Indian hill system"
+     ],
+     "answer": 3,
+     "explanation": "The Dalma Hills belong to the Eastern Indian hill system.",
+     "facts": [
+      "F77"
+     ]
+    },
+    {
+     "id": "indian-geography-28-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Range → Region and Significance",
+     "question": "Consider the following statements about the Satpura Range:\nI. It is located in central India.\nII. It is a major Central Indian range.\nIII. It is an important physiographic range.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. The Satpura Range is located in central India, is a major Central Indian range, and is an important physiographic range.",
+     "facts": [
+      "F57",
+      "F59",
+      "F60"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 80,
+    "covered": 80,
+    "audited": true
+   }
   },
   "29": {
    "number": 29,
@@ -10422,7 +10677,10 @@
       "Near Chennai"
      ],
      "answer": 2,
-     "explanation": "Koyali Refinery is located at Koyali, near Vadodara, in Gujarat."
+     "explanation": "Koyali Refinery is located at Koyali, near Vadodara, in Gujarat.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-29-2",
@@ -10436,7 +10694,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Koyali–Koyali near Vadodara, Jamnagar–Reliance Industries, Vadinar–Nayara Energy and Digboi–Digboi, Tinsukia region."
+     "explanation": "The correct pairs are Koyali–Koyali near Vadodara, Jamnagar–Reliance Industries, Vadinar–Nayara Energy and Digboi–Digboi, Tinsukia region.",
+     "facts": [
+      "F14",
+      "F17",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-geography-29-3",
@@ -10450,7 +10714,12 @@
       "Jamnagar Refinery is in Gujarat."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement places Jamnagar Refinery in Assam. Jamnagar Refinery is located in Gujarat."
+     "explanation": "The incorrect statement places Jamnagar Refinery in Assam. Jamnagar Refinery is located in Gujarat.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-29-4",
@@ -10464,7 +10733,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Jamnagar Refinery is associated with Reliance Industries and is identified as the world's largest refinery complex. The company association does not itself explain the stated superlative."
+     "explanation": "Both statements are true: Jamnagar Refinery is associated with Reliance Industries and is identified as the world's largest refinery complex. The company association does not itself explain the stated superlative.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-geography-29-5",
@@ -10478,7 +10751,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Digboi Refinery is associated with the historical oil industry. Its commissioning year is 1901, not 1975."
+     "explanation": "Digboi Refinery is associated with the historical oil industry. Its commissioning year is 1901, not 1975.",
+     "facts": [
+      "F22",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-29-6",
@@ -10492,7 +10769,10 @@
       "Golaghat district"
      ],
      "answer": 2,
-     "explanation": "Noonmati Refinery is located at Guwahati in Assam."
+     "explanation": "Noonmati Refinery is located at Guwahati in Assam.",
+     "facts": [
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-29-7",
@@ -10506,7 +10786,12 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Noonmati Refinery is associated with IOCL, and Numaligarh Refinery is in Golaghat district. Numaligarh Refinery is associated with Numaligarh Refinery Ltd., not BPCL."
+     "explanation": "Noonmati Refinery is associated with IOCL, and Numaligarh Refinery is in Golaghat district. Numaligarh Refinery is associated with Numaligarh Refinery Ltd., not BPCL.",
+     "facts": [
+      "F26",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "indian-geography-29-8",
@@ -10520,7 +10805,13 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "Haldia is in West Bengal, Barauni in Bihar, Mathura in Uttar Pradesh and Kochi in Kerala."
+     "explanation": "Haldia is in West Bengal, Barauni in Bihar, Mathura in Uttar Pradesh and Kochi in Kerala.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-29-9",
@@ -10534,7 +10825,10 @@
       "Uttar Pradesh"
      ],
      "answer": 0,
-     "explanation": "Barauni Refinery is located at Barauni in Bihar. It is not located in Assam."
+     "explanation": "Barauni Refinery is located at Barauni in Bihar. It is not located in Assam.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-29-10",
@@ -10548,7 +10842,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Kochi Refinery is located at Kochi in Kerala and is associated with BPCL. Its location does not explain its company association."
+     "explanation": "Both statements are true: Kochi Refinery is located at Kochi in Kerala and is associated with BPCL. Its location does not explain its company association.",
+     "facts": [
+      "F9",
+      "F41"
+     ]
     },
     {
      "id": "indian-geography-29-11",
@@ -10562,7 +10860,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. Mathura Refinery is located at Mathura in Uttar Pradesh and was commissioned in 1982."
+     "explanation": "Both statements are correct. Mathura Refinery is located at Mathura in Uttar Pradesh and was commissioned in 1982.",
+     "facts": [
+      "F10",
+      "F39"
+     ]
     },
     {
      "id": "indian-geography-29-12",
@@ -10576,7 +10878,10 @@
       "Chennai"
      ],
      "answer": 3,
-     "explanation": "Manali Refinery is located at Chennai in Tamil Nadu."
+     "explanation": "Manali Refinery is located at Chennai in Tamil Nadu.",
+     "facts": [
+      "F42"
+     ]
     },
     {
      "id": "indian-geography-29-13",
@@ -10590,7 +10895,11 @@
       "a-i, b-i"
      ],
      "answer": 1,
-     "explanation": "Tatipaka Refinery is associated with ONGC, while Visakhapatnam Refinery is associated with HPCL."
+     "explanation": "Tatipaka Refinery is associated with ONGC, while Visakhapatnam Refinery is associated with HPCL.",
+     "facts": [
+      "F45",
+      "F48"
+     ]
     },
     {
      "id": "indian-geography-29-14",
@@ -10604,7 +10913,14 @@
       "Only two"
      ],
      "answer": 2,
-     "explanation": "All five listed refineries—Koyali, Noonmati, Haldia, Barauni and Mathura—are associated with IOCL."
+     "explanation": "All five listed refineries—Koyali, Noonmati, Haldia, Barauni and Mathura—are associated with IOCL.",
+     "facts": [
+      "F15",
+      "F26",
+      "F32",
+      "F35",
+      "F38"
+     ]
     },
     {
      "id": "indian-geography-29-15",
@@ -10618,7 +10934,11 @@
       "Digboi Refinery"
      ],
      "answer": 3,
-     "explanation": "Digboi Refinery is identified as the oldest refinery in India and was commissioned in 1901."
+     "explanation": "Digboi Refinery is identified as the oldest refinery in India and was commissioned in 1901.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-29-16",
@@ -10632,7 +10952,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Tatipaka Refinery is an ONGC mini refinery located at Tatipaka, Konaseema. Its location does not explain its classification and association."
+     "explanation": "Both statements are true: Tatipaka Refinery is an ONGC mini refinery located at Tatipaka, Konaseema. Its location does not explain its classification and association.",
+     "facts": [
+      "F44",
+      "F45",
+      "F46"
+     ]
     },
     {
      "id": "indian-geography-29-17",
@@ -10646,7 +10971,11 @@
       "Titagarh; Paper"
      ],
      "answer": 0,
-     "explanation": "Bhilai Steel Plant is located at Bhilai in Chhattisgarh and is associated with the iron and steel industry."
+     "explanation": "Bhilai Steel Plant is located at Bhilai in Chhattisgarh and is associated with the iron and steel industry.",
+     "facts": [
+      "F51",
+      "F52"
+     ]
     },
     {
      "id": "indian-geography-29-18",
@@ -10660,7 +10989,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Titagarh in West Bengal is associated with the paper industry. The statement placing it in Chhattisgarh is false."
+     "explanation": "Titagarh in West Bengal is associated with the paper industry. The statement placing it in Chhattisgarh is false.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
     },
     {
      "id": "indian-geography-29-19",
@@ -10674,7 +11007,10 @@
       "Vadinar"
      ],
      "answer": 3,
-     "explanation": "Vadinar Refinery is located at Vadinar in Gujarat."
+     "explanation": "Vadinar Refinery is located at Vadinar in Gujarat.",
+     "facts": [
+      "F19"
+     ]
     },
     {
      "id": "indian-geography-29-20",
@@ -10688,7 +11024,12 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct: Haldia Refinery was commissioned in 1975, Manali Refinery is associated with CPCL, and Vadinar Refinery is associated with Nayara Energy."
+     "explanation": "All three statements are correct: Haldia Refinery was commissioned in 1975, Manali Refinery is associated with CPCL, and Vadinar Refinery is associated with Nayara Energy.",
+     "facts": [
+      "F20",
+      "F33",
+      "F43"
+     ]
     }
    ]
   },
@@ -13475,7 +13816,14 @@
       "Meghalaya, Assam, Nagaland and Manipur"
      ],
      "answer": 1,
-     "explanation": "The Deccan Plateau extends across Maharashtra, Karnataka, Telangana, Andhra Pradesh and Tamil Nadu."
+     "explanation": "The Deccan Plateau extends across Maharashtra, Karnataka, Telangana, Andhra Pradesh and Tamil Nadu.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-geography-40-2",
@@ -13489,7 +13837,11 @@
       "Malwa Plateau"
      ],
      "answer": 0,
-     "explanation": "The Deccan Plateau has extensive basaltic/lava formations and constitutes a major part of the Peninsular Plateau."
+     "explanation": "The Deccan Plateau has extensive basaltic/lava formations and constitutes a major part of the Peninsular Plateau.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-40-3",
@@ -13503,7 +13855,16 @@
       "a-ii, b-iii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are Deccan Plateau–Peninsular India, Malwa Plateau–Madhya Pradesh and Rajasthan, Chota Nagpur Plateau–Jharkhand mainly, and Meghalaya Plateau–Meghalaya."
+     "explanation": "The correct pairs are Deccan Plateau–Peninsular India, Malwa Plateau–Madhya Pradesh and Rajasthan, Chota Nagpur Plateau–Jharkhand mainly, and Meghalaya Plateau–Meghalaya.",
+     "facts": [
+      "F1",
+      "F9",
+      "F10",
+      "F11",
+      "F18",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-geography-40-4",
@@ -13517,7 +13878,16 @@
       "The Bundelkhand region lies to the east of the Malwa Plateau."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the direction of the extension. The Malwa Plateau extends from Bundelkhand to the east, not to the west."
+     "explanation": "The incorrect statement alters the direction of the extension. The Malwa Plateau extends from Bundelkhand to the east, not to the west.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F56"
+     ]
     },
     {
      "id": "indian-geography-40-5",
@@ -13531,7 +13901,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Its position between the Aravalli and Vindhya ranges explains its association with them."
+     "explanation": "Both statements are true. Its position between the Aravalli and Vindhya ranges explains its association with them.",
+     "facts": [
+      "F12",
+      "F14",
+      "F15",
+      "F17"
+     ]
     },
     {
      "id": "indian-geography-40-6",
@@ -13545,7 +13921,16 @@
       "II and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. The maximum part of the Chota Nagpur Plateau lies in Jharkhand, not Odisha."
+     "explanation": "Statements I, II and III are correct. The maximum part of the Chota Nagpur Plateau lies in Jharkhand, not Odisha.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-40-7",
@@ -13559,7 +13944,11 @@
       "Southern Peninsular plateau system around Coimbatore"
      ],
      "answer": 0,
-     "explanation": "The Chota Nagpur Plateau is described as a mineral-rich Patland region."
+     "explanation": "The Chota Nagpur Plateau is described as a mineral-rich Patland region.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-40-8",
@@ -13573,7 +13962,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. The Meghalaya Plateau is a northeastern extension of the Peninsular Plateau and includes the Garo, Khasi and Jaintia Hills."
+     "explanation": "Both statements are correct. The Meghalaya Plateau is a northeastern extension of the Peninsular Plateau and includes the Garo, Khasi and Jaintia Hills.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-40-9",
@@ -13587,7 +13982,14 @@
       "Odisha, Chhattisgarh, Telangana, Maharashtra and Andhra Pradesh"
      ],
      "answer": 3,
-     "explanation": "Dandakaranya covers parts of Odisha, Chhattisgarh, Telangana, Maharashtra and Andhra Pradesh."
+     "explanation": "Dandakaranya covers parts of Odisha, Chhattisgarh, Telangana, Maharashtra and Andhra Pradesh.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-geography-40-10",
@@ -13601,7 +14003,14 @@
       "Only two"
      ],
      "answer": 2,
-     "explanation": "All five listed states—Odisha, Chhattisgarh, Telangana, Maharashtra and Andhra Pradesh—are associated with Dandakaranya."
+     "explanation": "All five listed states—Odisha, Chhattisgarh, Telangana, Maharashtra and Andhra Pradesh—are associated with Dandakaranya.",
+     "facts": [
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-geography-40-11",
@@ -13615,7 +14024,18 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "Dandakaranya is approximately 89,078 km², Malwa covers Madhya Pradesh and Rajasthan, the Deccan spans the five listed states, and Coimbatore Plateau is around Coimbatore."
+     "explanation": "Dandakaranya is approximately 89,078 km², Malwa covers Madhya Pradesh and Rajasthan, the Deccan spans the five listed states, and Coimbatore Plateau is around Coimbatore.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F10",
+      "F11",
+      "F38",
+      "F71"
+     ]
     },
     {
      "id": "indian-geography-40-12",
@@ -13629,7 +14049,14 @@
       "I and IV only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Ranchi Plateau is in Jharkhand, not Meghalaya."
+     "explanation": "Statements I, II and III are correct. Ranchi Plateau is in Jharkhand, not Meghalaya.",
+     "facts": [
+      "F40",
+      "F41",
+      "F47",
+      "F49",
+      "F46"
+     ]
     },
     {
      "id": "indian-geography-40-13",
@@ -13643,7 +14070,21 @@
       "a-ii, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "Ranchi, Hazaribagh and Palamu are in the Chota Nagpur region; Hazaribagh is an important Patland component, while Bundelkhand is mainly in Madhya Pradesh and Uttar Pradesh and lies east of Malwa."
+     "explanation": "Ranchi, Hazaribagh and Palamu are in the Chota Nagpur region; Hazaribagh is an important Patland component, while Bundelkhand is mainly in Madhya Pradesh and Uttar Pradesh and lies east of Malwa.",
+     "facts": [
+      "F41",
+      "F47",
+      "F49",
+      "F53",
+      "F54",
+      "F43",
+      "F45",
+      "F46",
+      "F50",
+      "F51",
+      "F52",
+      "F56"
+     ]
     },
     {
      "id": "indian-geography-40-14",
@@ -13657,7 +14098,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Bundelkhand’s position east of Malwa accounts for its formation of Malwa’s eastern border."
+     "explanation": "Both statements are true. Bundelkhand’s position east of Malwa accounts for its formation of Malwa’s eastern border.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56"
+     ]
     },
     {
      "id": "indian-geography-40-15",
@@ -13671,7 +14117,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The Bhander Plateau is the southern part, not the northern part, of the Vindhyan Scarpland."
+     "explanation": "Statement A is true. The Bhander Plateau is the southern part, not the northern part, of the Vindhyan Scarpland.",
+     "facts": [
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "indian-geography-40-16",
@@ -13685,7 +14135,10 @@
       "Satpura Mountains"
      ],
      "answer": 1,
-     "explanation": "The Bhander Plateau is associated with the Vindhya Mountains."
+     "explanation": "The Bhander Plateau is associated with the Vindhya Mountains.",
+     "facts": [
+      "F60"
+     ]
     },
     {
      "id": "indian-geography-40-17",
@@ -13699,7 +14152,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Its location in the Vindhyan–Satpura complex and its central Indian highland association explain its importance in that region."
+     "explanation": "Both statements are true. Its location in the Vindhyan–Satpura complex and its central Indian highland association explain its importance in that region.",
+     "facts": [
+      "F61",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-geography-40-18",
@@ -13713,7 +14172,15 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. Karnataka Plateau is in interior Peninsular India; Malnad/Malenadu is mountainous and densely forested western Karnataka; and Coimbatore Plateau lies around Coimbatore in Tamil Nadu."
+     "explanation": "All four statements are correct. Karnataka Plateau is in interior Peninsular India; Malnad/Malenadu is mountainous and densely forested western Karnataka; and Coimbatore Plateau lies around Coimbatore in Tamil Nadu.",
+     "facts": [
+      "F66",
+      "F67",
+      "F68",
+      "F69",
+      "F70",
+      "F71"
+     ]
     },
     {
      "id": "indian-geography-40-19",
@@ -13727,7 +14194,13 @@
       "Amarkantak in central India"
      ],
      "answer": 1,
-     "explanation": "The Coimbatore Plateau is located around Coimbatore in Tamil Nadu and forms part of the southern Peninsular plateau system."
+     "explanation": "The Coimbatore Plateau is located around Coimbatore in Tamil Nadu and forms part of the southern Peninsular plateau system.",
+     "facts": [
+      "F70",
+      "F71",
+      "F73",
+      "F72"
+     ]
     }
    ]
   },
@@ -16385,7 +16858,12 @@
       "Western Andhra Pradesh and Rajasthan"
      ],
      "answer": 1,
-     "explanation": "Tropical Evergreen forests occur in the Western Ghats, Northeast India, and the Andaman & Nicobar Islands."
+     "explanation": "Tropical Evergreen forests occur in the Western Ghats, Northeast India, and the Andaman & Nicobar Islands.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-50-2",
@@ -16399,7 +16877,10 @@
       "70–100 cm"
      ],
      "answer": 1,
-     "explanation": "Tropical Moist Deciduous forests are associated with rainfall of 100–200 cm."
+     "explanation": "Tropical Moist Deciduous forests are associated with rainfall of 100–200 cm.",
+     "facts": [
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-50-3",
@@ -16413,7 +16894,17 @@
       "Tropical Dry Deciduous forests are a major forest type of Central India."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement alters the location. The Sundarbans are associated with Littoral/Tidal forests, whereas Tropical Dry Deciduous forests extend from the Central Gangetic Plains towards Southern India."
+     "explanation": "The incorrect statement alters the location. The Sundarbans are associated with Littoral/Tidal forests, whereas Tropical Dry Deciduous forests extend from the Central Gangetic Plains towards Southern India.",
+     "facts": [
+      "F9",
+      "F12",
+      "F13",
+      "F38",
+      "F40",
+      "F6",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "indian-geography-50-4",
@@ -16427,7 +16918,10 @@
       "More than 200 cm"
      ],
      "answer": 0,
-     "explanation": "Tropical Thorn forests occur in areas receiving less than 70 cm of rainfall."
+     "explanation": "Tropical Thorn forests occur in areas receiving less than 70 cm of rainfall.",
+     "facts": [
+      "F41"
+     ]
     },
     {
      "id": "indian-geography-50-5",
@@ -16441,7 +16935,25 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Littoral/Tidal–Sundarbans, Alpine–Himalayas around 3,000–4,900 m, Coniferous–Himalayan high-altitude regions, and Teak–Madhya Pradesh, Chhattisgarh and Odisha."
+     "explanation": "The correct pairs are Littoral/Tidal–Sundarbans, Alpine–Himalayas around 3,000–4,900 m, Coniferous–Himalayan high-altitude regions, and Teak–Madhya Pradesh, Chhattisgarh and Odisha.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F66",
+      "F67",
+      "F68",
+      "F70"
+     ]
     },
     {
      "id": "indian-geography-50-6",
@@ -16455,7 +16967,13 @@
       "3,000–4,900 m"
      ],
      "answer": 3,
-     "explanation": "Alpine forests occur in the Himalayas around 3,000–4,900 m."
+     "explanation": "Alpine forests occur in the Himalayas around 3,000–4,900 m.",
+     "facts": [
+      "F14",
+      "F15",
+      "F58",
+      "F59"
+     ]
     },
     {
      "id": "indian-geography-50-7",
@@ -16469,7 +16987,23 @@
       "a-ii, b-i, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "Tropical Evergreen forests are dense and multi-layered; Littoral/Tidal forests have mangroves and Sundari; Coniferous forests include deodar, pine and fir; Tropical Thorn forests are open and stunted with long roots and thorns."
+     "explanation": "Tropical Evergreen forests are dense and multi-layered; Littoral/Tidal forests have mangroves and Sundari; Coniferous forests include deodar, pine and fir; Tropical Thorn forests are open and stunted with long roots and thorns.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F52",
+      "F53",
+      "F55",
+      "F56",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-geography-50-8",
@@ -16483,7 +17017,16 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct locations listed for Tropical Moist Deciduous and Tropical Thorn forests respectively."
+     "explanation": "Both statements are correct locations listed for Tropical Moist Deciduous and Tropical Thorn forests respectively.",
+     "facts": [
+      "F7",
+      "F10",
+      "F11",
+      "F33",
+      "F42",
+      "F43",
+      "F46"
+     ]
     },
     {
      "id": "indian-geography-50-9",
@@ -16497,7 +17040,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the coastal/tidal environment explains the association of Littoral/Tidal forests with the Sundarbans."
+     "explanation": "Both statements are true, and the coastal/tidal environment explains the association of Littoral/Tidal forests with the Sundarbans.",
+     "facts": [
+      "F12",
+      "F13",
+      "F54"
+     ]
     },
     {
      "id": "indian-geography-50-10",
@@ -16511,7 +17059,14 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "All three statements are correct locations given for the respective forest types."
+     "explanation": "All three statements are correct locations given for the respective forest types.",
+     "facts": [
+      "F8",
+      "F23",
+      "F24",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "indian-geography-50-11",
@@ -16525,7 +17080,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four—Western Ghats, Northeast India, Andaman & Nicobar, and Lakshadweep—are listed among the locations of Tropical Evergreen forests."
+     "explanation": "All four—Western Ghats, Northeast India, Andaman & Nicobar, and Lakshadweep—are listed among the locations of Tropical Evergreen forests.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F25"
+     ]
     },
     {
      "id": "indian-geography-50-12",
@@ -16539,7 +17100,10 @@
       "Tropical Dry Deciduous"
      ],
      "answer": 1,
-     "explanation": "The Western slopes of the Western Ghats are a major distribution area of Tropical Evergreen forests."
+     "explanation": "The Western slopes of the Western Ghats are a major distribution area of Tropical Evergreen forests.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-50-13",
@@ -16553,7 +17117,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct rainfall pairs are Evergreen–more than 200 cm, Moist Deciduous–100–200 cm, Dry Deciduous–70–100 cm, and Thorn–less than 70 cm."
+     "explanation": "The correct rainfall pairs are Evergreen–more than 200 cm, Moist Deciduous–100–200 cm, Dry Deciduous–70–100 cm, and Thorn–less than 70 cm.",
+     "facts": [
+      "F21",
+      "F30",
+      "F35",
+      "F41"
+     ]
     },
     {
      "id": "indian-geography-50-14",
@@ -16567,7 +17137,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the geographical distribution of the teak belt does not explain the fact that teak is the dominant or important species."
+     "explanation": "Both statements are true, but the geographical distribution of the teak belt does not explain the fact that teak is the dominant or important species.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
     },
     {
      "id": "indian-geography-50-15",
@@ -16581,7 +17155,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Khair is identified as Acacia catechu, and Sundari is characteristic of Littoral/Tidal forests."
+     "explanation": "Khair is identified as Acacia catechu, and Sundari is characteristic of Littoral/Tidal forests.",
+     "facts": [
+      "F56",
+      "F73"
+     ]
     },
     {
      "id": "indian-geography-50-16",
@@ -16595,7 +17173,16 @@
       "I, II and III only"
      ],
      "answer": 2,
-     "explanation": "All four statements correctly describe the features listed for Tropical Thorn, Tropical Moist Deciduous and Tropical Evergreen forests."
+     "explanation": "All four statements correctly describe the features listed for Tropical Thorn, Tropical Moist Deciduous and Tropical Evergreen forests.",
+     "facts": [
+      "F27",
+      "F28",
+      "F34",
+      "F48",
+      "F49",
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "indian-geography-50-17",
@@ -16609,7 +17196,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four locations are listed for Tropical Thorn forests."
+     "explanation": "All four locations are listed for Tropical Thorn forests.",
+     "facts": [
+      "F10",
+      "F11",
+      "F42",
+      "F43",
+      "F45",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "indian-geography-50-18",
@@ -16623,7 +17219,12 @@
       "Dense evergreen conditions"
      ],
      "answer": 2,
-     "explanation": "Khair/Catechu forests are associated with dry deciduous conditions and occur in dry deciduous regions."
+     "explanation": "Khair/Catechu forests are associated with dry deciduous conditions and occur in dry deciduous regions.",
+     "facts": [
+      "F71",
+      "F72",
+      "F74"
+     ]
     },
     {
      "id": "indian-geography-50-19",
@@ -16637,7 +17238,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the forest distribution and rainfall classifications, but the rainfall range does not directly explain the specific listing of the Terai region in the table."
+     "explanation": "Both statements are true according to the forest distribution and rainfall classifications, but the rainfall range does not directly explain the specific listing of the Terai region in the table.",
+     "facts": [
+      "F7",
+      "F30",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-50-20",
@@ -16651,7 +17257,10 @@
       "Dense, multi-layered evergreen vegetation"
      ],
      "answer": 1,
-     "explanation": "Tropical Moist Deciduous trees shed their leaves during the dry season."
+     "explanation": "Tropical Moist Deciduous trees shed their leaves during the dry season.",
+     "facts": [
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-50-21",
@@ -16665,7 +17274,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The cold and high-altitude conditions of Coniferous forests explain their association with species such as deodar, pine and fir."
+     "explanation": "Both statements are true. The cold and high-altitude conditions of Coniferous forests explain their association with species such as deodar, pine and fir.",
+     "facts": [
+      "F60",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-geography-50-22",
@@ -16679,7 +17294,8 @@
       "Western Andhra Pradesh"
      ],
      "answer": 0,
-     "explanation": "The notes associate Alpine forests with Arunachal Pradesh."
+     "explanation": "The notes associate Alpine forests with Arunachal Pradesh.",
+     "facts": []
     },
     {
      "id": "indian-geography-50-23",
@@ -16693,9 +17309,74 @@
       "Central India"
      ],
      "answer": 3,
-     "explanation": "Tropical Dry Deciduous forests are identified as a major forest type of Central India."
+     "explanation": "Tropical Dry Deciduous forests are identified as a major forest type of Central India.",
+     "facts": [
+      "F40"
+     ]
+    },
+    {
+     "id": "indian-geography-50-24",
+     "format": "List-Matching",
+     "keyword": "Forest type → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tropical Moist Deciduous forests\n(b) Coniferous forests\n(c) Alpine forests\n(d) Tropical Evergreen forests\n\nList-II\n(i) Eastern slopes of the Western Ghats\n(ii) Himachal Pradesh\n(iii) High-altitude climate\n(iv) Wetter parts and coastal areas",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Tropical Moist Deciduous forests are associated with the eastern/eastern-slope side of the Western Ghats. Coniferous forests are located in Himachal Pradesh, Alpine forests occur under a high-altitude climate, and Tropical Evergreen forests are also found in wetter parts and coastal areas.",
+     "facts": [
+      "F4",
+      "F31",
+      "F16",
+      "F57",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-geography-50-25",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Forest type → Location",
+     "question": "Consider the following statements:\nStatement A: Tropical Moist Deciduous forests are located in Northeast India.\nStatement B: Tropical Moist Deciduous forests are located in northeastern peninsular India.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Tropical Moist Deciduous forests are listed in Northeast India as well as northeastern peninsular India.",
+     "facts": [
+      "F5",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-geography-50-26",
+     "format": "Assertion-Reason",
+     "keyword": "Forest type → Characteristic/Climate",
+     "question": "Assertion (A): Tropical Dry Deciduous forests form a transition zone toward thorn forests in drier areas.\nReason (R): Teak forests generally occur in tropical monsoonal conditions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the Assertion and the Reason are true. Tropical Dry Deciduous forests form a transition zone toward thorn forests in drier areas, while Teak forests generally occur in tropical monsoonal conditions; the Reason does not explain the Assertion.",
+     "facts": [
+      "F39",
+      "F65"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 74,
+    "covered": 74,
+    "audited": true
+   }
   },
   "51": {
    "number": 51,

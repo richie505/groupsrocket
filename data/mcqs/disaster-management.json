@@ -10109,7 +10109,25 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 2,
-     "explanation": "Physical vulnerability concerns physical assets; social vulnerability is based on social characteristics. Environmental vulnerability includes deforestation and loss of mangroves, while systemic/institutional vulnerability includes weak governance and inadequate preparedness."
+     "explanation": "Physical vulnerability concerns physical assets; social vulnerability is based on social characteristics. Environmental vulnerability includes deforestation and loss of mangroves, while systemic/institutional vulnerability includes weak governance and inadequate preparedness.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "disaster-management-32-2",
@@ -10123,7 +10141,28 @@
       "Social vulnerability is based on age, gender, caste, disability and social status."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement assigns weak governance, poor coordination and lack of preparedness to environmental vulnerability. These are examples of systemic/institutional vulnerability; environmental vulnerability includes issues such as deforestation and loss of mangroves."
+     "explanation": "The incorrect statement assigns weak governance, poor coordination and lack of preparedness to environmental vulnerability. These are examples of systemic/institutional vulnerability; environmental vulnerability includes issues such as deforestation and loss of mangroves.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "disaster-management-32-3",
@@ -10137,7 +10176,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are supported by the notes. Disability Inclusive DRR is an NDMA focus area, reflected in the NDMA Guidelines on Disability Inclusive Disaster Risk Reduction issued in 2019."
+     "explanation": "Both statements are supported by the notes. Disability Inclusive DRR is an NDMA focus area, reflected in the NDMA Guidelines on Disability Inclusive Disaster Risk Reduction issued in 2019.",
+     "facts": [
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "disaster-management-32-4",
@@ -10151,7 +10194,10 @@
       "Minimum Standards of Relief"
      ],
      "answer": 1,
-     "explanation": "The notes identify School Safety as an NDMA focus area with special focus on children."
+     "explanation": "The notes identify School Safety as an NDMA focus area with special focus on children.",
+     "facts": [
+      "F54"
+     ]
     },
     {
      "id": "disaster-management-32-5",
@@ -10165,7 +10211,28 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are correct. Migrants, refugees and remote tribal communities are placed under the 'Others' category, not under socio-economic vulnerability."
+     "explanation": "Statements I, II and IV are correct. Migrants, refugees and remote tribal communities are placed under the 'Others' category, not under socio-economic vulnerability.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38",
+      "F40",
+      "F41",
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F51",
+      "F32"
+     ]
     },
     {
      "id": "disaster-management-32-6",
@@ -10179,7 +10246,14 @@
       "None"
      ],
      "answer": 2,
-     "explanation": "All five listed groups—women, children, elderly people, Scheduled Castes and Scheduled Tribes, and persons with disabilities—are identified as socially vulnerable."
+     "explanation": "All five listed groups—women, children, elderly people, Scheduled Castes and Scheduled Tribes, and persons with disabilities—are identified as socially vulnerable.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "disaster-management-32-7",
@@ -10193,7 +10267,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both children, especially unaccompanied children, and elderly people are identified as age-based vulnerable groups in India."
+     "explanation": "Both children, especially unaccompanied children, and elderly people are identified as age-based vulnerable groups in India.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
     },
     {
      "id": "disaster-management-32-8",
@@ -10207,7 +10285,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Gender Mainstreaming promotes women’s leadership and participation, while the PM’s 10-Point Agenda also includes this participation; the Reason does not explain the classification under Gender Mainstreaming."
+     "explanation": "Both statements are true. Gender Mainstreaming promotes women’s leadership and participation, while the PM’s 10-Point Agenda also includes this participation; the Reason does not explain the classification under Gender Mainstreaming.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57"
+     ]
     },
     {
      "id": "disaster-management-32-9",
@@ -10221,7 +10304,10 @@
       "Women’s leadership under Gender Mainstreaming"
      ],
      "answer": 1,
-     "explanation": "Community-Based Disaster Risk Reduction emphasises including the most vulnerable in planning."
+     "explanation": "Community-Based Disaster Risk Reduction emphasises including the most vulnerable in planning.",
+     "facts": [
+      "F59"
+     ]
     },
     {
      "id": "disaster-management-32-10",
@@ -10235,9 +10321,71 @@
       "Minimum Standards of Relief"
      ],
      "answer": 3,
-     "explanation": "Minimum Standards of Relief include special provisions for vulnerable groups."
+     "explanation": "Minimum Standards of Relief include special provisions for vulnerable groups.",
+     "facts": [
+      "F58"
+     ]
+    },
+    {
+     "id": "disaster-management-32-11",
+     "format": "List-Matching",
+     "keyword": "Vulnerability",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Weak houses in earthquake zones\n b. Settlements in floodplains\n c. Poverty\n d. Lack of livelihood options\n\nList-II\n i. Physical Vulnerability\n ii. Social Vulnerability\n iii. Economic Vulnerability\n iv. Environmental Vulnerability",
+     "options": [
+      "a-ii, b-iv, c-iii, d-i",
+      "a-iii, b-iii, c-i, d-i",
+      "a-i, b-iii, c-iv, d-ii",
+      "a-i, b-i, c-iii, d-iii"
+     ],
+     "answer": 3,
+     "explanation": "Weak houses in earthquake zones and settlements in floodplains are examples of physical vulnerability. Poverty and lack of livelihood options are included under economic vulnerability.",
+     "facts": [
+      "F4",
+      "F5",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "disaster-management-32-12",
+     "format": "Direct Recall",
+     "keyword": "Persons with Disabilities (PwD)",
+     "question": "What abbreviation is used for Persons with Disabilities?",
+     "options": [
+      "NDMA",
+      "DRR",
+      "PwD",
+      "SC/ST"
+     ],
+     "answer": 2,
+     "explanation": "Persons with Disabilities are abbreviated as PwD.",
+     "facts": [
+      "F39"
+     ]
+    },
+    {
+     "id": "disaster-management-32-13",
+     "format": "Direct Recall",
+     "keyword": "Economic Vulnerability",
+     "question": "Which of the following is included in economic vulnerability?",
+     "options": [
+      "Loss of mangroves increasing cyclone impact",
+      "Age, gender and caste",
+      "Weak governance",
+      "Low income"
+     ],
+     "answer": 3,
+     "explanation": "Economic vulnerability includes low income. Weak governance relates to systemic or institutional vulnerability, while loss of mangroves reflects environmental vulnerability.",
+     "facts": [
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 59,
+    "covered": 59,
+    "audited": true
+   }
   },
   "33": {
    "number": 33,

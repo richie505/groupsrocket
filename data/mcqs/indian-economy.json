@@ -11342,7 +11342,10 @@
       "Tertiary Sector"
      ],
      "answer": 0,
-     "explanation": "The Primary Sector directly uses or extracts natural resources."
+     "explanation": "The Primary Sector directly uses or extracts natural resources.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-57-2",
@@ -11356,7 +11359,13 @@
       "Manufacturing"
      ],
      "answer": 3,
-     "explanation": "Manufacturing converts raw materials or natural products into finished or other forms and belongs to the Secondary Sector."
+     "explanation": "Manufacturing converts raw materials or natural products into finished or other forms and belongs to the Secondary Sector.",
+     "facts": [
+      "F4",
+      "F17",
+      "F15",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-57-3",
@@ -11370,7 +11379,13 @@
       "Natural resources"
      ],
      "answer": 1,
-     "explanation": "The Tertiary Sector provides services rather than producing physical goods."
+     "explanation": "The Tertiary Sector provides services rather than producing physical goods.",
+     "facts": [
+      "F41",
+      "F11",
+      "F7",
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-57-4",
@@ -11384,7 +11399,13 @@
       "Mineral exploration"
      ],
      "answer": 3,
-     "explanation": "Mineral exploration is classified as Primary in the given classification."
+     "explanation": "Mineral exploration is classified as Primary in the given classification.",
+     "facts": [
+      "F27",
+      "F29",
+      "F30",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-57-5",
@@ -11398,7 +11419,13 @@
       "Primary sector/agriculture"
      ],
      "answer": 3,
-     "explanation": "Disguised unemployment is mainly associated with the Primary Sector, particularly agriculture."
+     "explanation": "Disguised unemployment is mainly associated with the Primary Sector, particularly agriculture.",
+     "facts": [
+      "F45",
+      "F15",
+      "F8",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-57-6",
@@ -11412,7 +11439,15 @@
       "Weaving cloth belongs to the Secondary Sector."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement classifies education as Secondary. Education belongs to the Tertiary Sector."
+     "explanation": "The incorrect statement classifies education as Secondary. Education belongs to the Tertiary Sector.",
+     "facts": [
+      "F18",
+      "F16",
+      "F19",
+      "F25",
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-57-7",
@@ -11426,7 +11461,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Banking provides a service, which is why it belongs to the Tertiary Sector."
+     "explanation": "Both statements are true. Banking provides a service, which is why it belongs to the Tertiary Sector.",
+     "facts": [
+      "F15",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-57-8",
@@ -11440,7 +11479,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the definition in the Reason directly explains the Assertion."
+     "explanation": "Both statements are true, and the definition in the Reason directly explains the Assertion.",
+     "facts": [
+      "F37"
+     ]
     },
     {
      "id": "indian-economy-57-9",
@@ -11454,7 +11496,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Lending is a financial transaction and therefore belongs to the Financial Sector."
+     "explanation": "Both statements are true. Lending is a financial transaction and therefore belongs to the Financial Sector.",
+     "facts": [
+      "F45",
+      "F39"
+     ]
     },
     {
      "id": "indian-economy-57-10",
@@ -11468,7 +11514,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Real Sector concerns production of goods and services, while the Financial Sector concerns financial transactions."
+     "explanation": "The Real Sector concerns production of goods and services, while the Financial Sector concerns financial transactions.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "indian-economy-57-11",
@@ -11482,7 +11532,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Money and financial assets are associated with the Financial Sector, not the Real Sector."
+     "explanation": "Statement A is true. Money and financial assets are associated with the Financial Sector, not the Real Sector.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-economy-57-12",
@@ -11496,7 +11550,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly state the basic ownership or control associated with the Public and Private Sectors."
+     "explanation": "Both statements correctly state the basic ownership or control associated with the Public and Private Sectors.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-economy-57-13",
@@ -11510,7 +11568,12 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Real estate and social work are Tertiary activities. Industrial activity is classified as Secondary, making Statement III false."
+     "explanation": "Real estate and social work are Tertiary activities. Industrial activity is classified as Secondary, making Statement III false.",
+     "facts": [
+      "F31",
+      "F32",
+      "F27"
+     ]
     },
     {
      "id": "indian-economy-57-14",
@@ -11524,7 +11587,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Textile manufacturing is Secondary and communication is Tertiary. Mineral exploration is classified as Primary, so Statement III is false."
+     "explanation": "Textile manufacturing is Secondary and communication is Tertiary. Mineral exploration is classified as Primary, so Statement III is false.",
+     "facts": [
+      "F24",
+      "F13",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-57-15",
@@ -11538,7 +11606,13 @@
       "a-ii, b-iii, c-i, d-iv"
      ],
      "answer": 3,
-     "explanation": "Agriculture-Primary, Manufacturing-Secondary, Banking-Tertiary and Forestry-Primary; hence a-ii, b-iii, c-i, d-iv."
+     "explanation": "Agriculture-Primary, Manufacturing-Secondary, Banking-Tertiary and Forestry-Primary; hence a-ii, b-iii, c-i, d-iv.",
+     "facts": [
+      "F2",
+      "F8",
+      "F15",
+      "F3"
+     ]
     },
     {
      "id": "indian-economy-57-16",
@@ -11552,7 +11626,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "Agriculture and manufacturing are Real Sector examples, while banking and bonds/securities are Financial Sector examples."
+     "explanation": "Agriculture and manufacturing are Real Sector examples, while banking and bonds/securities are Financial Sector examples.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F47"
+     ]
     },
     {
      "id": "indian-economy-57-17",
@@ -11566,7 +11646,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Marketing, health and personal services are Tertiary activities. Weaving cloth is a Secondary activity. Therefore, there are three."
+     "explanation": "Marketing, health and personal services are Tertiary activities. Weaving cloth is a Secondary activity. Therefore, there are three.",
+     "facts": [
+      "F29",
+      "F17",
+      "F25",
+      "F34",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-57-18",
@@ -11580,7 +11667,12 @@
       "II and III only"
      ],
      "answer": 2,
-     "explanation": "Farmer harvesting crops illustrates the Real Sector, and bank lending money illustrates the Financial Sector. Physical economic activity belongs to the Real Sector, so Statement III is false."
+     "explanation": "Farmer harvesting crops illustrates the Real Sector, and bank lending money illustrates the Financial Sector. Physical economic activity belongs to the Real Sector, so Statement III is false.",
+     "facts": [
+      "F48",
+      "F49",
+      "F46"
+     ]
     },
     {
      "id": "indian-economy-57-19",
@@ -11594,7 +11686,15 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "Dairy farming, fishing, forestry and mining are all listed as Primary Sector activities."
+     "explanation": "Dairy farming, fishing, forestry and mining are all listed as Primary Sector activities.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-57-20",
@@ -11608,7 +11708,14 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "Transport, finance, business services and commerce/trade are each classified as Tertiary Sector activities. Therefore, the correct matching is a-i, b-ii, c-iii and d-iv."
+     "explanation": "Transport, finance, business services and commerce/trade are each classified as Tertiary Sector activities. Therefore, the correct matching is a-i, b-ii, c-iii and d-iv.",
+     "facts": [
+      "F12",
+      "F30",
+      "F33",
+      "F28",
+      "F14"
+     ]
     }
    ]
   },
@@ -14319,7 +14426,11 @@
       "Alfred Marshall"
      ],
      "answer": 2,
-     "explanation": "Adam Smith is identified as the Father of Modern Economics and the Father of Capitalism."
+     "explanation": "Adam Smith is identified as the Father of Modern Economics and the Father of Capitalism.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-67-2",
@@ -14333,7 +14444,15 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "David Ricardo is linked with Comparative Advantage, Malthus with the Malthusian Theory of Population, J.B. Say with Say’s Law, and J.S. Mill with Principles of Political Economy."
+     "explanation": "David Ricardo is linked with Comparative Advantage, Malthus with the Malthusian Theory of Population, J.B. Say with Say’s Law, and J.S. Mill with Principles of Political Economy.",
+     "facts": [
+      "F6",
+      "F8",
+      "F10",
+      "F11",
+      "F13",
+      "F7"
+     ]
     },
     {
      "id": "indian-economy-67-3",
@@ -14347,7 +14466,13 @@
       "Alfred Marshall is associated with price theory."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the association with Keynesian economics. Alfred Marshall is associated with neoclassical economics, economics and price theory."
+     "explanation": "The incorrect detail is the association with Keynesian economics. Alfred Marshall is associated with neoclassical economics, economics and price theory.",
+     "facts": [
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-67-4",
@@ -14361,7 +14486,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the explanation of economic fluctuations does not explain why Keynes is specifically associated with effective demand."
+     "explanation": "Both statements are true, but the explanation of economic fluctuations does not explain why Keynes is specifically associated with effective demand.",
+     "facts": [
+      "F18",
+      "F49"
+     ]
     },
     {
      "id": "indian-economy-67-5",
@@ -14375,7 +14504,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements correctly state the associations given for Friedrich Hayek and Milton Friedman."
+     "explanation": "Both statements correctly state the associations given for Friedrich Hayek and Milton Friedman.",
+     "facts": [
+      "F19",
+      "F20",
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-economy-67-6",
@@ -14389,7 +14524,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both free-market economics and the Austrian/business-cycle approach are associated with Friedrich Hayek."
+     "explanation": "Both free-market economics and the Austrian/business-cycle approach are associated with Friedrich Hayek.",
+     "facts": [
+      "F21",
+      "F50"
+     ]
     },
     {
      "id": "indian-economy-67-7",
@@ -14403,7 +14542,14 @@
       "F.A. Hayek"
      ],
      "answer": 1,
-     "explanation": "R.G. Hawtrey is associated with trade-cycle theory and the Pure Monetary Theory of Trade Cycle."
+     "explanation": "R.G. Hawtrey is associated with trade-cycle theory and the Pure Monetary Theory of Trade Cycle.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "indian-economy-67-8",
@@ -14417,7 +14563,14 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "Joan Robinson is linked with The Accumulation of Capital, Ragnar Nurkse with the Vicious Circle of Poverty, Simon Kuznets with per-capita income as a development measure, and J.R. Hicks with the IS-LM model."
+     "explanation": "Joan Robinson is linked with The Accumulation of Capital, Ragnar Nurkse with the Vicious Circle of Poverty, Simon Kuznets with per-capita income as a development measure, and J.R. Hicks with the IS-LM model.",
+     "facts": [
+      "F27",
+      "F29",
+      "F51",
+      "F54",
+      "F34"
+     ]
     },
     {
      "id": "indian-economy-67-9",
@@ -14431,7 +14584,12 @@
       "Amartya Sen"
      ],
      "answer": 3,
-     "explanation": "Amartya Sen is associated with welfare economics, Social Choice Theory and the Capability Approach."
+     "explanation": "Amartya Sen is associated with welfare economics, Social Choice Theory and the Capability Approach.",
+     "facts": [
+      "F30",
+      "F31",
+      "F52"
+     ]
     },
     {
      "id": "indian-economy-67-10",
@@ -14445,7 +14603,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly restates the association linking Mahbub-ul-Haq with the Human Development approach and HDI."
+     "explanation": "Both statements are true, and the reason directly restates the association linking Mahbub-ul-Haq with the Human Development approach and HDI.",
+     "facts": [
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-economy-67-11",
@@ -14459,7 +14621,16 @@
       "a-iv, b-i, c-iii, d-ii"
      ],
      "answer": 3,
-     "explanation": "Simon Kuznets is associated with the per-capita income measure, Morris D. Morris with PQLI, Corrado Gini with the Gini Coefficient, and Mahbub-ul-Haq with HDI."
+     "explanation": "Simon Kuznets is associated with the per-capita income measure, Morris D. Morris with PQLI, Corrado Gini with the Gini Coefficient, and Mahbub-ul-Haq with HDI.",
+     "facts": [
+      "F33",
+      "F35",
+      "F37",
+      "F39",
+      "F34",
+      "F36",
+      "F38"
+     ]
     },
     {
      "id": "indian-economy-67-12",
@@ -14473,7 +14644,14 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Dadabhai Naoroji is linked with the colonial Indian economy, R.C. Dutt with colonial economic history, and Kautilya/Chanakya with ancient Indian economic thought. Milton Friedman is associated with monetarism."
+     "explanation": "Dadabhai Naoroji is linked with the colonial Indian economy, R.C. Dutt with colonial economic history, and Kautilya/Chanakya with ancient Indian economic thought. Milton Friedman is associated with monetarism.",
+     "facts": [
+      "F22",
+      "F42",
+      "F44",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "indian-economy-67-13",
@@ -14487,7 +14665,11 @@
       "Amartya Sen"
      ],
      "answer": 0,
-     "explanation": "Bina Agarwal is identified as an Indian economist associated with the Leontief Award 2009."
+     "explanation": "Bina Agarwal is identified as an Indian economist associated with the Leontief Award 2009.",
+     "facts": [
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-economy-67-14",
@@ -14501,7 +14683,11 @@
       "Dadabhai Naoroji"
      ],
      "answer": 0,
-     "explanation": "Kautilya, also known as Chanakya, is associated with Arthashastra and ancient Indian economic thought."
+     "explanation": "Kautilya, also known as Chanakya, is associated with Arthashastra and ancient Indian economic thought.",
+     "facts": [
+      "F46",
+      "F48"
+     ]
     },
     {
      "id": "indian-economy-67-15",
@@ -14515,7 +14701,10 @@
       "J.R. Hicks"
      ],
      "answer": 3,
-     "explanation": "J.R. Hicks is identified as the economist associated with the IS-LM model."
+     "explanation": "J.R. Hicks is identified as the economist associated with the IS-LM model.",
+     "facts": [
+      "F51"
+     ]
     },
     {
      "id": "indian-economy-67-16",
@@ -14529,7 +14718,13 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All four statements are correct associations listed for Hawtrey, Keynes, Hayek and Hicks."
+     "explanation": "All four statements are correct associations listed for Hawtrey, Keynes, Hayek and Hicks.",
+     "facts": [
+      "F25",
+      "F49",
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "indian-economy-67-17",
@@ -14543,7 +14738,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true associations of Amartya Sen, but welfare economics does not explain the separate association with Social Choice Theory."
+     "explanation": "Both statements are true associations of Amartya Sen, but welfare economics does not explain the separate association with Social Choice Theory.",
+     "facts": [
+      "F30",
+      "F52"
+     ]
     },
     {
      "id": "indian-economy-67-18",
@@ -14557,7 +14756,17 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "Rangarajan is linked with financial inclusion and poverty/disinvestment-related committees; Vijay Kelkar with tax and PPP reforms; M. Narasimham with banking/financial-sector reforms; and Raghuram Rajan with the Financial Sector Reforms Committee."
+     "explanation": "Rangarajan is linked with financial inclusion and poverty/disinvestment-related committees; Vijay Kelkar with tax and PPP reforms; M. Narasimham with banking/financial-sector reforms; and Raghuram Rajan with the Financial Sector Reforms Committee.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63",
+      "F64"
+     ]
     },
     {
      "id": "indian-economy-67-19",
@@ -14571,7 +14780,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. R.C. Dutt is linked with the Economic History of India and colonial economic critique, while Dadabhai Naoroji is linked with the colonial Indian economy and the Drain of Wealth."
+     "explanation": "Both statements are true. R.C. Dutt is linked with the Economic History of India and colonial economic critique, while Dadabhai Naoroji is linked with the colonial Indian economy and the Drain of Wealth.",
+     "facts": [
+      "F42",
+      "F43",
+      "F45",
+      "F55",
+      "F56"
+     ]
     },
     {
      "id": "indian-economy-67-20",
@@ -14585,7 +14801,16 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "Adam Smith is associated with Wealth of Nations – 1776; Alfred Marshall with economics and price theory; Milton Friedman with money supply and monetarism; and Joan Robinson with Post-Keynesian economics."
+     "explanation": "Adam Smith is associated with Wealth of Nations – 1776; Alfred Marshall with economics and price theory; Milton Friedman with money supply and monetarism; and Joan Robinson with Post-Keynesian economics.",
+     "facts": [
+      "F3",
+      "F4",
+      "F15",
+      "F16",
+      "F22",
+      "F23",
+      "F26"
+     ]
     },
     {
      "id": "indian-economy-67-21",
@@ -14599,7 +14824,14 @@
       "Capability Approach"
      ],
      "answer": 0,
-     "explanation": "David Ricardo is associated with Classical Economics and the concept of Comparative Advantage."
+     "explanation": "David Ricardo is associated with Classical Economics and the concept of Comparative Advantage.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F29",
+      "F31"
+     ]
     },
     {
      "id": "indian-economy-67-22",
@@ -14613,7 +14845,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes associate Ragnar Nurkse with Development economics and J.B. Say with Classical Economics."
+     "explanation": "The notes associate Ragnar Nurkse with Development economics and J.B. Say with Classical Economics.",
+     "facts": [
+      "F9",
+      "F28"
+     ]
     },
     {
      "id": "indian-economy-67-23",
@@ -14627,7 +14863,14 @@
       "Welfare economics"
      ],
      "answer": 2,
-     "explanation": "F.A. Hayek is associated with the Austrian/business-cycle approach."
+     "explanation": "F.A. Hayek is associated with the Austrian/business-cycle approach.",
+     "facts": [
+      "F25",
+      "F30",
+      "F32",
+      "F50",
+      "F53"
+     ]
     },
     {
      "id": "indian-economy-67-24",
@@ -14641,9 +14884,35 @@
       "1786"
      ],
      "answer": 1,
-     "explanation": "The notes associate Adam Smith with “Wealth of Nations – 1776.”"
+     "explanation": "The notes associate Adam Smith with “Wealth of Nations – 1776.”",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "indian-economy-67-25",
+     "format": "Direct Recall",
+     "keyword": "Classical Economics",
+     "question": "Which economist is associated with Classical Economics?",
+     "options": [
+      "Alfred Marshall",
+      "J.S. Mill",
+      "J.M. Keynes",
+      "Milton Friedman"
+     ],
+     "answer": 1,
+     "explanation": "J.S. Mill is associated with Classical Economics. Alfred Marshall, J.M. Keynes and Milton Friedman are associated with Neoclassical economics, Keynesian economics and Monetarism, respectively.",
+     "facts": [
+      "F12"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 64,
+    "covered": 64,
+    "audited": true
+   }
   },
   "68": {
    "number": 68,
