@@ -28,7 +28,10 @@
       "District Collector"
      ],
      "answer": 2,
-     "explanation": "The notes identify the community, including neighbours and local people, as the first responder in a disaster."
+     "explanation": "The notes identify the community, including neighbours and local people, as the first responder in a disaster.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-1-2",
@@ -42,7 +45,10 @@
       "High Powered Committee Report"
      ],
      "answer": 2,
-     "explanation": "The Sendai Framework for Disaster Risk Reduction (2015–2030) succeeded the Hyogo Framework for Action (2005–2015)."
+     "explanation": "The Sendai Framework for Disaster Risk Reduction (2015–2030) succeeded the Hyogo Framework for Action (2005–2015).",
+     "facts": [
+      "F23"
+     ]
     },
     {
      "id": "disaster-management-1-3",
@@ -56,7 +62,12 @@
       "The legal basis for the constitution of the NDRF is Section 44 of the Disaster Management Act, 2005."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year 2001. The Disaster Management Act was enacted and received Presidential assent in 2005, specifically on December 23, 2005."
+     "explanation": "The incorrect detail is the year 2001. The Disaster Management Act was enacted and received Presidential assent in 2005, specifically on December 23, 2005.",
+     "facts": [
+      "F5",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "disaster-management-1-4",
@@ -70,7 +81,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes explain that ‘Building a Culture of Prevention’ meant shifting from relief-centric disaster management towards prevention, mitigation and preparedness."
+     "explanation": "Both statements are true. The notes explain that ‘Building a Culture of Prevention’ meant shifting from relief-centric disaster management towards prevention, mitigation and preparedness.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "disaster-management-1-5",
@@ -84,7 +99,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes: Uttarakhand was the first state with a dedicated ministry, and the subjects shifted to the Ministry of Home Affairs in 2002."
+     "explanation": "Both statements are directly supported by the notes: Uttarakhand was the first state with a dedicated ministry, and the subjects shifted to the Ministry of Home Affairs in 2002.",
+     "facts": [
+      "F9",
+      "F13"
+     ]
     },
     {
      "id": "disaster-management-1-6",
@@ -98,7 +117,12 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct according to the notes: the NDRF became operational in 2006, the NDMA was formally constituted or notified on September 27, 2006, and the Cabinet Secretary chairs the NCMC."
+     "explanation": "All three statements are correct according to the notes: the NDRF became operational in 2006, the NDMA was formally constituted or notified on September 27, 2006, and the Cabinet Secretary chairs the NCMC.",
+     "facts": [
+      "F10",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "disaster-management-1-7",
@@ -112,7 +136,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: NDMA–Prime Minister of India, SDMA–Chief Minister of the State, DDMA–District Collector/District Magistrate, and NEC–Union Home Secretary."
+     "explanation": "The correct pairs are: NDMA–Prime Minister of India, SDMA–Chief Minister of the State, DDMA–District Collector/District Magistrate, and NEC–Union Home Secretary.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F15"
+     ]
     },
     {
      "id": "disaster-management-1-8",
@@ -126,9 +156,162 @@
       "A, B, C, D"
      ],
      "answer": 3,
-     "explanation": "The correct order is A, B, C, D: the HPC was constituted in 1999, its report was submitted in 2001, the Indian Ocean Tsunami occurred in 2004, and the Disaster Management Act received assent in 2005."
+     "explanation": "The correct order is A, B, C, D: the HPC was constituted in 1999, its report was submitted in 2001, the Indian Ocean Tsunami occurred in 2004, and the Disaster Management Act received assent in 2005.",
+     "facts": [
+      "F3",
+      "F30",
+      "F24",
+      "F5"
+     ]
+    },
+    {
+     "id": "disaster-management-1-9",
+     "format": "Assertion-Reason",
+     "keyword": "Institution/Organisation",
+     "question": "Assertion (A): The High Powered Committee (HPC) was established for a systematic, comprehensive and holistic approach to disasters.\nReason (R): J.C. Pant was the first Chairman of the High Powered Committee.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "The HPC was established for a systematic, comprehensive and holistic approach to disasters, and J.C. Pant was its first Chairman. However, the chairmanship does not explain the purpose for which the HPC was established.",
+     "facts": [
+      "F2",
+      "F4"
+     ]
+    },
+    {
+     "id": "disaster-management-1-10",
+     "format": "Direct Recall",
+     "keyword": "Institution/Organisation",
+     "question": "Which ministry is the nodal ministry for disaster management at the Central level after 2002?",
+     "options": [
+      "National Disaster Management Authority",
+      "Ministry of Agriculture",
+      "Ministry of Home Affairs",
+      "Cabinet Secretariat"
+     ],
+     "answer": 2,
+     "explanation": "After 2002, the Ministry of Home Affairs became the nodal ministry for disaster management at the Central level.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "disaster-management-1-11",
+     "format": "Direct Recall",
+     "keyword": "Institution/Organisation",
+     "question": "What is the maximum number of members in the National Disaster Management Authority, including the Vice-Chairperson?",
+     "options": [
+      "Seven members",
+      "Nine members",
+      "Eight members",
+      "Ten members"
+     ],
+     "answer": 1,
+     "explanation": "The National Disaster Management Authority has a maximum of nine members, including the Vice-Chairperson. The Prime Minister is its Chairperson.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "disaster-management-1-12",
+     "format": "List-Matching",
+     "keyword": "Institution/Organisation",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) National Institute of Disaster Management (NIDM)\n(b) Aapda Mitra\n(c) State Disaster Response Fund (SDRF)\n(d) National Disaster Response Fund (NDRF)\n\nList-II\n(i) Scheme that trains community volunteers as first responders, including in search and rescue and first aid\n(ii) Primary-level fund for immediate relief expenditure at the State level\n(iii) Premier institute for capacity building, training and research in disaster management\n(iv) Fund used for emergency response, relief and rehabilitation in severe calamities",
+     "options": [
+      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-iii, b-ii, c-i, d-iv",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 0,
+     "explanation": "The correct pairs are NIDM–premier institute, Aapda Mitra–community volunteer training, SDRF–State-level immediate relief fund, and NDRF–emergency response, relief and rehabilitation in severe calamities.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "disaster-management-1-13",
+     "format": "Direct Recall",
+     "keyword": "Act",
+     "question": "Which event acted as a major catalyst for the Disaster Management Act, 2005?",
+     "options": [
+      "The Indian Ocean Tsunami of 2004",
+      "The submission of the HPC Report in 2001",
+      "The constitution of the HPC in August 1999",
+      "The Bhuj earthquake of 2001"
+     ],
+     "answer": 0,
+     "explanation": "The Indian Ocean Tsunami of 2004 acted as a major catalyst for the Disaster Management Act, 2005.",
+     "facts": [
+      "F25"
+     ]
+    },
+    {
+     "id": "disaster-management-1-14",
+     "format": "Direct Recall",
+     "keyword": "Year",
+     "question": "In which year did the Bhuj earthquake in Gujarat occur?",
+     "options": [
+      "2004",
+      "2001",
+      "2005",
+      "1999"
+     ],
+     "answer": 1,
+     "explanation": "The Bhuj earthquake in Gujarat occurred in 2001.",
+     "facts": [
+      "F26"
+     ]
+    },
+    {
+     "id": "disaster-management-1-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Institution/Organisation",
+     "question": "Consider the following statements:\nStatement A: The Bhuj earthquake influenced institutional reforms.\nStatement B: The original mandate of the High Powered Committee constituted in 1999 was the preparation of plans for natural disasters only.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Bhuj earthquake influenced institutional reforms, while the original 1999 HPC mandate covered preparation of plans for natural disasters only.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "disaster-management-1-16",
+     "format": "Assertion-Reason",
+     "keyword": "Institution/Organisation",
+     "question": "Assertion (A): The mandate of the High Powered Committee was later expanded to include man-made disasters.\nReason (R): The original mandate of the 1999 High Powered Committee covered natural disasters only.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the original natural-disaster-only mandate explains why its later expansion to include man-made disasters represented a widening of scope.",
+     "facts": [
+      "F29"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 32,
+    "covered": 32,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -160,7 +343,8 @@
      "facts": [
       "F37",
       "F38",
-      "F79"
+      "F79",
+      "F87"
      ]
     },
     {
@@ -202,7 +386,8 @@
       "F49",
       "F50",
       "F57",
-      "F14"
+      "F14",
+      "F15"
      ]
     },
     {
@@ -275,7 +460,14 @@
       "F72",
       "F20",
       "F21",
-      "F53"
+      "F53",
+      "F7",
+      "F16",
+      "F42",
+      "F43",
+      "F48",
+      "F58",
+      "F68"
      ]
     },
     {
@@ -295,7 +487,9 @@
       "F2",
       "F39",
       "F1",
-      "F10"
+      "F10",
+      "F78",
+      "F92"
      ]
     },
     {
@@ -316,7 +510,11 @@
       "F61",
       "F62",
       "F63",
-      "F64"
+      "F64",
+      "F42",
+      "F43",
+      "F58",
+      "F67"
      ]
     },
     {
@@ -333,7 +531,193 @@
      "answer": 1,
      "explanation": "The notes identify Search and Rescue as the operation that plays a major role in the post-disaster scenario.",
      "facts": [
-      "F36"
+      "F36",
+      "F7"
+     ]
+    },
+    {
+     "id": "disaster-management-2-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disaster Management Phases",
+     "question": "Consider the following statements about the pre-crisis phase:\nI. It focuses on prevention and mitigation.\nII. It focuses on preparedness.\nIII. It focuses on risk reduction.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "II and III only",
+      "I and II only"
+     ],
+     "answer": 1,
+     "explanation": "The pre-crisis phase focuses on prevention and mitigation, preparedness, and risk reduction.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "disaster-management-2-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disaster Management Phases",
+     "question": "Consider the following statements about the during-crisis phase:\nI. It focuses on immediate response.\nII. It focuses on relief.\nIII. It focuses on crisis handling.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The during-crisis phase includes immediate response, relief and crisis handling.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9"
+     ]
+    },
+    {
+     "id": "disaster-management-2-12",
+     "format": "Direct Recall",
+     "keyword": "Disaster Management Phases",
+     "question": "Which of the following represents the correct sequence of activities in the post-crisis phase?",
+     "options": [
+      "Recovery → Rehabilitation → Reconstruction",
+      "Rehabilitation → Recovery → Reconstruction",
+      "Recovery → Reconstruction → Rehabilitation",
+      "Reconstruction → Rehabilitation → Recovery"
+     ],
+     "answer": 0,
+     "explanation": "The post-crisis stage proceeds from recovery to rehabilitation and then reconstruction. Thus, rehabilitation follows recovery and reconstruction follows rehabilitation.",
+     "facts": [
+      "F11",
+      "F12",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "disaster-management-2-13",
+     "format": "Direct Recall",
+     "keyword": "Disaster Management Phases",
+     "question": "Disaster management has how many phases?",
+     "options": [
+      "Six",
+      "Five",
+      "Four",
+      "Three"
+     ],
+     "answer": 2,
+     "explanation": "Disaster management has four phases: prevention, mitigation, preparedness and response/recovery as described in the phase framework.",
+     "facts": [
+      "F13"
+     ]
+    },
+    {
+     "id": "disaster-management-2-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Non-structural Mitigation",
+     "question": "Consider the following statements:\nI. Community awareness programmes are a form of non-structural mitigation.\nII. Education programmes are a form of non-structural mitigation.\nIII. Planting trees along coastal areas is a cyclone mitigation measure.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+     ],
+     "answer": 0,
+     "explanation": "Non-structural mitigation includes community awareness and education programmes, while planting trees along coastal areas is a cyclone mitigation measure.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-2-15",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Preparedness",
+     "question": "Consider the following statements about preparation:\nI. It aims to ensure readiness before a disaster occurs.\nII. It includes preparedness planning.\nIII. It includes community preparedness.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "Preparation aims to ensure readiness before a disaster and includes preparedness planning and community preparedness.",
+     "facts": [
+      "F22",
+      "F23",
+      "F26"
+     ]
+    },
+    {
+     "id": "disaster-management-2-16",
+     "format": "Direct Recall",
+     "keyword": "Response",
+     "question": "Which statement best describes the response phase of disaster management?",
+     "options": [
+      "It focuses on prevention before a hazard occurs.",
+      "It focuses on reconstruction after rehabilitation.",
+      "It involves immediate action during or just after a disaster.",
+      "It focuses only on long-term risk reduction."
+     ],
+     "answer": 2,
+     "explanation": "Response involves immediate action during or just after a disaster.",
+     "facts": [
+      "F29"
+     ]
+    },
+    {
+     "id": "disaster-management-2-17",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Prevention",
+     "question": "Consider the following statements:\nStatement A: Prevention includes regulating deforestation.\nStatement B: Prevention is proactive and long-term.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Regulating deforestation is included under prevention, and prevention is proactive and long-term in nature.",
+     "facts": [
+      "F45",
+      "F47"
+     ]
+    },
+    {
+     "id": "disaster-management-2-18",
+     "format": "List-Matching",
+     "keyword": "Mitigation",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Embankments\n(b) Afforestation\n(c) Insurance\n\nList-II\n(i) Mitigation measure\n(ii) Preparedness activity\n(iii) Response activity\n(iv) Recovery activity\n\nSelect the correct code.",
+     "options": [
+      "a-i, b-ii, c-iii",
+      "a-ii, b-i, c-iv",
+      "a-i, b-i, c-i",
+      "a-iv, b-iii, c-ii"
+     ],
+     "answer": 2,
+     "explanation": "Embankments, afforestation and insurance are all listed as mitigation measures. Therefore, the correct matching is a-i, b-i and c-i.",
+     "facts": [
+      "F52",
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "disaster-management-2-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Preparedness",
+     "question": "Consider the following statements:\nStatement A: Preparedness ensures a ready response.\nStatement B: Preparedness ensures an effective response.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Preparedness is intended to ensure both a ready response and an effective response.",
+     "facts": [
+      "F59",
+      "F60"
      ]
     }
    ]
@@ -738,7 +1122,14 @@
       "Underground water movement caused by rainfall"
      ],
      "answer": 2,
-     "explanation": "A tsunami consists of large waves generated by sudden movements of the ocean floor, which displace a large volume of water."
+     "explanation": "A tsunami consists of large waves generated by sudden movements of the ocean floor, which displace a large volume of water.",
+     "facts": [
+      "F1",
+      "F2",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "disaster-management-4-2",
@@ -752,7 +1143,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the Japanese origin of the term does not explain why a tsunami is classified as a natural disaster."
+     "explanation": "Both statements are true according to the notes. However, the Japanese origin of the term does not explain why a tsunami is classified as a natural disaster.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "disaster-management-4-3",
@@ -766,7 +1161,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Focus–earthquake origin point, Epicentre–point directly above focus, Mercalli Scale–earthquake intensity, and Seismograph–earthquake measuring device."
+     "explanation": "The correct pairs are: Focus–earthquake origin point, Epicentre–point directly above focus, Mercalli Scale–earthquake intensity, and Seismograph–earthquake measuring device.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F45"
+     ]
     },
     {
      "id": "disaster-management-4-4",
@@ -780,7 +1181,14 @@
       "The Indian Tsunami Early Warning Centre is established in INCOIS."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of the International Tsunami Information Centre. It is located in Honolulu, whereas Hyderabad is the location of the Indian centres mentioned."
+     "explanation": "The incorrect detail is the location of the International Tsunami Information Centre. It is located in Honolulu, whereas Hyderabad is the location of the Indian centres mentioned.",
+     "facts": [
+      "F33",
+      "F37",
+      "F39",
+      "F36",
+      "F35"
+     ]
     },
     {
      "id": "disaster-management-4-5",
@@ -794,7 +1202,11 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements are correct. The notes identify Remote Sensing, GIS and satellite data as tools for addressing tsunami/coastal disaster vulnerability and disaster mapping."
+     "explanation": "All three statements are correct. The notes identify Remote Sensing, GIS and satellite data as tools for addressing tsunami/coastal disaster vulnerability and disaster mapping.",
+     "facts": [
+      "F40",
+      "F56"
+     ]
     },
     {
      "id": "disaster-management-4-6",
@@ -808,7 +1220,13 @@
       "A, C, B, D"
      ],
      "answer": 2,
-     "explanation": "The correct sequence is IDDR beginning in 1989, IDNDR beginning in 1990, the Yokohama conference in 1994, and adoption of the Sendai Framework in 2015."
+     "explanation": "The correct sequence is IDDR beginning in 1989, IDNDR beginning in 1990, the Yokohama conference in 1994, and adoption of the Sendai Framework in 2015.",
+     "facts": [
+      "F50",
+      "F54",
+      "F53",
+      "F52"
+     ]
     },
     {
      "id": "disaster-management-4-7",
@@ -822,7 +1240,14 @@
       "Only two"
      ],
      "answer": 2,
-     "explanation": "All five listed locations—Andhra Pradesh, Tamil Nadu, Pondicherry, Kerala, and the Andaman & Nicobar Islands—were mentioned as having suffered severe damage."
+     "explanation": "All five listed locations—Andhra Pradesh, Tamil Nadu, Pondicherry, Kerala, and the Andaman & Nicobar Islands—were mentioned as having suffered severe damage.",
+     "facts": [
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     }
    ]
   },
@@ -1042,7 +1467,11 @@
       "National Disaster Management Authority (NDMA)"
      ],
      "answer": 1,
-     "explanation": "The Department of Atomic Energy (DAE) is the nodal technical agency for man-made radiological emergencies in the public domain."
+     "explanation": "The Department of Atomic Energy (DAE) is the nodal technical agency for man-made radiological emergencies in the public domain.",
+     "facts": [
+      "F30",
+      "F6"
+     ]
     },
     {
      "id": "disaster-management-7-2",
@@ -1056,7 +1485,15 @@
       "The Chernobyl disaster occurred on 26 April 1986."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year of Fukushima Daiichi. It occurred in 2011, not 2010; it was tsunami-triggered and rated Level 7 INES."
+     "explanation": "The incorrect detail is the year of Fukushima Daiichi. It occurred in 2011, not 2010; it was tsunami-triggered and rated Level 7 INES.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F22",
+      "F23",
+      "F28"
+     ]
     },
     {
      "id": "disaster-management-7-3",
@@ -1070,7 +1507,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The uncontrolled release of radioactive material and its harmful consequences explain why a nuclear disaster is a man-made or technological disaster."
+     "explanation": "Both statements are true. The uncontrolled release of radioactive material and its harmful consequences explain why a nuclear disaster is a man-made or technological disaster.",
+     "facts": [
+      "F1",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "disaster-management-7-4",
@@ -1084,7 +1526,15 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. DAE is the nodal technical agency, AERB is the independent regulator, NDRF has CBRN battalions, and District Administration leads the off-site emergency."
+     "explanation": "The correct pairs are a-iv, b-iii, c-ii and d-i. DAE is the nodal technical agency, AERB is the independent regulator, NDRF has CBRN battalions, and District Administration leads the off-site emergency.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F35",
+      "F36",
+      "F6"
+     ]
     },
     {
      "id": "disaster-management-7-5",
@@ -1098,7 +1548,15 @@
       "I and III only"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. The exclusion zone is a 1–1.5 km radius around the reactor, with no public habitation, so statement III is incorrect."
+     "explanation": "Statements I and II are correct. The exclusion zone is a 1–1.5 km radius around the reactor, with no public habitation, so statement III is incorrect.",
+     "facts": [
+      "F38",
+      "F39",
+      "F41",
+      "F42",
+      "F43",
+      "F44"
+     ]
     },
     {
      "id": "disaster-management-7-6",
@@ -1112,7 +1570,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes specify 2009 as the year of the NDMA guidelines and identify the District Collector as the Incident Commander for an off-site emergency."
+     "explanation": "Both statements are true. The notes specify 2009 as the year of the NDMA guidelines and identify the District Collector as the Incident Commander for an off-site emergency.",
+     "facts": [
+      "F33",
+      "F37"
+     ]
     },
     {
      "id": "disaster-management-7-7",
@@ -1126,7 +1588,16 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because a nuclear explosion is not a natural disaster."
+     "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because a nuclear explosion is not a natural disaster.",
+     "facts": [
+      "F2",
+      "F17",
+      "F18",
+      "F21",
+      "F25",
+      "F26",
+      "F27"
+     ]
     }
    ]
   },
@@ -1157,7 +1628,11 @@
       "A short-term rise in groundwater levels after rainfall"
      ],
      "answer": 0,
-     "explanation": "Drought is defined as a prolonged deficiency of rainfall or moisture leading to water scarcity."
+     "explanation": "Drought is defined as a prolonged deficiency of rainfall or moisture leading to water scarcity.",
+     "facts": [
+      "F15",
+      "F3"
+     ]
     },
     {
      "id": "disaster-management-8-2",
@@ -1171,7 +1646,13 @@
       "The Green Revolution in the late 1960s reduced the necessity for famine-relief work."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the year 2006. The notes state that the Disaster Management Act was enacted in 2005."
+     "explanation": "The incorrect detail is the year 2006. The notes state that the Disaster Management Act was enacted in 2005.",
+     "facts": [
+      "F10",
+      "F13",
+      "F14",
+      "F12"
+     ]
     },
     {
      "id": "disaster-management-8-3",
@@ -1185,7 +1666,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The 2016 Manual moved beyond rainfall alone and required at least three triggers for declaration, which explains its multi-indicator approach."
+     "explanation": "Both statements are true. The 2016 Manual moved beyond rainfall alone and required at least three triggers for declaration, which explains its multi-indicator approach.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "disaster-management-8-4",
@@ -1199,7 +1684,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly consistent with the definitions in the notes: meteorological drought is linked to a rainfall deficiency of at least 25%, while socio-economic drought results from demand exceeding supply."
+     "explanation": "Both statements are directly consistent with the definitions in the notes: meteorological drought is linked to a rainfall deficiency of at least 25%, while socio-economic drought results from demand exceeding supply.",
+     "facts": [
+      "F22",
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "disaster-management-8-5",
@@ -1213,7 +1703,12 @@
       "I and II only"
      ],
      "answer": 2,
-     "explanation": "All three statements are given in the notes. India has about 68% drought-prone geographical area, rain-fed agriculture increases vulnerability, and surface water becomes scarce in deficient-rainfall years in Peninsular India."
+     "explanation": "All three statements are given in the notes. India has about 68% drought-prone geographical area, rain-fed agriculture increases vulnerability, and surface water becomes scarce in deficient-rainfall years in Peninsular India.",
+     "facts": [
+      "F17",
+      "F7",
+      "F9"
+     ]
     },
     {
      "id": "disaster-management-8-6",
@@ -1227,7 +1722,13 @@
       "a-ii, b-iv, c-i, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: NDMA Guidelines on Drought—2010; Manual for Drought Management—2016 revised manual; SDRF—primary relief fund; NDRF—used in severe cases."
+     "explanation": "The correct pairs are: NDMA Guidelines on Drought—2010; Manual for Drought Management—2016 revised manual; SDRF—primary relief fund; NDRF—used in severe cases.",
+     "facts": [
+      "F31",
+      "F32",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "disaster-management-8-7",
@@ -1241,7 +1742,10 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three listed sectors—agriculture, drinking-water supply and industry—are identified as affected by drought. Marine transport is not listed in the notes."
+     "explanation": "Three listed sectors—agriculture, drinking-water supply and industry—are identified as affected by drought. Marine transport is not listed in the notes.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "disaster-management-8-8",
@@ -1255,9 +1759,151 @@
       "B, A, C, D"
      ],
      "answer": 2,
-     "explanation": "The sequence is Arthashastra in the 4th century B.C., relief works after Independence, the Green Revolution in the late 1960s, and the Disaster Management Act in 2005."
+     "explanation": "The sequence is Arthashastra in the 4th century B.C., relief works after Independence, the Green Revolution in the late 1960s, and the Disaster Management Act in 2005.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F14"
+     ]
+    },
+    {
+     "id": "disaster-management-8-9",
+     "format": "Assertion-Reason",
+     "keyword": "Disaster Terminology",
+     "question": "Assertion (A): Drought is a slow-onset natural disaster, also described as a creeping hazard.\nReason (R): Drought is also called a creeping emergency because slow-onset disasters develop gradually.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Drought is identified as a slow-onset natural disaster or creeping hazard and is also called a creeping emergency. The latter description reflects its gradual onset.",
+     "facts": [
+      "F1",
+      "F2",
+      "F16"
+     ]
+    },
+    {
+     "id": "disaster-management-8-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Rainfall",
+     "question": "Consider the following statements:\nI. In India, drought is mainly caused by the inadequacy and uneven distribution of rainfall.\nII. More than 80% of India’s rainfall is received in less than 100 days during the southwest monsoon.\nIII. Excess withdrawal of groundwater over replenishment aggravates drought in the long run.",
+     "options": [
+      "II and III only",
+      "I and II only",
+      "I, II and III",
+      "I and III only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. Inadequate and uneven rainfall is the main cause in India, most rainfall is concentrated in fewer than 100 days, and excessive groundwater withdrawal worsens drought over time.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8"
+     ]
+    },
+    {
+     "id": "disaster-management-8-11",
+     "format": "List-Matching",
+     "keyword": "Rainfall and Area Classification",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Rainfall in chronically drought-prone areas\n b. Area constituted by chronically drought-prone areas\n c. Rainfall in drought-prone areas\n d. Area constituted by drought-prone areas\n\nList-II\n i. Approximately 35% of India’s area\n ii. Less than 750 mm\n iii. Approximately 33% of India’s area\n iv. 750–1125 mm\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iii, c-iv, d-i",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Chronically drought-prone areas receive less than 750 mm of rainfall and constitute approximately 33% of India’s area. Drought-prone areas receive 750–1125 mm and constitute approximately 35% of the area.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20",
+      "F21"
+     ]
+    },
+    {
+     "id": "disaster-management-8-12",
+     "format": "List-Matching",
+     "keyword": "Drought Types and Time Lag",
+     "question": "Match List-I with List-II:\n\nList-I\n a. Meteorological drought\n b. Agricultural drought\n c. Hydrological drought\n d. Socio-economic drought\n\nList-II\n i. Long-term time lag\n ii. Immediate time lag\n iii. Delayed time lag of weeks to months\n iv. Intermediate time lag\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iv, c-iii, d-i",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Meteorological drought has an immediate time lag, agricultural drought an intermediate time lag, hydrological drought a delayed lag of weeks to months, and socio-economic drought a long-term lag.",
+     "facts": [
+      "F23",
+      "F25",
+      "F27",
+      "F30"
+     ]
+    },
+    {
+     "id": "disaster-management-8-13",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Drought Types",
+     "question": "Consider the following statements:\nStatement A: Agricultural drought occurs when soil moisture is insufficient for crop growth.\nStatement B: Hydrological drought involves the depletion of reservoirs, rivers, aquifers, and other surface-water and groundwater sources.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Agricultural drought concerns inadequate soil moisture for crops, while hydrological drought concerns depletion of surface-water and groundwater sources, including reservoirs, rivers and aquifers.",
+     "facts": [
+      "F24",
+      "F26"
+     ]
+    },
+    {
+     "id": "disaster-management-8-14",
+     "format": "Count-Based",
+     "keyword": "Drought Monitoring Indicators",
+     "question": "How many of the following are drought monitoring indicators?\n1. Rainfall deviation\n2. Dry spells\n3. NDVI\n4. Soil moisture\n5. Reservoir and groundwater levels",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five listed items are drought monitoring indicators: rainfall deviation, dry spells, NDVI, soil moisture, and reservoir and groundwater levels.",
+     "facts": [
+      "F35"
+     ]
+    },
+    {
+     "id": "disaster-management-8-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Drought Management Measures",
+     "question": "Consider the following statements:\nStatement A: MGNREGA provides employment support in drought management.\nStatement B: PMFBY provides crop insurance in drought management.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. MGNREGA is associated with employment support, while PMFBY provides crop insurance in drought management.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 39,
+    "covered": 39,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -1765,7 +2411,10 @@
       "Ongole to Machilipatnam"
      ],
      "answer": 3,
-     "explanation": "The Ongole–Machilipatnam stretch is identified as the most vulnerable cyclone-prone stretch in Andhra Pradesh."
+     "explanation": "The Ongole–Machilipatnam stretch is identified as the most vulnerable cyclone-prone stretch in Andhra Pradesh.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "disaster-management-14-2",
@@ -1779,7 +2428,10 @@
       "Doppler Radar Network"
      ],
      "answer": 0,
-     "explanation": "SCATSAT-1 is used for weather forecasting, cyclone prediction and tracking for India."
+     "explanation": "SCATSAT-1 is used for weather forecasting, cyclone prediction and tracking for India.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "disaster-management-14-3",
@@ -1793,7 +2445,18 @@
       "INCOIS provides storm surge and high-wave warnings."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement assigns storm-surge and high-wave warnings to RSMC New Delhi. This role belongs to INCOIS; RSMC New Delhi is the Regional Specialised Meteorological Centre for the North Indian Ocean."
+     "explanation": "The incorrect statement assigns storm-surge and high-wave warnings to RSMC New Delhi. This role belongs to INCOIS; RSMC New Delhi is the Regional Specialised Meteorological Centre for the North Indian Ocean.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F45",
+      "F46",
+      "F48",
+      "F49",
+      "F51",
+      "F16"
+     ]
     },
     {
      "id": "disaster-management-14-4",
@@ -1807,7 +2470,15 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The reason describes the associated characteristics of a tropical cyclone, but it does not explain why the system is defined as a rotating low-pressure system over warm tropical oceans."
+     "explanation": "Both statements are true. The reason describes the associated characteristics of a tropical cyclone, but it does not explain why the system is defined as a rotating low-pressure system over warm tropical oceans.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F1",
+      "F23"
+     ]
     },
     {
      "id": "disaster-management-14-5",
@@ -1821,7 +2492,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. GIS, remote sensing and satellite data support disaster mapping, while the Doppler Radar Network forecasts heavy rainfall and thunderstorms."
+     "explanation": "Both statements are true. GIS, remote sensing and satellite data support disaster mapping, while the Doppler Radar Network forecasts heavy rainfall and thunderstorms.",
+     "facts": [
+      "F10",
+      "F12",
+      "F18"
+     ]
     },
     {
      "id": "disaster-management-14-6",
@@ -1835,7 +2511,19 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct according to the IMD classification. Statement IV is incorrect because a Super Cyclonic Storm has wind speeds of 222 km/h or more."
+     "explanation": "Statements I, II and III are correct according to the IMD classification. Statement IV is incorrect because a Super Cyclonic Storm has wind speeds of 222 km/h or more.",
+     "facts": [
+      "F30",
+      "F34",
+      "F38",
+      "F40",
+      "F42",
+      "F31",
+      "F35",
+      "F39",
+      "F41",
+      "F43"
+     ]
     },
     {
      "id": "disaster-management-14-7",
@@ -1849,7 +2537,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are IMD–forecasting, tracking, naming and early warning; INCOIS–storm surge and high-wave warnings; NDMA–policy guidelines and overall coordination; NDRF/SDRF–pre-positioning, evacuation, search and rescue."
+     "explanation": "The correct pairs are IMD–forecasting, tracking, naming and early warning; INCOIS–storm surge and high-wave warnings; NDMA–policy guidelines and overall coordination; NDRF/SDRF–pre-positioning, evacuation, search and rescue.",
+     "facts": [
+      "F44",
+      "F46",
+      "F47",
+      "F52"
+     ]
     },
     {
      "id": "disaster-management-14-8",
@@ -1863,7 +2557,14 @@
       "B, C, D, A"
      ],
      "answer": 1,
-     "explanation": "Bhola occurred in 1970, the 1977 Cyclone occurred in 1977, Phailin occurred in 2013, and Hudhud occurred in 2014. Therefore, the correct order is B, D, C, A."
+     "explanation": "Bhola occurred in 1970, the 1977 Cyclone occurred in 1977, Phailin occurred in 2013, and Hudhud occurred in 2014. Therefore, the correct order is B, D, C, A.",
+     "facts": [
+      "F5",
+      "F8",
+      "F56",
+      "F59",
+      "F6"
+     ]
     }
    ]
   },
@@ -2082,7 +2783,11 @@
       "Gujarat Earthquake, 2001"
      ],
      "answer": 3,
-     "explanation": "Disaster management was shifted from the Department of Agriculture to the Ministry of Home Affairs after the Gujarat Earthquake of 2001."
+     "explanation": "Disaster management was shifted from the Department of Agriculture to the Ministry of Home Affairs after the Gujarat Earthquake of 2001.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "disaster-management-17-2",
@@ -2096,7 +2801,12 @@
       "The National Executive Committee is chaired by the Union Home Secretary."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement alters the chairperson of the NCMC. It is headed by the Cabinet Secretary, whereas the National Executive Committee is chaired by the Union Home Secretary."
+     "explanation": "The incorrect statement alters the chairperson of the NCMC. It is headed by the Cabinet Secretary, whereas the National Executive Committee is chaired by the Union Home Secretary.",
+     "facts": [
+      "F8",
+      "F54",
+      "F55"
+     ]
     },
     {
      "id": "disaster-management-17-3",
@@ -2110,7 +2820,16 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The notes identify State Governments as having primary responsibility, while the Centre provides support, coordination and resources; this describes the division of responsibility but does not explain why the primary responsibility lies with the States."
+     "explanation": "Both statements are true. The notes identify State Governments as having primary responsibility, while the Centre provides support, coordination and resources; this describes the division of responsibility but does not explain why the primary responsibility lies with the States.",
+     "facts": [
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F4",
+      "F5",
+      "F7"
+     ]
     },
     {
      "id": "disaster-management-17-4",
@@ -2124,7 +2843,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: NDMA–policy body chaired by the Prime Minister; NDRF–operational control through NDMA; NIDM–capacity-building institute under MHA; National Executive Committee–chaired by the Union Home Secretary."
+     "explanation": "The correct pairs are: NDMA–policy body chaired by the Prime Minister; NDRF–operational control through NDMA; NIDM–capacity-building institute under MHA; National Executive Committee–chaired by the Union Home Secretary.",
+     "facts": [
+      "F50",
+      "F52",
+      "F53",
+      "F54"
+     ]
     },
     {
      "id": "disaster-management-17-5",
@@ -2138,7 +2863,14 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "All three statements are correct functions of the Ministry of Home Affairs under the Disaster Management Division."
+     "explanation": "All three statements are correct functions of the Ministry of Home Affairs under the Disaster Management Division.",
+     "facts": [
+      "F27",
+      "F28",
+      "F33",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "disaster-management-17-6",
@@ -2152,7 +2884,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The District Collector or District Magistrate is responsible for overall disaster management at the district level, while the community is usually the first responder on the ground."
+     "explanation": "Both statements are true. The District Collector or District Magistrate is responsible for overall disaster management at the district level, while the community is usually the first responder on the ground.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "disaster-management-17-7",
@@ -2166,7 +2902,16 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched in the disaster-management allocation: agriculture for drought, hailstorm and pest attack; health for epidemics or biological emergencies; Jal Shakti/CWC for technical flood matters; and Earth Sciences/IMD for cyclone or earthquake forecasting."
+     "explanation": "All four pairs are correctly matched in the disaster-management allocation: agriculture for drought, hailstorm and pest attack; health for epidemics or biological emergencies; Jal Shakti/CWC for technical flood matters; and Earth Sciences/IMD for cyclone or earthquake forecasting.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
     }
    ]
   },
@@ -2644,7 +3389,10 @@
       "New Delhi"
      ],
      "answer": 1,
-     "explanation": "The notes locate the International Tsunami Information Centre in Honolulu."
+     "explanation": "The notes locate the International Tsunami Information Centre in Honolulu.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-23-2",
@@ -2658,7 +3406,11 @@
       "National Disaster Management Authority (NDMA)"
      ],
      "answer": 3,
-     "explanation": "NDMA is the apex body for disaster management and is chaired by the Prime Minister."
+     "explanation": "NDMA is the apex body for disaster management and is chaired by the Prime Minister.",
+     "facts": [
+      "F39",
+      "F40"
+     ]
     },
     {
      "id": "disaster-management-23-3",
@@ -2672,7 +3424,24 @@
       "The Geological Survey of India is headquartered in Kolkata and undertakes landslide studies and hazard mapping."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the location of the Central Water Commission. The notes place its headquarters in New Delhi, not Hyderabad."
+     "explanation": "The incorrect detail is the location of the Central Water Commission. The notes place its headquarters in New Delhi, not Hyderabad.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "F61",
+      "F62",
+      "F9",
+      "F55",
+      "F57",
+      "F58",
+      "F59",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "disaster-management-23-4",
@@ -2686,7 +3455,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes: INCOIS is in Hyderabad and the Indian Tsunami Early Warning Centre is established there. However, the location does not explain the institutional association."
+     "explanation": "Both statements are true according to the notes: INCOIS is in Hyderabad and the Indian Tsunami Early Warning Centre is established there. However, the location does not explain the institutional association.",
+     "facts": [
+      "F52",
+      "F53",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "disaster-management-23-5",
@@ -2700,7 +3475,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the description of NIDM as a premier disaster-management capacity institute explains its role in capacity building, training and research."
+     "explanation": "Both statements are true, and the description of NIDM as a premier disaster-management capacity institute explains its role in capacity building, training and research.",
+     "facts": [
+      "F8",
+      "F42"
+     ]
     },
     {
      "id": "disaster-management-23-6",
@@ -2714,7 +3493,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly supported by the notes. PTWC issues warnings for the Pacific Ocean, while UNDRR is the focal point for the Sendai Framework and global disaster risk reduction."
+     "explanation": "Both statements are directly supported by the notes. PTWC issues warnings for the Pacific Ocean, while UNDRR is the focal point for the Sendai Framework and global disaster risk reduction.",
+     "facts": [
+      "F26",
+      "F27",
+      "F33"
+     ]
     },
     {
      "id": "disaster-management-23-7",
@@ -2728,7 +3512,13 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. The Asian Disaster Preparedness Centre is located in Bangkok, Thailand, not Geneva, Switzerland."
+     "explanation": "Statements I, II and III are correct. The Asian Disaster Preparedness Centre is located in Bangkok, Thailand, not Geneva, Switzerland.",
+     "facts": [
+      "F21",
+      "F29",
+      "F19",
+      "F71"
+     ]
     },
     {
      "id": "disaster-management-23-8",
@@ -2742,7 +3532,183 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Geological Survey of India—landslide studies and hazard mapping; Central Water Commission—flood forecasting; National Remote Sensing Centre—remote sensing support for disasters; National Disaster Response Force—specialised force."
+     "explanation": "The correct pairs are: Geological Survey of India—landslide studies and hazard mapping; Central Water Commission—flood forecasting; National Remote Sensing Centre—remote sensing support for disasters; National Disaster Response Force—specialised force.",
+     "facts": [
+      "F45",
+      "F55",
+      "F58",
+      "F59",
+      "F62"
+     ]
+    },
+    {
+     "id": "disaster-management-23-9",
+     "format": "List-Matching",
+     "keyword": "Organisation → Abbreviation",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) International Tsunami Information Centre\n(b) United Nations Office for Disaster Risk Reduction\n(c) UNESCO Intergovernmental Oceanographic Commission\n(d) Pacific Tsunami Warning Center\n\nList-II\n(i) IOC\n(ii) PTWC\n(iii) ITIC\n(iv) UNDRR",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct abbreviations are ITIC, UNDRR, IOC and PTWC respectively.",
+     "facts": [
+      "F24",
+      "F28",
+      "F31",
+      "F34"
+     ]
+    },
+    {
+     "id": "disaster-management-23-10",
+     "format": "List-Matching",
+     "keyword": "Organisation/Institution → Location or Role",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) International Tsunami Information Centre\n(b) United Nations Office for Disaster Risk Reduction\n(c) UNESCO Intergovernmental Oceanographic Commission\n(d) Pacific Tsunami Warning Center\n\nList-II\n(i) Coordinates global tsunami-warning systems\n(ii) Honolulu, Hawaii, USA\n(iii) Provides tsunami information\n(iv) Geneva, Switzerland",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The International Tsunami Information Centre provides tsunami information; UNDRR is located in Geneva; IOC coordinates global tsunami-warning systems; and PTWC is located in Honolulu, Hawaii.",
+     "facts": [
+      "F2",
+      "F25",
+      "F30",
+      "F32"
+     ]
+    },
+    {
+     "id": "disaster-management-23-11",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Tsunami Warning System",
+     "question": "Consider the following statements:\n\nI. The Indian Ocean Tsunami Warning System is coordinated through the IOC.\nII. The system has regional centres in India, Indonesia, Australia and other countries.\nIII. The system was established after the 2004 Indian Ocean tsunami.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I only"
+     ],
+     "answer": 2,
+     "explanation": "All three statements are correct. The Indian Ocean Tsunami Warning System is coordinated through the IOC, has regional centres in several countries, and was established after the 2004 Indian Ocean tsunami.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "disaster-management-23-12",
+     "format": "List-Matching",
+     "keyword": "Organisation → Location/Function",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) National Institute of Disaster Management\n(b) Geological Survey of India\n(c) NDRF Regional Headquarters for Andhra Pradesh, Telangana and Karnataka\n(d) National Cyclone Risk Mitigation Project Headquarters\n\nList-II\n(i) Vijayawada — disaster response\n(ii) New Delhi — cyclone-risk mitigation\n(iii) Kolkata — forecasts landslides\n(iv) New Delhi — National Institute of Disaster Management",
+     "options": [
+      "a-i, b-ii, c-iv, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "NIDM is located in New Delhi; GSI forecasts landslides from Kolkata; the NDRF regional headquarters is in Vijayawada and provides disaster response; and NCRMP headquarters is in New Delhi and focuses on cyclone-risk mitigation.",
+     "facts": [
+      "F7",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
+    },
+    {
+     "id": "disaster-management-23-13",
+     "format": "Direct Recall",
+     "keyword": "Organisation → Role",
+     "question": "Which organisation supports disaster awareness and local capabilities?",
+     "options": [
+      "Asian Disaster Preparedness Centre",
+      "National Institute of Disaster Management",
+      "United Nations Office for Disaster Risk Reduction",
+      "Asian Disaster Reduction Center"
+     ],
+     "answer": 0,
+     "explanation": "The Asian Disaster Preparedness Centre supports disaster awareness and local capabilities.",
+     "facts": [
+      "F20"
+     ]
+    },
+    {
+     "id": "disaster-management-23-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Tsunami Early Warning Centre → Location and Function",
+     "question": "Consider the following statements:\nStatement A: The Indian Tsunami Early Warning Centre is located in Hyderabad.\nStatement B: The Indian Tsunami Early Warning Centre provides tsunami early warnings.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true: the Indian Tsunami Early Warning Centre is located in Hyderabad and provides tsunami early warnings.",
+     "facts": [
+      "F3",
+      "F4"
+     ]
+    },
+    {
+     "id": "disaster-management-23-15",
+     "format": "Direct Recall",
+     "keyword": "National Disaster Management Authority → Location and Abbreviation",
+     "question": "Which one of the following correctly identifies the location and abbreviation of the National Disaster Management Authority?",
+     "options": [
+      "New Delhi — NIDM",
+      "Vijayawada — NDRF",
+      "New Delhi — NDMA",
+      "Hyderabad — NDMA"
+     ],
+     "answer": 2,
+     "explanation": "The National Disaster Management Authority is located in New Delhi and is abbreviated as NDMA.",
+     "facts": [
+      "F38",
+      "F41"
+     ]
+    },
+    {
+     "id": "disaster-management-23-16",
+     "format": "Direct Recall",
+     "keyword": "National Institute of Disaster Management → Abbreviation",
+     "question": "The National Institute of Disaster Management is abbreviated as:",
+     "options": [
+      "NCRMP",
+      "NDMA",
+      "NIDM",
+      "NDRF"
+     ],
+     "answer": 2,
+     "explanation": "The National Institute of Disaster Management is abbreviated as NIDM.",
+     "facts": [
+      "F43"
+     ]
+    },
+    {
+     "id": "disaster-management-23-17",
+     "format": "Assertion-Reason",
+     "keyword": "Tsunami Preparedness Organisation",
+     "question": "Assertion (A): The International Tsunami Information Centre supports global tsunami warning and preparedness.\nReason (R): The International Tsunami Information Centre is supported by UNESCO-IOC and NOAA.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the support provided by UNESCO-IOC and NOAA explains the Centre's role in global tsunami warning and preparedness.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     }
    ]
   },
@@ -2772,7 +3738,11 @@
       "15 August 2006"
      ],
      "answer": 2,
-     "explanation": "The Act received Presidential assent on 23 December 2005 and is identified as Act No. 53 of 2005."
+     "explanation": "The Act received Presidential assent on 23 December 2005 and is identified as Act No. 53 of 2005.",
+     "facts": [
+      "F15",
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-24-2",
@@ -2786,7 +3756,13 @@
       "Nodal responsibility shifted from the Department of Agriculture to the Ministry of Home Affairs after the Gujarat earthquake of 2001."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the chairperson. The national NDMA is chaired by the Prime Minister, while the Chief Minister chairs the Andhra Pradesh SDMA."
+     "explanation": "The incorrect detail is the chairperson. The national NDMA is chaired by the Prime Minister, while the Chief Minister chairs the Andhra Pradesh SDMA.",
+     "facts": [
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "disaster-management-24-3",
@@ -2800,7 +3776,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: Section 14 concerns establishment of the SDMA by the Governor, and the SDMA is chaired by the Chief Minister. The chairperson does not explain the Governor’s power to establish it."
+     "explanation": "Both statements are true: Section 14 concerns establishment of the SDMA by the Governor, and the SDMA is chaired by the Chief Minister. The chairperson does not explain the Governor’s power to establish it.",
+     "facts": [
+      "F4",
+      "F24"
+     ]
     },
     {
      "id": "disaster-management-24-4",
@@ -2814,7 +3794,14 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are NDMA–Section 3, NEC–Section 8, NIDM–Section 42 and NDRF–Section 44."
+     "explanation": "The correct pairs are NDMA–Section 3, NEC–Section 8, NIDM–Section 42 and NDRF–Section 44.",
+     "facts": [
+      "F22",
+      "F32",
+      "F35",
+      "F37",
+      "F30"
+     ]
     },
     {
      "id": "disaster-management-24-5",
@@ -2828,7 +3815,13 @@
       "I, II, III and IV"
      ],
      "answer": 3,
-     "explanation": "All four statements are correct. The notes associate these four funds respectively with severe disasters, immediate relief, mitigation measures and state-level mitigation."
+     "explanation": "All four statements are correct. The notes associate these four funds respectively with severe disasters, immediate relief, mitigation measures and state-level mitigation.",
+     "facts": [
+      "F40",
+      "F42",
+      "F44",
+      "F47"
+     ]
     },
     {
      "id": "disaster-management-24-6",
@@ -2842,7 +3835,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Act followed the 2004 Indian Ocean Tsunami and its extent is the whole of India."
+     "explanation": "Both statements are true. The Act followed the 2004 Indian Ocean Tsunami and its extent is the whole of India.",
+     "facts": [
+      "F17",
+      "F20"
+     ]
     },
     {
      "id": "disaster-management-24-7",
@@ -2856,7 +3853,14 @@
       "B, D, A, C"
      ],
      "answer": 3,
-     "explanation": "The sequence is Gujarat earthquake in 2001, Indian Ocean Tsunami in 2004, Presidential assent in 2005, and progressive commencement from 2006 onwards."
+     "explanation": "The sequence is Gujarat earthquake in 2001, Indian Ocean Tsunami in 2004, Presidential assent in 2005, and progressive commencement from 2006 onwards.",
+     "facts": [
+      "F6",
+      "F15",
+      "F16",
+      "F17",
+      "F1"
+     ]
     },
     {
      "id": "disaster-management-24-8",
@@ -2870,7 +3874,170 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed features are included in the recent amendment: UDMAs, statutory status for the NCMC and High Level Committee, emphasis on disaster databases, and alignment with the Sendai Framework."
+     "explanation": "All four listed features are included in the recent amendment: UDMAs, statutory status for the NCMC and High Level Committee, emphasis on disaster databases, and alignment with the Sendai Framework.",
+     "facts": [
+      "F49",
+      "F50",
+      "F52",
+      "F54",
+      "F51",
+      "F53"
+     ]
+    },
+    {
+     "id": "disaster-management-24-9",
+     "format": "List-Matching",
+     "keyword": "Disaster Management Act – Basic Facts",
+     "question": "Match List-I with List-II.\n\nList-I\n a. Full name of the law\n b. Act number\n c. Year of enactment\n d. Legislative level\n\nList-II\n i. National-level legislation\n ii. Act No. 53 of 2005\n iii. 2005\n iv. The Disaster Management Act, 2005",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The full name is The Disaster Management Act, 2005; it is Act No. 53 of 2005, was enacted in 2005, and is national-level legislation.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
+    },
+    {
+     "id": "disaster-management-24-10",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disaster Management Act – Legal Framework",
+     "question": "Consider the following statements:\nStatement A: The Disaster Management Act, 2005 is national-level legislation.\nStatement B: The Act provides a legal and institutional framework for effective disaster management.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: the Act operates as national-level legislation and provides the legal and institutional framework for effective disaster management.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
+    },
+    {
+     "id": "disaster-management-24-11",
+     "format": "List-Matching",
+     "keyword": "Disaster Management Authorities – Levels and Sections",
+     "question": "Match List-I with List-II.\n\nList-I\n a. National Disaster Management Authority (NDMA)\n b. State Disaster Management Authority (SDMA)\n c. District Disaster Management Authority (DDMA)\n d. Chairperson of the DDMA\n\nList-II\n i. National-level authority and apex body for policies, plans and guidelines\n ii. State-level authority established under Section 14\n iii. District-level authority established under Section 25\n iv. District Magistrate or Collector",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "NDMA is the national-level apex authority for policies, plans and guidelines. Section 14 establishes the SDMA, Section 25 establishes the DDMA, and the District Magistrate or Collector chairs the DDMA.",
+     "facts": [
+      "F21",
+      "F23",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F9"
+     ]
+    },
+    {
+     "id": "disaster-management-24-12",
+     "format": "List-Matching",
+     "keyword": "Disaster Management Institutions – Roles",
+     "question": "Match List-I with List-II.\n\nList-I\n a. National Executive Committee (NEC)\n b. National Institute of Disaster Management (NIDM)\n c. National Disaster Response Force (NDRF)\n d. State Disaster Response Force (SDRF)\n\nList-II\n i. State-level response force\n ii. Capacity building, training and research\n iii. Specialised disaster response force\n iv. Assists NDMA and is chaired by the Home Secretary",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The NEC assists NDMA and is chaired by the Home Secretary. NIDM handles capacity building, training and research; NDRF is a specialised disaster response force; and SDRF is a state-level response force.",
+     "facts": [
+      "F31",
+      "F33",
+      "F34",
+      "F36",
+      "F38"
+     ]
+    },
+    {
+     "id": "disaster-management-24-13",
+     "format": "Count-Based",
+     "keyword": "Disaster Management Act – Structure",
+     "question": "How many of the following statements about the structure of the Disaster Management Act, 2005 are correct?\n\n1. The Act contains 11 Chapters.\n2. The Act contains 79 Sections.\n3. The Act contains 8 Chapters.\n4. The Act contains 97 Sections.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements 1 and 2 are correct: the Act contains 11 Chapters and 79 Sections. Statements 3 and 4 alter both figures.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
+    },
+    {
+     "id": "disaster-management-24-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Disaster Management Act – Sections and Funds",
+     "question": "Consider the following statements:\n\nI. Sections 14 and 25 provide the legal basis for state- and district-level planning and coordination by the SDMA and DDMA.\nII. Section 46 provides the legal basis for the National Disaster Response Fund.\nIII. Section 48 provides the legal basis for the State Disaster Response Fund.",
+     "options": [
+      "I and III only",
+      "I, II and III",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All three statements are correct. Sections 14 and 25 concern state- and district-level planning and coordination, while Sections 46 and 48 provide the legal bases for the NDRF and SDRF respectively.",
+     "facts": [
+      "F39",
+      "F41",
+      "F43"
+     ]
+    },
+    {
+     "id": "disaster-management-24-15",
+     "format": "Assertion-Reason",
+     "keyword": "Disaster Management Act – Sections",
+     "question": "Assertion (A): Section 47 provides the legal basis for the National Disaster Mitigation Fund (NDMF).\nReason (R): The National Disaster Mitigation Fund was later operationalised.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Section 47 provides the legal basis for the NDMF, while its later operationalisation is a separate fact and does not explain the legal basis provided by Section 47.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "disaster-management-24-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Disaster Management Act – Recent Amendment",
+     "question": "Consider the following statements:\nStatement A: The recent amendment to the Disaster Management Act is from 2025.\nStatement B: The 2025 amendment updates the definitions of risk and resilience.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. The recent amendment is from 2025 and includes updated definitions of risk, resilience and related terms.",
+     "facts": [
+      "F48",
+      "F55"
+     ]
     }
    ]
   },

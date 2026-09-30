@@ -1130,7 +1130,8 @@
       "F91",
       "F93",
       "F90",
-      "F92"
+      "F92",
+      "F87"
      ]
     },
     {
@@ -1148,7 +1149,8 @@
      "explanation": "Both statements are true. The stated tributary relationships directly establish the chain Rangeet → Teesta → Brahmaputra.",
      "facts": [
       "F38",
-      "F39"
+      "F39",
+      "F37"
      ]
     },
     {
@@ -1189,7 +1191,8 @@
       "F58",
       "F59",
       "F12",
-      "F13"
+      "F13",
+      "F69"
      ]
     },
     {
@@ -1255,6 +1258,280 @@
       "F97",
       "F100",
       "F98"
+     ]
+    },
+    {
+     "id": "indian-geography-2-9",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Tributary",
+     "question": "Consider the following statements:\nI. Yamuna is a right-bank tributary of the Ganga.\nII. Son is a right-bank tributary of the Ganga.\nIII. Damodar flows into the Hugli.\nIV. Chambal is a right-bank tributary of the Yamuna.",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Yamuna and Son are right-bank tributaries of the Ganga, Damodar flows into the Hugli, and Chambal is a right-bank tributary of the Yamuna.",
+     "facts": [
+      "F7",
+      "F9",
+      "F10",
+      "F14"
+     ]
+    },
+    {
+     "id": "indian-geography-2-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Tributary",
+     "question": "Consider the following statements:\nI. Sindh is a right-bank tributary of the Yamuna.\nII. Betwa is a right-bank tributary of the Yamuna.\nIII. Ken is a right-bank tributary of the Yamuna.",
+     "options": [
+      "I and III only",
+      "II and III only",
+      "I, II and III",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "Sindh, Betwa and Ken are all listed as right-bank tributaries of the Yamuna.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-2-11",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Tributary",
+     "question": "Consider the following statements:\nStatement A: Tons is a left-bank tributary of the Yamuna.\nStatement B: Hanuman Ganga and Sasur Khaderi are left-bank tributaries of the Yamuna.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Tons, Hanuman Ganga and Sasur Khaderi are listed as left-bank tributaries of the Yamuna.",
+     "facts": [
+      "F18",
+      "F19",
+      "F20"
+     ]
+    },
+    {
+     "id": "indian-geography-2-12",
+     "format": "List-Matching",
+     "keyword": "River → Tributary Chain",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sindh\n(b) Betwa\n(c) Ken\n(d) Kali Sindh\n\nList-II\n(i) Shown in the tributary chain of Chambal\n(ii) Shown in the tributary chain after Sindh\n(iii) Shown in the tributary chain after Betwa\n(iv) Tributary of Chambal",
+     "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are Sindh–shown in the tributary chain of Chambal, Betwa–after Sindh, Ken–after Betwa, and Kali Sindh–tributary of Chambal.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "indian-geography-2-13",
+     "format": "Count-Based",
+     "keyword": "River → Tributary",
+     "question": "How many of the following are tributaries of the Chambal?\n1. Parvati\n2. Kshipra",
+     "options": [
+      "Only one",
+      "Only two",
+      "Both are not tributaries",
+      "No definite conclusion"
+     ],
+     "answer": 1,
+     "explanation": "Both Parvati and Kshipra are listed as tributaries of the Chambal. Therefore, the number is two.",
+     "facts": [
+      "F25",
+      "F26"
+     ]
+    },
+    {
+     "id": "indian-geography-2-14",
+     "format": "Count-Based",
+     "keyword": "River → Tributary",
+     "question": "How many of the following are major tributaries of the Brahmaputra?\n1. Dibang\n2. Lohit\n3. Subansiri\n4. Sankosh\n5. Manas\n6. Burhi Dihing\n7. Dhansiri",
+     "options": [
+      "Only five",
+      "Only six",
+      "Only seven",
+      "All eight"
+     ],
+     "answer": 2,
+     "explanation": "All seven listed rivers—Dibang, Lohit, Subansiri, Sankosh, Manas, Burhi Dihing and Dhansiri—are major tributaries of the Brahmaputra.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-geography-2-15",
+     "format": "Assertion-Reason",
+     "keyword": "River → Tributary",
+     "question": "Assertion (A): Kameng/Jia Bharali is a major tributary of the Brahmaputra.\nReason (R): Kameng is also called Jia Bharali.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Kameng is also called Jia Bharali, and Kameng/Jia Bharali is listed as a major tributary of the Brahmaputra. The alternate name does not explain why it is a major tributary.",
+     "facts": [
+      "F30",
+      "F31"
+     ]
+    },
+    {
+     "id": "indian-geography-2-16",
+     "format": "List-Matching",
+     "keyword": "River \u001e Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Pravara\n(b) Koyna\n(c) Kopili\n(d) Konar\n\nList-II\n(i) Major tributary of the Brahmaputra\n(ii) Principal tributary of the Godavari\n(iii) Major tributary of the Krishna\n(iv) Tributary of the Damodar",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "Pravara is a principal tributary of the Godavari, Koyna is a major tributary of the Krishna, Kopili is a major tributary of the Brahmaputra, and Konar is a tributary of the Damodar.",
+     "facts": [
+      "F36",
+      "F40",
+      "F51",
+      "F70"
+     ]
+    },
+    {
+     "id": "indian-geography-2-17",
+     "format": "Count-Based",
+     "keyword": "River \u001e Tributary",
+     "question": "How many of the following are principal tributaries of the Godavari?\n\n1. Purna\n2. Manjra, also called Manjira\n3. Penganga\n4. Wardha",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed rivers are principal tributaries of the Godavari. Manjra is also called Manjira.",
+     "facts": [
+      "F41",
+      "F42",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "indian-geography-2-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River \u001e Tributary",
+     "question": "Consider the following statements:\n\nI. Wainganga is a principal tributary of the Godavari.\nII. Pranhita is a principal tributary of the Godavari.\nIII. Indravati is a principal tributary of the Godavari.\nIV. Maner is a principal tributary of the Godavari.\nV. Sabari is a principal tributary of the Godavari.\nVI. Wardha is a principal tributary of the Godavari.",
+     "options": [
+      "I, III, V and VI only",
+      "II, III, IV and V only",
+      "I, II and III only",
+      "I, II, III, IV, V and VI"
+     ],
+     "answer": 3,
+     "explanation": "All six statements are correct: Wainganga, Pranhita, Indravati, Maner, Sabari and Wardha are listed as principal tributaries of the Godavari.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50"
+     ]
+    },
+    {
+     "id": "indian-geography-2-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River \u001e Tributary",
+     "question": "Consider the following statements:\n\nI. Koyna is a major tributary of the Krishna.\nII. Yerla is a major tributary of the Krishna.\nIII. Varna is a major tributary of the Krishna.\nIV. Panchganga is a major tributary of the Krishna.",
+     "options": [
+      "I, III and IV only",
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "Koyna, Yerla, Varna and Panchganga are all listed as major tributaries of the Krishna.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54"
+     ]
+    },
+    {
+     "id": "indian-geography-2-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River \u001e Tributary",
+     "question": "Consider the following statements:\n\nI. Ghataprabha is a major tributary of the Krishna.\nII. Bhima is a major tributary of the Krishna.\nIII. Tungabhadra is a major tributary of the Krishna.\nIV. Tungabhadra flows into the Krishna.",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only",
+      "II, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct. Ghataprabha, Bhima and Tungabhadra are major tributaries of the Krishna, and Tungabhadra flows into the Krishna.",
+     "facts": [
+      "F55",
+      "F56",
+      "F57",
+      "F60"
+     ]
+    },
+    {
+     "id": "indian-geography-2-21",
+     "format": "Direct Recall",
+     "keyword": "River \u001e Tributary",
+     "question": "Seonath is also known as which of the following?",
+     "options": [
+      "Manjira",
+      "Jia Bharali",
+      "Neelum",
+      "Shivnath"
+     ],
+     "answer": 3,
+     "explanation": "Seonath is also called Shivnath.",
+     "facts": [
+      "F61"
+     ]
+    },
+    {
+     "id": "indian-geography-2-22",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River \u001e Tributary",
+     "question": "Consider the following statements:\n\nI. Jamunia is a tributary of the Damodar.\nII. Barki is a tributary of the Damodar.\nIII. Barakar flows into the Damodar.",
+     "options": [
+      "I and II only",
+      "I only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "Jamunia and Barki are tributaries of the Damodar, while Barakar flows into the Damodar.",
+     "facts": [
+      "F71",
+      "F72",
+      "F73"
      ]
     }
    ]

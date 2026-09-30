@@ -646,7 +646,11 @@
       "New York"
      ],
      "answer": 2,
-     "explanation": "The UN Conference on Human Environment was held in Stockholm in 1972 and was the first major global environmental conference."
+     "explanation": "The UN Conference on Human Environment was held in Stockholm in 1972 and was the first major global environmental conference.",
+     "facts": [
+      "F2",
+      "F47"
+     ]
     },
     {
      "id": "environment-8-2",
@@ -660,7 +664,13 @@
       "National Forests were included."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is ‘National Parks were included.’ National Parks were specifically not included in the classification under the National Forest Policy, 1952."
+     "explanation": "The incorrect detail is ‘National Parks were included.’ National Parks were specifically not included in the classification under the National Forest Policy, 1952.",
+     "facts": [
+      "F64",
+      "F65",
+      "F66",
+      "F68"
+     ]
     },
     {
      "id": "environment-8-3",
@@ -674,7 +684,10 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the notes. However, the venue and year of COP 16 identify when and where it was established; they do not explain the purpose or establishment of the Green Climate Fund."
+     "explanation": "Both statements are true according to the notes. However, the venue and year of COP 16 identify when and where it was established; they do not explain the purpose or establishment of the Green Climate Fund.",
+     "facts": [
+      "F61"
+     ]
     },
     {
      "id": "environment-8-4",
@@ -688,7 +701,17 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Indian Forest Act, 1927–forest administration/legal framework; Wildlife Protection Act, 1972–wildlife protection; Forest (Conservation) Act, 1980–regulation of forest-land diversion; Environment Protection Act, 1986–environmental protection."
+     "explanation": "The correct pairs are: Indian Forest Act, 1927–forest administration/legal framework; Wildlife Protection Act, 1972–wildlife protection; Forest (Conservation) Act, 1980–regulation of forest-land diversion; Environment Protection Act, 1986–environmental protection.",
+     "facts": [
+      "F82",
+      "F83",
+      "F84",
+      "F85",
+      "F86",
+      "F87",
+      "F88",
+      "F89"
+     ]
     },
     {
      "id": "environment-8-5",
@@ -702,7 +725,16 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All four statements are stated features or targets of the National Forest Policy, 1988."
+     "explanation": "All four statements are stated features or targets of the National Forest Policy, 1988.",
+     "facts": [
+      "F69",
+      "F75",
+      "F77",
+      "F96",
+      "F72",
+      "F73",
+      "F76"
+     ]
     },
     {
      "id": "environment-8-6",
@@ -716,7 +748,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Reserved Forests have the highest restriction, while Protected Forests are more regulated than Unclassed Forests."
+     "explanation": "Both statements are true. Reserved Forests have the highest restriction, while Protected Forests are more regulated than Unclassed Forests.",
+     "facts": [
+      "F78",
+      "F79",
+      "F80"
+     ]
     },
     {
      "id": "environment-8-7",
@@ -730,7 +767,18 @@
       "B, A, C, D"
      ],
      "answer": 1,
-     "explanation": "The correct sequence is Earth Summit / UNCED (1992), Earth Summit +5 (1997), Rio +10 / WSSD (2002), and Rio +20 / UNCSD (2012)."
+     "explanation": "The correct sequence is Earth Summit / UNCED (1992), Earth Summit +5 (1997), Rio +10 / WSSD (2002), and Rio +20 / UNCSD (2012).",
+     "facts": [
+      "F4",
+      "F5",
+      "F9",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F49",
+      "F53"
+     ]
     }
    ]
   },
@@ -1968,7 +2016,13 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 3,
-     "explanation": "ICFRE is located in Dehradun, IIFM in Bhopal, CAZRI in Jodhpur and BNHS in Mumbai."
+     "explanation": "ICFRE is located in Dehradun, IIFM in Bhopal, CAZRI in Jodhpur and BNHS in Mumbai.",
+     "facts": [
+      "F14",
+      "F16",
+      "F18",
+      "F22"
+     ]
     },
     {
      "id": "environment-23-2",
@@ -1982,7 +2036,11 @@
       "Indian Institute of Forest Management, 1982"
      ],
      "answer": 2,
-     "explanation": "FRI's roots are traced to the Imperial Forest Research Institute, established in 1906."
+     "explanation": "FRI's roots are traced to the Imperial Forest Research Institute, established in 1906.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "environment-23-3",
@@ -1996,7 +2054,13 @@
       "INCOIS was established in 1998."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is the year: INCOIS was established in 1999, not 1998."
+     "explanation": "The incorrect detail is the year: INCOIS was established in 1999, not 1998.",
+     "facts": [
+      "F23",
+      "F24",
+      "F66",
+      "F67"
+     ]
     },
     {
      "id": "environment-23-4",
@@ -2010,7 +2074,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. However, the Board's advisory role does not explain the specific year and Act under which it was established."
+     "explanation": "Both statements are true. However, the Board's advisory role does not explain the specific year and Act under which it was established.",
+     "facts": [
+      "F40",
+      "F41",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "environment-23-5",
@@ -2024,7 +2094,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct according to the notes. TRAFFIC is an alliance of WWF and IUCN, while BirdLife International identifies Important Bird and Biodiversity Areas."
+     "explanation": "Both statements are correct according to the notes. TRAFFIC is an alliance of WWF and IUCN, while BirdLife International identifies Important Bird and Biodiversity Areas.",
+     "facts": [
+      "F49",
+      "F51"
+     ]
     },
     {
      "id": "environment-23-6",
@@ -2038,7 +2112,13 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Climate-change assessment is associated with IPCC, not WWF."
+     "explanation": "Statements I, II and III are correct. Climate-change assessment is associated with IPCC, not WWF.",
+     "facts": [
+      "F53",
+      "F55",
+      "F56",
+      "F58"
+     ]
     },
     {
      "id": "environment-23-7",
@@ -2052,7 +2132,10 @@
       "Trade-related monitoring of plants and animals"
      ],
      "answer": 3,
-     "explanation": "TRAFFIC is associated with trade-related monitoring of plants and animals."
+     "explanation": "TRAFFIC is associated with trade-related monitoring of plants and animals.",
+     "facts": [
+      "F47"
+     ]
     }
    ]
   },

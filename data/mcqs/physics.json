@@ -404,7 +404,8 @@
      "answer": 1,
      "explanation": "The conversion given is 1 atm = 1.013 × 10⁵ Pa.",
      "facts": [
-      "F66"
+      "F66",
+      "F11"
      ]
     },
     {
@@ -424,7 +425,8 @@
       "F61",
       "F67",
       "F68",
-      "F63"
+      "F63",
+      "F11"
      ]
     },
     {
@@ -562,7 +564,8 @@
       "F18",
       "F19",
       "F20",
-      "F21"
+      "F21",
+      "F44"
      ]
     },
     {
@@ -581,7 +584,8 @@
      "facts": [
       "F22",
       "F23",
-      "F27"
+      "F27",
+      "F44"
      ]
     },
     {
@@ -598,7 +602,9 @@
      "answer": 0,
      "explanation": "Both statements are true. The SI unit and its expression establish the volt as the unit used for potential difference or electromotive force.",
      "facts": [
-      "F29"
+      "F29",
+      "F13",
+      "F44"
      ]
     },
     {
@@ -655,10 +661,181 @@
      "answer": 2,
      "explanation": "Frequency is measured in hertz (Hz).",
      "facts": [
-      "F15"
+      "F15",
+      "F14"
+     ]
+    },
+    {
+     "id": "physics-5-16",
+     "format": "Direct Recall",
+     "keyword": "Unit",
+     "question": "The SI unit of electric charge is:",
+     "options": [
+      "Coulomb (C)",
+      "Volt (V)",
+      "Ohm (Ω)",
+      "Hertz (Hz)"
+     ],
+     "answer": 0,
+     "explanation": "Electric charge is measured in coulomb, represented by C.",
+     "facts": [
+      "F12"
+     ]
+    },
+    {
+     "id": "physics-5-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Terms",
+     "question": "Consider the following statements:\nI. The dimension symbol for thermodynamic temperature is Θ or K.\nII. The dimension symbol for amount of substance is N or mol.\nIII. The dimension symbol for luminous intensity is J or cd.\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 1,
+     "explanation": "The dimension symbols given are Θ or K for thermodynamic temperature, N or mol for amount of substance, and J or cd for luminous intensity.",
+     "facts": [
+      "F46",
+      "F48",
+      "F50"
+     ]
+    },
+    {
+     "id": "physics-5-18",
+     "format": "List-Matching",
+     "keyword": "Conversion",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Kilometre\n(b) Centimetre\n(c) Millimetre\n(d) Astronomical unit (AU)\n\nList-II\ni. 10⁻² m\nii. 1.496 × 10¹¹ m\niii. 10⁻³ m\niv. 10³ m",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-i, c-iii, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-ii, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The correct conversions are 1 km = 10³ m, 1 cm = 10⁻² m, 1 mm = 10⁻³ m and 1 AU ≈ 1.496 × 10¹¹ m.",
+     "facts": [
+      "F52",
+      "F53",
+      "F54",
+      "F59"
+     ]
+    },
+    {
+     "id": "physics-5-19",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Conversion",
+     "question": "Consider the following statements:\nI. One gram equals 10⁻³ kilograms.\nII. One hour equals 3600 seconds.\nIII. One electronvolt equals 1.6 × 10⁻¹⁹ joules.\nIV. One calorie equals 4.186 joules.\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four conversions are stated correctly: gram to kilogram, hour to second, electronvolt to joule, and calorie to joule.",
+     "facts": [
+      "F60",
+      "F62",
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "physics-5-20",
+     "format": "Direct Recall",
+     "keyword": "Conversion",
+     "question": "One erg is equal to:",
+     "options": [
+      "10⁻⁷ joules",
+      "10⁻⁵ newtons",
+      "4.186 joules",
+      "1.6 × 10⁻¹⁹ joules"
+     ],
+     "answer": 0,
+     "explanation": "The conversion given is 1 erg = 10⁻⁷ joules.",
+     "facts": [
+      "F69"
+     ]
+    },
+    {
+     "id": "physics-5-21",
+     "format": "Assertion-Reason",
+     "keyword": "Planck length",
+     "question": "Assertion (A): The theoretical smallest practical unit of length is Planck length, approximately 1.6 × 10⁻³⁵ metres.\nReason (R): The theoretical smallest practical unit of time is Planck time, approximately 5.4 × 10⁻⁴⁴ seconds.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true, but the value and identity of Planck time do not explain the value of Planck length.",
+     "facts": [
+      "F70",
+      "F71"
+     ]
+    },
+    {
+     "id": "physics-5-22",
+     "format": "List-Matching",
+     "keyword": "Largest Unit",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Quecto\n(b) Elementary charge\n(c) Quetta\n(d) Observable universe diameter\n\nList-II\ni. Approximately 10²⁶ m\nii. Approximately 1.6 × 10⁻¹⁹ C\niii. 10³⁰\niv. 10⁻³⁰",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 1,
+     "explanation": "Quecto represents 10⁻³⁰, elementary charge is approximately 1.6 × 10⁻¹⁹ C, quetta represents 10³⁰, and the observable universe diameter is approximately 10²⁶ m.",
+     "facts": [
+      "F72",
+      "F73",
+      "F75",
+      "F76"
+     ]
+    },
+    {
+     "id": "physics-5-23",
+     "format": "Count-Based",
+     "keyword": "Mass",
+     "question": "How many of the following are astronomical mass units?\n1. Solar mass\n2. Galactic masses\n3. TeV scale\n4. Observable universe diameter",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Solar mass and galactic masses are astronomical mass units. The TeV scale is a particle-physics energy scale, while observable universe diameter is a cosmological length.",
+     "facts": [
+      "F77"
+     ]
+    },
+    {
+     "id": "physics-5-24",
+     "format": "Direct Recall",
+     "keyword": "Energy",
+     "question": "The particle-physics energy scale associated with the LHC is the:",
+     "options": [
+      "Planck scale",
+      "Solar-mass scale",
+      "TeV scale",
+      "Quetta scale"
+     ],
+     "answer": 2,
+     "explanation": "The particle-physics energy scale is the TeV scale at the LHC.",
+     "facts": [
+      "F78"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 78,
+    "covered": 78,
+    "audited": true
+   }
   },
   "6": {
    "number": 6,
@@ -687,7 +864,9 @@
      "explanation": "A galvanometer measures small current and detects current. An ammeter measures electric current, while a voltmeter measures potential difference.",
      "facts": [
       "F16",
-      "F17"
+      "F17",
+      "F14",
+      "F15"
      ]
     },
     {
@@ -708,7 +887,8 @@
       "F40",
       "F41",
       "F43",
-      "F44"
+      "F44",
+      "F42"
      ]
     },
     {
@@ -749,7 +929,10 @@
       "F35",
       "F36",
       "F37",
-      "F38"
+      "F38",
+      "F6",
+      "F7",
+      "F21"
      ]
     },
     {
@@ -828,10 +1011,318 @@
       "F57",
       "F58",
       "F59",
-      "F60"
+      "F60",
+      "F1",
+      "F5",
+      "F8",
+      "F42",
+      "F64"
+     ]
+    },
+    {
+     "id": "physics-6-9",
+     "format": "List-Matching",
+     "keyword": "Instrument → Quantity Measured",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Vernier calipers\n(b) Stopwatch or clock\n(c) Spring balance\n(d) Beam balance or electronic balance\n\nList-II\n(i) Mass\n(ii) Time\n(iii) External diameter\n(iv) Force",
+     "options": [
+      "a-iv, b-i, c-ii, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iii, b-ii, c-iv, d-i",
+      "a-i, b-iv, c-iii, d-ii"
+     ],
+     "answer": 2,
+     "explanation": "A vernier caliper measures external diameter, a stopwatch or clock measures time, a spring balance measures force, and a beam or electronic balance measures mass.",
+     "facts": [
+      "F2",
+      "F9",
+      "F10",
+      "F12"
+     ]
+    },
+    {
+     "id": "physics-6-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Instrument → Quantity Measured",
+     "question": "Consider the following statements:\n\nI. A vernier caliper measures internal diameter.\nII. A vernier caliper measures depth.\nIII. A spring balance measures weight.\nIV. A thermometer measures temperature.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I and II only",
+      "II and III only",
+      "I, II, III and IV",
+      "I, II and IV only"
+     ],
+     "answer": 2,
+     "explanation": "All four statements are correct: vernier calipers measure internal diameter and depth, a spring balance measures weight, and a thermometer measures temperature.",
+     "facts": [
+      "F3",
+      "F4",
+      "F11",
+      "F13"
+     ]
+    },
+    {
+     "id": "physics-6-11",
+     "format": "List-Matching",
+     "keyword": "Instrument → Application",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Manometer\n(b) Sextant\n(c) Spectrometer\n(d) Vernier calipers\n\nList-II\n(i) Spectrum\n(ii) Dimensions of solids up to approximately 15–30 cm\n(iii) Pressure difference\n(iv) Angular quantities in astronomy or navigation",
+     "options": [
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "A manometer measures pressure difference, a sextant measures angular quantities in astronomy or navigation, a spectrometer measures spectrum, and vernier calipers measure solid dimensions up to approximately 15–30 cm.",
+     "facts": [
+      "F19",
+      "F20",
+      "F22",
+      "F23"
+     ]
+    },
+    {
+     "id": "physics-6-12",
+     "format": "Direct Recall",
+     "keyword": "Least Count",
+     "question": "The least count of a screw gauge is:",
+     "options": [
+      "15–30 cm",
+      "1 mm",
+      "0.1 mm",
+      "0.01 mm"
+     ],
+     "answer": 3,
+     "explanation": "The least count of a screw gauge is 0.01 mm.",
+     "facts": [
+      "F27"
+     ]
+    },
+    {
+     "id": "physics-6-13",
+     "format": "Direct Recall",
+     "keyword": "Least Count",
+     "question": "Which of the following represents the possible least count of a vernier caliper?",
+     "options": [
+      "0.1 mm or 0.01 mm",
+      "1 cm or 10 cm",
+      "15–30 cm",
+      "0.01 mm only"
+     ],
+     "answer": 0,
+     "explanation": "The least count of a vernier caliper can be 0.1 mm or 0.01 mm.",
+     "facts": [
+      "F24"
+     ]
+    },
+    {
+     "id": "physics-6-14",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Instrument → Application and Principle",
+     "question": "Consider the following statements:\n\nI. A meter box bridge is used for resistance measurement.\nII. A post-office bridge is used for resistance measurement.\nIII. A potentiometer uses null deflection.\nIV. An ammeter and a voltmeter work on the magnetic effect of current.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "I, II and III only",
+      "II and III only",
+      "I, II, III and IV",
+      "I and II only"
+     ],
+     "answer": 2,
+     "explanation": "The meter box bridge and post-office bridge are used for resistance measurement, a potentiometer uses null deflection, and both an ammeter and a voltmeter work on the magnetic effect of current.",
+     "facts": [
+      "F28",
+      "F29",
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "physics-6-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Instrument → Principle",
+     "question": "Consider the following statements:\n\nStatement A: An ammeter or voltmeter uses a moving coil.\nStatement B: A thermometer works on the thermal expansion of a liquid or gas.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. A moving coil is used in an ammeter or voltmeter, while a thermometer works through thermal expansion of a liquid or gas.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "physics-6-16",
+     "format": "Assertion-Reason",
+     "keyword": "Instrument → Principle",
+     "question": "Assertion (A): A galvanometer works on the torque on a current-carrying coil in a magnetic field.\nReason (R): The operating principle of a galvanometer involves torque on a current-carrying coil in a magnetic field.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both the assertion and reason are true, and the reason directly states the principle on which a galvanometer works.",
+     "facts": [
+      "F51"
+     ]
+    },
+    {
+     "id": "physics-6-17",
+     "format": "List-Matching",
+     "keyword": "Scale → Measurement",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Celsius scale\n(b) Fahrenheit scale\n(c) Kelvin scale\n(d) Circular scale\n\nList-II\n(i) Temperature\n(ii) Angular measurement or screw gauge\n(iii) Temperature\n(iv) Temperature",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The Celsius, Fahrenheit and Kelvin scales measure temperature. The circular scale is used for angular measurement or in a screw gauge.",
+     "facts": [
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "physics-6-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Scale → Unit",
+     "question": "Consider the following statements:\nI. A metre scale is graduated in metres.\nII. A metre scale is graduated in centimetres.\nIII. A metre scale is graduated in millimetres.",
+     "options": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "answer": 0,
+     "explanation": "A metre scale is graduated in metres, centimetres and millimetres.",
+     "facts": [
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "physics-6-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Least Count",
+     "question": "Consider the following statements:\nStatement A: The least count of a vernier scale is usually 0.1 mm or 0.01 mm.\nStatement B: The typical least count of a screw gauge circular scale is 0.01 mm.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The usual least count of a vernier scale is 0.1 mm or 0.01 mm, while the typical least count of a screw gauge circular scale is 0.01 mm.",
+     "facts": [
+      "F65",
+      "F66"
+     ]
+    },
+    {
+     "id": "physics-6-20",
+     "format": "Count-Based",
+     "keyword": "Temperature Scale → Unit",
+     "question": "How many of the following scale–unit pairings are correct?\nI. Celsius scale — °C\nII. Kelvin scale — K\nIII. Fahrenheit scale — °F",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 2,
+     "explanation": "All three listed pairings are correct: Celsius uses °C, Kelvin uses K and Fahrenheit uses °F.",
+     "facts": [
+      "F67",
+      "F68",
+      "F69"
+     ]
+    },
+    {
+     "id": "physics-6-21",
+     "format": "List-Matching",
+     "keyword": "SI Standard → Measurement",
+     "question": "Match List-I with List-II.\n\nList-I\n(a) Length\n(b) Mass\n(c) Time\n(d) Temperature\n\nList-II\n(i) Metre\n(ii) Kilogram\n(iii) Second\n(iv) Kelvin",
+     "options": [
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "The SI standards are metre for length, kilogram for mass, second for time and kelvin for temperature.",
+     "facts": [
+      "F70",
+      "F72",
+      "F74",
+      "F78"
+     ]
+    },
+    {
+     "id": "physics-6-22",
+     "format": "Assertion-Reason",
+     "keyword": "Amount of Substance",
+     "question": "Assertion (A): The SI standard for amount of substance is the mole.\nReason (R): The mole is defined using the fixed Avogadro constant N_A = 6.02214076 × 10²³ mol⁻¹.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The mole is the SI standard for amount of substance and is defined using the fixed Avogadro constant.",
+     "facts": [
+      "F80",
+      "F81"
+     ]
+    },
+    {
+     "id": "physics-6-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "SI Definitions",
+     "question": "Consider the following statements:\nI. The kilogram is defined using the fixed value of Planck constant h = 6.62607015 × 10⁻³⁴ J s.\nII. The second is defined as 9192631770 periods of radiation from the Cs-133 hyperfine transition.",
+     "options": [
+      "I only",
+      "Neither I nor II",
+      "Both I and II",
+      "II only"
+     ],
+     "answer": 2,
+     "explanation": "Both statements correctly state the SI definitions of the kilogram and the second.",
+     "facts": [
+      "F73",
+      "F75"
+     ]
+    },
+    {
+     "id": "physics-6-24",
+     "format": "Direct Recall",
+     "keyword": "SI Standard → Luminous Intensity",
+     "question": "What is the SI standard for luminous intensity?",
+     "options": [
+      "Candela",
+      "Mole",
+      "Ampere",
+      "Kelvin"
+     ],
+     "answer": 0,
+     "explanation": "The candela is the SI standard for luminous intensity.",
+     "facts": [
+      "F82"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 83,
+    "covered": 83,
+    "audited": true
+   }
   },
   "7": {
    "number": 7,

@@ -538,8 +538,290 @@
       "F38",
       "F40"
      ]
+    },
+    {
+     "id": "ap-geography-3-19",
+     "format": "Direct Recall",
+     "keyword": "River → Tributary",
+     "question": "The Bharadwaja branch of the Godavari is associated with which place?",
+     "options": [
+      "Yanam",
+      "Antarvedi",
+      "Komarigiripatnam",
+      "Bendamoorlanka"
+     ],
+     "answer": 3,
+     "explanation": "The Bharadwaja branch of the Godavari is associated with Bendamoorlanka.",
+     "facts": [
+      "F7"
+     ]
+    },
+    {
+     "id": "ap-geography-3-20",
+     "format": "Direct Recall",
+     "keyword": "River → Origin [LOCATION]",
+     "question": "The Tungabhadra originates in which of the following?",
+     "options": [
+      "Jayapur Hills of Odisha",
+      "Nallamala forests of Kurnool district",
+      "Varaha Mountains of the Western Ghats",
+      "Rayagarh Hills of Odisha"
+     ],
+     "answer": 2,
+     "explanation": "The Tungabhadra originates in the Varaha Mountains of the Western Ghats.",
+     "facts": [
+      "F21"
+     ]
+    },
+    {
+     "id": "ap-geography-3-21",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River → Origin [LOCATION]",
+     "question": "Consider the following statements:\nStatement A: The Nagavali originates in the Rayagarh Hills of Odisha.\nStatement B: The Nagavali enters Andhra Pradesh in Srikakulam district.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Nagavali originates in the Rayagarh Hills of Odisha and enters Andhra Pradesh in Srikakulam district.",
+     "facts": [
+      "F42",
+      "F43"
+     ]
+    },
+    {
+     "id": "ap-geography-3-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River course",
+     "question": "Consider the following statements:\nStatement A: The Machkhand initially flows northward.\nStatement B: The Machkhand then flows eastward.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Machkhand initially flows northward and then flows eastward.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "ap-geography-3-23",
+     "format": "List-Matching",
+     "keyword": "River → Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Sabari's relation to the Sileru\n(b) Origin of the Sileru\n(c) Course of the Sileru\n(d) Place where the Sileru joins the Sabari\n\nList-II\n(i) Tri-junction of Andhra Pradesh, Chhattisgarh and Odisha\n(ii) Tributary of the Sileru\n(iii) Andhra Pradesh\n(iv) Odisha",
+     "options": [
+      "a-ii, b-iii, c-iv, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+     ],
+     "answer": 0,
+     "explanation": "The Sabari is a tributary of the Sileru; the Sileru originates in Andhra Pradesh, flows through Odisha, and joins the Sabari at the tri-junction of Andhra Pradesh, Chhattisgarh and Odisha.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "ap-geography-3-24",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River → Tributary",
+     "question": "Consider the following statements:\nI. The upper reaches of the Sileru are called Machkand.\nII. The Sabari is a main tributary of the Godavari.\nIII. The Sabari originates in the Sinkaram Hill ranges of Odisha.\nIV. The Sileru is a major tributary of the Sabari.",
+     "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and III only",
+      "II and IV only"
+     ],
+     "answer": 0,
+     "explanation": "All four statements are correct: the upper Sileru is called Machkand, while the Sabari is a main Godavari tributary originating in the Sinkaram Hill ranges; the Sileru is a major tributary of the Sabari.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59",
+      "F61"
+     ]
+    },
+    {
+     "id": "ap-geography-3-25",
+     "format": "Direct Recall",
+     "keyword": "River → Origin [LOCATION]",
+     "question": "The Gundlakamma originates in which of the following?",
+     "options": [
+      "Sinkaram Hill ranges of Odisha",
+      "Rayagarh Hills of Odisha",
+      "Nallamala forests of Kurnool district",
+      "Narayanavanam Protected Forest of Chittoor district"
+     ],
+     "answer": 2,
+     "explanation": "The Gundlakamma originates in the Nallamala forests of Kurnool district.",
+     "facts": [
+      "F62"
+     ]
+    },
+    {
+     "id": "ap-geography-3-26",
+     "format": "Multi-Statement Correctness",
+     "keyword": "River course",
+     "question": "Consider the following statements about the Arani:\nI. It is 108 km long.\nII. It originates at Sadasivakonda in the Narayanavanam Protected Forest of Chittoor district.\nIII. It flows southward and then eastward.\nIV. It joins the south-western tip of Pulicat Lake.",
+     "options": [
+      "II, III and IV only",
+      "I, II and III only",
+      "I, II and IV only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. The Arani is 108 km long, originates at Sadasivakonda in Chittoor district, flows southward and then eastward, and joins the south-western tip of Pulicat Lake.",
+     "facts": [
+      "F65",
+      "F66",
+      "F67",
+      "F68",
+      "F69"
+     ]
+    },
+    {
+     "id": "ap-geography-3-27",
+     "format": "Count-Based",
+     "keyword": "River → Tributary",
+     "question": "How many of the following statements about the Champavathi are correct?\n1. It originates near Andra village.\n2. It joins the Bay of Bengal near Konada.\n3. Eduvampula Gedda is its tributary.\n4. Chitti Gedda is its tributary.\n5. Pothula Gedda is its tributary.",
+     "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+     ],
+     "answer": 3,
+     "explanation": "All five statements are correct. The Champavathi originates near Andra village, joins the Bay of Bengal near Konada, and has Eduvampula Gedda, Chitti Gedda and Pothula Gedda among its tributaries.",
+     "facts": [
+      "F70",
+      "F71",
+      "F72",
+      "F73",
+      "F74"
+     ]
+    },
+    {
+     "id": "ap-geography-3-28",
+     "format": "List-Matching",
+     "keyword": "River \u001e Tributary",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Gadi Gedda\n(b) Denkada check dam\n(c) Tarakarama Thirtha Sagaram\n(d) Kumili Dam\n\nList-II\n(i) A tributary of the Champavathi\n(ii) A check dam on the Champavathi near Saripalli in Vizianagaram\n(iii) Another project on the Champavathi\n(iv) Another project on the Champavathi",
+     "options": [
+      "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "Gadi Gedda is a tributary of the Champavathi. The Denkada check dam is on the Champavathi near Saripalli in Vizianagaram, while Tarakarama Thirtha Sagaram and Kumili Dam are other projects on the river.",
+     "facts": [
+      "F75",
+      "F76",
+      "F77",
+      "F78"
+     ]
+    },
+    {
+     "id": "ap-geography-3-29",
+     "format": "Assertion-Reason",
+     "keyword": "River \u001e Direction / Origin",
+     "question": "Assertion (A): The Gosthani is an east-flowing river.\nReason (R): The Gosthani originates in the Anantagiri Hills of the Eastern Ghats.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Gosthani is east-flowing and originates in the Anantagiri Hills of the Eastern Ghats. However, its origin does not explain the stated direction of flow.",
+     "facts": [
+      "F79",
+      "F80"
+     ]
+    },
+    {
+     "id": "ap-geography-3-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River \u001e Length / Basin",
+     "question": "Consider the following statements:\nStatement A: The Gosthani is 120 km long.\nStatement B: Three percent of Visakhapatnam district lies in the Gosthani basin.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "The Gosthani is 120 km long, and 3 percent of Visakhapatnam district lies in its basin.",
+     "facts": [
+      "F81",
+      "F83"
+     ]
+    },
+    {
+     "id": "ap-geography-3-31",
+     "format": "Statement-Based (A/B)",
+     "keyword": "River Basin \u001e Temple Location",
+     "question": "Consider the following statements:\nStatement A: The Tirumala temples are located in the Swarnamukhi basin.\nStatement B: The Srikalahasthi temples are located in the Swarnamukhi basin.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both the Tirumala temples and the Srikalahasthi temples are located in the Swarnamukhi basin.",
+     "facts": [
+      "F84",
+      "F85"
+     ]
+    },
+    {
+     "id": "ap-geography-3-32",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Dam/Reservoir \u001e Location",
+     "question": "Which of the following statements is incorrect?",
+     "options": [
+      "The Kalyani Dam is on the Kalyani tributary of the Swarnamukhi.",
+      "The Kalyani Dam is associated with the Kalyani tributary.",
+      "The Kalyani is a tributary associated with the Kalyani Dam.",
+      "The Kalyani Dam is on the Kalyani tributary of the Gosthani."
+     ],
+     "answer": 3,
+     "explanation": "The incorrect statement is the second one. The Kalyani Dam is on the Kalyani tributary of the Swarnamukhi, not of the Gosthani.",
+     "facts": [
+      "F87"
+     ]
+    },
+    {
+     "id": "ap-geography-3-33",
+     "format": "Direct Recall",
+     "keyword": "Dam/Reservoir \u001e River",
+     "question": "The Tammileru Dam is constructed on which of the following?",
+     "options": [
+      "Gosthani",
+      "Champavathi",
+      "Tammileru",
+      "Kalyani"
+     ],
+     "answer": 2,
+     "explanation": "The Tammileru Dam is constructed on the Tammileru.",
+     "facts": [
+      "F90"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 90,
+    "covered": 90,
+    "audited": true
+   }
   },
   "4": {
    "number": 4,

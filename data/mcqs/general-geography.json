@@ -9578,8 +9578,273 @@
      "facts": [
       "F59"
      ]
+    },
+    {
+     "id": "general-geography-8-9",
+     "format": "Direct Recall",
+     "keyword": "Air Mass – Formation and Movement",
+     "question": "Which sequence correctly describes the formation and movement of an air mass?",
+     "options": [
+      "It forms only over oceans and remains unchanged while moving over land",
+      "It forms at a front and moves towards its source region without modification",
+      "It forms over a source region with uniform surface properties and travels away from it, undergoing modification",
+      "It forms over a region with contrasting surface properties and becomes uniform after movement"
+     ],
+     "answer": 2,
+     "explanation": "An air mass forms over a source region with uniform surface properties. As it travels away from that region, it gets modified.",
+     "facts": [
+      "F2",
+      "F5"
+     ]
+    },
+    {
+     "id": "general-geography-8-10",
+     "format": "Direct Recall",
+     "keyword": "Air Mass – Classification",
+     "question": "Which of the following correctly identifies Arctic and Antarctic air masses?",
+     "options": [
+      "They are warm and moist and are designated mT",
+      "They are extremely cold and dry and are designated cA or cAA",
+      "They are warm and dry and are designated cT",
+      "They are cold and moist and are designated mP"
+     ],
+     "answer": 1,
+     "explanation": "Arctic and Antarctic air masses are extremely cold and dry. Their designations are cA or cAA.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
+    },
+    {
+     "id": "general-geography-8-11",
+     "format": "Assertion-Reason",
+     "keyword": "Air Mass – Modification",
+     "question": "Assertion (A): An air mass loses its original characteristics as it moves away from its source region.\nReason (R): Vertical mixing alters the temperature and humidity profile of an air mass.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Movement away from the source region causes loss of original characteristics, while vertical mixing alters the temperature and humidity profile; the reason does not directly explain the assertion.",
+     "facts": [
+      "F17",
+      "F22"
+     ]
+    },
+    {
+     "id": "general-geography-8-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Uplift → Weather Chain",
+     "question": "Consider the following statements:\nI. The uplift of warm air produces cooling.\nII. Cooling produces condensation.\nIII. Condensation produces clouds and precipitation.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "I, II and III",
+      "II and III only"
+     ],
+     "answer": 2,
+     "explanation": "The uplift chain proceeds from uplift of warm air to cooling, then condensation, followed by clouds and precipitation. Therefore, all three statements are correct.",
+     "facts": [
+      "F26",
+      "F27",
+      "F28"
+     ]
+    },
+    {
+     "id": "general-geography-8-13",
+     "format": "List-Matching",
+     "keyword": "Fronts – Formation and Weather Outcome",
+     "question": "Match List-I with List-II.\n\nList-I (Front Type)\na. Warm front\nb. Cold front\nc. Occluded front\nd. Stationary front\n\nList-II (Description and Outcome)\ni. Cold air undercuts warm air; steep uplift\n ii. Neither air mass advances; prolonged cloudy and rainy conditions\n iii. Warm air advances over cold air; gradual uplift\n iv. Cold front overtakes warm front; complex weather and often prolonged precipitation",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-iii, b-i, c-iv, d-ii"
+     ],
+     "answer": 3,
+     "explanation": "The correct pairs are: warm front—warm air advances over cold air and produces gradual uplift; cold front—cold air undercuts warm air and produces steep uplift; occluded front—cold front overtakes warm front; stationary front—neither air mass advances and cloudy, rainy conditions persist.",
+     "facts": [
+      "F29",
+      "F30",
+      "F32",
+      "F33",
+      "F35",
+      "F36",
+      "F37",
+      "F39"
+     ]
+    },
+    {
+     "id": "general-geography-8-14",
+     "format": "Assertion-Reason",
+     "keyword": "Uplift → Dew Point",
+     "question": "Assertion (A): Condensation begins when air cools to the dew point.\nReason (R): Adiabatic cooling causes temperature to fall to the dew point.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true, and the fall of temperature to the dew point through adiabatic cooling explains why condensation begins at that stage.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "general-geography-8-15",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Condensation → Cloud Formation",
+     "question": "Consider the following statements:\nStatement A: Condensation changes water vapour into liquid or ice particles.\nStatement B: Cloud formation results from condensation.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Condensation changes water vapour into liquid or ice particles, and cloud formation results from this condensation. Hence, both statements are true.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "general-geography-8-16",
+     "format": "Count-Based",
+     "keyword": "Precipitation – Forms",
+     "question": "How many of the following statements correctly describe precipitation?\n1. Precipitation occurs when droplets grow and fall.\n2. Precipitation may produce rain, snow or sleet.\n3. Precipitation begins when air cools to the dew point.\n4. Precipitation is the process by which water vapour changes into liquid or ice particles.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 1,
+     "explanation": "Statements 1 and 2 correctly describe precipitation. Cooling to the dew point and the conversion of water vapour into liquid or ice particles describe stages of condensation, not precipitation itself.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
+    },
+    {
+     "id": "general-geography-8-17",
+     "format": "Direct Recall",
+     "keyword": "Uplift → Weather Chain",
+     "question": "Which of the following is included in the final impact of the uplift chain?",
+     "options": [
+      "Only the formation of liquid water particles",
+      "Only a fall in temperature and a rise in pressure",
+      "Only prolonged cloudy and rainy conditions",
+      "Changes in wind, temperature, humidity and pressure"
+     ],
+     "answer": 3,
+     "explanation": "The final impact of the uplift chain includes changes in wind, temperature, humidity and pressure.",
+     "facts": [
+      "F47"
+     ]
+    },
+    {
+     "id": "general-geography-8-18",
+     "format": "Direct Recall",
+     "keyword": "Air Mass – Climatic Role",
+     "question": "Air masses exert major control over which combination of atmospheric conditions?",
+     "options": [
+      "Only humidity and ocean currents",
+      "Only pressure and landform development",
+      "Temperature, humidity, stability and precipitation",
+      "Only wind direction and cloud colour"
+     ],
+     "answer": 2,
+     "explanation": "Air masses are a major control on temperature, humidity, stability and precipitation.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "general-geography-8-19",
+     "format": "Assertion-Reason",
+     "keyword": "Weather systems / climatic patterns",
+     "question": "Assertion (A): The final impact of the uplift chain includes changes in weather systems and climatic patterns.\nReason (R): A new air mass can cause a sudden rise or fall in temperature.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Changes caused by a new air mass are one atmospheric effect, but the sudden temperature change does not by itself explain the entire final impact on weather systems and climatic patterns.",
+     "facts": [
+      "F48",
+      "F49"
+     ]
+    },
+    {
+     "id": "general-geography-8-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Rainfall / Seasonal character",
+     "question": "Consider the following statements:\nStatement A: Frontal uplift produces cyclonic or frontal rainfall.\nStatement B: Seasonal shifts in air masses produce seasonal climatic changes.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: frontal uplift produces cyclonic or frontal rainfall, while seasonal shifts in air masses produce seasonal climatic changes.",
+     "facts": [
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "general-geography-8-21",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Seasonal character / Regional climate",
+     "question": "Consider the following statements:\nI. Monsoon winds are an example of seasonal shifts in air masses.\nII. Persistent air-mass influence creates characteristic regional climates.\nIII. Maritime and continental climates are examples of characteristic regional climates.\n\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Monsoon winds illustrate seasonal shifts in air masses, and persistent air-mass influence creates regional climates such as maritime and continental climates.",
+     "facts": [
+      "F52",
+      "F57",
+      "F58"
+     ]
+    },
+    {
+     "id": "general-geography-8-22",
+     "format": "Count-Based",
+     "keyword": "Extreme weather",
+     "question": "How many of the following weather conditions can be produced by air masses and fronts?\n1. Cold waves\n2. Heat waves\n3. Thunderstorms\n4. Blizzards",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four listed conditions—cold waves, heat waves, thunderstorms and blizzards—can be produced by air masses and fronts.",
+     "facts": [
+      "F53",
+      "F54",
+      "F55",
+      "F56"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 59,
+    "covered": 59,
+    "audited": true
+   }
   },
   "9": {
    "number": 9,
@@ -9851,7 +10116,9 @@
       "F1",
       "F2",
       "F4",
-      "F7"
+      "F7",
+      "F81",
+      "F89"
      ]
     },
     {
@@ -9869,7 +10136,8 @@
      "explanation": "Both statements correctly describe the nature of a thunderstorm and a tornado or twister.",
      "facts": [
       "F8",
-      "F10"
+      "F10",
+      "F89"
      ]
     },
     {
@@ -9984,10 +10252,131 @@
      "explanation": "Temperate or extratropical cyclones mainly occur between approximately 35° and 65° in both hemispheres, and fronts are their associated feature.",
      "facts": [
       "F57",
-      "F61"
+      "F61",
+      "F82",
+      "F92"
+     ]
+    },
+    {
+     "id": "general-geography-9-20",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Rainfall",
+     "question": "Consider the following statements:\nStatement A: Western Disturbances bring snowfall to mountains.\nStatement B: Rainfall from Western Disturbances is agriculturally important for Rabi crops.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Western Disturbances bring snowfall to mountains, and their winter rainfall is important for Rabi crops.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "general-geography-9-21",
+     "format": "List-Matching",
+     "keyword": "Tornado formation",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Warm, moisture-rich air from the Gulf of Mexico\n(b) Cold, drier continental air\n(c) Atmospheric instability\n(d) Strong wind shear\n\nList-II\n(i) Contributes to tornado formation\n(ii) Produces severe thunderstorms or supercells\n(iii) Supplies warm, moisture-rich air to the tornado-prone USA\n(iv) Contributes to tornado formation",
+     "options": [
+      "a-iii, b-iv, c-ii, d-i",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-ii, c-iv, d-iii"
+     ],
+     "answer": 1,
+     "explanation": "The Gulf of Mexico supplies warm, moisture-rich air; cold, drier continental air and atmospheric instability contribute to tornado formation; and strong wind shear produces severe thunderstorms or supercells.",
+     "facts": [
+      "F72",
+      "F73",
+      "F74",
+      "F75"
+     ]
+    },
+    {
+     "id": "general-geography-9-22",
+     "format": "Assertion-Reason",
+     "keyword": "Tornado formation",
+     "question": "Assertion (A): Severe thunderstorms or supercells create tornado potential.\nReason (R): The major mechanism of tornadoes is severe rotating convection.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 0,
+     "explanation": "Severe thunderstorms or supercells create tornado potential, while severe rotating convection is identified as the major mechanism of tornadoes. The reason explains how such storms generate tornado potential.",
+     "facts": [
+      "F76",
+      "F90"
+     ]
+    },
+    {
+     "id": "general-geography-9-23",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Atmospheric disturbance → Region",
+     "question": "Consider the following statements:\nI. Anticyclones occur in various regions.\nII. Thunderstorms occur in many regions.\nIII. Tornadoes occur in severe-storm regions.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "The stated regional distribution is: anticyclones occur in various regions, thunderstorms occur in many regions, and tornadoes occur in severe-storm regions.",
+     "facts": [
+      "F83",
+      "F84",
+      "F85"
+     ]
+    },
+    {
+     "id": "general-geography-9-24",
+     "format": "Count-Based",
+     "keyword": "Fronts",
+     "question": "How many of the following atmospheric disturbances do not characteristically have fronts?\n1. Tropical cyclone\n2. Anticyclone\n3. Thunderstorm\n4. Tornado",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "Fronts are not characteristic of tropical cyclones, anticyclones, thunderstorms or tornadoes. Therefore, all four listed disturbances satisfy the condition.",
+     "facts": [
+      "F91",
+      "F93",
+      "F94",
+      "F95"
+     ]
+    },
+    {
+     "id": "general-geography-9-25",
+     "format": "List-Matching",
+     "keyword": "Major cloud → Atmospheric disturbance",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tropical cyclone\n(b) Temperate cyclone\n(c) Thunderstorm\n(d) Tornado\n\nList-II\n(i) Cumulonimbus supercell\n(ii) Stratiform and cumuliform clouds\n(iii) Cumulonimbus and rainbands\n(iv) Cumulonimbus\n\nOptions:",
+     "options": [
+      "a-iii, b-ii, c-iv, d-i",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iii, c-iv, d-i"
+     ],
+     "answer": 0,
+     "explanation": "Tropical cyclones are associated with cumulonimbus and rainbands; temperate cyclones with stratiform and cumuliform clouds; thunderstorms with cumulonimbus; and tornadoes with cumulonimbus supercell clouds.",
+     "facts": [
+      "F96",
+      "F97",
+      "F100"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 100,
+    "covered": 100,
+    "audited": true
+   }
   },
   "10": {
    "number": 10,
@@ -11621,7 +12010,13 @@
       "Tsunamis"
      ],
      "answer": 1,
-     "explanation": "Ocean currents involve horizontal movement and influence climate, fisheries and navigation."
+     "explanation": "Ocean currents involve horizontal movement and influence climate, fisheries and navigation.",
+     "facts": [
+      "F15",
+      "F21",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "general-geography-12-2",
@@ -11635,7 +12030,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Alignment of the Sun, Earth and Moon produces reinforcing gravitational effects, resulting in the maximum tidal range."
+     "explanation": "Both statements are true. Alignment of the Sun, Earth and Moon produces reinforcing gravitational effects, resulting in the maximum tidal range.",
+     "facts": [
+      "F25",
+      "F29",
+      "F31",
+      "F6",
+      "F23"
+     ]
     },
     {
      "id": "general-geography-12-3",
@@ -11649,7 +12051,15 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Agulhas–Indian Ocean, southeast Africa; Benguela–South Atlantic, southwest Africa; Humboldt/Peru–Pacific, west coast of South America; and Gulf Stream–North Atlantic."
+     "explanation": "The correct pairs are Agulhas–Indian Ocean, southeast Africa; Benguela–South Atlantic, southwest Africa; Humboldt/Peru–Pacific, west coast of South America; and Gulf Stream–North Atlantic.",
+     "facts": [
+      "F55",
+      "F58",
+      "F59",
+      "F64",
+      "F65",
+      "F68"
+     ]
     },
     {
      "id": "general-geography-12-4",
@@ -11663,7 +12073,17 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. Tides contribute to ocean-water movement, so Statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. Tides contribute to ocean-water movement, so Statement IV is incorrect.",
+     "facts": [
+      "F40",
+      "F42",
+      "F45",
+      "F48",
+      "F7",
+      "F11",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "general-geography-12-5",
@@ -11677,7 +12097,16 @@
       "The Labrador Current is a cold current in the North Atlantic."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the location of the Benguela Current. It is associated with southwest Africa, not northwest Africa."
+     "explanation": "The incorrect detail is the location of the Benguela Current. It is associated with southwest Africa, not northwest Africa.",
+     "facts": [
+      "F58",
+      "F59",
+      "F62",
+      "F63",
+      "F66",
+      "F67",
+      "F50"
+     ]
     },
     {
      "id": "general-geography-12-6",
@@ -11691,7 +12120,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Ocean currents have major impacts on climate, fisheries and navigation, while a tsunami is described as a long-wavelength destructive sea disturbance."
+     "explanation": "Both statements are true. Ocean currents have major impacts on climate, fisheries and navigation, while a tsunami is described as a long-wavelength destructive sea disturbance.",
+     "facts": [
+      "F21",
+      "F37",
+      "F36"
+     ]
     },
     {
      "id": "general-geography-12-7",
@@ -11705,7 +12139,16 @@
       "Only five"
      ],
      "answer": 1,
-     "explanation": "Agulhas, Brazil and Gulf Stream are warm currents. Benguela, Canary and Labrador are cold currents; therefore, the number of warm currents is three."
+     "explanation": "Agulhas, Brazil and Gulf Stream are warm currents. Benguela, Canary and Labrador are cold currents; therefore, the number of warm currents is three.",
+     "facts": [
+      "F55",
+      "F58",
+      "F60",
+      "F62",
+      "F68",
+      "F49",
+      "F50"
+     ]
     }
    ]
   }

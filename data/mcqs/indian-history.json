@@ -8539,8 +8539,50 @@
       "F137",
       "F138"
      ]
+    },
+    {
+     "id": "indian-history-13-33",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Book",
+     "question": "Consider the following statements:\nI. Shishupalavadha is an epic poem.\nII. Panchasiddhantika deals with astronomy.\nIII. Panchasiddhantika shows Greek influence.\nIV. Rajatarangini deals with the history of the kings of Kashmir.",
+     "options": [
+      "II and III only",
+      "I, II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Shishupalavadha is an epic poem; Panchasiddhantika deals with astronomy and shows Greek influence; and Rajatarangini deals with the history of the kings of Kashmir.",
+     "facts": [
+      "F34",
+      "F36",
+      "F37",
+      "F39"
+     ]
+    },
+    {
+     "id": "indian-history-13-34",
+     "format": "Direct Recall",
+     "keyword": "Book",
+     "question": "Akbarnama was written during which period?",
+     "options": [
+      "1590–1597",
+      "1590–1595",
+      "1590–1596",
+      "1591–1596"
+     ],
+     "answer": 2,
+     "explanation": "Akbarnama was written by Abul Fazl from 1590 to 1596.",
+     "facts": [
+      "F106"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 138,
+    "covered": 138,
+    "audited": true
+   }
   },
   "14": {
    "number": 14,
@@ -9213,8 +9255,90 @@
      "facts": [
       "F107"
      ]
+    },
+    {
+     "id": "indian-history-14-35",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n a. First Women's University — associated person\n b. First Women's University — location\n c. Home for Widow — established by\n d. Home for Widow — year of establishment\n\nList-II\n i. D.K. Karve\n ii. Bombay\n iii. Poona\n iv. 1896",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-i, d-iv"
+     ],
+     "answer": 3,
+     "explanation": "The First Women's University was associated with D.K. Karve and located in Bombay. Karve established the Home for Widow at Poona in 1896.",
+     "facts": [
+      "F110",
+      "F111",
+      "F112",
+      "F113",
+      "F114"
+     ]
+    },
+    {
+     "id": "indian-history-14-36",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Commission",
+     "question": "Consider the following statements about Curzon's Commission:\n\nI. It was associated with Sir Thomas Raley.\nII. It was a University Commission.\nIII. Syed Hussain Bilgrami was among its Indian members.\nIV. Justice Gurudas Banerjee was among its Indian members.",
+     "options": [
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "II and III only"
+     ],
+     "answer": 1,
+     "explanation": "All four statements are correct. Curzon's Commission was the University Commission associated with Sir Thomas Raley, and its Indian members included Syed Hussain Bilgrami and Justice Gurudas Banerjee.",
+     "facts": [
+      "F115",
+      "F117",
+      "F118",
+      "F119"
+     ]
+    },
+    {
+     "id": "indian-history-14-37",
+     "format": "Assertion-Reason",
+     "keyword": "University",
+     "question": "Assertion (A): The Sadler Commission was located in Calcutta and examined the problems of Calcutta University.\nReason (R): The Sadler Commission was associated with Dr. M.E. Sadler.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the Sadler Commission was located in Calcutta and examined the problems of Calcutta University, while it was associated with Dr. M.E. Sadler. The association with Sadler does not explain its location or the subject of its examination.",
+     "facts": [
+      "F120",
+      "F121",
+      "F123"
+     ]
+    },
+    {
+     "id": "indian-history-14-38",
+     "format": "Direct Recall",
+     "keyword": "Education",
+     "question": "Dr. M.E. Sadler was the Vice-Chancellor of which university?",
+     "options": [
+      "University of Leeds",
+      "Bombay University",
+      "Madras University",
+      "Calcutta University"
+     ],
+     "answer": 0,
+     "explanation": "Dr. M.E. Sadler was the Vice-Chancellor of the University of Leeds.",
+     "facts": [
+      "F124"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 124,
+    "covered": 124,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
@@ -9487,7 +9611,8 @@
       "F9",
       "F13",
       "F19",
-      "F23"
+      "F23",
+      "F122"
      ]
     },
     {
@@ -9603,7 +9728,8 @@
       "F29",
       "F30",
       "F32",
-      "F34"
+      "F34",
+      "F35"
      ]
     },
     {
@@ -9640,8 +9766,352 @@
      "facts": [
       "F2"
      ]
+    },
+    {
+     "id": "indian-history-15-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Port – Associated with",
+     "question": "Consider the following statements about Uraiyur:\nI. Uraiyur was located in the Cauvery River region.\nII. Uraiyur belonged to the Sangam Age.\nIII. Uraiyur was associated with the Cholas.\nIV. Uraiyur was associated with the cotton trade.\nV. Uraiyur was a major cotton centre.\nVI. Uraiyur was mentioned in the Periplus.",
+     "options": [
+      "I, II, III and IV only",
+      "II, III, IV and V only",
+      "I, II, III, IV, V and VI",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All six statements correctly describe Uraiyur: its location, Sangam-Age association, Chola connection, cotton trade, importance as a cotton centre and mention in the Periplus.",
+     "facts": [
+      "F36",
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
+    },
+    {
+     "id": "indian-history-15-21",
+     "format": "List-Matching",
+     "keyword": "Port Location / Period",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Tamralipti—location\n(b) Tamralipti—coast\n(c) Tamralipti—period\n\nList-II\n(i) Eastern coast\n(ii) Gupta period\n(iii) Bengal\n(iv) Western India",
+     "options": [
+      "a-iv, b-i, c-ii",
+      "a-i, b-iii, c-ii",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i"
+     ],
+     "answer": 2,
+     "explanation": "Tamralipti was located in Bengal, on the eastern coast, and belonged to the Gupta period. Hence, a-iii, b-i and c-ii are the correct pairs.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "indian-history-15-22",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Port – Trade Association",
+     "question": "Which of the following statements about Bhrigu Kachchha or Bharuch is incorrect?",
+     "options": [
+      "Bharuch was located in eastern India and was an important port for North Indian trade with western countries.",
+      "Bhrigu Kachchha was also known as Bharuch.",
+      "Bharuch was located in western India and belonged to the Gupta period.",
+      "Bharuch was associated with trade with western countries and was an important port for North Indian trade with western countries."
+     ],
+     "answer": 0,
+     "explanation": "The incorrect detail is the location: Bharuch was located in western India, not eastern India. Its other stated associations were the Gupta period and trade with western countries, including North Indian trade.",
+     "facts": [
+      "F51",
+      "F52",
+      "F53",
+      "F54",
+      "F55"
+     ]
+    },
+    {
+     "id": "indian-history-15-23",
+     "format": "Statement-Based (A/B)",
+     "keyword": "International Trade Centres",
+     "question": "Consider the following statements:\nStatement A: Arikamedu was located in South India, belonged to the Gupta-era trade network, and was a major centre of international trade.\nStatement B: Kaveripattanam was located in South India, belonged to the Gupta-era trade network, and was a major centre of international trade.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Arikamedu and Kaveripattanam were South Indian centres in the Gupta-era trade network and each was associated with, and a major centre of, international trade.",
+     "facts": [
+      "F56",
+      "F57",
+      "F58",
+      "F59",
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+     ]
+    },
+    {
+     "id": "indian-history-15-24",
+     "format": "Assertion-Reason",
+     "keyword": "International Trade Centre",
+     "question": "Assertion (A): Muziris was a major centre of international trade during the Gupta-era trade network.\nReason (R): Muziris belonged to the Gupta-era trade network.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both the assertion and the reason are true. Muziris was a major centre of international trade during the Gupta-era trade network and belonged to that network, but the reason does not correctly explain the assertion.",
+     "facts": [
+      "F64",
+      "F65"
+     ]
+    },
+    {
+     "id": "indian-history-15-25",
+     "format": "Direct Recall",
+     "keyword": "Port Location",
+     "question": "Pratishthana was located in which of the following regions?",
+     "options": [
+      "Western India",
+      "The Deccan",
+      "Bengal",
+      "South India"
+     ],
+     "answer": 1,
+     "explanation": "Pratishthana was located in the Deccan.",
+     "facts": [
+      "F66"
+     ]
+    },
+    {
+     "id": "indian-history-15-26",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Trading centre",
+     "question": "Consider the following statements:\nStatement A: Pratishthana was located in the Deccan and belonged to the Gupta-era trade network.\nStatement B: Pratishthana was associated with international trade and was a major centre of international trade.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Pratishthana was a Deccan centre in the Gupta-era trade network. It was associated with international trade and was a major centre of international trade.",
+     "facts": [
+      "F67",
+      "F68",
+      "F69"
+     ]
+    },
+    {
+     "id": "indian-history-15-27",
+     "format": "Count-Based",
+     "keyword": "Port – Location/Trade",
+     "question": "How many of the following statements correctly describe Sopara?\n1. Sopara was located in western India.\n2. Sopara belonged to the Gupta-era trade network.\n3. Sopara was associated with international trade.\n4. Sopara was a major centre of international trade.",
+     "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+     ],
+     "answer": 3,
+     "explanation": "All four statements correctly describe Sopara: its location was western India, and it belonged to the Gupta-era trade network, being associated with and a major centre of international trade.",
+     "facts": [
+      "F70",
+      "F71",
+      "F72",
+      "F73"
+     ]
+    },
+    {
+     "id": "indian-history-15-28",
+     "format": "Negative / Incorrect Statement",
+     "keyword": "Port – Location/Trade",
+     "question": "Which of the following statements about Barberikam is incorrect?",
+     "options": [
+      "Barberikam belonged to the Gupta-era trade network.",
+      "Barberikam was located in eastern India.",
+      "Barberikam was associated with international trade.",
+      "Barberikam was located in western India."
+     ],
+     "answer": 1,
+     "explanation": "The incorrect statement places Barberikam in eastern India. Barberikam was located in western India; it belonged to the Gupta-era trade network and was associated with international trade as a major centre.",
+     "facts": [
+      "F74",
+      "F75",
+      "F76",
+      "F77"
+     ]
+    },
+    {
+     "id": "indian-history-15-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Port – Location/Trade",
+     "question": "Consider the following statements about Surat:\nI. Surat was located in Gujarat.\nII. Surat was located on the western coast.\nIII. Surat was associated with Mughal and European trade.\nIV. Surat later had English, Dutch and French European trade.",
+     "options": [
+      "I, II and III only",
+      "II and III only",
+      "I and II only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct. Surat was a Gujarat port on the western coast, associated with Mughal and European trade, and later had English, Dutch and French European trade.",
+     "facts": [
+      "F82",
+      "F83",
+      "F84",
+      "F87"
+     ]
+    },
+    {
+     "id": "indian-history-15-30",
+     "format": "Statement-Based (A/B)",
+     "keyword": "European trade",
+     "question": "Consider the following statements:\nStatement A: Masulipatnam was located on the Coromandel Coast and was associated with European trade.\nStatement B: Agra was associated with European trade.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Masulipatnam was a European-trade centre on the Coromandel Coast. Agra was also associated with European trade.",
+     "facts": [
+      "F90",
+      "F91",
+      "F93"
+     ]
+    },
+    {
+     "id": "indian-history-15-31",
+     "format": "Count-Based",
+     "keyword": "European factories",
+     "question": "How many of the following statements are correct?\n1. Ahmedabad was located in Gujarat.\n2. Ahmedabad was associated with European trade.\n3. The English East India Company established a factory at Ahmedabad in 1619.\n4. Baroda was located in Gujarat.\n5. Baroda was associated with European trade.\n6. The English East India Company established a factory at Baroda in 1619.\n7. Broach was located in Gujarat.",
+     "options": [
+      "Only four",
+      "Only five",
+      "Only six",
+      "All seven"
+     ],
+     "answer": 3,
+     "explanation": "All seven statements are correct. Ahmedabad and Baroda were Gujarat locations associated with European trade, and English East India Company factories were established at both in 1619; Broach was also located in Gujarat.",
+     "facts": [
+      "F95",
+      "F96",
+      "F97",
+      "F98",
+      "F99",
+      "F100",
+      "F101"
+     ]
+    },
+    {
+     "id": "indian-history-15-32",
+     "format": "List-Matching",
+     "keyword": "Port – Associated with",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Broach\n(b) Armagaon\n(c) Hariharpur\n(d) Balasore\n\nList-II\n(i) Coromandel Coast; European trade; English EIC factory established in 1628\n(ii) Odisha; eastern coast; European trade; English EIC factory established in 1633\n(iii) Gujarat; European trade; English EIC factory established in 1619\n(iv) Eastern coast; European trade; English EIC factory established in 1633\n\nSelect the correct answer using the code given below:",
+     "options": [
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii"
+     ],
+     "answer": 1,
+     "explanation": "Broach was in Gujarat and had an English EIC factory established in 1619. Armagaon was on the Coromandel Coast and had an English factory in 1628; Hariharpur and Balasore were eastern-coast centres with English factories established in 1633, while Balasore was in Odisha.",
+     "facts": [
+      "F102",
+      "F103",
+      "F104",
+      "F105",
+      "F107",
+      "F108",
+      "F110",
+      "F111",
+      "F112"
+     ]
+    },
+    {
+     "id": "indian-history-15-33",
+     "format": "Assertion-Reason",
+     "keyword": "Place – Associated with",
+     "question": "Assertion (A): Bhatkal was located in Karnataka and belonged to the Vijayanagara period.\nReason (R): Bhatkal was associated with Portuguese trade.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: Bhatkal was located in Karnataka, belonged to the Vijayanagara period and was associated with Portuguese trade. The trade association does not explain its location or period.",
+     "facts": [
+      "F114",
+      "F115",
+      "F116"
+     ]
+    },
+    {
+     "id": "indian-history-15-34",
+     "format": "Direct Recall",
+     "keyword": "Fort – Constructed by",
+     "question": "Who permitted Afonso de Albuquerque to construct a fort?",
+     "options": [
+      "Krishnadeva Raya",
+      "Thomas Best",
+      "The French",
+      "The English East India Company"
+     ],
+     "answer": 0,
+     "explanation": "Krishnadeva Raya permitted Afonso de Albuquerque to construct a fort.",
+     "facts": [
+      "F117"
+     ]
+    },
+    {
+     "id": "indian-history-15-35",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Lothal – Trade",
+     "question": "Consider the following statements:\nStatement A: Lothal was associated with West Asian trade and was an Indus Valley Civilization port connecting Asia with West Asia.\nStatement B: Bharuch connected North India with western countries.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Lothal was an Indus Valley Civilization port linked with West Asian trade, while Bharuch connected North India with western countries.",
+     "facts": [
+      "F118",
+      "F119",
+      "F124"
+     ]
+    },
+    {
+     "id": "indian-history-15-36",
+     "format": "Direct Recall",
+     "keyword": "Battle",
+     "question": "Who fought the Portuguese in the Battle of Swally?",
+     "options": [
+      "Krishnadeva Raya",
+      "Afonso de Albuquerque",
+      "Thomas Best",
+      "The English East India Company at Agra"
+     ],
+     "answer": 2,
+     "explanation": "Thomas Best fought the Portuguese in the Battle of Swally.",
+     "facts": [
+      "F127"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 134,
+    "covered": 134,
+    "audited": true
+   }
   },
   "16": {
    "number": 16,

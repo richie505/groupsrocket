@@ -47,7 +47,8 @@
      "explanation": "The smallpox vaccine was the first vaccine in the world. Edward Jenner was the first scientist or doctor to attempt vaccination.",
      "facts": [
       "F39",
-      "F40"
+      "F40",
+      "F41"
      ]
     },
     {
@@ -105,7 +106,8 @@
      "explanation": "Both statements are true. However, Dolly being a sheep does not explain her status as the first cloned mammal from an adult somatic cell.",
      "facts": [
       "F44",
-      "F45"
+      "F45",
+      "F46"
      ]
     },
     {
@@ -163,7 +165,8 @@
       "F1",
       "F7",
       "F11",
-      "F13"
+      "F13",
+      "F14"
      ]
     },
     {
@@ -183,10 +186,330 @@
       "F44",
       "F50",
       "F52",
-      "F54"
+      "F54",
+      "F46"
+     ]
+    },
+    {
+     "id": "biology-1-10",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Lamarckism\n(b) Archaeopteryx fossils\n(c) First Cro-Magnon skull\n(d) First Denisovan individual\n\nList-II\ni. 2010\nii. Solnhofen, Germany\niii. Louis Lartet\niv. First broad theory of organic evolution\n\nCodes:",
+     "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-iii, c-ii, d-iv",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "Lamarckism was the first broad theory of organic evolution; the first Archaeopteryx fossils were discovered at Solnhofen, the first Cro-Magnon skull was discovered by Louis Lartet, and the first Denisovan individual was identified in 2010.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
+    },
+    {
+     "id": "biology-1-11",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who was the first to use vascular tissues in plant classification?",
+     "options": [
+      "Camillo Golgi",
+      "A.P. de Candolle",
+      "Friedrich Miescher",
+      "Jean-Baptiste Lamarck"
+     ],
+     "answer": 1,
+     "explanation": "A.P. de Candolle was the first to use vascular tissues in plant classification.",
+     "facts": [
+      "F6"
+     ]
+    },
+    {
+     "id": "biology-1-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\n\nI. Schleiden and Schwann proposed the first theory of cell structure, known as cell theory.\nII. Prokaryotic cells were the first form of life.\nIII. Barbara McClintock first identified transposable elements.\nIV. Gregor Mendel conducted the first hybridization experiments on pea.\n\nWhich of the statements given above are correct?",
+     "options": [
+      "II, III and IV only",
+      "I, II and IV only",
+      "I, II and III only",
+      "I, II, III and IV"
+     ],
+     "answer": 3,
+     "explanation": "All four statements are correct: Schleiden and Schwann proposed cell theory, prokaryotic cells were the first form of life, McClintock identified transposable elements, and Mendel conducted the first pea hybridization experiments.",
+     "facts": [
+      "F9",
+      "F10",
+      "F12",
+      "F15"
+     ]
+    },
+    {
+     "id": "biology-1-13",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) DNA polymerase I\n(b) Arthur Kornberg\n(c) Saccharomyces cerevisiae\n(d) Complete eukaryotic genome sequencing of Saccharomyces cerevisiae\n\nList-II\ni. 1996\nii. Yeast\n\niii. First known DNA polymerase\niv. Associated with DNA polymerase I\n\nCodes:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iv, d-iii"
+     ],
+     "answer": 2,
+     "explanation": "DNA polymerase I was the first known DNA polymerase and Arthur Kornberg is associated with it. Saccharomyces cerevisiae is yeast, whose complete eukaryotic genome was sequenced in 1996.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+     ]
+    },
+    {
+     "id": "biology-1-14",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\n\nStatement A: hCG is also called chorionic gonadotropin.\nStatement B: The human embryo's heart first begins beating during the fourth to fifth week.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "hCG is also called chorionic gonadotropin, and the human embryo's heart first begins beating during the fourth to fifth week.",
+     "facts": [
+      "F33",
+      "F34"
+     ]
+    },
+    {
+     "id": "biology-1-15",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "What is the abbreviation for oxaloacetic acid, the first organic compound formed in C₄ photosynthesis?",
+     "options": [
+      "OAA",
+      "DNA",
+      "hCG",
+      "IgM"
+     ],
+     "answer": 0,
+     "explanation": "Oxaloacetic acid, the first organic compound formed in C₄ photosynthesis, is abbreviated as OAA.",
+     "facts": [
+      "F36"
+     ]
+    },
+    {
+     "id": "biology-1-16",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\n\nStatement A: Kakinada in Andhra Pradesh was the site of the first biodiesel plant in India.\nStatement B: Jonas Salk first successfully developed a polio vaccine.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Kakinada, Andhra Pradesh, was the site of India's first biodiesel plant, and Jonas Salk first successfully developed a polio vaccine.",
+     "facts": [
+      "F37",
+      "F38"
+     ]
+    },
+    {
+     "id": "biology-1-17",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Dolly\n(b) Dolly's date of birth\n(c) Dolly's place of birth\n(d) Samrupa\n\nList-II\ni. Scotland\nii. World’s first cloned buffalo\niii. First living cloned genetically engineered organism\niv. 5 July 1996\n\nCodes:",
+     "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "Dolly was the first living cloned genetically engineered organism, was born on 5 July 1996 in Scotland, and Samrupa was the world’s first cloned buffalo.",
+     "facts": [
+      "F47",
+      "F48",
+      "F49",
+      "F51"
+     ]
+    },
+    {
+     "id": "biology-1-18",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Ganga, India's first cloned cow, was of which breed?",
+     "options": [
+      "Holstein-Friesian",
+      "Sahiwal",
+      "Gir",
+      "Jersey"
+     ],
+     "answer": 2,
+     "explanation": "Ganga was India's first cloned cow and was of the Gir breed.",
+     "facts": [
+      "F53"
+     ]
+    },
+    {
+     "id": "biology-1-19",
+     "format": "Assertion-Reason",
+     "keyword": "FIRST",
+     "question": "Assertion (A): The first transgenic glowing pigs were produced in Taiwan.\nReason (R): The first transgenic glowing pigs were produced in 2006.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true: the pigs were produced in Taiwan in 2006. However, the year does not explain their place of production.",
+     "facts": [
+      "F55",
+      "F56"
+     ]
+    },
+    {
+     "id": "biology-1-20",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nI. Flavr Savr tomato was the first commercially grown genetically engineered food.\nII. Bollgard-I Bt cotton was India's first biotech crop technology approved for commercialisation.\nIII. Bollgard-I Bt cotton was approved for commercialisation in 2002.",
+     "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three statements are correct. Flavr Savr tomato was the first commercially grown genetically engineered food, while Bollgard-I Bt cotton was India's first approved biotech crop technology and received approval in 2002.",
+     "facts": [
+      "F57",
+      "F58",
+      "F59"
+     ]
+    },
+    {
+     "id": "biology-1-21",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First crime solved using DNA fingerprinting\n(b) Year of the first crime solved using DNA fingerprinting\n(c) Yeast cited for the first microbial semiconductor-diode fabrication\n(d) Site of the world's first camel hospital\n\nList-II\ni. Dubai, UAE\nii. 1983\niii. Schizosaccharomyces pombe\niv. Murder investigation in England",
+     "options": [
+      "a-ii, b-iv, c-i, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-ii, c-iii, d-i",
+      "a-i, b-iii, c-ii, d-iv"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: a-iv, b-ii, c-iii and d-i. The first DNA-fingerprinting crime was a murder investigation in England in 1983; the cited yeast was Schizosaccharomyces pombe, and the first camel hospital was in Dubai, UAE.",
+     "facts": [
+      "F60",
+      "F61",
+      "F62",
+      "F64"
+     ]
+    },
+    {
+     "id": "biology-1-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: Saheli was the world's first non-steroidal oral contraceptive pill.\nStatement B: Hyderabad was the site of India's first dinosaurium.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. Saheli was the world's first non-steroidal oral contraceptive pill, and Hyderabad was the site of India's first dinosaurium.",
+     "facts": [
+      "F63",
+      "F65"
+     ]
+    },
+    {
+     "id": "biology-1-23",
+     "format": "List-Matching",
+     "keyword": "FIRST",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) First dental college in India\n(b) Location of the first dental college in India\n(c) Year of establishment of the first dental college in India\n(d) First dwarf rice variety developed in India\n\nList-II\ni. 1920\nii. Jaya\niii. R. Ahmed Dental College\niv. Kolkata",
+     "options": [
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-iii, c-ii, d-i"
+     ],
+     "answer": 2,
+     "explanation": "The correct pairs are: R. Ahmed Dental College—first dental college in India; Kolkata—its location; 1920—its establishment year; and Jaya—the first dwarf rice variety developed in India.",
+     "facts": [
+      "F66",
+      "F67",
+      "F68"
+     ]
+    },
+    {
+     "id": "biology-1-24",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: Bhutan was the first country to ban the sale of tobacco and tobacco products.\nStatement B: Bhutan imposed the ban in 2004.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Bhutan was the first country to ban the sale of tobacco and tobacco products, and the ban was imposed in 2004.",
+     "facts": [
+      "F69",
+      "F70"
+     ]
+    },
+    {
+     "id": "biology-1-25",
+     "format": "Statement-Based (A/B)",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nStatement A: Karl Landsteiner made the first blood-group classification.\nStatement B: The first blood-group classification was made in 1900.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Karl Landsteiner made the first blood-group classification, and it was made in 1900.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
+    },
+    {
+     "id": "biology-1-26",
+     "format": "Direct Recall",
+     "keyword": "FIRST",
+     "question": "Who first discovered blood circulation?",
+     "options": [
+      "Karl Landsteiner",
+      "William Harvey",
+      "Christian Barnard",
+      "Edward Jenner"
+     ],
+     "answer": 1,
+     "explanation": "William Harvey first discovered blood circulation.",
+     "facts": [
+      "F25"
      ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 70,
+    "covered": 70,
+    "audited": true
+   }
   },
   "2": {
    "number": 2,
@@ -555,7 +878,12 @@
       "Protein"
      ],
      "answer": 3,
-     "explanation": "Protein is the most abundant organic constituent. Oxygen is the most abundant element, while calcium is the element present in the maximum amount."
+     "explanation": "Protein is the most abundant organic constituent. Oxygen is the most abundant element, while calcium is the element present in the maximum amount.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4"
+     ]
     },
     {
      "id": "biology-6-2",
@@ -569,7 +897,15 @@
       "Chilli is a rich source of Vitamin C among vegetables."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is 'Carrot' as the richest source of Vitamin A among the given fruits. The correct source in that category is mango; carrot is noted as a general source of Vitamin A."
+     "explanation": "The incorrect detail is 'Carrot' as the richest source of Vitamin A among the given fruits. The correct source in that category is mango; carrot is noted as a general source of Vitamin A.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F35"
+     ]
     },
     {
      "id": "biology-6-3",
@@ -583,7 +919,13 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Red light is identified as the most effective light for photosynthesis, with the effective wavelength noted as approximately 655 nm."
+     "explanation": "Both statements are true. Red light is identified as the most effective light for photosynthesis, with the effective wavelength noted as approximately 655 nm.",
+     "facts": [
+      "F29",
+      "F30",
+      "F45",
+      "F46"
+     ]
     },
     {
      "id": "biology-6-4",
@@ -597,7 +939,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: maximum salt in bones—calcium phosphate; maximum water absorption—root hairs; richest natural iodine source—seaweed; highest-production dairy breed—Holstein–Friesian."
+     "explanation": "The correct pairs are: maximum salt in bones—calcium phosphate; maximum water absorption—root hairs; richest natural iodine source—seaweed; highest-production dairy breed—Holstein–Friesian.",
+     "facts": [
+      "F3",
+      "F5",
+      "F33",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "biology-6-5",
@@ -611,7 +960,13 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Red blood cells have the highest number, and white blood cells are identified as the largest blood-cell category. Neutrophils, not basophils, are the most abundant granulocytes."
+     "explanation": "Statements I and II are correct. Red blood cells have the highest number, and white blood cells are identified as the largest blood-cell category. Neutrophils, not basophils, are the most abundant granulocytes.",
+     "facts": [
+      "F21",
+      "F22",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "biology-6-6",
@@ -625,7 +980,15 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched. Soybean is noted as the highest-protein grain, groundnut as richest among the given protein options, linseed oil as highest in α-linolenic acid among oilseeds, and seaweed as the richest natural iodine source."
+     "explanation": "All four pairs are correctly matched. Soybean is noted as the highest-protein grain, groundnut as richest among the given protein options, linseed oil as highest in α-linolenic acid among oilseeds, and seaweed as the richest natural iodine source.",
+     "facts": [
+      "F14",
+      "F15",
+      "F27",
+      "F33",
+      "F13",
+      "F28"
+     ]
     },
     {
      "id": "biology-6-7",
@@ -639,7 +1002,14 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Vital capacity is approximately 3.5–4.5 litres, and egg has a high biological value because it contains essential amino acids in the appropriate proportion."
+     "explanation": "Both statements are true. Vital capacity is approximately 3.5–4.5 litres, and egg has a high biological value because it contains essential amino acids in the appropriate proportion.",
+     "facts": [
+      "F6",
+      "F40",
+      "F41",
+      "F42",
+      "F39"
+     ]
     }
    ]
   },
@@ -1814,8 +2184,49 @@
      "facts": [
       "F124"
      ]
+    },
+    {
+     "id": "biology-14-28",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Molecular Biology",
+     "question": "Consider the following statements:\nStatement A: Friedrich Miescher studied DNA and nuclein.\nStatement B: Friedrich Miescher worked in molecular biology.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct. Friedrich Miescher studied DNA and nuclein, and his field of work was molecular biology.",
+     "facts": [
+      "F43",
+      "F44"
+     ]
+    },
+    {
+     "id": "biology-14-29",
+     "format": "Multi-Statement Correctness",
+     "keyword": "FIRST",
+     "question": "Consider the following statements:\nI. Friedrich Miescher first identified DNA.\nII. Friedrich Miescher first isolated DNA.",
+     "options": [
+      "II only",
+      "Both I and II",
+      "I only",
+      "Neither I nor II"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are correct. Friedrich Miescher is associated with the first identification and first isolation of DNA.",
+     "facts": [
+      "F45",
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 124,
+    "covered": 124,
+    "audited": true
+   }
   },
   "15": {
    "number": 15,
