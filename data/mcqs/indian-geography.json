@@ -9373,6 +9373,25 @@
       "F145",
       "F146"
      ]
+    },
+    {
+     "id": "indian-geography-24-35",
+     "format": "Direct Recall",
+     "keyword": "Plantation/commercial crop classification",
+     "question": "The Ministry of Commerce classification includes which of the following?",
+     "options": [
+      "Coconut",
+      "Spices",
+      "Cocoa",
+      "Banana"
+     ],
+     "answer": 1,
+     "explanation": "Spices are included in the Ministry of Commerce classification. Coconut, cocoa and banana are listed under plantation-crop classifications or associations in the crop table.",
+     "facts": [
+      "F147",
+      "F116",
+      "F119"
+     ]
     }
    ]
   },
@@ -13636,8 +13655,67 @@
       "F15",
       "F21"
      ]
+    },
+    {
+     "id": "indian-geography-37-20",
+     "format": "List-Matching",
+     "keyword": "Lake \u0013 Location",
+     "question": "Match List-I with List-II:\n\nList-I (Lakes)\na. Loktak\nb. Lonar\nc. Roopkund\n\nList-II (Locations)\ni. Uttarakhand\nii. Maharashtra\niii. Manipur\n\nSelect the correct answer using the codes given below.",
+     "options": [
+      "a-iii, b-ii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-ii, b-i, c-iii",
+      "a-i, b-iii, c-ii"
+     ],
+     "answer": 0,
+     "explanation": "Loktak is located in Manipur, Lonar in Maharashtra, and Roopkund in Uttarakhand.",
+     "facts": [
+      "F5",
+      "F6",
+      "F11"
+     ]
+    },
+    {
+     "id": "indian-geography-37-21",
+     "format": "Assertion-Reason",
+     "keyword": "Lake \u0013 Location",
+     "question": "Assertion (A): Ghepan Lake is located in Lahaul Valley, Himachal Pradesh.\nReason (R): Ghepan Lake is a glacial lake.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. Ghepan Lake is located in Lahaul Valley, Himachal Pradesh, and it is identified as a glacial lake; however, its glacial character does not explain its stated location.",
+     "facts": [
+      "F17"
+     ]
+    },
+    {
+     "id": "indian-geography-37-22",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Lake \u0013 Location",
+     "question": "Consider the following statements:\nStatement A: Vembanad Lake is located in Kerala.\nStatement B: Kodaikanal Lake is located in Dindigul, Tamil Nadu.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are correct: Vembanad is located in Kerala, while Kodaikanal Lake is located in Dindigul, Tamil Nadu.",
+     "facts": [
+      "F9",
+      "F18"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 40,
+    "covered": 40,
+    "audited": true
+   }
   },
   "38": {
    "number": 38,
@@ -18505,7 +18583,10 @@
       "Chennai"
      ],
      "answer": 1,
-     "explanation": "Central Railway has its headquarters at Mumbai."
+     "explanation": "Central Railway has its headquarters at Mumbai.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-52-2",
@@ -18519,7 +18600,10 @@
       "East Coast Railway"
      ],
      "answer": 1,
-     "explanation": "Eastern Railway is headquartered at Kolkata."
+     "explanation": "Eastern Railway is headquartered at Kolkata.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-geography-52-3",
@@ -18533,7 +18617,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly restates the headquarters-location relationship."
+     "explanation": "Both statements are true, and the reason directly restates the headquarters-location relationship.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "indian-geography-52-4",
@@ -18547,7 +18634,13 @@
       "Northern Railway is headquartered at New Delhi."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the headquarters of North Central Railway. Its headquarters is Prayagraj, not Gorakhpur."
+     "explanation": "The incorrect detail is the headquarters of North Central Railway. Its headquarters is Prayagraj, not Gorakhpur.",
+     "facts": [
+      "F4",
+      "F6",
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-52-5",
@@ -18561,7 +18654,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are North Central–Prayagraj, North Eastern–Gorakhpur, North-east Frontier–Maligaon (Guwahati), and North Western–Jaipur."
+     "explanation": "The correct pairs are North Central–Prayagraj, North Eastern–Gorakhpur, North-east Frontier–Maligaon (Guwahati), and North Western–Jaipur.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-geography-52-6",
@@ -18575,7 +18674,10 @@
       "Bhubaneswar"
      ],
      "answer": 2,
-     "explanation": "The headquarters of Southern Railway is Chennai."
+     "explanation": "The headquarters of Southern Railway is Chennai.",
+     "facts": [
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-52-7",
@@ -18589,7 +18691,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "South Central Railway and Secunderabad are correctly paired, so both statements are true and the reason explains the assertion."
+     "explanation": "South Central Railway and Secunderabad are correctly paired, so both statements are true and the reason explains the assertion.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "indian-geography-52-8",
@@ -18603,7 +18708,12 @@
       "I and II only"
      ],
      "answer": 1,
-     "explanation": "All three statements correctly state the headquarters of the respective railway zones."
+     "explanation": "All three statements correctly state the headquarters of the respective railway zones.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-52-9",
@@ -18617,7 +18727,13 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "Western–Mumbai, West Central–Jabalpur, South Eastern–Kolkata, and South East Central–Bilaspur are the correct pairs."
+     "explanation": "Western–Mumbai, West Central–Jabalpur, South Eastern–Kolkata, and South East Central–Bilaspur are the correct pairs.",
+     "facts": [
+      "F15",
+      "F16",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-geography-52-10",
@@ -18631,7 +18747,10 @@
       "Prayagraj"
      ],
      "answer": 2,
-     "explanation": "West Central Railway has its headquarters at Jabalpur."
+     "explanation": "West Central Railway has its headquarters at Jabalpur.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-geography-52-11",
@@ -18645,7 +18764,12 @@
       "a-iii, b-i, c-ii"
      ],
      "answer": 2,
-     "explanation": "Darjeeling Himalayan Railway is in West Bengal, Nilgiri Mountain Railway in Tamil Nadu, and Kalka–Shimla Railway in Himachal Pradesh."
+     "explanation": "Darjeeling Himalayan Railway is in West Bengal, Nilgiri Mountain Railway in Tamil Nadu, and Kalka–Shimla Railway in Himachal Pradesh.",
+     "facts": [
+      "F18",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-52-12",
@@ -18659,7 +18783,11 @@
       "Kalka, Himachal Pradesh"
      ],
      "answer": 2,
-     "explanation": "The New Pamban Bridge is associated with Rameswaram Island in Tamil Nadu."
+     "explanation": "The New Pamban Bridge is associated with Rameswaram Island in Tamil Nadu.",
+     "facts": [
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-52-13",
@@ -18673,7 +18801,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the location at Rameswaram Island does not explain why the bridge is India's first vertical-lift railway sea bridge."
+     "explanation": "Both statements are true, but the location at Rameswaram Island does not explain why the bridge is India's first vertical-lift railway sea bridge.",
+     "facts": [
+      "F25",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-52-14",
@@ -18687,7 +18820,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Central Railway and Western Railway are headquartered at Mumbai. Eastern Railway is at Kolkata and Northern Railway at New Delhi."
+     "explanation": "Central Railway and Western Railway are headquartered at Mumbai. Eastern Railway is at Kolkata and Northern Railway at New Delhi.",
+     "facts": [
+      "F1",
+      "F15",
+      "F2",
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-52-15",
@@ -18701,7 +18840,12 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements correctly give the locations of the UNESCO World Heritage railways listed."
+     "explanation": "All three statements correctly give the locations of the UNESCO World Heritage railways listed.",
+     "facts": [
+      "F18",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "indian-geography-52-16",
@@ -18715,7 +18859,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "East Coast Railway is headquartered at Bhubaneswar, while North-east Frontier Railway is headquartered at Maligaon (Guwahati)."
+     "explanation": "East Coast Railway is headquartered at Bhubaneswar, while North-east Frontier Railway is headquartered at Maligaon (Guwahati).",
+     "facts": [
+      "F4",
+      "F8"
+     ]
     },
     {
      "id": "indian-geography-52-17",
@@ -18729,7 +18877,14 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correctly matched according to the listed railway and bridge locations."
+     "explanation": "All four pairs are correctly matched according to the listed railway and bridge locations.",
+     "facts": [
+      "F18",
+      "F20",
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-geography-52-18",
@@ -18743,7 +18898,10 @@
       "Gorakhpur"
      ],
      "answer": 2,
-     "explanation": "Northern Railway has its headquarters at New Delhi."
+     "explanation": "Northern Railway has its headquarters at New Delhi.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-geography-52-19",
@@ -18757,7 +18915,10 @@
       "South Eastern Railway"
      ],
      "answer": 1,
-     "explanation": "South Western Railway is headquartered at Hubli."
+     "explanation": "South Western Railway is headquartered at Hubli.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-geography-52-20",
@@ -18771,7 +18932,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Northern Railway–New Delhi, South Western Railway–Hubli, North Central Railway–Prayagraj, and South East Central Railway–Bilaspur."
+     "explanation": "The correct pairs are Northern Railway–New Delhi, South Western Railway–Hubli, North Central Railway–Prayagraj, and South East Central Railway–Bilaspur.",
+     "facts": [
+      "F5",
+      "F14",
+      "F6",
+      "F13"
+     ]
     }
    ]
   },

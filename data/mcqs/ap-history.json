@@ -10670,8 +10670,30 @@
      "facts": [
       "F6"
      ]
+    },
+    {
+     "id": "ap-history-24-24",
+     "format": "Direct Recall",
+     "keyword": "Built",
+     "question": "The Penugonda Verupanna Virabhadeshwar Swamy Temple was constructed at which place?",
+     "options": [
+      "Palampet",
+      "Alampur",
+      "Lepakshi",
+      "Gudimallam"
+     ],
+     "answer": 2,
+     "explanation": "The Penugonda Verupanna Virabhadeshwar Swamy Temple was constructed at Lepakshi.",
+     "facts": [
+      "F5"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   },
   "25": {
    "number": 25,

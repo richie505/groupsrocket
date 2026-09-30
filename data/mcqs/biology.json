@@ -12969,7 +12969,10 @@
       "Support"
      ],
      "answer": 1,
-     "explanation": "Storage is a function of the stem in which food is stored."
+     "explanation": "Storage is a function of the stem in which food is stored.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-47-2",
@@ -12983,7 +12986,13 @@
       "The stem transports materials."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is “stores flowers.” Storage means the stem stores food, whereas the stem bears leaves, flowers and fruits."
+     "explanation": "The incorrect detail is “stores flowers.” Storage means the stem stores food, whereas the stem bears leaves, flowers and fruits.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-47-3",
@@ -12997,7 +13006,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and giving structure and shape explains the support function of the stem."
+     "explanation": "Both statements are true, and giving structure and shape explains the support function of the stem.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "biology-47-4",
@@ -13011,7 +13024,18 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Rhizome—ginger and turmeric; Tuber—potato; Bulb—garlic; Corm—suran/jimikand."
+     "explanation": "The correct pairs are: Rhizome—ginger and turmeric; Tuber—potato; Bulb—garlic; Corm—suran/jimikand.",
+     "facts": [
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-47-5",
@@ -13025,7 +13049,15 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Statements I and II are correct. Garlic is an example of a bulb, not a tuber, so Statement III is incorrect."
+     "explanation": "Statements I and II are correct. Garlic is an example of a bulb, not a tuber, so Statement III is incorrect.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F14"
+     ]
     }
    ]
   },
@@ -13055,7 +13087,11 @@
       "Pear — Nut"
      ],
      "answer": 1,
-     "explanation": "Apple is a pome. Pear is also a pome, but it is not a drupe, berry or nut."
+     "explanation": "Apple is a pome. Pear is also a pome, but it is not a drupe, berry or nut.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "biology-48-2",
@@ -13069,7 +13105,10 @@
       "An embryo"
      ],
      "answer": 3,
-     "explanation": "The seed contains an embryo."
+     "explanation": "The seed contains an embryo.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "biology-48-3",
@@ -13083,7 +13122,13 @@
       "Wind"
      ],
      "answer": 0,
-     "explanation": "The listed seed-dispersal mechanisms are wind, water, animals and explosive mechanisms. Cell division is a function associated with cytokinin."
+     "explanation": "The listed seed-dispersal mechanisms are wind, water, animals and explosive mechanisms. Cell division is a function associated with cytokinin.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-48-4",
@@ -13097,7 +13142,11 @@
       "Auxin"
      ],
      "answer": 3,
-     "explanation": "Auxin promotes cell growth and elongation and is associated with apical dominance."
+     "explanation": "Auxin promotes cell growth and elongation and is associated with apical dominance.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-48-5",
@@ -13111,7 +13160,12 @@
       "Ethylene"
      ],
      "answer": 3,
-     "explanation": "Ethylene is associated with fruit ripening, senescence and abscission."
+     "explanation": "Ethylene is associated with fruit ripening, senescence and abscission.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "biology-48-6",
@@ -13125,7 +13179,13 @@
       "Pineapple is a sorosis."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that pineapple is a capsule. Pineapple is a sorosis; okra is a capsule."
+     "explanation": "The incorrect statement is that pineapple is a capsule. Pineapple is a sorosis; okra is a capsule.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+     ]
     },
     {
      "id": "biology-48-7",
@@ -13139,7 +13199,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the development of the seed embryo into a plant explains how germination results in a new plant."
+     "explanation": "Both statements are true, and the development of the seed embryo into a plant explains how germination results in a new plant.",
+     "facts": [
+      "F14",
+      "F21"
+     ]
     },
     {
      "id": "biology-48-8",
@@ -13153,7 +13217,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true according to the hormone functions. However, the stated function of cell growth and elongation does not directly explain the keyword apical dominance in the given classification."
+     "explanation": "Both statements are true according to the hormone functions. However, the stated function of cell growth and elongation does not directly explain the keyword apical dominance in the given classification.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-48-9",
@@ -13167,7 +13235,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The functions of ethylene do not explain why it is classified as a gaseous hormone."
+     "explanation": "Both statements are true. The functions of ethylene do not explain why it is classified as a gaseous hormone.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "biology-48-10",
@@ -13181,7 +13255,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Apple–Pome, Mulberry–Sorosis, Okra–Capsule and Lychee–Drupe."
+     "explanation": "The correct pairs are Apple–Pome, Mulberry–Sorosis, Okra–Capsule and Lychee–Drupe.",
+     "facts": [
+      "F1",
+      "F3",
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-48-11",
@@ -13195,7 +13275,16 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are Auxin–cell growth/elongation and apical dominance, Gibberellin–cell elongation and growth, Cytokinin–cell division, and ABA–growth inhibition and stress response."
+     "explanation": "The correct pairs are Auxin–cell growth/elongation and apical dominance, Gibberellin–cell elongation and growth, Cytokinin–cell division, and ABA–growth inhibition and stress response.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "biology-48-12",
@@ -13209,7 +13298,16 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are contains–embryo, reproduction through–sexual propagation, dispersal through–wind/water/animals/explosive mechanisms, and storage–food reserve for the embryo."
+     "explanation": "The correct pairs are contains–embryo, reproduction through–sexual propagation, dispersal through–wind/water/animals/explosive mechanisms, and storage–food reserve for the embryo.",
+     "facts": [
+      "F12",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "biology-48-13",
@@ -13223,7 +13321,13 @@
       "I and IV only"
      ],
      "answer": 0,
-     "explanation": "Mango is a drupe, tomato is a berry and cashew nut is a nut. Singhara is a nut, not a capsule."
+     "explanation": "Mango is a drupe, tomato is a berry and cashew nut is a nut. Singhara is a nut, not a capsule.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-48-14",
@@ -13237,7 +13341,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "The seed represents the next generation, germinates into a new plant, and its embryo develops into a new plant. Its food reserve is for the embryo, not the fruit."
+     "explanation": "The seed represents the next generation, germinates into a new plant, and its embryo develops into a new plant. Its food reserve is for the embryo, not the fruit.",
+     "facts": [
+      "F13",
+      "F14",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "biology-48-15",
@@ -13251,7 +13361,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Cytokinin is associated with cell division, ABA with drought tolerance, and ethylene is a gaseous hormone. Fruit ripening is associated with ethylene, not gibberellin."
+     "explanation": "Cytokinin is associated with cell division, ABA with drought tolerance, and ethylene is a gaseous hormone. Fruit ripening is associated with ethylene, not gibberellin.",
+     "facts": [
+      "F26",
+      "F29",
+      "F30",
+      "F33"
+     ]
     },
     {
      "id": "biology-48-16",
@@ -13265,7 +13381,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both lychee and mango are listed as drupes."
+     "explanation": "Both lychee and mango are listed as drupes.",
+     "facts": [
+      "F7",
+      "F10"
+     ]
     },
     {
      "id": "biology-48-17",
@@ -13279,7 +13399,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Gibberellin is associated with cell elongation and growth. Growth inhibition and stress response are associated with ABA, not cytokinin."
+     "explanation": "Gibberellin is associated with cell elongation and growth. Growth inhibition and stress response are associated with ABA, not cytokinin.",
+     "facts": [
+      "F24",
+      "F25",
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "biology-48-18",
@@ -13293,7 +13419,13 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Apple and pear are pomes. Mulberry is a sorosis and tomato is a berry, so the number of pomes is two."
+     "explanation": "Apple and pear are pomes. Mulberry is a sorosis and tomato is a berry, so the number of pomes is two.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3",
+      "F11"
+     ]
     },
     {
      "id": "biology-48-19",
@@ -13307,7 +13439,13 @@
       "a-i, b-ii, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "Pear is a pome; pineapple and jackfruit are sorosis; cashew nut is a nut."
+     "explanation": "Pear is a pome; pineapple and jackfruit are sorosis; cashew nut is a nut.",
+     "facts": [
+      "F2",
+      "F4",
+      "F5",
+      "F8"
+     ]
     },
     {
      "id": "biology-48-20",
@@ -13321,9 +13459,20 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Mulberry, pineapple and jackfruit are classified as sorosis, whereas lychee is a drupe. Therefore, three are sorosis."
+     "explanation": "Mulberry, pineapple and jackfruit are classified as sorosis, whereas lychee is a drupe. Therefore, three are sorosis.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 33,
+    "covered": 33,
+    "audited": true
+   }
   },
   "49": {
    "number": 49,
@@ -14018,7 +14167,10 @@
       "Chloroplast"
      ],
      "answer": 3,
-     "explanation": "The notes identify the chloroplast as the location of chlorophyll."
+     "explanation": "The notes identify the chloroplast as the location of chlorophyll.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "biology-51-2",
@@ -14032,7 +14184,10 @@
       "Controlling guard-cell turgidity"
      ],
      "answer": 2,
-     "explanation": "Chlorophyll absorbs light energy and acts as an essential light-capturing pigment."
+     "explanation": "Chlorophyll absorbs light energy and acts as an essential light-capturing pigment.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-51-3",
@@ -14046,7 +14201,10 @@
       "Blue"
      ],
      "answer": 0,
-     "explanation": "The notes state that chlorophyll is green."
+     "explanation": "The notes state that chlorophyll is green.",
+     "facts": [
+      "F4"
+     ]
     },
     {
      "id": "biology-51-4",
@@ -14060,7 +14218,10 @@
       "Blue and green"
      ],
      "answer": 2,
-     "explanation": "Chlorophyll strongly absorbs red and blue light."
+     "explanation": "Chlorophyll strongly absorbs red and blue light.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "biology-51-5",
@@ -14074,7 +14235,10 @@
       "Potassium"
      ],
      "answer": 0,
-     "explanation": "Chlorophyll is associated with magnesium (Mg)."
+     "explanation": "Chlorophyll is associated with magnesium (Mg).",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "biology-51-6",
@@ -14088,7 +14252,12 @@
       "a-ii, b-iii, c-i"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are chlorophyll–magnesium, haemoglobin–iron and Vitamin B12–cobalt."
+     "explanation": "The correct pairs are chlorophyll–magnesium, haemoglobin–iron and Vitamin B12–cobalt.",
+     "facts": [
+      "F6",
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "biology-51-7",
@@ -14102,7 +14271,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and its light-capturing role explains why chlorophyll is essential for photosynthesis."
+     "explanation": "Both statements are true, and its light-capturing role explains why chlorophyll is essential for photosynthesis.",
+     "facts": [
+      "F3"
+     ]
     },
     {
      "id": "biology-51-8",
@@ -14116,7 +14288,12 @@
       "Glycolysis occurs in the cytoplasm."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the site of glycolysis. The notes place glycolysis in the cytoplasm, not primarily in chloroplasts."
+     "explanation": "The incorrect detail is the site of glycolysis. The notes place glycolysis in the cytoplasm, not primarily in chloroplasts.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "biology-51-9",
@@ -14130,7 +14307,10 @@
       "Leaf epidermis"
      ],
      "answer": 1,
-     "explanation": "The notes specify the cytoplasm as the site of glycolysis."
+     "explanation": "The notes specify the cytoplasm as the site of glycolysis.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "biology-51-10",
@@ -14144,7 +14324,10 @@
       "Aerobic respiration"
      ],
      "answer": 3,
-     "explanation": "The notes associate mitochondrial stages with aerobic respiration."
+     "explanation": "The notes associate mitochondrial stages with aerobic respiration.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "biology-51-11",
@@ -14158,7 +14341,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements match the stated sites of cellular respiration and glycolysis."
+     "explanation": "Both statements match the stated sites of cellular respiration and glycolysis.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-51-12",
@@ -14172,7 +14359,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true, while the reason is false. The notes associate anaerobic respiration with a cytoplasmic pathway or fermentation, not mitochondrial stages."
+     "explanation": "The assertion is true, while the reason is false. The notes associate anaerobic respiration with a cytoplasmic pathway or fermentation, not mitochondrial stages.",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-51-13",
@@ -14186,7 +14377,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are cellular respiration–mitochondria primarily, glycolysis–cytoplasm, anaerobic respiration–cytoplasmic pathway or fermentation, and aerobic respiration–mitochondrial stages."
+     "explanation": "The correct pairs are cellular respiration–mitochondria primarily, glycolysis–cytoplasm, anaerobic respiration–cytoplasmic pathway or fermentation, and aerobic respiration–mitochondrial stages.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "biology-51-14",
@@ -14200,7 +14397,11 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. The notes place stomata in the leaf epidermis and describe their structure as a pore with guard cells."
+     "explanation": "Statements I and II are correct. The notes place stomata in the leaf epidermis and describe their structure as a pore with guard cells.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-51-15",
@@ -14214,7 +14415,10 @@
       "Formation of haemoglobin"
      ],
      "answer": 1,
-     "explanation": "Gas exchange is listed as a function of stomata."
+     "explanation": "Gas exchange is listed as a function of stomata.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "biology-51-16",
@@ -14228,7 +14432,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed items are stated functions or roles of stomata."
+     "explanation": "All four listed items are stated functions or roles of stomata.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-51-17",
@@ -14242,7 +14452,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the assertion."
+     "explanation": "Both statements are true, and the reason directly explains the assertion.",
+     "facts": [
+      "F20"
+     ]
     },
     {
      "id": "biology-51-18",
@@ -14256,7 +14469,10 @@
       "Iron"
      ],
      "answer": 2,
-     "explanation": "The notes identify potassium as important in stomatal opening and closing."
+     "explanation": "The notes identify potassium as important in stomatal opening and closing.",
+     "facts": [
+      "F21"
+     ]
     },
     {
      "id": "biology-51-19",
@@ -14270,7 +14486,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are directly stated: ABA promotes closure under water stress, and potassium is important in stomatal opening and closing."
+     "explanation": "Both statements are directly stated: ABA promotes closure under water stress, and potassium is important in stomatal opening and closing.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-51-20",
@@ -14284,7 +14504,13 @@
       "II, III and IV only"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because stomata have a pore and guard cells."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because stomata have a pore and guard cells.",
+     "facts": [
+      "F15",
+      "F19",
+      "F21",
+      "F22"
+     ]
     }
    ]
   },
@@ -19105,7 +19331,10 @@
       "Fungus and root"
      ],
      "answer": 0,
-     "explanation": "Archaeopteryx is identified as a reptile + bird."
+     "explanation": "Archaeopteryx is identified as a reptile + bird.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "biology-62-2",
@@ -19119,7 +19348,13 @@
       "a-iv, b-i, c-ii, d-iii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are lichen–fungus + alga, mycorrhiza–fungus + root, Cuscuta–stem parasite and Nepenthes–carnivorous pitcher plant."
+     "explanation": "The correct pairs are lichen–fungus + alga, mycorrhiza–fungus + root, Cuscuta–stem parasite and Nepenthes–carnivorous pitcher plant.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "biology-62-3",
@@ -19133,7 +19368,11 @@
       "Azolla is an aquatic fern."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is ‘decomposer’. Azolla is identified as an aquatic fern + biofertilizer."
+     "explanation": "The incorrect detail is ‘decomposer’. Azolla is identified as an aquatic fern + biofertilizer.",
+     "facts": [
+      "F6",
+      "F7"
+     ]
     },
     {
      "id": "biology-62-4",
@@ -19147,7 +19386,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the association of Rhizobium with legume root nodules."
+     "explanation": "Both statements are true, and the reason directly explains the association of Rhizobium with legume root nodules.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "biology-62-5",
@@ -19161,7 +19403,10 @@
       "Diatom"
      ],
      "answer": 1,
-     "explanation": "Methanogen is identified with methane."
+     "explanation": "Methanogen is identified with methane.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "biology-62-6",
@@ -19175,7 +19420,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements match the organism identifiers: Mycoplasma has no cell wall, while cyanobacteria are photosynthetic prokaryotes."
+     "explanation": "Both statements match the organism identifiers: Mycoplasma has no cell wall, while cyanobacteria are photosynthetic prokaryotes.",
+     "facts": [
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "biology-62-7",
@@ -19189,7 +19438,10 @@
       "Carnivorous pitcher plants"
      ],
      "answer": 0,
-     "explanation": "Cyanobacteria are identified as photosynthetic prokaryotes."
+     "explanation": "Cyanobacteria are identified as photosynthetic prokaryotes.",
+     "facts": [
+      "F11"
+     ]
     },
     {
      "id": "biology-62-8",
@@ -19203,7 +19455,13 @@
       "a-i, b-iii, c-iv, d-ii"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are diatom–silica wall, Arthropoda–largest animal phylum, Insecta–largest animal class by species and Arachnida–four pairs of legs."
+     "explanation": "The correct pairs are diatom–silica wall, Arthropoda–largest animal phylum, Insecta–largest animal class by species and Arachnida–four pairs of legs.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "biology-62-9",
@@ -19217,7 +19475,11 @@
       "Echinodermata are identified by their marine nature and radial adult form."
      ],
      "answer": 0,
-     "explanation": "The altered detail is ‘freshwater’. Echinodermata are identified as marine organisms with radial adults."
+     "explanation": "The altered detail is ‘freshwater’. Echinodermata are identified as marine organisms with radial adults.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "biology-62-10",
@@ -19231,7 +19493,10 @@
       "Cephalopod"
      ],
      "answer": 3,
-     "explanation": "Octopus is identified as a cephalopod."
+     "explanation": "Octopus is identified as a cephalopod.",
+     "facts": [
+      "F18"
+     ]
     },
     {
      "id": "biology-62-11",
@@ -19245,7 +19510,13 @@
       "I and III only"
      ],
      "answer": 1,
-     "explanation": "All three statements are correct identifiers: Echinodermata are marine with radial adults, octopus is a cephalopod and seahorse is a true fish."
+     "explanation": "All three statements are correct identifiers: Echinodermata are marine with radial adults, octopus is a cephalopod and seahorse is a true fish.",
+     "facts": [
+      "F16",
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "biology-62-12",
@@ -19259,7 +19530,10 @@
       "Marine radial adult"
      ],
      "answer": 1,
-     "explanation": "Whale is identified as a mammal."
+     "explanation": "Whale is identified as a mammal.",
+     "facts": [
+      "F20"
+     ]
     },
     {
      "id": "biology-62-13",
@@ -19273,7 +19547,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct identifiers: lichen indicates air pollution, while diatom + cyanobacteria are ocean producers."
+     "explanation": "Both statements are correct identifiers: lichen indicates air pollution, while diatom + cyanobacteria are ocean producers.",
+     "facts": [
+      "F21",
+      "F22"
+     ]
     },
     {
      "id": "biology-62-14",
@@ -19287,7 +19565,10 @@
       "Fungus + root"
      ],
      "answer": 0,
-     "explanation": "Diatom + cyanobacteria are identified as ocean producers."
+     "explanation": "Diatom + cyanobacteria are identified as ocean producers.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "biology-62-15",
@@ -19301,7 +19582,11 @@
       "A is false, but R is true"
      ],
      "answer": 2,
-     "explanation": "The assertion is true because bacteria + fungi are decomposers. The reason is false; diatom + cyanobacteria are identified as ocean producers."
+     "explanation": "The assertion is true because bacteria + fungi are decomposers. The reason is false; diatom + cyanobacteria are identified as ocean producers.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "biology-62-16",
@@ -19315,7 +19600,10 @@
       "Specific pollinator"
      ],
      "answer": 0,
-     "explanation": "Copepod is identified as a primary consumer."
+     "explanation": "Copepod is identified as a primary consumer.",
+     "facts": [
+      "F24"
+     ]
     },
     {
      "id": "biology-62-17",
@@ -19329,7 +19617,10 @@
       "Specific pollination"
      ],
      "answer": 3,
-     "explanation": "Fig wasp is identified with specific pollination."
+     "explanation": "Fig wasp is identified with specific pollination.",
+     "facts": [
+      "F25"
+     ]
     },
     {
      "id": "biology-62-18",
@@ -19343,7 +19634,10 @@
       "Primary consumption"
      ],
      "answer": 0,
-     "explanation": "Ant + fungus is identified with fungus cultivation."
+     "explanation": "Ant + fungus is identified with fungus cultivation.",
+     "facts": [
+      "F26"
+     ]
     },
     {
      "id": "biology-62-19",
@@ -19357,7 +19651,10 @@
       "The female mosquito is an ectoparasitic blood feeder."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is ‘primary consumer’. The female mosquito is identified as an ectoparasitic blood feeder."
+     "explanation": "The incorrect detail is ‘primary consumer’. The female mosquito is identified as an ectoparasitic blood feeder.",
+     "facts": [
+      "F27"
+     ]
     },
     {
      "id": "biology-62-20",
@@ -19371,9 +19668,20 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairings are correct: Rhizobium is linked with legume root nodules, methanogen with methane, Mycoplasma has no cell wall and whale is a mammal."
+     "explanation": "All four pairings are correct: Rhizobium is linked with legume root nodules, methanogen with methane, Mycoplasma has no cell wall and whale is a mammal.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F20"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 27,
+    "covered": 27,
+    "audited": true
+   }
   },
   "63": {
    "number": 63,

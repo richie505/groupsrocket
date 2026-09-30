@@ -13159,7 +13159,11 @@
       "State government bonds only"
      ],
      "answer": 1,
-     "explanation": "Treasury Bills are short-term debt instruments and money-market instruments."
+     "explanation": "Treasury Bills are short-term debt instruments and money-market instruments.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-61-2",
@@ -13173,7 +13177,12 @@
       "364 days"
      ],
      "answer": 3,
-     "explanation": "The specified Treasury Bill maturities are 91 days, 182 days and 364 days; hence 364 days is the maximum."
+     "explanation": "The specified Treasury Bill maturities are 91 days, 182 days and 364 days; hence 364 days is the maximum.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-61-3",
@@ -13187,7 +13196,10 @@
       "Commercial banks"
      ],
      "answer": 2,
-     "explanation": "Treasury Bills are issued by the Central Government."
+     "explanation": "Treasury Bills are issued by the Central Government.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-61-4",
@@ -13201,7 +13213,10 @@
       "RBI"
      ],
      "answer": 3,
-     "explanation": "Treasury Bills are sold by the RBI through auction."
+     "explanation": "Treasury Bills are sold by the RBI through auction.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-61-5",
@@ -13215,7 +13230,10 @@
       "1917"
      ],
      "answer": 3,
-     "explanation": "Treasury Bills were first issued in India in 1917."
+     "explanation": "Treasury Bills were first issued in India in 1917.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-61-6",
@@ -13229,7 +13247,14 @@
       "Government Bonds or dated securities are interest-bearing."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is “only by State Governments.” Government Bonds or dated securities are issued by the Central Government, while State Development Loans are issued by State Governments."
+     "explanation": "The incorrect detail is “only by State Governments.” Government Bonds or dated securities are issued by the Central Government, while State Development Loans are issued by State Governments.",
+     "facts": [
+      "F3",
+      "F4",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-economy-61-7",
@@ -13243,7 +13268,13 @@
       "They are redeemed at face value on maturity."
      ],
      "answer": 0,
-     "explanation": "The incorrect statement is that Treasury Bills provide periodic interest payments. They are zero-coupon securities and do not provide periodic interest."
+     "explanation": "The incorrect statement is that Treasury Bills provide periodic interest payments. They are zero-coupon securities and do not provide periodic interest.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-61-8",
@@ -13257,7 +13288,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Treasury Bills are zero-coupon securities, which explains why they have no periodic interest payments."
+     "explanation": "Both statements are true. Treasury Bills are zero-coupon securities, which explains why they have no periodic interest payments.",
+     "facts": [
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-61-9",
@@ -13271,7 +13306,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but issuance at a discount does not explain the separate fact that redemption occurs at face value on maturity."
+     "explanation": "Both statements are true, but issuance at a discount does not explain the separate fact that redemption occurs at face value on maturity.",
+     "facts": [
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-61-10",
@@ -13285,7 +13324,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the stated difference in interest-bearing and zero-coupon features directly explains the assertion."
+     "explanation": "Both statements are true, and the stated difference in interest-bearing and zero-coupon features directly explains the assertion.",
+     "facts": [
+      "F9",
+      "F19"
+     ]
     },
     {
      "id": "indian-economy-61-11",
@@ -13299,7 +13342,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct. Treasury Bills mature in less than one year, while Government Bonds or dated securities have a maturity of at least one year."
+     "explanation": "Both statements are correct. Treasury Bills mature in less than one year, while Government Bonds or dated securities have a maturity of at least one year.",
+     "facts": [
+      "F2",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-61-12",
@@ -13313,7 +13360,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: Treasury Bills are Central Government instruments, whereas State Development Loans are issued by State Governments."
+     "explanation": "Both statements are true: Treasury Bills are Central Government instruments, whereas State Development Loans are issued by State Governments.",
+     "facts": [
+      "F1",
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-61-13",
@@ -13327,7 +13378,13 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Treasury Bills–short-term instrument; Government Bonds/Dated Securities–long-term instrument; State Development Loans–state government bonds or dated securities; Treasury Bills–Central Government issuer."
+     "explanation": "The correct pairs are: Treasury Bills–short-term instrument; Government Bonds/Dated Securities–long-term instrument; State Development Loans–state government bonds or dated securities; Treasury Bills–Central Government issuer.",
+     "facts": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-61-14",
@@ -13341,7 +13398,13 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "The specified maturities are 91 days, 182 days and 364 days. Thus 91 days is a short-term maturity, 182 days is intermediate, 364 days is the longest specified maturity, and all are less than one year."
+     "explanation": "The specified maturities are 91 days, 182 days and 364 days. Thus 91 days is a short-term maturity, 182 days is intermediate, 364 days is the longest specified maturity, and all are less than one year.",
+     "facts": [
+      "F2",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-61-15",
@@ -13355,7 +13418,12 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 2,
-     "explanation": "Treasury Bills involve issue at a discount and redemption at face value. Government Bonds provide a coupon and principal repayment."
+     "explanation": "Treasury Bills involve issue at a discount and redemption at face value. Government Bonds provide a coupon and principal repayment.",
+     "facts": [
+      "F11",
+      "F12",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-61-16",
@@ -13369,7 +13437,13 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Treasury Bills are zero-coupon securities and do not have periodic interest payments."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Treasury Bills are zero-coupon securities and do not have periodic interest payments.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-61-17",
@@ -13383,7 +13457,12 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Treasury Bills have a maturity of less than one year."
+     "explanation": "Statements I, II and III are correct. Statement IV is incorrect because Treasury Bills have a maturity of less than one year.",
+     "facts": [
+      "F2",
+      "F4",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-61-18",
@@ -13397,7 +13476,12 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three listed maturities—91 days, 182 days and 364 days—are specified Treasury Bill maturities. A 730-day maturity is not listed."
+     "explanation": "Three listed maturities—91 days, 182 days and 364 days—are specified Treasury Bill maturities. A 730-day maturity is not listed.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-61-19",
@@ -13411,7 +13495,13 @@
       "C, B, A, D"
      ],
      "answer": 2,
-     "explanation": "The numerical maturities rise as 91 days, 182 days and 364 days. The general category of less than one year follows these specific maturities as the broad maturity description."
+     "explanation": "The numerical maturities rise as 91 days, 182 days and 364 days. The general category of less than one year follows these specific maturities as the broad maturity description.",
+     "facts": [
+      "F2",
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-economy-61-20",
@@ -13425,9 +13515,17 @@
       "Discount and face-value redemption"
      ],
      "answer": 1,
-     "explanation": "Government Bonds provide returns through coupon payments and principal repayment."
+     "explanation": "Government Bonds provide returns through coupon payments and principal repayment.",
+     "facts": [
+      "F21"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 21,
+    "covered": 21,
+    "audited": true
+   }
   },
   "62": {
    "number": 62,
@@ -13856,7 +13954,10 @@
       "IMF"
      ],
      "answer": 3,
-     "explanation": "The World Economic Outlook (WEO) is published by the IMF."
+     "explanation": "The World Economic Outlook (WEO) is published by the IMF.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-economy-63-2",
@@ -13870,7 +13971,13 @@
       "The Human Development Report is published by UNDP."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement concerns the publisher of the Global Wage Report. It is published by the ILO, not UNDP."
+     "explanation": "The incorrect statement concerns the publisher of the Global Wage Report. It is published by the ILO, not UNDP.",
+     "facts": [
+      "F4",
+      "F12",
+      "F21",
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-63-3",
@@ -13884,7 +13991,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the reason directly explains the association of the Human Development Report with UNDP."
+     "explanation": "Both statements are true, and the reason directly explains the association of the Human Development Report with UNDP.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-63-4",
@@ -13898,7 +14008,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The notes identify both the Human Development Index and the Capability Poverty Measure as UNDP publications."
+     "explanation": "The notes identify both the Human Development Index and the Capability Poverty Measure as UNDP publications.",
+     "facts": [
+      "F8",
+      "F10"
+     ]
     },
     {
      "id": "indian-economy-63-5",
@@ -13912,7 +14026,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and III are correct. The Global Gender Gap Report/Index is associated with the World Economic Forum, not UNDP."
+     "explanation": "Statements I, II and III are correct. The Global Gender Gap Report/Index is associated with the World Economic Forum, not UNDP.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-63-6",
@@ -13926,7 +14046,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: World Development Report–World Bank; Ease of Doing Business Report/Index–World Bank; Global Competitiveness Report/Index–World Economic Forum; Global Gender Gap Report/Index–World Economic Forum."
+     "explanation": "The correct pairs are: World Development Report–World Bank; Ease of Doing Business Report/Index–World Bank; Global Competitiveness Report/Index–World Economic Forum; Global Gender Gap Report/Index–World Economic Forum.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-63-7",
@@ -13940,7 +14066,10 @@
       "UNFPA"
      ],
      "answer": 1,
-     "explanation": "The Travel & Tourism Competitiveness Report/Index is associated with the World Economic Forum."
+     "explanation": "The Travel & Tourism Competitiveness Report/Index is associated with the World Economic Forum.",
+     "facts": [
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-63-8",
@@ -13954,7 +14083,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both reports are associated with the World Economic Forum, so the reason correctly explains the assertion."
+     "explanation": "Both reports are associated with the World Economic Forum, so the reason correctly explains the assertion.",
+     "facts": [
+      "F16",
+      "F17"
+     ]
     },
     {
      "id": "indian-economy-63-9",
@@ -13968,7 +14101,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: Travel & Tourism Competitiveness Report/Index–World Economic Forum; World Social Protection Report–ILO; World Social Security Report–ILO, earlier publication; Global Wage Report–ILO."
+     "explanation": "The correct pairs are: Travel & Tourism Competitiveness Report/Index–World Economic Forum; World Social Protection Report–ILO; World Social Security Report–ILO, earlier publication; Global Wage Report–ILO.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-63-10",
@@ -13982,7 +14121,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three are associated with the World Economic Forum. The World Development Report is associated with the World Bank."
+     "explanation": "The first three are associated with the World Economic Forum. The World Development Report is associated with the World Bank.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-63-11",
@@ -13996,7 +14141,10 @@
       "UNFPA"
      ],
      "answer": 3,
-     "explanation": "The State of World Population Report is published by UNFPA."
+     "explanation": "The State of World Population Report is published by UNFPA.",
+     "facts": [
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-63-12",
@@ -14010,7 +14158,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The IMF publishes the Global Financial Stability Report, while UNFPA publishes the State of World Population Report."
+     "explanation": "The IMF publishes the Global Financial Stability Report, while UNFPA publishes the State of World Population Report.",
+     "facts": [
+      "F4",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-63-13",
@@ -14024,7 +14176,13 @@
       "a-iv, b-iii, c-ii, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are: Human Development Index–UNDP; Global Financial Stability Report–IMF; Global Competitiveness Report/Index–World Economic Forum; Global Wage Report–ILO."
+     "explanation": "The correct pairs are: Human Development Index–UNDP; Global Financial Stability Report–IMF; Global Competitiveness Report/Index–World Economic Forum; Global Wage Report–ILO.",
+     "facts": [
+      "F8",
+      "F4",
+      "F15",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-63-14",
@@ -14038,7 +14196,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both reports are identified as ILO publications, and this fact directly explains the assertion."
+     "explanation": "Both reports are identified as ILO publications, and this fact directly explains the assertion.",
+     "facts": [
+      "F18",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-63-15",
@@ -14052,7 +14214,13 @@
       "II and III only"
      ],
      "answer": 1,
-     "explanation": "Statements I, II and III are correct. The State of World Population Report is published by UNFPA, not the World Bank."
+     "explanation": "Statements I, II and III are correct. The State of World Population Report is published by UNFPA, not the World Bank.",
+     "facts": [
+      "F2",
+      "F10",
+      "F18",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-63-16",
@@ -14066,7 +14234,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The Human Development Report, Human Development Index and Capability Poverty Measure are published by UNDP. The Global Gender Gap Report/Index is associated with the World Economic Forum."
+     "explanation": "The Human Development Report, Human Development Index and Capability Poverty Measure are published by UNDP. The Global Gender Gap Report/Index is associated with the World Economic Forum.",
+     "facts": [
+      "F6",
+      "F8",
+      "F10",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-63-17",
@@ -14080,7 +14254,10 @@
       "Ease of Doing Business Report/Index"
      ],
      "answer": 3,
-     "explanation": "The Ease of Doing Business Report/Index is identified as a World Bank report/index that was discontinued."
+     "explanation": "The Ease of Doing Business Report/Index is identified as a World Bank report/index that was discontinued.",
+     "facts": [
+      "F14"
+     ]
     },
     {
      "id": "indian-economy-63-18",
@@ -14094,7 +14271,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true: the two reports in Statement A are associated with the World Bank, and the two reports in Statement B are associated with the World Economic Forum."
+     "explanation": "Both statements are true: the two reports in Statement A are associated with the World Bank, and the two reports in Statement B are associated with the World Economic Forum.",
+     "facts": [
+      "F12",
+      "F13",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-63-19",
@@ -14108,7 +14291,13 @@
       "a-i, b-ii, c-iii, d-iv"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: World Economic Outlook–IMF; Capability Poverty Measure–UNDP; World Social Protection Report–ILO; State of World Population Report–UNFPA."
+     "explanation": "The correct pairs are: World Economic Outlook–IMF; Capability Poverty Measure–UNDP; World Social Protection Report–ILO; State of World Population Report–UNFPA.",
+     "facts": [
+      "F2",
+      "F10",
+      "F18",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-63-20",
@@ -14122,7 +14311,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The World Social Security Report is identified as an earlier ILO publication, and the terminology was subsequently shifted to World Social Protection Report."
+     "explanation": "The World Social Security Report is identified as an earlier ILO publication, and the terminology was subsequently shifted to World Social Protection Report.",
+     "facts": [
+      "F19",
+      "F20"
+     ]
     }
    ]
   },
@@ -14152,7 +14345,10 @@
       "State-level cooperative societies"
      ],
      "answer": 1,
-     "explanation": "Maharatna is a status or category given to selected Central Public Sector Enterprises (CPSEs)."
+     "explanation": "Maharatna is a status or category given to selected Central Public Sector Enterprises (CPSEs).",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-economy-64-2",
@@ -14166,7 +14362,10 @@
       "2008"
      ],
      "answer": 0,
-     "explanation": "The Maharatna category was introduced in 2010."
+     "explanation": "The Maharatna category was introduced in 2010.",
+     "facts": [
+      "F5"
+     ]
     },
     {
      "id": "indian-economy-64-3",
@@ -14180,7 +14379,10 @@
       "Reserve Bank of India"
      ],
      "answer": 2,
-     "explanation": "The Department of Public Enterprises (DPE) administers Maharatna status."
+     "explanation": "The Department of Public Enterprises (DPE) administers Maharatna status.",
+     "facts": [
+      "F6"
+     ]
     },
     {
      "id": "indian-economy-64-4",
@@ -14194,7 +14396,12 @@
       "To convert CPSEs into private companies"
      ],
      "answer": 0,
-     "explanation": "Maharatna status provides greater autonomy and financial and managerial powers to large, high-performing CPSEs."
+     "explanation": "Maharatna status provides greater autonomy and financial and managerial powers to large, high-performing CPSEs.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-64-5",
@@ -14208,7 +14415,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Greater autonomy was provided so that selected Navratna CPSEs could compete globally."
+     "explanation": "Both statements are true. Greater autonomy was provided so that selected Navratna CPSEs could compete globally.",
+     "facts": [
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-economy-64-6",
@@ -14222,7 +14433,12 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "The notes identify turnover, net worth and net profit as factors in Maharatna categorisation."
+     "explanation": "The notes identify turnover, net worth and net profit as factors in Maharatna categorisation.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-64-7",
@@ -14236,7 +14452,10 @@
       "BHEL"
      ],
      "answer": 3,
-     "explanation": "BHEL received Maharatna status in 2013."
+     "explanation": "BHEL received Maharatna status in 2013.",
+     "facts": [
+      "F12"
+     ]
     },
     {
      "id": "indian-economy-64-8",
@@ -14250,7 +14469,13 @@
       "Coal India Ltd. has Maharatna status."
      ],
      "answer": 1,
-     "explanation": "The incorrect detail is the year for BHEL. BHEL received Maharatna status in 2013, not 2010."
+     "explanation": "The incorrect detail is the year for BHEL. BHEL received Maharatna status in 2013, not 2010.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-64-9",
@@ -14264,7 +14489,12 @@
       "HAL only after later upgradation"
      ],
      "answer": 1,
-     "explanation": "GAIL is listed as a Maharatna CPSE. HAL and Oil India Ltd. are separately described as later upgraded to Maharatna."
+     "explanation": "GAIL is listed as a Maharatna CPSE. HAL and Oil India Ltd. are separately described as later upgraded to Maharatna.",
+     "facts": [
+      "F13",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-64-10",
@@ -14278,7 +14508,13 @@
       "a-i, b-iv, c-iii, d-ii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Maharatna–status/category for selected CPSEs, DPE–administering organisation, BHEL–status in 2013, and Oil India Ltd.–later upgraded from Navratna to Maharatna."
+     "explanation": "The correct pairs are Maharatna–status/category for selected CPSEs, DPE–administering organisation, BHEL–status in 2013, and Oil India Ltd.–later upgraded from Navratna to Maharatna.",
+     "facts": [
+      "F1",
+      "F6",
+      "F12",
+      "F24"
+     ]
     },
     {
      "id": "indian-economy-64-11",
@@ -14292,7 +14528,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both SAIL and ONGC are listed as Maharatna CPSEs."
+     "explanation": "Both SAIL and ONGC are listed as Maharatna CPSEs.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-economy-64-12",
@@ -14306,7 +14546,15 @@
       "BPCL and HPCL"
      ],
      "answer": 3,
-     "explanation": "BPCL and HPCL are both listed as Maharatna CPSEs."
+     "explanation": "BPCL and HPCL are both listed as Maharatna CPSEs.",
+     "facts": [
+      "F6",
+      "F12",
+      "F19",
+      "F20",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-64-13",
@@ -14320,7 +14568,13 @@
       "I, II, III and IV"
      ],
      "answer": 1,
-     "explanation": "Power Grid Corporation, Power Finance Corporation and REC are listed as Maharatna. HAL is described separately as later upgraded to Maharatna."
+     "explanation": "Power Grid Corporation, Power Finance Corporation and REC are listed as Maharatna. HAL is described separately as later upgraded to Maharatna.",
+     "facts": [
+      "F21",
+      "F22",
+      "F23",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-64-14",
@@ -14334,7 +14588,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four—GAIL, Coal India Ltd., IOCL and NTPC—are listed as Maharatna CPSEs."
+     "explanation": "All four—GAIL, Coal India Ltd., IOCL and NTPC—are listed as Maharatna CPSEs.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-economy-64-15",
@@ -14348,7 +14608,13 @@
       "BHEL"
      ],
      "answer": 0,
-     "explanation": "HAL is described as later upgraded to Maharatna. Oil India Ltd. is specifically described as later upgraded from Navratna to Maharatna."
+     "explanation": "HAL is described as later upgraded to Maharatna. Oil India Ltd. is specifically described as later upgraded from Navratna to Maharatna.",
+     "facts": [
+      "F12",
+      "F13",
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-economy-64-16",
@@ -14362,7 +14628,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the powers and autonomy provided by the status explain its association with large, high-performing CPSEs."
+     "explanation": "Both statements are true, and the powers and autonomy provided by the status explain its association with large, high-performing CPSEs.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4"
+     ]
     },
     {
      "id": "indian-economy-64-17",
@@ -14376,7 +14647,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both Indian Oil Corporation Ltd. (IOCL) and Power Grid Corporation are listed as Maharatna CPSEs."
+     "explanation": "Both Indian Oil Corporation Ltd. (IOCL) and Power Grid Corporation are listed as Maharatna CPSEs.",
+     "facts": [
+      "F15",
+      "F21"
+     ]
     },
     {
      "id": "indian-economy-64-18",
@@ -14390,7 +14665,13 @@
       "I, II, III and IV"
      ],
      "answer": 2,
-     "explanation": "Statements I, II and IV are true. Statement III is false because Maharatna was introduced in 2010."
+     "explanation": "Statements I, II and IV are true. Statement III is false because Maharatna was introduced in 2010.",
+     "facts": [
+      "F5",
+      "F6",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "indian-economy-64-19",
@@ -14404,7 +14685,14 @@
       "SAIL"
      ],
      "answer": 1,
-     "explanation": "SAIL, ONGC and Power Finance Corporation are listed as Maharatna CPSEs. The Department of Public Enterprises administers the status and is not a CPSE in the list."
+     "explanation": "SAIL, ONGC and Power Finance Corporation are listed as Maharatna CPSEs. The Department of Public Enterprises administers the status and is not a CPSE in the list.",
+     "facts": [
+      "F1",
+      "F6",
+      "F17",
+      "F18",
+      "F22"
+     ]
     },
     {
      "id": "indian-economy-64-20",
@@ -14418,9 +14706,18 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Oil India Ltd. was later upgraded from Navratna to Maharatna, while HAL was later upgraded to Maharatna."
+     "explanation": "Both statements are true. Oil India Ltd. was later upgraded from Navratna to Maharatna, while HAL was later upgraded to Maharatna.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 25,
+    "covered": 25,
+    "audited": true
+   }
   },
   "65": {
    "number": 65,
@@ -15129,8 +15426,30 @@
      "facts": [
       "F23"
      ]
+    },
+    {
+     "id": "indian-economy-66-23",
+     "format": "Direct Recall",
+     "keyword": "Chairman",
+     "question": "Who chaired the Vaghul Committee?",
+     "options": [
+      "M. Narasimham",
+      "Abid Hussain",
+      "S.S. Tarapore",
+      "Vaghul"
+     ],
+     "answer": 3,
+     "explanation": "The Vaghul Committee was chaired by Vaghul.",
+     "facts": [
+      "F27"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 36,
+    "covered": 36,
+    "audited": true
+   }
   },
   "67": {
    "number": 67,
