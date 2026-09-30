@@ -8874,6 +8874,191 @@
       "F103",
       "F112"
      ]
+    },
+    {
+     "id": "indian-geography-24-10",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements about rice:\nI. Rice requires a temperature of about 25°C.\nII. Rice requires rainfall above 100 cm.\nIII. Rice requires high humidity.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I only",
+      "I and II only",
+      "I, II and III",
+      "II only"
+     ],
+     "answer": 2,
+     "explanation": "Rice requires about 25°C, rainfall above 100 cm and high humidity. Therefore, all three statements are correct.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29"
+     ]
+    },
+    {
+     "id": "indian-geography-24-11",
+     "format": "List-Matching",
+     "keyword": "Major Crops → Location",
+     "question": "Match List-I with List-II:\n\nList-I\n(a) Ganges Delta\n(b) Uttar Pradesh\n(c) 100 cm isohyet\n\nList-II\n(i) Largest area under rice in the cited 2024–25 data\n(ii) Approximately the western limit of rice cultivation\n(iii) Major location for rice\n\nCodes:",
+     "options": [
+      "a-ii, b-iii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i",
+      "a-i, b-ii, c-iii"
+     ],
+     "answer": 1,
+     "explanation": "The Ganges Delta is a major rice location, Uttar Pradesh had the largest area under rice in the cited data, and the 100 cm isohyet is approximately the western limit of rice cultivation.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
+    },
+    {
+     "id": "indian-geography-24-12",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements about wheat:\nI. Wheat requires a cool growing season.\nII. Wheat requires relatively dry conditions.\nIII. Wheat is grown in the northern and north-western plains.\nIV. Uttar Pradesh was the leading wheat producer in the cited data.\nV. Wheat is associated with the Prairies Plains.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "II, IV and V only",
+      "I, II, III, IV and V",
+      "I, II and III only",
+      "I, III and IV only"
+     ],
+     "answer": 1,
+     "explanation": "All five statements correctly describe the climatic requirements, distribution, production position and association of wheat.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35",
+      "F36",
+      "F37"
+     ]
+    },
+    {
+     "id": "indian-geography-24-13",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops",
+     "question": "Assertion (A): Maize requires a warm climate.\nReason (R): Maize is a major crop across several regions.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Both statements are true. However, the fact that maize is a major crop across several regions does not explain its requirement for a warm climate.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
+    },
+    {
+     "id": "indian-geography-24-14",
+     "format": "Direct Recall",
+     "keyword": "Institute/Organisation → Location",
+     "question": "The Indian Institute of Maize Research is located in:",
+     "options": [
+      "Karnataka",
+      "New Delhi",
+      "Andhra Pradesh",
+      "Uttar Pradesh"
+     ],
+     "answer": 1,
+     "explanation": "The Indian Institute of Maize Research is located in New Delhi.",
+     "facts": [
+      "F40"
+     ]
+    },
+    {
+     "id": "indian-geography-24-15",
+     "format": "Assertion-Reason",
+     "keyword": "Major Crops",
+     "question": "Assertion (A): Jowar is comparatively drought tolerant.\nReason (R): Jowar requires a warm climate.",
+     "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+     ],
+     "answer": 1,
+     "explanation": "Jowar is comparatively drought tolerant and requires a warm climate. The warm-climate requirement does not correctly explain its drought tolerance.",
+     "facts": [
+      "F41",
+      "F42"
+     ]
+    },
+    {
+     "id": "indian-geography-24-16",
+     "format": "Direct Recall",
+     "keyword": "Major Crops → Location",
+     "question": "Jowar is grown mainly in:",
+     "options": [
+      "The Ganges Delta",
+      "Peninsular and semi-arid India",
+      "Northern and north-western plains",
+      "Rajasthan and other semi-arid regions"
+     ],
+     "answer": 1,
+     "explanation": "Jowar is grown in peninsular and semi-arid India.",
+     "facts": [
+      "F43"
+     ]
+    },
+    {
+     "id": "indian-geography-24-17",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements about bajra:\nI. Bajra requires hot and dry conditions.\nII. Bajra is drought tolerant.\nIII. Bajra is grown in Rajasthan and other semi-arid regions.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I and II only",
+      "I, II and III",
+      "I only",
+      "II only"
+     ],
+     "answer": 1,
+     "explanation": "Bajra requires hot and dry conditions, is drought tolerant, and is grown in Rajasthan and other semi-arid regions. Hence, all three statements are correct.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47"
+     ]
+    },
+    {
+     "id": "indian-geography-24-18",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Major Crops → Location",
+     "question": "Consider the following statements about ragi:\nI. Ragi requires a warm climate.\nII. Ragi is suitable for relatively dry conditions.\nIII. Ragi is grown in peninsular India, especially Karnataka.\nWhich of the statements given above is/are correct?",
+     "options": [
+      "I, II and III",
+      "I only",
+      "I and II only",
+      "II only"
+     ],
+     "answer": 0,
+     "explanation": "Ragi requires a warm climate, is suitable for relatively dry conditions, and is grown in peninsular India, especially Karnataka.",
+     "facts": [
+      "F49",
+      "F50",
+      "F51"
+     ]
+    },
+    {
+     "id": "indian-geography-24-19",
+     "format": "Statement-Based (A/B)",
+     "keyword": "Major Crops",
+     "question": "Consider the following statements:\nStatement A: Cotton requires a warm climate.\nStatement B: Cotton requires frost-free conditions.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Cotton requires both a warm climate and frost-free conditions.",
+     "facts": [
+      "F53",
+      "F54"
+     ]
     }
    ]
   },
@@ -9695,7 +9880,10 @@
       "Andhra Pradesh"
      ],
      "answer": 3,
-     "explanation": "Nallamala Hills are located in Andhra Pradesh."
+     "explanation": "Nallamala Hills are located in Andhra Pradesh.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-geography-28-2",
@@ -9709,7 +9897,11 @@
       "Nallamala Hills"
      ],
      "answer": 3,
-     "explanation": "The notes associate Srisailam with the flat top of the Nallamala Hills."
+     "explanation": "The notes associate Srisailam with the flat top of the Nallamala Hills.",
+     "facts": [
+      "F21",
+      "F30"
+     ]
     },
     {
      "id": "indian-geography-28-3",
@@ -9723,7 +9915,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "Seshachalam is in Andhra Pradesh; Javadi/Jawadhu is in Tamil Nadu; Shevaroy is associated with Salem, Tamil Nadu; and Nandi is in Karnataka."
+     "explanation": "Seshachalam is in Andhra Pradesh; Javadi/Jawadhu is in Tamil Nadu; Shevaroy is associated with Salem, Tamil Nadu; and Nandi is in Karnataka.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F10"
+     ]
     },
     {
      "id": "indian-geography-28-4",
@@ -9737,7 +9936,12 @@
       "Nilgiri Hills"
      ],
      "answer": 0,
-     "explanation": "The Tirupati temple, associated with Lord Venkateswara, lies in the Seshachalam range."
+     "explanation": "The Tirupati temple, associated with Lord Venkateswara, lies in the Seshachalam range.",
+     "facts": [
+      "F22",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-geography-28-5",
@@ -9751,7 +9955,15 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct associations are Seshachalam–Tirupati, Nilgiri–Doddabetta, Palni–Kodaikanal, and Parasnath–Shikharji."
+     "explanation": "The correct associations are Seshachalam–Tirupati, Nilgiri–Doddabetta, Palni–Kodaikanal, and Parasnath–Shikharji.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24",
+      "F26",
+      "F32",
+      "F79"
+     ]
     },
     {
      "id": "indian-geography-28-6",
@@ -9765,7 +9977,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "The Nilgiri Hills are called the Blue Mountains, and Doddabetta is their highest peak at 2,637 m. Statement III incorrectly assigns the 2,695 m height, which belongs to Anaimudi."
+     "explanation": "The Nilgiri Hills are called the Blue Mountains, and Doddabetta is their highest peak at 2,637 m. Statement III incorrectly assigns the 2,695 m height, which belongs to Anaimudi.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37"
+     ]
     },
     {
      "id": "indian-geography-28-7",
@@ -9779,7 +9996,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are correct descriptions of the Nilgiri Hills."
+     "explanation": "Both statements are correct descriptions of the Nilgiri Hills.",
+     "facts": [
+      "F6",
+      "F34"
+     ]
     },
     {
      "id": "indian-geography-28-8",
@@ -9793,7 +10014,13 @@
       "Shevaroy Hills are associated with Salem."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that Kolli Malai Hills are in Karnataka. The notes place them in Tamil Nadu."
+     "explanation": "The incorrect statement is that Kolli Malai Hills are in Karnataka. The notes place them in Tamil Nadu.",
+     "facts": [
+      "F15",
+      "F39",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "indian-geography-28-9",
@@ -9807,7 +10034,11 @@
       "Mukandara"
      ],
      "answer": 0,
-     "explanation": "Anaimudi is the highest peak associated with the Anamalai Hills, with a height of 2,695 m."
+     "explanation": "Anaimudi is the highest peak associated with the Anamalai Hills, with a height of 2,695 m.",
+     "facts": [
+      "F47",
+      "F48"
+     ]
     },
     {
      "id": "indian-geography-28-10",
@@ -9821,7 +10052,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are given associations of the Palni Hills."
+     "explanation": "Both statements are given associations of the Palni Hills.",
+     "facts": [
+      "F50",
+      "F51"
+     ]
     },
     {
      "id": "indian-geography-28-11",
@@ -9835,7 +10070,11 @@
       "Shevaroy Hills"
      ],
      "answer": 0,
-     "explanation": "The Biligiriranga Hills of southeastern Karnataka are associated with the Ranganatha Temple."
+     "explanation": "The Biligiriranga Hills of southeastern Karnataka are associated with the Ranganatha Temple.",
+     "facts": [
+      "F25",
+      "F44"
+     ]
     },
     {
      "id": "indian-geography-28-12",
@@ -9849,7 +10088,14 @@
       "a-iv, b-iii, c-i, d-ii"
      ],
      "answer": 1,
-     "explanation": "Mahadeo Range is in Madhya Pradesh; Maikal Range is in the MP–Chhattisgarh region; Mukandara Hills are in Rajasthan; and Parasnath Hill is in Giridih district, Jharkhand."
+     "explanation": "Mahadeo Range is in Madhya Pradesh; Maikal Range is in the MP–Chhattisgarh region; Mukandara Hills are in Rajasthan; and Parasnath Hill is in Giridih district, Jharkhand.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F78"
+     ]
     },
     {
      "id": "indian-geography-28-13",
@@ -9863,7 +10109,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true: the Mahadeo Range is part of the Satpura system and is located in central India. Its location does not explain why it forms part of the Satpura system."
+     "explanation": "Both statements are true: the Mahadeo Range is part of the Satpura system and is located in central India. Its location does not explain why it forms part of the Satpura system.",
+     "facts": [
+      "F52",
+      "F53"
+     ]
     },
     {
      "id": "indian-geography-28-14",
@@ -9877,7 +10127,10 @@
       "Narmada and Tapi valleys"
      ],
      "answer": 3,
-     "explanation": "The Satpura Range lies between the Narmada and Tapi valleys."
+     "explanation": "The Satpura Range lies between the Narmada and Tapi valleys.",
+     "facts": [
+      "F58"
+     ]
     },
     {
      "id": "indian-geography-28-15",
@@ -9891,7 +10144,13 @@
       "a-iii, b-iv, c-i, d-ii"
      ],
      "answer": 2,
-     "explanation": "Garo Hills are in western Meghalaya; Khasi Hills are in Meghalaya; Miri Hills are in Arunachal Pradesh; and Dalma Hills are in Jharkhand."
+     "explanation": "Garo Hills are in western Meghalaya; Khasi Hills are in Meghalaya; Miri Hills are in Arunachal Pradesh; and Dalma Hills are in Jharkhand.",
+     "facts": [
+      "F13",
+      "F14",
+      "F16",
+      "F69"
+     ]
     },
     {
      "id": "indian-geography-28-16",
@@ -9905,7 +10164,14 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed hills—Seshachalam, Javadi/Jawadhu, Shevaroy and Kolli/Kollai Malai—are identified with the Eastern Ghats."
+     "explanation": "All four listed hills—Seshachalam, Javadi/Jawadhu, Shevaroy and Kolli/Kollai Malai—are identified with the Eastern Ghats.",
+     "facts": [
+      "F31",
+      "F38",
+      "F41",
+      "F73",
+      "F74"
+     ]
     },
     {
      "id": "indian-geography-28-17",
@@ -9919,7 +10185,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the regional location does not explain the name Blue Mountains."
+     "explanation": "Both statements are true, but the regional location does not explain the name Blue Mountains.",
+     "facts": [
+      "F6",
+      "F35"
+     ]
     },
     {
      "id": "indian-geography-28-18",
@@ -9933,7 +10203,11 @@
       "Lord Venkateswara Temple"
      ],
      "answer": 2,
-     "explanation": "Parasnath Hill in Giridih district is associated with the Shikharji Jain Temple."
+     "explanation": "Parasnath Hill in Giridih district is associated with the Shikharji Jain Temple.",
+     "facts": [
+      "F26",
+      "F79"
+     ]
     },
     {
      "id": "indian-geography-28-19",
@@ -9947,7 +10221,12 @@
       "I, II and III"
      ],
      "answer": 2,
-     "explanation": "Parasnath Hill has a height of 1,365 m, and Anamalai Hills are part of the southern Western Ghats. The Palni Hills are located in Tamil Nadu, not Kerala."
+     "explanation": "Parasnath Hill has a height of 1,365 m, and Anamalai Hills are part of the southern Western Ghats. The Palni Hills are located in Tamil Nadu, not Kerala.",
+     "facts": [
+      "F8",
+      "F46",
+      "F80"
+     ]
     },
     {
      "id": "indian-geography-28-20",
@@ -9961,7 +10240,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Biligiriranga, Nandi and Chamundi Hills are located in Karnataka. Garo Hills are in Meghalaya."
+     "explanation": "Biligiriranga, Nandi and Chamundi Hills are located in Karnataka. Garo Hills are in Meghalaya.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-geography-28-21",
@@ -9975,7 +10260,10 @@
       "Godavari and Krishna"
      ],
      "answer": 2,
-     "explanation": "The Nallamala Hills lie between the Krishna and Pennar Rivers."
+     "explanation": "The Nallamala Hills lie between the Krishna and Pennar Rivers.",
+     "facts": [
+      "F27"
+     ]
     },
     {
      "id": "indian-geography-28-22",
@@ -9989,7 +10277,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "The Nallamala Hills are broadly north–south in alignment and run parallel to the Coromandel Coast."
+     "explanation": "The Nallamala Hills are broadly north–south in alignment and run parallel to the Coromandel Coast.",
+     "facts": [
+      "F28",
+      "F29"
+     ]
     },
     {
      "id": "indian-geography-28-23",
@@ -10003,7 +10295,11 @@
       "It is an extension of the Vindhyan Range in Rajasthan"
      ],
      "answer": 1,
-     "explanation": "The Maikal Range forms the eastern part of the Satpura system and lies in the MP–Chhattisgarh region."
+     "explanation": "The Maikal Range forms the eastern part of the Satpura system and lies in the MP–Chhattisgarh region.",
+     "facts": [
+      "F20",
+      "F54"
+     ]
     },
     {
      "id": "indian-geography-28-24",
@@ -10017,7 +10313,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The notes identify the Vindhyan Range as lying north of the Narmada valley and as part of the Central Indian highlands, but the latter does not explain its north-of-Narmada location."
+     "explanation": "Both statements are true. The notes identify the Vindhyan Range as lying north of the Narmada valley and as part of the Central Indian highlands, but the latter does not explain its north-of-Narmada location.",
+     "facts": [
+      "F62",
+      "F63"
+     ]
     },
     {
      "id": "indian-geography-28-25",
@@ -10031,7 +10331,11 @@
       "Maikal Range"
      ],
      "answer": 2,
-     "explanation": "The Mukandara Hills in southeastern Rajasthan are an extension of the Vindhyan Range."
+     "explanation": "The Mukandara Hills in southeastern Rajasthan are an extension of the Vindhyan Range.",
+     "facts": [
+      "F64",
+      "F66"
+     ]
     },
     {
      "id": "indian-geography-28-26",
@@ -10045,7 +10349,13 @@
       "a-iii, b-i, c-ii, d-iv"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Khasi–Meghalaya plateau, Garo–Western Meghalaya, Dalma–Chotanagpur region, and Miri–Eastern Himalayan hill system."
+     "explanation": "The correct pairs are Khasi–Meghalaya plateau, Garo–Western Meghalaya, Dalma–Chotanagpur region, and Miri–Eastern Himalayan hill system.",
+     "facts": [
+      "F68",
+      "F69",
+      "F72",
+      "F76"
+     ]
     },
     {
      "id": "indian-geography-28-27",
@@ -10059,7 +10369,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairings are correct according to the stated physical features and regions of these hills."
+     "explanation": "All four pairings are correct according to the stated physical features and regions of these hills.",
+     "facts": [
+      "F68",
+      "F69",
+      "F72",
+      "F76"
+     ]
     },
     {
      "id": "indian-geography-28-28",
@@ -10073,7 +10389,10 @@
       "Southern Western Ghats"
      ],
      "answer": 1,
-     "explanation": "The Maikal Range is associated with the Central Indian highlands."
+     "explanation": "The Maikal Range is associated with the Central Indian highlands.",
+     "facts": [
+      "F55"
+     ]
     }
    ]
   },

@@ -17459,8 +17459,47 @@
       "F21",
       "F32"
      ]
+    },
+    {
+     "id": "indian-polity-33-32",
+     "format": "Direct Recall",
+     "keyword": "Question Hour / Zero Hour",
+     "question": "Which of the following correctly states the timing of Zero Hour in the Lok Sabha?",
+     "options": [
+      "Generally up to one hour, but without a specified time period",
+      "12:00 Noon to 1:00 PM",
+      "11:00 AM to 12:00 Noon",
+      "The first hour of every parliamentary sitting, irrespective of the House"
+     ],
+     "answer": 1,
+     "explanation": "Zero Hour in the Lok Sabha runs from 12:00 Noon to 1:00 PM. It immediately follows Question Hour, which runs from 11:00 AM to 12:00 Noon in the Lok Sabha.",
+     "facts": [
+      "F22"
+     ]
+    },
+    {
+     "id": "indian-polity-33-33",
+     "format": "Direct Recall",
+     "keyword": "Adjournment Motion",
+     "question": "What is the primary objective of an Adjournment Motion?",
+     "options": [
+      "To raise urgent matters of public importance without prior notice as an informal convention",
+      "To discuss a definite matter of urgent public importance",
+      "To call the attention of a Minister to an urgent public matter",
+      "To question Ministers about administrative actions during the first hour"
+     ],
+     "answer": 1,
+     "explanation": "The primary objective of an Adjournment Motion is to discuss a definite matter of urgent public importance. It interrupts and suspends normal parliamentary business.",
+     "facts": [
+      "F36"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 57,
+    "covered": 57,
+    "audited": true
+   }
   },
   "34": {
    "number": 34,
@@ -19499,8 +19538,86 @@
       "F86",
       "F83"
      ]
+    },
+    {
+     "id": "indian-polity-36-36",
+     "format": "Multi-Statement Correctness",
+     "keyword": "Articles – NUMBER GAME",
+     "question": "Consider the following statements:\nI. The President is elected under Article 54.\nII. The Vice-President is elected under Article 66.\nIII. The Lok Sabha is constituted under Article 81.\nIV. The Legislative Assembly is provided for under Article 170.\nV. The Legislative Council is provided for under Article 171.",
+     "options": [
+      "I, III, IV and V only",
+      "II, III and IV only",
+      "I, II, III, IV and V",
+      "I, II and III only"
+     ],
+     "answer": 2,
+     "explanation": "All five statements are correct. Articles 54, 66, 81, 170 and 171 respectively relate to the President, Vice-President, Lok Sabha, Legislative Assembly and Legislative Council.",
+     "facts": [
+      "F32",
+      "F47",
+      "F58",
+      "F72",
+      "F77"
+     ]
+    },
+    {
+     "id": "indian-polity-36-37",
+     "format": "Statement-Based (A/B)",
+     "keyword": "President",
+     "question": "Consider the following statements:\nStatement A: Elected Members of the Lok Sabha form part of the Presidential electoral college.\nStatement B: Elected Members of the Rajya Sabha form part of the Presidential electoral college.",
+     "options": [
+      "Both Statement A and Statement B are true",
+      "Both Statement A and Statement B are false",
+      "Statement A is true, Statement B is false",
+      "Statement A is false, Statement B is true"
+     ],
+     "answer": 0,
+     "explanation": "Both statements are true. The Presidential electoral college includes elected Members of both Houses of Parliament.",
+     "facts": [
+      "F34",
+      "F35"
+     ]
+    },
+    {
+     "id": "indian-polity-36-38",
+     "format": "Direct Recall",
+     "keyword": "Vice President",
+     "question": "The Vice-Presidential election uses which of the following?",
+     "options": [
+      "Secret ballot",
+      "Universal Adult Suffrage",
+      "Direct election by citizens",
+      "First-Past-the-Post system"
+     ],
+     "answer": 0,
+     "explanation": "The Vice-Presidential election is conducted through proportional representation by means of the single transferable vote using a secret ballot.",
+     "facts": [
+      "F53"
+     ]
+    },
+    {
+     "id": "indian-polity-36-39",
+     "format": "Direct Recall",
+     "keyword": "Legislative council",
+     "question": "Which of the following correctly describes the voting method used in a Legislative Council election?",
+     "options": [
+      "Universal Adult Suffrage",
+      "Direct election by citizens of the State",
+      "Secret ballot",
+      "First-Past-the-Post system"
+     ],
+     "answer": 2,
+     "explanation": "The Legislative Council election uses a secret ballot. The other options refer to electoral arrangements associated with direct elections or the Legislative Assembly framework.",
+     "facts": [
+      "F85"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 102,
+    "covered": 102,
+    "audited": true
+   }
   },
   "37": {
    "number": 37,
@@ -29739,7 +29856,10 @@
       "Part XX"
      ],
      "answer": 1,
-     "explanation": "The Article 371 series is placed in Part XXI, titled Temporary, Transitional and Special Provisions."
+     "explanation": "The Article 371 series is placed in Part XXI, titled Temporary, Transitional and Special Provisions.",
+     "facts": [
+      "F1"
+     ]
     },
     {
      "id": "indian-polity-48-2",
@@ -29753,7 +29873,11 @@
       "Andhra Pradesh and Telangana"
      ],
      "answer": 0,
-     "explanation": "Article 371 applies to Maharashtra and Gujarat, providing for separate development boards."
+     "explanation": "Article 371 applies to Maharashtra and Gujarat, providing for separate development boards.",
+     "facts": [
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-polity-48-3",
@@ -29767,7 +29891,17 @@
       "Vidarbha, Marathwada, Saurashtra and Kutch"
      ],
      "answer": 3,
-     "explanation": "Article 371 provides for separate development boards for Vidarbha, Marathwada, Saurashtra and Kutch."
+     "explanation": "Article 371 provides for separate development boards for Vidarbha, Marathwada, Saurashtra and Kutch.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F14",
+      "F16",
+      "F33",
+      "F37"
+     ]
     },
     {
      "id": "indian-polity-48-4",
@@ -29781,7 +29915,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The listed protections constitute the special provisions provided to Nagaland under Article 371-A."
+     "explanation": "Both statements are true. The listed protections constitute the special provisions provided to Nagaland under Article 371-A.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-polity-48-5",
@@ -29795,7 +29936,16 @@
       "a-c, b-i, c-b, d-a"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are Article 371-A–Nagaland, 371-B–Assam, 371-C–Manipur and 371-D–Andhra Pradesh and Telangana."
+     "explanation": "The correct pairs are Article 371-A–Nagaland, 371-B–Assam, 371-C–Manipur and 371-D–Andhra Pradesh and Telangana.",
+     "facts": [
+      "F2",
+      "F3",
+      "F8",
+      "F13",
+      "F15",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-48-6",
@@ -29809,7 +29959,14 @@
       "I, II and III only"
      ],
      "answer": 3,
-     "explanation": "Statements I, II and III are correct. Article 371-D applies to both Andhra Pradesh and Telangana, so Statement IV is incorrect."
+     "explanation": "Statements I, II and III are correct. Article 371-D applies to both Andhra Pradesh and Telangana, so Statement IV is incorrect.",
+     "facts": [
+      "F8",
+      "F13",
+      "F15",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-48-7",
@@ -29823,7 +29980,11 @@
       "Andhra Pradesh and Karnataka"
      ],
      "answer": 1,
-     "explanation": "Article 371-D applies to Andhra Pradesh and Telangana."
+     "explanation": "Article 371-D applies to Andhra Pradesh and Telangana.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-48-8",
@@ -29837,7 +29998,14 @@
       "Article 371-D applies to Andhra Pradesh and Telangana."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement attributes the Central University provision to Article 371-D. That provision is covered by Article 371-E."
+     "explanation": "The incorrect statement attributes the Central University provision to Article 371-D. That provision is covered by Article 371-E.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F22"
+     ]
     },
     {
      "id": "indian-polity-48-9",
@@ -29851,7 +30019,14 @@
       "A committee of the Legislative Assembly from tribal areas"
      ],
      "answer": 1,
-     "explanation": "Article 371-E provides for the establishment of a Central University in Andhra Pradesh by parliamentary law."
+     "explanation": "Article 371-E provides for the establishment of a Central University in Andhra Pradesh by parliamentary law.",
+     "facts": [
+      "F14",
+      "F21",
+      "F22",
+      "F35",
+      "F37"
+     ]
     },
     {
      "id": "indian-polity-48-10",
@@ -29865,7 +30040,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Article 371-D covers regional opportunities in Andhra Pradesh and Telangana, while Article 371-E applies to Andhra Pradesh only."
+     "explanation": "Both statements are true. Article 371-D covers regional opportunities in Andhra Pradesh and Telangana, while Article 371-E applies to Andhra Pradesh only.",
+     "facts": [
+      "F19",
+      "F20",
+      "F46"
+     ]
     },
     {
      "id": "indian-polity-48-11",
@@ -29879,7 +30059,13 @@
       "Goa"
      ],
      "answer": 0,
-     "explanation": "Article 371-F contains special provisions governing the incorporation, assembly size and governance of Sikkim."
+     "explanation": "Article 371-F contains special provisions governing the incorporation, assembly size and governance of Sikkim.",
+     "facts": [
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-48-12",
@@ -29893,7 +30079,13 @@
       "Article 371-C"
      ],
      "answer": 0,
-     "explanation": "Article 371-G provides these protections for Mizoram."
+     "explanation": "Article 371-G provides these protections for Mizoram.",
+     "facts": [
+      "F27",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-polity-48-13",
@@ -29907,7 +30099,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Article 371-H gives the Governor of Arunachal Pradesh special responsibility with respect to law and order."
+     "explanation": "Both statements are true. Article 371-H gives the Governor of Arunachal Pradesh special responsibility with respect to law and order.",
+     "facts": [
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "indian-polity-48-14",
@@ -29921,7 +30117,12 @@
       "40 members"
      ],
      "answer": 0,
-     "explanation": "Article 371-I specifies a minimum size of 30 members for the Legislative Assembly of Goa."
+     "explanation": "Article 371-I specifies a minimum size of 30 members for the Legislative Assembly of Goa.",
+     "facts": [
+      "F33",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "indian-polity-48-15",
@@ -29935,7 +30136,13 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 2,
-     "explanation": "The correct pairs are 371-F–Sikkim, 371-G–Mizoram, 371-H–Arunachal Pradesh and 371-I–Goa."
+     "explanation": "The correct pairs are 371-F–Sikkim, 371-G–Mizoram, 371-H–Arunachal Pradesh and 371-I–Goa.",
+     "facts": [
+      "F23",
+      "F27",
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-48-16",
@@ -29949,7 +30156,13 @@
       "Hyderabad–Karnataka region"
      ],
      "answer": 3,
-     "explanation": "Article 371-J specifically targets the socio-economic development of the Hyderabad–Karnataka region."
+     "explanation": "Article 371-J specifically targets the socio-economic development of the Hyderabad–Karnataka region.",
+     "facts": [
+      "F4",
+      "F6",
+      "F14",
+      "F47"
+     ]
     },
     {
      "id": "indian-polity-48-17",
@@ -29963,7 +30176,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four pairs are correct: 371-A–Nagaland, 371-B–Assam, 371-C–Manipur and 371-H–Arunachal Pradesh."
+     "explanation": "All four pairs are correct: 371-A–Nagaland, 371-B–Assam, 371-C–Manipur and 371-H–Arunachal Pradesh.",
+     "facts": [
+      "F8",
+      "F13",
+      "F15",
+      "F31"
+     ]
     },
     {
      "id": "indian-polity-48-18",
@@ -29977,7 +30196,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Article 371 concerns Maharashtra and Gujarat, whereas Article 371-A concerns Nagaland."
+     "explanation": "Both statements are true. Article 371 concerns Maharashtra and Gujarat, whereas Article 371-A concerns Nagaland.",
+     "facts": [
+      "F2",
+      "F3",
+      "F8"
+     ]
     },
     {
      "id": "indian-polity-48-19",
@@ -29991,7 +30215,17 @@
       "a-iv, b-ii, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "Article 371-B provides for a committee comprising members from Tribal areas, while Article 371-C provides for a committee comprising members elected from Hill areas. Article 371-F concerns Sikkim's incorporation, assembly size and governance, and Article 371-J provides a development board and reservations for the Hyderabad–Karnataka region."
+     "explanation": "Article 371-B provides for a committee comprising members from Tribal areas, while Article 371-C provides for a committee comprising members elected from Hill areas. Article 371-F concerns Sikkim's incorporation, assembly size and governance, and Article 371-J provides a development board and reservations for the Hyderabad–Karnataka region.",
+     "facts": [
+      "F14",
+      "F16",
+      "F24",
+      "F25",
+      "F26",
+      "F37",
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "indian-polity-48-20",
@@ -30005,7 +30239,11 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Article 371-B concerns the Tribal-areas committee in Assam, whereas Article 371-C concerns the Hill-areas committee in Manipur; the Reason does not explain the Assertion."
+     "explanation": "Both statements are true. Article 371-B concerns the Tribal-areas committee in Assam, whereas Article 371-C concerns the Hill-areas committee in Manipur; the Reason does not explain the Assertion.",
+     "facts": [
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-polity-48-21",
@@ -30019,7 +30257,18 @@
       "Establishment of a Central University in Andhra Pradesh by parliamentary law"
      ],
      "answer": 2,
-     "explanation": "Article 371-F contains special provisions governing the incorporation, assembly size and governance of Sikkim."
+     "explanation": "Article 371-F contains special provisions governing the incorporation, assembly size and governance of Sikkim.",
+     "facts": [
+      "F19",
+      "F20",
+      "F22",
+      "F24",
+      "F25",
+      "F26",
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-polity-48-22",
@@ -30033,7 +30282,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. Article 371-J was inserted by the 98th Constitutional Amendment Act, 2012, and provides reservations in education and employment for the Hyderabad–Karnataka region; however, the Reason describes its scope and does not explain its insertion."
+     "explanation": "Both statements are true. Article 371-J was inserted by the 98th Constitutional Amendment Act, 2012, and provides reservations in education and employment for the Hyderabad–Karnataka region; however, the Reason describes its scope and does not explain its insertion.",
+     "facts": [
+      "F38",
+      "F39",
+      "F40"
+     ]
     }
    ]
   },
@@ -30067,7 +30321,12 @@
       "Article 275(1) and the Sixth Schedule"
      ],
      "answer": 1,
-     "explanation": "Scheduled Areas and Scheduled Tribes are governed under Part X, Article 244(1), and the Fifth Schedule."
+     "explanation": "Scheduled Areas and Scheduled Tribes are governed under Part X, Article 244(1), and the Fifth Schedule.",
+     "facts": [
+      "F1",
+      "F2",
+      "F3"
+     ]
     },
     {
      "id": "indian-polity-49-2",
@@ -30081,7 +30340,11 @@
       "The Governor of the concerned State"
      ],
      "answer": 2,
-     "explanation": "The President of India is the authority who declares and notifies an area as a Scheduled Area."
+     "explanation": "The President of India is the authority who declares and notifies an area as a Scheduled Area.",
+     "facts": [
+      "F4",
+      "F5"
+     ]
     },
     {
      "id": "indian-polity-49-3",
@@ -30095,7 +30358,14 @@
       "Declaration of a Scheduled Area does not create a separate State."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement is that State executive power is terminated. It continues to extend over Scheduled Areas, subject to the Fifth Schedule."
+     "explanation": "The incorrect statement is that State executive power is terminated. It continues to extend over Scheduled Areas, subject to the Fifth Schedule.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+     ]
     },
     {
      "id": "indian-polity-49-4",
@@ -30109,7 +30379,12 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. The notes separately specify the mandatory establishment of the Council and its advisory function; the function does not explain why it is established in each such State."
+     "explanation": "Both statements are true. The notes separately specify the mandatory establishment of the Council and its advisory function; the function does not explain why it is established in each such State.",
+     "facts": [
+      "F11",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-polity-49-5",
@@ -30123,7 +30398,10 @@
       "The Chief Minister of the State"
      ],
      "answer": 2,
-     "explanation": "The Governor submits the report directly to the President of India, annually or whenever required by the President."
+     "explanation": "The Governor submits the report directly to the President of India, annually or whenever required by the President.",
+     "facts": [
+      "F15"
+     ]
     },
     {
      "id": "indian-polity-49-6",
@@ -30137,7 +30415,13 @@
       "It may be submitted whenever required by the President."
      ],
      "answer": 2,
-     "explanation": "The incorrect statement changes both the submitting authority and recipient. The report is submitted by the Governor directly to the President, not by the Chief Minister to the Union Home Ministry."
+     "explanation": "The incorrect statement changes both the submitting authority and recipient. The report is submitted by the Governor directly to the President, not by the Chief Minister to the Union Home Ministry.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-49-7",
@@ -30151,7 +30435,12 @@
       "Transferring executive power over Scheduled Areas to the President"
      ],
      "answer": 1,
-     "explanation": "Paragraph 5 empowers the Governor to regulate the transfer of tribal land to non-tribals and money-lending to Scheduled Tribes."
+     "explanation": "Paragraph 5 empowers the Governor to regulate the transfer of tribal land to non-tribals and money-lending to Scheduled Tribes.",
+     "facts": [
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-polity-49-8",
@@ -30165,7 +30454,12 @@
       "Only money-lending regulations in Scheduled Areas were unconstitutional."
      ],
      "answer": 2,
-     "explanation": "The ruling held that transfer or lease of tribal land in Scheduled Areas to private parties for mining operations was null, void and inoperative under the Fifth Schedule."
+     "explanation": "The ruling held that transfer or lease of tribal land in Scheduled Areas to private parties for mining operations was null, void and inoperative under the Fifth Schedule.",
+     "facts": [
+      "F22",
+      "F23",
+      "F24"
+     ]
     },
     {
      "id": "indian-polity-49-9",
@@ -30179,7 +30473,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. The Sixth Schedule is linked with Article 244(2) and Article 275(1), so Statement B is false."
+     "explanation": "Statement A is true. The Sixth Schedule is linked with Article 244(2) and Article 275(1), so Statement B is false.",
+     "facts": [
+      "F1",
+      "F2",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-49-10",
@@ -30193,7 +30493,15 @@
       "a-i, b-iii, c-ii, d-iv"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Fifth Schedule—Administration of Scheduled Areas and Scheduled Tribes; Sixth Schedule—Administration of Tribal Areas; Fifth Schedule—Article 244(1); Sixth Schedule—Articles 244(2) and 275(1)."
+     "explanation": "The correct pairs are: Fifth Schedule—Administration of Scheduled Areas and Scheduled Tribes; Sixth Schedule—Administration of Tribal Areas; Fifth Schedule—Article 244(1); Sixth Schedule—Articles 244(2) and 275(1).",
+     "facts": [
+      "F2",
+      "F3",
+      "F25",
+      "F26",
+      "F27",
+      "F48"
+     ]
     },
     {
      "id": "indian-polity-49-11",
@@ -30207,7 +30515,13 @@
       "I and II only"
      ],
      "answer": 0,
-     "explanation": "The Sixth Schedule applies to the four North-Eastern States of Assam, Meghalaya, Tripura and Mizoram."
+     "explanation": "The Sixth Schedule applies to the four North-Eastern States of Assam, Meghalaya, Tripura and Mizoram.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-polity-49-12",
@@ -30221,7 +30535,13 @@
       "All four"
      ],
      "answer": 3,
-     "explanation": "All four listed States—Assam, Meghalaya, Tripura and Mizoram—are covered by the Sixth Schedule."
+     "explanation": "All four listed States—Assam, Meghalaya, Tripura and Mizoram—are covered by the Sixth Schedule.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-polity-49-13",
@@ -30235,7 +30555,10 @@
       "14"
      ],
      "answer": 2,
-     "explanation": "The comparison identifies 10 States under the Fifth Schedule: Andhra Pradesh, Telangana, Jharkhand, Chhattisgarh, Gujarat, Himachal Pradesh, Madhya Pradesh, Maharashtra, Odisha and Rajasthan."
+     "explanation": "The comparison identifies 10 States under the Fifth Schedule: Andhra Pradesh, Telangana, Jharkhand, Chhattisgarh, Gujarat, Himachal Pradesh, Madhya Pradesh, Maharashtra, Odisha and Rajasthan.",
+     "facts": [
+      "F28"
+     ]
     },
     {
      "id": "indian-polity-49-14",
@@ -30249,7 +30572,12 @@
       "a-ii, b-ii, c-i, d-i"
      ],
      "answer": 0,
-     "explanation": "Andhra Pradesh and Rajasthan are among the States listed under the Fifth Schedule, while Meghalaya and Mizoram are among the four Sixth Schedule States."
+     "explanation": "Andhra Pradesh and Rajasthan are among the States listed under the Fifth Schedule, while Meghalaya and Mizoram are among the four Sixth Schedule States.",
+     "facts": [
+      "F29",
+      "F32",
+      "F34"
+     ]
     },
     {
      "id": "indian-polity-49-15",
@@ -30263,7 +30591,11 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The Fifth Schedule uses Tribal Advisory Councils, while the Sixth Schedule uses Autonomous District and Regional Councils."
+     "explanation": "Both statements are true. The Fifth Schedule uses Tribal Advisory Councils, while the Sixth Schedule uses Autonomous District and Regional Councils.",
+     "facts": [
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-polity-49-16",
@@ -30277,7 +30609,14 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true, but the Governor’s Fifth Schedule role does not explain the separate powers of the Sixth Schedule Councils."
+     "explanation": "Both statements are true, but the Governor’s Fifth Schedule role does not explain the separate powers of the Sixth Schedule Councils.",
+     "facts": [
+      "F37",
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-49-17",
@@ -30291,7 +30630,15 @@
       "a-ii, b-iv, c-iii, d-i"
      ],
      "answer": 1,
-     "explanation": "The correct pairs are: Fifth Schedule—Tribal Advisory Council; Sixth Schedule—Autonomous District and Regional Councils; Fifth Schedule—Governor oversees land transfers; Sixth Schedule—significant legislative, administrative and judicial powers."
+     "explanation": "The correct pairs are: Fifth Schedule—Tribal Advisory Council; Sixth Schedule—Autonomous District and Regional Councils; Fifth Schedule—Governor oversees land transfers; Sixth Schedule—significant legislative, administrative and judicial powers.",
+     "facts": [
+      "F35",
+      "F36",
+      "F37",
+      "F39",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-49-18",
@@ -30305,7 +30652,15 @@
       "II and III only"
      ],
      "answer": 0,
-     "explanation": "Statements I, II and IV are correct. Statement III is false because the report is submitted by the Governor directly to the President."
+     "explanation": "Statements I, II and IV are correct. Statement III is false because the report is submitted by the Governor directly to the President.",
+     "facts": [
+      "F4",
+      "F5",
+      "F13",
+      "F14",
+      "F15",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-49-19",
@@ -30319,7 +30674,15 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Three items are associated with the Governor: submitting the report, regulating transfer of tribal land, and regulating money-lending to STs. Declaration and notification of a Scheduled Area is done by the President."
+     "explanation": "Three items are associated with the Governor: submitting the report, regulating transfer of tribal land, and regulating money-lending to STs. Declaration and notification of a Scheduled Area is done by the President.",
+     "facts": [
+      "F4",
+      "F5",
+      "F15",
+      "F19",
+      "F20",
+      "F21"
+     ]
     },
     {
      "id": "indian-polity-49-20",
@@ -30333,7 +30696,11 @@
       "Articles 244(2) and 275(1)"
      ],
      "answer": 3,
-     "explanation": "The Sixth Schedule is associated with Article 244(2) and Article 275(1), whereas the Fifth Schedule is associated with Article 244(1)."
+     "explanation": "The Sixth Schedule is associated with Article 244(2) and Article 275(1), whereas the Fifth Schedule is associated with Article 244(1).",
+     "facts": [
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-49-21",
@@ -30347,7 +30714,14 @@
       "Assam"
      ],
      "answer": 1,
-     "explanation": "The Sixth Schedule applies only to Assam, Meghalaya, Tripura and Mizoram. It does not apply to Manipur or Nagaland."
+     "explanation": "The Sixth Schedule applies only to Assam, Meghalaya, Tripura and Mizoram. It does not apply to Manipur or Nagaland.",
+     "facts": [
+      "F31",
+      "F32",
+      "F34",
+      "F42",
+      "F43"
+     ]
     },
     {
      "id": "indian-polity-49-22",
@@ -30361,7 +30735,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The contrast between the Fifth Schedule’s Article 244(1) association and the Sixth Schedule’s associations with Articles 244(2) and 275(1) explains the assertion."
+     "explanation": "Both statements are true. The contrast between the Fifth Schedule’s Article 244(1) association and the Sixth Schedule’s associations with Articles 244(2) and 275(1) explains the assertion.",
+     "facts": [
+      "F2",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-49-23",
@@ -30375,7 +30754,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true: the Governor submits the report annually or whenever required by the President. Statement B is false because the report is submitted directly by the Governor to the President."
+     "explanation": "Statement A is true: the Governor submits the report annually or whenever required by the President. Statement B is false because the report is submitted directly by the Governor to the President.",
+     "facts": [
+      "F15",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-49-24",
@@ -30389,7 +30774,14 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Andhra Pradesh is listed among the ten Fifth Schedule States, and Assam is one of the four Sixth Schedule States. Nagaland is not covered by the Sixth Schedule, while Mizoram is covered by the Sixth Schedule rather than the Fifth."
+     "explanation": "Statements I and II are correct. Andhra Pradesh is listed among the ten Fifth Schedule States, and Assam is one of the four Sixth Schedule States. Nagaland is not covered by the Sixth Schedule, while Mizoram is covered by the Sixth Schedule rather than the Fifth.",
+     "facts": [
+      "F29",
+      "F31",
+      "F34",
+      "F42",
+      "F44"
+     ]
     },
     {
      "id": "indian-polity-49-25",
@@ -30403,7 +30795,12 @@
       "a-ii, b-ii, c-i, d-i"
      ],
      "answer": 1,
-     "explanation": "Telangana and Jharkhand are among the Fifth Schedule States. Tripura and Meghalaya are among the four Sixth Schedule States. Therefore, the correct pairing is a-i, b-ii, c-i, d-ii."
+     "explanation": "Telangana and Jharkhand are among the Fifth Schedule States. Tripura and Meghalaya are among the four Sixth Schedule States. Therefore, the correct pairing is a-i, b-ii, c-i, d-ii.",
+     "facts": [
+      "F29",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-49-26",
@@ -30417,7 +30814,14 @@
       "Only five"
      ],
      "answer": 2,
-     "explanation": "Assam, Mizoram, Meghalaya and Tripura are covered by the Sixth Schedule. Rajasthan and Odisha are among the Fifth Schedule States. Hence, the number is four."
+     "explanation": "Assam, Mizoram, Meghalaya and Tripura are covered by the Sixth Schedule. Rajasthan and Odisha are among the Fifth Schedule States. Hence, the number is four.",
+     "facts": [
+      "F29",
+      "F31",
+      "F32",
+      "F33",
+      "F34"
+     ]
     },
     {
      "id": "indian-polity-49-27",
@@ -30431,7 +30835,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. A Scheduled Area does not become a Union Territory or a separate State; the State Government’s executive power continues subject to the Fifth Schedule."
+     "explanation": "Both statements are true. A Scheduled Area does not become a Union Territory or a separate State; the State Government’s executive power continues subject to the Fifth Schedule.",
+     "facts": [
+      "F8",
+      "F9",
+      "F10"
+     ]
     }
    ]
   },
@@ -33852,7 +34261,10 @@
       "One-half"
      ],
      "answer": 0,
-     "explanation": "The merger protection applies when at least two-thirds of the members of the legislative party agree to the merger."
+     "explanation": "The merger protection applies when at least two-thirds of the members of the legislative party agree to the merger.",
+     "facts": [
+      "F2"
+     ]
     },
     {
      "id": "indian-polity-54-2",
@@ -33866,7 +34278,15 @@
       "Disqualification may arise when a member votes contrary to the party whip without prior permission."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the one-third threshold. Merger protection requires agreement by at least two-thirds of the legislative party members; the one-third split exemption was omitted by the 91st Constitutional Amendment Act, 2003."
+     "explanation": "The incorrect detail is the one-third threshold. Merger protection requires agreement by at least two-thirds of the legislative party members; the one-third split exemption was omitted by the 91st Constitutional Amendment Act, 2003.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-54-3",
@@ -33880,7 +34300,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the omission of the one-third split exemption by the 91st Constitutional Amendment Act, 2003 explains why it is no longer available."
+     "explanation": "Both statements are true, and the omission of the one-third split exemption by the 91st Constitutional Amendment Act, 2003 explains why it is no longer available.",
+     "facts": [
+      "F3",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-54-4",
@@ -33894,7 +34318,14 @@
       "B, C, D, A"
      ],
      "answer": 2,
-     "explanation": "The sequence is INC (1885), CPI (1925), BJS (1951), and CPI(M) formation after the CPI split (1964)."
+     "explanation": "The sequence is INC (1885), CPI (1925), BJS (1951), and CPI(M) formation after the CPI split (1964).",
+     "facts": [
+      "F7",
+      "F9",
+      "F10",
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-polity-54-5",
@@ -33908,7 +34339,16 @@
       "a-iv, b-ii, c-i, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are INC–W.C. Banerjee, BJS–Dr. Syama Prasad Mookerjee, BJP–Atal Bihari Vajpayee, and NCP–the split led by Sharad Pawar, P.A. Sangma and Tariq Anwar."
+     "explanation": "The correct pairs are INC–W.C. Banerjee, BJS–Dr. Syama Prasad Mookerjee, BJP–Atal Bihari Vajpayee, and NCP–the split led by Sharad Pawar, P.A. Sangma and Tariq Anwar.",
+     "facts": [
+      "F8",
+      "F11",
+      "F15",
+      "F23",
+      "F24",
+      "F25",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-54-6",
@@ -33922,7 +34362,11 @@
       "Nationalist Congress Party"
      ],
      "answer": 0,
-     "explanation": "The Communist Party of India split in 1964, resulting in the formation of CPI(M)."
+     "explanation": "The Communist Party of India split in 1964, resulting in the formation of CPI(M).",
+     "facts": [
+      "F12",
+      "F13"
+     ]
     },
     {
      "id": "indian-polity-54-7",
@@ -33936,7 +34380,13 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. The Samajwadi Party was formed in 1992, whereas 1998 is the year associated with the All India Trinamool Congress."
+     "explanation": "Statements I and II are correct. The Samajwadi Party was formed in 1992, whereas 1998 is the year associated with the All India Trinamool Congress.",
+     "facts": [
+      "F14",
+      "F16",
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-54-8",
@@ -33950,7 +34400,11 @@
       "V.P. Singh"
      ],
      "answer": 1,
-     "explanation": "Political scientist Rajni Kothari coined the term to describe the Congress-dominated, democratic multi-party electoral landscape after independence."
+     "explanation": "Political scientist Rajni Kothari coined the term to describe the Congress-dominated, democratic multi-party electoral landscape after independence.",
+     "facts": [
+      "F27",
+      "F28"
+     ]
     },
     {
      "id": "indian-polity-54-9",
@@ -33964,7 +34418,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The description of a democratic, multi-party electoral system dominated by Congress explains the expression “Congress System.”"
+     "explanation": "Both statements are true. The description of a democratic, multi-party electoral system dominated by Congress explains the expression “Congress System.”",
+     "facts": [
+      "F28",
+      "F29",
+      "F30"
+     ]
     },
     {
      "id": "indian-polity-54-10",
@@ -33978,7 +34437,12 @@
       "The 1992 General Election"
      ],
      "answer": 1,
-     "explanation": "The end of the Congress System was marked by the 1989 General Election, which ushered in the era of minority and coalition governments."
+     "explanation": "The end of the Congress System was marked by the 1989 General Election, which ushered in the era of minority and coalition governments.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-54-11",
@@ -33992,7 +34456,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The notes associate V.P. Singh’s National Front with outside support from the BJP and the Left."
+     "explanation": "Both statements are true. The notes associate V.P. Singh’s National Front with outside support from the BJP and the Left.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36"
+     ]
     },
     {
      "id": "indian-polity-54-12",
@@ -34006,7 +34475,10 @@
       "1951"
      ],
      "answer": 0,
-     "explanation": "The Leader of Opposition was first formally recognized in 1969."
+     "explanation": "The Leader of Opposition was first formally recognized in 1969.",
+     "facts": [
+      "F37"
+     ]
     },
     {
      "id": "indian-polity-54-13",
@@ -34020,7 +34492,11 @@
       "At least 20% of the total House strength"
      ],
      "answer": 2,
-     "explanation": "The largest opposition party must hold at least 10% of the total House strength, approximately 55 seats in the Lok Sabha."
+     "explanation": "The largest opposition party must hold at least 10% of the total House strength, approximately 55 seats in the Lok Sabha.",
+     "facts": [
+      "F38",
+      "F39"
+     ]
     },
     {
      "id": "indian-polity-54-14",
@@ -34034,7 +34510,13 @@
       "52nd Constitutional Amendment Act, 1985 and Tenth Schedule"
      ],
      "answer": 3,
-     "explanation": "Political parties were not part of the original 1950 text in this context; they were introduced through the 52nd Constitutional Amendment Act, 1985, which inserted the Tenth Schedule."
+     "explanation": "Political parties were not part of the original 1950 text in this context; they were introduced through the 52nd Constitutional Amendment Act, 1985, which inserted the Tenth Schedule.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F1"
+     ]
     },
     {
      "id": "indian-polity-54-15",
@@ -34048,7 +34530,15 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct. Statement III is incorrect because the original one-third split exemption was omitted by the 91st Constitutional Amendment Act, 2003."
+     "explanation": "Statements I and II are correct. Statement III is incorrect because the original one-third split exemption was omitted by the 91st Constitutional Amendment Act, 2003.",
+     "facts": [
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-54-16",
@@ -34062,7 +34552,12 @@
       "At least 10% votes in two States and two Lok Sabha seats"
      ],
      "answer": 2,
-     "explanation": "The specified Route 2 threshold requires both at least 6% votes in four States and four Lok Sabha seats."
+     "explanation": "The specified Route 2 threshold requires both at least 6% votes in four States and four Lok Sabha seats.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47"
+     ]
     },
     {
      "id": "indian-polity-54-17",
@@ -34076,7 +34571,13 @@
       "a-ii, b-i, c-iv, d-iii"
      ],
      "answer": 0,
-     "explanation": "The correct pairs are INC–1885, BJP–1980, BSP–1984, and AITC/TMC–1998."
+     "explanation": "The correct pairs are INC–1885, BJP–1980, BSP–1984, and AITC/TMC–1998.",
+     "facts": [
+      "F7",
+      "F14",
+      "F17",
+      "F19"
+     ]
     },
     {
      "id": "indian-polity-54-18",
@@ -34090,7 +34591,15 @@
       "All six"
      ],
      "answer": 2,
-     "explanation": "Five parties meet the condition: BJP (1980), BSP (1984), SP (1992), AITC/TMC (1998), and NCP (1999). CPI was formed in 1925."
+     "explanation": "Five parties meet the condition: BJP (1980), BSP (1984), SP (1992), AITC/TMC (1998), and NCP (1999). CPI was formed in 1925.",
+     "facts": [
+      "F9",
+      "F14",
+      "F17",
+      "F18",
+      "F19",
+      "F22"
+     ]
     },
     {
      "id": "indian-polity-54-19",
@@ -34104,7 +34613,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true, and the two-thirds agreement requirement explains when the merger exception protects members from disqualification."
+     "explanation": "Both statements are true, and the two-thirds agreement requirement explains when the merger exception protects members from disqualification.",
+     "facts": [
+      "F2",
+      "F40"
+     ]
     },
     {
      "id": "indian-polity-54-20",
@@ -34118,7 +34631,10 @@
       "Dr. Syama Prasad Mookerjee"
      ],
      "answer": 0,
-     "explanation": "The Indian National Congress was formed in 1885, and its first President was W.C. Banerjee."
+     "explanation": "The Indian National Congress was formed in 1885, and its first President was W.C. Banerjee.",
+     "facts": [
+      "F8"
+     ]
     },
     {
      "id": "indian-polity-54-21",
@@ -34132,7 +34648,12 @@
       "(a)-(ii), (b)-(iii), (c)-(i)"
      ],
      "answer": 2,
-     "explanation": "The CPI was formed in 1925, the BJS was founded by Dr. Syama Prasad Mookerjee, and Atal Bihari Vajpayee was the first President of the BJP."
+     "explanation": "The CPI was formed in 1925, the BJS was founded by Dr. Syama Prasad Mookerjee, and Atal Bihari Vajpayee was the first President of the BJP.",
+     "facts": [
+      "F9",
+      "F11",
+      "F15"
+     ]
     },
     {
      "id": "indian-polity-54-22",
@@ -34146,7 +34667,10 @@
       "1951"
      ],
      "answer": 1,
-     "explanation": "The Communist Party of India was formed in 1925."
+     "explanation": "The Communist Party of India was formed in 1925.",
+     "facts": [
+      "F9"
+     ]
     },
     {
      "id": "indian-polity-54-23",
@@ -34160,7 +34684,10 @@
       "W.C. Banerjee"
      ],
      "answer": 1,
-     "explanation": "Atal Bihari Vajpayee was the first President of the BJP, which was formed in 1980 as the successor to the Bharatiya Jana Sangh."
+     "explanation": "Atal Bihari Vajpayee was the first President of the BJP, which was formed in 1980 as the successor to the Bharatiya Jana Sangh.",
+     "facts": [
+      "F15"
+     ]
     }
    ]
   },
@@ -35257,7 +35784,9 @@
      "facts": [
       "F24",
       "F25",
-      "F26"
+      "F26",
+      "F66",
+      "F67"
      ]
     },
     {
@@ -35317,7 +35846,10 @@
      "explanation": "Both are true. The Speaker takes oath only as an ordinary Member of Parliament, while the Deputy Speaker resigns to the Speaker.",
      "facts": [
       "F36",
-      "F44"
+      "F44",
+      "F37",
+      "F74",
+      "F75"
      ]
     },
     {
@@ -35336,7 +35868,8 @@
      "facts": [
       "F8",
       "F14",
-      "F57"
+      "F57",
+      "F15"
      ]
     },
     {
@@ -35357,7 +35890,11 @@
       "F76",
       "F77",
       "F78",
-      "F79"
+      "F79",
+      "F28",
+      "F41",
+      "F47",
+      "F53"
      ]
     },
     {
@@ -35396,7 +35933,8 @@
       "F7",
       "F13",
       "F26",
-      "F32"
+      "F32",
+      "F67"
      ]
     },
     {
@@ -35453,7 +35991,8 @@
       "F36",
       "F52",
       "F54",
-      "F59"
+      "F59",
+      "F37"
      ]
     },
     {
@@ -35471,7 +36010,8 @@
      "explanation": "The Governor’s oath is administered by the Chief Justice of the High Court or, in the relevant arrangement, the senior-most High Court Judge.",
      "facts": [
       "F24",
-      "F25"
+      "F25",
+      "F66"
      ]
     },
     {
@@ -35510,7 +36050,11 @@
       "F36",
       "F42",
       "F48",
-      "F54"
+      "F54",
+      "F1",
+      "F37",
+      "F43",
+      "F49"
      ]
     },
     {
@@ -35566,7 +36110,11 @@
      "explanation": "Both statements are true under the reciprocal resignation arrangement in Article 94(b), but the Deputy Speaker’s resignation does not explain the Speaker’s resignation procedure.",
      "facts": [
       "F38",
-      "F44"
+      "F44",
+      "F72",
+      "F73",
+      "F74",
+      "F75"
      ]
     },
     {
@@ -35640,7 +36188,9 @@
       "F4",
       "F5",
       "F24",
-      "F25"
+      "F25",
+      "F64",
+      "F66"
      ]
     },
     {
@@ -35698,7 +36248,8 @@
      "facts": [
       "F27",
       "F57",
-      "F62"
+      "F62",
+      "F28"
      ]
     },
     {
@@ -35733,7 +36284,8 @@
      "explanation": "The assertion is true because Article 90 requires 14 days’ advance written notice. The reason is false: the resolution is passed by the Rajya Sabha, not the Lok Sabha.",
      "facts": [
       "F51",
-      "F79"
+      "F79",
+      "F53"
      ]
     },
     {
@@ -42767,7 +43319,16 @@
       "Reject only the candidate receiving the highest votes"
      ],
      "answer": 2,
-     "explanation": "NOTA is an electoral option on ballot papers and EVMs that enables voters to exercise a negative vote and formally reject all contesting candidates in secret."
+     "explanation": "NOTA is an electoral option on ballot papers and EVMs that enables voters to exercise a negative vote and formally reject all contesting candidates in secret.",
+     "facts": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F39",
+      "F42",
+      "F21"
+     ]
     },
     {
      "id": "indian-polity-66-2",
@@ -42781,7 +43342,12 @@
       "Form 17-A v. Union of India"
      ],
      "answer": 1,
-     "explanation": "The Supreme Court directed the introduction of NOTA in the landmark judgment PUCL v. Union of India on 27 September 2013."
+     "explanation": "The Supreme Court directed the introduction of NOTA in the landmark judgment PUCL v. Union of India on 27 September 2013.",
+     "facts": [
+      "F6",
+      "F7",
+      "F20"
+     ]
     },
     {
      "id": "indian-polity-66-3",
@@ -42795,7 +43361,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The Supreme Court linked the right to register a negative vote in secrecy with the Freedom of Speech and Expression under Article 19(1)(a)."
+     "explanation": "The Supreme Court linked the right to register a negative vote in secrecy with the Freedom of Speech and Expression under Article 19(1)(a).",
+     "facts": [
+      "F8",
+      "F9"
+     ]
     },
     {
      "id": "indian-polity-66-4",
@@ -42809,7 +43379,17 @@
       "A, B, C, D"
      ],
      "answer": 1,
-     "explanation": "The correct sequence is 1982 EVM use, 1993 EPIC introduction, 4 September 2013 VVPAT use, and 27 September 2013 mandatory NOTA direction."
+     "explanation": "The correct sequence is 1982 EVM use, 1993 EPIC introduction, 4 September 2013 VVPAT use, and 27 September 2013 mandatory NOTA direction.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-polity-66-5",
@@ -42823,7 +43403,12 @@
       "A Legislative Council constituency"
      ],
      "answer": 2,
-     "explanation": "The first experimental use of EVMs took place in 1982 in the Parur Assembly constituency of Kerala."
+     "explanation": "The first experimental use of EVMs took place in 1982 in the Parur Assembly constituency of Kerala.",
+     "facts": [
+      "F10",
+      "F11",
+      "F12"
+     ]
     },
     {
      "id": "indian-polity-66-6",
@@ -42837,7 +43422,12 @@
       "4 September 2013"
      ],
      "answer": 2,
-     "explanation": "The Electors Photo Identity Card (EPIC/Voter ID) was introduced in 1993."
+     "explanation": "The Electors Photo Identity Card (EPIC/Voter ID) was introduced in 1993.",
+     "facts": [
+      "F13",
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-polity-66-7",
@@ -42851,7 +43441,11 @@
       "Parur Assembly constituency election, Kerala"
      ],
      "answer": 2,
-     "explanation": "VVPAT was introduced and first used experimentally on 4 September 2013 in the Noksen Assembly by-election in Nagaland."
+     "explanation": "VVPAT was introduced and first used experimentally on 4 September 2013 in the Noksen Assembly by-election in Nagaland.",
+     "facts": [
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-polity-66-8",
@@ -42865,7 +43459,14 @@
       "a-iii, b-ii, c-i"
      ],
      "answer": 1,
-     "explanation": "NOTA involves pressing the NOTA button; Rule 49-O involved refusal to vote before the Presiding Officer; the international right to reject involves rejecting all candidates through a ballot or EVM."
+     "explanation": "NOTA involves pressing the NOTA button; Rule 49-O involved refusal to vote before the Presiding Officer; the international right to reject involves rejecting all candidates through a ballot or EVM.",
+     "facts": [
+      "F22",
+      "F28",
+      "F29",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "indian-polity-66-9",
@@ -42879,7 +43480,14 @@
       "a-ii, b-i, c-iii"
      ],
      "answer": 0,
-     "explanation": "NOTA secrecy is fully preserved under Article 19(1)(a), Rule 49-O secrecy was violated through Form 17-A, and secrecy is preserved under the international full right to reject."
+     "explanation": "NOTA secrecy is fully preserved under Article 19(1)(a), Rule 49-O secrecy was violated through Form 17-A, and secrecy is preserved under the international full right to reject.",
+     "facts": [
+      "F23",
+      "F24",
+      "F30",
+      "F31",
+      "F36"
+     ]
     },
     {
      "id": "indian-polity-66-10",
@@ -42893,7 +43501,13 @@
       "a-ii, b-iii, c-i"
      ],
      "answer": 0,
-     "explanation": "NOTA has only symbolic expression and does not cancel the election; Rule 49-O did not affect the winning tally; the international right to reject can mandate re-election when rejection exceeds 50%."
+     "explanation": "NOTA has only symbolic expression and does not cancel the election; Rule 49-O did not affect the winning tally; the international right to reject can mandate re-election when rejection exceeds 50%.",
+     "facts": [
+      "F26",
+      "F27",
+      "F33",
+      "F37"
+     ]
     },
     {
      "id": "indian-polity-66-11",
@@ -42907,7 +43521,10 @@
       "The VVPAT slip"
      ],
      "answer": 0,
-     "explanation": "Under Old Rule 49-O, the refusal to vote was recorded in Form 17-A."
+     "explanation": "Under Old Rule 49-O, the refusal to vote was recorded in Form 17-A.",
+     "facts": [
+      "F31"
+     ]
     },
     {
      "id": "indian-polity-66-12",
@@ -42921,7 +43538,13 @@
       "Rule 49-O abstention did not affect the winning tally."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the claim that Rule 49-O resulted in re-election after a 50% threshold. Its abstention did not affect the winning tally, and it was struck down as ultra vires."
+     "explanation": "The incorrect detail is the claim that Rule 49-O resulted in re-election after a 50% threshold. Its abstention did not affect the winning tally, and it was struck down as ultra vires.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-66-13",
@@ -42935,7 +43558,11 @@
       "More than 25%"
      ],
      "answer": 2,
-     "explanation": "The international full Right to Reject mandates re-election if rejection crosses a threshold above 50%; this mechanism is not applicable in India."
+     "explanation": "The international full Right to Reject mandates re-election if rejection crosses a threshold above 50%; this mechanism is not applicable in India.",
+     "facts": [
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "indian-polity-66-14",
@@ -42949,7 +43576,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "The notes state that even if NOTA gets the maximum votes, the candidate securing the highest number of valid votes among the contestants is declared elected under the First-Past-the-Post system."
+     "explanation": "The notes state that even if NOTA gets the maximum votes, the candidate securing the highest number of valid votes among the contestants is declared elected under the First-Past-the-Post system.",
+     "facts": [
+      "F27",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-66-15",
@@ -42963,7 +43595,14 @@
       "NOTA automatically invalidates the election whenever it receives more votes than every candidate."
      ],
      "answer": 3,
-     "explanation": "The incorrect detail is ‘automatically invalidates the election.’ NOTA does not cancel the election or mandate a fresh poll when it receives the maximum votes."
+     "explanation": "The incorrect detail is ‘automatically invalidates the election.’ NOTA does not cancel the election or mandate a fresh poll when it receives the maximum votes.",
+     "facts": [
+      "F25",
+      "F27",
+      "F39",
+      "F40",
+      "F41"
+     ]
     },
     {
      "id": "indian-polity-66-16",
@@ -42977,7 +43616,13 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "NOTA is the active exercise of the statutory right to vote by registering a neutral or negative choice. It is not non-voting or abstention."
+     "explanation": "NOTA is the active exercise of the statutory right to vote by registering a neutral or negative choice. It is not non-voting or abstention.",
+     "facts": [
+      "F42",
+      "F43",
+      "F44",
+      "F21"
+     ]
     },
     {
      "id": "indian-polity-66-17",
@@ -42991,7 +43636,13 @@
       "Only Legislative Council elections"
      ],
      "answer": 2,
-     "explanation": "NOTA is limited to direct Lok Sabha and Assembly elections and is not applicable in Rajya Sabha or Legislative Council elections."
+     "explanation": "NOTA is limited to direct Lok Sabha and Assembly elections and is not applicable in Rajya Sabha or Legislative Council elections.",
+     "facts": [
+      "F45",
+      "F46",
+      "F48",
+      "F49"
+     ]
     },
     {
      "id": "indian-polity-66-18",
@@ -43005,7 +43656,14 @@
       "The Supreme Court struck down NOTA in these elections in 2018."
      ],
      "answer": 0,
-     "explanation": "The incorrect detail is that NOTA continues to apply in these elections. The Supreme Court struck it down in 2018, and NOTA is limited to direct Lok Sabha and Assembly elections."
+     "explanation": "The incorrect detail is that NOTA continues to apply in these elections. The Supreme Court struck it down in 2018, and NOTA is limited to direct Lok Sabha and Assembly elections.",
+     "facts": [
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49"
+     ]
     },
     {
      "id": "indian-polity-66-19",
@@ -43019,7 +43677,15 @@
       "All four"
      ],
      "answer": 1,
-     "explanation": "Two milestones occurred in 2013: the experimental use of VVPAT on 4 September and the Supreme Court direction for mandatory NOTA on 27 September. EVM experimentation was in 1982 and EPIC was introduced in 1993."
+     "explanation": "Two milestones occurred in 2013: the experimental use of VVPAT on 4 September and the Supreme Court direction for mandatory NOTA on 27 September. EVM experimentation was in 1982 and EPIC was introduced in 1993.",
+     "facts": [
+      "F10",
+      "F13",
+      "F17",
+      "F18",
+      "F19",
+      "F20"
+     ]
     },
     {
      "id": "indian-polity-66-20",
@@ -43033,7 +43699,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 0,
-     "explanation": "EVM means Electronic Voting Machines, EPIC means Electors Photo Identity Card, VVPAT means Voter Verifiable Paper Audit Trail, and NOTA means None of the Above."
+     "explanation": "EVM means Electronic Voting Machines, EPIC means Electors Photo Identity Card, VVPAT means Voter Verifiable Paper Audit Trail, and NOTA means None of the Above.",
+     "facts": [
+      "F1",
+      "F10",
+      "F14",
+      "F16"
+     ]
     },
     {
      "id": "indian-polity-66-21",
@@ -43047,7 +43719,10 @@
       "Voting Verification Paper Assessment Tool"
      ],
      "answer": 1,
-     "explanation": "VVPAT is the abbreviation for Voter Verifiable Paper Audit Trail."
+     "explanation": "VVPAT is the abbreviation for Voter Verifiable Paper Audit Trail.",
+     "facts": [
+      "F16"
+     ]
     },
     {
      "id": "indian-polity-66-22",
@@ -43061,7 +43736,11 @@
       "Electors Photo Identity Card"
      ],
      "answer": 3,
-     "explanation": "EPIC refers to the Electors Photo Identity Card, commonly called the Voter ID."
+     "explanation": "EPIC refers to the Electors Photo Identity Card, commonly called the Voter ID.",
+     "facts": [
+      "F14",
+      "F15"
+     ]
     },
     {
      "id": "indian-polity-66-23",
@@ -43075,7 +43754,12 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Under former Rule 49-O, refusal was recorded in Form 17-A, secrecy was violated, and the procedure was struck down as ultra vires."
+     "explanation": "Both statements are true. Under former Rule 49-O, refusal was recorded in Form 17-A, secrecy was violated, and the procedure was struck down as ultra vires.",
+     "facts": [
+      "F30",
+      "F31",
+      "F32"
+     ]
     },
     {
      "id": "indian-polity-66-24",
@@ -43089,7 +43773,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. VVPAT was introduced on 4 September 2013 and was first used experimentally in the Noksen Assembly by-election in Nagaland."
+     "explanation": "Both statements are true. VVPAT was introduced on 4 September 2013 and was first used experimentally in the Noksen Assembly by-election in Nagaland.",
+     "facts": [
+      "F17",
+      "F18",
+      "F19"
+     ]
     },
     {
      "id": "indian-polity-66-25",
@@ -43103,7 +43792,14 @@
       "Re-election is mandated if rejection crosses the threshold of more than 50%."
      ],
      "answer": 1,
-     "explanation": "The incorrect statement is that the full international Right to Reject is applicable in India. The notes state that it is not applicable in India."
+     "explanation": "The incorrect statement is that the full international Right to Reject is applicable in India. The notes state that it is not applicable in India.",
+     "facts": [
+      "F34",
+      "F35",
+      "F36",
+      "F37",
+      "F38"
+     ]
     },
     {
      "id": "indian-polity-66-26",
@@ -43117,7 +43813,14 @@
       "I, II and III"
      ],
      "answer": 3,
-     "explanation": "All three statements correctly describe the legal mechanisms listed for NOTA, former Rule 49-O abstention and the full international Right to Reject."
+     "explanation": "All three statements correctly describe the legal mechanisms listed for NOTA, former Rule 49-O abstention and the full international Right to Reject.",
+     "facts": [
+      "F22",
+      "F28",
+      "F29",
+      "F34",
+      "F35"
+     ]
     },
     {
      "id": "indian-polity-66-27",
@@ -43131,9 +43834,23 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "The first three statements are correct features of NOTA. The fourth is incorrect because NOTA is not applicable in Rajya Sabha and Legislative Council elections."
+     "explanation": "The first three statements are correct features of NOTA. The fourth is incorrect because NOTA is not applicable in Rajya Sabha and Legislative Council elections.",
+     "facts": [
+      "F2",
+      "F3",
+      "F5",
+      "F25",
+      "F26",
+      "F45",
+      "F46"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 49,
+    "covered": 49,
+    "audited": true
+   }
   },
   "67": {
    "number": 67,
@@ -49099,7 +49816,11 @@
       "4 September 2013"
      ],
      "answer": 2,
-     "explanation": "The first experimental use of an EVM took place on 19 May 1982 in the Parur Assembly Constituency, Kerala."
+     "explanation": "The first experimental use of an EVM took place on 19 May 1982 in the Parur Assembly Constituency, Kerala.",
+     "facts": [
+      "F1",
+      "F2"
+     ]
     },
     {
      "id": "indian-polity-73-2",
@@ -49113,7 +49834,14 @@
       "Article 327"
      ],
      "answer": 0,
-     "explanation": "EVM deployment for Lok Sabha and State Legislative Assembly elections is under Article 324, which places it under the superintendence, direction and control of the ECI."
+     "explanation": "EVM deployment for Lok Sabha and State Legislative Assembly elections is under Article 324, which places it under the superintendence, direction and control of the ECI.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-polity-73-3",
@@ -49127,7 +49855,12 @@
       "An electronic vote recording and counting apparatus"
      ],
      "answer": 3,
-     "explanation": "The EVM is an electronic vote recording and counting apparatus, not an electoral system."
+     "explanation": "The EVM is an electronic vote recording and counting apparatus, not an electoral system.",
+     "facts": [
+      "F9",
+      "F10",
+      "F11"
+     ]
     },
     {
      "id": "indian-polity-73-4",
@@ -49141,7 +49874,11 @@
       "The Supreme Court of India"
      ],
      "answer": 2,
-     "explanation": "The 1993 nationwide rollout of EPIC was initiated under Chief Election Commissioner T.N. Seshan."
+     "explanation": "The 1993 nationwide rollout of EPIC was initiated under Chief Election Commissioner T.N. Seshan.",
+     "facts": [
+      "F17",
+      "F18"
+     ]
     },
     {
      "id": "indian-polity-73-5",
@@ -49155,7 +49892,11 @@
       "Noksen Assembly Constituency, Nagaland"
      ],
      "answer": 3,
-     "explanation": "VVPAT was first introduced on 4 September 2013 in the Noksen Assembly Constituency of Nagaland."
+     "explanation": "VVPAT was first introduced on 4 September 2013 in the Noksen Assembly Constituency of Nagaland.",
+     "facts": [
+      "F22",
+      "F23"
+     ]
     },
     {
      "id": "indian-polity-73-6",
@@ -49169,7 +49910,13 @@
       "The first state to conduct an entire General Assembly election using EVMs across all constituencies was Goa."
      ],
      "answer": 2,
-     "explanation": "The incorrect detail is the date. The first experimental use of EVMs took place on 19 May 1982, not 4 September 2013."
+     "explanation": "The incorrect detail is the date. The first experimental use of EVMs took place on 19 May 1982, not 4 September 2013.",
+     "facts": [
+      "F1",
+      "F2",
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-73-7",
@@ -49183,7 +49930,14 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. Article 324 provides the constitutional machinery under which EVM deployment is placed under the superintendence, direction and control of the ECI."
+     "explanation": "Both statements are true. Article 324 provides the constitutional machinery under which EVM deployment is placed under the superintendence, direction and control of the ECI.",
+     "facts": [
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+     ]
     },
     {
      "id": "indian-polity-73-8",
@@ -49197,7 +49951,11 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. VVPAT generates an independent paper slip, which is visible to the voter for 7 seconds for verification."
+     "explanation": "Both statements are true. VVPAT generates an independent paper slip, which is visible to the voter for 7 seconds for verification.",
+     "facts": [
+      "F24",
+      "F25"
+     ]
     },
     {
      "id": "indian-polity-73-9",
@@ -49211,7 +49969,10 @@
       "A is false, but R is true"
      ],
      "answer": 0,
-     "explanation": "Both statements are true. The 14th Lok Sabha General Election in 2004 was the first nationwide general election conducted entirely using EVMs."
+     "explanation": "Both statements are true. The 14th Lok Sabha General Election in 2004 was the first nationwide general election conducted entirely using EVMs.",
+     "facts": [
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-73-10",
@@ -49225,7 +49986,13 @@
       "a-iii, b-i, c-iv, d-ii"
      ],
      "answer": 3,
-     "explanation": "The correct pairs are: EVM first use—19 May 1982; EPIC rollout—1993; VVPAT—4 September 2013; NOTA—27 September 2013."
+     "explanation": "The correct pairs are: EVM first use—19 May 1982; EPIC rollout—1993; VVPAT—4 September 2013; NOTA—27 September 2013.",
+     "facts": [
+      "F1",
+      "F17",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-73-11",
@@ -49239,7 +50006,14 @@
       "a-iii, b-ii, c-iv, d-i"
      ],
      "answer": 3,
-     "explanation": "EVM is an electronic vote recording and counting apparatus; EPIC provides voter photo-identification; VVPAT gives paper-slip verification; NOTA provides a negative voting choice button."
+     "explanation": "EVM is an electronic vote recording and counting apparatus; EPIC provides voter photo-identification; VVPAT gives paper-slip verification; NOTA provides a negative voting choice button.",
+     "facts": [
+      "F9",
+      "F10",
+      "F19",
+      "F24",
+      "F28"
+     ]
     },
     {
      "id": "indian-polity-73-12",
@@ -49253,7 +50027,13 @@
       "a-i, b-ii, c-iv, d-iii"
      ],
      "answer": 1,
-     "explanation": "Parur was the site of the first experimental EVM use; Noksen saw the first VVPAT introduction; Goa was the first state-wide EVM election; and the 14th Lok Sabha election was the first nationwide election entirely using EVMs."
+     "explanation": "Parur was the site of the first experimental EVM use; Noksen saw the first VVPAT introduction; Goa was the first state-wide EVM election; and the 14th Lok Sabha election was the first nationwide election entirely using EVMs.",
+     "facts": [
+      "F2",
+      "F23",
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-73-13",
@@ -49267,7 +50047,12 @@
       "I and II only"
      ],
      "answer": 3,
-     "explanation": "Statements I and II are correct. Under FPTP, the candidate with the highest valid votes wins, irrespective of crossing 50%; therefore III is incorrect."
+     "explanation": "Statements I and II are correct. Under FPTP, the candidate with the highest valid votes wins, irrespective of crossing 50%; therefore III is incorrect.",
+     "facts": [
+      "F12",
+      "F13",
+      "F14"
+     ]
     },
     {
      "id": "indian-polity-73-14",
@@ -49281,7 +50066,13 @@
       "I, II and III"
      ],
      "answer": 0,
-     "explanation": "Statements I and II are correct because EVM deployment for both types of elections is under the ECI. Statement III is incorrect because an EVM is a voting apparatus, not an electoral system."
+     "explanation": "Statements I and II are correct because EVM deployment for both types of elections is under the ECI. Statement III is incorrect because an EVM is a voting apparatus, not an electoral system.",
+     "facts": [
+      "F6",
+      "F7",
+      "F8",
+      "F11"
+     ]
     },
     {
      "id": "indian-polity-73-15",
@@ -49295,7 +50086,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because NOTA was mandated on 27 September 2013; 4 September 2013 was the date of first VVPAT introduction."
+     "explanation": "Statement A is true. Statement B is false because NOTA was mandated on 27 September 2013; 4 September 2013 was the date of first VVPAT introduction.",
+     "facts": [
+      "F22",
+      "F26",
+      "F27"
+     ]
     },
     {
      "id": "indian-polity-73-16",
@@ -49309,7 +50105,12 @@
       "Statement A is false, Statement B is true"
      ],
      "answer": 2,
-     "explanation": "Statement A is true. Statement B is false because the 14th Lok Sabha General Election was held in 2004; June 1999 relates to Goa's first state-wide General Assembly election using EVMs."
+     "explanation": "Statement A is true. Statement B is false because the 14th Lok Sabha General Election was held in 2004; June 1999 relates to Goa's first state-wide General Assembly election using EVMs.",
+     "facts": [
+      "F31",
+      "F32",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-73-17",
@@ -49323,7 +50124,13 @@
       "C, D, A, B"
      ],
      "answer": 1,
-     "explanation": "The correct sequence is EVM first use in 1982, EPIC rollout in 1993, VVPAT introduction on 4 September 2013, and NOTA mandate on 27 September 2013."
+     "explanation": "The correct sequence is EVM first use in 1982, EPIC rollout in 1993, VVPAT introduction on 4 September 2013, and NOTA mandate on 27 September 2013.",
+     "facts": [
+      "F1",
+      "F17",
+      "F22",
+      "F26"
+     ]
     },
     {
      "id": "indian-polity-73-18",
@@ -49337,7 +50144,13 @@
       "All four"
      ],
      "answer": 2,
-     "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because the first nationwide general election entirely using EVMs was the 14th Lok Sabha General Election in 2004."
+     "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because the first nationwide general election entirely using EVMs was the 14th Lok Sabha General Election in 2004.",
+     "facts": [
+      "F22",
+      "F26",
+      "F31",
+      "F33"
+     ]
     },
     {
      "id": "indian-polity-73-19",
@@ -49351,7 +50164,11 @@
       "1993"
      ],
      "answer": 2,
-     "explanation": "EVMs were later backed by a statutory amendment to the Representation of the People Act, 1951, through Section 61A in 1989."
+     "explanation": "EVMs were later backed by a statutory amendment to the Representation of the People Act, 1951, through Section 61A in 1989.",
+     "facts": [
+      "F15",
+      "F16"
+     ]
     },
     {
      "id": "indian-polity-73-20",
@@ -49365,7 +50182,13 @@
       "A is false, but R is true"
      ],
      "answer": 1,
-     "explanation": "Both statements are true. An EVM is an electronic vote-recording and counting apparatus, whereas FPTP is the electoral system; therefore, the Reason does not directly explain the Assertion."
+     "explanation": "Both statements are true. An EVM is an electronic vote-recording and counting apparatus, whereas FPTP is the electoral system; therefore, the Reason does not directly explain the Assertion.",
+     "facts": [
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+     ]
     }
    ]
   },

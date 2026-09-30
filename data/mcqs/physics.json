@@ -16688,7 +16688,8 @@
       "F10",
       "F11",
       "F12",
-      "F13"
+      "F13",
+      "F36"
      ]
     },
     {
@@ -16784,7 +16785,9 @@
      "facts": [
       "F32",
       "F33",
-      "F34"
+      "F34",
+      "F14",
+      "F36"
      ]
     },
     {
@@ -17110,8 +17113,47 @@
       "F13",
       "F50"
      ]
+    },
+    {
+     "id": "physics-23-29",
+     "format": "Direct Recall",
+     "keyword": "Free Fall",
+     "question": "When air resistance is neglected, the acceleration of a freely falling body is equal to:",
+     "options": [
+      "g/2",
+      "2g",
+      "Zero",
+      "g"
+     ],
+     "answer": 3,
+     "explanation": "The acceleration of a freely falling body equals g when air resistance is neglected.",
+     "facts": [
+      "F8"
+     ]
+    },
+    {
+     "id": "physics-23-30",
+     "format": "Direct Recall",
+     "keyword": "Weight → Minimum Location",
+     "question": "Which location is at the maximum distance from the centre of the Earth?",
+     "options": [
+      "The equator",
+      "The poles",
+      "A point at very large height",
+      "The centre of the Earth"
+     ],
+     "answer": 0,
+     "explanation": "The equator has the maximum distance from the Earth's centre.",
+     "facts": [
+      "F35"
+     ]
     }
-   ]
+   ],
+   "coverage": {
+    "facts": 58,
+    "covered": 58,
+    "audited": true
+   }
   }
  }
 }
