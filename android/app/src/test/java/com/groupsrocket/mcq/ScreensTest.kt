@@ -14,6 +14,10 @@ class ScreensTest {
 
     private fun app() = AppState(Repository(paparazzi.context), Progress(paparazzi.context))
 
+    @Test fun today() = paparazzi.snapshot { Themed { DayScreen(app(), 2) {} } }
+
+    @Test fun weeklyTest() = paparazzi.snapshot { Themed { DayScreen(app(), 7) {} } }
+
     @Test fun plan() = paparazzi.snapshot { Themed { PlanScreen(app()) {} } }
 
     @Test fun subjects() = paparazzi.snapshot { Themed { SubjectsScreen(app()) {} } }

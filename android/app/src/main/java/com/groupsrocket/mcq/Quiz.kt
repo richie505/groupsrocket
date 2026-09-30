@@ -10,14 +10,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Star
-import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -112,10 +108,10 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
                 )
                 IconButton(onClick = { app.progress.toggleBookmark(q) }) {
                     val marked = app.progress.isBookmarked(q.id)
-                    Icon(
-                        if (marked) Icons.Filled.Star else Icons.Outlined.Star,
-                        contentDescription = if (marked) "Remove bookmark" else "Bookmark",
-                        tint = if (marked) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant,
+                    Text(
+                        if (marked) "★" else "☆",
+                        style = MaterialTheme.typography.headlineSmall,
+                        color = if (marked) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
             }
@@ -124,11 +120,14 @@ fun QuizScreen(app: AppState, quiz: Screen.Quiz, onExit: () -> Unit, onRetry: (S
                 if (q.keyword.isNotBlank()) Tag(q.keyword, MaterialTheme.colorScheme.tertiaryContainer)
             }
             if (sheet != null) {
-                Text(
-                    "${sheet.subjectName} · Sheet #${sheet.id} · ${sheet.title}",
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+                Surface(color = MaterialTheme.colorScheme.secondaryContainer, shape = RoundedCornerShape(8.dp)) {
+                    Text(
+                        "Practising: ${sheet.subjectName} · ROCKET SHEET #${sheet.id} — ${sheet.title}",
+                        style = MaterialTheme.typography.bodySmall,
+                        fontWeight = FontWeight.SemiBold,
+                        modifier = Modifier.fillMaxWidth().padding(horizontal = 10.dp, vertical = 6.dp),
+                    )
+                }
             }
             Text(q.question, style = MaterialTheme.typography.titleMedium)
 

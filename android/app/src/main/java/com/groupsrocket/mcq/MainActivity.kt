@@ -5,11 +5,15 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -19,14 +23,19 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
@@ -85,6 +94,9 @@ class AppState(val repo: Repository, val progress: Progress) {
 
     fun dayDate(day: Int): LocalDate = planStart().plusDays(day - 1L)
 
+    /** Today's plan day, kept within 1..90. */
+    fun currentDay(): Int = todayDay().coerceIn(1, index.plan.size.coerceAtLeast(1))
+
     fun isDayDone(day: Int): Boolean {
         val d = index.plan.getOrNull(day - 1) ?: return false
         return progress.isDayDone(day) || (d.isStudy && d.sheets.isNotEmpty() && d.sheets.all { progress.bestScore(it) != null })
@@ -98,6 +110,7 @@ class AppState(val repo: Repository, val progress: Progress) {
 }
 
 sealed interface Screen {
+    data object Today : Screen
     data object Plan : Screen
     data object Subjects : Screen
     data object TrackerTab : Screen
@@ -111,7 +124,7 @@ sealed interface Screen {
     data class Quiz(val title: String, val questions: List<Mcq>, val day: Int? = null) : Screen
 }
 
-private val tabs = listOf(Screen.Plan, Screen.Subjects, Screen.TrackerTab, Screen.Review)
+private val tabs = listOf(Screen.Today, Screen.Plan, Screen.Subjects, Screen.Review, Screen.TrackerTab)
 
 @Composable
 fun RocketTheme(content: @Composable () -> Unit) {
@@ -127,7 +140,7 @@ fun RocketTheme(content: @Composable () -> Unit) {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun RocketApp(app: AppState) {
-    val stack = remember { mutableStateListOf<Screen>(Screen.Plan) }
+    val stack = remember { mutableStateListOf<Screen>(Screen.Today) }
     val current = stack.last()
     fun go(s: Screen) { stack.add(s) }
     fun back() { if (stack.size > 1) stack.removeAt(stack.lastIndex) }
@@ -139,10 +152,30 @@ fun RocketApp(app: AppState) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(titleOf(app, current), maxLines = 1, overflow = TextOverflow.Ellipsis) },
+                title = {
+                    val t = if (current == Screen.Today) "Day ${app.currentDay()} · Today" else titleOf(app, current)
+                    Text(t, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                },
                 navigationIcon = {
                     if (stack.size > 1) IconButton(onClick = ::back) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    }
+                },
+                actions = {
+                    val day = when (current) {
+                        Screen.Today -> app.currentDay()
+                        is Screen.Day -> current.day
+                        else -> null
+                    }
+                    if (day != null) {
+                        // Browse days: from Today push a Day screen, otherwise swap the current one.
+                        fun show(d: Int) = if (current is Screen.Today) go(Screen.Day(d)) else stack[stack.lastIndex] = Screen.Day(d)
+                        IconButton(onClick = { show(day - 1) }, enabled = day > 1) {
+                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Previous day")
+                        }
+                        IconButton(onClick = { show(day + 1) }, enabled = day < app.index.plan.size) {
+                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Next day")
+                        }
                     }
                 },
             )
@@ -157,10 +190,11 @@ fun RocketApp(app: AppState) {
                         icon = {
                             Icon(
                                 when (tab) {
+                                    Screen.Today -> Icons.Filled.Home
                                     Screen.Plan -> Icons.Filled.DateRange
                                     Screen.Subjects -> Icons.AutoMirrored.Filled.List
-                                    Screen.TrackerTab -> Icons.Filled.CheckCircle
-                                    else -> Icons.Filled.Refresh
+                                    Screen.Review -> Icons.Filled.Star
+                                    else -> Icons.Filled.CheckCircle
                                 },
                                 contentDescription = null,
                             )
@@ -173,6 +207,7 @@ fun RocketApp(app: AppState) {
     ) { pad ->
         Surface(Modifier.fillMaxSize().padding(pad)) {
             when (val s = current) {
+                Screen.Today -> DayScreen(app, app.currentDay(), ::go)
                 Screen.Plan -> PlanScreen(app, ::go)
                 Screen.Subjects -> SubjectsScreen(app, ::go)
                 Screen.TrackerTab -> TrackerScreen(app, ::go)
@@ -190,11 +225,12 @@ fun RocketApp(app: AppState) {
 }
 
 private fun titleOf(app: AppState, s: Screen): String = when (s) {
-    Screen.Plan -> "90-Day Plan"
+    Screen.Today -> "Today"
+    Screen.Plan -> "Plan"
     Screen.Subjects -> "Subjects"
-    Screen.TrackerTab -> "Tracker"
+    Screen.TrackerTab -> "Progress"
     Screen.Review -> "Review"
-    is Screen.Day -> "Day ${s.day}"
+    is Screen.Day -> "Day ${s.day}" + if (s.day == app.todayDay()) " · Today" else ""
     is Screen.SubjectDetail -> app.index.subjects.firstOrNull { it.slug == s.slug }?.name ?: "Subject"
     is Screen.SheetDetail -> app.index.sheet(s.ref)?.let { "${it.subjectName} #${it.id}" } ?: "Sheet"
     is Screen.UnitDetail -> s.id
@@ -345,7 +381,7 @@ fun PlanScreen(app: AppState, go: (Screen) -> Unit) {
         }
         if (today in 1..plan.size && plan[today - 1].isStudy) {
             item { SectionHeader("Today's sheets") }
-            items(plan[today - 1].sheets) { ref -> app.index.sheet(ref)?.let { SheetRow(app, it, go, showSubject = false) } }
+            items(plan[today - 1].sheets) { ref -> app.index.sheet(ref)?.let { SheetSection(app, it, go) } }
         }
         item { SectionHeader("All 90 days · started ${app.planStart().format(dateFmt)}") }
         items(plan.indices.toList()) { d ->
@@ -385,23 +421,119 @@ fun PlanScreen(app: AppState, go: (Screen) -> Unit) {
     }
 }
 
+private fun dayTypeLabel(type: String) = when (type) {
+    "study" -> "Study day"
+    "review" -> "Weekly review test"
+    "revision" -> "Revision day"
+    "mock" -> "Mock test"
+    else -> "Repair day"
+}
+
 @Composable
 fun DayScreen(app: AppState, day: Int, go: (Screen) -> Unit) {
     val d = app.index.plan.getOrNull(day - 1) ?: return
+    val sheets = d.sheets.mapNotNull { app.index.sheet(it) }
+    val total = sheets.sumOf { it.count }
+    val facts = sheets.sumOf { it.facts }
+    val tally = app.progress.tally(d.sheets)
+    val isToday = day == app.todayDay()
     LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
         item {
             InfoCard {
-                Text(app.dayDate(day).format(dateFmt), style = MaterialTheme.typography.labelLarge)
-                Text(d.title, style = MaterialTheme.typography.titleLarge)
-                if (!d.isStudy && d.sheets.isNotEmpty()) {
-                    Text("Random questions from ${d.sheets.size} sheets", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    "${app.dayDate(day).format(dateFmt)} · ${dayTypeLabel(d.type)}" + if (app.isDayDone(day)) " · ✓ done" else "",
+                    style = MaterialTheme.typography.labelLarge,
+                )
+                Text(d.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                when {
+                    d.isStudy -> {
+                        Text("${sheets.size} ROCKET sheets · $total MCQs · $facts facts", style = MaterialTheme.typography.bodyMedium)
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Box(Modifier.weight(1f)) { ProgressLine(tally.attempted, total) }
+                            Text("  ${tally.attempted}/$total", style = MaterialTheme.typography.labelMedium)
+                        }
+                    }
+                    d.type == "repair" -> Text("Re-practise every question you last answered wrong.", style = MaterialTheme.typography.bodyMedium)
+                    else -> Text(
+                        "${d.questions} random MCQs from ${if (sheets.size == app.index.subjects.sumOf { it.sheets.size }) "all subjects" else "the ${sheets.size} sheets below"}",
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
                 }
                 DayButtons(app, day, go)
             }
         }
-        if (d.type == "study" || d.type == "review" || (d.type == "revision" && d.sheets.size < 200)) {
-            items(d.sheets) { ref -> app.index.sheet(ref)?.let { SheetRow(app, it, go, showSubject = !d.isStudy) } }
+        val showList = d.isStudy || d.type == "review" || (d.type == "revision" && sheets.size < 200)
+        if (showList && sheets.isNotEmpty()) {
+            item {
+                val label = when {
+                    !d.isStudy -> "SHEETS IN THIS TEST"
+                    isToday -> "TODAY'S SHEETS"
+                    else -> "DAY $day SHEETS"
+                }
+                Text(
+                    "$label (${sheets.size})",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(start = 20.dp, top = 16.dp, bottom = 4.dp),
+                )
+            }
+            items(sheets) { SheetSection(app, it, go, showSubject = !d.isStudy) }
         }
+    }
+}
+
+/** LIGHT / MED / HEAVY workload chip for a sheet, by MCQ count. */
+@Composable
+fun LoadChip(count: Int) {
+    val (label, bg, fg) = when {
+        count <= 15 -> Triple("LIGHT", MaterialTheme.colorScheme.surfaceContainerHighest, MaterialTheme.colorScheme.onSurfaceVariant)
+        count <= 35 -> Triple("MED", Color(0xFFFFEFD5), Color(0xFFB45309))
+        else -> Triple("HEAVY", Color(0xFFFFE4E1), Color(0xFFB91C1C))
+    }
+    Surface(color = bg, shape = RoundedCornerShape(8.dp)) {
+        Text(label, color = fg, style = MaterialTheme.typography.labelMedium, modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp))
+    }
+}
+
+/** One sheet in a day's list: number badge, clear title, workload, counts and progress. */
+@Composable
+fun SheetSection(app: AppState, sheet: SheetInfo, go: (Screen) -> Unit, showSubject: Boolean = false) {
+    val tally = app.progress.tallyBySheet()[sheet.ref]
+    val done = tally?.attempted ?: 0
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable { go(Screen.SheetDetail(sheet.ref)) }
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        Box(
+            Modifier.size(46.dp).background(MaterialTheme.colorScheme.secondaryContainer, CircleShape),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text("#${sheet.id}", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.onSecondaryContainer)
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            if (showSubject) {
+                Text(sheet.subjectName, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary)
+            }
+            Text(sheet.title, style = MaterialTheme.typography.titleMedium)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                LoadChip(sheet.count)
+                Text(
+                    "ROCKET SHEET #${sheet.id} · ${sheet.count} MCQs" + if (sheet.facts > 0) " · ${sheet.facts} facts" else "",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.weight(1f)) { ProgressLine(done, sheet.count) }
+                Text("  $done/${sheet.count}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+        }
+        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
 
@@ -461,7 +593,7 @@ fun SheetScreen(app: AppState, ref: SheetRef, go: (Screen) -> Unit) {
                 }
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Button(
-                        onClick = { go(quizOf(app, "${sheet.subjectName} #${sheet.id}", listOf(ref))) },
+                        onClick = { go(quizOf(app, "${sheet.subjectName} · Sheet #${sheet.id}", listOf(ref))) },
                         enabled = sheet.count > 0,
                     ) { Text("Practice") }
                     OutlinedButton(onClick = { go(Screen.Notes(ref)) }) { Text("Notes") }
@@ -514,6 +646,17 @@ fun TrackerScreen(app: AppState, go: (Screen) -> Unit) {
             Tab(selected = exam == 1, onClick = { exam = 1 }, text = { Text("Group 2") })
         }
         LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
+            item {
+                val overall = app.progress.overall()
+                val plan = app.index.plan
+                InfoCard {
+                    Text("Your progress", style = MaterialTheme.typography.titleMedium)
+                    Text("${(1..plan.size).count { app.isDayDone(it) }} / ${plan.size} plan days done")
+                    Text("${overall.attempted} / ${app.index.totalMcqs} MCQs attempted" + if (overall.attempted > 0) " · accuracy ${overall.correct * 100 / overall.attempted}%" else "")
+                    ProgressLine(overall.attempted, app.index.totalMcqs)
+                }
+            }
+            item { SectionHeader("Syllabus tracker · ${if (exam == 0) "Group 1 Prelims" else "Group 2"}") }
             app.index.units.filter { it.exam == exams[exam] }.groupBy { it.section }.forEach { (section, units) ->
                 item { SectionHeader(section) }
                 unitCards(app, units, go)

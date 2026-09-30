@@ -79,7 +79,7 @@ def build_plan(subjects: list[dict]) -> list[dict]:
             plan[next(days)] = {
                 "type": "study",
                 "block": block_of[name],
-                "title": f"{name} – Sheets #{first}" + (f" to #{last}" if first != last else ""),
+                "title": f"{name} · ROCKET Sheets #{first}" + (f" to #{last}" if first != last else ""),
                 "sheets": [ref(s, sh) for s, sh in group],
             }
     for d in range(7, STUDY_UNTIL + 1, 7):
