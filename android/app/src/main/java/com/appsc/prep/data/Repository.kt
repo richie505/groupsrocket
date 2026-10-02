@@ -22,6 +22,13 @@ class Repository(private val open: (String) -> InputStream) {
     val plan: Plan by lazy { parsePlan(readJson("plan.json")) }
     val index: List<BookInfo> by lazy { parseIndex(readJson("index.json")) }
 
+    /** Short forms the notes define (tools/build_abbreviations.py), for read-aloud. */
+    val abbreviations: Map<String, List<String>> by lazy {
+        runCatching {
+            readJson("abbr.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } }
+        }.getOrDefault(emptyMap()).also { SpeechText.fromNotes = it }
+    }
+
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()
 

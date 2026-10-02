@@ -63,7 +63,8 @@ def main() -> None:
     units = {u["id"]: u for u in syllabus["units"]}
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("*.json"):
-        old.unlink()
+        if old.name != "abbr.json":  # read-aloud short forms, kept from APPSC Prep
+            old.unlink()
 
     index_books, row_ref = [], {}  # row_ref: "slug/sheet" -> (book id, row index)
     row_meta = {}
@@ -85,7 +86,7 @@ def main() -> None:
                 source = f"{name} · ROCKET SHEET #{sh['id']} · pp {p1}-{p2}"
                 secs = [
                     {"t": f"Key facts ({len(fl)})", "badges": ["ROCKET"], "p": p1,
-                     "b": [{"k": "n", "x": [["Source: ", 1], [f"{name} – ROCKET Sheets.pdf, ROCKET SHEET #{sh['id']}, pages {p1}-{p2}", 0]]}]
+                     "b": [{"k": "n", "x": [["Source: ", 1], [f"{name} – ROCKET Sheets PDF, ROCKET SHEET #{sh['id']}, pages {p1}-{p2}", 0]]}]
                      + [{"k": "b", "x": [[f["text"] + " ", 0], [f"[{source}]", 4]]} for f in fl]},
                     {"t": "Sheet text (PDF)", "badges": [], "p": p1, "b": paragraphs(sh["text"])},
                 ]

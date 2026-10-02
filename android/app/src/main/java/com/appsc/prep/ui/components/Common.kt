@@ -29,6 +29,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.State
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -56,6 +57,33 @@ interface Platform {
     /** Keyboard keys while this screen shows (Windows only): "1".."9", "Left", "Right". True if handled. */
     @Composable
     fun Shortcuts(onKey: (String) -> Boolean)
+
+    /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
+    val speech: Speech? get() = null
+}
+
+/** One subsection to read aloud: its id ("book:row:sec"), title and the parts (paragraphs) to speak. */
+data class SpeechPage(val id: String, val title: String, val parts: List<String>)
+
+/** Where read-aloud is: [active] while a session runs (playing or paused), the page and part being read. */
+data class Playback(val active: Boolean = false, val playing: Boolean = false, val pageId: String = "", val part: Int = 0)
+
+/**
+ * Read-aloud for the notes. One session for the whole app: it keeps reading into the next pages (from [play]'s
+ * `next`) with the screen locked or the app in the background, until [stop] or the app is closed.
+ */
+interface Speech {
+    val playback: State<Playback>
+
+    /** Reads [page] from part [from], then each page `next()` gives until it returns null. */
+    fun play(page: SpeechPage, from: Int, rate: Float, next: () -> SpeechPage?)
+    fun pause()
+    fun resume()
+
+    /** Jumps to a part of the current page. */
+    fun seek(part: Int)
+    fun setRate(rate: Float)
+    fun stop()
 }
 
 class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform)

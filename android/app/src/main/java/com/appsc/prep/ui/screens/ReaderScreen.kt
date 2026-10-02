@@ -35,11 +35,16 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Pause
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.SkipNext
+import androidx.compose.material.icons.filled.SkipPrevious
+import androidx.compose.material.icons.outlined.Headphones
 import androidx.compose.material.icons.filled.Remove
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CheckCircle
 import androidx.compose.material.icons.outlined.Share
-import androidx.compose.material.icons.outlined.TextFields
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.DropdownMenu
@@ -67,6 +72,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
 import com.appsc.prep.data.TableBlock
@@ -74,6 +80,8 @@ import com.appsc.prep.data.TextBlock
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.BlockView
 import com.appsc.prep.ui.components.Loading
+import com.appsc.prep.ui.components.Playback
+import com.appsc.prep.ui.components.SpeechPage
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
@@ -132,9 +140,67 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         secI = p.sec
     }
 
+    // ---- read aloud (one session for the app: it carries on with the screen locked) ----
+    val speech = app.platform.speech
+    val pb = speech?.playback?.value ?: Playback()
+    val listening = pb.active
+    val here = pb.pageId == id
+    val part = if (here) pb.part else 0
+    val parts = remember(id) {
+        app.repo.abbreviations // short forms the notes define
+        SpeechText.parts(sec.title, sec.blocks, bookId)
+    }
+
+    fun page(p: Pos): SpeechPage {
+        val s = book.rows[p.row].secs[p.sec]
+        return SpeechPage(subsectionId(bookId, p.row, p.sec), s.title, SpeechText.parts(s.title, s.blocks, bookId).map { it.second })
+    }
+
+    fun play(from: Int) {
+        val s = speech ?: return
+        var cursor = pos
+        s.play(SpeechPage(id, sec.title, parts.map { it.second }), from, store.speechRate) {
+            // then on through the book, page by page
+            book.next(cursor)?.let { cursor = it; page(it) }
+        }
+    }
+
+    fun stopAndBack() {
+        speech?.stop()
+        nav.back()
+    }
+
+    // leaving the reader ends read-aloud (locking the screen or switching apps does not)
+    app.platform.BackHandler(enabled = listening && !tocOpen) { stopAndBack() }
+    LaunchedEffect(id) {
+        // opened another page by hand while reading: read that one
+        val now = speech?.playback?.value ?: return@LaunchedEffect
+        if (now.playing && now.pageId != id) play(0)
+    }
+    // reading moved on from the page on screen (end of page, or several pages while the phone was locked):
+    // follow it. A page opened by hand is not followed away from - it is read instead (above).
+    var lastSpoken by remember { mutableStateOf(pb.pageId) }
+    LaunchedEffect(pb.pageId) {
+        val was = lastSpoken
+        lastSpoken = pb.pageId
+        if (!pb.active || was != id || pb.pageId == id) return@LaunchedEffect
+        val (b, r, s) = pb.pageId.split(':').map { it.toIntOrNull() ?: return@LaunchedEffect }
+        if (b == bookId) go(Pos(r, s))
+    }
+    LaunchedEffect(part, here) {
+        if (!here) return@LaunchedEffect
+        // keep the paragraph being read on screen (item 0 is the heading)
+        val item = (parts.getOrNull(part)?.first ?: -1) + 1
+        val info = listState.layoutInfo
+        val seen = info.visibleItemsInfo.firstOrNull { it.index == item }
+        if (seen == null || seen.offset < 0 || seen.offset + seen.size > info.viewportEndOffset - 220) {
+            listState.animateScrollToItem(item)
+        }
+    }
+
     Box(Modifier.fillMaxSize()) {
         Column(Modifier.fillMaxSize()) {
-            TopBar(sec.title, onBack = nav::back) {
+            TopBar(sec.title, onBack = ::stopAndBack) {
                 val saved = store.isSaved(id)
                 IconButton(onClick = { store.toggleSaved(Saved(id, sec.title, row.title)) }) {
                     Icon(
@@ -149,8 +215,16 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                         "Mark as read", tint = if (done) C.Green else C.Ink,
                     )
                 }
+                if (speech != null) {
+                    IconButton(onClick = {
+                        when {
+                            !here -> play(0)
+                            !pb.playing -> speech.resume()
+                        }
+                    }) { Icon(Icons.Outlined.Headphones, "Listen", tint = if (listening) C.Accent else C.Ink) }
+                }
                 Box {
-                    IconButton(onClick = { sizeMenu = true }) { Icon(Icons.Outlined.TextFields, "Text size", tint = C.Ink) }
+                    IconButton(onClick = { sizeMenu = true }) { Icon(Icons.Filled.MoreVert, "More", tint = C.Ink) }
                     DropdownMenu(expanded = sizeMenu, onDismissRequest = { sizeMenu = false }) {
                         DropdownMenuItem(
                             text = { Text("Larger text") },
@@ -162,9 +236,16 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             leadingIcon = { Icon(Icons.Filled.Remove, null) },
                             onClick = { store.changeTextScale(-0.1f) },
                         )
+                        DropdownMenuItem(
+                            text = { Text("Share") },
+                            leadingIcon = { Icon(Icons.Outlined.Share, null) },
+                            onClick = {
+                                sizeMenu = false
+                                app.platform.share(sec.title, plainText(sec.title, sec.blocks))
+                            },
+                        )
                     }
                 }
-                IconButton(onClick = { app.platform.share(sec.title, plainText(sec.title, sec.blocks)) }) { Icon(Icons.Outlined.Share, "Share", tint = C.Ink) }
             }
 
             LazyColumn(Modifier.fillMaxSize(), state = listState) {
@@ -197,8 +278,27 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                         Spacer(Modifier.height(10.dp))
                     }
                 }
-                itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { _, b ->
-                    Box(Modifier.padding(horizontal = 20.dp)) { BlockView(b, scale) }
+                itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
+                    val reading = here && parts.getOrNull(part)?.first == i
+                    Box(
+                        Modifier
+                            .padding(horizontal = 12.dp)
+                            .clip(RoundedCornerShape(8.dp))
+                            .background(if (reading) C.AccentSoft else Color.Transparent)
+                            .then(
+                                if (listening) {
+                                    Modifier.clickable {
+                                        val at = parts.indexOfFirst { it.first == i }
+                                        if (at < 0) return@clickable
+                                        if (here) {
+                                            speech?.seek(at)
+                                            speech?.resume()
+                                        } else play(at)
+                                    }
+                                } else Modifier,
+                            )
+                            .padding(horizontal = 8.dp),
+                    ) { BlockView(b, scale) }
                 }
                 item(key = "foot-$id") {
                     Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
@@ -315,7 +415,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         Box(
             Modifier
                 .align(Alignment.BottomEnd)
-                .padding(end = 18.dp, bottom = 22.dp)
+                .padding(end = 18.dp, bottom = if (listening) 96.dp else 22.dp)
                 .size(58.dp)
                 .shadow(4.dp, RoundedCornerShape(12.dp))
                 .clip(RoundedCornerShape(12.dp))
@@ -324,6 +424,31 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
             contentAlignment = Alignment.Center,
         ) {
             Icon(Icons.AutoMirrored.Filled.MenuOpen, "Table of content", tint = Color.White, modifier = Modifier.size(30.dp))
+        }
+
+        if (listening && speech != null) {
+            PlayerBar(
+                playing = pb.playing && here,
+                position = "${part + 1} / ${parts.size}",
+                rate = store.speechRate,
+                onPlayPause = {
+                    when {
+                        !here -> play(0)
+                        pb.playing -> speech.pause()
+                        else -> speech.resume()
+                    }
+                },
+                onPrev = { if (here) speech.seek(part - 1) else play(0) },
+                onNext = { if (here && part < parts.lastIndex) speech.seek(part + 1) else next?.let { go(it) } },
+                onRate = {
+                    val rates = listOf(0.75f, 1f, 1.25f, 1.5f, 2f)
+                    val r = rates[(rates.indexOf(store.speechRate) + 1) % rates.size]
+                    store.changeSpeechRate(r)
+                    speech.setRate(r)
+                },
+                onClose = { speech.stop() },
+                modifier = Modifier.align(Alignment.BottomCenter),
+            )
         }
 
         // table-of-contents drawer (subsections of this section)
@@ -444,5 +569,49 @@ private fun plainText(title: String, blocks: List<com.appsc.prep.data.Block>): S
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun PlayerBar(
+    playing: Boolean,
+    position: String,
+    rate: Float,
+    onPlayPause: () -> Unit,
+    onPrev: () -> Unit,
+    onNext: () -> Unit,
+    onRate: () -> Unit,
+    onClose: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    Row(
+        modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 10.dp)
+            .shadow(6.dp, RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(16.dp))
+            .background(Color.White)
+            .padding(horizontal = 6.dp, vertical = 6.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        IconButton(onClick = onPrev) { Icon(Icons.Filled.SkipPrevious, "Previous paragraph", tint = C.Ink) }
+        Box(
+            Modifier.size(48.dp).clip(RoundedCornerShape(24.dp)).background(C.Accent).clickable(onClick = onPlayPause),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(if (playing) Icons.Filled.Pause else Icons.Filled.PlayArrow, if (playing) "Pause" else "Play", tint = Color.White, modifier = Modifier.size(28.dp))
+        }
+        IconButton(onClick = onNext) { Icon(Icons.Filled.SkipNext, "Next paragraph", tint = C.Ink) }
+        Box(
+            Modifier.clip(RoundedCornerShape(8.dp)).background(C.AccentSoft).clickable(onClick = onRate).padding(horizontal = 10.dp, vertical = 6.dp),
+        ) {
+            Text("${if (rate % 1f == 0f) rate.toInt() else rate}×", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Bold, color = C.Accent))
+        }
+        Text(
+            position,
+            style = TextStyle(fontSize = 13.sp, color = C.Muted),
+            modifier = Modifier.weight(1f).padding(start = 10.dp),
+        )
+        IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Stop listening", tint = C.Muted) }
     }
 }

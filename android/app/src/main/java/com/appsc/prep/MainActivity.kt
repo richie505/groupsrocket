@@ -1,5 +1,8 @@
 package com.appsc.prep
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -32,6 +35,7 @@ import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Repository
 import com.appsc.prep.platform.AndroidPlatform
 import com.appsc.prep.platform.PrefsStorage
+import com.appsc.prep.platform.ReadAloud
 import com.appsc.prep.ui.AppNavHost
 import com.appsc.prep.ui.NavImpl
 import com.appsc.prep.ui.openTab
@@ -44,13 +48,26 @@ import com.appsc.prep.ui.theme.C
 import com.appsc.prep.ui.theme.PrepTheme
 
 class MainActivity : ComponentActivity() {
+    override fun onDestroy() {
+        // closing the app ends read-aloud
+        ReadAloud.onStart = null
+        if (isFinishing) ReadAloud.shutdown()
+        super.onDestroy()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        // read-aloud shows a notification (with Pause/Stop) while it runs: ask once on Android 13+
+        ReadAloud.init(this).onStart = {
+            if (Build.VERSION.SDK_INT >= 33 &&
+                checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+            ) requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1)
+        }
         val app = AppState(
             Repository { applicationContext.assets.open(it) },
             ProgressStore(PrefsStorage(applicationContext)),
-            AndroidPlatform(this),
+            AndroidPlatform(applicationContext),
         )
         setContent {
             PrepTheme {

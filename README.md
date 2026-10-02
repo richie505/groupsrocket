@@ -31,6 +31,9 @@ Sheets as its own syllabus (`scripts/build_prep_assets.py` writes its assets):
 sheet) and **Sheet text** (as in the PDF). After each section: MCQ practice (Previous / Skip / Next,
 "Stuck? Show a hint", explanation, what the question trains, "why it went wrong" technique note,
 net score with 1/3 negative marking, retry wrong answers).
+**Read aloud** (headphones button in the reader, from APPSC Prep v2.10): reads each Key fact in
+turn, skips the source tags, says short forms in full, speed control, and keeps reading with the
+screen locked (media notification).
 
 Tabs: **Today** · **Plan** (90 days from 29 Sep 2026, Polity first, one subject per day; weekly
 50-question tests; revision days; 120/150-question mocks; repair days) · **Notes** · **Progress** · **Saved**.

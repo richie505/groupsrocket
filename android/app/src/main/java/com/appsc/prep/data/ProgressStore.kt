@@ -30,6 +30,14 @@ class ProgressStore(private val prefs: Storage) {
         private set
     var textScale by mutableFloatStateOf(prefs.getFloat(KEY_SCALE, 1f))
         private set
+    /** Read-aloud speed (1 = normal). */
+    var speechRate by mutableFloatStateOf(prefs.getFloat(KEY_RATE, 1f))
+        private set
+
+    fun changeSpeechRate(rate: Float) {
+        speechRate = rate
+        prefs.putFloat(KEY_RATE, rate)
+    }
 
     fun isDone(id: String) = id in done
 
@@ -121,6 +129,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_DATES = "dates"
         const val KEY_LAST = "last"
         const val KEY_SCALE = "scale"
+        const val KEY_RATE = "speech_rate"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
     }

@@ -20,6 +20,8 @@ class PrefsStorage(context: Context) : Storage {
 class AndroidPlatform(private val context: Context) : Platform {
     override val desktop = false
 
+    override val speech: ReadAloud get() = ReadAloud.init(context)
+
     override fun share(title: String, text: String) {
         val send = Intent(Intent.ACTION_SEND).apply {
             type = "text/plain"
