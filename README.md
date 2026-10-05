@@ -47,6 +47,20 @@ cd android && ./gradlew assembleRelease     # app/build/outputs/apk/release/app-
 Signed with `android/keystore/rocket-prep.jks`, so new APKs install over old ones and keep progress.
 Its app id (`com.groupsrocket.rocketprep`) differs from APPSC Prep, so both apps can be installed.
 
+### MCQ schedule PDFs
+
+`scripts/build_mcq_pdfs.py` prints the app's MCQs as one PDF per plan day (like APPSC Prep's
+APPSC-MCQ-Schedule-90-Days): Day → subject → ROCKET SHEET #N (source pages) → questions, each
+followed by its answer, plus an `Answer Keys/` grid per day. Study days print every MCQ of the
+day's sheets (all 15,855 appear once); weekly reviews and revision days print a revision set
+(HIGH 15 / MED 8 / LIGHT 5 per sheet; Day 83 one from every sheet); mock days have no PDF.
+
+```bash
+pip install reportlab
+python scripts/build_mcq_pdfs.py android/app/src/main/assets out/Rocket-MCQ-Schedule-90-Days
+python scripts/build_mcq_pdfs.py android/app/src/main/assets out/Rocket-MCQ-Schedule-90-Days-Dark --dark
+```
+
 ## MCQ generation (OpenAI)
 
 The prompt (`scripts/prompt.py`) is the APPSC tutor MCQ module: 8 official formats
