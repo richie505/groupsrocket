@@ -14,8 +14,8 @@ android {
         applicationId = "com.groupsrocket.rocketprep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 3
+        versionName = "1.2"
     }
 
     signingConfigs {
@@ -25,6 +25,21 @@ android {
             storePassword = "rocketprep"
             keyAlias = "rocket-prep"
             keyPassword = "rocketprep"
+        }
+    }
+
+    // Two apps from one code base: the ROCKET notes, and the revision points built from the MCQs
+    // (scripts/build_revision.py). They install side by side, each with its own progress.
+    flavorDimensions += "edition"
+    productFlavors {
+        create("notes") {
+            dimension = "edition"
+            resValue("string", "app_name", "Rocket Prep")
+        }
+        create("revise") {
+            dimension = "edition"
+            applicationIdSuffix = ".revise"
+            resValue("string", "app_name", "Rocket Revision")
         }
     }
 
@@ -68,7 +83,7 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
 
-    // Screenshot tests (JVM, no device needed): ./gradlew recordRoborazziDebug
+    // Screenshot tests (JVM, no device needed): ./gradlew recordRoborazziNotesDebug recordRoborazziReviseDebug
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.robolectric:robolectric:4.14.1")
     testImplementation("io.github.takahirom.roborazzi:roborazzi:1.39.0")

@@ -29,11 +29,20 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(emptyMap()).also { SpeechText.fromNotes = it }
     }
 
+    /**
+     * The revision edition (Rocket Revision) ships edition.json and rev{n}.json: for every ROCKET SHEET, the
+     * facts its MCQs test (scripts/build_revision.py). Its pages are read from those.
+     */
+    val revision: Boolean by lazy { runCatching { open("edition.json").close() }.isSuccess }
+
+    /** Name of this edition: "Rocket Prep" or "Rocket Revision". */
+    val appName: String get() = if (revision) "Rocket Revision" else "Rocket Prep"
+
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()
 
     suspend fun book(id: Int): Book = mutex.withLock {
-        books[id] ?: withContext(Dispatchers.IO) { parseBook(readJson("book$id.json")) }.also { books[id] = it }
+        books[id] ?: withContext(Dispatchers.IO) { parseBook(readJson(if (revision) "rev$id.json" else "book$id.json")) }.also { books[id] = it }
     }
 
     fun cachedBook(id: Int): Book? = books[id]

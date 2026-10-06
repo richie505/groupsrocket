@@ -92,7 +92,7 @@ class ReadAloudService : Service() {
             return NotificationCompat.Builder(context, CHANNEL)
                 .setSmallIcon(R.drawable.ic_stat_listen)
                 .setContentTitle(ReadAloud.title.ifBlank { "Reading notes aloud" })
-                .setContentText(if (playing) "Rocket Prep · reading aloud" else "Rocket Prep · paused")
+                .setContentText(context.getString(R.string.app_name) + if (playing) " · reading aloud" else " · paused")
                 .setContentIntent(open)
                 .setOngoing(playing)
                 .setOnlyAlertOnce(true)

@@ -38,10 +38,19 @@ screen locked (media notification).
 Tabs: **Today** · **Plan** (90 days from 29 Sep 2026, Polity first, one subject per day; weekly
 50-question tests; revision days; 120/150-question mocks; repair days) · **Notes** · **Progress** · **Saved**.
 
+**Rocket Revision** (second app, same code): one page per ROCKET SHEET, "Revision points (N)", built from
+the sheet's MCQs by `scripts/build_revision.py` (→ `android/app/src/revise/assets`): one fact per question, the
+explanation's fact sentence when it reads on its own, else the sheet fact the MCQ tests; answer in bold; repeats
+dropped. 12,572 points over the 721 sheets. Same 90-day plan, MCQ practice and read-aloud; its own progress
+("revised"). Installs next to Rocket Prep (`com.groupsrocket.rocketprep.revise`, green icon).
+
 ```bash
-python scripts/build_index.py && python scripts/build_prep_assets.py
-cd android && ./gradlew assembleRelease     # app/build/outputs/apk/release/app-release.apk
-./gradlew recordRoborazziDebug               # screenshots -> app/screenshots/
+python scripts/build_index.py && python scripts/build_prep_assets.py && python scripts/build_revision.py
+cd android
+./gradlew assembleNotesRelease     # Rocket Prep:     app/build/outputs/apk/notes/release/app-notes-release.apk
+./gradlew assembleReviseRelease    # Rocket Revision: app/build/outputs/apk/revise/release/app-revise-release.apk
+./gradlew testNotesDebugUnitTest testReviseDebugUnitTest
+./gradlew recordRoborazziNotesDebug recordRoborazziReviseDebug   # screenshots -> app/screenshots/
 ```
 
 Signed with `android/keystore/rocket-prep.jks`, so new APKs install over old ones and keep progress.
@@ -59,6 +68,9 @@ day's sheets (all 15,855 appear once); weekly reviews and revision days print a 
 pip install reportlab
 python scripts/build_mcq_pdfs.py android/app/src/main/assets out/Rocket-MCQ-Schedule-90-Days
 python scripts/build_mcq_pdfs.py android/app/src/main/assets out/Rocket-MCQ-Schedule-90-Days-Dark --dark
+# daily revision points PDFs (Rocket Revision's pages, same days and sheets as the MCQ PDFs)
+python scripts/build_revision_pdfs.py android/app/src/main/assets android/app/src/revise/assets out/Rocket-Revision-90-Days
+python scripts/build_revision_pdfs.py android/app/src/main/assets android/app/src/revise/assets out/Rocket-Revision-90-Days-Dark --dark
 ```
 
 ## MCQ generation (OpenAI)
@@ -100,12 +112,12 @@ tests, writes new MCQs for untested facts, and re-checks the gaps. The app shows
 
 ## Building the APK
 
-The **Build Android APK** GitHub Action builds `app-release.apk` on every push that touches
+The **Build Android APK** GitHub Action builds both APKs (Rocket Prep and Rocket Revision) on every push that touches
 `android/` or `data/` — download it from the run's artifacts and install it on your phone
 (allow "install unknown apps"). Locally:
 
 ```bash
 cd android
-./gradlew assembleRelease     # needs Android SDK (local.properties: sdk.dir=...)
-# -> app/build/outputs/apk/release/app-release.apk
+./gradlew assembleNotesRelease assembleReviseRelease   # needs Android SDK (local.properties: sdk.dir=...)
+# -> app/build/outputs/apk/{notes,revise}/release/
 ```

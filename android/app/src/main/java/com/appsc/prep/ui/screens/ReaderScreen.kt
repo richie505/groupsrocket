@@ -212,7 +212,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     val done = store.isDone(id)
                     Icon(
                         if (done) Icons.Filled.CheckCircle else Icons.Outlined.CheckCircle,
-                        "Mark as read", tint = if (done) C.Green else C.Ink,
+                        if (app.repo.revision) "Mark as revised" else "Mark as read", tint = if (done) C.Green else C.Ink,
                     )
                 }
                 if (speech != null) {
@@ -326,7 +326,11 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(20.dp))
                             Spacer(Modifier.width(8.dp))
                             Text(
-                                if (done) "Read ✓  (tap to undo)" else if (next != null) "Mark as read & next" else "Mark as read",
+                                when {
+                                    done -> if (app.repo.revision) "Revised ✓  (tap to undo)" else "Read ✓  (tap to undo)"
+                                    next != null -> if (app.repo.revision) "Mark as revised & next" else "Mark as read & next"
+                                    else -> if (app.repo.revision) "Mark as revised" else "Mark as read"
+                                },
                                 style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                             )
                         }

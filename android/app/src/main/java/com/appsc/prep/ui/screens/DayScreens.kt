@@ -103,7 +103,7 @@ fun TodayScreen(nav: Nav) {
             Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 22.dp, bottom = 4.dp)) {
                 Text(today.format(dateFmt), style = TextStyle(fontSize = 13.sp, color = C.Muted))
                 Text(
-                    "Rocket Prep",
+                    LocalApp.current.repo.appName,
                     style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                 )
             }
@@ -183,7 +183,7 @@ private fun HeroCard(
                     Text("$done / $total", style = TextStyle(fontSize = 13.sp, color = Color.White, fontWeight = FontWeight.SemiBold))
                 }
                 Text(
-                    "subsections read · exam $examLabel",
+                    "subsections ${LocalApp.current.doneWord} · exam $examLabel",
                     style = TextStyle(fontSize = 12.sp, color = Color(0xFFC7D2FE)),
                     modifier = Modifier.padding(top = 4.dp),
                 )
@@ -415,7 +415,7 @@ fun DayScreen(n: Int, nav: Nav) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             ProgressLine(done / total.toFloat(), Modifier.weight(1f))
                             Spacer(Modifier.width(10.dp))
-                            Text("$done / $total read", style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                            Text("$done / $total ${LocalApp.current.doneWord}", style = TextStyle(fontSize = 12.sp, color = C.Muted))
                         }
                     }
                 }

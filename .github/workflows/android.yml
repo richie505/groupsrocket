@@ -18,10 +18,12 @@ jobs:
           distribution: temurin
           java-version: "17"
       - uses: gradle/actions/setup-gradle@v4
-      - name: Build release APK
+      - name: Build release APKs (Rocket Prep + Rocket Revision)
         working-directory: android
-        run: ./gradlew assembleRelease --console=plain
+        run: ./gradlew assembleNotesRelease assembleReviseRelease --console=plain
       - uses: actions/upload-artifact@v4
         with:
           name: rocket-mcq-apk
-          path: android/app/build/outputs/apk/release/app-release.apk
+          path: |
+            android/app/build/outputs/apk/notes/release/app-notes-release.apk
+            android/app/build/outputs/apk/revise/release/app-revise-release.apk
