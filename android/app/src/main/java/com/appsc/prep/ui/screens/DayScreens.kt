@@ -1,5 +1,6 @@
 package com.appsc.prep.ui.screens
 
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -51,8 +52,11 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.PlanDay
 import com.appsc.prep.data.PlanRow
 import com.appsc.prep.ui.components.Card
+import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.gridItems
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.PracticeCard
+import com.appsc.prep.ui.components.practiceSets
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
 import com.appsc.prep.ui.components.SectionItem
@@ -98,12 +102,12 @@ fun TodayScreen(nav: Nav) {
     val beforePlan = today.isBefore(plan.days.first().date)
     val daysToExam = ChronoUnit.DAYS.between(today, plan.exam).coerceAtLeast(0)
 
-    LazyColumn(Modifier.fillMaxSize()) {
+    PageList(Modifier.fillMaxSize()) {
         item {
             Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 22.dp, bottom = 4.dp)) {
                 Text(today.format(dateFmt), style = TextStyle(fontSize = 13.sp, color = C.Muted))
                 Text(
-                    LocalApp.current.repo.appName,
+                    app.repo.appName,
                     style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                 )
             }
@@ -324,6 +328,12 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
         else -> onSections
     }
     if (total == 0 && !day.repair) return
+    // the day's questions, to count what is left to try and what was got wrong
+    val pool = rememberPool(QuizSource("day", 0, day.n))
+    val ids = pool?.map { it.id }
+    val sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) }
+    val stats = ids?.let { app.store.quizStats(it) }
+    val n = ids?.size ?: total
     SectionHeader("MCQ practice")
     PracticeCard(
         title = when {
@@ -334,12 +344,14 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
         },
         subtitle = when {
             day.repair -> if (wrong == 0) "No wrong answers yet" else "$wrong questions you last answered wrong"
-            day.quiz > 0 && day.rows.isEmpty() -> "$total random questions from all 721 ROCKET sheets"
-            day.quiz > 0 -> "$total random questions from these ${day.rows.size} sections"
-            else -> "$total questions on today's sections"
+            day.quiz > 0 && day.rows.isEmpty() -> "$n random questions from all 721 ROCKET sheets"
+            day.quiz > 0 -> "$n random questions from these ${day.rows.size} sections"
+            else -> "$n questions on today's sections"
         },
-        attempted = null,
+        attempted = stats?.let { Triple(it.first, it.second, ids.size) },
         onStart = { nav.quiz("day", 0, day.n) },
+        sets = sets,
+        onSet = { mode -> nav.quiz("day", 0, day.n, mode) },
     )
 }
 
@@ -395,7 +407,7 @@ fun DayScreen(n: Int, nav: Nav) {
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, "Next day")
             }
         }
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) {
             item(key = "head-${day.n}") {
                 val (done, total) = dayProgress(day)
                 Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
@@ -433,22 +445,43 @@ fun PlanScreen(nav: Nav) {
     val plan = app.repo.plan
     val todayN = app.repo.dayFor(LocalDate.now()).n
     val state = rememberLazyListState()
-    LaunchedEffect(Unit) { state.scrollToItem((todayN - 3).coerceAtLeast(0)) }
+    // the days in their phases (Phase 1 first pass, revision, mocks ...)
+    val groups = remember(plan) {
+        val out = mutableListOf<Pair<String, MutableList<PlanDay>>>()
+        plan.days.forEach { d ->
+            val phase = phaseGroup(d)
+            if (out.lastOrNull()?.first != phase) out += phase to mutableListOf()
+            out.last().second += d
+        }
+        out
+    }
     Column(Modifier.fillMaxSize()) {
         TopBar("90-Day Plan")
-        LazyColumn(Modifier.fillMaxSize(), state = state) {
-            var lastPhase = ""
-            plan.days.forEach { d ->
-                val phase = phaseGroup(d)
-                if (phase != lastPhase) {
-                    lastPhase = phase
-                    item(key = "ph-$phase") { SectionHeader(phase) }
-                }
-                item(key = "d-${d.n}") { DayItem(d, d.n == todayN) { nav.day(d.n) } }
+        androidx.compose.foundation.layout.BoxWithConstraints(Modifier.fillMaxSize()) {
+        // a grid of days on a wide window, a list on a phone
+        val cols = com.appsc.prep.ui.components.columnsFor(minOf(maxWidth, 1180.dp), 340.dp, 3)
+        LaunchedEffect(cols) {
+            // open at today: its row, counting each phase's heading
+            var index = 0
+            for ((_, days) in groups) {
+                index++
+                val at = days.indexOfFirst { it.n == todayN }
+                if (at >= 0) { index += at / cols; break }
+                index += (days.size + cols - 1) / cols
+            }
+            state.scrollToItem((index - 1).coerceAtLeast(0))
+        }
+        PageList(Modifier.fillMaxSize(), state = state, max = 1180.dp) {
+            groups.forEach { (phase, days) ->
+                item(key = "ph-$phase") { SectionHeader(phase) }
+                gridItems(days, cols, spacing = 8.dp, padding = PaddingValues(horizontal = if (cols > 1) 12.dp else 0.dp)) { d -> DayItem(d, d.n == todayN) { nav.day(d.n) } }
             }
             item(key = "buffer") {
                 Column {
-                    SectionHeader("Final buffer (R3) · 20 Dec – 2 Jan")
+                    SectionHeader(
+                        "Final buffer (R3) · " + plan.days.last().date.plusDays(1).format(DateTimeFormatter.ofPattern("d MMM")) +
+                            " – " + plan.exam.minusDays(1).format(DateTimeFormatter.ofPattern("d MMM")),
+                    )
                     plan.buffer.forEach { b ->
                         Row(Modifier.padding(horizontal = 20.dp, vertical = 6.dp)) {
                             Text(b.dates, style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.Bold, color = C.Accent), modifier = Modifier.width(92.dp))
@@ -458,6 +491,7 @@ fun PlanScreen(nav: Nav) {
                     Spacer(Modifier.height(24.dp))
                 }
             }
+        }
         }
     }
 }
@@ -469,6 +503,7 @@ private fun DayItem(d: PlanDay, isToday: Boolean, onClick: () -> Unit) {
     Row(
         Modifier
             .fillMaxWidth()
+            .clip(RoundedCornerShape(12.dp))
             .background(if (isToday) C.AccentSoft else Color.Transparent)
             .clickable(onClick = onClick)
             .padding(horizontal = 16.dp, vertical = 11.dp),

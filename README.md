@@ -45,13 +45,33 @@ dropped. 12,572 points over the 721 sheets. Same 90-day plan, MCQ practice and r
 ("revised"). Installs next to Rocket Prep (`com.groupsrocket.rocketprep.revise`, green icon).
 
 ```bash
-python scripts/build_index.py && python scripts/build_prep_assets.py && python scripts/build_revision.py
+python scripts/build_index.py && python scripts/build_prep_assets.py && python scripts/build_key_terms.py android/app/src/main/assets && python scripts/build_revision.py
 cd android
 ./gradlew assembleNotesRelease     # Rocket Prep:     app/build/outputs/apk/notes/release/app-notes-release.apk
 ./gradlew assembleReviseRelease    # Rocket Revision: app/build/outputs/apk/revise/release/app-revise-release.apk
-./gradlew testNotesDebugUnitTest testReviseDebugUnitTest
+./gradlew testNotesDebugUnitTest testReviseDebugUnitTest :desktop:test
 ./gradlew recordRoborazziNotesDebug recordRoborazziReviseDebug   # screenshots -> app/screenshots/
 ```
+
+**v1.3** brings in everything from APPSC Prep up to v2.33 (merged onto Rocket's own changes):
+Unattempted / Incorrect / All MCQ sets with counts (Today and each sheet); after a wrong answer the
+explanation sentence about the picked option is highlighted, and "From your notes" quotes the sheet's lines with
+a link to the page; long-press any word → Meaning (offline dictionary + Indian context + what your sheets say);
+Key terms on every page (`scripts/build_key_terms.py`); Explain simply / Google / Open in Chrome / Ask Gemini;
+own notes; backup and restore (Progress tab); read-aloud with full forms.
+
+### Windows app
+
+`android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in
+columns, the sheet's pages listed on the left in the reader, Windows' own voices for read-aloud.
+
+```bash
+cd android
+./gradlew :desktop:run                  # run on this computer
+tools/windows/build_windows.sh          # Rocket-Prep-Setup.exe + Rocket-Prep-Windows.zip (needs mingw-w64, nsis)
+```
+
+Progress is kept in `%APPDATA%\Rocket Prep` (separate from APPSC Prep).
 
 Signed with `android/keystore/rocket-prep.jks`, so new APKs install over old ones and keep progress.
 Its app id (`com.groupsrocket.rocketprep`) differs from APPSC Prep, so both apps can be installed.

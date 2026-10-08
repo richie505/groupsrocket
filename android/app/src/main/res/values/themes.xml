@@ -1,8 +1,11 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.APPSCPrep" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">#FFFFFF</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">#FFFFFF</item>
         <item name="android:windowBackground">#FFFFFF</item>
+        <!-- The app is light-only and draws its own colours: never let the phone's "dark mode for apps"
+             (force dark) recolour it - that turned the notes black behind pop-ups such as the Meaning card. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 </resources>

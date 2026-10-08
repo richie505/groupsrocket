@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
@@ -51,6 +52,8 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
 import com.appsc.prep.data.Techniques
 import com.appsc.prep.ui.components.Loading
+import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.DictionaryArea
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.Tag
@@ -109,7 +112,7 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
     var currentMode by rememberSaveable { mutableStateOf(mode) }
     var round by rememberSaveable { mutableIntStateOf(0) }
 
-    Column(Modifier.fillMaxSize()) {
+    Column(Modifier.fillMaxSize().background(Color.White)) {
         TopBar(title, onBack = nav::back)
         if (pool == null) {
             Loading()
@@ -129,16 +132,22 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             }
             return@Column
         }
-        QuizRound(
-            key = "$round-$currentMode",
-            set = set,
-            pool = pool,
-            onNext = { m ->
-                currentMode = m
-                round++
-            },
-            onDone = nav::back,
-        )
+        // on a wide window the whole quiz (progress, question, buttons) stays in one centred column
+        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+            Box(Modifier.widthIn(max = 900.dp).fillMaxSize()) {
+                QuizRound(
+                    key = "$round-$currentMode",
+                    set = set,
+                    pool = pool,
+                    onNext = { m ->
+                        currentMode = m
+                        round++
+                    },
+                    onDone = nav::back,
+                    onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
+                )
+            }
+        }
     }
 }
 
@@ -149,6 +158,7 @@ internal fun QuizRound(
     pool: List<Question>,
     onNext: (String) -> Unit,
     onDone: () -> Unit,
+    onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit = { _, _, _ -> },
 ) {
     val app = LocalApp.current
     val store = app.store
@@ -194,45 +204,47 @@ internal fun QuizRound(
             Spacer(Modifier.height(6.dp))
             ProgressLine((index + if (answered) 1 else 0) / set.size.toFloat())
         }
-        LazyColumn(Modifier.weight(1f), state = listState) {
-            item(key = "q-${q.id}") {
-                Column(Modifier.padding(horizontal = 20.dp)) {
-                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
-                        if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
-                        when {
-                            q.kind == 'f' -> Tag("Flashcard", C.AccentSoft, C.Accent)
-                            q.cancelled -> Tag("Cancelled", C.HighSoft, C.High)
-                            q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
+        DictionaryArea(onOpenNotes, Modifier.weight(1f)) {
+            PageList(Modifier.fillMaxSize(), state = listState, max = 900.dp) {
+                item(key = "q-${q.id}") {
+                    Column(Modifier.padding(horizontal = 20.dp)) {
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
+                            if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
+                            when {
+                                q.kind == 'f' -> Tag("Flashcard", C.AccentSoft, C.Accent)
+                                q.cancelled -> Tag("Cancelled", C.HighSoft, C.High)
+                                q.kind == 'u' -> Tag("No key", C.MedSoft, C.Med)
+                            }
+                            if (q.source.isNotBlank()) Tag(q.source)
                         }
-                        if (q.source.isNotBlank()) Tag(q.source)
+                        Text(
+                            q.stem,
+                            style = TextStyle(fontSize = 17.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = Color.Black),
+                        )
+                        if (q.table.isNotEmpty()) QuestionTable(q.table)
+                        Spacer(Modifier.height(14.dp))
+                        when (q.kind) {
+                            'f' -> Flashcard(q, picked) { knew ->
+                                picks[index] = if (knew) 0 else 1
+                                store.recordAnswer(q.id, knew)
+                            }
+                            'u' -> {
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
+                                if (answered) {
+                                    Spacer(Modifier.height(8.dp))
+                                    UnscoredNote(q)
+                                } else HintBox(q)
+                            }
+                            else -> {
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
+                                if (answered) {
+                                    Spacer(Modifier.height(8.dp))
+                                    Explanation(q, picked == q.answer, picked, onOpenNotes)
+                                } else HintBox(q)
+                            }
+                        }
+                        Spacer(Modifier.height(20.dp))
                     }
-                    Text(
-                        q.stem,
-                        style = TextStyle(fontSize = 17.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = Color.Black),
-                    )
-                    if (q.table.isNotEmpty()) QuestionTable(q.table)
-                    Spacer(Modifier.height(14.dp))
-                    when (q.kind) {
-                        'f' -> Flashcard(q, picked) { knew ->
-                            picks[index] = if (knew) 0 else 1
-                            store.recordAnswer(q.id, knew)
-                        }
-                        'u' -> {
-                            q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
-                            if (answered) {
-                                Spacer(Modifier.height(8.dp))
-                                UnscoredNote(q)
-                            } else HintBox(q)
-                        }
-                        else -> {
-                            q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
-                            if (answered) {
-                                Spacer(Modifier.height(8.dp))
-                                Explanation(q, picked == q.answer, picked)
-                            } else HintBox(q)
-                        }
-                    }
-                    Spacer(Modifier.height(20.dp))
                 }
             }
         }
@@ -377,7 +389,7 @@ private fun UnscoredNote(q: Question) {
 }
 
 @Composable
-private fun Explanation(q: Question, correct: Boolean, picked: Int) {
+private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit) {
     Column(
         Modifier
             .fillMaxWidth()
@@ -392,10 +404,32 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int) {
         if (q.explanation.isNotBlank()) {
             Spacer(Modifier.height(8.dp))
             Text("EXPLANATION", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Muted, letterSpacing = 0.8.sp))
-            q.explanation.split('\n').forEach {
-                Text(it, style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+            // a wrong answer: the sentence that says why the picked option is wrong is highlighted
+            val why = remember(q.id, picked, correct) {
+                if (correct || picked < 0) null else com.appsc.prep.data.WrongPick.sentence(q.explanation, q.stem, q.options, q.answer, picked)
             }
+            if (why != null) {
+                Text(
+                    "Highlighted: why option (${picked + 1}) is wrong",
+                    style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = C.High),
+                    modifier = Modifier.padding(top = 4.dp),
+                )
+            }
+            Text(
+                androidx.compose.ui.text.buildAnnotatedString {
+                    append(q.explanation)
+                    if (why != null) {
+                        addStyle(
+                            androidx.compose.ui.text.SpanStyle(background = Color(0xFFFFD9D9), fontWeight = FontWeight.SemiBold, color = Color(0xFF7F1D1D)),
+                            why.first, why.last + 1,
+                        )
+                    }
+                },
+                style = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Body),
+                modifier = Modifier.padding(top = 4.dp),
+            )
         }
+        FromNotes(q, onOpenNotes)
         if (q.technique.isNotBlank()) {
             Spacer(Modifier.height(10.dp))
             Text("WHAT THIS QUESTION TRAINS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
@@ -493,7 +527,7 @@ private fun Results(
     val (attempted, poolCorrect) = store.quizStats(pool.map { it.id })
     val remaining = pool.size - attempted
     val poolWrong = attempted - poolCorrect
-    LazyColumn(Modifier.fillMaxSize()) {
+    PageList(Modifier.fillMaxSize(), max = 900.dp) {
         item {
             Column(Modifier.padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Spacer(Modifier.height(10.dp))
@@ -586,4 +620,35 @@ private fun Results(
         }
         item { Spacer(Modifier.height(24.dp)) }
     }
+}
+
+/** "From your notes": the lines of the question's own notes page that explain the right answer, and a link to it. */
+@Composable
+private fun FromNotes(q: Question, onOpenNotes: (Int, Int, Int) -> Unit) {
+    val app = LocalApp.current
+    val found by androidx.compose.runtime.produceState<Triple<Int, Int, List<String>>?>(null, q.id) {
+        value = runCatching {
+            val (row, sec) = app.repo.mcq(q.book).placeOf(q.id) ?: return@runCatching null
+            val secs = app.repo.book(q.book).rows.getOrNull(row)?.secs ?: return@runCatching null
+            // its subsection; a question filed under the whole section: the subsection that explains it best
+            val tried = if (sec >= 0) listOfNotNull(secs.getOrNull(sec)?.let { sec to it }) else secs.withIndex().map { it.index to it.value }
+            tried.map { (i, s) -> i to com.appsc.prep.data.NotesExcerpt.forQuestion(q, s.blocks) }
+                .maxByOrNull { it.second.size }?.takeIf { it.second.isNotEmpty() }?.let { (i, lines) -> Triple(row, i, lines) }
+        }.getOrNull()
+    }
+    val (row, sec, lines) = found ?: return
+    Spacer(Modifier.height(10.dp))
+    Text("FROM YOUR NOTES", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Green, letterSpacing = 0.8.sp))
+    lines.forEach {
+        Row(Modifier.padding(top = 5.dp).height(androidx.compose.foundation.layout.IntrinsicSize.Min)) {
+            Box(Modifier.width(3.dp).fillMaxHeight().background(C.Green))
+            Spacer(Modifier.width(8.dp))
+            Text(it, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body))
+        }
+    }
+    Text(
+        "Open this page in the notes ›",
+        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+        modifier = Modifier.padding(top = 6.dp).clickable { onOpenNotes(q.book, row, sec) },
+    )
 }

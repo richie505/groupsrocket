@@ -22,11 +22,136 @@ class Repository(private val open: (String) -> InputStream) {
     val plan: Plan by lazy { parsePlan(readJson("plan.json")) }
     val index: List<BookInfo> by lazy { parseIndex(readJson("index.json")) }
 
+    /** Key terms of each notes page ("book:row:sec" -> terms), from tools/build_key_terms.py. */
+    val keyTerms: Map<String, List<String>> by lazy {
+        runCatching { readJson("keyterms.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } }
+            .getOrDefault(emptyMap())
+    }
+
+    /** Offline word meanings (WordNet) for "Meaning" on selected text. */
+    val dictionary by lazy { abbreviations; Dictionary(open) }
+
+    /** A place in the notes whose heading mentions a word. */
+    data class NoteHit(val book: Int, val row: Int, val sec: Int, val title: String, val where: String)
+
+    /** Up to [limit] notes subsections whose heading mentions [term] (whole words), headings starting with it first. */
+    suspend fun findInNotes(term: String, limit: Int = 6): List<NoteHit> = withContext(Dispatchers.Default) {
+        val t = term.trim()
+        if (t.length < 3) return@withContext emptyList()
+        // s.144 finds "Section 144", 84th amendment finds "Eighty-fourth Amendment" ...
+        val re = NotesTerms.parse(t)?.regex ?: return@withContext emptyList()
+        val hits = mutableListOf<Pair<Int, NoteHit>>()
+        for (b in index.map { it.id }) {
+            val bk = book(b)
+            bk.rows.forEachIndexed { ri, r ->
+                r.secs.forEachIndexed { si, s ->
+                    // a sheet whose subsections are "Key facts" / "Sheet text": its title names the topic
+                    val onPage = re.find(s.title)
+                    val m = onPage ?: re.find(r.title)?.takeIf { si == 0 } ?: return@forEachIndexed
+                    hits += m.range.first to NoteHit(b, ri, si, if (onPage != null) s.title else r.title, "${bk.short} · ${r.title}")
+                }
+            }
+        }
+        hits.sortedBy { it.first }.take(limit).map { it.second }
+    }
+
+    /**
+     * What the notes say about a selected term: up to [limit] lines that mention it (s.144 = Sec 144 = Section 144,
+     * 84th Amendment = Eighty-fourth Amendment ... see [NotesTerms]), each cut to the sentence with it, with where
+     * it is. Lines that start with the term ("84th Amendment (2001): ...") come first, then lines under a heading
+     * that names it, then the rest in book order.
+     */
+    suspend fun notesAbout(selection: String, limit: Int = 4): Pair<String, List<Dictionary.NoteDefinition>>? =
+        withContext(Dispatchers.Default) {
+            val term = NotesTerms.parse(selection) ?: return@withContext null
+            val found = mutableListOf<Triple<Int, Int, Dictionary.NoteDefinition>>() // score, order, line
+            var order = 0
+            for (b in index.map { it.id }) {
+                val bk = book(b)
+                for (r in bk.rows) for (s in r.secs) {
+                    val heading = term.regex.containsMatchIn(s.title) || term.regex.containsMatchIn(r.title)
+                    for (blk in s.blocks) {
+                        val lines = when (blk) {
+                            // grey "Not in your sources: ..." notes say what the notes lack: not a meaning; grey "[Subject · ROCKET SHEET #N]" tags: not text
+                            is TextBlock -> listOf(blk.runs.filterNot { it.muted && it.text.trimStart().let { t -> t.startsWith("Not in your sources") || t.startsWith("[") } }.joinToString("") { it.text }.trim())
+                            is TableBlock -> blk.rows.map { row -> row.joinToString(" - ") { c -> c.joinToString("") { it.text } } }
+                        }
+                        for (line in lines) {
+                            val m = term.regex.find(line) ?: continue
+                            val text = sentence(line, m.range)
+                            if (text.isBlank()) continue
+                            // the line opens with the term > a heading names it > the rest; lines that only open a list last
+                            val score = (if (m.range.first <= 3) 0 else 2) + (if (heading) 0 else 1) + (if (text.length < 45) 4 else 0)
+                            found += Triple(score, order++, Dictionary.NoteDefinition(text, "${bk.short} · ${r.title}"))
+                        }
+                    }
+                }
+            }
+            val seen = HashSet<String>()
+            term.display to found.sortedWith(compareBy({ it.first }, { it.second })).map { it.third }
+                .filter { seen.add(it.text.lowercase()) }.take(limit)
+        }
+
+    /** The sentence of [line] around [hit], without citations, at most about 300 characters. */
+    private fun sentence(line: String, hit: IntRange): String {
+        // sentence ends: ". " or "; " outside brackets, and not after an abbreviation (Art. 21, Sec. 144, Dr. X)
+        val ends = mutableListOf<Int>()
+        var depth = 0
+        for (i in line.indices) {
+            when (line[i]) {
+                '(', '[' -> depth++
+                ')', ']' -> depth = (depth - 1).coerceAtLeast(0)
+                '.', ';' -> if (depth == 0 && i + 1 < line.length && line[i + 1] == ' ' && !abbreviationBefore(line, i)) ends += i + 1
+            }
+        }
+        val from = (listOf(0) + ends).last { it <= hit.first }
+        val to = ends.firstOrNull { it > hit.last } ?: line.length
+        var t = SpeechText.withoutCitations(line.substring(from, to).trim())
+        if (t.length > 320) {
+            val at = t.indexOf(line.substring(hit.first, hit.last + 1)).coerceAtLeast(0)
+            val a = (at - 140).coerceAtLeast(0)
+            t = (if (a > 0) "…" else "") + t.substring(a, (a + 300).coerceAtMost(t.length)).trim() + (if (a + 300 < t.length) "…" else "")
+        }
+        return t.trimEnd(';', ' ')
+    }
+
+    private val ABBREVIATIONS = setOf(
+        "art", "arts", "sec", "secs", "s", "ss", "no", "nos", "dr", "smt", "sri", "st", "vs", "v", "e.g", "i.e", "etc", "govt",
+        "ltd", "cl", "para", "ch", "vol", "fig", "approx", "est", "c", "b", "d", "r", "mr", "mrs", "prof", "jr", "sr", "co",
+    )
+
+    private fun abbreviationBefore(line: String, dot: Int): Boolean {
+        if (line[dot] != '.') return false
+        val word = line.substring(0, dot).takeLastWhile { it.isLetter() || it == '.' }.lowercase()
+        // initials such as "M.S. Gore", "T.K. Oommen"
+        return word in ABBREVIATIONS || (word.length == 1 && line[dot - 1].isUpperCase())
+    }
+
     /** Short forms the notes define (tools/build_abbreviations.py), for read-aloud. */
     val abbreviations: Map<String, List<String>> by lazy {
         runCatching {
             readJson("abbr.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } }
         }.getOrDefault(emptyMap()).also { SpeechText.fromNotes = it }
+    }
+
+    /**
+     * Subsections merged or renumbered when repeated topics were merged (tools/merge_topics.py):
+     * old "book:row:sec" -> new id, for [ProgressStore.migrate].
+     */
+    val idMoves: IdMoves by lazy {
+        runCatching {
+            val o = readJson("moved.json").jsonObject
+            IdMoves(o.str("v"), o["m"]!!.jsonObject.mapValues { it.value.jsonPrimitive.content }, o.strList("g").toSet())
+        }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
+    }
+
+    /** Short forms checked against the notes (tools/build_acronyms.py), for full forms and read-aloud. */
+    val checkedAcronyms: Map<String, List<Pair<String, List<String>>>> by lazy {
+        runCatching {
+            readJson("acronyms.json").jsonObject.mapValues { (_, v) ->
+                v.jsonArray.map { s -> s.jsonArray[0].jsonPrimitive.content to s.jsonArray[1].jsonArray.map { it.jsonPrimitive.content } }
+            }
+        }.getOrDefault(emptyMap()).also { SpeechText.checked = it }
     }
 
     /**
@@ -46,6 +171,7 @@ class Repository(private val open: (String) -> InputStream) {
     }
 
     fun cachedBook(id: Int): Book? = books[id]
+
 
     private val mcqs = HashMap<Int, BookMcq>()
 
@@ -95,6 +221,8 @@ class Repository(private val open: (String) -> InputStream) {
 
     private fun parseBook(root: JsonElement): Book {
         val id = root.intOr("id")
+        abbreviations // short forms the notes define, for the full forms added to the text
+        checkedAcronyms
         val units = mutableListOf<NoteUnit>()
         val rows = mutableListOf<NoteRow>()
         root.jsonObject["units"]!!.jsonArray.forEachIndexed { ui, u ->
@@ -105,8 +233,17 @@ class Repository(private val open: (String) -> InputStream) {
                         title = s.str("t"),
                         badges = s.strList("badges"),
                         page = s.intOr("p"),
-                        blocks = s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) },
+                        blocks = s.jsonObject["b"]!!.jsonArray.map { b -> parseBlock(b.jsonObject) }.let { plain ->
+                            // full forms are extras: if they fail on a phone, show the page without them
+                            try {
+                                Acronyms.annotate(plain, id, context = r.str("title") + " " + s.str("t"))
+                            } catch (e: Exception) {
+                                if (SpeechText.strict) throw e
+                                plain
+                            }
+                        },
                         universal = s.jsonObject.containsKey("u"),
+                        coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
                     )
                 }
                 rows += NoteRow(

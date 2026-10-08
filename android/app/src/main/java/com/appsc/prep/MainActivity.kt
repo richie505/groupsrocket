@@ -58,6 +58,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        // light-only app: no automatic darkening by the phone's "dark mode for apps" (see themes.xml)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) window.decorView.isForceDarkAllowed = false
         // read-aloud shows a notification (with Pause/Stop) while it runs: ask once on Android 13+
         ReadAloud.init(this).onStart = {
             if (Build.VERSION.SDK_INT >= 33 &&

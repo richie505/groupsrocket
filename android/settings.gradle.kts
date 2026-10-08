@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RocketPrep"
 include(":app")
+include(":desktop")

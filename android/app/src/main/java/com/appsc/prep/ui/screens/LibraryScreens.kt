@@ -33,8 +33,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -46,6 +47,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.BookInfo
 import com.appsc.prep.ui.components.Card
+import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.columnsFor
+import com.appsc.prep.ui.components.gridItems
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.ProgressLine
 import com.appsc.prep.ui.components.SectionHeader
@@ -71,9 +75,9 @@ fun BooksScreen(nav: Nav) {
     val app = LocalApp.current
     Column(Modifier.fillMaxSize()) {
         TopBar("Notes")
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize(), max = 1180.dp) { width ->
             item { SectionHeader("ROCKET Sheets · 14 subjects · 721 sheets") }
-            items(app.repo.index) { b ->
+            gridItems(app.repo.index, columnsFor(width, 460.dp, 2), spacing = 0.dp) { b ->
                 val done = bookDone(b)
                 Card(onClick = { nav.book(b.id) }) {
                     Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -113,7 +117,7 @@ fun BookScreen(id: Int, nav: Nav) {
     val b = app.repo.index[id - 1]
     Column(Modifier.fillMaxSize()) {
         TopBar(b.short, onBack = nav::back)
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(20.dp)) {
                     Text(b.title, style = TextStyle(fontSize = 22.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold, color = Color.Black))
@@ -212,43 +216,39 @@ fun ProgressScreen(nav: Nav) {
     }
     Column(Modifier.fillMaxSize()) {
         TopBar("Progress")
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) { width ->
             item {
                 Column(Modifier.padding(20.dp)) {
                     Text("Overall", style = TextStyle(fontSize = 13.sp, color = C.Muted))
                     Text(
-                        "${if (total == 0) 0 else done * 100 / total}% of notes ${LocalApp.current.doneWord}",
+                        "${if (total == 0) 0 else done * 100 / total}% of notes ${app.doneWord}",
                         style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                     )
                     Spacer(Modifier.height(10.dp))
                     ProgressLine(if (total == 0) 0f else done / total.toFloat())
                     Spacer(Modifier.height(18.dp))
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("$done", "subsections ${LocalApp.current.doneWord}", Icons.Outlined.TaskAlt, Modifier.weight(1f))
-                        StatBox("$daysDone / 90", "days completed", Icons.Outlined.CalendarMonth, Modifier.weight(1f))
-                    }
-                    Spacer(Modifier.height(10.dp))
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, Modifier.weight(1f))
-                        StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, Modifier.weight(1f))
-                    }
-                    Spacer(Modifier.height(10.dp))
                     // Answers saved before 2.8 are for PYQs (now in the MCQ app); notes-MCQ ids start with "n".
                     val mine = store.answers.filterKeys { it.startsWith("n") }
                     val answered = mine.size
                     val right = mine.count { it.value }
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        StatBox("$answered", "MCQs answered", Icons.Outlined.Quiz, Modifier.weight(1f))
-                        StatBox(
-                            if (answered == 0) "–" else "${right * 100 / answered}%",
-                            "MCQ accuracy", Icons.Outlined.TaskAlt, Modifier.weight(1f),
-                        )
+                    val boxes: List<@Composable (Modifier) -> Unit> = listOf(
+                        { m -> StatBox("$done", "subsections ${app.doneWord}", Icons.Outlined.TaskAlt, m) },
+                        { m -> StatBox("$daysDone / 90", "days completed", Icons.Outlined.CalendarMonth, m) },
+                        { m -> StatBox("${store.streak()}", "day streak", Icons.Outlined.LocalFireDepartment, m) },
+                        { m -> StatBox("${store.saved.size}", "bookmarks", Icons.Outlined.AutoStories, m) },
+                        { m -> StatBox("$answered", "MCQs answered", Icons.Outlined.Quiz, m) },
+                        { m -> StatBox(if (answered == 0) "–" else "${right * 100 / answered}%", "MCQ accuracy", Icons.Outlined.TaskAlt, m) },
+                    )
+                    // 2 a row on a phone, 3 on a wide window
+                    boxes.chunked(columnsFor(width, 300.dp, 3).coerceAtLeast(2)).forEach { row ->
+                        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) { row.forEach { it(Modifier.weight(1f)) } }
+                        Spacer(Modifier.height(10.dp))
                     }
                 }
                 HorizontalDivider(color = C.Line)
                 SectionHeader("By subject")
             }
-            items(books) { b ->
+            gridItems(books, columnsFor(width, 420.dp, 2), spacing = 0.dp) { b ->
                 val d = bookDone(b)
                 Column(
                     Modifier.fillMaxWidth().clickable { nav.book(b.id) }.padding(horizontal = 20.dp, vertical = 12.dp),
@@ -261,6 +261,7 @@ fun ProgressScreen(nav: Nav) {
                     ProgressLine(d / b.subsectionTotal.coerceAtLeast(1).toFloat(), color = bookColors[(b.id - 1) % 6])
                 }
             }
+            item { HorizontalDivider(color = C.Line); BackupCard() }
             item { Spacer(Modifier.height(24.dp)) }
         }
     }
@@ -285,7 +286,7 @@ fun SavedScreen(nav: Nav) {
             }
             return@Column
         }
-        LazyColumn(Modifier.fillMaxSize()) {
+        PageList(Modifier.fillMaxSize()) {
             items(saved, key = { it.id }) { s ->
                 val p = s.id.split(':').map { it.toInt() }
                 Row(
@@ -305,6 +306,56 @@ fun SavedScreen(nav: Nav) {
                 }
                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 20.dp))
             }
+        }
+    }
+}
+
+/** Save everything kept on this device to a file, and bring it back on a new phone or after reinstalling. */
+@Composable
+private fun BackupCard() {
+    val app = LocalApp.current
+    val store = app.store
+    var message by remember { mutableStateOf<Pair<String, Boolean>?>(null) } // text, is a problem
+    val save = app.platform.rememberSaveFile { ok ->
+        if (ok) store.backedUp()
+        message = if (ok) "Backup saved. Keep the file somewhere safe (Drive, WhatsApp to yourself, email)." to false
+        else "Backup not saved." to true
+    }
+    val open = app.platform.rememberOpenFile { text ->
+        message = when (text) {
+            null -> "No file opened." to true
+            else -> runCatching { store.restore(text, app.repo.idMoves) }.fold(
+                { r -> "Restored: ${r.read} pages ${app.doneWord}, ${r.saved} bookmarks, ${r.answers} MCQ answers, ${r.notes} own notes." to false },
+                { (it.message ?: "Could not read this file.") to true },
+            )
+        }
+    }
+    if (save == null || open == null) return
+    Column(Modifier.padding(20.dp)) {
+        Text("Backup", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+        Spacer(Modifier.height(6.dp))
+        Text(
+            "Your read marks, bookmarks, MCQ answers and own notes are kept only on this device. Save a backup file " +
+                "so you never lose them; restore it after reinstalling or on a new phone. Restoring adds to what is here - nothing is deleted.",
+            style = TextStyle(fontSize = 14.sp, color = C.Body),
+        )
+        Spacer(Modifier.height(6.dp))
+        Text(
+            "Last backup: " + (store.lastBackup?.let { java.time.LocalDate.parse(it).format(java.time.format.DateTimeFormatter.ofPattern("d MMM yyyy")) } ?: "never"),
+            style = TextStyle(fontSize = 13.sp, color = if (store.lastBackup == null) C.High else C.Muted),
+        )
+        Spacer(Modifier.height(12.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            androidx.compose.material3.Button(
+                onClick = { save("${app.repo.appName.replace(' ', '-')}-backup-${java.time.LocalDate.now()}.json", store.backup()) },
+                colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
+                modifier = Modifier.weight(1f),
+            ) { Text("Back up now") }
+            androidx.compose.material3.OutlinedButton(onClick = { open() }, modifier = Modifier.weight(1f)) { Text("Restore") }
+        }
+        message?.let { (text, bad) ->
+            Spacer(Modifier.height(10.dp))
+            Text(text, style = TextStyle(fontSize = 14.sp, color = if (bad) C.High else C.Green))
         }
     }
 }

@@ -2,11 +2,15 @@ package com.appsc.prep.data
 
 import java.time.LocalDate
 
-/** A styled piece of text. [flags]: 1 = bold, 2 = italic, 4 = muted (e.g. [GK]). */
+/**
+ * A styled piece of text. [flags]: 1 = bold, 2 = italic, 4 = muted (e.g. [GK]),
+ * 8 = the full form added after a short form (" (Scheduled Tribes)"), shown but not read aloud.
+ */
 data class Run(val text: String, val flags: Int) {
     val bold get() = flags and 1 != 0
     val italic get() = flags and 2 != 0
     val muted get() = flags and 4 != 0
+    val fullForm get() = flags and 8 != 0
 }
 
 sealed interface Block
@@ -26,6 +30,8 @@ data class Subsection(
     val page: Int,
     val blocks: List<Block>,
     val universal: Boolean,
+    /** [book, row, sec] of the pages that now hold the facts this page used to repeat (tools/dedup_notes.py). */
+    val coveredIn: List<List<Int>> = emptyList(),
 ) {
     val wordCount: Int by lazy {
         blocks.sumOf { b ->
@@ -139,6 +145,9 @@ data class Plan(
 
 fun subsectionId(book: Int, row: Int, sec: Int) = "$book:$row:$sec"
 
+/** Subsection ids changed in notes [version]: old id -> new id; [merged]: old ids merged into another page. */
+data class IdMoves(val version: String, val map: Map<String, String>, val merged: Set<String>)
+
 // ---- MCQ practice (MCQs written from the notes) ----
 
 data class Question(
@@ -177,4 +186,11 @@ data class BookMcq(
     }
 
     fun subCount(row: Int, sec: Int): Int = subs[row]?.count { it == sec } ?: 0
+
+    /** Where a question is filed: (row, subsection or -1). */
+    private val places: Map<String, Pair<Int, Int>> by lazy {
+        buildMap { rows.forEach { (r, qs) -> qs.forEachIndexed { i, q -> put(q.id, r to (subs[r]?.getOrNull(i) ?: -1)) } } }
+    }
+
+    fun placeOf(id: String): Pair<Int, Int>? = places[id]
 }

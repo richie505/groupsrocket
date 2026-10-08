@@ -41,6 +41,7 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
 import androidx.compose.material.icons.outlined.Headphones
+import androidx.compose.material.icons.outlined.Lightbulb
 import androidx.compose.material.icons.filled.Remove
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CheckCircle
@@ -57,6 +58,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -75,13 +77,19 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.SpeechText
 import com.appsc.prep.data.Book
 import com.appsc.prep.data.Saved
+import com.appsc.prep.data.Subsection
 import com.appsc.prep.data.TableBlock
 import com.appsc.prep.data.TextBlock
+import com.appsc.prep.data.UserNotes
 import com.appsc.prep.data.subsectionId
 import com.appsc.prep.ui.components.BlockView
+import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.GooglePage
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.Playback
 import com.appsc.prep.ui.components.SpeechPage
+import com.appsc.prep.ui.components.DictionaryArea
+import com.appsc.prep.ui.components.MeaningSheet
 import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.components.TopBar
 import com.appsc.prep.ui.theme.C
@@ -122,8 +130,9 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         return
     }
     val row = book.rows[rowI]
-    val sec = row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val id = subsectionId(bookId, rowI, secI)
+    val revision = app.repo.revision // Rocket Revision: the sheet's revision points
+    val sec = row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val pos = Pos(rowI, secI)
     val next = book.next(pos)
     val prev = book.prev(pos)
@@ -140,20 +149,56 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         secI = p.sec
     }
 
+    var keyTerm by remember { mutableStateOf<String?>(null) }
+    keyTerm?.let { t -> MeaningSheet(t, onOpenNotes = { b, r, sx -> keyTerm = null; nav.read(b, r, sx) }) { keyTerm = null } }
+
     // ---- read aloud (one session for the app: it carries on with the screen locked) ----
     val speech = app.platform.speech
     val pb = speech?.playback?.value ?: Playback()
     val listening = pb.active
     val here = pb.pageId == id
     val part = if (here) pb.part else 0
-    val parts = remember(id) {
+    // the page with the reader's own notes under the "Not in your sources" lines they fill
+    val shown = remember(id, store.added, sec) { UserNotes.withAdded(sec.blocks, id, store.added) }
+    val parts = remember(id, store.added, sec) {
         app.repo.abbreviations // short forms the notes define
-        SpeechText.parts(sec.title, sec.blocks, bookId)
+        app.repo.checkedAcronyms
+        SpeechText.parts(sec.title, shown.map { it.second }, bookId, row.title)
+    }
+    var googleFor by remember { mutableStateOf<Pair<String, String>?>(null) } // gap key, search
+    var keepExplanation by remember { mutableStateOf<String?>(null) } // a simple explanation to keep with the page
+    var editing by remember { mutableStateOf<Pair<String, String>?>(null) } // gap key, text
+    googleFor?.let { (key, q) ->
+        GooglePage(q, onAdd = { copied -> googleFor = null; editing = key to listOfNotNull(store.added[key], copied.takeIf { it.isNotBlank() }).joinToString("\n") }) { googleFor = null }
+    }
+    // "Explain simply": Google's AI Mode rewrites this page for a class 6 reader
+    var explain by remember { mutableStateOf(false) }
+    if (explain) {
+        GooglePage(
+            sec.title,
+            title = "Explain simply · ${sec.title}",
+            url = com.appsc.prep.ui.components.googleAiUrl(simplePrompt(sec.title, plainText(sec.title, sec.blocks))),
+            gemini = simplePrompt(sec.title, plainText(sec.title, sec.blocks), limit = 6000),
+            onAdd = { text -> explain = false; if (text.isNotBlank()) keepExplanation = text },
+        ) { explain = false }
+    }
+    keepExplanation?.let { text ->
+        val pageKey = UserNotes.key(id, UserNotes.PAGE)
+        AddNoteDialog(
+            listOfNotNull(store.added[pageKey], text).joinToString("\n"), existing = store.added.containsKey(pageKey),
+            onSave = { store.setAdded(pageKey, it); keepExplanation = null },
+            onDelete = { store.setAdded(pageKey, null); keepExplanation = null },
+        ) { keepExplanation = null }
+    }
+    editing?.let { (key, text) ->
+        AddNoteDialog(text, existing = store.added.containsKey(key), onSave = { store.setAdded(key, it); editing = null }, onDelete = { store.setAdded(key, null); editing = null }) { editing = null }
     }
 
     fun page(p: Pos): SpeechPage {
         val s = book.rows[p.row].secs[p.sec]
-        return SpeechPage(subsectionId(bookId, p.row, p.sec), s.title, SpeechText.parts(s.title, s.blocks, bookId).map { it.second })
+        val pid = subsectionId(bookId, p.row, p.sec)
+        val blocks = UserNotes.withAdded(s.blocks, pid, store.added).map { it.second }
+        return SpeechPage(pid, s.title, SpeechText.parts(s.title, blocks, bookId, book.rows[p.row].title).map { it.second })
     }
 
     fun play(from: Int) {
@@ -198,7 +243,9 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         }
     }
 
-    Box(Modifier.fillMaxSize()) {
+    androidx.compose.foundation.layout.BoxWithConstraints(Modifier.fillMaxSize().background(Color.White)) {
+        // a wide window (Windows, tablets): the subsections stay listed on the left
+        val wide = maxWidth >= 1100.dp
         Column(Modifier.fillMaxSize()) {
             TopBar(sec.title, onBack = ::stopAndBack) {
                 val saved = store.isSaved(id)
@@ -212,7 +259,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     val done = store.isDone(id)
                     Icon(
                         if (done) Icons.Filled.CheckCircle else Icons.Outlined.CheckCircle,
-                        if (app.repo.revision) "Mark as revised" else "Mark as read", tint = if (done) C.Green else C.Ink,
+                        if (revision) "Mark as revised" else "Mark as read", tint = if (done) C.Green else C.Ink,
                     )
                 }
                 if (speech != null) {
@@ -237,6 +284,11 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             onClick = { store.changeTextScale(-0.1f) },
                         )
                         DropdownMenuItem(
+                            text = { Text("Explain simply") },
+                            leadingIcon = { Icon(Icons.Outlined.Lightbulb, null) },
+                            onClick = { sizeMenu = false; explain = true },
+                        )
+                        DropdownMenuItem(
                             text = { Text("Share") },
                             leadingIcon = { Icon(Icons.Outlined.Share, null) },
                             onClick = {
@@ -248,175 +300,234 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                 }
             }
 
-            LazyColumn(Modifier.fillMaxSize(), state = listState) {
-                item(key = "head-$id") {
-                    Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp)) {
-                        Text(
-                            row.title,
-                            style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Accent, fontWeight = FontWeight.SemiBold),
-                            maxLines = 2, overflow = TextOverflow.Ellipsis,
-                        )
-                        Spacer(Modifier.height(8.dp))
-                        Text(
-                            sec.title,
-                            style = TextStyle(fontSize = (24 * scale).sp, lineHeight = (31 * scale).sp, fontWeight = FontWeight.Bold, color = Color.Black),
-                        )
-                        Spacer(Modifier.height(14.dp))
-                        HorizontalDivider(color = C.Line)
-                        Row(Modifier.fillMaxWidth().padding(vertical = 12.dp)) {
-                            Text(
-                                "${book.short} · Page ${sec.page}",
-                                style = TextStyle(fontSize = 14.sp, color = C.Faint),
-                                modifier = Modifier.weight(1f),
-                            )
-                            Text(
-                                "${(sec.wordCount / 180).coerceAtLeast(1)} min read",
-                                style = TextStyle(fontSize = 14.sp, color = C.Faint),
-                            )
-                        }
-                        HorizontalDivider(color = C.Line)
-                        Spacer(Modifier.height(10.dp))
+            Row(Modifier.fillMaxSize()) {
+            if (wide) {
+                Column(Modifier.width(320.dp).fillMaxHeight().background(C.Surface)) {
+                    Text(
+                        row.title,
+                        style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+                        modifier = Modifier.padding(start = 20.dp, end = 16.dp, top = 16.dp, bottom = 8.dp),
+                        maxLines = 3, overflow = TextOverflow.Ellipsis,
+                    )
+                    HorizontalDivider(color = C.Line)
+                    TocList(row.secs, secI, isRead = { store.isDone(subsectionId(bookId, rowI, it)) }, compact = true) { i ->
+                        go(Pos(rowI, i))
+                        scope.launch { listState.scrollToItem(0) }
                     }
                 }
-                itemsIndexed(sec.blocks, key = { i, _ -> "$id-$i" }) { i, b ->
-                    val reading = here && parts.getOrNull(part)?.first == i
-                    Box(
-                        Modifier
-                            .padding(horizontal = 12.dp)
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(if (reading) C.AccentSoft else Color.Transparent)
-                            .then(
-                                if (listening) {
-                                    Modifier.clickable {
-                                        val at = parts.indexOfFirst { it.first == i }
-                                        if (at < 0) return@clickable
-                                        if (here) {
-                                            speech?.seek(at)
-                                            speech?.resume()
-                                        } else play(at)
-                                    }
-                                } else Modifier,
-                            )
-                            .padding(horizontal = 8.dp),
-                    ) { BlockView(b, scale) }
-                }
-                item(key = "foot-$id") {
-                    Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
-                        if (sec.badges.isNotEmpty() || row.codes.isNotEmpty()) {
-                            FlowRow(
-                                verticalArrangement = Arrangement.spacedBy(8.dp),
-                                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                            ) {
-                                Text("Tags:", style = TextStyle(fontSize = 15.sp, color = C.Navy), modifier = Modifier.padding(top = 3.dp))
-                                sec.badges.forEach { BadgeTag(it) }
-                                row.codes.forEach { com.appsc.prep.ui.components.Tag(it) }
-                            }
-                            Spacer(Modifier.height(16.dp))
-                        }
-                        val done = store.isDone(id)
-                        Button(
-                            onClick = {
-                                store.setDone(id, !done)
-                                if (!done && next != null) go(next)
-                            },
-                            modifier = Modifier.fillMaxWidth().height(50.dp),
-                            shape = RoundedCornerShape(12.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = if (done) C.GreenSoft else C.Accent, contentColor = if (done) C.Green else Color.White),
-                        ) {
-                            Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(20.dp))
-                            Spacer(Modifier.width(8.dp))
+                androidx.compose.material3.VerticalDivider(color = C.Line)
+            }
+            DictionaryArea({ b, r, s -> nav.read(b, r, s) }, Modifier.weight(1f).fillMaxHeight()) {
+                PageList(Modifier.fillMaxSize(), state = listState, max = 880.dp) {
+                    item(key = "head-$id") {
+                        Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp)) {
                             Text(
-                                when {
-                                    done -> if (app.repo.revision) "Revised ✓  (tap to undo)" else "Read ✓  (tap to undo)"
-                                    next != null -> if (app.repo.revision) "Mark as revised & next" else "Mark as read & next"
-                                    else -> if (app.repo.revision) "Mark as revised" else "Mark as read"
-                                },
-                                style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
+                                row.title,
+                                style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Accent, fontWeight = FontWeight.SemiBold),
+                                maxLines = 2, overflow = TextOverflow.Ellipsis,
+                            )
+                            Spacer(Modifier.height(8.dp))
+                            Text(
+                                sec.title,
+                                style = TextStyle(fontSize = (24 * scale).sp, lineHeight = (31 * scale).sp, fontWeight = FontWeight.Bold, color = Color.Black),
+                            )
+                            Spacer(Modifier.height(14.dp))
+                            HorizontalDivider(color = C.Line)
+                            Row(Modifier.fillMaxWidth().padding(vertical = 12.dp)) {
+                                Text(
+                                    "${book.short} · Page ${sec.page}",
+                                    style = TextStyle(fontSize = 14.sp, color = C.Faint),
+                                    modifier = Modifier.weight(1f),
+                                )
+                                Text(
+                                    "${(sec.wordCount / 180).coerceAtLeast(1)} min read",
+                                    style = TextStyle(fontSize = 14.sp, color = C.Faint),
+                                )
+                            }
+                            if (revision && sec.blocks.isEmpty()) {
+                                Text(
+                                    "Nothing to revise on this page.",
+                                    style = TextStyle(fontSize = 14.sp, color = C.Muted),
+                                    modifier = Modifier.padding(bottom = 12.dp),
+                                )
+                            }
+                            HorizontalDivider(color = C.Line)
+                            Spacer(Modifier.height(10.dp))
+                        }
+                    }
+                    itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
+                        val reading = here && parts.getOrNull(part)?.first == i
+                        Box(
+                            Modifier
+                                .padding(horizontal = 12.dp)
+                                .clip(RoundedCornerShape(8.dp))
+                                .background(if (reading) C.AccentSoft else Color.Transparent)
+                                .then(
+                                    if (listening) {
+                                        Modifier.clickable {
+                                            val at = parts.indexOfFirst { it.first == i }
+                                            if (at < 0) return@clickable
+                                            if (here) {
+                                                speech?.seek(at)
+                                                speech?.resume()
+                                            } else play(at)
+                                        }
+                                    } else Modifier,
+                                )
+                                .padding(horizontal = 8.dp),
+                        ) { BlockView(b, scale) }
+                        val gapKey = UserNotes.key(id, orig)
+                        if (UserNotes.isGap(b)) {
+                            GapActions(
+                                hasNote = store.added.containsKey(gapKey),
+                                onSearch = { googleFor = gapKey to UserNotes.query(b) },
+                                onAdd = { editing = gapKey to store.added[gapKey].orEmpty() },
                             )
                         }
-                        val subQ = mcq?.subCount(rowI, secI) ?: 0
-                        if (subQ > 0) {
-                            Spacer(Modifier.height(10.dp))
-                            OutlinedButton(
-                                onClick = { nav.quiz("sub", bookId, rowI, sub = secI) },
-                                modifier = Modifier.fillMaxWidth().height(50.dp),
-                                shape = RoundedCornerShape(12.dp),
-                            ) {
-                                Text(
-                                    "Practice $subQ MCQs on this subsection",
-                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
-                                )
+                    }
+                    item(key = "foot-$id") {
+                        Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp)) {
+                            if (sec.coveredIn.isNotEmpty()) {
+                                CoveredIn(sec.coveredIn) { b, r, s -> nav.read(b, r, s) }
+                                Spacer(Modifier.height(16.dp))
                             }
-                        }
-                        val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
-                        if (secI == row.secs.size - 1 && qCount > 0) {
-                            Spacer(Modifier.height(10.dp))
-                            OutlinedButton(
-                                onClick = { nav.quiz("row", bookId, rowI) },
-                                modifier = Modifier.fillMaxWidth().height(50.dp),
-                                shape = RoundedCornerShape(12.dp),
-                            ) {
-                                Text(
-                                    "Practice all $qCount MCQs of this section",
-                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
-                                )
+                            // key terms of this page: tap for the meaning
+                        val terms = app.repo.keyTerms[id].orEmpty()
+                        if (terms.isNotEmpty()) {
+                            Text("KEY TERMS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+                            Spacer(Modifier.height(8.dp))
+                            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                terms.forEach { t ->
+                                    Text(
+                                        t,
+                                        style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = C.Accent),
+                                        modifier = Modifier
+                                            .clip(RoundedCornerShape(16.dp))
+                                            .background(C.AccentSoft)
+                                            .clickable { keyTerm = t }
+                                            .padding(horizontal = 12.dp, vertical = 7.dp),
+                                    )
+                                }
                             }
-                        }
-                        if (row.sources.isNotEmpty() && secI == row.secs.size - 1) {
                             Spacer(Modifier.height(16.dp))
-                            SourcesBox(row.sources)
                         }
-                        Spacer(Modifier.height(20.dp))
-                        Row(Modifier.fillMaxWidth()) {
-                            Column(
-                                Modifier
-                                    .weight(1f)
-                                    .clickable(enabled = prev != null) { prev?.let { go(it) } }
-                                    .padding(vertical = 6.dp),
+                        if (sec.badges.isNotEmpty() || row.codes.isNotEmpty()) {
+                                FlowRow(
+                                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                                ) {
+                                    Text("Tags:", style = TextStyle(fontSize = 15.sp, color = C.Navy), modifier = Modifier.padding(top = 3.dp))
+                                    sec.badges.forEach { BadgeTag(it) }
+                                    row.codes.forEach { com.appsc.prep.ui.components.Tag(it) }
+                                }
+                                Spacer(Modifier.height(16.dp))
+                            }
+                            val done = store.isDone(id)
+                            Button(
+                                onClick = {
+                                    store.setDone(id, !done)
+                                    if (!done && next != null) go(next)
+                                },
+                                modifier = Modifier.fillMaxWidth().height(50.dp),
+                                shape = RoundedCornerShape(12.dp),
+                                colors = ButtonDefaults.buttonColors(containerColor = if (done) C.GreenSoft else C.Accent, contentColor = if (done) C.Green else Color.White),
                             ) {
-                                if (prev != null) {
-                                    Row(verticalAlignment = Alignment.CenterVertically) {
-                                        Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, null, tint = C.Navy)
-                                        Text("Previous", style = TextStyle(fontSize = 16.sp, color = C.Navy))
-                                    }
+                                Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(20.dp))
+                                Spacer(Modifier.width(8.dp))
+                                Text(
+                                    when {
+                                        done -> if (revision) "Revised ✓  (tap to undo)" else "Read ✓  (tap to undo)"
+                                        next != null -> if (revision) "Mark as revised & next" else "Mark as read & next"
+                                        else -> if (revision) "Mark as revised" else "Mark as read"
+                                    },
+                                    style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
+                                )
+                            }
+                            val subQ = mcq?.subCount(rowI, secI) ?: 0
+                            if (subQ > 0) {
+                                Spacer(Modifier.height(10.dp))
+                                OutlinedButton(
+                                    onClick = { nav.quiz("sub", bookId, rowI, sub = secI) },
+                                    modifier = Modifier.fillMaxWidth().height(50.dp),
+                                    shape = RoundedCornerShape(12.dp),
+                                ) {
                                     Text(
-                                        book.rows[prev.row].secs[prev.sec].title,
-                                        style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
-                                        maxLines = 2, overflow = TextOverflow.Ellipsis,
-                                        modifier = Modifier.padding(start = 24.dp),
+                                        "Practice $subQ MCQs on this subsection",
+                                        style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                     )
                                 }
                             }
-                            Spacer(Modifier.width(12.dp))
-                            Column(
-                                Modifier
-                                    .weight(1f)
-                                    .clickable(enabled = next != null) { next?.let { go(it) } }
-                                    .padding(vertical = 6.dp),
-                                horizontalAlignment = Alignment.End,
-                            ) {
-                                if (next != null) {
-                                    Row(verticalAlignment = Alignment.CenterVertically) {
-                                        Text("Next", style = TextStyle(fontSize = 16.sp, color = C.Navy))
-                                        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Navy)
-                                    }
+                            val qCount = app.repo.rowInfo(bookId, rowI)?.questionCount ?: 0
+                            if (secI == row.secs.size - 1 && qCount > 0) {
+                                Spacer(Modifier.height(10.dp))
+                                OutlinedButton(
+                                    onClick = { nav.quiz("row", bookId, rowI) },
+                                    modifier = Modifier.fillMaxWidth().height(50.dp),
+                                    shape = RoundedCornerShape(12.dp),
+                                ) {
                                     Text(
-                                        book.rows[next.row].secs[next.sec].title,
-                                        style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
-                                        maxLines = 2, overflow = TextOverflow.Ellipsis,
-                                        modifier = Modifier.padding(end = 24.dp),
+                                        "Practice all $qCount MCQs of this section",
+                                        style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                     )
                                 }
                             }
+                            if (row.sources.isNotEmpty() && secI == row.secs.size - 1) {
+                                Spacer(Modifier.height(16.dp))
+                                SourcesBox(row.sources)
+                            }
+                            Spacer(Modifier.height(20.dp))
+                            Row(Modifier.fillMaxWidth()) {
+                                Column(
+                                    Modifier
+                                        .weight(1f)
+                                        .clickable(enabled = prev != null) { prev?.let { go(it) } }
+                                        .padding(vertical = 6.dp),
+                                ) {
+                                    if (prev != null) {
+                                        Row(verticalAlignment = Alignment.CenterVertically) {
+                                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, null, tint = C.Navy)
+                                            Text("Previous", style = TextStyle(fontSize = 16.sp, color = C.Navy))
+                                        }
+                                        Text(
+                                            book.rows[prev.row].secs[prev.sec].title,
+                                            style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
+                                            maxLines = 2, overflow = TextOverflow.Ellipsis,
+                                            modifier = Modifier.padding(start = 24.dp),
+                                        )
+                                    }
+                                }
+                                Spacer(Modifier.width(12.dp))
+                                Column(
+                                    Modifier
+                                        .weight(1f)
+                                        .clickable(enabled = next != null) { next?.let { go(it) } }
+                                        .padding(vertical = 6.dp),
+                                    horizontalAlignment = Alignment.End,
+                                ) {
+                                    if (next != null) {
+                                        Row(verticalAlignment = Alignment.CenterVertically) {
+                                            Text("Next", style = TextStyle(fontSize = 16.sp, color = C.Navy))
+                                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Navy)
+                                        }
+                                        Text(
+                                            book.rows[next.row].secs[next.sec].title,
+                                            style = TextStyle(fontSize = 14.sp, lineHeight = 19.sp, color = C.Faint),
+                                            maxLines = 2, overflow = TextOverflow.Ellipsis,
+                                            modifier = Modifier.padding(end = 24.dp),
+                                        )
+                                    }
+                                }
+                            }
+                            Spacer(Modifier.height(90.dp))
                         }
-                        Spacer(Modifier.height(90.dp))
                     }
                 }
             }
+            }
         }
 
-        // floating table-of-contents button
-        Box(
+        // floating table-of-contents button (on a wide window the list is always on the left)
+        if (!wide) Box(
             Modifier
                 .align(Alignment.BottomEnd)
                 .padding(end = 18.dp, bottom = if (listening) 96.dp else 22.dp)
@@ -488,38 +599,44 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     maxLines = 3, overflow = TextOverflow.Ellipsis,
                 )
                 HorizontalDivider(color = C.Ink, modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 12.dp))
-                val tocState = rememberLazyListState(initialFirstVisibleItemIndex = (secI - 2).coerceAtLeast(0))
-                LazyColumn(state = tocState) {
-                    itemsIndexed(row.secs) { i, s ->
-                        val current = i == secI
-                        val read = store.isDone(subsectionId(bookId, rowI, i))
-                        Row(
-                            Modifier
-                                .fillMaxWidth()
-                                .clickable {
-                                    go(Pos(rowI, i))
-                                    tocOpen = false
-                                    scope.launch { listState.scrollToItem(0) }
-                                }
-                                .padding(horizontal = 20.dp, vertical = 14.dp),
-                        ) {
-                            Text(
-                                "${i + 1}.  ${s.title}",
-                                style = TextStyle(
-                                    fontSize = 16.sp, lineHeight = 23.sp,
-                                    color = if (current) C.Blue else C.Ink,
-                                ),
-                                modifier = Modifier.weight(1f),
-                            )
-                            if (read) {
-                                Spacer(Modifier.width(8.dp))
-                                Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(18.dp).padding(top = 3.dp))
-                            }
-                        }
-                        if (i < row.secs.size - 1) HorizontalDivider(color = C.Ink.copy(alpha = 0.6f), modifier = Modifier.padding(horizontal = 20.dp))
-                    }
+                TocList(row.secs, secI, isRead = { store.isDone(subsectionId(bookId, rowI, it)) }) { i ->
+                    go(Pos(rowI, i))
+                    tocOpen = false
+                    scope.launch { listState.scrollToItem(0) }
                 }
             }
+        }
+    }
+}
+
+/** The section's subsections, the current one in blue and read ones ticked; [compact] for the side panel. */
+@Composable
+private fun TocList(secs: List<Subsection>, current: Int, isRead: (Int) -> Boolean, compact: Boolean = false, onPick: (Int) -> Unit) {
+    val tocState = rememberLazyListState(initialFirstVisibleItemIndex = (current - 2).coerceAtLeast(0))
+    LazyColumn(state = tocState) {
+        itemsIndexed(secs) { i, s ->
+            val here = i == current
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .background(if (here && compact) C.AccentSoft else Color.Transparent)
+                    .clickable { onPick(i) }
+                    .padding(horizontal = 20.dp, vertical = if (compact) 10.dp else 14.dp),
+            ) {
+                Text(
+                    "${i + 1}.  ${s.title}",
+                    style = TextStyle(
+                        fontSize = if (compact) 14.sp else 16.sp, lineHeight = if (compact) 20.sp else 23.sp,
+                        color = if (here) C.Blue else C.Ink, fontWeight = if (here && compact) FontWeight.SemiBold else FontWeight.Normal,
+                    ),
+                    modifier = Modifier.weight(1f),
+                )
+                if (isRead(i)) {
+                    Spacer(Modifier.width(8.dp))
+                    Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(18.dp).padding(top = 3.dp))
+                }
+            }
+            if (i < secs.size - 1) HorizontalDivider(color = if (compact) C.Line else C.Ink.copy(alpha = 0.6f), modifier = Modifier.padding(horizontal = 20.dp))
         }
     }
 }
@@ -549,6 +666,97 @@ private fun SourcesBox(sources: List<String>) {
                     Text(it, style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Muted), modifier = Modifier.padding(vertical = 4.dp))
                 }
             }
+        }
+    }
+}
+
+/** Under a "Not in your sources" line: look it up on Google (inside the app), add or edit what was found. */
+@Composable
+private fun GapActions(hasNote: Boolean, onSearch: () -> Unit, onAdd: () -> Unit) {
+    Row(Modifier.padding(start = 40.dp, end = 20.dp, bottom = 6.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text(
+            "Search Google",
+            style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
+            modifier = Modifier.clip(RoundedCornerShape(16.dp)).background(C.AccentSoft).clickable(onClick = onSearch)
+                .padding(horizontal = 12.dp, vertical = 7.dp),
+        )
+        Text(
+            if (hasNote) "Edit my note" else "Add to notes",
+            style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Green),
+            modifier = Modifier.clip(RoundedCornerShape(16.dp)).background(C.GreenSoft).clickable(onClick = onAdd)
+                .padding(horizontal = 12.dp, vertical = 7.dp),
+        )
+    }
+}
+
+/** Type or paste what was found; it is kept on this phone and shown under the line as "Your note". */
+@Composable
+private fun AddNoteDialog(text: String, existing: Boolean, onSave: (String) -> Unit, onDelete: () -> Unit, onDismiss: () -> Unit) {
+    var value by remember { mutableStateOf(text) }
+    androidx.compose.material3.AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Add to notes") },
+        text = {
+            Column {
+                Text(
+                    "Paste or type what you found. It is shown, and read aloud, under this line.",
+                    style = TextStyle(fontSize = 13.sp, color = C.Muted),
+                )
+                Spacer(Modifier.height(8.dp))
+                androidx.compose.material3.OutlinedTextField(
+                    value = value,
+                    onValueChange = { value = it },
+                    minLines = 4,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+        },
+        confirmButton = { androidx.compose.material3.TextButton(onClick = { onSave(value) }, enabled = value.isNotBlank()) { Text("Save") } },
+        dismissButton = {
+            Row {
+                if (existing) androidx.compose.material3.TextButton(onClick = onDelete) { Text("Delete", color = Color(0xFFB91C1C)) }
+                androidx.compose.material3.TextButton(onClick = onDismiss) { Text("Cancel") }
+            }
+        },
+    )
+}
+
+/** Pages that hold the facts this page no longer repeats (see tools/dedup_notes.py): tap to open. */
+@Composable
+private fun CoveredIn(refs: List<List<Int>>, open: (Int, Int, Int) -> Unit) {
+    val app = LocalApp.current
+    val pages by produceState(emptyList<Pair<List<Int>, String>>(), refs) {
+        value = refs.mapNotNull { ref ->
+            runCatching {
+                val bk = app.repo.book(ref[0])
+                val row = bk.rows[ref[1]]
+                ref to "${bk.short} · ${row.secs[ref[2]].title}"
+            }.getOrNull()
+        }
+    }
+    if (pages.isEmpty()) return
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(12.dp))
+            .background(C.SeeBg)
+            .padding(horizontal = 14.dp, vertical = 12.dp),
+    ) {
+        Text("ALSO COVERED IN", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.SeeInk, letterSpacing = 0.8.sp))
+        Text(
+            "Facts repeated here were kept on these pages only.",
+            style = TextStyle(fontSize = 13.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 2.dp, bottom = 4.dp),
+        )
+        pages.forEach { (ref, label) ->
+            Text(
+                "→ $label",
+                style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, color = C.SeeInk, fontWeight = FontWeight.Medium),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable { open(ref[0], ref[1], ref[2]) }
+                    .padding(vertical = 6.dp),
+            )
         }
     }
 }
@@ -618,4 +826,26 @@ private fun PlayerBar(
         )
         IconButton(onClick = onClose) { Icon(Icons.Filled.Close, "Stop listening", tint = C.Muted) }
     }
+}
+
+
+/**
+ * The question for "Explain simply": rewrite this page so a class 6 student understands it, with the page's text
+ * (source tags out, cut at a sentence near 1,400 characters so the link stays short enough for Google).
+ */
+internal fun simplePrompt(title: String, text: String, limit: Int = 1400): String {
+    var body = text.lines().drop(1).joinToString("\n").trim()
+        .replace(Regex("""\[GK[^\]]*]"""), "")
+        .replace(Regex("""\s?\((?:CDI|CDX|APP|APPCA|LENS|LENSD|CDCA|VIS|TH|IYB|APSES|SES|UPSC notes|PT365)[^()]*\)"""), "")
+        .replace(Regex("""Not in your sources:[^\n]*"""), "")
+        .replace(Regex("""[ \t]+"""), " ")
+        .replace(Regex(""" +([.,;:])"""), "$1")
+        .replace(Regex("""\n{2,}"""), "\n")
+    if (body.length > limit) {
+        val cut = body.lastIndexOf(". ", limit).takeIf { it > limit / 2 } ?: limit
+        body = body.take(cut + 1)
+    }
+    return "Explain this in very simple English, as if to a class 6 student. Use short sentences and an everyday " +
+        "example. Explain every difficult word. Then give 3 key points to remember for the APPSC exam.\n\n" +
+        "Topic: $title\n\n$body"
 }

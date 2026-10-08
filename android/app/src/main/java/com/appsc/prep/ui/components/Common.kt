@@ -29,6 +29,9 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
@@ -40,6 +43,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.ProgressStore
@@ -58,9 +62,56 @@ interface Platform {
     @Composable
     fun Shortcuts(onKey: (String) -> Boolean)
 
+    /**
+     * A web page shown inside the app (Google search from the Meaning card). [back] is set to a function that
+     * goes back one page and returns true, or returns false when there is nothing to go back to.
+     * [selected], when given, is set to a function that hands back the page's text: what is selected, if anything,
+     * and its paragraphs (to pick from, since the copy menu does not show inside the app).
+     * Default (Windows): a note and a button that opens the page in the browser.
+     */
+    @Composable
+    fun WebPage(
+        url: String,
+        modifier: Modifier,
+        back: MutableState<(() -> Boolean)?>,
+        selected: MutableState<(((WebText) -> Unit) -> Unit)?>?,
+    ) {
+        val uri = androidx.compose.ui.platform.LocalUriHandler.current
+        Column(modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Search results open in your web browser.", style = TextStyle(fontSize = 15.sp, color = C.Muted))
+            OutlinedButton(onClick = { uri.openUri(url) }) { Text("Open in browser") }
+        }
+    }
+
+    /**
+     * Saves text to a file the reader picks (phone storage, Drive ...): returns a function taking the suggested
+     * file name and the text; [done] hears whether it was saved. Null where files cannot be picked.
+     */
+    @Composable
+    fun rememberSaveFile(done: (Boolean) -> Unit): ((String, String) -> Unit)? = null
+
+    /** Opens a file the reader picks: returns a function to start it; [got] hears the text, or null if none. */
+    @Composable
+    fun rememberOpenFile(got: (String?) -> Unit): (() -> Unit)? = null
+
+    /**
+     * Opens [url] in the phone's browser (a Chrome tab), where the reader is signed in to Google: Google's sign-in
+     * does not work inside an app's own web view, and some of its pages work better there.
+     */
+    fun openInBrowser(url: String) {}
+
+    /**
+     * Sends [prompt] to Gemini: the Gemini app when it is installed, else gemini.google.com with the prompt
+     * copied to paste. Returns a message for the reader, or null.
+     */
+    fun askGemini(prompt: String): String? = null
+
     /** Read-aloud engine, or null where there is none (the reader then hides the Listen button). */
     val speech: Speech? get() = null
 }
+
+/** Text taken from a web page: the [selection] ("" if none) and the page's [paragraphs]. */
+data class WebText(val selection: String, val paragraphs: List<String>)
 
 /** One subsection to read aloud: its id ("book:row:sec"), title and the parts (paragraphs) to speak. */
 data class SpeechPage(val id: String, val title: String, val parts: List<String>)
@@ -89,6 +140,10 @@ interface Speech {
 class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform) {
     /** "read" in the notes app, "revised" in the revision app (progress labels). */
     val doneWord: String get() = if (repo.revision) "revised" else "read"
+
+    init {
+        store.migrate(repo.idMoves)
+    }
 }
 
 val LocalApp = staticCompositionLocalOf<AppState> { error("AppState not provided") }
@@ -284,6 +339,80 @@ fun StatBox(value: String, label: String, icon: ImageVector?, modifier: Modifier
 }
 
 /** Entry point to an MCQ practice set. [attempted] = (attempted, correct, total) when known. */
+/** The width a page's content uses: on a wide window (Windows, tablets) lists keep this width, centred. */
+val LocalPageWidth = androidx.compose.runtime.compositionLocalOf { 10_000.dp }
+
+/** How many columns of cards at least [min] wide fit a page [width] wide (1 on phones, up to [most]). */
+fun columnsFor(width: Dp, min: Dp, most: Int = 3): Int = (width / min).toInt().coerceIn(1, most)
+
+/**
+ * A screen's scrolling list. On a window wider than [max] the content stays [max] wide and centred, by padding
+ * inside the list - so the mouse wheel scrolls it from anywhere in the window. On a phone it is a plain list.
+ * [content] gets the content width, to lay cards out in columns ([columnsFor], [gridItems]).
+ */
+@Composable
+fun PageList(
+    modifier: Modifier = Modifier,
+    state: androidx.compose.foundation.lazy.LazyListState = androidx.compose.foundation.lazy.rememberLazyListState(),
+    max: Dp = 1040.dp,
+    content: androidx.compose.foundation.lazy.LazyListScope.(width: Dp) -> Unit,
+) {
+    androidx.compose.foundation.layout.BoxWithConstraints(modifier) {
+        val side = ((maxWidth - max) / 2).coerceAtLeast(0.dp)
+        val width = minOf(maxWidth, max)
+        CompositionLocalProvider(LocalPageWidth provides width) {
+            androidx.compose.foundation.lazy.LazyColumn(
+                Modifier.fillMaxSize(),
+                state = state,
+                contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = side),
+            ) { content(width) }
+        }
+    }
+}
+
+/** [items] in rows of [columns] cards of equal width (a grid inside a [PageList]). */
+fun <T> androidx.compose.foundation.lazy.LazyListScope.gridItems(
+    items: List<T>,
+    columns: Int,
+    spacing: Dp = 12.dp,
+    padding: androidx.compose.foundation.layout.PaddingValues = androidx.compose.foundation.layout.PaddingValues(0.dp),
+    card: @Composable (T) -> Unit,
+) {
+    val rows = items.chunked(columns.coerceAtLeast(1))
+    items(rows.size) { r ->
+        Row(Modifier.fillMaxWidth().padding(padding), horizontalArrangement = Arrangement.spacedBy(spacing)) {
+            rows[r].forEach { Box(Modifier.weight(1f)) { card(it) } }
+            repeat(columns - rows[r].size) { Spacer(Modifier.weight(1f)) }
+        }
+    }
+}
+
+/** How many of a practice pool are not tried yet, answered wrong (latest attempt), and in all. */
+data class PracticeSets(val unattempted: Int, val wrong: Int, val total: Int)
+
+/** [PracticeSets] for these question ids from the reader's answers. */
+fun practiceSets(ids: List<String>, answers: Map<String, Boolean>, seen: Set<String>) = PracticeSets(
+    unattempted = ids.count { it !in answers && it !in seen },
+    wrong = ids.count { answers[it] == false },
+    total = ids.size,
+)
+
+@Composable
+private fun SetChip(label: String, count: Int, ink: Color, bg: Color, modifier: Modifier, onClick: () -> Unit) {
+    val on = count > 0
+    Column(
+        modifier
+            .clip(RoundedCornerShape(10.dp))
+            .background(if (on) bg else C.Chip)
+            .clickable(enabled = on, onClick = onClick)
+            .padding(vertical = 8.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Text("$count", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.Bold, color = if (on) ink else C.Faint))
+        Text(label, style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.Medium, color = if (on) ink else C.Faint))
+    }
+}
+
 @Composable
 fun PracticeCard(
     title: String,
@@ -291,6 +420,8 @@ fun PracticeCard(
     attempted: Triple<Int, Int, Int>?,
     onStart: () -> Unit,
     onWrong: (() -> Unit)? = null,
+    sets: PracticeSets? = null,
+    onSet: (String) -> Unit = {},
 ) {
     Card(onClick = onStart) {
         Column(Modifier.padding(16.dp)) {
@@ -306,6 +437,15 @@ fun PracticeCard(
                 }
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
             }
+            if (sets != null) {
+                // the reader picks the set: questions not tried yet, the ones got wrong, or all of them
+                Spacer(Modifier.height(12.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    SetChip("Unattempted", sets.unattempted, C.Accent, C.AccentSoft, Modifier.weight(1f)) { onSet("new") }
+                    SetChip("Incorrect", sets.wrong, C.High, C.HighSoft, Modifier.weight(1f)) { onSet("wrong") }
+                    SetChip("All", sets.total, C.ExamInk, C.ExamBg, Modifier.weight(1f)) { onSet("all") }
+                }
+            }
             if (attempted != null && attempted.third > 0) {
                 val (a, c, t) = attempted
                 Spacer(Modifier.height(12.dp))
@@ -317,7 +457,7 @@ fun PracticeCard(
                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     )
                 }
-                if (onWrong != null && a - c > 0) {
+                if (onWrong != null && sets == null && a - c > 0) {
                     Text(
                         "Retry ${a - c} wrong answers",
                         style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.High),

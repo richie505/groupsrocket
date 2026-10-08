@@ -63,7 +63,9 @@ def main() -> None:
     units = {u["id"]: u for u in syllabus["units"]}
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("*.json"):
-        if old.name != "abbr.json":  # read-aloud short forms, kept from APPSC Prep
+        # kept from APPSC Prep: read-aloud short forms, checked full forms, dictionary (with dict/*.tsv);
+        # keyterms.json is rebuilt by build_key_terms.py
+        if old.name not in ("abbr.json", "acronyms.json", "india.json"):
             old.unlink()
 
     index_books, row_ref = [], {}  # row_ref: "slug/sheet" -> (book id, row index)

@@ -1,0 +1,25 @@
+1 ICON "app.ico"
+1 VERSIONINFO
+FILEVERSION @MAJOR@,@MINOR@,0,0
+PRODUCTVERSION @MAJOR@,@MINOR@,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Rocket Prep"
+      VALUE "FileDescription", "Rocket Prep"
+      VALUE "FileVersion", "@VERSION@"
+      VALUE "InternalName", "Rocket Prep"
+      VALUE "OriginalFilename", "Rocket Prep.exe"
+      VALUE "ProductName", "Rocket Prep"
+      VALUE "ProductVersion", "@VERSION@"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

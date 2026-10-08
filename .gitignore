@@ -12,3 +12,7 @@ android/app/src/test/snapshots/
 *.iml
 .idea/
 *.apk
+android/desktop/build/
+# Windows app (android/tools/windows/build_windows.sh)
+android/Rocket-Prep-Setup.exe
+android/Rocket-Prep-Windows.zip

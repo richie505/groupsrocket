@@ -14,8 +14,8 @@ android {
         applicationId = "com.groupsrocket.rocketprep"
         minSdk = 26
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.2"
+        versionCode = 4
+        versionName = "1.3"
     }
 
     signingConfigs {
@@ -29,7 +29,8 @@ android {
     }
 
     // Two apps from one code base: the ROCKET notes, and the revision points built from the MCQs
-    // (scripts/build_revision.py). They install side by side, each with its own progress.
+    // (scripts/build_revision.py).
+    // They install side by side, each with its own progress.
     flavorDimensions += "edition"
     productFlavors {
         create("notes") {
@@ -66,6 +67,11 @@ android {
     }
     testOptions {
         unitTests.isIncludeAndroidResources = true
+        // ./gradlew testNotesDebugUnitTest --tests '*SpeechAuditTest' -Pspeech.audit=/path/out.tsv dumps read-aloud text
+        unitTests.all { test ->
+            project.findProperty("speech.audit")?.let { test.systemProperty("speech.audit", it) }
+            test.systemProperty("prep.strict", "true") // a failing read-aloud rule fails the tests (skipped on phones)
+        }
     }
 }
 
@@ -75,6 +81,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.media:media:1.7.0") // MediaStyle notification for read-aloud
     implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.browser:browser:1.8.0") // Google in a Chrome tab (signed in)
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("androidx.navigation:navigation-compose:2.8.5")
@@ -83,7 +90,7 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
 
-    // Screenshot tests (JVM, no device needed): ./gradlew recordRoborazziNotesDebug recordRoborazziReviseDebug
+    // Screenshot tests (JVM, no device needed): ./gradlew recordRoborazziNotesDebug
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.robolectric:robolectric:4.14.1")
     testImplementation("io.github.takahirom.roborazzi:roborazzi:1.39.0")

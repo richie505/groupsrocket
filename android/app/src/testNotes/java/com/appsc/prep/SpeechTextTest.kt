@@ -20,6 +20,7 @@ class SpeechTextTest {
 
     @Before fun loadNotesAbbreviations() {
         repo.abbreviations
+        repo.checkedAcronyms
     }
 
     private fun say(text: String, book: Int = 2) = SpeechText.speakable(text, book)
@@ -39,7 +40,7 @@ class SpeechTextTest {
         assertEquals("Article 21 and Article 14", say("Art. 21 & Art. 14"))
         assertEquals("India joined the World Trade Organization in 1995", say("India joined the WTO in 1995"))
         assertEquals("Group 2 and Schedule 7", say("Group-II and Schedule VII"))
-        assertEquals("5,000 crore rupees", say("₹5,000 cr"))
+        assertEquals("5000 crore rupees", say("₹5,000 cr"))
         assertEquals("Urbanisation or migration", say("Urbanisation/migration"))
         // a short form right after its full form is not read twice
         assertEquals("Fiscal Deficit is 4.4%", say("Fiscal Deficit (FD) is 4.4%"))
@@ -54,6 +55,7 @@ class SpeechTextTest {
         assertTrue(say("SCs and STs").contains("Scheduled Castes and Scheduled Tribes"))
     }
 
+    /** The page in the user's screenshot: title first, the table headings once, then each row. */
     /** A ROCKET Key facts page: each fact read on its own, without the source line or the [sheet] tags. */
     @Test fun keyFactsAreReadWithoutSourceTags() {
         val sec = runBlocking { repo.book(2) }.rows[0].secs[0]
@@ -63,11 +65,11 @@ class SpeechTextTest {
         assertFalse(first, first.contains("ROCKET"))
     }
 
-    /** Across all five books, no source tag ("ROCKET SHEET #N", "pp a-b") is spoken. */
+    /** Across all the books, no source tag ("ROCKET SHEET #N", "pp a-b") is spoken. */
     @Test fun wholeNotesHaveNoSourceTags() {
         val tag = Regex("""ROCKET SHEET|\bpp \d""")
         var spoken = 0; var left = 0; var before = 0
-        for (b in 1..5) {
+        for (b in repo.index.map { it.id }) {
             for (row in runBlocking { repo.book(b) }.rows) {
                 val s = row.secs[0]
                 val raw = s.blocks.filterIsInstance<TextBlock>().joinToString(" ") { t -> t.runs.joinToString("") { it.text } }
