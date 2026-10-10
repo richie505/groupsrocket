@@ -60,6 +60,10 @@ a link to the page; long-press any word → Meaning (offline dictionary + Indian
 Key terms on every page (`scripts/build_key_terms.py`); Explain simply / Google / Open in Chrome / Ask Gemini;
 own notes; backup and restore (Progress tab); read-aloud with full forms.
 
+**v1.4** (APPSC Prep v2.34): "Stuck? Show a hint" gives the question's own technique with the guide's hints;
+"Still stuck? Show the answer" reveals the right option and the reasoning. An answer shown first counts as
+practice (attempted, not scored).
+
 ### Windows app
 
 `android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in

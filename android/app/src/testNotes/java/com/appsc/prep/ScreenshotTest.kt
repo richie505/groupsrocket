@@ -271,6 +271,28 @@ class ScreenshotTest {
     }
 
 
+    /** Stuck → hint (this question's technique), then the answer on request - practice, not scored. */
+    @Test fun hintThenAnswer() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val q = runBlocking { Repository { ctx.assets.open(it) }.mcq(2) }.rows.values.flatten().first {
+            it.kind == 's' && it.technique.isNotBlank() && it.stem.length < 300 && it.explanation.length < 300
+        }
+        shot("30_hint_answer") { QuizRound("ha", listOf(q, q), listOf(q), {}, {}) }
+        rule.onNodeWithText("Stuck? Show a hint").performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("This question: ${q.technique}").assertExists()
+        rule.onNodeWithText("Still stuck? Show the answer", substring = true).performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("(${q.answer + 1}) ${q.options[q.answer]}").assertExists()
+        rule.onRoot().captureRoboImage("screenshots/30_hint_answer.png")
+        // picking the shown answer: attempted, not scored as correct
+        rule.onAllNodesWithText(q.options[q.answer])[0].performClick()
+        rule.waitForIdle()
+        val store = com.appsc.prep.data.ProgressStore(com.appsc.prep.platform.PrefsStorage(ctx))
+        assertTrue(q.id in store.seen)
+        assertEquals(null, store.answers[q.id])
+    }
+
     @Test fun books() = shot("7_notes") { BooksScreen(nav) }
     @Test fun progress() {
         shot("8_progress") { ProgressScreen(nav) }

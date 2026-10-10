@@ -164,6 +164,7 @@ internal fun QuizRound(
     val store = app.store
     var index by rememberSaveable(key) { mutableIntStateOf(0) }
     val picks = remember(key) { mutableStateListOf<Int>().apply { repeat(set.size) { add(-1) } } }
+    val revealed = remember(key) { mutableStateListOf<String>() } // answers shown before picking (not scored)
     val listState = rememberLazyListState()
     LaunchedEffect(index) { listState.scrollToItem(0) }
 
@@ -178,7 +179,8 @@ internal fun QuizRound(
     fun pick(i: Int) {
         if (answered || q.kind == 'f' || i !in q.options.indices) return
         picks[index] = i
-        if (q.kind == 'u') store.markSeen(q.id) else store.recordAnswer(q.id, i == q.answer)
+        // an answer seen first ("Show the answer") is practice: attempted, not scored
+        if (q.kind == 'u' || q.id in revealed) store.markSeen(q.id) else store.recordAnswer(q.id, i == q.answer)
     }
     app.platform.Shortcuts { k ->
         when {
@@ -233,14 +235,14 @@ internal fun QuizRound(
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     UnscoredNote(q)
-                                } else HintBox(q)
+                                } else HintBox(q) { revealed += q.id }
                             }
                             else -> {
                                 q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     Explanation(q, picked == q.answer, picked, onOpenNotes)
-                                } else HintBox(q)
+                                } else HintBox(q) { revealed += q.id }
                             }
                         }
                         Spacer(Modifier.height(20.dp))
@@ -453,12 +455,17 @@ private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes:
     }
 }
 
-/** "Stuck?" hint from the MCQ techniques guide; shown only before answering and never reveals the key. */
+/**
+ * "Stuck?" before answering, in two steps: first the techniques (the guide's hints and this question's own
+ * technique), then - only if asked - the answer with the technique that gets there.
+ */
 @Composable
-private fun HintBox(q: Question) {
+private fun HintBox(q: Question, onReveal: () -> Unit) {
     val hints = remember(q.id) { Techniques.hints(q) }
-    if (hints.isEmpty()) return
+    val hasAnswer = q.answer in q.options.indices
+    if (hints.isEmpty() && q.technique.isBlank() && !hasAnswer) return
     var open by rememberSaveable(q.id) { mutableStateOf(false) }
+    var answer by rememberSaveable(q.id) { mutableStateOf(false) }
     Spacer(Modifier.height(10.dp))
     if (!open) {
         OutlinedButton(
@@ -470,14 +477,53 @@ private fun HintBox(q: Question) {
     }
     Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.AccentSoft).padding(14.dp)) {
         Text("HINT · MCQ TECHNIQUE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+        if (q.technique.isNotBlank()) {
+            Text(
+                "This question: ${q.technique}",
+                style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
+                modifier = Modifier.padding(top = 4.dp),
+            )
+        }
         hints.forEach {
             Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
         }
-        Text(
-            "Knowledge first: use these only when you are stuck.",
-            style = TextStyle(fontSize = 12.sp, color = C.Muted),
-            modifier = Modifier.padding(top = 6.dp),
-        )
+        if (hasAnswer && !answer) {
+            Text(
+                "Still stuck? Show the answer › (it will not count in your score)",
+                style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.High),
+                modifier = Modifier.padding(top = 10.dp).clickable { answer = true; onReveal() },
+            )
+        }
+        if (hasAnswer && answer) {
+            Spacer(Modifier.height(10.dp))
+            Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(Color.White).padding(12.dp)) {
+                Text("ANSWER", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Green, letterSpacing = 0.8.sp))
+                Text(
+                    "(${q.answer + 1}) ${q.options[q.answer]}",
+                    style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, fontWeight = FontWeight.Bold, color = C.Green),
+                    modifier = Modifier.padding(top = 2.dp),
+                )
+                // how the technique gets there: the explanation's reasoning
+                if (q.explanation.isNotBlank()) {
+                    Text(
+                        "How the technique gets there: ${q.explanation}",
+                        style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body),
+                        modifier = Modifier.padding(top = 6.dp),
+                    )
+                }
+                Text(
+                    "Now pick it to see the full explanation and your notes. Shown answers are practice: not scored.",
+                    style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                    modifier = Modifier.padding(top = 6.dp),
+                )
+            }
+        } else {
+            Text(
+                "Knowledge first: use these only when you are stuck.",
+                style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                modifier = Modifier.padding(top = 6.dp),
+            )
+        }
     }
 }
 
