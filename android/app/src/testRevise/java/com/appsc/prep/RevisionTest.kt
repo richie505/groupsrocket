@@ -30,7 +30,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.robolectric.annotation.GraphicsMode
 
-/** Rocket Revision: each ROCKET SHEET's revision points, built from its MCQs (scripts/build_revision.py). */
+/** Rocket Revision: each topic page's revision points, built from the MCQs filed under it (scripts/build_revision.py). */
 @RunWith(RobolectricTestRunner::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
 @Config(sdk = [34], qualifiers = "w400dp-h860dp-xxhdpi")
@@ -60,41 +60,45 @@ class RevisionTest {
         is TableBlock -> ""
     }
 
-    @Test fun sameSheetsOnePageEach() = runBlocking {
+    @Test fun sameTopicsSamePages() = runBlocking {
         assertTrue(repo.revision)
         assertEquals("Rocket Revision", repo.appName)
-        var sheets = 0
+        var topics = 0
         for (info in repo.index) {
             val rev = repo.book(info.id)
             val full = notes.book(info.id)
-            // every sheet of the notes is here, at the same place, so the 90-day plan and progress line up
+            // every topic and page of the notes is here, at the same place, so the 90-day plan, MCQ practice and progress line up
             assertEquals(full.rows.map { it.title }, rev.rows.map { it.title })
             rev.rows.forEachIndexed { i, r ->
-                assertEquals(1, r.secs.size)
-                assertEquals(1, info.rows[i].subsectionCount) // the revision app's own index.json
-                assertTrue(r.secs[0].title, r.secs[0].title.startsWith("Revision points ("))
+                assertEquals(r.title, full.rows[i].secs.size, r.secs.size)
+                assertEquals(r.secs.size, info.rows[i].subsectionCount) // the revision app's own index.json
+                r.secs.forEachIndexed { j, s ->
+                    assertTrue(s.title, s.title.startsWith(full.rows[i].secs[j].title + " · Revision points ("))
+                }
             }
-            sheets += rev.rows.size
+            topics += rev.rows.size
         }
-        assertEquals(721, sheets)
+        assertEquals(226, topics)
     }
 
-    /** A sheet's revision points are what its MCQs test: answer in bold, each point once, no question talk. */
+    /** A page's revision points are what its MCQs test: answer in bold, each point once, no question talk. */
     @Test fun pointsFromTheMcqs() = runBlocking {
-        val page = repo.book(2).rows[0].secs[0] // Indian Polity #1: Constitutional Development and Key Firsts
+        val page = repo.book(2).rows[0].secs[0] // Indian Polity · Constitutional development · Company rule
         val t = page.blocks.joinToString("\n") { line(it) }
-        for (fact in listOf("Regulating Act, 1773", "Rajendra Prasad", "Sukumar Sen", "Nagaur")) {
+        for (fact in listOf("Regulating Act, 1773", "Warren Hastings", "Elijah Impey", "Charter Act")) {
             assertTrue("$fact missing:\n$t", t.contains(fact))
         }
         assertTrue(t, t.startsWith("Source: Indian Polity – ROCKET Sheets PDF, ROCKET SHEET #1"))
-        assertTrue(t, page.blocks.any { b -> b is TextBlock && b.runs.any { it.bold } })
+        assertTrue(t, repo.book(2).rows[0].secs.any { s -> s.blocks.any { b -> b is TextBlock && b.runs.any { it.bold } } })
         for (info in repo.index) {
             repo.book(info.id).rows.forEach { r ->
-                val lines = r.secs[0].blocks.map { line(it) }
-                assertEquals(r.title, lines.size, lines.toSet().size)
-                assertTrue(r.title, lines.size > 1)
-                lines.forEach { l ->
-                    assertTrue("${r.title}: $l", !Regex("""^(Both statements|Statements? [\d, and]+ (is|are)|The incorrect)""").containsMatchIn(l))
+                r.secs.forEach { s ->
+                    val lines = s.blocks.map { line(it) }
+                    assertEquals(s.title, lines.size, lines.toSet().size)
+                    assertTrue(s.title, lines.size > 1)
+                    lines.forEach { l ->
+                        assertTrue("${s.title}: $l", !Regex("""^(Both statements|Statements? [\d, and]+ (is|are)|The incorrect)""").containsMatchIn(l))
+                    }
                 }
             }
         }

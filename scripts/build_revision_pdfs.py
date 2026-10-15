@@ -2,9 +2,9 @@
 """Rocket Revision's 90-day schedule as PDFs: one PDF per plan day with that day's revision points.
 
 Adapted from APPSC Prep's tools/build_revision_pdfs.py (richie505/Group-app).
-The day's sheets are the ones the MCQ schedule gives that day (scripts/build_mcq_pdfs.py): on study days the
+The day's topics are the ones the MCQ schedule gives that day (scripts/build_mcq_pdfs.py): on study days the
 sheets the plan brings in for the first time, on weekly reviews and revision days the sheets it revisits.
-Each sheet prints its revision points from rev{n}.json (scripts/build_revision.py): the facts its MCQs test,
+Each topic prints the revision points of each of its pages from rev{n}.json (scripts/build_revision.py): the facts its MCQs test,
 answers in bold. Mock days (no sheets) get no PDF.
 
 Usage: python3 scripts/build_revision_pdfs.py android/app/src/main/assets android/app/src/revise/assets <out_dir> [--dark]
@@ -113,7 +113,7 @@ def build_day(job):
         pri = job["pri"].get((b, ri))
         meta = [f"<font color='{T['pri'][pri]}'><b>{pri}</b></font>"] if pri in T["pri"] else []
         meta += [M.esc(" · ".join(row["codes"]))] if row["codes"] else []
-        meta += [f"Source: {M.esc(M.u_title(info, row))} · ROCKET SHEET {M.esc(row['title'].split(' · ')[0])} · pp {row['p1']}-{row['p2']}"]
+        meta += [f"Source: {M.esc(M.u_title(info, row))} · ROCKET SHEET {M.esc(M.sheet_list(rev[b][ri]))}"]
         story.append(KeepTogether([Paragraph(f"{i}. {M.esc(row['title'])}", S["section"]),
                                    Paragraph("&nbsp;&nbsp;·&nbsp;&nbsp;".join(meta), S["meta"]), Spacer(1, 6)]))
         secs = rev[b][ri]["secs"]
@@ -122,8 +122,10 @@ def build_day(job):
                 continue
             flows = []
             for blk in sec["b"]:
+                if blk["k"] == "n":  # the source line: the section's meta line already gives it
+                    continue
                 flows += block_flow(blk, st)
-            if len(secs) > 1:  # Rocket sheets have one page: no subsection heading
+            if len(secs) > 1:  # a topic of one page: no subsection heading
                 head = [Paragraph(f"{i}.{si + 1}&nbsp;&nbsp;{M.esc(sec['t'])}", S["subsec"]), Spacer(1, 3)]
                 story.append(KeepTogether(head + flows[:2]))  # a heading never ends a page
                 flows = flows[2:]

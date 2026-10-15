@@ -38,10 +38,10 @@ screen locked (media notification).
 Tabs: **Today** · **Plan** (90 days from 29 Sep 2026, Polity first, one subject per day; weekly
 50-question tests; revision days; 120/150-question mocks; repair days) · **Notes** · **Progress** · **Saved**.
 
-**Rocket Revision** (second app, same code): one page per ROCKET SHEET, "Revision points (N)", built from
-the sheet's MCQs by `scripts/build_revision.py` (→ `android/app/src/revise/assets`): one fact per question, the
-explanation's fact sentence when it reads on its own, else the sheet fact the MCQ tests; answer in bold; repeats
-dropped. 12,572 points over the 721 sheets. Same 90-day plan, MCQ practice and read-aloud; its own progress
+**Rocket Revision** (second app, same code): one revision page per notes page, "<page> · Revision points (N)",
+built from the MCQs filed under that page by `scripts/build_revision.py` (→ `android/app/src/revise/assets`): one
+fact per question, the explanation's fact sentence when it reads on its own, else the sheet fact the MCQ tests;
+answer in bold; repeats dropped. 12,340 points over 830 pages of 226 topics. Same 90-day plan, MCQ practice and read-aloud; its own progress
 ("revised"). Installs next to Rocket Prep (`com.groupsrocket.rocketprep.revise`, green icon).
 
 ```bash
@@ -63,6 +63,13 @@ own notes; backup and restore (Progress tab); read-aloud with full forms.
 **v1.4** (APPSC Prep v2.34): "Stuck? Show a hint" gives the question's own technique with the guide's hints;
 "Still stuck? Show the answer" reveals the right option and the reasoning. An answer shown first counts as
 practice (attempted, not scored).
+
+**v1.5** — the notes topic-wise, like APPSC Prep v2.36–v2.53: the 721 ROCKET sheets are grouped into 226 exam
+topics (`scripts/topic_map.py` → `data/topics/`), and each topic is rewritten by hand into structured keyword pages
+(`data/structured/<subject>/NN.md`: numbered headings, **Label:** lines, tables, ⚠ traps), related sheets merged.
+`scripts/topic_check.py` proves every one of the sheets' facts is on a page of its topic (all its numbers, most of
+its rare words); every MCQ is filed under the page that holds the facts it tests. Read marks and bookmarks move from
+the old sheet pages to the topic pages once (`moved.json`). Rocket Revision follows the same topics and pages.
 
 ### Windows app
 

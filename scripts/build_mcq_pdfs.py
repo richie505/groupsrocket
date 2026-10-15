@@ -2,7 +2,7 @@
 """Rocket Prep 90-day MCQ schedule as PDFs: one PDF per plan day, MCQs only, each followed by its answer.
 
 Adapted from APPSC Prep's tools/build_mcq_pdfs.py (richie505/Group-app) for the ROCKET Sheets app.
-Headings follow the app: Day -> Topic (subject) -> Section (ROCKET SHEET #N) -> MCQs.
+Headings follow the app: Day -> Topic (subject) -> Section (a topic of ROCKET sheets) -> its pages -> MCQs.
 
   * Study and Sunday days: every MCQ of each section the plan brings in for the first time that day.
     Sections the plan never lists go on the day of the nearest listed section of the same book, so
@@ -124,6 +124,10 @@ def load(assets):
         book = json.loads((assets / f"book{b}.json").read_text())
         rows = [r for u in book["units"] for r in u["rows"]]
         subs_titles[b] = [[s["t"] for s in r["secs"]] for r in rows]
+        for info in index:  # each topic's sheets, "#1 (pp 2-6), #22 (pp 52-55)", for the source line
+            if info["id"] == b:
+                for ir, r in zip(info["rows"], rows):
+                    ir["sheets"] = sheet_list(r)
         m = json.loads((assets / f"mcq{b}.json").read_text())
         mcq[b] = {int(r): list(zip(m["subs"][r], qs)) for r, qs in m["rows"].items()}
     return index, plan, subs_titles, mcq
@@ -257,7 +261,7 @@ def build_day(job):
         pri = job["pri"].get((b, ri))
         meta = [f"<font color='{T['pri'][pri]}'><b>{pri}</b></font>"] if pri in T["pri"] else []
         meta += [esc(" · ".join(row["codes"]))] if row["codes"] else []
-        meta += [f"Source: {esc(u_title(info, row))} · ROCKET SHEET {esc(row['title'].split(' · ')[0])} · pp {row['p1']}-{row['p2']}",
+        meta += [f"Source: {esc(u_title(info, row))} · ROCKET SHEET {esc(row.get('sheets', ''))}",
                  f"{len(qs)} MCQs"]
         story.append(KeepTogether([
             Paragraph(f"{i}. {esc(row['title'])}", S["section"]),
@@ -329,6 +333,12 @@ def build_key(job):
                             title=f"Rocket Prep MCQ Schedule - Day {n_day} Answer Key", author="Rocket Prep")
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     return n_day, qn, out.name
+
+
+def sheet_list(row):
+    """The ROCKET sheets of a topic row, from its source line: "#1 (pp 2-6), #22 (pp 52-55)"."""
+    src = (row.get("src") or [""])[0]
+    return re.sub(r"^.*?ROCKET SHEET\s*", "", src) or f"pp {row['p1']}-{row['p2']}"
 
 
 def u_title(info, row):

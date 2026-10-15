@@ -116,14 +116,14 @@ class ScreenshotTest {
 
     /** Read aloud: the Listen button opens the player bar, speaks the page and highlights the paragraph. */
     @Test fun readerListen() {
-        shot("15_listen", preload = 2) { ReaderScreen(2, 106, 0, nav) }
+        shot("15_listen", preload = 2) { ReaderScreen(2, 10, 0, nav) }
         rule.onNodeWithContentDescription("Listen").performClick()
         rule.waitForIdle()
         org.robolectric.shadows.ShadowLooper.idleMainLooper()
         rule.waitForIdle()
         rule.onNodeWithContentDescription("Pause").assertExists()
         rule.onRoot().captureRoboImage("screenshots/15_listen.png")
-        assertEquals("2:106:0", ReadAloud.playback.value.pageId)
+        assertEquals("2:10:0", ReadAloud.playback.value.pageId)
         assertTrue(ReadAloud.playback.value.playing)
         ReadAloud.stop()
     }
@@ -134,11 +134,12 @@ class ScreenshotTest {
      */
     @Config(sdk = [27])
     @Test fun meaningOfASelectedWord() {
-        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 0, nav) }
-        // ROCKET Polity #1: "Dyarchy at the Centre under the Government of India Act of 1935 was never implemented."
-        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Dyarchy at the Centre", substring = true))
+        shot("16_meaning", preload = 2) { ReaderScreen(2, 0, 2, nav) }
+        // Indian Polity · Constitutional development · Government of India Acts, 1919 and 1935:
+        // "Dyarchy: Abolished in the provinces; Central Dyarchy proposed (1935) — never implemented"
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("Central Dyarchy", substring = true))
         rule.waitForIdle()
-        rule.onAllNodesWithText("Dyarchy at the Centre", substring = true)[0].performTouchInput { longClick(topLeft + androidx.compose.ui.geometry.Offset(width * 0.04f, 14f)) }
+        rule.onAllNodesWithText("Central Dyarchy", substring = true)[0].performTouchInput { longClick(topLeft + androidx.compose.ui.geometry.Offset(width * 0.04f, 14f)) }
         rule.waitForIdle()
         rule.onNodeWithText("Meaning").performClick()
         rule.waitUntil(10_000) { rule.onAllNodesWithText("MEANING").fetchSemanticsNodes().isNotEmpty() }
@@ -184,7 +185,7 @@ class ScreenshotTest {
 
     /** Every notes page ends with its key terms; tapping one opens its meaning. */
     @Test fun keyTermsOnAPage() {
-        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 0, nav) }
+        shot("17_key_terms", preload = 2) { ReaderScreen(2, 0, 1, nav) }
         rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("KEY TERMS"))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/17_key_terms.png")

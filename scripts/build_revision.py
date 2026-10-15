@@ -2,16 +2,16 @@
 
 Same method as APPSC Prep's APPSC Revision (tools/build_revision_mcq.py in richie505/Group-app).
 Every MCQ's explanation states the fact behind its answer, and every MCQ lists the sheet facts it tests
-(cover_facts.py). For each ROCKET SHEET the revision page is one fact per question, in the MCQs' order,
-with the answer in bold:
+(cover_facts.py). Each topic page of the notes app gets a revision page: one fact per question filed under
+that page (mcqN.json "subs"), in the MCQs' order, with the answer in bold:
   * the explanation's fact sentence when it reads on its own; when it talks about the question
     ("Both statements are true", "The incorrect detail is ...") the first sheet fact the MCQ tests;
   * filler is dropped: "Statements 1 and 2 are correct.", "Hence option (b).", option letters ("sequence B, D, A, C");
   * "Statement 3 is false because X" becomes "X";
   * a fact already given on the page (most of its rare words, all its numbers) is not repeated;
-  * a sheet whose MCQs give no usable fact keeps its Key facts.
-Sheets and their order are the notes app's, so the 90-day plan, MCQ practice and progress line up.
-Each sheet has one page, "Revision points (N)", so the revision app ships its own index.json.
+  * a page whose MCQs give no usable fact keeps its notes.
+Topics, pages and their order are the notes app's, so the 90-day plan, MCQ practice and progress line up.
+Each revision page is titled "<page title> · Revision points (N)"; the revision app ships its own index.json.
 
     python scripts/build_revision.py        # android/app/src/main/assets -> android/app/src/revise/assets
 """
@@ -151,6 +151,13 @@ class Said:
         self.words |= content(text)
 
 
+def words(blk: dict) -> str:
+    """A block's text: its runs, or a table's header and cells."""
+    if blk.get("k") == "t":
+        return " ".join(x[0] for cell in blk["h"] + [c for r in blk["r"] for c in r] for x in cell)
+    return " ".join(x[0] for x in blk.get("x", []))
+
+
 def load(name: str):
     return json.loads((SRC / name).read_text(encoding="utf-8"))
 
@@ -170,41 +177,48 @@ def main() -> None:
             df[w] = df.get(w, 0) + 1
     IDF.update({w: math.log(len(docs) / c) for w, c in df.items()})
 
-    total_f = total_w = total_notes = fallback = 0
+    total_f = total_w = total_notes = fallback = pages = 0
     for b in ids:
         book, mcq = load(f"book{b}.json"), load(f"mcq{b}.json")
         ri = -1
         for unit in book["units"]:
             for row in unit["rows"]:
                 ri += 1
-                key, text = row["secs"][0], row["secs"][1]
-                total_notes += sum(len(x[0].split()) for blk in text["b"] for x in blk["x"])
-                source = [blk for blk in key["b"] if blk["k"] == "n"]
-                said, points, seen = Said(), [], set()
-                for q in mcq["rows"].get(str(ri), []):
-                    ans = answer_of(q)
-                    for f in points_of(q):  # the first candidate not said yet
-                        if said.repeats(f) or f.rstrip(".").lower() in seen:
+                qs, subs = mcq["rows"].get(str(ri), []), mcq.get("subs", {}).get(str(ri), [])
+                new_secs = []
+                for pi, sec in enumerate(row["secs"]):
+                    total_notes += sum(len(words(blk).split()) for blk in sec["b"])
+                    source = [blk for blk in sec["b"] if blk["k"] == "n"][:1]
+                    said, points, seen = Said(), [], set()
+                    for qi, q in enumerate(qs):
+                        if (subs[qi] if qi < len(subs) else 0) != pi:
                             continue
-                        said.add(f)
-                        seen.add(f.rstrip(".").lower())
-                        points.append({"k": "b", "x": bold_answer(f if f.endswith((".", "?", "!", "”", '"', ")")) else f + ".", ans)})
-                        break
-                if not points:  # nothing usable from the questions: the sheet's key facts
-                    points = [blk for blk in key["b"] if blk["k"] == "b"]
-                    fallback += 1
-                row["secs"] = [{"t": f"Revision points ({len(points)})", "badges": ["REVISION"], "p": key.get("p", row["p1"]),
-                                "b": source + points}]
-                total_f += len(points)
-                total_w += sum(len(x[0].split()) for blk in points for x in blk["x"] if not x[1] & 4)
+                        ans = answer_of(q)
+                        for f in points_of(q):  # the first candidate not said yet
+                            if said.repeats(f) or f.rstrip(".").lower() in seen:
+                                continue
+                            said.add(f)
+                            seen.add(f.rstrip(".").lower())
+                            points.append({"k": "b", "x": bold_answer(f if f.endswith((".", "?", "!", "”", '"', ")")) else f + ".", ans)})
+                            break
+                    if not points:  # nothing usable from the questions: the page's notes
+                        points = [blk for blk in sec["b"] if blk["k"] != "n" or blk not in source]
+                        fallback += 1
+                    new_secs.append({"t": f"{sec['t']} · Revision points ({len(points)})", "badges": ["REVISION"],
+                                     "p": sec.get("p", row["p1"]), "b": source + points})
+                    total_f += sum(1 for blk in points if blk["k"] == "b")
+                    total_w += sum(len(words(blk).split()) for blk in points)
+                pages += len(new_secs)
+                row["secs"] = new_secs
         write(f"rev{b}.json", book)
     for bk in index["books"]:
-        for r in bk["rows"]:
-            r["n"] = 1
+        rows = [r for u in json.loads((OUT / f"rev{bk['id']}.json").read_text(encoding="utf-8"))["units"] for r in u["rows"]]
+        for r, rr in zip(bk["rows"], rows):
+            r["n"] = len(rr["secs"])
     write("index.json", index)
     write("edition.json", {"edition": "revision", "name": "Rocket Revision"})
-    print(f"{total_f:,} revision points, {total_w:,} words (sheet text {total_notes:,} words); "
-          f"{fallback} sheets kept their key facts")
+    print(f"{pages:,} revision pages, {total_f:,} revision points, {total_w:,} words (notes {total_notes:,} words); "
+          f"{fallback} pages kept their notes")
 
 
 if __name__ == "__main__":

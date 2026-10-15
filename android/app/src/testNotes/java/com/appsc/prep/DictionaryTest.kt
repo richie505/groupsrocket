@@ -52,9 +52,9 @@ class DictionaryTest {
 
     @Test fun everyPageHasKeyTerms() {
         val pages = repo.keyTerms
-        // most ROCKET pages (scripts/build_key_terms.py)
-        assertTrue("${pages.size}", pages.size > 1200)
-        assertTrue(pages["2:0:0"]!!.contains("dyarchy"))
+        // most ROCKET topic pages (scripts/build_key_terms.py)
+        assertTrue("${pages.size}", pages.size > 650)
+        assertTrue(pages["2:0:1"]!!.contains("dyarchy"))
     }
 
     @Test fun shortFormsFromTheNotes() {

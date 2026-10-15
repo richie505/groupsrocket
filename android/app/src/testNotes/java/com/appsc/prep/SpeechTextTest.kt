@@ -56,13 +56,13 @@ class SpeechTextTest {
     }
 
     /** The page in the user's screenshot: title first, the table headings once, then each row. */
-    /** A ROCKET Key facts page: each fact read on its own, without the source line or the [sheet] tags. */
+    /** A ROCKET topic page: each line read on its own, without the source line or the [sheet] tags. */
     @Test fun keyFactsAreReadWithoutSourceTags() {
         val sec = runBlocking { repo.book(2) }.rows[0].secs[0]
         val parts = SpeechText.parts(sec.title, sec.blocks, 2).map { it.second }
-        val first = parts.first { it.contains("Regulating Act") }
-        assertTrue(first, first.startsWith("The Regulating Act of 1773 established the first Supreme Court"))
-        assertFalse(first, first.contains("ROCKET"))
+        val first = parts.first { it.contains("Warren Hastings") }
+        assertTrue(first, first.contains("Warren Hastings became the Governor-General of Bengal"))
+        assertTrue(parts.joinToString("\n"), parts.none { it.contains("ROCKET") })
     }
 
     /** Across all the books, no source tag ("ROCKET SHEET #N", "pp a-b") is spoken. */
@@ -70,8 +70,7 @@ class SpeechTextTest {
         val tag = Regex("""ROCKET SHEET|\bpp \d""")
         var spoken = 0; var left = 0; var before = 0
         for (b in repo.index.map { it.id }) {
-            for (row in runBlocking { repo.book(b) }.rows) {
-                val s = row.secs[0]
+            for (row in runBlocking { repo.book(b) }.rows) for (s in row.secs) {
                 val raw = s.blocks.filterIsInstance<TextBlock>().joinToString(" ") { t -> t.runs.joinToString("") { it.text } }
                 before += tag.findAll(raw).count()
                 SpeechText.parts(s.title, s.blocks, b).forEach { (_, t) -> spoken++; left += tag.findAll(t).count() }
