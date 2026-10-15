@@ -30,7 +30,7 @@ achieve achieving oblige obliges related asked ask passage mentioned mention iss
 expresses express place places cover covers required require requires occurred occur occurs empower empowers necessary doing
 side sides hear explicitly written serve concerned relationship follows follow applies apply appears appear
 phrase approach stated synonymous decision reached make makes decides notes listed list correct formulation
-matters matter cases case""".split())
+matters matter cases case inserted insert inserts""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
            ("great britain", "britain"),
            ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
