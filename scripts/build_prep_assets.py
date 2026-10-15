@@ -17,6 +17,8 @@ import re
 from pathlib import Path
 
 from build_index import PLAN_DAYS, PLAN_START, build_plan
+import structured_md
+import topic_check
 from common import DATA_DIR, MCQS_DIR, ROOT, SHEETS_DIR, load_json, load_syllabus, save_json, slugify
 
 OUT = ROOT / "android" / "app" / "src" / "main" / "assets"
@@ -40,10 +42,13 @@ UNIT_CODES = {
     "Environment": "ENV", "Disaster Management": "DM",
 }
 FACTS_DIR = DATA_DIR / "facts"
+TOPICS_DIR = DATA_DIR / "topics"
+STRUCT_DIR = DATA_DIR / "structured"
 
 
 def priority(facts: int) -> str:
-    return "HIGH" if facts >= 80 else "MED" if facts >= 35 else "LIGHT"
+    """A topic's weight in the plan by its facts."""
+    return "HIGH" if facts >= 200 else "MED" if facts >= 90 else "LIGHT"
 
 
 def tracker_lines(tracker: dict, units: dict) -> tuple[list[str], list[str], str]:
@@ -58,6 +63,38 @@ def paragraphs(text: str) -> list[dict]:
     return [{"k": "p", "x": [[p, 0]]} for p in parts if p]
 
 
+def topic_pages(slug: str, ti: int, name: str, sheets: list) -> tuple[list[dict], dict, dict]:
+    """A topic's pages, and where each fact and sheet landed: (secs, "sid:F3" -> page, sid -> first page).
+    Rewritten topics (data/structured/, checked by topic_check.py) give structured pages; the others one
+    page per sheet with its facts (until they are rewritten)."""
+    md_path = STRUCT_DIR / slug / f"{ti:02d}.md"
+    pages_of = {sid: sh.get("pages", [0, 0]) for sid, sh, _, _ in sheets}
+    if md_path.exists():
+        ok, placed = topic_check.check(slug, ti, verbose=False)
+        if not ok:
+            raise SystemExit(f"{slug}:{ti} does not pass topic_check.py - fix it first")
+        _, pages = topic_check.parse(md_path.read_text(encoding="utf-8"))
+        secs, first = [], {}
+        for i, (title, frm, body) in enumerate(pages):
+            for sid in frm:
+                first.setdefault(sid, i)
+            src = ", ".join(f"#{x} (pp {pages_of[x][0]}-{pages_of[x][1]})" for x in frm)
+            secs.append({"t": title, "badges": ["ROCKET"], "p": pages_of[frm[0]][0],
+                         "b": [{"k": "n", "x": [["Source: ", 1], [f"{name} – ROCKET Sheets PDF, ROCKET SHEET {src}", 0]]}]
+                         + structured_md.to_blocks("\n".join(body), [])})
+        return secs, placed, first
+    secs, placed, first = [], {}, {}
+    for sid, sh, title, fl in sheets:
+        p1, p2 = pages_of[sid]
+        first[sid] = len(secs)
+        for f in fl:
+            placed[f"{sid}:{f['id']}"] = len(secs)
+        secs.append({"t": f"#{sid} · {title}", "badges": ["ROCKET"], "p": p1,
+                     "b": [{"k": "n", "x": [["Source: ", 1], [f"{name} – ROCKET Sheets PDF, ROCKET SHEET #{sid}, pages {p1}-{p2}", 0]]}]
+                     + [{"k": "b", "x": [[f["text"], 0]]} for f in fl]})
+    return secs, placed, first
+
+
 def main() -> None:
     syllabus = load_syllabus()
     units = {u["id"]: u for u in syllabus["units"]}
@@ -68,51 +105,65 @@ def main() -> None:
         if old.name not in ("abbr.json", "acronyms.json", "india.json"):
             old.unlink()
 
-    index_books, row_ref = [], {}  # row_ref: "slug/sheet" -> (book id, row index)
-    row_meta = {}
+    index_books, row_ref, row_meta, topics_of = [], {}, {}, {}
+    moves = {}  # read marks: old sheet page "book:sheet row:0|1" -> new "book:topic row:page"
     for book_id, title, short, subjects in sorted(BOOKS):
         book_units, mcq_rows, mcq_subs, idx_rows, pages = [], {}, {}, [], 0
+        old_row = 0
         for ui, name in enumerate(subjects):
             slug = slugify(name)
             notes = load_json(SHEETS_DIR / f"{slug}.json")
+            by_id = {sh["id"]: sh for sh in notes["sheets"]}
+            old_index = {sh["id"]: old_row + i for i, sh in enumerate(notes["sheets"])}
+            old_row += len(notes["sheets"])
             recs = load_json(MCQS_DIR / f"{slug}.json")["sheets"]
             facts = load_json(FACTS_DIR / f"{slug}.json", {"sheets": {}})["sheets"]
             pages += notes.get("pdf_pages", 0)
-            rows = []
-            for sh in notes["sheets"]:
-                rec = recs.get(sh["id"], {"title": sh["heading"], "tracker": {"g1": [], "g2": []}, "mcqs": []})
-                fl = facts.get(sh["id"], [])
-                fact_text = {f["id"]: f["text"] for f in fl}
-                codes, sub, tag = tracker_lines(rec["tracker"], units)
-                p1, p2 = sh.get("pages", [0, 0])
-                source = f"{name} · ROCKET SHEET #{sh['id']} · pp {p1}-{p2}"
-                secs = [
-                    {"t": f"Key facts ({len(fl)})", "badges": ["ROCKET"], "p": p1,
-                     "b": [{"k": "n", "x": [["Source: ", 1], [f"{name} – ROCKET Sheets PDF, ROCKET SHEET #{sh['id']}, pages {p1}-{p2}", 0]]}]
-                     + [{"k": "b", "x": [[f["text"] + " ", 0], [f"[{source}]", 4]]} for f in fl]},
-                    {"t": "Sheet text (PDF)", "badges": [], "p": p1, "b": paragraphs(sh["text"])},
-                ]
+            rows, topics_of[name] = [], []
+            for ti, topic in enumerate(load_json(TOPICS_DIR / f"{slug}.json")["topics"]):
+                sheets = [(sid, by_id[sid], recs.get(sid, {}).get("title") or by_id[sid]["heading"], facts.get(sid, []))
+                          for sid in topic["sheets"]]
+                secs, placed, first = topic_pages(slug, ti, name, sheets)
+                codes, sub, tags = [], [], []
+                for sid, *_ in sheets:
+                    c, sb, tg = tracker_lines(recs.get(sid, {}).get("tracker", {"g1": [], "g2": []}), units)
+                    codes += [x for x in c if x not in codes]
+                    sub += [x for x in sb if x not in sub]
+                    tags.append(tg)
+                tag = " + ".join(t for t in ("GROUP-I", "GROUP-II") if any(t in x for x in tags)) or "ROCKET"
+                p1 = min(sh.get("pages", [0, 0])[0] for _, sh, _, _ in sheets)
+                p2 = max(sh.get("pages", [0, 0])[1] for _, sh, _, _ in sheets)
                 row_index = len(idx_rows) + len(rows)
+                src = ", ".join(f"#{sid} (pp {sh['pages'][0]}-{sh['pages'][1]})" for sid, sh, _, _ in sheets)
                 rows.append({
-                    "codes": codes, "tag": tag,
-                    "title": f"#{sh['id']} · {rec['title']}",
-                    "sub": sub, "pyq": "", "p1": p1, "p2": p2, "secs": secs,
-                    "src": [f"Source: {name} – ROCKET Sheets.pdf, ROCKET SHEET #{sh['id']} (pp {p1}-{p2})"],
+                    "codes": codes, "tag": tag, "title": topic["title"], "sub": sub, "pyq": "", "p1": p1, "p2": p2,
+                    "secs": secs, "src": [f"Source: {name} – ROCKET Sheets.pdf, ROCKET SHEET {src}"],
                 })
-                qs = [{
-                    "id": "n" + q["id"], "s": q["question"], "o": q["options"], "a": q["answer"],
-                    "x": q["explanation"],
-                    "tq": f"{q['format']} · tests the “{q['keyword']}” angle" if q.get("keyword") else q["format"],
-                    **({"n": [f"{fact_text[f]} [{name} · ROCKET SHEET #{sh['id']} · pp {p1}-{p2}]"
-                              for f in q.get("facts", []) if f in fact_text]} if q.get("facts") else {}),
-                } for q in rec["mcqs"]]
+                qs, subs = [], []
+                for sid, sh, _, fl in sheets:
+                    fact_text = {f["id"]: f["text"] for f in fl}
+                    sp1, sp2 = sh.get("pages", [0, 0])
+                    for q in recs.get(sid, {}).get("mcqs", []):
+                        at = [placed[f"{sid}:{f}"] for f in q.get("facts", []) if f"{sid}:{f}" in placed]
+                        subs.append(max(set(at), key=at.count) if at else first[sid])
+                        qs.append({
+                            "id": "n" + q["id"], "s": q["question"], "o": q["options"], "a": q["answer"],
+                            "x": q["explanation"],
+                            "tq": f"{q['format']} · tests the “{q['keyword']}” angle" if q.get("keyword") else q["format"],
+                            **({"n": [f"{fact_text[f]} [{name} · ROCKET SHEET #{sid} · pp {sp1}-{sp2}]"
+                                      for f in q.get("facts", []) if f in fact_text]} if q.get("facts") else {}),
+                        })
+                    for old_sec in (0, 1):
+                        moves[f"{book_id}:{old_index[sid]}:{old_sec}"] = f"{book_id}:{row_index}:{first[sid]}"
                 if qs:
                     mcq_rows[str(row_index)] = qs
-                    mcq_subs[str(row_index)] = [0] * len(qs)
-                ref = f"{slug}/{sh['id']}"
+                    mcq_subs[str(row_index)] = subs
+                ref = f"{slug}/T{ti}"
                 row_ref[ref] = (book_id, row_index)
-                row_meta[ref] = {"codes": codes, "topic": f"{name} #{sh['id']} · {rec['title']}", "p": f"{p1}-{p2}",
-                                 "pri": priority(len(fl)), "facts": len(fl), "q": len(qs)}
+                nf = sum(len(fl) for *_, fl in sheets)
+                row_meta[ref] = {"codes": codes, "topic": f"{name} · {topic['title']}", "p": f"{p1}-{p2}",
+                                 "pri": priority(nf), "facts": nf, "q": len(qs), "sheets": len(sheets)}
+                topics_of[name].append({"ref": ref, "title": topic["title"], "count": len(qs)})
             book_units.append({"code": UNIT_CODES[name], "title": name, "rows": rows})
             for r in rows:
                 idx_rows.append({"u": ui, "codes": r["codes"], "title": r["title"], "tag": r["tag"], "pyq": "",
@@ -124,14 +175,16 @@ def main() -> None:
         index_books.append({"id": book_id, "title": title, "short": short, "pages": pages,
                             "units": [{"code": u["code"], "title": u["title"]} for u in book_units],
                             "rows": idx_rows, "uq": {}})
-        print(f"book{book_id} {short:22} {len(idx_rows):3} sections, {sum(len(v) for v in mcq_rows.values())} MCQs")
+        print(f"book{book_id} {short:22} {len(idx_rows):3} topics, {sum(len(v) for v in mcq_rows.values())} MCQs")
     save_json(OUT / "index.json", {"books": index_books})
-    save_json(OUT / "plan.json", build_prep_plan(row_ref, row_meta))
+    save_json(OUT / "plan.json", build_prep_plan(row_ref, row_meta, topics_of))
+    # read marks and bookmarks follow their sheet to its topic page (once, ProgressStore.migrate)
+    save_json(OUT / "moved.json", {"v": "rocket-topics-1", "m": moves, "g": []})
 
 
-def build_prep_plan(row_ref: dict, row_meta: dict) -> dict:
+def build_prep_plan(row_ref: dict, row_meta: dict, topics_of: dict) -> dict:
     index = load_json(DATA_DIR / "index.json")
-    plan = build_plan(index["subjects"])
+    plan = build_plan(index["subjects"], topics_of)
     start = dt.date.fromisoformat(PLAN_START)
     days = []
     for n, d in enumerate(plan, 1):
@@ -144,29 +197,29 @@ def build_prep_plan(row_ref: dict, row_meta: dict) -> dict:
         kind = d["type"]
         if kind == "study":
             typ, phase, focus = "study", "PHASE 1 FIRST PASS", d.get("block", "").upper()
-            brief = [f"Read: {d['title']} ({len(refs)} sheets, {f} facts).",
-                     f"Practise: {q} MCQs – the MCQ practice after each sheet."]
+            brief = [f"Read: {d['title']} ({len(refs)} topics, {sum(row_meta[r]['sheets'] for r in refs)} ROCKET sheets, {f} facts).",
+                     f"Practise: {q} MCQs – the MCQ practice after each topic."]
             tasks = [
-                {"time": "07:00-09:30", "block": "Sheets 1", "task": "First half of today's sheets: read Key facts, then Sheet text. Mark each sheet done."},
-                {"time": "10:00-12:30", "block": "MCQs 1", "task": "MCQ practice after each of those sheets. Every miss: open the facts it tests."},
-                {"time": "14:00-16:30", "block": "Sheets 2", "task": "Second half of today's sheets, same routine."},
+                {"time": "07:00-09:30", "block": "Topics 1", "task": "First half of today's topics: read each page, mark it read."},
+                {"time": "10:00-12:30", "block": "MCQs 1", "task": "MCQ practice after each of those topics. Every miss: open the facts it tests."},
+                {"time": "14:00-16:30", "block": "Topics 2", "task": "Second half of today's topics, same routine."},
                 {"time": "17:00-19:00", "block": "MCQs 2", "task": "MCQ practice for the second half, then Retry wrong answers."},
-                {"time": "20:00-20:30", "block": "Recall", "task": "Close the app: recall each sheet's facts aloud; reopen the ones you missed."},
+                {"time": "20:00-20:30", "block": "Recall", "task": "Close the app: recall each topic's facts aloud; reopen the ones you missed."},
             ]
         elif kind == "review":
             typ, phase, focus = "sunday", "WEEKLY REVIEW", ""
-            brief = [f"This week's sheets: {len(refs)} sheets, {q} MCQs.", "Weekly test: 50 random MCQs from them."]
+            brief = [f"This week's topics: {len(refs)} topics, {q} MCQs.", "Weekly test: 50 random MCQs from them."]
             tasks = [
-                {"time": "08:00-09:00", "block": "Weekly test", "task": "Topic practice on this week's sheets: 50 random questions, net score with 1/3 negative marking."},
-                {"time": "09:30-12:30", "block": "Repair", "task": "Re-read the Key facts of every sheet behind a wrong answer."},
+                {"time": "08:00-09:00", "block": "Weekly test", "task": "Practice on this week's topics: 50 random questions, net score with 1/3 negative marking."},
+                {"time": "09:30-12:30", "block": "Repair", "task": "Re-read the page behind every wrong answer."},
                 {"time": "14:00-16:00", "block": "Saved", "task": "Go through Saved questions and retry wrong answers."},
             ]
         elif kind == "revision":
             typ, phase, focus = "revision", "PHASE 2 R2 REVISION", d.get("block", "").upper()
-            brief = [f"{d['title']}: {len(refs)} sheets, {q} MCQs.", "Revise Key facts; practise the weak sheets."]
+            brief = [f"{d['title']}: {len(refs)} topics, {q} MCQs.", "Revise the pages; practise the weak topics."]
             tasks = [
-                {"time": "07:00-12:30", "block": "Revise", "task": "Key facts of each sheet below; spend longest on sheets with low MCQ scores."},
-                {"time": "14:00-17:00", "block": "MCQs", "task": "Practise 100 random MCQs from these sheets; retry wrong answers."},
+                {"time": "07:00-12:30", "block": "Revise", "task": "Pages of each topic below; spend longest on topics with low MCQ scores."},
+                {"time": "14:00-17:00", "block": "MCQs", "task": "Practise 100 random MCQs from these topics; retry wrong answers."},
             ]
         else:  # mock / repair
             typ, phase, focus = "mock", "PHASE 3 MOCKS", ""
@@ -175,7 +228,7 @@ def build_prep_plan(row_ref: dict, row_meta: dict) -> dict:
                 {"time": "09:30-12:00", "block": "Mock" if kind == "mock" else "Repair",
                  "task": "Full mixed test from all 721 sheets, exam timing, net score with 1/3 negative marking."
                  if kind == "mock" else "Retry every wrong answer; re-read the facts behind each miss."},
-                {"time": "13:00-15:00", "block": "Analyse", "task": "Sort misses: didn't know / confused / careless. Re-read those sheets."},
+                {"time": "13:00-15:00", "block": "Analyse", "task": "Sort misses: didn't know / confused / careless. Re-read those pages."},
             ]
         days.append({
             "n": n, "date": date.isoformat(), "dow": date.strftime("%a"), "phase": phase, "focus": focus,
@@ -186,8 +239,8 @@ def build_prep_plan(row_ref: dict, row_meta: dict) -> dict:
         })
     end = start + dt.timedelta(days=PLAN_DAYS)
     buffer = [
-        {"dates": f"{end.day} Dec", "work": "Polity & Society, History: sheets with the lowest MCQ scores first"},
-        {"dates": f"{end.day + 1}-{end.day + 2} Dec", "work": "Geography, Economy: Key facts of HIGH sheets"},
+        {"dates": f"{end.day} Dec", "work": "Polity & Society, History: topics with the lowest MCQ scores first"},
+        {"dates": f"{end.day + 1}-{end.day + 2} Dec", "work": "Geography, Economy: HIGH topics"},
         {"dates": f"{end.day + 3} Dec – 2 Jan", "work": "Science & Environment; then Saved questions and wrong answers"},
     ]
     return {"start": PLAN_START, "exam": EXAM.isoformat(), "examLabel": EXAM_LABEL, "days": days, "buffer": buffer}

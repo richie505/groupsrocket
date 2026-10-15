@@ -49,9 +49,17 @@ def _split(items: list, parts: int, weight) -> list[list]:
     return [g for g in groups if g]
 
 
-def build_plan(subjects: list[dict]) -> list[dict]:
+def build_plan(subjects: list[dict], topics: dict | None = None) -> list[dict]:
+    """[topics]: subject name -> [{"ref", "title", "count"}] in study order; the plan then moves topic by topic
+    (build_prep_assets.py) instead of sheet by sheet. Days per subject are the same either way."""
     by_name = {s["name"]: s for s in subjects}
-    ref = lambda s, sh: f"{s['slug']}/{sh['id']}"  # noqa: E731
+    if topics:
+        subjects = [dict(s, sheets=[{"id": t["ref"], "title": t["title"], "count": t["count"]} for t in topics[s["name"]]])
+                    for s in subjects]
+        by_name = {s["name"]: s for s in subjects}
+        ref = lambda s, sh: sh["id"]  # noqa: E731
+    else:
+        ref = lambda s, sh: f"{s['slug']}/{sh['id']}"  # noqa: E731
     count = lambda item: max(1, item[1]["count"])  # noqa: E731
 
     study_days = [d for d in range(1, STUDY_UNTIL + 1) if d % 7]
@@ -75,11 +83,16 @@ def build_plan(subjects: list[dict]) -> list[dict]:
         subj = by_name[name]
         items = [(subj, sh) for sh in subj["sheets"]]
         for group in _split(items, alloc[name], count):
-            first, last = group[0][1]["id"], group[-1][1]["id"]
+            if topics:
+                first, last = group[0][1]["title"], group[-1][1]["title"]
+                title = f"{name} · {first}" + (f" → {last}" if len(group) > 1 else "")
+            else:
+                first, last = group[0][1]["id"], group[-1][1]["id"]
+                title = f"{name} · ROCKET Sheets #{first}" + (f" to #{last}" if first != last else "")
             plan[next(days)] = {
                 "type": "study",
                 "block": block_of[name],
-                "title": f"{name} · ROCKET Sheets #{first}" + (f" to #{last}" if first != last else ""),
+                "title": title,
                 "sheets": [ref(s, sh) for s, sh in group],
             }
     for d in range(7, STUDY_UNTIL + 1, 7):
