@@ -25,7 +25,8 @@ called also used one first mean means meant seek seeks secure secures refer refe
 including identify identifies identified describe describes described concern concerns note notable important
 enacted enact became become covered associated provided introduced added act acts effective modeled modelled
 approximately about held took won contained contains contain complete completed work provide provides providing decided decide specifies specify need versus currently presently comprise comprises deal deals regarding due must fall cannot india becomes become upon consists consist consisting considered purpose
-purposes among themselves chosen""".split())
+purposes among themselves chosen exercise exercises exercising namely affect affects lead leads aim aims
+achieve achieving oblige obliges related asked ask passage""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
            ("great britain", "britain"),
            ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
