@@ -69,6 +69,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -205,8 +207,8 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         val s = speech ?: return
         var cursor = pos
         s.play(SpeechPage(id, sec.title, parts.map { it.second }), from, store.speechRate) {
-            // then on through the book, page by page
-            book.next(cursor)?.let { cursor = it; page(it) }
+            // then on through the book, page by page - unless the reader chose this subsection only
+            if (store.speechThisPageOnly) null else book.next(cursor)?.let { cursor = it; page(it) }
         }
     }
 
@@ -452,7 +454,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     shape = RoundedCornerShape(12.dp),
                                 ) {
                                     Text(
-                                        "Practice $subQ MCQs on this subsection",
+                                        "Practice ${mcqCount(subQ)} on this subsection",
                                         style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                     )
                                 }
@@ -466,7 +468,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     shape = RoundedCornerShape(12.dp),
                                 ) {
                                     Text(
-                                        "Practice all $qCount MCQs of this section",
+                                        "Practice all ${mcqCount(qCount)} of this section",
                                         style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.ExamInk),
                                     )
                                 }
@@ -546,6 +548,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                 playing = pb.playing && here,
                 position = "${part + 1} / ${parts.size}",
                 rate = store.speechRate,
+                thisPageOnly = store.speechThisPageOnly,
                 onPlayPause = {
                     when {
                         !here -> play(0)
@@ -561,6 +564,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                     store.changeSpeechRate(r)
                     speech.setRate(r)
                 },
+                onScope = { store.changeSpeechThisPageOnly(!store.speechThisPageOnly) },
                 onClose = { speech.stop() },
                 modifier = Modifier.align(Alignment.BottomCenter),
             )
@@ -789,10 +793,12 @@ private fun PlayerBar(
     playing: Boolean,
     position: String,
     rate: Float,
+    thisPageOnly: Boolean,
     onPlayPause: () -> Unit,
     onPrev: () -> Unit,
     onNext: () -> Unit,
     onRate: () -> Unit,
+    onScope: () -> Unit,
     onClose: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -818,6 +824,16 @@ private fun PlayerBar(
             Modifier.clip(RoundedCornerShape(8.dp)).background(C.AccentSoft).clickable(onClick = onRate).padding(horizontal = 10.dp, vertical = 6.dp),
         ) {
             Text("${if (rate % 1f == 0f) rate.toInt() else rate}×", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.Bold, color = C.Accent))
+        }
+        // what happens at the end of the subsection: go on to the next one, or stop here
+        Box(
+            Modifier.padding(start = 6.dp).clip(RoundedCornerShape(8.dp))
+                .background(if (thisPageOnly) C.Accent else C.AccentSoft)
+                .clickable(onClick = onScope)
+                .semantics { contentDescription = if (thisPageOnly) "Reading this subsection only. Tap to read on through the book" else "Reading on through the book. Tap to read this subsection only" }
+                .padding(horizontal = 8.dp, vertical = 6.dp),
+        ) {
+            Text(if (thisPageOnly) "This page" else "Read on", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.Bold, color = if (thisPageOnly) Color.White else C.Accent))
         }
         Text(
             position,

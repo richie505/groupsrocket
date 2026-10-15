@@ -7,12 +7,14 @@ import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.appsc.prep.ui.components.studyClock
 import com.appsc.prep.ui.screens.BookScreen
 import com.appsc.prep.ui.screens.BooksScreen
 import com.appsc.prep.ui.screens.DayScreen
@@ -68,7 +70,15 @@ class NavImpl(private val nav: NavHostController) : Nav {
 
 @Composable
 fun AppNavHost(nav: NavHostController, actions: Nav) {
-    NavHost(nav, startDestination = "today") {
+    NavHost(nav, startDestination = "today", modifier = Modifier.studyClock(
+        route = { nav.currentBackStackEntry?.destination?.route },
+        what = {
+            nav.currentBackStackEntry?.let { e ->
+                val a = e.arguments
+                spentKey(e.destination.route, { a?.getInt(it) ?: 0 }, { a?.getString(it) })
+            }
+        },
+    )) {
         composable("today") { TodayScreen(actions) }
         composable("plan") { PlanScreen(actions) }
         composable("books") { BooksScreen(actions) }
@@ -117,4 +127,12 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             ReaderScreen(it.arguments!!.getInt("b"), it.arguments!!.getInt("r"), it.arguments!!.getInt("s"), actions)
         }
     }
+}
+
+/** The page or MCQ practice a screen is on, for the study-time record ([com.appsc.prep.data.Spent]). */
+fun spentKey(route: String?, int: (String) -> Int, str: (String) -> String?): String? = when {
+    route == null -> null
+    route.startsWith("read/") -> "n:${int("b")}:${int("r")}:${int("s")}"
+    route.startsWith("quiz/") -> "q:${str("k")}:${int("b")}:${int("i")}:${int("s")}"
+    else -> null
 }

@@ -16,7 +16,7 @@ data class Run(val text: String, val flags: Int) {
 sealed interface Block
 
 /**
- * [kind]: 'b' bullet, 's' sub-bullet, 'p' paragraph, 'x' exam angle,
+ * [kind]: 'h' heading inside a page, 'b' bullet, 's' sub-bullet, 'p' paragraph, 'x' exam angle,
  * 'a' see-also / cross reference, 'n' grey note.
  */
 data class TextBlock(val kind: Char, val runs: List<Run>) : Block
@@ -147,6 +147,15 @@ fun subsectionId(book: Int, row: Int, sec: Int) = "$book:$row:$sec"
 
 /** Subsection ids changed in notes [version]: old id -> new id; [merged]: old ids merged into another page. */
 data class IdMoves(val version: String, val map: Map<String, String>, val merged: Set<String>)
+
+/** Rounds of moved note keys ("2:61:0#8" -> "2:61:0#7") from rewriting pages (tools/restructure_import.py), in order. */
+data class NoteMoves(val rounds: List<Pair<String, Map<String, String>>>) {
+    val ids get() = rounds.map { it.first }
+
+    /** Moves [keys] through the rounds not in [applied]. */
+    fun <V> apply(notes: Map<String, V>, applied: Collection<String>): Map<String, V> =
+        rounds.filter { it.first !in applied }.fold(notes) { acc, (_, m) -> acc.mapKeys { (k, _) -> m[k] ?: k } }
+}
 
 // ---- MCQ practice (MCQs written from the notes) ----
 

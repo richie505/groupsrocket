@@ -143,6 +143,7 @@ class AppState(val repo: Repository, val store: ProgressStore, val platform: Pla
 
     init {
         store.migrate(repo.idMoves)
+        store.migrateNotes(repo.noteMoves)
     }
 }
 

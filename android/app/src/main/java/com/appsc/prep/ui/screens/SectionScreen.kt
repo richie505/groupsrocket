@@ -186,7 +186,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                 s.badges.forEach { BadgeTag(it) }
                                 if (subQ > 0) {
                                     Tag(
-                                        "Practice $subQ MCQs",
+                                        "Practice ${mcqCount(subQ)}",
                                         C.ExamBg, C.ExamInk,
                                         modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, sub = i) },
                                     )
@@ -220,7 +220,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav) {
                                 style = TextStyle(fontSize = 12.sp, color = C.Muted),
                             )
                         }
-                        Tag("Practice $otherQ MCQs", C.ExamBg, C.ExamInk)
+                        Tag("Practice ${mcqCount(otherQ)}", C.ExamBg, C.ExamInk)
                     }
                     HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 50.dp))
                 }

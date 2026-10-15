@@ -145,6 +145,16 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(IdMoves("", emptyMap(), emptySet()))
     }
 
+    val noteMoves: NoteMoves by lazy {
+        runCatching {
+            NoteMoves(
+                readJson("notemoves.json").jsonArray.map { r ->
+                    r.str("id") to r.jsonObject["m"]!!.jsonObject.mapValues { it.value.jsonPrimitive.content }
+                },
+            )
+        }.getOrDefault(NoteMoves(emptyList()))
+    }
+
     /** Short forms checked against the notes (tools/build_acronyms.py), for full forms and read-aloud. */
     val checkedAcronyms: Map<String, List<Pair<String, List<String>>>> by lazy {
         runCatching {

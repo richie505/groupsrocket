@@ -1,6 +1,8 @@
 package com.appsc.prep
 
+import com.appsc.prep.data.DayLog
 import com.appsc.prep.data.IdMoves
+import com.appsc.prep.data.NoteMoves
 import com.appsc.prep.data.ProgressStore
 import com.appsc.prep.data.Saved
 import com.appsc.prep.data.SpeechText
@@ -50,6 +52,72 @@ class BackupTest {
 
         // restoring the same file again adds nothing new
         assertEquals(0, fresh.restore(file, moves).read)
+    }
+
+    @Test fun timeOnEachPageComesBackOnANewPhone() {
+        val phone = ProgressStore(MemStorage())
+        phone.addStudyTime(notes = true, seconds = 900, what = "n:2:77:0")
+        phone.practising = "q:sub:2:77:0"
+        phone.recordAnswer("n2-1", true)
+        phone.recordAnswer("n2-2", false)
+        phone.addStudyTime(notes = false, seconds = 300, what = "q:sub:2:77:0")
+        assertEquals(com.appsc.prep.data.Spent(900, 0), phone.spentOn()["n:2:77:0"])
+        assertEquals(com.appsc.prep.data.Spent(300, 2), phone.spentOn()["q:sub:2:77:0"])
+        val file = phone.backup()
+
+        val fresh = ProgressStore(MemStorage())
+        fresh.addStudyTime(notes = true, seconds = 60, what = "n:2:77:0")
+        fresh.restore(file, moves)
+        assertEquals(com.appsc.prep.data.Spent(960, 0), fresh.spentOn()["n:2:77:0"]) // both phones' time
+        fresh.restore(file, moves)
+        assertEquals(com.appsc.prep.data.Spent(960, 0), fresh.spentOn()["n:2:77:0"]) // the same file twice counts once
+    }
+
+    @Test fun activityLogAddsUpAcrossDevices() {
+        val phone = ProgressStore(MemStorage())
+        phone.recordAnswer("n1-1", true)
+        phone.recordAnswer("n1-2", false)
+        phone.markSeen("n1-3")
+        phone.addStudyTime(notes = true, seconds = 600)
+        phone.addStudyTime(notes = false, seconds = 300)
+        assertEquals(DayLog(mcqs = 3, correct = 1, notesSec = 600, mcqSec = 300), phone.dayLog())
+
+        val desktop = ProgressStore(MemStorage())
+        desktop.recordAnswer("n2-1", true)
+        desktop.addStudyTime(notes = false, seconds = 120)
+        desktop.restore(phone.backup(), moves)
+        val both = DayLog(mcqs = 4, correct = 2, notesSec = 600, mcqSec = 420)
+        assertEquals(both, desktop.dayLog())
+        desktop.restore(phone.backup(), moves) // the same backup twice counts once
+        assertEquals(both, desktop.dayLog())
+
+        // back on the phone: the desktop's file carries the phone's own log too, which is not counted twice
+        phone.restore(desktop.backup(), moves)
+        assertEquals(both, phone.dayLog())
+    }
+
+    @Test fun ownNotesFollowRewrittenPages() {
+        val round1 = NoteMoves(listOf("b2-1" to mapOf("2:5:0#8" to "2:5:0#3")))
+        val both = NoteMoves(round1.rounds + ("b2-2" to mapOf("2:5:0#3" to "2:5:0#1")))
+        val phone = ProgressStore(MemStorage())
+        phone.setAdded("2:5:0#8", "found it")
+        val oldFile = phone.backup() // made before any rewrite
+        phone.migrateNotes(round1)
+        assertEquals("found it", phone.added["2:5:0#3"])
+        phone.migrateNotes(round1) // once only
+        assertEquals(setOf("2:5:0#3"), phone.added.keys)
+        phone.migrateNotes(both)
+        assertEquals(setOf("2:5:0#1"), phone.added.keys)
+
+        // an old backup's notes are moved through every round; a new one's only through the rounds it lacks
+        val desktop = ProgressStore(MemStorage())
+        desktop.migrateNotes(both)
+        desktop.restore(oldFile, moves, both)
+        assertEquals(setOf("2:5:0#1"), desktop.added.keys)
+        val laptop = ProgressStore(MemStorage())
+        laptop.migrateNotes(both)
+        laptop.restore(phone.backup(), moves, both)
+        assertEquals(setOf("2:5:0#1"), laptop.added.keys)
     }
 
     @Test fun oldBackupFollowsTheRegroupedPages() {

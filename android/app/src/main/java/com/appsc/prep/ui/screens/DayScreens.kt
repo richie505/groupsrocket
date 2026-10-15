@@ -1,5 +1,6 @@
 package com.appsc.prep.ui.screens
 
+import com.appsc.prep.ui.components.studyTime
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -110,6 +111,14 @@ fun TodayScreen(nav: Nav) {
                     app.repo.appName,
                     style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                 )
+                val log = app.store.dayLog(today)
+                if (!log.empty) {
+                    Text(
+                        "Today so far: ${log.mcqs} MCQs · notes ${studyTime(log.notesSec)} · MCQs ${studyTime(log.mcqSec)}",
+                        style = TextStyle(fontSize = 13.sp, color = C.Body),
+                        modifier = Modifier.padding(top = 2.dp),
+                    )
+                }
             }
         }
         item { HeroCard(day, daysToExam, plan.examLabel, beforePlan, afterPlan, nav) }
@@ -303,7 +312,7 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
                     title = info?.title ?: r.topic,
                     meta = listOfNotNull(
                         r.pages.takeIf { it.isNotBlank() }?.let { "pp $it" },
-                        info?.questionCount?.takeIf { it > 0 }?.let { "$it MCQs" },
+                        info?.questionCount?.takeIf { it > 0 }?.let { mcqCount(it) },
                         "$total subsections",
                     ).joinToString(" · "),
                     priority = r.priority,

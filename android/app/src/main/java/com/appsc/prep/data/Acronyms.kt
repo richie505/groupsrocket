@@ -22,7 +22,7 @@ object Acronyms {
                 is TextBlock -> b.runs.joinToString("") { it.text }
                 is TableBlock -> (listOf(b.head) + b.rows).joinToString(" ") { r -> r.joinToString(" ") { c -> c.joinToString("") { it.text } } }
             }
-        }.lowercase() + " " + context.lowercase()
+        } + " " + context // as written: picking words in capitals ("NITI") must match the page too
         val seen = HashSet<String>()
         fun runs(rs: List<Run>): List<Run> {
             val text = rs.joinToString("") { it.text }

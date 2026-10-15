@@ -77,6 +77,14 @@ fun BlockView(block: Block, scale: Float) {
                     Text(text, style = if (sub) body.copy(fontSize = (15 * scale).sp) else body)
                 }
             }
+            'h' -> {
+                val text = remember(block) { annotated(block.runs, base = C.Ink, strong = C.Ink) }
+                Text(
+                    text,
+                    style = body.copy(fontSize = (17 * scale).sp, fontWeight = FontWeight.Bold, color = C.Ink),
+                    modifier = Modifier.padding(top = 14.dp, bottom = 2.dp),
+                )
+            }
             'x' -> Callout(block.runs, C.ExamBg, C.ExamInk, "Exam angle", scale)
             'a' -> Callout(block.runs, C.SeeBg, C.SeeInk, null, scale)
             com.appsc.prep.data.UserNotes.KIND -> Callout(block.runs, C.GreenSoft, C.Green, "Your note", scale)
@@ -149,14 +157,39 @@ private fun TableView(t: TableBlock, scale: Float) {
     }
     BoxWithConstraints(Modifier.padding(vertical = 8.dp).fillMaxWidth()) {
         val avail = maxWidth - 2.dp
+        // tables of up to 3 columns always fit the page (a very long word may wrap); wider ones may scroll
+        val fit = cols <= 3
         val mins = stats.map { (longest, _) -> (longest * 8.2f * scale + 22).dp }
+        val minSum = mins.fold(0.dp) { a, b -> a + b }
         val weights = stats.map { (_, total) -> kotlin.math.sqrt(total.toFloat()) }
         val wsum = weights.sum()
-        var widths = weights.map { avail * (it / wsum) }.mapIndexed { i, w -> maxOf(w, mins[i]) }
+        var widths = if (fit && minSum > avail) {
+            // the longest words alone overflow: cap the widest columns at one level, so columns of short
+            // words keep them whole and only the very longest words break
+            val sorted = mins.sortedBy { it.value }
+            var rest = avail
+            var cap = avail
+            for ((i, m) in sorted.withIndex()) {
+                val even = rest / (sorted.size - i)
+                if (m > even) { cap = even; break }
+                rest -= m
+            }
+            mins.map { minOf(it, cap) }
+        } else {
+            weights.map { avail * (it / wsum) }.mapIndexed { i, w -> maxOf(w, mins[i]) }
+        }
         val used = widths.fold(0.dp) { a, b -> a + b }
         if (used < avail) {
             // hand back the space, keeping proportions
             widths = widths.map { it * (avail / used) }
+        } else if (fit && minSum > avail) {
+            widths = widths.map { it * (avail / used) }
+        } else if (fit) {
+            // too wide: take the excess only from the room above each column's longest word
+            val slack = widths.mapIndexed { i, w -> w - mins[i] }
+            val slackSum = slack.fold(0.dp) { a, b -> a + b }
+            val cut = (used - avail) / slackSum
+            widths = widths.mapIndexed { i, w -> w - slack[i] * cut }
         } else if (cols >= 2) {
             widths = widths.map { minOf(it, 260.dp) }
             // capping can leave the table narrower than the page (a wide window): spread it back to full width

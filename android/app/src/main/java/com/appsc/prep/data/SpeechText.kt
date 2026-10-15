@@ -563,7 +563,7 @@ object SpeechText {
      */
     fun meaning(word: String, plural: String, before: String, after: String, book: Int, page: String = ""): String? {
         fun pl(s: String) = if (plural.isNotEmpty()) pluralOf(s) else s
-        contextual(word + plural, word, before, after, book)?.let { return it }
+        contextual(word + plural, word, before, after, book, page)?.let { return it }
         val senses = checked[word + plural]?.let { it to false } ?: checked[word]?.let { it to true }
         if (senses != null) {
             val (list, plural2) = senses
@@ -650,17 +650,21 @@ object SpeechText {
     )
 
     /** Short forms whose meaning depends on the words around them or on the subject (book). */
-    private fun contextual(token: String, word: String, before: String, after: String, book: Int): String? {
+    private fun contextual(token: String, word: String, before: String, after: String, book: Int, page: String = ""): String? {
         val prev = before.trimEnd().substringAfterLast(' ').lowercase()
         val plural = token != word
         fun p(s: String, pl: String = s + "s") = if (plural) pl else s
         return when (word) {
             "SC" -> when {
-                plural || Regex("""^\s*(/|and|,|-)\s*(ST|BC|OBC)""").containsMatchIn(after) ||
+                // a health Sub-Centre next to PHCs: "building-less SCs/PHCs"
+                Regex("""^\s*(/|,|and|or)\s*PHCs?\b""").containsMatchIn(after) -> p("Sub-Centre")
+                plural || Regex("""^\s*(/|and|,|-|\+)\s*((at least\s+)?(one|1)\s+)?(ST|BC|OBC)\b""").containsMatchIn(after) ||
                     Regex("""(ST|BC|OBC)\s*(/|and|,)\s*$""").containsMatchIn(before) -> p("Scheduled Caste")
                 // the words right next to it: "SC students" / "the SC held", "challenged in the SC" / "5 lakh SC"
-                Regex("""^\s*(\+|commission|finance|development|sub|students|families|women|households|hostel|colon|population|communit|beneficiar|candidates|seats|reservation|quota|sub-plan|component|corporation|welfare|category|categories|persons|people|youth|girls|boys|farmers|entrepreneurs|employees|MLAs|MPs|share|percentage|%|habitation|villages|dalit|groups|sub-caste|sub-classif)""", RegexOption.IGNORE_CASE).containsMatchIn(after) -> "Scheduled Caste"
-                Regex("""^\s*(\(|'s|’s|bench|held|ruled|upheld|struck|ordered|directed|said|observed|judg|verdict|order|collegium|judge|stayed|quashed|allowed|dismissed|asked|issued|refused|declined|set aside|noted|clarified|cited|constitution bench|on \d|has |had |will |would |can |may |agreed|sought|flagged|reserved|transferred|appointed|recommend)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                Regex("""^\s*(\+|commission|finance|development|sub|students|families|women|households|hostel|colon|population|communit|beneficiar|candidates|seats|reservation|quota|sub-plan|component|corporation|welfare|category|categories|persons|people|youth|girls|boys|farmers|entrepreneurs|employees|MLAs|MPs|share|percentage|%|habitation|villages|dalit|groups|sub-caste|sub-classif|status|converts|poverty|literacy|sex ratio|-?majority|\d+(\.\d+)?\s*%)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                    Regex("""(\d\s*%|targets)\s*$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Scheduled Caste"
+                Regex("""^\s*(\(|'s|’s|bench|held|ruled|upheld|struck|ordered|directed|said|observed|judg|verdict|order|collegium|judge|stayed|quashed|allowed|dismissed|asked|issued|refused|declined|set aside|noted|clarified|cited|constitution bench|on\b|has |had |will |would |can |may |agreed|sought|flagged|reserved|transferred|appointed|recommend|ruling|notice|banned|bars|barred|extended|let\b|upholds|holds|:\s|(19|20)\d\d\b(?!\s*%)|(/|,|and|&)\s*HCs?\b|,\s*(\d{1,2}\s+)?(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|,[^;:]{0,60}\s(v\.?|versus)\s)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                    Regex("""\s(v\.?|versus)\s[^;:()]{0,40},\s*$""").containsMatchIn(before) ||
                     Regex("""(\bin|before|\bby|moved|approached|challenged in|apex|told|petition in|plea in|appeal to|appealed to|of the|verdict of|judgment of|ruling of|decision of|bench of|judges of|judge of|from the|go to|went to)\s*(the\s*)?$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Supreme Court"
                 Regex("""(\d|lakh|crore|for|among|backward|poor|landless|tribal|and the|women of)\s*$""", RegexOption.IGNORE_CASE).containsMatchIn(before) -> "Scheduled Caste"
                 else -> {
@@ -678,29 +682,63 @@ object SpeechText {
             }
             "ST" -> p("Scheduled Tribe")
             "BC" -> if (Regex("""\d\s*$""").containsMatchIn(before)) "B C" else p("Backward Class", "Backward Classes")
-            "MP" -> if (plural || prev in setOf("a", "an", "each", "every", "the", "any", "sitting", "elected", "nominated", "one", "no", "former"))
-                p("Member of Parliament", "Members of Parliament") else "Madhya Pradesh"
-            "CPI" -> if (book == 1 || (book == 2 && !Regex("""^\s*(inflation|\(|-|basket|combined|rural|urban)""", RegexOption.IGNORE_CASE).containsMatchIn(after)))
+            "MP" -> when {
+                // national income ("FC = MP - Net Indirect Taxes", "MP vs FC") and the EPF & MP Act
+                Regex("""^\s*((vs\.?|versus)\s*FC|-\s*Net\b)""").containsMatchIn(after) -> "market price"
+                Regex("""EPF\s*(&|and)\s*$""").containsMatchIn(before) -> "Miscellaneous Provisions"
+                // "an MP", "MP/MLA", "BJP MP", "Tirupati MP", "MP must resign" (a state follows a comma: "Raisen, MP")
+                plural || prev in setOf("a", "an", "each", "every", "the", "any", "sitting", "elected", "nominated", "one", "no", "former", "as") ||
+                    Regex("""^\s*(/\s*MLA|or MLA|must|recommends|moved|sought|of either)""").containsMatchIn(after) ||
+                    Regex("""(?<![A-Za-z])[A-Z][A-Za-z]+ $""").containsMatchIn(before) && prev !in setOf("and", "or") ->
+                    p("Member of Parliament", "Members of Parliament")
+                else -> "Madhya Pradesh"
+            }
+            // a page of global indices (with the Global Peace Index): Transparency International's Corruption Perceptions Index
+            "CPI" -> if (Regex("""Corruption Perceptions? Index|Transparency International|\bGPI\b|Global Peace Index""").containsMatchIn(page) &&
+                !Regex("""^\s*(inflation|basket|combined|-)""", RegexOption.IGNORE_CASE).containsMatchIn(after)) "Corruption Perceptions Index"
+            else if (book == 1 || (book == 2 && !Regex("""^\s*(inflation|\(|-|basket|combined|rural|urban)""", RegexOption.IGNORE_CASE).containsMatchIn(after)))
                 "Communist Party of India" else "Consumer Price Index"
             "CDM" -> if (book == 1) "Civil Disobedience Movement" else "Clean Development Mechanism"
-            "CAA" -> if (Regex("""\d(st|nd|rd|th)\s*$""").containsMatchIn(before)) p("Constitutional Amendment Act") else "Citizenship Amendment Act"
-            "ASI" -> if (Regex("""ancestr|genetic|genom|ANI\b|DNA""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + after.take(120)))
-                "Ancestral South Indians" else "Archaeological Survey of India"
+            "CAA" -> if (Regex("""aquacult|shrimp|coastal""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + " " + after.take(120))) "Coastal Aquaculture Authority"
+            else if (Regex("""\d(st|nd|rd|th)\s*$""").containsMatchIn(before)) p("Constitutional Amendment Act") else "Citizenship Amendment Act"
+            "ASI" -> {
+                val near = before.takeLast(120) + " " + after.take(120)
+                when {
+                    Regex("""(?i:ancestr|genetic|genom)|\bANI\b|\bDNA\b""").containsMatchIn(near) -> "Ancestral South Indians"
+                    // the economy book, or factories and the ASUSE: the Annual Survey of Industries
+                    book == 3 || Regex("""ASUSE|(?i:industrial statistics|manufacturing GVA)""").containsMatchIn(near) -> "Annual Survey of Industries"
+                    else -> "Archaeological Survey of India"
+                }
+            }
             "RTGS" -> if (Regex("""payment|NEFT|RBI|settlement|transfer|bank""", RegexOption.IGNORE_CASE).containsMatchIn(before.takeLast(120) + after.take(120)) ||
-                (book == 3 && !Regex("""governance|AP\b|Andhra|dashboard""").containsMatchIn(before.takeLast(120) + after.take(120))))
+                (book == 3 && !Regex("""governance|AP\b|Andhra|dashboard|command cent|e-Pragati|AWARE|Mana Mitra""").containsMatchIn(before.takeLast(120) + after.take(120))))
                 "real-time gross settlement" else "Real Time Governance Society"
             "RE" -> when {
                 Regex("""^\s*(XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I|1[0-4]|[1-9])\b(?!\s*(%|crore|lakh|GW|MW|per))""").containsMatchIn(after) -> {
                     "Rock Edict"
                 }
-                Regex("""\d{4}-\d{2}\)?\s*$""").containsMatchIn(before) || Regex("""^\s*\d{4}-\d{2}""").containsMatchIn(after) -> "Revised Estimates"
+                // "2024-25 RE", "(2024-25, RE)", "FY26 RE", "RE 2025-26", "+31% over RE", "BE ... vs RE"
+                Regex("""(\d{4}-\d{2}|FY\s?\d{2}),?\)?\s*$""").containsMatchIn(before) || Regex("""^\s*\d{4}-\d{2}""").containsMatchIn(after) ||
+                    Regex("""%\s*(over|on)\s*$|\bBE\b[^;.]{0,40}\b(vs\.?|versus)\s*$""").containsMatchIn(before) -> "Revised Estimates"
+                // a bare "RE" on a page about Ashoka's edicts
+                Regex("""(?i)\bedicts?\b""").containsMatchIn(page) && !Regex("""(?i)renewable|solar|wind|\bGW\b|\bMW\b""").containsMatchIn(page) -> "Rock Edict"
                 else -> "renewable energy"
             }
             "DM" -> if (Regex("""^\s*(Act|Cell|cycle|plan|policy)""", RegexOption.IGNORE_CASE).containsMatchIn(after) || prev == "on") "disaster management" else "District Magistrate"
-            "NH" -> if (Regex("""^\s*(and|or)\s+(the\s+)?SH\b""").containsMatchIn(after) || Regex("""\bSH\s+(and|or)\s+(the\s+)?$""").containsMatchIn(before) || prev == "the" && Regex("""^\s*(and|,)""").containsMatchIn(after))
+            "NH" -> if (Regex("""(?i)hemisphere|trade wind|perihelion|aphelion|ITCZ|clockwise|solstice|longest day|\b(winter|summer)\b""").containsMatchIn(before.takeLast(60) + " " + after.take(60)) ||
+                // a page on winds or seasons with no roads on it ("NH direction" next to "SH direction")
+                Regex("""(?i:hemisphere)|\bSH\b""").containsMatchIn(page) && !Regex("""(?i)highway|NHAI|\broads?\b""").containsMatchIn(page) ||
+                Regex("""^\s*(and|or)\s+(the\s+)?SH\b""").containsMatchIn(after) || Regex("""\bSH\s+(and|or)\s+(the\s+)?$""").containsMatchIn(before) || prev == "the" && Regex("""^\s*(and|,)""").containsMatchIn(after))
                 "Northern Hemisphere" else "National Highway"
-            "LPG" -> if (Regex("""^\s*(reform|model|era|policy|policies)""", RegexOption.IGNORE_CASE).containsMatchIn(after))
-                "liberalisation, privatisation and globalisation" else "liquefied petroleum gas"
+            // the 1991 reforms, or cooking gas: the words next to it, else the page (a page on the reforms, and no cylinders here)
+            "LPG" -> {
+                val near = before.takeLast(80) + " " + after.take(80)
+                val gas = Regex("""cylinder|subsid|connection|cooking|stove|\bgas|import|LNG|PNG|kerosene|petrol|crude|Ujjwala|PMUY|PAHAL|Deepam|\bMT\b|price|shortage|crore""", RegexOption.IGNORE_CASE)
+                val reforms = Regex("""reform|1991|liberali|globali|privati|\bera\b|policy|policies|model\b""", RegexOption.IGNORE_CASE)
+                if (Regex("""^\s*(reform|model|era|policy|policies|(in|of)\s+1991)""", RegexOption.IGNORE_CASE).containsMatchIn(after) ||
+                    !gas.containsMatchIn(near) && (reforms.containsMatchIn(near) || Regex("""liberali[sz]ation""", RegexOption.IGNORE_CASE).containsMatchIn(page))
+                ) "liberalisation, privatisation and globalisation" else "liquefied petroleum gas"
+            }
             else -> null
         }
     }
