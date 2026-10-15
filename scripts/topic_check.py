@@ -24,7 +24,9 @@ did under over after before between about against during up down out off again f
 called also used one first mean means meant seek seeks secure secures refer refers referred include includes
 including identify identifies identified describe describes described concern concerns note notable important
 enacted enact became become covered associated provided introduced added act acts effective modeled modelled
-approximately about""".split())
+approximately about held took won contained contains contain complete completed work provide provides providing decided decide specifies specify need versus""".split())
+ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
+           ("great britain", "britain")]
 NUM_WORDS = {w: str(i) for i, w in enumerate(
     "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen "
     "eighteen nineteen twenty".split())}
@@ -70,6 +72,8 @@ def _spelled(m: re.Match) -> str:
 def norm(text: str) -> str:
     t = text.lower().replace("’", "'").replace("–", "-").replace("—", "-").replace("**", "")
     t = SPELLED.sub(_spelled, t)
+    for a, b in ALIASES:
+        t = t.replace(a, b)
     t = re.sub(r"(?<=\d),(?=\d{2,3}\b)", "", t)  # 1,000 -> 1000; 8,67,915 -> 867915
     return t
 
@@ -93,7 +97,8 @@ def stem(w: str) -> str:
 
 
 def words(text: str) -> set[str]:
-    return {stem(w) for w in re.findall(r"[a-z][a-z'-]*[a-z]|[a-z]", norm(text)) if w not in STOP and len(w) > 2}
+    ws = (re.sub(r"'s$", "", w).strip("'") for w in re.findall(r"[a-z][a-z']*[a-z]|[a-z]", norm(text)))
+    return {stem(w) for w in ws if w not in STOP and len(w) > 2}
 
 
 def parse(md: str):

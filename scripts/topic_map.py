@@ -14,7 +14,7 @@ TOPICS_DIR = DATA_DIR / "topics"
 T = {
     "Indian Polity": [
         ("Constitutional development", "1 22 43"),
-        ("Making of the Constitution", "5 44"),
+        ("Making of the Constitution", "5"),
         ("Features, sources, parts and schedules", "3 2 6 5-2 68"),
         ("Preamble", "14"),
         ("Citizenship", "63"),
@@ -42,7 +42,7 @@ T = {
         ("Elections and electoral reforms", "25 36 53 66 73 76"),
         ("Political parties and anti-defection", "54 77"),
         ("Constitutional and statutory bodies", "65 26 27"),
-        ("Quick facts - oaths, age limits, tenures and days", "56 78 39"),
+        ("Quick facts - oaths, age limits, tenures and days", "56 78 39 44"),
     ],
     "Indian Society": [
         ("Sociologists and their ideas", "13 14 15 16 24 25 26 22 23 3"),
