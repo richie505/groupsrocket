@@ -24,9 +24,11 @@ did under over after before between about against during up down out off again f
 called also used one first mean means meant seek seeks secure secures refer refers referred include includes
 including identify identifies identified describe describes described concern concerns note notable important
 enacted enact became become covered associated provided introduced added act acts effective modeled modelled
-approximately about held took won contained contains contain complete completed work provide provides providing decided decide specifies specify need versus""".split())
+approximately about held took won contained contains contain complete completed work provide provides providing decided decide specifies specify need versus currently presently comprise comprises deal deals regarding due must fall cannot india""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
-           ("great britain", "britain")]
+           ("great britain", "britain"),
+           ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
+           ("comptroller and auditor-general", "cag")]
 NUM_WORDS = {w: str(i) for i, w in enumerate(
     "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen "
     "eighteen nineteen twenty".split())}
@@ -186,7 +188,7 @@ def check(slug: str, ti: int, verbose: bool = True) -> tuple[bool, dict]:
         problems.append(f"sheets in no 'from:': {sorted(ids - used)}")
     if used - ids:
         problems.append(f"unknown sheets in 'from:': {sorted(used - ids)}")
-    page_text = ["\n".join([t] + body) for t, _, body in pages]
+    page_text = ["\n".join([topic["title"], t] + body) for t, _, body in pages]  # a page is read under its topic
     page_words = [words(t) for t in page_text]
     page_nums = [numbers(t) for t in page_text]
     placed, missing = {}, []
