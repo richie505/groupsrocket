@@ -103,6 +103,8 @@ def stem(w: str) -> str:
         if w.endswith(suf) and len(w) > len(suf) + 3:
             w = w[: -len(suf)] + ("y" if suf == "ies" else "")
             break
+    if w.endswith("ied") and len(w) > 5:  # notified ~ notifies ~ notify
+        w = w[:-3] + "y"
     for suf, n in (("ing", 5), ("ed", 4), ("e", 4)):  # advising ~ advise ~ advised; aiding ~ aid
         if w.endswith(suf) and len(w) > n:
             w = w[: -len(suf)]
