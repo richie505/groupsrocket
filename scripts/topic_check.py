@@ -27,7 +27,8 @@ enacted enact became become covered associated provided introduced added act act
 approximately about held took won contained contains contain complete completed work provide provides providing decided decide specifies specify need versus currently presently comprise comprises deal deals regarding due must fall cannot india becomes become upon consists consist consisting considered purpose
 purposes among themselves chosen exercise exercises exercising namely affect affects lead leads aim aims
 achieve achieving oblige obliges related asked ask passage mentioned mention issues issue existed since
-expresses express place places cover covers required require requires""".split())
+expresses express place places cover covers required require requires occurred occur occurs empower empowers necessary doing
+side sides hear explicitly written serve""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
            ("great britain", "britain"),
            ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
