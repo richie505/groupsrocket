@@ -29,7 +29,8 @@ purposes among themselves chosen exercise exercises exercising namely affect aff
 achieve achieving oblige obliges related asked ask passage mentioned mention issues issue existed since
 expresses express place places cover covers required require requires occurred occur occurs empower empowers necessary doing
 side sides hear explicitly written serve concerned relationship follows follow applies apply appears appear
-phrase approach stated synonymous decision reached make makes""".split())
+phrase approach stated synonymous decision reached make makes decides notes listed list correct formulation
+matters matter cases case""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
            ("great britain", "britain"),
            ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
