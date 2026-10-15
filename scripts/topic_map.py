@@ -24,7 +24,7 @@ T = {
         ("President and Vice-President", "8 9 74"),
         ("Prime Minister and Council of Ministers", "7 46"),
         ("Attorney General and CAG", "31 80"),
-        ("Parliament - composition and houses", "12 13 45 62"),
+        ("Lok Sabha, Rajya Sabha and Legislative Councils", "12 13 45 62"),
         ("Parliament - presiding officers", "57 58 52"),
         ("Parliament - sessions, questions and motions", "64 55 33 34"),
         ("Parliament - legislative procedure and rules", "21 29 38"),
