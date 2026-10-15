@@ -28,7 +28,8 @@ approximately about held took won contained contains contain complete completed 
 purposes among themselves chosen exercise exercises exercising namely affect affects lead leads aim aims
 achieve achieving oblige obliges related asked ask passage mentioned mention issues issue existed since
 expresses express place places cover covers required require requires occurred occur occurs empower empowers necessary doing
-side sides hear explicitly written serve""".split())
+side sides hear explicitly written serve concerned relationship follows follow applies apply appears appear
+phrase approach stated synonymous decision reached""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
            ("great britain", "britain"),
            ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
@@ -87,6 +88,8 @@ def norm(text: str) -> str:
 def numbers(text: str) -> set[str]:
     t = norm(text)
     out = set(re.findall(r"\d+(?:\.\d+)?", t))
+    for y, yy in re.findall(r"\b(1[0-9]|20)(\d{2})[-/](\d{2})\b", t) and [(m[0] + m[1], m[2]) for m in re.findall(r"\b(1[0-9]|20)(\d{2})[-/](\d{2})\b", t)]:
+        out.add(y[:2] + yy)  # 1992-93 -> also 1993
     for w, d in NUM_WORDS.items():
         if re.search(rf"\b{w}\b", t):
             out.add(re.sub(r"\D", "", d) or d)
