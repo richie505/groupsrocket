@@ -29,7 +29,7 @@ purposes among themselves chosen exercise exercises exercising namely affect aff
 achieve achieving oblige obliges related asked ask passage mentioned mention issues issue existed since
 expresses express place places cover covers required require requires occurred occur occurs empower empowers necessary doing
 side sides hear explicitly written serve concerned relationship follows follow applies apply appears appear
-phrase approach stated synonymous decision reached""".split())
+phrase approach stated synonymous decision reached make makes""".split())
 ALIASES = [("united states of america", "usa"), ("united states", "usa"), ("u.s.a.", "usa"), ("united kingdom", "uk"),
            ("great britain", "britain"),
            ("union public service commission", "upsc"), ("comptroller and auditor general", "cag"),
@@ -101,6 +101,10 @@ def stem(w: str) -> str:
     for suf in ("ies", "es", "s"):
         if w.endswith(suf) and len(w) > len(suf) + 3:
             w = w[: -len(suf)] + ("y" if suf == "ies" else "")
+            break
+    for suf, n in (("ing", 5), ("ed", 4), ("e", 4)):  # advising ~ advise ~ advised; aiding ~ aid
+        if w.endswith(suf) and len(w) > n:
+            w = w[: -len(suf)]
             break
     return w[:6]
 
