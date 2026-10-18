@@ -12,7 +12,8 @@ The technique line says how to get there: "Discriminate between ...", "Recall th
     python scripts/mcq_why.py check indian-polity [5]     # every kept MCQ written, lengths and wording sane
     python scripts/mcq_why.py stats
 
-w.txt, one block per MCQ (labels as in the export; "a N" only when the key itself was wrong, 0-3 = A-D):
+w.txt, one block per MCQ (labels as in the export; "a N" only when the key itself was wrong, 0-3 = A-D;
+"s ..." / "o A | B | C | D" rewrite an ambiguous or broken question so exactly one option is right, with "a N"):
     @45-3
     x Lothal is known as Mini Harappa, not the City of the Dead. Mohenjodaro means Mound of the Dead ...
     t Find the wrongly matched local name among closely related Harappan terms.
@@ -28,6 +29,7 @@ import mcq_trim
 from common import DATA_DIR, load_json
 
 WHY_DIR = DATA_DIR / "mcq_why"
+AMBIG = re.compile(r"doubtful|pairs (items|them) in order|both fit|two options fit|no option (is|fits)", re.I)
 BANNED = re.compile(r"\b(the|these|your) notes?\b|\bas (stated|listed|given) in\b|\bthe sheet\b", re.I)
 
 
@@ -58,6 +60,19 @@ def export(slug: str, ti: int) -> None:
         print(f"@{lab} [{q.get('format', '')}] {s}\n  {opts}\n  WHY: {q.get('explanation', '')}\n  FACTS: {' ; '.join(fs)[:400]}")
 
 
+def audit(slug: str, ti: int) -> None:
+    """The topic as the app shows it now (rewrites, keys and new WHY applied), all four options always listed."""
+    topic = load_json(DATA_DIR / "topics" / f"{slug}.json")["topics"][ti]
+    items, why = kept(slug, ti), load(slug, ti)
+    print(f"=== AUDIT {slug}:{ti} | {topic['title']} | {len(items)} MCQs")
+    for lab, _, q, _, fs in items:
+        w = why.get(lab, {})
+        stem = re.sub(r"\s+", " ", w.get("s", q["question"])).strip()
+        o, a = w.get("o", q["options"]), w.get("a", q["answer"])
+        opts = " ".join(f"{'ABCD'[i]}){'*' if i == a else ''} {re.sub(chr(10), ' ', x)}" for i, x in enumerate(o))
+        print(f"@{lab} [{q.get('format', '')}] {stem}\n  {opts}\n  WHY: {w.get('x', '')}\n  FACTS: {' ; '.join(fs)[:300]}")
+
+
 def parse(text: str) -> list[dict]:
     out, cur = [], None
     for line in text.splitlines():
@@ -69,6 +84,10 @@ def parse(text: str) -> list[dict]:
             cur[line[0]] = line[2:].strip()
         elif cur is not None and line.startswith("a "):
             cur["a"] = int(line[2:].strip())
+        elif cur is not None and line.startswith("s "):  # rewritten question; "\\n" marks a line break
+            cur["s"] = line[2:].strip().replace("\\n", "\n")
+        elif cur is not None and line.startswith("o "):  # rewritten options, separated by " | "
+            cur["o"] = [o.strip() for o in line[2:].split(" | ")]
         elif cur is not None and line.strip():
             k = "t" if "t" in cur else "x"  # a wrapped line continues the field above
             cur[k] = cur.get(k, "") + " " + line.strip()
@@ -92,8 +111,15 @@ def check(slug: str, ti: int, verbose: bool = True) -> bool:
             probs.append(f"{lab}: technique line has {len(t.split())} words")
         if BANNED.search(x):
             probs.append(f"{lab}: WHY should stand alone: {BANNED.search(x).group(0)!r}")
-        if "a" in d and not 0 <= d["a"] < len(items[lab]["options"]):
+        if AMBIG.search(x):
+            probs.append(f"{lab}: ambiguous item left as is ({AMBIG.search(x).group(0)!r}): rewrite it with s/o/a")
+        opts = d.get("o", items[lab]["options"])
+        if "o" in d and (len(d["o"]) != len(items[lab]["options"]) or len(set(d["o"])) != len(d["o"])):
+            probs.append(f"{lab}: rewritten options must be {len(items[lab]['options'])} distinct options")
+        if "a" in d and not 0 <= d["a"] < len(opts):
             probs.append(f"{lab}: key out of range")
+        if ("s" in d or "o" in d) and "a" not in d:
+            probs.append(f"{lab}: a rewritten question needs its key (a N)")
     for lab in got:
         if lab not in items:
             probs.append(f"{lab}: not a kept MCQ of this topic")
@@ -108,6 +134,8 @@ def main() -> None:
     cmd = sys.argv[1]
     if cmd == "export":
         export(sys.argv[2], int(sys.argv[3]))
+    elif cmd == "audit":
+        audit(sys.argv[2], int(sys.argv[3]))
     elif cmd == "save":
         slug, ti = sys.argv[2], int(sys.argv[3])
         new = parse(sys.stdin.read())

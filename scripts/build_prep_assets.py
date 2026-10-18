@@ -160,7 +160,8 @@ def main() -> None:
                         at = [placed[f"{sid}:{f}"] for f in q.get("facts", []) if f"{sid}:{f}" in placed]
                         subs.append(move.get(lab, max(set(at), key=at.count) if at else first[sid]))
                         qs.append({
-                            "id": "n" + q["id"], "s": q["question"], "o": q["options"],
+                            "id": "n" + q["id"], "s": why.get(lab, {}).get("s", q["question"]),
+                            "o": why.get(lab, {}).get("o", q["options"]),
                             "a": why.get(lab, {}).get("a", q["answer"]),
                             "x": why.get(lab, {}).get("x") or q["explanation"],
                             "tq": why.get(lab, {}).get("t") or (f"{q['format']} · tests the “{q['keyword']}” angle"
