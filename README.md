@@ -77,6 +77,12 @@ lists a topic's MCQs by page, marking each one whose facts another MCQ also test
 trivia, off the notes, move, merge) go in `data/mcq_trim/<subject>/NN.jsonl` and `mcq_trim.py check` proves every
 fact is still tested by a kept MCQ. 15,855 → 12,378 MCQs; `build_prep_assets.py` applies the decisions.
 
+**v1.7** — every MCQ's explanation rewritten in APPSC Prep's style: a short WHY that stands on its own (the answer,
+the reason, and the false option or trap named; for Assertion–Reason whether R explains A) and a technique line
+("Recall …", "Check …", "Discriminate …"). `scripts/mcq_why.py export` lists a topic's kept MCQs; the new lines go in
+`data/mcq_why/<subject>/NN.jsonl` (`a` fixes a wrong key), and `mcq_why.py check` proves every kept MCQ is written.
+All 12,378 MCQs; `build_prep_assets.py` applies them.
+
 ### Windows app
 
 `android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in
