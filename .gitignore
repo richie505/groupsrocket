@@ -16,3 +16,6 @@ android/desktop/build/
 # Windows app (android/tools/windows/build_windows.sh)
 android/Rocket-Prep-Setup.exe
 android/Rocket-Prep-Windows.zip
+
+# generated PDFs (scripts/build_mcq_pdfs.py, build_revision_pdfs.py)
+out/
