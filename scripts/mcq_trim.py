@@ -16,6 +16,7 @@ The decisions go in data/mcq_trim/<subject>/NN.jsonl, one JSON object per line; 
     python scripts/mcq_trim.py export indian-polity 5     # the topic's MCQs by page, to decide
     python scripts/mcq_trim.py check indian-polity 5      # decisions valid, and every fact still tested
     python scripts/mcq_trim.py save indian-polity 5 < d.txt   # short decisions: "A B" (A repeats B), "A t", "A off", "A >3"
+    python scripts/mcq_trim.py propose indian-polity 5    # 'A B' lines for the repeats marked with ⊆, to review
     python scripts/mcq_trim.py list indian-polity         # topics: MCQs, kept, done marks
     python scripts/mcq_trim.py stats                      # totals over all subjects
 """
@@ -90,12 +91,8 @@ def chain(items: list) -> list:
     return [items[i] for i in order]
 
 
-def export(slug: str, ti: int) -> None:
-    topic, titles, items = topic_mcqs(slug, ti)
-    print(f"=== TOPIC {slug}:{ti} | {topic['title']} | {len(items)} MCQs")
-    print("(⊆ X: every fact it tests is also tested by X; R: every fact it tests is tested by other MCQs; "
-          "~ X: X asks its facts in other words; no mark: it alone tests a fact)")
-    # facts said alike in two sheets (same numbers, most words shared) count as one fact
+def fact_sets(items: list) -> dict:
+    """label -> the facts it tests; facts said alike in two sheets (same numbers, most words shared) count as one."""
     canon, reps = {}, []
     for _, _, _, _, fs in items:
         for f in fs:
@@ -110,6 +107,15 @@ def export(slug: str, ti: int) -> None:
                 hit = len(reps) - 1
             canon[k] = hit
     fsets = {lab: {canon[norm(f)] for f in fs} for lab, _, _, _, fs in items}
+    return fsets
+
+
+def export(slug: str, ti: int) -> None:
+    topic, titles, items = topic_mcqs(slug, ti)
+    print(f"=== TOPIC {slug}:{ti} | {topic['title']} | {len(items)} MCQs")
+    print("(⊆ X: every fact it tests is also tested by X; R: every fact it tests is tested by other MCQs; "
+          "~ X: X asks its facts in other words; no mark: it alone tests a fact)")
+    fsets = fact_sets(items)
     count = Counter(k for v in fsets.values() for k in v)
     hint = {}
     for lab, v in fsets.items():
@@ -153,6 +159,37 @@ def export(slug: str, ti: int) -> None:
             print(f"[{lab}]{h} {s} | {opts}")
             if FACTS:
                 print(f"   = {' ; '.join(fs)}")
+
+
+# when an MCQ's facts are all tested by another, the formats dropped first (the other MCQ is kept in its place)
+DROP_FIRST = ["Assertion-Reason", "Statement-Based (A/B)", "Count-Based", "Multi-Statement Correctness",
+              "Negative / Incorrect Statement", "List-Matching", "Direct Recall", "Chronological Ordering"]
+
+
+def propose(slug: str, ti: int) -> list[str]:
+    """Short decisions ("A B") for MCQs whose facts are all tested by another MCQ of the topic (the export's mark):
+    weaker formats go first, and an MCQ kept in place of another is not dropped itself. Reviewed, then saved with save."""
+    _, _, items = topic_mcqs(slug, ti)
+    fsets = fact_sets(items)
+    by = {lab: (q, page) for lab, _, q, page, _ in items}
+
+    def rank(lab):
+        f = by[lab][0].get("format")
+        return DROP_FIRST.index(f) if f in DROP_FIRST else 5
+
+    dropped, pinned, out = set(), set(), []
+    for lab in sorted(fsets, key=rank):
+        v = fsets[lab]
+        if not v or lab in pinned:
+            continue
+        sup = [o for o in fsets if o != lab and o not in dropped and v <= fsets[o]]
+        if not sup:
+            continue
+        of = max(sup, key=lambda o: (by[o][1] == by[lab][1], o in pinned, rank(o)))
+        dropped.add(lab)
+        pinned.add(of)
+        out.append(f"{lab} {of}")
+    return out
 
 
 def load_decisions(slug: str, ti: int) -> list[dict]:
@@ -282,6 +319,8 @@ def main() -> None:
         keep = [d for d in load_decisions(slug, ti) if "merge" in d] if "--add" not in sys.argv else load_decisions(slug, ti)
         p.write_text("".join(json.dumps(d, ensure_ascii=False) + "\n" for d in keep + out), encoding="utf-8")
         check(slug, ti)
+    elif cmd == "propose":
+        print("\n".join(propose(sys.argv[2], int(sys.argv[3]))))
     elif cmd == "check":
         slug = sys.argv[2]
         tis = [int(sys.argv[3])] if len(sys.argv) > 3 else range(len(load_json(DATA_DIR / "topics" / f"{slug}.json")["topics"]))
