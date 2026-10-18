@@ -55,7 +55,7 @@ def export(slug: str, ti: int) -> None:
         else:
             opts = " ".join(f"{'ABCD'[i]}){'*' if i == q['answer'] else ''} {re.sub(chr(10), ' ', o)}"
                             for i, o in enumerate(q["options"]))
-        print(f"@{lab} [{q.get('format', '')}] {s}\n  {opts}\n  WHY: {q.get('explanation', '')}\n  FACTS: {' ; '.join(fs)}")
+        print(f"@{lab} [{q.get('format', '')}] {s}\n  {opts}\n  WHY: {q.get('explanation', '')}\n  FACTS: {' ; '.join(fs)[:400]}")
 
 
 def parse(text: str) -> list[dict]:
