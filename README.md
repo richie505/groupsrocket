@@ -83,6 +83,11 @@ the reason, and the false option or trap named; for Assertion–Reason whether R
 `data/mcq_why/<subject>/NN.jsonl` (`a` fixes a wrong key), and `mcq_why.py check` proves every kept MCQ is written.
 All 12,378 MCQs; `build_prep_assets.py` applies them.
 
+**v1.8** — answer-key audit of all 12,378 MCQs: each one checked for exactly one correct option (the keyed one),
+true facts, distinct List-II entries and a question line on statement items. `mcq_why.py audit` shows a topic as the
+app shows it; a broken item is rewritten in `data/mcq_why` with `s` (stem), `o` (options) and `a` (key), and
+`mcq_why.py check` now fails any explanation that still calls an item doubtful or "pairs items in order".
+
 ### Windows app
 
 `android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in
