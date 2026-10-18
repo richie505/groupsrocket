@@ -94,7 +94,7 @@ def export(slug: str, ti: int) -> None:
     topic, titles, items = topic_mcqs(slug, ti)
     print(f"=== TOPIC {slug}:{ti} | {topic['title']} | {len(items)} MCQs")
     print("(⊆ X: every fact it tests is also tested by X; R: every fact it tests is tested by other MCQs; "
-          "no mark: it alone tests a fact)")
+          "~ X: X asks its facts in other words; no mark: it alone tests a fact)")
     # facts said alike in two sheets (same numbers, most words shared) count as one fact
     canon, reps = {}, []
     for _, _, _, _, fs in items:
@@ -118,6 +118,22 @@ def export(slug: str, ti: int) -> None:
             hint[lab] = "⊆ " + min(sup, key=lambda o: len(fsets[o]))
         elif v and all(count[k] > 1 for k in v):
             hint[lab] = "R"
+    # ~ X: its own facts are asked again in X's wording (the check passes a dup of X on that rule)
+    text_w = {lab: words(" ".join([q["question"], *q["options"], q.get("explanation", ""), *fs]))
+              for lab, _, q, _, fs in items}
+    page_of = {lab: p for lab, _, _, p, _ in items}
+
+    def covers(o, f):
+        w = set(norm(f).split())
+        return {x for x in w if x.isdigit()} <= text_w[o] and len(w & text_w[o]) >= 0.55 * len(w)
+    for lab, _, _, _, fs in items:
+        if lab in hint or not fs:
+            continue
+        own = [f for f in fs if count[canon[norm(f)]] == 1]
+        best = [o for o in text_w if o != lab and all(covers(o, f) for f in own)]
+        if best:
+            hint[lab] = "~ " + max(best, key=lambda o: (page_of[o] == page_of[lab],
+                                                         len(text_w[o] & text_w[lab]) / len(text_w[o] | text_w[lab])))
     # MCQs that share a fact with a flagged one: shown in full, as the ones to keep in its place
     flagged = {k for lab in hint for k in fsets[lab]}
     related = {lab for lab, v in fsets.items() if v & flagged}
