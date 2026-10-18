@@ -71,6 +71,12 @@ topics (`scripts/topic_map.py` → `data/topics/`), and each topic is rewritten 
 its rare words); every MCQ is filed under the page that holds the facts it tests. Read marks and bookmarks move from
 the old sheet pages to the topic pages once (`moved.json`). Rocket Revision follows the same topics and pages.
 
+**v1.6** — the MCQs trimmed topic by topic, like APPSC Prep's MCQ trim: merging the sheets into topics put sheets
+that repeat each other side by side, so the same fact was asked two or three times. `scripts/mcq_trim.py export`
+lists a topic's MCQs by page, marking each one whose facts another MCQ also tests; the decisions (repeat of,
+trivia, off the notes, move, merge) go in `data/mcq_trim/<subject>/NN.jsonl` and `mcq_trim.py check` proves every
+fact is still tested by a kept MCQ. 15,855 → 12,378 MCQs; `build_prep_assets.py` applies the decisions.
+
 ### Windows app
 
 `android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in

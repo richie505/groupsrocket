@@ -7,6 +7,7 @@ Syllabus mapping — the ROCKET sheets are the app's own syllabus:
     Section  = one ROCKET SHEET #N
     Subsections = "Key facts" (every fact of the sheet) and "Sheet text" (the notes as in the PDF)
 MCQ practice after each section = the sheet's MCQs; each question lists the facts it tests.
+MCQs trimmed in data/mcq_trim/ (repeats, trivia, off-notes dropped; some moved or merged) are applied here.
 
     python scripts/build_prep_assets.py            # -> android/app/src/main/assets
 """
@@ -17,6 +18,7 @@ import re
 from pathlib import Path
 
 from build_index import PLAN_DAYS, PLAN_START, build_plan
+import mcq_trim
 import structured_md
 import topic_check
 from common import DATA_DIR, MCQS_DIR, ROOT, SHEETS_DIR, load_json, load_syllabus, save_json, slugify
@@ -139,20 +141,34 @@ def main() -> None:
                     "codes": codes, "tag": tag, "title": topic["title"], "sub": sub, "pyq": "", "p1": p1, "p2": p2,
                     "secs": secs, "src": [f"Source: {name} – ROCKET Sheets.pdf, ROCKET SHEET {src}"],
                 })
-                qs, subs = [], []
+                qs, subs, notes_of = [], [], {}
+                decisions = mcq_trim.load_decisions(slug, ti)
+                drop = {d["q"] for d in decisions if "d" in d} | {x for d in decisions for x in d.get("merge", [])}
+                move = {d["q"]: d["move"] for d in decisions if "move" in d}
                 for sid, sh, _, fl in sheets:
                     fact_text = {f["id"]: f["text"] for f in fl}
                     sp1, sp2 = sh.get("pages", [0, 0])
                     for q in recs.get(sid, {}).get("mcqs", []):
+                        lab = mcq_trim.label(q)
+                        notes_of[lab] = [f"{fact_text[f]} [{name} · ROCKET SHEET #{sid} · pp {sp1}-{sp2}]"
+                                         for f in q.get("facts", []) if f in fact_text]
+                        if lab in drop:
+                            continue
                         at = [placed[f"{sid}:{f}"] for f in q.get("facts", []) if f"{sid}:{f}" in placed]
-                        subs.append(max(set(at), key=at.count) if at else first[sid])
+                        subs.append(move.get(lab, max(set(at), key=at.count) if at else first[sid]))
                         qs.append({
                             "id": "n" + q["id"], "s": q["question"], "o": q["options"], "a": q["answer"],
                             "x": q["explanation"],
                             "tq": f"{q['format']} · tests the “{q['keyword']}” angle" if q.get("keyword") else q["format"],
-                            **({"n": [f"{fact_text[f]} [{name} · ROCKET SHEET #{sid} · pp {sp1}-{sp2}]"
-                                      for f in q.get("facts", []) if f in fact_text]} if q.get("facts") else {}),
+                            **({"n": notes_of[lab]} if notes_of[lab] else {}),
                         })
+                for d in decisions:  # one MCQ in place of several closely linked ones
+                    if "merge" in d:
+                        n = [x for lab in d["merge"] for x in notes_of.get(lab, [])]
+                        subs.append(d.get("page", 0))
+                        qs.append({"id": f"n{slug}-m{ti}-{'-'.join(d['merge'])}", "s": d["s"], "o": d["o"], "a": d["a"],
+                                   "x": d["x"], "tq": d.get("tq", "Merged"), **({"n": n} if n else {})})
+                for sid, *_ in sheets:
                     for old_sec in (0, 1):
                         moves[f"{book_id}:{old_index[sid]}:{old_sec}"] = f"{book_id}:{row_index}:{first[sid]}"
                 if qs:
