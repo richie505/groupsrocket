@@ -7,7 +7,8 @@ Syllabus mapping — the ROCKET sheets are the app's own syllabus:
     Section  = one ROCKET SHEET #N
     Subsections = "Key facts" (every fact of the sheet) and "Sheet text" (the notes as in the PDF)
 MCQ practice after each section = the sheet's MCQs; each question lists the facts it tests.
-MCQs trimmed in data/mcq_trim/ (repeats, trivia, off-notes dropped; some moved or merged) are applied here.
+MCQs trimmed in data/mcq_trim/ (repeats, trivia, off-notes dropped; some moved or merged) are applied here,
+and the explanations and technique lines rewritten in data/mcq_why/ (scripts/mcq_why.py).
 
     python scripts/build_prep_assets.py            # -> android/app/src/main/assets
 """
@@ -19,6 +20,7 @@ from pathlib import Path
 
 from build_index import PLAN_DAYS, PLAN_START, build_plan
 import mcq_trim
+import mcq_why
 import structured_md
 import topic_check
 from common import DATA_DIR, MCQS_DIR, ROOT, SHEETS_DIR, load_json, load_syllabus, save_json, slugify
@@ -145,6 +147,7 @@ def main() -> None:
                 decisions = mcq_trim.load_decisions(slug, ti)
                 drop = {d["q"] for d in decisions if "d" in d} | {x for d in decisions for x in d.get("merge", [])}
                 move = {d["q"]: d["move"] for d in decisions if "move" in d}
+                why = mcq_why.load(slug, ti)  # APPSC-style explanation and technique line, where written
                 for sid, sh, _, fl in sheets:
                     fact_text = {f["id"]: f["text"] for f in fl}
                     sp1, sp2 = sh.get("pages", [0, 0])
@@ -157,9 +160,11 @@ def main() -> None:
                         at = [placed[f"{sid}:{f}"] for f in q.get("facts", []) if f"{sid}:{f}" in placed]
                         subs.append(move.get(lab, max(set(at), key=at.count) if at else first[sid]))
                         qs.append({
-                            "id": "n" + q["id"], "s": q["question"], "o": q["options"], "a": q["answer"],
-                            "x": q["explanation"],
-                            "tq": f"{q['format']} · tests the “{q['keyword']}” angle" if q.get("keyword") else q["format"],
+                            "id": "n" + q["id"], "s": q["question"], "o": q["options"],
+                            "a": why.get(lab, {}).get("a", q["answer"]),
+                            "x": why.get(lab, {}).get("x") or q["explanation"],
+                            "tq": why.get(lab, {}).get("t") or (f"{q['format']} · tests the “{q['keyword']}” angle"
+                                                                 if q.get("keyword") else q["format"]),
                             **({"n": notes_of[lab]} if notes_of[lab] else {}),
                         })
                 for d in decisions:  # one MCQ in place of several closely linked ones
