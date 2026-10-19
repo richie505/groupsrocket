@@ -303,4 +303,31 @@ class ScreenshotTest {
         rule.onAllNodesWithText("Last backup: never").fetchSemanticsNodes().let { assertEquals(1, it.size) }
         rule.onRoot().captureRoboImage("screenshots/26_backup.png")
     }
+
+    /** "MCQs to practise" reads each book in turn without keeping it, and finds the ones that need practice. */
+    @Test fun practisePoolAcrossBooks() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val repo = Repository { ctx.assets.open(it) }
+        val (a, b) = runBlocking { repo.mcqWhere(3) { true }.map { it.id }.let { it[0] to it[5] } }
+        val store = ProgressStore(PrefsStorage(ctx))
+        store.recordAnswer(a, false)
+        store.markSeen(b)
+        val need = runBlocking { repo.index.flatMap { bk -> repo.mcqWhere(bk.id) { store.needsPractice(it.id) } } }
+        assertEquals(setOf(a, b), need.map { it.id }.toSet())
+        assertEquals(null, repo.cachedMcq(3)) // nothing kept in memory
+    }
+
+    /** Progress -> MCQ results: right first time, right on a retry, still wrong, answer seen; and the set to practise. */
+    @Test fun mcqResults() {
+        val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+        val store = ProgressStore(PrefsStorage(ctx))
+        repeat(20) { store.recordAnswer("n2-$it", it % 4 != 0) } // 15 right, 5 wrong
+        store.recordAnswer("n2-0", true) // a wrong one put right
+        repeat(3) { store.markSeen("n2-x$it") }
+        shot("33_mcq_results") { ProgressScreen(nav) }
+        rule.onNode(androidx.compose.ui.test.hasScrollToNodeAction()).performScrollToNode(androidx.compose.ui.test.hasText("MCQs to practise"))
+        rule.waitForIdle()
+        rule.onNodeWithText("7 questions · still wrong or answer seen").assertExists() // 4 wrong + 3 seen
+        rule.onRoot().captureRoboImage("screenshots/33_mcq_results.png")
+    }
 }
