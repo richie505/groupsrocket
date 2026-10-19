@@ -191,6 +191,15 @@ class Repository(private val open: (String) -> InputStream) {
 
     fun cachedMcq(id: Int): BookMcq? = mcqs[id]
 
+    /**
+     * A book's section MCQs that pass [keep]. A book not loaded yet is read and dropped again, not kept, so going
+     * through every book holds one book's MCQs at a time.
+     */
+    suspend fun mcqWhere(id: Int, keep: (Question) -> Boolean): List<Question> {
+        val book = mutex.withLock { mcqs[id] } ?: withContext(Dispatchers.IO) { parseMcq(readJson("mcq$id.json"), id) }
+        return book.rows.values.flatten().filter(keep)
+    }
+
     fun rowInfo(book: Int, row: Int): RowInfo? = index.getOrNull(book - 1)?.rows?.getOrNull(row)
 
     /** The plan's priority / past-paper figure for a notes row, if the plan lists it. */

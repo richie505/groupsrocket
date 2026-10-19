@@ -38,6 +38,10 @@ data class Spent(val sec: Int = 0, val mcqs: Int = 0) {
     fun latest(o: Spent) = Spent(maxOf(sec, o.sec), maxOf(mcqs, o.mcqs))
 }
 
+/** Wrong on the latest attempt, or its answer was seen before picking and not answered on its own since. */
+fun needsPractice(id: String, answers: Map<String, Boolean>, seen: Set<String>) =
+    answers[id] == false || (id in seen && id !in answers)
+
 /** Read/done state, bookmarks, last position and reader settings, kept in [Storage]. */
 class ProgressStore(private val prefs: Storage) {
 
@@ -56,6 +60,9 @@ class ProgressStore(private val prefs: Storage) {
         private set
     /** Unscored questions (no key / cancelled) that have been attempted. */
     var seen by mutableStateOf(prefs.getStringSet(KEY_SEEN).toSet())
+        private set
+    /** Questions ever answered wrong (kept after a later right answer: "right on a retry"). Before 2.59 only the latest wrong ones. */
+    var missed by mutableStateOf(prefs.getStringSet(KEY_MISSED).toSet() + answers.filterValues { !it }.keys)
         private set
     var textScale by mutableFloatStateOf(prefs.getFloat(KEY_SCALE, 1f))
         private set
@@ -138,6 +145,10 @@ class ProgressStore(private val prefs: Storage) {
         practising?.let { spendToday(it, Spent(mcqs = 1)) }
         answers = answers + (questionId to correct)
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
+        if (!correct && questionId !in missed) {
+            missed = missed + questionId
+            prefs.putStringSet(KEY_MISSED, missed)
+        }
         markActive()
     }
 
@@ -151,6 +162,8 @@ class ProgressStore(private val prefs: Storage) {
     }
 
     fun attempted(questionId: String) = questionId in answers || questionId in seen
+
+    fun needsPractice(questionId: String) = needsPractice(questionId, answers, seen)
 
     /** (attempted, correct) among the given questions; unscored ones count as attempted only. */
     fun quizStats(ids: List<String>): Pair<Int, Int> {
@@ -293,6 +306,7 @@ class ProgressStore(private val prefs: Storage) {
         set("dates", activeDates)
         set("answers", answers.map { (k, v) -> "$k:${if (v) 1 else 0}" })
         set("seen", seen)
+        set("missed", missed)
         set("noteRounds", noteRounds)
         set("added", added.map { (k, v) -> "$k\t${v.replace("\n", "\\n")}" })
         lastRead?.let { put("last", kotlinx.serialization.json.JsonPrimitive(it)) }
@@ -346,6 +360,8 @@ class ProgressStore(private val prefs: Storage) {
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
         seen = seen + list("seen")
         prefs.putStringSet(KEY_SEEN, seen)
+        missed = missed + list("missed") + inAnswers.filterValues { !it }.keys
+        prefs.putStringSet(KEY_MISSED, missed)
 
         // notes saved before pages were rewritten sit under other gap indices: move them as this device's were
         val inNotes = noteMoves.apply(
@@ -401,6 +417,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_SPEECH_SCOPE = "speech_scope"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
+        const val KEY_MISSED = "missed"
         const val KEY_IDS = "ids_version"
         const val KEY_ADDED = "added_notes"
         const val BACKUP_APP = "Rocket Prep backup"

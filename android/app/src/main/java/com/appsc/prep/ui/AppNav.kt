@@ -47,6 +47,7 @@ fun showTabs(route: String?): Boolean =
 /** The tab a route belongs to. */
 fun tabFor(route: String?): String = tabs.firstOrNull { it.route == route }?.route ?: when {
     route?.startsWith("day/") == true || route?.startsWith("quiz/day") == true -> "plan"
+    route?.startsWith("quiz/need") == true -> "progress"
     else -> "books"
 }
 
@@ -100,6 +101,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
                 "day" -> "Day ${src.index} MCQs"
                 "sub" -> if (src.sub < 0) "Other section MCQs" else "Subsection MCQs"
                 "row" -> "Section MCQs"
+                "need" -> "MCQs to practise"
                 else -> "MCQ Practice"
             }
             QuizScreen(src, a.getString("m")!!, title, actions)

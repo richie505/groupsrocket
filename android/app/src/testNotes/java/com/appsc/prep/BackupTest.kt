@@ -54,6 +54,23 @@ class BackupTest {
         assertEquals(0, fresh.restore(file, moves).read)
     }
 
+    /** Wrong answers and answers seen first need practice; a later right answer clears them but stays a retry. */
+    @Test fun mcqsThatNeedPracticeAndRetries() {
+        val phone = ProgressStore(MemStorage())
+        phone.recordAnswer("n1-1", true)
+        phone.recordAnswer("n1-2", false)
+        phone.markSeen("n1-3")
+        assertEquals(listOf(false, true, true), listOf("n1-1", "n1-2", "n1-3").map(phone::needsPractice))
+        phone.recordAnswer("n1-2", true)
+        phone.recordAnswer("n1-3", true)
+        assertEquals(listOf(false, false, false), listOf("n1-1", "n1-2", "n1-3").map(phone::needsPractice))
+        assertEquals(setOf("n1-2"), phone.missed)
+
+        val fresh = ProgressStore(MemStorage())
+        fresh.restore(phone.backup(), moves)
+        assertEquals(setOf("n1-2"), fresh.missed)
+    }
+
     @Test fun timeOnEachPageComesBackOnANewPhone() {
         val phone = ProgressStore(MemStorage())
         phone.addStudyTime(notes = true, seconds = 900, what = "n:2:77:0")

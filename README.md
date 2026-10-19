@@ -88,6 +88,11 @@ true facts, distinct List-II entries and a question line on statement items. `mc
 app shows it; a broken item is rewritten in `data/mcq_why` with `s` (stem), `o` (options) and `a` (key), and
 `mcq_why.py check` now fails any explanation that still calls an item doubtful or "pairs items in order".
 
+**v1.9** — from APPSC Prep 2.59: a fourth set on every section and day card, **Practise** (MCQs wrong on the latest
+try, or answered after seeing the answer), and **MCQ results** on Progress: right first time, right on a retry, still
+wrong, answer seen, with one practice set across all subjects. Wrong answers are remembered after a later right one
+(`missed`, backed up), and the all-subjects set reads one book at a time to keep memory low on small phones.
+
 ### Windows app
 
 `android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in

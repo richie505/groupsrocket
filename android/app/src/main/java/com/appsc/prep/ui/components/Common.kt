@@ -388,14 +388,18 @@ fun <T> androidx.compose.foundation.lazy.LazyListScope.gridItems(
     }
 }
 
-/** How many of a practice pool are not tried yet, answered wrong (latest attempt), and in all. */
-data class PracticeSets(val unattempted: Int, val wrong: Int, val total: Int)
+/**
+ * How many of a practice pool are not tried yet, answered wrong (latest attempt), need practice (wrong, or the
+ * answer was seen before picking) and in all.
+ */
+data class PracticeSets(val unattempted: Int, val wrong: Int, val total: Int, val practice: Int = wrong)
 
 /** [PracticeSets] for these question ids from the reader's answers. */
 fun practiceSets(ids: List<String>, answers: Map<String, Boolean>, seen: Set<String>) = PracticeSets(
     unattempted = ids.count { it !in answers && it !in seen },
     wrong = ids.count { answers[it] == false },
     total = ids.size,
+    practice = ids.count { com.appsc.prep.data.needsPractice(it, answers, seen) },
 )
 
 @Composable
@@ -410,7 +414,12 @@ private fun SetChip(label: String, count: Int, ink: Color, bg: Color, modifier: 
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text("$count", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.Bold, color = if (on) ink else C.Faint))
-        Text(label, style = TextStyle(fontSize = 12.sp, fontWeight = FontWeight.Medium, color = if (on) ink else C.Faint))
+        Text(
+            label,
+            style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Medium, color = if (on) ink else C.Faint),
+            maxLines = 1,
+            softWrap = false,
+        )
     }
 }
 
@@ -439,11 +448,13 @@ fun PracticeCard(
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
             }
             if (sets != null) {
-                // the reader picks the set: questions not tried yet, the ones got wrong, or all of them
+                // the reader picks the set: questions not tried yet, the ones got wrong, the ones to practise
+                // (wrong, or answered after seeing the answer), or all of them
                 Spacer(Modifier.height(12.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                     SetChip("Unattempted", sets.unattempted, C.Accent, C.AccentSoft, Modifier.weight(1f)) { onSet("new") }
                     SetChip("Incorrect", sets.wrong, C.High, C.HighSoft, Modifier.weight(1f)) { onSet("wrong") }
+                    SetChip("Practise", sets.practice, C.Med, C.MedSoft, Modifier.weight(1f)) { onSet("practice") }
                     SetChip("All", sets.total, C.ExamInk, C.ExamBg, Modifier.weight(1f)) { onSet("all") }
                 }
             }

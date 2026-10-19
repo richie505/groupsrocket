@@ -48,6 +48,7 @@ import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.BookInfo
 import com.appsc.prep.ui.components.Card
 import com.appsc.prep.ui.components.PageList
+import com.appsc.prep.ui.components.PracticeCard
 import com.appsc.prep.ui.components.columnsFor
 import com.appsc.prep.ui.components.gridItems
 import com.appsc.prep.ui.components.LocalApp
@@ -254,6 +255,8 @@ fun ProgressScreen(nav: Nav) {
             }
             item {
                 HorizontalDivider(color = C.Line)
+                McqResults(nav)
+                HorizontalDivider(color = C.Line)
                 StudyActivity(width)
                 HorizontalDivider(color = C.Line)
                 SectionHeader("By subject")
@@ -273,6 +276,59 @@ fun ProgressScreen(nav: Nav) {
             }
             item { HorizontalDivider(color = C.Line); BackupCard() }
             item { Spacer(Modifier.height(24.dp)) }
+        }
+    }
+}
+
+/**
+ * The notes MCQs split by how they were solved: right at the first try, right on a retry (after a wrong answer or
+ * after seeing the answer), still wrong, and answer seen but not solved on its own yet. The last two need practice.
+ */
+@Composable
+private fun McqResults(nav: Nav) {
+    val store = LocalApp.current.store
+    val ids = (store.answers.keys + store.seen).filter { it.startsWith("n") }
+    val first = ids.count { store.answers[it] == true && it !in store.missed && it !in store.seen }
+    val retry = ids.count { store.answers[it] == true && (it in store.missed || it in store.seen) }
+    val wrong = ids.count { store.answers[it] == false }
+    val peeked = ids.count { it in store.seen && it !in store.answers }
+    val total = first + retry + wrong + peeked
+    SectionHeader("MCQ results")
+    Column(Modifier.padding(start = 20.dp, end = 20.dp, bottom = 16.dp)) {
+        val parts = listOf(
+            Triple("Right first time", "Solved on your own at the first try", first) to C.Green,
+            Triple("Right on a retry", "Wrong earlier or answer seen, then solved", retry) to C.Accent,
+            Triple("Still wrong", "Wrong on the latest try", wrong) to C.High,
+            Triple("Answer seen", "Answer shown before you picked, not solved on your own yet", peeked) to C.Med,
+        )
+        if (total > 0) {
+            Row(Modifier.fillMaxWidth().height(10.dp).clip(RoundedCornerShape(5.dp))) {
+                parts.filter { it.first.third > 0 }.forEach { (p, color) ->
+                    Box(Modifier.weight(p.third.toFloat()).fillMaxSize().background(color))
+                }
+            }
+            Spacer(Modifier.height(10.dp))
+        }
+        parts.forEach { (p, color) ->
+            Row(Modifier.fillMaxWidth().padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.size(10.dp).clip(RoundedCornerShape(5.dp)).background(color))
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text(p.first, style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Medium, color = C.Ink))
+                    Text(p.second, style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                }
+                Text("${p.third}", style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.Bold, color = C.Ink))
+            }
+        }
+        val need = wrong + peeked
+        if (need > 0) {
+            Spacer(Modifier.height(8.dp))
+            PracticeCard(
+                "MCQs to practise",
+                "$need questions · still wrong or answer seen",
+                attempted = null,
+                onStart = { nav.quiz("need", 0, 0, "practice") },
+            )
         }
     }
 }
@@ -357,6 +413,7 @@ private fun SpentOn(day: java.time.LocalDate, title: String?) {
                 "row" -> rowTitle(b, i) to "All MCQs of this section"
                 "unit" -> (app.repo.index.getOrNull(b - 1)?.units?.getOrNull(i)?.title ?: "Unit") to "Unit MCQs"
                 "day" -> "Day $i MCQs" to "Study plan"
+                "need" -> "MCQs to practise" to "All subjects"
                 else -> "MCQ practice" to null
             }
         }

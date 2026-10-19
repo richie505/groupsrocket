@@ -51,6 +51,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appsc.prep.data.Question
 import com.appsc.prep.data.Techniques
+import com.appsc.prep.data.needsPractice
 import com.appsc.prep.ui.components.Loading
 import com.appsc.prep.ui.components.PageList
 import com.appsc.prep.ui.components.DictionaryArea
@@ -73,6 +74,10 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "row" -> app.repo.mcq(src.book).rows[src.index] ?: emptyList()
             "sub" -> app.repo.mcq(src.book).subQuestions(src.index, src.sub)
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
+            // every book's MCQs that need practice ([needsPractice])
+            "need" -> app.repo.index.flatMap { b ->
+                app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
+            }.distinctBy { it.id }
             else -> {
                 val day = app.repo.plan.days.first { it.n == src.index }
                 val seen = HashSet<String>()
@@ -94,10 +99,14 @@ fun rememberPool(src: QuizSource): List<Question>? {
     return pool
 }
 
-/** mode: "new" = unattempted ones, "wrong" = answered wrong, "all" = every question in order. The whole section comes in one run. */
+/**
+ * mode: "new" = unattempted ones, "wrong" = answered wrong, "practice" = wrong or answered after seeing the answer
+ * ([needsPractice]), "all" = every question in order. The whole section comes in one run.
+ */
 fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<String>, mode: String): List<Question> {
     val chosen = when (mode) {
         "wrong" -> pool.filter { answers[it.id] == false }
+        "practice" -> pool.filter { it.scored && needsPractice(it.id, answers, seen) }
         "new" -> pool.filter { it.id !in answers && it.id !in seen }.ifEmpty { pool }
         else -> pool
     }
@@ -128,7 +137,10 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
         val set = remember(pool, round, currentMode) { pickSet(pool, store.answers, store.seen, currentMode) }
         if (set.isEmpty()) {
             Box(Modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
-                Text("Nothing left in this set — no wrong answers to retry.", style = TextStyle(fontSize = 16.sp, color = C.Muted))
+                Text(
+                    if (currentMode == "practice") "Nothing left to practise here." else "Nothing left in this set — no wrong answers to retry.",
+                    style = TextStyle(fontSize = 16.sp, color = C.Muted),
+                )
             }
             return@Column
         }
@@ -572,7 +584,8 @@ private fun Results(
     val skipped = set.size - correct - wrong - unscored
     val (attempted, poolCorrect) = store.quizStats(pool.map { it.id })
     val remaining = pool.size - attempted
-    val poolWrong = attempted - poolCorrect
+    val poolWrong = pool.count { store.answers[it.id] == false }
+    val poolPractice = pool.count { it.scored && store.needsPractice(it.id) }
     PageList(Modifier.fillMaxSize(), max = 900.dp) {
         item {
             Column(Modifier.padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -623,6 +636,14 @@ private fun Results(
                         modifier = Modifier.fillMaxWidth().height(50.dp),
                         shape = RoundedCornerShape(12.dp),
                     ) { Text("Retry wrong answers ($poolWrong)", color = C.High) }
+                    Spacer(Modifier.height(10.dp))
+                }
+                if (poolPractice > 0) {
+                    OutlinedButton(
+                        onClick = { onNext("practice") },
+                        modifier = Modifier.fillMaxWidth().height(50.dp),
+                        shape = RoundedCornerShape(12.dp),
+                    ) { Text("Practise the ones that need it ($poolPractice)", color = C.Med) }
                     Spacer(Modifier.height(10.dp))
                 }
                 OutlinedButton(
