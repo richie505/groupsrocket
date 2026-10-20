@@ -263,6 +263,7 @@ class Repository(private val open: (String) -> InputStream) {
                         },
                         universal = s.jsonObject.containsKey("u"),
                         coveredIn = (s.jsonObject["cov"] as? JsonArray)?.map { c -> c.jsonArray.map { it.jsonPrimitive.int } } ?: emptyList(),
+                        map = (s.jsonObject["m"] as? JsonArray)?.map { mapNode(it.jsonObject) } ?: emptyList(),
                     )
                 }
                 rows += NoteRow(
@@ -276,6 +277,12 @@ class Repository(private val open: (String) -> InputStream) {
         }
         return Book(id, root.str("title"), root.str("short"), root.intOr("pages"), units, rows)
     }
+
+    private fun mapNode(o: JsonObject): MapNode = MapNode(
+        runs = runs(o["x"]),
+        kind = (o["k"] as? JsonPrimitive)?.content?.firstOrNull() ?: 'b',
+        children = (o["c"] as? JsonArray)?.map { mapNode(it.jsonObject) } ?: emptyList(),
+    )
 
     private fun parseBlock(b: JsonObject): Block {
         val kind = (b["k"] as JsonPrimitive).content

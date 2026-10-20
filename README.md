@@ -93,6 +93,12 @@ try, or answered after seeing the answer), and **MCQ results** on Progress: righ
 wrong, answer seen, with one practice set across all subjects. Wrong answers are remembered after a later right one
 (`missed`, backed up), and the all-subjects set reads one book at a time to keep memory low on small phones.
 
+**v2.0** — from APPSC Prep 2.62–2.63: every Rocket Revision page is now a **mind map** of its notes page (topic → coloured
+branches → sub-points → facts, branches fold and unfold). `scripts/build_mindmap.py` builds it from the notes after
+`build_revision.py`, keeping every fact and number and dropping the ROCKET SHEET source lines. Read-aloud reads the map node
+by node and keeps the node being read on screen, highlighted. Also fixes the full form for "PM2.5"
+(now "PM2.5 (particulate matter 2.5)", not "PM2 (particulate matter 2).5").
+
 ### Windows app
 
 `android/desktop` is the same screens for Windows (Compose for Desktop), using the whole window: lists in

@@ -24,6 +24,9 @@ data class TextBlock(val kind: Char, val runs: List<Run>) : Block
 data class TableBlock(val head: List<List<Run>>, val rows: List<List<List<Run>>>) : Block
 
 /** A ■ heading in the notes, with its content. */
+/** A mind-map node: [kind] 'h' branch, 'b' fact, 'g' a table's columns, 't' table row, 'x' exam angle. */
+data class MapNode(val runs: List<Run>, val kind: Char, val children: List<MapNode>)
+
 data class Subsection(
     val title: String,
     val badges: List<String>,
@@ -32,6 +35,8 @@ data class Subsection(
     val universal: Boolean,
     /** [book, row, sec] of the pages that now hold the facts this page used to repeat (tools/dedup_notes.py). */
     val coveredIn: List<List<Int>> = emptyList(),
+    /** The revision app's mind map of this page (tools/build_mindmap.py): its branches, empty when not built. */
+    val map: List<MapNode> = emptyList(),
 ) {
     val wordCount: Int by lazy {
         blocks.sumOf { b ->

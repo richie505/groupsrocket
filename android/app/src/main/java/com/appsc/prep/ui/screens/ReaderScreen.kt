@@ -234,8 +234,24 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
         val (b, r, s) = pb.pageId.split(':').map { it.toIntOrNull() ?: return@LaunchedEffect }
         if (b == bookId) go(Pos(r, s))
     }
+    // a mind map (revision app) is one item: where each of its read-aloud lines sits in it, px from its top
+    val mapLines = remember(id) { mutableMapOf<Int, Float>() }
+    val density = androidx.compose.ui.platform.LocalDensity.current
     LaunchedEffect(part, here) {
         if (!here) return@LaunchedEffect
+        if (revision && sec.map.isNotEmpty()) {
+            // keep the node being read on screen: scroll inside the map item (item 1; item 0 is the heading)
+            val line = parts.getOrNull(part)?.first ?: -1
+            if (line < 0) return@LaunchedEffect
+            // a folded branch opens first, then its nodes report where they are: wait two frames
+            repeat(2) { androidx.compose.runtime.withFrameNanos { } }
+            val y = mapLines[line] ?: return@LaunchedEffect
+            val info = listState.layoutInfo
+            val mapItem = info.visibleItemsInfo.firstOrNull { it.index == 1 }
+            val onScreen = mapItem != null && mapItem.offset + y in 0f..(info.viewportEndOffset - with(density) { 260.dp.toPx() })
+            if (!onScreen) listState.animateScrollToItem(1, (y - with(density) { 120.dp.toPx() }).toInt().coerceAtLeast(0))
+            return@LaunchedEffect
+        }
         // keep the paragraph being read on screen (item 0 is the heading)
         val item = (parts.getOrNull(part)?.first ?: -1) + 1
         val info = listState.layoutInfo
@@ -346,7 +362,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                                     style = TextStyle(fontSize = 14.sp, color = C.Faint),
                                 )
                             }
-                            if (revision && sec.blocks.isEmpty()) {
+                            if (revision && sec.blocks.isEmpty() && sec.map.isEmpty()) {
                                 Text(
                                     "Nothing to revise on this page.",
                                     style = TextStyle(fontSize = 14.sp, color = C.Muted),
@@ -357,7 +373,21 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
                             Spacer(Modifier.height(10.dp))
                         }
                     }
-                    itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
+                    // the revision app draws the page as a mind map when it has one (tools/build_mindmap.py)
+                    if (revision && sec.map.isNotEmpty()) item(key = "map-$id") {
+                        com.appsc.prep.ui.components.MindMap(
+                            sec.title, sec.map, scale,
+                            reading = if (here) parts.getOrNull(part)?.first ?: -1 else -1,
+                            onLine = { line, y -> mapLines[line] = y },
+                            // listening: tap a node to read from it
+                            onTap = if (listening) { line ->
+                                val at = parts.indexOfFirst { it.first == line }
+                                if (at >= 0) {
+                                    if (here) { speech?.seek(at); speech?.resume() } else play(at)
+                                }
+                            } else null,
+                        )
+                    } else itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
                         val reading = here && parts.getOrNull(part)?.first == i
                         Box(
                             Modifier

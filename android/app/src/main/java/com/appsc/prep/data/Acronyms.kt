@@ -50,13 +50,16 @@ object Acronyms {
                         seen += found.key
                         continue
                     }
-                    val full = found.shown
+                    // "PM2.5": the full form goes after the decimal part, "PM2.5 (particulate matter 2.5)"
+                    val dec = Regex("""^\.\d+""").find(after)?.value.orEmpty()
+                    if (dec.isNotEmpty() && (m.range.last + 1 + dec.length > r.text.length || !found.shown.last().isDigit())) continue
+                    val full = found.shown + dec
                     seen += found.key
                     // spelled out in this same bullet / row already: no need to repeat it
                     if (full.equals(m.value, ignoreCase = true) || full.lowercase() in here) continue
-                    out += Run(r.text.substring(from, m.range.last + 1), r.flags)
+                    out += Run(r.text.substring(from, m.range.last + 1 + dec.length), r.flags)
                     out += Run(" ($full)", 8)
-                    from = m.range.last + 1
+                    from = m.range.last + 1 + dec.length
                 }
                 if (from < r.text.length) out += Run(r.text.substring(from), r.flags)
                 pos += r.text.length
