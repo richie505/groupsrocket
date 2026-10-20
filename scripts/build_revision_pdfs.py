@@ -39,6 +39,8 @@ def styles():
         "angle": ParagraphStyle("angle", fontName="Sans", fontSize=9.6, leading=13.5, textColor=HexColor(t["pri"]["MED"])),
         "cell": ParagraphStyle("cell", fontName="Sans", fontSize=8.8, leading=11.8, textColor=HexColor(t["body"])),
         "head": ParagraphStyle("head", fontName="Sans-Bold", fontSize=8.8, leading=11.8, textColor=HexColor(t["ink"])),
+        "branch": ParagraphStyle("branch", fontName="Sans-Bold", fontSize=10.4, leading=14.5, textColor=HexColor(t["ink"]),
+                                 spaceBefore=4, spaceAfter=2.5),
         "para": ParagraphStyle("para", fontName="Sans-Bold", fontSize=9.6, leading=13.5, textColor=HexColor(t["ink"]), spaceBefore=3),
     }
 
@@ -80,6 +82,28 @@ def block_flow(b, st):
     return [Paragraph(f"•&nbsp;&nbsp;{markup(b['x'])}", st["fact"])]
 
 
+BRANCH = ["#3949AB", "#00897B", "#2E7D32", "#8E24AA", "#C62828", "#EF6C00", "#00838F", "#5D4037"]
+
+
+def map_flow(nodes, st, depth=0, colour=None):
+    """A page's mind map as an indented outline: coloured branches, then sub-points under them."""
+    out = []
+    for i, n in enumerate(nodes):
+        c = colour or BRANCH[i % len(BRANCH)]
+        if depth == 0:
+            out.append(Paragraph(f"<font color='{c}'>■</font>&nbsp;&nbsp;<font color='{c}'><b>{markup(n['x'])}</b></font>", st["branch"]))
+        else:
+            mark = "•" if depth == 1 else ("◦" if depth == 2 else "–")
+            style = ParagraphStyle(f"node{depth}", parent=st["fact"], leftIndent=12 + 14 * depth, firstLineIndent=-9)
+            out.append(Paragraph(f"<font color='{c}'>{mark}</font>&nbsp;&nbsp;{markup(n['x'])}", style))
+        out += map_flow(n.get("c", []), st, depth + 1, c)
+    return out
+
+
+def map_count(nodes):
+    return sum(1 + map_count(n.get("c", [])) for n in nodes)
+
+
 def build_day(job):
     M.apply_theme(job["theme"])
     st = styles()
@@ -90,7 +114,8 @@ def build_day(job):
     when = date.fromisoformat(day["date"])
     datestr = f"{day['dow']}, {when.day} {when.strftime('%b %Y')}"
     sections = [(b, ri) for b, ri, _ in job["rows"]]
-    nfacts = sum(1 for b, ri in sections for s in rev[b][ri]["secs"] for x in s["b"] if x["k"] != "n")
+    nfacts = sum(map_count(s["m"]) if s.get("m") else sum(1 for x in s["b"] if x["k"] != "n")
+                 for b, ri in sections for s in rev[b][ri]["secs"])
     kind = "Revision of" if all(k == "rev" for *_, k in job["rows"]) else ""
     story = M.header_block(day, f"Day {n_day} of 90 · {M.day_title(day)}",
                            f"{datestr} · {M.title_case(day['phase'])} · {kind + ' ' if kind else ''}{len(sections)} sections · {nfacts} revision points", [])
@@ -120,8 +145,8 @@ def build_day(job):
         for si, sec in enumerate(secs):
             if not sec["b"]:
                 continue
-            flows = []
-            for blk in sec["b"]:
+            flows = map_flow(sec["m"], st) if sec.get("m") else []
+            for blk in [] if sec.get("m") else sec["b"]:
                 if blk["k"] == "n":  # the source line: the section's meta line already gives it
                     continue
                 flows += block_flow(blk, st)
